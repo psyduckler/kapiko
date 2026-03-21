@@ -2,10 +2,16 @@
 *.mp4
 *.mp3
 *.wav
+
+# Ignore images in root/scripts/data but allow in site/
 *.png
 *.jpg
 *.jpeg
 *.gif
+!site/*.png
+!site/*.jpg
+!site/*.jpeg
+!site/*.gif
 
 # Temp files
 tmp/
