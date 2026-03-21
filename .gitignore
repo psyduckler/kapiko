@@ -1,0 +1,26 @@
+# Media files (too large for git)
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Temp files
+tmp/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Secrets / env
+.env
+*.pem
+
+# Suno API output
+suno-api/
+
+# Data files (generated)
+kapiko_videos/
