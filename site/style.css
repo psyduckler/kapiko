@@ -216,10 +216,26 @@ ul { list-style: none; }
 }
 
 .hero-capybara {
-  font-size: 3.5rem;
   margin-bottom: 16px;
   display: block;
   filter: drop-shadow(0 0 20px rgba(240, 160, 48, 0.3));
+}
+
+.mascot-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--amber);
+  box-shadow: 0 0 30px rgba(240, 160, 48, 0.3);
+}
+
+.mascot-img-small {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--amber);
 }
 
 .hero-title {
