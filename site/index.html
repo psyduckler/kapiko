@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>kapiko — AI-crafted ambient music for the soul</title>
+  <meta name="description" content="kapiko is an AI music artist creating lo-fi ambient acoustic guitar music with Studio Ghibli-inspired watercolor visuals. Let the music carry you away." />
+  <meta property="og:title" content="kapiko — AI-crafted ambient music for the soul" />
+  <meta property="og:description" content="Lo-fi ambient acoustic guitar music with Studio Ghibli watercolor aesthetics." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kapiko.ai" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">kapiko</a>
+      <ul class="nav-links">
+        <li><a href="#music">music</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#listen">listen</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-capybara floating" aria-hidden="true">🦫</div>
+      <h1 class="hero-title">kapiko</h1>
+      <p class="hero-tagline">AI-crafted ambient music for the soul</p>
+      <p class="hero-sub">lo-fi · acoustic guitar · studio ghibli vibes</p>
+      <div class="hero-cta">
+        <a href="#music" class="btn btn-primary">explore the music</a>
+        <a href="#listen" class="btn btn-ghost">stream now</a>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span class="scroll-dot"></span>
+      </div>
+    </div>
+    <div class="hero-orbs" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+  </section>
+
+  <!-- Music Section -->
+  <section class="section music-section" id="music">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">♪ now playing</span>
+        <h2 class="section-title">the music</h2>
+        <p class="section-desc">Lose yourself in gentle acoustic textures and ambient soundscapes — each track a hand-painted world waiting to be explored.</p>
+      </div>
+
+      <div class="videos-grid fade-in">
+        <!-- Video Card 1 - Real channel link -->
+        <div class="video-card featured">
+          <div class="video-thumb">
+            <div class="video-placeholder">
+              <div class="play-icon">▶</div>
+              <div class="video-label">latest release</div>
+            </div>
+            <iframe
+              src="https://www.youtube.com/embed?listType=user_uploads&list=kapiko-music"
+              title="kapiko — latest music"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">ambient · lo-fi</span>
+            <h3>kapiko — full channel</h3>
+            <p>All releases, ambient journeys, and lo-fi soundscapes in one place.</p>
+          </div>
+        </div>
+
+        <!-- Video Card 2 - Placeholder -->
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="video-placeholder">
+              <div class="play-icon">▶</div>
+              <div class="video-label">coming soon</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">acoustic guitar</span>
+            <h3>forest rain session</h3>
+            <p>Rain on ancient leaves, fingerpicked melodies drifting like smoke.</p>
+          </div>
+        </div>
+
+        <!-- Video Card 3 - Placeholder -->
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="video-placeholder">
+              <div class="play-icon">▶</div>
+              <div class="video-label">coming soon</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">ambient · studio</span>
+            <h3>twilight harbour</h3>
+            <p>Golden hour over still water. Somewhere between waking and dreaming.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="channel-link fade-in">
+        <a href="https://www.youtube.com/@kapiko-music" target="_blank" rel="noopener" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1C4.5 20.5 12 20.5 12 20.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.8 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+          visit the channel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual fade-in">
+          <div class="about-card">
+            <div class="about-mascot floating-slow">🦫</div>
+            <div class="about-card-bg"></div>
+            <div class="about-tags">
+              <span class="tag">lo-fi</span>
+              <span class="tag">ambient</span>
+              <span class="tag">acoustic</span>
+              <span class="tag">AI-generated</span>
+              <span class="tag">ghibli aesthetic</span>
+              <span class="tag">instrumental</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text fade-in">
+          <span class="section-label">✦ the story</span>
+          <h2 class="section-title">about kapiko</h2>
+          <p>kapiko was born from a question: <em>what would it sound like if a capybara composed lullabies for rainy afternoons?</em></p>
+          <p>Every track is a collaboration between artificial intelligence and the boundless imagination of Studio Ghibli's hand-painted worlds — warm acoustic guitar melodies layered with ambient textures, designed to dissolve the noise of the day.</p>
+          <p>The music is AI-generated, but the feeling is entirely real. Each piece is crafted to be a small sanctuary — two to four minutes where time slows down, where the mundane becomes quietly beautiful.</p>
+          <p>Our mascot, a capybara in oversized headphones, embodies everything kapiko stands for: gentle, unhurried, at peace with the world.</p>
+          <div class="about-quote">
+            <blockquote>"Music to get lost in — and find yourself again."</blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listen Section -->
+  <section class="section listen-section" id="listen">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">◎ streaming</span>
+        <h2 class="section-title">listen everywhere</h2>
+        <p class="section-desc">Find kapiko on your favourite platform. New ambient sessions added regularly.</p>
+      </div>
+
+      <div class="platforms-grid fade-in">
+        <a href="https://www.youtube.com/@kapiko-music" target="_blank" rel="noopener" class="platform-card">
+          <div class="platform-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1C4.5 20.5 12 20.5 12 20.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.8 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+          </div>
+          <div class="platform-info">
+            <span class="platform-name">YouTube</span>
+            <span class="platform-status available">available now</span>
+          </div>
+          <span class="platform-arrow">→</span>
+        </a>
+
+        <a href="#" class="platform-card coming-soon">
+          <div class="platform-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+          </div>
+          <div class="platform-info">
+            <span class="platform-name">Spotify</span>
+            <span class="platform-status">coming soon</span>
+          </div>
+          <span class="platform-arrow">→</span>
+        </a>
+
+        <a href="#" class="platform-card coming-soon">
+          <div class="platform-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.994 6.124a9.23 9.23 0 0 0-.24-2.19c-.317-1.31-1.064-2.31-2.18-3.043a5.022 5.022 0 0 0-1.769-.73c-.63-.112-1.27-.148-1.903-.148L12 0 6.1.012C5.466.012 4.827.048 4.196.16a5.027 5.027 0 0 0-1.768.73C1.316 1.635.57 2.634.253 3.944a9.23 9.23 0 0 0-.24 2.19C.006 6.507 0 6.879 0 7.25v9.5c0 .372.006.742.014 1.114a9.23 9.23 0 0 0 .24 2.19c.317 1.31 1.063 2.31 2.18 3.043a5.022 5.022 0 0 0 1.769.73c.63.112 1.27.149 1.903.149L12 24l5.9-.014c.634 0 1.273-.037 1.904-.15a5.022 5.022 0 0 0 1.769-.729c1.116-.733 1.862-1.734 2.18-3.043a9.23 9.23 0 0 0 .24-2.19c.007-.372.013-.742.013-1.114v-9.5c0-.37-.006-.742-.012-1.126zM12 17.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0-9a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.75-2a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"/></svg>
+          </div>
+          <div class="platform-info">
+            <span class="platform-name">Apple Music</span>
+            <span class="platform-status">coming soon</span>
+          </div>
+          <span class="platform-arrow">→</span>
+        </a>
+
+        <a href="#" class="platform-card coming-soon">
+          <div class="platform-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M1.175 0C.526 0 0 .526 0 1.175v21.65C0 23.474.526 24 1.175 24h21.65C23.474 24 24 23.474 24 22.825V1.175C24 .526 23.474 0 22.825 0zm9.496 3.792h2.657v12.5h-2.657zm-4.248 2.395h2.657v10.104H6.423zm8.495 0h2.657v10.104h-2.657z"/></svg>
+          </div>
+          <div class="platform-info">
+            <span class="platform-name">SoundCloud</span>
+            <span class="platform-status">coming soon</span>
+          </div>
+          <span class="platform-arrow">→</span>
+        </a>
+      </div>
+
+      <div class="newsletter fade-in">
+        <div class="newsletter-inner">
+          <div class="newsletter-icon">✉</div>
+          <h3>stay in the loop</h3>
+          <p>New releases, visual drops, and ambient sessions — no spam, just music.</p>
+          <form class="newsletter-form" onsubmit="handleSubscribe(event)">
+            <input type="email" placeholder="your@email.com" required aria-label="Email address" />
+            <button type="submit" class="btn btn-primary">notify me</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-logo">kapiko</span>
+          <p>AI-crafted ambient music for the soul. Studio Ghibli watercolor aesthetics meet lo-fi acoustic guitar.</p>
+          <div class="footer-mascot">🦫</div>
+        </div>
+        <div class="footer-links">
+          <h4>navigate</h4>
+          <ul>
+            <li><a href="#hero">home</a></li>
+            <li><a href="#music">music</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#listen">listen</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>find us</h4>
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/@kapiko-music" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1C4.5 20.5 12 20.5 12 20.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.8 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+                YouTube
+              </a>
+            </li>
+            <li><a href="#" aria-label="Spotify (coming soon)">Spotify <span class="soon">soon</span></a></li>
+            <li><a href="#" aria-label="Apple Music (coming soon)">Apple Music <span class="soon">soon</span></a></li>
+            <li><a href="#" aria-label="SoundCloud (coming soon)">SoundCloud <span class="soon">soon</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 kapiko. all rights reserved.</p>
+        <p class="footer-made">made with 🎵 &amp; ambient silence</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
