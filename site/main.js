@@ -74,10 +74,10 @@
     minSpeed: 0.06,
     maxSpeed: 0.22,
     colors: [
-      'rgba(240,160,48,',   // amber
-      'rgba(247,192,96,',   // amber-light
-      'rgba(26,85,104,',    // teal
-      'rgba(180,220,255,',  // cool highlight
+      'rgba(232,150,122,',  // coral/peach
+      'rgba(201,145,141,',  // dusty rose
+      'rgba(184,169,201,',  // muted lavender
+      'rgba(155,181,160,',  // sage green
     ],
     connectionDist: 130,
     maxConnections: 4,
@@ -154,7 +154,7 @@
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(q.x, q.y);
-          ctx.strokeStyle = `rgba(240,160,48,${lineAlpha})`;
+          ctx.strokeStyle = `rgba(139,126,116,${lineAlpha})`;
           ctx.lineWidth = 0.5;
           ctx.stroke();
           connCount++;
@@ -223,7 +223,7 @@ function handleSubscribe(e) {
   btn.textContent = 'subscribed ✓';
   btn.disabled = true;
   input.disabled = true;
-  btn.style.background = 'var(--teal-light)';
+  btn.style.background = 'var(--sage)';
 
   // Reset after 4s
   setTimeout(() => {
@@ -257,7 +257,7 @@ function handleSubscribe(e) {
 
     navLinks.forEach((link) => {
       const href = link.getAttribute('href').slice(1);
-      link.style.color = href === current ? 'var(--amber-light)' : '';
+      link.style.color = href === current ? 'var(--coral)' : '';
     });
   }
 
