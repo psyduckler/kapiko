@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ambient — kapiko music analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #0b0c1a;
+      --bg-card:       #111222;
+      --bg-header:     #0d0e20;
+      --border:        rgba(255, 255, 255, 0.07);
+      --border-accent: rgba(78, 205, 196, 0.22);
+      --text:          #dde1f0;
+      --text-muted:    #6b7099;
+      --text-dim:      #3d4060;
+      --teal:          #4ecdc4;
+      --purple:        #9b7fd4;
+      --blue:          #5b9bd5;
+      --teal-glow:     rgba(78, 205, 196, 0.12);
+      --purple-glow:   rgba(155, 127, 212, 0.12);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 80% at 10% 50%, rgba(78, 205, 196, 0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 85% 20%, rgba(155, 127, 212, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 56px 28px 52px;
+      position: relative;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 24px;
+    }
+
+    .brand-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--teal);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--teal), 0 0 20px rgba(78,205,196,0.4);
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    .genre-pill {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--purple);
+      background: rgba(155, 127, 212, 0.1);
+      border: 1px solid rgba(155, 127, 212, 0.28);
+      border-radius: 20px;
+      padding: 4px 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 9vw, 88px);
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      line-height: 0.95;
+      background: linear-gradient(130deg, #dde1f0 0%, #4ecdc4 55%, #9b7fd4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-bottom: 52px;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle span {
+      color: var(--text-dim);
+      margin: 0 6px;
+    }
+
+    /* ── Stat Cards ── */
+    .stat-cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 18px;
+      transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+      cursor: default;
+    }
+
+    .stat-card:hover {
+      border-color: var(--border-accent);
+      background: rgba(78,205,196,0.04);
+      transform: translateY(-3px);
+    }
+
+    .stat-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .stat-value {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .stat-value.teal   { color: var(--teal); }
+    .stat-value.purple { color: var(--purple); }
+    .stat-value.blue   { color: var(--blue); }
+
+    .stat-sub {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin-top: 6px;
+      font-weight: 400;
+    }
+
+    /* ── Main ── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 28px 96px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 52px 0 22px;
+    }
+
+    .section-label:first-child { margin-top: 0; }
+
+    .section-label h2 {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Chart Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 28px 24px;
+      transition: border-color 0.25s ease;
+    }
+
+    .chart-card:hover { border-color: var(--border-accent); }
+    .chart-card.full  { grid-column: 1 / -1; }
+
+    .chart-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .chart-analysis {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+      line-height: 1.55;
+      font-style: italic;
+      max-width: 680px;
+    }
+
+    .chart-wrap {
+      position: relative;
+    }
+
+    /* ── Feature Summary ── */
+    .feature-summary-inner {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .feature-bars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 28px;
+    }
+
+    .feature-item { display: flex; flex-direction: column; gap: 7px; }
+
+    .feature-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--text-muted);
+    }
+
+    .feature-val {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.025em;
+      line-height: 1;
+    }
+
+    .feature-track {
+      height: 5px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .feature-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px;
+    }
+
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .footer-text { font-size: 12.5px; color: var(--text-dim); }
+
+    .footer-brand {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .stat-cards { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (max-width: 760px) {
+      .charts-grid { grid-template-columns: 1fr; }
+      .chart-card.full { grid-column: 1; }
+      .header-inner { padding: 40px 20px 44px; }
+      main { padding: 36px 20px 72px; }
+      .feature-summary-inner { grid-template-columns: 1fr; }
+      .stat-cards { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 480px) {
+      .feature-bars { grid-template-columns: 1fr 1fr; }
+      .stat-cards { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════════ Header -->
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      kapiko music analytics
+    </div>
+    <div class="genre-pill">Genre Report</div>
+    <h1>Ambient</h1>
+    <p class="subtitle">Spotify Audio Features Analysis<span>&middot;</span>Top 100 Tracks</p>
+
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="stat-label">Median BPM</div>
+        <div class="stat-value teal">107.3</div>
+        <div class="stat-sub">mean 108.8 &middot; &sigma; 31.3</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Energy</div>
+        <div class="stat-value blue">28%</div>
+        <div class="stat-sub">median 26.2%</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Valence</div>
+        <div class="stat-value purple">19%</div>
+        <div class="stat-sub">median 16.8%</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Top Key</div>
+        <div class="stat-value" style="font-size:21px; line-height:1.2">C&#x266f;/D&#x266d; &amp; G</div>
+        <div class="stat-sub">12 tracks each</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Major / Minor</div>
+        <div class="stat-value" style="font-size:20px; line-height:1.2">74% <span style="color:var(--text-dim);font-size:15px;font-weight:500">/ 26%</span></div>
+        <div class="stat-sub">predominantly major</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ════════════════════════════════════════════════════════════════════= Main -->
+<main>
+
+  <!-- Section: Rhythm & Tonality -->
+  <div class="section-label"><h2>Rhythm &amp; Tonality</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- 1. BPM Distribution -->
+    <div class="chart-card">
+      <div class="chart-title">BPM Distribution</div>
+      <div class="chart-analysis">Most ambient tracks settle in the 90–120 BPM range (38 tracks), with a median of 107.3 BPM — a restful, mid-tempo drift that underpins the genre's sense of suspended time.</div>
+      <div class="chart-wrap" style="height:230px">
+        <canvas id="chartBPM"></canvas>
+      </div>
+    </div>
+
+    <!-- 2. Key Distribution -->
+    <div class="chart-card">
+      <div class="chart-title">Key Distribution</div>
+      <div class="chart-analysis">C&#x266f;/D&#x266d; and G lead with 12 tracks each, followed by C and E at 11 — bright, open tonalities that give ambient music its characteristic sense of unresolved space and suspension.</div>
+      <div class="chart-wrap" style="height:230px">
+        <canvas id="chartKey"></canvas>
+      </div>
+    </div>
+
+    <!-- 3. Mode Distribution -->
+    <div class="chart-card">
+      <div class="chart-title">Mode Distribution</div>
+      <div class="chart-analysis">A striking 74% of tracks are in a major key — ambient music leans toward openness and diffuse light rather than tension, even at its most introspective.</div>
+      <div class="chart-wrap" style="height:230px; display:flex; align-items:center; justify-content:center;">
+        <canvas id="chartMode"></canvas>
+      </div>
+    </div>
+
+    <!-- 4. Track Duration -->
+    <div class="chart-card">
+      <div class="chart-title">Track Duration Distribution</div>
+      <div class="chart-analysis">The 4–5 minute bracket dominates with 35 tracks, though the genre spans from under 2 minutes to over 8 — reflecting ambient's varied relationship with conventional song structure.</div>
+      <div class="chart-wrap" style="height:230px">
+        <canvas id="chartDuration"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Section: Emotional Fingerprint -->
+  <div class="section-label"><h2>Emotional Fingerprint</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- 5. Energy vs Valence Scatter -->
+    <div class="chart-card full">
+      <div class="chart-title">Energy vs. Valence</div>
+      <div class="chart-analysis">The dense cluster in the low-energy, low-valence quadrant defines ambient music's signature emotional space: quiet, contemplative, and emotionally restrained. A handful of outliers — Bethel Music worship tracks and Bicep electronica — push toward higher energy.</div>
+      <div class="chart-wrap" style="height:360px">
+        <canvas id="chartEV"></canvas>
+      </div>
+    </div>
+
+    <!-- 6. Acousticness vs Instrumentalness Scatter -->
+    <div class="chart-card full">
+      <div class="chart-title">Acousticness vs. Instrumentalness</div>
+      <div class="chart-analysis">A strong diagonal cluster in the high-acoustic, high-instrumental corner confirms ambient's identity as a largely wordless, organic-textured genre. Electronic outliers along the low-acoustic axis (Bicep, Flume) contrast with the neo-classical majority.</div>
+      <div class="chart-wrap" style="height:360px">
+        <canvas id="chartAI"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Section: Artists -->
+  <div class="section-label"><h2>Top Artists</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- 7. Top Artists -->
+    <div class="chart-card full">
+      <div class="chart-title">Top Artists by Track Count</div>
+      <div class="chart-analysis">Cigarettes After Sex dominates with 22 tracks, more than 1.5&times; the next artist, followed by Novo Amor (14) and Ludovico Einaudi (12) — a cross-section of dream pop, neo-classical piano, and folk that defines this corner of ambient.</div>
+      <div class="chart-wrap" style="height:400px">
+        <canvas id="chartArtists"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Section: Audio DNA -->
+  <div class="section-label"><h2>Audio DNA</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- 8. Feature Summary -->
+    <div class="chart-card full">
+      <div class="chart-title">Feature Summary — Median Values</div>
+      <div class="chart-analysis">Six Spotify audio features reveal ambient music's fingerprint: exceptionally high acousticness (88.7%) and instrumentalness (78.4%), very low energy and valence, and near-zero speechiness — a genre defined as much by what it lacks as what it contains.</div>
+      <div class="feature-summary-inner">
+        <div class="chart-wrap" style="height:300px">
+          <canvas id="chartRadar"></canvas>
+        </div>
+        <div class="feature-bars">
+          <div class="feature-item">
+            <div class="feature-label">Acousticness</div>
+            <div class="feature-val">88.7%</div>
+            <div class="feature-track"><div class="feature-fill" style="width:88.7%"></div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-label">Instrumentalness</div>
+            <div class="feature-val">78.4%</div>
+            <div class="feature-track"><div class="feature-fill" style="width:78.4%"></div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-label">Danceability</div>
+            <div class="feature-val">40.2%</div>
+            <div class="feature-track"><div class="feature-fill" style="width:40.2%"></div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-label">Energy</div>
+            <div class="feature-val">26.2%</div>
+            <div class="feature-track"><div class="feature-fill" style="width:26.2%"></div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-label">Valence</div>
+            <div class="feature-val">16.8%</div>
+            <div class="feature-track"><div class="feature-fill" style="width:16.8%"></div></div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-label">Speechiness</div>
+            <div class="feature-val">3.4%</div>
+            <div class="feature-track"><div class="feature-fill" style="width:3.4%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- ══════════════════════════════════════════════════════════════════ Footer -->
+<footer>
+  <div class="footer-inner">
+    <p class="footer-text">Data sourced from Spotify audio features analysis of top 100 ambient tracks.</p>
+    <span class="footer-brand">kapiko.ai</span>
+  </div>
+</footer>
+
+
+<!-- ══════════════════════════════════════════════════════ Embedded Data + Charts -->
+<script>
+'use strict';
+
+// ─── Inline data ────────────────────────────────────────────────────────────
+
+const D = {
+
+  bpm_histogram: {
+    labels: ['0–30', '30–60', '60–90', '90–120', '120–150', '150–180', '180+'],
+    values: [1, 0, 27, 38, 26, 6, 2]
+  },
+
+  key_distribution: {
+    labels: ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'],
+    values: [11, 12, 9, 7, 11, 6, 8, 12, 7, 6, 6, 5]
+  },
+
+  mode_distribution: { Major: 74, Minor: 26 },
+
+  duration_histogram: {
+    labels: ['0–2 min', '2–3 min', '3–4 min', '4–5 min', '5–6 min', '6–8 min', '8+ min'],
+    values: [7, 18, 21, 35, 10, 7, 2]
+  },
+
+  top_artists: [
+    { name: 'Melissa Helser',          count: 3  },
+    { name: 'Jonathan David Helser',   count: 3  },
+    { name: 'Aphex Twin',              count: 3  },
+    { name: 'Lowswimmer',              count: 3  },
+    { name: 'Ed Tullett',              count: 3  },
+    { name: 'Bicep',                   count: 3  },
+    { name: 'Yann Tiersen',            count: 2  },
+    { name: 'Daniel Hope',             count: 2  },
+    { name: 'J\u00f3hann J\u00f3hannsson', count: 4 },
+    { name: 'Max Richter',             count: 5  },
+    { name: 'Bethel Music',            count: 7  },
+    { name: 'Sleeping At Last',        count: 7  },
+    { name: 'Ludovico Einaudi',        count: 12 },
+    { name: 'Novo Amor',               count: 14 },
+    { name: 'Cigarettes After Sex',    count: 22 }
+  ],
+
+  energy_valence: [
+    {x:0.467,y:0.182,name:'Apocalypse',artists:'Cigarettes After Sex'},
+    {x:0.449,y:0.036,name:'Experience',artists:'Ludovico Einaudi'},
+    {x:0.400,y:0.327,name:'K.',artists:'Cigarettes After Sex'},
+    {x:0.479,y:0.131,name:'Sunsetz',artists:'Cigarettes After Sex'},
+    {x:0.399,y:0.163,name:'Cry',artists:'Cigarettes After Sex'},
+    {x:0.511,y:0.115,name:'Sweet',artists:'Cigarettes After Sex'},
+    {x:0.407,y:0.126,name:'Anchor',artists:'Novo Amor'},
+    {x:0.798,y:0.420,name:'Glue',artists:'Bicep'},
+    {x:0.310,y:0.151,name:'State Lines',artists:'Novo Amor'},
+    {x:0.500,y:0.465,name:'You Are Enough',artists:'Sleeping At Last'},
+    {x:0.058,y:0.045,name:'Nuvole Bianche',artists:'Ludovico Einaudi'},
+    {x:0.192,y:0.054,name:"Comptine d'un autre \u00e9t\u00e9",artists:'Yann Tiersen'},
+    {x:0.371,y:0.189,name:'Turning Page',artists:'Sleeping At Last'},
+    {x:0.330,y:0.101,name:"Nothing's Gonna Hurt You Baby",artists:'Cigarettes After Sex'},
+    {x:0.437,y:0.127,name:'Heavenly',artists:'Cigarettes After Sex'},
+    {x:0.104,y:0.180,name:'Touch',artists:'Sleeping At Last'},
+    {x:0.579,y:0.294,name:'Test & Recognise - Flume Re-work',artists:'Seekae / Flume'},
+    {x:0.030,y:0.070,name:'Una Mattina',artists:'Ludovico Einaudi'},
+    {x:0.223,y:0.173,name:'Ontario',artists:'Novo Amor'},
+    {x:0.150,y:0.088,name:'Repeat Until Death',artists:'Novo Amor'},
+    {x:0.131,y:0.066,name:'Keep Me',artists:'Novo Amor'},
+    {x:0.248,y:0.298,name:'Already Gone',artists:'Sleeping At Last'},
+    {x:0.139,y:0.213,name:'Poison Tree',artists:'Grouper'},
+    {x:0.019,y:0.126,name:'Fracture',artists:'Stephan Moccio'},
+    {x:0.270,y:0.373,name:'Falling In Love',artists:'Cigarettes After Sex'},
+    {x:0.471,y:0.277,name:"You're All I Want",artists:'Cigarettes After Sex'},
+    {x:0.397,y:0.035,name:'Carry You',artists:'Novo Amor'},
+    {x:0.220,y:0.079,name:'Weightless',artists:'Marconi Union'},
+    {x:0.237,y:0.046,name:'Saturn',artists:'Sleeping At Last'},
+    {x:0.417,y:0.251,name:'Affection',artists:'Cigarettes After Sex'},
+    {x:0.261,y:0.219,name:'Haven (from Life Is Strange)',artists:'Novo Amor'},
+    {x:0.206,y:0.081,name:'Weightless Part 1',artists:'Marconi Union'},
+    {x:0.670,y:0.395,name:'Goodness of God - Live',artists:'Bethel Music'},
+    {x:0.284,y:0.092,name:'Euphor',artists:'Novo Amor'},
+    {x:0.822,y:0.363,name:'Water',artists:'Bicep'},
+    {x:0.504,y:0.285,name:'Crush',artists:'Cigarettes After Sex'},
+    {x:0.500,y:0.368,name:'Touch',artists:'Cigarettes After Sex'},
+    {x:0.364,y:0.116,name:'Keep on Loving You',artists:'Cigarettes After Sex'},
+    {x:0.533,y:0.285,name:'Each Time You Fall in Love',artists:'Cigarettes After Sex'},
+    {x:0.465,y:0.173,name:'John Wayne',artists:'Cigarettes After Sex'},
+    {x:0.341,y:0.033,name:'On the Nature of Daylight',artists:'Max Richter'},
+    {x:0.292,y:0.110,name:'Hearing',artists:'Sleeping At Last'},
+    {x:0.341,y:0.163,name:'Spring 1 - 2012',artists:'Max Richter'},
+    {x:0.006,y:0.062,name:'Wind Song',artists:'Ludovico Einaudi'},
+    {x:0.169,y:0.107,name:'Rue des trois fr\u00e8res',artists:'Fabrizio Paterlini'},
+    {x:0.010,y:0.212,name:'Temple White',artists:'Ludovico Einaudi'},
+    {x:0.024,y:0.426,name:'saman',artists:'\u00d3lafur Arnalds'},
+    {x:0.369,y:0.170,name:"Don't Let Me Go",artists:'Cigarettes After Sex'},
+    {x:0.114,y:0.057,name:'Where Is My Mind',artists:'Maxence Cyrin'},
+    {x:0.118,y:0.175,name:'The Theory of Everything',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.036,y:0.000,name:'The Departure',artists:'Max Richter / Lang Lang'},
+    {x:0.071,y:0.061,name:'#3',artists:'Aphex Twin'},
+    {x:0.116,y:0.299,name:'Ala',artists:'Joep Beving'},
+    {x:0.179,y:0.179,name:"La Valse d'Am\u00e9lie",artists:'Yann Tiersen'},
+    {x:0.055,y:0.247,name:'A Bad Dream That Will Pass Away',artists:'Luke Howard'},
+    {x:0.026,y:0.370,name:'Avril 14th',artists:'Aphex Twin'},
+    {x:0.298,y:0.232,name:'Kiss It Off Me',artists:'Cigarettes After Sex'},
+    {x:0.398,y:0.174,name:'Dreaming of You',artists:'Cigarettes After Sex'},
+    {x:0.489,y:0.277,name:'Neon Moon',artists:'Cigarettes After Sex'},
+    {x:0.529,y:0.395,name:'King of My Heart - Live',artists:'Bethel Music'},
+    {x:0.866,y:0.291,name:'Raise a Hallelujah - Live',artists:'Bethel Music'},
+    {x:0.467,y:0.353,name:'Halloween',artists:'Novo Amor'},
+    {x:0.599,y:0.489,name:'Apricots',artists:'Bicep'},
+    {x:0.423,y:0.117,name:'Playground Love',artists:'Air'},
+    {x:0.425,y:0.165,name:'All I Need',artists:'Air'},
+    {x:0.362,y:0.114,name:'Starry Eyes',artists:'Cigarettes After Sex'},
+    {x:0.413,y:0.349,name:'Sesame Syrup',artists:'Cigarettes After Sex'},
+    {x:0.242,y:0.112,name:'Weather',artists:'Novo Amor'},
+    {x:0.433,y:0.043,name:'From Gold',artists:'Novo Amor'},
+    {x:0.109,y:0.080,name:'Chalkboard',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.157,y:0.277,name:'Chasing Cars',artists:'Sleeping At Last'},
+    {x:0.250,y:0.110,name:'It Is Well - Live',artists:'Bethel Music'},
+    {x:0.206,y:0.136,name:'Primavera',artists:'Ludovico Einaudi'},
+    {x:0.610,y:0.242,name:'No Longer Slaves - Live',artists:'Bethel Music'},
+    {x:0.002,y:0.281,name:'Luminous',artists:'Ludovico Einaudi'},
+    {x:0.043,y:0.110,name:'A Game of Croquet',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.044,y:0.067,name:'A Model of the Universe',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.053,y:0.097,name:'Dawn (Pride & Prejudice)',artists:'Dario Marianelli'},
+    {x:0.002,y:0.054,name:'Dream 1 (before the wind blows it all away)',artists:'Max Richter'},
+    {x:0.004,y:0.192,name:'Natural Light',artists:'Ludovico Einaudi'},
+    {x:0.022,y:0.057,name:'QKThr',artists:'Aphex Twin'},
+    {x:0.300,y:0.125,name:"I'm a Firefighter",artists:'Cigarettes After Sex'},
+    {x:0.119,y:0.183,name:'Goodness of God',artists:'Bethel Music'},
+    {x:0.311,y:0.135,name:'Alps',artists:'Novo Amor'},
+    {x:0.263,y:0.147,name:'Embody Me',artists:'Novo Amor'},
+    {x:0.468,y:0.352,name:'The Last of Us',artists:'Gustavo Santaolalla'},
+    {x:0.434,y:0.321,name:'Decimal',artists:'Novo Amor'},
+    {x:0.009,y:0.156,name:'Indian Yellow',artists:'Ludovico Einaudi'},
+    {x:0.136,y:0.396,name:'Dismantle',artists:'Peter Sandberg'},
+    {x:0.003,y:0.117,name:'The Departure',artists:'Max Richter'},
+    {x:0.131,y:0.143,name:'Remembrance',artists:'Balmorhea'},
+    {x:0.823,y:0.517,name:'Raise a Hallelujah (Studio)',artists:'Bethel Music'},
+    {x:0.724,y:0.284,name:'Faithful',artists:'Erik Nieder'},
+    {x:0.021,y:0.064,name:'Pr\u00e9lude',artists:'Olivia Belli'},
+    {x:0.012,y:0.039,name:'Rolling Like A Ball',artists:'Ludovico Einaudi'},
+    {x:0.034,y:0.250,name:'Mid Air',artists:'G\u00c5EL'},
+    {x:0.029,y:0.037,name:'Wu Wei',artists:'De Moi'},
+    {x:0.099,y:0.213,name:'pt. 1 Owl Light',artists:'Stephan Moccio'}
+  ],
+
+  acoustic_instrumental: [
+    {x:0.021,y:0.572,name:'Apocalypse',artists:'Cigarettes After Sex'},
+    {x:0.934,y:0.961,name:'Experience',artists:'Ludovico Einaudi'},
+    {x:0.139,y:0.846,name:'K.',artists:'Cigarettes After Sex'},
+    {x:0.053,y:0.795,name:'Sunsetz',artists:'Cigarettes After Sex'},
+    {x:0.756,y:0.678,name:'Cry',artists:'Cigarettes After Sex'},
+    {x:0.353,y:0.766,name:'Sweet',artists:'Cigarettes After Sex'},
+    {x:0.805,y:0.884,name:'Anchor',artists:'Novo Amor'},
+    {x:0.016,y:0.948,name:'Glue',artists:'Bicep'},
+    {x:0.959,y:0.229,name:'State Lines',artists:'Novo Amor'},
+    {x:0.707,y:0.000,name:'You Are Enough',artists:'Sleeping At Last'},
+    {x:0.961,y:0.890,name:'Nuvole Bianche',artists:'Ludovico Einaudi'},
+    {x:0.991,y:0.908,name:"Comptine d'un autre \u00e9t\u00e9",artists:'Yann Tiersen'},
+    {x:0.923,y:0.025,name:'Turning Page',artists:'Sleeping At Last'},
+    {x:0.259,y:0.154,name:"Nothing's Gonna Hurt You Baby",artists:'Cigarettes After Sex'},
+    {x:0.669,y:0.688,name:'Heavenly',artists:'Cigarettes After Sex'},
+    {x:0.955,y:0.000,name:'Touch',artists:'Sleeping At Last'},
+    {x:0.193,y:0.000,name:'Test & Recognise - Flume Re-work',artists:'Seekae / Flume'},
+    {x:0.991,y:0.878,name:'Una Mattina',artists:'Ludovico Einaudi'},
+    {x:0.947,y:0.012,name:'Ontario',artists:'Novo Amor'},
+    {x:0.982,y:0.360,name:'Repeat Until Death',artists:'Novo Amor'},
+    {x:0.888,y:0.055,name:'Keep Me',artists:'Novo Amor'},
+    {x:0.954,y:0.000,name:'Already Gone',artists:'Sleeping At Last'},
+    {x:0.961,y:0.913,name:'Poison Tree',artists:'Grouper'},
+    {x:0.990,y:0.934,name:'Fracture',artists:'Stephan Moccio'},
+    {x:0.729,y:0.016,name:'Falling In Love',artists:'Cigarettes After Sex'},
+    {x:0.363,y:0.828,name:"You're All I Want",artists:'Cigarettes After Sex'},
+    {x:0.558,y:0.077,name:'Carry You',artists:'Novo Amor'},
+    {x:0.856,y:0.831,name:'Weightless',artists:'Marconi Union'},
+    {x:0.638,y:0.305,name:'Saturn',artists:'Sleeping At Last'},
+    {x:0.500,y:0.889,name:'Affection',artists:'Cigarettes After Sex'},
+    {x:0.797,y:0.016,name:'Haven (from Life Is Strange)',artists:'Novo Amor'},
+    {x:0.864,y:0.838,name:'Weightless Part 1',artists:'Marconi Union'},
+    {x:0.155,y:0.000,name:'Goodness of God - Live',artists:'Bethel Music'},
+    {x:0.968,y:0.189,name:'Euphor',artists:'Novo Amor'},
+    {x:0.009,y:0.192,name:'Water',artists:'Bicep'},
+    {x:0.088,y:0.757,name:'Crush',artists:'Cigarettes After Sex'},
+    {x:0.354,y:0.912,name:'Touch',artists:'Cigarettes After Sex'},
+    {x:0.533,y:0.960,name:'Keep on Loving You',artists:'Cigarettes After Sex'},
+    {x:0.479,y:0.508,name:'Each Time You Fall in Love',artists:'Cigarettes After Sex'},
+    {x:0.343,y:0.884,name:'John Wayne',artists:'Cigarettes After Sex'},
+    {x:0.154,y:0.854,name:'On the Nature of Daylight',artists:'Max Richter'},
+    {x:0.818,y:0.942,name:'Hearing',artists:'Sleeping At Last'},
+    {x:0.499,y:0.903,name:'Spring 1 - 2012',artists:'Max Richter'},
+    {x:0.986,y:0.923,name:'Wind Song',artists:'Ludovico Einaudi'},
+    {x:0.959,y:0.889,name:'Rue des trois fr\u00e8res',artists:'Fabrizio Paterlini'},
+    {x:0.991,y:0.953,name:'Temple White',artists:'Ludovico Einaudi'},
+    {x:0.994,y:0.847,name:'saman',artists:'\u00d3lafur Arnalds'},
+    {x:0.453,y:0.501,name:"Don't Let Me Go",artists:'Cigarettes After Sex'},
+    {x:0.906,y:0.960,name:'Where Is My Mind',artists:'Maxence Cyrin'},
+    {x:0.842,y:0.938,name:'The Theory of Everything',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.994,y:0.940,name:'The Departure',artists:'Max Richter / Lang Lang'},
+    {x:0.911,y:0.855,name:'#3',artists:'Aphex Twin'},
+    {x:0.986,y:0.926,name:'Ala',artists:'Joep Beving'},
+    {x:0.988,y:0.866,name:"La Valse d'Am\u00e9lie",artists:'Yann Tiersen'},
+    {x:0.992,y:0.942,name:'A Bad Dream That Will Pass Away',artists:'Luke Howard'},
+    {x:0.996,y:0.871,name:'Avril 14th',artists:'Aphex Twin'},
+    {x:0.754,y:0.460,name:'Kiss It Off Me',artists:'Cigarettes After Sex'},
+    {x:0.549,y:0.105,name:'Dreaming of You',artists:'Cigarettes After Sex'},
+    {x:0.097,y:0.094,name:'Neon Moon',artists:'Cigarettes After Sex'},
+    {x:0.011,y:0.000,name:'King of My Heart - Live',artists:'Bethel Music'},
+    {x:0.004,y:0.000,name:'Raise a Hallelujah - Live',artists:'Bethel Music'},
+    {x:0.874,y:0.000,name:'Halloween',artists:'Novo Amor'},
+    {x:0.347,y:0.824,name:'Apricots',artists:'Bicep'},
+    {x:0.265,y:0.731,name:'Playground Love',artists:'Air'},
+    {x:0.878,y:0.001,name:'All I Need',artists:'Air'},
+    {x:0.453,y:0.335,name:'Starry Eyes',artists:'Cigarettes After Sex'},
+    {x:0.041,y:0.381,name:'Sesame Syrup',artists:'Cigarettes After Sex'},
+    {x:0.939,y:0.044,name:'Weather',artists:'Novo Amor'},
+    {x:0.920,y:0.646,name:'From Gold',artists:'Novo Amor'},
+    {x:0.889,y:0.772,name:'Chalkboard',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.974,y:0.000,name:'Chasing Cars',artists:'Sleeping At Last'},
+    {x:0.698,y:0.000,name:'It Is Well - Live',artists:'Bethel Music'},
+    {x:0.965,y:0.856,name:'Primavera',artists:'Ludovico Einaudi'},
+    {x:0.177,y:0.000,name:'No Longer Slaves - Live',artists:'Bethel Music'},
+    {x:0.992,y:0.931,name:'Luminous',artists:'Ludovico Einaudi'},
+    {x:0.975,y:0.402,name:'A Game of Croquet',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.982,y:0.960,name:'A Model of the Universe',artists:'J\u00f3hann J\u00f3hannsson'},
+    {x:0.991,y:0.891,name:'Dawn (Pride & Prejudice)',artists:'Dario Marianelli'},
+    {x:0.988,y:0.946,name:'Dream 1 (before the wind blows it all away)',artists:'Max Richter'},
+    {x:0.992,y:0.951,name:'Natural Light',artists:'Ludovico Einaudi'},
+    {x:0.993,y:0.768,name:'QKThr',artists:'Aphex Twin'},
+    {x:0.483,y:0.030,name:"I'm a Firefighter",artists:'Cigarettes After Sex'},
+    {x:0.953,y:0.000,name:'Goodness of God',artists:'Bethel Music'},
+    {x:0.965,y:0.032,name:'Alps',artists:'Novo Amor'},
+    {x:0.935,y:0.002,name:'Embody Me',artists:'Novo Amor'},
+    {x:0.867,y:0.928,name:'The Last of Us',artists:'Gustavo Santaolalla'},
+    {x:0.887,y:0.215,name:'Decimal',artists:'Novo Amor'},
+    {x:0.995,y:0.946,name:'Indian Yellow',artists:'Ludovico Einaudi'},
+    {x:0.985,y:0.895,name:'Dismantle',artists:'Peter Sandberg'},
+    {x:0.996,y:0.943,name:'The Departure',artists:'Max Richter'},
+    {x:0.470,y:0.898,name:'Remembrance',artists:'Balmorhea'},
+    {x:0.010,y:0.000,name:'Raise a Hallelujah (Studio)',artists:'Bethel Music'},
+    {x:0.031,y:0.000,name:'Faithful',artists:'Erik Nieder'},
+    {x:0.963,y:0.877,name:'Pr\u00e9lude',artists:'Olivia Belli'},
+    {x:0.987,y:0.919,name:'Rolling Like A Ball',artists:'Ludovico Einaudi'},
+    {x:0.995,y:0.921,name:'Mid Air',artists:'G\u00c5EL'},
+    {x:0.951,y:0.565,name:'Wu Wei',artists:'De Moi'},
+    {x:0.983,y:0.852,name:'pt. 1 Owl Light',artists:'Stephan Moccio'}
+  ]
+};
+
+
+// ─── Chart config helpers ───────────────────────────────────────────────────
+
+Chart.defaults.color = '#6b7099';
+Chart.defaults.font.family = "'Inter', sans-serif";
+Chart.defaults.font.size = 12;
+
+const TEAL   = '#4ecdc4';
+const PURPLE = '#9b7fd4';
+const BLUE   = '#5b9bd5';
+
+const ta = (a) => `rgba(78,205,196,${a})`;
+const pa = (a) => `rgba(155,127,212,${a})`;
+const ba = (a) => `rgba(91,155,213,${a})`;
+
+const TIP = {
+  backgroundColor: '#141528',
+  borderColor:     'rgba(78,205,196,0.25)',
+  borderWidth:     1,
+  titleColor:      '#dde1f0',
+  bodyColor:       '#8890b8',
+  padding:         14,
+  cornerRadius:    10,
+  titleFont:       { weight: '600', size: 13 },
+  bodyFont:        { size: 12 },
+  displayColors:   false
+};
+
+const GRID = { color: 'rgba(255,255,255,0.05)' };
+const TICK = { color: '#4a4f6e' };
+
+
+// ─── 1. BPM Histogram ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartBPM'), {
+  type: 'bar',
+  data: {
+    labels: D.bpm_histogram.labels,
+    datasets: [{
+      data: D.bpm_histogram.values,
+      backgroundColor: D.bpm_histogram.values.map((v, i) => {
+        // Peak bar gets teal, others get a gradient feel via opacity
+        const t = i / (D.bpm_histogram.values.length - 1);
+        return `rgba(${Math.round(78 + (91-78)*t)},${Math.round(205 + (155-205)*t)},${Math.round(196 + (213-196)*t)},0.75)`;
+      }),
+      borderColor: TEAL,
+      borderWidth: 1,
+      borderRadius: 6,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          title: (i) => `${i[0].label} BPM`,
+          label: (i) => `  ${i.raw} tracks`
+        }
+      }
+    },
+    scales: {
+      x: { grid: GRID, ticks: TICK },
+      y: { grid: GRID, ticks: TICK, beginAtZero: true }
+    }
+  }
+});
+
+
+// ─── 2. Key Distribution ───────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartKey'), {
+  type: 'bar',
+  data: {
+    labels: D.key_distribution.labels,
+    datasets: [{
+      data: D.key_distribution.values,
+      backgroundColor: D.key_distribution.values.map(v =>
+        v === 12 ? ta(0.85) : v === 11 ? ba(0.7) : pa(0.55)
+      ),
+      borderColor: D.key_distribution.values.map(v =>
+        v === 12 ? TEAL : v === 11 ? BLUE : PURPLE
+      ),
+      borderWidth: 1,
+      borderRadius: 5,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 1000, easing: 'easeOutQuart' },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          title: (i) => `Key: ${i[0].label}`,
+          label: (i) => `  ${i.raw} tracks`
+        }
+      }
+    },
+    scales: {
+      x: { grid: { display: false }, ticks: { ...TICK, font: { size: 11 } } },
+      y: { grid: GRID, ticks: TICK, beginAtZero: true }
+    }
+  }
+});
+
+
+// ─── 3. Mode Distribution ──────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartMode'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Major', 'Minor'],
+    datasets: [{
+      data: [74, 26],
+      backgroundColor: [ta(0.8), pa(0.7)],
+      borderColor:      ['#0b0c1a', '#0b0c1a'],
+      borderWidth:      4,
+      hoverOffset:      8
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '70%',
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: {
+          color: '#8890b8',
+          padding: 24,
+          usePointStyle: true,
+          pointStyleWidth: 8,
+          font: { size: 12, weight: '500' }
+        }
+      },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          label: (i) => `  ${i.label}: ${i.raw} tracks (${i.raw}%)`
+        }
+      }
+    }
+  }
+});
+
+
+// ─── 4. Duration Distribution ──────────────────────────────────────────────
+
+new Chart(document.getElementById('chartDuration'), {
+  type: 'bar',
+  data: {
+    labels: D.duration_histogram.labels,
+    datasets: [{
+      data: D.duration_histogram.values,
+      backgroundColor: D.duration_histogram.values.map((v, i) => {
+        const t = i / (D.duration_histogram.values.length - 1);
+        return `rgba(${Math.round(155 - (155-78)*t)},${Math.round(127 + (205-127)*t)},${Math.round(212 - (212-196)*t)},0.75)`;
+      }),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      borderRadius: 6,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          title: (i) => `Duration: ${i[0].label}`,
+          label: (i) => `  ${i.raw} tracks`
+        }
+      }
+    },
+    scales: {
+      x: { grid: { display: false }, ticks: { ...TICK, font: { size: 11 } } },
+      y: { grid: GRID, ticks: TICK, beginAtZero: true }
+    }
+  }
+});
+
+
+// ─── 5. Energy vs Valence Scatter ─────────────────────────────────────────
+
+new Chart(document.getElementById('chartEV'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: D.energy_valence,
+      backgroundColor:          ta(0.6),
+      borderColor:              ta(0.9),
+      borderWidth:              1,
+      pointRadius:              5,
+      pointHoverRadius:         8,
+      pointHoverBackgroundColor: TEAL,
+      pointHoverBorderColor:    '#fff',
+      pointHoverBorderWidth:    1.5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 600 },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          title: (i) => i[0].raw.name,
+          label: (i) => [
+            `  ${i.raw.artists}`,
+            `  Energy ${(i.raw.x * 100).toFixed(1)}%   Valence ${(i.raw.y * 100).toFixed(1)}%`
+          ]
+        }
+      }
+    },
+    scales: {
+      x: {
+        title: { display: true, text: 'Energy', color: '#4a4f6e', font: { size: 12 } },
+        min: 0, max: 1,
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` }
+      },
+      y: {
+        title: { display: true, text: 'Valence', color: '#4a4f6e', font: { size: 12 } },
+        min: 0, max: 1,
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` }
+      }
+    }
+  }
+});
+
+
+// ─── 6. Acousticness vs Instrumentalness Scatter ──────────────────────────
+
+new Chart(document.getElementById('chartAI'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: D.acoustic_instrumental,
+      backgroundColor:          pa(0.55),
+      borderColor:              pa(0.85),
+      borderWidth:              1,
+      pointRadius:              5,
+      pointHoverRadius:         8,
+      pointHoverBackgroundColor: PURPLE,
+      pointHoverBorderColor:    '#fff',
+      pointHoverBorderWidth:    1.5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 600 },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          title: (i) => i[0].raw.name,
+          label: (i) => [
+            `  ${i.raw.artists}`,
+            `  Acoustic ${(i.raw.x * 100).toFixed(1)}%   Instrumental ${(i.raw.y * 100).toFixed(1)}%`
+          ]
+        }
+      }
+    },
+    scales: {
+      x: {
+        title: { display: true, text: 'Acousticness', color: '#4a4f6e', font: { size: 12 } },
+        min: 0, max: 1,
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` }
+      },
+      y: {
+        title: { display: true, text: 'Instrumentalness', color: '#4a4f6e', font: { size: 12 } },
+        min: 0, max: 1,
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` }
+      }
+    }
+  }
+});
+
+
+// ─── 7. Top Artists ───────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartArtists'), {
+  type: 'bar',
+  data: {
+    labels: D.top_artists.map(a => a.name),
+    datasets: [{
+      data: D.top_artists.map(a => a.count),
+      backgroundColor: D.top_artists.map((a, i) => {
+        const t = i / (D.top_artists.length - 1);
+        // purple (low) → teal (high, at end of reversed array)
+        return `rgba(${Math.round(155 + (78-155)*t)},${Math.round(127 + (205-127)*t)},${Math.round(212 + (196-212)*t)},0.75)`;
+      }),
+      borderColor: D.top_artists.map((a, i) => {
+        const t = i / (D.top_artists.length - 1);
+        return `rgba(${Math.round(155 + (78-155)*t)},${Math.round(127 + (205-127)*t)},${Math.round(212 + (196-212)*t)},1)`;
+      }),
+      borderWidth: 1,
+      borderRadius: 5,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 1000, easing: 'easeOutQuart' },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          title: (i) => i[0].label,
+          label: (i) => `  ${i.raw} tracks`
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: GRID,
+        ticks: { ...TICK, stepSize: 2 },
+        beginAtZero: true,
+        max: 24
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#aab0d0', font: { size: 12 } }
+      }
+    }
+  }
+});
+
+
+// ─── 8. Feature Radar ─────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartRadar'), {
+  type: 'radar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Speechiness'],
+    datasets: [{
+      label: 'Median',
+      data: [0.262, 0.168, 0.402, 0.887, 0.784, 0.034],
+      backgroundColor: ta(0.12),
+      borderColor:     TEAL,
+      borderWidth:     2,
+      pointBackgroundColor:  TEAL,
+      pointBorderColor:      '#0b0c1a',
+      pointBorderWidth:      2,
+      pointRadius:           4,
+      pointHoverRadius:      6,
+      pointHoverBackgroundColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          title: (i) => i[0].label,
+          label: (i) => `  Median: ${(i.raw * 100).toFixed(1)}%`
+        }
+      }
+    },
+    scales: {
+      r: {
+        min: 0,
+        max: 1,
+        ticks: { display: false, stepSize: 0.25 },
+        grid:        { color: 'rgba(255,255,255,0.07)' },
+        angleLines:  { color: 'rgba(255,255,255,0.07)' },
+        pointLabels: { color: '#8890b8', font: { size: 12, weight: '500' } }
+      }
+    }
+  }
+});
+
+</script>
+</body>
+</html>

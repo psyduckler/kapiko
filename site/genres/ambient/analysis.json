@@ -1,0 +1,2379 @@
+{
+  "genre": "ambient",
+  "track_count": 100,
+  "collection_source": "Spotify Tracks Dataset (114K tracks, pre-deprecation audio features)",
+  "bpm": {
+    "histogram": {
+      "0-30": 1,
+      "30-60": 0,
+      "60-90": 27,
+      "90-120": 38,
+      "120-150": 26,
+      "150-180": 6,
+      "180+": 2
+    },
+    "median": 107.3,
+    "mean": 108.8,
+    "stdev": 31.3,
+    "min": 0.0,
+    "max": 182.2,
+    "raw": [
+      0.0,
+      64.1,
+      65.4,
+      67.8,
+      67.8,
+      68.1,
+      68.6,
+      68.6,
+      68.8,
+      69.3,
+      71.4,
+      72.2,
+      72.7,
+      73.0,
+      73.5,
+      75.4,
+      75.9,
+      78.7,
+      78.9,
+      79.5,
+      79.5,
+      80.3,
+      80.4,
+      82.0,
+      82.0,
+      85.3,
+      89.9,
+      90.0,
+      90.2,
+      92.5,
+      92.7,
+      93.4,
+      93.6,
+      93.7,
+      93.9,
+      94.5,
+      96.0,
+      96.6,
+      96.7,
+      96.8,
+      98.4,
+      100.2,
+      100.3,
+      100.3,
+      100.8,
+      104.0,
+      104.8,
+      105.2,
+      105.5,
+      106.5,
+      108.1,
+      108.7,
+      109.8,
+      110.4,
+      110.8,
+      111.3,
+      111.9,
+      111.9,
+      113.6,
+      114.8,
+      114.9,
+      115.2,
+      116.9,
+      117.1,
+      118.0,
+      118.5,
+      121.1,
+      121.3,
+      123.9,
+      126.1,
+      128.0,
+      129.8,
+      130.0,
+      130.0,
+      131.0,
+      131.4,
+      132.6,
+      136.1,
+      137.5,
+      138.9,
+      140.0,
+      140.7,
+      141.6,
+      141.8,
+      141.9,
+      142.8,
+      143.1,
+      143.3,
+      143.8,
+      143.9,
+      146.6,
+      148.0,
+      151.5,
+      154.6,
+      157.8,
+      164.0,
+      175.2,
+      177.7,
+      180.2,
+      182.2
+    ]
+  },
+  "key_distribution": {
+    "C": 11,
+    "C#/Db": 12,
+    "D": 9,
+    "D#/Eb": 7,
+    "E": 11,
+    "F": 6,
+    "F#/Gb": 8,
+    "G": 12,
+    "G#/Ab": 7,
+    "A": 6,
+    "A#/Bb": 6,
+    "B": 5
+  },
+  "mode_distribution": {
+    "Major": 74,
+    "Minor": 26
+  },
+  "key_mode_distribution": {
+    "C#/Db Major": 11,
+    "G Major": 8,
+    "D#/Eb Major": 7,
+    "G#/Ab Major": 7,
+    "F Major": 6,
+    "D Major": 6,
+    "F#/Gb Major": 6,
+    "E Minor": 6,
+    "C Major": 6,
+    "E Major": 5,
+    "C Minor": 5,
+    "A Major": 4,
+    "A#/Bb Major": 4,
+    "B Major": 4,
+    "G Minor": 4,
+    "D Minor": 3,
+    "A#/Bb Minor": 2,
+    "F#/Gb Minor": 2,
+    "A Minor": 2,
+    "C#/Db Minor": 1,
+    "B Minor": 1
+  },
+  "energy": {
+    "median": 0.262,
+    "mean": 0.28,
+    "stdev": 0.219
+  },
+  "valence": {
+    "median": 0.168,
+    "mean": 0.19,
+    "stdev": 0.12
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.467,
+      "valence": 0.182,
+      "name": "Apocalypse",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.449,
+      "valence": 0.036,
+      "name": "Experience",
+      "artists": "Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani"
+    },
+    {
+      "energy": 0.4,
+      "valence": 0.327,
+      "name": "K.",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.131,
+      "name": "Sunsetz",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.399,
+      "valence": 0.163,
+      "name": "Cry",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.115,
+      "name": "Sweet",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.407,
+      "valence": 0.126,
+      "name": "Anchor",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.42,
+      "name": "Glue",
+      "artists": "Bicep"
+    },
+    {
+      "energy": 0.31,
+      "valence": 0.151,
+      "name": "State Lines",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.465,
+      "name": "You Are Enough",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "energy": 0.0582,
+      "valence": 0.0454,
+      "name": "Nuvole Bianche",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.192,
+      "valence": 0.0542,
+      "name": "Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi",
+      "artists": "Yann Tiersen"
+    },
+    {
+      "energy": 0.371,
+      "valence": 0.189,
+      "name": "Turning Page",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "energy": 0.33,
+      "valence": 0.101,
+      "name": "Nothing's Gonna Hurt You Baby",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.437,
+      "valence": 0.127,
+      "name": "Heavenly",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.104,
+      "valence": 0.18,
+      "name": "Touch",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "energy": 0.579,
+      "valence": 0.294,
+      "name": "Test & Recognise - Flume Re-work",
+      "artists": "Seekae;Flume"
+    },
+    {
+      "energy": 0.0297,
+      "valence": 0.07,
+      "name": "Una Mattina",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.223,
+      "valence": 0.173,
+      "name": "Ontario",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer"
+    },
+    {
+      "energy": 0.15,
+      "valence": 0.0875,
+      "name": "Repeat Until Death",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.131,
+      "valence": 0.0657,
+      "name": "Keep Me",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.248,
+      "valence": 0.298,
+      "name": "Already Gone",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "energy": 0.139,
+      "valence": 0.213,
+      "name": "Poison Tree",
+      "artists": "Grouper"
+    },
+    {
+      "energy": 0.0186,
+      "valence": 0.126,
+      "name": "Fracture",
+      "artists": "Stephan Moccio"
+    },
+    {
+      "energy": 0.27,
+      "valence": 0.373,
+      "name": "Falling In Love",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.277,
+      "name": "You're All I Want",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.397,
+      "valence": 0.035,
+      "name": "Carry You",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.22,
+      "valence": 0.0789,
+      "name": "Weightless",
+      "artists": "Marconi Union"
+    },
+    {
+      "energy": 0.237,
+      "valence": 0.0461,
+      "name": "Saturn",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "energy": 0.417,
+      "valence": 0.251,
+      "name": "Affection",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.261,
+      "valence": 0.219,
+      "name": "Haven (from Life Is Strange)",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.206,
+      "valence": 0.0807,
+      "name": "Weightless Part 1",
+      "artists": "Marconi Union"
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.395,
+      "name": "Goodness of God - Live",
+      "artists": "Bethel Music;Jenn Johnson"
+    },
+    {
+      "energy": 0.284,
+      "valence": 0.0917,
+      "name": "Euphor",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer"
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.363,
+      "name": "Water",
+      "artists": "Bicep;Clara La San"
+    },
+    {
+      "energy": 0.504,
+      "valence": 0.285,
+      "name": "Crush",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.368,
+      "name": "Touch",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.364,
+      "valence": 0.116,
+      "name": "Keep on Loving You",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.285,
+      "name": "Each Time You Fall in Love",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.173,
+      "name": "John Wayne",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.0334,
+      "name": "On the Nature of Daylight",
+      "artists": "Max Richter;Louisa Fuller;Natalia Bonner;John Metcalfe;Philip Sheppard;Chris Worsey"
+    },
+    {
+      "energy": 0.292,
+      "valence": 0.11,
+      "name": "Hearing",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.163,
+      "name": "Spring 1 - 2012",
+      "artists": "Max Richter;Daniel Hope;Konzerthaus Kammerorchester Berlin;Andre de Ridder"
+    },
+    {
+      "energy": 0.00572,
+      "valence": 0.0616,
+      "name": "Wind Song",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.169,
+      "valence": 0.107,
+      "name": "Rue des trois fr\u00e8res",
+      "artists": "Fabrizio Paterlini"
+    },
+    {
+      "energy": 0.00958,
+      "valence": 0.212,
+      "name": "Temple White",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.0238,
+      "valence": 0.426,
+      "name": "saman",
+      "artists": "\u00d3lafur Arnalds"
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.17,
+      "name": "Don't Let Me Go",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.114,
+      "valence": 0.0566,
+      "name": "Where Is My Mind",
+      "artists": "Maxence Cyrin"
+    },
+    {
+      "energy": 0.118,
+      "valence": 0.175,
+      "name": "The Theory of Everything",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "energy": 0.0362,
+      "valence": 0.0,
+      "name": "The Departure",
+      "artists": "Max Richter;Lang Lang"
+    },
+    {
+      "energy": 0.071,
+      "valence": 0.0613,
+      "name": "#3",
+      "artists": "Aphex Twin"
+    },
+    {
+      "energy": 0.116,
+      "valence": 0.299,
+      "name": "Ala",
+      "artists": "Joep Beving"
+    },
+    {
+      "energy": 0.179,
+      "valence": 0.179,
+      "name": "La Valse d'Am\u00e9lie - Version piano",
+      "artists": "Yann Tiersen"
+    },
+    {
+      "energy": 0.0552,
+      "valence": 0.247,
+      "name": "A Bad Dream That Will Pass Away",
+      "artists": "Luke Howard"
+    },
+    {
+      "energy": 0.0259,
+      "valence": 0.37,
+      "name": "Avril 14th",
+      "artists": "Aphex Twin"
+    },
+    {
+      "energy": 0.298,
+      "valence": 0.232,
+      "name": "Kiss It Off Me",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.398,
+      "valence": 0.174,
+      "name": "Dreaming of You",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.277,
+      "name": "Neon Moon",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.395,
+      "name": "King of My Heart - Live",
+      "artists": "Bethel Music;Steffany Gretzinger"
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.291,
+      "name": "Raise a Hallelujah - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser"
+    },
+    {
+      "energy": 0.467,
+      "valence": 0.353,
+      "name": "Halloween",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.489,
+      "name": "Apricots",
+      "artists": "Bicep"
+    },
+    {
+      "energy": 0.423,
+      "valence": 0.117,
+      "name": "Playground Love",
+      "artists": "Air;Gordon Tracks"
+    },
+    {
+      "energy": 0.425,
+      "valence": 0.165,
+      "name": "All I Need (feat. Beth Hirsch)",
+      "artists": "Air;Beth Hirsch"
+    },
+    {
+      "energy": 0.362,
+      "valence": 0.114,
+      "name": "Starry Eyes",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.413,
+      "valence": 0.349,
+      "name": "Sesame Syrup",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.242,
+      "valence": 0.112,
+      "name": "Weather",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.0432,
+      "name": "From Gold",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.109,
+      "valence": 0.0797,
+      "name": "Chalkboard",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "energy": 0.157,
+      "valence": 0.277,
+      "name": "Chasing Cars",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "energy": 0.25,
+      "valence": 0.11,
+      "name": "It Is Well - Live",
+      "artists": "Bethel Music;Kristene DiMarco"
+    },
+    {
+      "energy": 0.206,
+      "valence": 0.136,
+      "name": "Primavera",
+      "artists": "Ludovico Einaudi;Robert Ziegler;Royal Philharmonic Orchestra"
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.242,
+      "name": "No Longer Slaves (Spontaneous) - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser"
+    },
+    {
+      "energy": 0.00229,
+      "valence": 0.281,
+      "name": "Luminous",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.043,
+      "valence": 0.11,
+      "name": "A Game of Croquet",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "energy": 0.044,
+      "valence": 0.0666,
+      "name": "A Model of the Universe",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "energy": 0.0525,
+      "valence": 0.097,
+      "name": "Dawn - From \"Pride & Prejudice\" Soundtrack",
+      "artists": "Dario Marianelli;Jean-Yves Thibaudet"
+    },
+    {
+      "energy": 0.00229,
+      "valence": 0.281,
+      "name": "Luminous",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.00225,
+      "valence": 0.0541,
+      "name": "Dream 1 (before the wind blows it all away) - Pt. 8",
+      "artists": "Max Richter"
+    },
+    {
+      "energy": 0.00352,
+      "valence": 0.192,
+      "name": "Natural Light",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.00352,
+      "valence": 0.192,
+      "name": "Natural Light",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.0223,
+      "valence": 0.0571,
+      "name": "QKThr",
+      "artists": "Aphex Twin"
+    },
+    {
+      "energy": 0.3,
+      "valence": 0.125,
+      "name": "I'm a Firefighter",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "energy": 0.119,
+      "valence": 0.183,
+      "name": "Goodness of God",
+      "artists": "Bethel Music;Jenn Johnson"
+    },
+    {
+      "energy": 0.311,
+      "valence": 0.135,
+      "name": "Alps",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer"
+    },
+    {
+      "energy": 0.263,
+      "valence": 0.147,
+      "name": "Embody Me",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.352,
+      "name": "The Last of Us",
+      "artists": "Gustavo Santaolalla"
+    },
+    {
+      "energy": 0.434,
+      "valence": 0.321,
+      "name": "Decimal",
+      "artists": "Novo Amor"
+    },
+    {
+      "energy": 0.009,
+      "valence": 0.156,
+      "name": "Indian Yellow",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.136,
+      "valence": 0.396,
+      "name": "Dismantle",
+      "artists": "Peter Sandberg"
+    },
+    {
+      "energy": 0.00341,
+      "valence": 0.117,
+      "name": "The Departure",
+      "artists": "Max Richter"
+    },
+    {
+      "energy": 0.131,
+      "valence": 0.143,
+      "name": "Remembrance",
+      "artists": "Balmorhea"
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.517,
+      "name": "Raise a Hallelujah (Studio Version)",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser"
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.284,
+      "name": "Faithful",
+      "artists": "Erik Nieder"
+    },
+    {
+      "energy": 0.0214,
+      "valence": 0.064,
+      "name": "Pr\u00e9lude",
+      "artists": "Olivia Belli"
+    },
+    {
+      "energy": 0.012,
+      "valence": 0.0391,
+      "name": "Rolling Like A Ball",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "energy": 0.0338,
+      "valence": 0.25,
+      "name": "Mid Air",
+      "artists": "G\u00c5EL"
+    },
+    {
+      "energy": 0.0293,
+      "valence": 0.037,
+      "name": "Wu Wei",
+      "artists": "De Moi"
+    },
+    {
+      "energy": 0.0992,
+      "valence": 0.213,
+      "name": "pt. 1 Owl Light",
+      "artists": "Stephan Moccio"
+    }
+  ],
+  "acousticness": {
+    "median": 0.887,
+    "mean": 0.703
+  },
+  "instrumentalness": {
+    "median": 0.784,
+    "mean": 0.568
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.0205,
+      "instrumentalness": 0.572,
+      "name": "Apocalypse",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.934,
+      "instrumentalness": 0.961,
+      "name": "Experience",
+      "artists": "Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani"
+    },
+    {
+      "acousticness": 0.139,
+      "instrumentalness": 0.846,
+      "name": "K.",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.0527,
+      "instrumentalness": 0.795,
+      "name": "Sunsetz",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.756,
+      "instrumentalness": 0.678,
+      "name": "Cry",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.353,
+      "instrumentalness": 0.766,
+      "name": "Sweet",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.805,
+      "instrumentalness": 0.884,
+      "name": "Anchor",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.0158,
+      "instrumentalness": 0.948,
+      "name": "Glue",
+      "artists": "Bicep"
+    },
+    {
+      "acousticness": 0.959,
+      "instrumentalness": 0.229,
+      "name": "State Lines",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.707,
+      "instrumentalness": 1.24e-05,
+      "name": "You Are Enough",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "acousticness": 0.961,
+      "instrumentalness": 0.89,
+      "name": "Nuvole Bianche",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.908,
+      "name": "Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi",
+      "artists": "Yann Tiersen"
+    },
+    {
+      "acousticness": 0.923,
+      "instrumentalness": 0.0253,
+      "name": "Turning Page",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "acousticness": 0.259,
+      "instrumentalness": 0.154,
+      "name": "Nothing's Gonna Hurt You Baby",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.669,
+      "instrumentalness": 0.688,
+      "name": "Heavenly",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.955,
+      "instrumentalness": 3.79e-06,
+      "name": "Touch",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "acousticness": 0.193,
+      "instrumentalness": 1.43e-05,
+      "name": "Test & Recognise - Flume Re-work",
+      "artists": "Seekae;Flume"
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.878,
+      "name": "Una Mattina",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.947,
+      "instrumentalness": 0.0123,
+      "name": "Ontario",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer"
+    },
+    {
+      "acousticness": 0.982,
+      "instrumentalness": 0.36,
+      "name": "Repeat Until Death",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.888,
+      "instrumentalness": 0.0553,
+      "name": "Keep Me",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.954,
+      "instrumentalness": 4.21e-06,
+      "name": "Already Gone",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "acousticness": 0.961,
+      "instrumentalness": 0.913,
+      "name": "Poison Tree",
+      "artists": "Grouper"
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.934,
+      "name": "Fracture",
+      "artists": "Stephan Moccio"
+    },
+    {
+      "acousticness": 0.729,
+      "instrumentalness": 0.0158,
+      "name": "Falling In Love",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.363,
+      "instrumentalness": 0.828,
+      "name": "You're All I Want",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.558,
+      "instrumentalness": 0.0774,
+      "name": "Carry You",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.856,
+      "instrumentalness": 0.831,
+      "name": "Weightless",
+      "artists": "Marconi Union"
+    },
+    {
+      "acousticness": 0.638,
+      "instrumentalness": 0.305,
+      "name": "Saturn",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "acousticness": 0.5,
+      "instrumentalness": 0.889,
+      "name": "Affection",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.797,
+      "instrumentalness": 0.016,
+      "name": "Haven (from Life Is Strange)",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.838,
+      "name": "Weightless Part 1",
+      "artists": "Marconi Union"
+    },
+    {
+      "acousticness": 0.155,
+      "instrumentalness": 0.0,
+      "name": "Goodness of God - Live",
+      "artists": "Bethel Music;Jenn Johnson"
+    },
+    {
+      "acousticness": 0.968,
+      "instrumentalness": 0.189,
+      "name": "Euphor",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer"
+    },
+    {
+      "acousticness": 0.0087,
+      "instrumentalness": 0.192,
+      "name": "Water",
+      "artists": "Bicep;Clara La San"
+    },
+    {
+      "acousticness": 0.0884,
+      "instrumentalness": 0.757,
+      "name": "Crush",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.354,
+      "instrumentalness": 0.912,
+      "name": "Touch",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.533,
+      "instrumentalness": 0.96,
+      "name": "Keep on Loving You",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.479,
+      "instrumentalness": 0.508,
+      "name": "Each Time You Fall in Love",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.343,
+      "instrumentalness": 0.884,
+      "name": "John Wayne",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.154,
+      "instrumentalness": 0.854,
+      "name": "On the Nature of Daylight",
+      "artists": "Max Richter;Louisa Fuller;Natalia Bonner;John Metcalfe;Philip Sheppard;Chris Worsey"
+    },
+    {
+      "acousticness": 0.818,
+      "instrumentalness": 0.942,
+      "name": "Hearing",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "acousticness": 0.499,
+      "instrumentalness": 0.903,
+      "name": "Spring 1 - 2012",
+      "artists": "Max Richter;Daniel Hope;Konzerthaus Kammerorchester Berlin;Andre de Ridder"
+    },
+    {
+      "acousticness": 0.986,
+      "instrumentalness": 0.923,
+      "name": "Wind Song",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.959,
+      "instrumentalness": 0.889,
+      "name": "Rue des trois fr\u00e8res",
+      "artists": "Fabrizio Paterlini"
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.953,
+      "name": "Temple White",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.994,
+      "instrumentalness": 0.847,
+      "name": "saman",
+      "artists": "\u00d3lafur Arnalds"
+    },
+    {
+      "acousticness": 0.453,
+      "instrumentalness": 0.501,
+      "name": "Don't Let Me Go",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.906,
+      "instrumentalness": 0.96,
+      "name": "Where Is My Mind",
+      "artists": "Maxence Cyrin"
+    },
+    {
+      "acousticness": 0.842,
+      "instrumentalness": 0.938,
+      "name": "The Theory of Everything",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "acousticness": 0.994,
+      "instrumentalness": 0.94,
+      "name": "The Departure",
+      "artists": "Max Richter;Lang Lang"
+    },
+    {
+      "acousticness": 0.911,
+      "instrumentalness": 0.855,
+      "name": "#3",
+      "artists": "Aphex Twin"
+    },
+    {
+      "acousticness": 0.986,
+      "instrumentalness": 0.926,
+      "name": "Ala",
+      "artists": "Joep Beving"
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.866,
+      "name": "La Valse d'Am\u00e9lie - Version piano",
+      "artists": "Yann Tiersen"
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.942,
+      "name": "A Bad Dream That Will Pass Away",
+      "artists": "Luke Howard"
+    },
+    {
+      "acousticness": 0.996,
+      "instrumentalness": 0.871,
+      "name": "Avril 14th",
+      "artists": "Aphex Twin"
+    },
+    {
+      "acousticness": 0.754,
+      "instrumentalness": 0.46,
+      "name": "Kiss It Off Me",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.549,
+      "instrumentalness": 0.105,
+      "name": "Dreaming of You",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.0972,
+      "instrumentalness": 0.0935,
+      "name": "Neon Moon",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.0113,
+      "instrumentalness": 0.0,
+      "name": "King of My Heart - Live",
+      "artists": "Bethel Music;Steffany Gretzinger"
+    },
+    {
+      "acousticness": 0.0041,
+      "instrumentalness": 0.0,
+      "name": "Raise a Hallelujah - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser"
+    },
+    {
+      "acousticness": 0.874,
+      "instrumentalness": 1.68e-05,
+      "name": "Halloween",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.347,
+      "instrumentalness": 0.824,
+      "name": "Apricots",
+      "artists": "Bicep"
+    },
+    {
+      "acousticness": 0.265,
+      "instrumentalness": 0.731,
+      "name": "Playground Love",
+      "artists": "Air;Gordon Tracks"
+    },
+    {
+      "acousticness": 0.878,
+      "instrumentalness": 0.000873,
+      "name": "All I Need (feat. Beth Hirsch)",
+      "artists": "Air;Beth Hirsch"
+    },
+    {
+      "acousticness": 0.453,
+      "instrumentalness": 0.335,
+      "name": "Starry Eyes",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.0412,
+      "instrumentalness": 0.381,
+      "name": "Sesame Syrup",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.939,
+      "instrumentalness": 0.0435,
+      "name": "Weather",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.92,
+      "instrumentalness": 0.646,
+      "name": "From Gold",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.889,
+      "instrumentalness": 0.772,
+      "name": "Chalkboard",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "acousticness": 0.974,
+      "instrumentalness": 1.46e-06,
+      "name": "Chasing Cars",
+      "artists": "Sleeping At Last"
+    },
+    {
+      "acousticness": 0.698,
+      "instrumentalness": 1.46e-05,
+      "name": "It Is Well - Live",
+      "artists": "Bethel Music;Kristene DiMarco"
+    },
+    {
+      "acousticness": 0.965,
+      "instrumentalness": 0.856,
+      "name": "Primavera",
+      "artists": "Ludovico Einaudi;Robert Ziegler;Royal Philharmonic Orchestra"
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.000102,
+      "name": "No Longer Slaves (Spontaneous) - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser"
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.931,
+      "name": "Luminous",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.402,
+      "name": "A Game of Croquet",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "acousticness": 0.982,
+      "instrumentalness": 0.96,
+      "name": "A Model of the Universe",
+      "artists": "J\u00f3hann J\u00f3hannsson"
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.891,
+      "name": "Dawn - From \"Pride & Prejudice\" Soundtrack",
+      "artists": "Dario Marianelli;Jean-Yves Thibaudet"
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.931,
+      "name": "Luminous",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.946,
+      "name": "Dream 1 (before the wind blows it all away) - Pt. 8",
+      "artists": "Max Richter"
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.951,
+      "name": "Natural Light",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.951,
+      "name": "Natural Light",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.993,
+      "instrumentalness": 0.768,
+      "name": "QKThr",
+      "artists": "Aphex Twin"
+    },
+    {
+      "acousticness": 0.483,
+      "instrumentalness": 0.0303,
+      "name": "I'm a Firefighter",
+      "artists": "Cigarettes After Sex"
+    },
+    {
+      "acousticness": 0.953,
+      "instrumentalness": 1.97e-06,
+      "name": "Goodness of God",
+      "artists": "Bethel Music;Jenn Johnson"
+    },
+    {
+      "acousticness": 0.965,
+      "instrumentalness": 0.0315,
+      "name": "Alps",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer"
+    },
+    {
+      "acousticness": 0.935,
+      "instrumentalness": 0.00179,
+      "name": "Embody Me",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.867,
+      "instrumentalness": 0.928,
+      "name": "The Last of Us",
+      "artists": "Gustavo Santaolalla"
+    },
+    {
+      "acousticness": 0.887,
+      "instrumentalness": 0.215,
+      "name": "Decimal",
+      "artists": "Novo Amor"
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.946,
+      "name": "Indian Yellow",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.985,
+      "instrumentalness": 0.895,
+      "name": "Dismantle",
+      "artists": "Peter Sandberg"
+    },
+    {
+      "acousticness": 0.996,
+      "instrumentalness": 0.943,
+      "name": "The Departure",
+      "artists": "Max Richter"
+    },
+    {
+      "acousticness": 0.47,
+      "instrumentalness": 0.898,
+      "name": "Remembrance",
+      "artists": "Balmorhea"
+    },
+    {
+      "acousticness": 0.00985,
+      "instrumentalness": 0.0,
+      "name": "Raise a Hallelujah (Studio Version)",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser"
+    },
+    {
+      "acousticness": 0.0309,
+      "instrumentalness": 0.0,
+      "name": "Faithful",
+      "artists": "Erik Nieder"
+    },
+    {
+      "acousticness": 0.963,
+      "instrumentalness": 0.877,
+      "name": "Pr\u00e9lude",
+      "artists": "Olivia Belli"
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.919,
+      "name": "Rolling Like A Ball",
+      "artists": "Ludovico Einaudi"
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.921,
+      "name": "Mid Air",
+      "artists": "G\u00c5EL"
+    },
+    {
+      "acousticness": 0.951,
+      "instrumentalness": 0.565,
+      "name": "Wu Wei",
+      "artists": "De Moi"
+    },
+    {
+      "acousticness": 0.983,
+      "instrumentalness": 0.852,
+      "name": "pt. 1 Owl Light",
+      "artists": "Stephan Moccio"
+    }
+  ],
+  "duration": {
+    "median_min": 4.1,
+    "mean_min": 4.1,
+    "min_min": 1.1,
+    "max_min": 8.1,
+    "raw_min": [
+      1.1,
+      1.1,
+      1.3,
+      1.5,
+      1.9,
+      1.9,
+      2.0,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.5,
+      2.5,
+      2.5,
+      2.6,
+      2.6,
+      2.6,
+      2.8,
+      2.8,
+      2.8,
+      2.9,
+      2.9,
+      2.9,
+      2.9,
+      3.0,
+      3.0,
+      3.1,
+      3.2,
+      3.2,
+      3.2,
+      3.2,
+      3.2,
+      3.2,
+      3.3,
+      3.3,
+      3.4,
+      3.4,
+      3.5,
+      3.5,
+      3.5,
+      3.6,
+      3.6,
+      3.8,
+      3.9,
+      3.9,
+      3.9,
+      4.0,
+      4.1,
+      4.1,
+      4.1,
+      4.1,
+      4.1,
+      4.1,
+      4.3,
+      4.3,
+      4.3,
+      4.3,
+      4.3,
+      4.3,
+      4.3,
+      4.4,
+      4.4,
+      4.4,
+      4.4,
+      4.5,
+      4.5,
+      4.5,
+      4.5,
+      4.6,
+      4.7,
+      4.7,
+      4.7,
+      4.8,
+      4.8,
+      4.8,
+      4.8,
+      4.8,
+      4.9,
+      4.9,
+      4.9,
+      5.0,
+      5.1,
+      5.1,
+      5.2,
+      5.3,
+      5.3,
+      5.4,
+      5.6,
+      5.6,
+      5.8,
+      6.0,
+      6.2,
+      6.2,
+      6.4,
+      7.4,
+      7.6,
+      7.7,
+      7.8,
+      8.0,
+      8.1
+    ],
+    "histogram": {
+      "0-2min": 7,
+      "2-3min": 18,
+      "3-4min": 21,
+      "4-5min": 35,
+      "5-6min": 10,
+      "6-8min": 7,
+      "8+min": 2
+    }
+  },
+  "danceability": {
+    "median": 0.402,
+    "mean": 0.385
+  },
+  "loudness": {
+    "median": -12.6,
+    "mean": -16.7
+  },
+  "speechiness": {
+    "median": 0.034,
+    "mean": 0.037
+  },
+  "top_artists": [
+    {
+      "name": "Cigarettes After Sex",
+      "count": 22
+    },
+    {
+      "name": "Novo Amor",
+      "count": 14
+    },
+    {
+      "name": "Ludovico Einaudi",
+      "count": 12
+    },
+    {
+      "name": "Sleeping At Last",
+      "count": 7
+    },
+    {
+      "name": "Bethel Music",
+      "count": 7
+    },
+    {
+      "name": "Max Richter",
+      "count": 5
+    },
+    {
+      "name": "J\u00f3hann J\u00f3hannsson",
+      "count": 4
+    },
+    {
+      "name": "Bicep",
+      "count": 3
+    },
+    {
+      "name": "Ed Tullett",
+      "count": 3
+    },
+    {
+      "name": "Lowswimmer",
+      "count": 3
+    },
+    {
+      "name": "Aphex Twin",
+      "count": 3
+    },
+    {
+      "name": "Jonathan David Helser",
+      "count": 3
+    },
+    {
+      "name": "Melissa Helser",
+      "count": 3
+    },
+    {
+      "name": "Daniel Hope",
+      "count": 2
+    },
+    {
+      "name": "Yann Tiersen",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Apocalypse",
+      "artists": "Cigarettes After Sex",
+      "popularity": 84,
+      "tempo": 94.485,
+      "key": "F",
+      "mode": "Major"
+    },
+    {
+      "name": "Experience",
+      "artists": "Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani",
+      "popularity": 79,
+      "tempo": 92.468,
+      "key": "D",
+      "mode": "Major"
+    },
+    {
+      "name": "K.",
+      "artists": "Cigarettes After Sex",
+      "popularity": 78,
+      "tempo": 93.719,
+      "key": "D#/Eb",
+      "mode": "Major"
+    },
+    {
+      "name": "Sunsetz",
+      "artists": "Cigarettes After Sex",
+      "popularity": 78,
+      "tempo": 75.37,
+      "key": "F",
+      "mode": "Major"
+    },
+    {
+      "name": "Cry",
+      "artists": "Cigarettes After Sex",
+      "popularity": 76,
+      "tempo": 142.83,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "Sweet",
+      "artists": "Cigarettes After Sex",
+      "popularity": 75,
+      "tempo": 96.563,
+      "key": "F#/Gb",
+      "mode": "Major"
+    },
+    {
+      "name": "Anchor",
+      "artists": "Novo Amor",
+      "popularity": 75,
+      "tempo": 117.053,
+      "key": "A",
+      "mode": "Major"
+    },
+    {
+      "name": "Glue",
+      "artists": "Bicep",
+      "popularity": 74,
+      "tempo": 129.983,
+      "key": "E",
+      "mode": "Minor"
+    },
+    {
+      "name": "State Lines",
+      "artists": "Novo Amor",
+      "popularity": 73,
+      "tempo": 137.474,
+      "key": "A",
+      "mode": "Major"
+    },
+    {
+      "name": "You Are Enough",
+      "artists": "Sleeping At Last",
+      "popularity": 73,
+      "tempo": 117.996,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Nuvole Bianche",
+      "artists": "Ludovico Einaudi",
+      "popularity": 73,
+      "tempo": 132.614,
+      "key": "G#/Ab",
+      "mode": "Major"
+    },
+    {
+      "name": "Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi",
+      "artists": "Yann Tiersen",
+      "popularity": 73,
+      "tempo": 100.848,
+      "key": "E",
+      "mode": "Minor"
+    },
+    {
+      "name": "Turning Page",
+      "artists": "Sleeping At Last",
+      "popularity": 72,
+      "tempo": 115.241,
+      "key": "D#/Eb",
+      "mode": "Major"
+    },
+    {
+      "name": "Nothing's Gonna Hurt You Baby",
+      "artists": "Cigarettes After Sex",
+      "popularity": 72,
+      "tempo": 96.818,
+      "key": "E",
+      "mode": "Major"
+    },
+    {
+      "name": "Heavenly",
+      "artists": "Cigarettes After Sex",
+      "popularity": 71,
+      "tempo": 105.22,
+      "key": "G#/Ab",
+      "mode": "Major"
+    },
+    {
+      "name": "Touch",
+      "artists": "Sleeping At Last",
+      "popularity": 71,
+      "tempo": 82.006,
+      "key": "C",
+      "mode": "Major"
+    },
+    {
+      "name": "Test & Recognise - Flume Re-work",
+      "artists": "Seekae;Flume",
+      "popularity": 70,
+      "tempo": 109.769,
+      "key": "G#/Ab",
+      "mode": "Major"
+    },
+    {
+      "name": "Una Mattina",
+      "artists": "Ludovico Einaudi",
+      "popularity": 70,
+      "tempo": 131.413,
+      "key": "D",
+      "mode": "Major"
+    },
+    {
+      "name": "Ontario",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer",
+      "popularity": 69,
+      "tempo": 89.877,
+      "key": "A#/Bb",
+      "mode": "Major"
+    },
+    {
+      "name": "Repeat Until Death",
+      "artists": "Novo Amor",
+      "popularity": 69,
+      "tempo": 143.887,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Keep Me",
+      "artists": "Novo Amor",
+      "popularity": 69,
+      "tempo": 104.784,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Already Gone",
+      "artists": "Sleeping At Last",
+      "popularity": 69,
+      "tempo": 130.953,
+      "key": "D#/Eb",
+      "mode": "Major"
+    },
+    {
+      "name": "Poison Tree",
+      "artists": "Grouper",
+      "popularity": 69,
+      "tempo": 111.316,
+      "key": "B",
+      "mode": "Major"
+    },
+    {
+      "name": "Fracture",
+      "artists": "Stephan Moccio",
+      "popularity": 69,
+      "tempo": 85.297,
+      "key": "D",
+      "mode": "Major"
+    },
+    {
+      "name": "Falling In Love",
+      "artists": "Cigarettes After Sex",
+      "popularity": 68,
+      "tempo": 140.673,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "You're All I Want",
+      "artists": "Cigarettes After Sex",
+      "popularity": 68,
+      "tempo": 182.161,
+      "key": "F",
+      "mode": "Major"
+    },
+    {
+      "name": "Carry You",
+      "artists": "Novo Amor",
+      "popularity": 68,
+      "tempo": 93.445,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "Weightless",
+      "artists": "Marconi Union",
+      "popularity": 68,
+      "tempo": 71.432,
+      "key": "D",
+      "mode": "Minor"
+    },
+    {
+      "name": "Saturn",
+      "artists": "Sleeping At Last",
+      "popularity": 68,
+      "tempo": 73.024,
+      "key": "D#/Eb",
+      "mode": "Major"
+    },
+    {
+      "name": "Affection",
+      "artists": "Cigarettes After Sex",
+      "popularity": 67,
+      "tempo": 89.966,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "Haven (from Life Is Strange)",
+      "artists": "Novo Amor",
+      "popularity": 67,
+      "tempo": 110.841,
+      "key": "E",
+      "mode": "Major"
+    },
+    {
+      "name": "Weightless Part 1",
+      "artists": "Marconi Union",
+      "popularity": 67,
+      "tempo": 80.341,
+      "key": "D",
+      "mode": "Minor"
+    },
+    {
+      "name": "Goodness of God - Live",
+      "artists": "Bethel Music;Jenn Johnson",
+      "popularity": 66,
+      "tempo": 126.142,
+      "key": "G#/Ab",
+      "mode": "Major"
+    },
+    {
+      "name": "Euphor",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer",
+      "popularity": 66,
+      "tempo": 114.786,
+      "key": "A#/Bb",
+      "mode": "Minor"
+    },
+    {
+      "name": "Water",
+      "artists": "Bicep;Clara La San",
+      "popularity": 66,
+      "tempo": 130.013,
+      "key": "E",
+      "mode": "Minor"
+    },
+    {
+      "name": "Crush",
+      "artists": "Cigarettes After Sex",
+      "popularity": 65,
+      "tempo": 98.357,
+      "key": "F",
+      "mode": "Major"
+    },
+    {
+      "name": "Touch",
+      "artists": "Cigarettes After Sex",
+      "popularity": 65,
+      "tempo": 95.981,
+      "key": "F#/Gb",
+      "mode": "Major"
+    },
+    {
+      "name": "Keep on Loving You",
+      "artists": "Cigarettes After Sex",
+      "popularity": 65,
+      "tempo": 73.457,
+      "key": "D",
+      "mode": "Minor"
+    },
+    {
+      "name": "Each Time You Fall in Love",
+      "artists": "Cigarettes After Sex",
+      "popularity": 65,
+      "tempo": 75.927,
+      "key": "A#/Bb",
+      "mode": "Major"
+    },
+    {
+      "name": "John Wayne",
+      "artists": "Cigarettes After Sex",
+      "popularity": 65,
+      "tempo": 123.933,
+      "key": "D#/Eb",
+      "mode": "Major"
+    },
+    {
+      "name": "On the Nature of Daylight",
+      "artists": "Max Richter;Louisa Fuller;Natalia Bonner;John Metcalfe;Philip Sheppard;Chris Worsey",
+      "popularity": 65,
+      "tempo": 65.38,
+      "key": "A#/Bb",
+      "mode": "Minor"
+    },
+    {
+      "name": "Hearing",
+      "artists": "Sleeping At Last",
+      "popularity": 65,
+      "tempo": 141.869,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "Spring 1 - 2012",
+      "artists": "Max Richter;Daniel Hope;Konzerthaus Kammerorchester Berlin;Andre de Ridder",
+      "popularity": 65,
+      "tempo": 105.513,
+      "key": "C#/Db",
+      "mode": "Minor"
+    },
+    {
+      "name": "Wind Song",
+      "artists": "Ludovico Einaudi",
+      "popularity": 65,
+      "tempo": 72.7,
+      "key": "B",
+      "mode": "Minor"
+    },
+    {
+      "name": "Rue des trois fr\u00e8res",
+      "artists": "Fabrizio Paterlini",
+      "popularity": 65,
+      "tempo": 138.877,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Temple White",
+      "artists": "Ludovico Einaudi",
+      "popularity": 65,
+      "tempo": 72.204,
+      "key": "G#/Ab",
+      "mode": "Major"
+    },
+    {
+      "name": "saman",
+      "artists": "\u00d3lafur Arnalds",
+      "popularity": 65,
+      "tempo": 108.74,
+      "key": "C",
+      "mode": "Minor"
+    },
+    {
+      "name": "Don't Let Me Go",
+      "artists": "Cigarettes After Sex",
+      "popularity": 64,
+      "tempo": 96.722,
+      "key": "F#/Gb",
+      "mode": "Major"
+    },
+    {
+      "name": "Where Is My Mind",
+      "artists": "Maxence Cyrin",
+      "popularity": 64,
+      "tempo": 141.839,
+      "key": "A",
+      "mode": "Major"
+    },
+    {
+      "name": "The Theory of Everything",
+      "artists": "J\u00f3hann J\u00f3hannsson",
+      "popularity": 64,
+      "tempo": 104.03,
+      "key": "D",
+      "mode": "Major"
+    },
+    {
+      "name": "The Departure",
+      "artists": "Max Richter;Lang Lang",
+      "popularity": 64,
+      "tempo": 0.0,
+      "key": "C",
+      "mode": "Minor"
+    },
+    {
+      "name": "#3",
+      "artists": "Aphex Twin",
+      "popularity": 64,
+      "tempo": 143.315,
+      "key": "F#/Gb",
+      "mode": "Minor"
+    },
+    {
+      "name": "Ala",
+      "artists": "Joep Beving",
+      "popularity": 64,
+      "tempo": 79.487,
+      "key": "G",
+      "mode": "Minor"
+    },
+    {
+      "name": "La Valse d'Am\u00e9lie - Version piano",
+      "artists": "Yann Tiersen",
+      "popularity": 64,
+      "tempo": 177.694,
+      "key": "A",
+      "mode": "Minor"
+    },
+    {
+      "name": "A Bad Dream That Will Pass Away",
+      "artists": "Luke Howard",
+      "popularity": 64,
+      "tempo": 111.914,
+      "key": "A#/Bb",
+      "mode": "Major"
+    },
+    {
+      "name": "Avril 14th",
+      "artists": "Aphex Twin",
+      "popularity": 64,
+      "tempo": 157.811,
+      "key": "G#/Ab",
+      "mode": "Major"
+    },
+    {
+      "name": "Kiss It Off Me",
+      "artists": "Cigarettes After Sex",
+      "popularity": 63,
+      "tempo": 80.388,
+      "key": "E",
+      "mode": "Major"
+    },
+    {
+      "name": "Dreaming of You",
+      "artists": "Cigarettes After Sex",
+      "popularity": 63,
+      "tempo": 64.135,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "Neon Moon",
+      "artists": "Cigarettes After Sex",
+      "popularity": 63,
+      "tempo": 180.247,
+      "key": "E",
+      "mode": "Major"
+    },
+    {
+      "name": "King of My Heart - Live",
+      "artists": "Bethel Music;Steffany Gretzinger",
+      "popularity": 63,
+      "tempo": 136.147,
+      "key": "A",
+      "mode": "Major"
+    },
+    {
+      "name": "Raise a Hallelujah - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser",
+      "popularity": 63,
+      "tempo": 81.972,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Halloween",
+      "artists": "Novo Amor",
+      "popularity": 63,
+      "tempo": 106.549,
+      "key": "F",
+      "mode": "Major"
+    },
+    {
+      "name": "Apricots",
+      "artists": "Bicep",
+      "popularity": 63,
+      "tempo": 127.986,
+      "key": "B",
+      "mode": "Major"
+    },
+    {
+      "name": "Playground Love",
+      "artists": "Air;Gordon Tracks",
+      "popularity": 63,
+      "tempo": 143.086,
+      "key": "G",
+      "mode": "Minor"
+    },
+    {
+      "name": "All I Need (feat. Beth Hirsch)",
+      "artists": "Air;Beth Hirsch",
+      "popularity": 63,
+      "tempo": 93.946,
+      "key": "G",
+      "mode": "Minor"
+    },
+    {
+      "name": "Starry Eyes",
+      "artists": "Cigarettes After Sex",
+      "popularity": 62,
+      "tempo": 100.264,
+      "key": "D",
+      "mode": "Major"
+    },
+    {
+      "name": "Sesame Syrup",
+      "artists": "Cigarettes After Sex",
+      "popularity": 62,
+      "tempo": 93.636,
+      "key": "E",
+      "mode": "Major"
+    },
+    {
+      "name": "Weather",
+      "artists": "Novo Amor",
+      "popularity": 62,
+      "tempo": 143.848,
+      "key": "F#/Gb",
+      "mode": "Major"
+    },
+    {
+      "name": "From Gold",
+      "artists": "Novo Amor",
+      "popularity": 62,
+      "tempo": 100.253,
+      "key": "F",
+      "mode": "Major"
+    },
+    {
+      "name": "Chalkboard",
+      "artists": "J\u00f3hann J\u00f3hannsson",
+      "popularity": 62,
+      "tempo": 92.682,
+      "key": "A",
+      "mode": "Minor"
+    },
+    {
+      "name": "Chasing Cars",
+      "artists": "Sleeping At Last",
+      "popularity": 62,
+      "tempo": 108.13,
+      "key": "B",
+      "mode": "Major"
+    },
+    {
+      "name": "It Is Well - Live",
+      "artists": "Bethel Music;Kristene DiMarco",
+      "popularity": 62,
+      "tempo": 129.82,
+      "key": "E",
+      "mode": "Minor"
+    },
+    {
+      "name": "Primavera",
+      "artists": "Ludovico Einaudi;Robert Ziegler;Royal Philharmonic Orchestra",
+      "popularity": 62,
+      "tempo": 141.628,
+      "key": "C",
+      "mode": "Minor"
+    },
+    {
+      "name": "No Longer Slaves (Spontaneous) - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser",
+      "popularity": 62,
+      "tempo": 148.005,
+      "key": "A#/Bb",
+      "mode": "Major"
+    },
+    {
+      "name": "Luminous",
+      "artists": "Ludovico Einaudi",
+      "popularity": 62,
+      "tempo": 67.775,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "A Game of Croquet",
+      "artists": "J\u00f3hann J\u00f3hannsson",
+      "popularity": 62,
+      "tempo": 118.456,
+      "key": "E",
+      "mode": "Minor"
+    },
+    {
+      "name": "A Model of the Universe",
+      "artists": "J\u00f3hann J\u00f3hannsson",
+      "popularity": 62,
+      "tempo": 90.243,
+      "key": "G",
+      "mode": "Minor"
+    },
+    {
+      "name": "Dawn - From \"Pride & Prejudice\" Soundtrack",
+      "artists": "Dario Marianelli;Jean-Yves Thibaudet",
+      "popularity": 62,
+      "tempo": 78.853,
+      "key": "C",
+      "mode": "Major"
+    },
+    {
+      "name": "Luminous",
+      "artists": "Ludovico Einaudi",
+      "popularity": 62,
+      "tempo": 67.775,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Dream 1 (before the wind blows it all away) - Pt. 8",
+      "artists": "Max Richter",
+      "popularity": 62,
+      "tempo": 69.327,
+      "key": "F#/Gb",
+      "mode": "Major"
+    },
+    {
+      "name": "Natural Light",
+      "artists": "Ludovico Einaudi",
+      "popularity": 62,
+      "tempo": 68.61,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Natural Light",
+      "artists": "Ludovico Einaudi",
+      "popularity": 62,
+      "tempo": 68.61,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "QKThr",
+      "artists": "Aphex Twin",
+      "popularity": 62,
+      "tempo": 78.66,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "I'm a Firefighter",
+      "artists": "Cigarettes After Sex",
+      "popularity": 61,
+      "tempo": 114.941,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "Goodness of God",
+      "artists": "Bethel Music;Jenn Johnson",
+      "popularity": 61,
+      "tempo": 110.424,
+      "key": "F#/Gb",
+      "mode": "Major"
+    },
+    {
+      "name": "Alps",
+      "artists": "Novo Amor;Ed Tullett;Lowswimmer",
+      "popularity": 61,
+      "tempo": 146.631,
+      "key": "D#/Eb",
+      "mode": "Major"
+    },
+    {
+      "name": "Embody Me",
+      "artists": "Novo Amor",
+      "popularity": 61,
+      "tempo": 121.107,
+      "key": "C",
+      "mode": "Major"
+    },
+    {
+      "name": "The Last of Us",
+      "artists": "Gustavo Santaolalla",
+      "popularity": 61,
+      "tempo": 154.626,
+      "key": "E",
+      "mode": "Minor"
+    },
+    {
+      "name": "Decimal",
+      "artists": "Novo Amor",
+      "popularity": 61,
+      "tempo": 79.497,
+      "key": "G",
+      "mode": "Major"
+    },
+    {
+      "name": "Indian Yellow",
+      "artists": "Ludovico Einaudi",
+      "popularity": 61,
+      "tempo": 68.083,
+      "key": "D",
+      "mode": "Major"
+    },
+    {
+      "name": "Dismantle",
+      "artists": "Peter Sandberg",
+      "popularity": 61,
+      "tempo": 100.195,
+      "key": "D#/Eb",
+      "mode": "Major"
+    },
+    {
+      "name": "The Departure",
+      "artists": "Max Richter",
+      "popularity": 61,
+      "tempo": 116.941,
+      "key": "C",
+      "mode": "Minor"
+    },
+    {
+      "name": "Remembrance",
+      "artists": "Balmorhea",
+      "popularity": 61,
+      "tempo": 121.276,
+      "key": "F#/Gb",
+      "mode": "Minor"
+    },
+    {
+      "name": "Raise a Hallelujah (Studio Version)",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser",
+      "popularity": 61,
+      "tempo": 163.997,
+      "key": "C#/Db",
+      "mode": "Major"
+    },
+    {
+      "name": "Faithful",
+      "artists": "Erik Nieder",
+      "popularity": 61,
+      "tempo": 139.972,
+      "key": "B",
+      "mode": "Major"
+    },
+    {
+      "name": "Pr\u00e9lude",
+      "artists": "Olivia Belli",
+      "popularity": 61,
+      "tempo": 151.531,
+      "key": "C",
+      "mode": "Minor"
+    },
+    {
+      "name": "Rolling Like A Ball",
+      "artists": "Ludovico Einaudi",
+      "popularity": 61,
+      "tempo": 175.159,
+      "key": "G#/Ab",
+      "mode": "Major"
+    },
+    {
+      "name": "Mid Air",
+      "artists": "G\u00c5EL",
+      "popularity": 61,
+      "tempo": 111.895,
+      "key": "C",
+      "mode": "Major"
+    },
+    {
+      "name": "Wu Wei",
+      "artists": "De Moi",
+      "popularity": 61,
+      "tempo": 68.836,
+      "key": "C",
+      "mode": "Major"
+    },
+    {
+      "name": "pt. 1 Owl Light",
+      "artists": "Stephan Moccio",
+      "popularity": 61,
+      "tempo": 113.645,
+      "key": "C",
+      "mode": "Major"
+    }
+  ]
+}
