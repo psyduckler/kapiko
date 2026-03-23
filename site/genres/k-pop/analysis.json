@@ -1,0 +1,2802 @@
+{
+  "genre": "K-Pop",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 72.035,
+    "max": 200.263,
+    "mean": 121.038,
+    "median": 119.975,
+    "q1": 103.991,
+    "q3": 138.055,
+    "histogram": {
+      "70-79": 4,
+      "80-89": 4,
+      "90-99": 11,
+      "100-109": 19,
+      "110-119": 14,
+      "120-129": 17,
+      "130-139": 9,
+      "140-149": 8,
+      "150-159": 6,
+      "160-169": 2,
+      "170-179": 4,
+      "180-189": 1,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "C#/Db": 15,
+    "G#/Ab": 10,
+    "B": 10,
+    "F": 10,
+    "D": 10,
+    "C": 9,
+    "F#/Gb": 9,
+    "A": 9,
+    "G": 8,
+    "A#/Bb": 5,
+    "E": 3,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 54,
+    "Minor": 46
+  },
+  "key_mode_distribution": {
+    "C#/Db Major": 10,
+    "G#/Ab Major": 9,
+    "C Major": 7,
+    "F Minor": 7,
+    "F#/Gb Minor": 6,
+    "G Major": 6,
+    "B Minor": 6,
+    "D Major": 6,
+    "C#/Db Minor": 5,
+    "A Major": 5,
+    "D Minor": 4,
+    "A Minor": 4,
+    "B Major": 4,
+    "A#/Bb Minor": 4,
+    "F Major": 3,
+    "E Minor": 3,
+    "F#/Gb Major": 3,
+    "D#/Eb Minor": 2,
+    "G Minor": 2,
+    "C Minor": 2,
+    "G#/Ab Minor": 1,
+    "A#/Bb Major": 1
+  },
+  "energy": {
+    "min": 0.296,
+    "max": 0.974,
+    "mean": 0.749,
+    "median": 0.766,
+    "q1": 0.682,
+    "q3": 0.856
+  },
+  "valence": {
+    "min": 0.123,
+    "max": 0.922,
+    "mean": 0.573,
+    "median": 0.579,
+    "q1": 0.45,
+    "q3": 0.696
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.922,
+      "valence": 0.799
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.651
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.783
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.737
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.683
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.538
+    },
+    {
+      "energy": 0.818,
+      "valence": 0.696
+    },
+    {
+      "energy": 0.714,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.459,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.432
+    },
+    {
+      "energy": 0.585,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.628
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.803
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.443
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.645
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.45
+    },
+    {
+      "energy": 0.731,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.582,
+      "valence": 0.332
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.297
+    },
+    {
+      "energy": 0.553,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.57
+    },
+    {
+      "energy": 0.459,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.606,
+      "valence": 0.447
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.29
+    },
+    {
+      "energy": 0.352,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.6,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.651
+    },
+    {
+      "energy": 0.903,
+      "valence": 0.922
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.552
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.553
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.788
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.551
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.663
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.877
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.396
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.455
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.623,
+      "valence": 0.123
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.296,
+      "valence": 0.151
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.92,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.762,
+      "valence": 0.859
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.551
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.489
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.881
+    },
+    {
+      "energy": 0.786,
+      "valence": 0.79
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.769
+    },
+    {
+      "energy": 0.771,
+      "valence": 0.482
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.775
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.835
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.605
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.157
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.569
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.44
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.816,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.627
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.765
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.335
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.782
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.489
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.923,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.762,
+      "valence": 0.731
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.892,
+    "mean": 0.119,
+    "median": 0.055,
+    "q1": 0.011,
+    "q3": 0.154
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.941,
+    "mean": 0.019,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.085,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.513,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.154,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.163,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.394,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.587,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.458,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.312,
+      "instrumentalness": 0.906
+    },
+    {
+      "acousticness": 0.312,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.211,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.604,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.069,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.395,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.892,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.615,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.306,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.216,
+      "instrumentalness": 0.941
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.2,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.354,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.193,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.065,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.291,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.417,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.137,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 142258,
+    "max": 309327,
+    "mean": 201444.84,
+    "median": 192612.0,
+    "q1": 180022,
+    "q3": 217051
+  },
+  "danceability": {
+    "min": 0.39,
+    "max": 0.935,
+    "mean": 0.694,
+    "median": 0.706,
+    "q1": 0.615,
+    "q3": 0.781
+  },
+  "loudness": {
+    "min": -10.121,
+    "max": -0.173,
+    "mean": -4.576,
+    "median": -4.41,
+    "q1": -5.564,
+    "q3": -3.192
+  },
+  "speechiness": {
+    "min": 0.031,
+    "max": 0.411,
+    "mean": 0.107,
+    "median": 0.08,
+    "q1": 0.051,
+    "q3": 0.118
+  },
+  "top_artists": [
+    {
+      "name": "BTS",
+      "count": 21
+    },
+    {
+      "name": "BLACKPINK",
+      "count": 14
+    },
+    {
+      "name": "Stray Kids",
+      "count": 9
+    },
+    {
+      "name": "TWICE",
+      "count": 5
+    },
+    {
+      "name": "Jack Harlow",
+      "count": 4
+    },
+    {
+      "name": "LE SSERAFIM",
+      "count": 4
+    },
+    {
+      "name": "SEVENTEEN",
+      "count": 4
+    },
+    {
+      "name": "ENHYPEN",
+      "count": 4
+    },
+    {
+      "name": "IVE",
+      "count": 3
+    },
+    {
+      "name": "j-hope",
+      "count": 3
+    },
+    {
+      "name": "Dhanush",
+      "count": 3
+    },
+    {
+      "name": "Anirudh Ravichander",
+      "count": 3
+    },
+    {
+      "name": "TOMORROW X TOGETHER",
+      "count": 3
+    },
+    {
+      "name": "ITZY",
+      "count": 3
+    },
+    {
+      "name": "NMIXX",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "After LIKE",
+      "artists": "IVE",
+      "album": "After LIKE",
+      "popularity": 88,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.922,
+      "valence": 0.799,
+      "danceability": 0.68,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -1.2,
+      "speechiness": 0.121,
+      "duration_ms": 176973,
+      "slug": "after-like-ive"
+    },
+    {
+      "name": "Shut Down",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 87,
+      "tempo": 110.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.657,
+      "valence": 0.651,
+      "danceability": 0.813,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.037,
+      "duration_ms": 175889,
+      "slug": "shut-down-blackpink"
+    },
+    {
+      "name": "Talk that Talk",
+      "artists": "TWICE",
+      "album": "BETWEEN 1&2",
+      "popularity": 86,
+      "tempo": 120.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.907,
+      "valence": 0.783,
+      "danceability": 0.772,
+      "acousticness": 0.136,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.124,
+      "duration_ms": 177466,
+      "slug": "talk-that-talk-twice"
+    },
+    {
+      "name": "First Class",
+      "artists": "Jack Harlow",
+      "album": "First Class",
+      "popularity": 86,
+      "tempo": 107.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.563,
+      "valence": 0.324,
+      "danceability": 0.905,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.102,
+      "duration_ms": 173947,
+      "slug": "first-class-jack-harlow"
+    },
+    {
+      "name": "Dynamite",
+      "artists": "BTS",
+      "album": "BE",
+      "popularity": 85,
+      "tempo": 114.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.737,
+      "danceability": 0.746,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.099,
+      "duration_ms": 199053,
+      "slug": "dynamite-bts"
+    },
+    {
+      "name": "Pink Venom",
+      "artists": "BLACKPINK",
+      "album": "Pink Venom",
+      "popularity": 85,
+      "tempo": 90.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.69,
+      "danceability": 0.794,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.076,
+      "duration_ms": 186964,
+      "slug": "pink-venom-blackpink"
+    },
+    {
+      "name": "Yet To Come",
+      "artists": "BTS",
+      "album": "Proof",
+      "popularity": 85,
+      "tempo": 172.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.683,
+      "danceability": 0.559,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.189,
+      "duration_ms": 193593,
+      "slug": "yet-to-come-bts"
+    },
+    {
+      "name": "LOVE DIVE",
+      "artists": "IVE",
+      "album": "LOVE DIVE",
+      "popularity": 85,
+      "tempo": 117.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.709,
+      "valence": 0.538,
+      "danceability": 0.703,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.043,
+      "duration_ms": 177186,
+      "slug": "love-dive-ive"
+    },
+    {
+      "name": "Run BTS",
+      "artists": "BTS",
+      "album": "Proof",
+      "popularity": 84,
+      "tempo": 77.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.818,
+      "valence": 0.696,
+      "danceability": 0.724,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.168,
+      "duration_ms": 204939,
+      "slug": "run-bts-bts"
+    },
+    {
+      "name": "Rush Hour (Feat. j-hope of BTS)",
+      "artists": "Crush;j-hope",
+      "album": "Rush Hour",
+      "popularity": 83,
+      "tempo": 95.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.714,
+      "valence": 0.74,
+      "danceability": 0.738,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.249,
+      "duration_ms": 177302,
+      "slug": "rush-hour-feat-j-hope-of-bts-crush"
+    },
+    {
+      "name": "Pink Venom",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 83,
+      "tempo": 90.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.69,
+      "danceability": 0.794,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.076,
+      "duration_ms": 186964,
+      "slug": "pink-venom-blackpink"
+    },
+    {
+      "name": "Butter",
+      "artists": "BTS",
+      "album": "Proof",
+      "popularity": 83,
+      "tempo": 110.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.459,
+      "valence": 0.695,
+      "danceability": 0.759,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.095,
+      "duration_ms": 164952,
+      "slug": "butter-bts"
+    },
+    {
+      "name": "FEARLESS",
+      "artists": "LE SSERAFIM",
+      "album": "FEARLESS",
+      "popularity": 83,
+      "tempo": 104.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.62,
+      "valence": 0.432,
+      "danceability": 0.863,
+      "acousticness": 0.051,
+      "instrumentalness": 0.003,
+      "loudness": -7.2,
+      "speechiness": 0.135,
+      "duration_ms": 168437,
+      "slug": "fearless-le-sserafim"
+    },
+    {
+      "name": "Typa Girl",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 82,
+      "tempo": 132.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.585,
+      "valence": 0.519,
+      "danceability": 0.918,
+      "acousticness": 0.063,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.089,
+      "duration_ms": 179172,
+      "slug": "typa-girl-blackpink"
+    },
+    {
+      "name": "CASE 143",
+      "artists": "Stray Kids",
+      "album": "MAXIDENT",
+      "popularity": 82,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.89,
+      "valence": 0.69,
+      "danceability": 0.812,
+      "acousticness": 0.096,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.209,
+      "duration_ms": 191964,
+      "slug": "case-143-stray-kids"
+    },
+    {
+      "name": "DICE",
+      "artists": "NMIXX",
+      "album": "ENTWURF",
+      "popularity": 82,
+      "tempo": 131.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.628,
+      "danceability": 0.556,
+      "acousticness": 0.085,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.254,
+      "duration_ms": 165746,
+      "slug": "dice-nmixx"
+    },
+    {
+      "name": "Boy With Luv (feat. Halsey)",
+      "artists": "BTS;Halsey",
+      "album": "MAP OF THE SOUL : PERSONA",
+      "popularity": 80,
+      "tempo": 119.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.862,
+      "valence": 0.803,
+      "danceability": 0.645,
+      "acousticness": 0.093,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.085,
+      "duration_ms": 229773,
+      "slug": "boy-with-luv-feat-halsey-bts"
+    },
+    {
+      "name": "Hard to Love",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 80,
+      "tempo": 105.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.443,
+      "danceability": 0.647,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.049,
+      "duration_ms": 162569,
+      "slug": "hard-to-love-blackpink"
+    },
+    {
+      "name": "Megham Karukatha (From \"Thiruchitrambalam\")",
+      "artists": "Dhanush;Anirudh Ravichander",
+      "album": "Megham Karukatha (From \"Thiruchitrambalam\")",
+      "popularity": 80,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.614,
+      "valence": 0.743,
+      "danceability": 0.429,
+      "acousticness": 0.513,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.071,
+      "duration_ms": 290400,
+      "slug": "megham-karukatha-from-thiruchitrambalam-dhanush"
+    },
+    {
+      "name": "Permission to Dance",
+      "artists": "BTS",
+      "album": "Permission to Dance",
+      "popularity": 80,
+      "tempo": 124.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.741,
+      "valence": 0.646,
+      "danceability": 0.702,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.043,
+      "duration_ms": 187585,
+      "slug": "permission-to-dance-bts"
+    },
+    {
+      "name": "HOT",
+      "artists": "SEVENTEEN",
+      "album": "SEVENTEEN 4th Album 'Face the Sun'",
+      "popularity": 80,
+      "tempo": 111.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.777,
+      "valence": 0.64,
+      "danceability": 0.765,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.04,
+      "duration_ms": 197586,
+      "slug": "hot-seventeen"
+    },
+    {
+      "name": "MANIAC",
+      "artists": "Stray Kids",
+      "album": "ODDINARY",
+      "popularity": 80,
+      "tempo": 119.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.709,
+      "danceability": 0.581,
+      "acousticness": 0.154,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.411,
+      "duration_ms": 182757,
+      "slug": "maniac-stray-kids"
+    },
+    {
+      "name": "TOMBOY",
+      "artists": "(G)I-DLE",
+      "album": "I NEVER DIE",
+      "popularity": 80,
+      "tempo": 124.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.87,
+      "valence": 0.645,
+      "danceability": 0.755,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.094,
+      "duration_ms": 174386,
+      "slug": "tomboy-gi-dle"
+    },
+    {
+      "name": "Life Goes On",
+      "artists": "BTS",
+      "album": "BE",
+      "popularity": 79,
+      "tempo": 81.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.716,
+      "valence": 0.45,
+      "danceability": 0.566,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.042,
+      "duration_ms": 207481,
+      "slug": "life-goes-on-bts"
+    },
+    {
+      "name": "ELEVEN",
+      "artists": "IVE",
+      "album": "ELEVEN",
+      "popularity": 79,
+      "tempo": 120.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.731,
+      "valence": 0.587,
+      "danceability": 0.828,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.111,
+      "duration_ms": 178453,
+      "slug": "eleven-ive"
+    },
+    {
+      "name": "First Class",
+      "artists": "Jack Harlow",
+      "album": "Come Home The Kids Miss You",
+      "popularity": 79,
+      "tempo": 107.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.582,
+      "valence": 0.332,
+      "danceability": 0.902,
+      "acousticness": 0.111,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.109,
+      "duration_ms": 173947,
+      "slug": "first-class-jack-harlow"
+    },
+    {
+      "name": "FOREVER 1",
+      "artists": "Girls' Generation",
+      "album": "FOREVER 1 - The 7th Album",
+      "popularity": 79,
+      "tempo": 123.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.871,
+      "valence": 0.297,
+      "danceability": 0.615,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -1.2,
+      "speechiness": 0.052,
+      "duration_ms": 202533,
+      "slug": "forever-1-girls-generation"
+    },
+    {
+      "name": "MONEY",
+      "artists": "LISA",
+      "album": "LALISA",
+      "popularity": 78,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.553,
+      "valence": 0.4,
+      "danceability": 0.826,
+      "acousticness": 0.163,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.234,
+      "duration_ms": 168227,
+      "slug": "money-lisa"
+    },
+    {
+      "name": "Euphoria",
+      "artists": "BTS",
+      "album": "Love Yourself \u7d50 'Answer'",
+      "popularity": 78,
+      "tempo": 105.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.57,
+      "danceability": 0.637,
+      "acousticness": 0.394,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.034,
+      "duration_ms": 228615,
+      "slug": "euphoria-bts"
+    },
+    {
+      "name": "Butter",
+      "artists": "BTS",
+      "album": "Butter (Hotter, Sweeter, Cooler)",
+      "popularity": 78,
+      "tempo": 110.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.459,
+      "valence": 0.695,
+      "danceability": 0.759,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.095,
+      "duration_ms": 164441,
+      "slug": "butter-bts"
+    },
+    {
+      "name": "Tally",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 78,
+      "tempo": 129.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.606,
+      "valence": 0.447,
+      "danceability": 0.693,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.031,
+      "duration_ms": 184248,
+      "slug": "tally-blackpink"
+    },
+    {
+      "name": "For Youth",
+      "artists": "BTS",
+      "album": "Proof",
+      "popularity": 78,
+      "tempo": 116.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.29,
+      "danceability": 0.633,
+      "acousticness": 0.434,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.037,
+      "duration_ms": 264480,
+      "slug": "for-youth-bts"
+    },
+    {
+      "name": "The Happiest Girl",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 78,
+      "tempo": 181.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.352,
+      "valence": 0.548,
+      "danceability": 0.439,
+      "acousticness": 0.587,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.057,
+      "duration_ms": 222025,
+      "slug": "the-happiest-girl-blackpink"
+    },
+    {
+      "name": "ZOOM",
+      "artists": "Jessi",
+      "album": "ZOOM",
+      "popularity": 78,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.6,
+      "valence": 0.457,
+      "danceability": 0.874,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.158,
+      "duration_ms": 174840,
+      "slug": "zoom-jessi"
+    },
+    {
+      "name": "Polaroid Love",
+      "artists": "ENHYPEN",
+      "album": "DIMENSION : ANSWER",
+      "popularity": 78,
+      "tempo": 138.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.67,
+      "valence": 0.651,
+      "danceability": 0.738,
+      "acousticness": 0.458,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.044,
+      "duration_ms": 184601,
+      "slug": "polaroid-love-enhypen"
+    },
+    {
+      "name": "The Feels",
+      "artists": "TWICE",
+      "album": "Formula of Love: O+T=<3",
+      "popularity": 78,
+      "tempo": 120.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.903,
+      "valence": 0.922,
+      "danceability": 0.808,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.073,
+      "duration_ms": 198053,
+      "slug": "the-feels-twice"
+    },
+    {
+      "name": "Good Boy Gone Bad",
+      "artists": "TOMORROW X TOGETHER",
+      "album": "minisode 2: Thursday's Child",
+      "popularity": 78,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.552,
+      "danceability": 0.475,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.102,
+      "duration_ms": 191038,
+      "slug": "good-boy-gone-bad-tomorrow-x-together"
+    },
+    {
+      "name": "Shootout",
+      "artists": "Izzamuzzic;Julien Marchal",
+      "album": "Shootout",
+      "popularity": 78,
+      "tempo": 87.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.578,
+      "valence": 0.553,
+      "danceability": 0.663,
+      "acousticness": 0.312,
+      "instrumentalness": 0.906,
+      "loudness": -9.1,
+      "speechiness": 0.069,
+      "duration_ms": 295308,
+      "slug": "shootout-izzamuzzic"
+    },
+    {
+      "name": "_WORLD",
+      "artists": "SEVENTEEN",
+      "album": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+      "popularity": 78,
+      "tempo": 111.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.809,
+      "valence": 0.788,
+      "danceability": 0.709,
+      "acousticness": 0.312,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.054,
+      "duration_ms": 178453,
+      "slug": "-world-seventeen"
+    },
+    {
+      "name": "SNEAKERS",
+      "artists": "ITZY",
+      "album": "CHECKMATE",
+      "popularity": 78,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.551,
+      "danceability": 0.935,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.078,
+      "duration_ms": 179453,
+      "slug": "sneakers-itzy"
+    },
+    {
+      "name": "New thing (Prod. ZICO) (Feat. Homies)",
+      "artists": "ZICO;HOMIES",
+      "album": "Street Man Fighter Original Vol.3 (Mission by Rank)",
+      "popularity": 78,
+      "tempo": 175.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.865,
+      "valence": 0.663,
+      "danceability": 0.775,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -2.0,
+      "speechiness": 0.307,
+      "duration_ms": 147426,
+      "slug": "new-thing-prod-zico-feat-homies-zico"
+    },
+    {
+      "name": "28 Reasons",
+      "artists": "SEULGI",
+      "album": "28 Reasons - The 1st Mini Album",
+      "popularity": 78,
+      "tempo": 122.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.488,
+      "danceability": 0.766,
+      "acousticness": 0.211,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.095,
+      "duration_ms": 189413,
+      "slug": "28-reasons-seulgi"
+    },
+    {
+      "name": "Girls",
+      "artists": "aespa",
+      "album": "Girls - The 2nd Mini Album",
+      "popularity": 78,
+      "tempo": 172.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.974,
+      "valence": 0.65,
+      "danceability": 0.57,
+      "acousticness": 0.115,
+      "instrumentalness": 0.001,
+      "loudness": -0.2,
+      "speechiness": 0.325,
+      "duration_ms": 240440,
+      "slug": "girls-aespa"
+    },
+    {
+      "name": "Mayakkama Kalakkama (From \"Thiruchitrambalam\")",
+      "artists": "Dhanush;Anirudh Ravichander",
+      "album": "Mayakkama Kalakkama (From \"Thiruchitrambalam\")",
+      "popularity": 77,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.536,
+      "valence": 0.877,
+      "danceability": 0.789,
+      "acousticness": 0.604,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.042,
+      "duration_ms": 142258,
+      "slug": "mayakkama-kalakkama-from-thiruchitrambalam-dhanush"
+    },
+    {
+      "name": "BOOMBAYAH",
+      "artists": "BLACKPINK",
+      "album": "SQUARE ONE",
+      "popularity": 77,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.396,
+      "danceability": 0.661,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.059,
+      "duration_ms": 240793,
+      "slug": "boombayah-blackpink"
+    },
+    {
+      "name": "As If It's Your Last",
+      "artists": "BLACKPINK",
+      "album": "As If It's Your Last",
+      "popularity": 77,
+      "tempo": 125.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.455,
+      "danceability": 0.786,
+      "acousticness": 0.069,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.081,
+      "duration_ms": 213264,
+      "slug": "as-if-its-your-last-blackpink"
+    },
+    {
+      "name": "Yeah Yeah Yeah",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 77,
+      "tempo": 124.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.555,
+      "valence": 0.65,
+      "danceability": 0.732,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.034,
+      "duration_ms": 178923,
+      "slug": "yeah-yeah-yeah-blackpink"
+    },
+    {
+      "name": "FEVER",
+      "artists": "ENHYPEN",
+      "album": "BORDER : CARNIVAL",
+      "popularity": 77,
+      "tempo": 73.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.713,
+      "valence": 0.471,
+      "danceability": 0.6,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.059,
+      "duration_ms": 172106,
+      "slug": "fever-enhypen"
+    },
+    {
+      "name": "MORE",
+      "artists": "j-hope",
+      "album": "MORE",
+      "popularity": 77,
+      "tempo": 97.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.306,
+      "danceability": 0.783,
+      "acousticness": 0.005,
+      "instrumentalness": 0.002,
+      "loudness": -4.9,
+      "speechiness": 0.036,
+      "duration_ms": 180022,
+      "slug": "more-j-hope"
+    },
+    {
+      "name": "TASTE (Lee Know, Hyunjin, Felix)",
+      "artists": "Stray Kids",
+      "album": "MAXIDENT",
+      "popularity": 77,
+      "tempo": 140.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.623,
+      "valence": 0.123,
+      "danceability": 0.626,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.065,
+      "duration_ms": 216120,
+      "slug": "taste-lee-know-hyunjin-felix-stray-kids"
+    },
+    {
+      "name": "Sour Grapes",
+      "artists": "LE SSERAFIM",
+      "album": "FEARLESS",
+      "popularity": 77,
+      "tempo": 140.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.72,
+      "danceability": 0.779,
+      "acousticness": 0.395,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.046,
+      "duration_ms": 196540,
+      "slug": "sour-grapes-le-sserafim"
+    },
+    {
+      "name": "Future Perfect (Pass the MIC)",
+      "artists": "ENHYPEN",
+      "album": "MANIFESTO : DAY 1",
+      "popularity": 77,
+      "tempo": 156.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.9,
+      "valence": 0.526,
+      "danceability": 0.658,
+      "acousticness": 0.036,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.264,
+      "duration_ms": 180750,
+      "slug": "future-perfect-pass-the-mic-enhypen"
+    },
+    {
+      "name": "ONLY",
+      "artists": "LeeHi",
+      "album": "4 ONLY",
+      "popularity": 77,
+      "tempo": 122.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.296,
+      "valence": 0.151,
+      "danceability": 0.536,
+      "acousticness": 0.892,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.035,
+      "duration_ms": 240906,
+      "slug": "only-leehi"
+    },
+    {
+      "name": "Churchill Downs (feat. Drake)",
+      "artists": "Jack Harlow;Drake",
+      "album": "Come Home The Kids Miss You",
+      "popularity": 77,
+      "tempo": 96.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.37,
+      "danceability": 0.71,
+      "acousticness": 0.615,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.36,
+      "duration_ms": 309327,
+      "slug": "churchill-downs-feat-drake-jack-harlow"
+    },
+    {
+      "name": "ANTIFRAGILE",
+      "artists": "LE SSERAFIM",
+      "album": "ANTIFRAGILE",
+      "popularity": 77,
+      "tempo": 105.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.797,
+      "valence": 0.824,
+      "danceability": 0.882,
+      "acousticness": 0.082,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.082,
+      "duration_ms": 184444,
+      "slug": "antifragile-le-sserafim"
+    },
+    {
+      "name": "FAKE LOVE",
+      "artists": "BTS",
+      "album": "Love Yourself \u8f49 'Tear'",
+      "popularity": 76,
+      "tempo": 77.5,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.719,
+      "valence": 0.345,
+      "danceability": 0.557,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.037,
+      "duration_ms": 242333,
+      "slug": "fake-love-bts"
+    },
+    {
+      "name": "Thaai Kelavi (From \"Thiruchitrambalam\")",
+      "artists": "Dhanush;Anirudh Ravichander",
+      "album": "Thaai Kelavi (From \"Thiruchitrambalam\")",
+      "popularity": 76,
+      "tempo": 82.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.92,
+      "valence": 0.494,
+      "danceability": 0.661,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.188,
+      "duration_ms": 258909,
+      "slug": "thaai-kelavi-from-thiruchitrambalam-dhanush"
+    },
+    {
+      "name": "Spring Day",
+      "artists": "BTS",
+      "album": "You Never Walk Alone",
+      "popularity": 76,
+      "tempo": 107.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.846,
+      "valence": 0.462,
+      "danceability": 0.539,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.035,
+      "duration_ms": 274097,
+      "slug": "spring-day-bts"
+    },
+    {
+      "name": "Filter",
+      "artists": "BTS",
+      "album": "MAP OF THE SOUL : 7",
+      "popularity": 76,
+      "tempo": 110.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.762,
+      "valence": 0.859,
+      "danceability": 0.779,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.063,
+      "duration_ms": 180220,
+      "slug": "filter-bts"
+    },
+    {
+      "name": "Ready For Love",
+      "artists": "BLACKPINK",
+      "album": "BORN PINK",
+      "popularity": 76,
+      "tempo": 107.6,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.551,
+      "danceability": 0.564,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.113,
+      "duration_ms": 184677,
+      "slug": "ready-for-love-blackpink"
+    },
+    {
+      "name": "LOCO",
+      "artists": "ITZY",
+      "album": "CRAZY IN LOVE",
+      "popularity": 76,
+      "tempo": 102.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.886,
+      "valence": 0.489,
+      "danceability": 0.759,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.187,
+      "duration_ms": 191462,
+      "slug": "loco-itzy"
+    },
+    {
+      "name": "CHEERS",
+      "artists": "SEVENTEEN",
+      "album": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+      "popularity": 76,
+      "tempo": 160.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.848,
+      "valence": 0.881,
+      "danceability": 0.74,
+      "acousticness": 0.306,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.097,
+      "duration_ms": 181466,
+      "slug": "cheers-seventeen"
+    },
+    {
+      "name": "Thunderous",
+      "artists": "Stray Kids",
+      "album": "NOEASY",
+      "popularity": 76,
+      "tempo": 172.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.786,
+      "valence": 0.79,
+      "danceability": 0.601,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.234,
+      "duration_ms": 183266,
+      "slug": "thunderous-stray-kids"
+    },
+    {
+      "name": "I CAN'T STOP ME",
+      "artists": "TWICE",
+      "album": "Eyes Wide Open",
+      "popularity": 76,
+      "tempo": 150.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.88,
+      "valence": 0.769,
+      "danceability": 0.657,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.102,
+      "duration_ms": 205493,
+      "slug": "i-cant-stop-me-twice"
+    },
+    {
+      "name": "God\u2019s Menu",
+      "artists": "Stray Kids",
+      "album": "GO LIVE",
+      "popularity": 76,
+      "tempo": 157.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.771,
+      "valence": 0.482,
+      "danceability": 0.689,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.055,
+      "duration_ms": 167922,
+      "slug": "gods-menu-stray-kids"
+    },
+    {
+      "name": "FANCY",
+      "artists": "TWICE",
+      "album": "FANCY YOU",
+      "popularity": 76,
+      "tempo": 132.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.874,
+      "valence": 0.775,
+      "danceability": 0.697,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -2.1,
+      "speechiness": 0.045,
+      "duration_ms": 213880,
+      "slug": "fancy-twice"
+    },
+    {
+      "name": "Shootout (Sped Up)",
+      "artists": "Izzamuzzic;Julien Marchal",
+      "album": "Shootout (Sped Up)",
+      "popularity": 76,
+      "tempo": 104.6,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.768,
+      "danceability": 0.684,
+      "acousticness": 0.216,
+      "instrumentalness": 0.941,
+      "loudness": -8.7,
+      "speechiness": 0.063,
+      "duration_ms": 242142,
+      "slug": "shootout-sped-up-izzamuzzic"
+    },
+    {
+      "name": "WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) - Remix",
+      "artists": "Jack Harlow;Tory Lanez;DaBaby;Lil Wayne",
+      "album": "WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]",
+      "popularity": 76,
+      "tempo": 145.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.723,
+      "valence": 0.835,
+      "danceability": 0.904,
+      "acousticness": 0.063,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.26,
+      "duration_ms": 227478,
+      "slug": "whats-poppin-feat-dababy-tory-lanez-lil-wayne-remix-jack-harlow"
+    },
+    {
+      "name": "How You Like That",
+      "artists": "BLACKPINK",
+      "album": "THE ALBUM",
+      "popularity": 75,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.787,
+      "valence": 0.326,
+      "danceability": 0.813,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.078,
+      "duration_ms": 180956,
+      "slug": "how-you-like-that-blackpink"
+    },
+    {
+      "name": "Blood Sweat & Tears",
+      "artists": "BTS",
+      "album": "Wings",
+      "popularity": 75,
+      "tempo": 92.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.885,
+      "valence": 0.605,
+      "danceability": 0.584,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.104,
+      "duration_ms": 217051,
+      "slug": "blood-sweat-tears-bts"
+    },
+    {
+      "name": "IDOL",
+      "artists": "BTS",
+      "album": "Love Yourself \u7d50 'Answer'",
+      "popularity": 75,
+      "tempo": 126.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.42,
+      "danceability": 0.733,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.118,
+      "duration_ms": 222732,
+      "slug": "idol-bts"
+    },
+    {
+      "name": "Pied Piper",
+      "artists": "BTS",
+      "album": "Love Yourself \u627f 'Her'",
+      "popularity": 75,
+      "tempo": 94.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.712,
+      "valence": 0.778,
+      "danceability": 0.583,
+      "acousticness": 0.2,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.033,
+      "duration_ms": 245620,
+      "slug": "pied-piper-bts"
+    },
+    {
+      "name": "PLAYING WITH FIRE",
+      "artists": "BLACKPINK",
+      "album": "SQUARE TWO",
+      "popularity": 75,
+      "tempo": 97.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.756,
+      "valence": 0.676,
+      "danceability": 0.706,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.085,
+      "duration_ms": 197288,
+      "slug": "playing-with-fire-blackpink"
+    },
+    {
+      "name": "Yours",
+      "artists": "JIN",
+      "album": "Jirisan (Original Television Soundtrack) Pt. 4",
+      "popularity": 75,
+      "tempo": 72.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.427,
+      "valence": 0.157,
+      "danceability": 0.488,
+      "acousticness": 0.354,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.038,
+      "duration_ms": 264840,
+      "slug": "yours-jin"
+    },
+    {
+      "name": "Born Singer",
+      "artists": "BTS",
+      "album": "Proof",
+      "popularity": 75,
+      "tempo": 157.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.841,
+      "valence": 0.684,
+      "danceability": 0.602,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.109,
+      "duration_ms": 238628,
+      "slug": "born-singer-bts"
+    },
+    {
+      "name": "Psycho",
+      "artists": "Red Velvet",
+      "album": "\u2018The ReVe Festival\u2019 Finale",
+      "popularity": 75,
+      "tempo": 140.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.405,
+      "danceability": 0.664,
+      "acousticness": 0.193,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.045,
+      "duration_ms": 210560,
+      "slug": "psycho-red-velvet"
+    },
+    {
+      "name": "What is Love",
+      "artists": "TWICE",
+      "album": "Summer Nights",
+      "popularity": 75,
+      "tempo": 170.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.909,
+      "valence": 0.569,
+      "danceability": 0.574,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -1.6,
+      "speechiness": 0.066,
+      "duration_ms": 208240,
+      "slug": "what-is-love-twice"
+    },
+    {
+      "name": "Yet To Come (Hyundai Ver.)",
+      "artists": "BTS",
+      "album": "Yet To Come (Hyundai Ver.)",
+      "popularity": 75,
+      "tempo": 86.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.44,
+      "danceability": 0.508,
+      "acousticness": 0.078,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.061,
+      "duration_ms": 223535,
+      "slug": "yet-to-come-hyundai-ver-bts"
+    },
+    {
+      "name": "Drunk-Dazed",
+      "artists": "ENHYPEN",
+      "album": "BORDER : CARNIVAL",
+      "popularity": 75,
+      "tempo": 132.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.869,
+      "valence": 0.453,
+      "danceability": 0.599,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.062,
+      "duration_ms": 193260,
+      "slug": "drunk-dazed-enhypen"
+    },
+    {
+      "name": "LO$ER=LO\u2661ER",
+      "artists": "TOMORROW X TOGETHER",
+      "album": "The Chaos Chapter: FIGHT OR ESCAPE",
+      "popularity": 75,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.867,
+      "valence": 0.687,
+      "danceability": 0.644,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.038,
+      "duration_ms": 199919,
+      "slug": "loerloer-tomorrow-x-together"
+    },
+    {
+      "name": "Rock with you",
+      "artists": "SEVENTEEN",
+      "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+      "popularity": 75,
+      "tempo": 164.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.816,
+      "valence": 0.694,
+      "danceability": 0.621,
+      "acousticness": 0.097,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.104,
+      "duration_ms": 180360,
+      "slug": "rock-with-you-seventeen"
+    },
+    {
+      "name": "3RACHA (Bang Chan, Changbin, HAN)",
+      "artists": "Stray Kids",
+      "album": "MAXIDENT",
+      "popularity": 75,
+      "tempo": 142.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.856,
+      "valence": 0.627,
+      "danceability": 0.721,
+      "acousticness": 0.229,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.301,
+      "duration_ms": 208573,
+      "slug": "3racha-bang-chan-changbin-han-stray-kids"
+    },
+    {
+      "name": "O.O",
+      "artists": "NMIXX",
+      "album": "AD MARE",
+      "popularity": 75,
+      "tempo": 200.3,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.767,
+      "valence": 0.285,
+      "danceability": 0.39,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.293,
+      "duration_ms": 172936,
+      "slug": "oo-nmixx"
+    },
+    {
+      "name": "Feel My Rhythm",
+      "artists": "Red Velvet",
+      "album": "\u2018The ReVe Festival 2022 - Feel My Rhythm\u2019",
+      "popularity": 75,
+      "tempo": 158.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.94,
+      "valence": 0.423,
+      "danceability": 0.412,
+      "acousticness": 0.065,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.215,
+      "duration_ms": 210253,
+      "slug": "feel-my-rhythm-red-velvet"
+    },
+    {
+      "name": "Blue Flame",
+      "artists": "LE SSERAFIM",
+      "album": "FEARLESS",
+      "popularity": 75,
+      "tempo": 112.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.725,
+      "valence": 0.765,
+      "danceability": 0.781,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.045,
+      "duration_ms": 201894,
+      "slug": "blue-flame-le-sserafim"
+    },
+    {
+      "name": "Kanja Poovu Kannala (From \"Viruman\")",
+      "artists": "Yuvan Shankar Raja;Sid Sriram",
+      "album": "Kanja Poovu Kannala (From \"Viruman\")",
+      "popularity": 74,
+      "tempo": 110.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.692,
+      "valence": 0.52,
+      "danceability": 0.72,
+      "acousticness": 0.291,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.089,
+      "duration_ms": 237558,
+      "slug": "kanja-poovu-kannala-from-viruman-yuvan-shankar-raja"
+    },
+    {
+      "name": "Love Shot",
+      "artists": "EXO",
+      "album": "LOVE SHOT\u2013 The 5th Album Repackage",
+      "popularity": 74,
+      "tempo": 145.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.678,
+      "valence": 0.335,
+      "danceability": 0.689,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.119,
+      "duration_ms": 200306,
+      "slug": "love-shot-exo"
+    },
+    {
+      "name": "Some",
+      "artists": "BOL4",
+      "album": "Red Diary Page.1",
+      "popularity": 74,
+      "tempo": 104.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.799,
+      "valence": 0.782,
+      "danceability": 0.659,
+      "acousticness": 0.417,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.063,
+      "duration_ms": 181373,
+      "slug": "some-bol4"
+    },
+    {
+      "name": "HOME",
+      "artists": "BTS",
+      "album": "MAP OF THE SOUL : PERSONA",
+      "popularity": 74,
+      "tempo": 143.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.799,
+      "valence": 0.534,
+      "danceability": 0.633,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.043,
+      "duration_ms": 234177,
+      "slug": "home-bts"
+    },
+    {
+      "name": "ON",
+      "artists": "BTS",
+      "album": "MAP OF THE SOUL : 7",
+      "popularity": 74,
+      "tempo": 105.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.817,
+      "valence": 0.437,
+      "danceability": 0.583,
+      "acousticness": 0.118,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.099,
+      "duration_ms": 246380,
+      "slug": "on-bts"
+    },
+    {
+      "name": "Black Swan",
+      "artists": "BTS",
+      "album": "MAP OF THE SOUL : 7",
+      "popularity": 74,
+      "tempo": 147.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.757,
+      "valence": 0.489,
+      "danceability": 0.719,
+      "acousticness": 0.137,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.085,
+      "duration_ms": 198260,
+      "slug": "black-swan-bts"
+    },
+    {
+      "name": "WHISTLE",
+      "artists": "BLACKPINK",
+      "album": "SQUARE ONE",
+      "popularity": 74,
+      "tempo": 102.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.607,
+      "danceability": 0.818,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.114,
+      "duration_ms": 211631,
+      "slug": "whistle-blackpink"
+    },
+    {
+      "name": "Gangnam Style (\uac15\ub0a8\uc2a4\ud0c0\uc77c)",
+      "artists": "PSY",
+      "album": "Gangnam Style (\uac15\ub0a8\uc2a4\ud0c0\uc77c)",
+      "popularity": 74,
+      "tempo": 132.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.937,
+      "valence": 0.749,
+      "danceability": 0.727,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.286,
+      "duration_ms": 219493,
+      "slug": "gangnam-style-\uac15\ub0a8\uc2a4\ud0c0\uc77c-psy"
+    },
+    {
+      "name": "Red Lights (Bang Chan, Hyunjin)",
+      "artists": "Stray Kids",
+      "album": "NOEASY",
+      "popularity": 74,
+      "tempo": 128.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.74,
+      "valence": 0.336,
+      "danceability": 0.707,
+      "acousticness": 0.179,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.051,
+      "duration_ms": 189906,
+      "slug": "red-lights-bang-chan-hyunjin-stray-kids"
+    },
+    {
+      "name": "WANNABE",
+      "artists": "ITZY",
+      "album": "IT'z ME",
+      "popularity": 74,
+      "tempo": 122.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.911,
+      "valence": 0.64,
+      "danceability": 0.809,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.062,
+      "duration_ms": 191242,
+      "slug": "wannabe-itzy"
+    },
+    {
+      "name": "0X1=LOVESONG (I Know I Love You) feat. Seori",
+      "artists": "TOMORROW X TOGETHER",
+      "album": "The Chaos Chapter: FREEZE",
+      "popularity": 74,
+      "tempo": 105.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.836,
+      "valence": 0.484,
+      "danceability": 0.584,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.079,
+      "duration_ms": 202203,
+      "slug": "0x1lovesong-i-know-i-love-you-feat-seori-tomorrow-x-together"
+    },
+    {
+      "name": "MORE",
+      "artists": "j-hope",
+      "album": "Jack In The Box",
+      "popularity": 74,
+      "tempo": 97.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.306,
+      "danceability": 0.783,
+      "acousticness": 0.005,
+      "instrumentalness": 0.002,
+      "loudness": -4.9,
+      "speechiness": 0.036,
+      "duration_ms": 180022,
+      "slug": "more-j-hope"
+    },
+    {
+      "name": "CHILL",
+      "artists": "Stray Kids",
+      "album": "MAXIDENT",
+      "popularity": 74,
+      "tempo": 96.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.923,
+      "valence": 0.522,
+      "danceability": 0.744,
+      "acousticness": 0.115,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.051,
+      "duration_ms": 195146,
+      "slug": "chill-stray-kids"
+    },
+    {
+      "name": "WA DA DA",
+      "artists": "Kep1er",
+      "album": "FIRST IMPACT",
+      "popularity": 74,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.907,
+      "valence": 0.685,
+      "danceability": 0.785,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.094,
+      "duration_ms": 183693,
+      "slug": "wa-da-da-kep1er"
+    },
+    {
+      "name": "Charmer",
+      "artists": "Stray Kids",
+      "album": "ODDINARY",
+      "popularity": 74,
+      "tempo": 91.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.762,
+      "valence": 0.731,
+      "danceability": 0.786,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -2.5,
+      "speechiness": 0.052,
+      "duration_ms": 188573,
+      "slug": "charmer-stray-kids"
+    }
+  ]
+}

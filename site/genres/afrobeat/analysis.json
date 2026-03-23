@@ -1,0 +1,2802 @@
+{
+  "genre": "Afrobeat",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 77.845,
+    "max": 190.509,
+    "mean": 116.073,
+    "median": 111.779,
+    "q1": 96.825,
+    "q3": 131.913,
+    "histogram": {
+      "70-79": 3,
+      "80-89": 12,
+      "90-99": 17,
+      "100-109": 16,
+      "110-119": 12,
+      "120-129": 14,
+      "130-139": 5,
+      "140-149": 9,
+      "150-159": 4,
+      "160-169": 5,
+      "170-179": 2,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "D": 14,
+    "G": 12,
+    "B": 11,
+    "F#/Gb": 11,
+    "F": 11,
+    "C": 10,
+    "A#/Bb": 7,
+    "A": 6,
+    "D#/Eb": 6,
+    "G#/Ab": 5,
+    "C#/Db": 4,
+    "E": 3
+  },
+  "mode_distribution": {
+    "Major": 46,
+    "Minor": 54
+  },
+  "key_mode_distribution": {
+    "G Major": 9,
+    "B Minor": 9,
+    "D Minor": 8,
+    "F#/Gb Minor": 8,
+    "C Major": 6,
+    "D Major": 6,
+    "F Major": 6,
+    "A#/Bb Minor": 6,
+    "A Major": 5,
+    "F Minor": 5,
+    "C Minor": 4,
+    "D#/Eb Major": 3,
+    "C#/Db Major": 3,
+    "G Minor": 3,
+    "D#/Eb Minor": 3,
+    "E Minor": 3,
+    "F#/Gb Major": 3,
+    "G#/Ab Minor": 3,
+    "B Major": 2,
+    "G#/Ab Major": 2,
+    "A Minor": 1,
+    "A#/Bb Major": 1,
+    "C#/Db Minor": 1
+  },
+  "energy": {
+    "min": 0.233,
+    "max": 0.942,
+    "mean": 0.657,
+    "median": 0.673,
+    "q1": 0.54,
+    "q3": 0.818
+  },
+  "valence": {
+    "min": 0.086,
+    "max": 0.969,
+    "mean": 0.668,
+    "median": 0.683,
+    "q1": 0.529,
+    "q3": 0.866
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.878,
+      "valence": 0.883
+    },
+    {
+      "energy": 0.588,
+      "valence": 0.879
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.779
+    },
+    {
+      "energy": 0.443,
+      "valence": 0.452
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.628
+    },
+    {
+      "energy": 0.399,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.866
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.682
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.602,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.261,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.508,
+      "valence": 0.102
+    },
+    {
+      "energy": 0.585,
+      "valence": 0.618
+    },
+    {
+      "energy": 0.507,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.414,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.356,
+      "valence": 0.504
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.712
+    },
+    {
+      "energy": 0.732,
+      "valence": 0.747
+    },
+    {
+      "energy": 0.233,
+      "valence": 0.777
+    },
+    {
+      "energy": 0.735,
+      "valence": 0.727
+    },
+    {
+      "energy": 0.41,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.902
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.736
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.086
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.432
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.254,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.645
+    },
+    {
+      "energy": 0.382,
+      "valence": 0.454
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.838,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.715
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.347
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.428
+    },
+    {
+      "energy": 0.926,
+      "valence": 0.883
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.949
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.769,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.615,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.769,
+      "valence": 0.891
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.54,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.764
+    },
+    {
+      "energy": 0.556,
+      "valence": 0.902
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.735,
+      "valence": 0.721
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.902
+    },
+    {
+      "energy": 0.711,
+      "valence": 0.651
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.532
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.944
+    },
+    {
+      "energy": 0.501,
+      "valence": 0.914
+    },
+    {
+      "energy": 0.492,
+      "valence": 0.893
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.314,
+      "valence": 0.476
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.847
+    },
+    {
+      "energy": 0.3,
+      "valence": 0.278
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.82
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.56,
+      "valence": 0.78
+    },
+    {
+      "energy": 0.84,
+      "valence": 0.955
+    },
+    {
+      "energy": 0.496,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.903,
+      "valence": 0.913
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.515,
+      "valence": 0.679
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.339
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.719
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.746,
+      "valence": 0.717
+    },
+    {
+      "energy": 0.6,
+      "valence": 0.529
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.925
+    },
+    {
+      "energy": 0.819,
+      "valence": 0.732
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.903
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.632,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.31,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.386,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.818,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.577,
+      "valence": 0.658
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.614
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.861,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.653,
+      "valence": 0.706
+    },
+    {
+      "energy": 0.69,
+      "valence": 0.228
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.879
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.557,
+      "valence": 0.11
+    }
+  ],
+  "acousticness": {
+    "min": 0.002,
+    "max": 0.962,
+    "mean": 0.303,
+    "median": 0.222,
+    "q1": 0.076,
+    "q3": 0.482
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.951,
+    "mean": 0.25,
+    "median": 0.002,
+    "q1": 0.0,
+    "q3": 0.647
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.789,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.122,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.159,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.664,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.835
+    },
+    {
+      "acousticness": 0.59,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.199,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.225,
+      "instrumentalness": 0.891
+    },
+    {
+      "acousticness": 0.3,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.588,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.532,
+      "instrumentalness": 0.951
+    },
+    {
+      "acousticness": 0.147,
+      "instrumentalness": 0.927
+    },
+    {
+      "acousticness": 0.787,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.218,
+      "instrumentalness": 0.036
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.154,
+      "instrumentalness": 0.392
+    },
+    {
+      "acousticness": 0.954,
+      "instrumentalness": 0.917
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.87
+    },
+    {
+      "acousticness": 0.055,
+      "instrumentalness": 0.924
+    },
+    {
+      "acousticness": 0.745,
+      "instrumentalness": 0.747
+    },
+    {
+      "acousticness": 0.464,
+      "instrumentalness": 0.8
+    },
+    {
+      "acousticness": 0.306,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.053
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.851
+    },
+    {
+      "acousticness": 0.119,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.802
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.647
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.962,
+      "instrumentalness": 0.931
+    },
+    {
+      "acousticness": 0.293,
+      "instrumentalness": 0.861
+    },
+    {
+      "acousticness": 0.29,
+      "instrumentalness": 0.298
+    },
+    {
+      "acousticness": 0.456,
+      "instrumentalness": 0.811
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.49
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.634
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.449,
+      "instrumentalness": 0.253
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.025
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.676,
+      "instrumentalness": 0.809
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.89
+    },
+    {
+      "acousticness": 0.146,
+      "instrumentalness": 0.355
+    },
+    {
+      "acousticness": 0.482,
+      "instrumentalness": 0.031
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.791,
+      "instrumentalness": 0.782
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.032
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.399,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.667,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.481,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.25,
+      "instrumentalness": 0.76
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.859
+    },
+    {
+      "acousticness": 0.585,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.319,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.267,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.711
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.589,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.281,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.881,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.849,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.125,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.638,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.563,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.835,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.282
+    },
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.136
+    },
+    {
+      "acousticness": 0.393,
+      "instrumentalness": 0.924
+    },
+    {
+      "acousticness": 0.23,
+      "instrumentalness": 0.616
+    },
+    {
+      "acousticness": 0.147,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.679,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.194,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.932
+    },
+    {
+      "acousticness": 0.477,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.238,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.076,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.599,
+      "instrumentalness": 0.921
+    },
+    {
+      "acousticness": 0.688,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.67,
+      "instrumentalness": 0.906
+    },
+    {
+      "acousticness": 0.19,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.178,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.108,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.43,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.299,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.372,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.386,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 67720,
+    "max": 745653,
+    "mean": 251244.62,
+    "median": 226344.0,
+    "q1": 194293,
+    "q3": 268040
+  },
+  "danceability": {
+    "min": 0.382,
+    "max": 0.974,
+    "mean": 0.669,
+    "median": 0.673,
+    "q1": 0.582,
+    "q3": 0.761
+  },
+  "loudness": {
+    "min": -14.911,
+    "max": -3.45,
+    "mean": -7.806,
+    "median": -7.392,
+    "q1": -9.049,
+    "q3": -6.027
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.542,
+    "mean": 0.094,
+    "median": 0.054,
+    "q1": 0.038,
+    "q3": 0.125
+  },
+  "top_artists": [
+    {
+      "name": "Criolo",
+      "count": 21
+    },
+    {
+      "name": "El Michels Affair",
+      "count": 7
+    },
+    {
+      "name": "Calle 13",
+      "count": 5
+    },
+    {
+      "name": "Limoblaze",
+      "count": 5
+    },
+    {
+      "name": "Menahan Street Band",
+      "count": 5
+    },
+    {
+      "name": "Manu Dibango",
+      "count": 4
+    },
+    {
+      "name": "Cymande",
+      "count": 3
+    },
+    {
+      "name": "Monophonics",
+      "count": 3
+    },
+    {
+      "name": "Mulatu Astatke",
+      "count": 3
+    },
+    {
+      "name": "Ikebe Shakedown",
+      "count": 3
+    },
+    {
+      "name": "Akal\u00e9 Wub\u00e9",
+      "count": 3
+    },
+    {
+      "name": "Juanaf\u00e9",
+      "count": 3
+    },
+    {
+      "name": "Jorge Drexler",
+      "count": 2
+    },
+    {
+      "name": "Kelly Finnigan",
+      "count": 2
+    },
+    {
+      "name": "The Dynamics",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Atr\u00e9vete-Te-Te",
+      "artists": "Calle 13",
+      "album": "Calle 13 (Explicit Version)",
+      "popularity": 75,
+      "tempo": 88.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.883,
+      "danceability": 0.829,
+      "acousticness": 0.096,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.101,
+      "duration_ms": 239306,
+      "slug": "atr\u00e9vete-te-te-calle-13"
+    },
+    {
+      "name": "Muerte En Hawaii",
+      "artists": "Calle 13",
+      "album": "Entren Los Que Quieran",
+      "popularity": 71,
+      "tempo": 80.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.588,
+      "valence": 0.879,
+      "danceability": 0.675,
+      "acousticness": 0.789,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.177,
+      "duration_ms": 189866,
+      "slug": "muerte-en-hawaii-calle-13"
+    },
+    {
+      "name": "La Que Me Gusta",
+      "artists": "Los Amigos Invisibles",
+      "album": "Repeat After Me",
+      "popularity": 71,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.549,
+      "danceability": 0.721,
+      "acousticness": 0.122,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.078,
+      "duration_ms": 239626,
+      "slug": "la-que-me-gusta-los-amigos-invisibles"
+    },
+    {
+      "name": "La Vuelta Al Mundo",
+      "artists": "Calle 13",
+      "album": "Entren Los Que Quieran",
+      "popularity": 70,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.538,
+      "valence": 0.779,
+      "danceability": 0.748,
+      "acousticness": 0.159,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.222,
+      "duration_ms": 234133,
+      "slug": "la-vuelta-al-mundo-calle-13"
+    },
+    {
+      "name": "Ojos Color Sol (feat. Silvio Rodr\u00edguez)",
+      "artists": "Calle 13;Silvio Rodr\u00edguez",
+      "album": "MultiViral",
+      "popularity": 68,
+      "tempo": 78.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.443,
+      "valence": 0.452,
+      "danceability": 0.582,
+      "acousticness": 0.664,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.044,
+      "duration_ms": 215813,
+      "slug": "ojos-color-sol-feat-silvio-rodr\u00edguez-calle-13"
+    },
+    {
+      "name": "Jireh (My Provider)",
+      "artists": "Limoblaze;Lecrae;Happi",
+      "album": "Jireh (My Provider)",
+      "popularity": 64,
+      "tempo": 128.2,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.778,
+      "valence": 0.628,
+      "danceability": 0.443,
+      "acousticness": 0.241,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.266,
+      "duration_ms": 168000,
+      "slug": "jireh-my-provider-limoblaze"
+    },
+    {
+      "name": "Queens Highway",
+      "artists": "Menahan Street Band",
+      "album": "The Exciting Sounds of Menahan Street Band",
+      "popularity": 64,
+      "tempo": 137.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.399,
+      "valence": 0.321,
+      "danceability": 0.778,
+      "acousticness": 0.075,
+      "instrumentalness": 0.835,
+      "loudness": -9.0,
+      "speechiness": 0.086,
+      "duration_ms": 67720,
+      "slug": "queens-highway-menahan-street-band"
+    },
+    {
+      "name": "Latinoam\u00e9rica (feat. Tot\u00f3 la Momposina, Susana Baca & Maria Rita)",
+      "artists": "Calle 13;Tot\u00f3 La Momposina;Susana Baca;Maria Rita",
+      "album": "Entren Los Que Quieran",
+      "popularity": 64,
+      "tempo": 142.5,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.805,
+      "valence": 0.866,
+      "danceability": 0.691,
+      "acousticness": 0.59,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.095,
+      "duration_ms": 301426,
+      "slug": "latinoam\u00e9rica-feat-tot\u00f3-la-momposina-susana-baca-maria-rita-calle-13"
+    },
+    {
+      "name": "Todo se transforma",
+      "artists": "Jorge Drexler",
+      "album": "Eco",
+      "popularity": 63,
+      "tempo": 100.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.682,
+      "danceability": 0.761,
+      "acousticness": 0.199,
+      "instrumentalness": 0.002,
+      "loudness": -7.3,
+      "speechiness": 0.043,
+      "duration_ms": 217146,
+      "slug": "todo-se-transforma-jorge-drexler"
+    },
+    {
+      "name": "More Mess on My Thing",
+      "artists": "The Poets Of Rhythm",
+      "album": "Practice What You Preach",
+      "popularity": 57,
+      "tempo": 190.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.962,
+      "danceability": 0.542,
+      "acousticness": 0.225,
+      "instrumentalness": 0.891,
+      "loudness": -6.2,
+      "speechiness": 0.095,
+      "duration_ms": 252000,
+      "slug": "more-mess-on-my-thing-the-poets-of-rhythm"
+    },
+    {
+      "name": "Brothers On The Slide",
+      "artists": "Cymande",
+      "album": "Promised Heights",
+      "popularity": 56,
+      "tempo": 109.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.602,
+      "valence": 0.805,
+      "danceability": 0.815,
+      "acousticness": 0.3,
+      "instrumentalness": 0.005,
+      "loudness": -10.2,
+      "speechiness": 0.196,
+      "duration_ms": 251400,
+      "slug": "brothers-on-the-slide-cymande"
+    },
+    {
+      "name": "La edad del cielo",
+      "artists": "Jorge Drexler",
+      "album": "Frontera",
+      "popularity": 56,
+      "tempo": 147.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.261,
+      "valence": 0.282,
+      "danceability": 0.668,
+      "acousticness": 0.588,
+      "instrumentalness": 0.0,
+      "loudness": -13.0,
+      "speechiness": 0.041,
+      "duration_ms": 219493,
+      "slug": "la-edad-del-cielo-jorge-drexler"
+    },
+    {
+      "name": "C.R.E.A.M.",
+      "artists": "El Michels Affair",
+      "album": "Enter The 37th Chamber",
+      "popularity": 55,
+      "tempo": 96.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.508,
+      "valence": 0.102,
+      "danceability": 0.571,
+      "acousticness": 0.532,
+      "instrumentalness": 0.951,
+      "loudness": -8.1,
+      "speechiness": 0.025,
+      "duration_ms": 174826,
+      "slug": "cream-el-michels-affair"
+    },
+    {
+      "name": "The Traitor",
+      "artists": "Menahan Street Band",
+      "album": "Make the Road By Walking",
+      "popularity": 55,
+      "tempo": 101.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.585,
+      "valence": 0.618,
+      "danceability": 0.628,
+      "acousticness": 0.147,
+      "instrumentalness": 0.927,
+      "loudness": -8.0,
+      "speechiness": 0.042,
+      "duration_ms": 162266,
+      "slug": "the-traitor-menahan-street-band"
+    },
+    {
+      "name": "There's a New Day Coming",
+      "artists": "Menahan Street Band;Saundra Williams",
+      "album": "There's a New Day Coming / Tommy Don't",
+      "popularity": 55,
+      "tempo": 135.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.507,
+      "valence": 0.494,
+      "danceability": 0.382,
+      "acousticness": 0.787,
+      "instrumentalness": 0.012,
+      "loudness": -8.2,
+      "speechiness": 0.032,
+      "duration_ms": 143120,
+      "slug": "theres-a-new-day-coming-menahan-street-band"
+    },
+    {
+      "name": "Last One Standing",
+      "artists": "Monophonics;Kelly Finnigan",
+      "album": "It's Only Us",
+      "popularity": 53,
+      "tempo": 129.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.576,
+      "valence": 0.66,
+      "danceability": 0.588,
+      "acousticness": 0.218,
+      "instrumentalness": 0.036,
+      "loudness": -6.9,
+      "speechiness": 0.037,
+      "duration_ms": 436840,
+      "slug": "last-one-standing-monophonics"
+    },
+    {
+      "name": "Love",
+      "artists": "Greyboy;Nino Moschella",
+      "album": "15 Years of West Coast Cool",
+      "popularity": 53,
+      "tempo": 102.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.414,
+      "valence": 0.581,
+      "danceability": 0.851,
+      "acousticness": 0.05,
+      "instrumentalness": 0.001,
+      "loudness": -8.5,
+      "speechiness": 0.031,
+      "duration_ms": 216080,
+      "slug": "love-greyboy"
+    },
+    {
+      "name": "Move on Up",
+      "artists": "The Dynamics",
+      "album": "Version Excursions",
+      "popularity": 53,
+      "tempo": 146.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.709,
+      "valence": 0.969,
+      "danceability": 0.836,
+      "acousticness": 0.154,
+      "instrumentalness": 0.392,
+      "loudness": -9.1,
+      "speechiness": 0.035,
+      "duration_ms": 359213,
+      "slug": "move-on-up-the-dynamics"
+    },
+    {
+      "name": "Tezeta (Nostalgia)",
+      "artists": "Mulatu Astatke",
+      "album": "Ethiopiques, Vol. 4: Ethio Jazz 1969-1974",
+      "popularity": 52,
+      "tempo": 81.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.356,
+      "valence": 0.504,
+      "danceability": 0.547,
+      "acousticness": 0.954,
+      "instrumentalness": 0.917,
+      "loudness": -10.2,
+      "speechiness": 0.037,
+      "duration_ms": 376640,
+      "slug": "tezeta-nostalgia-mulatu-astatke"
+    },
+    {
+      "name": "T.I.B.W.F.",
+      "artists": "The Budos Band",
+      "album": "The Budos Band",
+      "popularity": 52,
+      "tempo": 77.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.607,
+      "valence": 0.712,
+      "danceability": 0.674,
+      "acousticness": 0.012,
+      "instrumentalness": 0.87,
+      "loudness": -7.8,
+      "speechiness": 0.057,
+      "duration_ms": 160600,
+      "slug": "tibwf-the-budos-band"
+    },
+    {
+      "name": "Home Again",
+      "artists": "Menahan Street Band",
+      "album": "Make the Road By Walking",
+      "popularity": 52,
+      "tempo": 96.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.732,
+      "valence": 0.747,
+      "danceability": 0.587,
+      "acousticness": 0.055,
+      "instrumentalness": 0.924,
+      "loudness": -8.1,
+      "speechiness": 0.032,
+      "duration_ms": 202240,
+      "slug": "home-again-menahan-street-band"
+    },
+    {
+      "name": "Y\u00e8gell\u00e9 Tezeta",
+      "artists": "Mulatu Astatke",
+      "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+      "popularity": 51,
+      "tempo": 125.6,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.233,
+      "valence": 0.777,
+      "danceability": 0.839,
+      "acousticness": 0.745,
+      "instrumentalness": 0.747,
+      "loudness": -13.5,
+      "speechiness": 0.041,
+      "duration_ms": 194293,
+      "slug": "y\u00e8gell\u00e9-tezeta-mulatu-astatke"
+    },
+    {
+      "name": "Road Song",
+      "artists": "Ikebe Shakedown",
+      "album": "The Beast / Road Song",
+      "popularity": 51,
+      "tempo": 106.6,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.735,
+      "valence": 0.727,
+      "danceability": 0.63,
+      "acousticness": 0.464,
+      "instrumentalness": 0.8,
+      "loudness": -7.7,
+      "speechiness": 0.035,
+      "duration_ms": 180226,
+      "slug": "road-song-ikebe-shakedown"
+    },
+    {
+      "name": "Nomalizo",
+      "artists": "Letta Mbulu",
+      "album": "In The Music The Village Never Ends",
+      "popularity": 51,
+      "tempo": 98.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.41,
+      "valence": 0.653,
+      "danceability": 0.86,
+      "acousticness": 0.306,
+      "instrumentalness": 0.001,
+      "loudness": -13.6,
+      "speechiness": 0.047,
+      "duration_ms": 311866,
+      "slug": "nomalizo-letta-mbulu"
+    },
+    {
+      "name": "Make the Road By Walking",
+      "artists": "Menahan Street Band",
+      "album": "Make the Road By Walking",
+      "popularity": 51,
+      "tempo": 90.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.76,
+      "valence": 0.902,
+      "danceability": 0.615,
+      "acousticness": 0.019,
+      "instrumentalness": 0.053,
+      "loudness": -8.4,
+      "speechiness": 0.032,
+      "duration_ms": 183213,
+      "slug": "make-the-road-by-walking-menahan-street-band"
+    },
+    {
+      "name": "Dram",
+      "artists": "Ikebe Shakedown",
+      "album": "Stone by Stone",
+      "popularity": 50,
+      "tempo": 149.6,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.736,
+      "danceability": 0.595,
+      "acousticness": 0.056,
+      "instrumentalness": 0.851,
+      "loudness": -8.6,
+      "speechiness": 0.057,
+      "duration_ms": 243693,
+      "slug": "dram-ikebe-shakedown"
+    },
+    {
+      "name": "I Don't Wanna Stop",
+      "artists": "The Bamboos",
+      "album": "Rawville",
+      "popularity": 50,
+      "tempo": 93.2,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.775,
+      "valence": 0.962,
+      "danceability": 0.69,
+      "acousticness": 0.119,
+      "instrumentalness": 0.001,
+      "loudness": -5.1,
+      "speechiness": 0.031,
+      "duration_ms": 249200,
+      "slug": "i-dont-wanna-stop-the-bamboos"
+    },
+    {
+      "name": "Freckles",
+      "artists": "The New Mastersounds",
+      "album": "Breaks from the Border",
+      "popularity": 50,
+      "tempo": 113.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.834,
+      "valence": 0.961,
+      "danceability": 0.787,
+      "acousticness": 0.145,
+      "instrumentalness": 0.802,
+      "loudness": -6.2,
+      "speechiness": 0.031,
+      "duration_ms": 223600,
+      "slug": "freckles-the-new-mastersounds"
+    },
+    {
+      "name": "Shimmy Shimmy Ya",
+      "artists": "El Michels Affair",
+      "album": "Enter The 37th Chamber",
+      "popularity": 49,
+      "tempo": 100.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.086,
+      "danceability": 0.605,
+      "acousticness": 0.023,
+      "instrumentalness": 0.647,
+      "loudness": -5.8,
+      "speechiness": 0.041,
+      "duration_ms": 145880,
+      "slug": "shimmy-shimmy-ya-el-michels-affair"
+    },
+    {
+      "name": "Desire",
+      "artists": "Limoblaze;Emandiong",
+      "album": "Desire",
+      "popularity": 49,
+      "tempo": 115.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.858,
+      "valence": 0.432,
+      "danceability": 0.699,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.089,
+      "duration_ms": 204521,
+      "slug": "desire-limoblaze"
+    },
+    {
+      "name": "Soul Makossa",
+      "artists": "Manu Dibango",
+      "album": "Manu Dibango Anthology",
+      "popularity": 49,
+      "tempo": 115.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.835,
+      "valence": 0.8,
+      "danceability": 0.831,
+      "acousticness": 0.128,
+      "instrumentalness": 0.002,
+      "loudness": -3.8,
+      "speechiness": 0.142,
+      "duration_ms": 264306,
+      "slug": "soul-makossa-manu-dibango"
+    },
+    {
+      "name": "Tezeta",
+      "artists": "Mulatu Astatke",
+      "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+      "popularity": 49,
+      "tempo": 81.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.254,
+      "valence": 0.541,
+      "danceability": 0.549,
+      "acousticness": 0.962,
+      "instrumentalness": 0.931,
+      "loudness": -14.5,
+      "speechiness": 0.042,
+      "duration_ms": 368539,
+      "slug": "tezeta-mulatu-astatke"
+    },
+    {
+      "name": "Anbessa",
+      "artists": "Akal\u00e9 Wub\u00e9;Manu Dibango",
+      "album": "Sost",
+      "popularity": 49,
+      "tempo": 120.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.473,
+      "valence": 0.645,
+      "danceability": 0.82,
+      "acousticness": 0.293,
+      "instrumentalness": 0.861,
+      "loudness": -7.3,
+      "speechiness": 0.045,
+      "duration_ms": 221720,
+      "slug": "anbessa-akal\u00e9-wub\u00e9"
+    },
+    {
+      "name": "Tearz",
+      "artists": "El Michels Affair;Lee Fields;The Shacks",
+      "album": "Return To The 37th Chamber",
+      "popularity": 49,
+      "tempo": 97.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.382,
+      "valence": 0.454,
+      "danceability": 0.75,
+      "acousticness": 0.29,
+      "instrumentalness": 0.298,
+      "loudness": -8.5,
+      "speechiness": 0.031,
+      "duration_ms": 151926,
+      "slug": "tearz-el-michels-affair"
+    },
+    {
+      "name": "PIMP",
+      "artists": "Bacao Rhythm & Steel Band",
+      "album": "55",
+      "popularity": 49,
+      "tempo": 166.7,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.858,
+      "valence": 0.963,
+      "danceability": 0.672,
+      "acousticness": 0.456,
+      "instrumentalness": 0.811,
+      "loudness": -5.2,
+      "speechiness": 0.145,
+      "duration_ms": 194972,
+      "slug": "pimp-bacao-rhythm-steel-band"
+    },
+    {
+      "name": "The Outsider",
+      "artists": "Lack Of Afro",
+      "album": "Press On",
+      "popularity": 49,
+      "tempo": 112.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.838,
+      "valence": 0.456,
+      "danceability": 0.681,
+      "acousticness": 0.087,
+      "instrumentalness": 0.49,
+      "loudness": -6.5,
+      "speechiness": 0.08,
+      "duration_ms": 227346,
+      "slug": "the-outsider-lack-of-afro"
+    },
+    {
+      "name": "Eye Nyam Nam 'A' Mensuro - Henrik Schwarz Blend",
+      "artists": "Ebo Taylor;Pat Thomas;Henrik Schwarz",
+      "album": "Ene Nyame (Henrik Schwarz Blend)",
+      "popularity": 49,
+      "tempo": 124.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.626,
+      "valence": 0.715,
+      "danceability": 0.761,
+      "acousticness": 0.017,
+      "instrumentalness": 0.634,
+      "loudness": -12.6,
+      "speechiness": 0.042,
+      "duration_ms": 563866,
+      "slug": "eye-nyam-nam-a-mensuro-henrik-schwarz-blend-ebo-taylor"
+    },
+    {
+      "name": "Pretos Ganhando Dinheiro Incomoda Demais",
+      "artists": "Criolo",
+      "album": "Sobre Viver",
+      "popularity": 48,
+      "tempo": 109.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.715,
+      "valence": 0.347,
+      "danceability": 0.637,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.074,
+      "duration_ms": 198920,
+      "slug": "pretos-ganhando-dinheiro-incomoda-demais-criolo"
+    },
+    {
+      "name": "Dove",
+      "artists": "Cymande",
+      "album": "Cymande",
+      "popularity": 48,
+      "tempo": 111.7,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.475,
+      "valence": 0.428,
+      "danceability": 0.439,
+      "acousticness": 0.449,
+      "instrumentalness": 0.253,
+      "loudness": -12.6,
+      "speechiness": 0.036,
+      "duration_ms": 655440,
+      "slug": "dove-cymande"
+    },
+    {
+      "name": "Water No Get Enemy",
+      "artists": "Fela Kuti",
+      "album": "The Best of the Black President",
+      "popularity": 48,
+      "tempo": 90.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.926,
+      "valence": 0.883,
+      "danceability": 0.641,
+      "acousticness": 0.11,
+      "instrumentalness": 0.025,
+      "loudness": -7.7,
+      "speechiness": 0.057,
+      "duration_ms": 591693,
+      "slug": "water-no-get-enemy-fela-kuti"
+    },
+    {
+      "name": "Spies Are Watching Me",
+      "artists": "Voilaaa;Sir Jean",
+      "album": "On te l'avait dit",
+      "popularity": 48,
+      "tempo": 127.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.708,
+      "valence": 0.949,
+      "danceability": 0.892,
+      "acousticness": 0.04,
+      "instrumentalness": 0.001,
+      "loudness": -9.0,
+      "speechiness": 0.078,
+      "duration_ms": 432963,
+      "slug": "spies-are-watching-me-voilaaa"
+    },
+    {
+      "name": "Villa",
+      "artists": "El Michels Affair",
+      "album": "Adult Themes",
+      "popularity": 48,
+      "tempo": 167.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.377,
+      "danceability": 0.503,
+      "acousticness": 0.676,
+      "instrumentalness": 0.809,
+      "loudness": -7.3,
+      "speechiness": 0.188,
+      "duration_ms": 165735,
+      "slug": "villa-el-michels-affair"
+    },
+    {
+      "name": "Ikeja Roads",
+      "artists": "Tony Allen",
+      "album": "Afrobeat Makers (Tony Allen Rhythms Revisited)",
+      "popularity": 48,
+      "tempo": 100.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.598,
+      "valence": 0.684,
+      "danceability": 0.777,
+      "acousticness": 0.023,
+      "instrumentalness": 0.89,
+      "loudness": -13.8,
+      "speechiness": 0.041,
+      "duration_ms": 160948,
+      "slug": "ikeja-roads-tony-allen"
+    },
+    {
+      "name": "Move on Up",
+      "artists": "The Dynamics",
+      "album": "Disco Reggae",
+      "popularity": 48,
+      "tempo": 146.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.769,
+      "valence": 0.969,
+      "danceability": 0.845,
+      "acousticness": 0.146,
+      "instrumentalness": 0.355,
+      "loudness": -7.8,
+      "speechiness": 0.036,
+      "duration_ms": 292571,
+      "slug": "move-on-up-the-dynamics"
+    },
+    {
+      "name": "It's Only Us",
+      "artists": "Monophonics;Kelly Finnigan",
+      "album": "It's Only Us",
+      "popularity": 48,
+      "tempo": 86.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.615,
+      "valence": 0.472,
+      "danceability": 0.477,
+      "acousticness": 0.482,
+      "instrumentalness": 0.031,
+      "loudness": -6.5,
+      "speechiness": 0.026,
+      "duration_ms": 298973,
+      "slug": "its-only-us-monophonics"
+    },
+    {
+      "name": "Bra",
+      "artists": "Cymande",
+      "album": "Cymande",
+      "popularity": 47,
+      "tempo": 117.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.769,
+      "valence": 0.891,
+      "danceability": 0.676,
+      "acousticness": 0.005,
+      "instrumentalness": 0.026,
+      "loudness": -10.1,
+      "speechiness": 0.053,
+      "duration_ms": 306360,
+      "slug": "bra-cymande"
+    },
+    {
+      "name": "Groovy Flute",
+      "artists": "Manu Dibango",
+      "album": "African Voodoo",
+      "popularity": 47,
+      "tempo": 104.7,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.845,
+      "valence": 0.965,
+      "danceability": 0.678,
+      "acousticness": 0.791,
+      "instrumentalness": 0.782,
+      "loudness": -9.4,
+      "speechiness": 0.039,
+      "duration_ms": 153097,
+      "slug": "groovy-flute-manu-dibango"
+    },
+    {
+      "name": "The Wilhelm Scream",
+      "artists": "The Bamboos;Washington",
+      "album": "Medicine Man",
+      "popularity": 47,
+      "tempo": 150.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.621,
+      "valence": 0.403,
+      "danceability": 0.565,
+      "acousticness": 0.008,
+      "instrumentalness": 0.032,
+      "loudness": -5.6,
+      "speechiness": 0.026,
+      "duration_ms": 268040,
+      "slug": "the-wilhelm-scream-the-bamboos"
+    },
+    {
+      "name": "La La La Love Me",
+      "artists": "Monophonics",
+      "album": "Sound of Sinning",
+      "popularity": 47,
+      "tempo": 88.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.54,
+      "valence": 0.453,
+      "danceability": 0.546,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.029,
+      "duration_ms": 200600,
+      "slug": "la-la-la-love-me-monophonics"
+    },
+    {
+      "name": "Lion Man",
+      "artists": "Criolo",
+      "album": "N\u00f3 na Orelha",
+      "popularity": 46,
+      "tempo": 83.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.66,
+      "valence": 0.484,
+      "danceability": 0.582,
+      "acousticness": 0.399,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.054,
+      "duration_ms": 205440,
+      "slug": "lion-man-criolo"
+    },
+    {
+      "name": "Sucrilhos",
+      "artists": "Criolo",
+      "album": "N\u00f3 na Orelha",
+      "popularity": 46,
+      "tempo": 160.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.764,
+      "danceability": 0.788,
+      "acousticness": 0.063,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.319,
+      "duration_ms": 240226,
+      "slug": "sucrilhos-criolo"
+    },
+    {
+      "name": "Chiquitita",
+      "artists": "Juanaf\u00e9",
+      "album": "La Makinita",
+      "popularity": 46,
+      "tempo": 88.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.556,
+      "valence": 0.902,
+      "danceability": 0.715,
+      "acousticness": 0.667,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.045,
+      "duration_ms": 284875,
+      "slug": "chiquitita-juanaf\u00e9"
+    },
+    {
+      "name": "You Are My Heart",
+      "artists": "Rex Williams",
+      "album": "Nigeria 70 - Lagos Jump",
+      "popularity": 46,
+      "tempo": 97.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.604,
+      "danceability": 0.675,
+      "acousticness": 0.481,
+      "instrumentalness": 0.023,
+      "loudness": -7.5,
+      "speechiness": 0.036,
+      "duration_ms": 193000,
+      "slug": "you-are-my-heart-rex-williams"
+    },
+    {
+      "name": "Rio Grande",
+      "artists": "Ikebe Shakedown",
+      "album": "Stone by Stone",
+      "popularity": 46,
+      "tempo": 162.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.692,
+      "danceability": 0.445,
+      "acousticness": 0.25,
+      "instrumentalness": 0.76,
+      "loudness": -7.5,
+      "speechiness": 0.03,
+      "duration_ms": 230986,
+      "slug": "rio-grande-ikebe-shakedown"
+    },
+    {
+      "name": "Every Season",
+      "artists": "Tony Allen;Damon Albarn;Ty",
+      "album": "HomeCooking",
+      "popularity": 46,
+      "tempo": 163.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.735,
+      "valence": 0.721,
+      "danceability": 0.751,
+      "acousticness": 0.063,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.077,
+      "duration_ms": 247306,
+      "slug": "every-season-tony-allen"
+    },
+    {
+      "name": "Safari Strut",
+      "artists": "Whitefield Brothers",
+      "album": "Earthology",
+      "popularity": 46,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.862,
+      "valence": 0.902,
+      "danceability": 0.677,
+      "acousticness": 0.416,
+      "instrumentalness": 0.859,
+      "loudness": -5.0,
+      "speechiness": 0.054,
+      "duration_ms": 199572,
+      "slug": "safari-strut-whitefield-brothers"
+    },
+    {
+      "name": "Tengo Luquita",
+      "artists": "Juanaf\u00e9",
+      "album": "La Makinita",
+      "popularity": 45,
+      "tempo": 176.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.711,
+      "valence": 0.651,
+      "danceability": 0.526,
+      "acousticness": 0.585,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.046,
+      "duration_ms": 223600,
+      "slug": "tengo-luquita-juanaf\u00e9"
+    },
+    {
+      "name": "Thank You Lord",
+      "artists": "CalledOut Music",
+      "album": "Thank You Lord",
+      "popularity": 45,
+      "tempo": 92.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.44,
+      "valence": 0.532,
+      "danceability": 0.714,
+      "acousticness": 0.319,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.095,
+      "duration_ms": 133053,
+      "slug": "thank-you-lord-calledout-music"
+    },
+    {
+      "name": "Grateful",
+      "artists": "Limoblaze;Moses Bliss",
+      "album": "Grateful",
+      "popularity": 45,
+      "tempo": 131.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.711,
+      "danceability": 0.729,
+      "acousticness": 0.267,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.193,
+      "duration_ms": 224634,
+      "slug": "grateful-limoblaze"
+    },
+    {
+      "name": "Fantastic Man",
+      "artists": "William Onyeabor",
+      "album": "World Psychedelic Classics 5: Who Is William Onyeabor?",
+      "popularity": 45,
+      "tempo": 114.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.756,
+      "valence": 0.944,
+      "danceability": 0.7,
+      "acousticness": 0.002,
+      "instrumentalness": 0.711,
+      "loudness": -10.7,
+      "speechiness": 0.058,
+      "duration_ms": 386160,
+      "slug": "fantastic-man-william-onyeabor"
+    },
+    {
+      "name": "Come on Home",
+      "artists": "Lijadu Sisters",
+      "album": "Horizon Unlimited",
+      "popularity": 45,
+      "tempo": 93.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.501,
+      "valence": 0.914,
+      "danceability": 0.537,
+      "acousticness": 0.068,
+      "instrumentalness": 0.004,
+      "loudness": -11.2,
+      "speechiness": 0.093,
+      "duration_ms": 318785,
+      "slug": "come-on-home-lijadu-sisters"
+    },
+    {
+      "name": "Enk\u00e8n Y\u00e8l\u00e9l\u00e8besh",
+      "artists": "Girma B\u00e8y\u00e8n\u00e8;Akal\u00e9 Wub\u00e9",
+      "album": "Mistakes on Purpose (Ethiopiques 30)",
+      "popularity": 45,
+      "tempo": 128.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.492,
+      "valence": 0.893,
+      "danceability": 0.74,
+      "acousticness": 0.589,
+      "instrumentalness": 0.001,
+      "loudness": -8.7,
+      "speechiness": 0.037,
+      "duration_ms": 238440,
+      "slug": "enk\u00e8n-y\u00e8l\u00e9l\u00e8besh-girma-b\u00e8y\u00e8n\u00e8"
+    },
+    {
+      "name": "Ainda H\u00e1 Tempo",
+      "artists": "Criolo",
+      "album": "Ainda H\u00e1 Tempo",
+      "popularity": 44,
+      "tempo": 81.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.483,
+      "danceability": 0.58,
+      "acousticness": 0.281,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.345,
+      "duration_ms": 318360,
+      "slug": "ainda-h\u00e1-tempo-criolo"
+    },
+    {
+      "name": "Espiral de Ilus\u00e3o",
+      "artists": "Criolo",
+      "album": "Espiral de Ilus\u00e3o",
+      "popularity": 44,
+      "tempo": 124.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.314,
+      "valence": 0.476,
+      "danceability": 0.776,
+      "acousticness": 0.881,
+      "instrumentalness": 0.001,
+      "loudness": -9.5,
+      "speechiness": 0.034,
+      "duration_ms": 220800,
+      "slug": "espiral-de-ilus\u00e3o-criolo"
+    },
+    {
+      "name": "Vida Loka I - Live",
+      "artists": "Criolo;Emicida;Mano Brown",
+      "album": "Criolo E Emicida Ao Vivo (Live)",
+      "popularity": 44,
+      "tempo": 82.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.877,
+      "valence": 0.662,
+      "danceability": 0.434,
+      "acousticness": 0.849,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.247,
+      "duration_ms": 271840,
+      "slug": "vida-loka-i-live-criolo"
+    },
+    {
+      "name": "Duas Cidades",
+      "artists": "BaianaSystem",
+      "album": "Duas Cidades",
+      "popularity": 44,
+      "tempo": 98.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.899,
+      "valence": 0.847,
+      "danceability": 0.789,
+      "acousticness": 0.125,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.138,
+      "duration_ms": 226040,
+      "slug": "duas-cidades-baianasystem"
+    },
+    {
+      "name": "Me Corte na Boca do C\u00e9u a Morte N\u00e3o Pede Perd\u00e3o",
+      "artists": "Criolo;Milton Nascimento",
+      "album": "Sobre Viver",
+      "popularity": 44,
+      "tempo": 81.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.3,
+      "valence": 0.278,
+      "danceability": 0.428,
+      "acousticness": 0.638,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.157,
+      "duration_ms": 257146,
+      "slug": "me-corte-na-boca-do-c\u00e9u-a-morte-n\u00e3o-pede-perd\u00e3o-criolo"
+    },
+    {
+      "name": "Menino Mimado",
+      "artists": "Criolo",
+      "album": "Espiral de Ilus\u00e3o",
+      "popularity": 44,
+      "tempo": 144.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.604,
+      "valence": 0.82,
+      "danceability": 0.83,
+      "acousticness": 0.563,
+      "instrumentalness": 0.001,
+      "loudness": -5.2,
+      "speechiness": 0.035,
+      "duration_ms": 227640,
+      "slug": "menino-mimado-criolo"
+    },
+    {
+      "name": "Kumama Papa - Tiktok refix version",
+      "artists": "Prinx Emmanuel;Grace Lokwa",
+      "album": "Kumama Papa (Tiktok refix version)",
+      "popularity": 44,
+      "tempo": 156.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.502,
+      "valence": 0.776,
+      "danceability": 0.631,
+      "acousticness": 0.835,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.242,
+      "duration_ms": 124840,
+      "slug": "kumama-papa-tiktok-refix-version-prinx-emmanuel"
+    },
+    {
+      "name": "Atomic Bomb - William Onyeabor vs. Hot Chip",
+      "artists": "William Onyeabor;Hot Chip",
+      "album": "What?!",
+      "popularity": 44,
+      "tempo": 125.8,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.56,
+      "valence": 0.78,
+      "danceability": 0.834,
+      "acousticness": 0.015,
+      "instrumentalness": 0.282,
+      "loudness": -10.1,
+      "speechiness": 0.044,
+      "duration_ms": 436236,
+      "slug": "atomic-bomb-william-onyeabor-vs-hot-chip-william-onyeabor"
+    },
+    {
+      "name": "Coconut",
+      "artists": "Manu Dibango",
+      "album": "African Voodoo",
+      "popularity": 44,
+      "tempo": 113.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.84,
+      "valence": 0.955,
+      "danceability": 0.652,
+      "acousticness": 0.145,
+      "instrumentalness": 0.136,
+      "loudness": -7.2,
+      "speechiness": 0.03,
+      "duration_ms": 131045,
+      "slug": "coconut-manu-dibango"
+    },
+    {
+      "name": "Mata",
+      "artists": "Akal\u00e9 Wub\u00e9",
+      "album": "Mata",
+      "popularity": 44,
+      "tempo": 82.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.496,
+      "valence": 0.808,
+      "danceability": 0.569,
+      "acousticness": 0.393,
+      "instrumentalness": 0.924,
+      "loudness": -11.4,
+      "speechiness": 0.067,
+      "duration_ms": 230853,
+      "slug": "mata-akal\u00e9-wub\u00e9"
+    },
+    {
+      "name": "Comencemos (Let's Start)",
+      "artists": "Jungle Fire",
+      "album": "Tropicoso",
+      "popularity": 44,
+      "tempo": 111.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.903,
+      "valence": 0.913,
+      "danceability": 0.666,
+      "acousticness": 0.23,
+      "instrumentalness": 0.616,
+      "loudness": -6.5,
+      "speechiness": 0.046,
+      "duration_ms": 152600,
+      "slug": "comencemos-lets-start-jungle-fire"
+    },
+    {
+      "name": "Lagos Sisi",
+      "artists": "Bola Johnson",
+      "album": "Man No Die",
+      "popularity": 44,
+      "tempo": 107.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.626,
+      "valence": 0.662,
+      "danceability": 0.718,
+      "acousticness": 0.147,
+      "instrumentalness": 0.002,
+      "loudness": -9.0,
+      "speechiness": 0.06,
+      "duration_ms": 203040,
+      "slug": "lagos-sisi-bola-johnson"
+    },
+    {
+      "name": "Yemanj\u00e1 Chegou",
+      "artists": "Criolo",
+      "album": "Sobre Viver",
+      "popularity": 43,
+      "tempo": 90.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.515,
+      "valence": 0.679,
+      "danceability": 0.711,
+      "acousticness": 0.679,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.051,
+      "duration_ms": 258359,
+      "slug": "yemanj\u00e1-chegou-criolo"
+    },
+    {
+      "name": "Vasilhame",
+      "artists": "Criolo",
+      "album": "Ainda H\u00e1 Tempo",
+      "popularity": 43,
+      "tempo": 124.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.876,
+      "valence": 0.676,
+      "danceability": 0.506,
+      "acousticness": 0.194,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.316,
+      "duration_ms": 172440,
+      "slug": "vasilhame-criolo"
+    },
+    {
+      "name": "Maasai - Doctor Flake Remix",
+      "artists": "Kutiman;Doctor Flake",
+      "album": "Maasai (Doctor Flake Remix)",
+      "popularity": 43,
+      "tempo": 102.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.874,
+      "valence": 0.339,
+      "danceability": 0.648,
+      "acousticness": 0.01,
+      "instrumentalness": 0.932,
+      "loudness": -5.9,
+      "speechiness": 0.034,
+      "duration_ms": 470837,
+      "slug": "maasai-doctor-flake-remix-kutiman"
+    },
+    {
+      "name": "For Me",
+      "artists": "Limoblaze;Marizu",
+      "album": "Afrobeats Rap and Jesus",
+      "popularity": 43,
+      "tempo": 108.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.719,
+      "valence": 0.719,
+      "danceability": 0.728,
+      "acousticness": 0.477,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.046,
+      "duration_ms": 194063,
+      "slug": "for-me-limoblaze"
+    },
+    {
+      "name": "Unathi",
+      "artists": "El Michels Affair;Piya Malik",
+      "album": "Yeti Season (Deluxe Version)",
+      "popularity": 43,
+      "tempo": 107.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.65,
+      "valence": 0.826,
+      "danceability": 0.524,
+      "acousticness": 0.095,
+      "instrumentalness": 0.007,
+      "loudness": -7.3,
+      "speechiness": 0.042,
+      "duration_ms": 213749,
+      "slug": "unathi-el-michels-affair"
+    },
+    {
+      "name": "Fellini",
+      "artists": "Criolo",
+      "album": "Fellini",
+      "popularity": 42,
+      "tempo": 127.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.746,
+      "valence": 0.717,
+      "danceability": 0.805,
+      "acousticness": 0.238,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.185,
+      "duration_ms": 171989,
+      "slug": "fellini-criolo"
+    },
+    {
+      "name": "Pequenina",
+      "artists": "Criolo;MC Hariel;Liniker;Maria Vilani;Jaques Morelenbaum",
+      "album": "Sobre Viver",
+      "popularity": 42,
+      "tempo": 160.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.6,
+      "valence": 0.529,
+      "danceability": 0.606,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.139,
+      "duration_ms": 273973,
+      "slug": "pequenina-criolo"
+    },
+    {
+      "name": "La Makinita",
+      "artists": "Juanaf\u00e9",
+      "album": "La Makinita",
+      "popularity": 42,
+      "tempo": 143.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.805,
+      "valence": 0.925,
+      "danceability": 0.633,
+      "acousticness": 0.053,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.033,
+      "duration_ms": 226648,
+      "slug": "la-makinita-juanaf\u00e9"
+    },
+    {
+      "name": "Fio de Pumo (Pad\u00ea On\u00e3)",
+      "artists": "Criolo",
+      "album": "Convoque Seu Buda",
+      "popularity": 42,
+      "tempo": 93.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.819,
+      "valence": 0.732,
+      "danceability": 0.77,
+      "acousticness": 0.019,
+      "instrumentalness": 0.013,
+      "loudness": -6.5,
+      "speechiness": 0.07,
+      "duration_ms": 249960,
+      "slug": "fio-de-pumo-pad\u00ea-on\u00e3-criolo"
+    },
+    {
+      "name": "Bang Data",
+      "artists": "Bang Data",
+      "album": "Maldito Carnaval",
+      "popularity": 42,
+      "tempo": 172.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.835,
+      "valence": 0.903,
+      "danceability": 0.605,
+      "acousticness": 0.076,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.14,
+      "duration_ms": 180973,
+      "slug": "bang-data-bang-data"
+    },
+    {
+      "name": "Saci (Remix)",
+      "artists": "BaianaSystem;Tropkillaz",
+      "album": "Saci (Remix)",
+      "popularity": 42,
+      "tempo": 128.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.657,
+      "danceability": 0.974,
+      "acousticness": 0.097,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.174,
+      "duration_ms": 183779,
+      "slug": "saci-remix-baianasystem"
+    },
+    {
+      "name": "Your Love",
+      "artists": "Limoblaze;Dj Horphuray",
+      "album": "Afrobeats Rap and Jesus",
+      "popularity": 42,
+      "tempo": 110.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.958,
+      "danceability": 0.795,
+      "acousticness": 0.115,
+      "instrumentalness": 0.005,
+      "loudness": -4.8,
+      "speechiness": 0.064,
+      "duration_ms": 224208,
+      "slug": "your-love-limoblaze"
+    },
+    {
+      "name": "Murkit Gem",
+      "artists": "El Michels Affair;Piya Malik",
+      "album": "Yeti Season (Deluxe Version)",
+      "popularity": 42,
+      "tempo": 117.8,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.632,
+      "valence": 0.566,
+      "danceability": 0.536,
+      "acousticness": 0.599,
+      "instrumentalness": 0.921,
+      "loudness": -10.1,
+      "speechiness": 0.064,
+      "duration_ms": 192404,
+      "slug": "murkit-gem-el-michels-affair"
+    },
+    {
+      "name": "My Prayer (Yahweh)",
+      "artists": "CalledOut Music",
+      "album": "My Prayer (Yahweh)",
+      "popularity": 42,
+      "tempo": 141.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.31,
+      "valence": 0.563,
+      "danceability": 0.583,
+      "acousticness": 0.688,
+      "instrumentalness": 0.0,
+      "loudness": -14.9,
+      "speechiness": 0.159,
+      "duration_ms": 217446,
+      "slug": "my-prayer-yahweh-calledout-music"
+    },
+    {
+      "name": "Ala Vida",
+      "artists": "El Michels Affair",
+      "album": "Yeti Season (Deluxe Version)",
+      "popularity": 42,
+      "tempo": 80.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.386,
+      "valence": 0.491,
+      "danceability": 0.647,
+      "acousticness": 0.67,
+      "instrumentalness": 0.906,
+      "loudness": -10.4,
+      "speechiness": 0.057,
+      "duration_ms": 232357,
+      "slug": "ala-vida-el-michels-affair"
+    },
+    {
+      "name": "T\u00f4 Pra Ver",
+      "artists": "Criolo;Rael",
+      "album": "Ainda H\u00e1 Tempo",
+      "popularity": 41,
+      "tempo": 90.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.818,
+      "valence": 0.599,
+      "danceability": 0.637,
+      "acousticness": 0.19,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.281,
+      "duration_ms": 254520,
+      "slug": "t\u00f4-pra-ver-criolo"
+    },
+    {
+      "name": "\u00c9 o Teste",
+      "artists": "Criolo",
+      "album": "Ainda H\u00e1 Tempo",
+      "popularity": 41,
+      "tempo": 91.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.728,
+      "valence": 0.594,
+      "danceability": 0.66,
+      "acousticness": 0.178,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.337,
+      "duration_ms": 279720,
+      "slug": "\u00e9-o-teste-criolo"
+    },
+    {
+      "name": "Mari\u00f4",
+      "artists": "Criolo",
+      "album": "N\u00f3 na Orelha",
+      "popularity": 41,
+      "tempo": 90.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.577,
+      "valence": 0.658,
+      "danceability": 0.763,
+      "acousticness": 0.087,
+      "instrumentalness": 0.002,
+      "loudness": -7.1,
+      "speechiness": 0.125,
+      "duration_ms": 217400,
+      "slug": "mari\u00f4-criolo"
+    },
+    {
+      "name": "Aprendendo a Sobreviver",
+      "artists": "Criolo",
+      "album": "Sobre Viver",
+      "popularity": 41,
+      "tempo": 103.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.619,
+      "valence": 0.614,
+      "danceability": 0.817,
+      "acousticness": 0.263,
+      "instrumentalness": 0.003,
+      "loudness": -6.9,
+      "speechiness": 0.054,
+      "duration_ms": 212826,
+      "slug": "aprendendo-a-sobreviver-criolo"
+    },
+    {
+      "name": "Primavera (Vai Chuva)",
+      "artists": "Criolo",
+      "album": "Viva Tim Maia",
+      "popularity": 41,
+      "tempo": 147.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.521,
+      "danceability": 0.573,
+      "acousticness": 0.108,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.047,
+      "duration_ms": 244533,
+      "slug": "primavera-vai-chuva-criolo"
+    },
+    {
+      "name": "A Cada Vento - Live",
+      "artists": "Criolo;Emicida",
+      "album": "Criolo E Emicida Ao Vivo (Live)",
+      "popularity": 41,
+      "tempo": 98.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.861,
+      "valence": 0.8,
+      "danceability": 0.651,
+      "acousticness": 0.43,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.109,
+      "duration_ms": 243373,
+      "slug": "a-cada-vento-live-criolo"
+    },
+    {
+      "name": "Nas \u00c1guas",
+      "artists": "Criolo",
+      "album": "Espiral de Ilus\u00e3o",
+      "popularity": 41,
+      "tempo": 115.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.653,
+      "valence": 0.706,
+      "danceability": 0.753,
+      "acousticness": 0.76,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.051,
+      "duration_ms": 235560,
+      "slug": "nas-\u00e1guas-criolo"
+    },
+    {
+      "name": "Plano de Voo",
+      "artists": "Criolo",
+      "album": "Convoque Seu Buda",
+      "popularity": 41,
+      "tempo": 156.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.69,
+      "valence": 0.228,
+      "danceability": 0.571,
+      "acousticness": 0.299,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.542,
+      "duration_ms": 218880,
+      "slug": "plano-de-voo-criolo"
+    },
+    {
+      "name": "Victory",
+      "artists": "Eben",
+      "album": "Victory",
+      "popularity": 41,
+      "tempo": 125.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.697,
+      "valence": 0.879,
+      "danceability": 0.751,
+      "acousticness": 0.372,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.111,
+      "duration_ms": 230505,
+      "slug": "victory-eben"
+    },
+    {
+      "name": "Zombie",
+      "artists": "Fela Kuti",
+      "album": "Zombie",
+      "popularity": 41,
+      "tempo": 131.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.942,
+      "valence": 0.574,
+      "danceability": 0.672,
+      "acousticness": 0.386,
+      "instrumentalness": 0.014,
+      "loudness": -5.1,
+      "speechiness": 0.186,
+      "duration_ms": 745653,
+      "slug": "zombie-fela-kuti"
+    },
+    {
+      "name": "Jesus at the Centre",
+      "artists": "Eben",
+      "album": "Victory",
+      "popularity": 41,
+      "tempo": 135.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.557,
+      "valence": 0.11,
+      "danceability": 0.489,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.038,
+      "duration_ms": 369529,
+      "slug": "jesus-at-the-centre-eben"
+    }
+  ]
+}

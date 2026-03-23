@@ -1,0 +1,2803 @@
+{
+  "genre": "Trance",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 74.966,
+    "max": 196.118,
+    "mean": 130.002,
+    "median": 127.978,
+    "q1": 121.03,
+    "q3": 137.982,
+    "histogram": {
+      "70-79": 4,
+      "90-99": 1,
+      "100-109": 5,
+      "110-119": 10,
+      "120-129": 40,
+      "130-139": 22,
+      "140-149": 6,
+      "150-159": 3,
+      "160-169": 2,
+      "170-179": 1,
+      "180-189": 3,
+      "190-199": 3
+    }
+  },
+  "key_distribution": {
+    "G": 11,
+    "C#/Db": 11,
+    "G#/Ab": 10,
+    "F": 10,
+    "C": 9,
+    "A": 9,
+    "A#/Bb": 9,
+    "F#/Gb": 9,
+    "B": 7,
+    "D#/Eb": 6,
+    "D": 5,
+    "E": 4
+  },
+  "mode_distribution": {
+    "Minor": 51,
+    "Major": 49
+  },
+  "key_mode_distribution": {
+    "G Major": 8,
+    "F Minor": 8,
+    "C Major": 7,
+    "G#/Ab Major": 7,
+    "C#/Db Minor": 6,
+    "A#/Bb Minor": 6,
+    "F#/Gb Minor": 6,
+    "B Minor": 5,
+    "D#/Eb Minor": 5,
+    "A Major": 5,
+    "C#/Db Major": 5,
+    "D Major": 4,
+    "A Minor": 4,
+    "G Minor": 3,
+    "G#/Ab Minor": 3,
+    "A#/Bb Major": 3,
+    "F#/Gb Major": 3,
+    "E Major": 2,
+    "C Minor": 2,
+    "E Minor": 2,
+    "F Major": 2,
+    "B Major": 2,
+    "D Minor": 1,
+    "D#/Eb Major": 1
+  },
+  "energy": {
+    "min": 0.532,
+    "max": 0.995,
+    "mean": 0.865,
+    "median": 0.895,
+    "q1": 0.787,
+    "q3": 0.942
+  },
+  "valence": {
+    "min": 0.037,
+    "max": 0.904,
+    "mean": 0.369,
+    "median": 0.358,
+    "q1": 0.187,
+    "q3": 0.517
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.763,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.717
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.517
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.083
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.261
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.298
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.287
+    },
+    {
+      "energy": 0.755,
+      "valence": 0.387
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.726,
+      "valence": 0.767
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.62
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.83,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.122
+    },
+    {
+      "energy": 0.92,
+      "valence": 0.39
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.59
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.989,
+      "valence": 0.553
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.062
+    },
+    {
+      "energy": 0.99,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.754
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.833
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.266
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.069
+    },
+    {
+      "energy": 0.947,
+      "valence": 0.073
+    },
+    {
+      "energy": 0.726,
+      "valence": 0.769
+    },
+    {
+      "energy": 0.816,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.949,
+      "valence": 0.155
+    },
+    {
+      "energy": 0.995,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.222
+    },
+    {
+      "energy": 0.99,
+      "valence": 0.192
+    },
+    {
+      "energy": 0.957,
+      "valence": 0.157
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.35
+    },
+    {
+      "energy": 0.811,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.183
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.157
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.904
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.051
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.971,
+      "valence": 0.122
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.058
+    },
+    {
+      "energy": 0.731,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.591
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.424
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.17
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.465
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.366
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.576
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.174
+    },
+    {
+      "energy": 0.772,
+      "valence": 0.215
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.037
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.962,
+      "valence": 0.092
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.043
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.76
+    },
+    {
+      "energy": 0.957,
+      "valence": 0.176
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.413
+    },
+    {
+      "energy": 0.701,
+      "valence": 0.187
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.414,
+    "mean": 0.051,
+    "median": 0.012,
+    "q1": 0.003,
+    "q3": 0.045
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.985,
+    "mean": 0.169,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.1
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.414,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.194,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.409
+    },
+    {
+      "acousticness": 0.374,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.985
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.76
+    },
+    {
+      "acousticness": 0.1,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.817
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.037
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.146,
+      "instrumentalness": 0.985
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.374,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.89
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.926
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.615
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.138,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.698
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.697
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.52
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.1
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.687
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.651
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.354
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.502
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.349
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.588
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.894
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.871
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.849
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.3,
+      "instrumentalness": 0.39
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.189,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.306,
+      "instrumentalness": 0.815
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.53
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.251,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.05
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.865
+    }
+  ],
+  "duration": {
+    "min": 87269,
+    "max": 555704,
+    "mean": 206317.35,
+    "median": 190162.5,
+    "q1": 162302,
+    "q3": 225546
+  },
+  "danceability": {
+    "min": 0.175,
+    "max": 0.843,
+    "mean": 0.597,
+    "median": 0.621,
+    "q1": 0.526,
+    "q3": 0.694
+  },
+  "loudness": {
+    "min": -11.588,
+    "max": 1.023,
+    "mean": -5.188,
+    "median": -4.828,
+    "q1": -6.331,
+    "q3": -3.717
+  },
+  "speechiness": {
+    "min": 0.028,
+    "max": 0.427,
+    "mean": 0.092,
+    "median": 0.054,
+    "q1": 0.044,
+    "q3": 0.119
+  },
+  "top_artists": [
+    {
+      "name": "Ti\u00ebsto",
+      "count": 27
+    },
+    {
+      "name": "Armin van Buuren",
+      "count": 20
+    },
+    {
+      "name": "W&W",
+      "count": 8
+    },
+    {
+      "name": "Asking Alexandria",
+      "count": 7
+    },
+    {
+      "name": "Vini Vici",
+      "count": 4
+    },
+    {
+      "name": "Ava Max",
+      "count": 3
+    },
+    {
+      "name": "ATB",
+      "count": 3
+    },
+    {
+      "name": "Darude",
+      "count": 3
+    },
+    {
+      "name": "Hilight Tribe",
+      "count": 3
+    },
+    {
+      "name": "AXMO",
+      "count": 3
+    },
+    {
+      "name": "Simon Ward",
+      "count": 3
+    },
+    {
+      "name": "Charli XCX",
+      "count": 2
+    },
+    {
+      "name": "Topic",
+      "count": 2
+    },
+    {
+      "name": "A7S",
+      "count": 2
+    },
+    {
+      "name": "Dzeko",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "The Motto",
+      "artists": "Ti\u00ebsto;Ava Max",
+      "album": "The Motto",
+      "popularity": 86,
+      "tempo": 118.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.464,
+      "danceability": 0.754,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.043,
+      "duration_ms": 164818,
+      "slug": "the-motto-ti\u00ebsto"
+    },
+    {
+      "name": "Don't Be Shy",
+      "artists": "Ti\u00ebsto;KAROL G",
+      "album": "Don't Be Shy",
+      "popularity": 84,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.787,
+      "valence": 0.513,
+      "danceability": 0.77,
+      "acousticness": 0.198,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.058,
+      "duration_ms": 140500,
+      "slug": "dont-be-shy-ti\u00ebsto"
+    },
+    {
+      "name": "Hot In It",
+      "artists": "Ti\u00ebsto;Charli XCX",
+      "album": "Hot In It",
+      "popularity": 84,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.841,
+      "valence": 0.717,
+      "danceability": 0.748,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.177,
+      "duration_ms": 129817,
+      "slug": "hot-in-it-ti\u00ebsto"
+    },
+    {
+      "name": "The Business",
+      "artists": "Ti\u00ebsto",
+      "album": "The Business",
+      "popularity": 82,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.62,
+      "valence": 0.235,
+      "danceability": 0.798,
+      "acousticness": 0.414,
+      "instrumentalness": 0.019,
+      "loudness": -7.1,
+      "speechiness": 0.232,
+      "duration_ms": 164000,
+      "slug": "the-business-ti\u00ebsto"
+    },
+    {
+      "name": "Your Love (9PM)",
+      "artists": "ATB;Topic;A7S",
+      "album": "Your Love (9PM)",
+      "popularity": 78,
+      "tempo": 126.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.784,
+      "valence": 0.517,
+      "danceability": 0.669,
+      "acousticness": 0.194,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.112,
+      "duration_ms": 150052,
+      "slug": "your-love-9pm-atb"
+    },
+    {
+      "name": "Pump It Louder",
+      "artists": "Ti\u00ebsto;Black Eyed Peas",
+      "album": "Pump It Louder",
+      "popularity": 76,
+      "tempo": 126.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.543,
+      "danceability": 0.66,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.185,
+      "duration_ms": 158571,
+      "slug": "pump-it-louder-ti\u00ebsto"
+    },
+    {
+      "name": "Baila Conmigo",
+      "artists": "Ti\u00ebsto",
+      "album": "Baila Conmigo",
+      "popularity": 76,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.083,
+      "danceability": 0.652,
+      "acousticness": 0.007,
+      "instrumentalness": 0.409,
+      "loudness": -6.4,
+      "speechiness": 0.077,
+      "duration_ms": 146249,
+      "slug": "baila-conmigo-ti\u00ebsto"
+    },
+    {
+      "name": "Jackie Chan",
+      "artists": "Ti\u00ebsto;Dzeko;Preme;Post Malone",
+      "album": "Jackie Chan",
+      "popularity": 72,
+      "tempo": 128.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.834,
+      "valence": 0.687,
+      "danceability": 0.747,
+      "acousticness": 0.374,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.045,
+      "duration_ms": 215759,
+      "slug": "jackie-chan-ti\u00ebsto"
+    },
+    {
+      "name": "Savage",
+      "artists": "Ti\u00ebsto;Deorro",
+      "album": "Savage",
+      "popularity": 71,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.7,
+      "valence": 0.261,
+      "danceability": 0.694,
+      "acousticness": 0.191,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.049,
+      "duration_ms": 167500,
+      "slug": "savage-ti\u00ebsto"
+    },
+    {
+      "name": "Sandstorm",
+      "artists": "Darude",
+      "album": "Before the Storm, Special Edition",
+      "popularity": 70,
+      "tempo": 136.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.965,
+      "valence": 0.587,
+      "danceability": 0.528,
+      "acousticness": 0.141,
+      "instrumentalness": 0.985,
+      "loudness": -8.0,
+      "speechiness": 0.046,
+      "duration_ms": 225493,
+      "slug": "sandstorm-darude"
+    },
+    {
+      "name": "Sicko Drop",
+      "artists": "KVSH;Schillist",
+      "album": "Sicko Drop",
+      "popularity": 69,
+      "tempo": 124.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.713,
+      "valence": 0.298,
+      "danceability": 0.843,
+      "acousticness": 0.028,
+      "instrumentalness": 0.76,
+      "loudness": -5.5,
+      "speechiness": 0.085,
+      "duration_ms": 147976,
+      "slug": "sicko-drop-kvsh"
+    },
+    {
+      "name": "One More Time",
+      "artists": "Armin van Buuren;Maia Wright",
+      "album": "One More Time",
+      "popularity": 69,
+      "tempo": 126.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.761,
+      "valence": 0.287,
+      "danceability": 0.579,
+      "acousticness": 0.1,
+      "instrumentalness": 0.002,
+      "loudness": -5.5,
+      "speechiness": 0.051,
+      "duration_ms": 148095,
+      "slug": "one-more-time-armin-van-buuren"
+    },
+    {
+      "name": "Children",
+      "artists": "Robert Miles",
+      "album": "Children (Dance Vault Mixes)",
+      "popularity": 69,
+      "tempo": 137.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.755,
+      "valence": 0.387,
+      "danceability": 0.604,
+      "acousticness": 0.0,
+      "instrumentalness": 0.817,
+      "loudness": -10.8,
+      "speechiness": 0.034,
+      "duration_ms": 243266,
+      "slug": "children-robert-miles"
+    },
+    {
+      "name": "Be Someone",
+      "artists": "KVSH;Schillist;Ray X Ben",
+      "album": "Be Someone",
+      "popularity": 69,
+      "tempo": 120.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.398,
+      "danceability": 0.711,
+      "acousticness": 0.101,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.202,
+      "duration_ms": 166005,
+      "slug": "be-someone-kvsh"
+    },
+    {
+      "name": "Black Hole",
+      "artists": "We Came As Romans;Caleb Shomo",
+      "album": "Black Hole",
+      "popularity": 69,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.958,
+      "valence": 0.385,
+      "danceability": 0.48,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.066,
+      "duration_ms": 179181,
+      "slug": "black-hole-we-came-as-romans"
+    },
+    {
+      "name": "Blah Blah Blah",
+      "artists": "Armin van Buuren",
+      "album": "Blah Blah Blah",
+      "popularity": 67,
+      "tempo": 138.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.179,
+      "danceability": 0.612,
+      "acousticness": 0.009,
+      "instrumentalness": 0.004,
+      "loudness": -3.9,
+      "speechiness": 0.053,
+      "duration_ms": 183518,
+      "slug": "blah-blah-blah-armin-van-buuren"
+    },
+    {
+      "name": "Ritual",
+      "artists": "Ti\u00ebsto;Jonas Blue;Rita Ora",
+      "album": "Ritual",
+      "popularity": 67,
+      "tempo": 115.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.726,
+      "valence": 0.767,
+      "danceability": 0.647,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.055,
+      "duration_ms": 198995,
+      "slug": "ritual-ti\u00ebsto"
+    },
+    {
+      "name": "This Is What It Feels Like",
+      "artists": "Armin van Buuren;Trevor Guthrie",
+      "album": "Intense",
+      "popularity": 67,
+      "tempo": 129.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.145,
+      "danceability": 0.551,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.03,
+      "duration_ms": 204360,
+      "slug": "this-is-what-it-feels-like-armin-van-buuren"
+    },
+    {
+      "name": "Arrow of Love",
+      "artists": "Electric Callboy",
+      "album": "TEKKNO",
+      "popularity": 67,
+      "tempo": 75.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.863,
+      "valence": 0.62,
+      "danceability": 0.45,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.065,
+      "duration_ms": 222866,
+      "slug": "arrow-of-love-electric-callboy"
+    },
+    {
+      "name": "Great Spirit",
+      "artists": "Armin van Buuren;Vini Vici;Hilight Tribe",
+      "album": "Great Spirit",
+      "popularity": 66,
+      "tempo": 103.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.211,
+      "danceability": 0.592,
+      "acousticness": 0.006,
+      "instrumentalness": 0.012,
+      "loudness": -8.0,
+      "speechiness": 0.066,
+      "duration_ms": 215773,
+      "slug": "great-spirit-armin-van-buuren"
+    },
+    {
+      "name": "Skydance",
+      "artists": "W&W;AXMO;Giin",
+      "album": "Skydance",
+      "popularity": 66,
+      "tempo": 75.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.895,
+      "valence": 0.449,
+      "danceability": 0.377,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -2.5,
+      "speechiness": 0.048,
+      "duration_ms": 166812,
+      "slug": "skydance-ww"
+    },
+    {
+      "name": "Blah Blah Blah",
+      "artists": "Armin van Buuren",
+      "album": "Balance",
+      "popularity": 66,
+      "tempo": 138.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.179,
+      "danceability": 0.612,
+      "acousticness": 0.009,
+      "instrumentalness": 0.004,
+      "loudness": -3.9,
+      "speechiness": 0.053,
+      "duration_ms": 183518,
+      "slug": "blah-blah-blah-armin-van-buuren"
+    },
+    {
+      "name": "Red Lights",
+      "artists": "Ti\u00ebsto",
+      "album": "A Town Called Paradise",
+      "popularity": 66,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.83,
+      "valence": 0.548,
+      "danceability": 0.654,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.037,
+      "duration_ms": 262200,
+      "slug": "red-lights-ti\u00ebsto"
+    },
+    {
+      "name": "Secrets",
+      "artists": "Ti\u00ebsto;KSHMR;VASSY",
+      "album": "Club Life, Vol. 4 - New York City",
+      "popularity": 65,
+      "tempo": 128.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.812,
+      "valence": 0.122,
+      "danceability": 0.648,
+      "acousticness": 0.0,
+      "instrumentalness": 0.037,
+      "loudness": -7.6,
+      "speechiness": 0.041,
+      "duration_ms": 250946,
+      "slug": "secrets-ti\u00ebsto"
+    },
+    {
+      "name": "Moonlight Shadow",
+      "artists": "W&W;Groove Coverage",
+      "album": "Moonlight Shadow",
+      "popularity": 65,
+      "tempo": 145.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.92,
+      "valence": 0.39,
+      "danceability": 0.457,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.102,
+      "duration_ms": 179586,
+      "slug": "moonlight-shadow-ww"
+    },
+    {
+      "name": "Sandstorm",
+      "artists": "Darude",
+      "album": "Before the Storm",
+      "popularity": 65,
+      "tempo": 136.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.967,
+      "valence": 0.59,
+      "danceability": 0.532,
+      "acousticness": 0.146,
+      "instrumentalness": 0.985,
+      "loudness": -8.0,
+      "speechiness": 0.046,
+      "duration_ms": 225666,
+      "slug": "sandstorm-darude"
+    },
+    {
+      "name": "Faded Out (feat. Within Temptation)",
+      "artists": "Asking Alexandria;Within Temptation",
+      "album": "Faded Out (feat. Within Temptation)",
+      "popularity": 65,
+      "tempo": 75.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.526,
+      "danceability": 0.478,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.094,
+      "duration_ms": 185542,
+      "slug": "faded-out-feat-within-temptation-asking-alexandria"
+    },
+    {
+      "name": "Come With Me",
+      "artists": "W&W;Harris & Ford;Special D.",
+      "album": "Come With Me",
+      "popularity": 65,
+      "tempo": 145.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.989,
+      "valence": 0.553,
+      "danceability": 0.676,
+      "acousticness": 0.044,
+      "instrumentalness": 0.002,
+      "loudness": -2.7,
+      "speechiness": 0.13,
+      "duration_ms": 161589,
+      "slug": "come-with-me-ww"
+    },
+    {
+      "name": "Tekkno Train",
+      "artists": "Electric Callboy",
+      "album": "TEKKNO",
+      "popularity": 65,
+      "tempo": 145.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.87,
+      "valence": 0.541,
+      "danceability": 0.538,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.053,
+      "duration_ms": 177626,
+      "slug": "tekkno-train-electric-callboy"
+    },
+    {
+      "name": "Jackie Chan",
+      "artists": "Ti\u00ebsto;Dzeko;Preme;Post Malone",
+      "album": "The London Sessions",
+      "popularity": 64,
+      "tempo": 128.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.833,
+      "valence": 0.687,
+      "danceability": 0.747,
+      "acousticness": 0.374,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.045,
+      "duration_ms": 215759,
+      "slug": "jackie-chan-ti\u00ebsto"
+    },
+    {
+      "name": "The Age Of Love - Charlotte de Witte & Enrico Sangiuliano Remix",
+      "artists": "Age Of Love;Charlotte de Witte;Enrico Sangiuliano",
+      "album": "The Age Of Love (Charlotte de Witte & Enrico Sangiuliano Remix)",
+      "popularity": 64,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.062,
+      "danceability": 0.748,
+      "acousticness": 0.058,
+      "instrumentalness": 0.89,
+      "loudness": -8.3,
+      "speechiness": 0.051,
+      "duration_ms": 489480,
+      "slug": "the-age-of-love-charlotte-de-witte-enrico-sangiuliano-remix-age-of-love"
+    },
+    {
+      "name": "Hot In It - Ti\u00ebsto\u2019s Hotter Mix",
+      "artists": "Ti\u00ebsto;Charli XCX",
+      "album": "Hot In It (Ti\u00ebsto\u2019s Hotter Mix)",
+      "popularity": 64,
+      "tempo": 126.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.99,
+      "valence": 0.167,
+      "danceability": 0.723,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.198,
+      "duration_ms": 184871,
+      "slug": "hot-in-it-ti\u00ebstos-hotter-mix-ti\u00ebsto"
+    },
+    {
+      "name": "Alone In A Room",
+      "artists": "Asking Alexandria",
+      "album": "Asking Alexandria",
+      "popularity": 64,
+      "tempo": 135.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.946,
+      "valence": 0.284,
+      "danceability": 0.482,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.085,
+      "duration_ms": 245861,
+      "slug": "alone-in-a-room-asking-alexandria"
+    },
+    {
+      "name": "9Pm (Till I Come)",
+      "artists": "ATB",
+      "album": "Movin' Melodies",
+      "popularity": 64,
+      "tempo": 130.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.941,
+      "valence": 0.754,
+      "danceability": 0.672,
+      "acousticness": 0.028,
+      "instrumentalness": 0.926,
+      "loudness": -6.4,
+      "speechiness": 0.049,
+      "duration_ms": 193880,
+      "slug": "9pm-till-i-come-atb"
+    },
+    {
+      "name": "Come Around Again",
+      "artists": "Armin van Buuren;Billen Ted;JC Stewart",
+      "album": "Come Around Again",
+      "popularity": 64,
+      "tempo": 123.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.912,
+      "valence": 0.426,
+      "danceability": 0.589,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.077,
+      "duration_ms": 169108,
+      "slug": "come-around-again-armin-van-buuren"
+    },
+    {
+      "name": "Xplode (ASOT 830)",
+      "artists": "Avancada;Darius & Finlay",
+      "album": "A State Of Trance Episode 830",
+      "popularity": 64,
+      "tempo": 131.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.743,
+      "valence": 0.496,
+      "danceability": 0.509,
+      "acousticness": 0.0,
+      "instrumentalness": 0.615,
+      "loudness": -11.6,
+      "speechiness": 0.028,
+      "duration_ms": 87269,
+      "slug": "xplode-asot-830-avancada"
+    },
+    {
+      "name": "Love We Lost (with R3HAB)",
+      "artists": "Armin van Buuren;R3HAB;Simon Ward",
+      "album": "Love We Lost (with R3HAB)",
+      "popularity": 63,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.311,
+      "danceability": 0.651,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.05,
+      "duration_ms": 136000,
+      "slug": "love-we-lost-with-r3hab-armin-van-buuren"
+    },
+    {
+      "name": "The Business, Pt. II",
+      "artists": "Ti\u00ebsto;Ty Dolla $ign",
+      "album": "The Business, Pt. II",
+      "popularity": 63,
+      "tempo": 120.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.747,
+      "valence": 0.326,
+      "danceability": 0.658,
+      "acousticness": 0.138,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.097,
+      "duration_ms": 164267,
+      "slug": "the-business-pt-ii-ti\u00ebsto"
+    },
+    {
+      "name": "No Fun",
+      "artists": "Armin van Buuren;The Stickmen Project",
+      "album": "No Fun",
+      "popularity": 63,
+      "tempo": 121.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.904,
+      "valence": 0.328,
+      "danceability": 0.731,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.035,
+      "duration_ms": 130412,
+      "slug": "no-fun-armin-van-buuren"
+    },
+    {
+      "name": "God Is A Dancer (with Mabel)",
+      "artists": "Ti\u00ebsto;Mabel",
+      "album": "God Is A Dancer (with Mabel)",
+      "popularity": 63,
+      "tempo": 120.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.747,
+      "valence": 0.833,
+      "danceability": 0.774,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.082,
+      "duration_ms": 168125,
+      "slug": "god-is-a-dancer-with-mabel-ti\u00ebsto"
+    },
+    {
+      "name": "The Motto - Ti\u00ebsto\u2019s VIP Mix",
+      "artists": "Ti\u00ebsto;Ava Max",
+      "album": "The Motto (Ti\u00ebsto\u2019s VIP Mix)",
+      "popularity": 63,
+      "tempo": 125.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.266,
+      "danceability": 0.682,
+      "acousticness": 0.01,
+      "instrumentalness": 0.002,
+      "loudness": -2.9,
+      "speechiness": 0.042,
+      "duration_ms": 206160,
+      "slug": "the-motto-ti\u00ebstos-vip-mix-ti\u00ebsto"
+    },
+    {
+      "name": "Not The American Average",
+      "artists": "Asking Alexandria",
+      "album": "Stand Up And Scream",
+      "popularity": 63,
+      "tempo": 185.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.892,
+      "valence": 0.069,
+      "danceability": 0.236,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.188,
+      "duration_ms": 279226,
+      "slug": "not-the-american-average-asking-alexandria"
+    },
+    {
+      "name": "Free Tibet - Vini Vici Remix",
+      "artists": "Hilight Tribe;Vini Vici",
+      "album": "Free Tibet",
+      "popularity": 62,
+      "tempo": 103.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.947,
+      "valence": 0.073,
+      "danceability": 0.382,
+      "acousticness": 0.013,
+      "instrumentalness": 0.698,
+      "loudness": -5.9,
+      "speechiness": 0.066,
+      "duration_ms": 474782,
+      "slug": "free-tibet-vini-vici-remix-hilight-tribe"
+    },
+    {
+      "name": "Ritual",
+      "artists": "Ti\u00ebsto;Jonas Blue;Rita Ora",
+      "album": "The London Sessions",
+      "popularity": 62,
+      "tempo": 115.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.726,
+      "valence": 0.769,
+      "danceability": 0.647,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.055,
+      "duration_ms": 198995,
+      "slug": "ritual-ti\u00ebsto"
+    },
+    {
+      "name": "Wasted",
+      "artists": "Ti\u00ebsto;Matthew Koma",
+      "album": "A Town Called Paradise",
+      "popularity": 62,
+      "tempo": 112.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.816,
+      "valence": 0.386,
+      "danceability": 0.638,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -5.5,
+      "speechiness": 0.031,
+      "duration_ms": 190013,
+      "slug": "wasted-ti\u00ebsto"
+    },
+    {
+      "name": "Can U Dance (To My Beat)",
+      "artists": "Ti\u00ebsto",
+      "album": "Can U Dance (To My Beat)",
+      "popularity": 62,
+      "tempo": 128.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.427,
+      "danceability": 0.725,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.427,
+      "duration_ms": 148125,
+      "slug": "can-u-dance-to-my-beat-ti\u00ebsto"
+    },
+    {
+      "name": "Come Around Again",
+      "artists": "Armin van Buuren;Billen Ted;JC Stewart",
+      "album": "Feel Again, Pt. 1",
+      "popularity": 62,
+      "tempo": 123.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.912,
+      "valence": 0.426,
+      "danceability": 0.589,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.077,
+      "duration_ms": 169108,
+      "slug": "come-around-again-armin-van-buuren"
+    },
+    {
+      "name": "Learning to Survive",
+      "artists": "We Came As Romans",
+      "album": "Cold Like War",
+      "popularity": 62,
+      "tempo": 140.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.829,
+      "valence": 0.495,
+      "danceability": 0.588,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.051,
+      "duration_ms": 269966,
+      "slug": "learning-to-survive-we-came-as-romans"
+    },
+    {
+      "name": "Hey (I Miss You)",
+      "artists": "Armin van Buuren;Simon Ward",
+      "album": "Hey (I Miss You)",
+      "popularity": 61,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.88,
+      "valence": 0.43,
+      "danceability": 0.615,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -3.7,
+      "speechiness": 0.035,
+      "duration_ms": 199522,
+      "slug": "hey-i-miss-you-armin-van-buuren"
+    },
+    {
+      "name": "Sevilla",
+      "artists": "Henrique Camacho;Fatality",
+      "album": "Sevilla",
+      "popularity": 61,
+      "tempo": 180.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.949,
+      "valence": 0.155,
+      "danceability": 0.498,
+      "acousticness": 0.005,
+      "instrumentalness": 0.697,
+      "loudness": -5.1,
+      "speechiness": 0.289,
+      "duration_ms": 352003,
+      "slug": "sevilla-henrique-camacho"
+    },
+    {
+      "name": "Let Me Hear",
+      "artists": "Fear, and Loathing in Las Vegas",
+      "album": "Feeling of Unity",
+      "popularity": 61,
+      "tempo": 184.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.995,
+      "valence": 0.303,
+      "danceability": 0.175,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": 1.0,
+      "speechiness": 0.211,
+      "duration_ms": 225546,
+      "slug": "let-me-hear-fear-and-loathing-in-las-vegas"
+    },
+    {
+      "name": "Superman",
+      "artists": "Armin van Buuren;Blasterjaxx;24h",
+      "album": "Superman",
+      "popularity": 61,
+      "tempo": 103.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.884,
+      "valence": 0.436,
+      "danceability": 0.403,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.126,
+      "duration_ms": 204250,
+      "slug": "superman-armin-van-buuren"
+    },
+    {
+      "name": "StarShine (I Don't Want This Night To End)",
+      "artists": "W&W;AXMO;SONJA",
+      "album": "StarShine (I Don't Want This Night To End)",
+      "popularity": 61,
+      "tempo": 150.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.289,
+      "danceability": 0.437,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -2.0,
+      "speechiness": 0.049,
+      "duration_ms": 177600,
+      "slug": "starshine-i-dont-want-this-night-to-end-ww"
+    },
+    {
+      "name": "Getaway - Koven Remix",
+      "artists": "Tritonal;Angel Taylor;Koven",
+      "album": "Getaway (Remixes)",
+      "popularity": 61,
+      "tempo": 172.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.914,
+      "valence": 0.222,
+      "danceability": 0.488,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.223,
+      "duration_ms": 203720,
+      "slug": "getaway-koven-remix-tritonal"
+    },
+    {
+      "name": "WOW",
+      "artists": "Ti\u00ebsto",
+      "album": "WOW",
+      "popularity": 61,
+      "tempo": 128.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.99,
+      "valence": 0.192,
+      "danceability": 0.6,
+      "acousticness": 0.001,
+      "instrumentalness": 0.52,
+      "loudness": -3.0,
+      "speechiness": 0.337,
+      "duration_ms": 148125,
+      "slug": "wow-ti\u00ebsto"
+    },
+    {
+      "name": "The Final Episode (Let's Change Channel)",
+      "artists": "Asking Alexandria",
+      "album": "Stand Up And Scream",
+      "popularity": 61,
+      "tempo": 196.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.957,
+      "valence": 0.157,
+      "danceability": 0.213,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.235,
+      "duration_ms": 242080,
+      "slug": "the-final-episode-lets-change-channel-asking-alexandria"
+    },
+    {
+      "name": "Sunchyme",
+      "artists": "Dario G",
+      "album": "Sunchyme",
+      "popularity": 61,
+      "tempo": 133.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.977,
+      "valence": 0.333,
+      "danceability": 0.694,
+      "acousticness": 0.011,
+      "instrumentalness": 0.1,
+      "loudness": -4.6,
+      "speechiness": 0.073,
+      "duration_ms": 235850,
+      "slug": "sunchyme-dario-g"
+    },
+    {
+      "name": "Live On Love",
+      "artists": "Armin van Buuren;Diane Warren;My Marianne",
+      "album": "Live On Love",
+      "popularity": 60,
+      "tempo": 122.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.76,
+      "valence": 0.548,
+      "danceability": 0.681,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.062,
+      "duration_ms": 171733,
+      "slug": "live-on-love-armin-van-buuren"
+    },
+    {
+      "name": "No Fun",
+      "artists": "Armin van Buuren;The Stickmen Project",
+      "album": "Feel Again, Pt. 1",
+      "popularity": 60,
+      "tempo": 121.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.904,
+      "valence": 0.328,
+      "danceability": 0.731,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.035,
+      "duration_ms": 130412,
+      "slug": "no-fun-armin-van-buuren"
+    },
+    {
+      "name": "Split (Only U)",
+      "artists": "Ti\u00ebsto;The Chainsmokers",
+      "album": "Split (Only U)",
+      "popularity": 60,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.927,
+      "valence": 0.35,
+      "danceability": 0.634,
+      "acousticness": 0.048,
+      "instrumentalness": 0.687,
+      "loudness": -3.3,
+      "speechiness": 0.136,
+      "duration_ms": 256640,
+      "slug": "split-only-u-ti\u00ebsto"
+    },
+    {
+      "name": "Secrets - Radio Edit",
+      "artists": "Ti\u00ebsto;KSHMR;VASSY",
+      "album": "Secrets (Radio Edit)",
+      "popularity": 60,
+      "tempo": 128.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.811,
+      "valence": 0.185,
+      "danceability": 0.677,
+      "acousticness": 0.001,
+      "instrumentalness": 0.008,
+      "loudness": -4.5,
+      "speechiness": 0.043,
+      "duration_ms": 216967,
+      "slug": "secrets-radio-edit-ti\u00ebsto"
+    },
+    {
+      "name": "Rave Love",
+      "artists": "W&W;AXMO;SONJA",
+      "album": "Rave Love",
+      "popularity": 60,
+      "tempo": 160.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.895,
+      "valence": 0.183,
+      "danceability": 0.393,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.049,
+      "duration_ms": 189000,
+      "slug": "rave-love-ww"
+    },
+    {
+      "name": "I Won't Give In",
+      "artists": "Asking Alexandria",
+      "album": "The Black",
+      "popularity": 60,
+      "tempo": 75.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.494,
+      "danceability": 0.428,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.076,
+      "duration_ms": 229600,
+      "slug": "i-wont-give-in-asking-alexandria"
+    },
+    {
+      "name": "The Motto - Robin Schulz Remix",
+      "artists": "Ti\u00ebsto;Ava Max;Robin Schulz",
+      "album": "The Motto (Robin Schulz Remix)",
+      "popularity": 59,
+      "tempo": 126.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.889,
+      "valence": 0.157,
+      "danceability": 0.551,
+      "acousticness": 0.003,
+      "instrumentalness": 0.651,
+      "loudness": -6.1,
+      "speechiness": 0.042,
+      "duration_ms": 157426,
+      "slug": "the-motto-robin-schulz-remix-ti\u00ebsto"
+    },
+    {
+      "name": "BLUE",
+      "artists": "Ti\u00ebsto;Stevie Appleton",
+      "album": "BLUE",
+      "popularity": 59,
+      "tempo": 118.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.904,
+      "danceability": 0.744,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.03,
+      "duration_ms": 167858,
+      "slug": "blue-ti\u00ebsto"
+    },
+    {
+      "name": "Dark Side",
+      "artists": "Blind Channel",
+      "album": "Lifestyles of the Sick & Dangerous",
+      "popularity": 59,
+      "tempo": 98.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.441,
+      "danceability": 0.566,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.094,
+      "duration_ms": 177789,
+      "slug": "dark-side-blind-channel"
+    },
+    {
+      "name": "Codeine",
+      "artists": "Mandragora",
+      "album": "Disc 1",
+      "popularity": 58,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.051,
+      "danceability": 0.495,
+      "acousticness": 0.023,
+      "instrumentalness": 0.354,
+      "loudness": -8.8,
+      "speechiness": 0.053,
+      "duration_ms": 329125,
+      "slug": "codeine-mandragora"
+    },
+    {
+      "name": "Deep Jungle Walk",
+      "artists": "Astrix",
+      "album": "He.art",
+      "popularity": 58,
+      "tempo": 138.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.885,
+      "valence": 0.105,
+      "danceability": 0.618,
+      "acousticness": 0.001,
+      "instrumentalness": 0.502,
+      "loudness": -8.3,
+      "speechiness": 0.045,
+      "duration_ms": 555704,
+      "slug": "deep-jungle-walk-astrix"
+    },
+    {
+      "name": "Come Close",
+      "artists": "Vini Vici;Neelix;MKLA",
+      "album": "Come Close",
+      "popularity": 58,
+      "tempo": 138.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.775,
+      "valence": 0.306,
+      "danceability": 0.737,
+      "acousticness": 0.095,
+      "instrumentalness": 0.349,
+      "loudness": -5.4,
+      "speechiness": 0.04,
+      "duration_ms": 194347,
+      "slug": "come-close-vini-vici"
+    },
+    {
+      "name": "Forever & Always",
+      "artists": "Armin van Buuren;Gareth Emery;Owl City",
+      "album": "Forever & Always",
+      "popularity": 58,
+      "tempo": 145.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.921,
+      "valence": 0.37,
+      "danceability": 0.58,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.046,
+      "duration_ms": 194002,
+      "slug": "forever-always-armin-van-buuren"
+    },
+    {
+      "name": "Just Awake",
+      "artists": "Fear, and Loathing in Las Vegas",
+      "album": "All That We Have Now",
+      "popularity": 58,
+      "tempo": 191.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.98,
+      "valence": 0.567,
+      "danceability": 0.357,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -1.3,
+      "speechiness": 0.153,
+      "duration_ms": 218573,
+      "slug": "just-awake-fear-and-loathing-in-las-vegas"
+    },
+    {
+      "name": "Clap",
+      "artists": "Armin van Buuren",
+      "album": "Clap",
+      "popularity": 58,
+      "tempo": 130.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.971,
+      "valence": 0.122,
+      "danceability": 0.646,
+      "acousticness": 0.008,
+      "instrumentalness": 0.588,
+      "loudness": -3.4,
+      "speechiness": 0.135,
+      "duration_ms": 150002,
+      "slug": "clap-armin-van-buuren"
+    },
+    {
+      "name": "The Age Of Love (Charlotte de Witte & Enrico Sangiuliano Remix)",
+      "artists": "Age Of Love;Charlotte de Witte;Enrico Sangiuliano",
+      "album": "The Age Of Love (Charlotte de Witte & Enrico Sangiuliano Remix) [Charlotte de Witte & Enrico Sangiuliano Remix - Edit]",
+      "popularity": 58,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.908,
+      "valence": 0.058,
+      "danceability": 0.748,
+      "acousticness": 0.059,
+      "instrumentalness": 0.894,
+      "loudness": -8.3,
+      "speechiness": 0.05,
+      "duration_ms": 489480,
+      "slug": "the-age-of-love-charlotte-de-witte-enrico-sangiuliano-remix-age-of-love"
+    },
+    {
+      "name": "Wounded",
+      "artists": "Ferry Corsten;Morgan Page;Cara Mel\u00edn",
+      "album": "Wounded",
+      "popularity": 58,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.731,
+      "valence": 0.541,
+      "danceability": 0.702,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.056,
+      "duration_ms": 191718,
+      "slug": "wounded-ferry-corsten"
+    },
+    {
+      "name": "Moving On",
+      "artists": "Asking Alexandria",
+      "album": "From Death To Destiny",
+      "popularity": 58,
+      "tempo": 135.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.761,
+      "valence": 0.336,
+      "danceability": 0.446,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.032,
+      "duration_ms": 242593,
+      "slug": "moving-on-asking-alexandria"
+    },
+    {
+      "name": "Heaven - DJ Isaac Remix",
+      "artists": "Dash Berlin;Do;DJ Isaac",
+      "album": "Heaven (Remixes)",
+      "popularity": 58,
+      "tempo": 150.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.897,
+      "valence": 0.237,
+      "danceability": 0.3,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -1.6,
+      "speechiness": 0.048,
+      "duration_ms": 198010,
+      "slug": "heaven-dj-isaac-remix-dash-berlin"
+    },
+    {
+      "name": "Greece 2000",
+      "artists": "Three Drives On A Vinyl",
+      "album": "Greece 2000",
+      "popularity": 58,
+      "tempo": 131.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.842,
+      "valence": 0.763,
+      "danceability": 0.707,
+      "acousticness": 0.006,
+      "instrumentalness": 0.871,
+      "loudness": -11.4,
+      "speechiness": 0.053,
+      "duration_ms": 234773,
+      "slug": "greece-2000-three-drives-on-a-vinyl"
+    },
+    {
+      "name": "For An Angel - PVD Angel In Heaven Radio Edit",
+      "artists": "Paul van Dyk",
+      "album": "For An Angel",
+      "popularity": 58,
+      "tempo": 138.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.591,
+      "danceability": 0.668,
+      "acousticness": 0.044,
+      "instrumentalness": 0.849,
+      "loudness": -8.0,
+      "speechiness": 0.033,
+      "duration_ms": 233243,
+      "slug": "for-an-angel-pvd-angel-in-heaven-radio-edit-paul-van-dyk"
+    },
+    {
+      "name": "Live The Night",
+      "artists": "W&W;Hardwell;Lil Jon",
+      "album": "Live The Night",
+      "popularity": 57,
+      "tempo": 128.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.968,
+      "valence": 0.211,
+      "danceability": 0.805,
+      "acousticness": 0.007,
+      "instrumentalness": 0.001,
+      "loudness": -3.9,
+      "speechiness": 0.227,
+      "duration_ms": 133125,
+      "slug": "live-the-night-ww"
+    },
+    {
+      "name": "Wild Feelings",
+      "artists": "Andrew Rayel;Sam Gray",
+      "album": "Wild Feelings",
+      "popularity": 57,
+      "tempo": 122.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.475,
+      "danceability": 0.706,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.033,
+      "duration_ms": 161634,
+      "slug": "wild-feelings-andrew-rayel"
+    },
+    {
+      "name": "You Never Know",
+      "artists": "tyDi;Electric Polar Bears;neverwaves",
+      "album": "You Never Know",
+      "popularity": 57,
+      "tempo": 127.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.424,
+      "danceability": 0.621,
+      "acousticness": 0.087,
+      "instrumentalness": 0.003,
+      "loudness": -3.7,
+      "speechiness": 0.044,
+      "duration_ms": 139173,
+      "slug": "you-never-know-tydi"
+    },
+    {
+      "name": "Skyfire (Mixed)",
+      "artists": "Shogun",
+      "album": "Trance Top 1000 (Mini Mix 001) - Armada Music",
+      "popularity": 57,
+      "tempo": 132.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.938,
+      "valence": 0.17,
+      "danceability": 0.616,
+      "acousticness": 0.3,
+      "instrumentalness": 0.39,
+      "loudness": -6.6,
+      "speechiness": 0.195,
+      "duration_ms": 101831,
+      "slug": "skyfire-mixed-shogun"
+    },
+    {
+      "name": "Your Love (9PM) - Ti\u00ebsto Remix",
+      "artists": "ATB;Topic;A7S;Ti\u00ebsto",
+      "album": "Your Love (9PM) [Ti\u00ebsto Remix]",
+      "popularity": 57,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.465,
+      "danceability": 0.689,
+      "acousticness": 0.005,
+      "instrumentalness": 0.001,
+      "loudness": -3.3,
+      "speechiness": 0.042,
+      "duration_ms": 186531,
+      "slug": "your-love-9pm-ti\u00ebsto-remix-atb"
+    },
+    {
+      "name": "Never Gonna Learn",
+      "artists": "Asking Alexandria",
+      "album": "See What\u2019s On The Inside",
+      "popularity": 57,
+      "tempo": 105.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.366,
+      "danceability": 0.274,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.059,
+      "duration_ms": 198041,
+      "slug": "never-gonna-learn-asking-alexandria"
+    },
+    {
+      "name": "Lose You",
+      "artists": "Ti\u00ebsto;ILIRA",
+      "album": "The London Sessions",
+      "popularity": 57,
+      "tempo": 123.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.899,
+      "valence": 0.576,
+      "danceability": 0.704,
+      "acousticness": 0.189,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.178,
+      "duration_ms": 148329,
+      "slug": "lose-you-ti\u00ebsto"
+    },
+    {
+      "name": "Surrender - Hixxy Remix",
+      "artists": "Darude;Ashley Wallbridge;Foux;Hixxy",
+      "album": "Surrender (The Remixes)",
+      "popularity": 57,
+      "tempo": 165.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.965,
+      "valence": 0.174,
+      "danceability": 0.467,
+      "acousticness": 0.015,
+      "instrumentalness": 0.002,
+      "loudness": -1.6,
+      "speechiness": 0.119,
+      "duration_ms": 204906,
+      "slug": "surrender-hixxy-remix-darude"
+    },
+    {
+      "name": "Interlude - Shapeless Remix",
+      "artists": "Blazy;Aura Vortex;Shapeless",
+      "album": "Interlude",
+      "popularity": 56,
+      "tempo": 192.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.772,
+      "valence": 0.215,
+      "danceability": 0.571,
+      "acousticness": 0.306,
+      "instrumentalness": 0.815,
+      "loudness": -4.9,
+      "speechiness": 0.199,
+      "duration_ms": 157169,
+      "slug": "interlude-shapeless-remix-blazy"
+    },
+    {
+      "name": "I Feel The Love",
+      "artists": "Tritonal;Ross Lynch;R5",
+      "album": "Painting With Dreams",
+      "popularity": 56,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.813,
+      "valence": 0.435,
+      "danceability": 0.555,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.033,
+      "duration_ms": 213120,
+      "slug": "i-feel-the-love-tritonal"
+    },
+    {
+      "name": "Let You Down",
+      "artists": "Armin van Buuren",
+      "album": "Feel Again, Pt. 1",
+      "popularity": 56,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.956,
+      "valence": 0.037,
+      "danceability": 0.572,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.042,
+      "duration_ms": 210476,
+      "slug": "let-you-down-armin-van-buuren"
+    },
+    {
+      "name": "Love We Lost (with R3HAB)",
+      "artists": "Armin van Buuren;R3HAB;Simon Ward",
+      "album": "Feel Again, Pt. 1",
+      "popularity": 56,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.311,
+      "danceability": 0.651,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.05,
+      "duration_ms": 136000,
+      "slug": "love-we-lost-with-r3hab-armin-van-buuren"
+    },
+    {
+      "name": "Tricky Tricky",
+      "artists": "W&W;Timmy Trumpet;Will Sparks;Sequenza",
+      "album": "Tricky Tricky",
+      "popularity": 56,
+      "tempo": 139.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.962,
+      "valence": 0.092,
+      "danceability": 0.632,
+      "acousticness": 0.015,
+      "instrumentalness": 0.53,
+      "loudness": -3.3,
+      "speechiness": 0.302,
+      "duration_ms": 162302,
+      "slug": "tricky-tricky-ww"
+    },
+    {
+      "name": "Great Spirit",
+      "artists": "Armin van Buuren;Vini Vici;Hilight Tribe",
+      "album": "The Best Of Armin Only",
+      "popularity": 56,
+      "tempo": 103.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.211,
+      "danceability": 0.591,
+      "acousticness": 0.006,
+      "instrumentalness": 0.012,
+      "loudness": -8.0,
+      "speechiness": 0.066,
+      "duration_ms": 215773,
+      "slug": "great-spirit-armin-van-buuren"
+    },
+    {
+      "name": "First Time (feat. Dylan Matthew)",
+      "artists": "Seven Lions;SLANDER;Dabin;Dylan Matthew",
+      "album": "First Time (feat. Dylan Matthew)",
+      "popularity": 56,
+      "tempo": 150.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.146,
+      "danceability": 0.422,
+      "acousticness": 0.251,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.036,
+      "duration_ms": 297782,
+      "slug": "first-time-feat-dylan-matthew-seven-lions"
+    },
+    {
+      "name": "Rapture (feat.Nadia Ali)",
+      "artists": "iio;Nadia Ali",
+      "album": "Poetica (feat. Nadia Ali)",
+      "popularity": 56,
+      "tempo": 123.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.601,
+      "danceability": 0.661,
+      "acousticness": 0.072,
+      "instrumentalness": 0.018,
+      "loudness": -8.4,
+      "speechiness": 0.038,
+      "duration_ms": 253586,
+      "slug": "rapture-featnadia-ali-iio"
+    },
+    {
+      "name": "Gratitude",
+      "artists": "Above & Beyond;anam\u0113;Marty Longstaff",
+      "album": "Gratitude",
+      "popularity": 56,
+      "tempo": 128.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.927,
+      "valence": 0.043,
+      "danceability": 0.521,
+      "acousticness": 0.003,
+      "instrumentalness": 0.014,
+      "loudness": -4.6,
+      "speechiness": 0.036,
+      "duration_ms": 233619,
+      "slug": "gratitude-above-beyond"
+    },
+    {
+      "name": "Computers Take Over The World",
+      "artists": "Armin van Buuren",
+      "album": "Computers Take Over The World",
+      "popularity": 56,
+      "tempo": 139.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.832,
+      "valence": 0.76,
+      "danceability": 0.775,
+      "acousticness": 0.006,
+      "instrumentalness": 0.05,
+      "loudness": -5.7,
+      "speechiness": 0.178,
+      "duration_ms": 152250,
+      "slug": "computers-take-over-the-world-armin-van-buuren"
+    },
+    {
+      "name": "Sao Paulo",
+      "artists": "W&W;The Lost Shepherds;Sonny Wilson",
+      "album": "Sao Paulo",
+      "popularity": 56,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.957,
+      "valence": 0.176,
+      "danceability": 0.67,
+      "acousticness": 0.004,
+      "instrumentalness": 0.005,
+      "loudness": -2.4,
+      "speechiness": 0.07,
+      "duration_ms": 190312,
+      "slug": "sao-paulo-ww"
+    },
+    {
+      "name": "Oohla Oohla",
+      "artists": "Ti\u00ebsto;Lucas & Steve",
+      "album": "Oohla Oohla",
+      "popularity": 56,
+      "tempo": 124.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.856,
+      "valence": 0.486,
+      "danceability": 0.694,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.222,
+      "duration_ms": 143280,
+      "slug": "oohla-oohla-ti\u00ebsto"
+    },
+    {
+      "name": "In And Out Of Love",
+      "artists": "Armin van Buuren;Sharon Den Adel",
+      "album": "Armin Anthems Top 100 (Ultimate Singles Collected)",
+      "popularity": 56,
+      "tempo": 134.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.705,
+      "valence": 0.413,
+      "danceability": 0.526,
+      "acousticness": 0.067,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.03,
+      "duration_ms": 181680,
+      "slug": "in-and-out-of-love-armin-van-buuren"
+    },
+    {
+      "name": "Choir Of Spirits",
+      "artists": "Push;Joyhauser",
+      "album": "Choir Of Spirits",
+      "popularity": 56,
+      "tempo": 135.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.701,
+      "valence": 0.187,
+      "danceability": 0.62,
+      "acousticness": 0.001,
+      "instrumentalness": 0.865,
+      "loudness": -9.7,
+      "speechiness": 0.044,
+      "duration_ms": 405439,
+      "slug": "choir-of-spirits-push"
+    }
+  ]
+}

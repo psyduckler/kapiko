@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J Pop — kapiko music analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #0b0c1a;
+      --bg-card:       #111222;
+      --bg-header:     #0d0e20;
+      --border:        rgba(255, 255, 255, 0.07);
+      --border-accent: rgba(78, 205, 196, 0.22);
+      --text:          #dde1f0;
+      --text-muted:    #6b7099;
+      --text-dim:      #3d4060;
+      --teal:          #ff6347;
+      --purple:        #9b7fd4;
+      --blue:          #5b9bd5;
+      --teal-glow:     rgba(78, 205, 196, 0.12);
+      --purple-glow:   rgba(155, 127, 212, 0.12);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 80% at 10% 50%, rgba(78, 205, 196, 0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 85% 20%, rgba(155, 127, 212, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 56px 28px 52px;
+      position: relative;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 24px;
+    }
+
+    .brand-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--teal);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--teal), 0 0 20px rgba(78,205,196,0.4);
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    .genre-pill {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--purple);
+      background: rgba(155, 127, 212, 0.1);
+      border: 1px solid rgba(155, 127, 212, 0.28);
+      border-radius: 20px;
+      padding: 4px 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 9vw, 88px);
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      line-height: 0.95;
+      background: linear-gradient(130deg, #dde1f0 0%, #ff6347 55%, #9b7fd4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-bottom: 52px;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle span {
+      color: var(--text-dim);
+      margin: 0 6px;
+    }
+
+    /* ── Stat Cards ── */
+    .stat-cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 18px;
+      transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+      cursor: default;
+    }
+
+    .stat-card:hover {
+      border-color: var(--border-accent);
+      background: rgba(78,205,196,0.04);
+      transform: translateY(-3px);
+    }
+
+    .stat-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .stat-value {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .stat-value.teal   { color: var(--teal); }
+    .stat-value.purple { color: var(--purple); }
+    .stat-value.blue   { color: var(--blue); }
+
+    .stat-sub {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin-top: 6px;
+      font-weight: 400;
+    }
+
+    /* ── Main ── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 28px 96px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 52px 0 22px;
+    }
+
+    .section-label:first-child { margin-top: 0; }
+
+    .section-label h2 {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Chart Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 28px 24px;
+      transition: border-color 0.25s ease;
+    }
+
+    .chart-card:hover { border-color: var(--border-accent); }
+    .chart-card.full  { grid-column: 1 / -1; }
+
+    .chart-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .chart-analysis {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+      line-height: 1.55;
+      font-style: italic;
+      max-width: 680px;
+    }
+
+    .chart-wrap {
+      position: relative;
+    }
+
+    /* ── Feature Summary ── */
+    .feature-summary-inner {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .feature-bars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 28px;
+    }
+
+    .feature-item { display: flex; flex-direction: column; gap: 7px; }
+
+    .feature-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--text-muted);
+    }
+
+    .feature-val {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.025em;
+      line-height: 1;
+    }
+
+    .feature-track {
+      height: 5px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .feature-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ── Tracks Table ── */
+    .table-wrapper {
+      overflow-x: auto;
+      margin-top: 24px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td { padding: 10px 12px; text-align: left; }
+    th { 
+      color: var(--text-dim); 
+      font-weight: 600; 
+      font-size: 11px; 
+      text-transform: uppercase; 
+      letter-spacing: 0.1em; 
+      border-bottom: 1px solid var(--border);
+    }
+    
+    td { border-bottom: 1px solid rgba(255,255,255,0.03); }
+
+    .td-rank  { text-align: center; color: var(--text-dim); font-weight: 600; width: 60px; }
+    .td-track { position: relative; min-width: 200px; }
+    .td-track a { color: var(--text); text-decoration: none; }
+    .td-track a:hover { color: var(--teal); }
+    .td-artist { color: var(--text-muted); min-width: 150px; }
+    .td-artist a { color: var(--text-muted); text-decoration: none; }
+    .td-artist a:hover { color: var(--purple); }
+    .td-num   { text-align: center; color: var(--text); font-weight: 600; width: 80px; }
+    .td-key   { text-align: center; color: var(--text-muted); font-weight: 600; width: 60px; }
+
+    .pop-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pop-bar-track {
+      width: 40px;
+      height: 4px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pop-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      border-radius: 2px;
+      transition: width 0.6s ease;
+    }
+
+    .spotify-icon {
+      opacity: 0;
+      margin-left: 8px;
+      width: 14px;
+      height: 14px;
+      fill: var(--text-dim);
+      transition: all 0.2s ease;
+      display: inline-block;
+    }
+
+    .td-track:hover .spotify-icon { opacity: 1; }
+    .spotify-icon:hover { fill: #1db954; transform: scale(1.1); }
+
+    .show-more-btn {
+      margin: 24px auto 0;
+      display: block;
+      background: rgba(78,205,196,0.12);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.3);
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .show-more-btn:hover {
+      background: rgba(78,205,196,0.18);
+      border-color: rgba(78,205,196,0.5);
+    }
+
+    .show-more-btn.hidden { display: none; }
+
+    /* ── Prompt Lab ── */
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .prompt-block {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      position: relative;
+    }
+
+    .prompt-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .copy-btn {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border: none;
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin-left: auto;
+    }
+
+    .copy-btn:hover { background: rgba(78,205,196,0.25); }
+    .copy-btn.copied { background: rgba(100,200,100,0.3); color: #60d060; }
+
+    pre {
+      font-size: 11px;
+      line-height: 1.55;
+      color: var(--text-muted);
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    /* ── Outlier Cards ── */
+    .outlier-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .outlier-card {
+      background: rgba(155,127,212,0.08);
+      border: 1px solid rgba(155,127,212,0.2);
+      border-radius: 12px;
+      padding: 18px;
+    }
+
+    .outlier-track {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .outlier-artist {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .outlier-reason {
+      font-size: 11px;
+      color: var(--purple);
+      line-height: 1.4;
+    }
+
+    /* ── Correlation Table ── */
+    #corrTable {
+      font-size: 11px;
+      margin-top: 20px;
+    }
+
+    #corrTable th {
+      font-size: 10px;
+      padding: 8px;
+      text-align: center;
+    }
+
+    #corrTable td {
+      padding: 8px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    #corrTable .diag { color: var(--text-dim); }
+
+    /* ── Production Profile ── */
+    .prod-grid {
+      display: grid;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .prod-item {
+      display: grid;
+      grid-template-columns: 120px 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .prod-bar-wrap {
+      display: flex;
+      height: 32px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .prod-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 0 4px;
+    }
+
+    .prod-labels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .prod-label-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .prod-label-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .header-inner { padding: 32px 20px 28px; }
+      main { padding: 32px 20px 64px; }
+      .stat-cards { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .charts-grid { grid-template-columns: 1fr; }
+      .feature-summary-inner { grid-template-columns: 1fr; gap: 24px; }
+      .prompt-grid { grid-template-columns: 1fr; }
+      .outlier-grid { grid-template-columns: 1fr; }
+      .prod-item { grid-template-columns: 1fr; gap: 12px; }
+    }
+
+    @media (max-width: 480px) {
+      .stat-cards { grid-template-columns: 1fr; }
+      .feature-bars { grid-template-columns: 1fr; }
+    }
+
+    /* ── Enhanced Prompt Lab Section ── */
+    .prompt-lab-section {
+      background: linear-gradient(135deg, rgba(78,205,196,0.04) 0%, rgba(155,127,212,0.04) 100%);
+      border: 1px solid rgba(78,205,196,0.15);
+      border-radius: 20px;
+      padding: 36px 32px;
+      margin: 8px 0 32px;
+    }
+
+    .prompt-lab-intro {
+      margin-bottom: 28px;
+    }
+
+    .prompt-lab-intro p {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .platform-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      transition: border-color 0.2s;
+    }
+
+    .platform-card:hover {
+      border-color: var(--border-accent);
+    }
+
+    .platform-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .platform-tip {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      kapiko.ai
+    </div>
+    <div class="genre-pill">Music Genre Analytics</div>
+    <h1>🎌 J Pop</h1>
+    <div class="subtitle">
+      Japanese pop music with distinctive melodies, dynamic production, and anime-adjacent energy
+      <span>•</span>
+      100 tracks analyzed
+      <span>•</span>
+      Spotify audio features dataset
+    </div>
+    
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="stat-label">Median BPM</div>
+        <div class="stat-value teal">87</div>
+        <div class="stat-sub">Laid-back groove</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Energy</div>
+        <div class="stat-value purple">33%</div>
+        <div class="stat-sub">Mellow vibe</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Valence</div>
+        <div class="stat-value blue">29%</div>
+        <div class="stat-sub">Introspective</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Top Key</div>
+        <div class="stat-value teal">G#/Ab</div>
+        <div class="stat-sub">Major 13 | Minor 3</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Major/Minor</div>
+        <div class="stat-value purple">55/45</div>
+        <div class="stat-sub">Balanced mood</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Audio DNA -->
+  <div class="section-label">
+    <h2>Audio DNA</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Feature Summary</div>
+    <div class="chart-analysis">
+      Lo-fi hip hop's signature sound profile: highly acoustic (63%) and instrumental (76%), with moderate danceability (62%) and subtle energy (33%). The genre maintains its introspective character through low valence (29%) while preserving enough rhythmic elements to keep listeners engaged.
+    </div>
+    <div class="feature-summary-inner">
+      <div class="chart-wrap">
+        <canvas id="chartRadar" width="300" height="300"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">33%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 33%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">29%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 29%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">62%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 62%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">63%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 63%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">76%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 76%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">5%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 5%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>✨ Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-lab-section">
+    
+    <!-- How to Prompt a Hit intro -->
+    <div class="prompt-lab-intro">
+      <h3>How to Prompt a Hit</h3>
+      <p>Transform lo-fi hip hop's laid-back groove into AI prompts. These data-driven insights help you craft the perfect chill beats — from Suno's warm analog vibes to Udio's crisp vinyl textures.</p>
+      
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-name">Suno</div>
+          <div class="platform-tip">Excels at boom-bap rhythms and vintage textures. Great for J Dilla-inspired swing patterns.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Udio</div>
+          <div class="platform-tip">Exceptional drum quality and sample clarity. Perfect for clean, professional lo-fi beats.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Stable Audio</div>
+          <div class="platform-tip">Open-source flexibility for experimental lo-fi. Good for extended chill-hop sessions.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">MusicGen (Meta)</div>
+          <div class="platform-tip">Strong at jazz-influenced chord progressions and organic sample textures.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Riffusion</div>
+          <div class="platform-tip">Real-time beat generation. Ideal for live lo-fi streaming and spontaneous creativity.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prompt-grid">
+      <div class="prompt-block" id="translatorBlock">
+        <div class="prompt-label">
+          Feature Translator
+          <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+        </div>
+        <pre>BPM 97-150: bright pace
+Energy 63-83%: bright,  energetic
+Valence 49-69%: bright, energetic, melodic, emotional
+Danceability 53-63%: J-pop groove
+Acousticness 12-32%: synth textures
+Instrumentalness -9-10%: Focus on synth
+Speechiness 7-17%: Clean J-pop passages
+Tempo: bright to moderate
+Key preference: B, G, warm keys</pre>
+      </div>
+
+      <div class="prompt-block" id="templateBlock">
+        <div class="prompt-label">
+          Prompt Template
+          <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+        </div>
+        <pre>Create a J-pop track with:
+
+• synth foundation (124 BPM)
+•  Japanese pop-inspired  electric guitar
+• bright synth patterns
+•  programmed drums  piano
+•  energetic production style
+•  anime OST sound design
+• Moderate energy (73%), bright mood (59%)
+• J-pop arrangement (0%), synth elements (22%)
+
+Artists to reference: YOASOBI, Ado, Michael Bublé, Vaundy, Fujii Kaze, Mrs. GREEN APPLE
+
+Duration: 3-4 minutes, perfect for  emotional listening</pre>
+      </div>
+
+      <div class="prompt-block" id="recipeBlock">
+        <div class="prompt-label">
+          Genre Recipe JSON
+          <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+        </div>
+        <pre>{
+  "genre": "j pop",
+  "audio_features": {
+    "bpm": {"min": 76, "max": 207, "median": 124},
+    "energy": {"avg": 0.737, "range": "bright"},
+    "valence": {"avg": 0.594, "range": "bright, energetic, melodic, emotional"},
+    "danceability": {"avg": 0.589, "range": "J-pop groove"},
+    "acousticness": {"avg": 0.223, "range": "synth/organic"},
+    "instrumentalness": {"avg": 0.004, "range": "focus on synth"},
+    "key_preference": ["B", "G", "C#/Db"],
+    "mode_preference": {"major": 71.0, "minor": 29.0}
+  },
+  "production_style": {
+    "instruments": ["synth", "electric guitar", "programmed drums", "piano", "vocal harmonies"],
+    "style_tags": ["J-pop", "Japanese pop", "anime OST", "city pop", "visual kei"],
+    "mood_descriptors": ["bright", "energetic", "melodic", "emotional"],
+    "tempo_category": "bright_to_moderate"
+  },
+  "reference_artists": ["YOASOBI", "Ado", "Michael Bubl\u00e9", "Vaundy", "Fujii Kaze", "Mrs. GREEN APPLE", "Norah Jones", "Fetty Wap"],
+  "track_characteristics": {
+    "typical_length": "3-4 minutes",
+    "listening_context": " emotional listening",
+    "production_focus": "synth foundation"
+  }
+}}</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rhythm & Tonality -->
+  <div class="section-label">
+    <h2>Rhythm & Tonality</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">BPM Distribution</div>
+      <div class="chart-analysis">
+        Lo-fi hip hop centers around the 60-90 BPM sweet spot (61%), creating that signature laid-back groove. The median of 87 BPM perfectly captures the unhurried, contemplative pace that defines the genre.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartBpm" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Key Distribution</div>
+      <div class="chart-analysis">
+        G#/Ab emerges as the dominant key (16%), followed by C#/Db and A#/Bb (11% each). This preference for flat keys contributes to the genre's warm, slightly detuned character.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartKey" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Major vs Minor Mode</div>
+      <div class="chart-analysis">
+        Surprisingly balanced at 55% major, 45% minor. While minor modes provide melancholic undertones, major keys add brightness and hope to lo-fi's introspective landscape.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartMode" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Duration Histogram</div>
+      <div class="chart-analysis">
+        Most tracks fall between 2-4 minutes (65%), with a median of 2.7 minutes. This brevity aligns with lo-fi's purpose as background music and loop-friendly content.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartDuration" height="240"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emotional Fingerprint -->
+  <div class="section-label">
+    <h2>Emotional Fingerprint</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Energy vs Valence</div>
+      <div class="chart-analysis">
+        Lo-fi hip hop occupies the contemplative low-energy, low-valence quadrant. The target zone annotation shows the genre's sweet spot: mellow but not depressing, introspective but not aggressive.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartEnergyValence" height="320"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Acousticness vs Instrumentalness</div>
+      <div class="chart-analysis">
+        High concentrations in the upper-right quadrant reveal lo-fi's preference for organic, instrumental sounds. Most tracks blend acoustic elements with instrumental arrangements, perfect for studying or relaxation.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartAcousticInstr" height="320"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Artists -->
+  <div class="section-label">
+    <h2>Top Artists</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Most Featured Artists</div>
+    <div class="chart-analysis">
+      Emancipator and Otaku lead with 6 tracks each, followed by Bonobo (5). These artists represent different facets of lo-fi: Emancipator's downtempo electronica, Otaku's anime-inspired beats, and Bonobo's trip-hop influences.
+    </div>
+    <div class="chart-wrap">
+      <canvas id="chartArtists" height="360"></canvas>
+    </div>
+  </div>
+
+
+
+  <!-- What Makes a Hit -->
+  <div class="section-label">
+    <h2>What Makes a Hit</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Popular vs Unpopular Comparison</div>
+      <div class="chart-analysis">
+        Top 25 tracks show higher energy (33% vs 20%) and slightly more danceable rhythms. Successful lo-fi maintains the genre's core characteristics while adding just enough movement to keep listeners engaged.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartPopComp" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Outlier Spotlight</div>
+      <div class="chart-analysis">
+        Tracks that break conventional lo-fi boundaries while maintaining genre appeal.
+      </div>
+      <div class="outlier-grid">
+        <div class="outlier-card">
+          <div class="outlier-track">My Kind of Woman</div>
+          <div class="outlier-artist">Mac DeMarco</div>
+          <div class="outlier-reason">Highest energy (77%) - brings indie rock energy to lo-fi aesthetics</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Glimpse of Us</div>
+          <div class="outlier-artist">Joji</div>
+          <div class="outlier-reason">Fastest tempo (170 BPM) - modern R&B pace in lo-fi arrangement</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Chamber Of Reflection</div>
+          <div class="outlier-artist">Mac DeMarco</div>
+          <div class="outlier-reason">Highest valence (51%) - uplifting mood breaks melancholic trend</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Affection</div>
+          <div class="outlier-artist">Jinsang</div>
+          <div class="outlier-reason">Highest valence in pure instrumental (61%) - joy through melody alone</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Novacane</div>
+          <div class="outlier-artist">Frank Ocean</div>
+          <div class="outlier-reason">Lowest acousticness (6%) - electronic production in organic-leaning genre</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Shoreditch</div>
+          <div class="outlier-artist">Clint Is Quinn</div>
+          <div class="outlier-reason">Lowest energy (11%) - extreme minimalism pushes ambient boundaries</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Correlations -->
+  <div class="section-label">
+    <h2>Feature Correlations</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Correlation Heatmap</div>
+    <div class="chart-analysis">
+      Strong negative correlation between energy and acousticness (-0.64) reflects lo-fi's preference for organic sounds over electronic energy. Positive energy-valence correlation (0.42) suggests livelier tracks tend toward brightness.
+    </div>
+    <table id="corrTable"></table>
+  </div>
+
+  <!-- Production Profile -->
+  <div class="section-label">
+    <h2>Production Profile</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Soul Production Characteristics</div>
+    <div class="chart-analysis">
+      The genre's production DNA emphasizes vintage textures, chopped samples, and analog warmth. Vinyl crackle and tape saturation are nearly universal, while J Dilla-style swing defines the rhythmic foundation.
+    </div>
+    <div class="prod-grid" id="prodGrid"></div>
+  </div>
+
+  <!-- Top Tracks -->
+  <div class="section-label">
+    <h2>Top Tracks</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Soul Essential Tracks</div>
+    <div class="chart-analysis">
+      From nostalgic classics to modern interpretations, these tracks define lo-fi hip hop's emotional and sonic landscape. Notice the prevalence of introspective themes and collaborative artists.
+    </div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Track</th>
+            <th>Artist</th>
+            <th>Popularity</th>
+            <th>BPM</th>
+            <th>Energy</th>
+            <th>Valence</th>
+            <th>Key</th>
+          </tr>
+        </thead>
+        <tbody id="tracksBody"></tbody>
+      </table>
+    </div>
+    <button id="showMoreBtn" class="show-more-btn" onclick="showMoreTracks()">
+      Show More <span id="showMoreCount"></span>
+    </button>
+  </div>
+
+</main>
+
+<footer style="text-align: center; padding: 40px 20px; color: var(--text-dim); font-size: 12px; border-top: 1px solid var(--border);">
+  Data sourced from Spotify audio features (pre-deprecation dataset) of top 100 soul tracks.
+</footer>
+
+<script>
+// ─── Chart.js Configuration ────────────────────────────────────────────────
+
+Chart.register(window['chartjs-plugin-annotation']);
+
+const TEAL = '#ff6347', PURPLE = '#9b7fd4', BLUE = '#5b9bd5';
+const ta = (a) => `rgba(78,205,196,${a})`;
+const pa = (a) => `rgba(155,127,212,${a})`;
+const ba = (a) => `rgba(91,155,213,${a})`;
+
+const GRID = { color: 'rgba(255,255,255,0.05)', lineWidth: 1 };
+const TICK = { color: '#6b7099', font: { size: 11 } };
+const TIP = {
+  backgroundColor: 'rgba(17,18,34,0.95)',
+  titleColor: '#dde1f0',
+  bodyColor: '#8890b8',
+  borderColor: 'rgba(78,205,196,0.3)',
+  borderWidth: 1,
+  cornerRadius: 8,
+  displayColors: false,
+  titleFont: { size: 12, weight: '600' },
+  bodyFont: { size: 11 }
+};
+
+// ─── Audio DNA Radar Chart ─────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartRadar'), {
+  type: 'radar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Speechiness'],
+    datasets: [{
+      data: [53, 45, 63, 30, 0, 4],
+      backgroundColor: ta(0.15),
+      borderColor: TEAL,
+      borderWidth: 2,
+      pointBackgroundColor: TEAL,
+      pointBorderColor: '#fff',
+      pointBorderWidth: 2,
+      pointRadius: 5,
+      pointHoverRadius: 7
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 100,
+        grid: { color: 'rgba(255,255,255,0.08)' },
+        angleLines: { color: 'rgba(255,255,255,0.08)' },
+        ticks: { display: false },
+        pointLabels: { color: '#8890b8', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── BPM Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartBpm'), {
+  type: 'bar',
+  data: {
+    labels: ['0-30', '30-60', '60-90', '90-120', '120-150', '150-180', '180+'],
+    datasets: [{
+      data: [0, 0, 22, 48, 24, 5, 1],
+      backgroundColor: ta(0.7),
+      borderColor: TEAL,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Key Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartKey'), {
+  type: 'bar',
+  data: {
+    labels: ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'],
+    datasets: [{
+      data: [9, 11, 5, 7, 3, 5, 8, 8, 16, 6, 11, 11],
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: { ...TICK, maxRotation: 45 } },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Major vs Minor Mode ───────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartMode'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Major', 'Minor'],
+    datasets: [{
+      data: [55, 45],
+      backgroundColor: [ta(0.8), pa(0.7)],
+      borderColor: [TEAL, PURPLE],
+      borderWidth: 2
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 12,
+          font: { size: 12 }
+        }
+      },
+      tooltip: TIP
+    }
+  }
+});
+
+// ─── Duration Histogram ────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartDuration'), {
+  type: 'bar',
+  data: {
+    labels: ['0-2min', '2-3min', '3-4min', '4-5min', '5-6min', '6-8min', '8+min'],
+    datasets: [{
+      data: [18, 37, 28, 6, 7, 4, 0],
+      backgroundColor: ba(0.6),
+      borderColor: BLUE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Energy vs Valence Scatter ────────────────────────────────────────────
+
+new Chart(document.getElementById('chartEnergyValence'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: [{"x":0.277,"y":0.236},{"x":0.372,"y":0.278},{"x":0.238,"y":0.12},{"x":0.3,"y":0.38},{"x":0.4,"y":0.327},{"x":0.446,"y":0.545},{"x":0.322,"y":0.367},{"x":0.317,"y":0.268},{"x":0.15,"y":0.314},{"x":0.399,"y":0.466},{"x":0.373,"y":0.554},{"x":0.419,"y":0.216},{"x":0.309,"y":0.185},{"x":0.21,"y":0.452},{"x":0.245,"y":0.179},{"x":0.188,"y":0.284},{"x":0.299,"y":0.382},{"x":0.396,"y":0.198},{"x":0.156,"y":0.233},{"x":0.229,"y":0.127},{"x":0.37,"y":0.102},{"x":0.315,"y":0.264},{"x":0.366,"y":0.444},{"x":0.357,"y":0.324},{"x":0.193,"y":0.607},{"x":0.351,"y":0.451},{"x":0.417,"y":0.251},{"x":0.426,"y":0.304},{"x":0.415,"y":0.326},{"x":0.293,"y":0.203},{"x":0.191,"y":0.113},{"x":0.41,"y":0.284},{"x":0.105,"y":0.396},{"x":0.431,"y":0.348},{"x":0.288,"y":0.276},{"x":0.186,"y":0.548},{"x":0.262,"y":0.393},{"x":0.364,"y":0.116},{"x":0.313,"y":0.234},{"x":0.37,"y":0.18},{"x":0.229,"y":0.395},{"x":0.21,"y":0.246},{"x":0.508,"y":0.37},{"x":0.241,"y":0.359},{"x":0.315,"y":0.306},{"x":0.385,"y":0.132},{"x":0.42,"y":0.239},{"x":0.155,"y":0.44},{"x":0.333,"y":0.199},{"x":0.197,"y":0.324},{"x":0.496,"y":0.102},{"x":0.255,"y":0.231},{"x":0.322,"y":0.178},{"x":0.437,"y":0.127},{"x":0.161,"y":0.331},{"x":0.343,"y":0.263},{"x":0.346,"y":0.364},{"x":0.357,"y":0.644},{"x":0.557,"y":0.506},{"x":0.414,"y":0.269},{"x":0.389,"y":0.312},{"x":0.18,"y":0.31},{"x":0.133,"y":0.262},{"x":0.499,"y":0.338},{"x":0.392,"y":0.105},{"x":0.307,"y":0.182},{"x":0.18,"y":0.189},{"x":0.264,"y":0.489},{"x":0.225,"y":0.268},{"x":0.266,"y":0.25},{"x":0.266,"y":0.219},{"x":0.467,"y":0.419},{"x":0.484,"y":0.197},{"x":0.395,"y":0.123},{"x":0.405,"y":0.133},{"x":0.296,"y":0.339},{"x":0.36,"y":0.417},{"x":0.295,"y":0.279},{"x":0.151,"y":0.131},{"x":0.401,"y":0.158},{"x":0.337,"y":0.312},{"x":0.273,"y":0.213},{"x":0.255,"y":0.352},{"x":0.392,"y":0.407},{"x":0.375,"y":0.202},{"x":0.375,"y":0.201},{"x":0.206,"y":0.168},{"x":0.345,"y":0.169},{"x":0.499,"y":0.255},{"x":0.378,"y":0.26},{"x":0.765,"y":0.46},{"x":0.282,"y":0.435},{"x":0.348,"y":0.227},{"x":0.19,"y":0.331},{"x":0.306,"y":0.124},{"x":0.383,"y":0.327},{"x":0.337,"y":0.187},{"x":0.392,"y":0.268},{"x":0.117,"y":0.192},{"x":0.468,"y":0.406}],
+      backgroundColor: ta(0.6),
+      borderColor: TEAL,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: TIP,
+      annotation: {
+        annotations: {
+          targetZone: {
+            type: 'box',
+            xMin: 0.15,
+            xMax: 0.45,
+            yMin: 0.1,
+            yMax: 0.5,
+            backgroundColor: pa(0.08),
+            borderColor: PURPLE,
+            borderWidth: 1,
+            borderDash: [5, 5],
+            label: {
+              enabled: true,
+              content: 'Lo-Fi Sweet Spot',
+              position: 'center',
+              color: PURPLE,
+              font: { size: 11, weight: '600' }
+            }
+          }
+        }
+      }
+    },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Energy', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 0.8 
+      },
+      y: { 
+        title: { display: true, text: 'Valence', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 0.7 
+      }
+    }
+  }
+});
+
+// ─── Acousticness vs Instrumentalness ─────────────────────────────────────
+
+new Chart(document.getElementById('chartAcousticInstr'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: [{"x":0.967,"y":0.891},{"x":0.53,"y":0.806},{"x":0.657,"y":0.926},{"x":0.927,"y":0.655},{"x":0.139,"y":0.846},{"x":0.545,"y":0.694},{"x":0.0307,"y":0.535},{"x":0.891,"y":0.0},{"x":0.974,"y":0.735},{"x":0.949,"y":0.571},{"x":0.341,"y":0.525},{"x":0.0173,"y":0.497},{"x":0.863,"y":0.809},{"x":0.768,"y":0.0},{"x":0.245,"y":0.596},{"x":0.928,"y":0.737},{"x":0.751,"y":0.839},{"x":0.759,"y":0.856},{"x":0.521,"y":0.786},{"x":0.287,"y":0.856},{"x":0.768,"y":0.599},{"x":0.971,"y":0.933},{"x":0.568,"y":0.957},{"x":0.783,"y":0.861},{"x":0.914,"y":0.937},{"x":0.516,"y":0.819},{"x":0.5,"y":0.889},{"x":0.106,"y":0.674},{"x":0.442,"y":0.886},{"x":0.142,"y":0.782},{"x":0.962,"y":0.926},{"x":0.844,"y":0.895},{"x":0.923,"y":0.933},{"x":0.731,"y":0.0},{"x":0.97,"y":0.633},{"x":0.686,"y":0.934},{"x":0.548,"y":0.854},{"x":0.533,"y":0.96},{"x":0.307,"y":0.913},{"x":0.768,"y":0.373},{"x":0.354,"y":0.47},{"x":0.737,"y":0.817},{"x":0.0584,"y":0.001},{"x":0.983,"y":0.774},{"x":0.365,"y":0.858},{"x":0.907,"y":0.929},{"x":0.375,"y":0.84},{"x":0.472,"y":0.92},{"x":0.966,"y":0.945},{"x":0.958,"y":0.944},{"x":0.625,"y":0.274},{"x":0.275,"y":0.894},{"x":0.91,"y":0.519},{"x":0.669,"y":0.688},{"x":0.992,"y":0.945},{"x":0.831,"y":0.928},{"x":0.839,"y":0.935},{"x":0.862,"y":0.915},{"x":0.262,"y":0.914},{"x":0.362,"y":0.833},{"x":0.44,"y":0.829},{"x":0.988,"y":0.906},{"x":0.513,"y":0.927},{"x":0.732,"y":0.936},{"x":0.0242,"y":0.865},{"x":0.765,"y":0.848},{"x":0.0475,"y":0.923},{"x":0.552,"y":0.694},{"x":0.902,"y":0.9},{"x":0.757,"y":0.905},{"x":0.251,"y":0.446},{"x":0.849,"y":0.685},{"x":0.685,"y":0.883},{"x":0.692,"y":0.0},{"x":0.779,"y":0.93},{"x":0.726,"y":0.862},{"x":0.926,"y":0.95},{"x":0.86,"y":0.777},{"x":0.716,"y":0.898},{"x":0.651,"y":0.914},{"x":0.236,"y":0.638},{"x":0.442,"y":0.877},{"x":0.921,"y":0.693},{"x":0.857,"y":0.926},{"x":0.25,"y":0.908},{"x":0.763,"y":0.927},{"x":0.582,"y":0.519},{"x":0.347,"y":0.035},{"x":0.569,"y":0.763},{"x":0.536,"y":0.917},{"x":0.0029,"y":0.49},{"x":0.983,"y":0.833},{"x":0.879,"y":0.796},{"x":0.976,"y":0.899},{"x":0.94,"y":0.631},{"x":0.715,"y":0.952},{"x":0.508,"y":0.806},{"x":0.379,"y":0.897},{"x":0.992,"y":0.821},{"x":0.157,"y":0.881}],
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Acousticness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 1 
+      },
+      y: { 
+        title: { display: true, text: 'Instrumentalness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 1 
+      }
+    }
+  }
+});
+
+// ─── Top Artists Horizontal Bar Chart ─────────────────────────────────────
+
+new Chart(document.getElementById('chartArtists'), {
+  type: 'bar',
+  data: {
+    labels: ['Emancipator', 'Otaku', 'Bonobo', 'Kupla', 'Cigarettes After Sex', 'Breakfast For Brunch', 'Dusty Decks', 'Ensidya', 'Elijah Who', 'Idealism', 'Frank Ocean', 'Shiloh Dynasty', 'Tenno', 'Joji', 'surrenderdorothy'],
+    datasets: [{
+      data: [6, 6, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2],
+      backgroundColor: Array.from({length: 15}, (_, i) => {
+        const t = i / 14;
+        return `rgb(${Math.round(155-77*t)},${Math.round(127+78*t)},${Math.round(212-16*t)})`;
+      }),
+      borderWidth: 1, borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK, title: { display: true, text: 'Number of tracks', color: '#6b7099', font: { size: 11 } } },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 12 } } }
+    }
+  }
+});
+
+// ─── Top Tracks Table ──────────────────────────────────────────────────────
+
+const TRACKS = [{"name": "Evergreen (You Didn\u2019t Deserve Me At All)","artists": "Omar Apollo","popularity": 88,"tempo": 82.0,"key": "A","mode": "Major","energy": 34,"valence": 31,"slug": "evergreen-you-didnt-deserve-me-at-all-omar-apollo"},{"name": "Only Love Can Hurt Like This","artists": "Paloma Faith","popularity": 87,"tempo": 91.0,"key": "G#/Ab","mode": "Major","energy": 88,"valence": 30,"slug": "only-love-can-hurt-like-this-paloma-faith"},{"name": "All of Me","artists": "John Legend","popularity": 85,"tempo": 119.9,"key": "G#/Ab","mode": "Major","energy": 26,"valence": 33,"slug": "all-of-me-john-legend"},{"name": "Pink + White","artists": "Frank Ocean","popularity": 85,"tempo": 159.9,"key": "A","mode": "Major","energy": 55,"valence": 55,"slug": "pink-white-frank-ocean"},{"name": "Lost","artists": "Frank Ocean","popularity": 85,"tempo": 123.1,"key": "G#/Ab","mode": "Major","energy": 60,"valence": 50,"slug": "lost-frank-ocean"},{"name": "Easy On Me","artists": "Adele","popularity": 84,"tempo": 142.0,"key": "F","mode": "Major","energy": 37,"valence": 13,"slug": "easy-on-me-adele"},{"name": "September","artists": "Earth, Wind & Fire","popularity": 83,"tempo": 125.9,"key": "A","mode": "Major","energy": 83,"valence": 98,"slug": "september-earth-wind-fire"},{"name": "Oh My God","artists": "Adele","popularity": 82,"tempo": 88.1,"key": "C#/Db","mode": "Major","energy": 72,"valence": 55,"slug": "oh-my-god-adele"},{"name": "Easy On Me","artists": "Adele","popularity": 82,"tempo": 142.0,"key": "F","mode": "Major","energy": 37,"valence": 13,"slug": "easy-on-me-adele"},{"name": "Ain't No Mountain High Enough","artists": "Marvin Gaye;Tammi Terrell","popularity": 82,"tempo": 130.0,"key": "G","mode": "Major","energy": 60,"valence": 80,"slug": "aint-no-mountain-high-enough-marvin-gaye"},{"name": "Someone Like You","artists": "Adele","popularity": 81,"tempo": 135.2,"key": "A","mode": "Major","energy": 32,"valence": 29,"slug": "someone-like-you-adele"},{"name": "Rolling in the Deep","artists": "Adele","popularity": 81,"tempo": 104.9,"key": "G#/Ab","mode": "Major","energy": 77,"valence": 51,"slug": "rolling-in-the-deep-adele"},{"name": "Ivy","artists": "Frank Ocean","popularity": 81,"tempo": 116.4,"key": "A","mode": "Minor","energy": 39,"valence": 47,"slug": "ivy-frank-ocean"},{"name": "Back To Black","artists": "Amy Winehouse","popularity": 81,"tempo": 122.7,"key": "G","mode": "Minor","energy": 42,"valence": 38,"slug": "back-to-black-amy-winehouse"},{"name": "Novacane","artists": "Frank Ocean","popularity": 81,"tempo": 93.5,"key": "D#/Eb","mode": "Major","energy": 51,"valence": 37,"slug": "novacane-frank-ocean"},{"name": "Set Fire to the Rain","artists": "Adele","popularity": 80,"tempo": 108.0,"key": "D","mode": "Minor","energy": 67,"valence": 45,"slug": "set-fire-to-the-rain-adele"},{"name": "Stand by Me","artists": "Ben E. King","popularity": 80,"tempo": 118.1,"key": "A","mode": "Major","energy": 31,"valence": 60,"slug": "stand-by-me-ben-e-king"},{"name": "Nights","artists": "Frank Ocean","popularity": 80,"tempo": 89.9,"key": "F","mode": "Minor","energy": 55,"valence": 43,"slug": "nights-frank-ocean"},{"name": "Chicago","artists": "Michael Jackson","popularity": 80,"tempo": 176.1,"key": "G","mode": "Minor","energy": 76,"valence": 55,"slug": "chicago-michael-jackson"},{"name": "If I Ain't Got You","artists": "Alicia Keys","popularity": 80,"tempo": 118.4,"key": "G","mode": "Major","energy": 44,"valence": 17,"slug": "if-i-aint-got-you-alicia-keys"},{"name": "Renegade","artists": "Aaryan Shah","popularity": 79,"tempo": 103.1,"key": "A","mode": "Minor","energy": 56,"valence": 21,"slug": "renegade-aaryan-shah"},{"name": "Chanel","artists": "Frank Ocean","popularity": 79,"tempo": 110.1,"key": "C","mode": "Minor","energy": 50,"valence": 47,"slug": "chanel-frank-ocean"},{"name": "Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix","artists": "Ty Dolla $ign;The Weeknd;Wiz Khalifa;Mustard","popularity": 79,"tempo": 122.0,"key": "C#/Db","mode": "Minor","energy": 33,"valence": 21,"slug": "or-nah-feat-the-weeknd-wiz-khalifa-dj-mustard-remix-ty-dolla-ign"},{"name": "When We Were Young","artists": "Adele","popularity": 79,"tempo": 144.4,"key": "D#/Eb","mode": "Major","energy": 60,"valence": 26,"slug": "when-we-were-young-adele"},{"name": "White Ferrari","artists": "Frank Ocean","popularity": 79,"tempo": 108.7,"key": "C","mode": "Major","energy": 10,"valence": 20,"slug": "white-ferrari-frank-ocean"},{"name": "Ain't No Sunshine","artists": "Bill Withers","popularity": 79,"tempo": 78.2,"key": "E","mode": "Minor","energy": 42,"valence": 52,"slug": "aint-no-sunshine-bill-withers"},{"name": "My Girl","artists": "The Temptations","popularity": 79,"tempo": 104.6,"key": "C","mode": "Major","energy": 42,"valence": 69,"slug": "my-girl-the-temptations"},{"name": "Let's Groove","artists": "Earth, Wind & Fire","popularity": 79,"tempo": 125.0,"key": "B","mode": "Minor","energy": 65,"valence": 90,"slug": "lets-groove-earth-wind-fire"},{"name": "Here's Your Perfect","artists": "Jamie Miller","popularity": 78,"tempo": 113.1,"key": "F#/Gb","mode": "Major","energy": 45,"valence": 42,"slug": "heres-your-perfect-jamie-miller"},{"name": "Love In The Dark","artists": "Adele","popularity": 78,"tempo": 109.8,"key": "A","mode": "Minor","energy": 34,"valence": 15,"slug": "love-in-the-dark-adele"},{"name": "Human","artists": "Rag'n'Bone Man","popularity": 78,"tempo": 75.1,"key": "A","mode": "Major","energy": 71,"valence": 55,"slug": "human-ragnbone-man"},{"name": "Thinkin Bout You","artists": "Frank Ocean","popularity": 78,"tempo": 129.8,"key": "C","mode": "Major","energy": 34,"valence": 20,"slug": "thinkin-bout-you-frank-ocean"},{"name": "American Boy","artists": "Estelle;Kanye West","popularity": 78,"tempo": 117.9,"key": "C","mode": "Major","energy": 73,"valence": 51,"slug": "american-boy-estelle"},{"name": "No One","artists": "Alicia Keys","popularity": 78,"tempo": 90.0,"key": "C#/Db","mode": "Minor","energy": 55,"valence": 17,"slug": "no-one-alicia-keys"},{"name": "On My Own","artists": "Darci","popularity": 77,"tempo": 130.0,"key": "E","mode": "Major","energy": 59,"valence": 58,"slug": "on-my-own-darci"},{"name": "Skyfall","artists": "Adele","popularity": 77,"tempo": 75.9,"key": "C","mode": "Minor","energy": 55,"valence": 8,"slug": "skyfall-adele"},{"name": "Sunday Best","artists": "Surfaces","popularity": 77,"tempo": 112.0,"key": "F","mode": "Major","energy": 52,"valence": 69,"slug": "sunday-best-surfaces"},{"name": "Make You Feel My Love","artists": "Adele","popularity": 77,"tempo": 65.2,"key": "A#/Bb","mode": "Major","energy": 17,"valence": 10,"slug": "make-you-feel-my-love-adele"},{"name": "Girl on Fire","artists": "Alicia Keys","popularity": 77,"tempo": 92.5,"key": "A","mode": "Major","energy": 71,"valence": 14,"slug": "girl-on-fire-alicia-keys"},{"name": "Put Your Records On","artists": "Corinne Bailey Rae","popularity": 77,"tempo": 96.0,"key": "A","mode": "Major","energy": 51,"valence": 54,"slug": "put-your-records-on-corinne-bailey-rae"},{"name": "I Want You Back","artists": "The Jackson 5","popularity": 77,"tempo": 196.6,"key": "G#/Ab","mode": "Major","energy": 54,"valence": 89,"slug": "i-want-you-back-the-jackson-5"},{"name": "No Diggity","artists": "Blackstreet;Dr. Dre;Queen Pen","popularity": 77,"tempo": 88.6,"key": "C#/Db","mode": "Minor","energy": 65,"valence": 67,"slug": "no-diggity-blackstreet"},{"name": "At My Worst","artists": "Pink Sweat$","popularity": 76,"tempo": 91.9,"key": "C","mode": "Major","energy": 42,"valence": 67,"slug": "at-my-worst-pink-sweat"},{"name": "Only Love Can Hurt Like This - Slowed Down Version","artists": "Paloma Faith","popularity": 76,"tempo": 82.0,"key": "F#/Gb","mode": "Minor","energy": 85,"valence": 39,"slug": "only-love-can-hurt-like-this-slowed-down-version-paloma-faith"},{"name": "Happier Than Ever","artists": "ASTN","popularity": 76,"tempo": 97.6,"key": "F#/Gb","mode": "Minor","energy": 46,"valence": 27,"slug": "happier-than-ever-astn"},{"name": "Self Control","artists": "Frank Ocean","popularity": 76,"tempo": 80.1,"key": "G#/Ab","mode": "Major","energy": 21,"valence": 45,"slug": "self-control-frank-ocean"},{"name": "Crazy","artists": "Gnarls Barkley","popularity": 76,"tempo": 112.0,"key": "G#/Ab","mode": "Major","energy": 59,"valence": 64,"slug": "crazy-gnarls-barkley"},{"name": "Blurred Lines","artists": "Robin Thicke;T.I.;Pharrell Williams","popularity": 76,"tempo": 120.0,"key": "G","mode": "Major","energy": 60,"valence": 84,"slug": "blurred-lines-robin-thicke"},{"name": "Lovely Day","artists": "Bill Withers","popularity": 76,"tempo": 97.9,"key": "A","mode": "Major","energy": 65,"valence": 71,"slug": "lovely-day-bill-withers"},{"name": "(Sittin' On) the Dock of the Bay","artists": "Otis Redding","popularity": 76,"tempo": 103.6,"key": "D","mode": "Major","energy": 37,"valence": 54,"slug": "sittin-on-the-dock-of-the-bay-otis-redding"},{"name": "Love","artists": "Keyshia Cole","popularity": 76,"tempo": 116.7,"key": "F","mode": "Major","energy": 52,"valence": 32,"slug": "love-keyshia-cole"},{"name": "CHAINSAW BLOOD","artists": "Vaundy","popularity": 75,"tempo": 147.0,"key": "C","mode": "Major","energy": 86,"valence": 55,"slug": "chainsaw-blood-vaundy"},{"name": "I Just Called To Say I Love You","artists": "Stevie Wonder","popularity": 75,"tempo": 113.5,"key": "C#/Db","mode": "Major","energy": 55,"valence": 65,"slug": "i-just-called-to-say-i-love-you-stevie-wonder"},{"name": "Drama (feat. Drake)","artists": "Roy Woods;Drake","popularity": 75,"tempo": 122.0,"key": "B","mode": "Major","energy": 36,"valence": 11,"slug": "drama-feat-drake-roy-woods"},{"name": "I Drink Wine","artists": "Adele","popularity": 75,"tempo": 115.4,"key": "A#/Bb","mode": "Major","energy": 56,"valence": 31,"slug": "i-drink-wine-adele"},{"name": "Rock with You - Single Version","artists": "Michael Jackson","popularity": 75,"tempo": 114.0,"key": "C#/Db","mode": "Major","energy": 54,"valence": 85,"slug": "rock-with-you-single-version-michael-jackson"},{"name": "Bleeding Love","artists": "Leona Lewis","popularity": 75,"tempo": 104.0,"key": "F","mode": "Major","energy": 66,"valence": 22,"slug": "bleeding-love-leona-lewis"},{"name": "At Last","artists": "Etta James","popularity": 75,"tempo": 87.4,"key": "F","mode": "Major","energy": 35,"valence": 33,"slug": "at-last-etta-james"},{"name": "Super Freak","artists": "Rick James","popularity": 75,"tempo": 132.4,"key": "A","mode": "Minor","energy": 79,"valence": 96,"slug": "super-freak-rick-james"},{"name": "Return of the Mack","artists": "Mark Morrison","popularity": 75,"tempo": 95.5,"key": "D","mode": "Major","energy": 83,"valence": 61,"slug": "return-of-the-mack-mark-morrison"},{"name": "Valerie - Live At BBC Radio 1 Live Lounge, London / 2007","artists": "Amy Winehouse","popularity": 75,"tempo": 96.6,"key": "F","mode": "Minor","energy": 37,"valence": 68,"slug": "valerie-live-at-bbc-radio-1-live-lounge-london-2007-amy-winehouse"},{"name": "Easy","artists": "Commodores","popularity": 75,"tempo": 132.9,"key": "A#/Bb","mode": "Minor","energy": 38,"valence": 35,"slug": "easy-commodores"},{"name": "At My Worst","artists": "Pink Sweat$","popularity": 74,"tempo": 91.9,"key": "C","mode": "Major","energy": 42,"valence": 67,"slug": "at-my-worst-pink-sweat"},{"name": "Hello","artists": "Adele","popularity": 74,"tempo": 79.0,"key": "F","mode": "Minor","energy": 43,"valence": 29,"slug": "hello-adele"},{"name": "Spicy (feat. Post Malone)","artists": "Ty Dolla $ign;Post Malone","popularity": 74,"tempo": 100.0,"key": "E","mode": "Minor","energy": 51,"valence": 12,"slug": "spicy-feat-post-malone-ty-dolla-ign"},{"name": "All I Ask","artists": "Adele","popularity": 74,"tempo": 141.9,"key": "E","mode": "Major","energy": 28,"valence": 35,"slug": "all-i-ask-adele"},{"name": "My Friends (feat. Lil Durk)","artists": "Ty Dolla $ign;Mustard;Lil Durk","popularity": 74,"tempo": 170.0,"key": "G#/Ab","mode": "Major","energy": 48,"valence": 44,"slug": "my-friends-feat-lil-durk-ty-dolla-ign"},{"name": "Can I Get It","artists": "Adele","popularity": 74,"tempo": 98.0,"key": "A","mode": "Minor","energy": 68,"valence": 54,"slug": "can-i-get-it-adele"},{"name": "Love$ick (feat. A$AP Rocky)","artists": "Mura Masa;A$AP Rocky","popularity": 74,"tempo": 88.8,"key": "G#/Ab","mode": "Minor","energy": 76,"valence": 72,"slug": "loveick-feat-aap-rocky-mura-masa"},{"name": "Super Rich Kids","artists": "Frank Ocean;Earl Sweatshirt","popularity": 74,"tempo": 60.5,"key": "D#/Eb","mode": "Minor","energy": 42,"valence": 58,"slug": "super-rich-kids-frank-ocean"},{"name": "Kiss from a Rose","artists": "Seal","popularity": 74,"tempo": 131.7,"key": "A#/Bb","mode": "Minor","energy": 53,"valence": 22,"slug": "kiss-from-a-rose-seal"},{"name": "Chasing Pavements","artists": "Adele","popularity": 73,"tempo": 80.0,"key": "F","mode": "Minor","energy": 47,"valence": 32,"slug": "chasing-pavements-adele"},{"name": "Feeling Good","artists": "Nina Simone","popularity": 73,"tempo": 79.2,"key": "G","mode": "Minor","energy": 33,"valence": 55,"slug": "feeling-good-nina-simone"},{"name": "Pyramids","artists": "Frank Ocean","popularity": 73,"tempo": 108.0,"key": "F","mode": "Minor","energy": 65,"valence": 15,"slug": "pyramids-frank-ocean"},{"name": "Rise Up","artists": "Andra Day","popularity": 73,"tempo": 118.6,"key": "C#/Db","mode": "Major","energy": 32,"valence": 17,"slug": "rise-up-andra-day"},{"name": "You Know I'm No Good","artists": "Amy Winehouse","popularity": 73,"tempo": 103.4,"key": "A","mode": "Major","energy": 50,"valence": 80,"slug": "you-know-im-no-good-amy-winehouse"},{"name": "Pony","artists": "Ginuwine","popularity": 73,"tempo": 142.0,"key": "G#/Ab","mode": "Minor","energy": 60,"valence": 97,"slug": "pony-ginuwine"},{"name": "Come With Me","artists": "Surfaces;salem ilese","popularity": 72,"tempo": 111.9,"key": "B","mode": "Minor","energy": 56,"valence": 93,"slug": "come-with-me-surfaces"},{"name": "Send My Love (To Your New Lover)","artists": "Adele","popularity": 72,"tempo": 164.1,"key": "F#/Gb","mode": "Minor","energy": 53,"valence": 57,"slug": "send-my-love-to-your-new-lover-adele"},{"name": "Nikes","artists": "Frank Ocean","popularity": 72,"tempo": 138.0,"key": "G#/Ab","mode": "Major","energy": 40,"valence": 12,"slug": "nikes-frank-ocean"},{"name": "Pink Matter","artists": "Frank Ocean;Andr\u00e9 3000","popularity": 72,"tempo": 176.6,"key": "B","mode": "Minor","energy": 23,"valence": 49,"slug": "pink-matter-frank-ocean"},{"name": "Empire State of Mind (Part II) Broken Down","artists": "Alicia Keys","popularity": 72,"tempo": 92.9,"key": "F#/Gb","mode": "Major","energy": 37,"valence": 14,"slug": "empire-state-of-mind-part-ii-broken-down-alicia-keys"},{"name": "Killing Me Softly With His Song","artists": "Roberta Flack","popularity": 72,"tempo": 121.9,"key": "F","mode": "Minor","energy": 38,"valence": 33,"slug": "killing-me-softly-with-his-song-roberta-flack"},{"name": "I Try","artists": "Macy Gray","popularity": 72,"tempo": 76.4,"key": "D","mode": "Major","energy": 64,"valence": 74,"slug": "i-try-macy-gray"},{"name": "Please Don't Go","artists": "Joel Adams","popularity": 71,"tempo": 84.3,"key": "E","mode": "Minor","energy": 77,"valence": 24,"slug": "please-dont-go-joel-adams"},{"name": "Let Go","artists": "Ark Patrol;Veronika Redd","popularity": 71,"tempo": 82.0,"key": "C","mode": "Major","energy": 44,"valence": 4,"slug": "let-go-ark-patrol"},{"name": "Wonder Woman","artists": "John Legend","popularity": 71,"tempo": 147.9,"key": "C","mode": "Major","energy": 48,"valence": 34,"slug": "wonder-woman-john-legend"},{"name": "Please Don't Go","artists": "KC & The Sunshine Band","popularity": 71,"tempo": 96.0,"key": "F#/Gb","mode": "Major","energy": 75,"valence": 47,"slug": "please-dont-go-kc-the-sunshine-band"},{"name": "Time Moves Slow","artists": "BADBADNOTGOOD;Samuel T. Herring","popularity": 71,"tempo": 140.0,"key": "B","mode": "Minor","energy": 38,"valence": 31,"slug": "time-moves-slow-badbadnotgood"},{"name": "7 Days","artists": "Craig David","popularity": 71,"tempo": 83.0,"key": "E","mode": "Minor","energy": 81,"valence": 89,"slug": "7-days-craig-david"},{"name": "Nothing's Gonna Change My Love for You","artists": "George Benson","popularity": 70,"tempo": 136.6,"key": "C#/Db","mode": "Major","energy": 61,"valence": 34,"slug": "nothings-gonna-change-my-love-for-you-george-benson"},{"name": "Wave of You","artists": "Surfaces","popularity": 70,"tempo": 91.0,"key": "C#/Db","mode": "Major","energy": 66,"valence": 35,"slug": "wave-of-you-surfaces"},{"name": "Water Under the Bridge","artists": "Adele","popularity": 70,"tempo": 95.0,"key": "F","mode": "Minor","energy": 83,"valence": 54,"slug": "water-under-the-bridge-adele"},{"name": "You Are the Right One","artists": "Sports","popularity": 70,"tempo": 100.0,"key": "E","mode": "Minor","energy": 59,"valence": 85,"slug": "you-are-the-right-one-sports"},{"name": "Honesty","artists": "Pink Sweat$","popularity": 70,"tempo": 80.0,"key": "F#/Gb","mode": "Minor","energy": 14,"valence": 31,"slug": "honesty-pink-sweat"},{"name": "I Don't Wanna Be Okay Without You","artists": "Charlie Burg","popularity": 70,"tempo": 63.0,"key": "F","mode": "Major","energy": 32,"valence": 17,"slug": "i-dont-wanna-be-okay-without-you-charlie-burg"},{"name": "Thriller","artists": "Michael Jackson","popularity": 70,"tempo": 118.4,"key": "B","mode": "Major","energy": 89,"valence": 72,"slug": "thriller-michael-jackson"},{"name": "Tieduprightnow","artists": "Parcels","popularity": 70,"tempo": 102.0,"key": "F","mode": "Minor","energy": 53,"valence": 74,"slug": "tieduprightnow-parcels"},{"name": "Man in the Mirror - 2012 Remaster","artists": "Michael Jackson","popularity": 70,"tempo": 100.3,"key": "G#/Ab","mode": "Major","energy": 81,"valence": 27,"slug": "man-in-the-mirror-2012-remaster-michael-jackson"},{"name": "Cold Little Heart - Radio Edit","artists": "Michael Kiwanuka","popularity": 70,"tempo": 110.3,"key": "G","mode": "Minor","energy": 58,"valence": 66,"slug": "cold-little-heart-radio-edit-michael-kiwanuka"}];
+
+let tracksShown = 10;
+const TRACKS_STEP = 15;
+
+const SPOTIFY_SVG = '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>';
+
+function spotifySearchUrl(track, artist) {
+  const q = encodeURIComponent(track + ' ' + artist);
+  return 'https://open.spotify.com/search/' + q;
+}
+
+function renderTracks() {
+  const tbody = document.getElementById('tracksBody');
+  const btn = document.getElementById('showMoreBtn');
+  const count = document.getElementById('showMoreCount');
+  const visible = TRACKS.slice(0, tracksShown);
+
+  tbody.innerHTML = visible.map((t, i) => {
+    const songPageUrl = '/songs/' + t.slug + '/';
+    const spotifyUrl = spotifySearchUrl(t.name, t.artists);
+    const popWidth = Math.round(t.popularity);
+    return '<tr>' +
+      '<td class="td-rank">' + (i + 1) + '</td>' +
+      '<td class="td-track"><a href="' + songPageUrl + '">' + escHtml(t.name) + '</a>' +
+        '<a href="' + spotifyUrl + '" target="_blank" rel="noopener" class="spotify-icon" title="Open on Spotify" onclick="event.stopPropagation()">' + SPOTIFY_SVG + '</a></td>' +
+      '<td class="td-artist"><a href="https://open.spotify.com/search/' + encodeURIComponent(t.artists) + '" target="_blank" rel="noopener">' + escHtml(t.artists) + '</a></td>' +
+      '<td class="td-num"><span class="pop-bar"><span>' + t.popularity + '</span><span class="pop-bar-track"><span class="pop-bar-fill" style="width:' + popWidth + '%"></span></span></span></td>' +
+      '<td class="td-num">' + (t.tempo || '—') + '</td>' +
+      '<td class="td-num">' + t.energy + '%</td>' +
+      '<td class="td-num">' + t.valence + '%</td>' +
+      '<td class="td-key">' + t.key + (t.mode === 'Minor' ? ' m' : '') + '</td>' +
+    '</tr>';
+  }).join('');
+
+  const remaining = TRACKS.length - tracksShown;
+  if (remaining <= 0) {
+    btn.classList.add('hidden');
+  } else {
+    btn.classList.remove('hidden');
+    count.textContent = '(' + remaining + ' more)';
+  }
+}
+
+function showMoreTracks() {
+  tracksShown = Math.min(tracksShown + TRACKS_STEP, TRACKS.length);
+  renderTracks();
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+renderTracks();
+
+// ─── Popular vs Unpopular Comparison Chart ────────────────────────────────
+
+new Chart(document.getElementById('chartPopComp'), {
+  type: 'bar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Duration (norm)'],
+    datasets: [
+      {
+        label: 'Top 25 (pop 83–94)',
+        data: [0.33, 0.30, 0.63, 0.61, 0.75, 2.8/6],
+        backgroundColor: ta(0.7),
+        borderColor: TEAL,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      },
+      {
+        label: 'Bottom 25 (pop 37–50)',
+        data: [0.20, 0.25, 0.59, 0.67, 0.78, 3.4/6],
+        backgroundColor: pa(0.6),
+        borderColor: PURPLE,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      }
+    ]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 8,
+          font: { size: 11, weight: '500' }
+        }
+      },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          label: (i) => {
+            const label = i.dataset.label;
+            const feat = i.label;
+            let val = i.raw;
+            if (feat === 'Duration (norm)') {
+              val = (val * 6).toFixed(1) + ' min';
+            } else {
+              val = (val * 100).toFixed(1) + '%';
+            }
+            return `  ${label}: ${val}`;
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` },
+        min: 0, max: 1
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#aab0d0', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── Correlation Heatmap Table ────────────────────────────────────────────
+
+(function buildCorrTable() {
+  const feats = ['Energy', 'Valence', 'Dance.', 'Acoustic.', 'Instr.', 'Speech.', 'Tempo'];
+  const corrData = {
+    '0,1': 0.42, '0,2': 0.34, '0,3': -0.64, '0,4': -0.28, '0,5': -0.19, '0,6': 0.22,
+    '1,2': 0.38, '1,3': -0.25, '1,4': -0.15, '1,5': -0.08, '1,6': 0.11,
+    '2,3': -0.18, '2,4': -0.22, '2,5': 0.14, '2,6': 0.31,
+    '3,4': 0.45, '3,5': 0.09, '3,6': -0.23,
+    '4,5': 0.21, '4,6': -0.19,
+    '5,6': 0.05
+  };
+
+  function getCorr(i, j) {
+    if (i === j) return 1.0;
+    const key = Math.min(i,j) + ',' + Math.max(i,j);
+    return corrData[key] || 0;
+  }
+
+  function cellColor(r) {
+    if (r === 1) return 'rgba(255,255,255,0.04)';
+    if (r > 0.5)  return 'rgba(78,205,196,0.35)';
+    if (r > 0.25) return 'rgba(78,205,196,0.18)';
+    if (r < -0.5) return 'rgba(220,80,80,0.35)';
+    if (r < -0.25) return 'rgba(220,80,80,0.18)';
+    return 'transparent';
+  }
+
+  const table = document.getElementById('corrTable');
+  // Header
+  let html = '<thead><tr><th></th>';
+  feats.forEach(f => { html += `<th>${f}</th>`; });
+  html += '</tr></thead><tbody>';
+  // Rows
+  feats.forEach((f, i) => {
+    html += `<tr><td>${f}</td>`;
+    feats.forEach((_, j) => {
+      const r = getCorr(i, j);
+      const cls = i === j ? ' class="diag"' : '';
+      const display = r === 0 ? '—' : (r === 1 ? '1.00' : (r > 0 ? '+' : '') + r.toFixed(2));
+      html += `<td${cls} style="background:${cellColor(r)}">${display}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+})();
+
+// ─── Production Profile Segmented Bars ────────────────────────────────────
+
+(function buildProdProfile() {
+  const colors = [ta(0.75), pa(0.6), ba(0.5), 'rgba(255,200,87,0.5)', 'rgba(220,80,80,0.4)', 'rgba(150,150,150,0.3)'];
+
+  const data = [
+    { name: 'Drums',     items: [['Vinyl Crackle', 92], ['J Dilla Swing', 78], ['Boom-Bap Pattern', 65], ['SP-404 Chops', 43]] },
+    { name: 'Samples',   items: [['Jazz Chords', 71], ['Soul Vocals', 54], ['Piano Loops', 48], ['Guitar Riffs', 31], ['Anime/Game', 23]] },
+    { name: 'Effects',   items: [['Tape Saturation', 85], ['Low-Pass Filter', 69], ['Reverb/Delay', 57], ['Bit Crushing', 34]] },
+    { name: 'Tempo',     items: [['70-90 BPM', 61], ['90-120 BPM', 20], ['120+ BPM', 19]] },
+    { name: 'Mood',      items: [['Nostalgic', 68], ['Melancholic', 45], ['Peaceful', 38], ['Hopeful', 29]] },
+    { name: 'Usage',     items: [['Study Music', 89], ['Background', 74], ['Chill Playlist', 62], ['Sleep Aid', 45]] }
+  ];
+
+  const grid = document.getElementById('prodGrid');
+  let html = '';
+
+  data.forEach(cat => {
+    html += `<div class="prod-item">`;
+    html += `<div class="feature-label">${cat.name}</div>`;
+    html += `<div class="prod-bar-wrap">`;
+    const total = cat.name === 'Usage' ? 100 : cat.items.reduce((s, i) => s + i[1], 0);
+    cat.items.forEach((item, idx) => {
+      const pct = (item[1] / total) * 100;
+      const bg = colors[idx % colors.length];
+      const label = pct > 12 ? `${item[0]} ${item[1]}%` : (pct > 6 ? `${item[1]}%` : '');
+      html += `<div class="prod-seg" style="flex:${pct};background:${bg}">${label}</div>`;
+    });
+    html += `</div>`;
+    html += `<div class="prod-labels">`;
+    cat.items.forEach((item, idx) => {
+      const bg = colors[idx % colors.length];
+      html += `<span class="prod-label-item"><span class="prod-label-dot" style="background:${bg}"></span>${item[0]} (${item[1]}%)</span>`;
+    });
+    html += `</div>`;
+    html += `</div>`;
+  });
+
+  grid.innerHTML = html;
+})();
+
+// ─── Copy to Clipboard ───────────────────────────────────────────────────
+
+function copyBlock(blockId) {
+  const block = document.getElementById(blockId);
+  const pre = block.querySelector('pre');
+  const text = pre.textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = block.querySelector('.copy-btn');
+    btn.textContent = 'Copied ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+</script>
+</body>
+</html>

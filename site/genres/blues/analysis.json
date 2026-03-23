@@ -1,0 +1,2797 @@
+{
+  "genre": "Blues",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 70.776,
+    "max": 179.904,
+    "mean": 123.055,
+    "median": 120.265,
+    "q1": 104.995,
+    "q3": 143.868,
+    "histogram": {
+      "70-79": 5,
+      "80-89": 9,
+      "90-99": 8,
+      "100-109": 10,
+      "110-119": 16,
+      "120-129": 16,
+      "130-139": 9,
+      "140-149": 10,
+      "150-159": 5,
+      "160-169": 6,
+      "170-179": 6
+    }
+  },
+  "key_distribution": {
+    "D": 19,
+    "C": 14,
+    "A": 14,
+    "E": 12,
+    "G": 12,
+    "F": 9,
+    "G#/Ab": 7,
+    "C#/Db": 4,
+    "F#/Gb": 4,
+    "B": 4,
+    "A#/Bb": 1
+  },
+  "mode_distribution": {
+    "Minor": 26,
+    "Major": 74
+  },
+  "key_mode_distribution": {
+    "D Major": 17,
+    "C Major": 13,
+    "A Major": 10,
+    "G Major": 9,
+    "F Major": 8,
+    "E Minor": 7,
+    "G#/Ab Major": 5,
+    "E Major": 5,
+    "A Minor": 4,
+    "F#/Gb Major": 4,
+    "C#/Db Minor": 3,
+    "G Minor": 3,
+    "B Minor": 3,
+    "D Minor": 2,
+    "G#/Ab Minor": 2,
+    "A#/Bb Major": 1,
+    "C#/Db Major": 1,
+    "F Minor": 1,
+    "C Minor": 1,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.15,
+    "max": 0.991,
+    "mean": 0.64,
+    "median": 0.668,
+    "q1": 0.484,
+    "q3": 0.823
+  },
+  "valence": {
+    "min": 0.15,
+    "max": 0.969,
+    "mean": 0.564,
+    "median": 0.534,
+    "q1": 0.403,
+    "q3": 0.76
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.446,
+      "valence": 0.278
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.886
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.822
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.338
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.539,
+      "valence": 0.39
+    },
+    {
+      "energy": 0.214,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.476,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.367,
+      "valence": 0.535
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.913
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.626
+    },
+    {
+      "energy": 0.348,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.355,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.917
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.177
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.326,
+      "valence": 0.546
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.187
+    },
+    {
+      "energy": 0.872,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.932
+    },
+    {
+      "energy": 0.623,
+      "valence": 0.298
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.322
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.79,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.68
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.843
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.939
+    },
+    {
+      "energy": 0.439,
+      "valence": 0.76
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.611
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.955
+    },
+    {
+      "energy": 0.962,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.594,
+      "valence": 0.734
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.911
+    },
+    {
+      "energy": 0.523,
+      "valence": 0.164
+    },
+    {
+      "energy": 0.624,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.63
+    },
+    {
+      "energy": 0.571,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.654
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.285,
+      "valence": 0.402
+    },
+    {
+      "energy": 0.306,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.768,
+      "valence": 0.532
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.463,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.647
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.715
+    },
+    {
+      "energy": 0.639,
+      "valence": 0.957
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.571,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.923,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.656
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.38,
+      "valence": 0.892
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.788
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.674
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.39,
+      "valence": 0.32
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.448
+    },
+    {
+      "energy": 0.159,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.726,
+      "valence": 0.915
+    },
+    {
+      "energy": 0.205,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.483,
+      "valence": 0.173
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.572
+    },
+    {
+      "energy": 0.991,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.726,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.271,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.392
+    },
+    {
+      "energy": 0.15,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.443
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.984,
+    "mean": 0.279,
+    "median": 0.203,
+    "q1": 0.019,
+    "q3": 0.477
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.856,
+    "mean": 0.043,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.008
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.118
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.021
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.129
+    },
+    {
+      "acousticness": 0.741,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.185
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.234,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.619,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.684,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.547,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.478,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.297
+    },
+    {
+      "acousticness": 0.665,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.365,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.249,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.225
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.537
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.163,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.392,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.486,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.209,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.318,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.373,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.578
+    },
+    {
+      "acousticness": 0.689,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.065
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.128
+    },
+    {
+      "acousticness": 0.385,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.856
+    },
+    {
+      "acousticness": 0.685,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.704,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.829,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.38
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.144,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.704,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.16,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.461,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.541,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.1,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.358,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.257,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.477,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.914,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.379,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.896,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.465,
+      "instrumentalness": 0.497
+    },
+    {
+      "acousticness": 0.504,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.197,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.075
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.679,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.437,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.984,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.034
+    }
+  ],
+  "duration": {
+    "min": 110093,
+    "max": 547106,
+    "mean": 230410.15,
+    "median": 222986.5,
+    "q1": 180690,
+    "q3": 266720
+  },
+  "danceability": {
+    "min": 0.189,
+    "max": 0.855,
+    "mean": 0.521,
+    "median": 0.55,
+    "q1": 0.438,
+    "q3": 0.612
+  },
+  "loudness": {
+    "min": -15.7,
+    "max": -1.574,
+    "mean": -8.347,
+    "median": -7.998,
+    "q1": -10.164,
+    "q3": -6.013
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.389,
+    "mean": 0.057,
+    "median": 0.043,
+    "q1": 0.032,
+    "q3": 0.064
+  },
+  "top_artists": [
+    {
+      "name": "Cage The Elephant",
+      "count": 5
+    },
+    {
+      "name": "Jimi Hendrix",
+      "count": 5
+    },
+    {
+      "name": "ZZ Top",
+      "count": 4
+    },
+    {
+      "name": "Lynyrd Skynyrd",
+      "count": 3
+    },
+    {
+      "name": "The Who",
+      "count": 3
+    },
+    {
+      "name": "Etta James",
+      "count": 3
+    },
+    {
+      "name": "Leon Bridges",
+      "count": 3
+    },
+    {
+      "name": "The Black Keys",
+      "count": 3
+    },
+    {
+      "name": "The White Stripes",
+      "count": 2
+    },
+    {
+      "name": "Sam Tinnesz",
+      "count": 2
+    },
+    {
+      "name": "Eric Clapton",
+      "count": 2
+    },
+    {
+      "name": "Chuck Berry",
+      "count": 2
+    },
+    {
+      "name": "The Doobie Brothers",
+      "count": 2
+    },
+    {
+      "name": "Elle King",
+      "count": 2
+    },
+    {
+      "name": "Aretha Franklin",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Seven Nation Army",
+      "artists": "The White Stripes",
+      "album": "Elephant",
+      "popularity": 84,
+      "tempo": 123.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.446,
+      "valence": 0.278,
+      "danceability": 0.743,
+      "acousticness": 0.004,
+      "instrumentalness": 0.118,
+      "loudness": -7.8,
+      "speechiness": 0.068,
+      "duration_ms": 232106,
+      "slug": "seven-nation-army-the-white-stripes"
+    },
+    {
+      "name": "Sweet Home Alabama",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Second Helping (Expanded Edition)",
+      "popularity": 81,
+      "tempo": 97.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.605,
+      "valence": 0.886,
+      "danceability": 0.596,
+      "acousticness": 0.181,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.025,
+      "duration_ms": 283800,
+      "slug": "sweet-home-alabama-lynyrd-skynyrd"
+    },
+    {
+      "name": "Cigarette Daydreams",
+      "artists": "Cage The Elephant",
+      "album": "Melophobia",
+      "popularity": 79,
+      "tempo": 114.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.676,
+      "valence": 0.273,
+      "danceability": 0.636,
+      "acousticness": 0.081,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.026,
+      "duration_ms": 208760,
+      "slug": "cigarette-daydreams-cage-the-elephant"
+    },
+    {
+      "name": "For What It's Worth",
+      "artists": "Buffalo Springfield",
+      "album": "Buffalo Springfield",
+      "popularity": 78,
+      "tempo": 98.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.822,
+      "danceability": 0.653,
+      "acousticness": 0.406,
+      "instrumentalness": 0.021,
+      "loudness": -10.2,
+      "speechiness": 0.05,
+      "duration_ms": 153693,
+      "slug": "for-what-its-worth-buffalo-springfield"
+    },
+    {
+      "name": "I See Red",
+      "artists": "Everybody Loves an Outlaw",
+      "album": "I See Red",
+      "popularity": 77,
+      "tempo": 156.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.448,
+      "valence": 0.221,
+      "danceability": 0.509,
+      "acousticness": 0.007,
+      "instrumentalness": 0.014,
+      "loudness": -7.6,
+      "speechiness": 0.036,
+      "duration_ms": 230613,
+      "slug": "i-see-red-everybody-loves-an-outlaw"
+    },
+    {
+      "name": "Free Bird",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "popularity": 77,
+      "tempo": 118.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.834,
+      "valence": 0.338,
+      "danceability": 0.249,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.058,
+      "duration_ms": 547106,
+      "slug": "free-bird-lynyrd-skynyrd"
+    },
+    {
+      "name": "All Along the Watchtower",
+      "artists": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "popularity": 77,
+      "tempo": 113.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.564,
+      "danceability": 0.438,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.062,
+      "duration_ms": 240800,
+      "slug": "all-along-the-watchtower-jimi-hendrix"
+    },
+    {
+      "name": "La Grange - 2005 Remaster",
+      "artists": "ZZ Top",
+      "album": "Tres Hombres (Expanded 2006 Remaster)",
+      "popularity": 77,
+      "tempo": 80.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.64,
+      "valence": 0.606,
+      "danceability": 0.545,
+      "acousticness": 0.002,
+      "instrumentalness": 0.03,
+      "loudness": -9.9,
+      "speechiness": 0.224,
+      "duration_ms": 230480,
+      "slug": "la-grange-2005-remaster-zz-top"
+    },
+    {
+      "name": "Play with Fire (feat. Yacht Money)",
+      "artists": "Sam Tinnesz;Yacht Money",
+      "album": "Play with Fire (feat. Yacht Money)",
+      "popularity": 76,
+      "tempo": 75.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.539,
+      "valence": 0.39,
+      "danceability": 0.573,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.032,
+      "duration_ms": 180690,
+      "slug": "play-with-fire-feat-yacht-money-sam-tinnesz"
+    },
+    {
+      "name": "Wonderful Tonight",
+      "artists": "Eric Clapton",
+      "album": "Slowhand 35th Anniversary (Super Deluxe)",
+      "popularity": 76,
+      "tempo": 95.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.214,
+      "valence": 0.485,
+      "danceability": 0.572,
+      "acousticness": 0.649,
+      "instrumentalness": 0.129,
+      "loudness": -15.6,
+      "speechiness": 0.029,
+      "duration_ms": 225026,
+      "slug": "wonderful-tonight-eric-clapton"
+    },
+    {
+      "name": "Johnny B. Goode",
+      "artists": "Chuck Berry",
+      "album": "Berry Is On Top",
+      "popularity": 76,
+      "tempo": 168.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.803,
+      "valence": 0.969,
+      "danceability": 0.534,
+      "acousticness": 0.741,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.074,
+      "duration_ms": 161560,
+      "slug": "johnny-b-goode-chuck-berry"
+    },
+    {
+      "name": "Baba O'Riley",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 117.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.724,
+      "valence": 0.15,
+      "danceability": 0.489,
+      "acousticness": 0.313,
+      "instrumentalness": 0.185,
+      "loudness": -8.4,
+      "speechiness": 0.035,
+      "duration_ms": 300400,
+      "slug": "baba-oriley-the-who"
+    },
+    {
+      "name": "(Don't Fear) The Reaper",
+      "artists": "Blue \u00d6yster Cult",
+      "album": "Agents Of Fortune",
+      "popularity": 76,
+      "tempo": 141.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.927,
+      "valence": 0.385,
+      "danceability": 0.333,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.073,
+      "duration_ms": 308120,
+      "slug": "dont-fear-the-reaper-blue-\u00f6yster-cult"
+    },
+    {
+      "name": "The Boys Are Back In Town",
+      "artists": "Thin Lizzy",
+      "album": "Jailbreak (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 80.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.706,
+      "valence": 0.768,
+      "danceability": 0.445,
+      "acousticness": 0.234,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.046,
+      "duration_ms": 266720,
+      "slug": "the-boys-are-back-in-town-thin-lizzy"
+    },
+    {
+      "name": "No Rain",
+      "artists": "Blind Melon",
+      "album": "Blind Melon",
+      "popularity": 76,
+      "tempo": 148.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.476,
+      "valence": 0.566,
+      "danceability": 0.389,
+      "acousticness": 0.619,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.032,
+      "duration_ms": 217106,
+      "slug": "no-rain-blind-melon"
+    },
+    {
+      "name": "(Sittin' On) the Dock of the Bay",
+      "artists": "Otis Redding",
+      "album": "The Dock of the Bay (Mono)",
+      "popularity": 76,
+      "tempo": 103.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.367,
+      "valence": 0.535,
+      "danceability": 0.769,
+      "acousticness": 0.684,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.031,
+      "duration_ms": 163755,
+      "slug": "sittin-on-the-dock-of-the-bay-otis-redding"
+    },
+    {
+      "name": "Listen to the Music",
+      "artists": "The Doobie Brothers",
+      "album": "Toulouse Street",
+      "popularity": 76,
+      "tempo": 105.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.598,
+      "valence": 0.913,
+      "danceability": 0.645,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -13.2,
+      "speechiness": 0.034,
+      "duration_ms": 227266,
+      "slug": "listen-to-the-music-the-doobie-brothers"
+    },
+    {
+      "name": "House of the Rising Sun",
+      "artists": "The Animals",
+      "album": "The Singles Plus",
+      "popularity": 75,
+      "tempo": 117.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.484,
+      "valence": 0.299,
+      "danceability": 0.316,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -9.1,
+      "speechiness": 0.031,
+      "duration_ms": 269906,
+      "slug": "house-of-the-rising-sun-the-animals"
+    },
+    {
+      "name": "Drunk (And I Don't Wanna Go Home)",
+      "artists": "Elle King;Miranda Lambert",
+      "album": "Drunk (And I Don't Wanna Go Home)",
+      "popularity": 75,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.626,
+      "danceability": 0.612,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.046,
+      "duration_ms": 245625,
+      "slug": "drunk-and-i-dont-wanna-go-home-elle-king"
+    },
+    {
+      "name": "At Last",
+      "artists": "Etta James",
+      "album": "At Last!",
+      "popularity": 75,
+      "tempo": 87.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.348,
+      "valence": 0.328,
+      "danceability": 0.274,
+      "acousticness": 0.547,
+      "instrumentalness": 0.013,
+      "loudness": -8.6,
+      "speechiness": 0.029,
+      "duration_ms": 179693,
+      "slug": "at-last-etta-james"
+    },
+    {
+      "name": "I Say a Little Prayer",
+      "artists": "Aretha Franklin",
+      "album": "Aretha Now",
+      "popularity": 75,
+      "tempo": 133.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.355,
+      "valence": 0.499,
+      "danceability": 0.592,
+      "acousticness": 0.478,
+      "instrumentalness": 0.0,
+      "loudness": -14.1,
+      "speechiness": 0.035,
+      "duration_ms": 216773,
+      "slug": "i-say-a-little-prayer-aretha-franklin"
+    },
+    {
+      "name": "Come a Little Closer",
+      "artists": "Cage The Elephant",
+      "album": "Melophobia",
+      "popularity": 74,
+      "tempo": 148.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.778,
+      "valence": 0.304,
+      "danceability": 0.44,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -1.8,
+      "speechiness": 0.033,
+      "duration_ms": 229346,
+      "slug": "come-a-little-closer-cage-the-elephant"
+    },
+    {
+      "name": "Ain't No Rest for the Wicked",
+      "artists": "Cage The Elephant",
+      "album": "Cage The Elephant (Expanded Edition)",
+      "popularity": 74,
+      "tempo": 156.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.917,
+      "danceability": 0.636,
+      "acousticness": 0.044,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.106,
+      "duration_ms": 175493,
+      "slug": "aint-no-rest-for-the-wicked-cage-the-elephant"
+    },
+    {
+      "name": "Layla",
+      "artists": "Derek & The Dominos",
+      "album": "Layla And Other Assorted Love Songs (Remastered 2010)",
+      "popularity": 74,
+      "tempo": 115.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.497,
+      "danceability": 0.404,
+      "acousticness": 0.577,
+      "instrumentalness": 0.297,
+      "loudness": -3.9,
+      "speechiness": 0.067,
+      "duration_ms": 423840,
+      "slug": "layla-derek-the-dominos"
+    },
+    {
+      "name": "River",
+      "artists": "Leon Bridges",
+      "album": "Coming Home (Deluxe)",
+      "popularity": 74,
+      "tempo": 128.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.184,
+      "valence": 0.177,
+      "danceability": 0.635,
+      "acousticness": 0.665,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.046,
+      "duration_ms": 240200,
+      "slug": "river-leon-bridges"
+    },
+    {
+      "name": "Simple Man",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "popularity": 74,
+      "tempo": 120.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.403,
+      "danceability": 0.422,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.045,
+      "duration_ms": 356626,
+      "slug": "simple-man-lynyrd-skynyrd"
+    },
+    {
+      "name": "The Joker",
+      "artists": "Steve Miller Band",
+      "album": "The Joker",
+      "popularity": 74,
+      "tempo": 83.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.448,
+      "valence": 0.796,
+      "danceability": 0.596,
+      "acousticness": 0.365,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.04,
+      "duration_ms": 264503,
+      "slug": "the-joker-steve-miller-band"
+    },
+    {
+      "name": "Centerfold",
+      "artists": "The J. Geils Band",
+      "album": "Freeze Frame",
+      "popularity": 74,
+      "tempo": 114.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.888,
+      "danceability": 0.653,
+      "acousticness": 0.249,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.04,
+      "duration_ms": 216533,
+      "slug": "centerfold-the-j-geils-band"
+    },
+    {
+      "name": "Feeling Good",
+      "artists": "Nina Simone",
+      "album": "I Put A Spell On You",
+      "popularity": 73,
+      "tempo": 79.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.326,
+      "valence": 0.546,
+      "danceability": 0.399,
+      "acousticness": 0.864,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.039,
+      "duration_ms": 174000,
+      "slug": "feeling-good-nina-simone"
+    },
+    {
+      "name": "Ex's & Oh's",
+      "artists": "Elle King",
+      "album": "Love Stuff",
+      "popularity": 73,
+      "tempo": 140.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.921,
+      "valence": 0.446,
+      "danceability": 0.612,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.085,
+      "duration_ms": 202173,
+      "slug": "exs-ohs-elle-king"
+    },
+    {
+      "name": "Smoke On The Water - Remastered 2012",
+      "artists": "Deep Purple",
+      "album": "Machine Head (Remastered)",
+      "popularity": 73,
+      "tempo": 114.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.676,
+      "valence": 0.805,
+      "danceability": 0.598,
+      "acousticness": 0.13,
+      "instrumentalness": 0.225,
+      "loudness": -9.2,
+      "speechiness": 0.028,
+      "duration_ms": 340742,
+      "slug": "smoke-on-the-water-remastered-2012-deep-purple"
+    },
+    {
+      "name": "Born To Be Wild",
+      "artists": "Steppenwolf",
+      "album": "Steppenwolf",
+      "popularity": 73,
+      "tempo": 145.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.71,
+      "valence": 0.53,
+      "danceability": 0.438,
+      "acousticness": 0.262,
+      "instrumentalness": 0.537,
+      "loudness": -12.4,
+      "speechiness": 0.092,
+      "duration_ms": 210373,
+      "slug": "born-to-be-wild-steppenwolf"
+    },
+    {
+      "name": "Beyond",
+      "artists": "Leon Bridges",
+      "album": "Good Thing",
+      "popularity": 73,
+      "tempo": 76.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.687,
+      "valence": 0.187,
+      "danceability": 0.581,
+      "acousticness": 0.229,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.105,
+      "duration_ms": 240600,
+      "slug": "beyond-leon-bridges"
+    },
+    {
+      "name": "Lonely Boy",
+      "artists": "The Black Keys",
+      "album": "El Camino",
+      "popularity": 73,
+      "tempo": 166.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.872,
+      "valence": 0.607,
+      "danceability": 0.356,
+      "acousticness": 0.004,
+      "instrumentalness": 0.01,
+      "loudness": -7.8,
+      "speechiness": 0.068,
+      "duration_ms": 193653,
+      "slug": "lonely-boy-the-black-keys"
+    },
+    {
+      "name": "All Right Now",
+      "artists": "Free",
+      "album": "Fire And Water",
+      "popularity": 73,
+      "tempo": 120.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.472,
+      "valence": 0.824,
+      "danceability": 0.787,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.083,
+      "duration_ms": 330643,
+      "slug": "all-right-now-free"
+    },
+    {
+      "name": "Sharp Dressed Man - 2008 Remaster",
+      "artists": "ZZ Top",
+      "album": "Eliminator",
+      "popularity": 73,
+      "tempo": 125.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.446,
+      "danceability": 0.601,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -5.3,
+      "speechiness": 0.028,
+      "duration_ms": 258026,
+      "slug": "sharp-dressed-man-2008-remaster-zz-top"
+    },
+    {
+      "name": "End Of The Line",
+      "artists": "Traveling Wilburys",
+      "album": "The Traveling Wilburys, Vol. 1",
+      "popularity": 73,
+      "tempo": 167.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.836,
+      "valence": 0.932,
+      "danceability": 0.578,
+      "acousticness": 0.163,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.051,
+      "duration_ms": 209520,
+      "slug": "end-of-the-line-traveling-wilburys"
+    },
+    {
+      "name": "Trouble",
+      "artists": "Cage The Elephant",
+      "album": "Tell Me I'm Pretty",
+      "popularity": 72,
+      "tempo": 77.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.623,
+      "valence": 0.298,
+      "danceability": 0.47,
+      "acousticness": 0.392,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.03,
+      "duration_ms": 225973,
+      "slug": "trouble-cage-the-elephant"
+    },
+    {
+      "name": "White Rabbit",
+      "artists": "Jefferson Airplane",
+      "album": "Surrealistic Pillow",
+      "popularity": 72,
+      "tempo": 106.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.293,
+      "valence": 0.322,
+      "danceability": 0.551,
+      "acousticness": 0.486,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.027,
+      "duration_ms": 150640,
+      "slug": "white-rabbit-jefferson-airplane"
+    },
+    {
+      "name": "Fell In Love With a Girl",
+      "artists": "The White Stripes",
+      "album": "White Blood Cells",
+      "popularity": 72,
+      "tempo": 95.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.299,
+      "danceability": 0.356,
+      "acousticness": 0.713,
+      "instrumentalness": 0.001,
+      "loudness": -1.6,
+      "speechiness": 0.112,
+      "duration_ms": 110093,
+      "slug": "fell-in-love-with-a-girl-the-white-stripes"
+    },
+    {
+      "name": "No One Knows",
+      "artists": "Queens of the Stone Age",
+      "album": "Songs For The Deaf",
+      "popularity": 72,
+      "tempo": 170.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.685,
+      "danceability": 0.509,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.057,
+      "duration_ms": 278746,
+      "slug": "no-one-knows-queens-of-the-stone-age"
+    },
+    {
+      "name": "Hard To Handle",
+      "artists": "The Black Crowes",
+      "album": "Shake Your Money Maker",
+      "popularity": 72,
+      "tempo": 103.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.79,
+      "valence": 0.961,
+      "danceability": 0.599,
+      "acousticness": 0.003,
+      "instrumentalness": 0.002,
+      "loudness": -3.6,
+      "speechiness": 0.043,
+      "duration_ms": 188066,
+      "slug": "hard-to-handle-the-black-crowes"
+    },
+    {
+      "name": "Midnight Rider",
+      "artists": "Allman Brothers Band",
+      "album": "Idlewild South (Deluxe Edition Remastered)",
+      "popularity": 72,
+      "tempo": 94.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.532,
+      "valence": 0.68,
+      "danceability": 0.585,
+      "acousticness": 0.209,
+      "instrumentalness": 0.008,
+      "loudness": -9.7,
+      "speechiness": 0.027,
+      "duration_ms": 180066,
+      "slug": "midnight-rider-allman-brothers-band"
+    },
+    {
+      "name": "Long Train Runnin'",
+      "artists": "The Doobie Brothers",
+      "album": "The Captain and Me",
+      "popularity": 72,
+      "tempo": 117.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.912,
+      "valence": 0.843,
+      "danceability": 0.575,
+      "acousticness": 0.092,
+      "instrumentalness": 0.002,
+      "loudness": -7.3,
+      "speechiness": 0.039,
+      "duration_ms": 207266,
+      "slug": "long-train-runnin-the-doobie-brothers"
+    },
+    {
+      "name": "(Your Love Keeps Lifting Me) Higher & Higher",
+      "artists": "Jackie Wilson",
+      "album": "Higher And Higher",
+      "popularity": 72,
+      "tempo": 95.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.939,
+      "danceability": 0.634,
+      "acousticness": 0.318,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.045,
+      "duration_ms": 179120,
+      "slug": "your-love-keeps-lifting-me-higher-higher-jackie-wilson"
+    },
+    {
+      "name": "You Ain't Seen Nothing Yet",
+      "artists": "Bachman-Turner Overdrive",
+      "album": "Not Fragile",
+      "popularity": 72,
+      "tempo": 118.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.439,
+      "valence": 0.76,
+      "danceability": 0.475,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -15.0,
+      "speechiness": 0.043,
+      "duration_ms": 234866,
+      "slug": "you-aint-seen-nothing-yet-bachman-turner-overdrive"
+    },
+    {
+      "name": "The Weight - Remastered 2000",
+      "artists": "The Band",
+      "album": "Music From Big Pink (Remastered)",
+      "popularity": 72,
+      "tempo": 143.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.518,
+      "danceability": 0.63,
+      "acousticness": 0.373,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.055,
+      "duration_ms": 274493,
+      "slug": "the-weight-remastered-2000-the-band"
+    },
+    {
+      "name": "Behind Blue Eyes",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 126.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.622,
+      "valence": 0.342,
+      "danceability": 0.394,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.034,
+      "duration_ms": 221426,
+      "slug": "behind-blue-eyes-the-who"
+    },
+    {
+      "name": "Little Wing",
+      "artists": "Jimi Hendrix",
+      "album": "Axis: Bold As Love",
+      "popularity": 71,
+      "tempo": 70.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.534,
+      "valence": 0.426,
+      "danceability": 0.515,
+      "acousticness": 0.181,
+      "instrumentalness": 0.003,
+      "loudness": -8.0,
+      "speechiness": 0.077,
+      "duration_ms": 145746,
+      "slug": "little-wing-jimi-hendrix"
+    },
+    {
+      "name": "Purple Haze",
+      "artists": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "popularity": 71,
+      "tempo": 108.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.905,
+      "valence": 0.486,
+      "danceability": 0.533,
+      "acousticness": 0.009,
+      "instrumentalness": 0.578,
+      "loudness": -5.3,
+      "speechiness": 0.075,
+      "duration_ms": 170813,
+      "slug": "purple-haze-jimi-hendrix"
+    },
+    {
+      "name": "I'd Rather Go Blind",
+      "artists": "Etta James",
+      "album": "Tell Mama",
+      "popularity": 71,
+      "tempo": 82.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.433,
+      "valence": 0.611,
+      "danceability": 0.477,
+      "acousticness": 0.689,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.025,
+      "duration_ms": 156653,
+      "slug": "id-rather-go-blind-etta-james"
+    },
+    {
+      "name": "Bad To The Bone",
+      "artists": "George Thorogood & The Destroyers",
+      "album": "BAD TO THE BONE",
+      "popularity": 71,
+      "tempo": 149.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.727,
+      "valence": 0.955,
+      "danceability": 0.459,
+      "acousticness": 0.006,
+      "instrumentalness": 0.065,
+      "loudness": -11.8,
+      "speechiness": 0.03,
+      "duration_ms": 292173,
+      "slug": "bad-to-the-bone-george-thorogood-the-destroyers"
+    },
+    {
+      "name": "Highway Tune",
+      "artists": "Greta Van Fleet",
+      "album": "From The Fires",
+      "popularity": 71,
+      "tempo": 124.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.962,
+      "valence": 0.506,
+      "danceability": 0.582,
+      "acousticness": 0.01,
+      "instrumentalness": 0.128,
+      "loudness": -3.0,
+      "speechiness": 0.054,
+      "duration_ms": 180640,
+      "slug": "highway-tune-greta-van-fleet"
+    },
+    {
+      "name": "Sunshine Of Your Love",
+      "artists": "Cream",
+      "album": "Disraeli Gears (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 115.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.594,
+      "valence": 0.734,
+      "danceability": 0.683,
+      "acousticness": 0.385,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.035,
+      "duration_ms": 250400,
+      "slug": "sunshine-of-your-love-cream"
+    },
+    {
+      "name": "Get It On",
+      "artists": "T. Rex",
+      "album": "Electric Warrior",
+      "popularity": 71,
+      "tempo": 126.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.878,
+      "valence": 0.911,
+      "danceability": 0.728,
+      "acousticness": 0.176,
+      "instrumentalness": 0.856,
+      "loudness": -6.9,
+      "speechiness": 0.056,
+      "duration_ms": 262613,
+      "slug": "get-it-on-t-rex"
+    },
+    {
+      "name": "I'm Not In Love",
+      "artists": "10cc",
+      "album": "The Original Soundtrack",
+      "popularity": 71,
+      "tempo": 133.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.523,
+      "valence": 0.164,
+      "danceability": 0.404,
+      "acousticness": 0.685,
+      "instrumentalness": 0.0,
+      "loudness": -15.7,
+      "speechiness": 0.058,
+      "duration_ms": 366640,
+      "slug": "im-not-in-love-10cc"
+    },
+    {
+      "name": "Mississippi Queen",
+      "artists": "Mountain",
+      "album": "Climbing!",
+      "popularity": 71,
+      "tempo": 139.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.624,
+      "valence": 0.637,
+      "danceability": 0.581,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.078,
+      "duration_ms": 151293,
+      "slug": "mississippi-queen-mountain"
+    },
+    {
+      "name": "Gimme All Your Lovin'",
+      "artists": "ZZ Top",
+      "album": "Eliminator",
+      "popularity": 71,
+      "tempo": 120.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.788,
+      "valence": 0.63,
+      "danceability": 0.63,
+      "acousticness": 0.003,
+      "instrumentalness": 0.024,
+      "loudness": -6.7,
+      "speechiness": 0.03,
+      "duration_ms": 241080,
+      "slug": "gimme-all-your-lovin-zz-top"
+    },
+    {
+      "name": "Hit the Road Jack",
+      "artists": "Ray Charles",
+      "album": "True Genius",
+      "popularity": 70,
+      "tempo": 173.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.571,
+      "valence": 0.962,
+      "danceability": 0.598,
+      "acousticness": 0.704,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.139,
+      "duration_ms": 119880,
+      "slug": "hit-the-road-jack-ray-charles"
+    },
+    {
+      "name": "Somebody to Love",
+      "artists": "Jefferson Airplane",
+      "album": "Surrealistic Pillow",
+      "popularity": 70,
+      "tempo": 132.4,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.578,
+      "valence": 0.654,
+      "danceability": 0.504,
+      "acousticness": 0.408,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.031,
+      "duration_ms": 174840,
+      "slug": "somebody-to-love-jefferson-airplane"
+    },
+    {
+      "name": "You Never Can Tell",
+      "artists": "Chuck Berry",
+      "album": "St. Louis To Liverpool",
+      "popularity": 70,
+      "tempo": 157.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.884,
+      "danceability": 0.525,
+      "acousticness": 0.731,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.222,
+      "duration_ms": 161906,
+      "slug": "you-never-can-tell-chuck-berry"
+    },
+    {
+      "name": "White Room",
+      "artists": "Cream",
+      "album": "Wheels Of Fire",
+      "popularity": 70,
+      "tempo": 109.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.576,
+      "valence": 0.457,
+      "danceability": 0.553,
+      "acousticness": 0.191,
+      "instrumentalness": 0.007,
+      "loudness": -13.5,
+      "speechiness": 0.03,
+      "duration_ms": 298333,
+      "slug": "white-room-cream"
+    },
+    {
+      "name": "A Sunday Kind Of Love",
+      "artists": "Etta James",
+      "album": "At Last!",
+      "popularity": 70,
+      "tempo": 85.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.285,
+      "valence": 0.402,
+      "danceability": 0.421,
+      "acousticness": 0.829,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.029,
+      "duration_ms": 196133,
+      "slug": "a-sunday-kind-of-love-etta-james"
+    },
+    {
+      "name": "Up Where We Belong - From \"An Officer And A Gentleman\"",
+      "artists": "Joe Cocker;Jennifer Warnes",
+      "album": "The Anthology",
+      "popularity": 70,
+      "tempo": 139.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.306,
+      "valence": 0.227,
+      "danceability": 0.624,
+      "acousticness": 0.634,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.032,
+      "duration_ms": 232666,
+      "slug": "up-where-we-belong-from-an-officer-and-a-gentleman-joe-cocker"
+    },
+    {
+      "name": "Hey Joe",
+      "artists": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "popularity": 70,
+      "tempo": 169.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.768,
+      "valence": 0.532,
+      "danceability": 0.346,
+      "acousticness": 0.006,
+      "instrumentalness": 0.38,
+      "loudness": -5.7,
+      "speechiness": 0.038,
+      "duration_ms": 210160,
+      "slug": "hey-joe-jimi-hendrix"
+    },
+    {
+      "name": "Gold on the Ceiling",
+      "artists": "The Black Keys",
+      "album": "El Camino",
+      "popularity": 70,
+      "tempo": 130.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.565,
+      "danceability": 0.505,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.048,
+      "duration_ms": 224333,
+      "slug": "gold-on-the-ceiling-the-black-keys"
+    },
+    {
+      "name": "Me and Bobby McGee",
+      "artists": "Janis Joplin",
+      "album": "Pearl (Legacy Edition)",
+      "popularity": 70,
+      "tempo": 93.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.463,
+      "valence": 0.66,
+      "danceability": 0.43,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.044,
+      "duration_ms": 271333,
+      "slug": "me-and-bobby-mcgee-janis-joplin"
+    },
+    {
+      "name": "Steady, As She Goes",
+      "artists": "The Raconteurs",
+      "album": "Broken Boy Soldiers",
+      "popularity": 70,
+      "tempo": 123.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.578,
+      "valence": 0.537,
+      "danceability": 0.525,
+      "acousticness": 0.013,
+      "instrumentalness": 0.009,
+      "loudness": -4.6,
+      "speechiness": 0.12,
+      "duration_ms": 215266,
+      "slug": "steady-as-she-goes-the-raconteurs"
+    },
+    {
+      "name": "Some Kind Of Wonderful - Remastered 1999",
+      "artists": "Grand Funk Railroad",
+      "album": "30 Years Of Funk: 1969-1999 The Anthology",
+      "popularity": 70,
+      "tempo": 121.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.691,
+      "valence": 0.647,
+      "danceability": 0.855,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.051,
+      "duration_ms": 202733,
+      "slug": "some-kind-of-wonderful-remastered-1999-grand-funk-railroad"
+    },
+    {
+      "name": "Cocaine",
+      "artists": "Eric Clapton",
+      "album": "Slowhand 35th Anniversary",
+      "popularity": 69,
+      "tempo": 105.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.502,
+      "valence": 0.676,
+      "danceability": 0.699,
+      "acousticness": 0.061,
+      "instrumentalness": 0.034,
+      "loudness": -12.5,
+      "speechiness": 0.028,
+      "duration_ms": 221640,
+      "slug": "cocaine-eric-clapton"
+    },
+    {
+      "name": "Cold Cold Cold",
+      "artists": "Cage The Elephant",
+      "album": "Tell Me I'm Pretty",
+      "popularity": 69,
+      "tempo": 136.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.789,
+      "valence": 0.715,
+      "danceability": 0.549,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.031,
+      "duration_ms": 214386,
+      "slug": "cold-cold-cold-cage-the-elephant"
+    },
+    {
+      "name": "Wild Child",
+      "artists": "The Black Keys",
+      "album": "Dropout Boogie",
+      "popularity": 69,
+      "tempo": 107.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.639,
+      "valence": 0.957,
+      "danceability": 0.68,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.028,
+      "duration_ms": 164866,
+      "slug": "wild-child-the-black-keys"
+    },
+    {
+      "name": "Is This Love - 2018 Remaster",
+      "artists": "Whitesnake",
+      "album": "Whitesnake (2018 Remaster)",
+      "popularity": 69,
+      "tempo": 179.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.759,
+      "valence": 0.429,
+      "danceability": 0.263,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.043,
+      "duration_ms": 284496,
+      "slug": "is-this-love-2018-remaster-whitesnake"
+    },
+    {
+      "name": "Here I Go Again - 2018 Remaster",
+      "artists": "Whitesnake",
+      "album": "Whitesnake (2018 Remaster)",
+      "popularity": 69,
+      "tempo": 89.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.244,
+      "danceability": 0.292,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.041,
+      "duration_ms": 275395,
+      "slug": "here-i-go-again-2018-remaster-whitesnake"
+    },
+    {
+      "name": "Hit the Road Jack",
+      "artists": "Ray Charles",
+      "album": "Soul",
+      "popularity": 69,
+      "tempo": 173.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.571,
+      "valence": 0.962,
+      "danceability": 0.598,
+      "acousticness": 0.704,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.139,
+      "duration_ms": 119880,
+      "slug": "hit-the-road-jack-ray-charles"
+    },
+    {
+      "name": "Smooth (feat. Rob Thomas)",
+      "artists": "Santana;Rob Thomas",
+      "album": "Supernatural (Remastered)",
+      "popularity": 69,
+      "tempo": 116.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.923,
+      "valence": 0.961,
+      "danceability": 0.609,
+      "acousticness": 0.16,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.034,
+      "duration_ms": 294986,
+      "slug": "smooth-feat-rob-thomas-santana"
+    },
+    {
+      "name": "Coming Home",
+      "artists": "Leon Bridges",
+      "album": "Coming Home (Deluxe)",
+      "popularity": 69,
+      "tempo": 112.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.462,
+      "danceability": 0.424,
+      "acousticness": 0.461,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.03,
+      "duration_ms": 206386,
+      "slug": "coming-home-leon-bridges"
+    },
+    {
+      "name": "Slow Ride",
+      "artists": "Foghat",
+      "album": "Slow Ride / Save Your Loving (For Me)",
+      "popularity": 69,
+      "tempo": 113.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.656,
+      "danceability": 0.493,
+      "acousticness": 0.02,
+      "instrumentalness": 0.001,
+      "loudness": -13.9,
+      "speechiness": 0.046,
+      "duration_ms": 232533,
+      "slug": "slow-ride-foghat"
+    },
+    {
+      "name": "Piece of My Heart",
+      "artists": "Big Brother & The Holding Company;Janis Joplin",
+      "album": "Cheap Thrills",
+      "popularity": 69,
+      "tempo": 160.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.727,
+      "valence": 0.566,
+      "danceability": 0.443,
+      "acousticness": 0.263,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.145,
+      "duration_ms": 253333,
+      "slug": "piece-of-my-heart-big-brother-the-holding-company"
+    },
+    {
+      "name": "Dreadlock Holiday",
+      "artists": "10cc",
+      "album": "Bloody Tourists",
+      "popularity": 69,
+      "tempo": 105.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.38,
+      "valence": 0.892,
+      "danceability": 0.837,
+      "acousticness": 0.541,
+      "instrumentalness": 0.008,
+      "loudness": -13.3,
+      "speechiness": 0.064,
+      "duration_ms": 267946,
+      "slug": "dreadlock-holiday-10cc"
+    },
+    {
+      "name": "Tush - 2006 Remaster",
+      "artists": "ZZ Top",
+      "album": "Fandango! (Expanded 2006 Remaster)",
+      "popularity": 69,
+      "tempo": 145.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.885,
+      "valence": 0.788,
+      "danceability": 0.58,
+      "acousticness": 0.1,
+      "instrumentalness": 0.002,
+      "loudness": -5.2,
+      "speechiness": 0.071,
+      "duration_ms": 137933,
+      "slug": "tush-2006-remaster-zz-top"
+    },
+    {
+      "name": "Legends Are Made",
+      "artists": "Sam Tinnesz",
+      "album": "Babel",
+      "popularity": 68,
+      "tempo": 87.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.89,
+      "valence": 0.674,
+      "danceability": 0.553,
+      "acousticness": 0.123,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.041,
+      "duration_ms": 169758,
+      "slug": "legends-are-made-sam-tinnesz"
+    },
+    {
+      "name": "The Mystic",
+      "artists": "Adam Jensen",
+      "album": "The Mystic",
+      "popularity": 68,
+      "tempo": 125.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.405,
+      "danceability": 0.556,
+      "acousticness": 0.358,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.042,
+      "duration_ms": 189600,
+      "slug": "the-mystic-adam-jensen"
+    },
+    {
+      "name": "Still Got The Blues",
+      "artists": "Gary Moore",
+      "album": "Still Got The Blues",
+      "popularity": 68,
+      "tempo": 169.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.39,
+      "valence": 0.32,
+      "danceability": 0.189,
+      "acousticness": 0.257,
+      "instrumentalness": 0.0,
+      "loudness": -14.5,
+      "speechiness": 0.035,
+      "duration_ms": 370866,
+      "slug": "still-got-the-blues-gary-moore"
+    },
+    {
+      "name": "Voodoo Child (Slight Return)",
+      "artists": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "popularity": 68,
+      "tempo": 175.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.448,
+      "danceability": 0.214,
+      "acousticness": 0.477,
+      "instrumentalness": 0.008,
+      "loudness": -6.7,
+      "speechiness": 0.389,
+      "duration_ms": 313373,
+      "slug": "voodoo-child-slight-return-jimi-hendrix"
+    },
+    {
+      "name": "Helplessly Hoping - 2005 Remaster",
+      "artists": "Crosby, Stills & Nash",
+      "album": "Crosby, Stills & Nash",
+      "popularity": 68,
+      "tempo": 146.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.159,
+      "valence": 0.423,
+      "danceability": 0.483,
+      "acousticness": 0.914,
+      "instrumentalness": 0.0,
+      "loudness": -13.6,
+      "speechiness": 0.035,
+      "duration_ms": 157893,
+      "slug": "helplessly-hoping-2005-remaster-crosby-stills-nash"
+    },
+    {
+      "name": "Since You Been Gone",
+      "artists": "Rainbow",
+      "album": "Down To Earth",
+      "popularity": 68,
+      "tempo": 120.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.726,
+      "valence": 0.915,
+      "danceability": 0.733,
+      "acousticness": 0.379,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.037,
+      "duration_ms": 197160,
+      "slug": "since-you-been-gone-rainbow"
+    },
+    {
+      "name": "Our House",
+      "artists": "Crosby, Stills, Nash & Young",
+      "album": "Deja Vu",
+      "popularity": 68,
+      "tempo": 140.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.205,
+      "valence": 0.378,
+      "danceability": 0.592,
+      "acousticness": 0.896,
+      "instrumentalness": 0.0,
+      "loudness": -14.6,
+      "speechiness": 0.048,
+      "duration_ms": 179760,
+      "slug": "our-house-crosby-stills-nash-young"
+    },
+    {
+      "name": "Nights In White Satin - Single Version / Mono",
+      "artists": "The Moody Blues",
+      "album": "Days Of Future Passed (Deluxe Version)",
+      "popularity": 68,
+      "tempo": 84.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.483,
+      "valence": 0.173,
+      "danceability": 0.195,
+      "acousticness": 0.465,
+      "instrumentalness": 0.497,
+      "loudness": -5.0,
+      "speechiness": 0.03,
+      "duration_ms": 269106,
+      "slug": "nights-in-white-satin-single-version-mono-the-moody-blues"
+    },
+    {
+      "name": "A Whiter Shade of Pale - Original Single Version",
+      "artists": "Procol Harum",
+      "album": "Hits'n'Flips",
+      "popularity": 68,
+      "tempo": 149.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.435,
+      "danceability": 0.249,
+      "acousticness": 0.504,
+      "instrumentalness": 0.003,
+      "loudness": -6.9,
+      "speechiness": 0.034,
+      "duration_ms": 248946,
+      "slug": "a-whiter-shade-of-pale-original-single-version-procol-harum"
+    },
+    {
+      "name": "Black Smoke Rising",
+      "artists": "Greta Van Fleet",
+      "album": "From The Fires",
+      "popularity": 68,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.572,
+      "danceability": 0.558,
+      "acousticness": 0.197,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.046,
+      "duration_ms": 259893,
+      "slug": "black-smoke-rising-greta-van-fleet"
+    },
+    {
+      "name": "Go With The Flow",
+      "artists": "Queens of the Stone Age",
+      "album": "Songs For The Deaf",
+      "popularity": 68,
+      "tempo": 159.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.991,
+      "valence": 0.415,
+      "danceability": 0.246,
+      "acousticness": 0.009,
+      "instrumentalness": 0.075,
+      "loudness": -3.9,
+      "speechiness": 0.087,
+      "duration_ms": 187146,
+      "slug": "go-with-the-flow-queens-of-the-stone-age"
+    },
+    {
+      "name": "Show Me The Way",
+      "artists": "Peter Frampton",
+      "album": "Frampton",
+      "popularity": 68,
+      "tempo": 130.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.726,
+      "valence": 0.641,
+      "danceability": 0.7,
+      "acousticness": 0.434,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.033,
+      "duration_ms": 243266,
+      "slug": "show-me-the-way-peter-frampton"
+    },
+    {
+      "name": "Pinball Wizard",
+      "artists": "The Who",
+      "album": "Tommy",
+      "popularity": 68,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.715,
+      "valence": 0.468,
+      "danceability": 0.543,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.036,
+      "duration_ms": 180943,
+      "slug": "pinball-wizard-the-who"
+    },
+    {
+      "name": "(You Make Me Feel Like) A Natural Woman",
+      "artists": "Aretha Franklin",
+      "album": "Lady Soul (With Bonus Selections)",
+      "popularity": 68,
+      "tempo": 110.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.271,
+      "valence": 0.405,
+      "danceability": 0.603,
+      "acousticness": 0.679,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.028,
+      "duration_ms": 165333,
+      "slug": "you-make-me-feel-like-a-natural-woman-aretha-franklin"
+    },
+    {
+      "name": "Joker And The Thief",
+      "artists": "Wolfmother",
+      "album": "Wolfmother",
+      "popularity": 68,
+      "tempo": 155.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.78,
+      "valence": 0.456,
+      "danceability": 0.264,
+      "acousticness": 0.045,
+      "instrumentalness": 0.022,
+      "loudness": -2.7,
+      "speechiness": 0.052,
+      "duration_ms": 280466,
+      "slug": "joker-and-the-thief-wolfmother"
+    },
+    {
+      "name": "Middle Finger",
+      "artists": "Bohnes",
+      "album": "Middle Finger - Single",
+      "popularity": 67,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.656,
+      "valence": 0.392,
+      "danceability": 0.685,
+      "acousticness": 0.437,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.038,
+      "duration_ms": 229986,
+      "slug": "middle-finger-bohnes"
+    },
+    {
+      "name": "Solitude",
+      "artists": "Billie Holiday",
+      "album": "Solitude",
+      "popularity": 67,
+      "tempo": 98.7,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.15,
+      "valence": 0.19,
+      "danceability": 0.462,
+      "acousticness": 0.984,
+      "instrumentalness": 0.001,
+      "loudness": -13.5,
+      "speechiness": 0.052,
+      "duration_ms": 207600,
+      "slug": "solitude-billie-holiday"
+    },
+    {
+      "name": "Baby Blue - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Straight Up (Remastered 2010 / Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 124.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.515,
+      "danceability": 0.623,
+      "acousticness": 0.019,
+      "instrumentalness": 0.013,
+      "loudness": -7.8,
+      "speechiness": 0.066,
+      "duration_ms": 217346,
+      "slug": "baby-blue-remastered-2010-badfinger"
+    },
+    {
+      "name": "Highway Star - Remastered 2012",
+      "artists": "Deep Purple",
+      "album": "Machine Head (Remastered)",
+      "popularity": 67,
+      "tempo": 173.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.443,
+      "danceability": 0.307,
+      "acousticness": 0.135,
+      "instrumentalness": 0.034,
+      "loudness": -7.1,
+      "speechiness": 0.057,
+      "duration_ms": 366136,
+      "slug": "highway-star-remastered-2012-deep-purple"
+    }
+  ]
+}

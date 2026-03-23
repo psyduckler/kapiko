@@ -1,0 +1,2800 @@
+{
+  "genre": "Hard Rock",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 79.759,
+    "max": 188.386,
+    "mean": 123.802,
+    "median": 123.355,
+    "q1": 106.392,
+    "q3": 139.261,
+    "histogram": {
+      "70-79": 1,
+      "80-89": 10,
+      "90-99": 3,
+      "100-109": 17,
+      "110-119": 14,
+      "120-129": 19,
+      "130-139": 13,
+      "140-149": 8,
+      "150-159": 5,
+      "160-169": 5,
+      "170-179": 4,
+      "180-189": 1
+    }
+  },
+  "key_distribution": {
+    "F#/Gb": 14,
+    "E": 14,
+    "A": 11,
+    "B": 10,
+    "C": 10,
+    "D": 10,
+    "G": 8,
+    "C#/Db": 7,
+    "G#/Ab": 7,
+    "F": 6,
+    "A#/Bb": 2,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Major": 73,
+    "Minor": 27
+  },
+  "key_mode_distribution": {
+    "E Minor": 10,
+    "A Major": 9,
+    "F#/Gb Major": 9,
+    "C Major": 9,
+    "B Major": 8,
+    "G Major": 8,
+    "D Major": 8,
+    "G#/Ab Major": 7,
+    "F#/Gb Minor": 5,
+    "F Major": 5,
+    "E Major": 4,
+    "C#/Db Major": 4,
+    "C#/Db Minor": 3,
+    "A Minor": 2,
+    "B Minor": 2,
+    "D Minor": 2,
+    "C Minor": 1,
+    "A#/Bb Major": 1,
+    "A#/Bb Minor": 1,
+    "D#/Eb Major": 1,
+    "F Minor": 1
+  },
+  "energy": {
+    "min": 0.297,
+    "max": 0.987,
+    "mean": 0.784,
+    "median": 0.835,
+    "q1": 0.7,
+    "q3": 0.908
+  },
+  "valence": {
+    "min": 0.067,
+    "max": 0.964,
+    "mean": 0.489,
+    "median": 0.482,
+    "q1": 0.323,
+    "q3": 0.629
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.9,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.629
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.748,
+      "valence": 0.514
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.886
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.755
+    },
+    {
+      "energy": 0.362,
+      "valence": 0.158
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.246
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.34,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.843,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.322,
+      "valence": 0.387
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.795
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.338
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.902
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.147
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.649,
+      "valence": 0.144
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.786,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.913
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.554
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.669
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.452,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.894
+    },
+    {
+      "energy": 0.924,
+      "valence": 0.922
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.758
+    },
+    {
+      "energy": 0.987,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.078
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.138
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.568
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.703
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.962,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.26
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.667
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.451
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.827
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.395
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.413
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.249
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.48
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.48,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.25
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.901,
+      "valence": 0.666
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.571
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.569,
+      "valence": 0.067
+    },
+    {
+      "energy": 0.297,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.458
+    },
+    {
+      "energy": 0.961,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.264
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.532
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.804
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.79,
+      "valence": 0.961
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.686,
+    "mean": 0.092,
+    "median": 0.016,
+    "q1": 0.002,
+    "q3": 0.133
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.814,
+    "mean": 0.053,
+    "median": 0.001,
+    "q1": 0.0,
+    "q3": 0.019
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.1
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.127,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.388,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.22
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.431
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.403
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.315,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.58,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.086
+    },
+    {
+      "acousticness": 0.193,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.169
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.367,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.171,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.131
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.172,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.185
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.234,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.638,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.283
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.396,
+      "instrumentalness": 0.031
+    },
+    {
+      "acousticness": 0.165,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.214,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.297
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.093
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.029
+    },
+    {
+      "acousticness": 0.206,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.106
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.365,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.055,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.249,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.225
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.086
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.088
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.537
+    },
+    {
+      "acousticness": 0.155,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.814
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.686,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.551
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.113
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.133,
+      "instrumentalness": 0.054
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.002
+    }
+  ],
+  "duration": {
+    "min": 115413,
+    "max": 547106,
+    "mean": 283333.99,
+    "median": 275506.5,
+    "q1": 220400,
+    "q3": 317426
+  },
+  "danceability": {
+    "min": 0.215,
+    "max": 0.811,
+    "mean": 0.459,
+    "median": 0.454,
+    "q1": 0.377,
+    "q3": 0.543
+  },
+  "loudness": {
+    "min": -13.553,
+    "max": -2.947,
+    "mean": -7.359,
+    "median": -7.05,
+    "q1": -9.316,
+    "q3": -5.175
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.405,
+    "mean": 0.062,
+    "median": 0.045,
+    "q1": 0.035,
+    "q3": 0.073
+  },
+  "top_artists": [
+    {
+      "name": "Guns N' Roses",
+      "count": 12
+    },
+    {
+      "name": "AC/DC",
+      "count": 9
+    },
+    {
+      "name": "Aerosmith",
+      "count": 7
+    },
+    {
+      "name": "Metallica",
+      "count": 7
+    },
+    {
+      "name": "Ghost",
+      "count": 4
+    },
+    {
+      "name": "Journey",
+      "count": 4
+    },
+    {
+      "name": "Led Zeppelin",
+      "count": 4
+    },
+    {
+      "name": "Lynyrd Skynyrd",
+      "count": 3
+    },
+    {
+      "name": "Iron Maiden",
+      "count": 3
+    },
+    {
+      "name": "Scorpions",
+      "count": 2
+    },
+    {
+      "name": "Kansas",
+      "count": 2
+    },
+    {
+      "name": "Van Halen",
+      "count": 2
+    },
+    {
+      "name": "ZZ Top",
+      "count": 2
+    },
+    {
+      "name": "Heart",
+      "count": 2
+    },
+    {
+      "name": "Twisted Sister",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Mary On A Cross",
+      "artists": "Ghost",
+      "album": "Seven Inches Of Satanic Panic",
+      "popularity": 88,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.561,
+      "danceability": 0.466,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.045,
+      "duration_ms": 244804,
+      "slug": "mary-on-a-cross-ghost"
+    },
+    {
+      "name": "Highway to Hell",
+      "artists": "AC/DC",
+      "album": "Highway to Hell",
+      "popularity": 85,
+      "tempo": 115.7,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.913,
+      "valence": 0.423,
+      "danceability": 0.574,
+      "acousticness": 0.061,
+      "instrumentalness": 0.002,
+      "loudness": -4.8,
+      "speechiness": 0.133,
+      "duration_ms": 208400,
+      "slug": "highway-to-hell-acdc"
+    },
+    {
+      "name": "Back In Black",
+      "artists": "AC/DC",
+      "album": "Back In Black",
+      "popularity": 85,
+      "tempo": 188.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.7,
+      "valence": 0.763,
+      "danceability": 0.31,
+      "acousticness": 0.011,
+      "instrumentalness": 0.01,
+      "loudness": -5.7,
+      "speechiness": 0.047,
+      "duration_ms": 255493,
+      "slug": "back-in-black-acdc"
+    },
+    {
+      "name": "Sweet Child O' Mine",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 84,
+      "tempo": 125.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.629,
+      "danceability": 0.454,
+      "acousticness": 0.087,
+      "instrumentalness": 0.1,
+      "loudness": -7.8,
+      "speechiness": 0.045,
+      "duration_ms": 354520,
+      "slug": "sweet-child-o-mine-guns-n-roses"
+    },
+    {
+      "name": "Thunderstruck",
+      "artists": "AC/DC",
+      "album": "The Razors Edge",
+      "popularity": 84,
+      "tempo": 133.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.89,
+      "valence": 0.259,
+      "danceability": 0.502,
+      "acousticness": 0.0,
+      "instrumentalness": 0.012,
+      "loudness": -5.2,
+      "speechiness": 0.036,
+      "duration_ms": 292880,
+      "slug": "thunderstruck-acdc"
+    },
+    {
+      "name": "Don't Stop Believin'",
+      "artists": "Journey",
+      "album": "Escape (Bonus Track Version)",
+      "popularity": 83,
+      "tempo": 118.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.748,
+      "valence": 0.514,
+      "danceability": 0.5,
+      "acousticness": 0.127,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.036,
+      "duration_ms": 250986,
+      "slug": "dont-stop-believin-journey"
+    },
+    {
+      "name": "Dream On",
+      "artists": "Aerosmith",
+      "album": "Aerosmith",
+      "popularity": 82,
+      "tempo": 160.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.433,
+      "valence": 0.224,
+      "danceability": 0.307,
+      "acousticness": 0.388,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.029,
+      "duration_ms": 266960,
+      "slug": "dream-on-aerosmith"
+    },
+    {
+      "name": "November Rain",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion I",
+      "popularity": 81,
+      "tempo": 79.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.641,
+      "valence": 0.226,
+      "danceability": 0.294,
+      "acousticness": 0.016,
+      "instrumentalness": 0.22,
+      "loudness": -9.3,
+      "speechiness": 0.029,
+      "duration_ms": 536066,
+      "slug": "november-rain-guns-n-roses"
+    },
+    {
+      "name": "Enter Sandman",
+      "artists": "Metallica",
+      "album": "Metallica",
+      "popularity": 81,
+      "tempo": 123.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.604,
+      "danceability": 0.577,
+      "acousticness": 0.002,
+      "instrumentalness": 0.011,
+      "loudness": -8.7,
+      "speechiness": 0.03,
+      "duration_ms": 331266,
+      "slug": "enter-sandman-metallica"
+    },
+    {
+      "name": "Master Of Puppets",
+      "artists": "Metallica",
+      "album": "Master Of Puppets (Remastered)",
+      "popularity": 81,
+      "tempo": 105.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.56,
+      "danceability": 0.543,
+      "acousticness": 0.001,
+      "instrumentalness": 0.431,
+      "loudness": -9.1,
+      "speechiness": 0.035,
+      "duration_ms": 515386,
+      "slug": "master-of-puppets-metallica"
+    },
+    {
+      "name": "Sweet Home Alabama",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Second Helping (Expanded Edition)",
+      "popularity": 81,
+      "tempo": 97.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.605,
+      "valence": 0.886,
+      "danceability": 0.596,
+      "acousticness": 0.181,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.025,
+      "duration_ms": 283800,
+      "slug": "sweet-home-alabama-lynyrd-skynyrd"
+    },
+    {
+      "name": "You Shook Me All Night Long",
+      "artists": "AC/DC",
+      "album": "Back In Black",
+      "popularity": 81,
+      "tempo": 127.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.767,
+      "valence": 0.755,
+      "danceability": 0.532,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -5.5,
+      "speechiness": 0.057,
+      "duration_ms": 210173,
+      "slug": "you-shook-me-all-night-long-acdc"
+    },
+    {
+      "name": "Nothing Else Matters",
+      "artists": "Metallica",
+      "album": "Metallica",
+      "popularity": 80,
+      "tempo": 142.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.362,
+      "valence": 0.158,
+      "danceability": 0.553,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.026,
+      "duration_ms": 388266,
+      "slug": "nothing-else-matters-metallica"
+    },
+    {
+      "name": "Welcome To The Jungle",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 80,
+      "tempo": 123.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.331,
+      "danceability": 0.447,
+      "acousticness": 0.024,
+      "instrumentalness": 0.403,
+      "loudness": -8.1,
+      "speechiness": 0.075,
+      "duration_ms": 272026,
+      "slug": "welcome-to-the-jungle-guns-n-roses"
+    },
+    {
+      "name": "Knockin' On Heaven's Door",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion II",
+      "popularity": 79,
+      "tempo": 132.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.378,
+      "danceability": 0.496,
+      "acousticness": 0.021,
+      "instrumentalness": 0.004,
+      "loudness": -7.2,
+      "speechiness": 0.042,
+      "duration_ms": 336000,
+      "slug": "knockin-on-heavens-door-guns-n-roses"
+    },
+    {
+      "name": "Wind Of Change",
+      "artists": "Scorpions",
+      "album": "Crazy World",
+      "popularity": 79,
+      "tempo": 151.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.246,
+      "danceability": 0.452,
+      "acousticness": 0.315,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.035,
+      "duration_ms": 312360,
+      "slug": "wind-of-change-scorpions"
+    },
+    {
+      "name": "Paradise City",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 79,
+      "tempo": 100.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.472,
+      "danceability": 0.273,
+      "acousticness": 0.017,
+      "instrumentalness": 0.011,
+      "loudness": -8.8,
+      "speechiness": 0.084,
+      "duration_ms": 405640,
+      "slug": "paradise-city-guns-n-roses"
+    },
+    {
+      "name": "Stairway to Heaven - Remaster",
+      "artists": "Led Zeppelin",
+      "album": "Led Zeppelin IV (Deluxe Edition)",
+      "popularity": 79,
+      "tempo": 82.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.34,
+      "valence": 0.197,
+      "danceability": 0.338,
+      "acousticness": 0.58,
+      "instrumentalness": 0.003,
+      "loudness": -12.0,
+      "speechiness": 0.034,
+      "duration_ms": 482830,
+      "slug": "stairway-to-heaven-remaster-led-zeppelin"
+    },
+    {
+      "name": "Sweet Child O' Mine",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 79,
+      "tempo": 125.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.624,
+      "danceability": 0.446,
+      "acousticness": 0.09,
+      "instrumentalness": 0.086,
+      "loudness": -5.3,
+      "speechiness": 0.052,
+      "duration_ms": 356066,
+      "slug": "sweet-child-o-mine-guns-n-roses"
+    },
+    {
+      "name": "I Want to Know What Love Is - 1999 Remaster",
+      "artists": "Foreigner",
+      "album": "Agent Provocateur",
+      "popularity": 79,
+      "tempo": 81.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.471,
+      "valence": 0.423,
+      "danceability": 0.477,
+      "acousticness": 0.193,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.028,
+      "duration_ms": 304786,
+      "slug": "i-want-to-know-what-love-is-1999-remaster-foreigner"
+    },
+    {
+      "name": "More Than a Feeling",
+      "artists": "Boston",
+      "album": "Boston",
+      "popularity": 79,
+      "tempo": 108.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.285,
+      "danceability": 0.377,
+      "acousticness": 0.001,
+      "instrumentalness": 0.002,
+      "loudness": -8.0,
+      "speechiness": 0.03,
+      "duration_ms": 285133,
+      "slug": "more-than-a-feeling-boston"
+    },
+    {
+      "name": "Immigrant Song - Remaster",
+      "artists": "Led Zeppelin",
+      "album": "Led Zeppelin III (Remaster)",
+      "popularity": 78,
+      "tempo": 112.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.932,
+      "valence": 0.619,
+      "danceability": 0.564,
+      "acousticness": 0.013,
+      "instrumentalness": 0.169,
+      "loudness": -10.1,
+      "speechiness": 0.055,
+      "duration_ms": 146250,
+      "slug": "immigrant-song-remaster-led-zeppelin"
+    },
+    {
+      "name": "The Final Countdown",
+      "artists": "Europe",
+      "album": "The Final Countdown (Expanded Edition)",
+      "popularity": 78,
+      "tempo": 117.7,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.843,
+      "valence": 0.188,
+      "danceability": 0.529,
+      "acousticness": 0.063,
+      "instrumentalness": 0.001,
+      "loudness": -6.9,
+      "speechiness": 0.062,
+      "duration_ms": 310333,
+      "slug": "the-final-countdown-europe"
+    },
+    {
+      "name": "Don't Cry (Original)",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion I",
+      "popularity": 78,
+      "tempo": 124.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.59,
+      "valence": 0.243,
+      "danceability": 0.456,
+      "acousticness": 0.002,
+      "instrumentalness": 0.004,
+      "loudness": -8.6,
+      "speechiness": 0.033,
+      "duration_ms": 283733,
+      "slug": "dont-cry-original-guns-n-roses"
+    },
+    {
+      "name": "T.N.T.",
+      "artists": "AC/DC",
+      "album": "High Voltage",
+      "popularity": 78,
+      "tempo": 126.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.759,
+      "valence": 0.435,
+      "danceability": 0.754,
+      "acousticness": 0.153,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.302,
+      "duration_ms": 214666,
+      "slug": "tnt-acdc"
+    },
+    {
+      "name": "Dust in the Wind",
+      "artists": "Kansas",
+      "album": "Point Of Know Return (Expanded Edition)",
+      "popularity": 78,
+      "tempo": 93.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.322,
+      "valence": 0.387,
+      "danceability": 0.475,
+      "acousticness": 0.367,
+      "instrumentalness": 0.001,
+      "loudness": -10.7,
+      "speechiness": 0.028,
+      "duration_ms": 206266,
+      "slug": "dust-in-the-wind-kansas"
+    },
+    {
+      "name": "Crazy Train",
+      "artists": "Ozzy Osbourne",
+      "album": "Blizzard Of Ozz (40th Anniversary Expanded Edition)",
+      "popularity": 78,
+      "tempo": 137.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.913,
+      "valence": 0.521,
+      "danceability": 0.454,
+      "acousticness": 0.408,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.107,
+      "duration_ms": 293183,
+      "slug": "crazy-train-ozzy-osbourne"
+    },
+    {
+      "name": "Jump - 2015 Remaster",
+      "artists": "Van Halen",
+      "album": "1984 (Remastered)",
+      "popularity": 78,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.835,
+      "valence": 0.795,
+      "danceability": 0.572,
+      "acousticness": 0.171,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.032,
+      "duration_ms": 241599,
+      "slug": "jump-2015-remaster-van-halen"
+    },
+    {
+      "name": "Whole Lotta Love - 1990 Remaster",
+      "artists": "Led Zeppelin",
+      "album": "Led Zeppelin II (1994 Remaster)",
+      "popularity": 77,
+      "tempo": 89.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.422,
+      "danceability": 0.412,
+      "acousticness": 0.048,
+      "instrumentalness": 0.131,
+      "loudness": -11.6,
+      "speechiness": 0.405,
+      "duration_ms": 333893,
+      "slug": "whole-lotta-love-1990-remaster-led-zeppelin"
+    },
+    {
+      "name": "Free Bird",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "popularity": 77,
+      "tempo": 118.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.834,
+      "valence": 0.338,
+      "danceability": 0.249,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.058,
+      "duration_ms": 547106,
+      "slug": "free-bird-lynyrd-skynyrd"
+    },
+    {
+      "name": "All Along the Watchtower",
+      "artists": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "popularity": 77,
+      "tempo": 113.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.564,
+      "danceability": 0.438,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.062,
+      "duration_ms": 240800,
+      "slug": "all-along-the-watchtower-jimi-hendrix"
+    },
+    {
+      "name": "Rock And Roll All Nite",
+      "artists": "KISS",
+      "album": "Dressed To Kill",
+      "popularity": 77,
+      "tempo": 144.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.929,
+      "valence": 0.902,
+      "danceability": 0.654,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.1,
+      "duration_ms": 168840,
+      "slug": "rock-and-roll-all-nite-kiss"
+    },
+    {
+      "name": "Black Hole Sun",
+      "artists": "Soundgarden",
+      "album": "Superunknown (Deluxe Edition)",
+      "popularity": 77,
+      "tempo": 105.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.828,
+      "valence": 0.147,
+      "danceability": 0.35,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.041,
+      "duration_ms": 318586,
+      "slug": "black-hole-sun-soundgarden"
+    },
+    {
+      "name": "La Grange - 2005 Remaster",
+      "artists": "ZZ Top",
+      "album": "Tres Hombres (Expanded 2006 Remaster)",
+      "popularity": 77,
+      "tempo": 80.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.64,
+      "valence": 0.606,
+      "danceability": 0.545,
+      "acousticness": 0.002,
+      "instrumentalness": 0.03,
+      "loudness": -9.9,
+      "speechiness": 0.224,
+      "duration_ms": 230480,
+      "slug": "la-grange-2005-remaster-zz-top"
+    },
+    {
+      "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+      "artists": "Aerosmith",
+      "album": "I Don't Want To Miss A Thing EP",
+      "popularity": 76,
+      "tempo": 121.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.649,
+      "valence": 0.144,
+      "danceability": 0.39,
+      "acousticness": 0.172,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.035,
+      "duration_ms": 299760,
+      "slug": "i-dont-want-to-miss-a-thing-from-armageddon-soundtrack-aerosmith"
+    },
+    {
+      "name": "Baba O'Riley",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 117.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.724,
+      "valence": 0.15,
+      "danceability": 0.489,
+      "acousticness": 0.313,
+      "instrumentalness": 0.185,
+      "loudness": -8.4,
+      "speechiness": 0.035,
+      "duration_ms": 300400,
+      "slug": "baba-oriley-the-who"
+    },
+    {
+      "name": "Carry on Wayward Son",
+      "artists": "Kansas",
+      "album": "Leftoverture (Expanded Edition)",
+      "popularity": 76,
+      "tempo": 126.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.786,
+      "valence": 0.793,
+      "danceability": 0.482,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.032,
+      "duration_ms": 323000,
+      "slug": "carry-on-wayward-son-kansas"
+    },
+    {
+      "name": "(Don't Fear) The Reaper",
+      "artists": "Blue \u00d6yster Cult",
+      "album": "Agents Of Fortune",
+      "popularity": 76,
+      "tempo": 141.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.927,
+      "valence": 0.385,
+      "danceability": 0.333,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.073,
+      "duration_ms": 308120,
+      "slug": "dont-fear-the-reaper-blue-\u00f6yster-cult"
+    },
+    {
+      "name": "The Boys Are Back In Town",
+      "artists": "Thin Lizzy",
+      "album": "Jailbreak (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 80.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.706,
+      "valence": 0.768,
+      "danceability": 0.445,
+      "acousticness": 0.234,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.046,
+      "duration_ms": 266720,
+      "slug": "the-boys-are-back-in-town-thin-lizzy"
+    },
+    {
+      "name": "Mother",
+      "artists": "Danzig",
+      "album": "Danzig",
+      "popularity": 76,
+      "tempo": 148.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.342,
+      "danceability": 0.365,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.059,
+      "duration_ms": 204866,
+      "slug": "mother-danzig"
+    },
+    {
+      "name": "Listen to the Music",
+      "artists": "The Doobie Brothers",
+      "album": "Toulouse Street",
+      "popularity": 76,
+      "tempo": 105.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.598,
+      "valence": 0.913,
+      "danceability": 0.645,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -13.2,
+      "speechiness": 0.034,
+      "duration_ms": 227266,
+      "slug": "listen-to-the-music-the-doobie-brothers"
+    },
+    {
+      "name": "Dragula",
+      "artists": "Rob Zombie",
+      "album": "Hellbilly Deluxe",
+      "popularity": 76,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.609,
+      "danceability": 0.591,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.053,
+      "duration_ms": 222826,
+      "slug": "dragula-rob-zombie"
+    },
+    {
+      "name": "Mary On A Cross",
+      "artists": "Ghost",
+      "album": "[MESSAGE FROM THE CLERGY]",
+      "popularity": 75,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.554,
+      "danceability": 0.467,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.045,
+      "duration_ms": 244804,
+      "slug": "mary-on-a-cross-ghost"
+    },
+    {
+      "name": "The Trooper - 2015 Remaster",
+      "artists": "Iron Maiden",
+      "album": "Piece of Mind (2015 Remaster)",
+      "popularity": 75,
+      "tempo": 159.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.908,
+      "valence": 0.669,
+      "danceability": 0.285,
+      "acousticness": 0.032,
+      "instrumentalness": 0.009,
+      "loudness": -4.6,
+      "speechiness": 0.07,
+      "duration_ms": 252733,
+      "slug": "the-trooper-2015-remaster-iron-maiden"
+    },
+    {
+      "name": "Whiskey In The Jar",
+      "artists": "Metallica",
+      "album": "Garage Inc.",
+      "popularity": 75,
+      "tempo": 133.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.97,
+      "valence": 0.566,
+      "danceability": 0.511,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -3.7,
+      "speechiness": 0.041,
+      "duration_ms": 304693,
+      "slug": "whiskey-in-the-jar-metallica"
+    },
+    {
+      "name": "Alone",
+      "artists": "Heart",
+      "album": "Bad Animals",
+      "popularity": 75,
+      "tempo": 175.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.452,
+      "valence": 0.168,
+      "danceability": 0.418,
+      "acousticness": 0.638,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.036,
+      "duration_ms": 218733,
+      "slug": "alone-heart"
+    },
+    {
+      "name": "Crazy",
+      "artists": "Aerosmith",
+      "album": "Get A Grip",
+      "popularity": 75,
+      "tempo": 162.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.866,
+      "valence": 0.427,
+      "danceability": 0.37,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.038,
+      "duration_ms": 316693,
+      "slug": "crazy-aerosmith"
+    },
+    {
+      "name": "Walk This Way",
+      "artists": "Aerosmith",
+      "album": "Toys In The Attic",
+      "popularity": 75,
+      "tempo": 108.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.894,
+      "danceability": 0.653,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.043,
+      "duration_ms": 220400,
+      "slug": "walk-this-way-aerosmith"
+    },
+    {
+      "name": "We're Not Gonna Take It",
+      "artists": "Twisted Sister",
+      "album": "Stay Hungry",
+      "popularity": 75,
+      "tempo": 149.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.924,
+      "valence": 0.922,
+      "danceability": 0.502,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.05,
+      "duration_ms": 219666,
+      "slug": "were-not-gonna-take-it-twisted-sister"
+    },
+    {
+      "name": "Man in the Box",
+      "artists": "Alice In Chains",
+      "album": "Facelift",
+      "popularity": 75,
+      "tempo": 106.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.758,
+      "danceability": 0.355,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.045,
+      "duration_ms": 285200,
+      "slug": "man-in-the-box-alice-in-chains"
+    },
+    {
+      "name": "Welcome To The Jungle",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 75,
+      "tempo": 123.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.987,
+      "valence": 0.316,
+      "danceability": 0.453,
+      "acousticness": 0.019,
+      "instrumentalness": 0.283,
+      "loudness": -4.5,
+      "speechiness": 0.089,
+      "duration_ms": 273480,
+      "slug": "welcome-to-the-jungle-guns-n-roses"
+    },
+    {
+      "name": "Still Loving You",
+      "artists": "Scorpions",
+      "album": "Comeblack",
+      "popularity": 74,
+      "tempo": 103.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.078,
+      "danceability": 0.282,
+      "acousticness": 0.005,
+      "instrumentalness": 0.001,
+      "loudness": -4.9,
+      "speechiness": 0.029,
+      "duration_ms": 403453,
+      "slug": "still-loving-you-scorpions"
+    },
+    {
+      "name": "The Unforgiven",
+      "artists": "Metallica",
+      "album": "Metallica",
+      "popularity": 74,
+      "tempo": 139.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.244,
+      "danceability": 0.54,
+      "acousticness": 0.011,
+      "instrumentalness": 0.003,
+      "loudness": -9.6,
+      "speechiness": 0.025,
+      "duration_ms": 386493,
+      "slug": "the-unforgiven-metallica"
+    },
+    {
+      "name": "Black Dog - Remaster",
+      "artists": "Led Zeppelin",
+      "album": "Led Zeppelin IV (Deluxe Edition)",
+      "popularity": 74,
+      "tempo": 81.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.864,
+      "valence": 0.749,
+      "danceability": 0.437,
+      "acousticness": 0.396,
+      "instrumentalness": 0.031,
+      "loudness": -7.8,
+      "speechiness": 0.09,
+      "duration_ms": 295386,
+      "slug": "black-dog-remaster-led-zeppelin"
+    },
+    {
+      "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+      "artists": "Aerosmith",
+      "album": "Armageddon - The Album",
+      "popularity": 74,
+      "tempo": 121.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.138,
+      "danceability": 0.383,
+      "acousticness": 0.165,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.033,
+      "duration_ms": 298760,
+      "slug": "i-dont-want-to-miss-a-thing-from-armageddon-soundtrack-aerosmith"
+    },
+    {
+      "name": "Pour Some Sugar On Me - Remastered 2017",
+      "artists": "Def Leppard",
+      "album": "Hysteria (Super Deluxe)",
+      "popularity": 74,
+      "tempo": 85.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.953,
+      "valence": 0.568,
+      "danceability": 0.267,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.096,
+      "duration_ms": 267306,
+      "slug": "pour-some-sugar-on-me-remastered-2017-def-leppard"
+    },
+    {
+      "name": "Dirty Deeds Done Dirt Cheap",
+      "artists": "AC/DC",
+      "album": "Dirty Deeds Done Dirt Cheap",
+      "popularity": 74,
+      "tempo": 135.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.906,
+      "valence": 0.507,
+      "danceability": 0.668,
+      "acousticness": 0.214,
+      "instrumentalness": 0.002,
+      "loudness": -4.9,
+      "speechiness": 0.17,
+      "duration_ms": 231933,
+      "slug": "dirty-deeds-done-dirt-cheap-acdc"
+    },
+    {
+      "name": "Layla",
+      "artists": "Derek & The Dominos",
+      "album": "Layla And Other Assorted Love Songs (Remastered 2010)",
+      "popularity": 74,
+      "tempo": 115.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.497,
+      "danceability": 0.404,
+      "acousticness": 0.577,
+      "instrumentalness": 0.297,
+      "loudness": -3.9,
+      "speechiness": 0.067,
+      "duration_ms": 423840,
+      "slug": "layla-derek-the-dominos"
+    },
+    {
+      "name": "Walk",
+      "artists": "Pantera",
+      "album": "Vulgar Display of Power",
+      "popularity": 74,
+      "tempo": 118.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.704,
+      "valence": 0.703,
+      "danceability": 0.43,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -8.0,
+      "speechiness": 0.08,
+      "duration_ms": 315120,
+      "slug": "walk-pantera"
+    },
+    {
+      "name": "Symphony Of Destruction",
+      "artists": "Megadeth",
+      "album": "Countdown To Extinction",
+      "popularity": 74,
+      "tempo": 139.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.891,
+      "valence": 0.51,
+      "danceability": 0.61,
+      "acousticness": 0.001,
+      "instrumentalness": 0.093,
+      "loudness": -5.5,
+      "speechiness": 0.059,
+      "duration_ms": 246733,
+      "slug": "symphony-of-destruction-megadeth"
+    },
+    {
+      "name": "Hells Bells",
+      "artists": "AC/DC",
+      "album": "Back In Black",
+      "popularity": 74,
+      "tempo": 106.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.873,
+      "valence": 0.303,
+      "danceability": 0.389,
+      "acousticness": 0.005,
+      "instrumentalness": 0.005,
+      "loudness": -4.8,
+      "speechiness": 0.048,
+      "duration_ms": 312293,
+      "slug": "hells-bells-acdc"
+    },
+    {
+      "name": "Separate Ways (Worlds Apart)",
+      "artists": "Journey",
+      "album": "Frontiers",
+      "popularity": 74,
+      "tempo": 131.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.962,
+      "valence": 0.377,
+      "danceability": 0.451,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.073,
+      "duration_ms": 323706,
+      "slug": "separate-ways-worlds-apart-journey"
+    },
+    {
+      "name": "Simple Man",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "popularity": 74,
+      "tempo": 120.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.403,
+      "danceability": 0.422,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.045,
+      "duration_ms": 356626,
+      "slug": "simple-man-lynyrd-skynyrd"
+    },
+    {
+      "name": "Sweet Emotion",
+      "artists": "Aerosmith",
+      "album": "Toys In The Attic",
+      "popularity": 74,
+      "tempo": 99.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.491,
+      "danceability": 0.38,
+      "acousticness": 0.003,
+      "instrumentalness": 0.029,
+      "loudness": -11.0,
+      "speechiness": 0.038,
+      "duration_ms": 274133,
+      "slug": "sweet-emotion-aerosmith"
+    },
+    {
+      "name": "Old Time Rock & Roll",
+      "artists": "Bob Seger",
+      "album": "Stranger In Town",
+      "popularity": 74,
+      "tempo": 124.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.964,
+      "danceability": 0.714,
+      "acousticness": 0.206,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.04,
+      "duration_ms": 194146,
+      "slug": "old-time-rock-roll-bob-seger"
+    },
+    {
+      "name": "Poison",
+      "artists": "Alice Cooper",
+      "album": "Trash",
+      "popularity": 74,
+      "tempo": 118.7,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.908,
+      "valence": 0.26,
+      "danceability": 0.28,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.109,
+      "duration_ms": 270080,
+      "slug": "poison-alice-cooper"
+    },
+    {
+      "name": "Rebel Yell",
+      "artists": "Billy Idol",
+      "album": "Rebel Yell",
+      "popularity": 74,
+      "tempo": 166.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.864,
+      "valence": 0.484,
+      "danceability": 0.53,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.061,
+      "duration_ms": 288533,
+      "slug": "rebel-yell-billy-idol"
+    },
+    {
+      "name": "Barracuda",
+      "artists": "Heart",
+      "album": "Little Queen",
+      "popularity": 74,
+      "tempo": 137.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.691,
+      "valence": 0.667,
+      "danceability": 0.548,
+      "acousticness": 0.015,
+      "instrumentalness": 0.106,
+      "loudness": -13.6,
+      "speechiness": 0.037,
+      "duration_ms": 261933,
+      "slug": "barracuda-heart"
+    },
+    {
+      "name": "Panama - 2015 Remaster",
+      "artists": "Van Halen",
+      "album": "1984 (Remastered)",
+      "popularity": 74,
+      "tempo": 141.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.451,
+      "danceability": 0.526,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.108,
+      "duration_ms": 210226,
+      "slug": "panama-2015-remaster-van-halen"
+    },
+    {
+      "name": "The Joker",
+      "artists": "Steve Miller Band",
+      "album": "The Joker",
+      "popularity": 74,
+      "tempo": 83.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.448,
+      "valence": 0.796,
+      "danceability": 0.596,
+      "acousticness": 0.365,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.04,
+      "duration_ms": 264503,
+      "slug": "the-joker-steve-miller-band"
+    },
+    {
+      "name": "Jump Around - 30 Years Remaster",
+      "artists": "House Of Pain",
+      "album": "House of Pain (Fine Malt Lyrics) [30 Years] [Deluxe Edition]",
+      "popularity": 74,
+      "tempo": 106.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.823,
+      "valence": 0.827,
+      "danceability": 0.811,
+      "acousticness": 0.055,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.042,
+      "duration_ms": 218546,
+      "slug": "jump-around-30-years-remaster-house-of-pain"
+    },
+    {
+      "name": "Centerfold",
+      "artists": "The J. Geils Band",
+      "album": "Freeze Frame",
+      "popularity": 74,
+      "tempo": 114.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.888,
+      "danceability": 0.653,
+      "acousticness": 0.249,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.04,
+      "duration_ms": 216533,
+      "slug": "centerfold-the-j-geils-band"
+    },
+    {
+      "name": "Paradise City",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 74,
+      "tempo": 100.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.98,
+      "valence": 0.395,
+      "danceability": 0.268,
+      "acousticness": 0.019,
+      "instrumentalness": 0.007,
+      "loudness": -6.0,
+      "speechiness": 0.103,
+      "duration_ms": 405600,
+      "slug": "paradise-city-guns-n-roses"
+    },
+    {
+      "name": "Smoke On The Water - Remastered 2012",
+      "artists": "Deep Purple",
+      "album": "Machine Head (Remastered)",
+      "popularity": 73,
+      "tempo": 114.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.676,
+      "valence": 0.805,
+      "danceability": 0.598,
+      "acousticness": 0.13,
+      "instrumentalness": 0.225,
+      "loudness": -9.2,
+      "speechiness": 0.028,
+      "duration_ms": 340742,
+      "slug": "smoke-on-the-water-remastered-2012-deep-purple"
+    },
+    {
+      "name": "One",
+      "artists": "Metallica",
+      "album": "...And Justice For All",
+      "popularity": 73,
+      "tempo": 102.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.413,
+      "danceability": 0.437,
+      "acousticness": 0.001,
+      "instrumentalness": 0.086,
+      "loudness": -9.4,
+      "speechiness": 0.062,
+      "duration_ms": 447440,
+      "slug": "one-metallica"
+    },
+    {
+      "name": "For Whom The Bell Tolls - Remastered",
+      "artists": "Metallica",
+      "album": "Ride The Lightning (Remastered)",
+      "popularity": 73,
+      "tempo": 117.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.858,
+      "valence": 0.249,
+      "danceability": 0.518,
+      "acousticness": 0.006,
+      "instrumentalness": 0.003,
+      "loudness": -6.1,
+      "speechiness": 0.067,
+      "duration_ms": 309973,
+      "slug": "for-whom-the-bell-tolls-remastered-metallica"
+    },
+    {
+      "name": "Shoot to Thrill",
+      "artists": "AC/DC",
+      "album": "Back In Black",
+      "popularity": 73,
+      "tempo": 141.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.48,
+      "danceability": 0.457,
+      "acousticness": 0.0,
+      "instrumentalness": 0.088,
+      "loudness": -5.3,
+      "speechiness": 0.075,
+      "duration_ms": 317426,
+      "slug": "shoot-to-thrill-acdc"
+    },
+    {
+      "name": "Born To Be Wild",
+      "artists": "Steppenwolf",
+      "album": "Steppenwolf",
+      "popularity": 73,
+      "tempo": 145.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.71,
+      "valence": 0.53,
+      "danceability": 0.438,
+      "acousticness": 0.262,
+      "instrumentalness": 0.537,
+      "loudness": -12.4,
+      "speechiness": 0.092,
+      "duration_ms": 210373,
+      "slug": "born-to-be-wild-steppenwolf"
+    },
+    {
+      "name": "Can't Fight This Feeling",
+      "artists": "REO Speedwagon",
+      "album": "Wheels Are Turnin'",
+      "popularity": 73,
+      "tempo": 156.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.48,
+      "valence": 0.19,
+      "danceability": 0.408,
+      "acousticness": 0.155,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.027,
+      "duration_ms": 294773,
+      "slug": "cant-fight-this-feeling-reo-speedwagon"
+    },
+    {
+      "name": "Delusions of Saviour",
+      "artists": "Slayer",
+      "album": "Repentless",
+      "popularity": 73,
+      "tempo": 168.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.25,
+      "danceability": 0.223,
+      "acousticness": 0.0,
+      "instrumentalness": 0.814,
+      "loudness": -9.0,
+      "speechiness": 0.037,
+      "duration_ms": 115413,
+      "slug": "delusions-of-saviour-slayer"
+    },
+    {
+      "name": "I Wanna Rock",
+      "artists": "Twisted Sister",
+      "album": "Stay Hungry",
+      "popularity": 73,
+      "tempo": 106.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.671,
+      "danceability": 0.504,
+      "acousticness": 0.005,
+      "instrumentalness": 0.012,
+      "loudness": -3.0,
+      "speechiness": 0.074,
+      "duration_ms": 179760,
+      "slug": "i-wanna-rock-twisted-sister"
+    },
+    {
+      "name": "Would? (2022 Remaster)",
+      "artists": "Alice In Chains",
+      "album": "Dirt (2022 Remaster)",
+      "popularity": 73,
+      "tempo": 100.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.586,
+      "danceability": 0.305,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.04,
+      "duration_ms": 206773,
+      "slug": "would-2022-remaster-alice-in-chains"
+    },
+    {
+      "name": "Tom Sawyer",
+      "artists": "Rush",
+      "album": "Moving Pictures (2011 Remaster)",
+      "popularity": 73,
+      "tempo": 87.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.901,
+      "valence": 0.666,
+      "danceability": 0.536,
+      "acousticness": 0.001,
+      "instrumentalness": 0.019,
+      "loudness": -7.2,
+      "speechiness": 0.037,
+      "duration_ms": 276880,
+      "slug": "tom-sawyer-rush"
+    },
+    {
+      "name": "Sharp Dressed Man - 2008 Remaster",
+      "artists": "ZZ Top",
+      "album": "Eliminator",
+      "popularity": 73,
+      "tempo": 125.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.446,
+      "danceability": 0.601,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -5.3,
+      "speechiness": 0.028,
+      "duration_ms": 258026,
+      "slug": "sharp-dressed-man-2008-remaster-zz-top"
+    },
+    {
+      "name": "Any Way You Want It",
+      "artists": "Journey",
+      "album": "Departure",
+      "popularity": 73,
+      "tempo": 138.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.932,
+      "valence": 0.571,
+      "danceability": 0.529,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -7.5,
+      "speechiness": 0.049,
+      "duration_ms": 201693,
+      "slug": "any-way-you-want-it-journey"
+    },
+    {
+      "name": "Interstate Love Song - 2019 Remaster",
+      "artists": "Stone Temple Pilots",
+      "album": "Purple (2019 Remaster)",
+      "popularity": 73,
+      "tempo": 170.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.927,
+      "valence": 0.49,
+      "danceability": 0.215,
+      "acousticness": 0.0,
+      "instrumentalness": 0.007,
+      "loudness": -7.3,
+      "speechiness": 0.045,
+      "duration_ms": 194853,
+      "slug": "interstate-love-song-2019-remaster-stone-temple-pilots"
+    },
+    {
+      "name": "Separate Ways (Worlds Apart) - Bryce Miller/Alloy Tracks Remix",
+      "artists": "Journey;Steve Perry",
+      "album": "Separate Ways (Worlds Apart) [Bryce Miller/Alloy Tracks Remix]",
+      "popularity": 72,
+      "tempo": 130.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.569,
+      "valence": 0.067,
+      "danceability": 0.43,
+      "acousticness": 0.011,
+      "instrumentalness": 0.013,
+      "loudness": -9.3,
+      "speechiness": 0.044,
+      "duration_ms": 165074,
+      "slug": "separate-ways-worlds-apart-bryce-milleralloy-tracks-remix-journey"
+    },
+    {
+      "name": "Patience",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction (Super Deluxe Edition)",
+      "popularity": 72,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.297,
+      "valence": 0.333,
+      "danceability": 0.457,
+      "acousticness": 0.686,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.031,
+      "duration_ms": 354880,
+      "slug": "patience-guns-n-roses"
+    },
+    {
+      "name": "Fear of the Dark - 2015 Remaster",
+      "artists": "Iron Maiden",
+      "album": "Fear of the Dark (2015 Remaster)",
+      "popularity": 72,
+      "tempo": 109.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.866,
+      "valence": 0.227,
+      "danceability": 0.308,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -5.7,
+      "speechiness": 0.059,
+      "duration_ms": 438120,
+      "slug": "fear-of-the-dark-2015-remaster-iron-maiden"
+    },
+    {
+      "name": "Run to the Hills - 2015 Remaster",
+      "artists": "Iron Maiden",
+      "album": "The Number of the Beast (2015 Remaster)",
+      "popularity": 72,
+      "tempo": 173.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.943,
+      "valence": 0.458,
+      "danceability": 0.249,
+      "acousticness": 0.029,
+      "instrumentalness": 0.004,
+      "loudness": -5.2,
+      "speechiness": 0.067,
+      "duration_ms": 233506,
+      "slug": "run-to-the-hills-2015-remaster-iron-maiden"
+    },
+    {
+      "name": "Breaking the Law",
+      "artists": "Judas Priest",
+      "album": "British Steel",
+      "popularity": 72,
+      "tempo": 164.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.961,
+      "valence": 0.491,
+      "danceability": 0.362,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.086,
+      "duration_ms": 153840,
+      "slug": "breaking-the-law-judas-priest"
+    },
+    {
+      "name": "You Could Be Mine",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion II",
+      "popularity": 72,
+      "tempo": 151.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.985,
+      "valence": 0.323,
+      "danceability": 0.35,
+      "acousticness": 0.009,
+      "instrumentalness": 0.551,
+      "loudness": -5.7,
+      "speechiness": 0.122,
+      "duration_ms": 343640,
+      "slug": "you-could-be-mine-guns-n-roses"
+    },
+    {
+      "name": "Cowboys from Hell",
+      "artists": "Pantera",
+      "album": "Cowboys from Hell",
+      "popularity": 72,
+      "tempo": 114.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.437,
+      "danceability": 0.415,
+      "acousticness": 0.004,
+      "instrumentalness": 0.035,
+      "loudness": -9.7,
+      "speechiness": 0.076,
+      "duration_ms": 243533,
+      "slug": "cowboys-from-hell-pantera"
+    },
+    {
+      "name": "Cryin'",
+      "artists": "Aerosmith",
+      "album": "Get A Grip",
+      "popularity": 72,
+      "tempo": 105.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.856,
+      "valence": 0.486,
+      "danceability": 0.445,
+      "acousticness": 0.0,
+      "instrumentalness": 0.01,
+      "loudness": -3.7,
+      "speechiness": 0.033,
+      "duration_ms": 308333,
+      "slug": "cryin-aerosmith"
+    },
+    {
+      "name": "Live And Let Die",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion I",
+      "popularity": 72,
+      "tempo": 152.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.777,
+      "valence": 0.264,
+      "danceability": 0.262,
+      "acousticness": 0.011,
+      "instrumentalness": 0.113,
+      "loudness": -8.7,
+      "speechiness": 0.063,
+      "duration_ms": 182733,
+      "slug": "live-and-let-die-guns-n-roses"
+    },
+    {
+      "name": "Keep on Loving You",
+      "artists": "REO Speedwagon",
+      "album": "Hi Infidelity (30th Anniversary Edition)",
+      "popularity": 72,
+      "tempo": 174.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.41,
+      "danceability": 0.306,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.034,
+      "duration_ms": 200293,
+      "slug": "keep-on-loving-you-reo-speedwagon"
+    },
+    {
+      "name": "It's a Long Way to the Top (If You Wanna Rock 'N' Roll)",
+      "artists": "AC/DC",
+      "album": "High Voltage",
+      "popularity": 72,
+      "tempo": 136.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.863,
+      "valence": 0.532,
+      "danceability": 0.456,
+      "acousticness": 0.133,
+      "instrumentalness": 0.054,
+      "loudness": -3.6,
+      "speechiness": 0.089,
+      "duration_ms": 301226,
+      "slug": "its-a-long-way-to-the-top-if-you-wanna-rock-n-roll-acdc"
+    },
+    {
+      "name": "Spillways",
+      "artists": "Ghost",
+      "album": "IMPERA",
+      "popularity": 72,
+      "tempo": 128.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.868,
+      "valence": 0.804,
+      "danceability": 0.575,
+      "acousticness": 0.0,
+      "instrumentalness": 0.003,
+      "loudness": -5.0,
+      "speechiness": 0.032,
+      "duration_ms": 196946,
+      "slug": "spillways-ghost"
+    },
+    {
+      "name": "Call Me Little Sunshine",
+      "artists": "Ghost",
+      "album": "IMPERA",
+      "popularity": 72,
+      "tempo": 88.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.871,
+      "valence": 0.41,
+      "danceability": 0.566,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -4.8,
+      "speechiness": 0.031,
+      "duration_ms": 284266,
+      "slug": "call-me-little-sunshine-ghost"
+    },
+    {
+      "name": "Hard To Handle",
+      "artists": "The Black Crowes",
+      "album": "Shake Your Money Maker",
+      "popularity": 72,
+      "tempo": 103.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.79,
+      "valence": 0.961,
+      "danceability": 0.599,
+      "acousticness": 0.003,
+      "instrumentalness": 0.002,
+      "loudness": -3.6,
+      "speechiness": 0.043,
+      "duration_ms": 188066,
+      "slug": "hard-to-handle-the-black-crowes"
+    }
+  ]
+}

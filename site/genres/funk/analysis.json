@@ -1,0 +1,2800 @@
+{
+  "genre": "Funk",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 78.169,
+    "max": 182.894,
+    "mean": 109.354,
+    "median": 101.966,
+    "q1": 92.207,
+    "q3": 123.118,
+    "histogram": {
+      "70-79": 2,
+      "80-89": 12,
+      "90-99": 32,
+      "100-109": 15,
+      "110-119": 7,
+      "120-129": 15,
+      "130-139": 8,
+      "140-149": 2,
+      "150-159": 1,
+      "160-169": 1,
+      "170-179": 4,
+      "180-189": 1
+    }
+  },
+  "key_distribution": {
+    "C": 16,
+    "B": 13,
+    "G": 13,
+    "A": 11,
+    "C#/Db": 11,
+    "E": 8,
+    "A#/Bb": 8,
+    "G#/Ab": 5,
+    "F": 5,
+    "F#/Gb": 5,
+    "D": 3,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 64,
+    "Minor": 36
+  },
+  "key_mode_distribution": {
+    "C Major": 13,
+    "G Major": 11,
+    "C#/Db Major": 11,
+    "A Minor": 7,
+    "B Minor": 7,
+    "B Major": 6,
+    "A#/Bb Minor": 6,
+    "E Minor": 5,
+    "F#/Gb Major": 5,
+    "G#/Ab Major": 4,
+    "A Major": 4,
+    "F Minor": 4,
+    "E Major": 3,
+    "D Major": 3,
+    "C Minor": 3,
+    "G Minor": 2,
+    "A#/Bb Major": 2,
+    "D#/Eb Minor": 1,
+    "D#/Eb Major": 1,
+    "F Major": 1,
+    "G#/Ab Minor": 1
+  },
+  "energy": {
+    "min": 0.134,
+    "max": 0.97,
+    "mean": 0.713,
+    "median": 0.732,
+    "q1": 0.63,
+    "q3": 0.815
+  },
+  "valence": {
+    "min": 0.068,
+    "max": 0.979,
+    "mean": 0.589,
+    "median": 0.591,
+    "q1": 0.458,
+    "q3": 0.752
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.514,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.527
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.396
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.979
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.794
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.875
+    },
+    {
+      "energy": 0.345,
+      "valence": 0.458
+    },
+    {
+      "energy": 0.6,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.309
+    },
+    {
+      "energy": 0.844,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.068
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.621
+    },
+    {
+      "energy": 0.795,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.461,
+      "valence": 0.864
+    },
+    {
+      "energy": 0.52,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.415,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.547
+    },
+    {
+      "energy": 0.418,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.73
+    },
+    {
+      "energy": 0.521,
+      "valence": 0.942
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.843
+    },
+    {
+      "energy": 0.632,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.454
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.396
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.706
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.742
+    },
+    {
+      "energy": 0.746,
+      "valence": 0.752
+    },
+    {
+      "energy": 0.629,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.717
+    },
+    {
+      "energy": 0.821,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.452,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.794,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.666
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.198
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.09
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.512
+    },
+    {
+      "energy": 0.821,
+      "valence": 0.698
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.946
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.811,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.792
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.397
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.705
+    },
+    {
+      "energy": 0.679,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.54,
+      "valence": 0.322
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.624,
+      "valence": 0.369
+    },
+    {
+      "energy": 0.571,
+      "valence": 0.771
+    },
+    {
+      "energy": 0.732,
+      "valence": 0.595
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.466
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.735,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.635,
+      "valence": 0.379
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.711,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.675,
+      "valence": 0.659
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.663
+    },
+    {
+      "energy": 0.732,
+      "valence": 0.731
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.854
+    },
+    {
+      "energy": 0.652,
+      "valence": 0.551
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.806
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.539
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.784
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.278
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.679,
+      "valence": 0.867
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.134,
+      "valence": 0.258
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.556
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.401
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.795
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.865
+    },
+    {
+      "energy": 0.815,
+      "valence": 0.812
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.487
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.786,
+      "valence": 0.831
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.764,
+    "mean": 0.143,
+    "median": 0.072,
+    "q1": 0.027,
+    "q3": 0.22
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.306,
+    "mean": 0.007,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.001
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.16,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.152,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.168,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.33,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.43,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.116,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.083,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.041
+    },
+    {
+      "acousticness": 0.098,
+      "instrumentalness": 0.054
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.457,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.635,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.071,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.19,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.239,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.152,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.292,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.108,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.259,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.243,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.22,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.209,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.02
+    },
+    {
+      "acousticness": 0.497,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.306
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.369,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.194,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.383,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.18,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.371,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.162,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.162,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.764,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.299,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.144,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.072
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.107,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.346,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.381,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.06,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.017
+    },
+    {
+      "acousticness": 0.305,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.469,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.072
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.22,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 125093,
+    "max": 520786,
+    "mean": 245190.31,
+    "median": 239026.0,
+    "q1": 210772,
+    "q3": 273106
+  },
+  "danceability": {
+    "min": 0.367,
+    "max": 0.934,
+    "mean": 0.694,
+    "median": 0.716,
+    "q1": 0.594,
+    "q3": 0.81
+  },
+  "loudness": {
+    "min": -14.955,
+    "max": -0.14,
+    "mean": -5.811,
+    "median": -5.461,
+    "q1": -6.735,
+    "q3": -4.17
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.458,
+    "mean": 0.111,
+    "median": 0.058,
+    "q1": 0.042,
+    "q3": 0.141
+  },
+  "top_artists": [
+    {
+      "name": "Red Hot Chili Peppers",
+      "count": 18
+    },
+    {
+      "name": "2Pac",
+      "count": 13
+    },
+    {
+      "name": "Clean Bandit",
+      "count": 13
+    },
+    {
+      "name": "Snoop Dogg",
+      "count": 11
+    },
+    {
+      "name": "Dr. Dre",
+      "count": 8
+    },
+    {
+      "name": "Anitta",
+      "count": 5
+    },
+    {
+      "name": "Ice Cube",
+      "count": 5
+    },
+    {
+      "name": "Eminem",
+      "count": 4
+    },
+    {
+      "name": "Limp Bizkit",
+      "count": 4
+    },
+    {
+      "name": "Jess Glynne",
+      "count": 4
+    },
+    {
+      "name": "J Balvin",
+      "count": 3
+    },
+    {
+      "name": "Earth, Wind & Fire",
+      "count": 2
+    },
+    {
+      "name": "Bill Withers",
+      "count": 2
+    },
+    {
+      "name": "Wiz Khalifa",
+      "count": 2
+    },
+    {
+      "name": "Bruno Mars",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Gangsta's Paradise",
+      "artists": "Coolio;L.V.",
+      "album": "Gangsta's Paradise",
+      "popularity": 89,
+      "tempo": 80.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.514,
+      "valence": 0.386,
+      "danceability": 0.647,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.059,
+      "duration_ms": 240693,
+      "slug": "gangstas-paradise-coolio"
+    },
+    {
+      "name": "Still D.R.E.",
+      "artists": "Dr. Dre;Snoop Dogg",
+      "album": "2001",
+      "popularity": 84,
+      "tempo": 93.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.775,
+      "valence": 0.527,
+      "danceability": 0.816,
+      "acousticness": 0.16,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.234,
+      "duration_ms": 270586,
+      "slug": "still-dre-dr-dre"
+    },
+    {
+      "name": "Envolver",
+      "artists": "Anitta",
+      "album": "Envolver",
+      "popularity": 84,
+      "tempo": 92.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.736,
+      "valence": 0.396,
+      "danceability": 0.812,
+      "acousticness": 0.152,
+      "instrumentalness": 0.003,
+      "loudness": -5.4,
+      "speechiness": 0.083,
+      "duration_ms": 193805,
+      "slug": "envolver-anitta"
+    },
+    {
+      "name": "September",
+      "artists": "Earth, Wind & Fire",
+      "album": "The Best Of Earth, Wind & Fire Vol. 1",
+      "popularity": 83,
+      "tempo": 125.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.832,
+      "valence": 0.979,
+      "danceability": 0.697,
+      "acousticness": 0.168,
+      "instrumentalness": 0.001,
+      "loudness": -7.3,
+      "speechiness": 0.03,
+      "duration_ms": 215093,
+      "slug": "september-earth-wind-fire"
+    },
+    {
+      "name": "Californication",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Californication (Deluxe Edition)",
+      "popularity": 82,
+      "tempo": 96.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.767,
+      "valence": 0.328,
+      "danceability": 0.592,
+      "acousticness": 0.002,
+      "instrumentalness": 0.002,
+      "loudness": -2.8,
+      "speechiness": 0.027,
+      "duration_ms": 329733,
+      "slug": "californication-red-hot-chili-peppers"
+    },
+    {
+      "name": "It Was A Good Day",
+      "artists": "Ice Cube",
+      "album": "The Predator",
+      "popularity": 82,
+      "tempo": 82.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.744,
+      "valence": 0.794,
+      "danceability": 0.798,
+      "acousticness": 0.33,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.136,
+      "duration_ms": 260000,
+      "slug": "it-was-a-good-day-ice-cube"
+    },
+    {
+      "name": "Can't Stop",
+      "artists": "Red Hot Chili Peppers",
+      "album": "By the Way (Deluxe Edition)",
+      "popularity": 82,
+      "tempo": 91.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.938,
+      "valence": 0.875,
+      "danceability": 0.618,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.046,
+      "duration_ms": 269000,
+      "slug": "cant-stop-red-hot-chili-peppers"
+    },
+    {
+      "name": "Under the Bridge",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+      "popularity": 82,
+      "tempo": 84.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.345,
+      "valence": 0.458,
+      "danceability": 0.559,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.046,
+      "duration_ms": 264306,
+      "slug": "under-the-bridge-red-hot-chili-peppers"
+    },
+    {
+      "name": "Ain't No Mountain High Enough",
+      "artists": "Marvin Gaye;Tammi Terrell",
+      "album": "United",
+      "popularity": 82,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.6,
+      "valence": 0.8,
+      "danceability": 0.663,
+      "acousticness": 0.43,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.032,
+      "duration_ms": 151666,
+      "slug": "aint-no-mountain-high-enough-marvin-gaye"
+    },
+    {
+      "name": "The Next Episode",
+      "artists": "Dr. Dre;Snoop Dogg",
+      "album": "2001",
+      "popularity": 81,
+      "tempo": 95.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.309,
+      "danceability": 0.922,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.27,
+      "duration_ms": 161506,
+      "slug": "the-next-episode-dr-dre"
+    },
+    {
+      "name": "Hit 'Em Up - Single Version",
+      "artists": "2Pac;Outlawz",
+      "album": "Greatest Hits",
+      "popularity": 81,
+      "tempo": 95.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.844,
+      "valence": 0.586,
+      "danceability": 0.916,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.236,
+      "duration_ms": 312626,
+      "slug": "hit-em-up-single-version-2pac"
+    },
+    {
+      "name": "The Reason",
+      "artists": "Hoobastank",
+      "album": "The Reason (15th Anniversary Deluxe)",
+      "popularity": 81,
+      "tempo": 83.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.671,
+      "valence": 0.068,
+      "danceability": 0.472,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.029,
+      "duration_ms": 232800,
+      "slug": "the-reason-hoobastank"
+    },
+    {
+      "name": "Snow (Hey Oh)",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "popularity": 80,
+      "tempo": 104.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.599,
+      "danceability": 0.427,
+      "acousticness": 0.116,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.05,
+      "duration_ms": 334666,
+      "slug": "snow-hey-oh-red-hot-chili-peppers"
+    },
+    {
+      "name": "Forgot About Dre",
+      "artists": "Dr. Dre;Eminem",
+      "album": "2001",
+      "popularity": 80,
+      "tempo": 134.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.74,
+      "valence": 0.621,
+      "danceability": 0.924,
+      "acousticness": 0.083,
+      "instrumentalness": 0.0,
+      "loudness": -1.3,
+      "speechiness": 0.077,
+      "duration_ms": 222293,
+      "slug": "forgot-about-dre-dr-dre"
+    },
+    {
+      "name": "Otherside",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Californication (Deluxe Edition)",
+      "popularity": 80,
+      "tempo": 123.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.795,
+      "valence": 0.513,
+      "danceability": 0.458,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.057,
+      "duration_ms": 255373,
+      "slug": "otherside-red-hot-chili-peppers"
+    },
+    {
+      "name": "Killing In The Name",
+      "artists": "Rage Against The Machine",
+      "album": "Rage Against The Machine - XX (20th Anniversary Special Edition)",
+      "popularity": 80,
+      "tempo": 88.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.661,
+      "danceability": 0.466,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.304,
+      "duration_ms": 313573,
+      "slug": "killing-in-the-name-rage-against-the-machine"
+    },
+    {
+      "name": "Incendeia",
+      "artists": "MC Kevin o Chris",
+      "album": "Incendeia",
+      "popularity": 80,
+      "tempo": 135.1,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.461,
+      "valence": 0.864,
+      "danceability": 0.893,
+      "acousticness": 0.713,
+      "instrumentalness": 0.041,
+      "loudness": -5.7,
+      "speechiness": 0.422,
+      "duration_ms": 239999,
+      "slug": "incendeia-mc-kevin-o-chris"
+    },
+    {
+      "name": "You Know How We Do It",
+      "artists": "Ice Cube",
+      "album": "Lethal Injection",
+      "popularity": 79,
+      "tempo": 92.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.52,
+      "valence": 0.601,
+      "danceability": 0.747,
+      "acousticness": 0.098,
+      "instrumentalness": 0.054,
+      "loudness": -10.5,
+      "speechiness": 0.036,
+      "duration_ms": 232773,
+      "slug": "you-know-how-we-do-it-ice-cube"
+    },
+    {
+      "name": "Ambitionz Az A Ridah",
+      "artists": "2Pac",
+      "album": "All Eyez On Me",
+      "popularity": 79,
+      "tempo": 87.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.805,
+      "danceability": 0.801,
+      "acousticness": 0.002,
+      "instrumentalness": 0.001,
+      "loudness": -6.6,
+      "speechiness": 0.225,
+      "duration_ms": 278386,
+      "slug": "ambitionz-az-a-ridah-2pac"
+    },
+    {
+      "name": "California Love - Original Version",
+      "artists": "2Pac;Roger;Dr. Dre",
+      "album": "Greatest Hits",
+      "popularity": 79,
+      "tempo": 91.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.85,
+      "valence": 0.761,
+      "danceability": 0.763,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.042,
+      "duration_ms": 284906,
+      "slug": "california-love-original-version-2pac"
+    },
+    {
+      "name": "Ain't No Sunshine",
+      "artists": "Bill Withers",
+      "album": "Just As I Am",
+      "popularity": 79,
+      "tempo": 78.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.415,
+      "valence": 0.515,
+      "danceability": 0.527,
+      "acousticness": 0.457,
+      "instrumentalness": 0.0,
+      "loudness": -11.5,
+      "speechiness": 0.122,
+      "duration_ms": 125093,
+      "slug": "aint-no-sunshine-bill-withers"
+    },
+    {
+      "name": "Scar Tissue",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Californication (Deluxe Edition)",
+      "popularity": 79,
+      "tempo": 89.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.547,
+      "danceability": 0.595,
+      "acousticness": 0.078,
+      "instrumentalness": 0.003,
+      "loudness": -4.8,
+      "speechiness": 0.029,
+      "duration_ms": 215906,
+      "slug": "scar-tissue-red-hot-chili-peppers"
+    },
+    {
+      "name": "My Girl",
+      "artists": "The Temptations",
+      "album": "The Temptations Sing Smokey",
+      "popularity": 79,
+      "tempo": 104.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.418,
+      "valence": 0.694,
+      "danceability": 0.572,
+      "acousticness": 0.635,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.035,
+      "duration_ms": 165000,
+      "slug": "my-girl-the-temptations"
+    },
+    {
+      "name": "Let's Groove",
+      "artists": "Earth, Wind & Fire",
+      "album": "Raise!",
+      "popularity": 79,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.648,
+      "valence": 0.9,
+      "danceability": 0.869,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.063,
+      "duration_ms": 339320,
+      "slug": "lets-groove-earth-wind-fire"
+    },
+    {
+      "name": "Young, Wild & Free (feat. Bruno Mars)",
+      "artists": "Snoop Dogg;Wiz Khalifa;Bruno Mars",
+      "album": "Young, Wild & Free (feat. Bruno Mars)",
+      "popularity": 78,
+      "tempo": 95.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.655,
+      "valence": 0.531,
+      "danceability": 0.715,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.137,
+      "duration_ms": 207333,
+      "slug": "young-wild-free-feat-bruno-mars-snoop-dogg"
+    },
+    {
+      "name": "Dani California",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "popularity": 78,
+      "tempo": 96.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.913,
+      "valence": 0.73,
+      "danceability": 0.556,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.044,
+      "duration_ms": 282160,
+      "slug": "dani-california-red-hot-chili-peppers"
+    },
+    {
+      "name": "Psycho Killer - 2005 Remaster",
+      "artists": "Talking Heads",
+      "album": "Talking Heads '77 (Deluxe Version)",
+      "popularity": 78,
+      "tempo": 123.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.521,
+      "valence": 0.942,
+      "danceability": 0.721,
+      "acousticness": 0.071,
+      "instrumentalness": 0.005,
+      "loudness": -8.1,
+      "speechiness": 0.061,
+      "duration_ms": 261413,
+      "slug": "psycho-killer-2005-remaster-talking-heads"
+    },
+    {
+      "name": "All Eyez On Me (ft. Big Syke)",
+      "artists": "2Pac;Big Syke",
+      "album": "All Eyez On Me",
+      "popularity": 77,
+      "tempo": 93.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.843,
+      "danceability": 0.872,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.247,
+      "duration_ms": 307773,
+      "slug": "all-eyez-on-me-ft-big-syke-2pac"
+    },
+    {
+      "name": "Drop It Like It's Hot",
+      "artists": "Snoop Dogg;Pharrell Williams",
+      "album": "R&G (Rhythm & Gangsta): The Masterpiece",
+      "popularity": 77,
+      "tempo": 92.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.632,
+      "valence": 0.662,
+      "danceability": 0.888,
+      "acousticness": 0.19,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.219,
+      "duration_ms": 266066,
+      "slug": "drop-it-like-its-hot-snoop-dogg"
+    },
+    {
+      "name": "Break Stuff",
+      "artists": "Limp Bizkit",
+      "album": "Significant Other",
+      "popularity": 77,
+      "tempo": 108.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.624,
+      "danceability": 0.432,
+      "acousticness": 0.013,
+      "instrumentalness": 0.001,
+      "loudness": -6.7,
+      "speechiness": 0.13,
+      "duration_ms": 166706,
+      "slug": "break-stuff-limp-bizkit"
+    },
+    {
+      "name": "Symphony (feat. Zara Larsson)",
+      "artists": "Clean Bandit;Zara Larsson",
+      "album": "What Is Love? (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 123.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.454,
+      "danceability": 0.715,
+      "acousticness": 0.239,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.043,
+      "duration_ms": 212733,
+      "slug": "symphony-feat-zara-larsson-clean-bandit"
+    },
+    {
+      "name": "Envolver",
+      "artists": "Anitta",
+      "album": "Versions of Me",
+      "popularity": 76,
+      "tempo": 92.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.736,
+      "valence": 0.396,
+      "danceability": 0.812,
+      "acousticness": 0.152,
+      "instrumentalness": 0.003,
+      "loudness": -5.4,
+      "speechiness": 0.083,
+      "duration_ms": 193805,
+      "slug": "envolver-anitta"
+    },
+    {
+      "name": "Lovely Day",
+      "artists": "Bill Withers",
+      "album": "Menagerie",
+      "popularity": 76,
+      "tempo": 97.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.651,
+      "valence": 0.706,
+      "danceability": 0.692,
+      "acousticness": 0.292,
+      "instrumentalness": 0.002,
+      "loudness": -8.3,
+      "speechiness": 0.032,
+      "duration_ms": 254560,
+      "slug": "lovely-day-bill-withers"
+    },
+    {
+      "name": "Rollin' (Air Raid Vehicle)",
+      "artists": "Limp Bizkit",
+      "album": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "popularity": 76,
+      "tempo": 96.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.709,
+      "danceability": 0.603,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.171,
+      "duration_ms": 213760,
+      "slug": "rollin-air-raid-vehicle-limp-bizkit"
+    },
+    {
+      "name": "Rockabye (feat. Sean Paul & Anne-Marie)",
+      "artists": "Clean Bandit;Sean Paul;Anne-Marie",
+      "album": "Rockabye (feat. Sean Paul & Anne-Marie)",
+      "popularity": 75,
+      "tempo": 102.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.742,
+      "danceability": 0.72,
+      "acousticness": 0.406,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.052,
+      "duration_ms": 251088,
+      "slug": "rockabye-feat-sean-paul-anne-marie-clean-bandit"
+    },
+    {
+      "name": "Ele Te Bota Soca Soca",
+      "artists": "MC Mazzie;Mc Rd;DJ NpcSize;DJ Wizard",
+      "album": "Ele Te Bota Soca Soca",
+      "popularity": 75,
+      "tempo": 130.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.746,
+      "valence": 0.752,
+      "danceability": 0.896,
+      "acousticness": 0.108,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.072,
+      "duration_ms": 180927,
+      "slug": "ele-te-bota-soca-soca-mc-mazzie"
+    },
+    {
+      "name": "Symphony (feat. Zara Larsson)",
+      "artists": "Clean Bandit;Zara Larsson",
+      "album": "Symphony (feat. Zara Larsson)",
+      "popularity": 75,
+      "tempo": 122.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.629,
+      "valence": 0.457,
+      "danceability": 0.707,
+      "acousticness": 0.259,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.056,
+      "duration_ms": 212459,
+      "slug": "symphony-feat-zara-larsson-clean-bandit"
+    },
+    {
+      "name": "I Just Called To Say I Love You",
+      "artists": "Stevie Wonder",
+      "album": "At The Close Of A Century",
+      "popularity": 75,
+      "tempo": 113.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.65,
+      "danceability": 0.748,
+      "acousticness": 0.243,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.024,
+      "duration_ms": 262240,
+      "slug": "i-just-called-to-say-i-love-you-stevie-wonder"
+    },
+    {
+      "name": "Do For Love",
+      "artists": "2Pac",
+      "album": "R U Still Down? [Remember Me]",
+      "popularity": 75,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.717,
+      "danceability": 0.874,
+      "acousticness": 0.058,
+      "instrumentalness": 0.005,
+      "loudness": -3.6,
+      "speechiness": 0.298,
+      "duration_ms": 281600,
+      "slug": "do-for-love-2pac"
+    },
+    {
+      "name": "What's The Difference",
+      "artists": "Dr. Dre;Eminem;Xzibit",
+      "album": "2001",
+      "popularity": 75,
+      "tempo": 91.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.821,
+      "valence": 0.77,
+      "danceability": 0.772,
+      "acousticness": 0.223,
+      "instrumentalness": 0.0,
+      "loudness": -0.1,
+      "speechiness": 0.25,
+      "duration_ms": 244200,
+      "slug": "whats-the-difference-dr-dre"
+    },
+    {
+      "name": "Purple Rain",
+      "artists": "Prince",
+      "album": "Purple Rain",
+      "popularity": 75,
+      "tempo": 113.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.452,
+      "valence": 0.189,
+      "danceability": 0.367,
+      "acousticness": 0.035,
+      "instrumentalness": 0.002,
+      "loudness": -10.4,
+      "speechiness": 0.031,
+      "duration_ms": 520786,
+      "slug": "purple-rain-prince"
+    },
+    {
+      "name": "Super Freak",
+      "artists": "Rick James",
+      "album": "Street Songs (Deluxe Edition)",
+      "popularity": 75,
+      "tempo": 132.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.794,
+      "valence": 0.962,
+      "danceability": 0.838,
+      "acousticness": 0.22,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.053,
+      "duration_ms": 205466,
+      "slug": "super-freak-rick-james"
+    },
+    {
+      "name": "Drive",
+      "artists": "Incubus",
+      "album": "Make Yourself",
+      "popularity": 75,
+      "tempo": 90.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.792,
+      "valence": 0.666,
+      "danceability": 0.645,
+      "acousticness": 0.056,
+      "instrumentalness": 0.012,
+      "loudness": -7.3,
+      "speechiness": 0.036,
+      "duration_ms": 232453,
+      "slug": "drive-incubus"
+    },
+    {
+      "name": "By the Way",
+      "artists": "Red Hot Chili Peppers",
+      "album": "By the Way (Deluxe Edition)",
+      "popularity": 75,
+      "tempo": 122.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.97,
+      "valence": 0.198,
+      "danceability": 0.451,
+      "acousticness": 0.026,
+      "instrumentalness": 0.004,
+      "loudness": -4.9,
+      "speechiness": 0.107,
+      "duration_ms": 216933,
+      "slug": "by-the-way-red-hot-chili-peppers"
+    },
+    {
+      "name": "I Got 5 On It",
+      "artists": "Luniz;Michael Marshall",
+      "album": "Operation Stackola",
+      "popularity": 75,
+      "tempo": 173.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.706,
+      "valence": 0.58,
+      "danceability": 0.6,
+      "acousticness": 0.209,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.361,
+      "duration_ms": 253533,
+      "slug": "i-got-5-on-it-luniz"
+    },
+    {
+      "name": "Dark Necessities",
+      "artists": "Red Hot Chili Peppers",
+      "album": "The Getaway",
+      "popularity": 74,
+      "tempo": 92.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.742,
+      "valence": 0.197,
+      "danceability": 0.7,
+      "acousticness": 0.072,
+      "instrumentalness": 0.02,
+      "loudness": -6.8,
+      "speechiness": 0.072,
+      "duration_ms": 302000,
+      "slug": "dark-necessities-red-hot-chili-peppers"
+    },
+    {
+      "name": "Behind Blue Eyes",
+      "artists": "Limp Bizkit",
+      "album": "Results May Vary",
+      "popularity": 74,
+      "tempo": 120.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.489,
+      "valence": 0.09,
+      "danceability": 0.595,
+      "acousticness": 0.497,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.027,
+      "duration_ms": 269973,
+      "slug": "behind-blue-eyes-limp-bizkit"
+    },
+    {
+      "name": "Take A Look Around",
+      "artists": "Limp Bizkit",
+      "album": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "popularity": 74,
+      "tempo": 102.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.512,
+      "danceability": 0.425,
+      "acousticness": 0.018,
+      "instrumentalness": 0.306,
+      "loudness": -5.6,
+      "speechiness": 0.046,
+      "duration_ms": 321040,
+      "slug": "take-a-look-around-limp-bizkit"
+    },
+    {
+      "name": "Messages from the Stars",
+      "artists": "The Rah Band",
+      "album": "Going Up",
+      "popularity": 74,
+      "tempo": 113.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.821,
+      "valence": 0.698,
+      "danceability": 0.649,
+      "acousticness": 0.056,
+      "instrumentalness": 0.003,
+      "loudness": -3.0,
+      "speechiness": 0.033,
+      "duration_ms": 254080,
+      "slug": "messages-from-the-stars-the-rah-band"
+    },
+    {
+      "name": "Tick Tock (feat. 24kGoldn)",
+      "artists": "Clean Bandit;Mabel;24kGoldn",
+      "album": "Tick Tock (feat. 24kGoldn)",
+      "popularity": 73,
+      "tempo": 101.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.705,
+      "valence": 0.946,
+      "danceability": 0.779,
+      "acousticness": 0.369,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.034,
+      "duration_ms": 178373,
+      "slug": "tick-tock-feat-24kgoldn-clean-bandit"
+    },
+    {
+      "name": "These Days (feat. Jess Glynne, Macklemore & Dan Caplen)",
+      "artists": "Rudimental;Jess Glynne;Macklemore;Dan Caplen",
+      "album": "These Days (feat. Jess Glynne, Macklemore & Dan Caplen)",
+      "popularity": 73,
+      "tempo": 92.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.809,
+      "valence": 0.55,
+      "danceability": 0.653,
+      "acousticness": 0.194,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.047,
+      "duration_ms": 210772,
+      "slug": "these-days-feat-jess-glynne-macklemore-dan-caplen-rudimental"
+    },
+    {
+      "name": "Changes",
+      "artists": "2Pac;Talent",
+      "album": "Greatest Hits",
+      "popularity": 73,
+      "tempo": 111.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.665,
+      "valence": 0.331,
+      "danceability": 0.865,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.073,
+      "duration_ms": 268826,
+      "slug": "changes-2pac"
+    },
+    {
+      "name": "Butterfly",
+      "artists": "Crazy Town",
+      "album": "The Gift Of Game",
+      "popularity": 73,
+      "tempo": 103.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.811,
+      "valence": 0.609,
+      "danceability": 0.736,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.081,
+      "duration_ms": 216733,
+      "slug": "butterfly-crazy-town"
+    },
+    {
+      "name": "Rockabye (feat. Sean Paul & Anne-Marie)",
+      "artists": "Clean Bandit;Sean Paul;Anne-Marie",
+      "album": "What Is Love? (Deluxe Edition)",
+      "popularity": 72,
+      "tempo": 102.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.73,
+      "valence": 0.792,
+      "danceability": 0.717,
+      "acousticness": 0.383,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.057,
+      "duration_ms": 251173,
+      "slug": "rockabye-feat-sean-paul-anne-marie-clean-bandit"
+    },
+    {
+      "name": "I Need A Doctor",
+      "artists": "Dr. Dre;Eminem;Skylar Grey",
+      "album": "I Need A Doctor",
+      "popularity": 72,
+      "tempo": 155.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.946,
+      "valence": 0.397,
+      "danceability": 0.594,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.452,
+      "duration_ms": 283733,
+      "slug": "i-need-a-doctor-dr-dre"
+    },
+    {
+      "name": "Nuthin But A G'Thang",
+      "artists": "Snoop Dogg",
+      "album": "Bird Of Prey - The Complete Fantasy Playlist",
+      "popularity": 72,
+      "tempo": 94.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.676,
+      "valence": 0.705,
+      "danceability": 0.813,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.296,
+      "duration_ms": 235892,
+      "slug": "nuthin-but-a-gthang-snoop-dogg"
+    },
+    {
+      "name": "Downtown",
+      "artists": "Anitta;J Balvin",
+      "album": "Downtown",
+      "popularity": 72,
+      "tempo": 166.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.679,
+      "valence": 0.619,
+      "danceability": 0.775,
+      "acousticness": 0.18,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.135,
+      "duration_ms": 193456,
+      "slug": "downtown-anitta"
+    },
+    {
+      "name": "Dear Mama",
+      "artists": "2Pac",
+      "album": "Me Against The World",
+      "popularity": 72,
+      "tempo": 84.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.54,
+      "valence": 0.322,
+      "danceability": 0.773,
+      "acousticness": 0.371,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.103,
+      "duration_ms": 280000,
+      "slug": "dear-mama-2pac"
+    },
+    {
+      "name": "Rather Be (feat. Jess Glynne)",
+      "artists": "Clean Bandit;Jess Glynne",
+      "album": "New Eyes",
+      "popularity": 72,
+      "tempo": 121.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.549,
+      "danceability": 0.799,
+      "acousticness": 0.162,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.038,
+      "duration_ms": 227833,
+      "slug": "rather-be-feat-jess-glynne-clean-bandit"
+    },
+    {
+      "name": "Black Summer",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Black Summer",
+      "popularity": 72,
+      "tempo": 105.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.351,
+      "danceability": 0.417,
+      "acousticness": 0.027,
+      "instrumentalness": 0.001,
+      "loudness": -5.1,
+      "speechiness": 0.029,
+      "duration_ms": 232412,
+      "slug": "black-summer-red-hot-chili-peppers"
+    },
+    {
+      "name": "Rather Be (feat. Jess Glynne)",
+      "artists": "Clean Bandit;Jess Glynne",
+      "album": "Rather Be (feat. Jess Glynne)",
+      "popularity": 72,
+      "tempo": 121.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.549,
+      "danceability": 0.799,
+      "acousticness": 0.162,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.038,
+      "duration_ms": 227833,
+      "slug": "rather-be-feat-jess-glynne-clean-bandit"
+    },
+    {
+      "name": "Solo (feat. Demi Lovato)",
+      "artists": "Clean Bandit;Demi Lovato",
+      "album": "Solo (feat. Demi Lovato)",
+      "popularity": 71,
+      "tempo": 105.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.636,
+      "valence": 0.565,
+      "danceability": 0.737,
+      "acousticness": 0.044,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.044,
+      "duration_ms": 222653,
+      "slug": "solo-feat-demi-lovato-clean-bandit"
+    },
+    {
+      "name": "Nothing's Gonna Change My Love for You",
+      "artists": "George Benson",
+      "album": "20/20",
+      "popularity": 71,
+      "tempo": 136.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.614,
+      "valence": 0.345,
+      "danceability": 0.553,
+      "acousticness": 0.764,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.031,
+      "duration_ms": 242678,
+      "slug": "nothings-gonna-change-my-love-for-you-george-benson"
+    },
+    {
+      "name": "I Miss You (feat. Julia Michaels)",
+      "artists": "Clean Bandit;Julia Michaels",
+      "album": "What Is Love? (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 105.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.624,
+      "valence": 0.369,
+      "danceability": 0.693,
+      "acousticness": 0.299,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.045,
+      "duration_ms": 205986,
+      "slug": "i-miss-you-feat-julia-michaels-clean-bandit"
+    },
+    {
+      "name": "Drive (feat. Wes Nelson)",
+      "artists": "Clean Bandit;Topic;Wes Nelson",
+      "album": "Drive (feat. Wes Nelson)",
+      "popularity": 71,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.571,
+      "valence": 0.771,
+      "danceability": 0.81,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.085,
+      "duration_ms": 179374,
+      "slug": "drive-feat-wes-nelson-clean-bandit"
+    },
+    {
+      "name": "Keep Ya Head Up",
+      "artists": "2Pac",
+      "album": "Strictly 4 My N.I.G.G.A.Z...",
+      "popularity": 71,
+      "tempo": 172.3,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.732,
+      "valence": 0.595,
+      "danceability": 0.598,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.425,
+      "duration_ms": 262506,
+      "slug": "keep-ya-head-up-2pac"
+    },
+    {
+      "name": "Please Don't Go",
+      "artists": "KC & The Sunshine Band",
+      "album": "Do You Wanna Go Party",
+      "popularity": 71,
+      "tempo": 96.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.75,
+      "valence": 0.466,
+      "danceability": 0.445,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.035,
+      "duration_ms": 230440,
+      "slug": "please-dont-go-kc-the-sunshine-band"
+    },
+    {
+      "name": "Eddie",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Eddie",
+      "popularity": 71,
+      "tempo": 142.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.809,
+      "valence": 0.525,
+      "danceability": 0.515,
+      "acousticness": 0.005,
+      "instrumentalness": 0.072,
+      "loudness": -5.8,
+      "speechiness": 0.051,
+      "duration_ms": 341986,
+      "slug": "eddie-red-hot-chili-peppers"
+    },
+    {
+      "name": "Check Yo Self - Remix",
+      "artists": "Ice Cube;Das EFX",
+      "album": "Bootlegs And B-Sides",
+      "popularity": 71,
+      "tempo": 101.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.735,
+      "valence": 0.768,
+      "danceability": 0.934,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.251,
+      "duration_ms": 273106,
+      "slug": "check-yo-self-remix-ice-cube"
+    },
+    {
+      "name": "Gospel (with Eminem)",
+      "artists": "Dr. Dre;Eminem",
+      "album": "Gospel (with Eminem)",
+      "popularity": 70,
+      "tempo": 117.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.655,
+      "danceability": 0.919,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.232,
+      "duration_ms": 210027,
+      "slug": "gospel-with-eminem-dr-dre"
+    },
+    {
+      "name": "Everything But You (feat. A7S)",
+      "artists": "Clean Bandit;A7S",
+      "album": "Everything But You (feat. A7S)",
+      "popularity": 70,
+      "tempo": 125.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.764,
+      "valence": 0.471,
+      "danceability": 0.679,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.039,
+      "duration_ms": 198014,
+      "slug": "everything-but-you-feat-a7s-clean-bandit"
+    },
+    {
+      "name": "Olha A Explos\u00e3o",
+      "artists": "MC Kevinho",
+      "album": "Olha A Explos\u00e3o",
+      "popularity": 70,
+      "tempo": 90.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.635,
+      "valence": 0.379,
+      "danceability": 0.778,
+      "acousticness": 0.107,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.112,
+      "duration_ms": 162053,
+      "slug": "olha-a-explos\u00e3o-mc-kevinho"
+    },
+    {
+      "name": "Can't C Me",
+      "artists": "2Pac",
+      "album": "All Eyez On Me",
+      "popularity": 70,
+      "tempo": 95.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.673,
+      "danceability": 0.795,
+      "acousticness": 0.044,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.178,
+      "duration_ms": 330760,
+      "slug": "cant-c-me-2pac"
+    },
+    {
+      "name": "Lobby",
+      "artists": "Anitta;Missy Elliott",
+      "album": "Lobby",
+      "popularity": 70,
+      "tempo": 111.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.711,
+      "valence": 0.436,
+      "danceability": 0.759,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.038,
+      "duration_ms": 157837,
+      "slug": "lobby-anitta"
+    },
+    {
+      "name": "Bum Bum Tam Tam",
+      "artists": "MC Fioti;Future;J Balvin;Stefflon Don;Juan Mag\u00e1n",
+      "album": "Bum Bum Tam Tam",
+      "popularity": 69,
+      "tempo": 132.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.675,
+      "valence": 0.659,
+      "danceability": 0.896,
+      "acousticness": 0.346,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.124,
+      "duration_ms": 213988,
+      "slug": "bum-bum-tam-tam-mc-fioti"
+    },
+    {
+      "name": "Parado no Bail\u00e3o",
+      "artists": "MC L da Vinte;MC Gury",
+      "album": "Parado no Bail\u00e3o",
+      "popularity": 69,
+      "tempo": 86.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.599,
+      "valence": 0.478,
+      "danceability": 0.828,
+      "acousticness": 0.381,
+      "instrumentalness": 0.0,
+      "loudness": -1.6,
+      "speechiness": 0.149,
+      "duration_ms": 171692,
+      "slug": "parado-no-bail\u00e3o-mc-l-da-vinte"
+    },
+    {
+      "name": "These Days (feat. Jess Glynne, Macklemore & Dan Caplen)",
+      "artists": "Rudimental;Jess Glynne;Macklemore;Dan Caplen",
+      "album": "Toast to Our Differences (Deluxe Edition)",
+      "popularity": 69,
+      "tempo": 92.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.574,
+      "danceability": 0.654,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.045,
+      "duration_ms": 211760,
+      "slug": "these-days-feat-jess-glynne-macklemore-dan-caplen-rudimental"
+    },
+    {
+      "name": "Ghetto Gospel",
+      "artists": "2Pac",
+      "album": "Loyal To The Game",
+      "popularity": 69,
+      "tempo": 80.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.614,
+      "valence": 0.663,
+      "danceability": 0.794,
+      "acousticness": 0.096,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.047,
+      "duration_ms": 238053,
+      "slug": "ghetto-gospel-2pac"
+    },
+    {
+      "name": "Sweat - Remix",
+      "artists": "Snoop Dogg;David Guetta;Giorgio Tuinfort;Frederic Riesterer",
+      "album": "Sweat (Snoop Dogg Vs. David Guetta) [Remix]",
+      "popularity": 69,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.732,
+      "valence": 0.731,
+      "danceability": 0.813,
+      "acousticness": 0.06,
+      "instrumentalness": 0.001,
+      "loudness": -5.6,
+      "speechiness": 0.03,
+      "duration_ms": 195986,
+      "slug": "sweat-remix-snoop-dogg"
+    },
+    {
+      "name": "2 Of Amerikaz Most Wanted (ft. Snoop Doggy Dogg)",
+      "artists": "2Pac;Snoop Dogg",
+      "album": "All Eyez On Me",
+      "popularity": 69,
+      "tempo": 99.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.854,
+      "danceability": 0.849,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.138,
+      "duration_ms": 246533,
+      "slug": "2-of-amerikaz-most-wanted-ft-snoop-doggy-dogg-2pac"
+    },
+    {
+      "name": "Young, Wild & Free (feat. Bruno Mars)",
+      "artists": "Snoop Dogg;Wiz Khalifa;Bruno Mars",
+      "album": "Mac and Devin Go to High School (Music from and Inspired by the Movie)",
+      "popularity": 68,
+      "tempo": 94.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.652,
+      "valence": 0.551,
+      "danceability": 0.553,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.206,
+      "duration_ms": 207346,
+      "slug": "young-wild-free-feat-bruno-mars-snoop-dogg"
+    },
+    {
+      "name": "Only God Can Judge Me (ft. Rappin' 4-Tay)",
+      "artists": "2Pac;Rappin' 4-Tay",
+      "album": "All Eyez On Me",
+      "popularity": 68,
+      "tempo": 90.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.787,
+      "valence": 0.806,
+      "danceability": 0.802,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.206,
+      "duration_ms": 296906,
+      "slug": "only-god-can-judge-me-ft-rappin-4-tay-2pac"
+    },
+    {
+      "name": "Cult of Personality",
+      "artists": "Living Colour",
+      "album": "Vivid (Expanded Edition)",
+      "popularity": 68,
+      "tempo": 92.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.918,
+      "valence": 0.539,
+      "danceability": 0.504,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.052,
+      "duration_ms": 294826,
+      "slug": "cult-of-personality-living-colour"
+    },
+    {
+      "name": "The Drummer",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Return of the Dream Canteen",
+      "popularity": 68,
+      "tempo": 174.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.784,
+      "danceability": 0.536,
+      "acousticness": 0.006,
+      "instrumentalness": 0.017,
+      "loudness": -5.7,
+      "speechiness": 0.048,
+      "duration_ms": 202888,
+      "slug": "the-drummer-red-hot-chili-peppers"
+    },
+    {
+      "name": "Sad Girls (feat. Rema)",
+      "artists": "Clean Bandit;French The Kid;Rema",
+      "album": "Sad Girls (feat. Rema)",
+      "popularity": 68,
+      "tempo": 115.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.862,
+      "valence": 0.507,
+      "danceability": 0.789,
+      "acousticness": 0.305,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.141,
+      "duration_ms": 163472,
+      "slug": "sad-girls-feat-rema-clean-bandit"
+    },
+    {
+      "name": "Why We Thugs",
+      "artists": "Ice Cube",
+      "album": "Laugh Now, Cry Later",
+      "popularity": 68,
+      "tempo": 100.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.59,
+      "valence": 0.653,
+      "danceability": 0.683,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.458,
+      "duration_ms": 224106,
+      "slug": "why-we-thugs-ice-cube"
+    },
+    {
+      "name": "I Wanna Fuck You",
+      "artists": "Snoop Dogg;Akon",
+      "album": "Tha Blue Carpet Treatment",
+      "popularity": 67,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.479,
+      "valence": 0.278,
+      "danceability": 0.861,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.051,
+      "duration_ms": 178840,
+      "slug": "i-wanna-fuck-you-snoop-dogg"
+    },
+    {
+      "name": "You Know How We Do It",
+      "artists": "Ice Cube",
+      "album": "Greatest Hits",
+      "popularity": 67,
+      "tempo": 92.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.543,
+      "danceability": 0.743,
+      "acousticness": 0.023,
+      "instrumentalness": 0.004,
+      "loudness": -6.3,
+      "speechiness": 0.034,
+      "duration_ms": 232786,
+      "slug": "you-know-how-we-do-it-ice-cube"
+    },
+    {
+      "name": "Peace and Love",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Return of the Dream Canteen",
+      "popularity": 67,
+      "tempo": 83.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.679,
+      "valence": 0.867,
+      "danceability": 0.68,
+      "acousticness": 0.005,
+      "instrumentalness": 0.009,
+      "loudness": -6.1,
+      "speechiness": 0.042,
+      "duration_ms": 243224,
+      "slug": "peace-and-love-red-hot-chili-peppers"
+    },
+    {
+      "name": "Hail Mary",
+      "artists": "2Pac",
+      "album": "Greatest Hits",
+      "popularity": 67,
+      "tempo": 82.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.644,
+      "valence": 0.388,
+      "danceability": 0.772,
+      "acousticness": 0.158,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.265,
+      "duration_ms": 312373,
+      "slug": "hail-mary-2pac"
+    },
+    {
+      "name": "More Than Words",
+      "artists": "Extreme",
+      "album": "Extreme II: Pornograffitti (Deluxe)",
+      "popularity": 67,
+      "tempo": 182.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.134,
+      "valence": 0.258,
+      "danceability": 0.403,
+      "acousticness": 0.469,
+      "instrumentalness": 0.0,
+      "loudness": -15.0,
+      "speechiness": 0.035,
+      "duration_ms": 334000,
+      "slug": "more-than-words-extreme"
+    },
+    {
+      "name": "Solo (feat. Demi Lovato)",
+      "artists": "Clean Bandit;Demi Lovato",
+      "album": "What Is Love? (Deluxe Edition)",
+      "popularity": 66,
+      "tempo": 105.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.622,
+      "valence": 0.556,
+      "danceability": 0.74,
+      "acousticness": 0.036,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.045,
+      "duration_ms": 222706,
+      "slug": "solo-feat-demi-lovato-clean-bandit"
+    },
+    {
+      "name": "Fake as Fu@k",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Return of the Dream Canteen",
+      "popularity": 66,
+      "tempo": 132.3,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.777,
+      "valence": 0.401,
+      "danceability": 0.599,
+      "acousticness": 0.035,
+      "instrumentalness": 0.003,
+      "loudness": -6.0,
+      "speechiness": 0.092,
+      "duration_ms": 262373,
+      "slug": "fake-as-fuk-red-hot-chili-peppers"
+    },
+    {
+      "name": "Eddie",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Return of the Dream Canteen",
+      "popularity": 66,
+      "tempo": 142.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.809,
+      "valence": 0.525,
+      "danceability": 0.515,
+      "acousticness": 0.005,
+      "instrumentalness": 0.072,
+      "loudness": -5.8,
+      "speechiness": 0.051,
+      "duration_ms": 341986,
+      "slug": "eddie-red-hot-chili-peppers"
+    },
+    {
+      "name": "Tippa My Tongue",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Return of the Dream Canteen",
+      "popularity": 66,
+      "tempo": 88.4,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.913,
+      "valence": 0.795,
+      "danceability": 0.573,
+      "acousticness": 0.009,
+      "instrumentalness": 0.027,
+      "loudness": -6.5,
+      "speechiness": 0.041,
+      "duration_ms": 260808,
+      "slug": "tippa-my-tongue-red-hot-chili-peppers"
+    },
+    {
+      "name": "Bola Rebola",
+      "artists": "Tropkillaz;J Balvin;Anitta;ZAAC",
+      "album": "Bola Rebola",
+      "popularity": 66,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.777,
+      "valence": 0.865,
+      "danceability": 0.834,
+      "acousticness": 0.22,
+      "instrumentalness": 0.006,
+      "loudness": -4.5,
+      "speechiness": 0.059,
+      "duration_ms": 193440,
+      "slug": "bola-rebola-tropkillaz"
+    },
+    {
+      "name": "Bella",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Return of the Dream Canteen",
+      "popularity": 66,
+      "tempo": 171.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.815,
+      "valence": 0.812,
+      "danceability": 0.492,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.049,
+      "duration_ms": 291346,
+      "slug": "bella-red-hot-chili-peppers"
+    },
+    {
+      "name": "Reach Out",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Return of the Dream Canteen",
+      "popularity": 66,
+      "tempo": 121.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.71,
+      "valence": 0.487,
+      "danceability": 0.663,
+      "acousticness": 0.007,
+      "instrumentalness": 0.006,
+      "loudness": -5.5,
+      "speechiness": 0.06,
+      "duration_ms": 251588,
+      "slug": "reach-out-red-hot-chili-peppers"
+    },
+    {
+      "name": "Kush - Main",
+      "artists": "Dr. Dre;Snoop Dogg;Akon",
+      "album": "Kush",
+      "popularity": 65,
+      "tempo": 95.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.375,
+      "danceability": 0.444,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.111,
+      "duration_ms": 235120,
+      "slug": "kush-main-dr-dre"
+    },
+    {
+      "name": "Riders On The Storm - Fredwreck Remix",
+      "artists": "Snoop Dogg;The Doors",
+      "album": "Riders On The Storm (Fredwreck Remix)",
+      "popularity": 65,
+      "tempo": 102.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.786,
+      "valence": 0.831,
+      "danceability": 0.878,
+      "acousticness": 0.416,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.152,
+      "duration_ms": 382240,
+      "slug": "riders-on-the-storm-fredwreck-remix-snoop-dogg"
+    }
+  ]
+}

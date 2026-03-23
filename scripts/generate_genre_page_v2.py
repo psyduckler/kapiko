@@ -90,6 +90,166 @@ GENRE_METADATA = {
         'style_tags': "trip-hop, downtempo, Bristol sound, dark electronic, cinematic",
         'instruments': "breakbeats, jazz samples, vinyl crackle, deep bass, Rhodes piano",
         'mood': "moody, atmospheric, nocturnal, hypnotic"
+    },
+    'blues': {
+        'emoji': '🎺',
+        'color': '#4a7ab5',
+        'desc': "Expressive music built on twelve-bar progressions, call-and-response vocals, and raw emotional delivery.",
+        'style_tags': "blues, delta blues, Chicago blues, blues rock, electric blues",
+        'instruments': "electric guitar, harmonica, bass guitar, organ, slide guitar",
+        'mood': "soulful, gritty, expressive, melancholic"
+    },
+    'metal': {
+        'emoji': '🤘',
+        'color': '#8b0000',
+        'desc': "Heavy, powerful rock with distorted guitars, aggressive instrumentation, and intense energy.",
+        'style_tags': "metal, heavy metal, thrash, power metal, progressive metal",
+        'instruments': "distorted electric guitar, double bass drum, bass guitar, power chords, shredding",
+        'mood': "aggressive, powerful, intense, dark"
+    },
+    'funk': {
+        'emoji': '🎸',
+        'color': '#ff8c00',
+        'desc': "Groove-heavy music emphasizing rhythm section, syncopated basslines, and infectious danceability.",
+        'style_tags': "funk, P-funk, soul-funk, funk rock, electro-funk",
+        'instruments': "slap bass, clavinet, wah-wah guitar, horn section, tight drums",
+        'mood': "groovy, energetic, playful, infectious"
+    },
+    'disco': {
+        'emoji': '🕺',
+        'color': '#daa520',
+        'desc': "Funk-influenced dance music with orchestral arrangements, steady four-on-the-floor beats, and euphoric energy.",
+        'style_tags': "disco, nu-disco, Eurodisco, disco house, boogie",
+        'instruments': "string section, rhythm guitar, hi-hat, bass guitar, brass hits",
+        'mood': "euphoric, glamorous, danceable, celebratory"
+    },
+    'reggae': {
+        'emoji': '🏝️',
+        'color': '#228b22',
+        'desc': "Jamaican music with off-beat rhythms, deep bass, and social consciousness. The sound of island groove.",
+        'style_tags': "reggae, roots reggae, dancehall, dub, lovers rock",
+        'instruments': "skank guitar, deep bass, organ bubbles, rim shot, melodica",
+        'mood': "laid-back, conscious, warm, rhythmic"
+    },
+    'punk': {
+        'emoji': '⚡',
+        'color': '#ff1493',
+        'desc': "Raw, rebellious rock with short songs, fast tempos, and anti-establishment energy.",
+        'style_tags': "punk, punk rock, pop-punk, hardcore punk, post-punk",
+        'instruments': "power chords, fast drums, distorted bass, shout vocals, snare",
+        'mood': "rebellious, energetic, raw, defiant"
+    },
+    'house': {
+        'emoji': '🏠',
+        'color': '#9370db',
+        'desc': "Four-on-the-floor electronic dance music with soulful and disco influences. The backbone of club culture.",
+        'style_tags': "house, deep house, tech house, progressive house, vocal house",
+        'instruments': "four-on-the-floor kick, hi-hats, synth chords, bass groove, vocal samples",
+        'mood': "uplifting, groovy, euphoric, hypnotic"
+    },
+    'techno': {
+        'emoji': '🤖',
+        'color': '#2f4f4f',
+        'desc': "Repetitive electronic music with mechanical rhythms, futuristic sounds, and industrial aesthetics.",
+        'style_tags': "techno, Detroit techno, minimal techno, industrial techno, acid techno",
+        'instruments': "drum machine, analog synth, 303 acid line, industrial percussion, reverb tails",
+        'mood': "hypnotic, dark, driving, mechanical"
+    },
+    'trance': {
+        'emoji': '🌀',
+        'color': '#00ced1',
+        'desc': "Hypnotic electronic music with ethereal melodies, uplifting builds, and transcendent energy.",
+        'style_tags': "trance, uplifting trance, progressive trance, vocal trance, psytrance",
+        'instruments': "supersaw synth, pluck leads, kick drum, ethereal pads, arpeggiated sequences",
+        'mood': "euphoric, transcendent, emotional, driving"
+    },
+    'deep-house': {
+        'emoji': '🌊',
+        'color': '#5f9ea0',
+        'desc': "Soulful house music with warm basslines, jazzy elements, and atmospheric depth.",
+        'style_tags': "deep house, soulful house, organic house, afro house, melodic house",
+        'instruments': "warm bass, jazz chords, soft pads, shuffled hi-hats, vocal chops",
+        'mood': "soulful, warm, atmospheric, groovy"
+    },
+    'dubstep': {
+        'emoji': '🔊',
+        'color': '#4b0082',
+        'desc': "Electronic music with wobble bass, syncopated rhythms, and dramatic drops.",
+        'style_tags': "dubstep, brostep, melodic dubstep, riddim, future bass",
+        'instruments': "wobble bass, LFO modulation, snare hits, sub-bass, synth risers",
+        'mood': "intense, dramatic, heavy, cinematic"
+    },
+    'k-pop': {
+        'emoji': '🇰🇷',
+        'color': '#ff69b4',
+        'desc': "Korean pop music with polished production, choreographed performances, and genre-blending creativity.",
+        'style_tags': "K-pop, Korean pop, idol pop, K-R&B, K-hip-hop",
+        'instruments': "synth, programmed drums, bass drops, vocal harmonies, electronic beats",
+        'mood': "energetic, catchy, polished, dynamic"
+    },
+    'latin': {
+        'emoji': '🌶️',
+        'color': '#ff4500',
+        'desc': "Music from Latin America featuring diverse rhythms, passionate vocals, and cultural traditions.",
+        'style_tags': "latin, latin pop, salsa, cumbia, bachata",
+        'instruments': "congas, timbales, acoustic guitar, brass section, bongos",
+        'mood': "passionate, rhythmic, warm, celebratory"
+    },
+    'afrobeat': {
+        'emoji': '🌍',
+        'color': '#daa520',
+        'desc': "Polyrhythmic West African grooves blending jazz, funk, and traditional percussion. The sound of a continent.",
+        'style_tags': "Afrobeat, Afrobeats, Afro-fusion, highlife, Afro-pop",
+        'instruments': "talking drum, shekere, horn section, rhythm guitar, polyrhythmic percussion",
+        'mood': "joyful, rhythmic, communal, vibrant"
+    },
+    'j-pop': {
+        'emoji': '🎌',
+        'color': '#ff6347',
+        'desc': "Japanese pop music with distinctive melodies, dynamic production, and anime-adjacent energy.",
+        'style_tags': "J-pop, Japanese pop, anime OST, city pop, visual kei",
+        'instruments': "synth, electric guitar, programmed drums, piano, vocal harmonies",
+        'mood': "bright, energetic, melodic, emotional"
+    },
+    'alt-rock': {
+        'emoji': '⚡',
+        'color': '#cd853f',
+        'desc': "Alternative rock with unconventional song structures, indie sensibilities, and genre-bending creativity.",
+        'style_tags': "alt-rock, alternative, post-punk revival, indie rock, shoegaze",
+        'instruments': "distorted guitar, bass, drums, reverb effects, synths",
+        'mood': "angsty, introspective, dynamic, raw"
+    },
+    'grunge': {
+        'emoji': '🧽',
+        'color': '#696969',
+        'desc': "Raw rock from the Pacific Northwest with distorted guitars, angst-driven lyrics, and deliberate lo-fi production.",
+        'style_tags': "grunge, Seattle sound, post-grunge, sludge, noise rock",
+        'instruments': "heavy distortion guitar, drop-D tuning, pounding drums, bass, flanged vocals",
+        'mood': "angsty, heavy, raw, melancholic"
+    },
+    'hard-rock': {
+        'emoji': '🎸',
+        'color': '#b22222',
+        'desc': "Heavy guitar-driven rock with powerful drums, strong melodies, and arena-filling energy.",
+        'style_tags': "hard rock, classic rock, arena rock, blues rock, stadium rock",
+        'instruments': "overdriven guitar, power chords, bass guitar, heavy drums, wailing vocals",
+        'mood': "powerful, energetic, rebellious, anthemic"
+    },
+    'singer-songwriter': {
+        'emoji': '✍️',
+        'color': '#bc8f8f',
+        'desc': "Intimate acoustic music with personal lyrics, solo performances, and raw emotional honesty.",
+        'style_tags': "singer-songwriter, acoustic, folk-pop, confessional, storytelling",
+        'instruments': "acoustic guitar, piano, soft vocals, light percussion, harmonica",
+        'mood': "intimate, honest, vulnerable, reflective"
+    },
+    'indie-pop': {
+        'emoji': '🎈',
+        'color': '#da70d6',
+        'desc': "Independent pop music with melodic hooks, artistic integrity, and lo-fi charm.",
+        'style_tags': "indie pop, dream pop, bedroom pop, twee, jangle pop",
+        'instruments': "jangly guitar, synth pads, drum machine, bass, breathy vocals",
+        'mood': "dreamy, bittersweet, whimsical, nostalgic"
     }
 }
 

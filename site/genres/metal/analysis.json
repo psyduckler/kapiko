@@ -1,0 +1,2800 @@
+{
+  "genre": "Metal",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 71.841,
+    "max": 183.147,
+    "mean": 121.002,
+    "median": 123.016,
+    "q1": 103.293,
+    "q3": 137.688,
+    "histogram": {
+      "70-79": 5,
+      "80-89": 6,
+      "90-99": 11,
+      "100-109": 14,
+      "110-119": 9,
+      "120-129": 18,
+      "130-139": 15,
+      "140-149": 10,
+      "150-159": 5,
+      "160-169": 3,
+      "170-179": 3,
+      "180-189": 1
+    }
+  },
+  "key_distribution": {
+    "E": 17,
+    "A": 13,
+    "C": 12,
+    "B": 11,
+    "F#/Gb": 9,
+    "G": 9,
+    "G#/Ab": 9,
+    "C#/Db": 6,
+    "D": 4,
+    "F": 4,
+    "D#/Eb": 3,
+    "A#/Bb": 3
+  },
+  "mode_distribution": {
+    "Major": 63,
+    "Minor": 37
+  },
+  "key_mode_distribution": {
+    "E Minor": 10,
+    "C Major": 8,
+    "A Major": 8,
+    "G#/Ab Major": 8,
+    "B Major": 7,
+    "E Major": 7,
+    "G Major": 6,
+    "F#/Gb Major": 5,
+    "A Minor": 5,
+    "B Minor": 4,
+    "C Minor": 4,
+    "F#/Gb Minor": 4,
+    "C#/Db Major": 4,
+    "D Major": 4,
+    "F Major": 4,
+    "D#/Eb Minor": 3,
+    "G Minor": 3,
+    "A#/Bb Major": 2,
+    "C#/Db Minor": 2,
+    "A#/Bb Minor": 1,
+    "G#/Ab Minor": 1
+  },
+  "energy": {
+    "min": 0.345,
+    "max": 0.982,
+    "mean": 0.832,
+    "median": 0.889,
+    "q1": 0.791,
+    "q3": 0.939
+  },
+  "valence": {
+    "min": 0.068,
+    "max": 0.922,
+    "mean": 0.466,
+    "median": 0.518,
+    "q1": 0.296,
+    "q3": 0.609
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.9,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.795
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.629
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.287
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.296
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.96,
+      "valence": 0.812
+    },
+    {
+      "energy": 0.345,
+      "valence": 0.458
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.875
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.068
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.48
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.766
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.362,
+      "valence": 0.158
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.194
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.795,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.246
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.547
+    },
+    {
+      "energy": 0.959,
+      "valence": 0.365
+    },
+    {
+      "energy": 0.969,
+      "valence": 0.538
+    },
+    {
+      "energy": 0.843,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.73
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.795
+    },
+    {
+      "energy": 0.568,
+      "valence": 0.516
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.957,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.147
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.919,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.702,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.683
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.307
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.87
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.369
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.476,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.972,
+      "valence": 0.585
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.554
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.358
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.215
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.669
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.666
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.253
+    },
+    {
+      "energy": 0.634,
+      "valence": 0.096
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.919,
+      "valence": 0.572
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.17
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.758
+    },
+    {
+      "energy": 0.924,
+      "valence": 0.922
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.198
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.596,
+      "valence": 0.161
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.078
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.09
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.512
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.619,
+    "mean": 0.047,
+    "median": 0.007,
+    "q1": 0.001,
+    "q3": 0.046
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.827,
+    "mean": 0.036,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.004
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.1
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.194
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.431
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.22
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.116,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.403
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.315,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.086
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.171,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.349
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.205
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.827
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.105
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.234,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.619,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.362,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.055
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.076
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.06
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.497,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.306
+    }
+  ],
+  "duration": {
+    "min": 157333,
+    "max": 536066,
+    "mean": 262202.25,
+    "median": 244804.0,
+    "q1": 216933,
+    "q3": 304693
+  },
+  "danceability": {
+    "min": 0.15,
+    "max": 0.687,
+    "mean": 0.474,
+    "median": 0.467,
+    "q1": 0.413,
+    "q3": 0.557
+  },
+  "loudness": {
+    "min": -13.496,
+    "max": -2.336,
+    "mean": -5.38,
+    "median": -4.726,
+    "q1": -6.475,
+    "q3": -3.889
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.304,
+    "mean": 0.061,
+    "median": 0.048,
+    "q1": 0.035,
+    "q3": 0.07
+  },
+  "top_artists": [
+    {
+      "name": "Red Hot Chili Peppers",
+      "count": 8
+    },
+    {
+      "name": "Linkin Park",
+      "count": 7
+    },
+    {
+      "name": "Guns N' Roses",
+      "count": 7
+    },
+    {
+      "name": "Bon Jovi",
+      "count": 6
+    },
+    {
+      "name": "Foo Fighters",
+      "count": 5
+    },
+    {
+      "name": "System Of A Down",
+      "count": 5
+    },
+    {
+      "name": "Metallica",
+      "count": 5
+    },
+    {
+      "name": "Deftones",
+      "count": 5
+    },
+    {
+      "name": "Limp Bizkit",
+      "count": 4
+    },
+    {
+      "name": "Slipknot",
+      "count": 3
+    },
+    {
+      "name": "Rammstein",
+      "count": 3
+    },
+    {
+      "name": "Ghost",
+      "count": 2
+    },
+    {
+      "name": "Bring Me The Horizon",
+      "count": 2
+    },
+    {
+      "name": "The Offspring",
+      "count": 2
+    },
+    {
+      "name": "Rage Against The Machine",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Mary On A Cross",
+      "artists": "Ghost",
+      "album": "Seven Inches Of Satanic Panic",
+      "popularity": 88,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.561,
+      "danceability": 0.466,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.045,
+      "duration_ms": 244804,
+      "slug": "mary-on-a-cross-ghost"
+    },
+    {
+      "name": "In the End",
+      "artists": "Linkin Park",
+      "album": "Hybrid Theory (Bonus Edition)",
+      "popularity": 85,
+      "tempo": 105.1,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.864,
+      "valence": 0.4,
+      "danceability": 0.556,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.058,
+      "duration_ms": 216880,
+      "slug": "in-the-end-linkin-park"
+    },
+    {
+      "name": "Livin' On A Prayer",
+      "artists": "Bon Jovi",
+      "album": "Slippery When Wet",
+      "popularity": 85,
+      "tempo": 122.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.887,
+      "valence": 0.795,
+      "danceability": 0.532,
+      "acousticness": 0.078,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.034,
+      "duration_ms": 249293,
+      "slug": "livin-on-a-prayer-bon-jovi"
+    },
+    {
+      "name": "Sweet Child O' Mine",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 84,
+      "tempo": 125.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.629,
+      "danceability": 0.454,
+      "acousticness": 0.087,
+      "instrumentalness": 0.1,
+      "loudness": -7.8,
+      "speechiness": 0.045,
+      "duration_ms": 354520,
+      "slug": "sweet-child-o-mine-guns-n-roses"
+    },
+    {
+      "name": "Everlong",
+      "artists": "Foo Fighters",
+      "album": "The Colour And The Shape",
+      "popularity": 84,
+      "tempo": 158.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.881,
+      "valence": 0.364,
+      "danceability": 0.413,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.037,
+      "duration_ms": 250546,
+      "slug": "everlong-foo-fighters"
+    },
+    {
+      "name": "Numb",
+      "artists": "Linkin Park",
+      "album": "Meteora",
+      "popularity": 83,
+      "tempo": 110.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.863,
+      "valence": 0.243,
+      "danceability": 0.496,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.038,
+      "duration_ms": 185586,
+      "slug": "numb-linkin-park"
+    },
+    {
+      "name": "Chop Suey!",
+      "artists": "System Of A Down",
+      "album": "Toxicity",
+      "popularity": 83,
+      "tempo": 127.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.934,
+      "valence": 0.287,
+      "danceability": 0.417,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -3.9,
+      "speechiness": 0.119,
+      "duration_ms": 210240,
+      "slug": "chop-suey-system-of-a-down"
+    },
+    {
+      "name": "Bring Me To Life",
+      "artists": "Evanescence",
+      "album": "Fallen",
+      "popularity": 82,
+      "tempo": 94.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.943,
+      "valence": 0.296,
+      "danceability": 0.331,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.07,
+      "duration_ms": 235893,
+      "slug": "bring-me-to-life-evanescence"
+    },
+    {
+      "name": "Californication",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Californication (Deluxe Edition)",
+      "popularity": 82,
+      "tempo": 96.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.767,
+      "valence": 0.328,
+      "danceability": 0.592,
+      "acousticness": 0.002,
+      "instrumentalness": 0.002,
+      "loudness": -2.8,
+      "speechiness": 0.027,
+      "duration_ms": 329733,
+      "slug": "californication-red-hot-chili-peppers"
+    },
+    {
+      "name": "You Give Love A Bad Name",
+      "artists": "Bon Jovi",
+      "album": "Slippery When Wet",
+      "popularity": 82,
+      "tempo": 122.8,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.96,
+      "valence": 0.812,
+      "danceability": 0.541,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.051,
+      "duration_ms": 222706,
+      "slug": "you-give-love-a-bad-name-bon-jovi"
+    },
+    {
+      "name": "Under the Bridge",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+      "popularity": 82,
+      "tempo": 84.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.345,
+      "valence": 0.458,
+      "danceability": 0.559,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.046,
+      "duration_ms": 264306,
+      "slug": "under-the-bridge-red-hot-chili-peppers"
+    },
+    {
+      "name": "Can't Stop",
+      "artists": "Red Hot Chili Peppers",
+      "album": "By the Way (Deluxe Edition)",
+      "popularity": 82,
+      "tempo": 91.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.938,
+      "valence": 0.875,
+      "danceability": 0.618,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.046,
+      "duration_ms": 269000,
+      "slug": "cant-stop-red-hot-chili-peppers"
+    },
+    {
+      "name": "Can You Feel My Heart",
+      "artists": "Bring Me The Horizon",
+      "album": "Sempiternal (Expanded Edition)",
+      "popularity": 81,
+      "tempo": 170.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.354,
+      "danceability": 0.15,
+      "acousticness": 0.002,
+      "instrumentalness": 0.194,
+      "loudness": -2.8,
+      "speechiness": 0.059,
+      "duration_ms": 228146,
+      "slug": "can-you-feel-my-heart-bring-me-the-horizon"
+    },
+    {
+      "name": "Master Of Puppets",
+      "artists": "Metallica",
+      "album": "Master Of Puppets (Remastered)",
+      "popularity": 81,
+      "tempo": 105.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.56,
+      "danceability": 0.543,
+      "acousticness": 0.001,
+      "instrumentalness": 0.431,
+      "loudness": -9.1,
+      "speechiness": 0.035,
+      "duration_ms": 515386,
+      "slug": "master-of-puppets-metallica"
+    },
+    {
+      "name": "The Reason",
+      "artists": "Hoobastank",
+      "album": "The Reason (15th Anniversary Deluxe)",
+      "popularity": 81,
+      "tempo": 83.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.671,
+      "valence": 0.068,
+      "danceability": 0.472,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.029,
+      "duration_ms": 232800,
+      "slug": "the-reason-hoobastank"
+    },
+    {
+      "name": "November Rain",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion I",
+      "popularity": 81,
+      "tempo": 79.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.641,
+      "valence": 0.226,
+      "danceability": 0.294,
+      "acousticness": 0.016,
+      "instrumentalness": 0.22,
+      "loudness": -9.3,
+      "speechiness": 0.029,
+      "duration_ms": 536066,
+      "slug": "november-rain-guns-n-roses"
+    },
+    {
+      "name": "Enter Sandman",
+      "artists": "Metallica",
+      "album": "Metallica",
+      "popularity": 81,
+      "tempo": 123.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.604,
+      "danceability": 0.577,
+      "acousticness": 0.002,
+      "instrumentalness": 0.011,
+      "loudness": -8.7,
+      "speechiness": 0.03,
+      "duration_ms": 331266,
+      "slug": "enter-sandman-metallica"
+    },
+    {
+      "name": "Toxicity",
+      "artists": "System Of A Down",
+      "album": "Toxicity",
+      "popularity": 81,
+      "tempo": 116.7,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.48,
+      "danceability": 0.413,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -4.2,
+      "speechiness": 0.054,
+      "duration_ms": 218933,
+      "slug": "toxicity-system-of-a-down"
+    },
+    {
+      "name": "You're Gonna Go Far, Kid",
+      "artists": "The Offspring",
+      "album": "Rise And Fall, Rage And Grace",
+      "popularity": 81,
+      "tempo": 126.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.601,
+      "danceability": 0.55,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.064,
+      "duration_ms": 177826,
+      "slug": "youre-gonna-go-far-kid-the-offspring"
+    },
+    {
+      "name": "The Kids Aren't Alright",
+      "artists": "The Offspring",
+      "album": "Americana",
+      "popularity": 81,
+      "tempo": 99.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.943,
+      "valence": 0.766,
+      "danceability": 0.523,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.034,
+      "duration_ms": 180160,
+      "slug": "the-kids-arent-alright-the-offspring"
+    },
+    {
+      "name": "It's My Life",
+      "artists": "Bon Jovi",
+      "album": "Crush",
+      "popularity": 80,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.913,
+      "valence": 0.544,
+      "danceability": 0.551,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.047,
+      "duration_ms": 224493,
+      "slug": "its-my-life-bon-jovi"
+    },
+    {
+      "name": "Nothing Else Matters",
+      "artists": "Metallica",
+      "album": "Metallica",
+      "popularity": 80,
+      "tempo": 142.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.362,
+      "valence": 0.158,
+      "danceability": 0.553,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.026,
+      "duration_ms": 388266,
+      "slug": "nothing-else-matters-metallica"
+    },
+    {
+      "name": "Snow (Hey Oh)",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "popularity": 80,
+      "tempo": 104.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.599,
+      "danceability": 0.427,
+      "acousticness": 0.116,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.05,
+      "duration_ms": 334666,
+      "slug": "snow-hey-oh-red-hot-chili-peppers"
+    },
+    {
+      "name": "Welcome To The Jungle",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 80,
+      "tempo": 123.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.331,
+      "danceability": 0.447,
+      "acousticness": 0.024,
+      "instrumentalness": 0.403,
+      "loudness": -8.1,
+      "speechiness": 0.075,
+      "duration_ms": 272026,
+      "slug": "welcome-to-the-jungle-guns-n-roses"
+    },
+    {
+      "name": "Last Resort",
+      "artists": "Papa Roach",
+      "album": "Infest",
+      "popularity": 80,
+      "tempo": 90.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.89,
+      "valence": 0.692,
+      "danceability": 0.589,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -3.7,
+      "speechiness": 0.06,
+      "duration_ms": 199906,
+      "slug": "last-resort-papa-roach"
+    },
+    {
+      "name": "Duality",
+      "artists": "Slipknot",
+      "album": "Vol. 3: The Subliminal Verses",
+      "popularity": 80,
+      "tempo": 143.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.194,
+      "danceability": 0.354,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.168,
+      "duration_ms": 252613,
+      "slug": "duality-slipknot"
+    },
+    {
+      "name": "Killing In The Name",
+      "artists": "Rage Against The Machine",
+      "album": "Rage Against The Machine - XX (20th Anniversary Special Edition)",
+      "popularity": 80,
+      "tempo": 88.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.661,
+      "danceability": 0.466,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.304,
+      "duration_ms": 313573,
+      "slug": "killing-in-the-name-rage-against-the-machine"
+    },
+    {
+      "name": "How You Remind Me",
+      "artists": "Nickelback",
+      "album": "Silver Side Up",
+      "popularity": 80,
+      "tempo": 172.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.764,
+      "valence": 0.543,
+      "danceability": 0.446,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.033,
+      "duration_ms": 223840,
+      "slug": "how-you-remind-me-nickelback"
+    },
+    {
+      "name": "Otherside",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Californication (Deluxe Edition)",
+      "popularity": 80,
+      "tempo": 123.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.795,
+      "valence": 0.513,
+      "danceability": 0.458,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.057,
+      "duration_ms": 255373,
+      "slug": "otherside-red-hot-chili-peppers"
+    },
+    {
+      "name": "Kryptonite",
+      "artists": "3 Doors Down",
+      "album": "The Better Life",
+      "popularity": 80,
+      "tempo": 99.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.865,
+      "valence": 0.543,
+      "danceability": 0.545,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.029,
+      "duration_ms": 233933,
+      "slug": "kryptonite-3-doors-down"
+    },
+    {
+      "name": "Wind Of Change",
+      "artists": "Scorpions",
+      "album": "Crazy World",
+      "popularity": 79,
+      "tempo": 151.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.246,
+      "danceability": 0.452,
+      "acousticness": 0.315,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.035,
+      "duration_ms": 312360,
+      "slug": "wind-of-change-scorpions"
+    },
+    {
+      "name": "Paradise City",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 79,
+      "tempo": 100.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.472,
+      "danceability": 0.273,
+      "acousticness": 0.017,
+      "instrumentalness": 0.011,
+      "loudness": -8.8,
+      "speechiness": 0.084,
+      "duration_ms": 405640,
+      "slug": "paradise-city-guns-n-roses"
+    },
+    {
+      "name": "Knockin' On Heaven's Door",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion II",
+      "popularity": 79,
+      "tempo": 132.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.378,
+      "danceability": 0.496,
+      "acousticness": 0.021,
+      "instrumentalness": 0.004,
+      "loudness": -7.2,
+      "speechiness": 0.042,
+      "duration_ms": 336000,
+      "slug": "knockin-on-heavens-door-guns-n-roses"
+    },
+    {
+      "name": "Sweet Child O' Mine",
+      "artists": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "popularity": 79,
+      "tempo": 125.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.624,
+      "danceability": 0.446,
+      "acousticness": 0.09,
+      "instrumentalness": 0.086,
+      "loudness": -5.3,
+      "speechiness": 0.052,
+      "duration_ms": 356066,
+      "slug": "sweet-child-o-mine-guns-n-roses"
+    },
+    {
+      "name": "Scar Tissue",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Californication (Deluxe Edition)",
+      "popularity": 79,
+      "tempo": 89.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.547,
+      "danceability": 0.595,
+      "acousticness": 0.078,
+      "instrumentalness": 0.003,
+      "loudness": -4.8,
+      "speechiness": 0.029,
+      "duration_ms": 215906,
+      "slug": "scar-tissue-red-hot-chili-peppers"
+    },
+    {
+      "name": "The Pretender",
+      "artists": "Foo Fighters",
+      "album": "Echoes, Silence, Patience & Grace",
+      "popularity": 79,
+      "tempo": 173.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.959,
+      "valence": 0.365,
+      "danceability": 0.433,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.043,
+      "duration_ms": 269373,
+      "slug": "the-pretender-foo-fighters"
+    },
+    {
+      "name": "One Step Closer",
+      "artists": "Linkin Park",
+      "album": "Hybrid Theory (Bonus Edition)",
+      "popularity": 78,
+      "tempo": 95.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.969,
+      "valence": 0.538,
+      "danceability": 0.492,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.049,
+      "duration_ms": 157333,
+      "slug": "one-step-closer-linkin-park"
+    },
+    {
+      "name": "The Final Countdown",
+      "artists": "Europe",
+      "album": "The Final Countdown (Expanded Edition)",
+      "popularity": 78,
+      "tempo": 117.7,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.843,
+      "valence": 0.188,
+      "danceability": 0.529,
+      "acousticness": 0.063,
+      "instrumentalness": 0.001,
+      "loudness": -6.9,
+      "speechiness": 0.062,
+      "duration_ms": 310333,
+      "slug": "the-final-countdown-europe"
+    },
+    {
+      "name": "Don't Cry (Original)",
+      "artists": "Guns N' Roses",
+      "album": "Use Your Illusion I",
+      "popularity": 78,
+      "tempo": 124.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.59,
+      "valence": 0.243,
+      "danceability": 0.456,
+      "acousticness": 0.002,
+      "instrumentalness": 0.004,
+      "loudness": -8.6,
+      "speechiness": 0.033,
+      "duration_ms": 283733,
+      "slug": "dont-cry-original-guns-n-roses"
+    },
+    {
+      "name": "Crazy Train",
+      "artists": "Ozzy Osbourne",
+      "album": "Blizzard Of Ozz (40th Anniversary Expanded Edition)",
+      "popularity": 78,
+      "tempo": 137.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.913,
+      "valence": 0.521,
+      "danceability": 0.454,
+      "acousticness": 0.408,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.107,
+      "duration_ms": 293183,
+      "slug": "crazy-train-ozzy-osbourne"
+    },
+    {
+      "name": "Dani California",
+      "artists": "Red Hot Chili Peppers",
+      "album": "Stadium Arcadium",
+      "popularity": 78,
+      "tempo": 96.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.913,
+      "valence": 0.73,
+      "danceability": 0.556,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.044,
+      "duration_ms": 282160,
+      "slug": "dani-california-red-hot-chili-peppers"
+    },
+    {
+      "name": "Jump - 2015 Remaster",
+      "artists": "Van Halen",
+      "album": "1984 (Remastered)",
+      "popularity": 78,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.835,
+      "valence": 0.795,
+      "danceability": 0.572,
+      "acousticness": 0.171,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.032,
+      "duration_ms": 241599,
+      "slug": "jump-2015-remaster-van-halen"
+    },
+    {
+      "name": "Like a Stone",
+      "artists": "Audioslave",
+      "album": "Audioslave",
+      "popularity": 78,
+      "tempo": 107.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.568,
+      "valence": 0.516,
+      "danceability": 0.614,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.028,
+      "duration_ms": 293960,
+      "slug": "like-a-stone-audioslave"
+    },
+    {
+      "name": "Faint",
+      "artists": "Linkin Park",
+      "album": "Meteora",
+      "popularity": 77,
+      "tempo": 135.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.594,
+      "danceability": 0.554,
+      "acousticness": 0.111,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.131,
+      "duration_ms": 162600,
+      "slug": "faint-linkin-park"
+    },
+    {
+      "name": "Monster",
+      "artists": "Skillet",
+      "album": "Awake",
+      "popularity": 77,
+      "tempo": 135.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.957,
+      "valence": 0.692,
+      "danceability": 0.64,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.074,
+      "duration_ms": 178013,
+      "slug": "monster-skillet"
+    },
+    {
+      "name": "Aerials",
+      "artists": "System Of A Down",
+      "album": "Toxicity",
+      "popularity": 77,
+      "tempo": 79.3,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.227,
+      "danceability": 0.364,
+      "acousticness": 0.001,
+      "instrumentalness": 0.035,
+      "loudness": -4.2,
+      "speechiness": 0.057,
+      "duration_ms": 235053,
+      "slug": "aerials-system-of-a-down"
+    },
+    {
+      "name": "B.Y.O.B.",
+      "artists": "System Of A Down",
+      "album": "Mezmerize",
+      "popularity": 77,
+      "tempo": 101.4,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.981,
+      "valence": 0.711,
+      "danceability": 0.538,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.14,
+      "duration_ms": 255466,
+      "slug": "byob-system-of-a-down"
+    },
+    {
+      "name": "Before I Forget",
+      "artists": "Slipknot",
+      "album": "Vol. 3: The Subliminal Verses",
+      "popularity": 77,
+      "tempo": 134.7,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.974,
+      "valence": 0.348,
+      "danceability": 0.291,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.171,
+      "duration_ms": 278600,
+      "slug": "before-i-forget-slipknot"
+    },
+    {
+      "name": "Black Hole Sun",
+      "artists": "Soundgarden",
+      "album": "Superunknown (Deluxe Edition)",
+      "popularity": 77,
+      "tempo": 105.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.828,
+      "valence": 0.147,
+      "danceability": 0.35,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.041,
+      "duration_ms": 318586,
+      "slug": "black-hole-sun-soundgarden"
+    },
+    {
+      "name": "All Along the Watchtower",
+      "artists": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "popularity": 77,
+      "tempo": 113.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.564,
+      "danceability": 0.438,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.062,
+      "duration_ms": 240800,
+      "slug": "all-along-the-watchtower-jimi-hendrix"
+    },
+    {
+      "name": "Change (In the House of Flies)",
+      "artists": "Deftones",
+      "album": "White Pony",
+      "popularity": 77,
+      "tempo": 141.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.853,
+      "valence": 0.179,
+      "danceability": 0.269,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.085,
+      "duration_ms": 299533,
+      "slug": "change-in-the-house-of-flies-deftones"
+    },
+    {
+      "name": "Deutschland",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 77,
+      "tempo": 120.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.895,
+      "valence": 0.237,
+      "danceability": 0.521,
+      "acousticness": 0.0,
+      "instrumentalness": 0.349,
+      "loudness": -5.2,
+      "speechiness": 0.044,
+      "duration_ms": 322339,
+      "slug": "deutschland-rammstein"
+    },
+    {
+      "name": "Break Stuff",
+      "artists": "Limp Bizkit",
+      "album": "Significant Other",
+      "popularity": 77,
+      "tempo": 108.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.624,
+      "danceability": 0.432,
+      "acousticness": 0.013,
+      "instrumentalness": 0.001,
+      "loudness": -6.7,
+      "speechiness": 0.13,
+      "duration_ms": 166706,
+      "slug": "break-stuff-limp-bizkit"
+    },
+    {
+      "name": "Learn to Fly",
+      "artists": "Foo Fighters",
+      "album": "There Is Nothing Left To Lose",
+      "popularity": 77,
+      "tempo": 136.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.919,
+      "valence": 0.537,
+      "danceability": 0.465,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.041,
+      "duration_ms": 235293,
+      "slug": "learn-to-fly-foo-fighters"
+    },
+    {
+      "name": "FEEL NOTHING",
+      "artists": "The Plot In You",
+      "album": "DISPOSE",
+      "popularity": 76,
+      "tempo": 144.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.825,
+      "valence": 0.226,
+      "danceability": 0.448,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.062,
+      "duration_ms": 216826,
+      "slug": "feel-nothing-the-plot-in-you"
+    },
+    {
+      "name": "Here Without You",
+      "artists": "3 Doors Down",
+      "album": "Away From The Sun",
+      "popularity": 76,
+      "tempo": 144.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.533,
+      "valence": 0.233,
+      "danceability": 0.557,
+      "acousticness": 0.049,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.025,
+      "duration_ms": 238733,
+      "slug": "here-without-you-3-doors-down"
+    },
+    {
+      "name": "Crawling",
+      "artists": "Linkin Park",
+      "album": "Hybrid Theory (Bonus Edition)",
+      "popularity": 76,
+      "tempo": 105.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.702,
+      "valence": 0.299,
+      "danceability": 0.58,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.034,
+      "duration_ms": 208960,
+      "slug": "crawling-linkin-park"
+    },
+    {
+      "name": "Hail to the King",
+      "artists": "Avenged Sevenfold",
+      "album": "Hail to the King",
+      "popularity": 76,
+      "tempo": 118.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.916,
+      "valence": 0.683,
+      "danceability": 0.58,
+      "acousticness": 0.0,
+      "instrumentalness": 0.026,
+      "loudness": -4.4,
+      "speechiness": 0.039,
+      "duration_ms": 305906,
+      "slug": "hail-to-the-king-avenged-sevenfold"
+    },
+    {
+      "name": "Psychosocial",
+      "artists": "Slipknot",
+      "album": "All Hope Is Gone (10th Anniversary)",
+      "popularity": 76,
+      "tempo": 135.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.981,
+      "valence": 0.307,
+      "danceability": 0.568,
+      "acousticness": 0.003,
+      "instrumentalness": 0.003,
+      "loudness": -3.9,
+      "speechiness": 0.089,
+      "duration_ms": 284120,
+      "slug": "psychosocial-slipknot"
+    },
+    {
+      "name": "You And Me",
+      "artists": "Lifehouse",
+      "album": "Lifehouse",
+      "popularity": 76,
+      "tempo": 139.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.427,
+      "valence": 0.354,
+      "danceability": 0.459,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.027,
+      "duration_ms": 195493,
+      "slug": "you-and-me-lifehouse"
+    },
+    {
+      "name": "Rollin' (Air Raid Vehicle)",
+      "artists": "Limp Bizkit",
+      "album": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "popularity": 76,
+      "tempo": 96.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.709,
+      "danceability": 0.603,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.171,
+      "duration_ms": 213760,
+      "slug": "rollin-air-raid-vehicle-limp-bizkit"
+    },
+    {
+      "name": "Always",
+      "artists": "Bon Jovi",
+      "album": "Cross Road",
+      "popularity": 76,
+      "tempo": 140.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.659,
+      "valence": 0.327,
+      "danceability": 0.383,
+      "acousticness": 0.117,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.031,
+      "duration_ms": 353026,
+      "slug": "always-bon-jovi"
+    },
+    {
+      "name": "My Own Summer (Shove It)",
+      "artists": "Deftones",
+      "album": "Around the Fur",
+      "popularity": 76,
+      "tempo": 71.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.781,
+      "valence": 0.372,
+      "danceability": 0.443,
+      "acousticness": 0.0,
+      "instrumentalness": 0.205,
+      "loudness": -4.3,
+      "speechiness": 0.038,
+      "duration_ms": 214760,
+      "slug": "my-own-summer-shove-it-deftones"
+    },
+    {
+      "name": "Mother",
+      "artists": "Danzig",
+      "album": "Danzig",
+      "popularity": 76,
+      "tempo": 148.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.342,
+      "danceability": 0.365,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.059,
+      "duration_ms": 204866,
+      "slug": "mother-danzig"
+    },
+    {
+      "name": "Be Quiet and Drive (Far Away)",
+      "artists": "Deftones",
+      "album": "Around the Fur",
+      "popularity": 76,
+      "tempo": 92.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.965,
+      "valence": 0.168,
+      "danceability": 0.206,
+      "acousticness": 0.0,
+      "instrumentalness": 0.827,
+      "loudness": -5.1,
+      "speechiness": 0.079,
+      "duration_ms": 299866,
+      "slug": "be-quiet-and-drive-far-away-deftones"
+    },
+    {
+      "name": "Freak On a Leash",
+      "artists": "Korn",
+      "album": "Follow The Leader",
+      "popularity": 76,
+      "tempo": 103.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.898,
+      "valence": 0.525,
+      "danceability": 0.353,
+      "acousticness": 0.0,
+      "instrumentalness": 0.105,
+      "loudness": -5.9,
+      "speechiness": 0.052,
+      "duration_ms": 255733,
+      "slug": "freak-on-a-leash-korn"
+    },
+    {
+      "name": "Smooth Criminal",
+      "artists": "Alien Ant Farm",
+      "album": "Anthology",
+      "popularity": 76,
+      "tempo": 126.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.964,
+      "valence": 0.87,
+      "danceability": 0.653,
+      "acousticness": 0.003,
+      "instrumentalness": 0.005,
+      "loudness": -4.3,
+      "speechiness": 0.058,
+      "duration_ms": 209266,
+      "slug": "smooth-criminal-alien-ant-farm"
+    },
+    {
+      "name": "(Don't Fear) The Reaper",
+      "artists": "Blue \u00d6yster Cult",
+      "album": "Agents Of Fortune",
+      "popularity": 76,
+      "tempo": 141.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.927,
+      "valence": 0.385,
+      "danceability": 0.333,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.073,
+      "duration_ms": 308120,
+      "slug": "dont-fear-the-reaper-blue-\u00f6yster-cult"
+    },
+    {
+      "name": "The Boys Are Back In Town",
+      "artists": "Thin Lizzy",
+      "album": "Jailbreak (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 80.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.706,
+      "valence": 0.768,
+      "danceability": 0.445,
+      "acousticness": 0.234,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.046,
+      "duration_ms": 266720,
+      "slug": "the-boys-are-back-in-town-thin-lizzy"
+    },
+    {
+      "name": "Best of You",
+      "artists": "Foo Fighters",
+      "album": "In Your Honor",
+      "popularity": 76,
+      "tempo": 130.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.94,
+      "valence": 0.369,
+      "danceability": 0.366,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.07,
+      "duration_ms": 255626,
+      "slug": "best-of-you-foo-fighters"
+    },
+    {
+      "name": "My Hero",
+      "artists": "Foo Fighters",
+      "album": "The Colour And The Shape",
+      "popularity": 76,
+      "tempo": 77.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.927,
+      "valence": 0.311,
+      "danceability": 0.398,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.057,
+      "duration_ms": 260026,
+      "slug": "my-hero-foo-fighters"
+    },
+    {
+      "name": "No Rain",
+      "artists": "Blind Melon",
+      "album": "Blind Melon",
+      "popularity": 76,
+      "tempo": 148.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.476,
+      "valence": 0.566,
+      "danceability": 0.389,
+      "acousticness": 0.619,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.032,
+      "duration_ms": 217106,
+      "slug": "no-rain-blind-melon"
+    },
+    {
+      "name": "Dragula",
+      "artists": "Rob Zombie",
+      "album": "Hellbilly Deluxe",
+      "popularity": 76,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.609,
+      "danceability": 0.591,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.053,
+      "duration_ms": 222826,
+      "slug": "dragula-rob-zombie"
+    },
+    {
+      "name": "BURN IT DOWN",
+      "artists": "Linkin Park",
+      "album": "LIVING THINGS",
+      "popularity": 75,
+      "tempo": 110.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.972,
+      "valence": 0.585,
+      "danceability": 0.585,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.053,
+      "duration_ms": 230253,
+      "slug": "burn-it-down-linkin-park"
+    },
+    {
+      "name": "Mary On A Cross",
+      "artists": "Ghost",
+      "album": "[MESSAGE FROM THE CLERGY]",
+      "popularity": 75,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.554,
+      "danceability": 0.467,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.045,
+      "duration_ms": 244804,
+      "slug": "mary-on-a-cross-ghost"
+    },
+    {
+      "name": "Papercut",
+      "artists": "Linkin Park",
+      "album": "Hybrid Theory (Bonus Edition)",
+      "popularity": 75,
+      "tempo": 150.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.939,
+      "valence": 0.661,
+      "danceability": 0.524,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.113,
+      "duration_ms": 184866,
+      "slug": "papercut-linkin-park"
+    },
+    {
+      "name": "Whiskey In The Jar",
+      "artists": "Metallica",
+      "album": "Garage Inc.",
+      "popularity": 75,
+      "tempo": 133.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.97,
+      "valence": 0.566,
+      "danceability": 0.511,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -3.7,
+      "speechiness": 0.041,
+      "duration_ms": 304693,
+      "slug": "whiskey-in-the-jar-metallica"
+    },
+    {
+      "name": "Popular Monster",
+      "artists": "Falling In Reverse",
+      "album": "Popular Monster",
+      "popularity": 75,
+      "tempo": 165.1,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.897,
+      "valence": 0.358,
+      "danceability": 0.461,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.092,
+      "duration_ms": 220537,
+      "slug": "popular-monster-falling-in-reverse"
+    },
+    {
+      "name": "sTraNgeRs",
+      "artists": "Bring Me The Horizon",
+      "album": "sTraNgeRs",
+      "popularity": 75,
+      "tempo": 183.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.939,
+      "valence": 0.526,
+      "danceability": 0.346,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.182,
+      "duration_ms": 195747,
+      "slug": "strangers-bring-me-the-horizon"
+    },
+    {
+      "name": "Lonely Day",
+      "artists": "System Of A Down",
+      "album": "Hypnotize",
+      "popularity": 75,
+      "tempo": 113.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.796,
+      "valence": 0.215,
+      "danceability": 0.47,
+      "acousticness": 0.362,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.034,
+      "duration_ms": 167906,
+      "slug": "lonely-day-system-of-a-down"
+    },
+    {
+      "name": "The Trooper - 2015 Remaster",
+      "artists": "Iron Maiden",
+      "album": "Piece of Mind (2015 Remaster)",
+      "popularity": 75,
+      "tempo": 159.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.908,
+      "valence": 0.669,
+      "danceability": 0.285,
+      "acousticness": 0.032,
+      "instrumentalness": 0.009,
+      "loudness": -4.6,
+      "speechiness": 0.07,
+      "duration_ms": 252733,
+      "slug": "the-trooper-2015-remaster-iron-maiden"
+    },
+    {
+      "name": "Du hast",
+      "artists": "Rammstein",
+      "album": "Sehnsucht",
+      "popularity": 75,
+      "tempo": 125.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.716,
+      "danceability": 0.64,
+      "acousticness": 0.004,
+      "instrumentalness": 0.055,
+      "loudness": -6.3,
+      "speechiness": 0.038,
+      "duration_ms": 234226,
+      "slug": "du-hast-rammstein"
+    },
+    {
+      "name": "Drive",
+      "artists": "Incubus",
+      "album": "Make Yourself",
+      "popularity": 75,
+      "tempo": 90.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.792,
+      "valence": 0.666,
+      "danceability": 0.645,
+      "acousticness": 0.056,
+      "instrumentalness": 0.012,
+      "loudness": -7.3,
+      "speechiness": 0.036,
+      "duration_ms": 232453,
+      "slug": "drive-incubus"
+    },
+    {
+      "name": "Wanted Dead Or Alive",
+      "artists": "Bon Jovi",
+      "album": "Slippery When Wet",
+      "popularity": 75,
+      "tempo": 150.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.253,
+      "danceability": 0.252,
+      "acousticness": 0.13,
+      "instrumentalness": 0.015,
+      "loudness": -4.0,
+      "speechiness": 0.039,
+      "duration_ms": 308666,
+      "slug": "wanted-dead-or-alive-bon-jovi"
+    },
+    {
+      "name": "Sextape",
+      "artists": "Deftones",
+      "album": "Diamond Eyes",
+      "popularity": 75,
+      "tempo": 90.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.634,
+      "valence": 0.096,
+      "danceability": 0.367,
+      "acousticness": 0.001,
+      "instrumentalness": 0.076,
+      "loudness": -6.5,
+      "speechiness": 0.027,
+      "duration_ms": 241533,
+      "slug": "sextape-deftones"
+    },
+    {
+      "name": "Bodies",
+      "artists": "Drowning Pool",
+      "album": "Sinner",
+      "popularity": 75,
+      "tempo": 130.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.932,
+      "valence": 0.544,
+      "danceability": 0.656,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -3.4,
+      "speechiness": 0.071,
+      "duration_ms": 201960,
+      "slug": "bodies-drowning-pool"
+    },
+    {
+      "name": "Bulls On Parade",
+      "artists": "Rage Against The Machine",
+      "album": "Evil Empire",
+      "popularity": 75,
+      "tempo": 166.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.919,
+      "valence": 0.572,
+      "danceability": 0.412,
+      "acousticness": 0.012,
+      "instrumentalness": 0.06,
+      "loudness": -7.3,
+      "speechiness": 0.184,
+      "duration_ms": 229466,
+      "slug": "bulls-on-parade-rage-against-the-machine"
+    },
+    {
+      "name": "Cherry Waves",
+      "artists": "Deftones",
+      "album": "Saturday Night Wrist",
+      "popularity": 75,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.17,
+      "danceability": 0.47,
+      "acousticness": 0.0,
+      "instrumentalness": 0.007,
+      "loudness": -3.7,
+      "speechiness": 0.054,
+      "duration_ms": 317706,
+      "slug": "cherry-waves-deftones"
+    },
+    {
+      "name": "Man in the Box",
+      "artists": "Alice In Chains",
+      "album": "Facelift",
+      "popularity": 75,
+      "tempo": 106.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.758,
+      "danceability": 0.355,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.045,
+      "duration_ms": 285200,
+      "slug": "man-in-the-box-alice-in-chains"
+    },
+    {
+      "name": "We're Not Gonna Take It",
+      "artists": "Twisted Sister",
+      "album": "Stay Hungry",
+      "popularity": 75,
+      "tempo": 149.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.924,
+      "valence": 0.922,
+      "danceability": 0.502,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.05,
+      "duration_ms": 219666,
+      "slug": "were-not-gonna-take-it-twisted-sister"
+    },
+    {
+      "name": "By the Way",
+      "artists": "Red Hot Chili Peppers",
+      "album": "By the Way (Deluxe Edition)",
+      "popularity": 75,
+      "tempo": 122.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.97,
+      "valence": 0.198,
+      "danceability": 0.451,
+      "acousticness": 0.026,
+      "instrumentalness": 0.004,
+      "loudness": -4.9,
+      "speechiness": 0.107,
+      "duration_ms": 216933,
+      "slug": "by-the-way-red-hot-chili-peppers"
+    },
+    {
+      "name": "Paralyzer",
+      "artists": "Finger Eleven",
+      "album": "Them Vs. You Vs. Me (Deluxe Edition)",
+      "popularity": 75,
+      "tempo": 106.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.939,
+      "valence": 0.861,
+      "danceability": 0.644,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.046,
+      "duration_ms": 208106,
+      "slug": "paralyzer-finger-eleven"
+    },
+    {
+      "name": "Fake It",
+      "artists": "Seether",
+      "album": "Finding Beauty In Negative Spaces (Bonus Track Version)",
+      "popularity": 75,
+      "tempo": 132.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.607,
+      "danceability": 0.611,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.052,
+      "duration_ms": 193893,
+      "slug": "fake-it-seether"
+    },
+    {
+      "name": "Dicke Titten",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 75,
+      "tempo": 117.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.565,
+      "danceability": 0.63,
+      "acousticness": 0.021,
+      "instrumentalness": 0.005,
+      "loudness": -4.9,
+      "speechiness": 0.05,
+      "duration_ms": 218593,
+      "slug": "dicke-titten-rammstein"
+    },
+    {
+      "name": "Coming Undone",
+      "artists": "Korn",
+      "album": "See You On the Other Side",
+      "popularity": 75,
+      "tempo": 75.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.545,
+      "danceability": 0.687,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.051,
+      "duration_ms": 199773,
+      "slug": "coming-undone-korn"
+    },
+    {
+      "name": "Bed Of Roses",
+      "artists": "Bon Jovi",
+      "album": "Keep The Faith",
+      "popularity": 74,
+      "tempo": 164.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.596,
+      "valence": 0.161,
+      "danceability": 0.309,
+      "acousticness": 0.101,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.029,
+      "duration_ms": 394400,
+      "slug": "bed-of-roses-bon-jovi"
+    },
+    {
+      "name": "Still Loving You",
+      "artists": "Scorpions",
+      "album": "Comeblack",
+      "popularity": 74,
+      "tempo": 103.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.078,
+      "danceability": 0.282,
+      "acousticness": 0.005,
+      "instrumentalness": 0.001,
+      "loudness": -4.9,
+      "speechiness": 0.029,
+      "duration_ms": 403453,
+      "slug": "still-loving-you-scorpions"
+    },
+    {
+      "name": "Behind Blue Eyes",
+      "artists": "Limp Bizkit",
+      "album": "Results May Vary",
+      "popularity": 74,
+      "tempo": 120.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.489,
+      "valence": 0.09,
+      "danceability": 0.595,
+      "acousticness": 0.497,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.027,
+      "duration_ms": 269973,
+      "slug": "behind-blue-eyes-limp-bizkit"
+    },
+    {
+      "name": "The Unforgiven",
+      "artists": "Metallica",
+      "album": "Metallica",
+      "popularity": 74,
+      "tempo": 139.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.244,
+      "danceability": 0.54,
+      "acousticness": 0.011,
+      "instrumentalness": 0.003,
+      "loudness": -9.6,
+      "speechiness": 0.025,
+      "duration_ms": 386493,
+      "slug": "the-unforgiven-metallica"
+    },
+    {
+      "name": "Take A Look Around",
+      "artists": "Limp Bizkit",
+      "album": "Chocolate Starfish And The Hot Dog Flavored Water",
+      "popularity": 74,
+      "tempo": 102.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.512,
+      "danceability": 0.425,
+      "acousticness": 0.018,
+      "instrumentalness": 0.306,
+      "loudness": -5.6,
+      "speechiness": 0.046,
+      "duration_ms": 321040,
+      "slug": "take-a-look-around-limp-bizkit"
+    }
+  ]
+}

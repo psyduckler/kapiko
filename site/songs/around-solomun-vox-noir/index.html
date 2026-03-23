@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Around - Solomun Vox — Analysis + Prompt Template - kapiko</title>
+  <meta name="description" content="Audio analysis of Around - Solomun Vox by Noir;Hayze;Solomun. BPM, key, energy, mood, and AI music generation prompts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--bg:#0b0c1a;--bg-card:#111222;--border:rgba(255,255,255,0.07);--text:#dde1f0;--text-muted:#6b7099;--teal:#4ecdc4;--purple:#9b7fd4;--blue:#5b9bd5}
+    body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    .container{max-width:900px;margin:0 auto;padding:0 1.5rem}
+    header{background:#0d0e20;border-bottom:1px solid var(--border);padding:2rem 0}
+    .breadcrumb{color:var(--text-muted);font-size:0.85rem;margin-bottom:1rem}
+    .breadcrumb a{color:var(--teal);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}
+    .song-title{font-size:2rem;font-weight:700;margin-bottom:0.3rem}
+    .song-artist{font-size:1.1rem;color:var(--purple);font-weight:500}
+    .stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1rem;margin:2rem 0}
+    .stat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1rem;text-align:center}
+    .stat-val{font-size:1.5rem;font-weight:700;color:var(--teal)}
+    .stat-label{font-size:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-top:0.2rem}
+    .section-label{margin:2.5rem 0 1rem}.section-label h2{font-size:0.8rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--teal);font-weight:600}
+    .chart-card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem}
+    .chart-wrap{height:280px;position:relative}
+    .feature-bars{display:flex;flex-direction:column;gap:0.8rem;margin-top:1rem}
+    .feature-item{display:grid;grid-template-columns:130px 50px 1fr;align-items:center;gap:0.5rem}
+    .feature-label{font-size:0.85rem;color:var(--text-muted)}
+    .feature-val{font-size:0.85rem;font-weight:600;text-align:right}
+    .feature-track{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden}
+    .feature-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--teal),var(--purple))}
+    .prompt-lab{display:flex;flex-direction:column;gap:1.5rem;margin-bottom:2rem}
+    .prompt-lab-intro h3{font-size:1.3rem;font-weight:700;margin-bottom:0.5rem}
+    .prompt-lab-intro p{color:var(--text-muted);font-size:0.95rem;line-height:1.6}
+    .prompt-tabs{display:flex;gap:0.5rem;flex-wrap:wrap}
+    .prompt-tab{background:rgba(255,255,255,0.04);color:var(--text-muted);border:1px solid var(--border);border-radius:8px;padding:0.5rem 1.2rem;font-size:0.85rem;font-weight:500;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif}
+    .prompt-tab:hover{background:rgba(78,205,196,0.08);color:var(--text)}
+    .prompt-tab.active{background:rgba(78,205,196,0.15);color:var(--teal);border-color:rgba(78,205,196,0.3)}
+    .prompt-card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;position:relative}
+    .prompt-card-main{border-color:rgba(78,205,196,0.25);background:linear-gradient(135deg,rgba(78,205,196,0.04),rgba(155,127,212,0.04))}
+    .prompt-card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
+    .prompt-card-label{font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--teal);font-weight:600}
+    .prompt-hint{font-size:0.85rem;color:var(--text-muted);margin-bottom:0.8rem;line-height:1.5}
+    .prompt-hint strong{color:var(--text)}
+    .copy-btn{background:rgba(78,205,196,0.15);color:var(--teal);border:1px solid rgba(78,205,196,0.3);border-radius:8px;padding:0.4rem 1rem;font-size:0.8rem;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif}
+    .copy-btn:hover{background:rgba(78,205,196,0.25)}
+    .prompt-text{font-size:0.95rem;line-height:1.7;color:var(--text);font-family:'Inter',sans-serif}
+    .prompt-code{font-size:0.82rem;line-height:1.6;color:var(--teal);font-family:'JetBrains Mono','Fira Code',monospace;background:rgba(0,0,0,0.3);border-radius:8px;padding:1rem;overflow-x:auto;white-space:pre;margin:0}
+    footer{margin-top:3rem;padding:1.5rem 0;border-top:1px solid var(--border);text-align:center;color:var(--text-muted);font-size:0.8rem}
+    footer a{color:var(--teal);text-decoration:none}
+    @media(max-width:600px){.song-title{font-size:1.5rem}.stats-row{grid-template-columns:repeat(2,1fr)}.feature-item{grid-template-columns:100px 45px 1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="breadcrumb"><a href="/genres/techno/">Techno</a> &rarr; Song Analysis</div>
+    <div class="song-title">Around - Solomun Vox</div>
+    <div class="song-artist">Noir;Hayze;Solomun</div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-val">115</div><div class="stat-label">BPM</div></div>
+    <div class="stat-card"><div class="stat-val">C#/Db Major</div><div class="stat-label">Key</div></div>
+    <div class="stat-card"><div class="stat-val">34%</div><div class="stat-label">Energy</div></div>
+    <div class="stat-card"><div class="stat-val">6:58</div><div class="stat-label">Duration</div></div>
+    <div class="stat-card"><div class="stat-val">58</div><div class="stat-label">Popularity</div></div>
+  </div>
+
+  <div class="section-label"><h2>Audio Features</h2></div>
+  <div class="chart-card">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start">
+      <div class="chart-wrap" style="height:250px">
+        <canvas id="radarChart"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item"><div class="feature-label">Energy</div><div class="feature-val">34.5%</div><div class="feature-track"><div class="feature-fill" style="width:34%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Danceability</div><div class="feature-val">86.7%</div><div class="feature-track"><div class="feature-fill" style="width:87%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Valence</div><div class="feature-val">25.9%</div><div class="feature-track"><div class="feature-fill" style="width:26%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Acousticness</div><div class="feature-val">2.1%</div><div class="feature-track"><div class="feature-fill" style="width:2%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Instrumentalness</div><div class="feature-val">66.6%</div><div class="feature-track"><div class="feature-fill" style="width:67%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Speechiness</div><div class="feature-val">7.7%</div><div class="feature-track"><div class="feature-fill" style="width:8%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Loudness</div><div class="feature-val">-11.0 dB</div><div class="feature-track"><div class="feature-fill" style="width:82%"></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>&#x1f9ea; Recreate This Track</h3>
+      <p>Use these prompt ingredients with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service to recreate the vibe of <em>Around - Solomun Vox</em> by <em>Noir;Hayze;Solomun</em>.</p>
+    </div>
+
+    <div class="prompt-tabs">
+      <button class="prompt-tab active" onclick="switchTab(this,'general')">General</button>
+      <button class="prompt-tab" onclick="switchTab(this,'suno')">Suno</button>
+      <button class="prompt-tab" onclick="switchTab(this,'udio')">Udio</button>
+      <button class="prompt-tab" onclick="switchTab(this,'agent')">Agent JSON</button>
+    </div>
+
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-general">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Ready-to-Use Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">Copy</button>
+      </div>
+      <div class="prompt-text" id="promptGeneral">Create a techno track at 115 BPM in C#/Db Major. drum machine, analog synth, acid line. Mood: contemplative, moody. Style: polished, balanced, studio-quality. Target energy 34%, valence 26%.</div>
+    </div>
+
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-suno" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Suno Style Tags</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste into the <strong>Style of Music</strong> field. Set BPM to 115.</div>
+      <div class="prompt-text" id="promptSuno">techno, contemplative, moody, drum machine, analog synth, acid line, polished, balanced, studio-quality, 115 BPM</div>
+    </div>
+
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-udio" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Udio Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">Copy</button>
+      </div>
+      <div class="prompt-hint">Use manual mode to set BPM (115) and key (C#/Db Major).</div>
+      <div class="prompt-text" id="promptUdio">A techno track that feels contemplative, moody with drum machine, analog synth, acid line — polished, balanced, studio-quality in the style of Noir</div>
+    </div>
+
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-agent" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Structured Data for Agents</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">Copy</button>
+      </div>
+      <pre class="prompt-code" id="promptAgent">{
+  &quot;track_reference&quot;: {
+    &quot;title&quot;: &quot;Around - Solomun Vox&quot;,
+    &quot;artist&quot;: &quot;Noir;Hayze;Solomun&quot;
+  },
+  &quot;generation_params&quot;: {
+    &quot;bpm&quot;: 115,
+    &quot;key&quot;: &quot;C#/Db Major&quot;,
+    &quot;duration&quot;: &quot;6:58&quot;,
+    &quot;energy&quot;: 0.345,
+    &quot;valence&quot;: 0.259,
+    &quot;acousticness&quot;: 0.021,
+    &quot;instrumentalness&quot;: 0.666
+  },
+  &quot;style&quot;: {
+    &quot;genre&quot;: &quot;techno&quot;,
+    &quot;mood&quot;: &quot;contemplative, moody&quot;,
+    &quot;instruments&quot;: [
+      &quot;drum machine&quot;,
+      &quot;analog synth&quot;,
+      &quot;acid line&quot;
+    ],
+    &quot;production&quot;: &quot;polished, balanced, studio-quality&quot;
+  },
+  &quot;prompt&quot;: &quot;Create a techno track at 115 BPM in C#/Db Major. drum machine, analog synth, acid line. Mood: contemplative, moody. Style: polished, balanced, studio-quality. Target energy 34%, valence 26%.&quot;
+}</pre>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <p>Data from Spotify audio features. <a href="/genres/techno/">&larr; Back to Techno</a></p>
+    <p style="margin-top:0.3rem"><a href="/">kapiko.ai</a></p>
+  </div>
+</footer>
+
+<script>
+const ctx=document.getElementById('radarChart');
+if(ctx){new Chart(ctx,{type:'radar',data:{labels:['Energy','Danceability','Valence','Acousticness','Instrumentalness','Speechiness'],datasets:[{data:[0.345,0.867,0.259,0.021,0.666,0.077],backgroundColor:'rgba(78,205,196,0.15)',borderColor:'#4ecdc4',borderWidth:2,pointBackgroundColor:'#4ecdc4',pointRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{r:{beginAtZero:true,max:1,ticks:{display:false},grid:{color:'rgba(255,255,255,0.06)'},pointLabels:{color:'#6b7099',font:{size:11}},angleLines:{color:'rgba(255,255,255,0.06)'}}}}})};
+function copyPrompt(btn){const id=btn.getAttribute('data-target');const text=document.getElementById(id).textContent;navigator.clipboard.writeText(text).then(()=>{btn.textContent='Copied!';btn.style.background='rgba(78,205,196,0.3)';setTimeout(()=>{btn.textContent='Copy';btn.style.background=''},2000)})}
+function switchTab(btn,panel){document.querySelectorAll('.prompt-tab').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.prompt-panel').forEach(p=>p.style.display='none');btn.classList.add('active');const el=document.getElementById('panel-'+panel);if(el)el.style.display=''}
+</script>
+</body>
+</html>

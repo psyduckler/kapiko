@@ -10,7 +10,7 @@ import json, os, sys, re, html as H
 from pathlib import Path
 
 SITE = Path.home() / 'kapiko' / 'site'
-GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop']
+GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop','blues','metal','funk','disco','reggae','punk','house','techno','trance','deep-house','dubstep','k-pop','latin','afrobeat','j-pop','alt-rock','grunge','hard-rock','singer-songwriter','indie-pop']
 
 def esc(t): return H.escape(str(t))
 
@@ -53,6 +53,26 @@ def infer_instruments(genre, acousticness, instrumentalness, energy):
         'reggaeton': ['dembow beat','808 bass','synth stabs'],
         'synth-pop': ['analog synth','drum machine','arpeggiator'],
         'trip-hop': ['breakbeats','jazz samples','deep bass'],
+        'blues': ['electric guitar','harmonica','bass guitar'],
+        'metal': ['distorted guitar','double bass drum','bass guitar'],
+        'funk': ['slap bass','clavinet','wah-wah guitar'],
+        'disco': ['string section','rhythm guitar','bass guitar'],
+        'reggae': ['skank guitar','deep bass','organ'],
+        'punk': ['power chords','fast drums','distorted bass'],
+        'house': ['four-on-the-floor kick','hi-hats','synth chords'],
+        'techno': ['drum machine','analog synth','acid line'],
+        'trance': ['supersaw synth','pluck leads','ethereal pads'],
+        'deep-house': ['warm bass','jazz chords','soft pads'],
+        'dubstep': ['wobble bass','sub-bass','synth risers'],
+        'k-pop': ['synth','programmed drums','vocal harmonies'],
+        'latin': ['congas','timbales','acoustic guitar'],
+        'afrobeat': ['talking drum','horn section','rhythm guitar'],
+        'j-pop': ['synth','electric guitar','piano'],
+        'alt-rock': ['distorted guitar','bass','reverb effects'],
+        'grunge': ['heavy distortion guitar','pounding drums','bass'],
+        'hard-rock': ['overdriven guitar','power chords','heavy drums'],
+        'singer-songwriter': ['acoustic guitar','piano','soft vocals'],
+        'indie-pop': ['jangly guitar','synth pads','drum machine'],
     }.get(genre, ['various instruments'])
     return ', '.join(base)
 

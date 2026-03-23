@@ -1,0 +1,2797 @@
+{
+  "genre": "Latin",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 77.281,
+    "max": 179.984,
+    "mean": 121.367,
+    "median": 114.66,
+    "q1": 98.002,
+    "q3": 130.067,
+    "histogram": {
+      "70-79": 2,
+      "80-89": 1,
+      "90-99": 28,
+      "100-109": 15,
+      "110-119": 8,
+      "120-129": 18,
+      "130-139": 9,
+      "160-169": 7,
+      "170-179": 12
+    }
+  },
+  "key_distribution": {
+    "C#/Db": 16,
+    "B": 14,
+    "C": 13,
+    "F#/Gb": 10,
+    "G": 9,
+    "A#/Bb": 8,
+    "G#/Ab": 8,
+    "F": 6,
+    "D": 6,
+    "E": 4,
+    "A": 4,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Minor": 52,
+    "Major": 48
+  },
+  "key_mode_distribution": {
+    "C#/Db Minor": 11,
+    "B Minor": 11,
+    "C Major": 9,
+    "G Major": 7,
+    "D Major": 6,
+    "F#/Gb Major": 6,
+    "F Minor": 5,
+    "C#/Db Major": 5,
+    "G#/Ab Major": 5,
+    "A#/Bb Major": 4,
+    "A#/Bb Minor": 4,
+    "E Minor": 4,
+    "F#/Gb Minor": 4,
+    "C Minor": 4,
+    "G#/Ab Minor": 3,
+    "B Major": 3,
+    "G Minor": 2,
+    "D#/Eb Minor": 2,
+    "A Minor": 2,
+    "A Major": 2,
+    "F Major": 1
+  },
+  "energy": {
+    "min": 0.301,
+    "max": 0.97,
+    "mean": 0.735,
+    "median": 0.758,
+    "q1": 0.67,
+    "q3": 0.828
+  },
+  "valence": {
+    "min": 0.121,
+    "max": 0.961,
+    "mean": 0.611,
+    "median": 0.653,
+    "q1": 0.449,
+    "q3": 0.787
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.679,
+      "valence": 0.85
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.425
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.187
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.234
+    },
+    {
+      "energy": 0.686,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.292
+    },
+    {
+      "energy": 0.498,
+      "valence": 0.428
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.419
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.461
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.575
+    },
+    {
+      "energy": 0.766,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.824,
+      "valence": 0.758
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.554
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.741
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.868
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.839
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.787
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.794
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.656
+    },
+    {
+      "energy": 0.539,
+      "valence": 0.158
+    },
+    {
+      "energy": 0.872,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.121
+    },
+    {
+      "energy": 0.807,
+      "valence": 0.892
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.907
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.631
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.871
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.917
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.889
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.69,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.766,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.933
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.301,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.816,
+      "valence": 0.816
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.84,
+      "valence": 0.839
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.308
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.159
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.643
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.896
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.658
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.765
+    },
+    {
+      "energy": 0.609,
+      "valence": 0.476
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.924
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.667
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.68
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.73
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.732
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.469
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.945
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.597
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.576
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.746
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.746
+    },
+    {
+      "energy": 0.579,
+      "valence": 0.7
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.863
+    },
+    {
+      "energy": 0.544,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.577,
+      "valence": 0.318
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.75
+    },
+    {
+      "energy": 0.844,
+      "valence": 0.868
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.956
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.23
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.691
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.733
+    },
+    {
+      "energy": 0.838,
+      "valence": 0.829
+    },
+    {
+      "energy": 0.441,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.794,
+      "valence": 0.694
+    }
+  ],
+  "acousticness": {
+    "min": 0.003,
+    "max": 0.583,
+    "mean": 0.131,
+    "median": 0.09,
+    "q1": 0.028,
+    "q3": 0.198
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.517,
+    "mean": 0.014,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.583,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.294,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.071,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.21,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.298,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.234,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.284,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.401,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.322,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.166,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.401,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.165,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.187,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.429,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.122,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.323,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.443,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.165,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.195,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.105,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.228,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.105,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.174,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.226,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.417
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.305,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.352,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.15,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.166,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.156,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.233,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.304,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.233,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.119,
+      "instrumentalness": 0.126
+    },
+    {
+      "acousticness": 0.208,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.28,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.487,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.098
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.168
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.324,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.517
+    },
+    {
+      "acousticness": 0.152,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 130666,
+    "max": 303626,
+    "mean": 207880.49,
+    "median": 203233.0,
+    "q1": 191000,
+    "q3": 229640
+  },
+  "danceability": {
+    "min": 0.346,
+    "max": 0.924,
+    "mean": 0.745,
+    "median": 0.76,
+    "q1": 0.694,
+    "q3": 0.826
+  },
+  "loudness": {
+    "min": -11.361,
+    "max": -2.652,
+    "mean": -5.123,
+    "median": -4.88,
+    "q1": -5.899,
+    "q3": -3.827
+  },
+  "speechiness": {
+    "min": 0.029,
+    "max": 0.448,
+    "mean": 0.099,
+    "median": 0.059,
+    "q1": 0.048,
+    "q3": 0.107
+  },
+  "top_artists": [
+    {
+      "name": "Ozuna",
+      "count": 22
+    },
+    {
+      "name": "Bad Bunny",
+      "count": 10
+    },
+    {
+      "name": "Enrique Iglesias",
+      "count": 10
+    },
+    {
+      "name": "Daddy Yankee",
+      "count": 9
+    },
+    {
+      "name": "Shakira",
+      "count": 8
+    },
+    {
+      "name": "J Balvin",
+      "count": 7
+    },
+    {
+      "name": "Luis Fonsi",
+      "count": 5
+    },
+    {
+      "name": "Farruko",
+      "count": 4
+    },
+    {
+      "name": "Nelly Furtado",
+      "count": 4
+    },
+    {
+      "name": "Rauw Alejandro",
+      "count": 3
+    },
+    {
+      "name": "Willy William",
+      "count": 3
+    },
+    {
+      "name": "Chencho Corleone",
+      "count": 2
+    },
+    {
+      "name": "Jhayco",
+      "count": 2
+    },
+    {
+      "name": "Zion & Lennox",
+      "count": 2
+    },
+    {
+      "name": "Chris Brown",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "La Bachata",
+      "artists": "Manuel Turizo",
+      "album": "La Bachata",
+      "popularity": 98,
+      "tempo": 125.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.679,
+      "valence": 0.85,
+      "danceability": 0.835,
+      "acousticness": 0.583,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.036,
+      "duration_ms": 162637,
+      "slug": "la-bachata-manuel-turizo"
+    },
+    {
+      "name": "Me Porto Bonito",
+      "artists": "Bad Bunny;Chencho Corleone",
+      "album": "Un Verano Sin Ti",
+      "popularity": 97,
+      "tempo": 92.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.712,
+      "valence": 0.425,
+      "danceability": 0.911,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.082,
+      "duration_ms": 178567,
+      "slug": "me-porto-bonito-bad-bunny"
+    },
+    {
+      "name": "Tit\u00ed Me Pregunt\u00f3",
+      "artists": "Bad Bunny",
+      "album": "Un Verano Sin Ti",
+      "popularity": 97,
+      "tempo": 106.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.715,
+      "valence": 0.187,
+      "danceability": 0.65,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.253,
+      "duration_ms": 243716,
+      "slug": "tit\u00ed-me-pregunt\u00f3-bad-bunny"
+    },
+    {
+      "name": "Efecto",
+      "artists": "Bad Bunny",
+      "album": "Un Verano Sin Ti",
+      "popularity": 96,
+      "tempo": 98.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.475,
+      "valence": 0.234,
+      "danceability": 0.801,
+      "acousticness": 0.141,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.052,
+      "duration_ms": 213061,
+      "slug": "efecto-bad-bunny"
+    },
+    {
+      "name": "Ojitos Lindos",
+      "artists": "Bad Bunny;Bomba Est\u00e9reo",
+      "album": "Un Verano Sin Ti",
+      "popularity": 95,
+      "tempo": 79.9,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.686,
+      "valence": 0.268,
+      "danceability": 0.647,
+      "acousticness": 0.08,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.041,
+      "duration_ms": 258298,
+      "slug": "ojitos-lindos-bad-bunny"
+    },
+    {
+      "name": "Moscow Mule",
+      "artists": "Bad Bunny",
+      "album": "Un Verano Sin Ti",
+      "popularity": 94,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.674,
+      "valence": 0.292,
+      "danceability": 0.804,
+      "acousticness": 0.294,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.033,
+      "duration_ms": 245939,
+      "slug": "moscow-mule-bad-bunny"
+    },
+    {
+      "name": "Neverita",
+      "artists": "Bad Bunny",
+      "album": "Un Verano Sin Ti",
+      "popularity": 93,
+      "tempo": 122.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.498,
+      "valence": 0.428,
+      "danceability": 0.876,
+      "acousticness": 0.071,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.048,
+      "duration_ms": 173119,
+      "slug": "neverita-bad-bunny"
+    },
+    {
+      "name": "LOKERA",
+      "artists": "Rauw Alejandro;Lyanno;Brray",
+      "album": "LOKERA",
+      "popularity": 91,
+      "tempo": 102.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.58,
+      "danceability": 0.834,
+      "acousticness": 0.21,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.045,
+      "duration_ms": 195294,
+      "slug": "lokera-rauw-alejandro"
+    },
+    {
+      "name": "Tarot",
+      "artists": "Bad Bunny;Jhayco",
+      "album": "Un Verano Sin Ti",
+      "popularity": 91,
+      "tempo": 114.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.684,
+      "valence": 0.419,
+      "danceability": 0.795,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.042,
+      "duration_ms": 237894,
+      "slug": "tarot-bad-bunny"
+    },
+    {
+      "name": "Caile",
+      "artists": "Luar La L",
+      "album": "L3tra",
+      "popularity": 91,
+      "tempo": 121.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.756,
+      "valence": 0.461,
+      "danceability": 0.704,
+      "acousticness": 0.298,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.448,
+      "duration_ms": 141340,
+      "slug": "caile-luar-la-l"
+    },
+    {
+      "name": "Te Felicito",
+      "artists": "Shakira;Rauw Alejandro",
+      "album": "Te Felicito",
+      "popularity": 90,
+      "tempo": 174.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.636,
+      "valence": 0.575,
+      "danceability": 0.695,
+      "acousticness": 0.234,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.317,
+      "duration_ms": 172235,
+      "slug": "te-felicito-shakira"
+    },
+    {
+      "name": "Pepas",
+      "artists": "Farruko",
+      "album": "Pepas",
+      "popularity": 86,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.766,
+      "valence": 0.442,
+      "danceability": 0.762,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.034,
+      "duration_ms": 287120,
+      "slug": "pepas-farruko"
+    },
+    {
+      "name": "Hips Don't Lie (feat. Wyclef Jean)",
+      "artists": "Shakira;Wyclef Jean",
+      "album": "Oral Fixation, Vol. 2 (Expanded Edition)",
+      "popularity": 84,
+      "tempo": 100.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.824,
+      "valence": 0.758,
+      "danceability": 0.778,
+      "acousticness": 0.284,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.071,
+      "duration_ms": 218093,
+      "slug": "hips-dont-lie-feat-wyclef-jean-shakira"
+    },
+    {
+      "name": "Yo Voy (feat. Daddy Yankee)",
+      "artists": "Zion & Lennox",
+      "album": "Motivando a la Yal",
+      "popularity": 84,
+      "tempo": 95.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.697,
+      "valence": 0.554,
+      "danceability": 0.808,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.241,
+      "duration_ms": 232019,
+      "slug": "yo-voy-feat-daddy-yankee-zion-lennox"
+    },
+    {
+      "name": "D\u00c1KITI",
+      "artists": "Bad Bunny;Jhayco",
+      "album": "D\u00c1KITI",
+      "popularity": 83,
+      "tempo": 109.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.573,
+      "valence": 0.145,
+      "danceability": 0.731,
+      "acousticness": 0.401,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.054,
+      "duration_ms": 205090,
+      "slug": "d\u00e1kiti-bad-bunny"
+    },
+    {
+      "name": "Gasolina",
+      "artists": "Daddy Yankee",
+      "album": "Barrio Fino (Bonus Track Version)",
+      "popularity": 82,
+      "tempo": 96.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.741,
+      "danceability": 0.852,
+      "acousticness": 0.322,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.061,
+      "duration_ms": 192600,
+      "slug": "gasolina-daddy-yankee"
+    },
+    {
+      "name": "Promiscuous",
+      "artists": "Nelly Furtado;Timbaland",
+      "album": "Loose",
+      "popularity": 82,
+      "tempo": 114.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.97,
+      "valence": 0.868,
+      "danceability": 0.808,
+      "acousticness": 0.057,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.051,
+      "duration_ms": 242293,
+      "slug": "promiscuous-nelly-furtado"
+    },
+    {
+      "name": "Despacito",
+      "artists": "Luis Fonsi;Daddy Yankee",
+      "album": "VIDA",
+      "popularity": 80,
+      "tempo": 177.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.839,
+      "danceability": 0.655,
+      "acousticness": 0.198,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.153,
+      "duration_ms": 229360,
+      "slug": "despacito-luis-fonsi"
+    },
+    {
+      "name": "Nost\u00e1lgico",
+      "artists": "Rvssian;Rauw Alejandro;Chris Brown",
+      "album": "Nost\u00e1lgico",
+      "popularity": 80,
+      "tempo": 98.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.846,
+      "valence": 0.604,
+      "danceability": 0.734,
+      "acousticness": 0.166,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.049,
+      "duration_ms": 209883,
+      "slug": "nost\u00e1lgico-rvssian"
+    },
+    {
+      "name": "Maneater",
+      "artists": "Nelly Furtado",
+      "album": "Loose",
+      "popularity": 80,
+      "tempo": 132.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.777,
+      "valence": 0.787,
+      "danceability": 0.796,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.04,
+      "duration_ms": 258893,
+      "slug": "maneater-nelly-furtado"
+    },
+    {
+      "name": "D\u00c1KITI",
+      "artists": "Bad Bunny;Jhay Cortez",
+      "album": "EL \u00daLTIMO TOUR DEL MUNDO",
+      "popularity": 80,
+      "tempo": 109.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.573,
+      "valence": 0.145,
+      "danceability": 0.731,
+      "acousticness": 0.401,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.054,
+      "duration_ms": 205090,
+      "slug": "d\u00e1kiti-bad-bunny"
+    },
+    {
+      "name": "1, 2, 3 (feat. Jason Derulo & De La Ghetto)",
+      "artists": "Sof\u00eda Reyes;Jason Derulo;De La Ghetto",
+      "album": "1, 2, 3 (feat. Jason Derulo & De La Ghetto)",
+      "popularity": 79,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.895,
+      "valence": 0.794,
+      "danceability": 0.792,
+      "acousticness": 0.165,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.059,
+      "duration_ms": 201526,
+      "slug": "1-2-3-feat-jason-derulo-de-la-ghetto-sof\u00eda-reyes"
+    },
+    {
+      "name": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground)",
+      "artists": "Shakira;Freshlyground",
+      "album": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground)",
+      "popularity": 79,
+      "tempo": 127.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.873,
+      "valence": 0.743,
+      "danceability": 0.766,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.143,
+      "duration_ms": 202626,
+      "slug": "waka-waka-this-time-for-africa-the-official-2010-fifa-world-cup-tm-song-feat-fre"
+    },
+    {
+      "name": "Con Calma",
+      "artists": "Daddy Yankee;Snow",
+      "album": "Con Calma",
+      "popularity": 79,
+      "tempo": 94.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.86,
+      "valence": 0.656,
+      "danceability": 0.737,
+      "acousticness": 0.11,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.059,
+      "duration_ms": 193226,
+      "slug": "con-calma-daddy-yankee"
+    },
+    {
+      "name": "MIA (feat. Drake)",
+      "artists": "Bad Bunny;Drake",
+      "album": "MIA (feat. Drake)",
+      "popularity": 79,
+      "tempo": 97.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.539,
+      "valence": 0.158,
+      "danceability": 0.817,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.062,
+      "duration_ms": 210367,
+      "slug": "mia-feat-drake-bad-bunny"
+    },
+    {
+      "name": "Say It Right",
+      "artists": "Nelly Furtado",
+      "album": "Loose",
+      "popularity": 79,
+      "tempo": 116.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.872,
+      "valence": 0.809,
+      "danceability": 0.872,
+      "acousticness": 0.048,
+      "instrumentalness": 0.001,
+      "loudness": -6.3,
+      "speechiness": 0.139,
+      "duration_ms": 223080,
+      "slug": "say-it-right-nelly-furtado"
+    },
+    {
+      "name": "Shower",
+      "artists": "Becky G",
+      "album": "Shower",
+      "popularity": 78,
+      "tempo": 120.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.529,
+      "valence": 0.121,
+      "danceability": 0.699,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.049,
+      "duration_ms": 206166,
+      "slug": "shower-becky-g"
+    },
+    {
+      "name": "Mambo No. 5 (a Little Bit of...)",
+      "artists": "Lou Bega",
+      "album": "A Little Bit of Mambo",
+      "popularity": 77,
+      "tempo": 174.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.807,
+      "valence": 0.892,
+      "danceability": 0.622,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.408,
+      "duration_ms": 220293,
+      "slug": "mambo-no-5-a-little-bit-of-lou-bega"
+    },
+    {
+      "name": "Chantaje (feat. Maluma)",
+      "artists": "Shakira;Maluma",
+      "album": "El Dorado",
+      "popularity": 76,
+      "tempo": 102.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.773,
+      "valence": 0.907,
+      "danceability": 0.852,
+      "acousticness": 0.187,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.078,
+      "duration_ms": 195840,
+      "slug": "chantaje-feat-maluma-shakira"
+    },
+    {
+      "name": "Hey Mor",
+      "artists": "Ozuna;Feid",
+      "album": "OzuTochi",
+      "popularity": 76,
+      "tempo": 98.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.589,
+      "valence": 0.399,
+      "danceability": 0.901,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.289,
+      "duration_ms": 196600,
+      "slug": "hey-mor-ozuna"
+    },
+    {
+      "name": "A Gangster's Wife",
+      "artists": "Ms Krazie;Chino Grande",
+      "album": "Smile Now Cry Never",
+      "popularity": 75,
+      "tempo": 90.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.59,
+      "valence": 0.383,
+      "danceability": 0.822,
+      "acousticness": 0.429,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.18,
+      "duration_ms": 229640,
+      "slug": "a-gangsters-wife-ms-krazie"
+    },
+    {
+      "name": "In Da Getto",
+      "artists": "J Balvin;Skrillex",
+      "album": "In Da Getto",
+      "popularity": 75,
+      "tempo": 127.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.72,
+      "valence": 0.631,
+      "danceability": 0.915,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.046,
+      "duration_ms": 131065,
+      "slug": "in-da-getto-j-balvin"
+    },
+    {
+      "name": "Whenever, Wherever",
+      "artists": "Shakira",
+      "album": "Laundry Service",
+      "popularity": 75,
+      "tempo": 107.7,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.832,
+      "valence": 0.871,
+      "danceability": 0.794,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.041,
+      "duration_ms": 196160,
+      "slug": "whenever-wherever-shakira"
+    },
+    {
+      "name": "Del Mar",
+      "artists": "Ozuna;Doja Cat;Sia",
+      "album": "Enoc",
+      "popularity": 75,
+      "tempo": 110.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.636,
+      "valence": 0.536,
+      "danceability": 0.759,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.037,
+      "duration_ms": 214506,
+      "slug": "del-mar-ozuna"
+    },
+    {
+      "name": "Can't Remember to Forget You (feat. Rihanna)",
+      "artists": "Shakira;Rihanna",
+      "album": "Shakira. (Expanded Edition)",
+      "popularity": 75,
+      "tempo": 138.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.81,
+      "valence": 0.824,
+      "danceability": 0.694,
+      "acousticness": 0.122,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.066,
+      "duration_ms": 206866,
+      "slug": "cant-remember-to-forget-you-feat-rihanna-shakira"
+    },
+    {
+      "name": "Hey Mor",
+      "artists": "Ozuna;Feid",
+      "album": "Hey Mor",
+      "popularity": 75,
+      "tempo": 98.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.589,
+      "valence": 0.399,
+      "danceability": 0.901,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.289,
+      "duration_ms": 196600,
+      "slug": "hey-mor-ozuna"
+    },
+    {
+      "name": "Limbo",
+      "artists": "Daddy Yankee",
+      "album": "Prestige",
+      "popularity": 75,
+      "tempo": 125.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.875,
+      "valence": 0.917,
+      "danceability": 0.806,
+      "acousticness": 0.084,
+      "instrumentalness": 0.002,
+      "loudness": -3.8,
+      "speechiness": 0.088,
+      "duration_ms": 224693,
+      "slug": "limbo-daddy-yankee"
+    },
+    {
+      "name": "Danza Kuduro",
+      "artists": "Don Omar;Lucenzo",
+      "album": "Meet The Orphans",
+      "popularity": 74,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.889,
+      "danceability": 0.699,
+      "acousticness": 0.078,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.115,
+      "duration_ms": 198786,
+      "slug": "danza-kuduro-don-omar"
+    },
+    {
+      "name": "X",
+      "artists": "Nicky Jam;J Balvin",
+      "album": "Intimo",
+      "popularity": 74,
+      "tempo": 180.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.749,
+      "valence": 0.694,
+      "danceability": 0.594,
+      "acousticness": 0.034,
+      "instrumentalness": 0.001,
+      "loudness": -5.3,
+      "speechiness": 0.056,
+      "duration_ms": 172854,
+      "slug": "x-nicky-jam"
+    },
+    {
+      "name": "Calma - Remix",
+      "artists": "Pedro Cap\u00f3;Farruko",
+      "album": "Calma (Remix)",
+      "popularity": 74,
+      "tempo": 126.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.773,
+      "valence": 0.761,
+      "danceability": 0.826,
+      "acousticness": 0.323,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.052,
+      "duration_ms": 238200,
+      "slug": "calma-remix-pedro-cap\u00f3"
+    },
+    {
+      "name": "El Perd\u00f3n (with Enrique Iglesias)",
+      "artists": "Nicky Jam;Enrique Iglesias",
+      "album": "F\u00e9nix",
+      "popularity": 74,
+      "tempo": 179.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.69,
+      "valence": 0.66,
+      "danceability": 0.628,
+      "acousticness": 0.443,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.051,
+      "duration_ms": 205906,
+      "slug": "el-perd\u00f3n-with-enrique-iglesias-nicky-jam"
+    },
+    {
+      "name": "Pepas",
+      "artists": "Farruko",
+      "album": "La 167",
+      "popularity": 74,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.766,
+      "valence": 0.442,
+      "danceability": 0.762,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.034,
+      "duration_ms": 287120,
+      "slug": "pepas-farruko"
+    },
+    {
+      "name": "Livin' la Vida Loca",
+      "artists": "Ricky Martin",
+      "album": "Ricky Martin",
+      "popularity": 74,
+      "tempo": 178.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.954,
+      "valence": 0.933,
+      "danceability": 0.425,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.048,
+      "duration_ms": 243160,
+      "slug": "livin-la-vida-loca-ricky-martin"
+    },
+    {
+      "name": "1, 2, 3 (feat. Jason Derulo & De La Ghetto)",
+      "artists": "Sof\u00eda Reyes;Jason Derulo;De La Ghetto",
+      "album": "Mal De Amores",
+      "popularity": 73,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.895,
+      "valence": 0.793,
+      "danceability": 0.792,
+      "acousticness": 0.165,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.059,
+      "duration_ms": 201526,
+      "slug": "1-2-3-feat-jason-derulo-de-la-ghetto-sof\u00eda-reyes"
+    },
+    {
+      "name": "\u00c9chame La Culpa",
+      "artists": "Luis Fonsi;Demi Lovato",
+      "album": "VIDA",
+      "popularity": 73,
+      "tempo": 96.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.897,
+      "valence": 0.649,
+      "danceability": 0.733,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.039,
+      "duration_ms": 173800,
+      "slug": "\u00e9chame-la-culpa-luis-fonsi"
+    },
+    {
+      "name": "Easy",
+      "artists": "DaniLeigh;Chris Brown",
+      "album": "Easy (Remix)",
+      "popularity": 73,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.301,
+      "valence": 0.511,
+      "danceability": 0.799,
+      "acousticness": 0.195,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.185,
+      "duration_ms": 186586,
+      "slug": "easy-danileigh"
+    },
+    {
+      "name": "Ma\u00f1ana",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 73,
+      "tempo": 91.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.692,
+      "danceability": 0.865,
+      "acousticness": 0.105,
+      "instrumentalness": 0.015,
+      "loudness": -4.6,
+      "speechiness": 0.076,
+      "duration_ms": 192320,
+      "slug": "ma\u00f1ana-ozuna"
+    },
+    {
+      "name": "Despacito - Remix",
+      "artists": "Luis Fonsi;Daddy Yankee;Justin Bieber",
+      "album": "Despacito Feat. Justin Bieber (Remix)",
+      "popularity": 72,
+      "tempo": 178.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.816,
+      "valence": 0.816,
+      "danceability": 0.653,
+      "acousticness": 0.228,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.167,
+      "duration_ms": 228826,
+      "slug": "despacito-remix-luis-fonsi"
+    },
+    {
+      "name": "Mi Gente",
+      "artists": "J Balvin;Willy William",
+      "album": "Vibras",
+      "popularity": 72,
+      "tempo": 104.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.704,
+      "valence": 0.288,
+      "danceability": 0.548,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.078,
+      "duration_ms": 185040,
+      "slug": "mi-gente-j-balvin"
+    },
+    {
+      "name": "Haw\u00e1i - Remix",
+      "artists": "Maluma;The Weeknd",
+      "album": "Haw\u00e1i (Remix)",
+      "popularity": 72,
+      "tempo": 180.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.788,
+      "valence": 0.609,
+      "danceability": 0.766,
+      "acousticness": 0.105,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.312,
+      "duration_ms": 200481,
+      "slug": "haw\u00e1i-remix-maluma"
+    },
+    {
+      "name": "Dura",
+      "artists": "Daddy Yankee",
+      "album": "Dura",
+      "popularity": 72,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.84,
+      "valence": 0.839,
+      "danceability": 0.783,
+      "acousticness": 0.174,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.051,
+      "duration_ms": 200480,
+      "slug": "dura-daddy-yankee"
+    },
+    {
+      "name": "Mi Gente",
+      "artists": "J Balvin;Willy William",
+      "album": "Mi Gente",
+      "popularity": 70,
+      "tempo": 105.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.687,
+      "valence": 0.308,
+      "danceability": 0.774,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.058,
+      "duration_ms": 189440,
+      "slug": "mi-gente-j-balvin"
+    },
+    {
+      "name": "Despacito - Remix",
+      "artists": "Luis Fonsi;Daddy Yankee;Justin Bieber",
+      "album": "VIDA",
+      "popularity": 70,
+      "tempo": 177.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.857,
+      "danceability": 0.649,
+      "acousticness": 0.226,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.178,
+      "duration_ms": 230413,
+      "slug": "despacito-remix-luis-fonsi"
+    },
+    {
+      "name": "Hero",
+      "artists": "Enrique Iglesias",
+      "album": "Escape",
+      "popularity": 70,
+      "tempo": 77.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.641,
+      "valence": 0.159,
+      "danceability": 0.346,
+      "acousticness": 0.136,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.05,
+      "duration_ms": 264240,
+      "slug": "hero-enrique-iglesias"
+    },
+    {
+      "name": "In Da Getto",
+      "artists": "J Balvin;Skrillex",
+      "album": "JOSE",
+      "popularity": 70,
+      "tempo": 127.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.643,
+      "danceability": 0.924,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.047,
+      "duration_ms": 130666,
+      "slug": "in-da-getto-j-balvin"
+    },
+    {
+      "name": "Danza Kuduro",
+      "artists": "Don Omar;Lucenzo",
+      "album": "Fast Five (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 130.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.896,
+      "danceability": 0.701,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.081,
+      "duration_ms": 198386,
+      "slug": "danza-kuduro-don-omar"
+    },
+    {
+      "name": "Viaje",
+      "artists": "Farruko",
+      "album": "Viaje",
+      "popularity": 70,
+      "tempo": 122.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.799,
+      "valence": 0.658,
+      "danceability": 0.705,
+      "acousticness": 0.036,
+      "instrumentalness": 0.417,
+      "loudness": -4.8,
+      "speechiness": 0.035,
+      "duration_ms": 303626,
+      "slug": "viaje-farruko"
+    },
+    {
+      "name": "Say It Right - Sped Up Remix",
+      "artists": "Nelly Furtado;Speed Radio",
+      "album": "Say It Right (Sped Up Remix)",
+      "popularity": 70,
+      "tempo": 134.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.941,
+      "valence": 0.765,
+      "danceability": 0.849,
+      "acousticness": 0.027,
+      "instrumentalness": 0.007,
+      "loudness": -6.4,
+      "speechiness": 0.223,
+      "duration_ms": 194160,
+      "slug": "say-it-right-sped-up-remix-nelly-furtado"
+    },
+    {
+      "name": "Try Everything",
+      "artists": "Shakira",
+      "album": "Zootopia (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 115.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.609,
+      "valence": 0.476,
+      "danceability": 0.705,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.031,
+      "duration_ms": 196853,
+      "slug": "try-everything-shakira"
+    },
+    {
+      "name": "LONDON (feat. J. Cole)",
+      "artists": "BIA;J. Cole",
+      "album": "LONDON (feat. J. Cole)",
+      "popularity": 70,
+      "tempo": 132.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.671,
+      "valence": 0.563,
+      "danceability": 0.644,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.315,
+      "duration_ms": 250722,
+      "slug": "london-feat-j-cole-bia"
+    },
+    {
+      "name": "SUBEME LA RADIO (feat. Descemer Bueno & Zion & Lennox)",
+      "artists": "Enrique Iglesias;Descemer Bueno;Zion & Lennox",
+      "album": "SUBEME LA RADIO (feat. Descemer Bueno & Zion & Lennox)",
+      "popularity": 70,
+      "tempo": 91.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.66,
+      "danceability": 0.688,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.054,
+      "duration_ms": 207680,
+      "slug": "subeme-la-radio-feat-descemer-bueno-zion-lennox-enrique-iglesias"
+    },
+    {
+      "name": "Ram Pam Pam",
+      "artists": "Natti Natasha;Becky G",
+      "album": "Ram Pam Pam",
+      "popularity": 69,
+      "tempo": 97.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.813,
+      "valence": 0.924,
+      "danceability": 0.908,
+      "acousticness": 0.305,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.078,
+      "duration_ms": 200785,
+      "slug": "ram-pam-pam-natti-natasha"
+    },
+    {
+      "name": "Celoso",
+      "artists": "Lele Pons",
+      "album": "Celoso",
+      "popularity": 67,
+      "tempo": 166.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.703,
+      "valence": 0.667,
+      "danceability": 0.746,
+      "acousticness": 0.352,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.107,
+      "duration_ms": 179693,
+      "slug": "celoso-lele-pons"
+    },
+    {
+      "name": "Reggaet\u00f3n Lento (Remix)",
+      "artists": "CNCO;Little Mix",
+      "album": "CNCO",
+      "popularity": 66,
+      "tempo": 93.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.911,
+      "valence": 0.624,
+      "danceability": 0.534,
+      "acousticness": 0.15,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.085,
+      "duration_ms": 188800,
+      "slug": "reggaet\u00f3n-lento-remix-cnco"
+    },
+    {
+      "name": "Te Pienso",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 66,
+      "tempo": 163.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.533,
+      "valence": 0.676,
+      "danceability": 0.668,
+      "acousticness": 0.117,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.098,
+      "duration_ms": 147760,
+      "slug": "te-pienso-ozuna"
+    },
+    {
+      "name": "Ma\u00f1ana",
+      "artists": "Ozuna",
+      "album": "Ma\u00f1ana",
+      "popularity": 65,
+      "tempo": 91.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.542,
+      "valence": 0.68,
+      "danceability": 0.865,
+      "acousticness": 0.118,
+      "instrumentalness": 0.013,
+      "loudness": -3.8,
+      "speechiness": 0.075,
+      "duration_ms": 192321,
+      "slug": "ma\u00f1ana-ozuna"
+    },
+    {
+      "name": "Tonight (I'm Fuckin' You)",
+      "artists": "Enrique Iglesias;Ludacris;DJ Frank E",
+      "album": "Euphoria",
+      "popularity": 64,
+      "tempo": 126.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.89,
+      "valence": 0.321,
+      "danceability": 0.648,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.052,
+      "duration_ms": 232213,
+      "slug": "tonight-im-fuckin-you-enrique-iglesias"
+    },
+    {
+      "name": "I Like It",
+      "artists": "Enrique Iglesias;Pitbull",
+      "album": "Euphoria",
+      "popularity": 64,
+      "tempo": 129.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.942,
+      "valence": 0.73,
+      "danceability": 0.648,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.088,
+      "duration_ms": 231373,
+      "slug": "i-like-it-enrique-iglesias"
+    },
+    {
+      "name": "Con Calma - Remix",
+      "artists": "Daddy Yankee;Katy Perry;Snow",
+      "album": "Con Calma (Remix)",
+      "popularity": 64,
+      "tempo": 94.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.868,
+      "valence": 0.613,
+      "danceability": 0.736,
+      "acousticness": 0.166,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.045,
+      "duration_ms": 181280,
+      "slug": "con-calma-remix-daddy-yankee"
+    },
+    {
+      "name": "Favorita",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 64,
+      "tempo": 170.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.489,
+      "valence": 0.732,
+      "danceability": 0.783,
+      "acousticness": 0.141,
+      "instrumentalness": 0.009,
+      "loudness": -4.9,
+      "speechiness": 0.096,
+      "duration_ms": 208133,
+      "slug": "favorita-ozuna"
+    },
+    {
+      "name": "Mi Gente (feat. Beyonc\u00e9)",
+      "artists": "J Balvin;Willy William;Beyonc\u00e9",
+      "album": "Mi Gente (feat. Beyonc\u00e9)",
+      "popularity": 64,
+      "tempo": 105.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.716,
+      "valence": 0.469,
+      "danceability": 0.759,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.082,
+      "duration_ms": 209733,
+      "slug": "mi-gente-feat-beyonc\u00e9-j-balvin"
+    },
+    {
+      "name": "4:22",
+      "artists": "Ozuna;Danny Ocean",
+      "album": "OzuTochi",
+      "popularity": 63,
+      "tempo": 104.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.649,
+      "danceability": 0.771,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.042,
+      "duration_ms": 193360,
+      "slug": "422-ozuna"
+    },
+    {
+      "name": "El Cel",
+      "artists": "Ozuna;Chencho Corleone;Arcangel;J Balvin;Randy",
+      "album": "OzuTochi",
+      "popularity": 63,
+      "tempo": 165.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.945,
+      "danceability": 0.521,
+      "acousticness": 0.08,
+      "instrumentalness": 0.007,
+      "loudness": -5.2,
+      "speechiness": 0.162,
+      "duration_ms": 287813,
+      "slug": "el-cel-ozuna"
+    },
+    {
+      "name": "Kotodama",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 63,
+      "tempo": 93.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.597,
+      "danceability": 0.884,
+      "acousticness": 0.156,
+      "instrumentalness": 0.019,
+      "loudness": -3.2,
+      "speechiness": 0.072,
+      "duration_ms": 188533,
+      "slug": "kotodama-ozuna"
+    },
+    {
+      "name": "La La La (Brazil 2014) (feat. Carlinhos Brown)",
+      "artists": "Shakira;Carlinhos Brown",
+      "album": "The 2014 FIFA World Cup Official Album: One Love, One Rhythm",
+      "popularity": 62,
+      "tempo": 128.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.806,
+      "valence": 0.576,
+      "danceability": 0.783,
+      "acousticness": 0.179,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.076,
+      "duration_ms": 197680,
+      "slug": "la-la-la-brazil-2014-feat-carlinhos-brown-shakira"
+    },
+    {
+      "name": "Un Reel",
+      "artists": "Ozuna;TINI",
+      "album": "Un Reel",
+      "popularity": 62,
+      "tempo": 163.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.744,
+      "valence": 0.746,
+      "danceability": 0.715,
+      "acousticness": 0.233,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.049,
+      "duration_ms": 203840,
+      "slug": "un-reel-ozuna"
+    },
+    {
+      "name": "Mar Chiquita",
+      "artists": "Ozuna;Pedro Cap\u00f3",
+      "album": "OzuTochi",
+      "popularity": 62,
+      "tempo": 98.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.76,
+      "valence": 0.668,
+      "danceability": 0.713,
+      "acousticness": 0.304,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.042,
+      "duration_ms": 204413,
+      "slug": "mar-chiquita-ozuna"
+    },
+    {
+      "name": "Un Reel",
+      "artists": "Ozuna;TINI",
+      "album": "OzuTochi",
+      "popularity": 62,
+      "tempo": 163.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.744,
+      "valence": 0.746,
+      "danceability": 0.715,
+      "acousticness": 0.233,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.049,
+      "duration_ms": 203840,
+      "slug": "un-reel-ozuna"
+    },
+    {
+      "name": "D\u00edas y Meses",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 62,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.579,
+      "valence": 0.7,
+      "danceability": 0.842,
+      "acousticness": 0.119,
+      "instrumentalness": 0.126,
+      "loudness": -5.5,
+      "speechiness": 0.056,
+      "duration_ms": 192320,
+      "slug": "d\u00edas-y-meses-ozuna"
+    },
+    {
+      "name": "Despacito (Featuring Daddy Yankee)",
+      "artists": "Luis Fonsi;Daddy Yankee",
+      "album": "Despacito (Featuring Daddy Yankee)",
+      "popularity": 61,
+      "tempo": 177.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.863,
+      "danceability": 0.659,
+      "acousticness": 0.208,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.148,
+      "duration_ms": 228200,
+      "slug": "despacito-featuring-daddy-yankee-luis-fonsi"
+    },
+    {
+      "name": "La Suzi",
+      "artists": "Ozuna;Nesi",
+      "album": "OzuTochi",
+      "popularity": 61,
+      "tempo": 98.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.544,
+      "valence": 0.456,
+      "danceability": 0.541,
+      "acousticness": 0.28,
+      "instrumentalness": 0.011,
+      "loudness": -7.6,
+      "speechiness": 0.258,
+      "duration_ms": 155933,
+      "slug": "la-suzi-ozuna"
+    },
+    {
+      "name": "Vida",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 61,
+      "tempo": 170.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.577,
+      "valence": 0.318,
+      "danceability": 0.728,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.054,
+      "duration_ms": 152626,
+      "slug": "vida-ozuna"
+    },
+    {
+      "name": "El Doctorado",
+      "artists": "Tony Dize",
+      "album": "El Doctorado",
+      "popularity": 60,
+      "tempo": 120.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.773,
+      "valence": 0.75,
+      "danceability": 0.721,
+      "acousticness": 0.053,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.037,
+      "duration_ms": 263187,
+      "slug": "el-doctorado-tony-dize"
+    },
+    {
+      "name": "Escape",
+      "artists": "Enrique Iglesias",
+      "album": "Escape",
+      "popularity": 59,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.844,
+      "valence": 0.868,
+      "danceability": 0.776,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.03,
+      "duration_ms": 208626,
+      "slug": "escape-enrique-iglesias"
+    },
+    {
+      "name": "Te Marchaste",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 59,
+      "tempo": 90.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.67,
+      "valence": 0.475,
+      "danceability": 0.738,
+      "acousticness": 0.487,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.079,
+      "duration_ms": 240026,
+      "slug": "te-marchaste-ozuna"
+    },
+    {
+      "name": "La Copa",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 59,
+      "tempo": 126.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.788,
+      "valence": 0.956,
+      "danceability": 0.918,
+      "acousticness": 0.117,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.036,
+      "duration_ms": 154626,
+      "slug": "la-copa-ozuna"
+    },
+    {
+      "name": "Perreo y Dembow",
+      "artists": "Ozuna;El Cherry Scom",
+      "album": "OzuTochi",
+      "popularity": 58,
+      "tempo": 110.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.545,
+      "danceability": 0.913,
+      "acousticness": 0.017,
+      "instrumentalness": 0.098,
+      "loudness": -2.9,
+      "speechiness": 0.058,
+      "duration_ms": 162026,
+      "slug": "perreo-y-dembow-ozuna"
+    },
+    {
+      "name": "Cielos Rosado",
+      "artists": "Ozuna",
+      "album": "OzuTochi",
+      "popularity": 58,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.23,
+      "danceability": 0.86,
+      "acousticness": 0.023,
+      "instrumentalness": 0.168,
+      "loudness": -6.2,
+      "speechiness": 0.045,
+      "duration_ms": 182840,
+      "slug": "cielos-rosado-ozuna"
+    },
+    {
+      "name": "Somos Iguales",
+      "artists": "Ozuna;Tokischa;Louchie Lou;Michie One",
+      "album": "OzuTochi",
+      "popularity": 58,
+      "tempo": 97.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.64,
+      "valence": 0.435,
+      "danceability": 0.836,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.081,
+      "duration_ms": 172413,
+      "slug": "somos-iguales-ozuna"
+    },
+    {
+      "name": "4:22",
+      "artists": "Ozuna;Danny Ocean",
+      "album": "4:22",
+      "popularity": 57,
+      "tempo": 104.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.649,
+      "danceability": 0.771,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.042,
+      "duration_ms": 193360,
+      "slug": "422-ozuna"
+    },
+    {
+      "name": "Querida",
+      "artists": "Juan Gabriel;Juanes",
+      "album": "Los D\u00fao - Colecci\u00f3n Completa (Vol. 1 + Vol. 2)",
+      "popularity": 56,
+      "tempo": 178.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.509,
+      "danceability": 0.427,
+      "acousticness": 0.324,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.029,
+      "duration_ms": 295266,
+      "slug": "querida-juan-gabriel"
+    },
+    {
+      "name": "Heartbeat",
+      "artists": "Enrique Iglesias;Nicole Scherzinger",
+      "album": "Euphoria",
+      "popularity": 56,
+      "tempo": 130.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.888,
+      "valence": 0.41,
+      "danceability": 0.567,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.099,
+      "duration_ms": 256226,
+      "slug": "heartbeat-enrique-iglesias"
+    },
+    {
+      "name": "Bailando - Spanish Version",
+      "artists": "Enrique Iglesias;Descemer Bueno;Gente De Zona",
+      "album": "SEX AND LOVE (Deluxe)",
+      "popularity": 55,
+      "tempo": 91.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.777,
+      "valence": 0.961,
+      "danceability": 0.723,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.108,
+      "duration_ms": 243413,
+      "slug": "bailando-spanish-version-enrique-iglesias"
+    },
+    {
+      "name": "Jarabe - Remastered",
+      "artists": "Kevin Martes 13",
+      "album": "Inmortal",
+      "popularity": 55,
+      "tempo": 98.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.69,
+      "danceability": 0.666,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.056,
+      "duration_ms": 142814,
+      "slug": "jarabe-remastered-kevin-martes-13"
+    },
+    {
+      "name": "Llegan Ya",
+      "artists": "Millonario",
+      "album": "Trap y No Llores",
+      "popularity": 55,
+      "tempo": 113.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.628,
+      "valence": 0.323,
+      "danceability": 0.874,
+      "acousticness": 0.067,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.21,
+      "duration_ms": 191160,
+      "slug": "llegan-ya-millonario"
+    },
+    {
+      "name": "Do You Know? (The Ping Pong Song)",
+      "artists": "Enrique Iglesias",
+      "album": "Insomniac (New International Version Spanish)",
+      "popularity": 55,
+      "tempo": 115.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.765,
+      "valence": 0.691,
+      "danceability": 0.755,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.049,
+      "duration_ms": 218053,
+      "slug": "do-you-know-the-ping-pong-song-enrique-iglesias"
+    },
+    {
+      "name": "Dirty Dancer",
+      "artists": "Enrique Iglesias;Usher",
+      "album": "Euphoria",
+      "popularity": 55,
+      "tempo": 133.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.939,
+      "valence": 0.733,
+      "danceability": 0.651,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.077,
+      "duration_ms": 214453,
+      "slug": "dirty-dancer-enrique-iglesias"
+    },
+    {
+      "name": "Soun Tha Mi Primer Amor - Remastered",
+      "artists": "Kinky",
+      "album": "Kinky (Remastered)",
+      "popularity": 54,
+      "tempo": 104.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.838,
+      "valence": 0.829,
+      "danceability": 0.83,
+      "acousticness": 0.081,
+      "instrumentalness": 0.517,
+      "loudness": -6.8,
+      "speechiness": 0.078,
+      "duration_ms": 191000,
+      "slug": "soun-tha-mi-primer-amor-remastered-kinky"
+    },
+    {
+      "name": "Fuerte No Soy",
+      "artists": "Intocable",
+      "album": "14 Grandes Exitos",
+      "popularity": 54,
+      "tempo": 125.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.441,
+      "valence": 0.449,
+      "danceability": 0.66,
+      "acousticness": 0.152,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.036,
+      "duration_ms": 267533,
+      "slug": "fuerte-no-soy-intocable"
+    },
+    {
+      "name": "Me Sali\u00f3 Caro",
+      "artists": "Toser One;Lefty Sm",
+      "album": "Me Sali\u00f3 Caro",
+      "popularity": 54,
+      "tempo": 168.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.794,
+      "valence": 0.694,
+      "danceability": 0.836,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.319,
+      "duration_ms": 177312,
+      "slug": "me-sali\u00f3-caro-toser-one"
+    }
+  ]
+}
