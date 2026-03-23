@@ -1,0 +1,2800 @@
+{
+  "genre": "Ska",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 74.992,
+    "max": 195.93,
+    "mean": 128.942,
+    "median": 129.304,
+    "q1": 101.749,
+    "q3": 152.946,
+    "histogram": {
+      "70-79": 3,
+      "80-89": 1,
+      "90-99": 17,
+      "100-109": 14,
+      "110-119": 9,
+      "120-129": 7,
+      "130-139": 8,
+      "140-149": 11,
+      "150-159": 13,
+      "160-169": 11,
+      "170-179": 4,
+      "190-199": 2
+    }
+  },
+  "key_distribution": {
+    "A": 22,
+    "D": 17,
+    "B": 11,
+    "C": 10,
+    "G": 10,
+    "E": 7,
+    "C#/Db": 6,
+    "F#/Gb": 6,
+    "F": 5,
+    "G#/Ab": 3,
+    "A#/Bb": 2,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Major": 64,
+    "Minor": 36
+  },
+  "key_mode_distribution": {
+    "A Major": 17,
+    "D Major": 12,
+    "G Major": 9,
+    "B Minor": 9,
+    "C Major": 8,
+    "E Major": 5,
+    "D Minor": 5,
+    "A Minor": 5,
+    "C#/Db Minor": 4,
+    "F#/Gb Major": 4,
+    "G#/Ab Major": 3,
+    "F Minor": 3,
+    "C#/Db Major": 2,
+    "B Major": 2,
+    "E Minor": 2,
+    "A#/Bb Minor": 2,
+    "F Major": 2,
+    "C Minor": 2,
+    "F#/Gb Minor": 2,
+    "G Minor": 1,
+    "D#/Eb Minor": 1
+  },
+  "energy": {
+    "min": 0.484,
+    "max": 0.981,
+    "mean": 0.83,
+    "median": 0.869,
+    "q1": 0.779,
+    "q3": 0.9
+  },
+  "valence": {
+    "min": 0.159,
+    "max": 0.967,
+    "mean": 0.722,
+    "median": 0.768,
+    "q1": 0.614,
+    "q3": 0.857
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.917,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.766
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.706
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.782
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.902
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.966,
+      "valence": 0.614
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.686
+    },
+    {
+      "energy": 0.928,
+      "valence": 0.6
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.535
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.635
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.779,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.772
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.829
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.828
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.67
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.874
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.754
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.966
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.615
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.955
+    },
+    {
+      "energy": 0.79,
+      "valence": 0.644
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.833
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.719
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.588
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.807
+    },
+    {
+      "energy": 0.92,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.771
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.841
+    },
+    {
+      "energy": 0.701,
+      "valence": 0.251
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.904
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.808,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.712
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.858
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.159
+    },
+    {
+      "energy": 0.838,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.838,
+      "valence": 0.843
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.852
+    },
+    {
+      "energy": 0.931,
+      "valence": 0.943
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.924
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.845
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.868
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.768,
+      "valence": 0.846
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.631
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.813
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.877
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.739
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.714,
+      "valence": 0.87
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.906
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.862
+    },
+    {
+      "energy": 0.549,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.653,
+      "valence": 0.906
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.731
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.949
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.879,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.903
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.849
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.455
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.849
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.608
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.779
+    },
+    {
+      "energy": 0.776,
+      "valence": 0.967
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.912
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.61
+    },
+    {
+      "energy": 0.919,
+      "valence": 0.83
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.942
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.706
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.863,
+    "mean": 0.119,
+    "median": 0.039,
+    "q1": 0.013,
+    "q3": 0.14
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.491,
+    "mean": 0.017,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.664,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.47
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.197,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.044
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.144
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.348,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.264,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.132,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.593,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.091,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.108,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.491
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.182,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.174,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.14,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.278
+    },
+    {
+      "acousticness": 0.069,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.25,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.076,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.282,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.253,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.508,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.125,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.419,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.609,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.54,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.863,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.134
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.574,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.516,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.197,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.091,
+      "instrumentalness": 0.057
+    },
+    {
+      "acousticness": 0.127,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.013
+    }
+  ],
+  "duration": {
+    "min": 107866,
+    "max": 322533,
+    "mean": 215709.38,
+    "median": 216953.0,
+    "q1": 187520,
+    "q3": 245640
+  },
+  "danceability": {
+    "min": 0.192,
+    "max": 0.804,
+    "mean": 0.577,
+    "median": 0.589,
+    "q1": 0.482,
+    "q3": 0.677
+  },
+  "loudness": {
+    "min": -14.125,
+    "max": -2.341,
+    "mean": -5.869,
+    "median": -5.627,
+    "q1": -7.136,
+    "q3": -4.286
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.357,
+    "mean": 0.067,
+    "median": 0.048,
+    "q1": 0.04,
+    "q3": 0.077
+  },
+  "top_artists": [
+    {
+      "name": "Los Caligaris",
+      "count": 19
+    },
+    {
+      "name": "Panteon Rococo",
+      "count": 15
+    },
+    {
+      "name": "Biquini Cavad\u00e3o",
+      "count": 6
+    },
+    {
+      "name": "Chancho En Piedra",
+      "count": 6
+    },
+    {
+      "name": "The Offspring",
+      "count": 4
+    },
+    {
+      "name": "Lasse Stefanz",
+      "count": 4
+    },
+    {
+      "name": "Los Fabulosos Cadillacs",
+      "count": 4
+    },
+    {
+      "name": "Korol i Shut",
+      "count": 3
+    },
+    {
+      "name": "Kapanga",
+      "count": 3
+    },
+    {
+      "name": "Attaque 77",
+      "count": 3
+    },
+    {
+      "name": "Sublime",
+      "count": 2
+    },
+    {
+      "name": "Dexys Midnight Runners",
+      "count": 2
+    },
+    {
+      "name": "Ramones",
+      "count": 2
+    },
+    {
+      "name": "Sumo",
+      "count": 2
+    },
+    {
+      "name": "Soda Stereo",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "You're Gonna Go Far, Kid",
+      "artists": "The Offspring",
+      "album": "Rise And Fall, Rage And Grace",
+      "popularity": 81,
+      "tempo": 126.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.601,
+      "danceability": 0.55,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.064,
+      "duration_ms": 177826,
+      "slug": "youre-gonna-go-far-kid-the-offspring"
+    },
+    {
+      "name": "The Kids Aren't Alright",
+      "artists": "The Offspring",
+      "album": "Americana",
+      "popularity": 81,
+      "tempo": 99.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.943,
+      "valence": 0.766,
+      "danceability": 0.523,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.034,
+      "duration_ms": 180160,
+      "slug": "the-kids-arent-alright-the-offspring"
+    },
+    {
+      "name": "Santeria",
+      "artists": "Sublime",
+      "album": "Sublime",
+      "popularity": 77,
+      "tempo": 90.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.567,
+      "danceability": 0.682,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.04,
+      "duration_ms": 182746,
+      "slug": "santeria-sublime"
+    },
+    {
+      "name": "Self Esteem",
+      "artists": "The Offspring",
+      "album": "Smash",
+      "popularity": 77,
+      "tempo": 104.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.862,
+      "valence": 0.706,
+      "danceability": 0.488,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.048,
+      "duration_ms": 257826,
+      "slug": "self-esteem-the-offspring"
+    },
+    {
+      "name": "Come On Eileen",
+      "artists": "Dexys Midnight Runners",
+      "album": "Too Rye Ay",
+      "popularity": 75,
+      "tempo": 106.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.656,
+      "valence": 0.782,
+      "danceability": 0.45,
+      "acousticness": 0.664,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.047,
+      "duration_ms": 287306,
+      "slug": "come-on-eileen-dexys-midnight-runners"
+    },
+    {
+      "name": "Blitzkrieg Bop - 2016 Remaster",
+      "artists": "Ramones",
+      "album": "Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)",
+      "popularity": 73,
+      "tempo": 176.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.902,
+      "danceability": 0.385,
+      "acousticness": 0.0,
+      "instrumentalness": 0.47,
+      "loudness": -2.5,
+      "speechiness": 0.233,
+      "duration_ms": 134466,
+      "slug": "blitzkrieg-bop-2016-remaster-ramones"
+    },
+    {
+      "name": "What I Got",
+      "artists": "Sublime",
+      "album": "Sublime",
+      "popularity": 73,
+      "tempo": 95.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.657,
+      "danceability": 0.804,
+      "acousticness": 0.009,
+      "instrumentalness": 0.001,
+      "loudness": -7.5,
+      "speechiness": 0.09,
+      "duration_ms": 170906,
+      "slug": "what-i-got-sublime"
+    },
+    {
+      "name": "Want You Bad",
+      "artists": "The Offspring",
+      "album": "Conspiracy Of One",
+      "popularity": 72,
+      "tempo": 105.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.966,
+      "valence": 0.614,
+      "danceability": 0.491,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.054,
+      "duration_ms": 202573,
+      "slug": "want-you-bad-the-offspring"
+    },
+    {
+      "name": "Miss Murder",
+      "artists": "AFI",
+      "album": "DECEMBERUNDERGROUND",
+      "popularity": 72,
+      "tempo": 143.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.686,
+      "danceability": 0.308,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.053,
+      "duration_ms": 206586,
+      "slug": "miss-murder-afi"
+    },
+    {
+      "name": "I'm Shipping Up To Boston",
+      "artists": "Dropkick Murphys",
+      "album": "The Warrior's Code",
+      "popularity": 70,
+      "tempo": 129.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.928,
+      "valence": 0.6,
+      "danceability": 0.452,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -3.1,
+      "speechiness": 0.079,
+      "duration_ms": 153600,
+      "slug": "im-shipping-up-to-boston-dropkick-murphys"
+    },
+    {
+      "name": "Come On Eileen - Single Edit",
+      "artists": "Dexys Midnight Runners;Kevin Rowland",
+      "album": "Come On Eileen / Dubious",
+      "popularity": 70,
+      "tempo": 107.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.874,
+      "valence": 0.824,
+      "danceability": 0.41,
+      "acousticness": 0.197,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.091,
+      "duration_ms": 205933,
+      "slug": "come-on-eileen-single-edit-dexys-midnight-runners"
+    },
+    {
+      "name": "I Wanna Be Sedated",
+      "artists": "Ramones",
+      "album": "Road to Ruin (40th Anniversary Deluxe Edition)",
+      "popularity": 69,
+      "tempo": 162.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.965,
+      "valence": 0.964,
+      "danceability": 0.56,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.041,
+      "duration_ms": 149786,
+      "slug": "i-wanna-be-sedated-ramones"
+    },
+    {
+      "name": "distance",
+      "artists": "Long Shot Party",
+      "album": "LONG SHOT PARTY",
+      "popularity": 57,
+      "tempo": 99.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.535,
+      "danceability": 0.462,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.09,
+      "duration_ms": 187346,
+      "slug": "distance-long-shot-party"
+    },
+    {
+      "name": "\u041a\u0443\u043a\u043b\u0430 \u043a\u043e\u043b\u0434\u0443\u043d\u0430",
+      "artists": "Korol i Shut",
+      "album": "\u0410\u043a\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043b\u044c\u0431\u043e\u043c",
+      "popularity": 57,
+      "tempo": 148.6,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.796,
+      "valence": 0.635,
+      "danceability": 0.386,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.041,
+      "duration_ms": 202040,
+      "slug": "\u043a\u0443\u043a\u043b\u0430-\u043a\u043e\u043b\u0434\u0443\u043d\u0430-korol-i-shut"
+    },
+    {
+      "name": "Bad Guy",
+      "artists": "The Interrupters",
+      "album": "Bad Guy",
+      "popularity": 57,
+      "tempo": 140.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.814,
+      "valence": 0.796,
+      "danceability": 0.563,
+      "acousticness": 0.01,
+      "instrumentalness": 0.044,
+      "loudness": -4.2,
+      "speechiness": 0.056,
+      "duration_ms": 157831,
+      "slug": "bad-guy-the-interrupters"
+    },
+    {
+      "name": "\u0414\u0443\u0440\u0430\u043a \u0438 \u043c\u043e\u043b\u043d\u0438\u044f",
+      "artists": "Korol i Shut",
+      "album": "\u041a\u0430\u043c\u043d\u0435\u043c \u043f\u043e \u0433\u043e\u043b\u043e\u0432\u0435",
+      "popularity": 55,
+      "tempo": 178.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.744,
+      "valence": 0.668,
+      "danceability": 0.434,
+      "acousticness": 0.111,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.194,
+      "duration_ms": 114333,
+      "slug": "\u0434\u0443\u0440\u0430\u043a-\u0438-\u043c\u043e\u043b\u043d\u0438\u044f-korol-i-shut"
+    },
+    {
+      "name": "\u041b\u0435\u0441\u043d\u0438\u043a",
+      "artists": "Korol i Shut",
+      "album": "\u041a\u043e\u0440\u043e\u043b\u044c \u0438 \u0428\u0443\u0442 (\u0411\u0443\u0434\u044c \u043a\u0430\u043a \u0434\u043e\u043c\u0430, \u043f\u0443\u0442\u043d\u0438\u043a...)",
+      "popularity": 53,
+      "tempo": 169.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.779,
+      "valence": 0.564,
+      "danceability": 0.366,
+      "acousticness": 0.019,
+      "instrumentalness": 0.144,
+      "loudness": -10.7,
+      "speechiness": 0.079,
+      "duration_ms": 191613,
+      "slug": "\u043b\u0435\u0441\u043d\u0438\u043a-korol-i-shut"
+    },
+    {
+      "name": "T\u00e9dio",
+      "artists": "Biquini Cavad\u00e3o",
+      "album": "1985/2007 Sucessos Regravados (Vol. 1)",
+      "popularity": 52,
+      "tempo": 144.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.772,
+      "danceability": 0.629,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.059,
+      "duration_ms": 200226,
+      "slug": "t\u00e9dio-biquini-cavad\u00e3o"
+    },
+    {
+      "name": "A\u00f1ejo W",
+      "artists": "Los Caligaris",
+      "album": "No Es Lo Que Parece",
+      "popularity": 52,
+      "tempo": 142.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.892,
+      "valence": 0.829,
+      "danceability": 0.676,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.035,
+      "duration_ms": 303878,
+      "slug": "a\u00f1ejo-w-los-caligaris"
+    },
+    {
+      "name": "Adi\u00f3s adi\u00f3s",
+      "artists": "Triciclo Circus Band;Los Caligaris",
+      "album": "Terc3ra Llamada",
+      "popularity": 52,
+      "tempo": 168.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.937,
+      "danceability": 0.658,
+      "acousticness": 0.348,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.059,
+      "duration_ms": 224669,
+      "slug": "adi\u00f3s-adi\u00f3s-triciclo-circus-band"
+    },
+    {
+      "name": "Get Up, Stand Up",
+      "artists": "The Wailers",
+      "album": "Burnin'",
+      "popularity": 51,
+      "tempo": 77.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.572,
+      "valence": 0.828,
+      "danceability": 0.799,
+      "acousticness": 0.264,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.357,
+      "duration_ms": 198160,
+      "slug": "get-up-stand-up-the-wailers"
+    },
+    {
+      "name": "El Ojo Blindado",
+      "artists": "Sumo",
+      "album": "Llegando Los Monos",
+      "popularity": 50,
+      "tempo": 194.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.67,
+      "danceability": 0.192,
+      "acousticness": 0.0,
+      "instrumentalness": 0.003,
+      "loudness": -7.1,
+      "speechiness": 0.042,
+      "duration_ms": 134173,
+      "slug": "el-ojo-blindado-sumo"
+    },
+    {
+      "name": "Mejilla Izquierda",
+      "artists": "Los Caligaris",
+      "album": "Circolog\u00eda",
+      "popularity": 50,
+      "tempo": 150.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.888,
+      "valence": 0.543,
+      "danceability": 0.757,
+      "acousticness": 0.132,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.156,
+      "duration_ms": 229280,
+      "slug": "mejilla-izquierda-los-caligaris"
+    },
+    {
+      "name": "Peppelinos bar - N!NE EPA Remix",
+      "artists": "Lasse Stefanz;N!NE",
+      "album": "Peppelinos bar (EPA Remix)",
+      "popularity": 50,
+      "tempo": 152.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.918,
+      "valence": 0.874,
+      "danceability": 0.603,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.045,
+      "duration_ms": 170560,
+      "slug": "peppelinos-bar-nne-epa-remix-lasse-stefanz"
+    },
+    {
+      "name": "Toloache Pa' Mi Negra - En Vivo",
+      "artists": "Panteon Rococo",
+      "album": "XX A\u00f1os (En Vivo)",
+      "popularity": 49,
+      "tempo": 103.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.897,
+      "valence": 0.668,
+      "danceability": 0.411,
+      "acousticness": 0.003,
+      "instrumentalness": 0.009,
+      "loudness": -9.2,
+      "speechiness": 0.063,
+      "duration_ms": 218280,
+      "slug": "toloache-pa-mi-negra-en-vivo-panteon-rococo"
+    },
+    {
+      "name": "La Flor Azul",
+      "artists": "Divididos",
+      "album": "Amapola del 66",
+      "popularity": 49,
+      "tempo": 89.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.677,
+      "valence": 0.754,
+      "danceability": 0.463,
+      "acousticness": 0.593,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.087,
+      "duration_ms": 160533,
+      "slug": "la-flor-azul-divididos"
+    },
+    {
+      "name": "Eligiendo Una Reina",
+      "artists": "Chancho En Piedra",
+      "album": "Marca Chancho",
+      "popularity": 49,
+      "tempo": 125.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.966,
+      "danceability": 0.767,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.043,
+      "duration_ms": 245640,
+      "slug": "eligiendo-una-reina-chancho-en-piedra"
+    },
+    {
+      "name": "La Rubia y el Demonio (feat. Francisco Familiar & To\u00f1o Lira) - En Vivo",
+      "artists": "Panteon Rococo;Fr\u00e1ncisco Familiar;To\u00f1o Lira",
+      "album": "XX A\u00f1os (En Vivo)",
+      "popularity": 49,
+      "tempo": 135.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.846,
+      "valence": 0.615,
+      "danceability": 0.346,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.061,
+      "duration_ms": 279360,
+      "slug": "la-rubia-y-el-demonio-feat-francisco-familiar-to\u00f1o-lira-en-vivo-panteon-rococo"
+    },
+    {
+      "name": "El \u00daltimo Ska",
+      "artists": "Panteon Rococo;Dub Inc",
+      "album": "El \u00daltimo Ska",
+      "popularity": 49,
+      "tempo": 130.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.834,
+      "valence": 0.955,
+      "danceability": 0.8,
+      "acousticness": 0.153,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.043,
+      "duration_ms": 274653,
+      "slug": "el-\u00faltimo-ska-panteon-rococo"
+    },
+    {
+      "name": "Aunque No Quiero",
+      "artists": "Los Caligaris",
+      "album": "Circolog\u00eda",
+      "popularity": 48,
+      "tempo": 141.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.79,
+      "valence": 0.644,
+      "danceability": 0.605,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.035,
+      "duration_ms": 215626,
+      "slug": "aunque-no-quiero-los-caligaris"
+    },
+    {
+      "name": "El Universal",
+      "artists": "Kapanga",
+      "album": "Operacion Rebenque",
+      "popularity": 48,
+      "tempo": 149.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.857,
+      "danceability": 0.57,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.039,
+      "duration_ms": 191946,
+      "slug": "el-universal-kapanga"
+    },
+    {
+      "name": "No Me Sueltes (Es Posible)",
+      "artists": "Kapanga",
+      "album": "Lima",
+      "popularity": 48,
+      "tempo": 154.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.77,
+      "danceability": 0.551,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.093,
+      "duration_ms": 235146,
+      "slug": "no-me-sueltes-es-posible-kapanga"
+    },
+    {
+      "name": "Du f\u00f6rsvann som en vind",
+      "artists": "Lasse Stefanz",
+      "album": "Greatest Hits",
+      "popularity": 47,
+      "tempo": 113.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.714,
+      "danceability": 0.633,
+      "acousticness": 0.091,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.03,
+      "duration_ms": 208120,
+      "slug": "du-f\u00f6rsvann-som-en-vind-lasse-stefanz"
+    },
+    {
+      "name": "Que Pasar\u00e1",
+      "artists": "Panteon Rococo",
+      "album": "Pante\u00f3n Rococ\u00f3",
+      "popularity": 47,
+      "tempo": 160.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.833,
+      "danceability": 0.736,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.065,
+      "duration_ms": 240373,
+      "slug": "que-pasar\u00e1-panteon-rococo"
+    },
+    {
+      "name": "Jana\u00edna",
+      "artists": "Biquini Cavad\u00e3o",
+      "album": "1985/2007 Sucessos Regravados (Vol. 2)",
+      "popularity": 47,
+      "tempo": 176.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.88,
+      "valence": 0.719,
+      "danceability": 0.578,
+      "acousticness": 0.108,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.05,
+      "duration_ms": 218613,
+      "slug": "jana\u00edna-biquini-cavad\u00e3o"
+    },
+    {
+      "name": "Raz\u00f3n - En Vivo",
+      "artists": "Los Caligaris",
+      "album": "Raz\u00f3n (En Vivo) - Single",
+      "popularity": 47,
+      "tempo": 152.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.87,
+      "valence": 0.588,
+      "danceability": 0.533,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.068,
+      "duration_ms": 204583,
+      "slug": "raz\u00f3n-en-vivo-los-caligaris"
+    },
+    {
+      "name": "Volant\u00edn",
+      "artists": "Chancho En Piedra",
+      "album": "Rindanse Terricolas",
+      "popularity": 46,
+      "tempo": 98.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.839,
+      "valence": 0.807,
+      "danceability": 0.677,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.038,
+      "duration_ms": 243200,
+      "slug": "volant\u00edn-chancho-en-piedra"
+    },
+    {
+      "name": "Camale\u00f3n - Remasterizado 2007",
+      "artists": "Soda Stereo",
+      "album": "Dynamo (Remastered)",
+      "popularity": 46,
+      "tempo": 195.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.92,
+      "valence": 0.55,
+      "danceability": 0.374,
+      "acousticness": 0.0,
+      "instrumentalness": 0.491,
+      "loudness": -7.6,
+      "speechiness": 0.048,
+      "duration_ms": 281480,
+      "slug": "camale\u00f3n-remasterizado-2007-soda-stereo"
+    },
+    {
+      "name": "Mi Mam\u00e1 Me Lo Teje Todo - Lino y Lana",
+      "artists": "31 Minutos",
+      "album": "Arwrarwrirwrarwro (Banda Sonora Original de la Cuarta Temporada)",
+      "popularity": 46,
+      "tempo": 115.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.537,
+      "danceability": 0.535,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.043,
+      "duration_ms": 238679,
+      "slug": "mi-mam\u00e1-me-lo-teje-todo-lino-y-lana-31-minutos"
+    },
+    {
+      "name": "Hasta Que Te Conoc\u00ed",
+      "artists": "Panteon Rococo;Santa Fe Klan",
+      "album": "Ofrenda",
+      "popularity": 46,
+      "tempo": 104.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.684,
+      "valence": 0.328,
+      "danceability": 0.482,
+      "acousticness": 0.182,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.047,
+      "duration_ms": 322533,
+      "slug": "hasta-que-te-conoc\u00ed-panteon-rococo"
+    },
+    {
+      "name": "Esta Noche - En Vivo",
+      "artists": "Panteon Rococo",
+      "album": "XX A\u00f1os (En Vivo)",
+      "popularity": 46,
+      "tempo": 101.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.167,
+      "danceability": 0.387,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.158,
+      "duration_ms": 236026,
+      "slug": "esta-noche-en-vivo-panteon-rococo"
+    },
+    {
+      "name": "Bolso Gris",
+      "artists": "Los Caligaris",
+      "album": "Circolog\u00eda",
+      "popularity": 46,
+      "tempo": 98.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.72,
+      "valence": 0.771,
+      "danceability": 0.686,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.025,
+      "duration_ms": 202000,
+      "slug": "bolso-gris-los-caligaris"
+    },
+    {
+      "name": "Un Osito de Peluche de Taiw\u00e1n (feat. Fernando Ruiz D\u00edaz) - Vivo en el Palacio de los Deportes",
+      "artists": "Los Aut\u00e9nticos Decadentes;Fernando Ruiz Diaz",
+      "album": "En Vivo en el Palacio de los Deportes - 25 Aniversario",
+      "popularity": 46,
+      "tempo": 98.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.235,
+      "danceability": 0.364,
+      "acousticness": 0.174,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.045,
+      "duration_ms": 315425,
+      "slug": "un-osito-de-peluche-de-taiw\u00e1n-feat-fernando-ruiz-d\u00edaz-vivo-en-el-palacio-de-los"
+    },
+    {
+      "name": "Tyson",
+      "artists": "Los Caligaris",
+      "album": "Transpirando Alegr\u00eda",
+      "popularity": 45,
+      "tempo": 156.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.657,
+      "danceability": 0.526,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.076,
+      "duration_ms": 196207,
+      "slug": "tyson-los-caligaris"
+    },
+    {
+      "name": "Carmela - Remasterizado 2008",
+      "artists": "Los Fabulosos Cadillacs",
+      "album": "Rey Az\u00facar",
+      "popularity": 45,
+      "tempo": 116.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.891,
+      "valence": 0.841,
+      "danceability": 0.695,
+      "acousticness": 0.14,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.05,
+      "duration_ms": 178426,
+      "slug": "carmela-remasterizado-2008-los-fabulosos-cadillacs"
+    },
+    {
+      "name": "Radio Kriminal - Remasterizado 2008",
+      "artists": "Los Fabulosos Cadillacs",
+      "album": "Los Fabulosos Cadillacs - Vol. V",
+      "popularity": 45,
+      "tempo": 100.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.701,
+      "valence": 0.251,
+      "danceability": 0.791,
+      "acousticness": 0.023,
+      "instrumentalness": 0.278,
+      "loudness": -7.8,
+      "speechiness": 0.068,
+      "duration_ms": 278720,
+      "slug": "radio-kriminal-remasterizado-2008-los-fabulosos-cadillacs"
+    },
+    {
+      "name": "La Distancia",
+      "artists": "Panteon Rococo",
+      "album": "Pante\u00f3n Rococ\u00f3",
+      "popularity": 45,
+      "tempo": 116.2,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.955,
+      "valence": 0.904,
+      "danceability": 0.653,
+      "acousticness": 0.069,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.19,
+      "duration_ms": 266746,
+      "slug": "la-distancia-panteon-rococo"
+    },
+    {
+      "name": "El Impostor",
+      "artists": "Chancho En Piedra",
+      "album": "El Tinto Elemento",
+      "popularity": 45,
+      "tempo": 120.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.88,
+      "valence": 0.808,
+      "danceability": 0.429,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.075,
+      "duration_ms": 246680,
+      "slug": "el-impostor-chancho-en-piedra"
+    },
+    {
+      "name": "Vivir As\u00ed Es Morir de Amor",
+      "artists": "Los Caligaris;Pedro Fern\u00e1ndez",
+      "album": "Vivir As\u00ed Es Morir de Amor",
+      "popularity": 45,
+      "tempo": 110.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.739,
+      "valence": 0.809,
+      "danceability": 0.704,
+      "acousticness": 0.25,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.059,
+      "duration_ms": 195406,
+      "slug": "vivir-as\u00ed-es-morir-de-amor-los-caligaris"
+    },
+    {
+      "name": "Te Vas a Acordar de M\u00ed",
+      "artists": "Panteon Rococo",
+      "album": "Ofrenda",
+      "popularity": 45,
+      "tempo": 141.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.808,
+      "valence": 0.685,
+      "danceability": 0.71,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.069,
+      "duration_ms": 193173,
+      "slug": "te-vas-a-acordar-de-m\u00ed-panteon-rococo"
+    },
+    {
+      "name": "Porno Star",
+      "artists": "Bersuit Vergarabat",
+      "album": "La Argentinidad Al Palo",
+      "popularity": 45,
+      "tempo": 95.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.89,
+      "valence": 0.712,
+      "danceability": 0.612,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.038,
+      "duration_ms": 232533,
+      "slug": "porno-star-bersuit-vergarabat"
+    },
+    {
+      "name": "Huar\u00f6d",
+      "artists": "Lasse Stefanz",
+      "album": "Road Trip",
+      "popularity": 45,
+      "tempo": 154.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.813,
+      "valence": 0.826,
+      "danceability": 0.647,
+      "acousticness": 0.135,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.076,
+      "duration_ms": 151484,
+      "slug": "huar\u00f6d-lasse-stefanz"
+    },
+    {
+      "name": "Amargo Adios",
+      "artists": "Inspector;Panteon Rococo",
+      "album": "A2\u00cd 5Uena!, Vol 2",
+      "popularity": 44,
+      "tempo": 75.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.845,
+      "valence": 0.858,
+      "danceability": 0.599,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.039,
+      "duration_ms": 241171,
+      "slug": "amargo-adios-inspector"
+    },
+    {
+      "name": "Raz\u00f3n - En Vivo",
+      "artists": "Los Caligaris",
+      "album": "20 A\u00f1os: El Show M\u00e1s Feliz del Mundo (En Vivo)",
+      "popularity": 44,
+      "tempo": 152.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.846,
+      "valence": 0.563,
+      "danceability": 0.518,
+      "acousticness": 0.053,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.045,
+      "duration_ms": 197847,
+      "slug": "raz\u00f3n-en-vivo-los-caligaris"
+    },
+    {
+      "name": "Nada Pas\u00f3",
+      "artists": "Panteon Rococo",
+      "album": "A la Izquierda de la Tierra",
+      "popularity": 44,
+      "tempo": 96.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.747,
+      "valence": 0.785,
+      "danceability": 0.49,
+      "acousticness": 0.076,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.045,
+      "duration_ms": 279413,
+      "slug": "nada-pas\u00f3-panteon-rococo"
+    },
+    {
+      "name": "A Chingar a Su Madre",
+      "artists": "Raztlan",
+      "album": "Fuerza y Acci\u00f3n",
+      "popularity": 44,
+      "tempo": 102.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.913,
+      "valence": 0.8,
+      "danceability": 0.617,
+      "acousticness": 0.282,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.077,
+      "duration_ms": 112897,
+      "slug": "a-chingar-a-su-madre-raztlan"
+    },
+    {
+      "name": "Quanto Tempo Demora um M\u00eas",
+      "artists": "Biquini Cavad\u00e3o",
+      "album": "Ao Vivo",
+      "popularity": 44,
+      "tempo": 75.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.674,
+      "valence": 0.159,
+      "danceability": 0.509,
+      "acousticness": 0.253,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.038,
+      "duration_ms": 184120,
+      "slug": "quanto-tempo-demora-um-m\u00eas-biquini-cavad\u00e3o"
+    },
+    {
+      "name": "Te doy una canci\u00f3n",
+      "artists": "Los Miserables",
+      "album": "La voz del pueblo",
+      "popularity": 44,
+      "tempo": 150.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.838,
+      "valence": 0.518,
+      "danceability": 0.51,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.055,
+      "duration_ms": 164813,
+      "slug": "te-doy-una-canci\u00f3n-los-miserables"
+    },
+    {
+      "name": "Hanya Ingin Pulang",
+      "artists": "Souljah",
+      "album": "Mestakung",
+      "popularity": 44,
+      "tempo": 150.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.838,
+      "valence": 0.843,
+      "danceability": 0.592,
+      "acousticness": 0.508,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.093,
+      "duration_ms": 263888,
+      "slug": "hanya-ingin-pulang-souljah"
+    },
+    {
+      "name": "Veinticinco Rosas",
+      "artists": "Panteon Rococo",
+      "album": "Ofrenda",
+      "popularity": 44,
+      "tempo": 101.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.74,
+      "valence": 0.852,
+      "danceability": 0.755,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.039,
+      "duration_ms": 173253,
+      "slug": "veinticinco-rosas-panteon-rococo"
+    },
+    {
+      "name": "So\u00f1ar Contigo",
+      "artists": "Los Estramboticos",
+      "album": "Lucha y Resiste",
+      "popularity": 44,
+      "tempo": 160.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.931,
+      "valence": 0.943,
+      "danceability": 0.617,
+      "acousticness": 0.061,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.06,
+      "duration_ms": 197363,
+      "slug": "so\u00f1ar-contigo-los-estramboticos"
+    },
+    {
+      "name": "Historias De Amor Y Cond\u00f3n",
+      "artists": "Chancho En Piedra",
+      "album": "Marca Chancho",
+      "popularity": 44,
+      "tempo": 170.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.981,
+      "valence": 0.604,
+      "danceability": 0.48,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.076,
+      "duration_ms": 287626,
+      "slug": "historias-de-amor-y-cond\u00f3n-chancho-en-piedra"
+    },
+    {
+      "name": "Gracias",
+      "artists": "Los Estramboticos",
+      "album": "L\u00e1grimas y Risas",
+      "popularity": 44,
+      "tempo": 136.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.924,
+      "danceability": 0.68,
+      "acousticness": 0.03,
+      "instrumentalness": 0.012,
+      "loudness": -3.3,
+      "speechiness": 0.029,
+      "duration_ms": 247173,
+      "slug": "gracias-los-estramboticos"
+    },
+    {
+      "name": "Timidez",
+      "artists": "Biquini Cavad\u00e3o",
+      "album": "Ao Vivo",
+      "popularity": 44,
+      "tempo": 129.4,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.268,
+      "danceability": 0.442,
+      "acousticness": 0.081,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.082,
+      "duration_ms": 267733,
+      "slug": "timidez-biquini-cavad\u00e3o"
+    },
+    {
+      "name": "Z\u00e9 Ningu\u00e9m",
+      "artists": "Biquini Cavad\u00e3o",
+      "album": "1985/2007 Sucessos Regravados (Vol. 1)",
+      "popularity": 44,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.892,
+      "valence": 0.845,
+      "danceability": 0.637,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.081,
+      "duration_ms": 258265,
+      "slug": "z\u00e9-ningu\u00e9m-biquini-cavad\u00e3o"
+    },
+    {
+      "name": "A Vos",
+      "artists": "Los Caligaris",
+      "album": "Yernos Perfectos",
+      "popularity": 44,
+      "tempo": 167.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.869,
+      "valence": 0.868,
+      "danceability": 0.628,
+      "acousticness": 0.125,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.043,
+      "duration_ms": 235058,
+      "slug": "a-vos-los-caligaris"
+    },
+    {
+      "name": "Quando Eu Te Encontrar - Ao Vivo",
+      "artists": "Biquini Cavad\u00e3o",
+      "album": "Me Leve Sem Destino (Ao Vivo)",
+      "popularity": 44,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.536,
+      "danceability": 0.52,
+      "acousticness": 0.016,
+      "instrumentalness": 0.019,
+      "loudness": -5.2,
+      "speechiness": 0.036,
+      "duration_ms": 213533,
+      "slug": "quando-eu-te-encontrar-ao-vivo-biquini-cavad\u00e3o"
+    },
+    {
+      "name": "Vi g\u00e5r mot ljuset",
+      "artists": "Lasse Stefanz",
+      "album": "Den lilla klockan",
+      "popularity": 44,
+      "tempo": 112.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.768,
+      "valence": 0.846,
+      "danceability": 0.614,
+      "acousticness": 0.419,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.029,
+      "duration_ms": 194906,
+      "slug": "vi-g\u00e5r-mot-ljuset-lasse-stefanz"
+    },
+    {
+      "name": "Estrella Roja - En Vivo",
+      "artists": "Panteon Rococo",
+      "album": "XX A\u00f1os (En Vivo)",
+      "popularity": 44,
+      "tempo": 142.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.631,
+      "danceability": 0.442,
+      "acousticness": 0.006,
+      "instrumentalness": 0.003,
+      "loudness": -8.8,
+      "speechiness": 0.078,
+      "duration_ms": 219106,
+      "slug": "estrella-roja-en-vivo-panteon-rococo"
+    },
+    {
+      "name": "Cartonero",
+      "artists": "Attaque 77",
+      "album": "Karmagedon",
+      "popularity": 44,
+      "tempo": 169.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.831,
+      "valence": 0.813,
+      "danceability": 0.5,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.038,
+      "duration_ms": 192693,
+      "slug": "cartonero-attaque-77"
+    },
+    {
+      "name": "Multirricachon",
+      "artists": "Chancho En Piedra",
+      "album": "Desde El Batiscafo",
+      "popularity": 44,
+      "tempo": 98.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.937,
+      "valence": 0.877,
+      "danceability": 0.572,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.179,
+      "duration_ms": 184760,
+      "slug": "multirricachon-chancho-en-piedra"
+    },
+    {
+      "name": "El Cielo Puede Esperar",
+      "artists": "Attaque 77",
+      "album": "El Cielo Puede Esperar",
+      "popularity": 44,
+      "tempo": 159.3,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.757,
+      "valence": 0.739,
+      "danceability": 0.39,
+      "acousticness": 0.002,
+      "instrumentalness": 0.001,
+      "loudness": -11.2,
+      "speechiness": 0.031,
+      "duration_ms": 253840,
+      "slug": "el-cielo-puede-esperar-attaque-77"
+    },
+    {
+      "name": "Gente Que No (with Todos Tus Muertos) - Remasterized 2001",
+      "artists": "Los Aut\u00e9nticos Decadentes;Todos Tus Muertos",
+      "album": "Los Reyes de la Canci\u00f3n",
+      "popularity": 44,
+      "tempo": 98.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.757,
+      "danceability": 0.726,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.18,
+      "duration_ms": 253173,
+      "slug": "gente-que-no-with-todos-tus-muertos-remasterized-2001-los-aut\u00e9nticos-decadentes"
+    },
+    {
+      "name": "El Amor Nunca Pasa de Moda",
+      "artists": "Los Caligaris;Lupe Esparza",
+      "album": "Circolog\u00eda",
+      "popularity": 44,
+      "tempo": 160.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.714,
+      "valence": 0.87,
+      "danceability": 0.658,
+      "acousticness": 0.406,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.04,
+      "duration_ms": 243973,
+      "slug": "el-amor-nunca-pasa-de-moda-los-caligaris"
+    },
+    {
+      "name": "Amor Secreto",
+      "artists": "Kapanga",
+      "album": "A 15 Cm De La Realidad",
+      "popularity": 44,
+      "tempo": 141.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.803,
+      "valence": 0.725,
+      "danceability": 0.54,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.048,
+      "duration_ms": 222426,
+      "slug": "amor-secreto-kapanga"
+    },
+    {
+      "name": "Queda en Esta Noche",
+      "artists": "Los Caligaris;Ciro y los Persas",
+      "album": "Queda en Esta Noche",
+      "popularity": 44,
+      "tempo": 168.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.898,
+      "valence": 0.906,
+      "danceability": 0.587,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.04,
+      "duration_ms": 149269,
+      "slug": "queda-en-esta-noche-los-caligaris"
+    },
+    {
+      "name": "Yo Te Avis\u00e9 - Remasterizado 2008",
+      "artists": "Los Fabulosos Cadillacs",
+      "album": "Yo Te Avis\u00e9",
+      "popularity": 44,
+      "tempo": 93.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.889,
+      "valence": 0.963,
+      "danceability": 0.73,
+      "acousticness": 0.079,
+      "instrumentalness": 0.005,
+      "loudness": -6.0,
+      "speechiness": 0.057,
+      "duration_ms": 187520,
+      "slug": "yo-te-avis\u00e9-remasterizado-2008-los-fabulosos-cadillacs"
+    },
+    {
+      "name": "La Carta",
+      "artists": "Los Caligaris",
+      "album": "Bailar\u00edn Apocal\u00edptico",
+      "popularity": 44,
+      "tempo": 156.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.904,
+      "valence": 0.862,
+      "danceability": 0.656,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.04,
+      "duration_ms": 226341,
+      "slug": "la-carta-los-caligaris"
+    },
+    {
+      "name": "Ma\u00f1ana en el Abasto",
+      "artists": "Sumo",
+      "album": "After Chabon",
+      "popularity": 44,
+      "tempo": 97.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.549,
+      "valence": 0.351,
+      "danceability": 0.744,
+      "acousticness": 0.078,
+      "instrumentalness": 0.002,
+      "loudness": -14.1,
+      "speechiness": 0.027,
+      "duration_ms": 248306,
+      "slug": "ma\u00f1ana-en-el-abasto-sumo"
+    },
+    {
+      "name": "Cuando quieras",
+      "artists": "Guachup\u00e9",
+      "album": "La triste realidad",
+      "popularity": 43,
+      "tempo": 124.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.653,
+      "valence": 0.906,
+      "danceability": 0.604,
+      "acousticness": 0.609,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.037,
+      "duration_ms": 233119,
+      "slug": "cuando-quieras-guachup\u00e9"
+    },
+    {
+      "name": "Alles wird wieder OK!",
+      "artists": "Broilers",
+      "album": "Puro Amor",
+      "popularity": 43,
+      "tempo": 135.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.806,
+      "valence": 0.731,
+      "danceability": 0.687,
+      "acousticness": 0.016,
+      "instrumentalness": 0.014,
+      "loudness": -5.2,
+      "speechiness": 0.044,
+      "duration_ms": 161078,
+      "slug": "alles-wird-wieder-ok-broilers"
+    },
+    {
+      "name": "El Cuerpo Del Delito - Remasterizado 2007",
+      "artists": "Soda Stereo",
+      "album": "Nada Personal (Remastered)",
+      "popularity": 43,
+      "tempo": 134.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.888,
+      "valence": 0.949,
+      "danceability": 0.769,
+      "acousticness": 0.54,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.049,
+      "duration_ms": 226653,
+      "slug": "el-cuerpo-del-delito-remasterizado-2007-soda-stereo"
+    },
+    {
+      "name": "Se\u00f1ora, Devu\u00e9lvame la Pelota o Si No No S\u00e9 Lo Qu\u00e9 Har\u00e9 - Pepe Lota",
+      "artists": "31 Minutos",
+      "album": "31 Minutos",
+      "popularity": 43,
+      "tempo": 118.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.484,
+      "valence": 0.496,
+      "danceability": 0.748,
+      "acousticness": 0.863,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.11,
+      "duration_ms": 187000,
+      "slug": "se\u00f1ora-devu\u00e9lvame-la-pelota-o-si-no-no-s\u00e9-lo-qu\u00e9-har\u00e9-pepe-lota-31-minutos"
+    },
+    {
+      "name": "Y Qu\u00e9",
+      "artists": "Inspector;Los Caligaris",
+      "album": "Y Qu\u00e9",
+      "popularity": 43,
+      "tempo": 144.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.879,
+      "valence": 0.534,
+      "danceability": 0.686,
+      "acousticness": 0.179,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.042,
+      "duration_ms": 212368,
+      "slug": "y-qu\u00e9-inspector"
+    },
+    {
+      "name": "Tren a la Luna",
+      "artists": "Chancho En Piedra",
+      "album": "Funkybar\u00edtico Hed\u00f3nico Fant\u00e1stico",
+      "popularity": 43,
+      "tempo": 120.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.852,
+      "valence": 0.903,
+      "danceability": 0.65,
+      "acousticness": 0.016,
+      "instrumentalness": 0.01,
+      "loudness": -7.3,
+      "speechiness": 0.084,
+      "duration_ms": 226445,
+      "slug": "tren-a-la-luna-chancho-en-piedra"
+    },
+    {
+      "name": "Setentista",
+      "artists": "Attaque 77",
+      "album": "Antihumano",
+      "popularity": 43,
+      "tempo": 156.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.907,
+      "valence": 0.668,
+      "danceability": 0.421,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.048,
+      "duration_ms": 229746,
+      "slug": "setentista-attaque-77"
+    },
+    {
+      "name": "Botellas",
+      "artists": "Panteon Rococo",
+      "album": "Infiernos",
+      "popularity": 43,
+      "tempo": 160.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.895,
+      "valence": 0.849,
+      "danceability": 0.726,
+      "acousticness": 0.223,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.043,
+      "duration_ms": 247680,
+      "slug": "botellas-panteon-rococo"
+    },
+    {
+      "name": "Sunshine",
+      "artists": "Samiam",
+      "album": "Astray",
+      "popularity": 43,
+      "tempo": 111.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.967,
+      "valence": 0.455,
+      "danceability": 0.533,
+      "acousticness": 0.0,
+      "instrumentalness": 0.134,
+      "loudness": -5.9,
+      "speechiness": 0.048,
+      "duration_ms": 196133,
+      "slug": "sunshine-samiam"
+    },
+    {
+      "name": "Dean's Dream",
+      "artists": "The Dead Milkmen",
+      "album": "Death Rides A Pale Cow: The Ultimate Collection",
+      "popularity": 43,
+      "tempo": 110.6,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.921,
+      "valence": 0.849,
+      "danceability": 0.404,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.042,
+      "duration_ms": 107866,
+      "slug": "deans-dream-the-dead-milkmen"
+    },
+    {
+      "name": "Sudah Sudahlah",
+      "artists": "Souljah",
+      "album": "Mestakung",
+      "popularity": 43,
+      "tempo": 168.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.78,
+      "valence": 0.9,
+      "danceability": 0.652,
+      "acousticness": 0.574,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.076,
+      "duration_ms": 248032,
+      "slug": "sudah-sudahlah-souljah"
+    },
+    {
+      "name": "Cumbia del Olvido",
+      "artists": "Panteon Rococo",
+      "album": "Un Panteon Muy Vivo",
+      "popularity": 43,
+      "tempo": 103.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.898,
+      "valence": 0.608,
+      "danceability": 0.523,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.13,
+      "duration_ms": 260666,
+      "slug": "cumbia-del-olvido-panteon-rococo"
+    },
+    {
+      "name": "Quiero Cumbia",
+      "artists": "Los Caligaris;Kodigo",
+      "album": "Quiero Cumbia",
+      "popularity": 43,
+      "tempo": 100.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.886,
+      "valence": 0.779,
+      "danceability": 0.639,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.038,
+      "duration_ms": 219150,
+      "slug": "quiero-cumbia-los-caligaris"
+    },
+    {
+      "name": "Frijoles",
+      "artists": "Los Caligaris",
+      "album": "Canciones Felices",
+      "popularity": 43,
+      "tempo": 95.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.776,
+      "valence": 0.967,
+      "danceability": 0.67,
+      "acousticness": 0.516,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.034,
+      "duration_ms": 196158,
+      "slug": "frijoles-los-caligaris"
+    },
+    {
+      "name": "Latinoam\u00e9rica Es un Pueblo al Sur de Estados Unidos",
+      "artists": "Los Prisioneros",
+      "album": "La Voz de los '80 (Edici\u00f3n 30 A\u00f1os)",
+      "popularity": 43,
+      "tempo": 101.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.749,
+      "valence": 0.912,
+      "danceability": 0.764,
+      "acousticness": 0.13,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.132,
+      "duration_ms": 242216,
+      "slug": "latinoam\u00e9rica-es-un-pueblo-al-sur-de-estados-unidos-los-prisioneros"
+    },
+    {
+      "name": "La Abundancia",
+      "artists": "Los Caligaris",
+      "album": "Salva",
+      "popularity": 43,
+      "tempo": 168.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.845,
+      "valence": 0.961,
+      "danceability": 0.562,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.03,
+      "duration_ms": 185731,
+      "slug": "la-abundancia-los-caligaris"
+    },
+    {
+      "name": "Vereda",
+      "artists": "Los Caligaris",
+      "album": "Bailar\u00edn Apocal\u00edptico",
+      "popularity": 43,
+      "tempo": 137.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.813,
+      "valence": 0.61,
+      "danceability": 0.673,
+      "acousticness": 0.197,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.056,
+      "duration_ms": 242582,
+      "slug": "vereda-los-caligaris"
+    },
+    {
+      "name": "Dime",
+      "artists": "Panteon Rococo",
+      "album": "Compa\u00f1eros Musicales",
+      "popularity": 43,
+      "tempo": 136.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.919,
+      "valence": 0.83,
+      "danceability": 0.753,
+      "acousticness": 0.016,
+      "instrumentalness": 0.018,
+      "loudness": -7.0,
+      "speechiness": 0.045,
+      "duration_ms": 230400,
+      "slug": "dime-panteon-rococo"
+    },
+    {
+      "name": "Estoy Harto De Verte Con Otros - Remasterizado 2008",
+      "artists": "Los Fabulosos Cadillacs",
+      "album": "Yo Te Avis\u00e9",
+      "popularity": 43,
+      "tempo": 93.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.905,
+      "valence": 0.942,
+      "danceability": 0.464,
+      "acousticness": 0.091,
+      "instrumentalness": 0.057,
+      "loudness": -5.5,
+      "speechiness": 0.039,
+      "duration_ms": 292720,
+      "slug": "estoy-harto-de-verte-con-otros-remasterizado-2008-los-fabulosos-cadillacs"
+    },
+    {
+      "name": "Un Elefante en un Pesebre",
+      "artists": "Los Caligaris",
+      "album": "Bailar\u00edn Apocal\u00edptico",
+      "popularity": 43,
+      "tempo": 97.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.502,
+      "valence": 0.673,
+      "danceability": 0.675,
+      "acousticness": 0.127,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.03,
+      "duration_ms": 238849,
+      "slug": "un-elefante-en-un-pesebre-los-caligaris"
+    },
+    {
+      "name": "La Noche Estaba Puesta",
+      "artists": "Salon Victoria",
+      "album": "96 - 05",
+      "popularity": 43,
+      "tempo": 124.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.665,
+      "valence": 0.706,
+      "danceability": 0.479,
+      "acousticness": 0.059,
+      "instrumentalness": 0.013,
+      "loudness": -9.3,
+      "speechiness": 0.097,
+      "duration_ms": 190466,
+      "slug": "la-noche-estaba-puesta-salon-victoria"
+    }
+  ]
+}

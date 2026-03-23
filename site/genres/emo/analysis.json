@@ -1,0 +1,2804 @@
+{
+  "genre": "Emo",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 64.934,
+    "max": 208.951,
+    "mean": 127.617,
+    "median": 129.913,
+    "q1": 105.003,
+    "q3": 146.04,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 8,
+      "80-89": 4,
+      "90-99": 7,
+      "100-109": 12,
+      "110-119": 7,
+      "120-129": 12,
+      "130-139": 14,
+      "140-149": 15,
+      "150-159": 4,
+      "160-169": 7,
+      "170-179": 6,
+      "190-199": 1,
+      "200+": 2
+    }
+  },
+  "key_distribution": {
+    "E": 14,
+    "A": 12,
+    "C": 11,
+    "G": 10,
+    "D": 10,
+    "B": 9,
+    "C#/Db": 9,
+    "F": 7,
+    "A#/Bb": 6,
+    "G#/Ab": 5,
+    "F#/Gb": 4,
+    "D#/Eb": 3
+  },
+  "mode_distribution": {
+    "Minor": 47,
+    "Major": 53
+  },
+  "key_mode_distribution": {
+    "E Minor": 8,
+    "G Major": 8,
+    "B Minor": 7,
+    "A Minor": 7,
+    "C#/Db Major": 7,
+    "D Major": 7,
+    "C Major": 7,
+    "E Major": 6,
+    "G#/Ab Major": 5,
+    "A#/Bb Minor": 5,
+    "A Major": 5,
+    "C Minor": 4,
+    "F Minor": 4,
+    "F Major": 3,
+    "F#/Gb Minor": 3,
+    "D Minor": 3,
+    "G Minor": 2,
+    "B Major": 2,
+    "D#/Eb Minor": 2,
+    "C#/Db Minor": 2,
+    "A#/Bb Major": 1,
+    "F#/Gb Major": 1,
+    "D#/Eb Major": 1
+  },
+  "energy": {
+    "min": 0.154,
+    "max": 0.973,
+    "mean": 0.644,
+    "median": 0.658,
+    "q1": 0.484,
+    "q3": 0.857
+  },
+  "valence": {
+    "min": 0.04,
+    "max": 0.916,
+    "mean": 0.387,
+    "median": 0.346,
+    "q1": 0.198,
+    "q3": 0.56
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.251,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.457,
+      "valence": 0.225
+    },
+    {
+      "energy": 0.57,
+      "valence": 0.689
+    },
+    {
+      "energy": 0.391,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.329
+    },
+    {
+      "energy": 0.613,
+      "valence": 0.473
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.726,
+      "valence": 0.349
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.856
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.903
+    },
+    {
+      "energy": 0.308,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.689
+    },
+    {
+      "energy": 0.923,
+      "valence": 0.765
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.143
+    },
+    {
+      "energy": 0.304,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.236
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.588
+    },
+    {
+      "energy": 0.583,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.789
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.764
+    },
+    {
+      "energy": 0.528,
+      "valence": 0.728
+    },
+    {
+      "energy": 0.353,
+      "valence": 0.06
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.255
+    },
+    {
+      "energy": 0.961,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.555
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.493
+    },
+    {
+      "energy": 0.96,
+      "valence": 0.086
+    },
+    {
+      "energy": 0.526,
+      "valence": 0.746
+    },
+    {
+      "energy": 0.416,
+      "valence": 0.196
+    },
+    {
+      "energy": 0.197,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.151
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.307
+    },
+    {
+      "energy": 0.818,
+      "valence": 0.916
+    },
+    {
+      "energy": 0.893,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.509,
+      "valence": 0.61
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.579,
+      "valence": 0.577
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.731
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.462,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.924,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.309
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.492,
+      "valence": 0.374
+    },
+    {
+      "energy": 0.387,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.467,
+      "valence": 0.329
+    },
+    {
+      "energy": 0.583,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.762,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.301,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.613,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.152
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.686
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.339,
+      "valence": 0.292
+    },
+    {
+      "energy": 0.156,
+      "valence": 0.527
+    },
+    {
+      "energy": 0.688,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.686,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.204,
+      "valence": 0.191
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.434,
+      "valence": 0.241
+    },
+    {
+      "energy": 0.45,
+      "valence": 0.121
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.181
+    },
+    {
+      "energy": 0.591,
+      "valence": 0.175
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.198
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.192
+    },
+    {
+      "energy": 0.973,
+      "valence": 0.362
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.412
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.41,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.515,
+      "valence": 0.222
+    },
+    {
+      "energy": 0.827,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.415,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.312,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.154,
+      "valence": 0.095
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.455
+    },
+    {
+      "energy": 0.284,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.683,
+      "valence": 0.122
+    },
+    {
+      "energy": 0.357,
+      "valence": 0.114
+    },
+    {
+      "energy": 0.962,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.073
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.632
+    },
+    {
+      "energy": 0.309,
+      "valence": 0.04
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.926,
+    "mean": 0.217,
+    "median": 0.053,
+    "q1": 0.008,
+    "q3": 0.42
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.853,
+    "mean": 0.046,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.002
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.782,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.847,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.469,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.258,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.556,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.259,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.883,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.779,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.689,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.843,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.293,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.788,
+      "instrumentalness": 0.853
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.398,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.334,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.1,
+      "instrumentalness": 0.179
+    },
+    {
+      "acousticness": 0.768,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.151
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.154,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.525,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.274,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.144,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.513,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.031
+    },
+    {
+      "acousticness": 0.088,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.172,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.926,
+      "instrumentalness": 0.825
+    },
+    {
+      "acousticness": 0.714,
+      "instrumentalness": 0.799
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.032
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.255,
+      "instrumentalness": 0.557
+    },
+    {
+      "acousticness": 0.678,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.585,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.307,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.44,
+      "instrumentalness": 0.062
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.548
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.238,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.217,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.659,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.608,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.192,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.358,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.615,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.401
+    },
+    {
+      "acousticness": 0.443,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.631,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.42,
+      "instrumentalness": 0.038
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.011
+    }
+  ],
+  "duration": {
+    "min": 78680,
+    "max": 360760,
+    "mean": 178594.16,
+    "median": 179835.0,
+    "q1": 142000,
+    "q3": 212040
+  },
+  "danceability": {
+    "min": 0.202,
+    "max": 0.954,
+    "mean": 0.59,
+    "median": 0.605,
+    "q1": 0.467,
+    "q3": 0.727
+  },
+  "loudness": {
+    "min": -16.169,
+    "max": -1.945,
+    "mean": -6.635,
+    "median": -6.316,
+    "q1": -8.629,
+    "q3": -4.22
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.537,
+    "mean": 0.106,
+    "median": 0.072,
+    "q1": 0.043,
+    "q3": 0.109
+  },
+  "top_artists": [
+    {
+      "name": "XXXTENTACION",
+      "count": 30
+    },
+    {
+      "name": "Lil Peep",
+      "count": 15
+    },
+    {
+      "name": "My Chemical Romance",
+      "count": 11
+    },
+    {
+      "name": "Paramore",
+      "count": 10
+    },
+    {
+      "name": "Fall Out Boy",
+      "count": 9
+    },
+    {
+      "name": "6ix9ine",
+      "count": 4
+    },
+    {
+      "name": "Lil Tracy",
+      "count": 3
+    },
+    {
+      "name": "iamjakehill",
+      "count": 3
+    },
+    {
+      "name": "Trippie Redd",
+      "count": 2
+    },
+    {
+      "name": "Anuel AA",
+      "count": 2
+    },
+    {
+      "name": "salvia palth",
+      "count": 2
+    },
+    {
+      "name": "Josh A",
+      "count": 2
+    },
+    {
+      "name": "ilyTOMMY",
+      "count": 2
+    },
+    {
+      "name": "MASN",
+      "count": 2
+    },
+    {
+      "name": "Jimmy Eat World",
+      "count": 1
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Revenge",
+      "artists": "XXXTENTACION",
+      "album": "17",
+      "popularity": 87,
+      "tempo": 140.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.251,
+      "valence": 0.18,
+      "danceability": 0.746,
+      "acousticness": 0.782,
+      "instrumentalness": 0.002,
+      "loudness": -16.2,
+      "speechiness": 0.259,
+      "duration_ms": 120026,
+      "slug": "revenge-xxxtentacion"
+    },
+    {
+      "name": "Hope",
+      "artists": "XXXTENTACION",
+      "album": "?",
+      "popularity": 86,
+      "tempo": 146.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.457,
+      "valence": 0.225,
+      "danceability": 0.592,
+      "acousticness": 0.661,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.06,
+      "duration_ms": 110886,
+      "slug": "hope-xxxtentacion"
+    },
+    {
+      "name": "Everybody Dies In Their Nightmares",
+      "artists": "XXXTENTACION",
+      "album": "17",
+      "popularity": 85,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.57,
+      "valence": 0.689,
+      "danceability": 0.734,
+      "acousticness": 0.847,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.133,
+      "duration_ms": 95466,
+      "slug": "everybody-dies-in-their-nightmares-xxxtentacion"
+    },
+    {
+      "name": "Jocelyn Flores",
+      "artists": "XXXTENTACION",
+      "album": "17",
+      "popularity": 84,
+      "tempo": 134.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.391,
+      "valence": 0.437,
+      "danceability": 0.872,
+      "acousticness": 0.469,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.242,
+      "duration_ms": 119133,
+      "slug": "jocelyn-flores-xxxtentacion"
+    },
+    {
+      "name": "Fuck Love (feat. Trippie Redd)",
+      "artists": "XXXTENTACION;Trippie Redd",
+      "album": "17",
+      "popularity": 83,
+      "tempo": 131.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.533,
+      "valence": 0.329,
+      "danceability": 0.797,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.041,
+      "duration_ms": 146520,
+      "slug": "fuck-love-feat-trippie-redd-xxxtentacion"
+    },
+    {
+      "name": "SAD!",
+      "artists": "XXXTENTACION",
+      "album": "?",
+      "popularity": 83,
+      "tempo": 75.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.613,
+      "valence": 0.473,
+      "danceability": 0.74,
+      "acousticness": 0.258,
+      "instrumentalness": 0.004,
+      "loudness": -4.9,
+      "speechiness": 0.145,
+      "duration_ms": 166605,
+      "slug": "sad-xxxtentacion"
+    },
+    {
+      "name": "Moonlight",
+      "artists": "XXXTENTACION",
+      "album": "?",
+      "popularity": 83,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.537,
+      "valence": 0.711,
+      "danceability": 0.921,
+      "acousticness": 0.556,
+      "instrumentalness": 0.004,
+      "loudness": -5.7,
+      "speechiness": 0.08,
+      "duration_ms": 135090,
+      "slug": "moonlight-xxxtentacion"
+    },
+    {
+      "name": "Look At Me!",
+      "artists": "XXXTENTACION",
+      "album": "Look At Me!",
+      "popularity": 82,
+      "tempo": 139.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.726,
+      "valence": 0.349,
+      "danceability": 0.763,
+      "acousticness": 0.259,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.282,
+      "duration_ms": 126345,
+      "slug": "look-at-me-xxxtentacion"
+    },
+    {
+      "name": "Falling Down - Bonus Track",
+      "artists": "Lil Peep;XXXTENTACION",
+      "album": "Come Over When You're Sober, Pt. 2",
+      "popularity": 81,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.574,
+      "valence": 0.273,
+      "danceability": 0.669,
+      "acousticness": 0.018,
+      "instrumentalness": 0.003,
+      "loudness": -6.4,
+      "speechiness": 0.029,
+      "duration_ms": 196400,
+      "slug": "falling-down-bonus-track-lil-peep"
+    },
+    {
+      "name": "Teenagers",
+      "artists": "My Chemical Romance",
+      "album": "The Black Parade",
+      "popularity": 81,
+      "tempo": 111.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.857,
+      "valence": 0.856,
+      "danceability": 0.463,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.063,
+      "duration_ms": 161920,
+      "slug": "teenagers-my-chemical-romance"
+    },
+    {
+      "name": "The Middle",
+      "artists": "Jimmy Eat World",
+      "album": "Bleed American",
+      "popularity": 81,
+      "tempo": 162.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.903,
+      "danceability": 0.643,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.053,
+      "duration_ms": 165853,
+      "slug": "the-middle-jimmy-eat-world"
+    },
+    {
+      "name": "changes",
+      "artists": "XXXTENTACION",
+      "album": "?",
+      "popularity": 80,
+      "tempo": 64.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.308,
+      "valence": 0.52,
+      "danceability": 0.669,
+      "acousticness": 0.883,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.029,
+      "duration_ms": 121886,
+      "slug": "changes-xxxtentacion"
+    },
+    {
+      "name": "Centuries",
+      "artists": "Fall Out Boy",
+      "album": "American Beauty/American Psycho",
+      "popularity": 80,
+      "tempo": 176.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.858,
+      "valence": 0.56,
+      "danceability": 0.393,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.073,
+      "duration_ms": 228360,
+      "slug": "centuries-fall-out-boy"
+    },
+    {
+      "name": "This Is Why",
+      "artists": "Paramore",
+      "album": "This Is Why",
+      "popularity": 80,
+      "tempo": 123.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.737,
+      "valence": 0.689,
+      "danceability": 0.723,
+      "acousticness": 0.004,
+      "instrumentalness": 0.003,
+      "loudness": -7.6,
+      "speechiness": 0.039,
+      "duration_ms": 207652,
+      "slug": "this-is-why-paramore"
+    },
+    {
+      "name": "Still into You",
+      "artists": "Paramore",
+      "album": "Paramore",
+      "popularity": 80,
+      "tempo": 136.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.923,
+      "valence": 0.765,
+      "danceability": 0.602,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.044,
+      "duration_ms": 216013,
+      "slug": "still-into-you-paramore"
+    },
+    {
+      "name": "nuts (feat. rainy bear)",
+      "artists": "Lil Peep;rainy bear",
+      "album": "nuts (feat. rainy bear)",
+      "popularity": 80,
+      "tempo": 124.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.741,
+      "valence": 0.143,
+      "danceability": 0.576,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.036,
+      "duration_ms": 85360,
+      "slug": "nuts-feat-rainy-bear-lil-peep"
+    },
+    {
+      "name": "the remedy for a broken heart (why am I so in love)",
+      "artists": "XXXTENTACION",
+      "album": "?",
+      "popularity": 79,
+      "tempo": 119.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.304,
+      "valence": 0.271,
+      "danceability": 0.699,
+      "acousticness": 0.779,
+      "instrumentalness": 0.001,
+      "loudness": -11.2,
+      "speechiness": 0.099,
+      "duration_ms": 160184,
+      "slug": "the-remedy-for-a-broken-heart-why-am-i-so-in-love-xxxtentacion"
+    },
+    {
+      "name": "Welcome to the Black Parade",
+      "artists": "My Chemical Romance",
+      "album": "The Black Parade",
+      "popularity": 79,
+      "tempo": 97.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.905,
+      "valence": 0.236,
+      "danceability": 0.217,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.075,
+      "duration_ms": 311106,
+      "slug": "welcome-to-the-black-parade-my-chemical-romance"
+    },
+    {
+      "name": "Thnks fr th Mmrs",
+      "artists": "Fall Out Boy",
+      "album": "Infinity On High",
+      "popularity": 79,
+      "tempo": 154.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.891,
+      "valence": 0.588,
+      "danceability": 0.459,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.062,
+      "duration_ms": 203506,
+      "slug": "thnks-fr-th-mmrs-fall-out-boy"
+    },
+    {
+      "name": "Save That Shit",
+      "artists": "Lil Peep",
+      "album": "Come Over When You're Sober, Pt. 1",
+      "popularity": 78,
+      "tempo": 106.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.583,
+      "valence": 0.145,
+      "danceability": 0.534,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.029,
+      "duration_ms": 231546,
+      "slug": "save-that-shit-lil-peep"
+    },
+    {
+      "name": "MALA",
+      "artists": "6ix9ine;Anuel AA",
+      "album": "DUMMY BOY",
+      "popularity": 78,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.825,
+      "valence": 0.789,
+      "danceability": 0.72,
+      "acousticness": 0.689,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.042,
+      "duration_ms": 206550,
+      "slug": "mala-6ix9ine"
+    },
+    {
+      "name": "Sugar, We're Goin Down",
+      "artists": "Fall Out Boy",
+      "album": "From Under The Cork Tree",
+      "popularity": 78,
+      "tempo": 162.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.574,
+      "danceability": 0.494,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.084,
+      "duration_ms": 229093,
+      "slug": "sugar-were-goin-down-fall-out-boy"
+    },
+    {
+      "name": "I Don't Wanna Do This Anymore",
+      "artists": "XXXTENTACION",
+      "album": "Revenge",
+      "popularity": 77,
+      "tempo": 114.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.778,
+      "valence": 0.764,
+      "danceability": 0.433,
+      "acousticness": 0.843,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.041,
+      "duration_ms": 87560,
+      "slug": "i-dont-wanna-do-this-anymore-xxxtentacion"
+    },
+    {
+      "name": "white tee",
+      "artists": "Lil Peep;Lil Tracy",
+      "album": "crybaby",
+      "popularity": 77,
+      "tempo": 150.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.528,
+      "valence": 0.728,
+      "danceability": 0.798,
+      "acousticness": 0.293,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.042,
+      "duration_ms": 132226,
+      "slug": "white-tee-lil-peep"
+    },
+    {
+      "name": "i was all over her",
+      "artists": "salvia palth",
+      "album": "melanchole",
+      "popularity": 77,
+      "tempo": 104.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.353,
+      "valence": 0.06,
+      "danceability": 0.529,
+      "acousticness": 0.788,
+      "instrumentalness": 0.853,
+      "loudness": -12.8,
+      "speechiness": 0.029,
+      "duration_ms": 161462,
+      "slug": "i-was-all-over-her-salvia-palth"
+    },
+    {
+      "name": "I'm Not Okay (I Promise)",
+      "artists": "My Chemical Romance",
+      "album": "Three Cheers for Sweet Revenge",
+      "popularity": 77,
+      "tempo": 179.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.94,
+      "valence": 0.255,
+      "danceability": 0.21,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.123,
+      "duration_ms": 186480,
+      "slug": "im-not-okay-i-promise-my-chemical-romance"
+    },
+    {
+      "name": "Dance, Dance",
+      "artists": "Fall Out Boy",
+      "album": "From Under The Cork Tree",
+      "popularity": 77,
+      "tempo": 114.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.961,
+      "valence": 0.449,
+      "danceability": 0.622,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.154,
+      "duration_ms": 180266,
+      "slug": "dance-dance-fall-out-boy"
+    },
+    {
+      "name": "RIP Roach",
+      "artists": "XXXTENTACION;Ski Mask The Slump God",
+      "album": "Revenge",
+      "popularity": 76,
+      "tempo": 105.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.62,
+      "valence": 0.555,
+      "danceability": 0.727,
+      "acousticness": 0.398,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.306,
+      "duration_ms": 169978,
+      "slug": "rip-roach-xxxtentacion"
+    },
+    {
+      "name": "YuNg BrAtZ",
+      "artists": "XXXTENTACION",
+      "album": "Revenge",
+      "popularity": 76,
+      "tempo": 128.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.493,
+      "danceability": 0.755,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.26,
+      "duration_ms": 101851,
+      "slug": "yung-bratz-xxxtentacion"
+    },
+    {
+      "name": "Helena",
+      "artists": "My Chemical Romance",
+      "album": "Three Cheers for Sweet Revenge",
+      "popularity": 76,
+      "tempo": 125.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.96,
+      "valence": 0.086,
+      "danceability": 0.356,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.104,
+      "duration_ms": 204733,
+      "slug": "helena-my-chemical-romance"
+    },
+    {
+      "name": "bad vibes forever",
+      "artists": "XXXTENTACION;PnB Rock;Trippie Redd",
+      "album": "Bad Vibes Forever",
+      "popularity": 75,
+      "tempo": 129.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.526,
+      "valence": 0.746,
+      "danceability": 0.8,
+      "acousticness": 0.334,
+      "instrumentalness": 0.002,
+      "loudness": -5.2,
+      "speechiness": 0.072,
+      "duration_ms": 150475,
+      "slug": "bad-vibes-forever-xxxtentacion"
+    },
+    {
+      "name": "NUMB",
+      "artists": "XXXTENTACION",
+      "album": "?",
+      "popularity": 75,
+      "tempo": 159.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.416,
+      "valence": 0.196,
+      "danceability": 0.414,
+      "acousticness": 0.1,
+      "instrumentalness": 0.179,
+      "loudness": -8.0,
+      "speechiness": 0.025,
+      "duration_ms": 186267,
+      "slug": "numb-xxxtentacion"
+    },
+    {
+      "name": "Carry On",
+      "artists": "XXXTENTACION",
+      "album": "17",
+      "popularity": 75,
+      "tempo": 147.9,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.197,
+      "valence": 0.383,
+      "danceability": 0.735,
+      "acousticness": 0.768,
+      "instrumentalness": 0.0,
+      "loudness": -13.4,
+      "speechiness": 0.537,
+      "duration_ms": 129720,
+      "slug": "carry-on-xxxtentacion"
+    },
+    {
+      "name": "By the Sword",
+      "artists": "iamjakehill",
+      "album": "By the Sword",
+      "popularity": 75,
+      "tempo": 160.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.781,
+      "danceability": 0.685,
+      "acousticness": 0.02,
+      "instrumentalness": 0.151,
+      "loudness": -7.8,
+      "speechiness": 0.051,
+      "duration_ms": 125812,
+      "slug": "by-the-sword-iamjakehill"
+    },
+    {
+      "name": "Riot",
+      "artists": "XXXTENTACION",
+      "album": "Riot",
+      "popularity": 75,
+      "tempo": 97.8,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.542,
+      "valence": 0.151,
+      "danceability": 0.509,
+      "acousticness": 0.019,
+      "instrumentalness": 0.006,
+      "loudness": -8.0,
+      "speechiness": 0.442,
+      "duration_ms": 78680,
+      "slug": "riot-xxxtentacion"
+    },
+    {
+      "name": "Star Shopping",
+      "artists": "Lil Peep",
+      "album": "Star Shopping",
+      "popularity": 75,
+      "tempo": 93.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.471,
+      "valence": 0.307,
+      "danceability": 0.538,
+      "acousticness": 0.095,
+      "instrumentalness": 0.018,
+      "loudness": -9.8,
+      "speechiness": 0.096,
+      "duration_ms": 142000,
+      "slug": "star-shopping-lil-peep"
+    },
+    {
+      "name": "Hard Times",
+      "artists": "Paramore",
+      "album": "After Laughter",
+      "popularity": 75,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.818,
+      "valence": 0.916,
+      "danceability": 0.695,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.033,
+      "duration_ms": 182693,
+      "slug": "hard-times-paramore"
+    },
+    {
+      "name": "Ain't It Fun",
+      "artists": "Paramore",
+      "album": "Paramore",
+      "popularity": 75,
+      "tempo": 104.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.893,
+      "valence": 0.673,
+      "danceability": 0.61,
+      "acousticness": 0.154,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.092,
+      "duration_ms": 296520,
+      "slug": "aint-it-fun-paramore"
+    },
+    {
+      "name": "Pain",
+      "artists": "Josh A",
+      "album": "Fearless",
+      "popularity": 74,
+      "tempo": 75.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.509,
+      "valence": 0.61,
+      "danceability": 0.789,
+      "acousticness": 0.525,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.277,
+      "duration_ms": 188041,
+      "slug": "pain-josh-a"
+    },
+    {
+      "name": "Immortals",
+      "artists": "Fall Out Boy",
+      "album": "American Beauty/American Psycho",
+      "popularity": 74,
+      "tempo": 108.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.868,
+      "valence": 0.475,
+      "danceability": 0.616,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.07,
+      "duration_ms": 189386,
+      "slug": "immortals-fall-out-boy"
+    },
+    {
+      "name": "infinity (888) - feat. Joey Bada$$",
+      "artists": "XXXTENTACION;Joey Bada$$",
+      "album": "?",
+      "popularity": 74,
+      "tempo": 84.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.579,
+      "valence": 0.577,
+      "danceability": 0.562,
+      "acousticness": 0.274,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.484,
+      "duration_ms": 176590,
+      "slug": "infinity-888-feat-joey-bada-xxxtentacion"
+    },
+    {
+      "name": "Misery Business",
+      "artists": "Paramore",
+      "album": "Riot!",
+      "popularity": 74,
+      "tempo": 173.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.906,
+      "valence": 0.731,
+      "danceability": 0.517,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.073,
+      "duration_ms": 211520,
+      "slug": "misery-business-paramore"
+    },
+    {
+      "name": "The Only Exception",
+      "artists": "Paramore",
+      "album": "Brand New Eyes",
+      "popularity": 74,
+      "tempo": 137.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.563,
+      "valence": 0.209,
+      "danceability": 0.452,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.027,
+      "duration_ms": 267653,
+      "slug": "the-only-exception-paramore"
+    },
+    {
+      "name": "Ex Bitch",
+      "artists": "XXXTENTACION",
+      "album": "Bad Vibes Forever",
+      "popularity": 73,
+      "tempo": 79.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.462,
+      "valence": 0.702,
+      "danceability": 0.835,
+      "acousticness": 0.513,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.155,
+      "duration_ms": 121671,
+      "slug": "ex-bitch-xxxtentacion"
+    },
+    {
+      "name": "Life is Beautiful",
+      "artists": "Lil Peep",
+      "album": "Come Over When You're Sober, Pt. 2",
+      "popularity": 73,
+      "tempo": 135.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.638,
+      "valence": 0.324,
+      "danceability": 0.533,
+      "acousticness": 0.038,
+      "instrumentalness": 0.001,
+      "loudness": -9.4,
+      "speechiness": 0.064,
+      "duration_ms": 207586,
+      "slug": "life-is-beautiful-lil-peep"
+    },
+    {
+      "name": "My Songs Know What You Did In The Dark (Light Em Up)",
+      "artists": "Fall Out Boy",
+      "album": "Save Rock And Roll",
+      "popularity": 73,
+      "tempo": 152.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.924,
+      "valence": 0.567,
+      "danceability": 0.558,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.064,
+      "duration_ms": 186826,
+      "slug": "my-songs-know-what-you-did-in-the-dark-light-em-up-fall-out-boy"
+    },
+    {
+      "name": "I Don't Love You",
+      "artists": "My Chemical Romance",
+      "album": "The Black Parade",
+      "popularity": 73,
+      "tempo": 169.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.796,
+      "valence": 0.33,
+      "danceability": 0.289,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.049,
+      "duration_ms": 238680,
+      "slug": "i-dont-love-you-my-chemical-romance"
+    },
+    {
+      "name": "Famous Last Words",
+      "artists": "My Chemical Romance",
+      "album": "The Black Parade",
+      "popularity": 73,
+      "tempo": 122.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.883,
+      "valence": 0.309,
+      "danceability": 0.467,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.106,
+      "duration_ms": 299226,
+      "slug": "famous-last-words-my-chemical-romance"
+    },
+    {
+      "name": "Decode",
+      "artists": "Paramore",
+      "album": "Decode",
+      "popularity": 73,
+      "tempo": 164.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.87,
+      "valence": 0.284,
+      "danceability": 0.28,
+      "acousticness": 0.001,
+      "instrumentalness": 0.006,
+      "loudness": -4.2,
+      "speechiness": 0.059,
+      "duration_ms": 261959,
+      "slug": "decode-paramore"
+    },
+    {
+      "name": "BAD!",
+      "artists": "XXXTENTACION",
+      "album": "SKINS",
+      "popularity": 72,
+      "tempo": 144.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.492,
+      "valence": 0.374,
+      "danceability": 0.78,
+      "acousticness": 0.064,
+      "instrumentalness": 0.031,
+      "loudness": -3.4,
+      "speechiness": 0.067,
+      "duration_ms": 94245,
+      "slug": "bad-xxxtentacion"
+    },
+    {
+      "name": "FEFE",
+      "artists": "6ix9ine;Nicki Minaj;Murda Beatz",
+      "album": "DUMMY BOY",
+      "popularity": 72,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.387,
+      "valence": 0.375,
+      "danceability": 0.931,
+      "acousticness": 0.088,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.412,
+      "duration_ms": 179404,
+      "slug": "fefe-6ix9ine"
+    },
+    {
+      "name": "vice city",
+      "artists": "XXXTENTACION",
+      "album": "vice city",
+      "popularity": 72,
+      "tempo": 87.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.467,
+      "valence": 0.329,
+      "danceability": 0.853,
+      "acousticness": 0.006,
+      "instrumentalness": 0.002,
+      "loudness": -6.8,
+      "speechiness": 0.195,
+      "duration_ms": 220708,
+      "slug": "vice-city-xxxtentacion"
+    },
+    {
+      "name": "Broken",
+      "artists": "Lund",
+      "album": "Broken",
+      "popularity": 72,
+      "tempo": 134.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.583,
+      "valence": 0.146,
+      "danceability": 0.83,
+      "acousticness": 0.056,
+      "instrumentalness": 0.001,
+      "loudness": -2.1,
+      "speechiness": 0.041,
+      "duration_ms": 200672,
+      "slug": "broken-lund"
+    },
+    {
+      "name": "BEBE",
+      "artists": "6ix9ine;Anuel AA",
+      "album": "DUMMY BOY",
+      "popularity": 72,
+      "tempo": 102.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.285,
+      "danceability": 0.635,
+      "acousticness": 0.172,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.109,
+      "duration_ms": 217822,
+      "slug": "bebe-6ix9ine"
+    },
+    {
+      "name": "Benz Truck (\u0433\u0435\u043b\u0438\u043a)",
+      "artists": "Lil Peep",
+      "album": "Come Over When You're Sober, Pt. 1",
+      "popularity": 72,
+      "tempo": 92.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.762,
+      "valence": 0.113,
+      "danceability": 0.602,
+      "acousticness": 0.05,
+      "instrumentalness": 0.008,
+      "loudness": -6.1,
+      "speechiness": 0.035,
+      "duration_ms": 159986,
+      "slug": "benz-truck-\u0433\u0435\u043b\u0438\u043a-lil-peep"
+    },
+    {
+      "name": "(dream)",
+      "artists": "salvia palth",
+      "album": "melanchole",
+      "popularity": 72,
+      "tempo": 147.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.301,
+      "valence": 0.167,
+      "danceability": 0.328,
+      "acousticness": 0.926,
+      "instrumentalness": 0.825,
+      "loudness": -13.3,
+      "speechiness": 0.037,
+      "duration_ms": 84741,
+      "slug": "dream-salvia-palth"
+    },
+    {
+      "name": "haunt me (x 3)",
+      "artists": "Teen Suicide",
+      "album": "dc snuff film / waste yrself",
+      "popularity": 72,
+      "tempo": 110.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.613,
+      "valence": 0.219,
+      "danceability": 0.566,
+      "acousticness": 0.714,
+      "instrumentalness": 0.799,
+      "loudness": -10.1,
+      "speechiness": 0.087,
+      "duration_ms": 165671,
+      "slug": "haunt-me-x-3-teen-suicide"
+    },
+    {
+      "name": "All I Wanted",
+      "artists": "Paramore",
+      "album": "Brand New Eyes",
+      "popularity": 72,
+      "tempo": 144.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.723,
+      "valence": 0.152,
+      "danceability": 0.494,
+      "acousticness": 0.019,
+      "instrumentalness": 0.032,
+      "loudness": -4.6,
+      "speechiness": 0.044,
+      "duration_ms": 225786,
+      "slug": "all-i-wanted-paramore"
+    },
+    {
+      "name": "Miss Murder",
+      "artists": "AFI",
+      "album": "DECEMBERUNDERGROUND",
+      "popularity": 72,
+      "tempo": 143.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.686,
+      "danceability": 0.308,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.053,
+      "duration_ms": 206586,
+      "slug": "miss-murder-afi"
+    },
+    {
+      "name": "tonight",
+      "artists": "demxntia",
+      "album": "goodnight",
+      "popularity": 71,
+      "tempo": 170.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.4,
+      "danceability": 0.719,
+      "acousticness": 0.255,
+      "instrumentalness": 0.557,
+      "loudness": -7.1,
+      "speechiness": 0.085,
+      "duration_ms": 84875,
+      "slug": "tonight-demxntia"
+    },
+    {
+      "name": "Forever",
+      "artists": "ilyTOMMY",
+      "album": "Forever",
+      "popularity": 71,
+      "tempo": 106.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.339,
+      "valence": 0.292,
+      "danceability": 0.613,
+      "acousticness": 0.678,
+      "instrumentalness": 0.0,
+      "loudness": -14.9,
+      "speechiness": 0.135,
+      "duration_ms": 108695,
+      "slug": "forever-ilytommy"
+    },
+    {
+      "name": "Depression & Obsession",
+      "artists": "XXXTENTACION",
+      "album": "17",
+      "popularity": 71,
+      "tempo": 106.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.156,
+      "valence": 0.527,
+      "danceability": 0.769,
+      "acousticness": 0.585,
+      "instrumentalness": 0.015,
+      "loudness": -10.7,
+      "speechiness": 0.035,
+      "duration_ms": 144733,
+      "slug": "depression-obsession-xxxtentacion"
+    },
+    {
+      "name": "GOOBA",
+      "artists": "6ix9ine",
+      "album": "TattleTales",
+      "popularity": 71,
+      "tempo": 178.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.688,
+      "valence": 0.393,
+      "danceability": 0.611,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.341,
+      "duration_ms": 132303,
+      "slug": "gooba-6ix9ine"
+    },
+    {
+      "name": "Floor 555",
+      "artists": "XXXTENTACION",
+      "album": "?",
+      "popularity": 71,
+      "tempo": 105.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.686,
+      "valence": 0.354,
+      "danceability": 0.695,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -8.1,
+      "speechiness": 0.048,
+      "duration_ms": 93447,
+      "slug": "floor-555-xxxtentacion"
+    },
+    {
+      "name": "Twin Size Mattress",
+      "artists": "The Front Bottoms",
+      "album": "Talon Of The Hawk",
+      "popularity": 71,
+      "tempo": 144.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.867,
+      "valence": 0.336,
+      "danceability": 0.325,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.081,
+      "duration_ms": 264676,
+      "slug": "twin-size-mattress-the-front-bottoms"
+    },
+    {
+      "name": "Arms Around You (feat. Maluma & Swae Lee)",
+      "artists": "XXXTENTACION;Lil Pump;Swae Lee;Maluma",
+      "album": "Arms Around You (feat. Maluma & Swae Lee)",
+      "popularity": 70,
+      "tempo": 105.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.723,
+      "valence": 0.288,
+      "danceability": 0.703,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.041,
+      "duration_ms": 198902,
+      "slug": "arms-around-you-feat-maluma-swae-lee-xxxtentacion"
+    },
+    {
+      "name": "Save Me",
+      "artists": "XXXTENTACION",
+      "album": "17",
+      "popularity": 70,
+      "tempo": 142.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.204,
+      "valence": 0.191,
+      "danceability": 0.731,
+      "acousticness": 0.307,
+      "instrumentalness": 0.011,
+      "loudness": -11.3,
+      "speechiness": 0.037,
+      "duration_ms": 163201,
+      "slug": "save-me-xxxtentacion"
+    },
+    {
+      "name": "LED",
+      "artists": "OmenXIII",
+      "album": "Corrupted",
+      "popularity": 70,
+      "tempo": 200.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.606,
+      "danceability": 0.663,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.29,
+      "duration_ms": 134451,
+      "slug": "led-omenxiii"
+    },
+    {
+      "name": "The Phoenix",
+      "artists": "Fall Out Boy",
+      "album": "Save Rock And Roll",
+      "popularity": 70,
+      "tempo": 138.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.964,
+      "valence": 0.41,
+      "danceability": 0.562,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.072,
+      "duration_ms": 244960,
+      "slug": "the-phoenix-fall-out-boy"
+    },
+    {
+      "name": "Betrayed",
+      "artists": "Lil Xan",
+      "album": "TOTAL XANARCHY",
+      "popularity": 70,
+      "tempo": 120.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.434,
+      "valence": 0.241,
+      "danceability": 0.821,
+      "acousticness": 0.434,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.118,
+      "duration_ms": 187173,
+      "slug": "betrayed-lil-xan"
+    },
+    {
+      "name": "16 Lines",
+      "artists": "Lil Peep",
+      "album": "Come Over When You're Sober, Pt. 2",
+      "popularity": 70,
+      "tempo": 106.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.45,
+      "valence": 0.121,
+      "danceability": 0.607,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.034,
+      "duration_ms": 244906,
+      "slug": "16-lines-lil-peep"
+    },
+    {
+      "name": "Awful Things",
+      "artists": "Lil Peep;Lil Tracy",
+      "album": "Come Over When You're Sober, Pt. 1",
+      "popularity": 70,
+      "tempo": 170.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.797,
+      "valence": 0.181,
+      "danceability": 0.366,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.081,
+      "duration_ms": 214426,
+      "slug": "awful-things-lil-peep"
+    },
+    {
+      "name": "Runaway",
+      "artists": "Lil Peep",
+      "album": "Come Over When You're Sober, Pt. 2",
+      "popularity": 70,
+      "tempo": 79.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.591,
+      "valence": 0.175,
+      "danceability": 0.399,
+      "acousticness": 0.44,
+      "instrumentalness": 0.062,
+      "loudness": -8.8,
+      "speechiness": 0.052,
+      "duration_ms": 192760,
+      "slug": "runaway-lil-peep"
+    },
+    {
+      "name": "walk away as the door slams",
+      "artists": "Lil Peep;Lil Tracy",
+      "album": "HELLBOY",
+      "popularity": 70,
+      "tempo": 135.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.572,
+      "valence": 0.168,
+      "danceability": 0.553,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.039,
+      "duration_ms": 160560,
+      "slug": "walk-away-as-the-door-slams-lil-peep"
+    },
+    {
+      "name": "The Foundations of Decay",
+      "artists": "My Chemical Romance",
+      "album": "The Foundations of Decay",
+      "popularity": 70,
+      "tempo": 150.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.67,
+      "valence": 0.198,
+      "danceability": 0.363,
+      "acousticness": 0.001,
+      "instrumentalness": 0.548,
+      "loudness": -6.7,
+      "speechiness": 0.055,
+      "duration_ms": 360760,
+      "slug": "the-foundations-of-decay-my-chemical-romance"
+    },
+    {
+      "name": "The Ghost of You",
+      "artists": "My Chemical Romance",
+      "album": "Three Cheers for Sweet Revenge",
+      "popularity": 70,
+      "tempo": 145.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.886,
+      "valence": 0.192,
+      "danceability": 0.202,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.082,
+      "duration_ms": 194253,
+      "slug": "the-ghost-of-you-my-chemical-romance"
+    },
+    {
+      "name": "Dead!",
+      "artists": "My Chemical Romance",
+      "album": "The Black Parade",
+      "popularity": 70,
+      "tempo": 99.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.973,
+      "valence": 0.362,
+      "danceability": 0.481,
+      "acousticness": 0.004,
+      "instrumentalness": 0.001,
+      "loudness": -1.9,
+      "speechiness": 0.054,
+      "duration_ms": 195520,
+      "slug": "dead-my-chemical-romance"
+    },
+    {
+      "name": "This Ain't A Scene, It's An Arms Race",
+      "artists": "Fall Out Boy",
+      "album": "Infinity On High",
+      "popularity": 70,
+      "tempo": 199.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.887,
+      "valence": 0.408,
+      "danceability": 0.435,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.064,
+      "duration_ms": 212040,
+      "slug": "this-aint-a-scene-its-an-arms-race-fall-out-boy"
+    },
+    {
+      "name": "don't sleep, repeat (feat. Machine Gun Kelly)",
+      "artists": "44phantom;Machine Gun Kelly",
+      "album": "don't sleep, repeat (feat. Machine Gun Kelly)",
+      "popularity": 69,
+      "tempo": 144.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.716,
+      "valence": 0.412,
+      "danceability": 0.667,
+      "acousticness": 0.238,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.056,
+      "duration_ms": 149160,
+      "slug": "dont-sleep-repeat-feat-machine-gun-kelly-44phantom"
+    },
+    {
+      "name": "Suicidal Thoughts",
+      "artists": "Josh A;iamjakehill",
+      "album": "Better off Dead",
+      "popularity": 69,
+      "tempo": 140.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.656,
+      "valence": 0.15,
+      "danceability": 0.372,
+      "acousticness": 0.217,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.078,
+      "duration_ms": 181727,
+      "slug": "suicidal-thoughts-josh-a"
+    },
+    {
+      "name": "Hate Me!",
+      "artists": "MASN",
+      "album": "How To Kill A Rockstar",
+      "popularity": 69,
+      "tempo": 142.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.628,
+      "valence": 0.356,
+      "danceability": 0.683,
+      "acousticness": 0.659,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.123,
+      "duration_ms": 154756,
+      "slug": "hate-me-masn"
+    },
+    {
+      "name": "ATTENTION!",
+      "artists": "XXXTENTACION",
+      "album": "Bad Vibes Forever",
+      "popularity": 69,
+      "tempo": 130.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.41,
+      "valence": 0.457,
+      "danceability": 0.954,
+      "acousticness": 0.608,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.157,
+      "duration_ms": 120055,
+      "slug": "attention-xxxtentacion"
+    },
+    {
+      "name": "Die a King",
+      "artists": "iamjakehill",
+      "album": "Spectrum",
+      "popularity": 69,
+      "tempo": 125.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.946,
+      "valence": 0.324,
+      "danceability": 0.632,
+      "acousticness": 0.192,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.277,
+      "duration_ms": 169061,
+      "slug": "die-a-king-iamjakehill"
+    },
+    {
+      "name": "Cancer",
+      "artists": "My Chemical Romance",
+      "album": "The Black Parade",
+      "popularity": 69,
+      "tempo": 75.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.515,
+      "valence": 0.222,
+      "danceability": 0.457,
+      "acousticness": 0.358,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.026,
+      "duration_ms": 142973,
+      "slug": "cancer-my-chemical-romance"
+    },
+    {
+      "name": "U Said",
+      "artists": "Lil Peep",
+      "album": "Come Over When You're Sober, Pt. 1",
+      "popularity": 69,
+      "tempo": 82.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.827,
+      "valence": 0.131,
+      "danceability": 0.265,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.104,
+      "duration_ms": 224053,
+      "slug": "u-said-lil-peep"
+    },
+    {
+      "name": "Mama",
+      "artists": "My Chemical Romance",
+      "album": "The Black Parade",
+      "popularity": 69,
+      "tempo": 209.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.799,
+      "valence": 0.303,
+      "danceability": 0.236,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.094,
+      "duration_ms": 279026,
+      "slug": "mama-my-chemical-romance"
+    },
+    {
+      "name": "Ignorance",
+      "artists": "Paramore",
+      "album": "Brand New Eyes",
+      "popularity": 69,
+      "tempo": 170.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.964,
+      "valence": 0.51,
+      "danceability": 0.522,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.095,
+      "duration_ms": 218626,
+      "slug": "ignorance-paramore"
+    },
+    {
+      "name": "Suzume",
+      "artists": "RADWIMPS;Toaka",
+      "album": "Suzume",
+      "popularity": 68,
+      "tempo": 78.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.415,
+      "valence": 0.342,
+      "danceability": 0.571,
+      "acousticness": 0.615,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.03,
+      "duration_ms": 236390,
+      "slug": "suzume-radwimps"
+    },
+    {
+      "name": "Look at Me Now",
+      "artists": "Brennan Savage",
+      "album": "Look at Me Now",
+      "popularity": 68,
+      "tempo": 160.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.538,
+      "valence": 0.355,
+      "danceability": 0.649,
+      "acousticness": 0.048,
+      "instrumentalness": 0.401,
+      "loudness": -9.8,
+      "speechiness": 0.092,
+      "duration_ms": 150000,
+      "slug": "look-at-me-now-brennan-savage"
+    },
+    {
+      "name": "Psycho!",
+      "artists": "MASN",
+      "album": "How To Kill A Rockstar",
+      "popularity": 68,
+      "tempo": 115.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.312,
+      "valence": 0.377,
+      "danceability": 0.876,
+      "acousticness": 0.443,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.052,
+      "duration_ms": 197217,
+      "slug": "psycho-masn"
+    },
+    {
+      "name": "King",
+      "artists": "XXXTENTACION",
+      "album": "Revenge",
+      "popularity": 68,
+      "tempo": 99.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.154,
+      "valence": 0.095,
+      "danceability": 0.421,
+      "acousticness": 0.102,
+      "instrumentalness": 0.007,
+      "loudness": -12.4,
+      "speechiness": 0.032,
+      "duration_ms": 112800,
+      "slug": "king-xxxtentacion"
+    },
+    {
+      "name": "#ImSippinTeaInYoHood",
+      "artists": "XXXTENTACION",
+      "album": "LOOK AT ME: THE ALBUM",
+      "popularity": 68,
+      "tempo": 146.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.455,
+      "danceability": 0.668,
+      "acousticness": 0.097,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.215,
+      "duration_ms": 173320,
+      "slug": "imsippinteainyohood-xxxtentacion"
+    },
+    {
+      "name": "Never Be Alright",
+      "artists": "Seon",
+      "album": "Never Be Alright",
+      "popularity": 68,
+      "tempo": 87.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.284,
+      "valence": 0.286,
+      "danceability": 0.835,
+      "acousticness": 0.631,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.078,
+      "duration_ms": 168308,
+      "slug": "never-be-alright-seon"
+    },
+    {
+      "name": "Better Off (Dying)",
+      "artists": "Lil Peep",
+      "album": "Come Over When You're Sober, Pt. 1",
+      "popularity": 68,
+      "tempo": 75.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.763,
+      "valence": 0.197,
+      "danceability": 0.521,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.041,
+      "duration_ms": 154814,
+      "slug": "better-off-dying-lil-peep"
+    },
+    {
+      "name": "hellboy",
+      "artists": "Lil Peep",
+      "album": "HELLBOY",
+      "popularity": 68,
+      "tempo": 136.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.683,
+      "valence": 0.122,
+      "danceability": 0.598,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.054,
+      "duration_ms": 177160,
+      "slug": "hellboy-lil-peep"
+    },
+    {
+      "name": "lil jeep",
+      "artists": "Lil Peep",
+      "album": "crybaby",
+      "popularity": 68,
+      "tempo": 78.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.357,
+      "valence": 0.114,
+      "danceability": 0.744,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.097,
+      "duration_ms": 203026,
+      "slug": "lil-jeep-lil-peep"
+    },
+    {
+      "name": "Uma Thurman",
+      "artists": "Fall Out Boy",
+      "album": "American Beauty/American Psycho",
+      "popularity": 68,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.962,
+      "valence": 0.676,
+      "danceability": 0.623,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.089,
+      "duration_ms": 211573,
+      "slug": "uma-thurman-fall-out-boy"
+    },
+    {
+      "name": "Princess Bubblegum",
+      "artists": "ilyTOMMY",
+      "album": "Princess Bubblegum",
+      "popularity": 68,
+      "tempo": 140.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.073,
+      "danceability": 0.589,
+      "acousticness": 0.42,
+      "instrumentalness": 0.038,
+      "loudness": -11.6,
+      "speechiness": 0.074,
+      "duration_ms": 95708,
+      "slug": "princess-bubblegum-ilytommy"
+    },
+    {
+      "name": "That's What You Get",
+      "artists": "Paramore",
+      "album": "Riot!",
+      "popularity": 68,
+      "tempo": 131.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.831,
+      "valence": 0.632,
+      "danceability": 0.528,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.043,
+      "duration_ms": 220480,
+      "slug": "thats-what-you-get-paramore"
+    },
+    {
+      "name": "King Of The Dead",
+      "artists": "XXXTENTACION",
+      "album": "LOOK AT ME: THE ALBUM",
+      "popularity": 67,
+      "tempo": 97.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.309,
+      "valence": 0.04,
+      "danceability": 0.344,
+      "acousticness": 0.044,
+      "instrumentalness": 0.011,
+      "loudness": -9.3,
+      "speechiness": 0.054,
+      "duration_ms": 219560,
+      "slug": "king-of-the-dead-xxxtentacion"
+    }
+  ]
+}

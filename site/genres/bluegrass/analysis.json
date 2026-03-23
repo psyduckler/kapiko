@@ -1,0 +1,2798 @@
+{
+  "genre": "Bluegrass",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 74.47,
+    "max": 203.149,
+    "mean": 124.394,
+    "median": 123.865,
+    "q1": 103.285,
+    "q3": 142.454,
+    "histogram": {
+      "70-79": 6,
+      "80-89": 4,
+      "90-99": 12,
+      "100-109": 12,
+      "110-119": 11,
+      "120-129": 15,
+      "130-139": 14,
+      "140-149": 11,
+      "150-159": 4,
+      "160-169": 4,
+      "170-179": 2,
+      "180-189": 3,
+      "190-199": 1,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "G": 17,
+    "A": 15,
+    "D": 12,
+    "B": 12,
+    "F": 12,
+    "C": 7,
+    "A#/Bb": 7,
+    "E": 6,
+    "F#/Gb": 5,
+    "D#/Eb": 3,
+    "C#/Db": 3,
+    "G#/Ab": 1
+  },
+  "mode_distribution": {
+    "Minor": 10,
+    "Major": 90
+  },
+  "key_mode_distribution": {
+    "G Major": 17,
+    "A Major": 14,
+    "F Major": 11,
+    "D Major": 10,
+    "B Major": 9,
+    "C Major": 7,
+    "A#/Bb Major": 7,
+    "E Major": 6,
+    "D#/Eb Major": 3,
+    "C#/Db Major": 3,
+    "B Minor": 3,
+    "F#/Gb Minor": 3,
+    "D Minor": 2,
+    "F#/Gb Major": 2,
+    "F Minor": 1,
+    "A Minor": 1,
+    "G#/Ab Major": 1
+  },
+  "energy": {
+    "min": 0.056,
+    "max": 0.902,
+    "mean": 0.443,
+    "median": 0.405,
+    "q1": 0.283,
+    "q3": 0.63
+  },
+  "valence": {
+    "min": 0.073,
+    "max": 0.978,
+    "mean": 0.518,
+    "median": 0.47,
+    "q1": 0.331,
+    "q3": 0.714
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.371,
+      "valence": 0.163
+    },
+    {
+      "energy": 0.403,
+      "valence": 0.634
+    },
+    {
+      "energy": 0.368,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.276,
+      "valence": 0.409
+    },
+    {
+      "energy": 0.243,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.264,
+      "valence": 0.169
+    },
+    {
+      "energy": 0.141,
+      "valence": 0.505
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.894
+    },
+    {
+      "energy": 0.352,
+      "valence": 0.173
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.25,
+      "valence": 0.412
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.571
+    },
+    {
+      "energy": 0.372,
+      "valence": 0.257
+    },
+    {
+      "energy": 0.192,
+      "valence": 0.222
+    },
+    {
+      "energy": 0.299,
+      "valence": 0.265
+    },
+    {
+      "energy": 0.273,
+      "valence": 0.438
+    },
+    {
+      "energy": 0.242,
+      "valence": 0.448
+    },
+    {
+      "energy": 0.319,
+      "valence": 0.195
+    },
+    {
+      "energy": 0.324,
+      "valence": 0.382
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.424
+    },
+    {
+      "energy": 0.171,
+      "valence": 0.389
+    },
+    {
+      "energy": 0.198,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.294,
+      "valence": 0.308
+    },
+    {
+      "energy": 0.382,
+      "valence": 0.218
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.847
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.215,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.418
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.978
+    },
+    {
+      "energy": 0.371,
+      "valence": 0.161
+    },
+    {
+      "energy": 0.357,
+      "valence": 0.39
+    },
+    {
+      "energy": 0.283,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.056,
+      "valence": 0.073
+    },
+    {
+      "energy": 0.434,
+      "valence": 0.433
+    },
+    {
+      "energy": 0.493,
+      "valence": 0.831
+    },
+    {
+      "energy": 0.273,
+      "valence": 0.47
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.753
+    },
+    {
+      "energy": 0.355,
+      "valence": 0.281
+    },
+    {
+      "energy": 0.51,
+      "valence": 0.455
+    },
+    {
+      "energy": 0.138,
+      "valence": 0.287
+    },
+    {
+      "energy": 0.145,
+      "valence": 0.265
+    },
+    {
+      "energy": 0.251,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.626
+    },
+    {
+      "energy": 0.402,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.064,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.358,
+      "valence": 0.202
+    },
+    {
+      "energy": 0.416,
+      "valence": 0.418
+    },
+    {
+      "energy": 0.059,
+      "valence": 0.47
+    },
+    {
+      "energy": 0.407,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.189,
+      "valence": 0.487
+    },
+    {
+      "energy": 0.145,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.345,
+      "valence": 0.802
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.515,
+      "valence": 0.895
+    },
+    {
+      "energy": 0.548,
+      "valence": 0.622
+    },
+    {
+      "energy": 0.208,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.297,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.588,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.881
+    },
+    {
+      "energy": 0.772,
+      "valence": 0.634
+    },
+    {
+      "energy": 0.117,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.755
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.928
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.705
+    },
+    {
+      "energy": 0.295,
+      "valence": 0.379
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.47,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.774
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.688,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.406,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.185,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.698
+    },
+    {
+      "energy": 0.308,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.84
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.469,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.431
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.253,
+      "valence": 0.528
+    },
+    {
+      "energy": 0.123,
+      "valence": 0.48
+    },
+    {
+      "energy": 0.512,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.463
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.772
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.816
+    },
+    {
+      "energy": 0.748,
+      "valence": 0.916
+    },
+    {
+      "energy": 0.613,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.702,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.766,
+      "valence": 0.835
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.822
+    },
+    {
+      "energy": 0.452,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.585,
+      "valence": 0.528
+    },
+    {
+      "energy": 0.357,
+      "valence": 0.404
+    },
+    {
+      "energy": 0.609,
+      "valence": 0.825
+    },
+    {
+      "energy": 0.349,
+      "valence": 0.865
+    }
+  ],
+  "acousticness": {
+    "min": 0.002,
+    "max": 0.971,
+    "mean": 0.619,
+    "median": 0.667,
+    "q1": 0.434,
+    "q3": 0.853
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.905,
+    "mean": 0.089,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.026
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.912,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.581,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.884,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.883,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.752,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.831,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.919,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.202,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.692,
+      "instrumentalness": 0.262
+    },
+    {
+      "acousticness": 0.162,
+      "instrumentalness": 0.149
+    },
+    {
+      "acousticness": 0.757,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.971,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.677,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.911,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.806,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.913,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.714,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.686,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.605,
+      "instrumentalness": 0.055
+    },
+    {
+      "acousticness": 0.901,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.851,
+      "instrumentalness": 0.038
+    },
+    {
+      "acousticness": 0.402,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.399,
+      "instrumentalness": 0.481
+    },
+    {
+      "acousticness": 0.854,
+      "instrumentalness": 0.044
+    },
+    {
+      "acousticness": 0.948,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.644,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.817,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.315
+    },
+    {
+      "acousticness": 0.876,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.955,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.804,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.621,
+      "instrumentalness": 0.571
+    },
+    {
+      "acousticness": 0.853,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.966,
+      "instrumentalness": 0.891
+    },
+    {
+      "acousticness": 0.619,
+      "instrumentalness": 0.036
+    },
+    {
+      "acousticness": 0.514,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.928,
+      "instrumentalness": 0.523
+    },
+    {
+      "acousticness": 0.623,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.505
+    },
+    {
+      "acousticness": 0.571,
+      "instrumentalness": 0.873
+    },
+    {
+      "acousticness": 0.935,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.905
+    },
+    {
+      "acousticness": 0.925,
+      "instrumentalness": 0.896
+    },
+    {
+      "acousticness": 0.863,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.49,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.862,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.935,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.539,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.475,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.81,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.823,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.879,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.459,
+      "instrumentalness": 0.115
+    },
+    {
+      "acousticness": 0.133,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.602,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.901,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.066
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.847
+    },
+    {
+      "acousticness": 0.208,
+      "instrumentalness": 0.084
+    },
+    {
+      "acousticness": 0.768,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.85,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.584,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.321,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.658,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.538,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.653,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.943,
+      "instrumentalness": 0.768
+    },
+    {
+      "acousticness": 0.822,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.718,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.532,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.599,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.331,
+      "instrumentalness": 0.017
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.602,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.764,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.828,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.628,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.299,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.219,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.239,
+      "instrumentalness": 0.05
+    },
+    {
+      "acousticness": 0.242,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.676,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.311,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.093
+    },
+    {
+      "acousticness": 0.376,
+      "instrumentalness": 0.092
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.457,
+      "instrumentalness": 0.048
+    },
+    {
+      "acousticness": 0.24,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.554,
+      "instrumentalness": 0.025
+    },
+    {
+      "acousticness": 0.741,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.728,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.642,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 111371,
+    "max": 537106,
+    "mean": 222305.25,
+    "median": 217573.0,
+    "q1": 181760,
+    "q3": 253640
+  },
+  "danceability": {
+    "min": 0.272,
+    "max": 0.794,
+    "mean": 0.546,
+    "median": 0.565,
+    "q1": 0.485,
+    "q3": 0.616
+  },
+  "loudness": {
+    "min": -19.942,
+    "max": -3.71,
+    "mean": -10.362,
+    "median": -9.73,
+    "q1": -12.525,
+    "q3": -7.987
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.217,
+    "mean": 0.038,
+    "median": 0.032,
+    "q1": 0.029,
+    "q3": 0.036
+  },
+  "top_artists": [
+    {
+      "name": "The Steeldrivers",
+      "count": 9
+    },
+    {
+      "name": "Watchhouse",
+      "count": 6
+    },
+    {
+      "name": "Sarah Jarosz",
+      "count": 6
+    },
+    {
+      "name": "Trampled by Turtles",
+      "count": 6
+    },
+    {
+      "name": "The Devil Makes Three",
+      "count": 4
+    },
+    {
+      "name": "Aoife O'Donovan",
+      "count": 4
+    },
+    {
+      "name": "Sara Watkins",
+      "count": 4
+    },
+    {
+      "name": "Crooked Still",
+      "count": 4
+    },
+    {
+      "name": "Alison Krauss",
+      "count": 4
+    },
+    {
+      "name": "Greensky Bluegrass",
+      "count": 4
+    },
+    {
+      "name": "The Avett Brothers",
+      "count": 3
+    },
+    {
+      "name": "Eric Johnson",
+      "count": 3
+    },
+    {
+      "name": "Tennessee Ernie Ford",
+      "count": 3
+    },
+    {
+      "name": "The Infamous Stringdusters",
+      "count": 3
+    },
+    {
+      "name": "Pickin' On Series",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Daylight",
+      "artists": "Watchhouse",
+      "album": "Such Jubilee",
+      "popularity": 69,
+      "tempo": 128.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.371,
+      "valence": 0.163,
+      "danceability": 0.582,
+      "acousticness": 0.912,
+      "instrumentalness": 0.008,
+      "loudness": -9.6,
+      "speechiness": 0.028,
+      "duration_ms": 193533,
+      "slug": "daylight-watchhouse"
+    },
+    {
+      "name": "Wagon Wheel",
+      "artists": "Old Crow Medicine Show",
+      "album": "O.C.M.S.",
+      "popularity": 67,
+      "tempo": 145.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.403,
+      "valence": 0.634,
+      "danceability": 0.621,
+      "acousticness": 0.581,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.036,
+      "duration_ms": 232133,
+      "slug": "wagon-wheel-old-crow-medicine-show"
+    },
+    {
+      "name": "Old Ties and Companions",
+      "artists": "Watchhouse",
+      "album": "Such Jubilee",
+      "popularity": 66,
+      "tempo": 116.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.368,
+      "valence": 0.522,
+      "danceability": 0.657,
+      "acousticness": 0.884,
+      "instrumentalness": 0.003,
+      "loudness": -10.0,
+      "speechiness": 0.028,
+      "duration_ms": 188946,
+      "slug": "old-ties-and-companions-watchhouse"
+    },
+    {
+      "name": "People Change",
+      "artists": "Mipso",
+      "album": "Edges Run",
+      "popularity": 64,
+      "tempo": 79.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.276,
+      "valence": 0.409,
+      "danceability": 0.373,
+      "acousticness": 0.883,
+      "instrumentalness": 0.012,
+      "loudness": -14.9,
+      "speechiness": 0.036,
+      "duration_ms": 212853,
+      "slug": "people-change-mipso"
+    },
+    {
+      "name": "When You Say Nothing At All",
+      "artists": "Alison Krauss & Union Station",
+      "album": "Now That I've Found You: A Collection",
+      "popularity": 64,
+      "tempo": 171.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.243,
+      "valence": 0.388,
+      "danceability": 0.514,
+      "acousticness": 0.752,
+      "instrumentalness": 0.001,
+      "loudness": -12.3,
+      "speechiness": 0.029,
+      "duration_ms": 260800,
+      "slug": "when-you-say-nothing-at-all-alison-krauss-union-station"
+    },
+    {
+      "name": "I And Love And You",
+      "artists": "The Avett Brothers",
+      "album": "I And Love And You",
+      "popularity": 62,
+      "tempo": 139.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.264,
+      "valence": 0.169,
+      "danceability": 0.424,
+      "acousticness": 0.831,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.03,
+      "duration_ms": 300840,
+      "slug": "i-and-love-and-you-the-avett-brothers"
+    },
+    {
+      "name": "I Still Haven't Found What I'm Looking For",
+      "artists": "Sarah Jarosz",
+      "album": "I Still Haven't Found What I'm Looking For / my future",
+      "popularity": 61,
+      "tempo": 105.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.141,
+      "valence": 0.505,
+      "danceability": 0.587,
+      "acousticness": 0.919,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.031,
+      "duration_ms": 212157,
+      "slug": "i-still-havent-found-what-im-looking-for-sarah-jarosz"
+    },
+    {
+      "name": "Old Number Seven",
+      "artists": "The Devil Makes Three",
+      "album": "The Devil Makes Three",
+      "popularity": 60,
+      "tempo": 142.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.427,
+      "valence": 0.894,
+      "danceability": 0.571,
+      "acousticness": 0.202,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.041,
+      "duration_ms": 200720,
+      "slug": "old-number-seven-the-devil-makes-three"
+    },
+    {
+      "name": "Wildfire",
+      "artists": "Watchhouse",
+      "album": "Blindfaller",
+      "popularity": 60,
+      "tempo": 121.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.352,
+      "valence": 0.173,
+      "danceability": 0.648,
+      "acousticness": 0.692,
+      "instrumentalness": 0.262,
+      "loudness": -10.1,
+      "speechiness": 0.028,
+      "duration_ms": 329893,
+      "slug": "wildfire-watchhouse"
+    },
+    {
+      "name": "Cliffs Of Dover - Instrumental",
+      "artists": "Eric Johnson",
+      "album": "Ah Via Musicom",
+      "popularity": 59,
+      "tempo": 94.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.775,
+      "valence": 0.313,
+      "danceability": 0.449,
+      "acousticness": 0.162,
+      "instrumentalness": 0.149,
+      "loudness": -12.0,
+      "speechiness": 0.041,
+      "duration_ms": 249767,
+      "slug": "cliffs-of-dover-instrumental-eric-johnson"
+    },
+    {
+      "name": "Sixteen Tons",
+      "artists": "Tennessee Ernie Ford",
+      "album": "Sixteen Tons",
+      "popularity": 59,
+      "tempo": 144.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.25,
+      "valence": 0.412,
+      "danceability": 0.667,
+      "acousticness": 0.757,
+      "instrumentalness": 0.0,
+      "loudness": -18.5,
+      "speechiness": 0.217,
+      "duration_ms": 155901,
+      "slug": "sixteen-tons-tennessee-ernie-ford"
+    },
+    {
+      "name": "Loretta",
+      "artists": "Aoife O'Donovan;Taylor Ashton",
+      "album": "Loretta",
+      "popularity": 59,
+      "tempo": 97.3,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.419,
+      "valence": 0.571,
+      "danceability": 0.536,
+      "acousticness": 0.971,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.045,
+      "duration_ms": 148522,
+      "slug": "loretta-aoife-odonovan"
+    },
+    {
+      "name": "The Boxer feat. Mumford & Sons and Paul Simon",
+      "artists": "Jerry Douglas;Paul Simon;Mumford & Sons",
+      "album": "Traveler",
+      "popularity": 58,
+      "tempo": 98.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.372,
+      "valence": 0.257,
+      "danceability": 0.502,
+      "acousticness": 0.677,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.031,
+      "duration_ms": 245106,
+      "slug": "the-boxer-feat-mumford-sons-and-paul-simon-jerry-douglas"
+    },
+    {
+      "name": "Take Me Back",
+      "artists": "Sarah Jarosz",
+      "album": "Undercurrent",
+      "popularity": 58,
+      "tempo": 102.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.192,
+      "valence": 0.222,
+      "danceability": 0.416,
+      "acousticness": 0.911,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.034,
+      "duration_ms": 154200,
+      "slug": "take-me-back-sarah-jarosz"
+    },
+    {
+      "name": "I Wish I Was",
+      "artists": "The Avett Brothers",
+      "album": "True Sadness",
+      "popularity": 58,
+      "tempo": 109.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.299,
+      "valence": 0.265,
+      "danceability": 0.491,
+      "acousticness": 0.806,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.032,
+      "duration_ms": 316440,
+      "slug": "i-wish-i-was-the-avett-brothers"
+    },
+    {
+      "name": "Cavalry",
+      "artists": "Watchhouse",
+      "album": "This Side of Jordan",
+      "popularity": 58,
+      "tempo": 124.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.273,
+      "valence": 0.438,
+      "danceability": 0.48,
+      "acousticness": 0.913,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.032,
+      "duration_ms": 196493,
+      "slug": "cavalry-watchhouse"
+    },
+    {
+      "name": "When You Say Nothing At All",
+      "artists": "Alison Krauss & Union Station",
+      "album": "A Tribute Album",
+      "popularity": 57,
+      "tempo": 169.6,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.242,
+      "valence": 0.448,
+      "danceability": 0.509,
+      "acousticness": 0.714,
+      "instrumentalness": 0.0,
+      "loudness": -13.4,
+      "speechiness": 0.029,
+      "duration_ms": 261120,
+      "slug": "when-you-say-nothing-at-all-alison-krauss-union-station"
+    },
+    {
+      "name": "No Hard Feelings",
+      "artists": "The Avett Brothers",
+      "album": "True Sadness",
+      "popularity": 57,
+      "tempo": 142.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.319,
+      "valence": 0.195,
+      "danceability": 0.485,
+      "acousticness": 0.686,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.031,
+      "duration_ms": 314680,
+      "slug": "no-hard-feelings-the-avett-brothers"
+    },
+    {
+      "name": "Sixteen Tons",
+      "artists": "Tennessee Ernie Ford",
+      "album": "Vintage Collections",
+      "popularity": 56,
+      "tempo": 144.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.324,
+      "valence": 0.382,
+      "danceability": 0.693,
+      "acousticness": 0.796,
+      "instrumentalness": 0.0,
+      "loudness": -15.1,
+      "speechiness": 0.205,
+      "duration_ms": 158306,
+      "slug": "sixteen-tons-tennessee-ernie-ford"
+    },
+    {
+      "name": "New Star",
+      "artists": "Watchhouse",
+      "album": "New Star",
+      "popularity": 56,
+      "tempo": 113.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.424,
+      "danceability": 0.683,
+      "acousticness": 0.605,
+      "instrumentalness": 0.055,
+      "loudness": -8.7,
+      "speechiness": 0.027,
+      "duration_ms": 185728,
+      "slug": "new-star-watchhouse"
+    },
+    {
+      "name": "Without A Word",
+      "artists": "Sara Watkins",
+      "album": "Young In All The Wrong Ways",
+      "popularity": 55,
+      "tempo": 136.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.171,
+      "valence": 0.389,
+      "danceability": 0.579,
+      "acousticness": 0.901,
+      "instrumentalness": 0.0,
+      "loudness": -14.5,
+      "speechiness": 0.03,
+      "duration_ms": 238560,
+      "slug": "without-a-word-sara-watkins"
+    },
+    {
+      "name": "B61",
+      "artists": "Aoife O'Donovan",
+      "album": "B61",
+      "popularity": 55,
+      "tempo": 137.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.198,
+      "valence": 0.162,
+      "danceability": 0.48,
+      "acousticness": 0.815,
+      "instrumentalness": 0.003,
+      "loudness": -16.5,
+      "speechiness": 0.04,
+      "duration_ms": 221842,
+      "slug": "b61-aoife-odonovan"
+    },
+    {
+      "name": "Settled Down",
+      "artists": "Watchhouse",
+      "album": "Such Jubilee",
+      "popularity": 55,
+      "tempo": 118.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.294,
+      "valence": 0.308,
+      "danceability": 0.599,
+      "acousticness": 0.851,
+      "instrumentalness": 0.038,
+      "loudness": -10.2,
+      "speechiness": 0.028,
+      "duration_ms": 183733,
+      "slug": "settled-down-watchhouse"
+    },
+    {
+      "name": "Your Love Amazes Me",
+      "artists": "John Berry",
+      "album": "John Berry",
+      "popularity": 54,
+      "tempo": 75.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.382,
+      "valence": 0.218,
+      "danceability": 0.589,
+      "acousticness": 0.402,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.025,
+      "duration_ms": 233906,
+      "slug": "your-love-amazes-me-john-berry"
+    },
+    {
+      "name": "Ain't No Grave",
+      "artists": "Crooked Still",
+      "album": "Shaken By A Low Sound",
+      "popularity": 54,
+      "tempo": 180.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.552,
+      "valence": 0.847,
+      "danceability": 0.533,
+      "acousticness": 0.399,
+      "instrumentalness": 0.481,
+      "loudness": -9.9,
+      "speechiness": 0.035,
+      "duration_ms": 201506,
+      "slug": "aint-no-grave-crooked-still"
+    },
+    {
+      "name": "Morning",
+      "artists": "Sarah Jarosz",
+      "album": "Blue Heron Suite",
+      "popularity": 54,
+      "tempo": 129.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.341,
+      "valence": 0.334,
+      "danceability": 0.573,
+      "acousticness": 0.854,
+      "instrumentalness": 0.044,
+      "loudness": -11.3,
+      "speechiness": 0.033,
+      "duration_ms": 208746,
+      "slug": "morning-sarah-jarosz"
+    },
+    {
+      "name": "Down To The River To Pray - From \u201cO Brother, Where Art Thou\u201d Soundtrack",
+      "artists": "Alison Krauss",
+      "album": "A Hundred Miles Or More: A Collection",
+      "popularity": 54,
+      "tempo": 132.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.215,
+      "valence": 0.601,
+      "danceability": 0.542,
+      "acousticness": 0.948,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.074,
+      "duration_ms": 176360,
+      "slug": "down-to-the-river-to-pray-from-o-brother-where-art-thou-soundtrack-alison-krauss"
+    },
+    {
+      "name": "Missing You",
+      "artists": "Alison Krauss;John Waite",
+      "album": "A Hundred Miles Or More: A Collection",
+      "popularity": 53,
+      "tempo": 103.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.736,
+      "valence": 0.418,
+      "danceability": 0.598,
+      "acousticness": 0.002,
+      "instrumentalness": 0.002,
+      "loudness": -6.5,
+      "speechiness": 0.024,
+      "duration_ms": 281306,
+      "slug": "missing-you-alison-krauss"
+    },
+    {
+      "name": "Union Dixie",
+      "artists": "Tennessee Ernie Ford",
+      "album": "Songs Of The Civil War",
+      "popularity": 53,
+      "tempo": 105.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.671,
+      "valence": 0.978,
+      "danceability": 0.794,
+      "acousticness": 0.644,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.033,
+      "duration_ms": 142066,
+      "slug": "union-dixie-tennessee-ernie-ford"
+    },
+    {
+      "name": "Whiskey Lullaby",
+      "artists": "Alison Krauss;Brad Paisley",
+      "album": "A Hundred Miles Or More: A Collection",
+      "popularity": 52,
+      "tempo": 74.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.371,
+      "valence": 0.161,
+      "danceability": 0.532,
+      "acousticness": 0.817,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.033,
+      "duration_ms": 260826,
+      "slug": "whiskey-lullaby-alison-krauss"
+    },
+    {
+      "name": "Caroline",
+      "artists": "Mipso",
+      "album": "Mipso",
+      "popularity": 52,
+      "tempo": 97.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.357,
+      "valence": 0.39,
+      "danceability": 0.622,
+      "acousticness": 0.936,
+      "instrumentalness": 0.315,
+      "loudness": -15.5,
+      "speechiness": 0.05,
+      "duration_ms": 215040,
+      "slug": "caroline-mipso"
+    },
+    {
+      "name": "Build Me Up From Bones",
+      "artists": "Sarah Jarosz",
+      "album": "Build Me Up From Bones",
+      "popularity": 52,
+      "tempo": 115.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.283,
+      "valence": 0.282,
+      "danceability": 0.53,
+      "acousticness": 0.876,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.037,
+      "duration_ms": 216173,
+      "slug": "build-me-up-from-bones-sarah-jarosz"
+    },
+    {
+      "name": "Night Singing",
+      "artists": "Sara Watkins",
+      "album": "Under the Pepper Tree",
+      "popularity": 50,
+      "tempo": 131.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.056,
+      "valence": 0.073,
+      "danceability": 0.426,
+      "acousticness": 0.955,
+      "instrumentalness": 0.006,
+      "loudness": -18.8,
+      "speechiness": 0.035,
+      "duration_ms": 131248,
+      "slug": "night-singing-sara-watkins"
+    },
+    {
+      "name": "Call My Name",
+      "artists": "I'm With Her;Sara Watkins;Sarah Jarosz;Aoife O'Donovan",
+      "album": "Call My Name",
+      "popularity": 50,
+      "tempo": 156.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.434,
+      "valence": 0.433,
+      "danceability": 0.598,
+      "acousticness": 0.804,
+      "instrumentalness": 0.026,
+      "loudness": -11.4,
+      "speechiness": 0.058,
+      "duration_ms": 192666,
+      "slug": "call-my-name-im-with-her"
+    },
+    {
+      "name": "Little Sadie",
+      "artists": "Crooked Still",
+      "album": "Shaken By A Low Sound",
+      "popularity": 49,
+      "tempo": 112.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.493,
+      "valence": 0.831,
+      "danceability": 0.618,
+      "acousticness": 0.621,
+      "instrumentalness": 0.571,
+      "loudness": -10.3,
+      "speechiness": 0.035,
+      "duration_ms": 155453,
+      "slug": "little-sadie-crooked-still"
+    },
+    {
+      "name": "Hometown",
+      "artists": "Sarah Jarosz",
+      "album": "World On The Ground",
+      "popularity": 48,
+      "tempo": 149.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.273,
+      "valence": 0.47,
+      "danceability": 0.584,
+      "acousticness": 0.853,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.036,
+      "duration_ms": 180240,
+      "slug": "hometown-sarah-jarosz"
+    },
+    {
+      "name": "Rain",
+      "artists": "Rob Scallon",
+      "album": "Rob Scallon",
+      "popularity": 47,
+      "tempo": 123.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.468,
+      "valence": 0.753,
+      "danceability": 0.678,
+      "acousticness": 0.966,
+      "instrumentalness": 0.891,
+      "loudness": -13.5,
+      "speechiness": 0.038,
+      "duration_ms": 125027,
+      "slug": "rain-rob-scallon"
+    },
+    {
+      "name": "Manhattan",
+      "artists": "Eric Johnson",
+      "album": "Venus Isle",
+      "popularity": 45,
+      "tempo": 99.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.355,
+      "valence": 0.281,
+      "danceability": 0.602,
+      "acousticness": 0.619,
+      "instrumentalness": 0.036,
+      "loudness": -13.9,
+      "speechiness": 0.025,
+      "duration_ms": 292600,
+      "slug": "manhattan-eric-johnson"
+    },
+    {
+      "name": "Road To Nowhere - Live",
+      "artists": "Greensky Bluegrass",
+      "album": "Live at Bell's",
+      "popularity": 44,
+      "tempo": 117.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.51,
+      "valence": 0.455,
+      "danceability": 0.646,
+      "acousticness": 0.514,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.034,
+      "duration_ms": 282253,
+      "slug": "road-to-nowhere-live-greensky-bluegrass"
+    },
+    {
+      "name": "Old Man",
+      "artists": "The Wailin' Jennys",
+      "album": "40 Days",
+      "popularity": 44,
+      "tempo": 80.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.138,
+      "valence": 0.287,
+      "danceability": 0.699,
+      "acousticness": 0.864,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.032,
+      "duration_ms": 191360,
+      "slug": "old-man-the-wailin-jennys"
+    },
+    {
+      "name": "Angelina",
+      "artists": "Tommy Emmanuel",
+      "album": "Endless Road",
+      "popularity": 44,
+      "tempo": 127.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.145,
+      "valence": 0.265,
+      "danceability": 0.591,
+      "acousticness": 0.928,
+      "instrumentalness": 0.523,
+      "loudness": -18.4,
+      "speechiness": 0.034,
+      "duration_ms": 218973,
+      "slug": "angelina-tommy-emmanuel"
+    },
+    {
+      "name": "Lay Down Beside Me",
+      "artists": "Alison Krauss;John Waite",
+      "album": "A Hundred Miles Or More: A Collection",
+      "popularity": 43,
+      "tempo": 74.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.251,
+      "valence": 0.268,
+      "danceability": 0.345,
+      "acousticness": 0.623,
+      "instrumentalness": 0.001,
+      "loudness": -12.3,
+      "speechiness": 0.028,
+      "duration_ms": 299120,
+      "slug": "lay-down-beside-me-alison-krauss"
+    },
+    {
+      "name": "S.R.V.",
+      "artists": "Eric Johnson",
+      "album": "Venus Isle",
+      "popularity": 43,
+      "tempo": 130.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.64,
+      "valence": 0.626,
+      "danceability": 0.598,
+      "acousticness": 0.434,
+      "instrumentalness": 0.505,
+      "loudness": -12.3,
+      "speechiness": 0.033,
+      "duration_ms": 183333,
+      "slug": "srv-eric-johnson"
+    },
+    {
+      "name": "Ecstasy (Instrumental Edit)",
+      "artists": "Crooked Still",
+      "album": "Shaken By A Low Sound (Deluxe)",
+      "popularity": 43,
+      "tempo": 132.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.402,
+      "valence": 0.326,
+      "danceability": 0.624,
+      "acousticness": 0.571,
+      "instrumentalness": 0.873,
+      "loudness": -14.8,
+      "speechiness": 0.033,
+      "duration_ms": 221016,
+      "slug": "ecstasy-instrumental-edit-crooked-still"
+    },
+    {
+      "name": "Beautiful Dreamer",
+      "artists": "Sara Watkins",
+      "album": "Under the Pepper Tree",
+      "popularity": 42,
+      "tempo": 87.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.064,
+      "valence": 0.209,
+      "danceability": 0.438,
+      "acousticness": 0.935,
+      "instrumentalness": 0.0,
+      "loudness": -18.2,
+      "speechiness": 0.052,
+      "duration_ms": 111371,
+      "slug": "beautiful-dreamer-sara-watkins"
+    },
+    {
+      "name": "Anchor",
+      "artists": "Rob Scallon",
+      "album": "Anchor EP (Tour Edition)",
+      "popularity": 42,
+      "tempo": 75.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.358,
+      "valence": 0.202,
+      "danceability": 0.272,
+      "acousticness": 0.027,
+      "instrumentalness": 0.905,
+      "loudness": -9.3,
+      "speechiness": 0.03,
+      "duration_ms": 231927,
+      "slug": "anchor-rob-scallon"
+    },
+    {
+      "name": "Rylynn",
+      "artists": "Andy McKee",
+      "album": "Art of Motion",
+      "popularity": 41,
+      "tempo": 172.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.416,
+      "valence": 0.418,
+      "danceability": 0.359,
+      "acousticness": 0.925,
+      "instrumentalness": 0.896,
+      "loudness": -10.3,
+      "speechiness": 0.043,
+      "duration_ms": 313693,
+      "slug": "rylynn-andy-mckee"
+    },
+    {
+      "name": "I'll Meet You In The Morning",
+      "artists": "Appalachian Express",
+      "album": "I'll Meet You In The Morning",
+      "popularity": 41,
+      "tempo": 168.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.059,
+      "valence": 0.47,
+      "danceability": 0.514,
+      "acousticness": 0.863,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.05,
+      "duration_ms": 121160,
+      "slug": "ill-meet-you-in-the-morning-appalachian-express"
+    },
+    {
+      "name": "Crying My Heart Out Over You (excerpt)",
+      "artists": "Ricky Skaggs",
+      "album": "Super Hits",
+      "popularity": 40,
+      "tempo": 127.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.407,
+      "valence": 0.702,
+      "danceability": 0.595,
+      "acousticness": 0.49,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.027,
+      "duration_ms": 178266,
+      "slug": "crying-my-heart-out-over-you-excerpt-ricky-skaggs"
+    },
+    {
+      "name": "Pieces of You",
+      "artists": "Ben Sollee",
+      "album": "Ben Sollee and Kentucky Native",
+      "popularity": 40,
+      "tempo": 103.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.189,
+      "valence": 0.487,
+      "danceability": 0.578,
+      "acousticness": 0.862,
+      "instrumentalness": 0.001,
+      "loudness": -13.5,
+      "speechiness": 0.031,
+      "duration_ms": 226268,
+      "slug": "pieces-of-you-ben-sollee"
+    },
+    {
+      "name": "Ain't No Grave (Sparse)",
+      "artists": "Crooked Still;Aoife O'Donovan",
+      "album": "Ain't No Grave",
+      "popularity": 40,
+      "tempo": 81.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.145,
+      "valence": 0.284,
+      "danceability": 0.67,
+      "acousticness": 0.935,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.042,
+      "duration_ms": 198313,
+      "slug": "aint-no-grave-sparse-crooked-still"
+    },
+    {
+      "name": "I Wouldn't Change You If I Could",
+      "artists": "Ricky Skaggs",
+      "album": "Super Hits",
+      "popularity": 40,
+      "tempo": 138.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.345,
+      "valence": 0.802,
+      "danceability": 0.605,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.026,
+      "duration_ms": 179373,
+      "slug": "i-wouldnt-change-you-if-i-could-ricky-skaggs"
+    },
+    {
+      "name": "Hangin\u2019 Around",
+      "artists": "The Steeldrivers",
+      "album": "The Muscle Shoals Recordings",
+      "popularity": 39,
+      "tempo": 94.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.668,
+      "danceability": 0.487,
+      "acousticness": 0.539,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.029,
+      "duration_ms": 171506,
+      "slug": "hangin-around-the-steeldrivers"
+    },
+    {
+      "name": "Gracefully Facedown",
+      "artists": "The Devil Makes Three",
+      "album": "Do Wrong Right",
+      "popularity": 39,
+      "tempo": 157.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.515,
+      "valence": 0.895,
+      "danceability": 0.651,
+      "acousticness": 0.475,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.037,
+      "duration_ms": 251346,
+      "slug": "gracefully-facedown-the-devil-makes-three"
+    },
+    {
+      "name": "40 Miles from Denver",
+      "artists": "Yonder Mountain String Band",
+      "album": "Elevation",
+      "popularity": 39,
+      "tempo": 108.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.548,
+      "valence": 0.622,
+      "danceability": 0.631,
+      "acousticness": 0.81,
+      "instrumentalness": 0.019,
+      "loudness": -8.9,
+      "speechiness": 0.028,
+      "duration_ms": 226586,
+      "slug": "40-miles-from-denver-yonder-mountain-string-band"
+    },
+    {
+      "name": "Snowin' On Raton",
+      "artists": "Town Mountain",
+      "album": "Heroes & Heretics",
+      "popularity": 39,
+      "tempo": 148.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.208,
+      "valence": 0.449,
+      "danceability": 0.565,
+      "acousticness": 0.823,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.032,
+      "duration_ms": 230746,
+      "slug": "snowin-on-raton-town-mountain"
+    },
+    {
+      "name": "You Put The Hurt On Me",
+      "artists": "The Steeldrivers",
+      "album": "Reckless",
+      "popularity": 39,
+      "tempo": 98.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.297,
+      "valence": 0.436,
+      "danceability": 0.602,
+      "acousticness": 0.879,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.025,
+      "duration_ms": 224786,
+      "slug": "you-put-the-hurt-on-me-the-steeldrivers"
+    },
+    {
+      "name": "Colorado",
+      "artists": "The Infamous Stringdusters",
+      "album": "Let It Go",
+      "popularity": 38,
+      "tempo": 93.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.588,
+      "valence": 0.495,
+      "danceability": 0.607,
+      "acousticness": 0.406,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.027,
+      "duration_ms": 209346,
+      "slug": "colorado-the-infamous-stringdusters"
+    },
+    {
+      "name": "Mountain",
+      "artists": "Kitchen Dwellers",
+      "album": "Ghost in the Bottle",
+      "popularity": 38,
+      "tempo": 150.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.662,
+      "danceability": 0.583,
+      "acousticness": 0.459,
+      "instrumentalness": 0.115,
+      "loudness": -11.3,
+      "speechiness": 0.035,
+      "duration_ms": 297640,
+      "slug": "mountain-kitchen-dwellers"
+    },
+    {
+      "name": "Ocean Breathes Salty",
+      "artists": "Pickin' On Series;Iron Horse",
+      "album": "Pickin' on Modest Mouse",
+      "popularity": 38,
+      "tempo": 128.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.789,
+      "valence": 0.881,
+      "danceability": 0.63,
+      "acousticness": 0.133,
+      "instrumentalness": 0.007,
+      "loudness": -8.0,
+      "speechiness": 0.027,
+      "duration_ms": 258760,
+      "slug": "ocean-breathes-salty-pickin-on-series"
+    },
+    {
+      "name": "Guitars, Whiskey, Guns And Knives",
+      "artists": "The Steeldrivers",
+      "album": "Reckless",
+      "popularity": 38,
+      "tempo": 105.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.772,
+      "valence": 0.634,
+      "danceability": 0.529,
+      "acousticness": 0.602,
+      "instrumentalness": 0.003,
+      "loudness": -5.1,
+      "speechiness": 0.036,
+      "duration_ms": 154293,
+      "slug": "guitars-whiskey-guns-and-knives-the-steeldrivers"
+    },
+    {
+      "name": "For Those Tears I Died",
+      "artists": "The Isaacs",
+      "album": "The Living Years",
+      "popularity": 38,
+      "tempo": 77.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.117,
+      "valence": 0.231,
+      "danceability": 0.422,
+      "acousticness": 0.901,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.032,
+      "duration_ms": 181760,
+      "slug": "for-those-tears-i-died-the-isaacs"
+    },
+    {
+      "name": "Burn Them",
+      "artists": "Greensky Bluegrass",
+      "album": "If Sorrows Swim",
+      "popularity": 37,
+      "tempo": 136.7,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.806,
+      "valence": 0.755,
+      "danceability": 0.584,
+      "acousticness": 0.191,
+      "instrumentalness": 0.066,
+      "loudness": -4.9,
+      "speechiness": 0.034,
+      "duration_ms": 201226,
+      "slug": "burn-them-greensky-bluegrass"
+    },
+    {
+      "name": "Funky Mountain Fogdown",
+      "artists": "Leftover Salmon",
+      "album": "Euphoria",
+      "popularity": 37,
+      "tempo": 161.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.928,
+      "danceability": 0.43,
+      "acousticness": 0.039,
+      "instrumentalness": 0.847,
+      "loudness": -8.9,
+      "speechiness": 0.045,
+      "duration_ms": 150373,
+      "slug": "funky-mountain-fogdown-leftover-salmon"
+    },
+    {
+      "name": "Drinkin in the Morning",
+      "artists": "Trampled by Turtles",
+      "album": "Songs from a Ghost Town",
+      "popularity": 37,
+      "tempo": 92.3,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.703,
+      "valence": 0.705,
+      "danceability": 0.553,
+      "acousticness": 0.208,
+      "instrumentalness": 0.084,
+      "loudness": -5.4,
+      "speechiness": 0.028,
+      "duration_ms": 225946,
+      "slug": "drinkin-in-the-morning-trampled-by-turtles"
+    },
+    {
+      "name": "Arlington",
+      "artists": "The Wailin' Jennys",
+      "album": "40 Days",
+      "popularity": 37,
+      "tempo": 116.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.295,
+      "valence": 0.379,
+      "danceability": 0.654,
+      "acousticness": 0.768,
+      "instrumentalness": 0.0,
+      "loudness": -13.4,
+      "speechiness": 0.029,
+      "duration_ms": 294160,
+      "slug": "arlington-the-wailin-jennys"
+    },
+    {
+      "name": "Higher Than The Wall",
+      "artists": "The Steeldrivers",
+      "album": "Reckless",
+      "popularity": 37,
+      "tempo": 125.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.345,
+      "danceability": 0.552,
+      "acousticness": 0.85,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.033,
+      "duration_ms": 227480,
+      "slug": "higher-than-the-wall-the-steeldrivers"
+    },
+    {
+      "name": "John",
+      "artists": "Wood & Wire",
+      "album": "No Matter Where It Goes from Here",
+      "popularity": 36,
+      "tempo": 183.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.47,
+      "valence": 0.776,
+      "danceability": 0.388,
+      "acousticness": 0.584,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.038,
+      "duration_ms": 175466,
+      "slug": "john-wood-wire"
+    },
+    {
+      "name": "Interstate 8",
+      "artists": "Pickin' On Series;Iron Horse",
+      "album": "Pickin' on Modest Mouse",
+      "popularity": 36,
+      "tempo": 129.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.737,
+      "valence": 0.774,
+      "danceability": 0.678,
+      "acousticness": 0.321,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.029,
+      "duration_ms": 254026,
+      "slug": "interstate-8-pickin-on-series"
+    },
+    {
+      "name": "Empire",
+      "artists": "Trampled by Turtles",
+      "album": "Duluth",
+      "popularity": 36,
+      "tempo": 94.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.796,
+      "valence": 0.471,
+      "danceability": 0.434,
+      "acousticness": 0.658,
+      "instrumentalness": 0.007,
+      "loudness": -3.7,
+      "speechiness": 0.033,
+      "duration_ms": 203053,
+      "slug": "empire-trampled-by-turtles"
+    },
+    {
+      "name": "Aces and Twos",
+      "artists": "The Devil Makes Three",
+      "album": "Do Wrong Right",
+      "popularity": 36,
+      "tempo": 130.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.688,
+      "valence": 0.969,
+      "danceability": 0.64,
+      "acousticness": 0.538,
+      "instrumentalness": 0.001,
+      "loudness": -8.4,
+      "speechiness": 0.034,
+      "duration_ms": 190680,
+      "slug": "aces-and-twos-the-devil-makes-three"
+    },
+    {
+      "name": "Midnight Tears",
+      "artists": "The Steeldrivers",
+      "album": "The SteelDrivers",
+      "popularity": 36,
+      "tempo": 117.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.406,
+      "valence": 0.694,
+      "danceability": 0.62,
+      "acousticness": 0.653,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.031,
+      "duration_ms": 177920,
+      "slug": "midnight-tears-the-steeldrivers"
+    },
+    {
+      "name": "Somewhere Over the Rainbow",
+      "artists": "Tommy Emmanuel",
+      "album": "Endless Road",
+      "popularity": 36,
+      "tempo": 118.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.185,
+      "valence": 0.105,
+      "danceability": 0.377,
+      "acousticness": 0.943,
+      "instrumentalness": 0.768,
+      "loudness": -19.9,
+      "speechiness": 0.035,
+      "duration_ms": 260066,
+      "slug": "somewhere-over-the-rainbow-tommy-emmanuel"
+    },
+    {
+      "name": "Falling Man",
+      "artists": "The Steeldrivers",
+      "album": "Bad For You",
+      "popularity": 35,
+      "tempo": 148.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.341,
+      "valence": 0.436,
+      "danceability": 0.437,
+      "acousticness": 0.822,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.029,
+      "duration_ms": 194333,
+      "slug": "falling-man-the-steeldrivers"
+    },
+    {
+      "name": "Lawdog",
+      "artists": "Town Mountain",
+      "album": "Leave the Bottle",
+      "popularity": 35,
+      "tempo": 199.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.565,
+      "valence": 0.698,
+      "danceability": 0.466,
+      "acousticness": 0.718,
+      "instrumentalness": 0.002,
+      "loudness": -10.3,
+      "speechiness": 0.038,
+      "duration_ms": 288720,
+      "slug": "lawdog-town-mountain"
+    },
+    {
+      "name": "River Runs Red",
+      "artists": "The Steeldrivers",
+      "album": "The Muscle Shoals Recordings",
+      "popularity": 35,
+      "tempo": 150.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.308,
+      "valence": 0.331,
+      "danceability": 0.296,
+      "acousticness": 0.532,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.03,
+      "duration_ms": 240733,
+      "slug": "river-runs-red-the-steeldrivers"
+    },
+    {
+      "name": "Glad I\u2019m Gone",
+      "artists": "The Steeldrivers",
+      "album": "Bad For You",
+      "popularity": 35,
+      "tempo": 170.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.84,
+      "danceability": 0.555,
+      "acousticness": 0.599,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.03,
+      "duration_ms": 179186,
+      "slug": "glad-im-gone-the-steeldrivers"
+    },
+    {
+      "name": "Float On",
+      "artists": "Pickin' On Series;Iron Horse",
+      "album": "Pickin' on Modest Mouse",
+      "popularity": 35,
+      "tempo": 120.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.714,
+      "danceability": 0.708,
+      "acousticness": 0.331,
+      "instrumentalness": 0.017,
+      "loudness": -8.0,
+      "speechiness": 0.031,
+      "duration_ms": 253640,
+      "slug": "float-on-pickin-on-series"
+    },
+    {
+      "name": "Brown-Eyed Women - Live",
+      "artists": "Trampled by Turtles",
+      "album": "Dear Jerry: Celebrating The Music Of Jerry Garcia (Live)",
+      "popularity": 35,
+      "tempo": 105.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.469,
+      "valence": 0.503,
+      "danceability": 0.505,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.028,
+      "duration_ms": 342469,
+      "slug": "brown-eyed-women-live-trampled-by-turtles"
+    },
+    {
+      "name": "Ophelia - Live",
+      "artists": "The Wood Brothers",
+      "album": "Live at the Barn",
+      "popularity": 35,
+      "tempo": 99.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.759,
+      "valence": 0.431,
+      "danceability": 0.36,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.043,
+      "duration_ms": 219906,
+      "slug": "ophelia-live-the-wood-brothers"
+    },
+    {
+      "name": "Drowning (... Again)",
+      "artists": "Kitchen Dwellers",
+      "album": "Wise River",
+      "popularity": 35,
+      "tempo": 155.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.782,
+      "valence": 0.711,
+      "danceability": 0.506,
+      "acousticness": 0.602,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.029,
+      "duration_ms": 281413,
+      "slug": "drowning-again-kitchen-dwellers"
+    },
+    {
+      "name": "Thank You Lord For Your Blessings On Me",
+      "artists": "Easter Brothers",
+      "album": "By Request: Their Greatest Hits",
+      "popularity": 35,
+      "tempo": 98.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.253,
+      "valence": 0.528,
+      "danceability": 0.616,
+      "acousticness": 0.764,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.025,
+      "duration_ms": 158960,
+      "slug": "thank-you-lord-for-your-blessings-on-me-easter-brothers"
+    },
+    {
+      "name": "Grandpa (Tell Me \u2018Bout The Good Old Days)",
+      "artists": "The Isaacs",
+      "album": "The Living Years",
+      "popularity": 35,
+      "tempo": 101.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.123,
+      "valence": 0.48,
+      "danceability": 0.634,
+      "acousticness": 0.828,
+      "instrumentalness": 0.0,
+      "loudness": -13.2,
+      "speechiness": 0.033,
+      "duration_ms": 230400,
+      "slug": "grandpa-tell-me-bout-the-good-old-days-the-isaacs"
+    },
+    {
+      "name": "Blue Ridge Cabin Home",
+      "artists": "Flatt & Scruggs",
+      "album": "Foggy Mountain Jamboree (Expanded Edition)",
+      "popularity": 34,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.512,
+      "valence": 0.884,
+      "danceability": 0.61,
+      "acousticness": 0.628,
+      "instrumentalness": 0.001,
+      "loudness": -9.3,
+      "speechiness": 0.032,
+      "duration_ms": 175800,
+      "slug": "blue-ridge-cabin-home-flatt-scruggs"
+    },
+    {
+      "name": "Drinkin\u2019 Alone",
+      "artists": "The Steeldrivers",
+      "album": "The Muscle Shoals Recordings",
+      "popularity": 34,
+      "tempo": 188.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.684,
+      "valence": 0.503,
+      "danceability": 0.476,
+      "acousticness": 0.299,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.059,
+      "duration_ms": 160346,
+      "slug": "drinkin-alone-the-steeldrivers"
+    },
+    {
+      "name": "We All Get Lonely",
+      "artists": "Trampled by Turtles",
+      "album": "Life is Good on the Open Road",
+      "popularity": 34,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.463,
+      "danceability": 0.508,
+      "acousticness": 0.219,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.033,
+      "duration_ms": 238040,
+      "slug": "we-all-get-lonely-trampled-by-turtles"
+    },
+    {
+      "name": "Demons",
+      "artists": "Greensky Bluegrass",
+      "album": "If Sorrows Swim",
+      "popularity": 34,
+      "tempo": 134.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.742,
+      "valence": 0.824,
+      "danceability": 0.495,
+      "acousticness": 0.239,
+      "instrumentalness": 0.05,
+      "loudness": -5.8,
+      "speechiness": 0.03,
+      "duration_ms": 249280,
+      "slug": "demons-greensky-bluegrass"
+    },
+    {
+      "name": "Help You",
+      "artists": "Trampled by Turtles",
+      "album": "Palomino",
+      "popularity": 34,
+      "tempo": 149.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.78,
+      "valence": 0.772,
+      "danceability": 0.398,
+      "acousticness": 0.242,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.036,
+      "duration_ms": 193586,
+      "slug": "help-you-trampled-by-turtles"
+    },
+    {
+      "name": "Burlesque Desert Window",
+      "artists": "Trampled by Turtles",
+      "album": "A Lifetime to Find",
+      "popularity": 34,
+      "tempo": 80.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.552,
+      "valence": 0.816,
+      "danceability": 0.531,
+      "acousticness": 0.676,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.032,
+      "duration_ms": 179573,
+      "slug": "burlesque-desert-window-trampled-by-turtles"
+    },
+    {
+      "name": "Rise Sun",
+      "artists": "The Infamous Stringdusters",
+      "album": "Rise Sun",
+      "popularity": 34,
+      "tempo": 121.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.748,
+      "valence": 0.916,
+      "danceability": 0.515,
+      "acousticness": 0.311,
+      "instrumentalness": 0.003,
+      "loudness": -5.8,
+      "speechiness": 0.035,
+      "duration_ms": 206276,
+      "slug": "rise-sun-the-infamous-stringdusters"
+    },
+    {
+      "name": "Gravity",
+      "artists": "The Infamous Stringdusters",
+      "album": "Laws Of Gravity",
+      "popularity": 34,
+      "tempo": 137.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.613,
+      "valence": 0.327,
+      "danceability": 0.462,
+      "acousticness": 0.213,
+      "instrumentalness": 0.093,
+      "loudness": -8.2,
+      "speechiness": 0.027,
+      "duration_ms": 221640,
+      "slug": "gravity-the-infamous-stringdusters"
+    },
+    {
+      "name": "White Freightliner",
+      "artists": "J.D. Crowe & The New South",
+      "album": "Come On Down To My World",
+      "popularity": 33,
+      "tempo": 133.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.781,
+      "valence": 0.962,
+      "danceability": 0.566,
+      "acousticness": 0.376,
+      "instrumentalness": 0.092,
+      "loudness": -7.0,
+      "speechiness": 0.03,
+      "duration_ms": 207000,
+      "slug": "white-freightliner-jd-crowe-the-new-south"
+    },
+    {
+      "name": "Holding",
+      "artists": "Yonder Mountain String Band",
+      "album": "Mountain Tracks, Vol. 3",
+      "popularity": 33,
+      "tempo": 104.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.702,
+      "valence": 0.351,
+      "danceability": 0.472,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.098,
+      "duration_ms": 537106,
+      "slug": "holding-yonder-mountain-string-band"
+    },
+    {
+      "name": "Lonesome, On'ry and Mean",
+      "artists": "The Travelin' McCourys",
+      "album": "The Travelin' Mccourys",
+      "popularity": 33,
+      "tempo": 117.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.766,
+      "valence": 0.835,
+      "danceability": 0.546,
+      "acousticness": 0.457,
+      "instrumentalness": 0.048,
+      "loudness": -7.2,
+      "speechiness": 0.031,
+      "duration_ms": 312866,
+      "slug": "lonesome-onry-and-mean-the-travelin-mccourys"
+    },
+    {
+      "name": "Solid Ground",
+      "artists": "Wood Belly",
+      "album": "Solid Ground",
+      "popularity": 33,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.659,
+      "valence": 0.822,
+      "danceability": 0.608,
+      "acousticness": 0.24,
+      "instrumentalness": 0.008,
+      "loudness": -8.8,
+      "speechiness": 0.028,
+      "duration_ms": 242613,
+      "slug": "solid-ground-wood-belly"
+    },
+    {
+      "name": "Never and Always",
+      "artists": "The Wood Brothers",
+      "album": "Paradise",
+      "popularity": 33,
+      "tempo": 146.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.452,
+      "valence": 0.653,
+      "danceability": 0.591,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.041,
+      "duration_ms": 236253,
+      "slug": "never-and-always-the-wood-brothers"
+    },
+    {
+      "name": "Don't Lie",
+      "artists": "Greensky Bluegrass",
+      "album": "Handguns",
+      "popularity": 33,
+      "tempo": 123.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.585,
+      "valence": 0.528,
+      "danceability": 0.442,
+      "acousticness": 0.554,
+      "instrumentalness": 0.025,
+      "loudness": -7.8,
+      "speechiness": 0.029,
+      "duration_ms": 317133,
+      "slug": "dont-lie-greensky-bluegrass"
+    },
+    {
+      "name": "HoBo",
+      "artists": "Charlie Parr",
+      "album": "I Ain't Dead Yet",
+      "popularity": 33,
+      "tempo": 104.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.357,
+      "valence": 0.404,
+      "danceability": 0.576,
+      "acousticness": 0.741,
+      "instrumentalness": 0.013,
+      "loudness": -13.5,
+      "speechiness": 0.028,
+      "duration_ms": 227440,
+      "slug": "hobo-charlie-parr"
+    },
+    {
+      "name": "For Good Again",
+      "artists": "The Devil Makes Three",
+      "album": "Do Wrong Right",
+      "popularity": 33,
+      "tempo": 111.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.609,
+      "valence": 0.825,
+      "danceability": 0.634,
+      "acousticness": 0.728,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.04,
+      "duration_ms": 272333,
+      "slug": "for-good-again-the-devil-makes-three"
+    },
+    {
+      "name": "Shall We Gather at the River",
+      "artists": "Nashville Country Chorale",
+      "album": "20 Country Gospel Hymns",
+      "popularity": 33,
+      "tempo": 203.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.349,
+      "valence": 0.865,
+      "danceability": 0.532,
+      "acousticness": 0.642,
+      "instrumentalness": 0.0,
+      "loudness": -15.3,
+      "speechiness": 0.03,
+      "duration_ms": 164453,
+      "slug": "shall-we-gather-at-the-river-nashville-country-chorale"
+    }
+  ]
+}

@@ -1,0 +1,2801 @@
+{
+  "genre": "Heavy Metal",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 68.143,
+    "max": 183.032,
+    "mean": 126.11,
+    "median": 127.793,
+    "q1": 109.972,
+    "q3": 144.029,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 4,
+      "80-89": 6,
+      "90-99": 10,
+      "100-109": 5,
+      "110-119": 13,
+      "120-129": 15,
+      "130-139": 10,
+      "140-149": 22,
+      "150-159": 4,
+      "160-169": 5,
+      "170-179": 3,
+      "180-189": 2
+    }
+  },
+  "key_distribution": {
+    "B": 20,
+    "D": 16,
+    "E": 13,
+    "A": 13,
+    "G": 10,
+    "C#/Db": 6,
+    "F#/Gb": 6,
+    "G#/Ab": 5,
+    "C": 4,
+    "A#/Bb": 3,
+    "D#/Eb": 2,
+    "F": 2
+  },
+  "mode_distribution": {
+    "Minor": 49,
+    "Major": 51
+  },
+  "key_mode_distribution": {
+    "B Minor": 16,
+    "D Major": 12,
+    "E Minor": 11,
+    "G Major": 9,
+    "A Major": 7,
+    "A Minor": 6,
+    "B Major": 4,
+    "C Major": 4,
+    "D Minor": 4,
+    "C#/Db Minor": 3,
+    "G#/Ab Minor": 3,
+    "F#/Gb Minor": 3,
+    "C#/Db Major": 3,
+    "F#/Gb Major": 3,
+    "E Major": 2,
+    "A#/Bb Minor": 2,
+    "D#/Eb Major": 2,
+    "F Major": 2,
+    "G#/Ab Major": 2,
+    "G Minor": 1,
+    "A#/Bb Major": 1
+  },
+  "energy": {
+    "min": 0.414,
+    "max": 0.99,
+    "mean": 0.829,
+    "median": 0.862,
+    "q1": 0.722,
+    "q3": 0.948
+  },
+  "valence": {
+    "min": 0.059,
+    "max": 0.898,
+    "mean": 0.43,
+    "median": 0.408,
+    "q1": 0.284,
+    "q3": 0.56
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.743,
+      "valence": 0.481
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.727
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.972,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.935,
+      "valence": 0.721
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.686
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.552
+    },
+    {
+      "energy": 0.976,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.137
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.621
+    },
+    {
+      "energy": 0.647,
+      "valence": 0.508
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.947,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.984,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.409
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.139
+    },
+    {
+      "energy": 0.935,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.734,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.343
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.517
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.93,
+      "valence": 0.616
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.198
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.989,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.944,
+      "valence": 0.374
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.649,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.649,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.064
+    },
+    {
+      "energy": 0.553,
+      "valence": 0.173
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.68
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.99,
+      "valence": 0.558
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.947,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.755,
+      "valence": 0.384
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.424
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.957,
+      "valence": 0.394
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.538
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.576
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.772,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.697
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.374
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.394
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.512
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.724
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.206
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.69,
+      "valence": 0.451
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.374
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.535
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.474
+    },
+    {
+      "energy": 0.631,
+      "valence": 0.223
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.178
+    },
+    {
+      "energy": 0.632,
+      "valence": 0.539
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.461
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.891
+    },
+    {
+      "energy": 0.669,
+      "valence": 0.153
+    },
+    {
+      "energy": 0.635,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.414,
+      "valence": 0.193
+    },
+    {
+      "energy": 0.979,
+      "valence": 0.059
+    },
+    {
+      "energy": 0.546,
+      "valence": 0.32
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.976,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.701
+    },
+    {
+      "energy": 0.815,
+      "valence": 0.406
+    },
+    {
+      "energy": 0.947,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.961,
+      "valence": 0.759
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.38
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.578
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.274
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.287,
+    "mean": 0.021,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.012
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.916,
+    "mean": 0.073,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.015
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.691
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.318
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.02
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.042
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.084
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.04
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.05
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.029
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.883
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.381
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.571
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.115
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.248
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.248
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.117
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.404
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.287,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.139,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.021
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.037
+    },
+    {
+      "acousticness": 0.18,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.134
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.242,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.916
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.017
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.879
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.915
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.231,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 136893,
+    "max": 433093,
+    "mean": 262119.19,
+    "median": 249372.5,
+    "q1": 222000,
+    "q3": 302586
+  },
+  "danceability": {
+    "min": 0.152,
+    "max": 0.649,
+    "mean": 0.458,
+    "median": 0.473,
+    "q1": 0.403,
+    "q3": 0.529
+  },
+  "loudness": {
+    "min": -15.762,
+    "max": -2.614,
+    "mean": -6.801,
+    "median": -6.286,
+    "q1": -7.383,
+    "q3": -5.161
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.419,
+    "mean": 0.06,
+    "median": 0.046,
+    "q1": 0.035,
+    "q3": 0.077
+  },
+  "top_artists": [
+    {
+      "name": "Accept",
+      "count": 14
+    },
+    {
+      "name": "Beast In Black",
+      "count": 13
+    },
+    {
+      "name": "Brothers of Metal",
+      "count": 9
+    },
+    {
+      "name": "Hermetica",
+      "count": 9
+    },
+    {
+      "name": "Almafuerte",
+      "count": 8
+    },
+    {
+      "name": "Carajo",
+      "count": 6
+    },
+    {
+      "name": "Aria",
+      "count": 6
+    },
+    {
+      "name": "Battle Beast",
+      "count": 4
+    },
+    {
+      "name": "Rata Blanca",
+      "count": 4
+    },
+    {
+      "name": "U.D.O.",
+      "count": 3
+    },
+    {
+      "name": "Riff",
+      "count": 3
+    },
+    {
+      "name": "Ricardo Iorio",
+      "count": 3
+    },
+    {
+      "name": "Pappo",
+      "count": 3
+    },
+    {
+      "name": "Dream Evil",
+      "count": 2
+    },
+    {
+      "name": "Bloodbound",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Yggdrasil",
+      "artists": "Brothers of Metal",
+      "album": "Prophecy of Ragnar\u00f6k",
+      "popularity": 62,
+      "tempo": 87.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.743,
+      "valence": 0.481,
+      "danceability": 0.469,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.027,
+      "duration_ms": 272292,
+      "slug": "yggdrasil-brothers-of-metal"
+    },
+    {
+      "name": "One Night in Tokyo",
+      "artists": "Beast In Black",
+      "album": "Dark Connection",
+      "popularity": 62,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.977,
+      "valence": 0.727,
+      "danceability": 0.469,
+      "acousticness": 0.0,
+      "instrumentalness": 0.691,
+      "loudness": -5.5,
+      "speechiness": 0.056,
+      "duration_ms": 187016,
+      "slug": "one-night-in-tokyo-beast-in-black"
+    },
+    {
+      "name": "Balls to the Wall",
+      "artists": "Accept",
+      "album": "Balls To The Wall",
+      "popularity": 61,
+      "tempo": 118.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.328,
+      "danceability": 0.544,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.052,
+      "duration_ms": 342600,
+      "slug": "balls-to-the-wall-accept"
+    },
+    {
+      "name": "Blind and Frozen",
+      "artists": "Beast In Black",
+      "album": "Berserker",
+      "popularity": 61,
+      "tempo": 146.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.497,
+      "danceability": 0.491,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.059,
+      "duration_ms": 304596,
+      "slug": "blind-and-frozen-beast-in-black"
+    },
+    {
+      "name": "Sweet True Lies",
+      "artists": "Beast In Black",
+      "album": "From Hell with Love",
+      "popularity": 60,
+      "tempo": 136.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.912,
+      "valence": 0.661,
+      "danceability": 0.466,
+      "acousticness": 0.0,
+      "instrumentalness": 0.003,
+      "loudness": -5.1,
+      "speechiness": 0.047,
+      "duration_ms": 206563,
+      "slug": "sweet-true-lies-beast-in-black"
+    },
+    {
+      "name": "Cry out for a Hero",
+      "artists": "Beast In Black",
+      "album": "From Hell with Love",
+      "popularity": 60,
+      "tempo": 91.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.972,
+      "valence": 0.408,
+      "danceability": 0.443,
+      "acousticness": 0.0,
+      "instrumentalness": 0.318,
+      "loudness": -5.4,
+      "speechiness": 0.071,
+      "duration_ms": 207965,
+      "slug": "cry-out-for-a-hero-beast-in-black"
+    },
+    {
+      "name": "Die by the Blade",
+      "artists": "Beast In Black",
+      "album": "From Hell with Love",
+      "popularity": 60,
+      "tempo": 141.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.864,
+      "valence": 0.898,
+      "danceability": 0.552,
+      "acousticness": 0.001,
+      "instrumentalness": 0.02,
+      "loudness": -6.5,
+      "speechiness": 0.037,
+      "duration_ms": 194838,
+      "slug": "die-by-the-blade-beast-in-black"
+    },
+    {
+      "name": "Hardcore",
+      "artists": "Beast In Black",
+      "album": "Dark Connection",
+      "popularity": 59,
+      "tempo": 140.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.935,
+      "valence": 0.721,
+      "danceability": 0.462,
+      "acousticness": 0.0,
+      "instrumentalness": 0.042,
+      "loudness": -5.2,
+      "speechiness": 0.042,
+      "duration_ms": 214134,
+      "slug": "hardcore-beast-in-black"
+    },
+    {
+      "name": "Koolaid",
+      "artists": "Accept",
+      "album": "The Rise of Chaos",
+      "popularity": 59,
+      "tempo": 129.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.342,
+      "danceability": 0.548,
+      "acousticness": 0.0,
+      "instrumentalness": 0.084,
+      "loudness": -5.2,
+      "speechiness": 0.03,
+      "duration_ms": 299720,
+      "slug": "koolaid-accept"
+    },
+    {
+      "name": "Life's a Bitch",
+      "artists": "Accept",
+      "album": "Life's a Bitch",
+      "popularity": 59,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.686,
+      "danceability": 0.612,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.043,
+      "duration_ms": 226093,
+      "slug": "lifes-a-bitch-accept"
+    },
+    {
+      "name": "Ride of the Valkyries",
+      "artists": "Brothers of Metal",
+      "album": "Emblas Saga",
+      "popularity": 59,
+      "tempo": 145.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.386,
+      "danceability": 0.492,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.077,
+      "duration_ms": 206666,
+      "slug": "ride-of-the-valkyries-brothers-of-metal"
+    },
+    {
+      "name": "From Hell with Love",
+      "artists": "Beast In Black",
+      "album": "From Hell with Love",
+      "popularity": 57,
+      "tempo": 120.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.9,
+      "valence": 0.552,
+      "danceability": 0.502,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -5.7,
+      "speechiness": 0.048,
+      "duration_ms": 235295,
+      "slug": "from-hell-with-love-beast-in-black"
+    },
+    {
+      "name": "Teutonic Terror",
+      "artists": "Accept",
+      "album": "Blood of the Nations",
+      "popularity": 57,
+      "tempo": 124.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.976,
+      "valence": 0.593,
+      "danceability": 0.324,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.068,
+      "duration_ms": 313586,
+      "slug": "teutonic-terror-accept"
+    },
+    {
+      "name": "Prophecy of Ragnar\u00f6k",
+      "artists": "Brothers of Metal",
+      "album": "Prophecy of Ragnar\u00f6k",
+      "popularity": 57,
+      "tempo": 135.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.878,
+      "valence": 0.137,
+      "danceability": 0.548,
+      "acousticness": 0.0,
+      "instrumentalness": 0.04,
+      "loudness": -5.8,
+      "speechiness": 0.045,
+      "duration_ms": 222373,
+      "slug": "prophecy-of-ragnar\u00f6k-brothers-of-metal"
+    },
+    {
+      "name": "Moonlight Rendezvous",
+      "artists": "Beast In Black",
+      "album": "Dark Connection",
+      "popularity": 56,
+      "tempo": 102.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.958,
+      "valence": 0.621,
+      "danceability": 0.425,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -5.8,
+      "speechiness": 0.051,
+      "duration_ms": 338760,
+      "slug": "moonlight-rendezvous-beast-in-black"
+    },
+    {
+      "name": "The Best Is yet to Come",
+      "artists": "Accept",
+      "album": "Too Mean to Die",
+      "popularity": 55,
+      "tempo": 168.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.647,
+      "valence": 0.508,
+      "danceability": 0.402,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.032,
+      "duration_ms": 287466,
+      "slug": "the-best-is-yet-to-come-accept"
+    },
+    {
+      "name": "Kaunaz Dagaz",
+      "artists": "Brothers of Metal",
+      "album": "Emblas Saga",
+      "popularity": 55,
+      "tempo": 146.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.393,
+      "danceability": 0.483,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.057,
+      "duration_ms": 253790,
+      "slug": "kaunaz-dagaz-brothers-of-metal"
+    },
+    {
+      "name": "Hard Rock Hallelujah",
+      "artists": "Lordi",
+      "album": "The Arockalypse",
+      "popularity": 55,
+      "tempo": 123.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.947,
+      "valence": 0.56,
+      "danceability": 0.557,
+      "acousticness": 0.0,
+      "instrumentalness": 0.05,
+      "loudness": -3.7,
+      "speechiness": 0.053,
+      "duration_ms": 247200,
+      "slug": "hard-rock-hallelujah-lordi"
+    },
+    {
+      "name": "Death of the God of Light",
+      "artists": "Brothers of Metal",
+      "album": "Prophecy of Ragnar\u00f6k",
+      "popularity": 55,
+      "tempo": 112.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.276,
+      "danceability": 0.506,
+      "acousticness": 0.0,
+      "instrumentalness": 0.029,
+      "loudness": -5.3,
+      "speechiness": 0.04,
+      "duration_ms": 210332,
+      "slug": "death-of-the-god-of-light-brothers-of-metal"
+    },
+    {
+      "name": "Beat the Bastards",
+      "artists": "Accept",
+      "album": "Blood of the Nations",
+      "popularity": 55,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.984,
+      "valence": 0.324,
+      "danceability": 0.523,
+      "acousticness": 0.0,
+      "instrumentalness": 0.018,
+      "loudness": -3.7,
+      "speechiness": 0.116,
+      "duration_ms": 324746,
+      "slug": "beat-the-bastards-accept"
+    },
+    {
+      "name": "Powersnake",
+      "artists": "Brothers of Metal",
+      "album": "Emblas Saga",
+      "popularity": 55,
+      "tempo": 87.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.803,
+      "valence": 0.409,
+      "danceability": 0.468,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.089,
+      "duration_ms": 223467,
+      "slug": "powersnake-brothers-of-metal"
+    },
+    {
+      "name": "Master of Illusion",
+      "artists": "Battle Beast",
+      "album": "Circus Of Doom",
+      "popularity": 55,
+      "tempo": 105.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.889,
+      "valence": 0.427,
+      "danceability": 0.56,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.036,
+      "duration_ms": 248359,
+      "slug": "master-of-illusion-battle-beast"
+    },
+    {
+      "name": "Fire Blood and Steel",
+      "artists": "Brothers of Metal",
+      "album": "Prophecy of Ragnar\u00f6k",
+      "popularity": 55,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.912,
+      "valence": 0.139,
+      "danceability": 0.541,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -5.5,
+      "speechiness": 0.045,
+      "duration_ms": 192000,
+      "slug": "fire-blood-and-steel-brothers-of-metal"
+    },
+    {
+      "name": "Eye of the Storm",
+      "artists": "Battle Beast",
+      "album": "Circus Of Doom",
+      "popularity": 54,
+      "tempo": 163.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.935,
+      "valence": 0.436,
+      "danceability": 0.433,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.058,
+      "duration_ms": 266338,
+      "slug": "eye-of-the-storm-battle-beast"
+    },
+    {
+      "name": "Brothers Unite",
+      "artists": "Brothers of Metal",
+      "album": "Emblas Saga",
+      "popularity": 54,
+      "tempo": 183.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.713,
+      "valence": 0.564,
+      "danceability": 0.476,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.067,
+      "duration_ms": 246990,
+      "slug": "brothers-unite-brothers-of-metal"
+    },
+    {
+      "name": "The Chosen Ones",
+      "artists": "Dream Evil",
+      "album": "Dragonslayer",
+      "popularity": 54,
+      "tempo": 116.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.734,
+      "valence": 0.231,
+      "danceability": 0.563,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.038,
+      "duration_ms": 302533,
+      "slug": "the-chosen-ones-dream-evil"
+    },
+    {
+      "name": "Blade Runner",
+      "artists": "Beast In Black",
+      "album": "Dark Connection",
+      "popularity": 54,
+      "tempo": 92.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.974,
+      "valence": 0.343,
+      "danceability": 0.378,
+      "acousticness": 0.0,
+      "instrumentalness": 0.883,
+      "loudness": -5.5,
+      "speechiness": 0.085,
+      "duration_ms": 247967,
+      "slug": "blade-runner-beast-in-black"
+    },
+    {
+      "name": "The Other Son of Odin",
+      "artists": "Brothers of Metal",
+      "album": "The Other Son of Odin",
+      "popularity": 54,
+      "tempo": 175.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.517,
+      "danceability": 0.403,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.081,
+      "duration_ms": 205626,
+      "slug": "the-other-son-of-odin-brothers-of-metal"
+    },
+    {
+      "name": "Born Again",
+      "artists": "Beast In Black",
+      "album": "Berserker",
+      "popularity": 54,
+      "tempo": 120.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.883,
+      "valence": 0.462,
+      "danceability": 0.571,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.041,
+      "duration_ms": 231148,
+      "slug": "born-again-beast-in-black"
+    },
+    {
+      "name": "Overnight Sensation",
+      "artists": "Accept",
+      "album": "Too Mean to Die",
+      "popularity": 53,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.93,
+      "valence": 0.616,
+      "danceability": 0.571,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.038,
+      "duration_ms": 264360,
+      "slug": "overnight-sensation-accept"
+    },
+    {
+      "name": "Beast in Black",
+      "artists": "Beast In Black",
+      "album": "Berserker",
+      "popularity": 53,
+      "tempo": 89.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.942,
+      "valence": 0.198,
+      "danceability": 0.161,
+      "acousticness": 0.0,
+      "instrumentalness": 0.003,
+      "loudness": -6.7,
+      "speechiness": 0.14,
+      "duration_ms": 269088,
+      "slug": "beast-in-black-beast-in-black"
+    },
+    {
+      "name": "No Surrender",
+      "artists": "Beast In Black",
+      "album": "From Hell with Love",
+      "popularity": 53,
+      "tempo": 174.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.988,
+      "valence": 0.331,
+      "danceability": 0.355,
+      "acousticness": 0.0,
+      "instrumentalness": 0.381,
+      "loudness": -5.4,
+      "speechiness": 0.077,
+      "duration_ms": 255221,
+      "slug": "no-surrender-beast-in-black"
+    },
+    {
+      "name": "Tempest Of Blades",
+      "artists": "Battle Beast",
+      "album": "Circus Of Doom",
+      "popularity": 53,
+      "tempo": 137.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.989,
+      "valence": 0.145,
+      "danceability": 0.466,
+      "acousticness": 0.0,
+      "instrumentalness": 0.571,
+      "loudness": -6.9,
+      "speechiness": 0.101,
+      "duration_ms": 212100,
+      "slug": "tempest-of-blades-battle-beast"
+    },
+    {
+      "name": "Kill the Pain",
+      "artists": "Accept",
+      "album": "Blood of the Nations",
+      "popularity": 52,
+      "tempo": 138.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.829,
+      "valence": 0.226,
+      "danceability": 0.401,
+      "acousticness": 0.003,
+      "instrumentalness": 0.011,
+      "loudness": -5.2,
+      "speechiness": 0.035,
+      "duration_ms": 347280,
+      "slug": "kill-the-pain-accept"
+    },
+    {
+      "name": "Where Angels Fear to Fly",
+      "artists": "Battle Beast",
+      "album": "Circus Of Doom",
+      "popularity": 52,
+      "tempo": 90.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.933,
+      "valence": 0.426,
+      "danceability": 0.491,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.048,
+      "duration_ms": 236326,
+      "slug": "where-angels-fear-to-fly-battle-beast"
+    },
+    {
+      "name": "The Book of Heavy Metal (March of the Metallians)",
+      "artists": "Dream Evil",
+      "album": "The Book of Heavy Metal",
+      "popularity": 52,
+      "tempo": 154.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.944,
+      "valence": 0.374,
+      "danceability": 0.386,
+      "acousticness": 0.0,
+      "instrumentalness": 0.015,
+      "loudness": -4.3,
+      "speechiness": 0.094,
+      "duration_ms": 325800,
+      "slug": "the-book-of-heavy-metal-march-of-the-metallians-dream-evil"
+    },
+    {
+      "name": "Tears of a Dragonheart",
+      "artists": "Bloodbound",
+      "album": "War of Dragons",
+      "popularity": 52,
+      "tempo": 180.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.965,
+      "valence": 0.377,
+      "danceability": 0.418,
+      "acousticness": 0.059,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.119,
+      "duration_ms": 229533,
+      "slug": "tears-of-a-dragonheart-bloodbound"
+    },
+    {
+      "name": "Too Mean to Die",
+      "artists": "Accept",
+      "album": "Too Mean to Die",
+      "popularity": 51,
+      "tempo": 111.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.981,
+      "valence": 0.237,
+      "danceability": 0.56,
+      "acousticness": 0.0,
+      "instrumentalness": 0.115,
+      "loudness": -5.4,
+      "speechiness": 0.104,
+      "duration_ms": 261306,
+      "slug": "too-mean-to-die-accept"
+    },
+    {
+      "name": "Mujer Amante",
+      "artists": "Rata Blanca",
+      "album": "Col 2x1: Magos, Espadas Y Rosas / Guerrero Del Arco Iris",
+      "popularity": 50,
+      "tempo": 115.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.649,
+      "valence": 0.567,
+      "danceability": 0.497,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.033,
+      "duration_ms": 363120,
+      "slug": "mujer-amante-rata-blanca"
+    },
+    {
+      "name": "Mujer Amante",
+      "artists": "Rata Blanca",
+      "album": "Col 2x1: Magos, Espadas Y Rosas / Guerrero Del Arco Iris",
+      "popularity": 50,
+      "tempo": 115.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.649,
+      "valence": 0.567,
+      "danceability": 0.497,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.033,
+      "duration_ms": 363120,
+      "slug": "mujer-amante-rata-blanca"
+    },
+    {
+      "name": "I Give as Good as I Get",
+      "artists": "U.D.O.",
+      "album": "Rev-Raptor",
+      "popularity": 49,
+      "tempo": 110.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.722,
+      "valence": 0.302,
+      "danceability": 0.533,
+      "acousticness": 0.011,
+      "instrumentalness": 0.002,
+      "loudness": -10.2,
+      "speechiness": 0.029,
+      "duration_ms": 258098,
+      "slug": "i-give-as-good-as-i-get-udo"
+    },
+    {
+      "name": "Fast as a Shark",
+      "artists": "Accept",
+      "album": "Restless And Wild",
+      "popularity": 49,
+      "tempo": 140.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.162,
+      "danceability": 0.431,
+      "acousticness": 0.0,
+      "instrumentalness": 0.248,
+      "loudness": -11.4,
+      "speechiness": 0.117,
+      "duration_ms": 228666,
+      "slug": "fast-as-a-shark-accept"
+    },
+    {
+      "name": "Fast as a Shark",
+      "artists": "Accept",
+      "album": "Restless And Wild",
+      "popularity": 49,
+      "tempo": 140.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.162,
+      "danceability": 0.431,
+      "acousticness": 0.0,
+      "instrumentalness": 0.248,
+      "loudness": -11.4,
+      "speechiness": 0.117,
+      "duration_ms": 228666,
+      "slug": "fast-as-a-shark-accept"
+    },
+    {
+      "name": "Princess of the Dawn",
+      "artists": "Accept",
+      "album": "Restless And Wild",
+      "popularity": 48,
+      "tempo": 128.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.478,
+      "danceability": 0.649,
+      "acousticness": 0.038,
+      "instrumentalness": 0.117,
+      "loudness": -10.3,
+      "speechiness": 0.042,
+      "duration_ms": 375466,
+      "slug": "princess-of-the-dawn-accept"
+    },
+    {
+      "name": "Rise of the Dragon Empire",
+      "artists": "Bloodbound",
+      "album": "Rise of the Dragon Empire",
+      "popularity": 48,
+      "tempo": 75.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.891,
+      "valence": 0.478,
+      "danceability": 0.417,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.05,
+      "duration_ms": 276986,
+      "slug": "rise-of-the-dragon-empire-bloodbound"
+    },
+    {
+      "name": "\u042f \u0421\u0432\u043e\u0431\u043e\u0434\u0435\u043d",
+      "artists": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432",
+      "album": "\u041f\u0443\u0442\u044c \u041d\u0430\u0432\u0435\u0440\u0445",
+      "popularity": 47,
+      "tempo": 144.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.064,
+      "danceability": 0.324,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.074,
+      "duration_ms": 429866,
+      "slug": "\u044f-\u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d-\u043a\u0438\u043f\u0435\u043b\u043e\u0432"
+    },
+    {
+      "name": "Metal Heart",
+      "artists": "Accept",
+      "album": "Metal Heart",
+      "popularity": 47,
+      "tempo": 116.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.553,
+      "valence": 0.173,
+      "danceability": 0.32,
+      "acousticness": 0.005,
+      "instrumentalness": 0.404,
+      "loudness": -15.0,
+      "speechiness": 0.052,
+      "duration_ms": 323666,
+      "slug": "metal-heart-accept"
+    },
+    {
+      "name": "ENDLESS RAIN - Remaster",
+      "artists": "X JAPAN",
+      "album": "Blue Blood",
+      "popularity": 45,
+      "tempo": 77.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.224,
+      "danceability": 0.498,
+      "acousticness": 0.018,
+      "instrumentalness": 0.001,
+      "loudness": -7.3,
+      "speechiness": 0.026,
+      "duration_ms": 394840,
+      "slug": "endless-rain-remaster-x-japan"
+    },
+    {
+      "name": "Amamos La Vida",
+      "artists": "Accept",
+      "album": "Objection Overruled",
+      "popularity": 45,
+      "tempo": 98.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.628,
+      "valence": 0.354,
+      "danceability": 0.349,
+      "acousticness": 0.287,
+      "instrumentalness": 0.005,
+      "loudness": -7.2,
+      "speechiness": 0.033,
+      "duration_ms": 278973,
+      "slug": "amamos-la-vida-accept"
+    },
+    {
+      "name": "\u0412\u0435\u0440\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u0441\u0435\u0431\u0435",
+      "artists": "\u0422\u0435\u0430\u0442\u0440 \u0422\u0435\u043d\u0435\u0439",
+      "album": "\u041a\u0438\u043d\u043e",
+      "popularity": 44,
+      "tempo": 166.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.946,
+      "valence": 0.68,
+      "danceability": 0.335,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.091,
+      "duration_ms": 188933,
+      "slug": "\u0432\u0435\u0440\u044c-\u0442\u043e\u043b\u044c\u043a\u043e-\u0441\u0435\u0431\u0435-\u0442\u0435\u0430\u0442\u0440-\u0442\u0435\u043d\u0435\u0439"
+    },
+    {
+      "name": "T\u00fa Eres Su Seguridad",
+      "artists": "Hermetica",
+      "album": "Int\u00e9rpretes",
+      "popularity": 43,
+      "tempo": 127.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.676,
+      "valence": 0.486,
+      "danceability": 0.434,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.03,
+      "duration_ms": 304600,
+      "slug": "t\u00fa-eres-su-seguridad-hermetica"
+    },
+    {
+      "name": "El Que Ama Lo Que Hace",
+      "artists": "Carajo",
+      "album": "Inmundo",
+      "popularity": 43,
+      "tempo": 160.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.99,
+      "valence": 0.558,
+      "danceability": 0.464,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.088,
+      "duration_ms": 222520,
+      "slug": "el-que-ama-lo-que-hace-carajo"
+    },
+    {
+      "name": "\u041e\u0441\u043a\u043e\u043b\u043e\u043a \u041b\u044c\u0434\u0430",
+      "artists": "Aria",
+      "album": "\u0425\u0438\u043c\u0435\u0440\u0430",
+      "popularity": 43,
+      "tempo": 142.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.64,
+      "valence": 0.118,
+      "danceability": 0.491,
+      "acousticness": 0.139,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.032,
+      "duration_ms": 325720,
+      "slug": "\u043e\u0441\u043a\u043e\u043b\u043e\u043a-\u043b\u044c\u0434\u0430-aria"
+    },
+    {
+      "name": "Heart of Steel",
+      "artists": "Beast In Black",
+      "album": "From Hell with Love",
+      "popularity": 43,
+      "tempo": 110.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.947,
+      "valence": 0.65,
+      "danceability": 0.548,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.034,
+      "duration_ms": 262979,
+      "slug": "heart-of-steel-beast-in-black"
+    },
+    {
+      "name": "Cry Soldier Cry",
+      "artists": "U.D.O.",
+      "album": "Mission No. X",
+      "popularity": 43,
+      "tempo": 114.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.755,
+      "valence": 0.384,
+      "danceability": 0.5,
+      "acousticness": 0.08,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.032,
+      "duration_ms": 315520,
+      "slug": "cry-soldier-cry-udo"
+    },
+    {
+      "name": "Yo Can\u00edbal",
+      "artists": "OConnor",
+      "album": "Un Poco de Respeto",
+      "popularity": 42,
+      "tempo": 182.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.424,
+      "danceability": 0.442,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.044,
+      "duration_ms": 195932,
+      "slug": "yo-can\u00edbal-oconnor"
+    },
+    {
+      "name": "Memoria de Siglos",
+      "artists": "Hermetica",
+      "album": "Acido Argentino",
+      "popularity": 42,
+      "tempo": 85.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.722,
+      "valence": 0.284,
+      "danceability": 0.365,
+      "acousticness": 0.0,
+      "instrumentalness": 0.021,
+      "loudness": -10.8,
+      "speechiness": 0.03,
+      "duration_ms": 347840,
+      "slug": "memoria-de-siglos-hermetica"
+    },
+    {
+      "name": "Chico Granada",
+      "artists": "Carajo",
+      "album": "Inmundo",
+      "popularity": 42,
+      "tempo": 159.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.957,
+      "valence": 0.394,
+      "danceability": 0.458,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.081,
+      "duration_ms": 214733,
+      "slug": "chico-granada-carajo"
+    },
+    {
+      "name": "\u0428\u0442\u0438\u043b\u044c",
+      "artists": "Aria",
+      "album": "\u0425\u0438\u043c\u0435\u0440\u0430",
+      "popularity": 42,
+      "tempo": 68.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.188,
+      "danceability": 0.256,
+      "acousticness": 0.033,
+      "instrumentalness": 0.037,
+      "loudness": -7.2,
+      "speechiness": 0.046,
+      "duration_ms": 335533,
+      "slug": "\u0448\u0442\u0438\u043b\u044c-aria"
+    },
+    {
+      "name": "Bespechnyy angel",
+      "artists": "Aria",
+      "album": "Legendy russkogo roka: Arija, Ch. 2",
+      "popularity": 42,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.621,
+      "valence": 0.259,
+      "danceability": 0.529,
+      "acousticness": 0.18,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.029,
+      "duration_ms": 238323,
+      "slug": "bespechnyy-angel-aria"
+    },
+    {
+      "name": "Mala Noche",
+      "artists": "Riff",
+      "album": "Que Sea Rock",
+      "popularity": 41,
+      "tempo": 96.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.857,
+      "valence": 0.538,
+      "danceability": 0.522,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.031,
+      "duration_ms": 247253,
+      "slug": "mala-noche-riff"
+    },
+    {
+      "name": "El Pibe Tigre",
+      "artists": "Almafuerte",
+      "album": "Mundo Guanaco",
+      "popularity": 41,
+      "tempo": 116.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.852,
+      "valence": 0.576,
+      "danceability": 0.58,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.076,
+      "duration_ms": 243106,
+      "slug": "el-pibe-tigre-almafuerte"
+    },
+    {
+      "name": "Justo Que Te Vas",
+      "artists": "Ricardo Iorio",
+      "album": "Atesorando los cielos",
+      "popularity": 41,
+      "tempo": 94.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.778,
+      "valence": 0.52,
+      "danceability": 0.471,
+      "acousticness": 0.223,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.029,
+      "duration_ms": 287226,
+      "slug": "justo-que-te-vas-ricardo-iorio"
+    },
+    {
+      "name": "Ritmo y Blues Con Armonicas",
+      "artists": "Ricardo Iorio",
+      "album": "Ayer Deseo Hoy Realidad",
+      "popularity": 41,
+      "tempo": 118.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.772,
+      "valence": 0.74,
+      "danceability": 0.593,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.036,
+      "duration_ms": 247293,
+      "slug": "ritmo-y-blues-con-armonicas-ricardo-iorio"
+    },
+    {
+      "name": "Soy de la Esquina",
+      "artists": "Hermetica",
+      "album": "Victimas del Vaciamiento",
+      "popularity": 41,
+      "tempo": 110.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.831,
+      "valence": 0.697,
+      "danceability": 0.372,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.043,
+      "duration_ms": 190066,
+      "slug": "soy-de-la-esquina-hermetica"
+    },
+    {
+      "name": "Lily Malone",
+      "artists": "Riff",
+      "album": "Que Sea Rock",
+      "popularity": 40,
+      "tempo": 127.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.848,
+      "valence": 0.374,
+      "danceability": 0.512,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.036,
+      "duration_ms": 302586,
+      "slug": "lily-malone-riff"
+    },
+    {
+      "name": "Gil Trabajador",
+      "artists": "Hermetica",
+      "album": "Acido Argentino",
+      "popularity": 40,
+      "tempo": 143.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.951,
+      "valence": 0.394,
+      "danceability": 0.426,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.099,
+      "duration_ms": 188933,
+      "slug": "gil-trabajador-hermetica"
+    },
+    {
+      "name": "Atravesando Todo Limite",
+      "artists": "Hermetica",
+      "album": "Acido Argentino",
+      "popularity": 40,
+      "tempo": 120.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.839,
+      "valence": 0.512,
+      "danceability": 0.451,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.07,
+      "duration_ms": 240933,
+      "slug": "atravesando-todo-limite-hermetica"
+    },
+    {
+      "name": "\u0412\u0441\u0442\u0430\u043d\u044c, \u0441\u0442\u0440\u0430\u0445 \u043f\u0440\u0435\u043e\u0434\u043e\u043b\u0435\u0439",
+      "artists": "Aria",
+      "album": "\u0421 \u043a\u0435\u043c \u0442\u044b?",
+      "popularity": 40,
+      "tempo": 95.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.764,
+      "valence": 0.724,
+      "danceability": 0.518,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -12.9,
+      "speechiness": 0.072,
+      "duration_ms": 256133,
+      "slug": "\u0432\u0441\u0442\u0430\u043d\u044c-\u0441\u0442\u0440\u0430\u0445-\u043f\u0440\u0435\u043e\u0434\u043e\u043b\u0435\u0439-aria"
+    },
+    {
+      "name": "In the Darkness",
+      "artists": "U.D.O.",
+      "album": "Animal House (Anniversary Edition)",
+      "popularity": 40,
+      "tempo": 107.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.659,
+      "valence": 0.206,
+      "danceability": 0.542,
+      "acousticness": 0.01,
+      "instrumentalness": 0.134,
+      "loudness": -8.6,
+      "speechiness": 0.031,
+      "duration_ms": 247120,
+      "slug": "in-the-darkness-udo"
+    },
+    {
+      "name": "El Error",
+      "artists": "Carajo",
+      "album": "Atrapasue\u00f1os",
+      "popularity": 39,
+      "tempo": 149.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.977,
+      "valence": 0.407,
+      "danceability": 0.478,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.092,
+      "duration_ms": 216800,
+      "slug": "el-error-carajo"
+    },
+    {
+      "name": "Sentir Indiano",
+      "artists": "Almafuerte",
+      "album": "Mundo Guanaco",
+      "popularity": 39,
+      "tempo": 89.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.69,
+      "valence": 0.451,
+      "danceability": 0.503,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.029,
+      "duration_ms": 239466,
+      "slug": "sentir-indiano-almafuerte"
+    },
+    {
+      "name": "Toro y Pampa",
+      "artists": "Almafuerte",
+      "album": "Toro y Pampa (Remasterizado 2021)",
+      "popularity": 39,
+      "tempo": 127.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.374,
+      "danceability": 0.477,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.037,
+      "duration_ms": 211348,
+      "slug": "toro-y-pampa-almafuerte"
+    },
+    {
+      "name": "Desencuentro",
+      "artists": "Almafuerte",
+      "album": "Mundo Guanaco",
+      "popularity": 39,
+      "tempo": 145.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.86,
+      "valence": 0.535,
+      "danceability": 0.388,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.078,
+      "duration_ms": 136893,
+      "slug": "desencuentro-almafuerte"
+    },
+    {
+      "name": "Buscando Raz\u00f3n",
+      "artists": "Hermetica",
+      "album": "Victimas del Vaciamiento",
+      "popularity": 39,
+      "tempo": 97.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.708,
+      "valence": 0.685,
+      "danceability": 0.465,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.029,
+      "duration_ms": 221200,
+      "slug": "buscando-raz\u00f3n-hermetica"
+    },
+    {
+      "name": "Deshacer el Mundo",
+      "artists": "Malon",
+      "album": "Nuevo Orden Mundial",
+      "popularity": 39,
+      "tempo": 144.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.948,
+      "valence": 0.474,
+      "danceability": 0.523,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.05,
+      "duration_ms": 290920,
+      "slug": "deshacer-el-mundo-malon"
+    },
+    {
+      "name": "\u041f\u043e\u0442\u0435\u0440\u044f\u043d\u043d\u044b\u0439 \u0420\u0430\u0439",
+      "artists": "Aria",
+      "album": "\u0428\u0442\u0438\u043b\u044c",
+      "popularity": 39,
+      "tempo": 74.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.631,
+      "valence": 0.223,
+      "danceability": 0.209,
+      "acousticness": 0.242,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.038,
+      "duration_ms": 335440,
+      "slug": "\u043f\u043e\u0442\u0435\u0440\u044f\u043d\u043d\u044b\u0439-\u0440\u0430\u0439-aria"
+    },
+    {
+      "name": "\u042f \u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d!",
+      "artists": "\u041a\u0438\u043f\u0435\u043b\u043e\u0432",
+      "album": "\u0412\u0430\u0432\u0438\u043b\u043e\u043d",
+      "popularity": 39,
+      "tempo": 144.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.178,
+      "danceability": 0.357,
+      "acousticness": 0.084,
+      "instrumentalness": 0.001,
+      "loudness": -6.1,
+      "speechiness": 0.042,
+      "duration_ms": 433093,
+      "slug": "\u044f-\u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d-\u043a\u0438\u043f\u0435\u043b\u043e\u0432"
+    },
+    {
+      "name": "S\u00f3lo Para Amarte",
+      "artists": "Rata Blanca",
+      "album": "Rata Blanca",
+      "popularity": 38,
+      "tempo": 92.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.632,
+      "valence": 0.539,
+      "danceability": 0.522,
+      "acousticness": 0.027,
+      "instrumentalness": 0.916,
+      "loudness": -15.8,
+      "speechiness": 0.035,
+      "duration_ms": 342160,
+      "slug": "s\u00f3lo-para-amarte-rata-blanca"
+    },
+    {
+      "name": "Evitando el Ablande",
+      "artists": "Hermetica",
+      "album": "Acido Argentino",
+      "popularity": 38,
+      "tempo": 147.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.403,
+      "danceability": 0.328,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.062,
+      "duration_ms": 172493,
+      "slug": "evitando-el-ablande-hermetica"
+    },
+    {
+      "name": "El Forastero - Remasterizado 2016",
+      "artists": "Riff",
+      "album": "Zona de Nadie (Remasterizado 2016)",
+      "popularity": 38,
+      "tempo": 151.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.803,
+      "valence": 0.857,
+      "danceability": 0.485,
+      "acousticness": 0.012,
+      "instrumentalness": 0.015,
+      "loudness": -9.5,
+      "speechiness": 0.081,
+      "duration_ms": 164013,
+      "slug": "el-forastero-remasterizado-2016-riff"
+    },
+    {
+      "name": "Patria al Hombro",
+      "artists": "Almafuerte",
+      "album": "Ultimando (Cotidiafonos Volumen 1)",
+      "popularity": 38,
+      "tempo": 161.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.461,
+      "danceability": 0.244,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.131,
+      "duration_ms": 232453,
+      "slug": "patria-al-hombro-almafuerte"
+    },
+    {
+      "name": "Blus Local",
+      "artists": "Pappo;Viejas Locas",
+      "album": "Pappo y Amigos, Vol. 1",
+      "popularity": 38,
+      "tempo": 134.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.637,
+      "valence": 0.891,
+      "danceability": 0.575,
+      "acousticness": 0.101,
+      "instrumentalness": 0.017,
+      "loudness": -7.8,
+      "speechiness": 0.043,
+      "duration_ms": 147440,
+      "slug": "blus-local-pappo"
+    },
+    {
+      "name": "Del Camionero",
+      "artists": "Hermetica",
+      "album": "Acido Argentino",
+      "popularity": 38,
+      "tempo": 147.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.669,
+      "valence": 0.153,
+      "danceability": 0.346,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -12.3,
+      "speechiness": 0.044,
+      "duration_ms": 269733,
+      "slug": "del-camionero-hermetica"
+    },
+    {
+      "name": "Poterjannyy ray",
+      "artists": "Aria",
+      "album": "Legendy russkogo roka: Arija, Ch. 2",
+      "popularity": 38,
+      "tempo": 150.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.635,
+      "valence": 0.259,
+      "danceability": 0.152,
+      "acousticness": 0.057,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.042,
+      "duration_ms": 335524,
+      "slug": "poterjannyy-ray-aria"
+    },
+    {
+      "name": "Even Angels Cry",
+      "artists": "Doro",
+      "album": "True At Heart",
+      "popularity": 38,
+      "tempo": 132.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.414,
+      "valence": 0.193,
+      "danceability": 0.563,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.027,
+      "duration_ms": 287293,
+      "slug": "even-angels-cry-doro"
+    },
+    {
+      "name": "\u7d05(\u30a4\u30f3\u30c8\u30ed \u30b9\u30c8\u30ea\u30f3\u30b0\u30b9) - Remaster",
+      "artists": "X JAPAN",
+      "album": "BLUE BLOOD REMASTERED EDITION",
+      "popularity": 37,
+      "tempo": 156.3,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.979,
+      "valence": 0.059,
+      "danceability": 0.25,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.419,
+      "duration_ms": 379133,
+      "slug": "\u7d05\u30a4\u30f3\u30c8\u30ed-\u30b9\u30c8\u30ea\u30f3\u30b0\u30b9-remaster-x-japan"
+    },
+    {
+      "name": "Chico Callejero",
+      "artists": "Rata Blanca",
+      "album": "Rata Blanca",
+      "popularity": 37,
+      "tempo": 117.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.546,
+      "valence": 0.32,
+      "danceability": 0.535,
+      "acousticness": 0.022,
+      "instrumentalness": 0.879,
+      "loudness": -13.6,
+      "speechiness": 0.034,
+      "duration_ms": 307693,
+      "slug": "chico-callejero-rata-blanca"
+    },
+    {
+      "name": "Kadonneet kolme sanaa",
+      "artists": "Stam1na",
+      "album": "Stam1na",
+      "popularity": 37,
+      "tempo": 130.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.817,
+      "valence": 0.354,
+      "danceability": 0.452,
+      "acousticness": 0.0,
+      "instrumentalness": 0.915,
+      "loudness": -8.4,
+      "speechiness": 0.046,
+      "duration_ms": 222726,
+      "slug": "kadonneet-kolme-sanaa-stam1na"
+    },
+    {
+      "name": "Sucio y Desprolijo",
+      "artists": "Pappo;Divididos",
+      "album": "Pappo y Amigos, Vol. 2",
+      "popularity": 37,
+      "tempo": 143.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.976,
+      "valence": 0.49,
+      "danceability": 0.423,
+      "acousticness": 0.003,
+      "instrumentalness": 0.002,
+      "loudness": -5.0,
+      "speechiness": 0.079,
+      "duration_ms": 266493,
+      "slug": "sucio-y-desprolijo-pappo"
+    },
+    {
+      "name": "Triste",
+      "artists": "Carajo",
+      "album": "Atrapasue\u00f1os",
+      "popularity": 37,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.938,
+      "valence": 0.21,
+      "danceability": 0.523,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.06,
+      "duration_ms": 251946,
+      "slug": "triste-carajo"
+    },
+    {
+      "name": "Llegara la Paz",
+      "artists": "Pappo;Almafuerte",
+      "album": "Pappo y Amigos, Vol. 2",
+      "popularity": 37,
+      "tempo": 140.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.912,
+      "valence": 0.701,
+      "danceability": 0.365,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -5.9,
+      "speechiness": 0.044,
+      "duration_ms": 214533,
+      "slug": "llegara-la-paz-pappo"
+    },
+    {
+      "name": "El Visitante",
+      "artists": "Almafuerte",
+      "album": "A Fondo Blanco",
+      "popularity": 37,
+      "tempo": 88.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.815,
+      "valence": 0.406,
+      "danceability": 0.353,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.028,
+      "duration_ms": 259959,
+      "slug": "el-visitante-almafuerte"
+    },
+    {
+      "name": "Robo un Auto",
+      "artists": "Hermetica",
+      "album": "Acido Argentino",
+      "popularity": 37,
+      "tempo": 139.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.947,
+      "valence": 0.328,
+      "danceability": 0.406,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.082,
+      "duration_ms": 222000,
+      "slug": "robo-un-auto-hermetica"
+    },
+    {
+      "name": "Partiendo Cabezas",
+      "artists": "Asspera",
+      "album": "Hijo de Puta",
+      "popularity": 36,
+      "tempo": 75.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.961,
+      "valence": 0.759,
+      "danceability": 0.507,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.057,
+      "duration_ms": 300328,
+      "slug": "partiendo-cabezas-asspera"
+    },
+    {
+      "name": "Jugo de Tomate",
+      "artists": "Ricardo Iorio",
+      "album": "Ayer Deseo Hoy Realidad",
+      "popularity": 36,
+      "tempo": 126.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.782,
+      "valence": 0.805,
+      "danceability": 0.527,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.035,
+      "duration_ms": 201333,
+      "slug": "jugo-de-tomate-ricardo-iorio"
+    },
+    {
+      "name": "Si me ves volver",
+      "artists": "Almafuerte",
+      "album": "Trillando la Fina",
+      "popularity": 36,
+      "tempo": 140.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.575,
+      "valence": 0.38,
+      "danceability": 0.559,
+      "acousticness": 0.231,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.025,
+      "duration_ms": 232026,
+      "slug": "si-me-ves-volver-almafuerte"
+    },
+    {
+      "name": "Acorazados",
+      "artists": "Carajo",
+      "album": "Inmundo",
+      "popularity": 36,
+      "tempo": 147.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.938,
+      "valence": 0.578,
+      "danceability": 0.534,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.062,
+      "duration_ms": 250386,
+      "slug": "acorazados-carajo"
+    },
+    {
+      "name": "Gaian lapsi (feat. Anna Eriksson)",
+      "artists": "Stam1na;Anna Eriksson",
+      "album": "Taival",
+      "popularity": 36,
+      "tempo": 142.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.956,
+      "valence": 0.503,
+      "danceability": 0.354,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -4.0,
+      "speechiness": 0.099,
+      "duration_ms": 200446,
+      "slug": "gaian-lapsi-feat-anna-eriksson-stam1na"
+    },
+    {
+      "name": "Constrictor",
+      "artists": "Carajo",
+      "album": "Hoy Como Ayer (En Vivo)",
+      "popularity": 36,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.801,
+      "valence": 0.274,
+      "danceability": 0.628,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.031,
+      "duration_ms": 280426,
+      "slug": "constrictor-carajo"
+    }
+  ]
+}

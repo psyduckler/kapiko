@@ -1,0 +1,2802 @@
+{
+  "genre": "Indian",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 70.558,
+    "max": 192.133,
+    "mean": 115.191,
+    "median": 117.051,
+    "q1": 93.993,
+    "q3": 131.97,
+    "histogram": {
+      "70-79": 6,
+      "80-89": 16,
+      "90-99": 11,
+      "100-109": 11,
+      "110-119": 17,
+      "120-129": 13,
+      "130-139": 8,
+      "140-149": 10,
+      "160-169": 2,
+      "170-179": 3,
+      "180-189": 2,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "C": 15,
+    "D": 13,
+    "B": 12,
+    "E": 11,
+    "C#/Db": 9,
+    "G#/Ab": 8,
+    "F#/Gb": 7,
+    "G": 7,
+    "A#/Bb": 5,
+    "A": 5,
+    "D#/Eb": 4,
+    "F": 4
+  },
+  "mode_distribution": {
+    "Major": 67,
+    "Minor": 33
+  },
+  "key_mode_distribution": {
+    "C Major": 13,
+    "D Major": 9,
+    "G#/Ab Major": 7,
+    "C#/Db Major": 6,
+    "F#/Gb Major": 6,
+    "G Major": 6,
+    "B Major": 6,
+    "B Minor": 6,
+    "E Minor": 6,
+    "E Major": 5,
+    "A#/Bb Major": 4,
+    "D#/Eb Minor": 4,
+    "D Minor": 4,
+    "A Major": 3,
+    "C#/Db Minor": 3,
+    "C Minor": 2,
+    "A Minor": 2,
+    "F Major": 2,
+    "F Minor": 2,
+    "G Minor": 1,
+    "A#/Bb Minor": 1,
+    "G#/Ab Minor": 1,
+    "F#/Gb Minor": 1
+  },
+  "energy": {
+    "min": 0.076,
+    "max": 0.967,
+    "mean": 0.604,
+    "median": 0.601,
+    "q1": 0.461,
+    "q3": 0.767
+  },
+  "valence": {
+    "min": 0.13,
+    "max": 0.972,
+    "mean": 0.478,
+    "median": 0.438,
+    "q1": 0.319,
+    "q3": 0.636
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.574,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.236
+    },
+    {
+      "energy": 0.124,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.319
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.293
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.608
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.191
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.319
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.669,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.55,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.581,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.349,
+      "valence": 0.2
+    },
+    {
+      "energy": 0.493,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.294,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.46,
+      "valence": 0.788
+    },
+    {
+      "energy": 0.497,
+      "valence": 0.444
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.746
+    },
+    {
+      "energy": 0.227,
+      "valence": 0.38
+    },
+    {
+      "energy": 0.631,
+      "valence": 0.376
+    },
+    {
+      "energy": 0.299,
+      "valence": 0.459
+    },
+    {
+      "energy": 0.202,
+      "valence": 0.2
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.418,
+      "valence": 0.212
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.634
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.883
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.728
+    },
+    {
+      "energy": 0.461,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.688
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.942
+    },
+    {
+      "energy": 0.223,
+      "valence": 0.196
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.35
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.452
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.312
+    },
+    {
+      "energy": 0.336,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.456,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.736
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.463
+    },
+    {
+      "energy": 0.449,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.927
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.505
+    },
+    {
+      "energy": 0.349,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.445,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.741
+    },
+    {
+      "energy": 0.634,
+      "valence": 0.465
+    },
+    {
+      "energy": 0.643,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.706
+    },
+    {
+      "energy": 0.579,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.792
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.89
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.83,
+      "valence": 0.771
+    },
+    {
+      "energy": 0.815,
+      "valence": 0.349
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.428
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.729
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.882
+    },
+    {
+      "energy": 0.699,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.516,
+      "valence": 0.149
+    },
+    {
+      "energy": 0.566,
+      "valence": 0.312
+    },
+    {
+      "energy": 0.159,
+      "valence": 0.184
+    },
+    {
+      "energy": 0.372,
+      "valence": 0.13
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.319
+    },
+    {
+      "energy": 0.669,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.581,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.944,
+      "valence": 0.957
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.609,
+      "valence": 0.347
+    },
+    {
+      "energy": 0.422,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.572
+    },
+    {
+      "energy": 0.345,
+      "valence": 0.338
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.473
+    },
+    {
+      "energy": 0.446,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.6,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.628
+    },
+    {
+      "energy": 0.612,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.972
+    },
+    {
+      "energy": 0.46,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.593,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.909
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.076,
+      "valence": 0.502
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.35
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.983,
+    "mean": 0.522,
+    "median": 0.572,
+    "q1": 0.324,
+    "q3": 0.758
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.178,
+    "mean": 0.01,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.001
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.572,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.478,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.926,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.27,
+      "instrumentalness": 0.13
+    },
+    {
+      "acousticness": 0.697,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.328,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.371,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.481,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.784,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.342,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.524,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.699,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.965,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.455,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.643,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.871,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.779,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.455,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.12,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.983,
+      "instrumentalness": 0.14
+    },
+    {
+      "acousticness": 0.861,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.869,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.915,
+      "instrumentalness": 0.038
+    },
+    {
+      "acousticness": 0.65,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.903,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.633,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.277,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.58,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.795,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.053
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.721,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.166,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.779,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.789,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.596,
+      "instrumentalness": 0.016
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.039
+    },
+    {
+      "acousticness": 0.642,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.555,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.038
+    },
+    {
+      "acousticness": 0.572,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.651,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.477,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.32,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.399,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.046
+    },
+    {
+      "acousticness": 0.758,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.772,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.69,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.435,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.505,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.582,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.218,
+      "instrumentalness": 0.053
+    },
+    {
+      "acousticness": 0.24,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.665,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.781,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.404,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.707,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.305,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.718,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.45,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.353,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.507,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.917,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.832,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.27,
+      "instrumentalness": 0.13
+    },
+    {
+      "acousticness": 0.342,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.602,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.209,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.732,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.793,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.842,
+      "instrumentalness": 0.032
+    },
+    {
+      "acousticness": 0.106,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.329,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.546,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.324,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.686,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.441,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.427,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.826,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.178
+    },
+    {
+      "acousticness": 0.643,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.715,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.958,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 44698,
+    "max": 379768,
+    "mean": 247897.5,
+    "median": 247038.5,
+    "q1": 218550,
+    "q3": 288902
+  },
+  "danceability": {
+    "min": 0.301,
+    "max": 0.889,
+    "mean": 0.586,
+    "median": 0.582,
+    "q1": 0.501,
+    "q3": 0.687
+  },
+  "loudness": {
+    "min": -18.468,
+    "max": -2.228,
+    "mean": -7.742,
+    "median": -7.495,
+    "q1": -8.823,
+    "q3": -5.576
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.364,
+    "mean": 0.063,
+    "median": 0.042,
+    "q1": 0.033,
+    "q3": 0.068
+  },
+  "top_artists": [
+    {
+      "name": "Pritam",
+      "count": 56
+    },
+    {
+      "name": "Arijit Singh",
+      "count": 27
+    },
+    {
+      "name": "Amitabh Bhattacharya",
+      "count": 8
+    },
+    {
+      "name": "Anuv Jain",
+      "count": 5
+    },
+    {
+      "name": "KK",
+      "count": 5
+    },
+    {
+      "name": "Ritviz",
+      "count": 5
+    },
+    {
+      "name": "Jasleen Royal",
+      "count": 4
+    },
+    {
+      "name": "Mohit Chauhan",
+      "count": 3
+    },
+    {
+      "name": "Shreya Ghoshal",
+      "count": 3
+    },
+    {
+      "name": "Shilpa Rao",
+      "count": 3
+    },
+    {
+      "name": "Tulsi Kumar",
+      "count": 3
+    },
+    {
+      "name": "Rahat Fateh Ali Khan",
+      "count": 3
+    },
+    {
+      "name": "Antara Mitra",
+      "count": 3
+    },
+    {
+      "name": "Zaeden",
+      "count": 3
+    },
+    {
+      "name": "B Praak",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Kesariya (From \"Brahmastra\")",
+      "artists": "Pritam;Arijit Singh;Amitabh Bhattacharya",
+      "album": "Kesariya (From \"Brahmastra\")",
+      "popularity": 88,
+      "tempo": 94.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.436,
+      "danceability": 0.577,
+      "acousticness": 0.572,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.028,
+      "duration_ms": 268164,
+      "slug": "kesariya-from-brahmastra-pritam"
+    },
+    {
+      "name": "Deva Deva (From \"Brahmastra\")",
+      "artists": "Pritam;Arijit Singh;Amitabh Bhattacharya;Jonita Gandhi",
+      "album": "Deva Deva (From \"Brahmastra\")",
+      "popularity": 79,
+      "tempo": 112.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.439,
+      "danceability": 0.534,
+      "acousticness": 0.634,
+      "instrumentalness": 0.001,
+      "loudness": -7.6,
+      "speechiness": 0.043,
+      "duration_ms": 279107,
+      "slug": "deva-deva-from-brahmastra-pritam"
+    },
+    {
+      "name": "Ranjha (From \"Shershaah\")",
+      "artists": "Jasleen Royal;B Praak;Romy;Anvita Dutt",
+      "album": "Ranjha (From \"Shershaah\")",
+      "popularity": 77,
+      "tempo": 82.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.573,
+      "valence": 0.236,
+      "danceability": 0.603,
+      "acousticness": 0.478,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.05,
+      "duration_ms": 228855,
+      "slug": "ranjha-from-shershaah-jasleen-royal"
+    },
+    {
+      "name": "Baarishein",
+      "artists": "Anuv Jain",
+      "album": "Baarishein",
+      "popularity": 76,
+      "tempo": 94.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.124,
+      "valence": 0.19,
+      "danceability": 0.475,
+      "acousticness": 0.926,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.044,
+      "duration_ms": 207309,
+      "slug": "baarishein-anuv-jain"
+    },
+    {
+      "name": "Rangisari (From \"Jugjugg Jeeyo\")",
+      "artists": "Kanishk Seth;Kavita Seth",
+      "album": "Rangisari (From \"Jugjugg Jeeyo\")",
+      "popularity": 75,
+      "tempo": 140.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.319,
+      "danceability": 0.524,
+      "acousticness": 0.27,
+      "instrumentalness": 0.13,
+      "loudness": -9.3,
+      "speechiness": 0.054,
+      "duration_ms": 223271,
+      "slug": "rangisari-from-jugjugg-jeeyo-kanishk-seth"
+    },
+    {
+      "name": "Khairiyat",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Chhichhore",
+      "popularity": 75,
+      "tempo": 124.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.481,
+      "valence": 0.293,
+      "danceability": 0.534,
+      "acousticness": 0.697,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.041,
+      "duration_ms": 280281,
+      "slug": "khairiyat-pritam"
+    },
+    {
+      "name": "Tum Se Hi",
+      "artists": "Pritam;Mohit Chauhan",
+      "album": "Jab We Met",
+      "popularity": 74,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.538,
+      "valence": 0.608,
+      "danceability": 0.609,
+      "acousticness": 0.328,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.027,
+      "duration_ms": 321225,
+      "slug": "tum-se-hi-pritam"
+    },
+    {
+      "name": "Rasiya (From \"Brahmastra\")",
+      "artists": "Pritam;Shreya Ghoshal;TUSHAR JOSHI",
+      "album": "Rasiya (From \"Brahmastra\")",
+      "popularity": 74,
+      "tempo": 79.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.796,
+      "valence": 0.636,
+      "danceability": 0.54,
+      "acousticness": 0.371,
+      "instrumentalness": 0.002,
+      "loudness": -7.5,
+      "speechiness": 0.052,
+      "duration_ms": 265063,
+      "slug": "rasiya-from-brahmastra-pritam"
+    },
+    {
+      "name": "Kabira",
+      "artists": "Pritam;Tochi Raina;Rekha Bhardwaj",
+      "album": "Yeh Jawaani Hai Deewani",
+      "popularity": 74,
+      "tempo": 84.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.555,
+      "valence": 0.191,
+      "danceability": 0.59,
+      "acousticness": 0.481,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.027,
+      "duration_ms": 223459,
+      "slug": "kabira-pritam"
+    },
+    {
+      "name": "Shayad",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Love Aaj Kal (Original Motion Picture Soundtrack)",
+      "popularity": 74,
+      "tempo": 135.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.468,
+      "valence": 0.319,
+      "danceability": 0.483,
+      "acousticness": 0.784,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.034,
+      "duration_ms": 247941,
+      "slug": "shayad-pritam"
+    },
+    {
+      "name": "Dance Ka Bhoot (From \"Brahmastra\")",
+      "artists": "Pritam;Arijit Singh;Amitabh Bhattacharya",
+      "album": "Dance Ka Bhoot (From \"Brahmastra\")",
+      "popularity": 74,
+      "tempo": 136.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.929,
+      "valence": 0.584,
+      "danceability": 0.632,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.128,
+      "duration_ms": 245735,
+      "slug": "dance-ka-bhoot-from-brahmastra-pritam"
+    },
+    {
+      "name": "Doobey (From \"Gehraiyaan\")",
+      "artists": "OAFF;Savera;Lothika;Kausar Munir",
+      "album": "Doobey (From \"Gehraiyaan\")",
+      "popularity": 73,
+      "tempo": 119.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.669,
+      "valence": 0.359,
+      "danceability": 0.751,
+      "acousticness": 0.342,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.036,
+      "duration_ms": 219686,
+      "slug": "doobey-from-gehraiyaan-oaff"
+    },
+    {
+      "name": "Kalank (Title Track)",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Kalank (Original Motion Picture Soundtrack)",
+      "popularity": 73,
+      "tempo": 118.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.55,
+      "valence": 0.435,
+      "danceability": 0.57,
+      "acousticness": 0.524,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.035,
+      "duration_ms": 311186,
+      "slug": "kalank-title-track-pritam"
+    },
+    {
+      "name": "Raabta",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Agent Vinod",
+      "popularity": 73,
+      "tempo": 118.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.581,
+      "valence": 0.323,
+      "danceability": 0.657,
+      "acousticness": 0.699,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.03,
+      "duration_ms": 243578,
+      "slug": "raabta-pritam"
+    },
+    {
+      "name": "Saibo - Lofi Flip",
+      "artists": "VIBIE",
+      "album": "Saibo (Lofi Flip)",
+      "popularity": 72,
+      "tempo": 180.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.349,
+      "valence": 0.2,
+      "danceability": 0.323,
+      "acousticness": 0.965,
+      "instrumentalness": 0.005,
+      "loudness": -12.5,
+      "speechiness": 0.076,
+      "duration_ms": 146646,
+      "slug": "saibo-lofi-flip-vibie"
+    },
+    {
+      "name": "Subhanallah",
+      "artists": "Pritam;Sreeram;Shilpa Rao",
+      "album": "Yeh Jawaani Hai Deewani",
+      "popularity": 72,
+      "tempo": 88.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.493,
+      "valence": 0.457,
+      "danceability": 0.302,
+      "acousticness": 0.455,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.045,
+      "duration_ms": 249707,
+      "slug": "subhanallah-pritam"
+    },
+    {
+      "name": "Hum Nashe Mein Toh Nahin (From \"Bhool Bhulaiyaa 2\")",
+      "artists": "Pritam;Arijit Singh;Tulsi Kumar",
+      "album": "Hum Nashe Mein Toh Nahin (From \"Bhool Bhulaiyaa 2\")",
+      "popularity": 72,
+      "tempo": 85.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.736,
+      "valence": 0.778,
+      "danceability": 0.572,
+      "acousticness": 0.643,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.066,
+      "duration_ms": 238252,
+      "slug": "hum-nashe-mein-toh-nahin-from-bhool-bhulaiyaa-2-pritam"
+    },
+    {
+      "name": "Gul",
+      "artists": "Anuv Jain",
+      "album": "Gul",
+      "popularity": 71,
+      "tempo": 87.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.294,
+      "valence": 0.342,
+      "danceability": 0.6,
+      "acousticness": 0.871,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.029,
+      "duration_ms": 217241,
+      "slug": "gul-anuv-jain"
+    },
+    {
+      "name": "O Re Piya",
+      "artists": "Salim\u2013Sulaiman;Rahat Fateh Ali Khan;Jaideep Sahni",
+      "album": "Aaja Nachle",
+      "popularity": 71,
+      "tempo": 100.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.494,
+      "danceability": 0.586,
+      "acousticness": 0.779,
+      "instrumentalness": 0.001,
+      "loudness": -8.8,
+      "speechiness": 0.033,
+      "duration_ms": 379768,
+      "slug": "o-re-piya-salimsulaiman"
+    },
+    {
+      "name": "Nasha (Equals Sessions)",
+      "artists": "Faridkot;Amar Jalal",
+      "album": "Nasha (Equals Sessions) - Single",
+      "popularity": 70,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.46,
+      "valence": 0.788,
+      "danceability": 0.78,
+      "acousticness": 0.455,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.085,
+      "duration_ms": 287573,
+      "slug": "nasha-equals-sessions-faridkot"
+    },
+    {
+      "name": "Kasoor",
+      "artists": "Prateek Kuhad",
+      "album": "Kasoor",
+      "popularity": 70,
+      "tempo": 107.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.497,
+      "valence": 0.444,
+      "danceability": 0.558,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.026,
+      "duration_ms": 197549,
+      "slug": "kasoor-prateek-kuhad"
+    },
+    {
+      "name": "Zara Sa",
+      "artists": "Pritam;KK",
+      "album": "Jannat (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 163.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.91,
+      "valence": 0.694,
+      "danceability": 0.468,
+      "acousticness": 0.12,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.051,
+      "duration_ms": 303680,
+      "slug": "zara-sa-pritam"
+    },
+    {
+      "name": "Channa Mereya",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Ae Dil Hai Mushkil (Original Motion Picture Soundtrack) [Deluxe Edition]",
+      "popularity": 70,
+      "tempo": 90.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.788,
+      "valence": 0.746,
+      "danceability": 0.476,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.045,
+      "duration_ms": 289333,
+      "slug": "channa-mereya-pritam"
+    },
+    {
+      "name": "Kho Gaye Hum Kahan",
+      "artists": "Jasleen Royal;Prateek Kuhad",
+      "album": "Baar Baar Dekho (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 116.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.227,
+      "valence": 0.38,
+      "danceability": 0.778,
+      "acousticness": 0.983,
+      "instrumentalness": 0.14,
+      "loudness": -16.2,
+      "speechiness": 0.038,
+      "duration_ms": 213055,
+      "slug": "kho-gaye-hum-kahan-jasleen-royal"
+    },
+    {
+      "name": "Mehrama",
+      "artists": "Pritam;Darshan Raval;Antara Mitra",
+      "album": "Love Aaj Kal (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 108.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.631,
+      "valence": 0.376,
+      "danceability": 0.56,
+      "acousticness": 0.861,
+      "instrumentalness": 0.013,
+      "loudness": -9.0,
+      "speechiness": 0.033,
+      "duration_ms": 249415,
+      "slug": "mehrama-pritam"
+    },
+    {
+      "name": "Alag Aasmaan",
+      "artists": "Anuv Jain",
+      "album": "Alag Aasmaan",
+      "popularity": 70,
+      "tempo": 119.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.299,
+      "valence": 0.459,
+      "danceability": 0.699,
+      "acousticness": 0.869,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.04,
+      "duration_ms": 212773,
+      "slug": "alag-aasmaan-anuv-jain"
+    },
+    {
+      "name": "Waqt Ki Baatein",
+      "artists": "Dream Note",
+      "album": "Waqt Ki Baatein",
+      "popularity": 70,
+      "tempo": 145.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.202,
+      "valence": 0.2,
+      "danceability": 0.556,
+      "acousticness": 0.915,
+      "instrumentalness": 0.038,
+      "loudness": -16.4,
+      "speechiness": 0.032,
+      "duration_ms": 243310,
+      "slug": "waqt-ki-baatein-dream-note"
+    },
+    {
+      "name": "Saiyyan",
+      "artists": "Kailash Kher;Paresh Kamath;Naresh Kamath",
+      "album": "Kailasa Jhoomo Re",
+      "popularity": 70,
+      "tempo": 74.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.562,
+      "valence": 0.316,
+      "danceability": 0.473,
+      "acousticness": 0.65,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.045,
+      "duration_ms": 343906,
+      "slug": "saiyyan-kailash-kher"
+    },
+    {
+      "name": "Phir Na Aisi Raat Aayegi (From \"Laal Singh Chaddha\")",
+      "artists": "Pritam;Arijit Singh;Amitabh Bhattacharya",
+      "album": "Phir Na Aisi Raat Aayegi (From \"Laal Singh Chaddha\")",
+      "popularity": 69,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.418,
+      "valence": 0.212,
+      "danceability": 0.435,
+      "acousticness": 0.903,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.029,
+      "duration_ms": 283225,
+      "slug": "phir-na-aisi-raat-aayegi-from-laal-singh-chaddha-pritam"
+    },
+    {
+      "name": "Dil Ibaadat",
+      "artists": "Pritam;KK",
+      "album": "Tum Mile (Original Motion Picture Soundtrack)",
+      "popularity": 69,
+      "tempo": 150.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.634,
+      "danceability": 0.59,
+      "acousticness": 0.633,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.042,
+      "duration_ms": 329386,
+      "slug": "dil-ibaadat-pritam"
+    },
+    {
+      "name": "Pee Loon",
+      "artists": "Pritam;Mohit Chauhan",
+      "album": "Once Upon A Time In Mumbaai",
+      "popularity": 69,
+      "tempo": 84.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.883,
+      "danceability": 0.656,
+      "acousticness": 0.277,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.036,
+      "duration_ms": 285686,
+      "slug": "pee-loon-pritam"
+    },
+    {
+      "name": "Ye Tune Kya Kiya",
+      "artists": "Pritam;Javed Bashir",
+      "album": "Once Upon Ay Time In Mumbai Dobaara !",
+      "popularity": 69,
+      "tempo": 92.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.728,
+      "danceability": 0.578,
+      "acousticness": 0.58,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.07,
+      "duration_ms": 314239,
+      "slug": "ye-tune-kya-kiya-pritam"
+    },
+    {
+      "name": "Mazaak",
+      "artists": "Anuv Jain",
+      "album": "Mazaak",
+      "popularity": 68,
+      "tempo": 146.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.461,
+      "valence": 0.244,
+      "danceability": 0.534,
+      "acousticness": 0.795,
+      "instrumentalness": 0.0,
+      "loudness": -11.3,
+      "speechiness": 0.029,
+      "duration_ms": 212054,
+      "slug": "mazaak-anuv-jain"
+    },
+    {
+      "name": "Liggi",
+      "artists": "Ritviz",
+      "album": "Dev",
+      "popularity": 68,
+      "tempo": 102.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.667,
+      "valence": 0.688,
+      "danceability": 0.786,
+      "acousticness": 0.011,
+      "instrumentalness": 0.053,
+      "loudness": -8.3,
+      "speechiness": 0.054,
+      "duration_ms": 181176,
+      "slug": "liggi-ritviz"
+    },
+    {
+      "name": "tere bina",
+      "artists": "Zaeden",
+      "album": "tere bina",
+      "popularity": 68,
+      "tempo": 118.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.341,
+      "valence": 0.942,
+      "danceability": 0.889,
+      "acousticness": 0.117,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.042,
+      "duration_ms": 157245,
+      "slug": "tere-bina-zaeden"
+    },
+    {
+      "name": "Pal Behta Jaaye",
+      "artists": "Vismay Patel",
+      "album": "Pal Behta Jaaye",
+      "popularity": 68,
+      "tempo": 110.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.223,
+      "valence": 0.196,
+      "danceability": 0.776,
+      "acousticness": 0.721,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.038,
+      "duration_ms": 174545,
+      "slug": "pal-behta-jaaye-vismay-patel"
+    },
+    {
+      "name": "Ae Dil Hai Mushkil Title Track",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Ae Dil Hai Mushkil (Original Motion Picture Soundtrack) [Deluxe Edition]",
+      "popularity": 68,
+      "tempo": 123.9,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.35,
+      "danceability": 0.495,
+      "acousticness": 0.713,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.068,
+      "duration_ms": 269032,
+      "slug": "ae-dil-hai-mushkil-title-track-pritam"
+    },
+    {
+      "name": "Ilahi",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Yeh Jawaani Hai Deewani",
+      "popularity": 68,
+      "tempo": 132.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.967,
+      "valence": 0.452,
+      "danceability": 0.593,
+      "acousticness": 0.166,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.091,
+      "duration_ms": 228982,
+      "slug": "ilahi-pritam"
+    },
+    {
+      "name": "Tune Jo Na Kaha",
+      "artists": "Pritam;Mohit Chauhan;Sandeep Shrivastava",
+      "album": "New York",
+      "popularity": 68,
+      "tempo": 79.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.475,
+      "valence": 0.312,
+      "danceability": 0.314,
+      "acousticness": 0.779,
+      "instrumentalness": 0.005,
+      "loudness": -12.4,
+      "speechiness": 0.084,
+      "duration_ms": 310073,
+      "slug": "tune-jo-na-kaha-pritam"
+    },
+    {
+      "name": "Kahani (From \"Laal Singh Chaddha\")",
+      "artists": "Pritam;Mohan Kannan;Amitabh Bhattacharya",
+      "album": "Kahani (From \"Laal Singh Chaddha\")",
+      "popularity": 68,
+      "tempo": 149.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.336,
+      "valence": 0.327,
+      "danceability": 0.406,
+      "acousticness": 0.815,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.035,
+      "duration_ms": 208539,
+      "slug": "kahani-from-laal-singh-chaddha-pritam"
+    },
+    {
+      "name": "Shayad (From \"Love Aaj Kal\")",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Shayad (From \"Love Aaj Kal\")",
+      "popularity": 68,
+      "tempo": 136.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.456,
+      "valence": 0.348,
+      "danceability": 0.487,
+      "acousticness": 0.789,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.032,
+      "duration_ms": 247941,
+      "slug": "shayad-from-love-aaj-kal-pritam"
+    },
+    {
+      "name": "Vaseegara",
+      "artists": "Bombay Jayashri",
+      "album": "Minnalae",
+      "popularity": 68,
+      "tempo": 143.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.293,
+      "valence": 0.637,
+      "danceability": 0.695,
+      "acousticness": 0.596,
+      "instrumentalness": 0.016,
+      "loudness": -16.3,
+      "speechiness": 0.043,
+      "duration_ms": 299146,
+      "slug": "vaseegara-bombay-jayashri"
+    },
+    {
+      "name": "Choo Lo",
+      "artists": "The Local Train",
+      "album": "Aalas Ka Pedh",
+      "popularity": 67,
+      "tempo": 146.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.351,
+      "danceability": 0.512,
+      "acousticness": 0.026,
+      "instrumentalness": 0.008,
+      "loudness": -6.3,
+      "speechiness": 0.027,
+      "duration_ms": 233630,
+      "slug": "choo-lo-the-local-train"
+    },
+    {
+      "name": "Udd Gaye",
+      "artists": "Ritviz",
+      "album": "Ved",
+      "popularity": 67,
+      "tempo": 145.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.817,
+      "valence": 0.483,
+      "danceability": 0.595,
+      "acousticness": 0.001,
+      "instrumentalness": 0.039,
+      "loudness": -6.2,
+      "speechiness": 0.047,
+      "duration_ms": 180413,
+      "slug": "udd-gaye-ritviz"
+    },
+    {
+      "name": "Tere Hawaale (From \"Laal Singh Chaddha\")",
+      "artists": "Pritam;Arijit Singh;Shilpa Rao",
+      "album": "Tere Hawaale (From \"Laal Singh Chaddha\")",
+      "popularity": 67,
+      "tempo": 109.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.31,
+      "danceability": 0.589,
+      "acousticness": 0.642,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.039,
+      "duration_ms": 346290,
+      "slug": "tere-hawaale-from-laal-singh-chaddha-pritam"
+    },
+    {
+      "name": "Aarambh",
+      "artists": "Piyush Mishra",
+      "album": "Gulaal",
+      "popularity": 67,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.778,
+      "valence": 0.282,
+      "danceability": 0.693,
+      "acousticness": 0.555,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.248,
+      "duration_ms": 295866,
+      "slug": "aarambh-piyush-mishra"
+    },
+    {
+      "name": "Hawayein",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Jab Harry Met Sejal (Original Motion Picture Soundtrack)",
+      "popularity": 67,
+      "tempo": 126.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.453,
+      "danceability": 0.606,
+      "acousticness": 0.796,
+      "instrumentalness": 0.001,
+      "loudness": -5.6,
+      "speechiness": 0.028,
+      "duration_ms": 289999,
+      "slug": "hawayein-pritam"
+    },
+    {
+      "name": "De Taali (From \"Bhool Bhulaiyaa 2\")",
+      "artists": "Pritam;Yo Yo Honey Singh;Armaan Malik;Shashwat Singh;Amitabh Bhattacharya",
+      "album": "De Taali (From \"Bhool Bhulaiyaa 2\")",
+      "popularity": 67,
+      "tempo": 120.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.899,
+      "valence": 0.736,
+      "danceability": 0.818,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.117,
+      "duration_ms": 210163,
+      "slug": "de-taali-from-bhool-bhulaiyaa-2-pritam"
+    },
+    {
+      "name": "Invisible",
+      "artists": "Zeus X Crona;Julius Dreisig",
+      "album": "Invisible",
+      "popularity": 67,
+      "tempo": 82.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.836,
+      "valence": 0.224,
+      "danceability": 0.682,
+      "acousticness": 0.141,
+      "instrumentalness": 0.038,
+      "loudness": -3.3,
+      "speechiness": 0.354,
+      "duration_ms": 201015,
+      "slug": "invisible-zeus-x-crona"
+    },
+    {
+      "name": "Kesariya",
+      "artists": "Pritam;Arijit Singh;Amitabh Bhattacharya",
+      "album": "Brahmastra (Original Motion Picture Soundtrack)",
+      "popularity": 66,
+      "tempo": 94.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.436,
+      "danceability": 0.577,
+      "acousticness": 0.572,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.028,
+      "duration_ms": 268164,
+      "slug": "kesariya-pritam"
+    },
+    {
+      "name": "Mere Bina",
+      "artists": "Pritam;Nikhil D'Souza",
+      "album": "Crook (Original Motion Picture Soundtrack)",
+      "popularity": 66,
+      "tempo": 79.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.767,
+      "valence": 0.463,
+      "danceability": 0.511,
+      "acousticness": 0.651,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.052,
+      "duration_ms": 289560,
+      "slug": "mere-bina-pritam"
+    },
+    {
+      "name": "Baaraat",
+      "artists": "Ritviz;Nucleya",
+      "album": "Baaraat",
+      "popularity": 66,
+      "tempo": 100.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.449,
+      "valence": 0.606,
+      "danceability": 0.678,
+      "acousticness": 0.477,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.087,
+      "duration_ms": 222096,
+      "slug": "baaraat-ritviz"
+    },
+    {
+      "name": "Tum Mile",
+      "artists": "Pritam;Neeraj Shridhar",
+      "album": "Tum Mile (Original Motion Picture Soundtrack)",
+      "popularity": 66,
+      "tempo": 123.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.793,
+      "danceability": 0.738,
+      "acousticness": 0.32,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.033,
+      "duration_ms": 343786,
+      "slug": "tum-mile-pritam"
+    },
+    {
+      "name": "Tum Jo Aaye",
+      "artists": "Pritam;Rahat Fateh Ali Khan;Tulsi Kumar",
+      "album": "Once Upon A Time In Mumbaai",
+      "popularity": 66,
+      "tempo": 83.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.841,
+      "valence": 0.927,
+      "danceability": 0.574,
+      "acousticness": 0.399,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.095,
+      "duration_ms": 286443,
+      "slug": "tum-jo-aaye-pritam"
+    },
+    {
+      "name": "Subha Hone Na De",
+      "artists": "Pritam;Mika Singh;Shefali Alvares",
+      "album": "Desi Boyz",
+      "popularity": 66,
+      "tempo": 132.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.505,
+      "danceability": 0.727,
+      "acousticness": 0.081,
+      "instrumentalness": 0.046,
+      "loudness": -4.5,
+      "speechiness": 0.045,
+      "duration_ms": 288696,
+      "slug": "subha-hone-na-de-pritam"
+    },
+    {
+      "name": "Laaree Chootee",
+      "artists": "WORMONO;Tejas R.H",
+      "album": "Laaree Chootee",
+      "popularity": 66,
+      "tempo": 180.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.349,
+      "valence": 0.337,
+      "danceability": 0.303,
+      "acousticness": 0.758,
+      "instrumentalness": 0.0,
+      "loudness": -15.5,
+      "speechiness": 0.208,
+      "duration_ms": 130718,
+      "slug": "laaree-chootee-wormono"
+    },
+    {
+      "name": "Naina",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Dangal (Original Motion Picture Soundtrack)",
+      "popularity": 66,
+      "tempo": 80.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.445,
+      "valence": 0.388,
+      "danceability": 0.501,
+      "acousticness": 0.772,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.034,
+      "duration_ms": 225750,
+      "slug": "naina-pritam"
+    },
+    {
+      "name": "Main Yahaan Hoon",
+      "artists": "Madan Mohan;Udit Narayan;Javed Akhtar",
+      "album": "Veer - Zaara",
+      "popularity": 66,
+      "tempo": 172.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.788,
+      "valence": 0.741,
+      "danceability": 0.484,
+      "acousticness": 0.69,
+      "instrumentalness": 0.013,
+      "loudness": -7.6,
+      "speechiness": 0.057,
+      "duration_ms": 295157,
+      "slug": "main-yahaan-hoon-madan-mohan"
+    },
+    {
+      "name": "Kesariya Audio Teaser (From \"Brahmastra\")",
+      "artists": "Pritam;Arijit Singh;Amitabh Bhattacharya",
+      "album": "Kesariya Audio Teaser (From \"Brahmastra\")",
+      "popularity": 66,
+      "tempo": 94.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.634,
+      "valence": 0.465,
+      "danceability": 0.56,
+      "acousticness": 0.435,
+      "instrumentalness": 0.004,
+      "loudness": -8.8,
+      "speechiness": 0.031,
+      "duration_ms": 44698,
+      "slug": "kesariya-audio-teaser-from-brahmastra-pritam"
+    },
+    {
+      "name": "Tum Kyun Chale Jaate Ho Chill",
+      "artists": "Swattrex",
+      "album": "Tum Kyun Chale Jaate Ho Chill",
+      "popularity": 66,
+      "tempo": 113.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.643,
+      "valence": 0.201,
+      "danceability": 0.524,
+      "acousticness": 0.505,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.03,
+      "duration_ms": 157278,
+      "slug": "tum-kyun-chale-jaate-ho-chill-swattrex"
+    },
+    {
+      "name": "Tu Hi Haqeeqat",
+      "artists": "Pritam;Javed Ali;Irshan Ashraf;Shadab",
+      "album": "Tum Mile (Original Motion Picture Soundtrack)",
+      "popularity": 65,
+      "tempo": 116.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.744,
+      "valence": 0.706,
+      "danceability": 0.705,
+      "acousticness": 0.582,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.034,
+      "duration_ms": 302026,
+      "slug": "tu-hi-haqeeqat-pritam"
+    },
+    {
+      "name": "Tum Mile - Lofi Flip",
+      "artists": "KSW;Neeraj Shridhar;Pritam",
+      "album": "Tum Mile (Lofi Flip)",
+      "popularity": 65,
+      "tempo": 115.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.579,
+      "valence": 0.21,
+      "danceability": 0.711,
+      "acousticness": 0.218,
+      "instrumentalness": 0.053,
+      "loudness": -11.1,
+      "speechiness": 0.036,
+      "duration_ms": 242103,
+      "slug": "tum-mile-lofi-flip-ksw"
+    },
+    {
+      "name": "Badtameez Dil",
+      "artists": "Pritam;Benny Dayal;Shefali Alvares",
+      "album": "Yeh Jawaani Hai Deewani",
+      "popularity": 65,
+      "tempo": 106.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.932,
+      "valence": 0.792,
+      "danceability": 0.806,
+      "acousticness": 0.24,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.068,
+      "duration_ms": 252760,
+      "slug": "badtameez-dil-pritam"
+    },
+    {
+      "name": "socha na tha",
+      "artists": "Zaeden",
+      "album": "Genesis 1:1",
+      "popularity": 65,
+      "tempo": 192.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.179,
+      "danceability": 0.489,
+      "acousticness": 0.665,
+      "instrumentalness": 0.001,
+      "loudness": -5.4,
+      "speechiness": 0.037,
+      "duration_ms": 144250,
+      "slug": "socha-na-tha-zaeden"
+    },
+    {
+      "name": "Make Some Noise For The Desi Boyz",
+      "artists": "Pritam;KK;Bob",
+      "album": "Desi Boyz",
+      "popularity": 65,
+      "tempo": 142.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.954,
+      "valence": 0.89,
+      "danceability": 0.692,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.091,
+      "duration_ms": 244067,
+      "slug": "make-some-noise-for-the-desi-boyz-pritam"
+    },
+    {
+      "name": "Nit Nit",
+      "artists": "Jasleen Royal",
+      "album": "Nit Nit",
+      "popularity": 65,
+      "tempo": 176.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.412,
+      "valence": 0.235,
+      "danceability": 0.442,
+      "acousticness": 0.781,
+      "instrumentalness": 0.024,
+      "loudness": -10.7,
+      "speechiness": 0.038,
+      "duration_ms": 246136,
+      "slug": "nit-nit-jasleen-royal"
+    },
+    {
+      "name": "Mere Rashke Qamar",
+      "artists": "Nusrat Fateh Ali Khan;Rahat Fateh Ali Khan",
+      "album": "Baadshaho",
+      "popularity": 65,
+      "tempo": 105.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.83,
+      "valence": 0.771,
+      "danceability": 0.718,
+      "acousticness": 0.404,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.051,
+      "duration_ms": 220382,
+      "slug": "mere-rashke-qamar-nusrat-fateh-ali-khan"
+    },
+    {
+      "name": "Teri Jhuki Nazar",
+      "artists": "Pritam;Shafqat Amanat Ali",
+      "album": "Murder 3 (Original Motion Picture Soundtrack)",
+      "popularity": 64,
+      "tempo": 124.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.815,
+      "valence": 0.349,
+      "danceability": 0.386,
+      "acousticness": 0.707,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.042,
+      "duration_ms": 279186,
+      "slug": "teri-jhuki-nazar-pritam"
+    },
+    {
+      "name": "Ik Vaari Aa",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Raabta",
+      "popularity": 64,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.752,
+      "valence": 0.428,
+      "danceability": 0.512,
+      "acousticness": 0.305,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.053,
+      "duration_ms": 274687,
+      "slug": "ik-vaari-aa-pritam"
+    },
+    {
+      "name": "Hawayein (From \"Jab Harry Met Sejal\")",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Hawayein (From \"Jab Harry Met Sejal\")",
+      "popularity": 64,
+      "tempo": 126.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.453,
+      "danceability": 0.606,
+      "acousticness": 0.796,
+      "instrumentalness": 0.001,
+      "loudness": -5.6,
+      "speechiness": 0.028,
+      "duration_ms": 289999,
+      "slug": "hawayein-from-jab-harry-met-sejal-pritam"
+    },
+    {
+      "name": "Haan Tu Hain",
+      "artists": "Pritam;KK",
+      "album": "Jannat (Original Motion Picture Soundtrack)",
+      "popularity": 64,
+      "tempo": 83.6,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.904,
+      "valence": 0.729,
+      "danceability": 0.415,
+      "acousticness": 0.718,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.104,
+      "duration_ms": 324880,
+      "slug": "haan-tu-hain-pritam"
+    },
+    {
+      "name": "Ye Ishq Hai",
+      "artists": "Pritam;Shreya Ghoshal",
+      "album": "Jab We Met",
+      "popularity": 64,
+      "tempo": 118.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.882,
+      "danceability": 0.823,
+      "acousticness": 0.434,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.159,
+      "duration_ms": 280974,
+      "slug": "ye-ishq-hai-pritam"
+    },
+    {
+      "name": "Kesariya (From \"Brahmastra\") - Dance Mix",
+      "artists": "Pritam;Shashwat Singh;Antara Mitra;Arijit Singh",
+      "album": "Kesariya (Dance Mix) [From \"Brahmastra\"]",
+      "popularity": 64,
+      "tempo": 100.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.699,
+      "valence": 0.567,
+      "danceability": 0.7,
+      "acousticness": 0.45,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.053,
+      "duration_ms": 197400,
+      "slug": "kesariya-from-brahmastra-dance-mix-pritam"
+    },
+    {
+      "name": "Woh Lamhe Woh Baatein - LoFi",
+      "artists": "Poorvesh Dave;Kuxh Beats",
+      "album": "LoFi Songs",
+      "popularity": 64,
+      "tempo": 90.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.516,
+      "valence": 0.149,
+      "danceability": 0.457,
+      "acousticness": 0.353,
+      "instrumentalness": 0.004,
+      "loudness": -10.4,
+      "speechiness": 0.04,
+      "duration_ms": 141955,
+      "slug": "woh-lamhe-woh-baatein-lofi-poorvesh-dave"
+    },
+    {
+      "name": "Ranjha",
+      "artists": "Jasleen Royal;B Praak;Romy;Anvita Dutt",
+      "album": "Shershaah (Original Motion Picture Soundtrack)",
+      "popularity": 64,
+      "tempo": 83.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.566,
+      "valence": 0.312,
+      "danceability": 0.611,
+      "acousticness": 0.507,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.039,
+      "duration_ms": 228855,
+      "slug": "ranjha-jasleen-royal"
+    },
+    {
+      "name": "Mishri",
+      "artists": "Anuv Jain",
+      "album": "Mishri",
+      "popularity": 64,
+      "tempo": 80.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.159,
+      "valence": 0.184,
+      "danceability": 0.534,
+      "acousticness": 0.917,
+      "instrumentalness": 0.0,
+      "loudness": -14.3,
+      "speechiness": 0.029,
+      "duration_ms": 200437,
+      "slug": "mishri-anuv-jain"
+    },
+    {
+      "name": "Get You The Moon X Agar Tum Saath Ho",
+      "artists": "Pranish VP",
+      "album": "Get You The Moon X Agar Tum Saath Ho",
+      "popularity": 64,
+      "tempo": 118.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.372,
+      "valence": 0.13,
+      "danceability": 0.652,
+      "acousticness": 0.832,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.035,
+      "duration_ms": 236579,
+      "slug": "get-you-the-moon-x-agar-tum-saath-ho-pranish-vp"
+    },
+    {
+      "name": "Rangisari",
+      "artists": "Kanishk Seth;Kavita Seth",
+      "album": "Jugjugg Jeeyo",
+      "popularity": 64,
+      "tempo": 140.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.319,
+      "danceability": 0.524,
+      "acousticness": 0.27,
+      "instrumentalness": 0.13,
+      "loudness": -9.3,
+      "speechiness": 0.054,
+      "duration_ms": 223271,
+      "slug": "rangisari-kanishk-seth"
+    },
+    {
+      "name": "Doobey",
+      "artists": "OAFF;Savera;Lothika;Kausar Munir",
+      "album": "Gehraiyaan (Original Motion Picture Soundtrack)",
+      "popularity": 64,
+      "tempo": 119.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.669,
+      "valence": 0.359,
+      "danceability": 0.751,
+      "acousticness": 0.342,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.036,
+      "duration_ms": 219686,
+      "slug": "doobey-oaff"
+    },
+    {
+      "name": "Janam Janam",
+      "artists": "Pritam;Arijit Singh;Antara Mitra",
+      "album": "Dilwale (Original Motion Picture Soundtrack)",
+      "popularity": 64,
+      "tempo": 132.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.581,
+      "valence": 0.235,
+      "danceability": 0.301,
+      "acousticness": 0.602,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.042,
+      "duration_ms": 237896,
+      "slug": "janam-janam-pritam"
+    },
+    {
+      "name": "Balam Pichkari",
+      "artists": "Pritam;Vishal Dadlani;Shalmali Kholgade",
+      "album": "Yeh Jawaani Hai Deewani",
+      "popularity": 64,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.944,
+      "valence": 0.957,
+      "danceability": 0.732,
+      "acousticness": 0.209,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.09,
+      "duration_ms": 288902,
+      "slug": "balam-pichkari-pritam"
+    },
+    {
+      "name": "Shukran Allah",
+      "artists": "Salim\u2013Sulaiman;Sonu Nigam;Shreya Ghoshal;Salim Merchant",
+      "album": "Kurbaan (Original Motion Picture Soundtrack)",
+      "popularity": 64,
+      "tempo": 116.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.513,
+      "danceability": 0.432,
+      "acousticness": 0.732,
+      "instrumentalness": 0.001,
+      "loudness": -8.0,
+      "speechiness": 0.111,
+      "duration_ms": 290053,
+      "slug": "shukran-allah-salimsulaiman"
+    },
+    {
+      "name": "Jiyein Kyun",
+      "artists": "Pritam;Papon",
+      "album": "Dum Maaro Dum",
+      "popularity": 63,
+      "tempo": 71.4,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.609,
+      "valence": 0.347,
+      "danceability": 0.393,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.042,
+      "duration_ms": 264962,
+      "slug": "jiyein-kyun-pritam"
+    },
+    {
+      "name": "Darasal",
+      "artists": "Pritam;Atif Aslam",
+      "album": "Raabta",
+      "popularity": 63,
+      "tempo": 117.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.422,
+      "valence": 0.484,
+      "danceability": 0.705,
+      "acousticness": 0.793,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.03,
+      "duration_ms": 274354,
+      "slug": "darasal-pritam"
+    },
+    {
+      "name": "Dil Mere",
+      "artists": "The Local Train",
+      "album": "Aalas Ka Pedh",
+      "popularity": 63,
+      "tempo": 93.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.473,
+      "valence": 0.572,
+      "danceability": 0.655,
+      "acousticness": 0.842,
+      "instrumentalness": 0.032,
+      "loudness": -9.8,
+      "speechiness": 0.027,
+      "duration_ms": 211290,
+      "slug": "dil-mere-the-local-train"
+    },
+    {
+      "name": "Aaj Na",
+      "artists": "Ritviz",
+      "album": "Mimmi",
+      "popularity": 63,
+      "tempo": 84.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.345,
+      "valence": 0.338,
+      "danceability": 0.659,
+      "acousticness": 0.106,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.107,
+      "duration_ms": 193425,
+      "slug": "aaj-na-ritviz"
+    },
+    {
+      "name": "Labon Ko",
+      "artists": "Pritam;KK",
+      "album": "Bhool Bhulaiyaa",
+      "popularity": 63,
+      "tempo": 108.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.837,
+      "valence": 0.473,
+      "danceability": 0.63,
+      "acousticness": 0.329,
+      "instrumentalness": 0.003,
+      "loudness": -4.6,
+      "speechiness": 0.039,
+      "duration_ms": 341027,
+      "slug": "labon-ko-pritam"
+    },
+    {
+      "name": "Roz Roz",
+      "artists": "The Yellow Diary;Shilpa Rao",
+      "album": "Roz Roz",
+      "popularity": 63,
+      "tempo": 100.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.446,
+      "valence": 0.472,
+      "danceability": 0.653,
+      "acousticness": 0.546,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.035,
+      "duration_ms": 218550,
+      "slug": "roz-roz-the-yellow-diary"
+    },
+    {
+      "name": "Sage",
+      "artists": "Ritviz",
+      "album": "Ved",
+      "popularity": 63,
+      "tempo": 98.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.412,
+      "valence": 0.356,
+      "danceability": 0.663,
+      "acousticness": 0.004,
+      "instrumentalness": 0.019,
+      "loudness": -8.2,
+      "speechiness": 0.364,
+      "duration_ms": 230204,
+      "slug": "sage-ritviz"
+    },
+    {
+      "name": "Teri Deewani",
+      "artists": "Kailash Kher;Paresh Kamath;Naresh Kamath",
+      "album": "Kailasa",
+      "popularity": 63,
+      "tempo": 80.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.6,
+      "valence": 0.434,
+      "danceability": 0.447,
+      "acousticness": 0.324,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.033,
+      "duration_ms": 323520,
+      "slug": "teri-deewani-kailash-kher"
+    },
+    {
+      "name": "Aabaad Barbaad (From \"Ludo\")",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Aabaad Barbaad (From \"Ludo\")",
+      "popularity": 63,
+      "tempo": 118.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.628,
+      "danceability": 0.626,
+      "acousticness": 0.686,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.032,
+      "duration_ms": 309103,
+      "slug": "aabaad-barbaad-from-ludo-pritam"
+    },
+    {
+      "name": "Kabira (Encore)",
+      "artists": "Pritam;Harshdeep Kaur;Arijit Singh",
+      "album": "Yeh Jawaani Hai Deewani",
+      "popularity": 63,
+      "tempo": 171.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.612,
+      "valence": 0.898,
+      "danceability": 0.611,
+      "acousticness": 0.441,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.114,
+      "duration_ms": 270438,
+      "slug": "kabira-encore-pritam"
+    },
+    {
+      "name": "Afghan Jalebi (Film Version)",
+      "artists": "Pritam;Akhtar Chinnal",
+      "album": "Phantom",
+      "popularity": 63,
+      "tempo": 118.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.972,
+      "danceability": 0.84,
+      "acousticness": 0.427,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.334,
+      "duration_ms": 224206,
+      "slug": "afghan-jalebi-film-version-pritam"
+    },
+    {
+      "name": "Tere Liye",
+      "artists": "Madan Mohan;Lata Mangeshkar;Roop Kumar Rathod;Javed Akhtar",
+      "album": "Veer - Zaara",
+      "popularity": 63,
+      "tempo": 98.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.46,
+      "valence": 0.33,
+      "danceability": 0.525,
+      "acousticness": 0.826,
+      "instrumentalness": 0.002,
+      "loudness": -8.6,
+      "speechiness": 0.025,
+      "duration_ms": 331676,
+      "slug": "tere-liye-madan-mohan"
+    },
+    {
+      "name": "dooriyan",
+      "artists": "Zaeden",
+      "album": "Genesis 1:1",
+      "popularity": 63,
+      "tempo": 160.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.593,
+      "valence": 0.475,
+      "danceability": 0.735,
+      "acousticness": 0.731,
+      "instrumentalness": 0.178,
+      "loudness": -7.5,
+      "speechiness": 0.088,
+      "duration_ms": 161624,
+      "slug": "dooriyan-zaeden"
+    },
+    {
+      "name": "Hum Nashe Mein Toh Nahin",
+      "artists": "Pritam;Arijit Singh;Tulsi Kumar",
+      "album": "Bhool Bhulaiyaa 2",
+      "popularity": 63,
+      "tempo": 85.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.736,
+      "valence": 0.778,
+      "danceability": 0.572,
+      "acousticness": 0.643,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.066,
+      "duration_ms": 238252,
+      "slug": "hum-nashe-mein-toh-nahin-pritam"
+    },
+    {
+      "name": "Dilliwaali Girlfriend",
+      "artists": "Pritam;Arijit Singh;Sunidhi Chauhan",
+      "album": "Yeh Jawaani Hai Deewani",
+      "popularity": 63,
+      "tempo": 138.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.941,
+      "valence": 0.909,
+      "danceability": 0.687,
+      "acousticness": 0.081,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.058,
+      "duration_ms": 260552,
+      "slug": "dilliwaali-girlfriend-pritam"
+    },
+    {
+      "name": "Theethiriyaai (From \"Brahmastra (Tamil)\")",
+      "artists": "Pritam;Sid Sriram",
+      "album": "Theethiriyaai [From \"Brahmastra (Tamil)\"]",
+      "popularity": 63,
+      "tempo": 94.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.595,
+      "valence": 0.403,
+      "danceability": 0.562,
+      "acousticness": 0.715,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.031,
+      "duration_ms": 278377,
+      "slug": "theethiriyaai-from-brahmastra-tamil-pritam"
+    },
+    {
+      "name": "Tera chehra unplugged",
+      "artists": "Nitin Shukla",
+      "album": "Tera chehra unplugged",
+      "popularity": 63,
+      "tempo": 70.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.076,
+      "valence": 0.502,
+      "danceability": 0.417,
+      "acousticness": 0.958,
+      "instrumentalness": 0.0,
+      "loudness": -18.5,
+      "speechiness": 0.032,
+      "duration_ms": 74615,
+      "slug": "tera-chehra-unplugged-nitin-shukla"
+    },
+    {
+      "name": "Ae Dil Hai Mushkil Title Track (From \"Ae Dil Hai Mushkil\")",
+      "artists": "Pritam;Arijit Singh",
+      "album": "Ae Dil Hai Mushkil Title Track (From \"Ae Dil Hai Mushkil\")",
+      "popularity": 63,
+      "tempo": 123.9,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.35,
+      "danceability": 0.495,
+      "acousticness": 0.713,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.068,
+      "duration_ms": 269032,
+      "slug": "ae-dil-hai-mushkil-title-track-from-ae-dil-hai-mushkil-pritam"
+    }
+  ]
+}

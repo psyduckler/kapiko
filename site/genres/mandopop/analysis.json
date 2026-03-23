@@ -1,0 +1,2802 @@
+{
+  "genre": "Mandopop",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 73.963,
+    "max": 200.173,
+    "mean": 131.479,
+    "median": 135.978,
+    "q1": 120.858,
+    "q3": 145.948,
+    "histogram": {
+      "70-79": 7,
+      "80-89": 4,
+      "90-99": 7,
+      "100-109": 3,
+      "110-119": 4,
+      "120-129": 10,
+      "130-139": 32,
+      "140-149": 13,
+      "150-159": 6,
+      "160-169": 7,
+      "170-179": 4,
+      "180-189": 2,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "A#/Bb": 12,
+    "A": 11,
+    "C": 10,
+    "G#/Ab": 9,
+    "G": 9,
+    "E": 8,
+    "D": 8,
+    "B": 8,
+    "D#/Eb": 7,
+    "C#/Db": 6,
+    "F#/Gb": 6,
+    "F": 6
+  },
+  "mode_distribution": {
+    "Major": 78,
+    "Minor": 22
+  },
+  "key_mode_distribution": {
+    "A#/Bb Major": 12,
+    "C Major": 9,
+    "A Major": 8,
+    "D#/Eb Major": 7,
+    "G#/Ab Major": 7,
+    "D Major": 7,
+    "E Major": 7,
+    "G Major": 6,
+    "B Major": 5,
+    "C#/Db Major": 4,
+    "A Minor": 3,
+    "F#/Gb Major": 3,
+    "B Minor": 3,
+    "G Minor": 3,
+    "F Minor": 3,
+    "F#/Gb Minor": 3,
+    "F Major": 3,
+    "G#/Ab Minor": 2,
+    "C#/Db Minor": 2,
+    "E Minor": 1,
+    "D Minor": 1,
+    "C Minor": 1
+  },
+  "energy": {
+    "min": 0.103,
+    "max": 0.926,
+    "mean": 0.527,
+    "median": 0.512,
+    "q1": 0.436,
+    "q3": 0.641
+  },
+  "valence": {
+    "min": 0.115,
+    "max": 0.822,
+    "mean": 0.338,
+    "median": 0.29,
+    "q1": 0.21,
+    "q3": 0.43
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.54,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.35
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.293
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.166
+    },
+    {
+      "energy": 0.477,
+      "valence": 0.535
+    },
+    {
+      "energy": 0.201,
+      "valence": 0.267
+    },
+    {
+      "energy": 0.391,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.43,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.567,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.103,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.297,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.736
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.448
+    },
+    {
+      "energy": 0.549,
+      "valence": 0.115
+    },
+    {
+      "energy": 0.698,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.702,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.646,
+      "valence": 0.208
+    },
+    {
+      "energy": 0.271,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.923,
+      "valence": 0.498
+    },
+    {
+      "energy": 0.53,
+      "valence": 0.136
+    },
+    {
+      "energy": 0.58,
+      "valence": 0.23
+    },
+    {
+      "energy": 0.233,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.253
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.182
+    },
+    {
+      "energy": 0.487,
+      "valence": 0.28
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.269
+    },
+    {
+      "energy": 0.453,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.445,
+      "valence": 0.213
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.353
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.182
+    },
+    {
+      "energy": 0.497,
+      "valence": 0.312
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.492
+    },
+    {
+      "energy": 0.49,
+      "valence": 0.126
+    },
+    {
+      "energy": 0.462,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.424,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.499,
+      "valence": 0.17
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.203
+    },
+    {
+      "energy": 0.668,
+      "valence": 0.238
+    },
+    {
+      "energy": 0.36,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.445
+    },
+    {
+      "energy": 0.795,
+      "valence": 0.332
+    },
+    {
+      "energy": 0.617,
+      "valence": 0.3
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.149
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.298
+    },
+    {
+      "energy": 0.402,
+      "valence": 0.124
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.438
+    },
+    {
+      "energy": 0.405,
+      "valence": 0.309
+    },
+    {
+      "energy": 0.297,
+      "valence": 0.125
+    },
+    {
+      "energy": 0.326,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.403,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.503,
+      "valence": 0.787
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.516,
+      "valence": 0.283
+    },
+    {
+      "energy": 0.436,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.497,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.649,
+      "valence": 0.6
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.205
+    },
+    {
+      "energy": 0.363,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.926,
+      "valence": 0.822
+    },
+    {
+      "energy": 0.48,
+      "valence": 0.729
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.397
+    },
+    {
+      "energy": 0.602,
+      "valence": 0.225
+    },
+    {
+      "energy": 0.476,
+      "valence": 0.365
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.409
+    },
+    {
+      "energy": 0.296,
+      "valence": 0.157
+    },
+    {
+      "energy": 0.432,
+      "valence": 0.186
+    },
+    {
+      "energy": 0.474,
+      "valence": 0.182
+    },
+    {
+      "energy": 0.469,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.516
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.203
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.627,
+      "valence": 0.371
+    },
+    {
+      "energy": 0.383,
+      "valence": 0.332
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.792
+    },
+    {
+      "energy": 0.507,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.683,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.252
+    },
+    {
+      "energy": 0.359,
+      "valence": 0.165
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.275
+    },
+    {
+      "energy": 0.521,
+      "valence": 0.142
+    },
+    {
+      "energy": 0.391,
+      "valence": 0.283
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.501
+    },
+    {
+      "energy": 0.55,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.441,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.646,
+      "valence": 0.135
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.316,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.309,
+      "valence": 0.155
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.736
+    }
+  ],
+  "acousticness": {
+    "min": 0.002,
+    "max": 0.959,
+    "mean": 0.485,
+    "median": 0.532,
+    "q1": 0.263,
+    "q3": 0.738
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.059,
+    "mean": 0.001,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.769,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.63,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.643,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.873,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.856,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.624,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.276,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.959,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.775,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.212,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.192,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.573,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.4,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.154,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.753,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.319,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.501,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.841,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.696,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.785,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.786,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.578,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.156,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.104,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.671,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.322,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.63,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.617,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.849,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.865,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.4,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.728,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.525,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.75,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.382,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.773,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.674,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.613,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.751,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.768,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.692,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.948,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.32,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.728,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.4,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.738,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.285,
+      "instrumentalness": 0.059
+    },
+    {
+      "acousticness": 0.286,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.53,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.376,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.436,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.739,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.226,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.653,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.399,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.67,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.753,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.388,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.251,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.603,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.556,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.714,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.581,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.764,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.345,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.534,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.19,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.595,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.333,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.755,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.484,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.571,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.415,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.502,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.69,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.876,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.738,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.762,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 156747,
+    "max": 357093,
+    "mean": 259685.59,
+    "median": 259486.5,
+    "q1": 236133,
+    "q3": 287026
+  },
+  "danceability": {
+    "min": 0.24,
+    "max": 0.779,
+    "mean": 0.535,
+    "median": 0.534,
+    "q1": 0.473,
+    "q3": 0.615
+  },
+  "loudness": {
+    "min": -13.383,
+    "max": -2.386,
+    "mean": -7.145,
+    "median": -6.929,
+    "q1": -8.016,
+    "q3": -5.702
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.23,
+    "mean": 0.039,
+    "median": 0.033,
+    "q1": 0.029,
+    "q3": 0.038
+  },
+  "top_artists": [
+    {
+      "name": "Jay Chou",
+      "count": 18
+    },
+    {
+      "name": "Eric Chou",
+      "count": 9
+    },
+    {
+      "name": "G.E.M.",
+      "count": 9
+    },
+    {
+      "name": "JJ Lin",
+      "count": 7
+    },
+    {
+      "name": "\u544a\u4e94\u4eba",
+      "count": 6
+    },
+    {
+      "name": "\u9ad8\u723e\u5ba3 OSN",
+      "count": 4
+    },
+    {
+      "name": "EggPlantEgg",
+      "count": 3
+    },
+    {
+      "name": "Cyndi Wang",
+      "count": 3
+    },
+    {
+      "name": "Stefanie Sun",
+      "count": 3
+    },
+    {
+      "name": "Eason Chan",
+      "count": 2
+    },
+    {
+      "name": "Tanya Chua",
+      "count": 2
+    },
+    {
+      "name": "Vicky Chen",
+      "count": 2
+    },
+    {
+      "name": "Mayday",
+      "count": 2
+    },
+    {
+      "name": "WeiBird",
+      "count": 1
+    },
+    {
+      "name": "Crowd Lu",
+      "count": 1
+    }
+  ],
+  "tracks": [
+    {
+      "name": "\u5982\u679c\u53ef\u4ee5 - \u96fb\u5f71\"\u6708\u8001\"\u4e3b\u984c\u66f2",
+      "artists": "WeiBird",
+      "album": "\u5982\u679c\u53ef\u4ee5 (\u96fb\u5f71\"\u6708\u8001\"\u4e3b\u984c\u66f2)",
+      "popularity": 71,
+      "tempo": 75.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.54,
+      "valence": 0.372,
+      "danceability": 0.54,
+      "acousticness": 0.241,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.029,
+      "duration_ms": 274400,
+      "slug": "\u5982\u679c\u53ef\u4ee5-\u96fb\u5f71\u6708\u8001\u4e3b\u984c\u66f2-weibird"
+    },
+    {
+      "name": "\u6700\u5f8c\u4e00\u5802\u8ab2 - \u300a\u5abd,\u5225\u9b27\u4e86!\u300b\u5f71\u96c6\u7247\u5c3e\u66f2",
+      "artists": "Eric Chou",
+      "album": "\u6700\u5f8c\u4e00\u5802\u8ab2 (\u300a\u5abd,\u5225\u9b27\u4e86!\u300b\u5f71\u96c6\u7247\u5c3e\u66f2)",
+      "popularity": 67,
+      "tempo": 74.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.35,
+      "danceability": 0.55,
+      "acousticness": 0.769,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.027,
+      "duration_ms": 278914,
+      "slug": "\u6700\u5f8c\u4e00\u5802\u8ab2-\u5abd\u5225\u9b27\u4e86\u5f71\u96c6\u7247\u5c3e\u66f2-eric-chou"
+    },
+    {
+      "name": "\u5b64\u52c7\u8005 - \u300a\u82f1\u96c4\u806f\u76df:\u96d9\u57ce\u4e4b\u6230\u300b\u52d5\u756b\u5287\u96c6\u4e2d\u6587\u4e3b\u984c\u66f2",
+      "artists": "Eason Chan",
+      "album": "\u5b64\u52c7\u8005 (\u300a\u82f1\u96c4\u806f\u76df:\u96d9\u57ce\u4e4b\u6230\u300b\u52d5\u756b\u5287\u96c6\u4e2d\u6587\u4e3b\u984c\u66f2)",
+      "popularity": 67,
+      "tempo": 130.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.535,
+      "valence": 0.293,
+      "danceability": 0.615,
+      "acousticness": 0.63,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.032,
+      "duration_ms": 256000,
+      "slug": "\u5b64\u52c7\u8005-\u82f1\u96c4\u806f\u76df\u96d9\u57ce\u4e4b\u6230\u52d5\u756b\u5287\u96c6\u4e2d\u6587\u4e3b\u984c\u66f2-eason-chan"
+    },
+    {
+      "name": "\u95a3\u611b\u59b3\u4e00\u64fa",
+      "artists": "EggPlantEgg",
+      "album": "\u95a3\u611b\u59b3\u4e00\u64fa",
+      "popularity": 66,
+      "tempo": 133.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.78,
+      "valence": 0.557,
+      "danceability": 0.552,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.048,
+      "duration_ms": 278010,
+      "slug": "\u95a3\u611b\u59b3\u4e00\u64fa-eggplantegg"
+    },
+    {
+      "name": "\u597d\u4e0d\u5bb9\u6613 (\u300a\u83ef\u71c8\u521d\u4e0a\u300b\u7247\u5c3e\u66f2)",
+      "artists": "\u544a\u4e94\u4eba",
+      "album": "\u597d\u4e0d\u5bb9\u6613",
+      "popularity": 65,
+      "tempo": 173.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.543,
+      "valence": 0.166,
+      "danceability": 0.382,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.035,
+      "duration_ms": 295466,
+      "slug": "\u597d\u4e0d\u5bb9\u6613-\u83ef\u71c8\u521d\u4e0a\u7247\u5c3e\u66f2-\u544a\u4e94\u4eba"
+    },
+    {
+      "name": "\u4f60,\u597d\u4e0d\u597d? - TVBS\u9023\u7e8c\u5287\u3010\u907a\u61be\u62fc\u5716\u3011\u7247\u5c3e\u66f2",
+      "artists": "Eric Chou",
+      "album": "\u611b,\u6559\u6703\u6211\u5011\u7684\u4e8b",
+      "popularity": 65,
+      "tempo": 159.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.477,
+      "valence": 0.535,
+      "danceability": 0.439,
+      "acousticness": 0.643,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.031,
+      "duration_ms": 287306,
+      "slug": "\u4f60\u597d\u4e0d\u597d-tvbs\u9023\u7e8c\u5287\u907a\u61be\u62fc\u5716\u7247\u5c3e\u66f2-eric-chou"
+    },
+    {
+      "name": "\u523b\u5728\u6211\u5fc3\u5e95\u7684\u540d\u5b57 (Your Name Engraved Herein) - \u96fb\u5f71<\u523b\u5728\u4f60\u5fc3\u5e95\u7684\u540d\u5b57>\u4e3b\u984c\u66f2",
+      "artists": "Crowd Lu",
+      "album": "\u523b\u5728\u6211\u5fc3\u5e95\u7684\u540d\u5b57 (Your Name Engraved Herein)",
+      "popularity": 65,
+      "tempo": 136.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.201,
+      "valence": 0.267,
+      "danceability": 0.425,
+      "acousticness": 0.873,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.037,
+      "duration_ms": 320165,
+      "slug": "\u523b\u5728\u6211\u5fc3\u5e95\u7684\u540d\u5b57-your-name-engraved-herein-\u96fb\u5f71\u523b\u5728\u4f60\u5fc3\u5e95\u7684\u540d\u5b57\u4e3b\u984c\u66f2-crowd-lu"
+    },
+    {
+      "name": "\u4f60\u4e0d\u5c6c\u65bc\u6211 - \u300a\u6bd4\u60b2\u50b7\u66f4\u60b2\u50b7\u7684\u6545\u4e8b\u300b\u5f71\u96c6\u7248\u7247\u5c3e\u66f2",
+      "artists": "Eric Chou",
+      "album": "\u4f60\u4e0d\u5c6c\u65bc\u6211 (\u300a\u6bd4\u60b2\u50b7\u66f4\u60b2\u50b7\u7684\u6545\u4e8b\u300b\u5f71\u96c6\u7248\u7247\u5c3e\u66f2)",
+      "popularity": 65,
+      "tempo": 75.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.391,
+      "valence": 0.284,
+      "danceability": 0.358,
+      "acousticness": 0.856,
+      "instrumentalness": 0.002,
+      "loudness": -9.0,
+      "speechiness": 0.032,
+      "duration_ms": 322266,
+      "slug": "\u4f60\u4e0d\u5c6c\u65bc\u6211-\u6bd4\u60b2\u50b7\u66f4\u60b2\u50b7\u7684\u6545\u4e8b\u5f71\u96c6\u7248\u7247\u5c3e\u66f2-eric-chou"
+    },
+    {
+      "name": "\u6c38\u4e0d\u5931\u806f\u7684\u611b",
+      "artists": "Eric Chou",
+      "album": "\u5982\u679c\u96e8\u4e4b\u5f8c",
+      "popularity": 64,
+      "tempo": 169.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.43,
+      "valence": 0.531,
+      "danceability": 0.289,
+      "acousticness": 0.624,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.033,
+      "duration_ms": 259600,
+      "slug": "\u6c38\u4e0d\u5931\u806f\u7684\u611b-eric-chou"
+    },
+    {
+      "name": "\u6674\u5929",
+      "artists": "Jay Chou",
+      "album": "\u8449\u60e0\u7f8e",
+      "popularity": 64,
+      "tempo": 137.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.567,
+      "valence": 0.399,
+      "danceability": 0.547,
+      "acousticness": 0.276,
+      "instrumentalness": 0.001,
+      "loudness": -7.3,
+      "speechiness": 0.024,
+      "duration_ms": 269746,
+      "slug": "\u6674\u5929-jay-chou"
+    },
+    {
+      "name": "\u552f\u4e00 (\u4e09\u7acb/\u53f0\u8996\u6232\u5287\u300a\u6200\u611b\u662f\u79d1\u5b78\u300b\u63d2\u66f2)",
+      "artists": "\u544a\u4e94\u4eba",
+      "album": "\u904b\u6c23\u4f86\u5f97\u82e5\u6709\u4f3c\u7121",
+      "popularity": 64,
+      "tempo": 140.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.103,
+      "valence": 0.21,
+      "danceability": 0.485,
+      "acousticness": 0.959,
+      "instrumentalness": 0.0,
+      "loudness": -13.4,
+      "speechiness": 0.037,
+      "duration_ms": 270760,
+      "slug": "\u552f\u4e00-\u4e09\u7acb\u53f0\u8996\u6232\u5287\u6200\u611b\u662f\u79d1\u5b78\u63d2\u66f2-\u544a\u4e94\u4eba"
+    },
+    {
+      "name": "\u5c0f\u60c5\u6b4c",
+      "artists": "Sodagreen",
+      "album": "\u5c0f\u5b87\u5b99",
+      "popularity": 64,
+      "tempo": 132.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.272,
+      "danceability": 0.527,
+      "acousticness": 0.775,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.031,
+      "duration_ms": 273573,
+      "slug": "\u5c0f\u60c5\u6b4c-sodagreen"
+    },
+    {
+      "name": "\u60f3\u77e5\u9053\u4f60\u5728\u60f3\u4ec0\u9ebc - \u300a\u6211\u5403\u4e86\u90a3\u7537\u5b69\u4e00\u6574\u5e74\u7684\u65e9\u9910\u300b\u96fb\u5f71\u4e3b\u984c\u66f2",
+      "artists": "Eric Chou",
+      "album": "\u60f3\u77e5\u9053\u4f60\u5728\u60f3\u4ec0\u9ebc (\u300a\u6211\u5403\u4e86\u90a3\u7537\u5b69\u4e00\u6574\u5e74\u7684\u65e9\u9910\u300b\u96fb\u5f71\u4e3b\u984c\u66f2)",
+      "popularity": 64,
+      "tempo": 90.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.297,
+      "valence": 0.243,
+      "danceability": 0.455,
+      "acousticness": 0.212,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.026,
+      "duration_ms": 294026,
+      "slug": "\u60f3\u77e5\u9053\u4f60\u5728\u60f3\u4ec0\u9ebc-\u6211\u5403\u4e86\u90a3\u7537\u5b69\u4e00\u6574\u5e74\u7684\u65e9\u9910\u96fb\u5f71\u4e3b\u984c\u66f2-eric-chou"
+    },
+    {
+      "name": "\u611b\u60c5\u4f60\u6bd4\u6211\u60f3\u7684\u95a3\u8f03\u5049\u5927 -\u300a\u7576\u7537\u4eba\u6200\u611b\u6642\u300b\u96fb\u5f71\u4e3b\u984c\u66f2",
+      "artists": "EggPlantEgg",
+      "album": "\u611b\u60c5\u4f60\u6bd4\u6211\u60f3\u7684\u95a3\u8f03\u5049\u5927 -\u300a\u7576\u7537\u4eba\u6200\u611b\u6642\u300b\u96fb\u5f71\u4e3b\u984c\u66f2",
+      "popularity": 64,
+      "tempo": 150.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.736,
+      "danceability": 0.665,
+      "acousticness": 0.002,
+      "instrumentalness": 0.001,
+      "loudness": -6.9,
+      "speechiness": 0.072,
+      "duration_ms": 232400,
+      "slug": "\u611b\u60c5\u4f60\u6bd4\u6211\u60f3\u7684\u95a3\u8f03\u5049\u5927-\u7576\u7537\u4eba\u6200\u611b\u6642\u96fb\u5f71\u4e3b\u984c\u66f2-eggplantegg"
+    },
+    {
+      "name": "\u544a\u767d\u6c23\u7403",
+      "artists": "Jay Chou",
+      "album": "\u5468\u6770\u502b\u7684\u5e8a\u908a\u6545\u4e8b",
+      "popularity": 63,
+      "tempo": 180.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.572,
+      "valence": 0.448,
+      "danceability": 0.59,
+      "acousticness": 0.192,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.038,
+      "duration_ms": 215146,
+      "slug": "\u544a\u767d\u6c23\u7403-jay-chou"
+    },
+    {
+      "name": "\u9084\u5728\u6d41\u6d6a",
+      "artists": "Jay Chou",
+      "album": "\u6700\u5049\u5927\u7684\u4f5c\u54c1",
+      "popularity": 63,
+      "tempo": 166.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.549,
+      "valence": 0.115,
+      "danceability": 0.624,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.033,
+      "duration_ms": 265813,
+      "slug": "\u9084\u5728\u6d41\u6d6a-jay-chou"
+    },
+    {
+      "name": "Without You",
+      "artists": "\u9ad8\u723e\u5ba3 OSN",
+      "album": "#osnrap",
+      "popularity": 63,
+      "tempo": 80.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.698,
+      "valence": 0.286,
+      "danceability": 0.669,
+      "acousticness": 0.573,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.091,
+      "duration_ms": 175500,
+      "slug": "without-you-\u9ad8\u723e\u5ba3-osn"
+    },
+    {
+      "name": "\u60f3\u898b\u4f60\u60f3\u898b\u4f60\u60f3\u898b\u4f60(\u96fb\u8996\u5287\"\u60f3\u898b\u4f60\"\u7247\u5c3e\u66f2)",
+      "artists": "831",
+      "album": "\u60f3\u898b\u4f60\u60f3\u898b\u4f60\u60f3\u898b\u4f60(\u96fb\u8996\u5287\"\u60f3\u898b\u4f60\"\u7247\u5c3e\u66f2)",
+      "popularity": 63,
+      "tempo": 129.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.43,
+      "danceability": 0.547,
+      "acousticness": 0.4,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.039,
+      "duration_ms": 239794,
+      "slug": "\u60f3\u898b\u4f60\u60f3\u898b\u4f60\u60f3\u898b\u4f60\u96fb\u8996\u5287\u60f3\u898b\u4f60\u7247\u5c3e\u66f2-831"
+    },
+    {
+      "name": "Letting Go",
+      "artists": "Tanya Chua",
+      "album": "\u8aaa\u5230\u611b",
+      "popularity": 63,
+      "tempo": 136.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.702,
+      "valence": 0.408,
+      "danceability": 0.536,
+      "acousticness": 0.154,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.029,
+      "duration_ms": 263453,
+      "slug": "letting-go-tanya-chua"
+    },
+    {
+      "name": "\u7576\u4f60",
+      "artists": "Cyndi Wang",
+      "album": "Begin",
+      "popularity": 63,
+      "tempo": 136.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.646,
+      "valence": 0.208,
+      "danceability": 0.638,
+      "acousticness": 0.661,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.032,
+      "duration_ms": 203200,
+      "slug": "\u7576\u4f60-cyndi-wang"
+    },
+    {
+      "name": "\u4e0d\u662f\u56e0\u70ba\u5929\u6c23\u6674\u6717\u624d\u611b\u4f60",
+      "artists": "\u7406\u60f3\u6df7\u86cb",
+      "album": "\u4e0d\u662f\u56e0\u70ba\u5929\u6c23\u6674\u6717\u624d\u611b\u4f60",
+      "popularity": 63,
+      "tempo": 135.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.271,
+      "valence": 0.399,
+      "danceability": 0.507,
+      "acousticness": 0.753,
+      "instrumentalness": 0.0,
+      "loudness": -13.2,
+      "speechiness": 0.035,
+      "duration_ms": 240753,
+      "slug": "\u4e0d\u662f\u56e0\u70ba\u5929\u6c23\u6674\u6717\u624d\u611b\u4f60-\u7406\u60f3\u6df7\u86cb"
+    },
+    {
+      "name": "\u611b\u4eba\u932f\u904e",
+      "artists": "\u544a\u4e94\u4eba",
+      "album": "\u6211\u80af\u5b9a\u5728\u5e7e\u767e\u5e74\u524d\u5c31\u8aaa\u904e\u611b\u4f60",
+      "popularity": 62,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.923,
+      "valence": 0.498,
+      "danceability": 0.549,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.039,
+      "duration_ms": 292074,
+      "slug": "\u611b\u4eba\u932f\u904e-\u544a\u4e94\u4eba"
+    },
+    {
+      "name": "\u591a\u9060\u90fd\u8981\u5728\u4e00\u8d77",
+      "artists": "G.E.M.",
+      "album": "\u65b0\u7684\u5fc3\u8df3",
+      "popularity": 62,
+      "tempo": 135.7,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.53,
+      "valence": 0.136,
+      "danceability": 0.51,
+      "acousticness": 0.319,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.031,
+      "duration_ms": 217720,
+      "slug": "\u591a\u9060\u90fd\u8981\u5728\u4e00\u8d77-gem"
+    },
+    {
+      "name": "\u6700\u5049\u5927\u7684\u4f5c\u54c1",
+      "artists": "Jay Chou",
+      "album": "\u6700\u5049\u5927\u7684\u4f5c\u54c1",
+      "popularity": 62,
+      "tempo": 160.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.58,
+      "valence": 0.23,
+      "danceability": 0.622,
+      "acousticness": 0.501,
+      "instrumentalness": 0.008,
+      "loudness": -7.3,
+      "speechiness": 0.059,
+      "duration_ms": 244046,
+      "slug": "\u6700\u5049\u5927\u7684\u4f5c\u54c1-jay-chou"
+    },
+    {
+      "name": "\u9047\u898b",
+      "artists": "Stefanie Sun",
+      "album": "The Moment",
+      "popularity": 62,
+      "tempo": 91.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.233,
+      "valence": 0.442,
+      "danceability": 0.631,
+      "acousticness": 0.841,
+      "instrumentalness": 0.0,
+      "loudness": -13.0,
+      "speechiness": 0.033,
+      "duration_ms": 209760,
+      "slug": "\u9047\u898b-stefanie-sun"
+    },
+    {
+      "name": "\u600e\u9ebc\u4e86",
+      "artists": "Eric Chou",
+      "album": "\u7d42\u65bc\u4e86\u89e3\u81ea\u7531 (Deluxe)",
+      "popularity": 62,
+      "tempo": 139.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.565,
+      "valence": 0.253,
+      "danceability": 0.502,
+      "acousticness": 0.696,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.036,
+      "duration_ms": 321040,
+      "slug": "\u600e\u9ebc\u4e86-eric-chou"
+    },
+    {
+      "name": "\u5929\u7a7a\u6c92\u6709\u6975\u9650",
+      "artists": "G.E.M.",
+      "album": "\u5553\u793a\u9304",
+      "popularity": 62,
+      "tempo": 133.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.182,
+      "danceability": 0.539,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.039,
+      "duration_ms": 279704,
+      "slug": "\u5929\u7a7a\u6c92\u6709\u6975\u9650-gem"
+    },
+    {
+      "name": "\u90a3\u4e9b\u4f60\u5f88\u5192\u96aa\u7684\u5922",
+      "artists": "JJ Lin",
+      "album": "\u5b78\u4e0d\u6703",
+      "popularity": 62,
+      "tempo": 135.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.487,
+      "valence": 0.28,
+      "danceability": 0.426,
+      "acousticness": 0.785,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.036,
+      "duration_ms": 244470,
+      "slug": "\u90a3\u4e9b\u4f60\u5f88\u5192\u96aa\u7684\u5922-jj-lin"
+    },
+    {
+      "name": "\u6162\u51b7",
+      "artists": "Fish Leong",
+      "album": "\u6211\u597d\u55ce? - \u592a\u967d\u5982\u5e38\u5347\u8d77",
+      "popularity": 62,
+      "tempo": 92.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.471,
+      "valence": 0.269,
+      "danceability": 0.521,
+      "acousticness": 0.786,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.032,
+      "duration_ms": 289604,
+      "slug": "\u6162\u51b7-fish-leong"
+    },
+    {
+      "name": "\u62ab\u661f\u6234\u6708\u7684\u60f3\u4f60",
+      "artists": "\u544a\u4e94\u4eba",
+      "album": "\u6211\u80af\u5b9a\u5728\u5e7e\u767e\u5e74\u524d\u5c31\u8aaa\u904e\u611b\u4f60",
+      "popularity": 62,
+      "tempo": 100.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.453,
+      "valence": 0.351,
+      "danceability": 0.692,
+      "acousticness": 0.263,
+      "instrumentalness": 0.001,
+      "loudness": -7.1,
+      "speechiness": 0.03,
+      "duration_ms": 349773,
+      "slug": "\u62ab\u661f\u6234\u6708\u7684\u60f3\u4f60-\u544a\u4e94\u4eba"
+    },
+    {
+      "name": "\u646f\u53cb",
+      "artists": "A-Lin",
+      "album": "LINK",
+      "popularity": 62,
+      "tempo": 138.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.445,
+      "valence": 0.213,
+      "danceability": 0.315,
+      "acousticness": 0.578,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.029,
+      "duration_ms": 318938,
+      "slug": "\u646f\u53cb-a-lin"
+    },
+    {
+      "name": "I'm Alive",
+      "artists": "W.M.L;Vicky Chen",
+      "album": "I'm Alive",
+      "popularity": 62,
+      "tempo": 137.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.862,
+      "valence": 0.24,
+      "danceability": 0.636,
+      "acousticness": 0.156,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.046,
+      "duration_ms": 172282,
+      "slug": "im-alive-wml"
+    },
+    {
+      "name": "\u611b\u4e0a\u4f60\u7b97\u6211\u8ce4",
+      "artists": "NICKTHEREAL",
+      "album": "REAL LIFE",
+      "popularity": 62,
+      "tempo": 164.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.738,
+      "valence": 0.353,
+      "danceability": 0.478,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.041,
+      "duration_ms": 250941,
+      "slug": "\u611b\u4e0a\u4f60\u7b97\u6211\u8ce4-nickthereal"
+    },
+    {
+      "name": "\u7d42\u7a76\u9084\u662f\u56e0\u70ba\u611b",
+      "artists": "TRASH",
+      "album": "Holy Trip!",
+      "popularity": 62,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.182,
+      "danceability": 0.552,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.059,
+      "duration_ms": 285222,
+      "slug": "\u7d42\u7a76\u9084\u662f\u56e0\u70ba\u611b-trash"
+    },
+    {
+      "name": "\u7099\u611b - \u5973\u8072\u7248",
+      "artists": "Vicky Chen",
+      "album": "Am I Who I Am",
+      "popularity": 62,
+      "tempo": 152.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.497,
+      "valence": 0.312,
+      "danceability": 0.407,
+      "acousticness": 0.263,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.036,
+      "duration_ms": 181184,
+      "slug": "\u7099\u611b-\u5973\u8072\u7248-vicky-chen"
+    },
+    {
+      "name": "\u7d05\u8272\u9ad8\u8ddf\u978b",
+      "artists": "Tanya Chua",
+      "album": "\u82e5\u4f60\u78b0\u5230\u4ed6",
+      "popularity": 61,
+      "tempo": 176.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.659,
+      "valence": 0.492,
+      "danceability": 0.476,
+      "acousticness": 0.104,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.025,
+      "duration_ms": 206586,
+      "slug": "\u7d05\u8272\u9ad8\u8ddf\u978b-tanya-chua"
+    },
+    {
+      "name": "\u64f1\u6dfa",
+      "artists": "Jay Chou",
+      "album": "\u4e03\u91cc\u9999",
+      "popularity": 61,
+      "tempo": 122.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.49,
+      "valence": 0.126,
+      "danceability": 0.497,
+      "acousticness": 0.671,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.028,
+      "duration_ms": 236133,
+      "slug": "\u64f1\u6dfa-jay-chou"
+    },
+    {
+      "name": "\u5e74\u5c11\u6709\u70ba",
+      "artists": "Ronghao Li",
+      "album": "\u8033\u6735",
+      "popularity": 61,
+      "tempo": 131.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.462,
+      "valence": 0.289,
+      "danceability": 0.518,
+      "acousticness": 0.322,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.028,
+      "duration_ms": 279146,
+      "slug": "\u5e74\u5c11\u6709\u70ba-ronghao-li"
+    },
+    {
+      "name": "\u4fee\u7149\u611b\u60c5",
+      "artists": "JJ Lin",
+      "album": "\u56e0\u4f60 \u800c\u5728",
+      "popularity": 61,
+      "tempo": 135.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.648,
+      "valence": 0.239,
+      "danceability": 0.471,
+      "acousticness": 0.63,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.034,
+      "duration_ms": 287000,
+      "slug": "\u4fee\u7149\u611b\u60c5-jj-lin"
+    },
+    {
+      "name": "\u53ef\u60dc\u6c92\u5982\u679c",
+      "artists": "JJ Lin",
+      "album": "\u65b0\u5730\u7403",
+      "popularity": 61,
+      "tempo": 80.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.424,
+      "valence": 0.286,
+      "danceability": 0.486,
+      "acousticness": 0.617,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.026,
+      "duration_ms": 298293,
+      "slug": "\u53ef\u60dc\u6c92\u5982\u679c-jj-lin"
+    },
+    {
+      "name": "\u624b\u5fc3\u7684\u8594\u8587",
+      "artists": "JJ Lin;G.E.M.",
+      "album": "\u65b0\u5730\u7403",
+      "popularity": 61,
+      "tempo": 86.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.499,
+      "valence": 0.17,
+      "danceability": 0.422,
+      "acousticness": 0.849,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.028,
+      "duration_ms": 280053,
+      "slug": "\u624b\u5fc3\u7684\u8594\u8587-jj-lin"
+    },
+    {
+      "name": "\u5341\u5e74",
+      "artists": "Eason Chan",
+      "album": "\u9ed1\u00b7\u767d\u00b7\u7070",
+      "popularity": 61,
+      "tempo": 124.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.468,
+      "valence": 0.203,
+      "danceability": 0.6,
+      "acousticness": 0.865,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.034,
+      "duration_ms": 205423,
+      "slug": "\u5341\u5e74-eason-chan"
+    },
+    {
+      "name": "\u5149\u5e74\u4e4b\u5916 (\u96fb\u5f71 \u300aPassengers\u300b \u4e2d\u570b\u5340\u4e3b\u984c\u66f2)",
+      "artists": "G.E.M.",
+      "album": "\u5149\u5e74\u4e4b\u5916 (\u96fb\u5f71 \u300aPassengers\u300b \u4e2d\u570b\u5340\u4e3b\u984c\u66f2)",
+      "popularity": 61,
+      "tempo": 175.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.668,
+      "valence": 0.238,
+      "danceability": 0.539,
+      "acousticness": 0.4,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.083,
+      "duration_ms": 235505,
+      "slug": "\u5149\u5e74\u4e4b\u5916-\u96fb\u5f71-passengers-\u4e2d\u570b\u5340\u4e3b\u984c\u66f2-gem"
+    },
+    {
+      "name": "\u4ee5\u5f8c\u5225\u505a\u670b\u53cb",
+      "artists": "Eric Chou",
+      "album": "\u5b78\u8457\u611b",
+      "popularity": 61,
+      "tempo": 130.6,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.36,
+      "valence": 0.291,
+      "danceability": 0.423,
+      "acousticness": 0.728,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.037,
+      "duration_ms": 260573,
+      "slug": "\u4ee5\u5f8c\u5225\u505a\u670b\u53cb-eric-chou"
+    },
+    {
+      "name": "\u5982\u679c\u96e8\u4e4b\u5f8c",
+      "artists": "Eric Chou",
+      "album": "\u5982\u679c\u96e8\u4e4b\u5f8c",
+      "popularity": 61,
+      "tempo": 136.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.534,
+      "valence": 0.445,
+      "danceability": 0.315,
+      "acousticness": 0.525,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.033,
+      "duration_ms": 281200,
+      "slug": "\u5982\u679c\u96e8\u4e4b\u5f8c-eric-chou"
+    },
+    {
+      "name": "\u611f\u8c22\u4f60\u66fe\u6765\u8fc7",
+      "artists": "\u963f\u6db5;Ayo97",
+      "album": "\u611f\u8c22\u4f60\u66fe\u6765\u8fc7",
+      "popularity": 61,
+      "tempo": 160.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.795,
+      "valence": 0.332,
+      "danceability": 0.481,
+      "acousticness": 0.078,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.041,
+      "duration_ms": 250005,
+      "slug": "\u611f\u8c22\u4f60\u66fe\u6765\u8fc7-\u963f\u6db5"
+    },
+    {
+      "name": "\u4e00\u8def\u5411\u5317",
+      "artists": "Jay Chou",
+      "album": "11\u6708\u7684\u856d\u90a6",
+      "popularity": 60,
+      "tempo": 133.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.617,
+      "valence": 0.3,
+      "danceability": 0.456,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.027,
+      "duration_ms": 294240,
+      "slug": "\u4e00\u8def\u5411\u5317-jay-chou"
+    },
+    {
+      "name": "\u5c0f\u5e78\u904b",
+      "artists": "Hebe Tien",
+      "album": "\u5c0f\u5e78\u904b",
+      "popularity": 60,
+      "tempo": 157.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.412,
+      "valence": 0.506,
+      "danceability": 0.519,
+      "acousticness": 0.75,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.036,
+      "duration_ms": 265521,
+      "slug": "\u5c0f\u5e78\u904b-hebe-tien"
+    },
+    {
+      "name": "\u4e03\u91cc\u9999",
+      "artists": "Jay Chou",
+      "album": "\u4e03\u91cc\u9999",
+      "popularity": 60,
+      "tempo": 142.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.576,
+      "valence": 0.49,
+      "danceability": 0.483,
+      "acousticness": 0.382,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.028,
+      "duration_ms": 295306,
+      "slug": "\u4e03\u91cc\u9999-jay-chou"
+    },
+    {
+      "name": "\u73ca\u745a\u6d77",
+      "artists": "Jay Chou;Lara Liang",
+      "album": "11\u6708\u7684\u856d\u90a6",
+      "popularity": 60,
+      "tempo": 146.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.565,
+      "valence": 0.149,
+      "danceability": 0.459,
+      "acousticness": 0.773,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.027,
+      "duration_ms": 254320,
+      "slug": "\u73ca\u745a\u6d77-jay-chou"
+    },
+    {
+      "name": "\u7d05\u984f\u5982\u971c",
+      "artists": "Jay Chou",
+      "album": "\u6700\u5049\u5927\u7684\u4f5c\u54c1",
+      "popularity": 60,
+      "tempo": 140.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.599,
+      "valence": 0.298,
+      "danceability": 0.704,
+      "acousticness": 0.674,
+      "instrumentalness": 0.001,
+      "loudness": -8.9,
+      "speechiness": 0.035,
+      "duration_ms": 257105,
+      "slug": "\u7d05\u984f\u5982\u971c-jay-chou"
+    },
+    {
+      "name": "\u5b89\u975c",
+      "artists": "Jay Chou",
+      "album": "\u8303\u7279\u897f",
+      "popularity": 60,
+      "tempo": 143.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.402,
+      "valence": 0.124,
+      "danceability": 0.507,
+      "acousticness": 0.613,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.028,
+      "duration_ms": 334240,
+      "slug": "\u5b89\u975c-jay-chou"
+    },
+    {
+      "name": "\u4e0d\u5f97\u4e0d\u611b",
+      "artists": "Will Pan;Xian Zi",
+      "album": "\u9ad8\u624b",
+      "popularity": 60,
+      "tempo": 80.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.438,
+      "danceability": 0.719,
+      "acousticness": 0.751,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.094,
+      "duration_ms": 281413,
+      "slug": "\u4e0d\u5f97\u4e0d\u611b-will-pan"
+    },
+    {
+      "name": "\u7ae5\u8a71",
+      "artists": "Michael Wong",
+      "album": "\u5341\u5149\u5e74\u7cbe\u9078\u8f2f",
+      "popularity": 60,
+      "tempo": 136.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.405,
+      "valence": 0.309,
+      "danceability": 0.54,
+      "acousticness": 0.768,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.027,
+      "duration_ms": 246000,
+      "slug": "\u7ae5\u8a71-michael-wong"
+    },
+    {
+      "name": "\u5728\u9019\u5ea7\u57ce\u5e02\u907a\u5931\u4e86\u4f60 (\u6232\u5287\u300a\u4ed6\u5011\u5275\u696d\u7684\u90a3\u4e9b\u9ce5\u4e8b\u300b\u63d2\u66f2)",
+      "artists": "\u544a\u4e94\u4eba",
+      "album": "\u904b\u6c23\u4f86\u5f97\u82e5\u6709\u4f3c\u7121",
+      "popularity": 60,
+      "tempo": 180.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.297,
+      "valence": 0.125,
+      "danceability": 0.46,
+      "acousticness": 0.692,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.031,
+      "duration_ms": 357093,
+      "slug": "\u5728\u9019\u5ea7\u57ce\u5e02\u907a\u5931\u4e86\u4f60-\u6232\u5287\u4ed6\u5011\u5275\u696d\u7684\u90a3\u4e9b\u9ce5\u4e8b\u63d2\u66f2-\u544a\u4e94\u4eba"
+    },
+    {
+      "name": "\u5979\u8aaa",
+      "artists": "JJ Lin",
+      "album": "\u5979\u8aaa",
+      "popularity": 60,
+      "tempo": 169.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.326,
+      "valence": 0.326,
+      "danceability": 0.335,
+      "acousticness": 0.948,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.033,
+      "duration_ms": 318499,
+      "slug": "\u5979\u8aaa-jj-lin"
+    },
+    {
+      "name": "\u6ce1\u6cab",
+      "artists": "G.E.M.",
+      "album": "Xposed",
+      "popularity": 60,
+      "tempo": 136.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.403,
+      "valence": 0.162,
+      "danceability": 0.551,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.031,
+      "duration_ms": 258865,
+      "slug": "\u6ce1\u6cab-gem"
+    },
+    {
+      "name": "Somebody Else",
+      "artists": "\u9ad8\u723e\u5ba3 OSN",
+      "album": "Somebody Else",
+      "popularity": 60,
+      "tempo": 114.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.503,
+      "valence": 0.787,
+      "danceability": 0.779,
+      "acousticness": 0.32,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.054,
+      "duration_ms": 169584,
+      "slug": "somebody-else-\u9ad8\u723e\u5ba3-osn"
+    },
+    {
+      "name": "\u5931\u91cd\u524d\u5e78\u798f",
+      "artists": "\u827e\u8587",
+      "album": "I",
+      "popularity": 60,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.473,
+      "valence": 0.227,
+      "danceability": 0.647,
+      "acousticness": 0.728,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.035,
+      "duration_ms": 220962,
+      "slug": "\u5931\u91cd\u524d\u5e78\u798f-\u827e\u8587"
+    },
+    {
+      "name": "\u58de\u4eba",
+      "artists": "Abin Fang",
+      "album": "\u597d\u4ebaAbin \u65b9\u70af\u944c\u9996\u5f35\u500b\u4eba\u5275\u4f5c\u5c08\u8f2f",
+      "popularity": 60,
+      "tempo": 99.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.516,
+      "valence": 0.283,
+      "danceability": 0.462,
+      "acousticness": 0.4,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.037,
+      "duration_ms": 300093,
+      "slug": "\u58de\u4eba-abin-fang"
+    },
+    {
+      "name": "\u7fd2\u6163\u4e0d\u7fd2\u6163",
+      "artists": "\u7406\u60f3\u6df7\u86cb \u96de\u4e01",
+      "album": "\u5e95\u7247\u88e1\u7684\u590f\u5361\u723e",
+      "popularity": 60,
+      "tempo": 129.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.436,
+      "valence": 0.426,
+      "danceability": 0.403,
+      "acousticness": 0.738,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.037,
+      "duration_ms": 300215,
+      "slug": "\u7fd2\u6163\u4e0d\u7fd2\u6163-\u7406\u60f3\u6df7\u86cb-\u96de\u4e01"
+    },
+    {
+      "name": "\u9752\u82b1\u74f7",
+      "artists": "Jay Chou",
+      "album": "\u6211\u5f88\u5fd9",
+      "popularity": 59,
+      "tempo": 108.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.497,
+      "valence": 0.543,
+      "danceability": 0.689,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.025,
+      "duration_ms": 237346,
+      "slug": "\u9752\u82b1\u74f7-jay-chou"
+    },
+    {
+      "name": "\u591c\u66f2",
+      "artists": "Jay Chou",
+      "album": "11\u6708\u7684\u856d\u90a6",
+      "popularity": 59,
+      "tempo": 87.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.649,
+      "valence": 0.6,
+      "danceability": 0.674,
+      "acousticness": 0.285,
+      "instrumentalness": 0.059,
+      "loudness": -5.9,
+      "speechiness": 0.045,
+      "duration_ms": 226773,
+      "slug": "\u591c\u66f2-jay-chou"
+    },
+    {
+      "name": "\u7a3b\u9999",
+      "artists": "Jay Chou",
+      "album": "\u9b54\u6770\u5ea7",
+      "popularity": 59,
+      "tempo": 164.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.626,
+      "valence": 0.205,
+      "danceability": 0.67,
+      "acousticness": 0.286,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.063,
+      "duration_ms": 223453,
+      "slug": "\u7a3b\u9999-jay-chou"
+    },
+    {
+      "name": "\u8aaa\u597d\u4e0d\u54ed",
+      "artists": "Jay Chou;Ashin Chen",
+      "album": "\u6700\u5049\u5927\u7684\u4f5c\u54c1",
+      "popularity": 59,
+      "tempo": 151.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.363,
+      "valence": 0.383,
+      "danceability": 0.513,
+      "acousticness": 0.53,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.031,
+      "duration_ms": 220693,
+      "slug": "\u8aaa\u597d\u4e0d\u54ed-jay-chou"
+    },
+    {
+      "name": "\u611b\u4f60",
+      "artists": "Cyndi Wang",
+      "album": "\u611b\u4f60",
+      "popularity": 59,
+      "tempo": 200.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.926,
+      "valence": 0.822,
+      "danceability": 0.607,
+      "acousticness": 0.376,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.23,
+      "duration_ms": 219626,
+      "slug": "\u611b\u4f60-cyndi-wang"
+    },
+    {
+      "name": "\u60c5\u975e\u5f97\u5df2",
+      "artists": "Harlem Yu",
+      "album": "\u6d77\u562f",
+      "popularity": 59,
+      "tempo": 106.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.48,
+      "valence": 0.729,
+      "danceability": 0.686,
+      "acousticness": 0.436,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.024,
+      "duration_ms": 273960,
+      "slug": "\u60c5\u975e\u5f97\u5df2-harlem-yu"
+    },
+    {
+      "name": "\u6211\u7684\u79d8\u5bc6 (MySecret)",
+      "artists": "G.E.M.",
+      "album": "MySecret",
+      "popularity": 59,
+      "tempo": 104.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.741,
+      "valence": 0.397,
+      "danceability": 0.563,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.031,
+      "duration_ms": 248486,
+      "slug": "\u6211\u7684\u79d8\u5bc6-mysecret-gem"
+    },
+    {
+      "name": "\u5f8c\u4f86\u7684\u6211\u5011",
+      "artists": "Mayday",
+      "album": "\u81ea\u50b3",
+      "popularity": 59,
+      "tempo": 78.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.602,
+      "valence": 0.225,
+      "danceability": 0.488,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.028,
+      "duration_ms": 346282,
+      "slug": "\u5f8c\u4f86\u7684\u6211\u5011-mayday"
+    },
+    {
+      "name": "\u7576\u4f60",
+      "artists": "JJ Lin",
+      "album": "\u5979\u8aaa",
+      "popularity": 59,
+      "tempo": 134.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.476,
+      "valence": 0.365,
+      "danceability": 0.651,
+      "acousticness": 0.739,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.028,
+      "duration_ms": 249248,
+      "slug": "\u7576\u4f60-jj-lin"
+    },
+    {
+      "name": "\u7a81\u7136\u597d\u60f3\u4f60",
+      "artists": "Mayday",
+      "album": "\u5f8c \u9752\u6625\u671f\u7684\u8a69",
+      "popularity": 59,
+      "tempo": 140.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.409,
+      "danceability": 0.462,
+      "acousticness": 0.226,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.026,
+      "duration_ms": 265866,
+      "slug": "\u7a81\u7136\u597d\u60f3\u4f60-mayday"
+    },
+    {
+      "name": "\u4f60\u4e0d\u662f\u7b2c\u4e00\u500b\u96e2\u958b\u7684\u4eba",
+      "artists": "G.E.M.",
+      "album": "\u4f60\u4e0d\u662f\u7b2c\u4e00\u500b\u96e2\u958b\u7684\u4eba",
+      "popularity": 59,
+      "tempo": 81.3,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.296,
+      "valence": 0.157,
+      "danceability": 0.327,
+      "acousticness": 0.653,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.038,
+      "duration_ms": 200287,
+      "slug": "\u4f60\u4e0d\u662f\u7b2c\u4e00\u500b\u96e2\u958b\u7684\u4eba-gem"
+    },
+    {
+      "name": "\u6f14\u54e1",
+      "artists": "Joker Xue",
+      "album": "\u521d\u5b78\u8005",
+      "popularity": 59,
+      "tempo": 182.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.432,
+      "valence": 0.186,
+      "danceability": 0.53,
+      "acousticness": 0.399,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.047,
+      "duration_ms": 261249,
+      "slug": "\u6f14\u54e1-joker-xue"
+    },
+    {
+      "name": "\u5f88\u4e45\u4ee5\u5f8c - \u96fb\u5f71\u300a\u53ef\u4e0d\u53ef\u4ee5,\u4f60\u4e5f\u525b\u597d\u559c\u6b61\u6211\u300b\u4e3b\u984c\u66f2",
+      "artists": "G.E.M.",
+      "album": "\u6469\u5929\u52d5\u7269\u5712",
+      "popularity": 59,
+      "tempo": 145.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.474,
+      "valence": 0.182,
+      "danceability": 0.459,
+      "acousticness": 0.67,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.034,
+      "duration_ms": 290264,
+      "slug": "\u5f88\u4e45\u4ee5\u5f8c-\u96fb\u5f71\u53ef\u4e0d\u53ef\u4ee5\u4f60\u4e5f\u525b\u597d\u559c\u6b61\u6211\u4e3b\u984c\u66f2-gem"
+    },
+    {
+      "name": "\u96e2\u958b\u4f60\u4ee5\u5f8c - \u96fb\u5f71\u300a\u4f60\u7684\u5a5a\u79ae\u300b\u63d2\u66f2",
+      "artists": "Eric Chou",
+      "album": "\u96e2\u958b\u4f60\u4ee5\u5f8c (\u96fb\u5f71\u300a\u4f60\u7684\u5a5a\u79ae\u300b\u63d2\u66f2)",
+      "popularity": 59,
+      "tempo": 155.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.469,
+      "valence": 0.24,
+      "danceability": 0.24,
+      "acousticness": 0.753,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.036,
+      "duration_ms": 309840,
+      "slug": "\u96e2\u958b\u4f60\u4ee5\u5f8c-\u96fb\u5f71\u4f60\u7684\u5a5a\u79ae\u63d2\u66f2-eric-chou"
+    },
+    {
+      "name": "500\u5929",
+      "artists": "Sophie Chen",
+      "album": "500\u5929",
+      "popularity": 59,
+      "tempo": 138.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.516,
+      "danceability": 0.595,
+      "acousticness": 0.388,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.034,
+      "duration_ms": 240217,
+      "slug": "500\u5929-sophie-chen"
+    },
+    {
+      "name": "\u6d6a\u5b50\u56de\u982d",
+      "artists": "EggPlantEgg",
+      "album": "\u5361\u901a\u4eba\u7269",
+      "popularity": 59,
+      "tempo": 129.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.203,
+      "danceability": 0.473,
+      "acousticness": 0.251,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.048,
+      "duration_ms": 259373,
+      "slug": "\u6d6a\u5b50\u56de\u982d-eggplantegg"
+    },
+    {
+      "name": "Drowning",
+      "artists": "\u9ad8\u723e\u5ba3 OSN;\u674e\u6d69\u744b Howard Lee",
+      "album": "Drowning",
+      "popularity": 59,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.519,
+      "valence": 0.761,
+      "danceability": 0.728,
+      "acousticness": 0.603,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.038,
+      "duration_ms": 156747,
+      "slug": "drowning-\u9ad8\u723e\u5ba3-osn"
+    },
+    {
+      "name": "\u8aaa\u6563\u5c31\u6563",
+      "artists": "JC \u9673\u8a60\u6850",
+      "album": "Album 1",
+      "popularity": 59,
+      "tempo": 139.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.627,
+      "valence": 0.371,
+      "danceability": 0.507,
+      "acousticness": 0.556,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.125,
+      "duration_ms": 230571,
+      "slug": "\u8aaa\u6563\u5c31\u6563-jc-\u9673\u8a60\u6850"
+    },
+    {
+      "name": "\u771f\u7684\u50bb (\u96fb\u5f71\u300a\u4e00\u543b\u5b9a\u60c5\u300b\u8ffd\u611b\u7248\u4e3b\u984c\u66f2)",
+      "artists": "LaLa Hsu",
+      "album": "\u771f\u7684\u50bb (\u96fb\u5f71\u300a\u4e00\u543b\u5b9a\u60c5\u300b\u8ffd\u611b\u7248\u4e3b\u984c\u66f2)",
+      "popularity": 59,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.383,
+      "valence": 0.332,
+      "danceability": 0.522,
+      "acousticness": 0.714,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.029,
+      "duration_ms": 256000,
+      "slug": "\u771f\u7684\u50bb-\u96fb\u5f71\u4e00\u543b\u5b9a\u60c5\u8ffd\u611b\u7248\u4e3b\u984c\u66f2-lala-hsu"
+    },
+    {
+      "name": "\u7d66\u4f60\u4e00\u74f6\u9b54\u6cd5\u85e5\u6c34",
+      "artists": "\u544a\u4e94\u4eba",
+      "album": "\u73ab\u7470\u6191\u8b49",
+      "popularity": 58,
+      "tempo": 99.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.8,
+      "valence": 0.792,
+      "danceability": 0.643,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.037,
+      "duration_ms": 258786,
+      "slug": "\u7d66\u4f60\u4e00\u74f6\u9b54\u6cd5\u85e5\u6c34-\u544a\u4e94\u4eba"
+    },
+    {
+      "name": "\u84b2\u516c\u82f1\u7684\u7d04\u5b9a",
+      "artists": "Jay Chou",
+      "album": "\u6211\u5f88\u5fd9",
+      "popularity": 58,
+      "tempo": 136.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.507,
+      "valence": 0.15,
+      "danceability": 0.569,
+      "acousticness": 0.128,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.024,
+      "duration_ms": 245200,
+      "slug": "\u84b2\u516c\u82f1\u7684\u7d04\u5b9a-jay-chou"
+    },
+    {
+      "name": "\u4f86\u81ea\u5929\u5802\u7684\u9b54\u9b3c",
+      "artists": "G.E.M.",
+      "album": "\u65b0\u7684\u5fc3\u8df3",
+      "popularity": 58,
+      "tempo": 136.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.7,
+      "valence": 0.302,
+      "danceability": 0.595,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.03,
+      "duration_ms": 245493,
+      "slug": "\u4f86\u81ea\u5929\u5802\u7684\u9b54\u9b3c-gem"
+    },
+    {
+      "name": "\u60e1\u4f5c\u5287",
+      "artists": "Tangerine Wong",
+      "album": "\u60e1\u4f5c\u5287\u4e4b\u543b",
+      "popularity": 58,
+      "tempo": 136.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.683,
+      "valence": 0.676,
+      "danceability": 0.684,
+      "acousticness": 0.581,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.028,
+      "duration_ms": 226773,
+      "slug": "\u60e1\u4f5c\u5287-tangerine-wong"
+    },
+    {
+      "name": "\u6953",
+      "artists": "Jay Chou",
+      "album": "11\u6708\u7684\u856d\u90a6",
+      "popularity": 58,
+      "tempo": 134.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.435,
+      "valence": 0.145,
+      "danceability": 0.502,
+      "acousticness": 0.76,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.029,
+      "duration_ms": 275026,
+      "slug": "\u6953-jay-chou"
+    },
+    {
+      "name": "\u5927\u7720",
+      "artists": "Cyndi Wang",
+      "album": "CYNDILOVES2SING \u611b\u3002\u5fc3\u51cc",
+      "popularity": 58,
+      "tempo": 136.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.233,
+      "danceability": 0.567,
+      "acousticness": 0.764,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.045,
+      "duration_ms": 239555,
+      "slug": "\u5927\u7720-cyndi-wang"
+    },
+    {
+      "name": "\u8aaa\u597d\u7684\u5e78\u798f\u5462",
+      "artists": "Jay Chou",
+      "album": "\u9b54\u6770\u5ea7",
+      "popularity": 58,
+      "tempo": 117.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.473,
+      "valence": 0.24,
+      "danceability": 0.543,
+      "acousticness": 0.345,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.028,
+      "duration_ms": 254720,
+      "slug": "\u8aaa\u597d\u7684\u5e78\u798f\u5462-jay-chou"
+    },
+    {
+      "name": "\u4e0d\u70ba\u8ab0\u800c\u4f5c\u7684\u6b4c",
+      "artists": "JJ Lin",
+      "album": "\"\u548c\u81ea\u5df1\u5c0d\u8a71\" \u5be6\u9a57\u5c08\u8f2f",
+      "popularity": 58,
+      "tempo": 145.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.641,
+      "valence": 0.252,
+      "danceability": 0.402,
+      "acousticness": 0.534,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.034,
+      "duration_ms": 265800,
+      "slug": "\u4e0d\u70ba\u8ab0\u800c\u4f5c\u7684\u6b4c-jj-lin"
+    },
+    {
+      "name": "\u6700\u9577\u7684\u96fb\u5f71",
+      "artists": "Jay Chou",
+      "album": "\u6211\u5f88\u5fd9",
+      "popularity": 58,
+      "tempo": 120.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.359,
+      "valence": 0.165,
+      "danceability": 0.533,
+      "acousticness": 0.19,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.031,
+      "duration_ms": 235840,
+      "slug": "\u6700\u9577\u7684\u96fb\u5f71-jay-chou"
+    },
+    {
+      "name": "\u4e0b\u96e8\u5929",
+      "artists": "Nan Quan Mama",
+      "album": "\u512a\u7684\u826f\u66f2\u5357\u641e\u5c0f\u5b69",
+      "popularity": 58,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.275,
+      "danceability": 0.526,
+      "acousticness": 0.595,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.029,
+      "duration_ms": 253080,
+      "slug": "\u4e0b\u96e8\u5929-nan-quan-mama"
+    },
+    {
+      "name": "\u611b\u4f60",
+      "artists": "Kimberley Chen",
+      "album": "Kimberley\u9996\u5f20\u540c\u540d\u4e13\u8f91",
+      "popularity": 58,
+      "tempo": 144.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.521,
+      "valence": 0.142,
+      "danceability": 0.552,
+      "acousticness": 0.333,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.029,
+      "duration_ms": 207840,
+      "slug": "\u611b\u4f60-kimberley-chen"
+    },
+    {
+      "name": "\u6211\u61f7\u5ff5\u7684",
+      "artists": "Stefanie Sun",
+      "album": "\u9006\u5149",
+      "popularity": 58,
+      "tempo": 140.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.391,
+      "valence": 0.283,
+      "danceability": 0.434,
+      "acousticness": 0.755,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.034,
+      "duration_ms": 289066,
+      "slug": "\u6211\u61f7\u5ff5\u7684-stefanie-sun"
+    },
+    {
+      "name": "\u8d77\u98ce\u4e86 - \u7535\u89c6\u5267\"\u52a0\u6cb9\u4f60\u662f\u6700\u68d2\u7684\"\u4e3b\u9898\u66f2",
+      "artists": "\u5433\u9752\u5cf0",
+      "album": "\u8d77\u98ce\u4e86 (\u7535\u89c6\u5267\"\u52a0\u6cb9\u4f60\u662f\u6700\u68d2\u7684\"\u4e3b\u9898\u66f2)",
+      "popularity": 58,
+      "tempo": 74.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.396,
+      "valence": 0.501,
+      "danceability": 0.548,
+      "acousticness": 0.484,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.026,
+      "duration_ms": 313565,
+      "slug": "\u8d77\u98ce\u4e86-\u7535\u89c6\u5267\u52a0\u6cb9\u4f60\u662f\u6700\u68d2\u7684\u4e3b\u9898\u66f2-\u5433\u9752\u5cf0"
+    },
+    {
+      "name": "\u5c31\u662f\u611b\u59b3",
+      "artists": "David Tao",
+      "album": "\u592a\u5e73\u76db\u4e16",
+      "popularity": 58,
+      "tempo": 148.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.55,
+      "valence": 0.543,
+      "danceability": 0.607,
+      "acousticness": 0.571,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.025,
+      "duration_ms": 261906,
+      "slug": "\u5c31\u662f\u611b\u59b3-david-tao"
+    },
+    {
+      "name": "\u958b\u59cb\u61c2\u4e86",
+      "artists": "Stefanie Sun;Jerry;Lin Zheng-Zhong",
+      "album": "\u6211\u8981\u7684\u5e78\u798f",
+      "popularity": 58,
+      "tempo": 117.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.441,
+      "valence": 0.15,
+      "danceability": 0.638,
+      "acousticness": 0.415,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.029,
+      "duration_ms": 271493,
+      "slug": "\u958b\u59cb\u61c2\u4e86-stefanie-sun"
+    },
+    {
+      "name": "\u6211\u5011\u7684\u611b",
+      "artists": "F.I.R.",
+      "album": "\u98db\u5152\u6a02\u5718",
+      "popularity": 58,
+      "tempo": 136.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.646,
+      "valence": 0.135,
+      "danceability": 0.509,
+      "acousticness": 0.502,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.03,
+      "duration_ms": 287026,
+      "slug": "\u6211\u5011\u7684\u611b-fir"
+    },
+    {
+      "name": "\u5f8c\u4f86",
+      "artists": "Rene Liu",
+      "album": "\u6211\u7b49\u4f60",
+      "popularity": 58,
+      "tempo": 149.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.5,
+      "valence": 0.375,
+      "danceability": 0.677,
+      "acousticness": 0.69,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.026,
+      "duration_ms": 341400,
+      "slug": "\u5f8c\u4f86-rene-liu"
+    },
+    {
+      "name": "\u6162\u6162\u559c\u6b61\u4f60",
+      "artists": "Karen Mok",
+      "album": "\u6211\u5011\u5728\u4e2d\u5834\u76f8\u9047",
+      "popularity": 58,
+      "tempo": 130.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.316,
+      "valence": 0.375,
+      "danceability": 0.601,
+      "acousticness": 0.876,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.036,
+      "duration_ms": 221447,
+      "slug": "\u6162\u6162\u559c\u6b61\u4f60-karen-mok"
+    },
+    {
+      "name": "\u963f\u62c9\u65af\u52a0\u6d77\u6e7e",
+      "artists": "Priscilla Abby",
+      "album": "\u963f\u62c9\u65af\u52a0\u6d77\u6e7e",
+      "popularity": 58,
+      "tempo": 117.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.309,
+      "valence": 0.155,
+      "danceability": 0.63,
+      "acousticness": 0.738,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.035,
+      "duration_ms": 237840,
+      "slug": "\u963f\u62c9\u65af\u52a0\u6d77\u6e7e-priscilla-abby"
+    },
+    {
+      "name": "Why You Gonna Lie",
+      "artists": "\u9ad8\u723e\u5ba3 OSN",
+      "album": "#osnrap",
+      "popularity": 58,
+      "tempo": 90.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.736,
+      "danceability": 0.768,
+      "acousticness": 0.762,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.105,
+      "duration_ms": 174000,
+      "slug": "why-you-gonna-lie-\u9ad8\u723e\u5ba3-osn"
+    }
+  ]
+}

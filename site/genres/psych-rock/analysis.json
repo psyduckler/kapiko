@@ -1,0 +1,2800 @@
+{
+  "genre": "Psych-Rock",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 65.09,
+    "max": 176.625,
+    "mean": 121.063,
+    "median": 120.23,
+    "q1": 104.522,
+    "q3": 137.831,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 5,
+      "80-89": 5,
+      "90-99": 8,
+      "100-109": 10,
+      "110-119": 19,
+      "120-129": 20,
+      "130-139": 13,
+      "140-149": 9,
+      "150-159": 2,
+      "160-169": 4,
+      "170-179": 4
+    }
+  },
+  "key_distribution": {
+    "A": 16,
+    "D": 16,
+    "C": 16,
+    "E": 13,
+    "C#/Db": 7,
+    "G": 7,
+    "B": 7,
+    "F": 5,
+    "A#/Bb": 5,
+    "F#/Gb": 4,
+    "G#/Ab": 2,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 69,
+    "Minor": 31
+  },
+  "key_mode_distribution": {
+    "C Major": 16,
+    "D Major": 15,
+    "A Major": 10,
+    "E Minor": 7,
+    "G Major": 6,
+    "A Minor": 6,
+    "B Minor": 6,
+    "E Major": 6,
+    "F Major": 5,
+    "C#/Db Minor": 5,
+    "A#/Bb Major": 4,
+    "F#/Gb Minor": 3,
+    "G#/Ab Major": 2,
+    "C#/Db Major": 2,
+    "D#/Eb Major": 1,
+    "D#/Eb Minor": 1,
+    "F#/Gb Major": 1,
+    "A#/Bb Minor": 1,
+    "D Minor": 1,
+    "G Minor": 1,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.127,
+    "max": 0.92,
+    "mean": 0.568,
+    "median": 0.575,
+    "q1": 0.403,
+    "q3": 0.728
+  },
+  "valence": {
+    "min": 0.04,
+    "max": 0.975,
+    "mean": 0.584,
+    "median": 0.607,
+    "q1": 0.415,
+    "q3": 0.78
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.54,
+      "valence": 0.394
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.822
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.262,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.403,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.376,
+      "valence": 0.187
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.367,
+      "valence": 0.588
+    },
+    {
+      "energy": 0.394,
+      "valence": 0.721
+    },
+    {
+      "energy": 0.179,
+      "valence": 0.315
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.171
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.127,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.532
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.467,
+      "valence": 0.764
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.318,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.766
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.322
+    },
+    {
+      "energy": 0.338,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.866
+    },
+    {
+      "energy": 0.313,
+      "valence": 0.349
+    },
+    {
+      "energy": 0.751,
+      "valence": 0.789
+    },
+    {
+      "energy": 0.854,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.629,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.48,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.373,
+      "valence": 0.253
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.975
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.635,
+      "valence": 0.927
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.44
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.633,
+      "valence": 0.895
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.911
+    },
+    {
+      "energy": 0.594,
+      "valence": 0.734
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.815
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.624,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.654
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.463,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.768,
+      "valence": 0.532
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.354,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.759
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.647
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.813
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.801
+    },
+    {
+      "energy": 0.302,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.301,
+      "valence": 0.621
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.289,
+      "valence": 0.733
+    },
+    {
+      "energy": 0.331,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.325,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.448
+    },
+    {
+      "energy": 0.159,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.483,
+      "valence": 0.173
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.744
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.205,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.487,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.645,
+      "valence": 0.836
+    },
+    {
+      "energy": 0.294,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.351,
+      "valence": 0.451
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.443
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.797
+    },
+    {
+      "energy": 0.92,
+      "valence": 0.225
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.971
+    },
+    {
+      "energy": 0.267,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.516,
+      "valence": 0.371
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.78
+    },
+    {
+      "energy": 0.754,
+      "valence": 0.642
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.48,
+      "valence": 0.762
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.936,
+    "mean": 0.338,
+    "median": 0.267,
+    "q1": 0.142,
+    "q3": 0.521
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.881,
+    "mean": 0.083,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.013
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.021
+    },
+    {
+      "acousticness": 0.352,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.735,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.631,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.248
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.55,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.879,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.185
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.641,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.15,
+      "instrumentalness": 0.312
+    },
+    {
+      "acousticness": 0.449,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.754,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.297
+    },
+    {
+      "acousticness": 0.707,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.365,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.25,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.685,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.537
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.225
+    },
+    {
+      "acousticness": 0.683,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.133,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.486,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.386,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.791,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.2,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.718,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.521,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.389,
+      "instrumentalness": 0.728
+    },
+    {
+      "acousticness": 0.232,
+      "instrumentalness": 0.064
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.369,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.336,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.578
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.856
+    },
+    {
+      "acousticness": 0.385,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.411,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.579,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.183,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.38
+    },
+    {
+      "acousticness": 0.218,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.795,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.256,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.144,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.424,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.336,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.142,
+      "instrumentalness": 0.28
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.836,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.568,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.64,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.477,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.914,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.465,
+      "instrumentalness": 0.497
+    },
+    {
+      "acousticness": 0.386,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.504,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.896,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.253,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.055,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.772,
+      "instrumentalness": 0.686
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.516,
+      "instrumentalness": 0.819
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.028
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.881
+    },
+    {
+      "acousticness": 0.137,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.301,
+      "instrumentalness": 0.27
+    },
+    {
+      "acousticness": 0.27,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.744,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.202,
+      "instrumentalness": 0.193
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.61,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.28,
+      "instrumentalness": 0.001
+    }
+  ],
+  "duration": {
+    "min": 124693,
+    "max": 811077,
+    "mean": 231907.99,
+    "median": 209313.0,
+    "q1": 162373,
+    "q3": 271333
+  },
+  "danceability": {
+    "min": 0.195,
+    "max": 0.855,
+    "mean": 0.526,
+    "median": 0.531,
+    "q1": 0.425,
+    "q3": 0.598
+  },
+  "loudness": {
+    "min": -16.729,
+    "max": -2.741,
+    "mean": -9.603,
+    "median": -9.256,
+    "q1": -11.79,
+    "q3": -7.576
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.389,
+    "mean": 0.05,
+    "median": 0.036,
+    "q1": 0.032,
+    "q3": 0.051
+  },
+  "top_artists": [
+    {
+      "name": "The Beatles",
+      "count": 25
+    },
+    {
+      "name": "Pink Floyd",
+      "count": 8
+    },
+    {
+      "name": "The Beach Boys",
+      "count": 6
+    },
+    {
+      "name": "Jimi Hendrix",
+      "count": 5
+    },
+    {
+      "name": "The Doors",
+      "count": 5
+    },
+    {
+      "name": "The Who",
+      "count": 4
+    },
+    {
+      "name": "Steve Miller Band",
+      "count": 4
+    },
+    {
+      "name": "The Mamas & The Papas",
+      "count": 3
+    },
+    {
+      "name": "Steely Dan",
+      "count": 3
+    },
+    {
+      "name": "The Monkees",
+      "count": 2
+    },
+    {
+      "name": "Steppenwolf",
+      "count": 2
+    },
+    {
+      "name": "Deep Purple",
+      "count": 2
+    },
+    {
+      "name": "Lou Reed",
+      "count": 2
+    },
+    {
+      "name": "Jefferson Airplane",
+      "count": 2
+    },
+    {
+      "name": "Cream",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Here Comes The Sun - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "popularity": 82,
+      "tempo": 129.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.54,
+      "valence": 0.394,
+      "danceability": 0.557,
+      "acousticness": 0.034,
+      "instrumentalness": 0.002,
+      "loudness": -10.5,
+      "speechiness": 0.035,
+      "duration_ms": 185733,
+      "slug": "here-comes-the-sun-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Homage",
+      "artists": "Mild High Club",
+      "album": "Skiptracing",
+      "popularity": 78,
+      "tempo": 73.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.415,
+      "danceability": 0.546,
+      "acousticness": 0.153,
+      "instrumentalness": 0.003,
+      "loudness": -8.2,
+      "speechiness": 0.029,
+      "duration_ms": 177493,
+      "slug": "homage-mild-high-club"
+    },
+    {
+      "name": "For What It's Worth",
+      "artists": "Buffalo Springfield",
+      "album": "Buffalo Springfield",
+      "popularity": 78,
+      "tempo": 98.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.822,
+      "danceability": 0.653,
+      "acousticness": 0.406,
+      "instrumentalness": 0.021,
+      "loudness": -10.2,
+      "speechiness": 0.05,
+      "duration_ms": 153693,
+      "slug": "for-what-its-worth-buffalo-springfield"
+    },
+    {
+      "name": "California Dreamin' - Single Version",
+      "artists": "The Mamas & The Papas",
+      "album": "If You Can Believe Your Eyes & Ears",
+      "popularity": 78,
+      "tempo": 112.4,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.608,
+      "valence": 0.637,
+      "danceability": 0.552,
+      "acousticness": 0.352,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.035,
+      "duration_ms": 162373,
+      "slug": "california-dreamin-single-version-the-mamas-the-papas"
+    },
+    {
+      "name": "Wish You Were Here",
+      "artists": "Pink Floyd",
+      "album": "Wish You Were Here",
+      "popularity": 77,
+      "tempo": 122.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.262,
+      "valence": 0.375,
+      "danceability": 0.481,
+      "acousticness": 0.735,
+      "instrumentalness": 0.011,
+      "loudness": -15.7,
+      "speechiness": 0.041,
+      "duration_ms": 334743,
+      "slug": "wish-you-were-here-pink-floyd"
+    },
+    {
+      "name": "Let It Be - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Let It Be (Remastered)",
+      "popularity": 77,
+      "tempo": 143.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.403,
+      "valence": 0.41,
+      "danceability": 0.443,
+      "acousticness": 0.631,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.032,
+      "duration_ms": 243026,
+      "slug": "let-it-be-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Come Together - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "popularity": 77,
+      "tempo": 165.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.376,
+      "valence": 0.187,
+      "danceability": 0.533,
+      "acousticness": 0.03,
+      "instrumentalness": 0.248,
+      "loudness": -11.9,
+      "speechiness": 0.039,
+      "duration_ms": 259946,
+      "slug": "come-together-remastered-2009-the-beatles"
+    },
+    {
+      "name": "All Along the Watchtower",
+      "artists": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "popularity": 77,
+      "tempo": 113.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.564,
+      "danceability": 0.438,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.062,
+      "duration_ms": 240800,
+      "slug": "all-along-the-watchtower-jimi-hendrix"
+    },
+    {
+      "name": "Happy Together",
+      "artists": "The Turtles",
+      "album": "Happy Together",
+      "popularity": 76,
+      "tempo": 120.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.367,
+      "valence": 0.588,
+      "danceability": 0.584,
+      "acousticness": 0.55,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.033,
+      "duration_ms": 176293,
+      "slug": "happy-together-the-turtles"
+    },
+    {
+      "name": "Another Brick in the Wall, Pt. 2",
+      "artists": "Pink Floyd",
+      "album": "The Wall",
+      "popularity": 76,
+      "tempo": 104.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.394,
+      "valence": 0.721,
+      "danceability": 0.693,
+      "acousticness": 0.078,
+      "instrumentalness": 0.001,
+      "loudness": -15.9,
+      "speechiness": 0.043,
+      "duration_ms": 238746,
+      "slug": "another-brick-in-the-wall-pt-2-pink-floyd"
+    },
+    {
+      "name": "Yesterday - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Help! (Remastered)",
+      "popularity": 76,
+      "tempo": 96.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.179,
+      "valence": 0.315,
+      "danceability": 0.332,
+      "acousticness": 0.879,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.033,
+      "duration_ms": 125666,
+      "slug": "yesterday-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Baba O'Riley",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 117.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.724,
+      "valence": 0.15,
+      "danceability": 0.489,
+      "acousticness": 0.313,
+      "instrumentalness": 0.185,
+      "loudness": -8.4,
+      "speechiness": 0.035,
+      "duration_ms": 300400,
+      "slug": "baba-oriley-the-who"
+    },
+    {
+      "name": "House of the Rising Sun",
+      "artists": "The Animals",
+      "album": "The Singles Plus",
+      "popularity": 75,
+      "tempo": 117.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.484,
+      "valence": 0.299,
+      "danceability": 0.316,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -9.1,
+      "speechiness": 0.031,
+      "duration_ms": 269906,
+      "slug": "house-of-the-rising-sun-the-animals"
+    },
+    {
+      "name": "Twist And Shout - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Please Please Me (Remastered)",
+      "popularity": 75,
+      "tempo": 124.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.937,
+      "danceability": 0.482,
+      "acousticness": 0.641,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.045,
+      "duration_ms": 155226,
+      "slug": "twist-and-shout-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Comfortably Numb",
+      "artists": "Pink Floyd",
+      "album": "The Wall",
+      "popularity": 74,
+      "tempo": 127.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.366,
+      "valence": 0.171,
+      "danceability": 0.472,
+      "acousticness": 0.15,
+      "instrumentalness": 0.312,
+      "loudness": -12.6,
+      "speechiness": 0.029,
+      "duration_ms": 382296,
+      "slug": "comfortably-numb-pink-floyd"
+    },
+    {
+      "name": "In My Life - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Rubber Soul (Remastered)",
+      "popularity": 74,
+      "tempo": 103.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.435,
+      "valence": 0.435,
+      "danceability": 0.688,
+      "acousticness": 0.449,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.032,
+      "duration_ms": 146333,
+      "slug": "in-my-life-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Blackbird - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles (Remastered)",
+      "popularity": 74,
+      "tempo": 93.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.127,
+      "valence": 0.372,
+      "danceability": 0.686,
+      "acousticness": 0.754,
+      "instrumentalness": 0.0,
+      "loudness": -14.4,
+      "speechiness": 0.034,
+      "duration_ms": 138386,
+      "slug": "blackbird-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Hey Jude - Remastered 2015",
+      "artists": "The Beatles",
+      "album": "1 (Remastered)",
+      "popularity": 74,
+      "tempo": 147.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.607,
+      "valence": 0.532,
+      "danceability": 0.386,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.026,
+      "duration_ms": 425653,
+      "slug": "hey-jude-remastered-2015-the-beatles"
+    },
+    {
+      "name": "Layla",
+      "artists": "Derek & The Dominos",
+      "album": "Layla And Other Assorted Love Songs (Remastered 2010)",
+      "popularity": 74,
+      "tempo": 115.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.497,
+      "danceability": 0.404,
+      "acousticness": 0.577,
+      "instrumentalness": 0.297,
+      "loudness": -3.9,
+      "speechiness": 0.067,
+      "duration_ms": 423840,
+      "slug": "layla-derek-the-dominos"
+    },
+    {
+      "name": "I'm a Believer - 2006 Remaster",
+      "artists": "The Monkees",
+      "album": "More of The Monkees (Deluxe Edition)",
+      "popularity": 74,
+      "tempo": 80.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.775,
+      "valence": 0.962,
+      "danceability": 0.526,
+      "acousticness": 0.707,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.035,
+      "duration_ms": 167373,
+      "slug": "im-a-believer-2006-remaster-the-monkees"
+    },
+    {
+      "name": "The Joker",
+      "artists": "Steve Miller Band",
+      "album": "The Joker",
+      "popularity": 74,
+      "tempo": 83.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.448,
+      "valence": 0.796,
+      "danceability": 0.596,
+      "acousticness": 0.365,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.04,
+      "duration_ms": 264503,
+      "slug": "the-joker-steve-miller-band"
+    },
+    {
+      "name": "Money",
+      "artists": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "popularity": 73,
+      "tempo": 126.3,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.536,
+      "valence": 0.785,
+      "danceability": 0.468,
+      "acousticness": 0.024,
+      "instrumentalness": 0.002,
+      "loudness": -10.4,
+      "speechiness": 0.144,
+      "duration_ms": 382834,
+      "slug": "money-pink-floyd"
+    },
+    {
+      "name": "Riders on the Storm",
+      "artists": "The Doors",
+      "album": "L.A. Woman",
+      "popularity": 73,
+      "tempo": 103.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.722,
+      "valence": 0.716,
+      "danceability": 0.55,
+      "acousticness": 0.25,
+      "instrumentalness": 0.013,
+      "loudness": -11.7,
+      "speechiness": 0.028,
+      "duration_ms": 434720,
+      "slug": "riders-on-the-storm-the-doors"
+    },
+    {
+      "name": "People Are Strange",
+      "artists": "The Doors",
+      "album": "Strange Days",
+      "popularity": 73,
+      "tempo": 119.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.467,
+      "valence": 0.764,
+      "danceability": 0.699,
+      "acousticness": 0.685,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.037,
+      "duration_ms": 130173,
+      "slug": "people-are-strange-the-doors"
+    },
+    {
+      "name": "Born To Be Wild",
+      "artists": "Steppenwolf",
+      "album": "Steppenwolf",
+      "popularity": 73,
+      "tempo": 145.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.71,
+      "valence": 0.53,
+      "danceability": 0.438,
+      "acousticness": 0.262,
+      "instrumentalness": 0.537,
+      "loudness": -12.4,
+      "speechiness": 0.092,
+      "duration_ms": 210373,
+      "slug": "born-to-be-wild-steppenwolf"
+    },
+    {
+      "name": "Smoke On The Water - Remastered 2012",
+      "artists": "Deep Purple",
+      "album": "Machine Head (Remastered)",
+      "popularity": 73,
+      "tempo": 114.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.676,
+      "valence": 0.805,
+      "danceability": 0.598,
+      "acousticness": 0.13,
+      "instrumentalness": 0.225,
+      "loudness": -9.2,
+      "speechiness": 0.028,
+      "duration_ms": 340742,
+      "slug": "smoke-on-the-water-remastered-2012-deep-purple"
+    },
+    {
+      "name": "Walk On the Wild Side",
+      "artists": "Lou Reed",
+      "album": "Transformer",
+      "popularity": 73,
+      "tempo": 104.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.318,
+      "valence": 0.385,
+      "danceability": 0.575,
+      "acousticness": 0.683,
+      "instrumentalness": 0.0,
+      "loudness": -16.7,
+      "speechiness": 0.109,
+      "duration_ms": 254173,
+      "slug": "walk-on-the-wild-side-lou-reed"
+    },
+    {
+      "name": "All Right Now",
+      "artists": "Free",
+      "album": "Fire And Water",
+      "popularity": 73,
+      "tempo": 120.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.472,
+      "valence": 0.824,
+      "danceability": 0.787,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.083,
+      "duration_ms": 330643,
+      "slug": "all-right-now-free"
+    },
+    {
+      "name": "Reelin' In The Years",
+      "artists": "Steely Dan",
+      "album": "Can't Buy A Thrill",
+      "popularity": 73,
+      "tempo": 135.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.766,
+      "danceability": 0.523,
+      "acousticness": 0.133,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.04,
+      "duration_ms": 275466,
+      "slug": "reelin-in-the-years-steely-dan"
+    },
+    {
+      "name": "White Rabbit",
+      "artists": "Jefferson Airplane",
+      "album": "Surrealistic Pillow",
+      "popularity": 72,
+      "tempo": 106.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.293,
+      "valence": 0.322,
+      "danceability": 0.551,
+      "acousticness": 0.486,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.027,
+      "duration_ms": 150640,
+      "slug": "white-rabbit-jefferson-airplane"
+    },
+    {
+      "name": "Something - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "popularity": 72,
+      "tempo": 133.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.338,
+      "valence": 0.377,
+      "danceability": 0.396,
+      "acousticness": 0.198,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.03,
+      "duration_ms": 182293,
+      "slug": "something-remastered-2009-the-beatles"
+    },
+    {
+      "name": "I Want To Hold Your Hand - Remastered 2015",
+      "artists": "The Beatles",
+      "album": "1 (Remastered)",
+      "popularity": 72,
+      "tempo": 130.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.715,
+      "valence": 0.866,
+      "danceability": 0.49,
+      "acousticness": 0.386,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.048,
+      "duration_ms": 145746,
+      "slug": "i-want-to-hold-your-hand-remastered-2015-the-beatles"
+    },
+    {
+      "name": "Dream A Little Dream Of Me",
+      "artists": "The Mamas & The Papas",
+      "album": "The Papas & The Mamas",
+      "popularity": 72,
+      "tempo": 92.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.313,
+      "valence": 0.349,
+      "danceability": 0.413,
+      "acousticness": 0.791,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.052,
+      "duration_ms": 194426,
+      "slug": "dream-a-little-dream-of-me-the-mamas-the-papas"
+    },
+    {
+      "name": "Break on Through (To the Other Side)",
+      "artists": "The Doors",
+      "album": "The Doors",
+      "popularity": 72,
+      "tempo": 89.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.751,
+      "valence": 0.789,
+      "danceability": 0.421,
+      "acousticness": 0.2,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.047,
+      "duration_ms": 145866,
+      "slug": "break-on-through-to-the-other-side-the-doors"
+    },
+    {
+      "name": "Surfin' U.S.A. - Remastered 2001",
+      "artists": "The Beach Boys",
+      "album": "Surfin' USA (Remastered)",
+      "popularity": 72,
+      "tempo": 159.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.854,
+      "valence": 0.965,
+      "danceability": 0.55,
+      "acousticness": 0.661,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.036,
+      "duration_ms": 149373,
+      "slug": "surfin-usa-remastered-2001-the-beach-boys"
+    },
+    {
+      "name": "Wouldn't It Be Nice - Remastered 2000 / Stereo Mix",
+      "artists": "The Beach Boys",
+      "album": "Pet Sounds (Original Mono & Stereo Mix Versions)",
+      "popularity": 72,
+      "tempo": 124.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.629,
+      "valence": 0.72,
+      "danceability": 0.392,
+      "acousticness": 0.718,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.034,
+      "duration_ms": 153205,
+      "slug": "wouldnt-it-be-nice-remastered-2000-stereo-mix-the-beach-boys"
+    },
+    {
+      "name": "Time",
+      "artists": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "popularity": 71,
+      "tempo": 120.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.48,
+      "valence": 0.355,
+      "danceability": 0.359,
+      "acousticness": 0.521,
+      "instrumentalness": 0.004,
+      "loudness": -11.8,
+      "speechiness": 0.084,
+      "duration_ms": 413947,
+      "slug": "time-pink-floyd"
+    },
+    {
+      "name": "Breathe (In the Air)",
+      "artists": "Pink Floyd",
+      "album": "The Dark Side of the Moon",
+      "popularity": 71,
+      "tempo": 128.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.373,
+      "valence": 0.253,
+      "danceability": 0.431,
+      "acousticness": 0.389,
+      "instrumentalness": 0.728,
+      "loudness": -15.1,
+      "speechiness": 0.035,
+      "duration_ms": 169534,
+      "slug": "breathe-in-the-air-pink-floyd"
+    },
+    {
+      "name": "Ob-La-Di, Ob-La-Da - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles (Remastered)",
+      "popularity": 71,
+      "tempo": 113.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.728,
+      "valence": 0.975,
+      "danceability": 0.818,
+      "acousticness": 0.232,
+      "instrumentalness": 0.064,
+      "loudness": -8.3,
+      "speechiness": 0.031,
+      "duration_ms": 188960,
+      "slug": "ob-la-di-ob-la-da-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Behind Blue Eyes",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 126.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.622,
+      "valence": 0.342,
+      "danceability": 0.394,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.034,
+      "duration_ms": 221426,
+      "slug": "behind-blue-eyes-the-who"
+    },
+    {
+      "name": "Kokomo",
+      "artists": "The Beach Boys",
+      "album": "The Very Best Of The Beach Boys: Sounds Of Summer",
+      "popularity": 71,
+      "tempo": 115.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.635,
+      "valence": 0.927,
+      "danceability": 0.682,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.035,
+      "duration_ms": 217692,
+      "slug": "kokomo-the-beach-boys"
+    },
+    {
+      "name": "Light My Fire",
+      "artists": "The Doors",
+      "album": "The Doors",
+      "popularity": 71,
+      "tempo": 124.6,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.725,
+      "valence": 0.44,
+      "danceability": 0.413,
+      "acousticness": 0.369,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.032,
+      "duration_ms": 429760,
+      "slug": "light-my-fire-the-doors"
+    },
+    {
+      "name": "Little Wing",
+      "artists": "Jimi Hendrix",
+      "album": "Axis: Bold As Love",
+      "popularity": 71,
+      "tempo": 70.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.534,
+      "valence": 0.426,
+      "danceability": 0.515,
+      "acousticness": 0.181,
+      "instrumentalness": 0.003,
+      "loudness": -8.0,
+      "speechiness": 0.077,
+      "duration_ms": 145746,
+      "slug": "little-wing-jimi-hendrix"
+    },
+    {
+      "name": "Roadhouse Blues",
+      "artists": "The Doors",
+      "album": "Morrison Hotel",
+      "popularity": 71,
+      "tempo": 121.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.633,
+      "valence": 0.895,
+      "danceability": 0.623,
+      "acousticness": 0.336,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.03,
+      "duration_ms": 243826,
+      "slug": "roadhouse-blues-the-doors"
+    },
+    {
+      "name": "Purple Haze",
+      "artists": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "popularity": 71,
+      "tempo": 108.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.905,
+      "valence": 0.486,
+      "danceability": 0.533,
+      "acousticness": 0.009,
+      "instrumentalness": 0.578,
+      "loudness": -5.3,
+      "speechiness": 0.075,
+      "duration_ms": 170813,
+      "slug": "purple-haze-jimi-hendrix"
+    },
+    {
+      "name": "Get It On",
+      "artists": "T. Rex",
+      "album": "Electric Warrior",
+      "popularity": 71,
+      "tempo": 126.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.878,
+      "valence": 0.911,
+      "danceability": 0.728,
+      "acousticness": 0.176,
+      "instrumentalness": 0.856,
+      "loudness": -6.9,
+      "speechiness": 0.056,
+      "duration_ms": 262613,
+      "slug": "get-it-on-t-rex"
+    },
+    {
+      "name": "Sunshine Of Your Love",
+      "artists": "Cream",
+      "album": "Disraeli Gears (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 115.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.594,
+      "valence": 0.734,
+      "danceability": 0.683,
+      "acousticness": 0.385,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.035,
+      "duration_ms": 250400,
+      "slug": "sunshine-of-your-love-cream"
+    },
+    {
+      "name": "Long Cool Woman (In a Black Dress) - 1999 Remaster",
+      "artists": "The Hollies",
+      "album": "Distant Light (Expanded Edition)",
+      "popularity": 71,
+      "tempo": 138.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.868,
+      "valence": 0.815,
+      "danceability": 0.757,
+      "acousticness": 0.411,
+      "instrumentalness": 0.002,
+      "loudness": -9.3,
+      "speechiness": 0.062,
+      "duration_ms": 199200,
+      "slug": "long-cool-woman-in-a-black-dress-1999-remaster-the-hollies"
+    },
+    {
+      "name": "Good Vibrations - Remastered 2001",
+      "artists": "The Beach Boys",
+      "album": "Smiley Smile (Remastered)",
+      "popularity": 71,
+      "tempo": 133.4,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.473,
+      "valence": 0.385,
+      "danceability": 0.396,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.035,
+      "duration_ms": 219026,
+      "slug": "good-vibrations-remastered-2001-the-beach-boys"
+    },
+    {
+      "name": "Mississippi Queen",
+      "artists": "Mountain",
+      "album": "Climbing!",
+      "popularity": 71,
+      "tempo": 139.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.624,
+      "valence": 0.637,
+      "danceability": 0.581,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.078,
+      "duration_ms": 151293,
+      "slug": "mississippi-queen-mountain"
+    },
+    {
+      "name": "Ooh La La",
+      "artists": "Faces",
+      "album": "Ooh La La",
+      "popularity": 71,
+      "tempo": 148.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.8,
+      "danceability": 0.601,
+      "acousticness": 0.579,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.03,
+      "duration_ms": 214080,
+      "slug": "ooh-la-la-faces"
+    },
+    {
+      "name": "While My Guitar Gently Weeps - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles (Remastered)",
+      "popularity": 70,
+      "tempo": 115.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.702,
+      "danceability": 0.453,
+      "acousticness": 0.021,
+      "instrumentalness": 0.004,
+      "loudness": -8.9,
+      "speechiness": 0.032,
+      "duration_ms": 285000,
+      "slug": "while-my-guitar-gently-weeps-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Rubber Soul (Remastered)",
+      "popularity": 70,
+      "tempo": 176.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.369,
+      "valence": 0.65,
+      "danceability": 0.425,
+      "acousticness": 0.183,
+      "instrumentalness": 0.001,
+      "loudness": -11.9,
+      "speechiness": 0.038,
+      "duration_ms": 124693,
+      "slug": "norwegian-wood-this-bird-has-flown-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Somebody to Love",
+      "artists": "Jefferson Airplane",
+      "album": "Surrealistic Pillow",
+      "popularity": 70,
+      "tempo": 132.4,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.578,
+      "valence": 0.654,
+      "danceability": 0.504,
+      "acousticness": 0.408,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.031,
+      "duration_ms": 174840,
+      "slug": "somebody-to-love-jefferson-airplane"
+    },
+    {
+      "name": "Help! - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Help! (Remastered)",
+      "popularity": 70,
+      "tempo": 95.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.725,
+      "valence": 0.763,
+      "danceability": 0.534,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.033,
+      "duration_ms": 139560,
+      "slug": "help-remastered-2009-the-beatles"
+    },
+    {
+      "name": "White Room",
+      "artists": "Cream",
+      "album": "Wheels Of Fire",
+      "popularity": 70,
+      "tempo": 109.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.576,
+      "valence": 0.457,
+      "danceability": 0.553,
+      "acousticness": 0.191,
+      "instrumentalness": 0.007,
+      "loudness": -13.5,
+      "speechiness": 0.03,
+      "duration_ms": 298333,
+      "slug": "white-room-cream"
+    },
+    {
+      "name": "Me and Bobby McGee",
+      "artists": "Janis Joplin",
+      "album": "Pearl (Legacy Edition)",
+      "popularity": 70,
+      "tempo": 93.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.463,
+      "valence": 0.66,
+      "danceability": 0.43,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.044,
+      "duration_ms": 271333,
+      "slug": "me-and-bobby-mcgee-janis-joplin"
+    },
+    {
+      "name": "Hey Joe",
+      "artists": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "popularity": 70,
+      "tempo": 169.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.768,
+      "valence": 0.532,
+      "danceability": 0.346,
+      "acousticness": 0.006,
+      "instrumentalness": 0.38,
+      "loudness": -5.7,
+      "speechiness": 0.038,
+      "duration_ms": 210160,
+      "slug": "hey-joe-jimi-hendrix"
+    },
+    {
+      "name": "Do It Again",
+      "artists": "Steely Dan",
+      "album": "Can't Buy A Thrill",
+      "popularity": 70,
+      "tempo": 124.6,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.537,
+      "valence": 0.963,
+      "danceability": 0.682,
+      "acousticness": 0.218,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.032,
+      "duration_ms": 356733,
+      "slug": "do-it-again-steely-dan"
+    },
+    {
+      "name": "Dirty Work",
+      "artists": "Steely Dan",
+      "album": "Can't Buy A Thrill",
+      "popularity": 70,
+      "tempo": 73.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.354,
+      "valence": 0.522,
+      "danceability": 0.631,
+      "acousticness": 0.795,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.031,
+      "duration_ms": 187400,
+      "slug": "dirty-work-steely-dan"
+    },
+    {
+      "name": "Do You Believe in Magic?",
+      "artists": "The Lovin' Spoonful",
+      "album": "Do you Believe In Magic",
+      "popularity": 70,
+      "tempo": 138.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.738,
+      "valence": 0.759,
+      "danceability": 0.553,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.046,
+      "duration_ms": 125826,
+      "slug": "do-you-believe-in-magic-the-lovin-spoonful"
+    },
+    {
+      "name": "Daydream Believer",
+      "artists": "The Monkees",
+      "album": "The Birds, The Bees, & The Monkees",
+      "popularity": 70,
+      "tempo": 125.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.649,
+      "danceability": 0.51,
+      "acousticness": 0.256,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.03,
+      "duration_ms": 179613,
+      "slug": "daydream-believer-the-monkees"
+    },
+    {
+      "name": "Some Kind Of Wonderful - Remastered 1999",
+      "artists": "Grand Funk Railroad",
+      "album": "30 Years Of Funk: 1969-1999 The Anthology",
+      "popularity": 70,
+      "tempo": 121.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.691,
+      "valence": 0.647,
+      "danceability": 0.855,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.051,
+      "duration_ms": 202733,
+      "slug": "some-kind-of-wonderful-remastered-1999-grand-funk-railroad"
+    },
+    {
+      "name": "California Dreamin'",
+      "artists": "The Mamas & The Papas",
+      "album": "All The Leaves Are Brown The Golden Era Collection",
+      "popularity": 69,
+      "tempo": 112.3,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.728,
+      "valence": 0.649,
+      "danceability": 0.548,
+      "acousticness": 0.424,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.037,
+      "duration_ms": 160373,
+      "slug": "california-dreamin-the-mamas-the-papas"
+    },
+    {
+      "name": "Strawberry Fields Forever - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Magical Mystery Tour (Remastered)",
+      "popularity": 69,
+      "tempo": 97.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.502,
+      "valence": 0.289,
+      "danceability": 0.39,
+      "acousticness": 0.336,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.178,
+      "duration_ms": 247320,
+      "slug": "strawberry-fields-forever-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Eleanor Rigby - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Revolver (Remastered)",
+      "popularity": 69,
+      "tempo": 137.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.28,
+      "valence": 0.813,
+      "danceability": 0.581,
+      "acousticness": 0.936,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.038,
+      "duration_ms": 126533,
+      "slug": "eleanor-rigby-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Piece of My Heart",
+      "artists": "Big Brother & The Holding Company;Janis Joplin",
+      "album": "Cheap Thrills",
+      "popularity": 69,
+      "tempo": 160.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.727,
+      "valence": 0.566,
+      "danceability": 0.443,
+      "acousticness": 0.263,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.145,
+      "duration_ms": 253333,
+      "slug": "piece-of-my-heart-big-brother-the-holding-company"
+    },
+    {
+      "name": "Magic Carpet Ride",
+      "artists": "Steppenwolf",
+      "album": "The Second",
+      "popularity": 69,
+      "tempo": 111.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.801,
+      "danceability": 0.64,
+      "acousticness": 0.142,
+      "instrumentalness": 0.28,
+      "loudness": -15.0,
+      "speechiness": 0.052,
+      "duration_ms": 271573,
+      "slug": "magic-carpet-ride-steppenwolf"
+    },
+    {
+      "name": "Hey You",
+      "artists": "Pink Floyd",
+      "album": "The Wall",
+      "popularity": 68,
+      "tempo": 112.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.302,
+      "valence": 0.19,
+      "danceability": 0.587,
+      "acousticness": 0.223,
+      "instrumentalness": 0.002,
+      "loudness": -15.0,
+      "speechiness": 0.029,
+      "duration_ms": 278440,
+      "slug": "hey-you-pink-floyd"
+    },
+    {
+      "name": "Eleanor Rigby",
+      "artists": "The Beatles",
+      "album": "Yellow Submarine Songtrack",
+      "popularity": 68,
+      "tempo": 137.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.301,
+      "valence": 0.621,
+      "danceability": 0.521,
+      "acousticness": 0.836,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.036,
+      "duration_ms": 125226,
+      "slug": "eleanor-rigby-the-beatles"
+    },
+    {
+      "name": "California Dreamin' - 2007 Digital Remaster",
+      "artists": "The Beach Boys",
+      "album": "The Warmth Of The Sun",
+      "popularity": 68,
+      "tempo": 116.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.845,
+      "valence": 0.624,
+      "danceability": 0.582,
+      "acousticness": 0.053,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.045,
+      "duration_ms": 204373,
+      "slug": "california-dreamin-2007-digital-remaster-the-beach-boys"
+    },
+    {
+      "name": "Don't Let Me Down - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles 1967 - 1970 (Remastered)",
+      "popularity": 68,
+      "tempo": 77.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.289,
+      "valence": 0.733,
+      "danceability": 0.593,
+      "acousticness": 0.568,
+      "instrumentalness": 0.001,
+      "loudness": -11.0,
+      "speechiness": 0.026,
+      "duration_ms": 215733,
+      "slug": "dont-let-me-down-remastered-2009-the-beatles"
+    },
+    {
+      "name": "And I Love Her - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "A Hard Day's Night (Remastered)",
+      "popularity": 68,
+      "tempo": 113.3,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.331,
+      "valence": 0.636,
+      "danceability": 0.767,
+      "acousticness": 0.64,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.034,
+      "duration_ms": 149693,
+      "slug": "and-i-love-her-remastered-2009-the-beatles"
+    },
+    {
+      "name": "All My Loving - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "With The Beatles (Remastered)",
+      "popularity": 68,
+      "tempo": 77.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.563,
+      "valence": 0.9,
+      "danceability": 0.416,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.03,
+      "duration_ms": 127853,
+      "slug": "all-my-loving-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Lucy In The Sky With Diamonds - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Sgt. Pepper's Lonely Hearts Club Band (Remastered)",
+      "popularity": 68,
+      "tempo": 65.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.325,
+      "valence": 0.668,
+      "danceability": 0.311,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.028,
+      "duration_ms": 208466,
+      "slug": "lucy-in-the-sky-with-diamonds-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Voodoo Child (Slight Return)",
+      "artists": "Jimi Hendrix",
+      "album": "Electric Ladyland",
+      "popularity": 68,
+      "tempo": 175.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.448,
+      "danceability": 0.214,
+      "acousticness": 0.477,
+      "instrumentalness": 0.008,
+      "loudness": -6.7,
+      "speechiness": 0.389,
+      "duration_ms": 313373,
+      "slug": "voodoo-child-slight-return-jimi-hendrix"
+    },
+    {
+      "name": "Helplessly Hoping - 2005 Remaster",
+      "artists": "Crosby, Stills & Nash",
+      "album": "Crosby, Stills & Nash",
+      "popularity": 68,
+      "tempo": 146.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.159,
+      "valence": 0.423,
+      "danceability": 0.483,
+      "acousticness": 0.914,
+      "instrumentalness": 0.0,
+      "loudness": -13.6,
+      "speechiness": 0.035,
+      "duration_ms": 157893,
+      "slug": "helplessly-hoping-2005-remaster-crosby-stills-nash"
+    },
+    {
+      "name": "Nights In White Satin - Single Version / Mono",
+      "artists": "The Moody Blues",
+      "album": "Days Of Future Passed (Deluxe Version)",
+      "popularity": 68,
+      "tempo": 84.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.483,
+      "valence": 0.173,
+      "danceability": 0.195,
+      "acousticness": 0.465,
+      "instrumentalness": 0.497,
+      "loudness": -5.0,
+      "speechiness": 0.03,
+      "duration_ms": 269106,
+      "slug": "nights-in-white-satin-single-version-mono-the-moody-blues"
+    },
+    {
+      "name": "Love Me Do - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Please Please Me (Remastered)",
+      "popularity": 68,
+      "tempo": 148.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.829,
+      "valence": 0.744,
+      "danceability": 0.52,
+      "acousticness": 0.386,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.081,
+      "duration_ms": 141693,
+      "slug": "love-me-do-remastered-2009-the-beatles"
+    },
+    {
+      "name": "A Whiter Shade of Pale - Original Single Version",
+      "artists": "Procol Harum",
+      "album": "Hits'n'Flips",
+      "popularity": 68,
+      "tempo": 149.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.435,
+      "danceability": 0.249,
+      "acousticness": 0.504,
+      "instrumentalness": 0.003,
+      "loudness": -6.9,
+      "speechiness": 0.034,
+      "duration_ms": 248946,
+      "slug": "a-whiter-shade-of-pale-original-single-version-procol-harum"
+    },
+    {
+      "name": "Our House",
+      "artists": "Crosby, Stills, Nash & Young",
+      "album": "Deja Vu",
+      "popularity": 68,
+      "tempo": 140.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.205,
+      "valence": 0.378,
+      "danceability": 0.592,
+      "acousticness": 0.896,
+      "instrumentalness": 0.0,
+      "loudness": -14.6,
+      "speechiness": 0.048,
+      "duration_ms": 179760,
+      "slug": "our-house-crosby-stills-nash-young"
+    },
+    {
+      "name": "God Only Knows - Mono / 1997 Remastered",
+      "artists": "The Beach Boys",
+      "album": "Pet Sounds (Original Mono & Stereo Mix Versions)",
+      "popularity": 68,
+      "tempo": 117.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.487,
+      "valence": 0.483,
+      "danceability": 0.521,
+      "acousticness": 0.253,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.03,
+      "duration_ms": 173040,
+      "slug": "god-only-knows-mono-1997-remastered-the-beach-boys"
+    },
+    {
+      "name": "Pinball Wizard",
+      "artists": "The Who",
+      "album": "Tommy",
+      "popularity": 68,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.715,
+      "valence": 0.468,
+      "danceability": 0.543,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.036,
+      "duration_ms": 180943,
+      "slug": "pinball-wizard-the-who"
+    },
+    {
+      "name": "Joker And The Thief",
+      "artists": "Wolfmother",
+      "album": "Wolfmother",
+      "popularity": 68,
+      "tempo": 155.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.78,
+      "valence": 0.456,
+      "danceability": 0.264,
+      "acousticness": 0.045,
+      "instrumentalness": 0.022,
+      "loudness": -2.7,
+      "speechiness": 0.052,
+      "duration_ms": 280466,
+      "slug": "joker-and-the-thief-wolfmother"
+    },
+    {
+      "name": "Take The Money And Run",
+      "artists": "Steve Miller Band",
+      "album": "Fly Like An Eagle",
+      "popularity": 68,
+      "tempo": 99.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.645,
+      "valence": 0.836,
+      "danceability": 0.565,
+      "acousticness": 0.055,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.048,
+      "duration_ms": 170173,
+      "slug": "take-the-money-and-run-steve-miller-band"
+    },
+    {
+      "name": "Shine On You Crazy Diamond (Pts. 1-5)",
+      "artists": "Pink Floyd",
+      "album": "Wish You Were Here",
+      "popularity": 67,
+      "tempo": 137.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.294,
+      "valence": 0.04,
+      "danceability": 0.264,
+      "acousticness": 0.772,
+      "instrumentalness": 0.686,
+      "loudness": -11.9,
+      "speechiness": 0.028,
+      "duration_ms": 811077,
+      "slug": "shine-on-you-crazy-diamond-pts-1-5-pink-floyd"
+    },
+    {
+      "name": "Baby Blue - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Straight Up (Remastered 2010 / Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 124.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.515,
+      "danceability": 0.623,
+      "acousticness": 0.019,
+      "instrumentalness": 0.013,
+      "loudness": -7.8,
+      "speechiness": 0.066,
+      "duration_ms": 217346,
+      "slug": "baby-blue-remastered-2010-badfinger"
+    },
+    {
+      "name": "Ghostride",
+      "artists": "Crumb",
+      "album": "Jinx",
+      "popularity": 67,
+      "tempo": 87.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.351,
+      "valence": 0.451,
+      "danceability": 0.665,
+      "acousticness": 0.516,
+      "instrumentalness": 0.819,
+      "loudness": -9.4,
+      "speechiness": 0.028,
+      "duration_ms": 126120,
+      "slug": "ghostride-crumb"
+    },
+    {
+      "name": "Highway Star - Remastered 2012",
+      "artists": "Deep Purple",
+      "album": "Machine Head (Remastered)",
+      "popularity": 67,
+      "tempo": 173.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.443,
+      "danceability": 0.307,
+      "acousticness": 0.135,
+      "instrumentalness": 0.034,
+      "loudness": -7.1,
+      "speechiness": 0.057,
+      "duration_ms": 366136,
+      "slug": "highway-star-remastered-2012-deep-purple"
+    },
+    {
+      "name": "Oh! Darling - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "popularity": 67,
+      "tempo": 173.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.656,
+      "valence": 0.549,
+      "danceability": 0.422,
+      "acousticness": 0.013,
+      "instrumentalness": 0.028,
+      "loudness": -8.4,
+      "speechiness": 0.04,
+      "duration_ms": 207240,
+      "slug": "oh-darling-remastered-2009-the-beatles"
+    },
+    {
+      "name": "So Good At Being in Trouble",
+      "artists": "Unknown Mortal Orchestra",
+      "album": "II",
+      "popularity": 67,
+      "tempo": 103.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.435,
+      "valence": 0.594,
+      "danceability": 0.829,
+      "acousticness": 0.036,
+      "instrumentalness": 0.881,
+      "loudness": -10.1,
+      "speechiness": 0.051,
+      "duration_ms": 230146,
+      "slug": "so-good-at-being-in-trouble-unknown-mortal-orchestra"
+    },
+    {
+      "name": "A Hard Day's Night - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "A Hard Day's Night (Remastered)",
+      "popularity": 67,
+      "tempo": 138.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.797,
+      "danceability": 0.59,
+      "acousticness": 0.137,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.037,
+      "duration_ms": 154200,
+      "slug": "a-hard-days-night-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Won't Get Fooled Again - Original Album Version",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 135.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.92,
+      "valence": 0.225,
+      "danceability": 0.686,
+      "acousticness": 0.301,
+      "instrumentalness": 0.27,
+      "loudness": -6.2,
+      "speechiness": 0.057,
+      "duration_ms": 511400,
+      "slug": "wont-get-fooled-again-original-album-version-the-who"
+    },
+    {
+      "name": "I Saw Her Standing There - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Please Please Me (Remastered)",
+      "popularity": 67,
+      "tempo": 160.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.801,
+      "valence": 0.971,
+      "danceability": 0.491,
+      "acousticness": 0.27,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.036,
+      "duration_ms": 173946,
+      "slug": "i-saw-her-standing-there-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Perfect Day",
+      "artists": "Lou Reed",
+      "album": "Transformer",
+      "popularity": 67,
+      "tempo": 144.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.267,
+      "valence": 0.087,
+      "danceability": 0.4,
+      "acousticness": 0.744,
+      "instrumentalness": 0.007,
+      "loudness": -12.5,
+      "speechiness": 0.032,
+      "duration_ms": 225000,
+      "slug": "perfect-day-lou-reed"
+    },
+    {
+      "name": "I'd Love to Change the World - 2004 Remaster",
+      "artists": "Ten Years After",
+      "album": "A Space in Time (Deluxe Version)",
+      "popularity": 67,
+      "tempo": 118.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.516,
+      "valence": 0.371,
+      "danceability": 0.383,
+      "acousticness": 0.202,
+      "instrumentalness": 0.193,
+      "loudness": -12.0,
+      "speechiness": 0.034,
+      "duration_ms": 224133,
+      "slug": "id-love-to-change-the-world-2004-remaster-ten-years-after"
+    },
+    {
+      "name": "No Matter What - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "No Dice (Remastered 2010 / Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 116.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.78,
+      "danceability": 0.529,
+      "acousticness": 0.177,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.048,
+      "duration_ms": 180546,
+      "slug": "no-matter-what-remastered-2010-badfinger"
+    },
+    {
+      "name": "Fly Like An Eagle",
+      "artists": "Steve Miller Band",
+      "album": "Fly Like An Eagle",
+      "popularity": 67,
+      "tempo": 100.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.754,
+      "valence": 0.642,
+      "danceability": 0.561,
+      "acousticness": 0.61,
+      "instrumentalness": 0.019,
+      "loudness": -12.8,
+      "speechiness": 0.112,
+      "duration_ms": 282693,
+      "slug": "fly-like-an-eagle-steve-miller-band"
+    },
+    {
+      "name": "Abracadabra",
+      "artists": "Steve Miller Band",
+      "album": "Abracadabra",
+      "popularity": 67,
+      "tempo": 127.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.535,
+      "valence": 0.963,
+      "danceability": 0.791,
+      "acousticness": 0.075,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.035,
+      "duration_ms": 308373,
+      "slug": "abracadabra-steve-miller-band"
+    },
+    {
+      "name": "If You Want Me to Stay",
+      "artists": "Sly & The Family Stone",
+      "album": "Fresh",
+      "popularity": 67,
+      "tempo": 102.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.48,
+      "valence": 0.762,
+      "danceability": 0.843,
+      "acousticness": 0.28,
+      "instrumentalness": 0.001,
+      "loudness": -11.6,
+      "speechiness": 0.049,
+      "duration_ms": 180493,
+      "slug": "if-you-want-me-to-stay-sly-the-family-stone"
+    }
+  ]
+}

@@ -1,0 +1,2799 @@
+{
+  "genre": "Progressive House",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 81.067,
+    "max": 178.043,
+    "mean": 122.491,
+    "median": 125.01,
+    "q1": 119.976,
+    "q3": 127.985,
+    "histogram": {
+      "80-89": 1,
+      "90-99": 10,
+      "100-109": 6,
+      "110-119": 11,
+      "120-129": 60,
+      "130-139": 6,
+      "140-149": 2,
+      "150-159": 2,
+      "160-169": 1,
+      "170-179": 1
+    }
+  },
+  "key_distribution": {
+    "F": 16,
+    "A": 14,
+    "B": 12,
+    "G#/Ab": 11,
+    "E": 10,
+    "C": 9,
+    "G": 8,
+    "C#/Db": 7,
+    "F#/Gb": 6,
+    "D": 3,
+    "A#/Bb": 3,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Minor": 55,
+    "Major": 45
+  },
+  "key_mode_distribution": {
+    "F Minor": 11,
+    "A Minor": 8,
+    "B Minor": 8,
+    "G Major": 7,
+    "G#/Ab Major": 7,
+    "C#/Db Minor": 7,
+    "E Minor": 6,
+    "A Major": 6,
+    "F Major": 5,
+    "C Major": 5,
+    "C Minor": 4,
+    "E Major": 4,
+    "B Major": 4,
+    "G#/Ab Minor": 4,
+    "F#/Gb Major": 3,
+    "F#/Gb Minor": 3,
+    "A#/Bb Minor": 2,
+    "D Major": 2,
+    "D Minor": 1,
+    "A#/Bb Major": 1,
+    "D#/Eb Major": 1,
+    "G Minor": 1
+  },
+  "energy": {
+    "min": 0.486,
+    "max": 0.985,
+    "mean": 0.792,
+    "median": 0.79,
+    "q1": 0.719,
+    "q3": 0.883
+  },
+  "valence": {
+    "min": 0.03,
+    "max": 0.95,
+    "mean": 0.466,
+    "median": 0.45,
+    "q1": 0.265,
+    "q3": 0.636
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.862,
+      "valence": 0.592
+    },
+    {
+      "energy": 0.774,
+      "valence": 0.632
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.465
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.84,
+      "valence": 0.438
+    },
+    {
+      "energy": 0.924,
+      "valence": 0.919
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.418
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.54,
+      "valence": 0.195
+    },
+    {
+      "energy": 0.633,
+      "valence": 0.452
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.768,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.263
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.181
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.752
+    },
+    {
+      "energy": 0.96,
+      "valence": 0.811
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.447
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.903
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.615
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.795,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.718,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.444
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.486,
+      "valence": 0.368
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.679
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.776,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.109
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.216
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.718,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.13
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.363
+    },
+    {
+      "energy": 0.718,
+      "valence": 0.155
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.265
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.287
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.103
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.945,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.411
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.03
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.069
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.836
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.463
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.76
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.379
+    },
+    {
+      "energy": 0.514,
+      "valence": 0.365
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.433
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.802
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.855
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.95
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.172
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.748
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.572
+    },
+    {
+      "energy": 0.882,
+      "valence": 0.875
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.785,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.264
+    },
+    {
+      "energy": 0.966,
+      "valence": 0.193
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.614
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.673,
+      "valence": 0.636
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.498,
+    "mean": 0.085,
+    "median": 0.037,
+    "q1": 0.009,
+    "q3": 0.129
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.915,
+    "mean": 0.078,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.008
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.199,
+      "instrumentalness": 0.119
+    },
+    {
+      "acousticness": 0.256,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.112,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.276,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.205,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.246,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.276,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.498,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.512
+    },
+    {
+      "acousticness": 0.197,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.076,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.41,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.299,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.147
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.144,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.212,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.1,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.836
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.915
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.017
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.812
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.193
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.148
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.371,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.24,
+      "instrumentalness": 0.807
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.125,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.248,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.054
+    },
+    {
+      "acousticness": 0.164,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.528
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.329,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.178,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.238
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.655
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.838
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.083,
+      "instrumentalness": 0.803
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.005
+    }
+  ],
+  "duration": {
+    "min": 140156,
+    "max": 302952,
+    "mean": 197551.91,
+    "median": 200988.5,
+    "q1": 172761,
+    "q3": 220883
+  },
+  "danceability": {
+    "min": 0.414,
+    "max": 0.912,
+    "mean": 0.668,
+    "median": 0.678,
+    "q1": 0.597,
+    "q3": 0.733
+  },
+  "loudness": {
+    "min": -7.975,
+    "max": -2.097,
+    "mean": -5.02,
+    "median": -4.869,
+    "q1": -6.338,
+    "q3": -3.866
+  },
+  "speechiness": {
+    "min": 0.029,
+    "max": 0.375,
+    "mean": 0.063,
+    "median": 0.047,
+    "q1": 0.039,
+    "q3": 0.065
+  },
+  "top_artists": [
+    {
+      "name": "Calvin Harris",
+      "count": 24
+    },
+    {
+      "name": "Marshmello",
+      "count": 13
+    },
+    {
+      "name": "Martin Garrix",
+      "count": 9
+    },
+    {
+      "name": "Swedish House Mafia",
+      "count": 8
+    },
+    {
+      "name": "Armin van Buuren",
+      "count": 5
+    },
+    {
+      "name": "Dua Lipa",
+      "count": 4
+    },
+    {
+      "name": "Dimitri Vegas & Like Mike",
+      "count": 4
+    },
+    {
+      "name": "Khalid",
+      "count": 3
+    },
+    {
+      "name": "The Weeknd",
+      "count": 3
+    },
+    {
+      "name": "Halsey",
+      "count": 3
+    },
+    {
+      "name": "Pharrell Williams",
+      "count": 3
+    },
+    {
+      "name": "Duke Dumont",
+      "count": 3
+    },
+    {
+      "name": "Vicetone",
+      "count": 3
+    },
+    {
+      "name": "John Martin",
+      "count": 2
+    },
+    {
+      "name": "Justin Timberlake",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "One Kiss (with Dua Lipa)",
+      "artists": "Calvin Harris;Dua Lipa",
+      "album": "One Kiss (with Dua Lipa)",
+      "popularity": 89,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.862,
+      "valence": 0.592,
+      "danceability": 0.791,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.11,
+      "duration_ms": 214846,
+      "slug": "one-kiss-with-dua-lipa-calvin-harris"
+    },
+    {
+      "name": "Numb",
+      "artists": "Marshmello;Khalid",
+      "album": "Numb",
+      "popularity": 87,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.774,
+      "valence": 0.632,
+      "danceability": 0.912,
+      "acousticness": 0.121,
+      "instrumentalness": 0.013,
+      "loudness": -4.7,
+      "speechiness": 0.045,
+      "duration_ms": 155588,
+      "slug": "numb-marshmello"
+    },
+    {
+      "name": "Leave Before You Love Me (with Jonas Brothers)",
+      "artists": "Marshmello;Jonas Brothers",
+      "album": "Leave Before You Love Me",
+      "popularity": 85,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.738,
+      "valence": 0.637,
+      "danceability": 0.721,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.04,
+      "duration_ms": 154983,
+      "slug": "leave-before-you-love-me-with-jonas-brothers-marshmello"
+    },
+    {
+      "name": "Happier",
+      "artists": "Marshmello;Bastille",
+      "album": "Happier",
+      "popularity": 83,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.792,
+      "valence": 0.671,
+      "danceability": 0.687,
+      "acousticness": 0.191,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.045,
+      "duration_ms": 214289,
+      "slug": "happier-marshmello"
+    },
+    {
+      "name": "Moth To A Flame (with The Weeknd)",
+      "artists": "Swedish House Mafia;The Weeknd",
+      "album": "Paradise Again",
+      "popularity": 83,
+      "tempo": 120.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.659,
+      "valence": 0.105,
+      "danceability": 0.553,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.039,
+      "duration_ms": 234000,
+      "slug": "moth-to-a-flame-with-the-weeknd-swedish-house-mafia"
+    },
+    {
+      "name": "Summer",
+      "artists": "Calvin Harris",
+      "album": "Motion",
+      "popularity": 82,
+      "tempo": 127.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.856,
+      "valence": 0.743,
+      "danceability": 0.596,
+      "acousticness": 0.021,
+      "instrumentalness": 0.018,
+      "loudness": -3.6,
+      "speechiness": 0.035,
+      "duration_ms": 222533,
+      "slug": "summer-calvin-harris"
+    },
+    {
+      "name": "This Is What You Came For",
+      "artists": "Calvin Harris;Rihanna",
+      "album": "This Is What You Came For",
+      "popularity": 81,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.927,
+      "valence": 0.465,
+      "danceability": 0.631,
+      "acousticness": 0.199,
+      "instrumentalness": 0.119,
+      "loudness": -2.8,
+      "speechiness": 0.033,
+      "duration_ms": 222160,
+      "slug": "this-is-what-you-came-for-calvin-harris"
+    },
+    {
+      "name": "Silence",
+      "artists": "Marshmello;Khalid",
+      "album": "Silence",
+      "popularity": 81,
+      "tempo": 142.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.761,
+      "valence": 0.286,
+      "danceability": 0.52,
+      "acousticness": 0.256,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.085,
+      "duration_ms": 180822,
+      "slug": "silence-marshmello"
+    },
+    {
+      "name": "Don't You Worry Child - Radio Edit",
+      "artists": "Swedish House Mafia;John Martin",
+      "album": "Don't You Worry Child",
+      "popularity": 80,
+      "tempo": 129.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.84,
+      "valence": 0.438,
+      "danceability": 0.612,
+      "acousticness": 0.112,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.051,
+      "duration_ms": 212862,
+      "slug": "dont-you-worry-child-radio-edit-swedish-house-mafia"
+    },
+    {
+      "name": "Feel So Close - Radio Edit",
+      "artists": "Calvin Harris",
+      "album": "18 Months",
+      "popularity": 80,
+      "tempo": 127.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.924,
+      "valence": 0.919,
+      "danceability": 0.707,
+      "acousticness": 0.001,
+      "instrumentalness": 0.007,
+      "loudness": -2.8,
+      "speechiness": 0.031,
+      "duration_ms": 206413,
+      "slug": "feel-so-close-radio-edit-calvin-harris"
+    },
+    {
+      "name": "Stay With Me (with Justin Timberlake, Halsey, & Pharrell)",
+      "artists": "Calvin Harris;Justin Timberlake;Halsey;Pharrell Williams",
+      "album": "Stay With Me (with Justin Timberlake, Halsey, & Pharrell)",
+      "popularity": 80,
+      "tempo": 126.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.9,
+      "danceability": 0.81,
+      "acousticness": 0.276,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.044,
+      "duration_ms": 229282,
+      "slug": "stay-with-me-with-justin-timberlake-halsey-pharrell-calvin-harris"
+    },
+    {
+      "name": "Potion (with Dua Lipa & Young Thug)",
+      "artists": "Calvin Harris;Dua Lipa;Young Thug",
+      "album": "Potion (with Dua Lipa & Young Thug)",
+      "popularity": 79,
+      "tempo": 100.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.697,
+      "valence": 0.757,
+      "danceability": 0.824,
+      "acousticness": 0.158,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.047,
+      "duration_ms": 214459,
+      "slug": "potion-with-dua-lipa-young-thug-calvin-harris"
+    },
+    {
+      "name": "FRIENDS",
+      "artists": "Marshmello;Anne-Marie",
+      "album": "FRIENDS",
+      "popularity": 79,
+      "tempo": 95.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.88,
+      "valence": 0.534,
+      "danceability": 0.626,
+      "acousticness": 0.205,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.05,
+      "duration_ms": 202620,
+      "slug": "friends-marshmello"
+    },
+    {
+      "name": "In the Name of Love",
+      "artists": "Martin Garrix;Bebe Rexha",
+      "album": "In the Name of Love",
+      "popularity": 79,
+      "tempo": 134.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.519,
+      "valence": 0.168,
+      "danceability": 0.501,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.041,
+      "duration_ms": 195706,
+      "slug": "in-the-name-of-love-martin-garrix"
+    },
+    {
+      "name": "Outside (feat. Ellie Goulding)",
+      "artists": "Calvin Harris;Ellie Goulding",
+      "album": "Motion",
+      "popularity": 79,
+      "tempo": 128.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.823,
+      "valence": 0.418,
+      "danceability": 0.646,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.039,
+      "duration_ms": 227266,
+      "slug": "outside-feat-ellie-goulding-calvin-harris"
+    },
+    {
+      "name": "Heaven Takes You Home (feat. Connie Constance)",
+      "artists": "Swedish House Mafia;Connie Constance",
+      "album": "Paradise Again",
+      "popularity": 79,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.738,
+      "valence": 0.039,
+      "danceability": 0.665,
+      "acousticness": 0.012,
+      "instrumentalness": 0.006,
+      "loudness": -5.9,
+      "speechiness": 0.038,
+      "duration_ms": 214071,
+      "slug": "heaven-takes-you-home-feat-connie-constance-swedish-house-mafia"
+    },
+    {
+      "name": "Scared to Be Lonely",
+      "artists": "Martin Garrix;Dua Lipa",
+      "album": "Scared to Be Lonely",
+      "popularity": 78,
+      "tempo": 138.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.54,
+      "valence": 0.195,
+      "danceability": 0.584,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.058,
+      "duration_ms": 220883,
+      "slug": "scared-to-be-lonely-martin-garrix"
+    },
+    {
+      "name": "Be Kind (with Halsey)",
+      "artists": "Marshmello;Halsey",
+      "album": "Be Kind (with Halsey)",
+      "popularity": 77,
+      "tempo": 94.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.633,
+      "valence": 0.452,
+      "danceability": 0.63,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.046,
+      "duration_ms": 172761,
+      "slug": "be-kind-with-halsey-marshmello"
+    },
+    {
+      "name": "How Deep is Your Love (feat. Disciples)",
+      "artists": "Calvin Harris;Disciples",
+      "album": "How Deep is Your Love (feat. Disciples)",
+      "popularity": 77,
+      "tempo": 122.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.868,
+      "valence": 0.336,
+      "danceability": 0.738,
+      "acousticness": 0.039,
+      "instrumentalness": 0.002,
+      "loudness": -4.4,
+      "speechiness": 0.073,
+      "duration_ms": 212640,
+      "slug": "how-deep-is-your-love-feat-disciples-calvin-harris"
+    },
+    {
+      "name": "Promises (with Sam Smith)",
+      "artists": "Calvin Harris;Sam Smith;Jessie Reyez",
+      "album": "Promises (with Sam Smith)",
+      "popularity": 77,
+      "tempo": 123.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.768,
+      "valence": 0.486,
+      "danceability": 0.781,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.039,
+      "duration_ms": 213309,
+      "slug": "promises-with-sam-smith-calvin-harris"
+    },
+    {
+      "name": "My Way",
+      "artists": "Calvin Harris",
+      "album": "My Way",
+      "popularity": 76,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.913,
+      "valence": 0.536,
+      "danceability": 0.818,
+      "acousticness": 0.093,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.043,
+      "duration_ms": 219159,
+      "slug": "my-way-calvin-harris"
+    },
+    {
+      "name": "Blame (feat. John Newman)",
+      "artists": "Calvin Harris;John Newman",
+      "album": "Motion",
+      "popularity": 76,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.857,
+      "valence": 0.348,
+      "danceability": 0.414,
+      "acousticness": 0.029,
+      "instrumentalness": 0.006,
+      "loudness": -4.1,
+      "speechiness": 0.081,
+      "duration_ms": 212960,
+      "slug": "blame-feat-john-newman-calvin-harris"
+    },
+    {
+      "name": "OK Not To Be OK",
+      "artists": "Marshmello;Demi Lovato",
+      "album": "OK Not To Be OK",
+      "popularity": 75,
+      "tempo": 103.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.837,
+      "valence": 0.263,
+      "danceability": 0.743,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.065,
+      "duration_ms": 159862,
+      "slug": "ok-not-to-be-ok-marshmello"
+    },
+    {
+      "name": "Here With Me",
+      "artists": "Marshmello;CHVRCHES",
+      "album": "Here With Me",
+      "popularity": 75,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.565,
+      "valence": 0.181,
+      "danceability": 0.791,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.044,
+      "duration_ms": 156346,
+      "slug": "here-with-me-marshmello"
+    },
+    {
+      "name": "Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy)",
+      "artists": "Martin Garrix;Macklemore;Fall Out Boy",
+      "album": "Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy)",
+      "popularity": 74,
+      "tempo": 113.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.723,
+      "valence": 0.316,
+      "danceability": 0.661,
+      "acousticness": 0.179,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.057,
+      "duration_ms": 163804,
+      "slug": "summer-days-feat-macklemore-patrick-stump-of-fall-out-boy-martin-garrix"
+    },
+    {
+      "name": "I Was Made For Lovin' You (feat. Nile Rodgers & House Gospel Choir)",
+      "artists": "Oliver Heldens;Nile Rodgers;House Gospel Choir",
+      "album": "I Was Made For Lovin' You (feat. Nile Rodgers & House Gospel Choir)",
+      "popularity": 74,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.892,
+      "valence": 0.752,
+      "danceability": 0.686,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.05,
+      "duration_ms": 157205,
+      "slug": "i-was-made-for-lovin-you-feat-nile-rodgers-house-gospel-choir-oliver-heldens"
+    },
+    {
+      "name": "By Your Side (feat. Tom Grennan)",
+      "artists": "Calvin Harris;Tom Grennan",
+      "album": "By Your Side (feat. Tom Grennan)",
+      "popularity": 74,
+      "tempo": 124.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.96,
+      "valence": 0.811,
+      "danceability": 0.733,
+      "acousticness": 0.051,
+      "instrumentalness": 0.002,
+      "loudness": -3.6,
+      "speechiness": 0.029,
+      "duration_ms": 189671,
+      "slug": "by-your-side-feat-tom-grennan-calvin-harris"
+    },
+    {
+      "name": "Call on Me - Radio Mix",
+      "artists": "Eric Prydz",
+      "album": "Call on Me (Radio Mix)",
+      "popularity": 74,
+      "tempo": 126.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.837,
+      "valence": 0.447,
+      "danceability": 0.597,
+      "acousticness": 0.004,
+      "instrumentalness": 0.001,
+      "loudness": -6.5,
+      "speechiness": 0.375,
+      "duration_ms": 171360,
+      "slug": "call-on-me-radio-mix-eric-prydz"
+    },
+    {
+      "name": "Alone",
+      "artists": "Marshmello",
+      "album": "Alone",
+      "popularity": 73,
+      "tempo": 142.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.422,
+      "danceability": 0.631,
+      "acousticness": 0.024,
+      "instrumentalness": 0.015,
+      "loudness": -3.7,
+      "speechiness": 0.034,
+      "duration_ms": 273802,
+      "slug": "alone-marshmello"
+    },
+    {
+      "name": "Obsessed (with Charlie Puth & Shenseea)",
+      "artists": "Calvin Harris;Charlie Puth;Shenseea",
+      "album": "Funk Wav Bounces Vol. 2",
+      "popularity": 73,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.74,
+      "valence": 0.903,
+      "danceability": 0.733,
+      "acousticness": 0.246,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.033,
+      "duration_ms": 226497,
+      "slug": "obsessed-with-charlie-puth-shenseea-calvin-harris"
+    },
+    {
+      "name": "Everything Goes On",
+      "artists": "Porter Robinson;League of Legends",
+      "album": "Everything Goes On",
+      "popularity": 73,
+      "tempo": 157.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.648,
+      "valence": 0.323,
+      "danceability": 0.55,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.031,
+      "duration_ms": 202821,
+      "slug": "everything-goes-on-porter-robinson"
+    },
+    {
+      "name": "Stay With Me (with Justin Timberlake, Halsey & Pharrell)",
+      "artists": "Calvin Harris;Justin Timberlake;Halsey;Pharrell Williams",
+      "album": "Funk Wav Bounces Vol. 2",
+      "popularity": 73,
+      "tempo": 126.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.9,
+      "danceability": 0.81,
+      "acousticness": 0.276,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.044,
+      "duration_ms": 229282,
+      "slug": "stay-with-me-with-justin-timberlake-halsey-pharrell-calvin-harris"
+    },
+    {
+      "name": "Spotlight",
+      "artists": "Marshmello;Lil Peep",
+      "album": "Spotlight",
+      "popularity": 73,
+      "tempo": 150.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.615,
+      "danceability": 0.546,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.151,
+      "duration_ms": 177600,
+      "slug": "spotlight-marshmello"
+    },
+    {
+      "name": "Under Control (feat. Hurts)",
+      "artists": "Calvin Harris;Alesso;Hurts",
+      "album": "Motion",
+      "popularity": 73,
+      "tempo": 126.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.915,
+      "valence": 0.51,
+      "danceability": 0.544,
+      "acousticness": 0.129,
+      "instrumentalness": 0.001,
+      "loudness": -3.4,
+      "speechiness": 0.084,
+      "duration_ms": 184280,
+      "slug": "under-control-feat-hurts-calvin-harris"
+    },
+    {
+      "name": "Giant (with Rag'n'Bone Man)",
+      "artists": "Calvin Harris;Rag'n'Bone Man",
+      "album": "Giant (with Rag'n'Bone Man)",
+      "popularity": 73,
+      "tempo": 122.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.887,
+      "valence": 0.606,
+      "danceability": 0.807,
+      "acousticness": 0.016,
+      "instrumentalness": 0.001,
+      "loudness": -4.3,
+      "speechiness": 0.036,
+      "duration_ms": 229184,
+      "slug": "giant-with-ragnbone-man-calvin-harris"
+    },
+    {
+      "name": "Slide (feat. Frank Ocean & Migos)",
+      "artists": "Calvin Harris;Frank Ocean;Migos",
+      "album": "Slide (feat. Frank Ocean & Migos)",
+      "popularity": 72,
+      "tempo": 104.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.795,
+      "valence": 0.511,
+      "danceability": 0.736,
+      "acousticness": 0.498,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.054,
+      "duration_ms": 230813,
+      "slug": "slide-feat-frank-ocean-migos-calvin-harris"
+    },
+    {
+      "name": "Ocean Drive",
+      "artists": "Duke Dumont",
+      "album": "Ocean Drive",
+      "popularity": 72,
+      "tempo": 115.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.718,
+      "valence": 0.557,
+      "danceability": 0.686,
+      "acousticness": 0.006,
+      "instrumentalness": 0.001,
+      "loudness": -5.1,
+      "speechiness": 0.043,
+      "duration_ms": 206320,
+      "slug": "ocean-drive-duke-dumont"
+    },
+    {
+      "name": "Cola",
+      "artists": "CamelPhat;Elderbrook",
+      "album": "Cola",
+      "popularity": 72,
+      "tempo": 122.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.74,
+      "valence": 0.444,
+      "danceability": 0.706,
+      "acousticness": 0.025,
+      "instrumentalness": 0.512,
+      "loudness": -7.9,
+      "speechiness": 0.033,
+      "duration_ms": 223869,
+      "slug": "cola-camelphat"
+    },
+    {
+      "name": "Sweet Nothing (feat. Florence Welch)",
+      "artists": "Calvin Harris;Florence Welch",
+      "album": "18 Months",
+      "popularity": 72,
+      "tempo": 127.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.929,
+      "valence": 0.582,
+      "danceability": 0.573,
+      "acousticness": 0.197,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.109,
+      "duration_ms": 212560,
+      "slug": "sweet-nothing-feat-florence-welch-calvin-harris"
+    },
+    {
+      "name": "High On Life (feat. Bonn)",
+      "artists": "Martin Garrix;Bonn",
+      "album": "High On Life (feat. Bonn)",
+      "popularity": 71,
+      "tempo": 128.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.486,
+      "valence": 0.368,
+      "danceability": 0.414,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.031,
+      "duration_ms": 230761,
+      "slug": "high-on-life-feat-bonn-martin-garrix"
+    },
+    {
+      "name": "Over Now (with The Weeknd)",
+      "artists": "Calvin Harris;The Weeknd",
+      "album": "Over Now (with The Weeknd)",
+      "popularity": 71,
+      "tempo": 178.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.884,
+      "valence": 0.679,
+      "danceability": 0.612,
+      "acousticness": 0.076,
+      "instrumentalness": 0.001,
+      "loudness": -4.1,
+      "speechiness": 0.045,
+      "duration_ms": 210795,
+      "slug": "over-now-with-the-weeknd-calvin-harris"
+    },
+    {
+      "name": "I Need Your Love (feat. Ellie Goulding)",
+      "artists": "Calvin Harris;Ellie Goulding",
+      "album": "18 Months",
+      "popularity": 71,
+      "tempo": 125.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.58,
+      "danceability": 0.695,
+      "acousticness": 0.41,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.048,
+      "duration_ms": 234506,
+      "slug": "i-need-your-love-feat-ellie-goulding-calvin-harris"
+    },
+    {
+      "name": "Potion (with Dua Lipa & Young Thug)",
+      "artists": "Calvin Harris;Dua Lipa;Young Thug",
+      "album": "Funk Wav Bounces Vol. 2",
+      "popularity": 71,
+      "tempo": 100.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.697,
+      "valence": 0.757,
+      "danceability": 0.824,
+      "acousticness": 0.158,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.047,
+      "duration_ms": 215215,
+      "slug": "potion-with-dua-lipa-young-thug-calvin-harris"
+    },
+    {
+      "name": "Nevada",
+      "artists": "Vicetone;Cozi Zuehlsdorff",
+      "album": "Nevada",
+      "popularity": 71,
+      "tempo": 124.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.105,
+      "danceability": 0.605,
+      "acousticness": 0.299,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.032,
+      "duration_ms": 208561,
+      "slug": "nevada-vicetone"
+    },
+    {
+      "name": "Ocean Drive",
+      "artists": "Duke Dumont",
+      "album": "Duality",
+      "popularity": 71,
+      "tempo": 115.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.776,
+      "valence": 0.624,
+      "danceability": 0.67,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.047,
+      "duration_ms": 206320,
+      "slug": "ocean-drive-duke-dumont"
+    },
+    {
+      "name": "Moth To A Flame (with The Weeknd)",
+      "artists": "Swedish House Mafia;The Weeknd",
+      "album": "Moth To A Flame",
+      "popularity": 71,
+      "tempo": 120.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.659,
+      "valence": 0.109,
+      "danceability": 0.542,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.039,
+      "duration_ms": 234000,
+      "slug": "moth-to-a-flame-with-the-weeknd-swedish-house-mafia"
+    },
+    {
+      "name": "Redlight",
+      "artists": "Swedish House Mafia;Sting",
+      "album": "Paradise Again",
+      "popularity": 70,
+      "tempo": 125.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.216,
+      "danceability": 0.71,
+      "acousticness": 0.009,
+      "instrumentalness": 0.147,
+      "loudness": -7.0,
+      "speechiness": 0.041,
+      "duration_ms": 242880,
+      "slug": "redlight-swedish-house-mafia"
+    },
+    {
+      "name": "Five More Hours",
+      "artists": "Deorro;Chris Brown",
+      "album": "Good Evening",
+      "popularity": 70,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.883,
+      "valence": 0.499,
+      "danceability": 0.699,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.219,
+      "duration_ms": 211975,
+      "slug": "five-more-hours-deorro"
+    },
+    {
+      "name": "Fuego",
+      "artists": "Dimitri Vegas & Like Mike;Kim Loaiza",
+      "album": "Fuego",
+      "popularity": 70,
+      "tempo": 95.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.718,
+      "valence": 0.475,
+      "danceability": 0.704,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.053,
+      "duration_ms": 199357,
+      "slug": "fuego-dimitri-vegas-like-mike"
+    },
+    {
+      "name": "There for You",
+      "artists": "Martin Garrix;Troye Sivan",
+      "album": "There for You",
+      "popularity": 69,
+      "tempo": 106.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.644,
+      "valence": 0.13,
+      "danceability": 0.611,
+      "acousticness": 0.124,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.055,
+      "duration_ms": 221904,
+      "slug": "there-for-you-martin-garrix"
+    },
+    {
+      "name": "Drown (feat. Clinton Kane)",
+      "artists": "Martin Garrix;Clinton Kane",
+      "album": "Drown (feat. Clinton Kane)",
+      "popularity": 69,
+      "tempo": 120.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.363,
+      "danceability": 0.573,
+      "acousticness": 0.212,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.058,
+      "duration_ms": 174062,
+      "slug": "drown-feat-clinton-kane-martin-garrix"
+    },
+    {
+      "name": "Lifetime (with Ty Dolla $ign & 070 Shake)",
+      "artists": "Swedish House Mafia;Ty Dolla $ign;070 Shake",
+      "album": "Paradise Again",
+      "popularity": 69,
+      "tempo": 99.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.718,
+      "valence": 0.155,
+      "danceability": 0.584,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.126,
+      "duration_ms": 186805,
+      "slug": "lifetime-with-ty-dolla-ign-070-shake-swedish-house-mafia"
+    },
+    {
+      "name": "Anywhere With You",
+      "artists": "Afrojack;Lucas & Steve;DubVision",
+      "album": "Anywhere With You",
+      "popularity": 69,
+      "tempo": 125.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.531,
+      "danceability": 0.596,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.03,
+      "duration_ms": 158807,
+      "slug": "anywhere-with-you-afrojack"
+    },
+    {
+      "name": "Worlds On Fire (with R3HAB & Au/Ra)",
+      "artists": "Afrojack;R3HAB;Au/Ra",
+      "album": "Worlds On Fire (with R3HAB & Au/Ra)",
+      "popularity": 69,
+      "tempo": 124.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.756,
+      "valence": 0.265,
+      "danceability": 0.621,
+      "acousticness": 0.075,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.114,
+      "duration_ms": 174193,
+      "slug": "worlds-on-fire-with-r3hab-aura-afrojack"
+    },
+    {
+      "name": "One More Time",
+      "artists": "Armin van Buuren;Maia Wright",
+      "album": "One More Time",
+      "popularity": 69,
+      "tempo": 126.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.761,
+      "valence": 0.287,
+      "danceability": 0.579,
+      "acousticness": 0.1,
+      "instrumentalness": 0.002,
+      "loudness": -5.5,
+      "speechiness": 0.051,
+      "duration_ms": 148095,
+      "slug": "one-more-time-armin-van-buuren"
+    },
+    {
+      "name": "Drop That Low (When I Dip)",
+      "artists": "Tujamo",
+      "album": "Drop That Low (When I Dip)",
+      "popularity": 69,
+      "tempo": 125.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.896,
+      "valence": 0.103,
+      "danceability": 0.586,
+      "acousticness": 0.009,
+      "instrumentalness": 0.836,
+      "loudness": -4.1,
+      "speechiness": 0.372,
+      "duration_ms": 159999,
+      "slug": "drop-that-low-when-i-dip-tujamo"
+    },
+    {
+      "name": "Underwater",
+      "artists": "Tujamo",
+      "album": "Underwater",
+      "popularity": 69,
+      "tempo": 124.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.692,
+      "valence": 0.491,
+      "danceability": 0.703,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.041,
+      "duration_ms": 141895,
+      "slug": "underwater-tujamo"
+    },
+    {
+      "name": "Get Up (Rattle) [feat. Far East Movement] - Vocal Edit",
+      "artists": "Bingo Players;Far East Movement",
+      "album": "Get Up (Rattle) [feat. Far East Movement]",
+      "popularity": 69,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.985,
+      "valence": 0.72,
+      "danceability": 0.801,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.065,
+      "duration_ms": 166932,
+      "slug": "get-up-rattle-feat-far-east-movement-vocal-edit-bingo-players"
+    },
+    {
+      "name": "Astronomia",
+      "artists": "Vicetone;Tony Igy",
+      "album": "Astronomia",
+      "popularity": 68,
+      "tempo": 126.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.945,
+      "valence": 0.326,
+      "danceability": 0.653,
+      "acousticness": 0.006,
+      "instrumentalness": 0.915,
+      "loudness": -2.6,
+      "speechiness": 0.096,
+      "duration_ms": 198095,
+      "slug": "astronomia-vicetone"
+    },
+    {
+      "name": "Shockwave",
+      "artists": "Marshmello",
+      "album": "Shockwave",
+      "popularity": 68,
+      "tempo": 164.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.875,
+      "valence": 0.411,
+      "danceability": 0.577,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.068,
+      "duration_ms": 181283,
+      "slug": "shockwave-marshmello"
+    },
+    {
+      "name": "Blah Blah Blah",
+      "artists": "Armin van Buuren",
+      "album": "Blah Blah Blah",
+      "popularity": 68,
+      "tempo": 138.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.179,
+      "danceability": 0.612,
+      "acousticness": 0.009,
+      "instrumentalness": 0.004,
+      "loudness": -3.9,
+      "speechiness": 0.053,
+      "duration_ms": 183518,
+      "slug": "blah-blah-blah-armin-van-buuren"
+    },
+    {
+      "name": "Heaven (feat. Sofia Quinn) - Club Mix",
+      "artists": "Fedde Le Grand;Robert Falcon;Sofia Quinn",
+      "album": "Heaven (feat. Sofia Quinn) [Club Mix]",
+      "popularity": 68,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.03,
+      "danceability": 0.703,
+      "acousticness": 0.005,
+      "instrumentalness": 0.017,
+      "loudness": -6.6,
+      "speechiness": 0.051,
+      "duration_ms": 175773,
+      "slug": "heaven-feat-sofia-quinn-club-mix-fedde-le-grand"
+    },
+    {
+      "name": "Million Voices - Radio Edit",
+      "artists": "Otto Knows",
+      "album": "Million Voices",
+      "popularity": 68,
+      "tempo": 125.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.069,
+      "danceability": 0.582,
+      "acousticness": 0.002,
+      "instrumentalness": 0.022,
+      "loudness": -6.3,
+      "speechiness": 0.041,
+      "duration_ms": 192866,
+      "slug": "million-voices-radio-edit-otto-knows"
+    },
+    {
+      "name": "Say My Name",
+      "artists": "Dimitri Vegas & Like Mike;Regard;Dimitri Vegas",
+      "album": "Say My Name",
+      "popularity": 68,
+      "tempo": 118.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.788,
+      "valence": 0.857,
+      "danceability": 0.729,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.091,
+      "duration_ms": 159535,
+      "slug": "say-my-name-dimitri-vegas-like-mike"
+    },
+    {
+      "name": "Pjanoo - Radio Edit",
+      "artists": "Eric Prydz",
+      "album": "Pjanoo",
+      "popularity": 68,
+      "tempo": 126.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.874,
+      "valence": 0.836,
+      "danceability": 0.605,
+      "acousticness": 0.001,
+      "instrumentalness": 0.812,
+      "loudness": -4.9,
+      "speechiness": 0.029,
+      "duration_ms": 157432,
+      "slug": "pjanoo-radio-edit-eric-prydz"
+    },
+    {
+      "name": "I Got U",
+      "artists": "Duke Dumont;Jax Jones",
+      "album": "I Got U",
+      "popularity": 68,
+      "tempo": 120.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.761,
+      "valence": 0.463,
+      "danceability": 0.636,
+      "acousticness": 0.004,
+      "instrumentalness": 0.008,
+      "loudness": -7.8,
+      "speechiness": 0.035,
+      "duration_ms": 285596,
+      "slug": "i-got-u-duke-dumont"
+    },
+    {
+      "name": "Gecko (Overdrive) - Radio Edit",
+      "artists": "Oliver Heldens;Becky Hill",
+      "album": "Gecko (Overdrive) [Radio Edit]",
+      "popularity": 68,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.76,
+      "danceability": 0.609,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.064,
+      "duration_ms": 165440,
+      "slug": "gecko-overdrive-radio-edit-oliver-heldens"
+    },
+    {
+      "name": "Loop",
+      "artists": "Martin Garrix;DallasK;Sasha Alex Sloan",
+      "album": "Loop",
+      "popularity": 67,
+      "tempo": 125.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.725,
+      "valence": 0.379,
+      "danceability": 0.693,
+      "acousticness": 0.063,
+      "instrumentalness": 0.008,
+      "loudness": -6.3,
+      "speechiness": 0.044,
+      "duration_ms": 190560,
+      "slug": "loop-martin-garrix"
+    },
+    {
+      "name": "American Psycho (with Mae Muller feat. Trippie Redd)",
+      "artists": "Marshmello;Mae Muller;Trippie Redd",
+      "album": "American Psycho (with Mae Muller feat. Trippie Redd)",
+      "popularity": 67,
+      "tempo": 81.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.514,
+      "valence": 0.365,
+      "danceability": 0.617,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.072,
+      "duration_ms": 153195,
+      "slug": "american-psycho-with-mae-muller-feat-trippie-redd-marshmello"
+    },
+    {
+      "name": "Reload - Radio Edit",
+      "artists": "Sebastian Ingrosso;Tommy Trash;John Martin",
+      "album": "Reload (Vocal Version / Radio Edit)",
+      "popularity": 67,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.724,
+      "valence": 0.433,
+      "danceability": 0.485,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.052,
+      "duration_ms": 221272,
+      "slug": "reload-radio-edit-sebastian-ingrosso"
+    },
+    {
+      "name": "Follow",
+      "artists": "Martin Garrix;Zedd",
+      "album": "Follow",
+      "popularity": 67,
+      "tempo": 127.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.78,
+      "valence": 0.201,
+      "danceability": 0.588,
+      "acousticness": 0.033,
+      "instrumentalness": 0.193,
+      "loudness": -6.1,
+      "speechiness": 0.043,
+      "duration_ms": 221220,
+      "slug": "follow-martin-garrix"
+    },
+    {
+      "name": "Five More Hours",
+      "artists": "Deorro;Chris Brown",
+      "album": "Five More Hours",
+      "popularity": 67,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.883,
+      "valence": 0.499,
+      "danceability": 0.699,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.219,
+      "duration_ms": 211975,
+      "slug": "five-more-hours-deorro"
+    },
+    {
+      "name": "Numb - Alok Remix",
+      "artists": "Marshmello;Khalid;Alok",
+      "album": "Numb (Alok Remix)",
+      "popularity": 67,
+      "tempo": 127.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.965,
+      "valence": 0.408,
+      "danceability": 0.639,
+      "acousticness": 0.006,
+      "instrumentalness": 0.148,
+      "loudness": -5.2,
+      "speechiness": 0.043,
+      "duration_ms": 172913,
+      "slug": "numb-alok-remix-marshmello"
+    },
+    {
+      "name": "This Is What It Feels Like",
+      "artists": "Armin van Buuren;Trevor Guthrie",
+      "album": "Intense",
+      "popularity": 67,
+      "tempo": 129.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.145,
+      "danceability": 0.551,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.03,
+      "duration_ms": 204360,
+      "slug": "this-is-what-it-feels-like-armin-van-buuren"
+    },
+    {
+      "name": "New To You (with Normani, Tinashe, & Offset)",
+      "artists": "Calvin Harris;Normani;Tinashe;Offset",
+      "album": "New To You (with Normani, Tinashe, & Offset)",
+      "popularity": 67,
+      "tempo": 96.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.707,
+      "valence": 0.802,
+      "danceability": 0.728,
+      "acousticness": 0.371,
+      "instrumentalness": 0.001,
+      "loudness": -5.1,
+      "speechiness": 0.044,
+      "duration_ms": 302952,
+      "slug": "new-to-you-with-normani-tinashe-offset-calvin-harris"
+    },
+    {
+      "name": "Those Eyes",
+      "artists": "ARTY;Griff Clawson",
+      "album": "Those Eyes",
+      "popularity": 67,
+      "tempo": 118.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.822,
+      "valence": 0.855,
+      "danceability": 0.727,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.047,
+      "duration_ms": 162786,
+      "slug": "those-eyes-arty"
+    },
+    {
+      "name": "Save The World",
+      "artists": "Swedish House Mafia",
+      "album": "Save The World",
+      "popularity": 67,
+      "tempo": 126.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.665,
+      "valence": 0.4,
+      "danceability": 0.507,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.047,
+      "duration_ms": 213337,
+      "slug": "save-the-world-swedish-house-mafia"
+    },
+    {
+      "name": "Turn off the Lights",
+      "artists": "Chris Lake;Alexis Roberts",
+      "album": "Turn off the Lights",
+      "popularity": 67,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.745,
+      "valence": 0.888,
+      "danceability": 0.824,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.075,
+      "duration_ms": 210546,
+      "slug": "turn-off-the-lights-chris-lake"
+    },
+    {
+      "name": "Flying",
+      "artists": "Curbi",
+      "album": "Flying",
+      "popularity": 67,
+      "tempo": 130.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.219,
+      "danceability": 0.747,
+      "acousticness": 0.24,
+      "instrumentalness": 0.807,
+      "loudness": -7.3,
+      "speechiness": 0.034,
+      "duration_ms": 184836,
+      "slug": "flying-curbi"
+    },
+    {
+      "name": "Great Spirit",
+      "artists": "Armin van Buuren;Vini Vici;Hilight Tribe",
+      "album": "Great Spirit",
+      "popularity": 66,
+      "tempo": 103.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.211,
+      "danceability": 0.592,
+      "acousticness": 0.006,
+      "instrumentalness": 0.012,
+      "loudness": -8.0,
+      "speechiness": 0.066,
+      "duration_ms": 215773,
+      "slug": "great-spirit-armin-van-buuren"
+    },
+    {
+      "name": "Instagram",
+      "artists": "Dimitri Vegas & Like Mike;David Guetta;Daddy Yankee;Afro Bros;Natti Natasha;Dimitri Vegas;Like Mike",
+      "album": "Instagram",
+      "popularity": 66,
+      "tempo": 96.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.906,
+      "valence": 0.95,
+      "danceability": 0.765,
+      "acousticness": 0.125,
+      "instrumentalness": 0.0,
+      "loudness": -2.1,
+      "speechiness": 0.097,
+      "duration_ms": 184558,
+      "slug": "instagram-dimitri-vegas-like-mike"
+    },
+    {
+      "name": "We Are The People (feat. Bono & The Edge) - Official UEFA EURO 2020 Song",
+      "artists": "Martin Garrix;Bono;The Edge",
+      "album": "We Are The People (feat. Bono & The Edge) [Official UEFA EURO 2020 Song]",
+      "popularity": 66,
+      "tempo": 119.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.304,
+      "danceability": 0.66,
+      "acousticness": 0.248,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.036,
+      "duration_ms": 217000,
+      "slug": "we-are-the-people-feat-bono-the-edge-official-uefa-euro-2020-song-martin-garrix"
+    },
+    {
+      "name": "Fade Away",
+      "artists": "Morgan Page;VIVID",
+      "album": "Fade Away",
+      "popularity": 66,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.703,
+      "valence": 0.172,
+      "danceability": 0.694,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.059,
+      "duration_ms": 150250,
+      "slug": "fade-away-morgan-page"
+    },
+    {
+      "name": "Blah Blah Blah",
+      "artists": "Armin van Buuren",
+      "album": "Balance",
+      "popularity": 66,
+      "tempo": 138.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.179,
+      "danceability": 0.612,
+      "acousticness": 0.009,
+      "instrumentalness": 0.004,
+      "loudness": -3.9,
+      "speechiness": 0.053,
+      "duration_ms": 183518,
+      "slug": "blah-blah-blah-armin-van-buuren"
+    },
+    {
+      "name": "Kids (feat. MKLA)",
+      "artists": "KSHMR;Stefy De Cicco;MKLA",
+      "album": "Kids (feat. MKLA)",
+      "popularity": 66,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.302,
+      "danceability": 0.744,
+      "acousticness": 0.011,
+      "instrumentalness": 0.054,
+      "loudness": -4.8,
+      "speechiness": 0.106,
+      "duration_ms": 184687,
+      "slug": "kids-feat-mkla-kshmr"
+    },
+    {
+      "name": "One Last Dance",
+      "artists": "Audien;XIRA",
+      "album": "One Last Dance",
+      "popularity": 66,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.24,
+      "danceability": 0.713,
+      "acousticness": 0.164,
+      "instrumentalness": 0.034,
+      "loudness": -7.0,
+      "speechiness": 0.045,
+      "duration_ms": 184000,
+      "slug": "one-last-dance-audien"
+    },
+    {
+      "name": "Thinking About You (feat. Ayah Marar)",
+      "artists": "Calvin Harris;Ayah Marar",
+      "album": "18 Months",
+      "popularity": 66,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.874,
+      "valence": 0.748,
+      "danceability": 0.725,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.04,
+      "duration_ms": 247933,
+      "slug": "thinking-about-you-feat-ayah-marar-calvin-harris"
+    },
+    {
+      "name": "Hot Air Balloon",
+      "artists": "Don Diablo;AR/CO",
+      "album": "FOR\u039eV\u039eR (D\u039eLUX\u039e \u039eDITION)",
+      "popularity": 66,
+      "tempo": 123.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.71,
+      "valence": 0.572,
+      "danceability": 0.815,
+      "acousticness": 0.129,
+      "instrumentalness": 0.528,
+      "loudness": -6.4,
+      "speechiness": 0.047,
+      "duration_ms": 173658,
+      "slug": "hot-air-balloon-don-diablo"
+    },
+    {
+      "name": "Let's Go (feat. Ne-Yo)",
+      "artists": "Calvin Harris;Ne-Yo",
+      "album": "18 Months",
+      "popularity": 66,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.882,
+      "valence": 0.875,
+      "danceability": 0.71,
+      "acousticness": 0.008,
+      "instrumentalness": 0.008,
+      "loudness": -2.9,
+      "speechiness": 0.059,
+      "duration_ms": 232800,
+      "slug": "lets-go-feat-ne-yo-calvin-harris"
+    },
+    {
+      "name": "Whistle (feat. Bertie Scott)",
+      "artists": "Laidback Luke;Tribbs;Bertie Scott",
+      "album": "Whistle (feat. Bertie Scott)",
+      "popularity": 66,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.922,
+      "valence": 0.716,
+      "danceability": 0.832,
+      "acousticness": 0.036,
+      "instrumentalness": 0.027,
+      "loudness": -3.9,
+      "speechiness": 0.071,
+      "duration_ms": 140156,
+      "slug": "whistle-feat-bertie-scott-laidback-luke"
+    },
+    {
+      "name": "Heaven",
+      "artists": "Dimitri Vegas & Like Mike;Azteck;Hayley May",
+      "album": "Heaven",
+      "popularity": 66,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.853,
+      "valence": 0.593,
+      "danceability": 0.716,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.03,
+      "duration_ms": 178294,
+      "slug": "heaven-dimitri-vegas-like-mike"
+    },
+    {
+      "name": "Walk Thru Fire",
+      "artists": "Vicetone",
+      "album": "Walk Thru Fire",
+      "popularity": 65,
+      "tempo": 116.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.351,
+      "danceability": 0.639,
+      "acousticness": 0.329,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.036,
+      "duration_ms": 194482,
+      "slug": "walk-thru-fire-vicetone"
+    },
+    {
+      "name": "Forever Young",
+      "artists": "John De Sohn;LIAMOO",
+      "album": "Made For You",
+      "popularity": 65,
+      "tempo": 122.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.621,
+      "valence": 0.584,
+      "danceability": 0.653,
+      "acousticness": 0.178,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.031,
+      "duration_ms": 167911,
+      "slug": "forever-young-john-de-sohn"
+    },
+    {
+      "name": "Love You Better",
+      "artists": "John De Sohn;Rasmus Hagen",
+      "album": "Made For You",
+      "popularity": 65,
+      "tempo": 103.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.785,
+      "valence": 0.796,
+      "danceability": 0.733,
+      "acousticness": 0.093,
+      "instrumentalness": 0.001,
+      "loudness": -7.5,
+      "speechiness": 0.042,
+      "duration_ms": 170893,
+      "slug": "love-you-better-john-de-sohn"
+    },
+    {
+      "name": "Not So Bad (feat. Emie)",
+      "artists": "Yves V;Ilkay Sencan;Emie",
+      "album": "Not So Bad (feat. Emie)",
+      "popularity": 65,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.674,
+      "valence": 0.231,
+      "danceability": 0.74,
+      "acousticness": 0.009,
+      "instrumentalness": 0.238,
+      "loudness": -4.4,
+      "speechiness": 0.048,
+      "duration_ms": 153696,
+      "slug": "not-so-bad-feat-emie-yves-v"
+    },
+    {
+      "name": "Tsunami",
+      "artists": "DVBBS;Borgeous",
+      "album": "Tsunami",
+      "popularity": 65,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.839,
+      "valence": 0.264,
+      "danceability": 0.699,
+      "acousticness": 0.048,
+      "instrumentalness": 0.655,
+      "loudness": -5.4,
+      "speechiness": 0.048,
+      "duration_ms": 236706,
+      "slug": "tsunami-dvbbs"
+    },
+    {
+      "name": "I FEEL LIKE DANCING",
+      "artists": "Hardwell",
+      "album": "I FEEL LIKE DANCING",
+      "popularity": 65,
+      "tempo": 132.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.966,
+      "valence": 0.193,
+      "danceability": 0.554,
+      "acousticness": 0.001,
+      "instrumentalness": 0.838,
+      "loudness": -3.7,
+      "speechiness": 0.106,
+      "duration_ms": 225681,
+      "slug": "i-feel-like-dancing-hardwell"
+    },
+    {
+      "name": "Don't Hurt Me (What Is Love)",
+      "artists": "Yves V;Conor Maynard",
+      "album": "Don't Hurt Me (What Is Love)",
+      "popularity": 65,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.804,
+      "valence": 0.614,
+      "danceability": 0.758,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.036,
+      "duration_ms": 157000,
+      "slug": "dont-hurt-me-what-is-love-yves-v"
+    },
+    {
+      "name": "Vertigo",
+      "artists": "Curbi;PollyAnna",
+      "album": "Vertigo",
+      "popularity": 65,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.846,
+      "valence": 0.334,
+      "danceability": 0.785,
+      "acousticness": 0.083,
+      "instrumentalness": 0.803,
+      "loudness": -6.5,
+      "speechiness": 0.043,
+      "duration_ms": 167509,
+      "slug": "vertigo-curbi"
+    },
+    {
+      "name": "One (Your Name) - Radio Edit",
+      "artists": "Swedish House Mafia;Pharrell Williams",
+      "album": "One (Your Name)",
+      "popularity": 65,
+      "tempo": 125.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.673,
+      "valence": 0.636,
+      "danceability": 0.733,
+      "acousticness": 0.013,
+      "instrumentalness": 0.005,
+      "loudness": -6.6,
+      "speechiness": 0.033,
+      "duration_ms": 163246,
+      "slug": "one-your-name-radio-edit-swedish-house-mafia"
+    }
+  ]
+}

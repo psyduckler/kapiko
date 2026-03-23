@@ -1,0 +1,2802 @@
+{
+  "genre": "Hardcore",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 49.305,
+    "max": 206.247,
+    "mean": 109.893,
+    "median": 96.157,
+    "q1": 92.174,
+    "q3": 112.49,
+    "histogram": {
+      "50-59": 1,
+      "70-79": 1,
+      "80-89": 12,
+      "90-99": 49,
+      "100-109": 12,
+      "110-119": 5,
+      "130-139": 5,
+      "140-149": 1,
+      "150-159": 2,
+      "170-179": 4,
+      "180-189": 3,
+      "190-199": 2,
+      "200+": 3
+    }
+  },
+  "key_distribution": {
+    "A#/Bb": 15,
+    "B": 14,
+    "C#/Db": 13,
+    "E": 11,
+    "A": 9,
+    "F#/Gb": 8,
+    "G#/Ab": 7,
+    "C": 7,
+    "G": 5,
+    "F": 5,
+    "D": 4,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 48,
+    "Minor": 52
+  },
+  "key_mode_distribution": {
+    "A#/Bb Minor": 14,
+    "C#/Db Major": 12,
+    "B Minor": 10,
+    "E Minor": 9,
+    "F#/Gb Minor": 7,
+    "C Major": 6,
+    "A Major": 5,
+    "G Major": 5,
+    "G#/Ab Major": 5,
+    "A Minor": 4,
+    "B Major": 4,
+    "D Major": 4,
+    "F Minor": 3,
+    "G#/Ab Minor": 2,
+    "F Major": 2,
+    "E Major": 2,
+    "F#/Gb Major": 1,
+    "C Minor": 1,
+    "D#/Eb Major": 1,
+    "C#/Db Minor": 1,
+    "D#/Eb Minor": 1,
+    "A#/Bb Major": 1
+  },
+  "energy": {
+    "min": 0.361,
+    "max": 0.996,
+    "mean": 0.736,
+    "median": 0.725,
+    "q1": 0.63,
+    "q3": 0.862
+  },
+  "valence": {
+    "min": 0.036,
+    "max": 0.947,
+    "mean": 0.605,
+    "median": 0.658,
+    "q1": 0.461,
+    "q3": 0.781
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.697,
+      "valence": 0.67
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.773
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.786,
+      "valence": 0.504
+    },
+    {
+      "energy": 0.818,
+      "valence": 0.782
+    },
+    {
+      "energy": 0.549,
+      "valence": 0.576
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.904
+    },
+    {
+      "energy": 0.611,
+      "valence": 0.769
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.919
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.827
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.632
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.798
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.887
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.418
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.397
+    },
+    {
+      "energy": 0.931,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.241
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.792
+    },
+    {
+      "energy": 0.672,
+      "valence": 0.688
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.869
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.864
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.358
+    },
+    {
+      "energy": 0.564,
+      "valence": 0.523
+    },
+    {
+      "energy": 0.577,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.986,
+      "valence": 0.501
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.744
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.711,
+      "valence": 0.947
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.501,
+      "valence": 0.096
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.727
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.737
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.742
+    },
+    {
+      "energy": 0.794,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.193
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.444
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.841
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.6
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.929
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.675
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.546,
+      "valence": 0.086
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.68
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.642,
+      "valence": 0.765
+    },
+    {
+      "energy": 0.512,
+      "valence": 0.454
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.566,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.808,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.642,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.931,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.814
+    },
+    {
+      "energy": 0.996,
+      "valence": 0.461
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.627
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.839
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.838
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.712
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.818
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.68,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.556
+    },
+    {
+      "energy": 0.361,
+      "valence": 0.799
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.228
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.559
+    },
+    {
+      "energy": 0.893,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.6,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.618
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.698,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.639,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.063
+    },
+    {
+      "energy": 0.785,
+      "valence": 0.821
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.736
+    },
+    {
+      "energy": 0.807,
+      "valence": 0.409
+    },
+    {
+      "energy": 0.734,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.995,
+      "valence": 0.262
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.753
+    },
+    {
+      "energy": 0.771,
+      "valence": 0.516
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.691
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.822
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.735,
+    "mean": 0.113,
+    "median": 0.056,
+    "q1": 0.016,
+    "q3": 0.158
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.878,
+    "mean": 0.05,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.001
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.43,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.847
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.47,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.57,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.186
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.055,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.156,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.344,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.208,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.125,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.151,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.125,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.148,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.203,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.048
+    },
+    {
+      "acousticness": 0.173,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.184,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.466,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.443,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.274,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.193,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.184,
+      "instrumentalness": 0.266
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.256,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.127,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.32,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.083,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.275,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.199,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.878
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.127,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.083,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.043
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.822
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.074
+    },
+    {
+      "acousticness": 0.17,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.674
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.364
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.626
+    },
+    {
+      "acousticness": 0.301,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.735,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 82133,
+    "max": 366880,
+    "mean": 244073.8,
+    "median": 237799.5,
+    "q1": 212293,
+    "q3": 286440
+  },
+  "danceability": {
+    "min": 0.198,
+    "max": 0.936,
+    "mean": 0.715,
+    "median": 0.756,
+    "q1": 0.612,
+    "q3": 0.835
+  },
+  "loudness": {
+    "min": -14.728,
+    "max": -0.45,
+    "mean": -6.405,
+    "median": -6.184,
+    "q1": -8.145,
+    "q3": -4.506
+  },
+  "speechiness": {
+    "min": 0.03,
+    "max": 0.5,
+    "mean": 0.244,
+    "median": 0.252,
+    "q1": 0.173,
+    "q3": 0.327
+  },
+  "top_artists": [
+    {
+      "name": "The Notorious B.I.G.",
+      "count": 14
+    },
+    {
+      "name": "Nas",
+      "count": 8
+    },
+    {
+      "name": "Method Man",
+      "count": 7
+    },
+    {
+      "name": "Fat Joe",
+      "count": 6
+    },
+    {
+      "name": "Crystal Castles",
+      "count": 4
+    },
+    {
+      "name": "Wu-Tang Clan",
+      "count": 4
+    },
+    {
+      "name": "Inspectah Deck",
+      "count": 4
+    },
+    {
+      "name": "DMX",
+      "count": 4
+    },
+    {
+      "name": "N.W.A.",
+      "count": 4
+    },
+    {
+      "name": "Mobb Deep",
+      "count": 3
+    },
+    {
+      "name": "Raekwon",
+      "count": 3
+    },
+    {
+      "name": "Rise Against",
+      "count": 3
+    },
+    {
+      "name": "The Alchemist",
+      "count": 3
+    },
+    {
+      "name": "Busta Rhymes",
+      "count": 3
+    },
+    {
+      "name": "A Tribe Called Quest",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Hypnotize - 2014 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Life After Death (2014 Remastered Edition)",
+      "popularity": 80,
+      "tempo": 93.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.697,
+      "valence": 0.67,
+      "danceability": 0.901,
+      "acousticness": 0.145,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.28,
+      "duration_ms": 229826,
+      "slug": "hypnotize-2014-remaster-the-notorious-big"
+    },
+    {
+      "name": "Big Poppa - 2005 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Ready to Die (The Remaster)",
+      "popularity": 79,
+      "tempo": 84.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.575,
+      "valence": 0.773,
+      "danceability": 0.78,
+      "acousticness": 0.43,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.273,
+      "duration_ms": 252746,
+      "slug": "big-poppa-2005-remaster-the-notorious-big"
+    },
+    {
+      "name": "Transgender",
+      "artists": "Crystal Castles",
+      "album": "(III)",
+      "popularity": 76,
+      "tempo": 137.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.036,
+      "danceability": 0.522,
+      "acousticness": 0.0,
+      "instrumentalness": 0.847,
+      "loudness": -8.3,
+      "speechiness": 0.038,
+      "duration_ms": 184760,
+      "slug": "transgender-crystal-castles"
+    },
+    {
+      "name": "Shook Ones, Pt. II",
+      "artists": "Mobb Deep",
+      "album": "The Infamous",
+      "popularity": 76,
+      "tempo": 93.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.786,
+      "valence": 0.504,
+      "danceability": 0.763,
+      "acousticness": 0.015,
+      "instrumentalness": 0.011,
+      "loudness": -6.5,
+      "speechiness": 0.229,
+      "duration_ms": 325506,
+      "slug": "shook-ones-pt-ii-mobb-deep"
+    },
+    {
+      "name": "Juicy - 2005 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Ready to Die (The Remaster)",
+      "popularity": 76,
+      "tempo": 96.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.818,
+      "valence": 0.782,
+      "danceability": 0.889,
+      "acousticness": 0.47,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.253,
+      "duration_ms": 302760,
+      "slug": "juicy-2005-remaster-the-notorious-big"
+    },
+    {
+      "name": "C.R.E.A.M. (Cash Rules Everything Around Me) (feat. Method Man, Raekwon, Inspectah Deck & Buddha Monk)",
+      "artists": "Wu-Tang Clan;Method Man;Raekwon;Inspectah Deck;Buddha Monk",
+      "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
+      "popularity": 75,
+      "tempo": 181.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.549,
+      "valence": 0.576,
+      "danceability": 0.479,
+      "acousticness": 0.57,
+      "instrumentalness": 0.024,
+      "loudness": -10.6,
+      "speechiness": 0.373,
+      "duration_ms": 252186,
+      "slug": "cream-cash-rules-everything-around-me-feat-method-man-raekwon-inspectah-deck-bud"
+    },
+    {
+      "name": "Savior",
+      "artists": "Rise Against",
+      "album": "Appeal To Reason",
+      "popularity": 75,
+      "tempo": 112.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.932,
+      "valence": 0.478,
+      "danceability": 0.554,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.049,
+      "duration_ms": 242280,
+      "slug": "savior-rise-against"
+    },
+    {
+      "name": "Mo Money Mo Problems (feat. Puff Daddy & Mase) - 2014 Remaster",
+      "artists": "The Notorious B.I.G.;Mase;Diddy",
+      "album": "Life After Death (2014 Remastered Edition)",
+      "popularity": 75,
+      "tempo": 104.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.884,
+      "valence": 0.904,
+      "danceability": 0.845,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.076,
+      "duration_ms": 257399,
+      "slug": "mo-money-mo-problems-feat-puff-daddy-mase-2014-remaster-the-notorious-big"
+    },
+    {
+      "name": "Insane in the Brain",
+      "artists": "Cypress Hill",
+      "album": "Black Sunday",
+      "popularity": 75,
+      "tempo": 102.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.611,
+      "valence": 0.769,
+      "danceability": 0.897,
+      "acousticness": 0.029,
+      "instrumentalness": 0.186,
+      "loudness": -10.5,
+      "speechiness": 0.211,
+      "duration_ms": 208266,
+      "slug": "insane-in-the-brain-cypress-hill"
+    },
+    {
+      "name": "X Gon' Give It To Ya",
+      "artists": "DMX",
+      "album": "The Definition Of X: Pick Of The Litter",
+      "popularity": 74,
+      "tempo": 95.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.899,
+      "valence": 0.673,
+      "danceability": 0.761,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.183,
+      "duration_ms": 217586,
+      "slug": "x-gon-give-it-to-ya-dmx"
+    },
+    {
+      "name": "What's Luv? (feat. Ja-Rule & Ashanti)",
+      "artists": "Fat Joe;Ja Rule;Ashanti",
+      "album": "Jealous Ones Still Envy (J.O.S.E)",
+      "popularity": 74,
+      "tempo": 94.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.707,
+      "valence": 0.919,
+      "danceability": 0.835,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.06,
+      "duration_ms": 267093,
+      "slug": "whats-luv-feat-ja-rule-ashanti-fat-joe"
+    },
+    {
+      "name": "Jump Around - 30 Years Remaster",
+      "artists": "House Of Pain",
+      "album": "House of Pain (Fine Malt Lyrics) [30 Years] [Deluxe Edition]",
+      "popularity": 74,
+      "tempo": 106.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.823,
+      "valence": 0.827,
+      "danceability": 0.811,
+      "acousticness": 0.055,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.042,
+      "duration_ms": 218546,
+      "slug": "jump-around-30-years-remaster-house-of-pain"
+    },
+    {
+      "name": "Se Acabo (feat. Method Man) - Remix",
+      "artists": "The Beatnuts;Method Man",
+      "album": "Take It Or Squeeze It",
+      "popularity": 72,
+      "tempo": 97.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.519,
+      "valence": 0.884,
+      "danceability": 0.935,
+      "acousticness": 0.156,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.31,
+      "duration_ms": 212293,
+      "slug": "se-acabo-feat-method-man-remix-the-beatnuts"
+    },
+    {
+      "name": "Hypnotize - 2007 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Greatest Hits",
+      "popularity": 72,
+      "tempo": 93.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.632,
+      "danceability": 0.895,
+      "acousticness": 0.176,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.275,
+      "duration_ms": 230000,
+      "slug": "hypnotize-2007-remaster-the-notorious-big"
+    },
+    {
+      "name": "Big Poppa - 2007 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Greatest Hits",
+      "popularity": 72,
+      "tempo": 84.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.671,
+      "valence": 0.798,
+      "danceability": 0.765,
+      "acousticness": 0.344,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.278,
+      "duration_ms": 249866,
+      "slug": "big-poppa-2007-remaster-the-notorious-big"
+    },
+    {
+      "name": "N.Y. State of Mind",
+      "artists": "Nas",
+      "album": "Illmatic",
+      "popularity": 72,
+      "tempo": 84.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.91,
+      "valence": 0.887,
+      "danceability": 0.665,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.223,
+      "duration_ms": 293973,
+      "slug": "ny-state-of-mind-nas"
+    },
+    {
+      "name": "Straight Outta Compton",
+      "artists": "N.W.A.",
+      "album": "Straight Outta Compton",
+      "popularity": 72,
+      "tempo": 102.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.418,
+      "danceability": 0.834,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.15,
+      "duration_ms": 258687,
+      "slug": "straight-outta-compton-nwa"
+    },
+    {
+      "name": "E. Coli (feat. Earl Sweatshirt)",
+      "artists": "The Alchemist;Earl Sweatshirt",
+      "album": "Bread",
+      "popularity": 72,
+      "tempo": 96.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.555,
+      "valence": 0.397,
+      "danceability": 0.322,
+      "acousticness": 0.208,
+      "instrumentalness": 0.004,
+      "loudness": -8.7,
+      "speechiness": 0.129,
+      "duration_ms": 132147,
+      "slug": "e-coli-feat-earl-sweatshirt-the-alchemist"
+    },
+    {
+      "name": "Party Up",
+      "artists": "DMX",
+      "album": "...And Then There Was X",
+      "popularity": 72,
+      "tempo": 201.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.931,
+      "valence": 0.53,
+      "danceability": 0.51,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.347,
+      "duration_ms": 268866,
+      "slug": "party-up-dmx"
+    },
+    {
+      "name": "Fuck Tha Police",
+      "artists": "N.W.A.",
+      "album": "Straight Outta Compton",
+      "popularity": 71,
+      "tempo": 98.7,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.75,
+      "valence": 0.857,
+      "danceability": 0.859,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.303,
+      "duration_ms": 345717,
+      "slug": "fuck-tha-police-nwa"
+    },
+    {
+      "name": "Survival of the Fittest",
+      "artists": "Mobb Deep",
+      "album": "The Infamous",
+      "popularity": 71,
+      "tempo": 94.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.703,
+      "valence": 0.241,
+      "danceability": 0.813,
+      "acousticness": 0.125,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.268,
+      "duration_ms": 224533,
+      "slug": "survival-of-the-fittest-mobb-deep"
+    },
+    {
+      "name": "Where The Hood At",
+      "artists": "DMX",
+      "album": "Grand Champ",
+      "popularity": 71,
+      "tempo": 186.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.948,
+      "valence": 0.792,
+      "danceability": 0.537,
+      "acousticness": 0.151,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.355,
+      "duration_ms": 286266,
+      "slug": "where-the-hood-at-dmx"
+    },
+    {
+      "name": "93 'Til Infinity",
+      "artists": "Souls Of Mischief",
+      "album": "93 'til Infinity",
+      "popularity": 71,
+      "tempo": 206.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.672,
+      "valence": 0.688,
+      "danceability": 0.59,
+      "acousticness": 0.125,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.412,
+      "duration_ms": 286440,
+      "slug": "93-til-infinity-souls-of-mischief"
+    },
+    {
+      "name": "Ms. Fat Booty",
+      "artists": "Mos Def",
+      "album": "Black On Both Sides",
+      "popularity": 71,
+      "tempo": 90.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.589,
+      "valence": 0.869,
+      "danceability": 0.782,
+      "acousticness": 0.148,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.189,
+      "duration_ms": 223546,
+      "slug": "ms-fat-booty-mos-def"
+    },
+    {
+      "name": "Still Not a Player (feat. Joe) - Radio Version",
+      "artists": "Big Pun;Joe",
+      "album": "Capital Punishment (Explicit Version)",
+      "popularity": 71,
+      "tempo": 94.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.619,
+      "valence": 0.864,
+      "danceability": 0.9,
+      "acousticness": 0.203,
+      "instrumentalness": 0.002,
+      "loudness": -6.5,
+      "speechiness": 0.312,
+      "duration_ms": 236800,
+      "slug": "still-not-a-player-feat-joe-radio-version-big-pun"
+    },
+    {
+      "name": "Hail Mary",
+      "artists": "Makaveli",
+      "album": "The Don Killuminati: The 7 Day Theory",
+      "popularity": 70,
+      "tempo": 81.6,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.636,
+      "valence": 0.358,
+      "danceability": 0.696,
+      "acousticness": 0.158,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.335,
+      "duration_ms": 309800,
+      "slug": "hail-mary-makaveli"
+    },
+    {
+      "name": "If I Ruled the World (Imagine That) (feat. Lauryn Hill)",
+      "artists": "Nas;Ms. Lauryn Hill",
+      "album": "It Was Written",
+      "popularity": 70,
+      "tempo": 93.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.564,
+      "valence": 0.523,
+      "danceability": 0.879,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.247,
+      "duration_ms": 282373,
+      "slug": "if-i-ruled-the-world-imagine-that-feat-lauryn-hill-nas"
+    },
+    {
+      "name": "Ruff Ryders' Anthem",
+      "artists": "DMX",
+      "album": "It's Dark And Hell Is Hot",
+      "popularity": 70,
+      "tempo": 91.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.577,
+      "valence": 0.74,
+      "danceability": 0.88,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.302,
+      "duration_ms": 214440,
+      "slug": "ruff-ryders-anthem-dmx"
+    },
+    {
+      "name": "I Know What You Want (feat. Flipmode Squad)",
+      "artists": "Busta Rhymes;Mariah Carey;Flipmode Squad",
+      "album": "It Ain't Safe No More. . .",
+      "popularity": 70,
+      "tempo": 86.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.759,
+      "valence": 0.518,
+      "danceability": 0.648,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.306,
+      "duration_ms": 324306,
+      "slug": "i-know-what-you-want-feat-flipmode-squad-busta-rhymes"
+    },
+    {
+      "name": "Looking Down the Barrel of Today",
+      "artists": "Hatebreed",
+      "album": "The Concrete Confessional",
+      "popularity": 70,
+      "tempo": 180.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.986,
+      "valence": 0.501,
+      "danceability": 0.486,
+      "acousticness": 0.001,
+      "instrumentalness": 0.048,
+      "loudness": -4.7,
+      "speechiness": 0.082,
+      "duration_ms": 161626,
+      "slug": "looking-down-the-barrel-of-today-hatebreed"
+    },
+    {
+      "name": "Can I Kick It?",
+      "artists": "A Tribe Called Quest",
+      "album": "People's Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition)",
+      "popularity": 70,
+      "tempo": 96.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.744,
+      "danceability": 0.848,
+      "acousticness": 0.173,
+      "instrumentalness": 0.001,
+      "loudness": -6.5,
+      "speechiness": 0.274,
+      "duration_ms": 251573,
+      "slug": "can-i-kick-it-a-tribe-called-quest"
+    },
+    {
+      "name": "Passin' Me By",
+      "artists": "The Pharcyde",
+      "album": "Bizarre Ride II The Pharcyde",
+      "popularity": 70,
+      "tempo": 87.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.756,
+      "valence": 0.613,
+      "danceability": 0.759,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.266,
+      "duration_ms": 303493,
+      "slug": "passin-me-by-the-pharcyde"
+    },
+    {
+      "name": "Walk This Way (feat. Aerosmith)",
+      "artists": "Run\u2013D.M.C.;Aerosmith",
+      "album": "Raising Hell",
+      "popularity": 70,
+      "tempo": 105.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.711,
+      "valence": 0.947,
+      "danceability": 0.761,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.06,
+      "duration_ms": 310386,
+      "slug": "walk-this-way-feat-aerosmith-rundmc"
+    },
+    {
+      "name": "Crimewave",
+      "artists": "Crystal Castles",
+      "album": "Crystal Castles",
+      "popularity": 69,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.691,
+      "valence": 0.888,
+      "danceability": 0.746,
+      "acousticness": 0.184,
+      "instrumentalness": 0.026,
+      "loudness": -7.5,
+      "speechiness": 0.04,
+      "duration_ms": 258453,
+      "slug": "crimewave-crystal-castles"
+    },
+    {
+      "name": "Vanished",
+      "artists": "Crystal Castles",
+      "album": "Crystal Castles",
+      "popularity": 69,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.868,
+      "valence": 0.641,
+      "danceability": 0.713,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.03,
+      "duration_ms": 242960,
+      "slug": "vanished-crystal-castles"
+    },
+    {
+      "name": "Suicidal Thoughts - 2005 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Ready to Die (The Remaster; 2015 Remaster)",
+      "popularity": 69,
+      "tempo": 78.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.501,
+      "valence": 0.096,
+      "danceability": 0.604,
+      "acousticness": 0.466,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.425,
+      "duration_ms": 170213,
+      "slug": "suicidal-thoughts-2005-remaster-the-notorious-big"
+    },
+    {
+      "name": "Boyz-N-The-Hood",
+      "artists": "Eazy-E",
+      "album": "N.W.A. And The Posse",
+      "popularity": 69,
+      "tempo": 87.7,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.479,
+      "valence": 0.727,
+      "danceability": 0.785,
+      "acousticness": 0.042,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.362,
+      "duration_ms": 339893,
+      "slug": "boyz-n-the-hood-eazy-e"
+    },
+    {
+      "name": "Break Ya Neck",
+      "artists": "Busta Rhymes",
+      "album": "Genesis",
+      "popularity": 69,
+      "tempo": 83.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.809,
+      "valence": 0.737,
+      "danceability": 0.82,
+      "acousticness": 0.443,
+      "instrumentalness": 0.002,
+      "loudness": -6.8,
+      "speechiness": 0.251,
+      "duration_ms": 231240,
+      "slug": "break-ya-neck-busta-rhymes"
+    },
+    {
+      "name": "Da Rockwilder",
+      "artists": "Method Man;Redman",
+      "album": "Blackout!",
+      "popularity": 69,
+      "tempo": 99.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.659,
+      "valence": 0.393,
+      "danceability": 0.612,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.406,
+      "duration_ms": 136093,
+      "slug": "da-rockwilder-method-man"
+    },
+    {
+      "name": "Notorious Thugs - 2014 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Life After Death (2014 Remastered Edition)",
+      "popularity": 68,
+      "tempo": 154.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.873,
+      "valence": 0.742,
+      "danceability": 0.704,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.144,
+      "duration_ms": 366880,
+      "slug": "notorious-thugs-2014-remaster-the-notorious-big"
+    },
+    {
+      "name": "The World Is Yours",
+      "artists": "Nas",
+      "album": "Illmatic",
+      "popularity": 68,
+      "tempo": 87.4,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.794,
+      "valence": 0.54,
+      "danceability": 0.678,
+      "acousticness": 0.274,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.14,
+      "duration_ms": 290573,
+      "slug": "the-world-is-yours-nas"
+    },
+    {
+      "name": "Party and Bullshit - 2008 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "NOTORIOUS Music From and Inspired by the Original Motion Picture",
+      "popularity": 68,
+      "tempo": 200.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.862,
+      "valence": 0.722,
+      "danceability": 0.433,
+      "acousticness": 0.193,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.412,
+      "duration_ms": 217000,
+      "slug": "party-and-bullshit-2008-remaster-the-notorious-big"
+    },
+    {
+      "name": "Shimmy Shimmy Ya",
+      "artists": "Ol' Dirty Bastard",
+      "album": "Return to the 36 Chambers: The Dirty Version",
+      "popularity": 68,
+      "tempo": 96.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.193,
+      "danceability": 0.814,
+      "acousticness": 0.097,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.245,
+      "duration_ms": 161400,
+      "slug": "shimmy-shimmy-ya-ol-dirty-bastard"
+    },
+    {
+      "name": "Satellite",
+      "artists": "Rise Against",
+      "album": "Endgame",
+      "popularity": 68,
+      "tempo": 134.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.94,
+      "valence": 0.444,
+      "danceability": 0.387,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.053,
+      "duration_ms": 238573,
+      "slug": "satellite-rise-against"
+    },
+    {
+      "name": "Electric Relaxation",
+      "artists": "A Tribe Called Quest",
+      "album": "The Anthology",
+      "popularity": 68,
+      "tempo": 98.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.534,
+      "valence": 0.841,
+      "danceability": 0.866,
+      "acousticness": 0.184,
+      "instrumentalness": 0.266,
+      "loudness": -9.2,
+      "speechiness": 0.229,
+      "duration_ms": 226133,
+      "slug": "electric-relaxation-a-tribe-called-quest"
+    },
+    {
+      "name": "Lean Back",
+      "artists": "Terror Squad;Fat Joe;Remy Ma",
+      "album": "True Story",
+      "popularity": 67,
+      "tempo": 95.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.916,
+      "valence": 0.695,
+      "danceability": 0.783,
+      "acousticness": 0.11,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.415,
+      "duration_ms": 247426,
+      "slug": "lean-back-terror-squad"
+    },
+    {
+      "name": "Who Shot Ya? - 2005 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Ready to Die (The Remaster)",
+      "popularity": 67,
+      "tempo": 91.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.6,
+      "danceability": 0.831,
+      "acousticness": 0.256,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.238,
+      "duration_ms": 319360,
+      "slug": "who-shot-ya-2005-remaster-the-notorious-big"
+    },
+    {
+      "name": "Nas Is Like",
+      "artists": "Nas",
+      "album": "I Am...",
+      "popularity": 67,
+      "tempo": 94.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.845,
+      "valence": 0.929,
+      "danceability": 0.634,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.352,
+      "duration_ms": 237026,
+      "slug": "nas-is-like-nas"
+    },
+    {
+      "name": "Gangsta Nation",
+      "artists": "Westside Connection",
+      "album": "Terrorist Threats",
+      "popularity": 67,
+      "tempo": 95.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.7,
+      "valence": 0.675,
+      "danceability": 0.843,
+      "acousticness": 0.127,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.26,
+      "duration_ms": 293053,
+      "slug": "gangsta-nation-westside-connection"
+    },
+    {
+      "name": "Twinz (feat. Fat Joe)",
+      "artists": "Big Pun;Fat Joe",
+      "album": "Capital Punishment (Explicit Version)",
+      "popularity": 67,
+      "tempo": 95.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.764,
+      "valence": 0.522,
+      "danceability": 0.633,
+      "acousticness": 0.32,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.323,
+      "duration_ms": 228173,
+      "slug": "twinz-feat-fat-joe-big-pun"
+    },
+    {
+      "name": "Kerosene",
+      "artists": "Crystal Castles",
+      "album": "(III)",
+      "popularity": 67,
+      "tempo": 115.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.546,
+      "valence": 0.086,
+      "danceability": 0.519,
+      "acousticness": 0.083,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.076,
+      "duration_ms": 192000,
+      "slug": "kerosene-crystal-castles"
+    },
+    {
+      "name": "Gimme the Loot - 2005 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Ready to Die (The Remaster)",
+      "popularity": 67,
+      "tempo": 94.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.68,
+      "danceability": 0.721,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.403,
+      "duration_ms": 285946,
+      "slug": "gimme-the-loot-2005-remaster-the-notorious-big"
+    },
+    {
+      "name": "Protect Ya Neck (feat. RZA, Method Man, Inspectah Deck, Raekwon, U-God, Ol' Dirty Bastard, Ghostface Killah & GZA)",
+      "artists": "Wu-Tang Clan;RZA;Method Man;Inspectah Deck;Raekwon;U-God;Ol' Dirty Bastard;Ghostface Killah;GZA",
+      "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
+      "popularity": 67,
+      "tempo": 102.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.552,
+      "valence": 0.808,
+      "danceability": 0.817,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.385,
+      "duration_ms": 291066,
+      "slug": "protect-ya-neck-feat-rza-method-man-inspectah-deck-raekwon-u-god-ol-dirty-bastar"
+    },
+    {
+      "name": "Hip Hop Hooray",
+      "artists": "Naughty By Nature",
+      "album": "19 Naughty III",
+      "popularity": 67,
+      "tempo": 99.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.642,
+      "valence": 0.765,
+      "danceability": 0.862,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.101,
+      "duration_ms": 267266,
+      "slug": "hip-hop-hooray-naughty-by-nature"
+    },
+    {
+      "name": "Mind Playing Tricks on Me",
+      "artists": "Geto Boys",
+      "album": "We Can't Be Stopped",
+      "popularity": 67,
+      "tempo": 94.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.512,
+      "valence": 0.454,
+      "danceability": 0.886,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.237,
+      "duration_ms": 308733,
+      "slug": "mind-playing-tricks-on-me-geto-boys"
+    },
+    {
+      "name": "The Taste of Ink",
+      "artists": "The Used",
+      "album": "The Used",
+      "popularity": 67,
+      "tempo": 98.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.541,
+      "danceability": 0.541,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.043,
+      "duration_ms": 208693,
+      "slug": "the-taste-of-ink-the-used"
+    },
+    {
+      "name": "All The Way Up (feat. Infared)",
+      "artists": "Fat Joe;Remy Ma;French Montana;InfaRed",
+      "album": "All The Way Up (feat. Infared)",
+      "popularity": 66,
+      "tempo": 117.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.721,
+      "valence": 0.393,
+      "danceability": 0.536,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.386,
+      "duration_ms": 191942,
+      "slug": "all-the-way-up-feat-infared-fat-joe"
+    },
+    {
+      "name": "Hell on Earth (Front Lines)",
+      "artists": "Mobb Deep",
+      "album": "Hell On Earth",
+      "popularity": 66,
+      "tempo": 92.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.658,
+      "valence": 0.661,
+      "danceability": 0.875,
+      "acousticness": 0.275,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.359,
+      "duration_ms": 274093,
+      "slug": "hell-on-earth-front-lines-mobb-deep"
+    },
+    {
+      "name": "Prayer Of The Refugee",
+      "artists": "Rise Against",
+      "album": "The Sufferer & The Witness",
+      "popularity": 66,
+      "tempo": 195.8,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.977,
+      "valence": 0.351,
+      "danceability": 0.198,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.173,
+      "duration_ms": 199386,
+      "slug": "prayer-of-the-refugee-rise-against"
+    },
+    {
+      "name": "Wu-Tang Clan Ain't Nuthing ta F' Wit (feat. RZA, Inspectah Deck & Method Man)",
+      "artists": "Wu-Tang Clan;RZA;Inspectah Deck;Method Man",
+      "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
+      "popularity": 66,
+      "tempo": 99.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.566,
+      "valence": 0.655,
+      "danceability": 0.826,
+      "acousticness": 0.199,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.311,
+      "duration_ms": 216133,
+      "slug": "wu-tang-clan-aint-nuthing-ta-f-wit-feat-rza-inspectah-deck-method-man-wu-tang-cl"
+    },
+    {
+      "name": "Breathe",
+      "artists": "The Prodigy",
+      "album": "The Fat of the Land",
+      "popularity": 66,
+      "tempo": 130.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.808,
+      "valence": 0.303,
+      "danceability": 0.673,
+      "acousticness": 0.012,
+      "instrumentalness": 0.878,
+      "loudness": -6.2,
+      "speechiness": 0.049,
+      "duration_ms": 336280,
+      "slug": "breathe-the-prodigy"
+    },
+    {
+      "name": "Shadowboxin'",
+      "artists": "GZA;Method Man",
+      "album": "Liquid Swords",
+      "popularity": 66,
+      "tempo": 92.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.642,
+      "valence": 0.72,
+      "danceability": 0.704,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.39,
+      "duration_ms": 209973,
+      "slug": "shadowboxin-gza"
+    },
+    {
+      "name": "Until the Day I Die",
+      "artists": "Story Of The Year",
+      "album": "Page Avenue",
+      "popularity": 66,
+      "tempo": 92.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.931,
+      "valence": 0.534,
+      "danceability": 0.597,
+      "acousticness": 0.127,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.098,
+      "duration_ms": 235200,
+      "slug": "until-the-day-i-die-story-of-the-year"
+    },
+    {
+      "name": "Work",
+      "artists": "Gang Starr",
+      "album": "Moment Of Truth",
+      "popularity": 66,
+      "tempo": 92.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.832,
+      "valence": 0.814,
+      "danceability": 0.787,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.301,
+      "duration_ms": 177666,
+      "slug": "work-gang-starr"
+    },
+    {
+      "name": "Wanna Play?",
+      "artists": "The Prophet",
+      "album": "Wanna Play?",
+      "popularity": 65,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.996,
+      "valence": 0.461,
+      "danceability": 0.569,
+      "acousticness": 0.198,
+      "instrumentalness": 0.011,
+      "loudness": -0.5,
+      "speechiness": 0.224,
+      "duration_ms": 201451,
+      "slug": "wanna-play-the-prophet"
+    },
+    {
+      "name": "The Message",
+      "artists": "Nas",
+      "album": "It Was Written",
+      "popularity": 65,
+      "tempo": 178.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.485,
+      "danceability": 0.614,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.374,
+      "duration_ms": 234093,
+      "slug": "the-message-nas"
+    },
+    {
+      "name": "Shit Hits The Fan",
+      "artists": "Obie Trice;Dr. Dre",
+      "album": "Cheers",
+      "popularity": 65,
+      "tempo": 92.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.627,
+      "danceability": 0.786,
+      "acousticness": 0.026,
+      "instrumentalness": 0.024,
+      "loudness": -0.8,
+      "speechiness": 0.205,
+      "duration_ms": 292013,
+      "slug": "shit-hits-the-fan-obie-trice"
+    },
+    {
+      "name": "When I B On Tha Mic",
+      "artists": "Rakim",
+      "album": "The Master",
+      "popularity": 65,
+      "tempo": 95.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.839,
+      "danceability": 0.836,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.327,
+      "duration_ms": 222933,
+      "slug": "when-i-b-on-tha-mic-rakim"
+    },
+    {
+      "name": "Chin Check",
+      "artists": "N.W.A.",
+      "album": "The Best Of N.W.A: The Strength Of Street Knowledge",
+      "popularity": 65,
+      "tempo": 100.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.775,
+      "valence": 0.838,
+      "danceability": 0.906,
+      "acousticness": 0.083,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.268,
+      "duration_ms": 221373,
+      "slug": "chin-check-nwa"
+    },
+    {
+      "name": "Party We Will Throw Now!",
+      "artists": "Warren G;Nate Dogg;The Game",
+      "album": "Party We Will Throw Now! - Single",
+      "popularity": 65,
+      "tempo": 96.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.562,
+      "valence": 0.712,
+      "danceability": 0.934,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.24,
+      "duration_ms": 209412,
+      "slug": "party-we-will-throw-now-warren-g"
+    },
+    {
+      "name": "Jump Around",
+      "artists": "House Of Pain",
+      "album": "House of Pain (Fine Malt Lyrics)",
+      "popularity": 65,
+      "tempo": 106.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.71,
+      "valence": 0.818,
+      "danceability": 0.854,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.08,
+      "duration_ms": 214946,
+      "slug": "jump-around-house-of-pain"
+    },
+    {
+      "name": "It Ain't Hard to Tell",
+      "artists": "Nas",
+      "album": "Illmatic",
+      "popularity": 65,
+      "tempo": 91.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.729,
+      "valence": 0.357,
+      "danceability": 0.69,
+      "acousticness": 0.0,
+      "instrumentalness": 0.043,
+      "loudness": -5.8,
+      "speechiness": 0.221,
+      "duration_ms": 202106,
+      "slug": "it-aint-hard-to-tell-nas"
+    },
+    {
+      "name": "One More Chance / Stay with Me - Remix; 2007 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Greatest Hits",
+      "popularity": 65,
+      "tempo": 91.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.68,
+      "valence": 0.695,
+      "danceability": 0.725,
+      "acousticness": 0.149,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.224,
+      "duration_ms": 268706,
+      "slug": "one-more-chance-stay-with-me-remix-2007-remaster-the-notorious-big"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "artists": "Cypress Hill;Barron Ricks",
+      "album": "The Essential Cypress Hill",
+      "popularity": 65,
+      "tempo": 192.7,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.63,
+      "valence": 0.556,
+      "danceability": 0.547,
+      "acousticness": 0.012,
+      "instrumentalness": 0.002,
+      "loudness": -8.8,
+      "speechiness": 0.494,
+      "duration_ms": 257746,
+      "slug": "tequila-sunrise-cypress-hill"
+    },
+    {
+      "name": "Check the Rhime",
+      "artists": "A Tribe Called Quest",
+      "album": "The Low End Theory",
+      "popularity": 65,
+      "tempo": 96.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.361,
+      "valence": 0.799,
+      "danceability": 0.881,
+      "acousticness": 0.05,
+      "instrumentalness": 0.005,
+      "loudness": -14.7,
+      "speechiness": 0.237,
+      "duration_ms": 216693,
+      "slug": "check-the-rhime-a-tribe-called-quest"
+    },
+    {
+      "name": "Full Clip",
+      "artists": "Gang Starr",
+      "album": "Full Clip: A Decade Of Gang Starr",
+      "popularity": 65,
+      "tempo": 95.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.745,
+      "valence": 0.749,
+      "danceability": 0.875,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.269,
+      "duration_ms": 217440,
+      "slug": "full-clip-gang-starr"
+    },
+    {
+      "name": "Waiting Room",
+      "artists": "Fugazi",
+      "album": "13 Songs",
+      "popularity": 65,
+      "tempo": 92.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.716,
+      "valence": 0.545,
+      "danceability": 0.618,
+      "acousticness": 0.005,
+      "instrumentalness": 0.822,
+      "loudness": -8.2,
+      "speechiness": 0.037,
+      "duration_ms": 173266,
+      "slug": "waiting-room-fugazi"
+    },
+    {
+      "name": "Covet",
+      "artists": "Basement",
+      "album": "Colourmeinkindness",
+      "popularity": 65,
+      "tempo": 139.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.228,
+      "danceability": 0.428,
+      "acousticness": 0.001,
+      "instrumentalness": 0.074,
+      "loudness": -6.3,
+      "speechiness": 0.047,
+      "duration_ms": 227340,
+      "slug": "covet-basement"
+    },
+    {
+      "name": "Simon Says",
+      "artists": "Pharoahe Monch",
+      "album": "Simon Says",
+      "popularity": 64,
+      "tempo": 93.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.916,
+      "valence": 0.559,
+      "danceability": 0.664,
+      "acousticness": 0.17,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.473,
+      "duration_ms": 173159,
+      "slug": "simon-says-pharoahe-monch"
+    },
+    {
+      "name": "Me And My Girlfriend",
+      "artists": "Makaveli",
+      "album": "The Don Killuminati: The 7 Day Theory",
+      "popularity": 64,
+      "tempo": 86.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.893,
+      "valence": 0.711,
+      "danceability": 0.828,
+      "acousticness": 0.117,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.192,
+      "duration_ms": 308266,
+      "slug": "me-and-my-girlfriend-makaveli"
+    },
+    {
+      "name": "Sound of da Police",
+      "artists": "KRS-One",
+      "album": "Return of the Boom Bap",
+      "popularity": 64,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.324,
+      "danceability": 0.794,
+      "acousticness": 0.124,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.294,
+      "duration_ms": 258506,
+      "slug": "sound-of-da-police-krs-one"
+    },
+    {
+      "name": "I Hate Everything (feat. Action Bronson)",
+      "artists": "The Alchemist;Action Bronson",
+      "album": "The Food Villain",
+      "popularity": 64,
+      "tempo": 153.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.6,
+      "valence": 0.337,
+      "danceability": 0.508,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.338,
+      "duration_ms": 82133,
+      "slug": "i-hate-everything-feat-action-bronson-the-alchemist"
+    },
+    {
+      "name": "Mama Said Knock You Out",
+      "artists": "LL COOL J",
+      "album": "Mama Said Knock You Out",
+      "popularity": 64,
+      "tempo": 102.4,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.759,
+      "valence": 0.619,
+      "danceability": 0.791,
+      "acousticness": 0.031,
+      "instrumentalness": 0.674,
+      "loudness": -7.4,
+      "speechiness": 0.129,
+      "duration_ms": 289693,
+      "slug": "mama-said-knock-you-out-ll-cool-j"
+    },
+    {
+      "name": "Represent",
+      "artists": "Nas",
+      "album": "Illmatic",
+      "popularity": 64,
+      "tempo": 92.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.832,
+      "valence": 0.618,
+      "danceability": 0.708,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.318,
+      "duration_ms": 252600,
+      "slug": "represent-nas"
+    },
+    {
+      "name": "On Fire",
+      "artists": "Lloyd Banks",
+      "album": "The Hunger For More",
+      "popularity": 64,
+      "tempo": 94.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.429,
+      "danceability": 0.759,
+      "acousticness": 0.092,
+      "instrumentalness": 0.001,
+      "loudness": -4.3,
+      "speechiness": 0.22,
+      "duration_ms": 187280,
+      "slug": "on-fire-lloyd-banks"
+    },
+    {
+      "name": "Gangsta Gangsta",
+      "artists": "N.W.A.",
+      "album": "Straight Outta Compton",
+      "popularity": 64,
+      "tempo": 98.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.698,
+      "valence": 0.695,
+      "danceability": 0.894,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.275,
+      "duration_ms": 336917,
+      "slug": "gangsta-gangsta-nwa"
+    },
+    {
+      "name": "Put It On",
+      "artists": "Big L",
+      "album": "Lifestylez Ov Da Poor & Dangerous",
+      "popularity": 64,
+      "tempo": 179.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.62,
+      "valence": 0.805,
+      "danceability": 0.711,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.212,
+      "duration_ms": 217626,
+      "slug": "put-it-on-big-l"
+    },
+    {
+      "name": "Ten Crack Commandments - 2014 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Life After Death (2014 Remastered Edition)",
+      "popularity": 64,
+      "tempo": 173.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.85,
+      "valence": 0.781,
+      "danceability": 0.612,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.5,
+      "duration_ms": 204026,
+      "slug": "ten-crack-commandments-2014-remaster-the-notorious-big"
+    },
+    {
+      "name": "Firestarter",
+      "artists": "The Prodigy",
+      "album": "The Fat of the Land",
+      "popularity": 64,
+      "tempo": 141.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.948,
+      "valence": 0.355,
+      "danceability": 0.545,
+      "acousticness": 0.003,
+      "instrumentalness": 0.364,
+      "loudness": -5.1,
+      "speechiness": 0.078,
+      "duration_ms": 279800,
+      "slug": "firestarter-the-prodigy"
+    },
+    {
+      "name": "Triumph (feat. Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah & Raekwon)",
+      "artists": "Wu-Tang Clan;Ol' Dirty Bastard;Inspectah Deck;Method Man;Cappadonna;U-God;RZA;GZA;Masta Killa;Ghostface Killah;Raekwon",
+      "album": "Wu-Tang Forever",
+      "popularity": 64,
+      "tempo": 91.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.639,
+      "valence": 0.323,
+      "danceability": 0.739,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.358,
+      "duration_ms": 338186,
+      "slug": "triumph-feat-ol-dirty-bastard-inspectah-deck-method-man-cappadonna-u-god-rza-gza"
+    },
+    {
+      "name": "Trip to Valhalla",
+      "artists": "Dr. Peacock",
+      "album": "Trip to Valhalla",
+      "popularity": 64,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.063,
+      "danceability": 0.567,
+      "acousticness": 0.023,
+      "instrumentalness": 0.035,
+      "loudness": -2.9,
+      "speechiness": 0.187,
+      "duration_ms": 232950,
+      "slug": "trip-to-valhalla-dr-peacock"
+    },
+    {
+      "name": "Runnin'",
+      "artists": "The Pharcyde",
+      "album": "Labcabincalifornia (Deluxe Edition)",
+      "popularity": 64,
+      "tempo": 94.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.785,
+      "valence": 0.821,
+      "danceability": 0.754,
+      "acousticness": 0.029,
+      "instrumentalness": 0.001,
+      "loudness": -8.2,
+      "speechiness": 0.18,
+      "duration_ms": 296266,
+      "slug": "runnin-the-pharcyde"
+    },
+    {
+      "name": "Sunshine (The Light)",
+      "artists": "Fat Joe;DJ Khaled;Amorphous",
+      "album": "Sunshine (The Light)",
+      "popularity": 64,
+      "tempo": 107.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.832,
+      "valence": 0.736,
+      "danceability": 0.8,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.266,
+      "duration_ms": 149725,
+      "slug": "sunshine-the-light-fat-joe"
+    },
+    {
+      "name": "All The Way Up (feat. Infared)",
+      "artists": "Fat Joe;Remy Ma;French Montana;InfaRed",
+      "album": "Plata O Plomo",
+      "popularity": 63,
+      "tempo": 175.2,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.807,
+      "valence": 0.409,
+      "danceability": 0.414,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.348,
+      "duration_ms": 191900,
+      "slug": "all-the-way-up-feat-infared-fat-joe"
+    },
+    {
+      "name": "Life's a Bitch (feat. AZ & Olu Dara)",
+      "artists": "Nas;AZ;Olu Dara",
+      "album": "Illmatic",
+      "popularity": 63,
+      "tempo": 90.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.734,
+      "valence": 0.342,
+      "danceability": 0.775,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.215,
+      "duration_ms": 210840,
+      "slug": "lifes-a-bitch-feat-az-olu-dara-nas"
+    },
+    {
+      "name": "Smack My Bitch Up",
+      "artists": "The Prodigy",
+      "album": "The Fat of the Land",
+      "popularity": 63,
+      "tempo": 136.2,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.995,
+      "valence": 0.262,
+      "danceability": 0.604,
+      "acousticness": 0.003,
+      "instrumentalness": 0.626,
+      "loudness": -3.6,
+      "speechiness": 0.164,
+      "duration_ms": 343386,
+      "slug": "smack-my-bitch-up-the-prodigy"
+    },
+    {
+      "name": "Big Poppa - 2005 Remaster",
+      "artists": "The Notorious B.I.G.",
+      "album": "Bad Boy's 10th Anniversary- The Hits",
+      "popularity": 63,
+      "tempo": 84.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.608,
+      "valence": 0.753,
+      "danceability": 0.73,
+      "acousticness": 0.301,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.295,
+      "duration_ms": 249840,
+      "slug": "big-poppa-2005-remaster-the-notorious-big"
+    },
+    {
+      "name": "I Know What You Want (feat. Flipmode Squad)",
+      "artists": "Busta Rhymes;Mariah Carey;Flipmode Squad",
+      "album": "It Ain't Safe No More",
+      "popularity": 63,
+      "tempo": 85.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.771,
+      "valence": 0.516,
+      "danceability": 0.658,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.271,
+      "duration_ms": 324306,
+      "slug": "i-know-what-you-want-feat-flipmode-squad-busta-rhymes"
+    },
+    {
+      "name": "Ocean Prime (feat. Boldy James)",
+      "artists": "The Alchemist;Boldy James",
+      "album": "Yacht Rock 2",
+      "popularity": 63,
+      "tempo": 49.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.691,
+      "danceability": 0.583,
+      "acousticness": 0.735,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.456,
+      "duration_ms": 99906,
+      "slug": "ocean-prime-feat-boldy-james-the-alchemist"
+    },
+    {
+      "name": "X",
+      "artists": "Xzibit",
+      "album": "Restless",
+      "popularity": 63,
+      "tempo": 96.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.678,
+      "valence": 0.822,
+      "danceability": 0.936,
+      "acousticness": 0.08,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.21,
+      "duration_ms": 255640,
+      "slug": "x-xzibit"
+    }
+  ]
+}

@@ -250,6 +250,166 @@ GENRE_METADATA = {
         'style_tags': "indie pop, dream pop, bedroom pop, twee, jangle pop",
         'instruments': "jangly guitar, synth pads, drum machine, bass, breathy vocals",
         'mood': "dreamy, bittersweet, whimsical, nostalgic"
+    },
+    'dance': {
+        'emoji': '💃',
+        'color': '#ff69b4',
+        'desc': "Electronic music crafted for movement with infectious rhythms, builds, and drops.",
+        'style_tags': "dance, dance-pop, club, electro-pop, dancefloor",
+        'instruments': "synth, programmed drums, bass drops, vocal hooks, four-on-the-floor kick",
+        'mood': "energetic, euphoric, fun, infectious"
+    },
+    'heavy-metal': {
+        'emoji': '🔥',
+        'color': '#8b0000',
+        'desc': "Loud, powerful rock with heavily distorted guitars, pounding drums, and dramatic vocals.",
+        'style_tags': "heavy metal, NWOBHM, power metal, speed metal, traditional metal",
+        'instruments': "heavily distorted guitar, double bass drum, bass guitar, high-pitched vocals, palm muting",
+        'mood': "aggressive, epic, powerful, intense"
+    },
+    'gospel': {
+        'emoji': '⛪',
+        'color': '#daa520',
+        'desc': "Spiritual music with powerful vocals, uplifting harmonies, and deep emotional resonance.",
+        'style_tags': "gospel, contemporary Christian, praise & worship, spiritual, church music",
+        'instruments': "choir vocals, organ, piano, bass guitar, drums",
+        'mood': "uplifting, spiritual, passionate, joyful"
+    },
+    'emo': {
+        'emoji': '💔',
+        'color': '#800020',
+        'desc': "Emotional rock with introspective lyrics, dynamic arrangements, and raw vulnerability.",
+        'style_tags': "emo, screamo, post-hardcore, midwest emo, emo-pop",
+        'instruments': "distorted guitar, bass, drums, clean/screamed vocals, reverbed arpeggios",
+        'mood': "emotional, vulnerable, angsty, cathartic"
+    },
+    'ska': {
+        'emoji': '🎺',
+        'color': '#32cd32',
+        'desc': "Jamaican-born music with upbeat offbeat rhythms, brass sections, and infectious energy.",
+        'style_tags': "ska, ska-punk, 2-tone, third wave ska, rocksteady",
+        'instruments': "upstroke guitar, trumpet, trombone, bass, organ",
+        'mood': "upbeat, energetic, fun, rebellious"
+    },
+    'drum-and-bass': {
+        'emoji': '🥁',
+        'color': '#ff4500',
+        'desc': "Fast breakbeats, heavy bass lines, and complex electronic production at 170+ BPM.",
+        'style_tags': "drum and bass, DnB, jungle, liquid DnB, neurofunk",
+        'instruments': "breakbeats, sub-bass, reese bass, amen break, synth stabs",
+        'mood': "intense, driving, energetic, hypnotic"
+    },
+    'progressive-house': {
+        'emoji': '🌅',
+        'color': '#4169e1',
+        'desc': "Extended house tracks with evolving arrangements, emotional builds, and melodic depth.",
+        'style_tags': "progressive house, melodic house, deep progressive, Anjunadeep, progressive trance",
+        'instruments': "long synth pads, arpeggiated leads, rolling bassline, atmospheric FX, layered percussion",
+        'mood': "euphoric, emotional, building, transcendent"
+    },
+    'idm': {
+        'emoji': '🧠',
+        'color': '#708090',
+        'desc': "Intelligent dance music with complex rhythms, experimental textures, and cerebral sonic design.",
+        'style_tags': "IDM, braindance, glitch, experimental electronic, Warp Records",
+        'instruments': "granular synth, complex drum patterns, processed field recordings, generative sequences, spectral processing",
+        'mood': "cerebral, experimental, introspective, textured"
+    },
+    'electro': {
+        'emoji': '🤖',
+        'color': '#00ced1',
+        'desc': "Electronic music with robotic aesthetics, vintage synthesizer sounds, and 808 drum machines.",
+        'style_tags': "electro, electroclash, electro-funk, electro house, Miami bass",
+        'instruments': "TR-808 drums, analog synth, vocoder, bass synth, handclaps",
+        'mood': "futuristic, robotic, groovy, retro"
+    },
+    'punk-rock': {
+        'emoji': '⚡',
+        'color': '#ff6347',
+        'desc': "Fast, aggressive rock with punk's DIY ethos, melodic hooks, and youthful energy.",
+        'style_tags': "punk rock, pop-punk, skate punk, melodic punk, Ramones-core",
+        'instruments': "power chords, fast drums, distorted bass, gang vocals, palm-muted riffs",
+        'mood': "energetic, rebellious, fun, anthemic"
+    },
+    'hardcore': {
+        'emoji': '💪',
+        'color': '#b22222',
+        'desc': "Aggressive, high-energy music bridging punk intensity with hip-hop's raw attitude.",
+        'style_tags': "hardcore, hardcore punk, beatdown, straight edge, NYHC",
+        'instruments': "heavy riffs, blast beats, breakdown bass, shout vocals, chugging guitars",
+        'mood': "aggressive, intense, uncompromising, raw"
+    },
+    'psych-rock': {
+        'emoji': '🌀',
+        'color': '#9932cc',
+        'desc': "Psychedelic rock with experimental sounds, mind-bending effects, and exploratory songwriting.",
+        'style_tags': "psychedelic rock, neo-psychedelia, acid rock, space rock, krautrock",
+        'instruments': "fuzz guitar, wah pedal, sitar, mellotron, tape effects",
+        'mood': "trippy, expansive, dreamy, experimental"
+    },
+    'rock-n-roll': {
+        'emoji': '🕺',
+        'color': '#cd853f',
+        'desc': "Classic rock style from the 1950s-60s with danceable beats, guitar riffs, and raw energy.",
+        'style_tags': "rock and roll, 50s rock, classic rock, boogie, jive",
+        'instruments': "electric guitar, upright bass, piano, saxophone, snare drum",
+        'mood': "fun, energetic, rebellious, danceable"
+    },
+    'indian': {
+        'emoji': '🇮🇳',
+        'color': '#ff8c00',
+        'desc': "Traditional and modern music from India featuring classical ragas, Bollywood, and folk elements.",
+        'style_tags': "Indian, Bollywood, Hindustani classical, Carnatic, filmi",
+        'instruments': "sitar, tabla, tanpura, harmonium, bansuri",
+        'mood': "devotional, romantic, celebratory, meditative"
+    },
+    'anime': {
+        'emoji': '🎌',
+        'color': '#ff69b4',
+        'desc': "Soundtrack music from Japanese animation featuring orchestral arrangements, J-pop vocals, and dramatic intensity.",
+        'style_tags': "anime OST, anison, J-pop anime, opening/ending themes, visual novel",
+        'instruments': "orchestra, electric guitar, synth, piano, choir",
+        'mood': "dramatic, emotional, energetic, epic"
+    },
+    'dancehall': {
+        'emoji': '🏝️',
+        'color': '#ffd700',
+        'desc': "Jamaican genre with rapid digital rhythms, DJ-style vocal delivery, and infectious grooves.",
+        'style_tags': "dancehall, ragga, bashment, digital reggae, riddim",
+        'instruments': "digital riddim, synth bass, snare, vocal chatting, sound effects",
+        'mood': "energetic, party, confident, rhythmic"
+    },
+    'mandopop': {
+        'emoji': '🏮',
+        'color': '#dc143c',
+        'desc': "Mandarin pop music popular across Chinese-speaking regions, blending Western pop with Eastern sensibilities.",
+        'style_tags': "Mandopop, C-pop, Chinese pop, Taiwanese pop, ballad",
+        'instruments': "piano, strings, synth, acoustic guitar, vocal harmonies",
+        'mood': "romantic, nostalgic, emotional, melodic"
+    },
+    'bluegrass': {
+        'emoji': '🪕',
+        'color': '#556b2f',
+        'desc': "Traditional American acoustic music featuring banjo, fiddle, and intricate vocal harmonies.",
+        'style_tags': "bluegrass, progressive bluegrass, newgrass, Appalachian, string band",
+        'instruments': "banjo, fiddle, mandolin, upright bass, dobro",
+        'mood': "lively, earthy, virtuosic, warm"
+    },
+    'new-age': {
+        'emoji': '🔮',
+        'color': '#9370db',
+        'desc': "Meditative music designed for relaxation, spiritual contemplation, and inner peace.",
+        'style_tags': "new age, meditation, healing, ambient new age, Celtic new age",
+        'instruments': "crystal bowls, soft synth pads, flute, harp, nature sounds",
+        'mood': "peaceful, meditative, ethereal, healing"
+    },
+    'guitar': {
+        'emoji': '🎸',
+        'color': '#b8860b',
+        'desc': "Instrumental music showcasing guitar technique, melodic expression, and virtuosity across styles.",
+        'style_tags': "guitar, fingerstyle, classical guitar, shred, acoustic instrumental",
+        'instruments': "acoustic guitar, electric guitar, classical guitar, slide guitar, bass",
+        'mood': "expressive, virtuosic, melodic, contemplative"
     }
 }
 

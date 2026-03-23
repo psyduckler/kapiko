@@ -1,0 +1,2803 @@
+{
+  "genre": "New Age",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 51.096,
+    "max": 199.907,
+    "mean": 107.453,
+    "median": 102.791,
+    "q1": 86.52,
+    "q3": 128.594,
+    "histogram": {
+      "50-59": 2,
+      "60-69": 7,
+      "70-79": 10,
+      "80-89": 9,
+      "90-99": 18,
+      "100-109": 14,
+      "110-119": 8,
+      "120-129": 8,
+      "130-139": 5,
+      "140-149": 11,
+      "150-159": 3,
+      "160-169": 3,
+      "170-179": 1,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "C": 20,
+    "G": 14,
+    "A": 13,
+    "D": 9,
+    "C#/Db": 8,
+    "E": 7,
+    "F": 7,
+    "G#/Ab": 6,
+    "D#/Eb": 5,
+    "A#/Bb": 4,
+    "F#/Gb": 4,
+    "B": 3
+  },
+  "mode_distribution": {
+    "Major": 62,
+    "Minor": 38
+  },
+  "key_mode_distribution": {
+    "C Major": 11,
+    "G Major": 10,
+    "A Major": 9,
+    "C Minor": 9,
+    "G#/Ab Major": 6,
+    "E Minor": 5,
+    "C#/Db Major": 5,
+    "D Minor": 5,
+    "F Major": 5,
+    "A#/Bb Major": 4,
+    "G Minor": 4,
+    "D Major": 4,
+    "A Minor": 4,
+    "C#/Db Minor": 3,
+    "D#/Eb Major": 3,
+    "E Major": 2,
+    "B Minor": 2,
+    "F Minor": 2,
+    "F#/Gb Major": 2,
+    "D#/Eb Minor": 2,
+    "F#/Gb Minor": 2,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.005,
+    "max": 0.762,
+    "mean": 0.259,
+    "median": 0.201,
+    "q1": 0.115,
+    "q3": 0.384
+  },
+  "valence": {
+    "min": 0.035,
+    "max": 0.8,
+    "mean": 0.198,
+    "median": 0.151,
+    "q1": 0.08,
+    "q3": 0.304
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.22,
+      "valence": 0.116
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.417
+    },
+    {
+      "energy": 0.292,
+      "valence": 0.346
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.139
+    },
+    {
+      "energy": 0.429,
+      "valence": 0.469
+    },
+    {
+      "energy": 0.052,
+      "valence": 0.182
+    },
+    {
+      "energy": 0.191,
+      "valence": 0.041
+    },
+    {
+      "energy": 0.478,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.303,
+      "valence": 0.094
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.431
+    },
+    {
+      "energy": 0.201,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.029,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.263,
+      "valence": 0.184
+    },
+    {
+      "energy": 0.298,
+      "valence": 0.154
+    },
+    {
+      "energy": 0.285,
+      "valence": 0.267
+    },
+    {
+      "energy": 0.115,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.096,
+      "valence": 0.202
+    },
+    {
+      "energy": 0.234,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.178,
+      "valence": 0.218
+    },
+    {
+      "energy": 0.762,
+      "valence": 0.332
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.338
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.173,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.161,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.242,
+      "valence": 0.115
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.092
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.346
+    },
+    {
+      "energy": 0.083,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.236,
+      "valence": 0.148
+    },
+    {
+      "energy": 0.328,
+      "valence": 0.061
+    },
+    {
+      "energy": 0.1,
+      "valence": 0.08
+    },
+    {
+      "energy": 0.071,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.52,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.585,
+      "valence": 0.628
+    },
+    {
+      "energy": 0.322,
+      "valence": 0.125
+    },
+    {
+      "energy": 0.454,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.454,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.424
+    },
+    {
+      "energy": 0.124,
+      "valence": 0.123
+    },
+    {
+      "energy": 0.08,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.047,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.354,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.088,
+      "valence": 0.037
+    },
+    {
+      "energy": 0.384,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.2,
+      "valence": 0.037
+    },
+    {
+      "energy": 0.075,
+      "valence": 0.126
+    },
+    {
+      "energy": 0.054,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.082,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.299,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.053,
+      "valence": 0.035
+    },
+    {
+      "energy": 0.245,
+      "valence": 0.063
+    },
+    {
+      "energy": 0.126,
+      "valence": 0.035
+    },
+    {
+      "energy": 0.319,
+      "valence": 0.12
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.144
+    },
+    {
+      "energy": 0.058,
+      "valence": 0.245
+    },
+    {
+      "energy": 0.226,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.129,
+      "valence": 0.051
+    },
+    {
+      "energy": 0.005,
+      "valence": 0.051
+    },
+    {
+      "energy": 0.467,
+      "valence": 0.124
+    },
+    {
+      "energy": 0.017,
+      "valence": 0.069
+    },
+    {
+      "energy": 0.254,
+      "valence": 0.257
+    },
+    {
+      "energy": 0.272,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.115,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.011,
+      "valence": 0.148
+    },
+    {
+      "energy": 0.034,
+      "valence": 0.042
+    },
+    {
+      "energy": 0.127,
+      "valence": 0.098
+    },
+    {
+      "energy": 0.093,
+      "valence": 0.158
+    },
+    {
+      "energy": 0.2,
+      "valence": 0.102
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.131,
+      "valence": 0.177
+    },
+    {
+      "energy": 0.22,
+      "valence": 0.07
+    },
+    {
+      "energy": 0.27,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.072,
+      "valence": 0.047
+    },
+    {
+      "energy": 0.118,
+      "valence": 0.053
+    },
+    {
+      "energy": 0.156,
+      "valence": 0.424
+    },
+    {
+      "energy": 0.642,
+      "valence": 0.363
+    },
+    {
+      "energy": 0.15,
+      "valence": 0.176
+    },
+    {
+      "energy": 0.159,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.03,
+      "valence": 0.037
+    },
+    {
+      "energy": 0.035,
+      "valence": 0.076
+    },
+    {
+      "energy": 0.219,
+      "valence": 0.058
+    },
+    {
+      "energy": 0.021,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.151,
+      "valence": 0.08
+    },
+    {
+      "energy": 0.056,
+      "valence": 0.062
+    },
+    {
+      "energy": 0.127,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.145,
+      "valence": 0.262
+    },
+    {
+      "energy": 0.258,
+      "valence": 0.049
+    },
+    {
+      "energy": 0.159,
+      "valence": 0.103
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.459
+    },
+    {
+      "energy": 0.224,
+      "valence": 0.319
+    },
+    {
+      "energy": 0.076,
+      "valence": 0.098
+    },
+    {
+      "energy": 0.137,
+      "valence": 0.229
+    },
+    {
+      "energy": 0.183,
+      "valence": 0.16
+    },
+    {
+      "energy": 0.443,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.144,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.221
+    }
+  ],
+  "acousticness": {
+    "min": 0.022,
+    "max": 0.994,
+    "mean": 0.767,
+    "median": 0.952,
+    "q1": 0.564,
+    "q3": 0.984
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.978,
+    "mean": 0.658,
+    "median": 0.872,
+    "q1": 0.354,
+    "q3": 0.929
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.943
+    },
+    {
+      "acousticness": 0.291,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.119,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.968,
+      "instrumentalness": 0.978
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.047
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.468
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.905
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.936
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.106
+    },
+    {
+      "acousticness": 0.897,
+      "instrumentalness": 0.878
+    },
+    {
+      "acousticness": 0.17,
+      "instrumentalness": 0.272
+    },
+    {
+      "acousticness": 0.915,
+      "instrumentalness": 0.943
+    },
+    {
+      "acousticness": 0.994,
+      "instrumentalness": 0.889
+    },
+    {
+      "acousticness": 0.836,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.944,
+      "instrumentalness": 0.254
+    },
+    {
+      "acousticness": 0.966,
+      "instrumentalness": 0.937
+    },
+    {
+      "acousticness": 0.984,
+      "instrumentalness": 0.975
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.872
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.871
+    },
+    {
+      "acousticness": 0.972,
+      "instrumentalness": 0.941
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.61
+    },
+    {
+      "acousticness": 0.56,
+      "instrumentalness": 0.042
+    },
+    {
+      "acousticness": 0.532,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.981,
+      "instrumentalness": 0.929
+    },
+    {
+      "acousticness": 0.925,
+      "instrumentalness": 0.771
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.949
+    },
+    {
+      "acousticness": 0.536,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.678,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.989,
+      "instrumentalness": 0.929
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.938
+    },
+    {
+      "acousticness": 0.911,
+      "instrumentalness": 0.771
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.902
+    },
+    {
+      "acousticness": 0.968,
+      "instrumentalness": 0.962
+    },
+    {
+      "acousticness": 0.418,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.34,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.69,
+      "instrumentalness": 0.888
+    },
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.139,
+      "instrumentalness": 0.354
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.879
+    },
+    {
+      "acousticness": 0.981,
+      "instrumentalness": 0.836
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.957
+    },
+    {
+      "acousticness": 0.532,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.894,
+      "instrumentalness": 0.51
+    },
+    {
+      "acousticness": 0.31,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.982,
+      "instrumentalness": 0.972
+    },
+    {
+      "acousticness": 0.95,
+      "instrumentalness": 0.935
+    },
+    {
+      "acousticness": 0.969,
+      "instrumentalness": 0.855
+    },
+    {
+      "acousticness": 0.98,
+      "instrumentalness": 0.903
+    },
+    {
+      "acousticness": 0.317,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.206,
+      "instrumentalness": 0.139
+    },
+    {
+      "acousticness": 0.922,
+      "instrumentalness": 0.054
+    },
+    {
+      "acousticness": 0.982,
+      "instrumentalness": 0.923
+    },
+    {
+      "acousticness": 0.862,
+      "instrumentalness": 0.565
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.896
+    },
+    {
+      "acousticness": 0.822,
+      "instrumentalness": 0.926
+    },
+    {
+      "acousticness": 0.976,
+      "instrumentalness": 0.831
+    },
+    {
+      "acousticness": 0.973,
+      "instrumentalness": 0.872
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.914
+    },
+    {
+      "acousticness": 0.985,
+      "instrumentalness": 0.965
+    },
+    {
+      "acousticness": 0.143,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.989,
+      "instrumentalness": 0.902
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.933
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.964
+    },
+    {
+      "acousticness": 0.953,
+      "instrumentalness": 0.422
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.958
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.926
+    },
+    {
+      "acousticness": 0.94,
+      "instrumentalness": 0.909
+    },
+    {
+      "acousticness": 0.949,
+      "instrumentalness": 0.852
+    },
+    {
+      "acousticness": 0.901,
+      "instrumentalness": 0.825
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.348
+    },
+    {
+      "acousticness": 0.981,
+      "instrumentalness": 0.903
+    },
+    {
+      "acousticness": 0.955,
+      "instrumentalness": 0.897
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.917
+    },
+    {
+      "acousticness": 0.993,
+      "instrumentalness": 0.912
+    },
+    {
+      "acousticness": 0.969,
+      "instrumentalness": 0.913
+    },
+    {
+      "acousticness": 0.98,
+      "instrumentalness": 0.867
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.941
+    },
+    {
+      "acousticness": 0.978,
+      "instrumentalness": 0.819
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.959
+    },
+    {
+      "acousticness": 0.891,
+      "instrumentalness": 0.749
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.854
+    },
+    {
+      "acousticness": 0.564,
+      "instrumentalness": 0.56
+    },
+    {
+      "acousticness": 0.956,
+      "instrumentalness": 0.974
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.951
+    },
+    {
+      "acousticness": 0.978,
+      "instrumentalness": 0.953
+    },
+    {
+      "acousticness": 0.929,
+      "instrumentalness": 0.954
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.948
+    },
+    {
+      "acousticness": 0.941,
+      "instrumentalness": 0.883
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.87
+    },
+    {
+      "acousticness": 0.751,
+      "instrumentalness": 0.891
+    },
+    {
+      "acousticness": 0.968,
+      "instrumentalness": 0.853
+    },
+    {
+      "acousticness": 0.982,
+      "instrumentalness": 0.839
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.868
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.899
+    },
+    {
+      "acousticness": 0.703,
+      "instrumentalness": 0.484
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.872
+    },
+    {
+      "acousticness": 0.463,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 103426,
+    "max": 1561133,
+    "mean": 265434.85,
+    "median": 234353.0,
+    "q1": 200000,
+    "q3": 285251
+  },
+  "danceability": {
+    "min": 0.086,
+    "max": 0.772,
+    "mean": 0.368,
+    "median": 0.34,
+    "q1": 0.255,
+    "q3": 0.503
+  },
+  "loudness": {
+    "min": -32.538,
+    "max": -6.456,
+    "mean": -17.311,
+    "median": -17.215,
+    "q1": -21.343,
+    "q3": -12.68
+  },
+  "speechiness": {
+    "min": 0.023,
+    "max": 0.082,
+    "mean": 0.04,
+    "median": 0.038,
+    "q1": 0.033,
+    "q3": 0.046
+  },
+  "top_artists": [
+    {
+      "name": "Yiruma",
+      "count": 18
+    },
+    {
+      "name": "Enigma",
+      "count": 13
+    },
+    {
+      "name": "Secret Garden",
+      "count": 6
+    },
+    {
+      "name": "Jim Brickman",
+      "count": 6
+    },
+    {
+      "name": "Deuter",
+      "count": 5
+    },
+    {
+      "name": "Bernward Koch",
+      "count": 5
+    },
+    {
+      "name": "Mike Oldfield",
+      "count": 4
+    },
+    {
+      "name": "Jacob's Piano",
+      "count": 4
+    },
+    {
+      "name": "Chad Lawson",
+      "count": 4
+    },
+    {
+      "name": "ERA",
+      "count": 3
+    },
+    {
+      "name": "Yanni",
+      "count": 3
+    },
+    {
+      "name": "Emile Pandolfi",
+      "count": 3
+    },
+    {
+      "name": "Laura Sullivan",
+      "count": 3
+    },
+    {
+      "name": "Kevin Kern",
+      "count": 2
+    },
+    {
+      "name": "Danny Wright",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "River Flows In You",
+      "artists": "Yiruma",
+      "album": "Yiruma 2nd Album 'First Love' (The Original & the Very First Recording)",
+      "popularity": 71,
+      "tempo": 145.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.22,
+      "valence": 0.116,
+      "danceability": 0.315,
+      "acousticness": 0.987,
+      "instrumentalness": 0.943,
+      "loudness": -21.3,
+      "speechiness": 0.051,
+      "duration_ms": 188786,
+      "slug": "river-flows-in-you-yiruma"
+    },
+    {
+      "name": "Moonlight Shadow",
+      "artists": "Mike Oldfield",
+      "album": "The Mike Oldfield Collection",
+      "popularity": 69,
+      "tempo": 128.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.72,
+      "valence": 0.8,
+      "danceability": 0.611,
+      "acousticness": 0.291,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.026,
+      "duration_ms": 218186,
+      "slug": "moonlight-shadow-mike-oldfield"
+    },
+    {
+      "name": "Return To Innocence",
+      "artists": "Enigma",
+      "album": "The Cross Of Changes",
+      "popularity": 66,
+      "tempo": 88.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.417,
+      "danceability": 0.476,
+      "acousticness": 0.119,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.038,
+      "duration_ms": 255466,
+      "slug": "return-to-innocence-enigma"
+    },
+    {
+      "name": "River Flows in You",
+      "artists": "Yiruma",
+      "album": "The Best - Reminiscent 10th Anniversary",
+      "popularity": 64,
+      "tempo": 145.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.292,
+      "valence": 0.346,
+      "danceability": 0.287,
+      "acousticness": 0.968,
+      "instrumentalness": 0.978,
+      "loudness": -19.3,
+      "speechiness": 0.054,
+      "duration_ms": 218293,
+      "slug": "river-flows-in-you-yiruma"
+    },
+    {
+      "name": "Sadeness",
+      "artists": "Enigma",
+      "album": "Love Sensuality Devotion: The Greatest Hits",
+      "popularity": 62,
+      "tempo": 95.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.644,
+      "valence": 0.49,
+      "danceability": 0.588,
+      "acousticness": 0.093,
+      "instrumentalness": 0.047,
+      "loudness": -9.5,
+      "speechiness": 0.034,
+      "duration_ms": 255533,
+      "slug": "sadeness-enigma"
+    },
+    {
+      "name": "Ameno",
+      "artists": "ERA",
+      "album": "Era I 2002",
+      "popularity": 62,
+      "tempo": 102.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.139,
+      "danceability": 0.605,
+      "acousticness": 0.092,
+      "instrumentalness": 0.001,
+      "loudness": -10.9,
+      "speechiness": 0.034,
+      "duration_ms": 235226,
+      "slug": "ameno-era"
+    },
+    {
+      "name": "Principles Of Lust: Sadeness / Find Love / Sadeness (Reprise)",
+      "artists": "Enigma",
+      "album": "MCMXC a.D.",
+      "popularity": 62,
+      "tempo": 95.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.429,
+      "valence": 0.469,
+      "danceability": 0.611,
+      "acousticness": 0.128,
+      "instrumentalness": 0.468,
+      "loudness": -15.4,
+      "speechiness": 0.036,
+      "duration_ms": 703133,
+      "slug": "principles-of-lust-sadeness-find-love-sadeness-reprise-enigma"
+    },
+    {
+      "name": "Kiss The Rain",
+      "artists": "Yiruma",
+      "album": "Yiruma 3rd Album 'From The Yellow Room' (The Original & the Very First Recording)",
+      "popularity": 61,
+      "tempo": 132.7,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.052,
+      "valence": 0.182,
+      "danceability": 0.56,
+      "acousticness": 0.99,
+      "instrumentalness": 0.905,
+      "loudness": -22.6,
+      "speechiness": 0.042,
+      "duration_ms": 260653,
+      "slug": "kiss-the-rain-yiruma"
+    },
+    {
+      "name": "Sunset Bird",
+      "artists": "Yiruma",
+      "album": "Sunset Bird",
+      "popularity": 60,
+      "tempo": 140.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.191,
+      "valence": 0.041,
+      "danceability": 0.349,
+      "acousticness": 0.992,
+      "instrumentalness": 0.936,
+      "loudness": -16.1,
+      "speechiness": 0.046,
+      "duration_ms": 191000,
+      "slug": "sunset-bird-yiruma"
+    },
+    {
+      "name": "Sadeness - Pt. 1 / Radio Edit",
+      "artists": "Enigma",
+      "album": "Sadeness (Part I)",
+      "popularity": 59,
+      "tempo": 95.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.478,
+      "valence": 0.51,
+      "danceability": 0.607,
+      "acousticness": 0.087,
+      "instrumentalness": 0.106,
+      "loudness": -13.7,
+      "speechiness": 0.035,
+      "duration_ms": 260399,
+      "slug": "sadeness-pt-1-radio-edit-enigma"
+    },
+    {
+      "name": "Song From A Secret Garden",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 58,
+      "tempo": 66.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.303,
+      "valence": 0.094,
+      "danceability": 0.226,
+      "acousticness": 0.897,
+      "instrumentalness": 0.878,
+      "loudness": -10.9,
+      "speechiness": 0.037,
+      "duration_ms": 214786,
+      "slug": "song-from-a-secret-garden-secret-garden"
+    },
+    {
+      "name": "The Child In Us",
+      "artists": "Enigma",
+      "album": "Le Roi Est Mort, Vive Le Roi!",
+      "popularity": 57,
+      "tempo": 90.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.708,
+      "valence": 0.431,
+      "danceability": 0.488,
+      "acousticness": 0.17,
+      "instrumentalness": 0.272,
+      "loudness": -11.6,
+      "speechiness": 0.041,
+      "duration_ms": 306066,
+      "slug": "the-child-in-us-enigma"
+    },
+    {
+      "name": "River Flows in You - Orchestra Version",
+      "artists": "Yiruma",
+      "album": "The Rewritten Memories",
+      "popularity": 57,
+      "tempo": 74.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.201,
+      "valence": 0.04,
+      "danceability": 0.086,
+      "acousticness": 0.915,
+      "instrumentalness": 0.943,
+      "loudness": -14.4,
+      "speechiness": 0.035,
+      "duration_ms": 285251,
+      "slug": "river-flows-in-you-orchestra-version-yiruma"
+    },
+    {
+      "name": "We Contain Multitudes \u2014 piano reworks",
+      "artists": "Yiruma;\u00d3lafur Arnalds",
+      "album": "We Contain Multitudes \u2014 piano reworks",
+      "popularity": 57,
+      "tempo": 143.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.029,
+      "valence": 0.285,
+      "danceability": 0.417,
+      "acousticness": 0.994,
+      "instrumentalness": 0.889,
+      "loudness": -25.1,
+      "speechiness": 0.071,
+      "duration_ms": 264052,
+      "slug": "we-contain-multitudes-piano-reworks-yiruma"
+    },
+    {
+      "name": "Valentine",
+      "artists": "Jim Brickman;Martina McBride",
+      "album": "Picture This",
+      "popularity": 57,
+      "tempo": 95.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.263,
+      "valence": 0.184,
+      "danceability": 0.521,
+      "acousticness": 0.836,
+      "instrumentalness": 0.0,
+      "loudness": -12.7,
+      "speechiness": 0.026,
+      "duration_ms": 196266,
+      "slug": "valentine-jim-brickman"
+    },
+    {
+      "name": "Nocturne",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 57,
+      "tempo": 79.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.298,
+      "valence": 0.154,
+      "danceability": 0.219,
+      "acousticness": 0.944,
+      "instrumentalness": 0.254,
+      "loudness": -11.5,
+      "speechiness": 0.031,
+      "duration_ms": 193680,
+      "slug": "nocturne-secret-garden"
+    },
+    {
+      "name": "River Flows In You",
+      "artists": "Yiruma",
+      "album": "SOLO",
+      "popularity": 56,
+      "tempo": 137.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.285,
+      "valence": 0.267,
+      "danceability": 0.385,
+      "acousticness": 0.966,
+      "instrumentalness": 0.937,
+      "loudness": -19.8,
+      "speechiness": 0.058,
+      "duration_ms": 210562,
+      "slug": "river-flows-in-you-yiruma"
+    },
+    {
+      "name": "One Man's Dream",
+      "artists": "Yanni",
+      "album": "The Essential Yanni",
+      "popularity": 56,
+      "tempo": 122.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.115,
+      "valence": 0.188,
+      "danceability": 0.363,
+      "acousticness": 0.984,
+      "instrumentalness": 0.975,
+      "loudness": -20.4,
+      "speechiness": 0.035,
+      "duration_ms": 163200,
+      "slug": "one-mans-dream-yanni"
+    },
+    {
+      "name": "Kiss the Rain",
+      "artists": "Yiruma",
+      "album": "The Best - Reminiscent 10th Anniversary",
+      "popularity": 56,
+      "tempo": 112.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.096,
+      "valence": 0.202,
+      "danceability": 0.557,
+      "acousticness": 0.99,
+      "instrumentalness": 0.872,
+      "loudness": -18.5,
+      "speechiness": 0.054,
+      "duration_ms": 300413,
+      "slug": "kiss-the-rain-yiruma"
+    },
+    {
+      "name": "So This Is Love",
+      "artists": "Emile Pandolfi",
+      "album": "So This Is Love",
+      "popularity": 56,
+      "tempo": 163.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.234,
+      "valence": 0.24,
+      "danceability": 0.279,
+      "acousticness": 0.975,
+      "instrumentalness": 0.871,
+      "loudness": -17.5,
+      "speechiness": 0.04,
+      "duration_ms": 172187,
+      "slug": "so-this-is-love-emile-pandolfi"
+    },
+    {
+      "name": "Mariage d'Amour",
+      "artists": "Jacob's Piano",
+      "album": "Mariage d'Amour",
+      "popularity": 55,
+      "tempo": 162.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.178,
+      "valence": 0.218,
+      "danceability": 0.303,
+      "acousticness": 0.972,
+      "instrumentalness": 0.941,
+      "loudness": -20.8,
+      "speechiness": 0.047,
+      "duration_ms": 269629,
+      "slug": "mariage-damour-jacobs-piano"
+    },
+    {
+      "name": "Mea Culpa",
+      "artists": "Enigma",
+      "album": "MCMXC a.D.",
+      "popularity": 55,
+      "tempo": 110.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.762,
+      "valence": 0.332,
+      "danceability": 0.556,
+      "acousticness": 0.022,
+      "instrumentalness": 0.61,
+      "loudness": -14.1,
+      "speechiness": 0.048,
+      "duration_ms": 301333,
+      "slug": "mea-culpa-enigma"
+    },
+    {
+      "name": "The Mass",
+      "artists": "ERA",
+      "album": "The Mass",
+      "popularity": 55,
+      "tempo": 109.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.619,
+      "valence": 0.338,
+      "danceability": 0.772,
+      "acousticness": 0.56,
+      "instrumentalness": 0.042,
+      "loudness": -8.1,
+      "speechiness": 0.029,
+      "duration_ms": 220920,
+      "slug": "the-mass-era"
+    },
+    {
+      "name": "Damascus",
+      "artists": "Conjure One;Rhys Fulber",
+      "album": "Conjure One",
+      "popularity": 55,
+      "tempo": 92.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.475,
+      "valence": 0.04,
+      "danceability": 0.154,
+      "acousticness": 0.532,
+      "instrumentalness": 0.011,
+      "loudness": -8.9,
+      "speechiness": 0.034,
+      "duration_ms": 122880,
+      "slug": "damascus-conjure-one"
+    },
+    {
+      "name": "Once Upon a December (from Anastasia)",
+      "artists": "Emile Pandolfi",
+      "album": "Believe",
+      "popularity": 55,
+      "tempo": 72.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.173,
+      "valence": 0.131,
+      "danceability": 0.239,
+      "acousticness": 0.981,
+      "instrumentalness": 0.929,
+      "loudness": -19.4,
+      "speechiness": 0.036,
+      "duration_ms": 252253,
+      "slug": "once-upon-a-december-from-anastasia-emile-pandolfi"
+    },
+    {
+      "name": "The Promise",
+      "artists": "Secret Garden",
+      "album": "Once In A Red Moon",
+      "popularity": 55,
+      "tempo": 86.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.161,
+      "valence": 0.087,
+      "danceability": 0.184,
+      "acousticness": 0.925,
+      "instrumentalness": 0.771,
+      "loudness": -18.3,
+      "speechiness": 0.046,
+      "duration_ms": 200933,
+      "slug": "the-promise-secret-garden"
+    },
+    {
+      "name": "River Flows In You",
+      "artists": "Yiruma",
+      "album": "Piano In You",
+      "popularity": 55,
+      "tempo": 145.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.242,
+      "valence": 0.115,
+      "danceability": 0.32,
+      "acousticness": 0.987,
+      "instrumentalness": 0.949,
+      "loudness": -19.8,
+      "speechiness": 0.05,
+      "duration_ms": 188240,
+      "slug": "river-flows-in-you-yiruma"
+    },
+    {
+      "name": "Divano",
+      "artists": "ERA",
+      "album": "Era II",
+      "popularity": 55,
+      "tempo": 102.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.572,
+      "valence": 0.092,
+      "danceability": 0.657,
+      "acousticness": 0.536,
+      "instrumentalness": 0.024,
+      "loudness": -7.3,
+      "speechiness": 0.024,
+      "duration_ms": 233480,
+      "slug": "divano-era"
+    },
+    {
+      "name": "Never Alone",
+      "artists": "Jim Brickman;Lady A",
+      "album": "Never Alone",
+      "popularity": 54,
+      "tempo": 82.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.472,
+      "valence": 0.346,
+      "danceability": 0.312,
+      "acousticness": 0.678,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.042,
+      "duration_ms": 221946,
+      "slug": "never-alone-jim-brickman"
+    },
+    {
+      "name": "A Thousand Years (Piano Version)",
+      "artists": "Laura Sullivan",
+      "album": "A Thousand Years (Piano Version)",
+      "popularity": 54,
+      "tempo": 148.7,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.083,
+      "valence": 0.276,
+      "danceability": 0.316,
+      "acousticness": 0.989,
+      "instrumentalness": 0.929,
+      "loudness": -25.6,
+      "speechiness": 0.043,
+      "duration_ms": 148369,
+      "slug": "a-thousand-years-piano-version-laura-sullivan"
+    },
+    {
+      "name": "Nuclear",
+      "artists": "Mike Oldfield",
+      "album": "Man On The Rocks",
+      "popularity": 54,
+      "tempo": 135.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.525,
+      "valence": 0.31,
+      "danceability": 0.402,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.03,
+      "duration_ms": 303986,
+      "slug": "nuclear-mike-oldfield"
+    },
+    {
+      "name": "You Are the Reason - Instrumental",
+      "artists": "Laura Sullivan",
+      "album": "You Are the Reason (Instrumental)",
+      "popularity": 54,
+      "tempo": 168.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.236,
+      "valence": 0.148,
+      "danceability": 0.498,
+      "acousticness": 0.99,
+      "instrumentalness": 0.938,
+      "loudness": -16.1,
+      "speechiness": 0.046,
+      "duration_ms": 209984,
+      "slug": "you-are-the-reason-instrumental-laura-sullivan"
+    },
+    {
+      "name": "Adagio",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 54,
+      "tempo": 51.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.328,
+      "valence": 0.061,
+      "danceability": 0.115,
+      "acousticness": 0.911,
+      "instrumentalness": 0.771,
+      "loudness": -11.2,
+      "speechiness": 0.042,
+      "duration_ms": 175040,
+      "slug": "adagio-secret-garden"
+    },
+    {
+      "name": "The Approaching Night",
+      "artists": "Philip Wesley",
+      "album": "Dark Night of the Soul",
+      "popularity": 54,
+      "tempo": 93.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.1,
+      "valence": 0.08,
+      "danceability": 0.429,
+      "acousticness": 0.992,
+      "instrumentalness": 0.902,
+      "loudness": -23.9,
+      "speechiness": 0.043,
+      "duration_ms": 399666,
+      "slug": "the-approaching-night-philip-wesley"
+    },
+    {
+      "name": "Eventide",
+      "artists": "Michael Hopp\u00e9",
+      "album": "The Unforgetting Heart",
+      "popularity": 54,
+      "tempo": 89.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.071,
+      "valence": 0.039,
+      "danceability": 0.101,
+      "acousticness": 0.968,
+      "instrumentalness": 0.962,
+      "loudness": -24.4,
+      "speechiness": 0.044,
+      "duration_ms": 271893,
+      "slug": "eventide-michael-hopp\u00e9"
+    },
+    {
+      "name": "Destiny (feat. Jordan Hill & Billy Porter)",
+      "artists": "Jim Brickman;Jordan Hill;Billy Porter",
+      "album": "Destiny",
+      "popularity": 54,
+      "tempo": 113.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.52,
+      "valence": 0.342,
+      "danceability": 0.571,
+      "acousticness": 0.418,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.025,
+      "duration_ms": 227773,
+      "slug": "destiny-feat-jordan-hill-billy-porter-jim-brickman"
+    },
+    {
+      "name": "Man in the Rain",
+      "artists": "Mike Oldfield",
+      "album": "Tubular Bells III",
+      "popularity": 54,
+      "tempo": 128.3,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.585,
+      "valence": 0.628,
+      "danceability": 0.573,
+      "acousticness": 0.34,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.027,
+      "duration_ms": 243400,
+      "slug": "man-in-the-rain-mike-oldfield"
+    },
+    {
+      "name": "Serenade To Spring",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 54,
+      "tempo": 83.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.322,
+      "valence": 0.125,
+      "danceability": 0.119,
+      "acousticness": 0.69,
+      "instrumentalness": 0.888,
+      "loudness": -12.2,
+      "speechiness": 0.035,
+      "duration_ms": 195120,
+      "slug": "serenade-to-spring-secret-garden"
+    },
+    {
+      "name": "Your Love",
+      "artists": "Jim Brickman",
+      "album": "Destiny",
+      "popularity": 54,
+      "tempo": 122.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.454,
+      "valence": 0.326,
+      "danceability": 0.605,
+      "acousticness": 0.241,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.026,
+      "duration_ms": 223093,
+      "slug": "your-love-jim-brickman"
+    },
+    {
+      "name": "Your Love",
+      "artists": "Jim Brickman",
+      "album": "Destiny",
+      "popularity": 54,
+      "tempo": 122.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.454,
+      "valence": 0.326,
+      "danceability": 0.605,
+      "acousticness": 0.241,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.026,
+      "duration_ms": 223093,
+      "slug": "your-love-jim-brickman"
+    },
+    {
+      "name": "Gravity Of Love",
+      "artists": "Enigma",
+      "album": "The Screen Behind The Mirror",
+      "popularity": 53,
+      "tempo": 140.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.747,
+      "valence": 0.424,
+      "danceability": 0.572,
+      "acousticness": 0.139,
+      "instrumentalness": 0.354,
+      "loudness": -9.9,
+      "speechiness": 0.043,
+      "duration_ms": 238760,
+      "slug": "gravity-of-love-enigma"
+    },
+    {
+      "name": "May Be",
+      "artists": "Yiruma",
+      "album": "Yiruma 2nd Album 'First Love' (The Original & the Very First Recording)",
+      "popularity": 53,
+      "tempo": 112.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.124,
+      "valence": 0.123,
+      "danceability": 0.467,
+      "acousticness": 0.992,
+      "instrumentalness": 0.879,
+      "loudness": -22.4,
+      "speechiness": 0.052,
+      "duration_ms": 240533,
+      "slug": "may-be-yiruma"
+    },
+    {
+      "name": "Through the Arbor",
+      "artists": "Kevin Kern",
+      "album": "In the Enchanted Garden",
+      "popularity": 53,
+      "tempo": 199.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.08,
+      "valence": 0.235,
+      "danceability": 0.302,
+      "acousticness": 0.981,
+      "instrumentalness": 0.836,
+      "loudness": -18.9,
+      "speechiness": 0.033,
+      "duration_ms": 225800,
+      "slug": "through-the-arbor-kevin-kern"
+    },
+    {
+      "name": "Song From A Secret Garden - Piano Solo Version",
+      "artists": "Secret Garden",
+      "album": "You Raise Me Up - The Collection",
+      "popularity": 53,
+      "tempo": 114.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.047,
+      "valence": 0.304,
+      "danceability": 0.491,
+      "acousticness": 0.991,
+      "instrumentalness": 0.957,
+      "loudness": -23.6,
+      "speechiness": 0.082,
+      "duration_ms": 124893,
+      "slug": "song-from-a-secret-garden-piano-solo-version-secret-garden"
+    },
+    {
+      "name": "Give Me Forever (I Do)",
+      "artists": "John Tesh;James Ingram",
+      "album": "Grand Passion",
+      "popularity": 53,
+      "tempo": 106.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.354,
+      "valence": 0.131,
+      "danceability": 0.373,
+      "acousticness": 0.532,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.028,
+      "duration_ms": 230306,
+      "slug": "give-me-forever-i-do-john-tesh"
+    },
+    {
+      "name": "Lovesong from the Mountains",
+      "artists": "Deuter",
+      "album": "Koyasan: Reiki Sound Healing",
+      "popularity": 53,
+      "tempo": 64.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.088,
+      "valence": 0.037,
+      "danceability": 0.184,
+      "acousticness": 0.894,
+      "instrumentalness": 0.51,
+      "loudness": -20.7,
+      "speechiness": 0.046,
+      "duration_ms": 478520,
+      "slug": "lovesong-from-the-mountains-deuter"
+    },
+    {
+      "name": "Yeha Noha (Wishes Of Happiness And Prosperity)",
+      "artists": "Sacred Spirit",
+      "album": "Chants And Dances Of The Native Americans",
+      "popularity": 53,
+      "tempo": 94.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.384,
+      "valence": 0.513,
+      "danceability": 0.576,
+      "acousticness": 0.31,
+      "instrumentalness": 0.027,
+      "loudness": -16.7,
+      "speechiness": 0.034,
+      "duration_ms": 243666,
+      "slug": "yeha-noha-wishes-of-happiness-and-prosperity-sacred-spirit"
+    },
+    {
+      "name": "Temple of Silence",
+      "artists": "Deuter;Annette Cantor",
+      "album": "Garden of the Gods",
+      "popularity": 53,
+      "tempo": 99.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.2,
+      "valence": 0.037,
+      "danceability": 0.159,
+      "acousticness": 0.982,
+      "instrumentalness": 0.972,
+      "loudness": -20.0,
+      "speechiness": 0.038,
+      "duration_ms": 556240,
+      "slug": "temple-of-silence-deuter"
+    },
+    {
+      "name": "irreplaceable",
+      "artists": "Chad Lawson;Royal Philharmonic Orchestra;James Southall",
+      "album": "irreplaceable",
+      "popularity": 53,
+      "tempo": 117.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.075,
+      "valence": 0.126,
+      "danceability": 0.238,
+      "acousticness": 0.95,
+      "instrumentalness": 0.935,
+      "loudness": -24.2,
+      "speechiness": 0.044,
+      "duration_ms": 271943,
+      "slug": "irreplaceable-chad-lawson"
+    },
+    {
+      "name": "Feather Theme (From \"Forrest Gump\")",
+      "artists": "Danny Wright",
+      "album": "Dream A Little Dream: Classic Piano Lullabies",
+      "popularity": 53,
+      "tempo": 126.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.054,
+      "valence": 0.167,
+      "danceability": 0.395,
+      "acousticness": 0.969,
+      "instrumentalness": 0.855,
+      "loudness": -26.5,
+      "speechiness": 0.046,
+      "duration_ms": 187857,
+      "slug": "feather-theme-from-forrest-gump-danny-wright"
+    },
+    {
+      "name": "Kindred Spirit",
+      "artists": "Deuter",
+      "album": "Koyasan: Reiki Sound Healing",
+      "popularity": 53,
+      "tempo": 151.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.082,
+      "valence": 0.039,
+      "danceability": 0.182,
+      "acousticness": 0.98,
+      "instrumentalness": 0.903,
+      "loudness": -22.4,
+      "speechiness": 0.047,
+      "duration_ms": 499266,
+      "slug": "kindred-spirit-deuter"
+    },
+    {
+      "name": "Callas Went Away",
+      "artists": "Enigma",
+      "album": "MCMXC a.D.",
+      "popularity": 52,
+      "tempo": 97.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.299,
+      "valence": 0.511,
+      "danceability": 0.671,
+      "acousticness": 0.317,
+      "instrumentalness": 0.001,
+      "loudness": -15.6,
+      "speechiness": 0.023,
+      "duration_ms": 269373,
+      "slug": "callas-went-away-enigma"
+    },
+    {
+      "name": "Why!...",
+      "artists": "Enigma",
+      "album": "Le Roi Est Mort, Vive Le Roi!",
+      "popularity": 52,
+      "tempo": 82.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.637,
+      "valence": 0.304,
+      "danceability": 0.58,
+      "acousticness": 0.206,
+      "instrumentalness": 0.139,
+      "loudness": -10.3,
+      "speechiness": 0.043,
+      "duration_ms": 299373,
+      "slug": "why-enigma"
+    },
+    {
+      "name": "The Voice Of Enigma",
+      "artists": "Enigma",
+      "album": "MCMXC a.D.",
+      "popularity": 52,
+      "tempo": 108.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.053,
+      "valence": 0.035,
+      "danceability": 0.192,
+      "acousticness": 0.922,
+      "instrumentalness": 0.054,
+      "loudness": -29.6,
+      "speechiness": 0.038,
+      "duration_ms": 141455,
+      "slug": "the-voice-of-enigma-enigma"
+    },
+    {
+      "name": "Reminiscent",
+      "artists": "Yiruma",
+      "album": "The Best - Reminiscent 10th Anniversary",
+      "popularity": 52,
+      "tempo": 150.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.245,
+      "valence": 0.063,
+      "danceability": 0.287,
+      "acousticness": 0.982,
+      "instrumentalness": 0.923,
+      "loudness": -17.2,
+      "speechiness": 0.038,
+      "duration_ms": 192133,
+      "slug": "reminiscent-yiruma"
+    },
+    {
+      "name": "The Dream Of The Dolphin",
+      "artists": "Enigma",
+      "album": "The Cross Of Changes",
+      "popularity": 52,
+      "tempo": 104.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.126,
+      "valence": 0.035,
+      "danceability": 0.38,
+      "acousticness": 0.862,
+      "instrumentalness": 0.565,
+      "loudness": -22.6,
+      "speechiness": 0.033,
+      "duration_ms": 167369,
+      "slug": "the-dream-of-the-dolphin-enigma"
+    },
+    {
+      "name": "A Celtic Dream",
+      "artists": "Michele McLaughlin",
+      "album": "A Celtic Dream",
+      "popularity": 52,
+      "tempo": 132.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.319,
+      "valence": 0.12,
+      "danceability": 0.323,
+      "acousticness": 0.987,
+      "instrumentalness": 0.896,
+      "loudness": -15.2,
+      "speechiness": 0.055,
+      "duration_ms": 103426,
+      "slug": "a-celtic-dream-michele-mclaughlin"
+    },
+    {
+      "name": "Pachelbel's Canon in D",
+      "artists": "Danny Wright",
+      "album": "Healer of Hearts",
+      "popularity": 52,
+      "tempo": 74.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.184,
+      "valence": 0.144,
+      "danceability": 0.267,
+      "acousticness": 0.822,
+      "instrumentalness": 0.926,
+      "loudness": -16.4,
+      "speechiness": 0.033,
+      "duration_ms": 217746,
+      "slug": "pachelbels-canon-in-d-danny-wright"
+    },
+    {
+      "name": "Pachelbel's Canon in D",
+      "artists": "Hilary Stagg",
+      "album": "Beyond the Horizon",
+      "popularity": 52,
+      "tempo": 99.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.058,
+      "valence": 0.245,
+      "danceability": 0.56,
+      "acousticness": 0.976,
+      "instrumentalness": 0.831,
+      "loudness": -24.4,
+      "speechiness": 0.047,
+      "duration_ms": 169120,
+      "slug": "pachelbels-canon-in-d-hilary-stagg"
+    },
+    {
+      "name": "Song for Sienna",
+      "artists": "Brian Crain",
+      "album": "Piano and Cello Duet",
+      "popularity": 52,
+      "tempo": 91.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.226,
+      "valence": 0.168,
+      "danceability": 0.216,
+      "acousticness": 0.973,
+      "instrumentalness": 0.872,
+      "loudness": -14.6,
+      "speechiness": 0.033,
+      "duration_ms": 244960,
+      "slug": "song-for-sienna-brian-crain"
+    },
+    {
+      "name": "Sweet Return",
+      "artists": "Hilary Stagg",
+      "album": "Beyond the Horizon",
+      "popularity": 52,
+      "tempo": 94.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.129,
+      "valence": 0.051,
+      "danceability": 0.261,
+      "acousticness": 0.815,
+      "instrumentalness": 0.914,
+      "loudness": -19.9,
+      "speechiness": 0.031,
+      "duration_ms": 260440,
+      "slug": "sweet-return-hilary-stagg"
+    },
+    {
+      "name": "Uno",
+      "artists": "Deuter",
+      "album": "Atmospheres",
+      "popularity": 52,
+      "tempo": 67.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.005,
+      "valence": 0.051,
+      "danceability": 0.262,
+      "acousticness": 0.985,
+      "instrumentalness": 0.965,
+      "loudness": -28.1,
+      "speechiness": 0.035,
+      "duration_ms": 354973,
+      "slug": "uno-deuter"
+    },
+    {
+      "name": "Amen",
+      "artists": "Enigma;Aquilo",
+      "album": "The Fall Of A Rebel Angel",
+      "popularity": 51,
+      "tempo": 71.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.467,
+      "valence": 0.124,
+      "danceability": 0.171,
+      "acousticness": 0.143,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.035,
+      "duration_ms": 293386,
+      "slug": "amen-enigma"
+    },
+    {
+      "name": "the color of the sky - solo piano",
+      "artists": "Chad Lawson",
+      "album": "the color of the sky (solo piano)",
+      "popularity": 51,
+      "tempo": 67.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.017,
+      "valence": 0.069,
+      "danceability": 0.171,
+      "acousticness": 0.989,
+      "instrumentalness": 0.902,
+      "loudness": -32.5,
+      "speechiness": 0.046,
+      "duration_ms": 223880,
+      "slug": "the-color-of-the-sky-solo-piano-chad-lawson"
+    },
+    {
+      "name": "Love Me",
+      "artists": "Yiruma",
+      "album": "Yiruma 2nd Album 'First Love' (The Original & the Very First Recording)",
+      "popularity": 51,
+      "tempo": 77.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.254,
+      "valence": 0.257,
+      "danceability": 0.407,
+      "acousticness": 0.992,
+      "instrumentalness": 0.933,
+      "loudness": -21.7,
+      "speechiness": 0.058,
+      "duration_ms": 245600,
+      "slug": "love-me-yiruma"
+    },
+    {
+      "name": "Beethoven's Silence",
+      "artists": "Ernesto Cortazar",
+      "album": "Just for You",
+      "popularity": 51,
+      "tempo": 140.7,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.272,
+      "valence": 0.087,
+      "danceability": 0.272,
+      "acousticness": 0.975,
+      "instrumentalness": 0.964,
+      "loudness": -16.2,
+      "speechiness": 0.038,
+      "duration_ms": 158538,
+      "slug": "beethovens-silence-ernesto-cortazar"
+    },
+    {
+      "name": "Rainbow",
+      "artists": "Frank Steiner Jr.",
+      "album": "Touching Silk",
+      "popularity": 51,
+      "tempo": 84.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.115,
+      "valence": 0.145,
+      "danceability": 0.259,
+      "acousticness": 0.953,
+      "instrumentalness": 0.422,
+      "loudness": -20.6,
+      "speechiness": 0.051,
+      "duration_ms": 113706,
+      "slug": "rainbow-frank-steiner-jr"
+    },
+    {
+      "name": "In the Waiting",
+      "artists": "Chad Lawson",
+      "album": "You Finally Knew",
+      "popularity": 51,
+      "tempo": 75.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.011,
+      "valence": 0.148,
+      "danceability": 0.337,
+      "acousticness": 0.991,
+      "instrumentalness": 0.958,
+      "loudness": -27.3,
+      "speechiness": 0.046,
+      "duration_ms": 159208,
+      "slug": "in-the-waiting-chad-lawson"
+    },
+    {
+      "name": "Nocturne in a Minor",
+      "artists": "Chad Lawson",
+      "album": "The Piano",
+      "popularity": 51,
+      "tempo": 101.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.034,
+      "valence": 0.042,
+      "danceability": 0.189,
+      "acousticness": 0.99,
+      "instrumentalness": 0.926,
+      "loudness": -27.4,
+      "speechiness": 0.041,
+      "duration_ms": 362353,
+      "slug": "nocturne-in-a-minor-chad-lawson"
+    },
+    {
+      "name": "An Evening Walk",
+      "artists": "Bernward Koch",
+      "album": "Gentle Spirit",
+      "popularity": 51,
+      "tempo": 125.2,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.127,
+      "valence": 0.098,
+      "danceability": 0.269,
+      "acousticness": 0.94,
+      "instrumentalness": 0.909,
+      "loudness": -16.9,
+      "speechiness": 0.036,
+      "duration_ms": 239053,
+      "slug": "an-evening-walk-bernward-koch"
+    },
+    {
+      "name": "Hearts Awakening",
+      "artists": "Parijat",
+      "album": "Reiki Healing Waves",
+      "popularity": 51,
+      "tempo": 113.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.093,
+      "valence": 0.158,
+      "danceability": 0.489,
+      "acousticness": 0.949,
+      "instrumentalness": 0.852,
+      "loudness": -22.3,
+      "speechiness": 0.037,
+      "duration_ms": 420173,
+      "slug": "hearts-awakening-parijat"
+    },
+    {
+      "name": "Arrival of the Birds",
+      "artists": "Jacob's Piano",
+      "album": "Arrival of the Birds",
+      "popularity": 50,
+      "tempo": 126.2,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.2,
+      "valence": 0.102,
+      "danceability": 0.2,
+      "acousticness": 0.901,
+      "instrumentalness": 0.825,
+      "loudness": -17.2,
+      "speechiness": 0.04,
+      "duration_ms": 160246,
+      "slug": "arrival-of-the-birds-jacobs-piano"
+    },
+    {
+      "name": "The Eyes Of Truth",
+      "artists": "Enigma",
+      "album": "The Cross Of Changes",
+      "popularity": 50,
+      "tempo": 94.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.691,
+      "valence": 0.302,
+      "danceability": 0.503,
+      "acousticness": 0.025,
+      "instrumentalness": 0.348,
+      "loudness": -13.0,
+      "speechiness": 0.046,
+      "duration_ms": 434506,
+      "slug": "the-eyes-of-truth-enigma"
+    },
+    {
+      "name": "In The Morning Light",
+      "artists": "Yanni",
+      "album": "The Essential Yanni",
+      "popularity": 50,
+      "tempo": 104.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.131,
+      "valence": 0.177,
+      "danceability": 0.343,
+      "acousticness": 0.981,
+      "instrumentalness": 0.903,
+      "loudness": -20.5,
+      "speechiness": 0.032,
+      "duration_ms": 228013,
+      "slug": "in-the-morning-light-yanni"
+    },
+    {
+      "name": "Kiss the Rain - Orchestra Version",
+      "artists": "Yiruma",
+      "album": "The Rewritten Memories",
+      "popularity": 50,
+      "tempo": 101.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.22,
+      "valence": 0.07,
+      "danceability": 0.214,
+      "acousticness": 0.955,
+      "instrumentalness": 0.897,
+      "loudness": -13.9,
+      "speechiness": 0.032,
+      "duration_ms": 285632,
+      "slug": "kiss-the-rain-orchestra-version-yiruma"
+    },
+    {
+      "name": "G Minor Bach (From \"Piano Tiles 2\")",
+      "artists": "Jacob's Piano",
+      "album": "G Minor Bach (From \"Piano Tiles 2\")",
+      "popularity": 50,
+      "tempo": 83.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.27,
+      "valence": 0.224,
+      "danceability": 0.252,
+      "acousticness": 0.975,
+      "instrumentalness": 0.917,
+      "loudness": -19.1,
+      "speechiness": 0.032,
+      "duration_ms": 200000,
+      "slug": "g-minor-bach-from-piano-tiles-2-jacobs-piano"
+    },
+    {
+      "name": "Waltz in C Minor (Only for Piano)",
+      "artists": "Yiruma",
+      "album": "Blind Film",
+      "popularity": 50,
+      "tempo": 67.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.072,
+      "valence": 0.047,
+      "danceability": 0.377,
+      "acousticness": 0.993,
+      "instrumentalness": 0.912,
+      "loudness": -22.2,
+      "speechiness": 0.058,
+      "duration_ms": 228293,
+      "slug": "waltz-in-c-minor-only-for-piano-yiruma"
+    },
+    {
+      "name": "A Beautiful Distraction",
+      "artists": "Michele McLaughlin",
+      "album": "Waking the Muse",
+      "popularity": 50,
+      "tempo": 71.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.118,
+      "valence": 0.053,
+      "danceability": 0.261,
+      "acousticness": 0.969,
+      "instrumentalness": 0.913,
+      "loudness": -21.2,
+      "speechiness": 0.042,
+      "duration_ms": 216973,
+      "slug": "a-beautiful-distraction-michele-mclaughlin"
+    },
+    {
+      "name": "Sundial Dreams",
+      "artists": "Kevin Kern",
+      "album": "In the Enchanted Garden",
+      "popularity": 50,
+      "tempo": 100.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.156,
+      "valence": 0.424,
+      "danceability": 0.593,
+      "acousticness": 0.98,
+      "instrumentalness": 0.867,
+      "loudness": -18.4,
+      "speechiness": 0.031,
+      "duration_ms": 286493,
+      "slug": "sundial-dreams-kevin-kern"
+    },
+    {
+      "name": "Entering Twin Falls",
+      "artists": "Nicholas Gunn",
+      "album": "The Music of the Grand Canyon",
+      "popularity": 50,
+      "tempo": 112.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.642,
+      "valence": 0.363,
+      "danceability": 0.293,
+      "acousticness": 0.072,
+      "instrumentalness": 0.941,
+      "loudness": -12.7,
+      "speechiness": 0.04,
+      "duration_ms": 250973,
+      "slug": "entering-twin-falls-nicholas-gunn"
+    },
+    {
+      "name": "Walk With Me (Piano / Cello Version)",
+      "artists": "Robin Spielberg",
+      "album": "Walk With Me (Piano / Cello Version)",
+      "popularity": 50,
+      "tempo": 86.5,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.15,
+      "valence": 0.176,
+      "danceability": 0.388,
+      "acousticness": 0.978,
+      "instrumentalness": 0.819,
+      "loudness": -16.1,
+      "speechiness": 0.031,
+      "duration_ms": 209294,
+      "slug": "walk-with-me-piano-cello-version-robin-spielberg"
+    },
+    {
+      "name": "Under Trees",
+      "artists": "Bernward Koch",
+      "album": "Gentle Spirit",
+      "popularity": 50,
+      "tempo": 61.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.159,
+      "valence": 0.087,
+      "danceability": 0.258,
+      "acousticness": 0.936,
+      "instrumentalness": 0.959,
+      "loudness": -14.3,
+      "speechiness": 0.03,
+      "duration_ms": 228213,
+      "slug": "under-trees-bernward-koch"
+    },
+    {
+      "name": "Touching Silk",
+      "artists": "Frank Steiner Jr.",
+      "album": "Touching Silk",
+      "popularity": 50,
+      "tempo": 105.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.03,
+      "valence": 0.037,
+      "danceability": 0.169,
+      "acousticness": 0.891,
+      "instrumentalness": 0.749,
+      "loudness": -27.0,
+      "speechiness": 0.038,
+      "duration_ms": 217880,
+      "slug": "touching-silk-frank-steiner-jr"
+    },
+    {
+      "name": "Hallelujah",
+      "artists": "Brian Crain",
+      "album": "Piano and Light",
+      "popularity": 50,
+      "tempo": 92.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.035,
+      "valence": 0.076,
+      "danceability": 0.314,
+      "acousticness": 0.99,
+      "instrumentalness": 0.854,
+      "loudness": -24.9,
+      "speechiness": 0.035,
+      "duration_ms": 251936,
+      "slug": "hallelujah-brian-crain"
+    },
+    {
+      "name": "Tubular Bells - Pt. I",
+      "artists": "Mike Oldfield",
+      "album": "Tubular Bells",
+      "popularity": 50,
+      "tempo": 103.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.219,
+      "valence": 0.058,
+      "danceability": 0.374,
+      "acousticness": 0.564,
+      "instrumentalness": 0.56,
+      "loudness": -19.1,
+      "speechiness": 0.034,
+      "duration_ms": 1561133,
+      "slug": "tubular-bells-pt-i-mike-oldfield"
+    },
+    {
+      "name": "Sound of Invisible Waters",
+      "artists": "Deuter",
+      "album": "Koyasan: Reiki Sound Healing",
+      "popularity": 50,
+      "tempo": 56.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.021,
+      "valence": 0.036,
+      "danceability": 0.111,
+      "acousticness": 0.956,
+      "instrumentalness": 0.974,
+      "loudness": -27.0,
+      "speechiness": 0.038,
+      "duration_ms": 572853,
+      "slug": "sound-of-invisible-waters-deuter"
+    },
+    {
+      "name": "Walking Through Clouds",
+      "artists": "Bernward Koch",
+      "album": "Walking through Clouds",
+      "popularity": 50,
+      "tempo": 106.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.151,
+      "valence": 0.08,
+      "danceability": 0.301,
+      "acousticness": 0.936,
+      "instrumentalness": 0.951,
+      "loudness": -13.6,
+      "speechiness": 0.03,
+      "duration_ms": 159613,
+      "slug": "walking-through-clouds-bernward-koch"
+    },
+    {
+      "name": "Touched by Love",
+      "artists": "Bernward Koch",
+      "album": "Walking through Clouds",
+      "popularity": 50,
+      "tempo": 71.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.056,
+      "valence": 0.062,
+      "danceability": 0.153,
+      "acousticness": 0.978,
+      "instrumentalness": 0.953,
+      "loudness": -19.5,
+      "speechiness": 0.035,
+      "duration_ms": 202853,
+      "slug": "touched-by-love-bernward-koch"
+    },
+    {
+      "name": "The Enchanted Path",
+      "artists": "Bernward Koch",
+      "album": "Day of Life",
+      "popularity": 50,
+      "tempo": 96.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.127,
+      "valence": 0.039,
+      "danceability": 0.255,
+      "acousticness": 0.929,
+      "instrumentalness": 0.954,
+      "loudness": -14.8,
+      "speechiness": 0.032,
+      "duration_ms": 255760,
+      "slug": "the-enchanted-path-bernward-koch"
+    },
+    {
+      "name": "Perfect",
+      "artists": "Laura Sullivan",
+      "album": "Perfect",
+      "popularity": 49,
+      "tempo": 172.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.145,
+      "valence": 0.262,
+      "danceability": 0.287,
+      "acousticness": 0.988,
+      "instrumentalness": 0.948,
+      "loudness": -21.5,
+      "speechiness": 0.047,
+      "duration_ms": 291301,
+      "slug": "perfect-laura-sullivan"
+    },
+    {
+      "name": "Until the Last Moment - Live",
+      "artists": "Yanni",
+      "album": "Yanni Live At The Acropolis",
+      "popularity": 49,
+      "tempo": 96.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.258,
+      "valence": 0.049,
+      "danceability": 0.221,
+      "acousticness": 0.941,
+      "instrumentalness": 0.883,
+      "loudness": -16.3,
+      "speechiness": 0.034,
+      "duration_ms": 397200,
+      "slug": "until-the-last-moment-live-yanni"
+    },
+    {
+      "name": "May Be",
+      "artists": "Yiruma",
+      "album": "The Best - Reminiscent 10th Anniversary",
+      "popularity": 49,
+      "tempo": 97.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.159,
+      "valence": 0.103,
+      "danceability": 0.387,
+      "acousticness": 0.99,
+      "instrumentalness": 0.87,
+      "loudness": -19.1,
+      "speechiness": 0.048,
+      "duration_ms": 306200,
+      "slug": "may-be-yiruma"
+    },
+    {
+      "name": "Dervish Dream",
+      "artists": "Karunesh",
+      "album": "Colors of the East",
+      "popularity": 49,
+      "tempo": 160.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.534,
+      "valence": 0.459,
+      "danceability": 0.625,
+      "acousticness": 0.751,
+      "instrumentalness": 0.891,
+      "loudness": -13.8,
+      "speechiness": 0.042,
+      "duration_ms": 354773,
+      "slug": "dervish-dream-karunesh"
+    },
+    {
+      "name": "Sunset Bird - Piano Septet Version",
+      "artists": "Yiruma",
+      "album": "The Rewritten Memories",
+      "popularity": 49,
+      "tempo": 144.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.224,
+      "valence": 0.319,
+      "danceability": 0.395,
+      "acousticness": 0.968,
+      "instrumentalness": 0.853,
+      "loudness": -15.1,
+      "speechiness": 0.03,
+      "duration_ms": 197611,
+      "slug": "sunset-bird-piano-septet-version-yiruma"
+    },
+    {
+      "name": "Una Mattina (from \"The Intouchables\")",
+      "artists": "Jacob's Piano",
+      "album": "4 Soundtracks",
+      "popularity": 49,
+      "tempo": 133.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.076,
+      "valence": 0.098,
+      "danceability": 0.354,
+      "acousticness": 0.982,
+      "instrumentalness": 0.839,
+      "loudness": -22.1,
+      "speechiness": 0.054,
+      "duration_ms": 206000,
+      "slug": "una-mattina-from-the-intouchables-jacobs-piano"
+    },
+    {
+      "name": "Love Me",
+      "artists": "Yiruma",
+      "album": "The Best - Reminiscent 10th Anniversary",
+      "popularity": 49,
+      "tempo": 144.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.137,
+      "valence": 0.229,
+      "danceability": 0.544,
+      "acousticness": 0.992,
+      "instrumentalness": 0.868,
+      "loudness": -18.4,
+      "speechiness": 0.068,
+      "duration_ms": 248586,
+      "slug": "love-me-yiruma"
+    },
+    {
+      "name": "Fairy Tale",
+      "artists": "Yiruma",
+      "album": "The Best - Reminiscent 10th Anniversary",
+      "popularity": 49,
+      "tempo": 63.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.183,
+      "valence": 0.16,
+      "danceability": 0.392,
+      "acousticness": 0.987,
+      "instrumentalness": 0.899,
+      "loudness": -16.8,
+      "speechiness": 0.066,
+      "duration_ms": 162280,
+      "slug": "fairy-tale-yiruma"
+    },
+    {
+      "name": "Take My Hand",
+      "artists": "Omar Akram",
+      "album": "Echoes of Love",
+      "popularity": 49,
+      "tempo": 113.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.443,
+      "valence": 0.364,
+      "danceability": 0.633,
+      "acousticness": 0.703,
+      "instrumentalness": 0.484,
+      "loudness": -10.7,
+      "speechiness": 0.028,
+      "duration_ms": 292813,
+      "slug": "take-my-hand-omar-akram"
+    },
+    {
+      "name": "Once Upon a Dream",
+      "artists": "Emile Pandolfi",
+      "album": "Once Upon a Romance",
+      "popularity": 49,
+      "tempo": 77.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.144,
+      "valence": 0.219,
+      "danceability": 0.293,
+      "acousticness": 0.988,
+      "instrumentalness": 0.872,
+      "loudness": -18.3,
+      "speechiness": 0.042,
+      "duration_ms": 235333,
+      "slug": "once-upon-a-dream-emile-pandolfi"
+    },
+    {
+      "name": "Love of My Life (feat. Michael W. Smith)",
+      "artists": "Jim Brickman;Michael W. Smith",
+      "album": "Destiny",
+      "popularity": 49,
+      "tempo": 140.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.28,
+      "valence": 0.221,
+      "danceability": 0.443,
+      "acousticness": 0.463,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.028,
+      "duration_ms": 240506,
+      "slug": "love-of-my-life-feat-michael-w-smith-jim-brickman"
+    }
+  ]
+}

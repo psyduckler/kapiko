@@ -10,7 +10,7 @@ import json, os, sys, re, html as H
 from pathlib import Path
 
 SITE = Path.home() / 'kapiko' / 'site'
-GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop','blues','metal','funk','disco','reggae','punk','house','techno','trance','deep-house','dubstep','k-pop','latin','afrobeat','j-pop','alt-rock','grunge','hard-rock','singer-songwriter','indie-pop']
+GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop','blues','metal','funk','disco','reggae','punk','house','techno','trance','deep-house','dubstep','k-pop','latin','afrobeat','j-pop','alt-rock','grunge','hard-rock','singer-songwriter','indie-pop','dance','heavy-metal','gospel','emo','ska','drum-and-bass','progressive-house','idm','electro','punk-rock','hardcore','psych-rock','rock-n-roll','indian','anime','dancehall','mandopop','bluegrass','new-age','guitar']
 
 def esc(t): return H.escape(str(t))
 
@@ -73,6 +73,26 @@ def infer_instruments(genre, acousticness, instrumentalness, energy):
         'hard-rock': ['overdriven guitar','power chords','heavy drums'],
         'singer-songwriter': ['acoustic guitar','piano','soft vocals'],
         'indie-pop': ['jangly guitar','synth pads','drum machine'],
+        'dance': ['synth','programmed drums','bass drops'],
+        'heavy-metal': ['heavily distorted guitar','double bass drum','bass guitar'],
+        'gospel': ['choir vocals','organ','piano'],
+        'emo': ['distorted guitar','bass','reverbed arpeggios'],
+        'ska': ['upstroke guitar','trumpet','trombone'],
+        'drum-and-bass': ['breakbeats','sub-bass','synth stabs'],
+        'progressive-house': ['long synth pads','arpeggiated leads','rolling bassline'],
+        'idm': ['granular synth','complex drum patterns','spectral processing'],
+        'electro': ['TR-808 drums','analog synth','vocoder'],
+        'punk-rock': ['power chords','fast drums','gang vocals'],
+        'hardcore': ['heavy riffs','blast beats','shout vocals'],
+        'psych-rock': ['fuzz guitar','wah pedal','mellotron'],
+        'rock-n-roll': ['electric guitar','upright bass','saxophone'],
+        'indian': ['sitar','tabla','harmonium'],
+        'anime': ['orchestra','electric guitar','choir'],
+        'dancehall': ['digital riddim','synth bass','vocal chatting'],
+        'mandopop': ['piano','strings','acoustic guitar'],
+        'bluegrass': ['banjo','fiddle','mandolin'],
+        'new-age': ['crystal bowls','soft synth pads','flute'],
+        'guitar': ['acoustic guitar','electric guitar','classical guitar'],
     }.get(genre, ['various instruments'])
     return ', '.join(base)
 
