@@ -3,348 +3,786 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Experience — Analysis + Prompt Template - kapiko</title>
-  <meta name="description" content="Deep audio analysis of Experience by Ludovico Einaudi, Daniel Hope, I Virtuosi Italiani. BPM, key, energy, instrumentation, mood, and production breakdown.">
+  <title>Recreate "Experience" by Ludovico Einaudi with AI | Prompt + Analysis — kapiko</title>
+  <meta name="description" content="Recreate Experience by Ludovico Einaudi using AI music generators like Suno and Udio. Copy our data-driven prompts — includes full audio analysis: 92 BPM, D Major, mood, instrumentation &amp; production breakdown.">
+  <meta property="og:title" content="Recreate &quot;Experience&quot; by Ludovico Einaudi with AI — kapiko">
+  <meta property="og:description" content="Data-driven AI music prompts for Suno, Udio &amp; more. Full audio analysis of Experience — BPM, key, mood, instrumentation.">
+  <meta property="og:type" content="music.song">
+  <meta property="og:url" content="https://kapiko.ai/songs/experience-ludovico-einaudi/">
+  <meta property="og:site_name" content="kapiko">
+  <link rel="canonical" href="https://kapiko.ai/songs/experience-ludovico-einaudi/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicRecording",
+    "name": "Experience",
+    "duration": "PT5M15S",
+    "byArtist": [
+      { "@type": "MusicGroup", "name": "Ludovico Einaudi" },
+      { "@type": "MusicGroup", "name": "Daniel Hope" },
+      { "@type": "MusicGroup", "name": "I Virtuosi Italiani" }
+    ],
+    "inAlbum": {
+      "@type": "MusicAlbum",
+      "name": "In A Time Lapse"
+    },
+    "genre": ["neo-classical", "ambient", "film score"],
+    "url": "https://kapiko.ai/songs/experience-ludovico-einaudi/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "kapiko",
+      "url": "https://kapiko.ai"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Recreate \"Experience\" by Ludovico Einaudi with AI",
+    "description": "Use data-driven prompts to recreate the sound of Experience using Suno, Udio, or any AI music generator.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Choose your AI music tool",
+        "text": "Select Suno, Udio, or another AI music generation service."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Copy the prompt",
+        "text": "Copy the ready-to-use prompt: Create a 5:15 neo-classical track at 92 BPM in D Major. Instrumental — harp, string pads. Meditative / melancholic and expansive."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Generate and refine",
+        "text": "Paste the prompt into your chosen tool, generate the track, and iterate on the results."
+      }
+    ]
+  }
+  </script>
+
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     :root {
-      --bg: #0b0c1a; --bg-card: #111222; --border: rgba(255,255,255,0.07);
-      --text: #dde1f0; --text-muted: #6b7099;
-      --teal: #4ecdc4; --purple: #9b7fd4; --blue: #5b9bd5;
+      --bg: #08090f;
+      --bg-raised: #0e1019;
+      --bg-card: #12131f;
+      --bg-card-hover: #161726;
+      --border: rgba(255,255,255,0.06);
+      --border-accent: rgba(78,205,196,0.18);
+      --text: #e2e5f0;
+      --text-secondary: #a0a5c0;
+      --text-muted: #5a5f80;
+      --accent: #4ecdc4;
+      --accent-dim: rgba(78,205,196,0.12);
+      --accent-mid: rgba(78,205,196,0.22);
+      --purple: #a78bfa;
+      --purple-dim: rgba(167,139,250,0.12);
+      --blue: #60a5fa;
+      --amber: #fbbf24;
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --mono: 'JetBrains Mono', 'SF Mono', monospace;
     }
-    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
-    
-    .container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
-    
-    /* Header */
-    header { background: #0d0e20; border-bottom: 1px solid var(--border); padding: 2rem 0; }
-    .breadcrumb { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
-    .breadcrumb a { color: var(--teal); text-decoration: none; }
-    .breadcrumb a:hover { text-decoration: underline; }
-    .song-title { font-size: 2rem; font-weight: 700; margin-bottom: 0.3rem; }
-    .song-artist { font-size: 1.1rem; color: var(--purple); font-weight: 500; }
-    .song-album { font-size: 0.9rem; color: var(--text-muted); margin-top: 0.3rem; }
-    
-    /* Stat cards */
-    .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; margin: 2rem 0; }
-    .stat-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; text-align: center; }
-    .stat-val { font-size: 1.5rem; font-weight: 700; color: var(--teal); }
-    .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.2rem; }
-    
-    /* Sections */
-    .section-label { margin: 2.5rem 0 1rem; }
-    .section-label h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--teal); font-weight: 600; }
-    
-    /* Charts */
-    .chart-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; }
-    .chart-wrap { height: 280px; position: relative; }
-    
-    /* Feature bars */
-    .feature-bars { display: flex; flex-direction: column; gap: 0.8rem; margin-top: 1rem; }
-    .feature-item { display: grid; grid-template-columns: 130px 50px 1fr; align-items: center; gap: 0.5rem; }
-    .feature-label { font-size: 0.85rem; color: var(--text-muted); }
-    .feature-val { font-size: 0.85rem; font-weight: 600; text-align: right; }
-    .feature-track { height: 6px; background: rgba(255,255,255,0.05); border-radius: 3px; overflow: hidden; }
-    .feature-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--teal), var(--purple)); }
-    
-    /* Analysis grid */
-    .analysis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-    .detail-section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; }
-    .detail-section h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--purple); margin-bottom: 0.8rem; }
-    .detail-note { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; }
-    
-    /* Pills */
-    .pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .pill { background: rgba(78,205,196,0.1); color: var(--teal); border: 1px solid rgba(78,205,196,0.2); border-radius: 20px; padding: 0.3rem 0.8rem; font-size: 0.8rem; }
-    .pill.sd { background: rgba(155,127,212,0.1); color: var(--purple); border-color: rgba(155,127,212,0.2); }
-    .pill.genre { background: rgba(91,155,213,0.1); color: var(--blue); border-color: rgba(91,155,213,0.2); }
-    .pill.artist { background: rgba(255,255,255,0.05); color: var(--text); border-color: rgba(255,255,255,0.1); }
-    
-    /* Mood */
-    .mood-tags { display: flex; gap: 0.8rem; flex-wrap: wrap; }
-    .mood-primary { background: rgba(155,127,212,0.15); color: var(--purple); padding: 0.4rem 1rem; border-radius: 8px; font-weight: 600; font-size: 0.95rem; }
-    .mood-atmo { background: rgba(78,205,196,0.1); color: var(--teal); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.9rem; }
-    
-    /* Production */
-    .prod-style { font-style: italic; color: var(--text); margin-bottom: 0.8rem; }
-    .prod-meta { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-top: 0.8rem; font-size: 0.85rem; color: var(--text-muted); }
-    
-    /* Character grid */
-    .char-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; }
-    .char-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; text-align: center; }
-    .char-label { font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.05em; }
-    .char-value { font-size: 1.1rem; font-weight: 600; color: var(--text); margin-top: 0.3rem; }
-    
-    /* Notable */
-    .notable p { font-size: 1rem; line-height: 1.7; color: var(--text); }
-    
-    /* YouTube */
-    .yt-embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; }
-    .yt-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    
-    /* Footer */
-    footer { margin-top: 3rem; padding: 1.5rem 0; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 0.8rem; }
-    footer a { color: var(--teal); text-decoration: none; }
-    
-    @media (max-width: 600px) {
-      .song-title { font-size: 1.5rem; }
-      .stats-row { grid-template-columns: repeat(2, 1fr); }
-      .feature-item { grid-template-columns: 100px 45px 1fr; }
-    }
-  
-    /* ── Prompt Lab ── */
-    .prompt-lab {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-    }
-    .prompt-lab-intro h3 {
-      font-size: 1.3rem;
-      font-weight: 700;
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
       color: var(--text);
-      margin-bottom: 0.5rem;
-    }
-    .prompt-lab-intro p {
-      color: var(--text-muted);
-      font-size: 0.95rem;
       line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
     }
-    .prompt-tabs {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
+
+    .container { max-width: 880px; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* ── Nav bar ── */
+    .topnav {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0.8rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
     }
-    .prompt-tab {
-      background: rgba(255,255,255,0.04);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 0.5rem 1.2rem;
-      font-size: 0.85rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.2s;
-      font-family: 'Inter', sans-serif;
-    }
-    .prompt-tab:hover {
-      background: rgba(78,205,196,0.08);
-      color: var(--text);
-    }
-    .prompt-tab.active {
-      background: rgba(78,205,196,0.15);
-      color: var(--teal);
-      border-color: rgba(78,205,196,0.3);
-    }
-    .prompt-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 1.5rem;
-      position: relative;
-    }
-    .prompt-card-main {
-      border-color: rgba(78,205,196,0.25);
-      background: linear-gradient(135deg, rgba(78,205,196,0.04), rgba(155,127,212,0.04));
-    }
-    .prompt-card-header {
+    .topnav-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 1rem;
     }
-    .prompt-card-label {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--teal);
-      font-weight: 600;
+    .topnav-logo {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.02em;
     }
-    .prompt-hint {
+    .topnav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+    .topnav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      transition: color 0.2s;
+    }
+    .topnav-links a:hover { color: var(--accent); }
+
+    /* ── Hero / Header ── */
+    .hero {
+      padding: 2.5rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(78,205,196,0.04), transparent);
+      pointer-events: none;
+    }
+    .breadcrumb {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+    }
+    .breadcrumb a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .breadcrumb .sep { opacity: 0.4; }
+
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+    .hero-text { flex: 1; }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: 2.6rem;
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 0.4rem;
+    }
+    .artist-name {
+      font-size: 1.05rem;
+      color: var(--purple);
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+    }
+    .album-name {
       font-size: 0.85rem;
       color: var(--text-muted);
-      margin-bottom: 0.8rem;
-      line-height: 1.5;
+      font-style: italic;
     }
-    .prompt-hint strong {
-      color: var(--text);
+
+    /* Stats strip */
+    .stats-strip {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1.2rem;
+      flex-wrap: wrap;
     }
-    .copy-btn {
-      background: rgba(78,205,196,0.15);
-      color: var(--teal);
-      border: 1px solid rgba(78,205,196,0.3);
+    .stat-chip {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 0.4rem 1rem;
-      font-size: 0.8rem;
+      padding: 0.45rem 0.8rem;
+    }
+    .stat-chip-val {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--accent);
+      font-family: var(--mono);
+    }
+    .stat-chip-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    /* ── CTA Banner (above the fold) ── */
+    .cta-banner {
+      margin: 2rem 0;
+      background: linear-gradient(135deg, rgba(78,205,196,0.06) 0%, rgba(167,139,250,0.06) 100%);
+      border: 1px solid var(--border-accent);
+      border-radius: 16px;
+      padding: 2rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-banner::before {
+      content: '';
+      position: absolute;
+      top: -40%;
+      right: -10%;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(78,205,196,0.08), transparent 70%);
+      pointer-events: none;
+    }
+    .cta-banner h2 {
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      position: relative;
+    }
+    .cta-banner p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin-bottom: 1.2rem;
+      max-width: 580px;
+      position: relative;
+    }
+    .cta-jump {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--accent);
+      color: var(--bg);
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.7rem 1.5rem;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: all 0.2s;
+      position: relative;
+    }
+    .cta-jump:hover {
+      background: #5de0d7;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 20px rgba(78,205,196,0.25);
+    }
+    .cta-jump .arrow { transition: transform 0.2s; }
+    .cta-jump:hover .arrow { transform: translateX(3px); }
+
+    /* ── Section labels ── */
+    .section-heading {
+      margin: 2.5rem 0 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+    .section-heading h2 {
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+    }
+    .section-heading .line {
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Prompt Lab ── */
+    .prompt-lab { display: flex; flex-direction: column; gap: 1.2rem; }
+
+    .platform-tabs {
+      display: flex;
+      gap: 0.35rem;
+      background: var(--bg-raised);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.3rem;
+      width: fit-content;
+    }
+    .platform-tab {
+      background: transparent;
+      color: var(--text-muted);
+      border: none;
+      border-radius: 7px;
+      padding: 0.5rem 1.1rem;
+      font-size: 0.82rem;
+      font-weight: 600;
       cursor: pointer;
       transition: all 0.2s;
-      font-family: 'Inter', sans-serif;
+      font-family: var(--sans);
     }
-    .copy-btn:hover {
-      background: rgba(78,205,196,0.25);
+    .platform-tab:hover { color: var(--text-secondary); background: rgba(255,255,255,0.03); }
+    .platform-tab.active {
+      background: var(--accent-dim);
+      color: var(--accent);
+      box-shadow: 0 1px 4px rgba(78,205,196,0.08);
     }
+
+    .prompt-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.4rem 1.5rem;
+      position: relative;
+    }
+    .prompt-card-highlight {
+      border-color: var(--border-accent);
+    }
+    .prompt-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.8rem;
+    }
+    .prompt-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .prompt-hint {
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      margin-bottom: 0.7rem;
+      line-height: 1.5;
+    }
+    .prompt-hint strong { color: var(--text-secondary); }
+
+    .copy-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      border-radius: 8px;
+      padding: 0.5rem 1.1rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: var(--sans);
+    }
+    .copy-btn:hover { background: #5de0d7; }
+    .copy-btn.copied { background: var(--purple); }
+
     .prompt-text {
       font-size: 0.95rem;
-      line-height: 1.7;
+      line-height: 1.75;
       color: var(--text);
-      font-family: 'Inter', sans-serif;
     }
     .prompt-code {
-      font-size: 0.82rem;
-      line-height: 1.6;
-      color: var(--teal);
-      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
-      background: rgba(0,0,0,0.3);
-      border-radius: 8px;
-      padding: 1rem;
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      line-height: 1.65;
+      color: var(--accent);
+      background: rgba(0,0,0,0.4);
+      border-radius: 10px;
+      padding: 1.2rem;
       overflow-x: auto;
       white-space: pre;
-      margin: 0;
+      border: 1px solid var(--border);
     }
-    .prompt-params {
+
+    /* Parameter breakdown */
+    .params-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 0.8rem;
+      margin-top: 0.5rem;
+    }
+    .param-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.1rem 1.2rem;
+      transition: border-color 0.2s;
+    }
+    .param-card:hover { border-color: var(--border-accent); }
+    .param-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+    }
+    .param-value {
+      font-family: var(--mono);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+    .param-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 0.5rem;
+    }
+    .param-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    .tag {
+      background: var(--accent-dim);
+      color: var(--accent);
+      border: 1px solid rgba(78,205,196,0.12);
+      border-radius: 6px;
+      padding: 0.2rem 0.55rem;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+    .tag.purple { background: var(--purple-dim); color: var(--purple); border-color: rgba(167,139,250,0.12); }
+    .tag.blue { background: rgba(96,165,250,0.1); color: var(--blue); border-color: rgba(96,165,250,0.12); }
+    .tag.neutral { background: rgba(255,255,255,0.04); color: var(--text-secondary); border-color: rgba(255,255,255,0.08); }
+
+    /* ── YouTube ── */
+    .yt-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .yt-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+    }
+    .yt-embed iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: none;
+    }
+
+    /* ── Audio Features ── */
+    .features-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+    .chart-wrap { height: 260px; position: relative; }
+
+    .feature-bars { display: flex; flex-direction: column; gap: 0.7rem; }
+    .feature-item {
+      display: grid;
+      grid-template-columns: 120px 52px 1fr;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .feature-name { font-size: 0.82rem; color: var(--text-muted); }
+    .feature-val {
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-align: right;
+    }
+    .feature-track {
+      height: 5px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .feature-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--purple));
+    }
+
+    /* ── Analysis grid ── */
+    .analysis-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 1rem;
     }
-    .prompt-param-card {
+    .detail-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.2rem;
+      border-radius: 14px;
+      padding: 1.3rem 1.4rem;
+      transition: border-color 0.2s;
     }
-    .prompt-param-label {
+    .detail-card:hover { border-color: var(--border-accent); }
+    .detail-card h3 {
       font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      color: var(--text-muted);
-      margin-bottom: 0.3rem;
-    }
-    .prompt-param-value {
-      font-size: 1.2rem;
+      color: var(--purple);
       font-weight: 700;
-      color: var(--teal);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.7rem;
     }
-    .prompt-param-detail {
-      font-size: 0.85rem;
+    .detail-note {
+      font-size: 0.84rem;
       color: var(--text-muted);
-      line-height: 1.5;
+      margin-top: 0.5rem;
+    }
+    .detail-note strong { color: var(--text-secondary); }
+
+    /* Mood */
+    .mood-tags { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .mood-primary {
+      background: var(--purple-dim);
+      color: var(--purple);
+      padding: 0.35rem 0.9rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .mood-atmo {
+      background: var(--accent-dim);
+      color: var(--accent);
+      padding: 0.35rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+    }
+
+    /* Production */
+    .prod-style {
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--text);
+      font-size: 1rem;
       margin-bottom: 0.6rem;
     }
-    .prompt-param-words {
+    .prod-meta {
       display: flex;
+      gap: 1.2rem;
       flex-wrap: wrap;
-      gap: 0.4rem;
+      margin-top: 0.6rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
     }
-    .prompt-word {
-      background: rgba(78,205,196,0.08);
-      color: var(--teal);
-      border: 1px solid rgba(78,205,196,0.15);
-      border-radius: 6px;
-      padding: 0.2rem 0.6rem;
-      font-size: 0.75rem;
+    .prod-meta strong { color: var(--text-secondary); }
+
+    /* Character grid */
+    .char-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 0.8rem;
+    }
+    .char-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .char-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+    .char-value {
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      color: var(--text);
+      margin-top: 0.25rem;
+    }
+
+    /* Notable */
+    .notable-text {
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      font-style: italic;
+      line-height: 1.75;
+      color: var(--text-secondary);
+    }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 3rem;
+      padding: 1.8rem 0;
+      border-top: 1px solid var(--border);
+    }
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+    footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.82rem;
+      transition: color 0.2s;
+    }
+    footer a:hover { color: var(--accent); }
+    .footer-credit {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 680px) {
+      h1 { font-size: 1.8rem; }
+      .hero-content { flex-direction: column; gap: 1rem; }
+      .features-layout { grid-template-columns: 1fr; }
+      .feature-item { grid-template-columns: 100px 45px 1fr; }
+      .stats-strip { gap: 0.4rem; }
+      .cta-banner { padding: 1.5rem; }
+      .cta-banner h2 { font-size: 1.3rem; }
+      .topnav-links { gap: 1rem; }
     }
   </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MusicRecording",
-  "name": "Experience",
-  "byArtist": {
-    "@type": "MusicGroup",
-    "name": "Ludovico Einaudi, Daniel Hope, I Virtuosi Italiani"
-  },
-  "url": "https://kapiko.ai/songs/experience-ludovico-einaudi/",
-  "publisher": {
-    "@type": "Organization",
-    "name": "kapiko",
-    "url": "https://kapiko.ai"
-  }
-}
-  </script>
 </head>
 <body>
-<header>
+
+<!-- Nav -->
+<nav class="topnav">
+  <div class="container topnav-inner">
+    <a href="/" class="topnav-logo">kapiko</a>
+    <ul class="topnav-links">
+      <li><a href="/genres/ambient/">Ambient</a></li>
+      <li><a href="/data/">Data</a></li>
+      <li><a href="/api/openapi.json">API</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
   <div class="container">
-    <div class="breadcrumb"><a href="/genres/ambient/">Ambient</a> → Song Analysis</div>
-    <div class="song-title">Experience</div>
-    <div class="song-artist">Ludovico Einaudi, Daniel Hope, I Virtuosi Italiani</div>
-    <div class='song-album'>In A Time Lapse</div>
+    <div class="breadcrumb">
+      <a href="/">kapiko</a> <span class="sep">›</span>
+      <a href="/genres/ambient/">Ambient</a> <span class="sep">›</span>
+      <span>Song Analysis</span>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Experience</h1>
+        <div class="artist-name">Ludovico Einaudi, Daniel Hope, I Virtuosi Italiani</div>
+        <div class="album-name">In A Time Lapse</div>
+
+        <div class="stats-strip">
+          <div class="stat-chip">
+            <span class="stat-chip-val">92</span>
+            <span class="stat-chip-label">BPM</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-chip-val">D Maj</span>
+            <span class="stat-chip-label">Key</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-chip-val">44.9%</span>
+            <span class="stat-chip-label">Energy</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-chip-val">5:15</span>
+            <span class="stat-chip-label">Duration</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-chip-val">79</span>
+            <span class="stat-chip-label">Popularity</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
 <div class="container">
-  <div class="stats-row">
-    <div class="stat-card"><div class="stat-val">92</div><div class="stat-label">BPM</div></div>
-    <div class="stat-card"><div class="stat-val">D Major</div><div class="stat-label">Key</div></div>
-    <div class="stat-card"><div class="stat-val">44.9%</div><div class="stat-label">Energy</div></div>
-    <div class="stat-card"><div class="stat-val">5:15</div><div class="stat-label">Duration</div></div>
-    <div class="stat-card"><div class="stat-val">79</div><div class="stat-label">Popularity</div></div>
+
+  <!-- ═══ CTA Banner — above the fold ═══ -->
+  <div class="cta-banner">
+    <h2>Looking to recreate this song?</h2>
+    <p>We've analyzed every dimension of <em>Experience</em> — tempo, key, mood, production, instrumentation — and turned it into copy-paste prompts for <strong>Suno</strong>, <strong>Udio</strong>, and any AI music generator.</p>
+    <a href="#prompt-lab" class="cta-jump">
+      Copy the prompt <span class="arrow">→</span>
+    </a>
   </div>
 
-  
-        <div class="detail-section yt-section">
-          <h3>Listen</h3>
-          <div class="yt-embed">
-            <iframe src="https://www.youtube.com/embed/EJwwWPrwwo4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
+  <!-- ═══ Prompt Lab ═══ -->
+  <div class="section-heading" id="prompt-lab">
+    <h2>Prompt Lab</h2>
+    <div class="line"></div>
+  </div>
 
-  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
-  <div class="section-label"><h2>Prompt Lab</h2></div>
-  
   <div class="prompt-lab">
-    <div class="prompt-lab-intro">
-      <h3>🧪 Looking to recreate this song?</h3>
-      <p>Use our data-driven prompts with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service. Grab the structured JSON for programmatic access.</p>
-    </div>
-
     <!-- Platform tabs -->
-    <div class="prompt-tabs">
-      <button class="prompt-tab active" onclick="switchTab(this, 'general')">General</button>
-      <button class="prompt-tab" onclick="switchTab(this, 'suno')">Suno</button>
-      <button class="prompt-tab" onclick="switchTab(this, 'udio')">Udio</button>
-      <button class="prompt-tab" onclick="switchTab(this, 'agent')">Agent JSON</button>
+    <div>
+      <div style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.5rem;font-weight:500;">Choose your AI music tool:</div>
+      <div class="platform-tabs">
+        <button class="platform-tab active" onclick="switchTab(this,'general')">General</button>
+        <button class="platform-tab" onclick="switchTab(this,'suno')">Suno</button>
+        <button class="platform-tab" onclick="switchTab(this,'udio')">Udio</button>
+        <button class="platform-tab" onclick="switchTab(this,'agent')">Agent JSON</button>
+      </div>
     </div>
 
-    <!-- General prompt -->
-    <div class="prompt-card prompt-card-main prompt-panel" id="panel-general">
-      <div class="prompt-card-header">
-        <span class="prompt-card-label">Ready-to-Use Prompt</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">Copy</button>
+    <!-- General -->
+    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-general">
+      <div class="prompt-header">
+        <span class="prompt-label">Ready-to-use prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy Prompt
+        </button>
       </div>
       <div class="prompt-text" id="promptGeneral">Create a 5:15 neo-classical track at 92 BPM in D Major. Instrumental — harp, string pads. Meditative / melancholic and expansive. Clean digital synthesis, with reverb tail. Layered texture, static dynamics, moderate stereo field. Subdued energy (45%), melancholic mood (4%). Think Ludovico Einaudi meets Olafur Arnalds.</div>
     </div>
 
-    <!-- Suno prompt -->
-    <div class="prompt-card prompt-card-main prompt-panel" id="panel-suno" style="display:none">
-      <div class="prompt-card-header">
-        <span class="prompt-card-label">Suno Style Tags</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">Copy</button>
+    <!-- Suno -->
+    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-suno" style="display:none">
+      <div class="prompt-header">
+        <span class="prompt-label">Suno style tags</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy Tags
+        </button>
       </div>
-      <div class="prompt-hint">Paste into the <strong>Style of Music</strong> field in Suno. Set BPM to 92.</div>
+      <div class="prompt-hint">Paste into the <strong>Style of Music</strong> field in Suno. Set BPM to <strong>92</strong>.</div>
       <div class="prompt-text" id="promptSuno">neo-classical, ambient, meditative / melancholic, expansive, harp, string pads, subdued, clean digital synthesis, reverb tail</div>
     </div>
 
-    <!-- Udio prompt -->
-    <div class="prompt-card prompt-card-main prompt-panel" id="panel-udio" style="display:none">
-      <div class="prompt-card-header">
-        <span class="prompt-card-label">Udio Prompt</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">Copy</button>
+    <!-- Udio -->
+    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-udio" style="display:none">
+      <div class="prompt-header">
+        <span class="prompt-label">Udio prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy Prompt
+        </button>
       </div>
-      <div class="prompt-hint">Paste as the main prompt in Udio. Use manual mode to set BPM (92) and key (D Major).</div>
+      <div class="prompt-hint">Paste as the main prompt. Use <strong>manual mode</strong> to set BPM (92) and key (D Major).</div>
       <div class="prompt-text" id="promptUdio">A neo-classical track that feels meditative / melancholic and expansive with harp, string pads — clean digital synthesis using reverb tail in the style of Ludovico Einaudi and Olafur Arnalds</div>
     </div>
 
     <!-- Agent JSON -->
-    <div class="prompt-card prompt-card-main prompt-panel" id="panel-agent" style="display:none">
-      <div class="prompt-card-header">
-        <span class="prompt-card-label">Structured Data for Agents</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">Copy</button>
+    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-agent" style="display:none">
+      <div class="prompt-header">
+        <span class="prompt-label">Structured data for agents</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy JSON
+        </button>
       </div>
       <div class="prompt-hint">Machine-readable format for AI agents, APIs, and programmatic music generation.</div>
       <pre class="prompt-code" id="promptAgent">{
@@ -362,220 +800,220 @@
     "instrumentalness": 0.961
   },
   "style": {
-    "genres": [
-      "neo-classical",
-      "ambient",
-      "film score"
-    ],
+    "genres": ["neo-classical", "ambient", "film score"],
     "mood": "meditative / melancholic",
     "atmosphere": "expansive",
-    "instruments": [
-      "harp",
-      "string pads"
-    ],
+    "instruments": ["harp", "string pads"],
     "primary_instrument": "harp",
     "vocals": "None"
   },
   "production": {
     "style": "clean digital synthesis",
-    "effects": [
-      "reverb tail"
-    ],
+    "effects": ["reverb tail"],
     "texture": "layered",
     "dynamics": "static",
     "stereo": "moderate"
   },
-  "reference_artists": [
-    "Ludovico Einaudi",
-    "Olafur Arnalds"
-  ],
-  "prompt": "Create a 5:15 neo-classical track at 92 BPM in D Major. Instrumental \u2014 harp, string pads. Meditative / melancholic and expansive. Clean digital synthesis, with reverb tail. Layered texture, static dynamics, moderate stereo field. Subdued energy (45%), melancholic mood (4%). Think Ludovico Einaudi meets Olafur Arnalds."
+  "reference_artists": ["Ludovico Einaudi", "Olafur Arnalds"],
+  "prompt": "Create a 5:15 neo-classical track at 92 BPM in D Major. Instrumental — harp, string pads. Meditative / melancholic and expansive. Clean digital synthesis, with reverb tail. Layered texture, static dynamics, moderate stereo field. Subdued energy (45%), melancholic mood (4%). Think Ludovico Einaudi meets Olafur Arnalds."
 }</pre>
     </div>
 
-    <!-- Parameter cards -->
-    <div class="prompt-params">
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Tempo</div>
-        <div class="prompt-param-value">92 BPM</div>
-        <div class="prompt-param-detail">Mid-tempo pace. Natural rhythm for the genre.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">mid-tempo</span>
-          <span class="prompt-word">unhurried</span>
-          <span class="prompt-word">steady</span>
-          <span class="prompt-word">gentle</span>
+    <!-- Parameter breakdown -->
+    <div class="params-grid">
+      <div class="param-card">
+        <div class="param-label">Tempo</div>
+        <div class="param-value">92 BPM</div>
+        <div class="param-desc">Mid-tempo pace. Natural rhythm for the genre.</div>
+        <div class="param-tags">
+          <span class="tag">mid-tempo</span>
+          <span class="tag">unhurried</span>
+          <span class="tag">steady</span>
+          <span class="tag">gentle</span>
         </div>
       </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Energy</div>
-        <div class="prompt-param-value">44.9%</div>
-        <div class="prompt-param-detail">Low to moderate energy level. Sets the dynamic intensity.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">subdued</span>
-          <span class="prompt-word">restrained</span>
-          <span class="prompt-word">understated</span>
-          <span class="prompt-word">soft</span>
+      <div class="param-card">
+        <div class="param-label">Energy</div>
+        <div class="param-value">44.9%</div>
+        <div class="param-desc">Low to moderate energy level. Sets the dynamic intensity.</div>
+        <div class="param-tags">
+          <span class="tag">subdued</span>
+          <span class="tag">restrained</span>
+          <span class="tag">understated</span>
+          <span class="tag">soft</span>
         </div>
       </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Mood</div>
-        <div class="prompt-param-value">3.6% Valence</div>
-        <div class="prompt-param-detail">meditative / melancholic mood with expansive atmosphere.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">melancholic</span>
-          <span class="prompt-word">somber</span>
-          <span class="prompt-word">introspective</span>
-          <span class="prompt-word">expansive</span>
+      <div class="param-card">
+        <div class="param-label">Mood</div>
+        <div class="param-value">3.6% Valence</div>
+        <div class="param-desc">Meditative / melancholic mood with expansive atmosphere.</div>
+        <div class="param-tags">
+          <span class="tag purple">melancholic</span>
+          <span class="tag purple">somber</span>
+          <span class="tag purple">introspective</span>
+          <span class="tag purple">expansive</span>
         </div>
       </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Instrumentation</div>
-        <div class="prompt-param-value">2 Instruments</div>
-        <div class="prompt-param-detail">Primary: harp. Full arrangement with harp, string pads.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">harp</span>
-          <span class="prompt-word">string-pads</span>
+      <div class="param-card">
+        <div class="param-label">Instrumentation</div>
+        <div class="param-value">2 Instruments</div>
+        <div class="param-desc">Primary: harp. Full arrangement with harp, string pads.</div>
+        <div class="param-tags">
+          <span class="tag">harp</span>
+          <span class="tag">string-pads</span>
         </div>
       </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Key & Tonality</div>
-        <div class="prompt-param-value">D Major</div>
-        <div class="prompt-param-detail">Major key. Harmonic foundation with simple chords.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">major</span>
-          <span class="prompt-word">bright</span>
-          <span class="prompt-word">simple-chords</span>
+      <div class="param-card">
+        <div class="param-label">Key &amp; Tonality</div>
+        <div class="param-value">D Major</div>
+        <div class="param-desc">Major key. Harmonic foundation with simple chords.</div>
+        <div class="param-tags">
+          <span class="tag blue">major</span>
+          <span class="tag blue">bright</span>
+          <span class="tag blue">simple-chords</span>
         </div>
       </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Production</div>
-        <div class="prompt-param-value">clean digital synthesis</div>
-        <div class="prompt-param-detail">reverb tail. layered texture, static dynamics.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">reverb-tail</span>
-          <span class="prompt-word">layered</span>
-          <span class="prompt-word">moderate-stereo</span>
+      <div class="param-card">
+        <div class="param-label">Production</div>
+        <div class="param-value">clean digital synthesis</div>
+        <div class="param-desc">Reverb tail. Layered texture, static dynamics.</div>
+        <div class="param-tags">
+          <span class="tag">reverb-tail</span>
+          <span class="tag">layered</span>
+          <span class="tag">moderate-stereo</span>
         </div>
       </div>
-
     </div>
   </div>
 
-</div>
-        </div>
+  <!-- ═══ Listen ═══ -->
+  <div class="section-heading">
+    <h2>Listen</h2>
+    <div class="line"></div>
+  </div>
+  <div class="yt-card">
+    <div class="yt-embed">
+      <iframe src="https://www.youtube.com/embed/EJwwWPrwwo4" allow="autoplay; encrypted-media" allowfullscreen loading="lazy" title="Experience — Ludovico Einaudi"></iframe>
+    </div>
+  </div>
 
-  <div class="section-label"><h2>Audio Features</h2></div>
-  <div class="chart-card">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start;">
-      <div class="chart-wrap" style="height: 250px;">
+  <!-- ═══ Audio Features ═══ -->
+  <div class="section-heading">
+    <h2>Audio Features</h2>
+    <div class="line"></div>
+  </div>
+  <div class="detail-card" style="padding:1.5rem">
+    <div class="features-layout">
+      <div class="chart-wrap">
         <canvas id="radarChart"></canvas>
       </div>
       <div class="feature-bars">
-        <div class="feature-item"><div class="feature-label">Energy</div><div class="feature-val">44.9%</div><div class="feature-track"><div class="feature-fill" style="width:44.9%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Danceability</div><div class="feature-val">44.7%</div><div class="feature-track"><div class="feature-fill" style="width:44.7%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Valence</div><div class="feature-val">3.6%</div><div class="feature-track"><div class="feature-fill" style="width:3.6%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Acousticness</div><div class="feature-val">93.4%</div><div class="feature-track"><div class="feature-fill" style="width:93.4%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Instrumentalness</div><div class="feature-val">96.1%</div><div class="feature-track"><div class="feature-fill" style="width:96.1%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Speechiness</div><div class="feature-val">3.8%</div><div class="feature-track"><div class="feature-fill" style="width:3.8%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Liveness</div><div class="feature-val">7.0%</div><div class="feature-track"><div class="feature-fill" style="width:7.0%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Loudness</div><div class="feature-val">-10.6 dB</div><div class="feature-track"><div class="feature-fill" style="width:82.3%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Energy</div><div class="feature-val">44.9%</div><div class="feature-track"><div class="feature-fill" style="width:44.9%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Danceability</div><div class="feature-val">44.7%</div><div class="feature-track"><div class="feature-fill" style="width:44.7%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Valence</div><div class="feature-val">3.6%</div><div class="feature-track"><div class="feature-fill" style="width:3.6%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Acousticness</div><div class="feature-val">93.4%</div><div class="feature-track"><div class="feature-fill" style="width:93.4%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Instrumentalness</div><div class="feature-val">96.1%</div><div class="feature-track"><div class="feature-fill" style="width:96.1%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Speechiness</div><div class="feature-val">3.8%</div><div class="feature-track"><div class="feature-fill" style="width:3.8%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Liveness</div><div class="feature-val">7.0%</div><div class="feature-track"><div class="feature-fill" style="width:7.0%"></div></div></div>
+        <div class="feature-item"><div class="feature-name">Loudness</div><div class="feature-val">-10.6 dB</div><div class="feature-track"><div class="feature-fill" style="width:82.3%"></div></div></div>
       </div>
     </div>
   </div>
 
-  
-    <div class="section-label"><h2>AI Audio Analysis</h2></div>
-    <div class="analysis-grid">
-      
-        <div class="detail-section">
-          <h3>Instrumentation</h3>
-          <div class="pills"><span class="pill">harp</span><span class="pill">string pads</span></div>
-          <div class="detail-note">Primary: <strong>harp</strong></div>
-        </div>
-      
-        <div class="detail-section">
-          <h3>Mood & Atmosphere</h3>
-          <div class="mood-tags">
-            <span class="mood-primary">meditative / melancholic</span>
-            <span class="mood-atmo">expansive</span>
-          </div>
-        </div>
-      
-        <div class="detail-section">
-          <h3>Production & Sound Design</h3>
-          <p class="prod-style">clean digital synthesis</p>
-          <div class="pills"><span class="pill sd">reverb tail</span></div>
-          <div class="prod-meta">
-            <span>Texture: <strong>layered</strong></span>
-            <span>Dynamics: <strong>static</strong></span>
-            <span>Stereo: <strong>moderate</strong></span>
-          </div>
-        </div>
-      
-        <div class="detail-section">
-          <h3>Genre Tags</h3>
-          <div class="pills"><span class="pill genre">neo-classical</span><span class="pill genre">ambient</span><span class="pill genre">film score</span></div>
-        </div>
-      
-        <div class="detail-section">
-          <h3>Similar Artists</h3>
-          <div class="pills"><span class="pill artist">Ludovico Einaudi</span><span class="pill artist">Olafur Arnalds</span></div>
-        </div>
-      
-        <div class="detail-section notable">
-          <h3>What Makes This Track Unique</h3>
-          <p>A delicate, arpeggiated harp melody floats over warm, sustained string pads, creating a contemplative and serene soundscape.</p>
-        </div>
+  <!-- ═══ AI Audio Analysis ═══ -->
+  <div class="section-heading">
+    <h2>AI Audio Analysis</h2>
+    <div class="line"></div>
+  </div>
+  <div class="analysis-grid">
+    <div class="detail-card">
+      <h3>Instrumentation</h3>
+      <div class="param-tags"><span class="tag">harp</span><span class="tag">string pads</span></div>
+      <div class="detail-note">Primary: <strong>harp</strong></div>
     </div>
-    
-    <div class="section-label"><h2>Musical Character</h2></div>
-    <div class="char-grid">
-      <div class="char-item">
-        <div class="char-label">Vocals</div>
-        <div class="char-value">None</div>
-      </div>
-      <div class="char-item">
-        <div class="char-label">Harmony</div>
-        <div class="char-value">Simple Chords</div>
-      </div>
-      <div class="char-item">
-        <div class="char-label">Rhythm</div>
-        <div class="char-value">Subtle Pulse</div>
-      </div>
-      <div class="char-item">
-        <div class="char-label">Estimated Key</div>
-        <div class="char-value">A minor</div>
+    <div class="detail-card">
+      <h3>Mood &amp; Atmosphere</h3>
+      <div class="mood-tags">
+        <span class="mood-primary">meditative / melancholic</span>
+        <span class="mood-atmo">expansive</span>
       </div>
     </div>
+    <div class="detail-card">
+      <h3>Production &amp; Sound Design</h3>
+      <p class="prod-style">clean digital synthesis</p>
+      <div class="param-tags"><span class="tag purple">reverb tail</span></div>
+      <div class="prod-meta">
+        <span>Texture: <strong>layered</strong></span>
+        <span>Dynamics: <strong>static</strong></span>
+        <span>Stereo: <strong>moderate</strong></span>
+      </div>
+    </div>
+    <div class="detail-card">
+      <h3>Genre Tags</h3>
+      <div class="param-tags"><span class="tag blue">neo-classical</span><span class="tag blue">ambient</span><span class="tag blue">film score</span></div>
+    </div>
+    <div class="detail-card">
+      <h3>Similar Artists</h3>
+      <div class="param-tags"><span class="tag neutral">Ludovico Einaudi</span><span class="tag neutral">Olafur Arnalds</span></div>
+    </div>
+    <div class="detail-card">
+      <h3>What Makes This Track Unique</h3>
+      <p class="notable-text">A delicate, arpeggiated harp melody floats over warm, sustained string pads, creating a contemplative and serene soundscape.</p>
+    </div>
+  </div>
+
+  <!-- ═══ Musical Character ═══ -->
+  <div class="section-heading">
+    <h2>Musical Character</h2>
+    <div class="line"></div>
+  </div>
+  <div class="char-grid">
+    <div class="char-item">
+      <div class="char-label">Vocals</div>
+      <div class="char-value">None</div>
+    </div>
+    <div class="char-item">
+      <div class="char-label">Harmony</div>
+      <div class="char-value">Simple Chords</div>
+    </div>
+    <div class="char-item">
+      <div class="char-label">Rhythm</div>
+      <div class="char-value">Subtle Pulse</div>
+    </div>
+    <div class="char-item">
+      <div class="char-label">Estimated Key</div>
+      <div class="char-value">A minor</div>
+    </div>
+  </div>
 </div>
 
+<!-- Footer -->
 <footer>
-  <div class="container">
-    <p>Data from Spotify audio features + Gemini AI audio analysis. <a href="/genres/ambient/">← Back to Ambient Genre</a></p>
-    <p style="margin-top:0.3rem"><a href="/">kapiko.ai</a></p>
+  <div class="container footer-inner">
+    <div class="footer-links">
+      <a href="/genres/ambient/">← Ambient Genre</a>
+      <a href="/">kapiko.ai</a>
+      <a href="/api/openapi.json">API</a>
+    </div>
+    <div class="footer-credit">Data from Spotify audio features + Gemini AI audio analysis.</div>
   </div>
 </footer>
 
 <script>
+/* Radar chart */
 const ctx = document.getElementById('radarChart');
 if (ctx) {
   new Chart(ctx, {
     type: 'radar',
     data: {
-      labels: ['Energy', 'Danceability', 'Valence', 'Acousticness', 'Instrumentalness', 'Speechiness'],
+      labels: ['Energy','Danceability','Valence','Acousticness','Instrumentalness','Speechiness'],
       datasets: [{
         data: [0.449, 0.447, 0.036, 0.934, 0.961, 0.0376],
-        backgroundColor: 'rgba(78,205,196,0.15)',
+        backgroundColor: 'rgba(78,205,196,0.12)',
         borderColor: '#4ecdc4',
         borderWidth: 2,
         pointBackgroundColor: '#4ecdc4',
-        pointRadius: 4,
+        pointRadius: 3,
       }]
     },
     options: {
@@ -587,33 +1025,35 @@ if (ctx) {
           beginAtZero: true,
           max: 1,
           ticks: { display: false },
-          grid: { color: 'rgba(255,255,255,0.06)' },
-          pointLabels: { color: '#6b7099', font: { size: 11 } },
-          angleLines: { color: 'rgba(255,255,255,0.06)' },
+          grid: { color: 'rgba(255,255,255,0.05)' },
+          pointLabels: { color: '#6b7099', font: { family: "'DM Sans'", size: 11 } },
+          angleLines: { color: 'rgba(255,255,255,0.05)' },
         }
       }
     }
   });
 }
 
-function copyPrompt(btn) {
-  const id = btn.getAttribute('data-target');
-  const text = document.getElementById(id).textContent;
-  navigator.clipboard.writeText(text).then(() => {
-    btn.textContent = 'Copied!';
-    btn.style.background = 'rgba(78,205,196,0.3)';
-    setTimeout(() => {
-      btn.textContent = 'Copy';
-      btn.style.background = '';
-    }, 2000);
-  });
-}
+/* Tab switching */
 function switchTab(btn, panel) {
-  document.querySelectorAll('.prompt-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.platform-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.prompt-panel').forEach(p => p.style.display = 'none');
   btn.classList.add('active');
   const el = document.getElementById('panel-' + panel);
   if (el) el.style.display = '';
+}
+
+/* Copy */
+function copyPrompt(btn) {
+  const id = btn.getAttribute('data-target');
+  const el = document.getElementById(id);
+  const text = el.textContent || el.innerText;
+  navigator.clipboard.writeText(text.trim()).then(() => {
+    const orig = btn.innerHTML;
+    btn.classList.add('copied');
+    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Copied!';
+    setTimeout(() => { btn.innerHTML = orig; btn.classList.remove('copied'); }, 2000);
+  });
 }
 </script>
 </body>
