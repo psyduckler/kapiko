@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreaming of You by Cigarettes After Sex — Song Analysis | kapiko</title>
+  <meta name="description" content="Deep audio analysis of Dreaming of You by Cigarettes After Sex. BPM, key, energy, instrumentation, mood, and production breakdown.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0b0c1a; --bg-card: #111222; --border: rgba(255,255,255,0.07);
+      --text: #dde1f0; --text-muted: #6b7099;
+      --teal: #4ecdc4; --purple: #9b7fd4; --blue: #5b9bd5;
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    
+    .container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+    
+    /* Header */
+    header { background: #0d0e20; border-bottom: 1px solid var(--border); padding: 2rem 0; }
+    .breadcrumb { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--teal); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .song-title { font-size: 2rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .song-artist { font-size: 1.1rem; color: var(--purple); font-weight: 500; }
+    .song-album { font-size: 0.9rem; color: var(--text-muted); margin-top: 0.3rem; }
+    
+    /* Stat cards */
+    .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; margin: 2rem 0; }
+    .stat-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; text-align: center; }
+    .stat-val { font-size: 1.5rem; font-weight: 700; color: var(--teal); }
+    .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.2rem; }
+    
+    /* Sections */
+    .section-label { margin: 2.5rem 0 1rem; }
+    .section-label h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--teal); font-weight: 600; }
+    
+    /* Charts */
+    .chart-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .chart-wrap { height: 280px; position: relative; }
+    
+    /* Feature bars */
+    .feature-bars { display: flex; flex-direction: column; gap: 0.8rem; margin-top: 1rem; }
+    .feature-item { display: grid; grid-template-columns: 130px 50px 1fr; align-items: center; gap: 0.5rem; }
+    .feature-label { font-size: 0.85rem; color: var(--text-muted); }
+    .feature-val { font-size: 0.85rem; font-weight: 600; text-align: right; }
+    .feature-track { height: 6px; background: rgba(255,255,255,0.05); border-radius: 3px; overflow: hidden; }
+    .feature-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--teal), var(--purple)); }
+    
+    /* Analysis grid */
+    .analysis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .detail-section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; }
+    .detail-section h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--purple); margin-bottom: 0.8rem; }
+    .detail-note { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; }
+    
+    /* Pills */
+    .pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .pill { background: rgba(78,205,196,0.1); color: var(--teal); border: 1px solid rgba(78,205,196,0.2); border-radius: 20px; padding: 0.3rem 0.8rem; font-size: 0.8rem; }
+    .pill.sd { background: rgba(155,127,212,0.1); color: var(--purple); border-color: rgba(155,127,212,0.2); }
+    .pill.genre { background: rgba(91,155,213,0.1); color: var(--blue); border-color: rgba(91,155,213,0.2); }
+    .pill.artist { background: rgba(255,255,255,0.05); color: var(--text); border-color: rgba(255,255,255,0.1); }
+    
+    /* Mood */
+    .mood-tags { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+    .mood-primary { background: rgba(155,127,212,0.15); color: var(--purple); padding: 0.4rem 1rem; border-radius: 8px; font-weight: 600; font-size: 0.95rem; }
+    .mood-atmo { background: rgba(78,205,196,0.1); color: var(--teal); padding: 0.4rem 1rem; border-radius: 8px; font-size: 0.9rem; }
+    
+    /* Production */
+    .prod-style { font-style: italic; color: var(--text); margin-bottom: 0.8rem; }
+    .prod-meta { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-top: 0.8rem; font-size: 0.85rem; color: var(--text-muted); }
+    
+    /* Character grid */
+    .char-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; }
+    .char-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; text-align: center; }
+    .char-label { font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.05em; }
+    .char-value { font-size: 1.1rem; font-weight: 600; color: var(--text); margin-top: 0.3rem; }
+    
+    /* Notable */
+    .notable p { font-size: 1rem; line-height: 1.7; color: var(--text); }
+    
+    /* YouTube */
+    .yt-embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; }
+    .yt-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    
+    /* Footer */
+    footer { margin-top: 3rem; padding: 1.5rem 0; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 0.8rem; }
+    footer a { color: var(--teal); text-decoration: none; }
+    
+    @media (max-width: 600px) {
+      .song-title { font-size: 1.5rem; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); }
+      .feature-item { grid-template-columns: 100px 45px 1fr; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="breadcrumb"><a href="/genres/ambient/">Ambient</a> → Song Analysis</div>
+    <div class="song-title">Dreaming of You</div>
+    <div class="song-artist">Cigarettes After Sex</div>
+    <div class='song-album'>EP I.</div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-val">64</div><div class="stat-label">BPM</div></div>
+    <div class="stat-card"><div class="stat-val">G Major</div><div class="stat-label">Key</div></div>
+    <div class="stat-card"><div class="stat-val">39.8%</div><div class="stat-label">Energy</div></div>
+    <div class="stat-card"><div class="stat-val">5:22</div><div class="stat-label">Duration</div></div>
+    <div class="stat-card"><div class="stat-val">63</div><div class="stat-label">Popularity</div></div>
+  </div>
+
+  
+        <div class="detail-section yt-section">
+          <h3>Listen</h3>
+          <div class="yt-embed">
+            <iframe src="https://www.youtube.com/embed/ZuIDh4XIzxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+  <div class="section-label"><h2>Audio Features</h2></div>
+  <div class="chart-card">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start;">
+      <div class="chart-wrap" style="height: 250px;">
+        <canvas id="radarChart"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item"><div class="feature-label">Energy</div><div class="feature-val">39.8%</div><div class="feature-track"><div class="feature-fill" style="width:39.8%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Danceability</div><div class="feature-val">29.8%</div><div class="feature-track"><div class="feature-fill" style="width:29.8%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Valence</div><div class="feature-val">17.4%</div><div class="feature-track"><div class="feature-fill" style="width:17.4%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Acousticness</div><div class="feature-val">54.9%</div><div class="feature-track"><div class="feature-fill" style="width:54.9%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Instrumentalness</div><div class="feature-val">10.5%</div><div class="feature-track"><div class="feature-fill" style="width:10.5%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Speechiness</div><div class="feature-val">3.6%</div><div class="feature-track"><div class="feature-fill" style="width:3.6%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Liveness</div><div class="feature-val">13.6%</div><div class="feature-track"><div class="feature-fill" style="width:13.6%"></div></div></div>
+        <div class="feature-item"><div class="feature-label">Loudness</div><div class="feature-val">-14.9 dB</div><div class="feature-track"><div class="feature-fill" style="width:75.1%"></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+<footer>
+  <div class="container">
+    <p>Data from Spotify audio features + Gemini AI audio analysis. <a href="/genres/ambient/">← Back to Ambient Genre</a></p>
+    <p style="margin-top:0.3rem"><a href="/">kapiko.ai</a></p>
+  </div>
+</footer>
+
+<script>
+const ctx = document.getElementById('radarChart');
+if (ctx) {
+  new Chart(ctx, {
+    type: 'radar',
+    data: {
+      labels: ['Energy', 'Danceability', 'Valence', 'Acousticness', 'Instrumentalness', 'Speechiness'],
+      datasets: [{
+        data: [0.398, 0.298, 0.174, 0.549, 0.105, 0.0365],
+        backgroundColor: 'rgba(78,205,196,0.15)',
+        borderColor: '#4ecdc4',
+        borderWidth: 2,
+        pointBackgroundColor: '#4ecdc4',
+        pointRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 1,
+          ticks: { display: false },
+          grid: { color: 'rgba(255,255,255,0.06)' },
+          pointLabels: { color: '#6b7099', font: { size: 11 } },
+          angleLines: { color: 'rgba(255,255,255,0.06)' },
+        }
+      }
+    }
+  });
+}
+</script>
+</body>
+</html>
