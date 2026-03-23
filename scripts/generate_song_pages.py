@@ -10,7 +10,7 @@ import json, os, sys, re, html as H
 from pathlib import Path
 
 SITE = Path.home() / 'kapiko' / 'site'
-GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop','blues','metal','funk','disco','reggae','punk','house','techno','trance','deep-house','dubstep','k-pop','latin','afrobeat','j-pop','alt-rock','grunge','hard-rock','singer-songwriter','indie-pop','dance','heavy-metal','gospel','emo','ska','drum-and-bass','progressive-house','idm','electro','punk-rock','hardcore','psych-rock','rock-n-roll','indian','anime','dancehall','mandopop','bluegrass','new-age','guitar']
+GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop','blues','metal','funk','disco','reggae','punk','house','techno','trance','deep-house','dubstep','k-pop','latin','afrobeat','j-pop','alt-rock','grunge','hard-rock','singer-songwriter','indie-pop','dance','heavy-metal','gospel','emo','ska','drum-and-bass','progressive-house','idm','electro','punk-rock','hardcore','psych-rock','rock-n-roll','indian','anime','dancehall','mandopop','bluegrass','new-age','guitar','alternative','goth','industrial','metalcore','death-metal','dub','garage','minimal-techno','detroit-techno','chicago-house','hardstyle','world-music','opera','tango','salsa','j-rock','cantopop','rockabilly','honky-tonk','power-pop']
 
 def esc(t): return H.escape(str(t))
 
@@ -93,6 +93,26 @@ def infer_instruments(genre, acousticness, instrumentalness, energy):
         'bluegrass': ['banjo','fiddle','mandolin'],
         'new-age': ['crystal bowls','soft synth pads','flute'],
         'guitar': ['acoustic guitar','electric guitar','classical guitar'],
+        'alternative': ['guitar','synths','experimental textures'],
+        'goth': ['chorus guitar','synth pads','deep vocals'],
+        'industrial': ['distorted synth','metal percussion','processed vocals'],
+        'metalcore': ['drop-tuned guitar','blast beats','dual vocals'],
+        'death-metal': ['tremolo picking','blast beat drums','guttural vocals'],
+        'dub': ['delay effects','sub-bass','melodica'],
+        'garage': ['shuffled hi-hats','sub-bass','vocal chops'],
+        'minimal-techno': ['click percussion','micro-loops','subtle bass'],
+        'detroit-techno': ['analog synth','909 drums','deep bass'],
+        'chicago-house': ['TR-909 kick','acid line','gospel vocals'],
+        'hardstyle': ['distorted kick','reverse bass','supersaw leads'],
+        'world-music': ['diverse traditional instruments','percussion','vocals'],
+        'opera': ['orchestra','operatic voice','strings'],
+        'tango': ['bandoneon','violin','piano'],
+        'salsa': ['congas','timbales','trumpet'],
+        'j-rock': ['electric guitar','bass','powerful vocals'],
+        'cantopop': ['piano','strings','acoustic guitar'],
+        'rockabilly': ['slap bass','twangy guitar','snare drum'],
+        'honky-tonk': ['steel guitar','fiddle','honky-tonk piano'],
+        'power-pop': ['chiming guitar','vocal harmonies','handclaps'],
     }.get(genre, ['various instruments'])
     return ', '.join(base)
 

@@ -1,0 +1,2796 @@
+{
+  "genre": "Minimal Techno",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 95.005,
+    "max": 142.062,
+    "mean": 123.06,
+    "median": 124.274,
+    "q1": 120.991,
+    "q3": 126.009,
+    "histogram": {
+      "90-99": 1,
+      "100-109": 3,
+      "110-119": 15,
+      "120-129": 73,
+      "130-139": 7,
+      "140-149": 1
+    }
+  },
+  "key_distribution": {
+    "G": 13,
+    "B": 13,
+    "A#/Bb": 11,
+    "F#/Gb": 11,
+    "G#/Ab": 9,
+    "F": 9,
+    "C": 8,
+    "D": 8,
+    "C#/Db": 6,
+    "E": 5,
+    "D#/Eb": 4,
+    "A": 3
+  },
+  "mode_distribution": {
+    "Minor": 54,
+    "Major": 46
+  },
+  "key_mode_distribution": {
+    "A#/Bb Minor": 9,
+    "G Major": 9,
+    "B Minor": 8,
+    "F#/Gb Major": 7,
+    "C Minor": 5,
+    "B Major": 5,
+    "D Major": 5,
+    "F Minor": 5,
+    "G#/Ab Minor": 5,
+    "E Minor": 4,
+    "F#/Gb Minor": 4,
+    "G#/Ab Major": 4,
+    "F Major": 4,
+    "D#/Eb Minor": 4,
+    "G Minor": 4,
+    "C#/Db Major": 4,
+    "C Major": 3,
+    "D Minor": 3,
+    "C#/Db Minor": 2,
+    "A#/Bb Major": 2,
+    "A Major": 2,
+    "E Major": 1,
+    "A Minor": 1
+  },
+  "energy": {
+    "min": 0.207,
+    "max": 0.968,
+    "mean": 0.624,
+    "median": 0.599,
+    "q1": 0.484,
+    "q3": 0.792
+  },
+  "valence": {
+    "min": 0.036,
+    "max": 0.927,
+    "mean": 0.268,
+    "median": 0.209,
+    "q1": 0.114,
+    "q3": 0.349
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.329,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.13
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.073
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.626
+    },
+    {
+      "energy": 0.528,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.46,
+      "valence": 0.096
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.465
+    },
+    {
+      "energy": 0.627,
+      "valence": 0.266
+    },
+    {
+      "energy": 0.477,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.074
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.093
+    },
+    {
+      "energy": 0.339,
+      "valence": 0.266
+    },
+    {
+      "energy": 0.401,
+      "valence": 0.056
+    },
+    {
+      "energy": 0.526,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.652,
+      "valence": 0.121
+    },
+    {
+      "energy": 0.35,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.347
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.887
+    },
+    {
+      "energy": 0.506,
+      "valence": 0.252
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.467
+    },
+    {
+      "energy": 0.387,
+      "valence": 0.133
+    },
+    {
+      "energy": 0.307,
+      "valence": 0.171
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.483,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.365,
+      "valence": 0.17
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.142
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.136
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.261
+    },
+    {
+      "energy": 0.893,
+      "valence": 0.159
+    },
+    {
+      "energy": 0.381,
+      "valence": 0.298
+    },
+    {
+      "energy": 0.376,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.548,
+      "valence": 0.175
+    },
+    {
+      "energy": 0.569,
+      "valence": 0.433
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.09
+    },
+    {
+      "energy": 0.425,
+      "valence": 0.195
+    },
+    {
+      "energy": 0.807,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.406,
+      "valence": 0.124
+    },
+    {
+      "energy": 0.392,
+      "valence": 0.053
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.848
+    },
+    {
+      "energy": 0.485,
+      "valence": 0.196
+    },
+    {
+      "energy": 0.346,
+      "valence": 0.404
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.514
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.421
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.862
+    },
+    {
+      "energy": 0.504,
+      "valence": 0.094
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.862
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.125
+    },
+    {
+      "energy": 0.497,
+      "valence": 0.114
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.347
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.23
+    },
+    {
+      "energy": 0.84,
+      "valence": 0.529
+    },
+    {
+      "energy": 0.569,
+      "valence": 0.241
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.046
+    },
+    {
+      "energy": 0.456,
+      "valence": 0.238
+    },
+    {
+      "energy": 0.517,
+      "valence": 0.074
+    },
+    {
+      "energy": 0.459,
+      "valence": 0.137
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.215
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.207,
+      "valence": 0.174
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.078
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.375,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.735,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.092
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.094
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.771,
+      "valence": 0.133
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.555
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.134
+    },
+    {
+      "energy": 0.503,
+      "valence": 0.091
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.347
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.283
+    },
+    {
+      "energy": 0.54,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.564,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.476,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.474,
+      "valence": 0.038
+    },
+    {
+      "energy": 0.69,
+      "valence": 0.215
+    },
+    {
+      "energy": 0.417,
+      "valence": 0.117
+    },
+    {
+      "energy": 0.808,
+      "valence": 0.069
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.05
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.927
+    },
+    {
+      "energy": 0.571,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.966,
+      "valence": 0.349
+    },
+    {
+      "energy": 0.582,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.432
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.797,
+    "mean": 0.092,
+    "median": 0.022,
+    "q1": 0.002,
+    "q3": 0.111
+  },
+  "instrumentalness": {
+    "min": 0.001,
+    "max": 0.943,
+    "mean": 0.682,
+    "median": 0.811,
+    "q1": 0.591,
+    "q3": 0.882
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.6,
+      "instrumentalness": 0.863
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.892
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.769
+    },
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.341
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.896
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.785
+    },
+    {
+      "acousticness": 0.393,
+      "instrumentalness": 0.838
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.895
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.627
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.865
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.505
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.839
+    },
+    {
+      "acousticness": 0.166,
+      "instrumentalness": 0.809
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.795
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.861
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.627
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.881
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.127,
+      "instrumentalness": 0.611
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.154
+    },
+    {
+      "acousticness": 0.319,
+      "instrumentalness": 0.456
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.839
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.861
+    },
+    {
+      "acousticness": 0.674,
+      "instrumentalness": 0.935
+    },
+    {
+      "acousticness": 0.205,
+      "instrumentalness": 0.814
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.853
+    },
+    {
+      "acousticness": 0.797,
+      "instrumentalness": 0.934
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.691
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.657
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.827
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.24
+    },
+    {
+      "acousticness": 0.137,
+      "instrumentalness": 0.922
+    },
+    {
+      "acousticness": 0.564,
+      "instrumentalness": 0.93
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.631
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.888
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.819
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.714
+    },
+    {
+      "acousticness": 0.137,
+      "instrumentalness": 0.777
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.88
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.867
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.19
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.788
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.852
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.909
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.837
+    },
+    {
+      "acousticness": 0.594,
+      "instrumentalness": 0.749
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.824
+    },
+    {
+      "acousticness": 0.146,
+      "instrumentalness": 0.19
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.918
+    },
+    {
+      "acousticness": 0.06,
+      "instrumentalness": 0.745
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.096
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.882
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.096
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.874
+    },
+    {
+      "acousticness": 0.171,
+      "instrumentalness": 0.536
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.652
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.86
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.043
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.234
+    },
+    {
+      "acousticness": 0.346,
+      "instrumentalness": 0.492
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.696
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.864
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.865
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.895
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.91
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.93
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.188
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.9
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.881
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.706
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.574
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.417
+    },
+    {
+      "acousticness": 0.467,
+      "instrumentalness": 0.525
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.61
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.486
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.801
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.802
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.74
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.591
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.822
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.905
+    },
+    {
+      "acousticness": 0.146,
+      "instrumentalness": 0.894
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.886
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.898
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.048
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.486
+    },
+    {
+      "acousticness": 0.335,
+      "instrumentalness": 0.891
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.943
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.907
+    },
+    {
+      "acousticness": 0.287,
+      "instrumentalness": 0.862
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.682
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.905
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.789
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.905
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.932
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.058
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.817
+    }
+  ],
+  "duration": {
+    "min": 155492,
+    "max": 600121,
+    "mean": 311086.24,
+    "median": 296284.0,
+    "q1": 216000,
+    "q3": 408595
+  },
+  "danceability": {
+    "min": 0.414,
+    "max": 0.945,
+    "mean": 0.72,
+    "median": 0.74,
+    "q1": 0.673,
+    "q3": 0.8
+  },
+  "loudness": {
+    "min": -22.772,
+    "max": -4.019,
+    "mean": -9.93,
+    "median": -9.809,
+    "q1": -11.326,
+    "q3": -7.788
+  },
+  "speechiness": {
+    "min": 0.03,
+    "max": 0.279,
+    "mean": 0.058,
+    "median": 0.049,
+    "q1": 0.04,
+    "q3": 0.062
+  },
+  "top_artists": [
+    {
+      "name": "Boris Brejcha",
+      "count": 12
+    },
+    {
+      "name": "Paul Kalkbrenner",
+      "count": 8
+    },
+    {
+      "name": "Jan Blomqvist",
+      "count": 8
+    },
+    {
+      "name": "NTO",
+      "count": 7
+    },
+    {
+      "name": "Christian L\u00f6ffler",
+      "count": 6
+    },
+    {
+      "name": "Moderat",
+      "count": 5
+    },
+    {
+      "name": "Oliver Koletzki",
+      "count": 4
+    },
+    {
+      "name": "Worakls",
+      "count": 3
+    },
+    {
+      "name": "Solomun",
+      "count": 3
+    },
+    {
+      "name": "Agoria",
+      "count": 3
+    },
+    {
+      "name": "Fritz Kalkbrenner",
+      "count": 2
+    },
+    {
+      "name": "Sam Paganini",
+      "count": 2
+    },
+    {
+      "name": "Adam Beyer",
+      "count": 2
+    },
+    {
+      "name": "Layton Giordani",
+      "count": 2
+    },
+    {
+      "name": "Enrico Sangiuliano",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Sky and Sand",
+      "artists": "Paul Kalkbrenner;Fritz Kalkbrenner",
+      "album": "Berlin Calling (The Soundtrack by Paul Kalkbrenner)",
+      "popularity": 68,
+      "tempo": 127.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.329,
+      "valence": 0.526,
+      "danceability": 0.791,
+      "acousticness": 0.6,
+      "instrumentalness": 0.863,
+      "loudness": -12.9,
+      "speechiness": 0.059,
+      "duration_ms": 230500,
+      "slug": "sky-and-sand-paul-kalkbrenner"
+    },
+    {
+      "name": "Rave Harder Techno Bass",
+      "artists": "Mark Dekoda",
+      "album": "Rave Harder Techno Bass",
+      "popularity": 67,
+      "tempo": 136.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.888,
+      "valence": 0.13,
+      "danceability": 0.784,
+      "acousticness": 0.016,
+      "instrumentalness": 0.892,
+      "loudness": -6.6,
+      "speechiness": 0.165,
+      "duration_ms": 360000,
+      "slug": "rave-harder-techno-bass-mark-dekoda"
+    },
+    {
+      "name": "Gravity",
+      "artists": "Boris Brejcha;Laura Korinth",
+      "album": "Gravity",
+      "popularity": 64,
+      "tempo": 125.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.073,
+      "danceability": 0.783,
+      "acousticness": 0.001,
+      "instrumentalness": 0.769,
+      "loudness": -11.1,
+      "speechiness": 0.069,
+      "duration_ms": 216000,
+      "slug": "gravity-boris-brejcha"
+    },
+    {
+      "name": "No Goodbye",
+      "artists": "Paul Kalkbrenner",
+      "album": "No Goodbye",
+      "popularity": 63,
+      "tempo": 125.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.584,
+      "valence": 0.626,
+      "danceability": 0.945,
+      "acousticness": 0.096,
+      "instrumentalness": 0.341,
+      "loudness": -7.6,
+      "speechiness": 0.044,
+      "duration_ms": 168546,
+      "slug": "no-goodbye-paul-kalkbrenner"
+    },
+    {
+      "name": "More",
+      "artists": "Jan Blomqvist;Elena Pitoulis",
+      "album": "More",
+      "popularity": 62,
+      "tempo": 124.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.528,
+      "valence": 0.113,
+      "danceability": 0.709,
+      "acousticness": 0.046,
+      "instrumentalness": 0.896,
+      "loudness": -11.1,
+      "speechiness": 0.041,
+      "duration_ms": 216699,
+      "slug": "more-jan-blomqvist"
+    },
+    {
+      "name": "A New Error",
+      "artists": "Moderat",
+      "album": "Moderat",
+      "popularity": 62,
+      "tempo": 111.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.46,
+      "valence": 0.096,
+      "danceability": 0.717,
+      "acousticness": 0.029,
+      "instrumentalness": 0.785,
+      "loudness": -11.3,
+      "speechiness": 0.037,
+      "duration_ms": 367306,
+      "slug": "a-new-error-moderat"
+    },
+    {
+      "name": "Invisible - Paul Kalkbrenner Remix",
+      "artists": "NTO;Paul Kalkbrenner",
+      "album": "Invisible (Paul Kalkbrenner Remix)",
+      "popularity": 61,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.597,
+      "valence": 0.465,
+      "danceability": 0.705,
+      "acousticness": 0.393,
+      "instrumentalness": 0.838,
+      "loudness": -8.8,
+      "speechiness": 0.041,
+      "duration_ms": 457036,
+      "slug": "invisible-paul-kalkbrenner-remix-nto"
+    },
+    {
+      "name": "Rave - Remix",
+      "artists": "Sam Paganini;Adam Beyer;Layton Giordani",
+      "album": "Rave (Remix)",
+      "popularity": 60,
+      "tempo": 131.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.627,
+      "valence": 0.266,
+      "danceability": 0.732,
+      "acousticness": 0.0,
+      "instrumentalness": 0.895,
+      "loudness": -13.7,
+      "speechiness": 0.052,
+      "duration_ms": 239083,
+      "slug": "rave-remix-sam-paganini"
+    },
+    {
+      "name": "Purple Noise",
+      "artists": "Boris Brejcha",
+      "album": "Feuerfalter Part 02",
+      "popularity": 60,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.477,
+      "valence": 0.209,
+      "danceability": 0.88,
+      "acousticness": 0.001,
+      "instrumentalness": 0.627,
+      "loudness": -10.9,
+      "speechiness": 0.073,
+      "duration_ms": 539520,
+      "slug": "purple-noise-boris-brejcha"
+    },
+    {
+      "name": "Porto",
+      "artists": "Worakls",
+      "album": "Utopia / Porto",
+      "popularity": 60,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.713,
+      "valence": 0.19,
+      "danceability": 0.678,
+      "acousticness": 0.001,
+      "instrumentalness": 0.865,
+      "loudness": -6.5,
+      "speechiness": 0.049,
+      "duration_ms": 330000,
+      "slug": "porto-worakls"
+    },
+    {
+      "name": "Mind Dimension - Ti\u00ebsto Remix",
+      "artists": "Tiga;Ti\u00ebsto",
+      "album": "Mind Dimension (Ti\u00ebsto Remix)",
+      "popularity": 60,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.907,
+      "valence": 0.074,
+      "danceability": 0.844,
+      "acousticness": 0.021,
+      "instrumentalness": 0.505,
+      "loudness": -5.4,
+      "speechiness": 0.147,
+      "duration_ms": 220952,
+      "slug": "mind-dimension-ti\u00ebsto-remix-tiga"
+    },
+    {
+      "name": "Future Dust - Original Mix",
+      "artists": "Enrico Sangiuliano",
+      "album": "Silence EP",
+      "popularity": 60,
+      "tempo": 132.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.915,
+      "valence": 0.093,
+      "danceability": 0.788,
+      "acousticness": 0.001,
+      "instrumentalness": 0.839,
+      "loudness": -4.9,
+      "speechiness": 0.043,
+      "duration_ms": 509090,
+      "slug": "future-dust-original-mix-enrico-sangiuliano"
+    },
+    {
+      "name": "Feed Your Head",
+      "artists": "Paul Kalkbrenner",
+      "album": "7",
+      "popularity": 60,
+      "tempo": 126.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.339,
+      "valence": 0.266,
+      "danceability": 0.793,
+      "acousticness": 0.166,
+      "instrumentalness": 0.809,
+      "loudness": -14.3,
+      "speechiness": 0.056,
+      "duration_ms": 346240,
+      "slug": "feed-your-head-paul-kalkbrenner"
+    },
+    {
+      "name": "Tataki",
+      "artists": "Argy",
+      "album": "Tataki",
+      "popularity": 59,
+      "tempo": 122.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.401,
+      "valence": 0.056,
+      "danceability": 0.826,
+      "acousticness": 0.015,
+      "instrumentalness": 0.795,
+      "loudness": -11.7,
+      "speechiness": 0.117,
+      "duration_ms": 328780,
+      "slug": "tataki-argy"
+    },
+    {
+      "name": "La cl\u00e9 des champs",
+      "artists": "NTO",
+      "album": "La cl\u00e9 des champs",
+      "popularity": 59,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.526,
+      "valence": 0.04,
+      "danceability": 0.461,
+      "acousticness": 0.001,
+      "instrumentalness": 0.861,
+      "loudness": -10.7,
+      "speechiness": 0.051,
+      "duration_ms": 416000,
+      "slug": "la-cl\u00e9-des-champs-nto"
+    },
+    {
+      "name": "The Space In Between - Ben B\u00f6hmer Remix",
+      "artists": "Jan Blomqvist;Ben B\u00f6hmer",
+      "album": "The Space In Between (Ben B\u00f6hmer Remix)",
+      "popularity": 59,
+      "tempo": 122.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.656,
+      "valence": 0.039,
+      "danceability": 0.559,
+      "acousticness": 0.057,
+      "instrumentalness": 0.627,
+      "loudness": -10.8,
+      "speechiness": 0.036,
+      "duration_ms": 253812,
+      "slug": "the-space-in-between-ben-b\u00f6hmer-remix-jan-blomqvist"
+    },
+    {
+      "name": "Up Down Jumper",
+      "artists": "Boris Brejcha",
+      "album": "Up Down Jumper",
+      "popularity": 59,
+      "tempo": 125.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.652,
+      "valence": 0.121,
+      "danceability": 0.795,
+      "acousticness": 0.0,
+      "instrumentalness": 0.881,
+      "loudness": -8.0,
+      "speechiness": 0.043,
+      "duration_ms": 432000,
+      "slug": "up-down-jumper-boris-brejcha"
+    },
+    {
+      "name": "House Music (feat. Arctic Lake) - Edit",
+      "artists": "Boris Brejcha;Arctic Lake",
+      "album": "House Music (feat. Arctic Lake) [Edit]",
+      "popularity": 59,
+      "tempo": 125.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.35,
+      "valence": 0.334,
+      "danceability": 0.818,
+      "acousticness": 0.0,
+      "instrumentalness": 0.01,
+      "loudness": -12.3,
+      "speechiness": 0.056,
+      "duration_ms": 179520,
+      "slug": "house-music-feat-arctic-lake-edit-boris-brejcha"
+    },
+    {
+      "name": "No Man No Cry - Jimmy Sax Version",
+      "artists": "Oliver Koletzki;Jimmy Sax",
+      "album": "No Man No Cry (Jimmy Sax Version)",
+      "popularity": 59,
+      "tempo": 122.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.347,
+      "danceability": 0.776,
+      "acousticness": 0.127,
+      "instrumentalness": 0.611,
+      "loudness": -9.6,
+      "speechiness": 0.085,
+      "duration_ms": 419500,
+      "slug": "no-man-no-cry-jimmy-sax-version-oliver-koletzki"
+    },
+    {
+      "name": "My Paradise",
+      "artists": "Jamie Jones",
+      "album": "My Paradise",
+      "popularity": 59,
+      "tempo": 128.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.74,
+      "valence": 0.887,
+      "danceability": 0.749,
+      "acousticness": 0.001,
+      "instrumentalness": 0.154,
+      "loudness": -8.5,
+      "speechiness": 0.031,
+      "duration_ms": 211029,
+      "slug": "my-paradise-jamie-jones"
+    },
+    {
+      "name": "Parachute",
+      "artists": "Paul Kalkbrenner",
+      "album": "Parachute",
+      "popularity": 59,
+      "tempo": 127.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.506,
+      "valence": 0.252,
+      "danceability": 0.646,
+      "acousticness": 0.319,
+      "instrumentalness": 0.456,
+      "loudness": -11.1,
+      "speechiness": 0.032,
+      "duration_ms": 230214,
+      "slug": "parachute-paul-kalkbrenner"
+    },
+    {
+      "name": "My Paradise - Vintage Culture Remix",
+      "artists": "Jamie Jones;Vintage Culture",
+      "album": "My Paradise (Vintage Culture Remix)",
+      "popularity": 59,
+      "tempo": 128.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.892,
+      "valence": 0.467,
+      "danceability": 0.683,
+      "acousticness": 0.046,
+      "instrumentalness": 0.839,
+      "loudness": -7.0,
+      "speechiness": 0.056,
+      "duration_ms": 170645,
+      "slug": "my-paradise-vintage-culture-remix-jamie-jones"
+    },
+    {
+      "name": "Aaron",
+      "artists": "Paul Kalkbrenner",
+      "album": "Berlin Calling (The Soundtrack by Paul Kalkbrenner)",
+      "popularity": 59,
+      "tempo": 112.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.387,
+      "valence": 0.133,
+      "danceability": 0.723,
+      "acousticness": 0.075,
+      "instrumentalness": 0.861,
+      "loudness": -12.0,
+      "speechiness": 0.279,
+      "duration_ms": 353813,
+      "slug": "aaron-paul-kalkbrenner"
+    },
+    {
+      "name": "Ronda",
+      "artists": "Christian L\u00f6ffler",
+      "album": "Ronda",
+      "popularity": 57,
+      "tempo": 120.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.307,
+      "valence": 0.171,
+      "danceability": 0.794,
+      "acousticness": 0.674,
+      "instrumentalness": 0.935,
+      "loudness": -15.6,
+      "speechiness": 0.049,
+      "duration_ms": 346586,
+      "slug": "ronda-christian-l\u00f6ffler"
+    },
+    {
+      "name": "Aiguilhe",
+      "artists": "Joris Delacroix",
+      "album": "Aiguilhe",
+      "popularity": 57,
+      "tempo": 123.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.892,
+      "valence": 0.197,
+      "danceability": 0.687,
+      "acousticness": 0.205,
+      "instrumentalness": 0.814,
+      "loudness": -7.5,
+      "speechiness": 0.061,
+      "duration_ms": 289268,
+      "slug": "aiguilhe-joris-delacroix"
+    },
+    {
+      "name": "Space Diver",
+      "artists": "Boris Brejcha",
+      "album": "Space Diver",
+      "popularity": 57,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.483,
+      "valence": 0.336,
+      "danceability": 0.809,
+      "acousticness": 0.001,
+      "instrumentalness": 0.853,
+      "loudness": -8.7,
+      "speechiness": 0.061,
+      "duration_ms": 397440,
+      "slug": "space-diver-boris-brejcha"
+    },
+    {
+      "name": "Invisible - Piano Version",
+      "artists": "NTO;Sofiane Pamart",
+      "album": "Invisible (Piano Version)",
+      "popularity": 57,
+      "tempo": 116.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.365,
+      "valence": 0.17,
+      "danceability": 0.638,
+      "acousticness": 0.797,
+      "instrumentalness": 0.934,
+      "loudness": -16.0,
+      "speechiness": 0.044,
+      "duration_ms": 174893,
+      "slug": "invisible-piano-version-nto"
+    },
+    {
+      "name": "Gunny",
+      "artists": "Dale Howard",
+      "album": "Gunny",
+      "popularity": 57,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.54,
+      "danceability": 0.74,
+      "acousticness": 0.006,
+      "instrumentalness": 0.691,
+      "loudness": -7.7,
+      "speechiness": 0.044,
+      "duration_ms": 200648,
+      "slug": "gunny-dale-howard"
+    },
+    {
+      "name": "Canop\u00e9e des C\u00eemes",
+      "artists": "Jan Blomqvist",
+      "album": "Canop\u00e9e des C\u00eemes",
+      "popularity": 56,
+      "tempo": 122.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.764,
+      "valence": 0.036,
+      "danceability": 0.594,
+      "acousticness": 0.002,
+      "instrumentalness": 0.657,
+      "loudness": -10.7,
+      "speechiness": 0.04,
+      "duration_ms": 296376,
+      "slug": "canop\u00e9e-des-c\u00eemes-jan-blomqvist"
+    },
+    {
+      "name": "Spicy (feat. Ginger) - Edit",
+      "artists": "Boris Brejcha;Ginger",
+      "album": "Spicy (feat. Ginger) [Edit]",
+      "popularity": 56,
+      "tempo": 125.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.472,
+      "valence": 0.142,
+      "danceability": 0.711,
+      "acousticness": 0.0,
+      "instrumentalness": 0.827,
+      "loudness": -10.5,
+      "speechiness": 0.046,
+      "duration_ms": 211200,
+      "slug": "spicy-feat-ginger-edit-boris-brejcha"
+    },
+    {
+      "name": "Les Gout",
+      "artists": "Rampa;chuala;Keinemusik",
+      "album": "Les Gout",
+      "popularity": 56,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.678,
+      "valence": 0.536,
+      "danceability": 0.848,
+      "acousticness": 0.089,
+      "instrumentalness": 0.24,
+      "loudness": -8.8,
+      "speechiness": 0.044,
+      "duration_ms": 344000,
+      "slug": "les-gout-rampa"
+    },
+    {
+      "name": "Domino - David Guetta Remix",
+      "artists": "Oxia;David Guetta",
+      "album": "Domino (David Guetta Remix)",
+      "popularity": 56,
+      "tempo": 130.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.954,
+      "valence": 0.04,
+      "danceability": 0.437,
+      "acousticness": 0.137,
+      "instrumentalness": 0.922,
+      "loudness": -5.8,
+      "speechiness": 0.058,
+      "duration_ms": 296192,
+      "slug": "domino-david-guetta-remix-oxia"
+    },
+    {
+      "name": "Trauma - Worakls Remix",
+      "artists": "NTO;Worakls",
+      "album": "Hungry 5 (The Best of 5 Years)",
+      "popularity": 56,
+      "tempo": 128.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.484,
+      "valence": 0.136,
+      "danceability": 0.799,
+      "acousticness": 0.564,
+      "instrumentalness": 0.93,
+      "loudness": -10.5,
+      "speechiness": 0.041,
+      "duration_ms": 600121,
+      "slug": "trauma-worakls-remix-nto"
+    },
+    {
+      "name": "Blaze",
+      "artists": "Booka Shade;Jan Blomqvist",
+      "album": "Blaze",
+      "popularity": 56,
+      "tempo": 124.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.636,
+      "valence": 0.383,
+      "danceability": 0.664,
+      "acousticness": 0.011,
+      "instrumentalness": 0.631,
+      "loudness": -6.7,
+      "speechiness": 0.032,
+      "duration_ms": 215875,
+      "slug": "blaze-booka-shade"
+    },
+    {
+      "name": "Bad Kingdom",
+      "artists": "Moderat",
+      "album": "II",
+      "popularity": 56,
+      "tempo": 118.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.657,
+      "valence": 0.261,
+      "danceability": 0.425,
+      "acousticness": 0.002,
+      "instrumentalness": 0.888,
+      "loudness": -8.1,
+      "speechiness": 0.057,
+      "duration_ms": 262840,
+      "slug": "bad-kingdom-moderat"
+    },
+    {
+      "name": "The Sound Of Space",
+      "artists": "Enrico Sangiuliano",
+      "album": "Sound Of Space EP",
+      "popularity": 56,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.893,
+      "valence": 0.159,
+      "danceability": 0.707,
+      "acousticness": 0.007,
+      "instrumentalness": 0.819,
+      "loudness": -7.4,
+      "speechiness": 0.054,
+      "duration_ms": 498461,
+      "slug": "the-sound-of-space-enrico-sangiuliano"
+    },
+    {
+      "name": "Hypnotized",
+      "artists": "Oliver Koletzki;Fran",
+      "album": "Gro\u00dfstadtm\u00e4rchen",
+      "popularity": 56,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.381,
+      "valence": 0.298,
+      "danceability": 0.764,
+      "acousticness": 0.046,
+      "instrumentalness": 0.714,
+      "loudness": -11.8,
+      "speechiness": 0.053,
+      "duration_ms": 340560,
+      "slug": "hypnotized-oliver-koletzki"
+    },
+    {
+      "name": "Cloud Rider",
+      "artists": "Paul Kalkbrenner",
+      "album": "7",
+      "popularity": 56,
+      "tempo": 124.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.376,
+      "valence": 0.226,
+      "danceability": 0.749,
+      "acousticness": 0.137,
+      "instrumentalness": 0.777,
+      "loudness": -14.0,
+      "speechiness": 0.03,
+      "duration_ms": 391480,
+      "slug": "cloud-rider-paul-kalkbrenner"
+    },
+    {
+      "name": "Time - feat. Jules Buckley",
+      "artists": "Tale Of Us;Pete Tong;Jules Buckley",
+      "album": "Time (feat. Jules Buckley)",
+      "popularity": 55,
+      "tempo": 126.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.834,
+      "valence": 0.04,
+      "danceability": 0.555,
+      "acousticness": 0.002,
+      "instrumentalness": 0.88,
+      "loudness": -11.9,
+      "speechiness": 0.038,
+      "duration_ms": 310986,
+      "slug": "time-feat-jules-buckley-tale-of-us"
+    },
+    {
+      "name": "Dancing People Are Never Wrong",
+      "artists": "Jan Blomqvist;The Bianca Story",
+      "album": "Dancing People Are Never Wrong",
+      "popularity": 55,
+      "tempo": 122.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.548,
+      "valence": 0.175,
+      "danceability": 0.739,
+      "acousticness": 0.129,
+      "instrumentalness": 0.867,
+      "loudness": -11.1,
+      "speechiness": 0.037,
+      "duration_ms": 199526,
+      "slug": "dancing-people-are-never-wrong-jan-blomqvist"
+    },
+    {
+      "name": "The Space In Between",
+      "artists": "Jan Blomqvist",
+      "album": "Disconnected",
+      "popularity": 55,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.569,
+      "valence": 0.433,
+      "danceability": 0.671,
+      "acousticness": 0.013,
+      "instrumentalness": 0.19,
+      "loudness": -12.4,
+      "speechiness": 0.032,
+      "duration_ms": 206004,
+      "slug": "the-space-in-between-jan-blomqvist"
+    },
+    {
+      "name": "Take It Smart",
+      "artists": "Boris Brejcha",
+      "album": "Space Diver",
+      "popularity": 55,
+      "tempo": 125.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.578,
+      "valence": 0.09,
+      "danceability": 0.792,
+      "acousticness": 0.0,
+      "instrumentalness": 0.788,
+      "loudness": -9.3,
+      "speechiness": 0.051,
+      "duration_ms": 437760,
+      "slug": "take-it-smart-boris-brejcha"
+    },
+    {
+      "name": "The Way Back",
+      "artists": "Solomun",
+      "album": "Black Label #36",
+      "popularity": 55,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.425,
+      "valence": 0.195,
+      "danceability": 0.855,
+      "acousticness": 0.111,
+      "instrumentalness": 0.852,
+      "loudness": -12.9,
+      "speechiness": 0.095,
+      "duration_ms": 446053,
+      "slug": "the-way-back-solomun"
+    },
+    {
+      "name": "Rave",
+      "artists": "Sam Paganini",
+      "album": "Satellite",
+      "popularity": 55,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.807,
+      "valence": 0.33,
+      "danceability": 0.763,
+      "acousticness": 0.0,
+      "instrumentalness": 0.909,
+      "loudness": -7.4,
+      "speechiness": 0.044,
+      "duration_ms": 405699,
+      "slug": "rave-sam-paganini"
+    },
+    {
+      "name": "Looped",
+      "artists": "Kiasmos",
+      "album": "Kiasmos",
+      "popularity": 55,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.406,
+      "valence": 0.124,
+      "danceability": 0.804,
+      "acousticness": 0.023,
+      "instrumentalness": 0.837,
+      "loudness": -11.2,
+      "speechiness": 0.047,
+      "duration_ms": 360705,
+      "slug": "looped-kiasmos"
+    },
+    {
+      "name": "Should be Fine",
+      "artists": "Weval",
+      "album": "Changed for the Better",
+      "popularity": 55,
+      "tempo": 100.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.392,
+      "valence": 0.053,
+      "danceability": 0.693,
+      "acousticness": 0.594,
+      "instrumentalness": 0.749,
+      "loudness": -17.9,
+      "speechiness": 0.047,
+      "duration_ms": 175720,
+      "slug": "should-be-fine-weval"
+    },
+    {
+      "name": "All Night Alone - Chris Lake Edit",
+      "artists": "Josement;Chris Lake",
+      "album": "All Night Alone (Chris Lake Edit)",
+      "popularity": 55,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.857,
+      "valence": 0.848,
+      "danceability": 0.804,
+      "acousticness": 0.053,
+      "instrumentalness": 0.824,
+      "loudness": -6.8,
+      "speechiness": 0.118,
+      "duration_ms": 179304,
+      "slug": "all-night-alone-chris-lake-edit-josement"
+    },
+    {
+      "name": "Fever",
+      "artists": "Joachim Pastor;Mischa",
+      "album": "Fever",
+      "popularity": 55,
+      "tempo": 115.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.485,
+      "valence": 0.196,
+      "danceability": 0.807,
+      "acousticness": 0.146,
+      "instrumentalness": 0.19,
+      "loudness": -10.6,
+      "speechiness": 0.04,
+      "duration_ms": 212869,
+      "slug": "fever-joachim-pastor"
+    },
+    {
+      "name": "Salzburg",
+      "artists": "Worakls",
+      "album": "Salzburg",
+      "popularity": 55,
+      "tempo": 126.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.346,
+      "valence": 0.404,
+      "danceability": 0.847,
+      "acousticness": 0.003,
+      "instrumentalness": 0.918,
+      "loudness": -11.2,
+      "speechiness": 0.094,
+      "duration_ms": 436150,
+      "slug": "salzburg-worakls"
+    },
+    {
+      "name": "Up All Night - Radio Edit",
+      "artists": "Agoria",
+      "album": "Up All Night",
+      "popularity": 55,
+      "tempo": 121.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.719,
+      "valence": 0.226,
+      "danceability": 0.562,
+      "acousticness": 0.06,
+      "instrumentalness": 0.745,
+      "loudness": -8.3,
+      "speechiness": 0.033,
+      "duration_ms": 182787,
+      "slug": "up-all-night-radio-edit-agoria"
+    },
+    {
+      "name": "Goodbye (feat. Xillions)",
+      "artists": "le Shuuk;Xillions",
+      "album": "Goodbye (feat. Xillions)",
+      "popularity": 55,
+      "tempo": 142.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.514,
+      "danceability": 0.689,
+      "acousticness": 0.036,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.122,
+      "duration_ms": 155492,
+      "slug": "goodbye-feat-xillions-le-shuuk"
+    },
+    {
+      "name": "Facing the Sun",
+      "artists": "Fritz Kalkbrenner",
+      "album": "Here Today Gone Tomorrow",
+      "popularity": 55,
+      "tempo": 104.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.552,
+      "valence": 0.421,
+      "danceability": 0.678,
+      "acousticness": 0.006,
+      "instrumentalness": 0.001,
+      "loudness": -12.3,
+      "speechiness": 0.085,
+      "duration_ms": 313084,
+      "slug": "facing-the-sun-fritz-kalkbrenner"
+    },
+    {
+      "name": "Chunky",
+      "artists": "Format:B",
+      "album": "Chunky",
+      "popularity": 55,
+      "tempo": 122.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.858,
+      "valence": 0.862,
+      "danceability": 0.803,
+      "acousticness": 0.011,
+      "instrumentalness": 0.096,
+      "loudness": -4.0,
+      "speechiness": 0.054,
+      "duration_ms": 158114,
+      "slug": "chunky-formatb"
+    },
+    {
+      "name": "Azure",
+      "artists": "Paul Kalkbrenner",
+      "album": "Berlin Calling (The Soundtrack by Paul Kalkbrenner)",
+      "popularity": 55,
+      "tempo": 122.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.504,
+      "valence": 0.094,
+      "danceability": 0.73,
+      "acousticness": 0.124,
+      "instrumentalness": 0.882,
+      "loudness": -13.9,
+      "speechiness": 0.048,
+      "duration_ms": 364059,
+      "slug": "azure-paul-kalkbrenner"
+    },
+    {
+      "name": "Chunky",
+      "artists": "Format:B",
+      "album": "Chunky",
+      "popularity": 55,
+      "tempo": 122.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.858,
+      "valence": 0.862,
+      "danceability": 0.803,
+      "acousticness": 0.011,
+      "instrumentalness": 0.096,
+      "loudness": -4.0,
+      "speechiness": 0.054,
+      "duration_ms": 158114,
+      "slug": "chunky-formatb"
+    },
+    {
+      "name": "I Want You - Edit",
+      "artists": "Boris Brejcha;Ginger",
+      "album": "I Want You",
+      "popularity": 54,
+      "tempo": 125.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.792,
+      "valence": 0.125,
+      "danceability": 0.752,
+      "acousticness": 0.001,
+      "instrumentalness": 0.874,
+      "loudness": -11.6,
+      "speechiness": 0.063,
+      "duration_ms": 207360,
+      "slug": "i-want-you-edit-boris-brejcha"
+    },
+    {
+      "name": "Spiritual but Not Religious",
+      "artists": "Oliver Koletzki",
+      "album": "The Arc of Tension",
+      "popularity": 54,
+      "tempo": 95.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.497,
+      "valence": 0.114,
+      "danceability": 0.671,
+      "acousticness": 0.171,
+      "instrumentalness": 0.536,
+      "loudness": -9.8,
+      "speechiness": 0.055,
+      "duration_ms": 246706,
+      "slug": "spiritual-but-not-religious-oliver-koletzki"
+    },
+    {
+      "name": "Eating Hooks - Siriusmo Remix - Solomun Edit",
+      "artists": "Moderat;Siriusmo;Solomun",
+      "album": "Eating Hooks (Siriusmo Remix - Solomun Edit)",
+      "popularity": 54,
+      "tempo": 124.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.728,
+      "valence": 0.347,
+      "danceability": 0.661,
+      "acousticness": 0.008,
+      "instrumentalness": 0.652,
+      "loudness": -8.7,
+      "speechiness": 0.038,
+      "duration_ms": 422200,
+      "slug": "eating-hooks-siriusmo-remix-solomun-edit-moderat"
+    },
+    {
+      "name": "What To Do - &ME Remix",
+      "artists": "Guy Gerber;&ME",
+      "album": "What To Do (Remixes)",
+      "popularity": 54,
+      "tempo": 122.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.408,
+      "danceability": 0.904,
+      "acousticness": 0.0,
+      "instrumentalness": 0.86,
+      "loudness": -10.0,
+      "speechiness": 0.059,
+      "duration_ms": 504590,
+      "slug": "what-to-do-me-remix-guy-gerber"
+    },
+    {
+      "name": "Insomnia 2021 - Epic Edit",
+      "artists": "Maceo Plex;Faithless",
+      "album": "Insomnia 2021",
+      "popularity": 54,
+      "tempo": 126.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.968,
+      "valence": 0.23,
+      "danceability": 0.643,
+      "acousticness": 0.029,
+      "instrumentalness": 0.043,
+      "loudness": -5.3,
+      "speechiness": 0.059,
+      "duration_ms": 288238,
+      "slug": "insomnia-2021-epic-edit-maceo-plex"
+    },
+    {
+      "name": "Leave You",
+      "artists": "Einmusik;Lexer;Jyll",
+      "album": "Leave You",
+      "popularity": 54,
+      "tempo": 120.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.84,
+      "valence": 0.529,
+      "danceability": 0.673,
+      "acousticness": 0.02,
+      "instrumentalness": 0.234,
+      "loudness": -7.6,
+      "speechiness": 0.035,
+      "duration_ms": 234005,
+      "slug": "leave-you-einmusik"
+    },
+    {
+      "name": "New Fires",
+      "artists": "Christian L\u00f6ffler;Henry Green",
+      "album": "New Fires",
+      "popularity": 54,
+      "tempo": 116.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.569,
+      "valence": 0.241,
+      "danceability": 0.712,
+      "acousticness": 0.346,
+      "instrumentalness": 0.492,
+      "loudness": -10.8,
+      "speechiness": 0.035,
+      "duration_ms": 251591,
+      "slug": "new-fires-christian-l\u00f6ffler"
+    },
+    {
+      "name": "Humans Love Me",
+      "artists": "T78",
+      "album": "Retro Future, Vol. 3",
+      "popularity": 54,
+      "tempo": 135.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.874,
+      "valence": 0.239,
+      "danceability": 0.673,
+      "acousticness": 0.001,
+      "instrumentalness": 0.696,
+      "loudness": -7.2,
+      "speechiness": 0.085,
+      "duration_ms": 304000,
+      "slug": "humans-love-me-t78"
+    },
+    {
+      "name": "Cosmovision",
+      "artists": "ANNA;Ravid",
+      "album": "Unity Pt. 3",
+      "popularity": 53,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.757,
+      "valence": 0.046,
+      "danceability": 0.644,
+      "acousticness": 0.068,
+      "instrumentalness": 0.864,
+      "loudness": -8.2,
+      "speechiness": 0.039,
+      "duration_ms": 213390,
+      "slug": "cosmovision-anna"
+    },
+    {
+      "name": "The Morning After",
+      "artists": "NTO",
+      "album": "The Morning After",
+      "popularity": 53,
+      "tempo": 121.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.456,
+      "valence": 0.238,
+      "danceability": 0.879,
+      "acousticness": 0.006,
+      "instrumentalness": 0.865,
+      "loudness": -9.7,
+      "speechiness": 0.112,
+      "duration_ms": 408595,
+      "slug": "the-morning-after-nto"
+    },
+    {
+      "name": "Millenium",
+      "artists": "Joachim Pastor",
+      "album": "Eternity",
+      "popularity": 53,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.517,
+      "valence": 0.074,
+      "danceability": 0.443,
+      "acousticness": 0.037,
+      "instrumentalness": 0.895,
+      "loudness": -10.0,
+      "speechiness": 0.054,
+      "duration_ms": 421935,
+      "slug": "millenium-joachim-pastor"
+    },
+    {
+      "name": "Lost Memory",
+      "artists": "Boris Brejcha",
+      "album": "Lost Memory",
+      "popularity": 53,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.459,
+      "valence": 0.137,
+      "danceability": 0.876,
+      "acousticness": 0.015,
+      "instrumentalness": 0.91,
+      "loudness": -11.5,
+      "speechiness": 0.076,
+      "duration_ms": 462719,
+      "slug": "lost-memory-boris-brejcha"
+    },
+    {
+      "name": "Bumblebee",
+      "artists": "Boris Brejcha",
+      "album": "Club Vibes Part 02",
+      "popularity": 53,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.215,
+      "danceability": 0.799,
+      "acousticness": 0.0,
+      "instrumentalness": 0.93,
+      "loudness": -10.1,
+      "speechiness": 0.044,
+      "duration_ms": 470400,
+      "slug": "bumblebee-boris-brejcha"
+    },
+    {
+      "name": "Empty Floor",
+      "artists": "Jan Blomqvist",
+      "album": "Empty Floor",
+      "popularity": 53,
+      "tempo": 122.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.524,
+      "valence": 0.21,
+      "danceability": 0.748,
+      "acousticness": 0.035,
+      "instrumentalness": 0.188,
+      "loudness": -10.3,
+      "speechiness": 0.036,
+      "duration_ms": 218754,
+      "slug": "empty-floor-jan-blomqvist"
+    },
+    {
+      "name": "Solitary Daze - Radio Edit",
+      "artists": "Maceo Plex;Gabriel Ananda",
+      "album": "Armada Deep House Selection, Vol. 6 (The Finest Deep House Tunes)",
+      "popularity": 53,
+      "tempo": 125.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.841,
+      "valence": 0.331,
+      "danceability": 0.414,
+      "acousticness": 0.053,
+      "instrumentalness": 0.9,
+      "loudness": -11.1,
+      "speechiness": 0.053,
+      "duration_ms": 230400,
+      "slug": "solitary-daze-radio-edit-maceo-plex"
+    },
+    {
+      "name": "Haul (feat. Mohna)",
+      "artists": "Christian L\u00f6ffler;Mohna",
+      "album": "Mare",
+      "popularity": 53,
+      "tempo": 118.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.207,
+      "valence": 0.174,
+      "danceability": 0.634,
+      "acousticness": 0.434,
+      "instrumentalness": 0.881,
+      "loudness": -22.8,
+      "speechiness": 0.035,
+      "duration_ms": 315369,
+      "slug": "haul-feat-mohna-christian-l\u00f6ffler"
+    },
+    {
+      "name": "So Long - Christian Loeffler Remix",
+      "artists": "Joris Voorn;Kid A;Christian L\u00f6ffler",
+      "album": "Nobody Knows Remixes",
+      "popularity": 53,
+      "tempo": 117.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.078,
+      "danceability": 0.496,
+      "acousticness": 0.033,
+      "instrumentalness": 0.706,
+      "loudness": -10.0,
+      "speechiness": 0.042,
+      "duration_ms": 307423,
+      "slug": "so-long-christian-loeffler-remix-joris-voorn"
+    },
+    {
+      "name": "Your Mind",
+      "artists": "Adam Beyer;Bart Skils",
+      "album": "Your Mind",
+      "popularity": 53,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.721,
+      "valence": 0.039,
+      "danceability": 0.751,
+      "acousticness": 0.0,
+      "instrumentalness": 0.574,
+      "loudness": -8.1,
+      "speechiness": 0.066,
+      "duration_ms": 502969,
+      "slug": "your-mind-adam-beyer"
+    },
+    {
+      "name": "You\u2019re Not Alone",
+      "artists": "Agoria;Blas\u00e9",
+      "album": "Drift",
+      "popularity": 53,
+      "tempo": 108.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.743,
+      "valence": 0.436,
+      "danceability": 0.698,
+      "acousticness": 0.0,
+      "instrumentalness": 0.417,
+      "loudness": -5.5,
+      "speechiness": 0.035,
+      "duration_ms": 169041,
+      "slug": "youre-not-alone-agoria"
+    },
+    {
+      "name": "Versailles (Hold) - Edit",
+      "artists": "Christian L\u00f6ffler",
+      "album": "Versailles (Hold)",
+      "popularity": 53,
+      "tempo": 117.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.375,
+      "valence": 0.179,
+      "danceability": 0.425,
+      "acousticness": 0.467,
+      "instrumentalness": 0.525,
+      "loudness": -13.7,
+      "speechiness": 0.035,
+      "duration_ms": 218727,
+      "slug": "versailles-hold-edit-christian-l\u00f6ffler"
+    },
+    {
+      "name": "Caje (Album Edit) - Orginal Version",
+      "artists": "Nicon\u00e9;Sascha Braemer;Narra",
+      "album": "Romantic Thrills",
+      "popularity": 53,
+      "tempo": 123.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.735,
+      "valence": 0.72,
+      "danceability": 0.708,
+      "acousticness": 0.016,
+      "instrumentalness": 0.61,
+      "loudness": -9.7,
+      "speechiness": 0.06,
+      "duration_ms": 439565,
+      "slug": "caje-album-edit-orginal-version-nicon\u00e9"
+    },
+    {
+      "name": "Caprice",
+      "artists": "Oliver Schories;Tube & Berger",
+      "album": "Caprice",
+      "popularity": 53,
+      "tempo": 123.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.806,
+      "valence": 0.092,
+      "danceability": 0.644,
+      "acousticness": 0.057,
+      "instrumentalness": 0.486,
+      "loudness": -8.0,
+      "speechiness": 0.037,
+      "duration_ms": 230839,
+      "slug": "caprice-oliver-schories"
+    },
+    {
+      "name": "In White Rooms",
+      "artists": "Booka Shade",
+      "album": "Movements",
+      "popularity": 53,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.64,
+      "valence": 0.094,
+      "danceability": 0.8,
+      "acousticness": 0.001,
+      "instrumentalness": 0.801,
+      "loudness": -9.4,
+      "speechiness": 0.064,
+      "duration_ms": 326834,
+      "slug": "in-white-rooms-booka-shade"
+    },
+    {
+      "name": "Pick Up",
+      "artists": "DJ Koze",
+      "album": "Knock Knock",
+      "popularity": 53,
+      "tempo": 124.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.513,
+      "danceability": 0.712,
+      "acousticness": 0.0,
+      "instrumentalness": 0.802,
+      "loudness": -9.0,
+      "speechiness": 0.062,
+      "duration_ms": 398150,
+      "slug": "pick-up-dj-koze"
+    },
+    {
+      "name": "Grey - Mixed",
+      "artists": "K\u00f6lsch",
+      "album": "Defected In The House Radio Show Episode 031 (hosted by Sam Divine) [Mixed]",
+      "popularity": 53,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.771,
+      "valence": 0.133,
+      "danceability": 0.826,
+      "acousticness": 0.028,
+      "instrumentalness": 0.008,
+      "loudness": -8.4,
+      "speechiness": 0.056,
+      "duration_ms": 170329,
+      "slug": "grey-mixed-k\u00f6lsch"
+    },
+    {
+      "name": "Alter Ego",
+      "artists": "NTO",
+      "album": "Alter Ego",
+      "popularity": 52,
+      "tempo": 123.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.534,
+      "valence": 0.271,
+      "danceability": 0.716,
+      "acousticness": 0.007,
+      "instrumentalness": 0.74,
+      "loudness": -9.3,
+      "speechiness": 0.053,
+      "duration_ms": 444878,
+      "slug": "alter-ego-nto"
+    },
+    {
+      "name": "Friends",
+      "artists": "Solomun",
+      "album": "Friends",
+      "popularity": 52,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.505,
+      "valence": 0.555,
+      "danceability": 0.82,
+      "acousticness": 0.007,
+      "instrumentalness": 0.591,
+      "loudness": -9.8,
+      "speechiness": 0.036,
+      "duration_ms": 547244,
+      "slug": "friends-solomun"
+    },
+    {
+      "name": "Follow",
+      "artists": "Amelie Lens",
+      "album": "Stay With Me",
+      "popularity": 52,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.134,
+      "danceability": 0.725,
+      "acousticness": 0.037,
+      "instrumentalness": 0.822,
+      "loudness": -8.8,
+      "speechiness": 0.035,
+      "duration_ms": 337500,
+      "slug": "follow-amelie-lens"
+    },
+    {
+      "name": "Same Mistake - But Different Remix",
+      "artists": "Jan Blomqvist",
+      "album": "Remote Control (Remixed)",
+      "popularity": 52,
+      "tempo": 121.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.503,
+      "valence": 0.091,
+      "danceability": 0.656,
+      "acousticness": 0.135,
+      "instrumentalness": 0.905,
+      "loudness": -12.5,
+      "speechiness": 0.041,
+      "duration_ms": 216445,
+      "slug": "same-mistake-but-different-remix-jan-blomqvist"
+    },
+    {
+      "name": "Vallut Bass",
+      "artists": "AKA AKA;Junge Junge",
+      "album": "Vallut Bass",
+      "popularity": 52,
+      "tempo": 122.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.608,
+      "valence": 0.347,
+      "danceability": 0.776,
+      "acousticness": 0.146,
+      "instrumentalness": 0.894,
+      "loudness": -10.5,
+      "speechiness": 0.04,
+      "duration_ms": 211475,
+      "slug": "vallut-bass-aka-aka"
+    },
+    {
+      "name": "Twisted Reality - Edit",
+      "artists": "Boris Brejcha",
+      "album": "Twisted Reality (Edit)",
+      "popularity": 52,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.662,
+      "valence": 0.283,
+      "danceability": 0.686,
+      "acousticness": 0.003,
+      "instrumentalness": 0.886,
+      "loudness": -12.4,
+      "speechiness": 0.044,
+      "duration_ms": 207360,
+      "slug": "twisted-reality-edit-boris-brejcha"
+    },
+    {
+      "name": "In The Shadows",
+      "artists": "Boris Brejcha",
+      "album": "Club Vibes Part 03",
+      "popularity": 52,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.54,
+      "valence": 0.162,
+      "danceability": 0.801,
+      "acousticness": 0.005,
+      "instrumentalness": 0.898,
+      "loudness": -9.6,
+      "speechiness": 0.043,
+      "duration_ms": 487680,
+      "slug": "in-the-shadows-boris-brejcha"
+    },
+    {
+      "name": "3 Letters",
+      "artists": "Agoria;Blas\u00e9",
+      "album": "3 Letters",
+      "popularity": 52,
+      "tempo": 113.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.564,
+      "valence": 0.337,
+      "danceability": 0.763,
+      "acousticness": 0.029,
+      "instrumentalness": 0.048,
+      "loudness": -7.8,
+      "speechiness": 0.03,
+      "duration_ms": 176283,
+      "slug": "3-letters-agoria"
+    },
+    {
+      "name": "Bones",
+      "artists": "Oliver Koletzki;HVOB",
+      "album": "I am OK",
+      "popularity": 52,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.534,
+      "valence": 0.04,
+      "danceability": 0.823,
+      "acousticness": 0.024,
+      "instrumentalness": 0.486,
+      "loudness": -7.1,
+      "speechiness": 0.05,
+      "duration_ms": 295893,
+      "slug": "bones-oliver-koletzki"
+    },
+    {
+      "name": "Dubmission - 2021 Edit",
+      "artists": "Anja Schneider",
+      "album": "Dubmission (Original Edit)",
+      "popularity": 52,
+      "tempo": 122.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.476,
+      "valence": 0.276,
+      "danceability": 0.804,
+      "acousticness": 0.335,
+      "instrumentalness": 0.891,
+      "loudness": -13.5,
+      "speechiness": 0.095,
+      "duration_ms": 186885,
+      "slug": "dubmission-2021-edit-anja-schneider"
+    },
+    {
+      "name": "Muy\u00e8",
+      "artists": "Rampa;Adam Port;&ME",
+      "album": "You Are Safe",
+      "popularity": 52,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.474,
+      "valence": 0.038,
+      "danceability": 0.775,
+      "acousticness": 0.01,
+      "instrumentalness": 0.943,
+      "loudness": -15.3,
+      "speechiness": 0.064,
+      "duration_ms": 469995,
+      "slug": "muy\u00e8-rampa"
+    },
+    {
+      "name": "Domino",
+      "artists": "Oxia",
+      "album": "Domino Remixes",
+      "popularity": 52,
+      "tempo": 128.9,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.69,
+      "valence": 0.215,
+      "danceability": 0.785,
+      "acousticness": 0.003,
+      "instrumentalness": 0.907,
+      "loudness": -10.2,
+      "speechiness": 0.07,
+      "duration_ms": 435266,
+      "slug": "domino-oxia"
+    },
+    {
+      "name": "Haul - Radio Edit",
+      "artists": "Christian L\u00f6ffler;Mohna",
+      "album": "Haul",
+      "popularity": 52,
+      "tempo": 118.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.417,
+      "valence": 0.117,
+      "danceability": 0.615,
+      "acousticness": 0.287,
+      "instrumentalness": 0.862,
+      "loudness": -15.4,
+      "speechiness": 0.037,
+      "duration_ms": 217134,
+      "slug": "haul-radio-edit-christian-l\u00f6ffler"
+    },
+    {
+      "name": "UFOs & LFOs",
+      "artists": "Layton Giordani",
+      "album": "Digital Age",
+      "popularity": 52,
+      "tempo": 131.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.808,
+      "valence": 0.069,
+      "danceability": 0.725,
+      "acousticness": 0.012,
+      "instrumentalness": 0.682,
+      "loudness": -6.9,
+      "speechiness": 0.076,
+      "duration_ms": 296812,
+      "slug": "ufos-lfos-layton-giordani"
+    },
+    {
+      "name": "FAST LAND",
+      "artists": "Moderat",
+      "album": "MORE D4TA",
+      "popularity": 52,
+      "tempo": 134.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.59,
+      "valence": 0.05,
+      "danceability": 0.429,
+      "acousticness": 0.022,
+      "instrumentalness": 0.905,
+      "loudness": -9.7,
+      "speechiness": 0.04,
+      "duration_ms": 219014,
+      "slug": "fast-land-moderat"
+    },
+    {
+      "name": "Rusty Nails",
+      "artists": "Moderat",
+      "album": "Moderat",
+      "popularity": 52,
+      "tempo": 128.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.87,
+      "valence": 0.927,
+      "danceability": 0.741,
+      "acousticness": 0.034,
+      "instrumentalness": 0.789,
+      "loudness": -7.8,
+      "speechiness": 0.068,
+      "duration_ms": 272200,
+      "slug": "rusty-nails-moderat"
+    },
+    {
+      "name": "Carry On",
+      "artists": "Daphni",
+      "album": "Joli Mai",
+      "popularity": 52,
+      "tempo": 120.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.571,
+      "valence": 0.702,
+      "danceability": 0.801,
+      "acousticness": 0.177,
+      "instrumentalness": 0.905,
+      "loudness": -10.4,
+      "speechiness": 0.057,
+      "duration_ms": 226479,
+      "slug": "carry-on-daphni"
+    },
+    {
+      "name": "We Do What We Want",
+      "artists": "Alan Fitzpatrick",
+      "album": "We Do What We Want",
+      "popularity": 52,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.966,
+      "valence": 0.349,
+      "danceability": 0.77,
+      "acousticness": 0.0,
+      "instrumentalness": 0.932,
+      "loudness": -6.7,
+      "speechiness": 0.042,
+      "duration_ms": 505577,
+      "slug": "we-do-what-we-want-alan-fitzpatrick"
+    },
+    {
+      "name": "Grey",
+      "artists": "K\u00f6lsch",
+      "album": "Speicher 93",
+      "popularity": 52,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.582,
+      "valence": 0.209,
+      "danceability": 0.833,
+      "acousticness": 0.053,
+      "instrumentalness": 0.058,
+      "loudness": -7.0,
+      "speechiness": 0.066,
+      "duration_ms": 293578,
+      "slug": "grey-k\u00f6lsch"
+    },
+    {
+      "name": "Beyond Control",
+      "artists": "NTO;Monolink",
+      "album": "Apnea",
+      "popularity": 51,
+      "tempo": 125.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.619,
+      "valence": 0.432,
+      "danceability": 0.669,
+      "acousticness": 0.001,
+      "instrumentalness": 0.817,
+      "loudness": -9.0,
+      "speechiness": 0.038,
+      "duration_ms": 332146,
+      "slug": "beyond-control-nto"
+    }
+  ]
+}

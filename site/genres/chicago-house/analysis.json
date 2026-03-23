@@ -1,0 +1,2794 @@
+{
+  "genre": "Chicago House",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 93.998,
+    "max": 190.051,
+    "mean": 122.7,
+    "median": 123.99,
+    "q1": 119.998,
+    "q3": 125.983,
+    "histogram": {
+      "90-99": 2,
+      "100-109": 2,
+      "110-119": 22,
+      "120-129": 70,
+      "130-139": 3,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "A#/Bb": 17,
+    "C#/Db": 17,
+    "B": 13,
+    "G": 10,
+    "F#/Gb": 9,
+    "C": 9,
+    "A": 9,
+    "F": 5,
+    "E": 4,
+    "G#/Ab": 4,
+    "D": 2,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Minor": 47,
+    "Major": 53
+  },
+  "key_mode_distribution": {
+    "A#/Bb Minor": 16,
+    "C#/Db Major": 11,
+    "G Major": 9,
+    "C Major": 9,
+    "B Major": 7,
+    "B Minor": 6,
+    "F#/Gb Major": 6,
+    "A Minor": 6,
+    "C#/Db Minor": 6,
+    "F Minor": 4,
+    "E Minor": 3,
+    "A Major": 3,
+    "F#/Gb Minor": 3,
+    "D Major": 2,
+    "G#/Ab Minor": 2,
+    "G#/Ab Major": 2,
+    "G Minor": 1,
+    "E Major": 1,
+    "D#/Eb Major": 1,
+    "A#/Bb Major": 1,
+    "F Major": 1
+  },
+  "energy": {
+    "min": 0.318,
+    "max": 0.999,
+    "mean": 0.712,
+    "median": 0.739,
+    "q1": 0.568,
+    "q3": 0.861
+  },
+  "valence": {
+    "min": 0.076,
+    "max": 0.967,
+    "mean": 0.553,
+    "median": 0.565,
+    "q1": 0.439,
+    "q3": 0.694
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.741,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.28
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.615
+    },
+    {
+      "energy": 0.93,
+      "valence": 0.697
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.129
+    },
+    {
+      "energy": 0.332,
+      "valence": 0.448
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.698
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.384
+    },
+    {
+      "energy": 0.686,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.424,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.847
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.389
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.32,
+      "valence": 0.672
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.669,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.513,
+      "valence": 0.746
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.677
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.777
+    },
+    {
+      "energy": 0.843,
+      "valence": 0.504
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.84,
+      "valence": 0.943
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.713
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.349
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.772
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.928,
+      "valence": 0.912
+    },
+    {
+      "energy": 0.58,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.473
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.949,
+      "valence": 0.262
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.708
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.784
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.925
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.412
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.925
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.555
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.547,
+      "valence": 0.452
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.473
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.262
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.618
+    },
+    {
+      "energy": 0.318,
+      "valence": 0.079
+    },
+    {
+      "energy": 0.879,
+      "valence": 0.638
+    },
+    {
+      "energy": 0.413,
+      "valence": 0.213
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.573
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.774
+    },
+    {
+      "energy": 0.365,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.618,
+      "valence": 0.076
+    },
+    {
+      "energy": 0.861,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.801
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.506,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.967
+    },
+    {
+      "energy": 0.702,
+      "valence": 0.252
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.731
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.524
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.688
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.568,
+      "valence": 0.68
+    },
+    {
+      "energy": 0.999,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.55,
+      "valence": 0.643
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.76
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.688
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.643
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.551
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.103
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.492,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.597
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.99,
+      "valence": 0.669
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.577
+    },
+    {
+      "energy": 0.77,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.518,
+      "valence": 0.688
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.948
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.896
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.764
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.709
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.372,
+    "mean": 0.038,
+    "median": 0.008,
+    "q1": 0.002,
+    "q3": 0.033
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.944,
+    "mean": 0.45,
+    "median": 0.453,
+    "q1": 0.034,
+    "q3": 0.87
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.189
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.806
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.851
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.294
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.445
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.219,
+      "instrumentalness": 0.077
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.91
+    },
+    {
+      "acousticness": 0.146,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.627
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.231
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.225
+    },
+    {
+      "acousticness": 0.113,
+      "instrumentalness": 0.084
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.273
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.114
+    },
+    {
+      "acousticness": 0.147,
+      "instrumentalness": 0.02
+    },
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.9
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.68
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.491
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.094
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.039
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.862
+    },
+    {
+      "acousticness": 0.1,
+      "instrumentalness": 0.911
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.682
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.097
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.375
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.858
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.845
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.895
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.097
+    },
+    {
+      "acousticness": 0.212,
+      "instrumentalness": 0.925
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.929
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.733
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.929
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.929
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.888
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.853
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.559
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.21
+    },
+    {
+      "acousticness": 0.137,
+      "instrumentalness": 0.768
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.461
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.925
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.939
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.913
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.495
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.387
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.87
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.916
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.914
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.545
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.941
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.578
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.906
+    },
+    {
+      "acousticness": 0.232,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.11
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.253,
+      "instrumentalness": 0.574
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.033
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.358
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.918
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.206
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.519
+    },
+    {
+      "acousticness": 0.372,
+      "instrumentalness": 0.759
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.122
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.053
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.917
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.072
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.834
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.94
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.72
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.754
+    },
+    {
+      "acousticness": 0.148,
+      "instrumentalness": 0.838
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.879
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.944
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.933
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.877
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.105
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.277
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.637
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.92
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 152693,
+    "max": 739626,
+    "mean": 359725.66,
+    "median": 337555.5,
+    "q1": 279224,
+    "q3": 422618
+  },
+  "danceability": {
+    "min": 0.564,
+    "max": 0.949,
+    "mean": 0.764,
+    "median": 0.77,
+    "q1": 0.707,
+    "q3": 0.826
+  },
+  "loudness": {
+    "min": -16.921,
+    "max": -3.575,
+    "mean": -8.96,
+    "median": -8.215,
+    "q1": -10.886,
+    "q3": -6.344
+  },
+  "speechiness": {
+    "min": 0.028,
+    "max": 0.348,
+    "mean": 0.066,
+    "median": 0.054,
+    "q1": 0.042,
+    "q3": 0.077
+  },
+  "top_artists": [
+    {
+      "name": "Aaron Smith",
+      "count": 10
+    },
+    {
+      "name": "Mark Farina",
+      "count": 8
+    },
+    {
+      "name": "Luvli",
+      "count": 7
+    },
+    {
+      "name": "Paul Johnson",
+      "count": 6
+    },
+    {
+      "name": "Mr. Fingers",
+      "count": 6
+    },
+    {
+      "name": "Larry Heard",
+      "count": 6
+    },
+    {
+      "name": "Felix Da Housecat",
+      "count": 5
+    },
+    {
+      "name": "Chez Damier",
+      "count": 5
+    },
+    {
+      "name": "Marshall Jefferson",
+      "count": 4
+    },
+    {
+      "name": "Mike Dunn",
+      "count": 4
+    },
+    {
+      "name": "Krono",
+      "count": 3
+    },
+    {
+      "name": "Frankie Knuckles",
+      "count": 3
+    },
+    {
+      "name": "Robert Hood",
+      "count": 3
+    },
+    {
+      "name": "Ron Trent",
+      "count": 3
+    },
+    {
+      "name": "Fast Eddie",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Dancin (feat. Luvli) - Krono Remix",
+      "artists": "Aaron Smith;Krono;Luvli",
+      "album": "Dancin (feat. Luvli) [Krono Remix]",
+      "popularity": 78,
+      "tempo": 119.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.741,
+      "valence": 0.357,
+      "danceability": 0.72,
+      "acousticness": 0.101,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.029,
+      "duration_ms": 198053,
+      "slug": "dancin-feat-luvli-krono-remix-aaron-smith"
+    },
+    {
+      "name": "Dancin - Krono Remix",
+      "artists": "Aaron Smith;Luvli;Krono",
+      "album": "Ibiza 2019",
+      "popularity": 76,
+      "tempo": 120.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.28,
+      "danceability": 0.751,
+      "acousticness": 0.044,
+      "instrumentalness": 0.034,
+      "loudness": -9.8,
+      "speechiness": 0.03,
+      "duration_ms": 256000,
+      "slug": "dancin-krono-remix-aaron-smith"
+    },
+    {
+      "name": "Move Your Body",
+      "artists": "Marshall Jefferson;Solardo",
+      "album": "Move Your Body",
+      "popularity": 62,
+      "tempo": 125.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.609,
+      "danceability": 0.791,
+      "acousticness": 0.005,
+      "instrumentalness": 0.189,
+      "loudness": -6.3,
+      "speechiness": 0.07,
+      "duration_ms": 196109,
+      "slug": "move-your-body-marshall-jefferson"
+    },
+    {
+      "name": "Get Get Down",
+      "artists": "Paul Johnson",
+      "album": "Get Get Down",
+      "popularity": 58,
+      "tempo": 126.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.95,
+      "valence": 0.615,
+      "danceability": 0.879,
+      "acousticness": 0.0,
+      "instrumentalness": 0.806,
+      "loudness": -6.4,
+      "speechiness": 0.075,
+      "duration_ms": 367786,
+      "slug": "get-get-down-paul-johnson"
+    },
+    {
+      "name": "Promised Land",
+      "artists": "Joe Smooth",
+      "album": "Promised Land",
+      "popularity": 55,
+      "tempo": 128.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.93,
+      "valence": 0.697,
+      "danceability": 0.718,
+      "acousticness": 0.003,
+      "instrumentalness": 0.018,
+      "loudness": -4.5,
+      "speechiness": 0.038,
+      "duration_ms": 331706,
+      "slug": "promised-land-joe-smooth"
+    },
+    {
+      "name": "Your Love",
+      "artists": "Frankie Knuckles",
+      "album": "Baby Wants to Ride / Your Love",
+      "popularity": 52,
+      "tempo": 116.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.725,
+      "valence": 0.129,
+      "danceability": 0.7,
+      "acousticness": 0.044,
+      "instrumentalness": 0.851,
+      "loudness": -11.4,
+      "speechiness": 0.049,
+      "duration_ms": 403706,
+      "slug": "your-love-frankie-knuckles"
+    },
+    {
+      "name": "Gabriel - Live Garage Mix",
+      "artists": "Roy Davis Jr.;Peven Everett",
+      "album": "Gabriel",
+      "popularity": 52,
+      "tempo": 128.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.332,
+      "valence": 0.448,
+      "danceability": 0.829,
+      "acousticness": 0.013,
+      "instrumentalness": 0.294,
+      "loudness": -13.8,
+      "speechiness": 0.047,
+      "duration_ms": 443849,
+      "slug": "gabriel-live-garage-mix-roy-davis-jr"
+    },
+    {
+      "name": "Brighter Days - Dajae- Underground Mix '93",
+      "artists": "Cajmere;Dajae",
+      "album": "It's Time",
+      "popularity": 50,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.737,
+      "valence": 0.235,
+      "danceability": 0.878,
+      "acousticness": 0.0,
+      "instrumentalness": 0.445,
+      "loudness": -8.0,
+      "speechiness": 0.082,
+      "duration_ms": 327138,
+      "slug": "brighter-days-dajae-underground-mix-93-cajmere"
+    },
+    {
+      "name": "Dancin (feat. Luvli) - Krono Extended Remix",
+      "artists": "Aaron Smith;Krono;Luvli",
+      "album": "Dancin (Remixes) - EP1 (feat. Luvli)",
+      "popularity": 49,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.767,
+      "valence": 0.486,
+      "danceability": 0.77,
+      "acousticness": 0.007,
+      "instrumentalness": 0.001,
+      "loudness": -7.0,
+      "speechiness": 0.034,
+      "duration_ms": 271986,
+      "slug": "dancin-feat-luvli-krono-extended-remix-aaron-smith"
+    },
+    {
+      "name": "That's the Way Love Is - Underground Mix; Edit",
+      "artists": "Ten City",
+      "album": "Foundation",
+      "popularity": 49,
+      "tempo": 120.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.698,
+      "danceability": 0.638,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.049,
+      "duration_ms": 255200,
+      "slug": "thats-the-way-love-is-underground-mix-edit-ten-city"
+    },
+    {
+      "name": "Dream Machine - DownTempo Mix",
+      "artists": "Mark Farina",
+      "album": "H\u00f4tel Costes 8",
+      "popularity": 48,
+      "tempo": 116.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.676,
+      "valence": 0.776,
+      "danceability": 0.905,
+      "acousticness": 0.219,
+      "instrumentalness": 0.077,
+      "loudness": -4.3,
+      "speechiness": 0.052,
+      "duration_ms": 325386,
+      "slug": "dream-machine-downtempo-mix-mark-farina"
+    },
+    {
+      "name": "Beautiful People - Obsk\u00fcr Remix",
+      "artists": "Barbara Tucker;Obsk\u00fcr",
+      "album": "Beautiful People (Obsk\u00fcr Remix)",
+      "popularity": 48,
+      "tempo": 128.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.677,
+      "valence": 0.384,
+      "danceability": 0.832,
+      "acousticness": 0.003,
+      "instrumentalness": 0.015,
+      "loudness": -8.8,
+      "speechiness": 0.105,
+      "duration_ms": 333771,
+      "slug": "beautiful-people-obsk\u00fcr-remix-barbara-tucker"
+    },
+    {
+      "name": "Mystery of Love",
+      "artists": "Mr. Fingers",
+      "album": "Amnesia",
+      "popularity": 47,
+      "tempo": 114.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.686,
+      "valence": 0.565,
+      "danceability": 0.767,
+      "acousticness": 0.068,
+      "instrumentalness": 0.91,
+      "loudness": -10.5,
+      "speechiness": 0.046,
+      "duration_ms": 430576,
+      "slug": "mystery-of-love-mr-fingers"
+    },
+    {
+      "name": "Dream Machine - Downtempo Mix",
+      "artists": "Mark Farina",
+      "album": "Air Farina",
+      "popularity": 45,
+      "tempo": 110.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.424,
+      "valence": 0.652,
+      "danceability": 0.938,
+      "acousticness": 0.146,
+      "instrumentalness": 0.002,
+      "loudness": -10.3,
+      "speechiness": 0.059,
+      "duration_ms": 368200,
+      "slug": "dream-machine-downtempo-mix-mark-farina"
+    },
+    {
+      "name": "If I Can't Get Down - Mousse T.'s Funky Shizzle Mix",
+      "artists": "Mike Dunn;Mousse T.",
+      "album": "My House From All Angles (Remixes)",
+      "popularity": 45,
+      "tempo": 124.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.934,
+      "valence": 0.847,
+      "danceability": 0.837,
+      "acousticness": 0.012,
+      "instrumentalness": 0.627,
+      "loudness": -3.6,
+      "speechiness": 0.088,
+      "duration_ms": 227265,
+      "slug": "if-i-cant-get-down-mousse-ts-funky-shizzle-mix-mike-dunn"
+    },
+    {
+      "name": "Silver Screen (Shower Scene)",
+      "artists": "Felix Da Housecat",
+      "album": "Kittenz And Thee Glitz",
+      "popularity": 45,
+      "tempo": 121.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.747,
+      "valence": 0.389,
+      "danceability": 0.816,
+      "acousticness": 0.0,
+      "instrumentalness": 0.231,
+      "loudness": -8.1,
+      "speechiness": 0.348,
+      "duration_ms": 280653,
+      "slug": "silver-screen-shower-scene-felix-da-housecat"
+    },
+    {
+      "name": "The Whistle Song",
+      "artists": "Frankie Knuckles",
+      "album": "Beyond The Mix",
+      "popularity": 45,
+      "tempo": 120.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.398,
+      "danceability": 0.71,
+      "acousticness": 0.034,
+      "instrumentalness": 0.225,
+      "loudness": -16.3,
+      "speechiness": 0.116,
+      "duration_ms": 417706,
+      "slug": "the-whistle-song-frankie-knuckles"
+    },
+    {
+      "name": "Dream Machine - Kaskade Mix",
+      "artists": "Mark Farina;Kaskade",
+      "album": "To Do",
+      "popularity": 44,
+      "tempo": 110.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.32,
+      "valence": 0.672,
+      "danceability": 0.897,
+      "acousticness": 0.113,
+      "instrumentalness": 0.084,
+      "loudness": -13.9,
+      "speechiness": 0.054,
+      "duration_ms": 375880,
+      "slug": "dream-machine-kaskade-mix-mark-farina"
+    },
+    {
+      "name": "Move Your Body",
+      "artists": "Marshall Jefferson",
+      "album": "Frankie Knuckles Presents: His Greatest Hits from Trax Records",
+      "popularity": 44,
+      "tempo": 122.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.907,
+      "valence": 0.565,
+      "danceability": 0.785,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.118,
+      "duration_ms": 405760,
+      "slug": "move-your-body-marshall-jefferson"
+    },
+    {
+      "name": "If I Can't Get Down",
+      "artists": "Mike Dunn",
+      "album": "My House From All Angles",
+      "popularity": 44,
+      "tempo": 125.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.669,
+      "valence": 0.606,
+      "danceability": 0.782,
+      "acousticness": 0.002,
+      "instrumentalness": 0.273,
+      "loudness": -6.1,
+      "speechiness": 0.17,
+      "duration_ms": 310581,
+      "slug": "if-i-cant-get-down-mike-dunn"
+    },
+    {
+      "name": "Dancin (feat. Luvli) - Linier Remix",
+      "artists": "Aaron Smith;Luvli",
+      "album": "Dancin (Remixes) - EP2 (feat. Luvli)",
+      "popularity": 43,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.781,
+      "valence": 0.462,
+      "danceability": 0.803,
+      "acousticness": 0.031,
+      "instrumentalness": 0.114,
+      "loudness": -7.4,
+      "speechiness": 0.046,
+      "duration_ms": 298053,
+      "slug": "dancin-feat-luvli-linier-remix-aaron-smith"
+    },
+    {
+      "name": "Dream Machine - Downtempo Mix",
+      "artists": "Mark Farina;Sean Hayes",
+      "album": "H\u00f4tel Costes - A Decade",
+      "popularity": 43,
+      "tempo": 110.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.513,
+      "valence": 0.746,
+      "danceability": 0.909,
+      "acousticness": 0.147,
+      "instrumentalness": 0.02,
+      "loudness": -7.0,
+      "speechiness": 0.043,
+      "duration_ms": 368746,
+      "slug": "dream-machine-downtempo-mix-mark-farina"
+    },
+    {
+      "name": "Can You Feel It - Instrumental",
+      "artists": "Larry Heard",
+      "album": "Can You Feel It",
+      "popularity": 43,
+      "tempo": 114.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.505,
+      "valence": 0.677,
+      "danceability": 0.687,
+      "acousticness": 0.096,
+      "instrumentalness": 0.9,
+      "loudness": -12.1,
+      "speechiness": 0.049,
+      "duration_ms": 340813,
+      "slug": "can-you-feel-it-instrumental-larry-heard"
+    },
+    {
+      "name": "You Rock Me - Long Version",
+      "artists": "Larry Heard;Mr White",
+      "album": "E.P.",
+      "popularity": 42,
+      "tempo": 114.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.575,
+      "valence": 0.777,
+      "danceability": 0.782,
+      "acousticness": 0.034,
+      "instrumentalness": 0.015,
+      "loudness": -11.6,
+      "speechiness": 0.028,
+      "duration_ms": 372640,
+      "slug": "you-rock-me-long-version-larry-heard"
+    },
+    {
+      "name": "Can You Feel It - New York Dub",
+      "artists": "Chez Damier",
+      "album": "Can You Feel It (Kevin Saunderson Remix)",
+      "popularity": 41,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.843,
+      "valence": 0.504,
+      "danceability": 0.803,
+      "acousticness": 0.003,
+      "instrumentalness": 0.68,
+      "loudness": -9.3,
+      "speechiness": 0.067,
+      "duration_ms": 189565,
+      "slug": "can-you-feel-it-new-york-dub-chez-damier"
+    },
+    {
+      "name": "I'll Take You There - Director's Cut Classic Signature Radio Version",
+      "artists": "Frankie Knuckles;Director's Cut;Eric Kupper;Jamie Principle",
+      "album": "I'll Take You There",
+      "popularity": 41,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.865,
+      "valence": 0.439,
+      "danceability": 0.688,
+      "acousticness": 0.011,
+      "instrumentalness": 0.491,
+      "loudness": -8.8,
+      "speechiness": 0.034,
+      "duration_ms": 255259,
+      "slug": "ill-take-you-there-directors-cut-classic-signature-radio-version-frankie-knuckle"
+    },
+    {
+      "name": "Jack Your Body - 1986 Club Mix",
+      "artists": "Steve \"Silk\" Hurley",
+      "album": "Jack Your Body (S&S Reloaded)",
+      "popularity": 41,
+      "tempo": 122.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.84,
+      "valence": 0.943,
+      "danceability": 0.803,
+      "acousticness": 0.017,
+      "instrumentalness": 0.094,
+      "loudness": -7.7,
+      "speechiness": 0.085,
+      "duration_ms": 306231,
+      "slug": "jack-your-body-1986-club-mix-steve-silk-hurley"
+    },
+    {
+      "name": "Praise to the Vibes - Mr. Fingers Alternate Version",
+      "artists": "Mr. Fingers",
+      "album": "Praise to the Vibes / Crying Over You (Remixes)",
+      "popularity": 41,
+      "tempo": 116.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.471,
+      "valence": 0.713,
+      "danceability": 0.783,
+      "acousticness": 0.008,
+      "instrumentalness": 0.039,
+      "loudness": -9.7,
+      "speechiness": 0.075,
+      "duration_ms": 301774,
+      "slug": "praise-to-the-vibes-mr-fingers-alternate-version-mr-fingers"
+    },
+    {
+      "name": "Turn Up The Bass - Fast Eddie Scratch It Up Mix",
+      "artists": "Tyree Cooper",
+      "album": "Turn Up The Bass",
+      "popularity": 41,
+      "tempo": 126.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.898,
+      "valence": 0.349,
+      "danceability": 0.762,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.142,
+      "duration_ms": 298918,
+      "slug": "turn-up-the-bass-fast-eddie-scratch-it-up-mix-tyree-cooper"
+    },
+    {
+      "name": "Hear The Music",
+      "artists": "Paul Johnson",
+      "album": "Feel The Music",
+      "popularity": 41,
+      "tempo": 128.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.855,
+      "valence": 0.522,
+      "danceability": 0.799,
+      "acousticness": 0.004,
+      "instrumentalness": 0.862,
+      "loudness": -8.2,
+      "speechiness": 0.072,
+      "duration_ms": 321226,
+      "slug": "hear-the-music-paul-johnson"
+    },
+    {
+      "name": "Mystery of Love - Mixed",
+      "artists": "Mr. Fingers",
+      "album": "DJ-Kicks (Motor City Drum Ensemble) [DJ Mix]",
+      "popularity": 40,
+      "tempo": 119.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.772,
+      "danceability": 0.757,
+      "acousticness": 0.1,
+      "instrumentalness": 0.911,
+      "loudness": -11.6,
+      "speechiness": 0.033,
+      "duration_ms": 152693,
+      "slug": "mystery-of-love-mixed-mr-fingers"
+    },
+    {
+      "name": "Can You Feel It - New York Extended Dub",
+      "artists": "Chez Damier",
+      "album": "Can You Feel It",
+      "popularity": 40,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.439,
+      "danceability": 0.805,
+      "acousticness": 0.003,
+      "instrumentalness": 0.682,
+      "loudness": -9.2,
+      "speechiness": 0.062,
+      "duration_ms": 328919,
+      "slug": "can-you-feel-it-new-york-extended-dub-chez-damier"
+    },
+    {
+      "name": "It\u2019s Alright",
+      "artists": "Marshall Jefferson;George Smeddles;Paris Brightledge",
+      "album": "It\u2019s Alright",
+      "popularity": 40,
+      "tempo": 126.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.928,
+      "valence": 0.912,
+      "danceability": 0.833,
+      "acousticness": 0.031,
+      "instrumentalness": 0.097,
+      "loudness": -5.2,
+      "speechiness": 0.058,
+      "duration_ms": 210181,
+      "slug": "its-alright-marshall-jefferson"
+    },
+    {
+      "name": "Percolator - Jamie Jones Vault Mix",
+      "artists": "Cajmere;Jamie Jones",
+      "album": "Too Underground For The Main Stage",
+      "popularity": 39,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.58,
+      "valence": 0.285,
+      "danceability": 0.844,
+      "acousticness": 0.001,
+      "instrumentalness": 0.375,
+      "loudness": -10.4,
+      "speechiness": 0.077,
+      "duration_ms": 302175,
+      "slug": "percolator-jamie-jones-vault-mix-cajmere"
+    },
+    {
+      "name": "Jupiter Jazz",
+      "artists": "Galaxy 2 Galaxy",
+      "album": "Galaxy 2 Galaxy: A High Tech Jazz Compilation",
+      "popularity": 39,
+      "tempo": 124.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.877,
+      "valence": 0.473,
+      "danceability": 0.645,
+      "acousticness": 0.007,
+      "instrumentalness": 0.858,
+      "loudness": -10.6,
+      "speechiness": 0.046,
+      "duration_ms": 270746,
+      "slug": "jupiter-jazz-galaxy-2-galaxy"
+    },
+    {
+      "name": "Get Get Down - Original Mix",
+      "artists": "Paul Johnson",
+      "album": "The Groove I Have LP",
+      "popularity": 39,
+      "tempo": 127.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.918,
+      "valence": 0.51,
+      "danceability": 0.906,
+      "acousticness": 0.0,
+      "instrumentalness": 0.845,
+      "loudness": -8.0,
+      "speechiness": 0.084,
+      "duration_ms": 551999,
+      "slug": "get-get-down-original-mix-paul-johnson"
+    },
+    {
+      "name": "Onslaught - FJAAK Remix",
+      "artists": "Robert Hood;Claude Young;FJAAK",
+      "album": "FJAAK 002",
+      "popularity": 39,
+      "tempo": 132.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.949,
+      "valence": 0.262,
+      "danceability": 0.703,
+      "acousticness": 0.003,
+      "instrumentalness": 0.895,
+      "loudness": -8.1,
+      "speechiness": 0.053,
+      "duration_ms": 455418,
+      "slug": "onslaught-fjaak-remix-robert-hood"
+    },
+    {
+      "name": "Let The Music Use You",
+      "artists": "The Nightwriters",
+      "album": "Frankie Knuckles Presents: His Greatest Hits from Trax Records",
+      "popularity": 38,
+      "tempo": 124.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.899,
+      "valence": 0.544,
+      "danceability": 0.656,
+      "acousticness": 0.002,
+      "instrumentalness": 0.097,
+      "loudness": -5.1,
+      "speechiness": 0.03,
+      "duration_ms": 477333,
+      "slug": "let-the-music-use-you-the-nightwriters"
+    },
+    {
+      "name": "Can You Feel It",
+      "artists": "Mr. Fingers",
+      "album": "Amnesia",
+      "popularity": 38,
+      "tempo": 112.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.605,
+      "valence": 0.708,
+      "danceability": 0.654,
+      "acousticness": 0.212,
+      "instrumentalness": 0.925,
+      "loudness": -10.8,
+      "speechiness": 0.049,
+      "duration_ms": 353801,
+      "slug": "can-you-feel-it-mr-fingers"
+    },
+    {
+      "name": "You Used to Hold Me",
+      "artists": "Ralphi Rosario",
+      "album": "Greatest Hits",
+      "popularity": 38,
+      "tempo": 123.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.537,
+      "valence": 0.784,
+      "danceability": 0.725,
+      "acousticness": 0.0,
+      "instrumentalness": 0.03,
+      "loudness": -14.0,
+      "speechiness": 0.045,
+      "duration_ms": 299946,
+      "slug": "you-used-to-hold-me-ralphi-rosario"
+    },
+    {
+      "name": "Flos Potentia (Sugar, Cotton, Tabacco)",
+      "artists": "Ron Trent;Khruangbin",
+      "album": "Flos Potentia (Sugar, Cotton, Tabacco)",
+      "popularity": 38,
+      "tempo": 123.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.804,
+      "valence": 0.925,
+      "danceability": 0.589,
+      "acousticness": 0.024,
+      "instrumentalness": 0.929,
+      "loudness": -6.1,
+      "speechiness": 0.032,
+      "duration_ms": 334298,
+      "slug": "flos-potentia-sugar-cotton-tabacco-ron-trent"
+    },
+    {
+      "name": "The Sun Can't Compare - Long Version",
+      "artists": "Larry Heard;Mr White",
+      "album": "E.P.",
+      "popularity": 38,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.654,
+      "valence": 0.435,
+      "danceability": 0.803,
+      "acousticness": 0.003,
+      "instrumentalness": 0.733,
+      "loudness": -10.1,
+      "speechiness": 0.047,
+      "duration_ms": 467333,
+      "slug": "the-sun-cant-compare-long-version-larry-heard"
+    },
+    {
+      "name": "Missing You",
+      "artists": "Larry Heard",
+      "album": "Charles Webster - Coast2Coast",
+      "popularity": 37,
+      "tempo": 116.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.563,
+      "valence": 0.412,
+      "danceability": 0.564,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.03,
+      "duration_ms": 396546,
+      "slug": "missing-you-larry-heard"
+    },
+    {
+      "name": "Flos Potentia (Sugar, Cotton, Tabacco)",
+      "artists": "Ron Trent;Khruangbin",
+      "album": "What Do the Stars Say to You",
+      "popularity": 37,
+      "tempo": 123.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.804,
+      "valence": 0.925,
+      "danceability": 0.589,
+      "acousticness": 0.024,
+      "instrumentalness": 0.929,
+      "loudness": -6.1,
+      "speechiness": 0.032,
+      "duration_ms": 334298,
+      "slug": "flos-potentia-sugar-cotton-tabacco-ron-trent"
+    },
+    {
+      "name": "Sands of Aruba",
+      "artists": "Mr. Fingers",
+      "album": "Cerebral Hemispheres",
+      "popularity": 37,
+      "tempo": 117.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.578,
+      "valence": 0.555,
+      "danceability": 0.699,
+      "acousticness": 0.009,
+      "instrumentalness": 0.929,
+      "loudness": -15.4,
+      "speechiness": 0.033,
+      "duration_ms": 279224,
+      "slug": "sands-of-aruba-mr-fingers"
+    },
+    {
+      "name": "Mushrooms - Salt City Orchestra Out There Mix",
+      "artists": "Marshall Jefferson;Noosa Heads;Salt City Orchestra",
+      "album": "Mushrooms",
+      "popularity": 36,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.448,
+      "valence": 0.702,
+      "danceability": 0.849,
+      "acousticness": 0.026,
+      "instrumentalness": 0.888,
+      "loudness": -15.5,
+      "speechiness": 0.195,
+      "duration_ms": 492340,
+      "slug": "mushrooms-salt-city-orchestra-out-there-mix-marshall-jefferson"
+    },
+    {
+      "name": "Pianos of Gold - Ian Pooley Mix",
+      "artists": "Jovonn;Ian Pooley",
+      "album": "Goldtone Edits",
+      "popularity": 36,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.547,
+      "valence": 0.452,
+      "danceability": 0.813,
+      "acousticness": 0.001,
+      "instrumentalness": 0.853,
+      "loudness": -9.1,
+      "speechiness": 0.134,
+      "duration_ms": 392000,
+      "slug": "pianos-of-gold-ian-pooley-mix-jovonn"
+    },
+    {
+      "name": "Can You Feel It",
+      "artists": "Larry Heard",
+      "album": "Can You Feel It",
+      "popularity": 36,
+      "tempo": 119.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.554,
+      "valence": 0.473,
+      "danceability": 0.655,
+      "acousticness": 0.229,
+      "instrumentalness": 0.559,
+      "loudness": -13.4,
+      "speechiness": 0.085,
+      "duration_ms": 330186,
+      "slug": "can-you-feel-it-larry-heard"
+    },
+    {
+      "name": "I Discover",
+      "artists": "Felix Da Housecat;Chris Trucher",
+      "album": "I Discover",
+      "popularity": 36,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.895,
+      "valence": 0.655,
+      "danceability": 0.673,
+      "acousticness": 0.003,
+      "instrumentalness": 0.21,
+      "loudness": -7.0,
+      "speechiness": 0.055,
+      "duration_ms": 155750,
+      "slug": "i-discover-felix-da-housecat"
+    },
+    {
+      "name": "Music's In Me - Original Mix",
+      "artists": "Paul Johnson",
+      "album": "Classics & Remixes",
+      "popularity": 36,
+      "tempo": 129.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.593,
+      "danceability": 0.742,
+      "acousticness": 0.137,
+      "instrumentalness": 0.768,
+      "loudness": -7.7,
+      "speechiness": 0.041,
+      "duration_ms": 525535,
+      "slug": "musics-in-me-original-mix-paul-johnson"
+    },
+    {
+      "name": "Dancin (feat. Luvli) - Danny Avila & Jumpa Remix",
+      "artists": "Aaron Smith;Danny Avila;Jumpa;Luvli",
+      "album": "Dancin (feat. Luvli) [Danny Avila & Jumpa Remix]",
+      "popularity": 35,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.875,
+      "valence": 0.499,
+      "danceability": 0.686,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.078,
+      "duration_ms": 193024,
+      "slug": "dancin-feat-luvli-danny-avila-jumpa-remix-aaron-smith"
+    },
+    {
+      "name": "Rocket Ride - Soulwax Rock It Right Remix",
+      "artists": "Felix Da Housecat;Soulwax",
+      "album": "The Glitz Part Deux Remix Edition",
+      "popularity": 35,
+      "tempo": 130.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.763,
+      "valence": 0.694,
+      "danceability": 0.707,
+      "acousticness": 0.004,
+      "instrumentalness": 0.461,
+      "loudness": -5.3,
+      "speechiness": 0.046,
+      "duration_ms": 394352,
+      "slug": "rocket-ride-soulwax-rock-it-right-remix-felix-da-housecat"
+    },
+    {
+      "name": "Nothing Stops Detroit",
+      "artists": "Robert Hood",
+      "album": "Mirror Man",
+      "popularity": 35,
+      "tempo": 129.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.867,
+      "valence": 0.262,
+      "danceability": 0.702,
+      "acousticness": 0.0,
+      "instrumentalness": 0.925,
+      "loudness": -8.1,
+      "speechiness": 0.057,
+      "duration_ms": 393438,
+      "slug": "nothing-stops-detroit-robert-hood"
+    },
+    {
+      "name": "Colouration",
+      "artists": "Glenn Underground",
+      "album": "Atmosfear",
+      "popularity": 35,
+      "tempo": 125.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.664,
+      "valence": 0.618,
+      "danceability": 0.862,
+      "acousticness": 0.0,
+      "instrumentalness": 0.939,
+      "loudness": -8.9,
+      "speechiness": 0.089,
+      "duration_ms": 310040,
+      "slug": "colouration-glenn-underground"
+    },
+    {
+      "name": "Dancer",
+      "artists": "Robert Hood",
+      "album": "The Greatest Dancer",
+      "popularity": 35,
+      "tempo": 122.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.318,
+      "valence": 0.079,
+      "danceability": 0.895,
+      "acousticness": 0.003,
+      "instrumentalness": 0.913,
+      "loudness": -8.0,
+      "speechiness": 0.089,
+      "duration_ms": 422618,
+      "slug": "dancer-robert-hood"
+    },
+    {
+      "name": "Hands Together",
+      "artists": "Gershon Jackson;Reset Preset",
+      "album": "Hands Together",
+      "popularity": 35,
+      "tempo": 126.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.879,
+      "valence": 0.638,
+      "danceability": 0.592,
+      "acousticness": 0.0,
+      "instrumentalness": 0.495,
+      "loudness": -6.3,
+      "speechiness": 0.114,
+      "duration_ms": 220972,
+      "slug": "hands-together-gershon-jackson"
+    },
+    {
+      "name": "Take It Easy - Sonny Fodera & Mat.Joe Remix",
+      "artists": "Gershon Jackson;Mat.Joe;Sonny Fodera",
+      "album": "Take It Easy",
+      "popularity": 35,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.413,
+      "valence": 0.213,
+      "danceability": 0.949,
+      "acousticness": 0.001,
+      "instrumentalness": 0.005,
+      "loudness": -7.5,
+      "speechiness": 0.051,
+      "duration_ms": 407591,
+      "slug": "take-it-easy-sonny-fodera-matjoe-remix-gershon-jackson"
+    },
+    {
+      "name": "I'll Be Your Friend - Original Mix (2011 Remastered Version)",
+      "artists": "Robert Owens",
+      "album": "I'll Be Your Friend",
+      "popularity": 34,
+      "tempo": 121.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.573,
+      "danceability": 0.731,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.041,
+      "duration_ms": 456911,
+      "slug": "ill-be-your-friend-original-mix-2011-remastered-version-robert-owens"
+    },
+    {
+      "name": "Acid Thunder",
+      "artists": "Fast Eddie",
+      "album": "Jack to the Sound",
+      "popularity": 33,
+      "tempo": 124.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.887,
+      "valence": 0.774,
+      "danceability": 0.772,
+      "acousticness": 0.0,
+      "instrumentalness": 0.387,
+      "loudness": -9.1,
+      "speechiness": 0.048,
+      "duration_ms": 272419,
+      "slug": "acid-thunder-fast-eddie"
+    },
+    {
+      "name": "Servants Jaz House",
+      "artists": "Glenn Underground",
+      "album": "The Jerusalem EP's",
+      "popularity": 33,
+      "tempo": 122.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.365,
+      "valence": 0.323,
+      "danceability": 0.75,
+      "acousticness": 0.005,
+      "instrumentalness": 0.87,
+      "loudness": -15.1,
+      "speechiness": 0.062,
+      "duration_ms": 407893,
+      "slug": "servants-jaz-house-glenn-underground"
+    },
+    {
+      "name": "I Feel Love - Monkey Safari Remix",
+      "artists": "DJ Pierre;Monkey Safari;Chic Loren",
+      "album": "I Feel Love (Monkey Safari Remix)",
+      "popularity": 32,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.618,
+      "valence": 0.076,
+      "danceability": 0.771,
+      "acousticness": 0.008,
+      "instrumentalness": 0.916,
+      "loudness": -10.0,
+      "speechiness": 0.052,
+      "duration_ms": 556908,
+      "slug": "i-feel-love-monkey-safari-remix-dj-pierre"
+    },
+    {
+      "name": "Acid Tracks",
+      "artists": "Phuture",
+      "album": "Acid Tracks",
+      "popularity": 32,
+      "tempo": 120.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.861,
+      "valence": 0.537,
+      "danceability": 0.795,
+      "acousticness": 0.031,
+      "instrumentalness": 0.914,
+      "loudness": -16.9,
+      "speechiness": 0.074,
+      "duration_ms": 739626,
+      "slug": "acid-tracks-phuture"
+    },
+    {
+      "name": "If I Can't Get Down - Mousse T.'s Funky Shizzle Extended Mix",
+      "artists": "Mike Dunn;Mousse T.",
+      "album": "Defected Presents House Masters: Mike Dunn",
+      "popularity": 32,
+      "tempo": 124.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.921,
+      "valence": 0.801,
+      "danceability": 0.837,
+      "acousticness": 0.026,
+      "instrumentalness": 0.545,
+      "loudness": -3.8,
+      "speechiness": 0.089,
+      "duration_ms": 442235,
+      "slug": "if-i-cant-get-down-mousse-ts-funky-shizzle-extended-mix-mike-dunn"
+    },
+    {
+      "name": "Spend the Night",
+      "artists": "Pal Joey",
+      "album": "Loop-D-Loop #3",
+      "popularity": 32,
+      "tempo": 121.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.59,
+      "valence": 0.15,
+      "danceability": 0.712,
+      "acousticness": 0.017,
+      "instrumentalness": 0.941,
+      "loudness": -15.8,
+      "speechiness": 0.042,
+      "duration_ms": 326946,
+      "slug": "spend-the-night-pal-joey"
+    },
+    {
+      "name": "What Does it Feel Like - Royksopp Return To The Sun Remix",
+      "artists": "Felix Da Housecat;R\u00f6yksopp",
+      "album": "The Glitz Part Deux Remix Edition",
+      "popularity": 32,
+      "tempo": 123.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.506,
+      "valence": 0.356,
+      "danceability": 0.798,
+      "acousticness": 0.002,
+      "instrumentalness": 0.578,
+      "loudness": -9.3,
+      "speechiness": 0.082,
+      "duration_ms": 432177,
+      "slug": "what-does-it-feel-like-royksopp-return-to-the-sun-remix-felix-da-housecat"
+    },
+    {
+      "name": "Michael - Love From San Francisco Dub",
+      "artists": "Roy Davis Jr.",
+      "album": "Michael",
+      "popularity": 32,
+      "tempo": 125.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.703,
+      "valence": 0.967,
+      "danceability": 0.879,
+      "acousticness": 0.003,
+      "instrumentalness": 0.024,
+      "loudness": -9.4,
+      "speechiness": 0.039,
+      "duration_ms": 342800,
+      "slug": "michael-love-from-san-francisco-dub-roy-davis-jr"
+    },
+    {
+      "name": "On & On - Original Mega",
+      "artists": "Jesse Saunders",
+      "album": "20th Anniversary Of House Music Vol. 1: On And On",
+      "popularity": 32,
+      "tempo": 121.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.702,
+      "valence": 0.252,
+      "danceability": 0.753,
+      "acousticness": 0.0,
+      "instrumentalness": 0.906,
+      "loudness": -11.0,
+      "speechiness": 0.058,
+      "duration_ms": 382266,
+      "slug": "on-on-original-mega-jesse-saunders"
+    },
+    {
+      "name": "Outer Level",
+      "artists": "Aaron Smith;Alicia Campbell",
+      "album": "Outer Level",
+      "popularity": 31,
+      "tempo": 126.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.731,
+      "danceability": 0.779,
+      "acousticness": 0.232,
+      "instrumentalness": 0.005,
+      "loudness": -6.3,
+      "speechiness": 0.042,
+      "duration_ms": 441904,
+      "slug": "outer-level-aaron-smith"
+    },
+    {
+      "name": "My Life Is Music - Jonas Blue Remix",
+      "artists": "Felix Da Housecat;The Visionary;Jonas Blue",
+      "album": "My Life Is Music (Jonas Blue Remix)",
+      "popularity": 31,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.705,
+      "valence": 0.273,
+      "danceability": 0.723,
+      "acousticness": 0.002,
+      "instrumentalness": 0.11,
+      "loudness": -5.4,
+      "speechiness": 0.037,
+      "duration_ms": 195483,
+      "slug": "my-life-is-music-jonas-blue-remix-felix-da-housecat"
+    },
+    {
+      "name": "Dancin (feat. Luvli) - BOXINBOX Remix",
+      "artists": "Aaron Smith;BOXINBOX;Luvli",
+      "album": "Dancin (feat. Luvli) [BOXINBOX Remix]",
+      "popularity": 31,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.594,
+      "danceability": 0.757,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.034,
+      "duration_ms": 216000,
+      "slug": "dancin-feat-luvli-boxinbox-remix-aaron-smith"
+    },
+    {
+      "name": "The Story",
+      "artists": "Mark Farina;Homero Espinosa",
+      "album": "The Story",
+      "popularity": 31,
+      "tempo": 99.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.524,
+      "danceability": 0.752,
+      "acousticness": 0.253,
+      "instrumentalness": 0.574,
+      "loudness": -10.3,
+      "speechiness": 0.059,
+      "duration_ms": 518977,
+      "slug": "the-story-mark-farina"
+    },
+    {
+      "name": "Dream Machine",
+      "artists": "Mark Farina;Sean Hayes",
+      "album": "Om Records - 25 Years",
+      "popularity": 31,
+      "tempo": 110.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.688,
+      "danceability": 0.904,
+      "acousticness": 0.121,
+      "instrumentalness": 0.033,
+      "loudness": -8.2,
+      "speechiness": 0.044,
+      "duration_ms": 371008,
+      "slug": "dream-machine-mark-farina"
+    },
+    {
+      "name": "Trust - Mia Dora Remix",
+      "artists": "Romanthony;Mia Dora",
+      "album": "Trust 2014 (Remixes, Pt. 2)",
+      "popularity": 31,
+      "tempo": 120.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.321,
+      "danceability": 0.744,
+      "acousticness": 0.001,
+      "instrumentalness": 0.358,
+      "loudness": -6.7,
+      "speechiness": 0.042,
+      "duration_ms": 456086,
+      "slug": "trust-mia-dora-remix-romanthony"
+    },
+    {
+      "name": "Promised Land - Kiko Franco Remix",
+      "artists": "Joe Smooth;Kiko Franco",
+      "album": "Promised Land (Kiko Franco Remix)",
+      "popularity": 31,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.809,
+      "valence": 0.077,
+      "danceability": 0.645,
+      "acousticness": 0.005,
+      "instrumentalness": 0.034,
+      "loudness": -7.2,
+      "speechiness": 0.033,
+      "duration_ms": 221612,
+      "slug": "promised-land-kiko-franco-remix-joe-smooth"
+    },
+    {
+      "name": "Acid Tracks",
+      "artists": "Phuture",
+      "album": "Acid Tracks",
+      "popularity": 31,
+      "tempo": 120.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.918,
+      "valence": 0.506,
+      "danceability": 0.792,
+      "acousticness": 0.018,
+      "instrumentalness": 0.918,
+      "loudness": -14.2,
+      "speechiness": 0.071,
+      "duration_ms": 737173,
+      "slug": "acid-tracks-phuture"
+    },
+    {
+      "name": "Dance with Me - Patrick Topping Remix",
+      "artists": "Paul Johnson;Patrick Topping",
+      "album": "Dance with Me (Patrick Topping Remix)",
+      "popularity": 31,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.568,
+      "valence": 0.68,
+      "danceability": 0.824,
+      "acousticness": 0.002,
+      "instrumentalness": 0.206,
+      "loudness": -13.1,
+      "speechiness": 0.065,
+      "duration_ms": 353678,
+      "slug": "dance-with-me-patrick-topping-remix-paul-johnson"
+    },
+    {
+      "name": "Dik Work (feat. DJ Funk)",
+      "artists": "dj funk;TJR",
+      "album": "Dik Work (feat. DJ Funk)",
+      "popularity": 30,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.999,
+      "valence": 0.607,
+      "danceability": 0.73,
+      "acousticness": 0.004,
+      "instrumentalness": 0.519,
+      "loudness": -3.7,
+      "speechiness": 0.059,
+      "duration_ms": 254769,
+      "slug": "dik-work-feat-dj-funk-dj-funk"
+    },
+    {
+      "name": "Full Moon",
+      "artists": "Mr. Fingers",
+      "album": "Cerebral Hemispheres",
+      "popularity": 30,
+      "tempo": 110.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.55,
+      "valence": 0.643,
+      "danceability": 0.796,
+      "acousticness": 0.372,
+      "instrumentalness": 0.759,
+      "loudness": -13.2,
+      "speechiness": 0.068,
+      "duration_ms": 403365,
+      "slug": "full-moon-mr-fingers"
+    },
+    {
+      "name": "DJ Beat That Shhh (feat. MD X-Spress)",
+      "artists": "Mike Dunn;MD X-Spress",
+      "album": "My House From All Angles",
+      "popularity": 29,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.76,
+      "danceability": 0.826,
+      "acousticness": 0.003,
+      "instrumentalness": 0.122,
+      "loudness": -5.4,
+      "speechiness": 0.047,
+      "duration_ms": 402140,
+      "slug": "dj-beat-that-shhh-feat-md-x-spress-mike-dunn"
+    },
+    {
+      "name": "She Got Me On",
+      "artists": "Paul Johnson",
+      "album": "She Got Me On",
+      "popularity": 29,
+      "tempo": 127.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.433,
+      "valence": 0.649,
+      "danceability": 0.918,
+      "acousticness": 0.006,
+      "instrumentalness": 0.053,
+      "loudness": -8.6,
+      "speechiness": 0.075,
+      "duration_ms": 647537,
+      "slug": "she-got-me-on-paul-johnson"
+    },
+    {
+      "name": "Come to House",
+      "artists": "Mr. Lee",
+      "album": "Come to House",
+      "popularity": 29,
+      "tempo": 122.6,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.784,
+      "valence": 0.688,
+      "danceability": 0.591,
+      "acousticness": 0.03,
+      "instrumentalness": 0.917,
+      "loudness": -13.8,
+      "speechiness": 0.052,
+      "duration_ms": 301880,
+      "slug": "come-to-house-mr-lee"
+    },
+    {
+      "name": "Dancin (feat. Luvli) - Original Mix",
+      "artists": "Aaron Smith;Luvli",
+      "album": "Best Of Moody Recordings, Vol. 1",
+      "popularity": 28,
+      "tempo": 131.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.643,
+      "danceability": 0.685,
+      "acousticness": 0.0,
+      "instrumentalness": 0.072,
+      "loudness": -6.0,
+      "speechiness": 0.057,
+      "duration_ms": 448773,
+      "slug": "dancin-feat-luvli-original-mix-aaron-smith"
+    },
+    {
+      "name": "I Feel Love - 1979 Disco Club Mix",
+      "artists": "DJ Pierre;Chic Loren",
+      "album": "Wild Pitch: The Story",
+      "popularity": 28,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.853,
+      "valence": 0.551,
+      "danceability": 0.568,
+      "acousticness": 0.078,
+      "instrumentalness": 0.834,
+      "loudness": -7.3,
+      "speechiness": 0.044,
+      "duration_ms": 546033,
+      "slug": "i-feel-love-1979-disco-club-mix-dj-pierre"
+    },
+    {
+      "name": "Morning Factory",
+      "artists": "Chez Damier;Ron Trent",
+      "album": "Word, Sound & Power",
+      "popularity": 28,
+      "tempo": 123.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.103,
+      "danceability": 0.891,
+      "acousticness": 0.001,
+      "instrumentalness": 0.94,
+      "loudness": -9.9,
+      "speechiness": 0.094,
+      "duration_ms": 641584,
+      "slug": "morning-factory-chez-damier"
+    },
+    {
+      "name": "Who Am I",
+      "artists": "Alinka",
+      "album": "Who Am I",
+      "popularity": 27,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.566,
+      "danceability": 0.726,
+      "acousticness": 0.009,
+      "instrumentalness": 0.72,
+      "loudness": -7.4,
+      "speechiness": 0.042,
+      "duration_ms": 232500,
+      "slug": "who-am-i-alinka"
+    },
+    {
+      "name": "Just a Kiss - Horacio & Aaron Smith Remix",
+      "artists": "Aaron Smith;Hannah Streeter;Horacio Payan",
+      "album": "Just a Kiss (Horacio & Aaron Smith Remix)",
+      "popularity": 27,
+      "tempo": 126.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.492,
+      "valence": 0.519,
+      "danceability": 0.868,
+      "acousticness": 0.001,
+      "instrumentalness": 0.754,
+      "loudness": -8.2,
+      "speechiness": 0.054,
+      "duration_ms": 320952,
+      "slug": "just-a-kiss-horacio-aaron-smith-remix-aaron-smith"
+    },
+    {
+      "name": "Box Energy",
+      "artists": "Armando;DJ Pierre",
+      "album": "Box Energy",
+      "popularity": 27,
+      "tempo": 123.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.964,
+      "valence": 0.462,
+      "danceability": 0.689,
+      "acousticness": 0.148,
+      "instrumentalness": 0.838,
+      "loudness": -13.1,
+      "speechiness": 0.071,
+      "duration_ms": 370306,
+      "slug": "box-energy-armando"
+    },
+    {
+      "name": "I Never Knew Love - MK Club Mix",
+      "artists": "Chez Damier;MK",
+      "album": "We Love House - The Anthems",
+      "popularity": 26,
+      "tempo": 123.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.557,
+      "danceability": 0.678,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.038,
+      "duration_ms": 194390,
+      "slug": "i-never-knew-love-mk-club-mix-chez-damier"
+    },
+    {
+      "name": "Midnight Calling",
+      "artists": "Mark Farina",
+      "album": "Om: Lounge - From The Vaults Vol. 1",
+      "popularity": 26,
+      "tempo": 94.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.369,
+      "valence": 0.597,
+      "danceability": 0.769,
+      "acousticness": 0.032,
+      "instrumentalness": 0.879,
+      "loudness": -13.3,
+      "speechiness": 0.063,
+      "duration_ms": 309666,
+      "slug": "midnight-calling-mark-farina"
+    },
+    {
+      "name": "Alive - Instrumental",
+      "artists": "Mark Farina",
+      "album": "Mushroom Jazz 6 (Unmixed Online Version)",
+      "popularity": 26,
+      "tempo": 190.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.478,
+      "danceability": 0.64,
+      "acousticness": 0.027,
+      "instrumentalness": 0.944,
+      "loudness": -10.9,
+      "speechiness": 0.06,
+      "duration_ms": 288266,
+      "slug": "alive-instrumental-mark-farina"
+    },
+    {
+      "name": "Acid Trax",
+      "artists": "Phuture",
+      "album": "Phuture and Other Classics from DJ Pierre",
+      "popularity": 26,
+      "tempo": 119.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.509,
+      "danceability": 0.783,
+      "acousticness": 0.01,
+      "instrumentalness": 0.933,
+      "loudness": -8.7,
+      "speechiness": 0.053,
+      "duration_ms": 709466,
+      "slug": "acid-trax-phuture"
+    },
+    {
+      "name": "Can You Feel It - Kevin Saunderson Remix",
+      "artists": "Chez Damier;Kevin Saunderson",
+      "album": "Can You Feel It (Kevin Saunderson Remix)",
+      "popularity": 25,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.99,
+      "valence": 0.669,
+      "danceability": 0.621,
+      "acousticness": 0.0,
+      "instrumentalness": 0.877,
+      "loudness": -6.6,
+      "speechiness": 0.043,
+      "duration_ms": 208210,
+      "slug": "can-you-feel-it-kevin-saunderson-remix-chez-damier"
+    },
+    {
+      "name": "Take Me Up (Lego's Mix)",
+      "artists": "Ralphi Rosario",
+      "album": "Uc Anthems Volume 3 EP",
+      "popularity": 24,
+      "tempo": 123.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.651,
+      "valence": 0.652,
+      "danceability": 0.887,
+      "acousticness": 0.027,
+      "instrumentalness": 0.105,
+      "loudness": -7.9,
+      "speechiness": 0.042,
+      "duration_ms": 384219,
+      "slug": "take-me-up-legos-mix-ralphi-rosario"
+    },
+    {
+      "name": "Hip House",
+      "artists": "Fast Eddie",
+      "album": "Jack to the Sound",
+      "popularity": 24,
+      "tempo": 124.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.577,
+      "danceability": 0.78,
+      "acousticness": 0.0,
+      "instrumentalness": 0.277,
+      "loudness": -8.2,
+      "speechiness": 0.103,
+      "duration_ms": 268064,
+      "slug": "hip-house-fast-eddie"
+    },
+    {
+      "name": "Don't You Know - Live Bass Mix",
+      "artists": "Aaron Smith;Malik Hart",
+      "album": "Don't You Know - Single",
+      "popularity": 24,
+      "tempo": 129.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.77,
+      "valence": 0.462,
+      "danceability": 0.71,
+      "acousticness": 0.181,
+      "instrumentalness": 0.006,
+      "loudness": -4.8,
+      "speechiness": 0.189,
+      "duration_ms": 513953,
+      "slug": "dont-you-know-live-bass-mix-aaron-smith"
+    },
+    {
+      "name": "Fast Life",
+      "artists": "Bad Boy Bill;Alex Peace",
+      "album": "The Album",
+      "popularity": 24,
+      "tempo": 127.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.518,
+      "valence": 0.688,
+      "danceability": 0.801,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.035,
+      "duration_ms": 192786,
+      "slug": "fast-life-bad-boy-bill"
+    },
+    {
+      "name": "Let's Go",
+      "artists": "Fast Eddie",
+      "album": "Jack to the Sound",
+      "popularity": 23,
+      "tempo": 124.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.948,
+      "danceability": 0.821,
+      "acousticness": 0.001,
+      "instrumentalness": 0.637,
+      "loudness": -6.7,
+      "speechiness": 0.034,
+      "duration_ms": 308225,
+      "slug": "lets-go-fast-eddie"
+    },
+    {
+      "name": "Be Free - Emmaculate & Shannon Chambers Mix",
+      "artists": "Ten City;Emmaculate;Shannon Chambers",
+      "album": "Judgement",
+      "popularity": 23,
+      "tempo": 119.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.842,
+      "valence": 0.896,
+      "danceability": 0.717,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.091,
+      "duration_ms": 243375,
+      "slug": "be-free-emmaculate-shannon-chambers-mix-ten-city"
+    },
+    {
+      "name": "And So I Dance",
+      "artists": "Larry Heard",
+      "album": "Dance 2000, Part 2",
+      "popularity": 23,
+      "tempo": 123.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.764,
+      "danceability": 0.717,
+      "acousticness": 0.002,
+      "instrumentalness": 0.92,
+      "loudness": -14.4,
+      "speechiness": 0.056,
+      "duration_ms": 372715,
+      "slug": "and-so-i-dance-larry-heard"
+    },
+    {
+      "name": "Think (About It) - Spen & Thommy\u2019s House Party Mix",
+      "artists": "Barbara Tucker;DJ Spen;Thommy Davis",
+      "album": "Think (About It)",
+      "popularity": 23,
+      "tempo": 120.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.881,
+      "valence": 0.709,
+      "danceability": 0.845,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.112,
+      "duration_ms": 503998,
+      "slug": "think-about-it-spen-thommys-house-party-mix-barbara-tucker"
+    }
+  ]
+}

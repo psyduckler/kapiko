@@ -1,0 +1,2799 @@
+{
+  "genre": "Salsa",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 84.414,
+    "max": 195.995,
+    "mean": 123.943,
+    "median": 107.772,
+    "q1": 93.058,
+    "q3": 164.965,
+    "histogram": {
+      "80-89": 6,
+      "90-99": 30,
+      "100-109": 15,
+      "110-119": 8,
+      "120-129": 4,
+      "130-139": 6,
+      "140-149": 3,
+      "150-159": 1,
+      "160-169": 13,
+      "170-179": 8,
+      "180-189": 3,
+      "190-199": 3
+    }
+  },
+  "key_distribution": {
+    "G": 19,
+    "C": 18,
+    "D": 14,
+    "F": 11,
+    "E": 9,
+    "G#/Ab": 8,
+    "A#/Bb": 7,
+    "A": 6,
+    "B": 5,
+    "F#/Gb": 1,
+    "C#/Db": 1,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Major": 56,
+    "Minor": 44
+  },
+  "key_mode_distribution": {
+    "G Major": 12,
+    "C Major": 12,
+    "D Major": 10,
+    "G#/Ab Major": 8,
+    "E Minor": 8,
+    "F Minor": 7,
+    "G Minor": 7,
+    "C Minor": 6,
+    "B Minor": 4,
+    "A#/Bb Major": 4,
+    "D Minor": 4,
+    "F Major": 4,
+    "A Major": 3,
+    "A Minor": 3,
+    "A#/Bb Minor": 3,
+    "F#/Gb Major": 1,
+    "E Major": 1,
+    "C#/Db Minor": 1,
+    "D#/Eb Minor": 1,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.221,
+    "max": 0.932,
+    "mean": 0.724,
+    "median": 0.748,
+    "q1": 0.657,
+    "q3": 0.826
+  },
+  "valence": {
+    "min": 0.352,
+    "max": 0.971,
+    "mean": 0.824,
+    "median": 0.861,
+    "q1": 0.739,
+    "q3": 0.934
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.776,
+      "valence": 0.724
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.894
+    },
+    {
+      "energy": 0.827,
+      "valence": 0.733
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.739
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.701,
+      "valence": 0.855
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.674
+    },
+    {
+      "energy": 0.623,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.741
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.818
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.707
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.838,
+      "valence": 0.938
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.922
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.758
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.51,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.545,
+      "valence": 0.966
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.787
+    },
+    {
+      "energy": 0.808,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.971
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.848
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.755,
+      "valence": 0.915
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.907
+    },
+    {
+      "energy": 0.567,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.697
+    },
+    {
+      "energy": 0.58,
+      "valence": 0.528
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.869
+    },
+    {
+      "energy": 0.851,
+      "valence": 0.713
+    },
+    {
+      "energy": 0.683,
+      "valence": 0.942
+    },
+    {
+      "energy": 0.445,
+      "valence": 0.842
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.748
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.833
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.929
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.443
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.869
+    },
+    {
+      "energy": 0.766,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.648
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.656
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.956
+    },
+    {
+      "energy": 0.372,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.748,
+      "valence": 0.95
+    },
+    {
+      "energy": 0.672,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.79
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.862
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.877
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.84
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.705
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.444,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.702,
+      "valence": 0.696
+    },
+    {
+      "energy": 0.635,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.602,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.921
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.873
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.908
+    },
+    {
+      "energy": 0.596,
+      "valence": 0.919
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.967
+    },
+    {
+      "energy": 0.221,
+      "valence": 0.352
+    },
+    {
+      "energy": 0.826,
+      "valence": 0.921
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.86
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.89
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.897
+    },
+    {
+      "energy": 0.772,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.553,
+      "valence": 0.876
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.906
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.835
+    },
+    {
+      "energy": 0.718,
+      "valence": 0.923
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.909
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.84
+    },
+    {
+      "energy": 0.493,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.593,
+      "valence": 0.899
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.83
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.783
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.866
+    },
+    {
+      "energy": 0.579,
+      "valence": 0.934
+    },
+    {
+      "energy": 0.461,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.701
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.97
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.594,
+      "valence": 0.537
+    }
+  ],
+  "acousticness": {
+    "min": 0.006,
+    "max": 0.879,
+    "mean": 0.455,
+    "median": 0.482,
+    "q1": 0.342,
+    "q3": 0.615
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.029,
+    "mean": 0.001,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.715,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.345,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.549,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.659,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.633,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.489,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.266,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.565,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.159,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.283,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.482,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.47,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.707,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.578,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.812,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.72,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.287,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.513,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.769,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.342,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.331,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.508,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.166,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.723,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.292,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.368,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.546,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.448,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.484,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.42,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.386,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.307,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.309,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.704,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.287,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.483,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.199,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.359,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.47,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.81,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.627,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.747,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.447,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.615,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.761,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.483,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.49,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.539,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.397,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.317,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.633,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.329,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.55,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.511,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.358,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.497,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.538,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.429,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.504,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.465,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.388,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.54,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.402,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.879,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.709,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.772,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.471,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.555,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.654,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.383,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.579,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.39,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.809,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.35,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.582,
+      "instrumentalness": 0.025
+    },
+    {
+      "acousticness": 0.432,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.708,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.182,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.663,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.343,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.501,
+      "instrumentalness": 0.029
+    },
+    {
+      "acousticness": 0.53,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.511,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.6,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.666,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 171389,
+    "max": 1534315,
+    "mean": 282140.51,
+    "median": 272563.0,
+    "q1": 240765,
+    "q3": 301946
+  },
+  "danceability": {
+    "min": 0.439,
+    "max": 0.91,
+    "mean": 0.689,
+    "median": 0.702,
+    "q1": 0.612,
+    "q3": 0.772
+  },
+  "loudness": {
+    "min": -15.231,
+    "max": -2.525,
+    "mean": -6.957,
+    "median": -6.643,
+    "q1": -8.508,
+    "q3": -4.849
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.283,
+    "mean": 0.05,
+    "median": 0.042,
+    "q1": 0.038,
+    "q3": 0.053
+  },
+  "top_artists": [
+    {
+      "name": "Maelo Ruiz",
+      "count": 12
+    },
+    {
+      "name": "Marc Anthony",
+      "count": 9
+    },
+    {
+      "name": "Pedro Conga",
+      "count": 5
+    },
+    {
+      "name": "Billo's",
+      "count": 4
+    },
+    {
+      "name": "Adolescent's Orquesta",
+      "count": 3
+    },
+    {
+      "name": "Ronald Borjas",
+      "count": 3
+    },
+    {
+      "name": "Checo Acosta",
+      "count": 3
+    },
+    {
+      "name": "Gilberto Santa Rosa",
+      "count": 3
+    },
+    {
+      "name": "Dimension Latina",
+      "count": 2
+    },
+    {
+      "name": "Celia Cruz",
+      "count": 2
+    },
+    {
+      "name": "Guayac\u00e1n Orquesta",
+      "count": 2
+    },
+    {
+      "name": "Mr Black El Presidente",
+      "count": 2
+    },
+    {
+      "name": "Grupo Niche",
+      "count": 2
+    },
+    {
+      "name": "Eddie Santiago",
+      "count": 2
+    },
+    {
+      "name": "La Sonora Dinamita",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Virgen",
+      "artists": "Adolescent's Orquesta",
+      "album": "Ahora M\u00e1s Que Nunca",
+      "popularity": 77,
+      "tempo": 90.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.776,
+      "valence": 0.724,
+      "danceability": 0.662,
+      "acousticness": 0.715,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.046,
+      "duration_ms": 271766,
+      "slug": "virgen-adolescents-orquesta"
+    },
+    {
+      "name": "Vivir Mi Vida",
+      "artists": "Marc Anthony",
+      "album": "3.0",
+      "popularity": 76,
+      "tempo": 105.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.877,
+      "valence": 0.894,
+      "danceability": 0.656,
+      "acousticness": 0.345,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.034,
+      "duration_ms": 252346,
+      "slug": "vivir-mi-vida-marc-anthony"
+    },
+    {
+      "name": "Yo No S\u00e9 Ma\u00f1ana",
+      "artists": "Luis Enrique",
+      "album": "Ciclos",
+      "popularity": 75,
+      "tempo": 95.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.827,
+      "valence": 0.733,
+      "danceability": 0.653,
+      "acousticness": 0.649,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.042,
+      "duration_ms": 259853,
+      "slug": "yo-no-s\u00e9-ma\u00f1ana-luis-enrique"
+    },
+    {
+      "name": "Llorar\u00e1s",
+      "artists": "Dimension Latina",
+      "album": "Una Dimensi\u00f3n De \u00c9xitos",
+      "popularity": 74,
+      "tempo": 93.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.964,
+      "danceability": 0.704,
+      "acousticness": 0.549,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.053,
+      "duration_ms": 228554,
+      "slug": "llorar\u00e1s-dimension-latina"
+    },
+    {
+      "name": "Flor P\u00e1lida",
+      "artists": "Marc Anthony",
+      "album": "3.0",
+      "popularity": 73,
+      "tempo": 93.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.739,
+      "danceability": 0.574,
+      "acousticness": 0.659,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.032,
+      "duration_ms": 280453,
+      "slug": "flor-p\u00e1lida-marc-anthony"
+    },
+    {
+      "name": "Ven Dev\u00f3rame Otra Vez",
+      "artists": "Lalo Rodriguez",
+      "album": "Ven Dev\u00f3rame Otra Vez (Baile Total)",
+      "popularity": 70,
+      "tempo": 84.4,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.719,
+      "valence": 0.962,
+      "danceability": 0.704,
+      "acousticness": 0.633,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.036,
+      "duration_ms": 314013,
+      "slug": "ven-dev\u00f3rame-otra-vez-lalo-rodriguez"
+    },
+    {
+      "name": "La Vida Es Un Carnaval",
+      "artists": "Celia Cruz",
+      "album": "Para La Eternidad",
+      "popularity": 69,
+      "tempo": 104.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.701,
+      "valence": 0.855,
+      "danceability": 0.813,
+      "acousticness": 0.489,
+      "instrumentalness": 0.001,
+      "loudness": -6.5,
+      "speechiness": 0.07,
+      "duration_ms": 278866,
+      "slug": "la-vida-es-un-carnaval-celia-cruz"
+    },
+    {
+      "name": "Est\u00e1 Rico",
+      "artists": "Marc Anthony;Will Smith;Bad Bunny",
+      "album": "Est\u00e1 Rico",
+      "popularity": 66,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.74,
+      "valence": 0.674,
+      "danceability": 0.817,
+      "acousticness": 0.266,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.283,
+      "duration_ms": 215151,
+      "slug": "est\u00e1-rico-marc-anthony"
+    },
+    {
+      "name": "Brujeria",
+      "artists": "El Gran Combo De Puerto Rico",
+      "album": "Aqui No Se Sienta Nadie!",
+      "popularity": 65,
+      "tempo": 93.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.623,
+      "valence": 0.96,
+      "danceability": 0.795,
+      "acousticness": 0.565,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.046,
+      "duration_ms": 205813,
+      "slug": "brujeria-el-gran-combo-de-puerto-rico"
+    },
+    {
+      "name": "You Sang To Me",
+      "artists": "Marc Anthony",
+      "album": "Marc Anthony",
+      "popularity": 58,
+      "tempo": 166.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.741,
+      "danceability": 0.578,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.03,
+      "duration_ms": 347106,
+      "slug": "you-sang-to-me-marc-anthony"
+    },
+    {
+      "name": "El Preso",
+      "artists": "Fruko Y Sus Tesos;Wilson \"Saoko\" Manyoma",
+      "album": "Fruko el Grande",
+      "popularity": 56,
+      "tempo": 106.2,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.78,
+      "valence": 0.818,
+      "danceability": 0.622,
+      "acousticness": 0.159,
+      "instrumentalness": 0.004,
+      "loudness": -4.7,
+      "speechiness": 0.038,
+      "duration_ms": 294000,
+      "slug": "el-preso-fruko-y-sus-tesos"
+    },
+    {
+      "name": "Extra\u00f1o Tu Amor",
+      "artists": "Guayac\u00e1n Orquesta;Ray Sepulveda",
+      "album": "25 A\u00f1os, 25 \u00c9xitos, 25 Artistas, Vol. 1",
+      "popularity": 47,
+      "tempo": 167.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.728,
+      "valence": 0.707,
+      "danceability": 0.775,
+      "acousticness": 0.283,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.048,
+      "duration_ms": 267389,
+      "slug": "extra\u00f1o-tu-amor-guayac\u00e1n-orquesta"
+    },
+    {
+      "name": "When I Dream at Night",
+      "artists": "Marc Anthony",
+      "album": "Marc Anthony",
+      "popularity": 45,
+      "tempo": 167.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.899,
+      "valence": 0.548,
+      "danceability": 0.537,
+      "acousticness": 0.482,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.092,
+      "duration_ms": 260293,
+      "slug": "when-i-dream-at-night-marc-anthony"
+    },
+    {
+      "name": "Vive Tu Vida",
+      "artists": "Mr Black El Presidente;Keyvin Ce",
+      "album": "Vive Tu Vida",
+      "popularity": 42,
+      "tempo": 110.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.838,
+      "valence": 0.938,
+      "danceability": 0.825,
+      "acousticness": 0.095,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.054,
+      "duration_ms": 222333,
+      "slug": "vive-tu-vida-mr-black-el-presidente"
+    },
+    {
+      "name": "Atrevida",
+      "artists": "Grupo Niche",
+      "album": "The Best",
+      "popularity": 42,
+      "tempo": 93.3,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.687,
+      "valence": 0.922,
+      "danceability": 0.687,
+      "acousticness": 0.47,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.035,
+      "duration_ms": 276893,
+      "slug": "atrevida-grupo-niche"
+    },
+    {
+      "name": "You Sang To Me",
+      "artists": "Marc Anthony",
+      "album": "Marc Anthony",
+      "popularity": 42,
+      "tempo": 166.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.89,
+      "valence": 0.758,
+      "danceability": 0.58,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.029,
+      "duration_ms": 347333,
+      "slug": "you-sang-to-me-marc-anthony"
+    },
+    {
+      "name": "La Va a Pagar",
+      "artists": "Pedro Conga",
+      "album": "1",
+      "popularity": 41,
+      "tempo": 94.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.851,
+      "danceability": 0.825,
+      "acousticness": 0.707,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.038,
+      "duration_ms": 342000,
+      "slug": "la-va-a-pagar-pedro-conga"
+    },
+    {
+      "name": "Me Recordaras",
+      "artists": "Gabino Pampini",
+      "album": "50 A\u00f1os",
+      "popularity": 41,
+      "tempo": 100.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.757,
+      "valence": 0.582,
+      "danceability": 0.819,
+      "acousticness": 0.578,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.04,
+      "duration_ms": 248778,
+      "slug": "me-recordaras-gabino-pampini"
+    },
+    {
+      "name": "El Nuevo Amor de Mi Mujer",
+      "artists": "Los Hermanos Lopez",
+      "album": "El Perrasazo",
+      "popularity": 41,
+      "tempo": 104.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.51,
+      "valence": 0.937,
+      "danceability": 0.777,
+      "acousticness": 0.812,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.031,
+      "duration_ms": 256963,
+      "slug": "el-nuevo-amor-de-mi-mujer-los-hermanos-lopez"
+    },
+    {
+      "name": "Boquita Sala",
+      "artists": "Billo's",
+      "album": "Exitos De Billo's Caracas Boys",
+      "popularity": 41,
+      "tempo": 182.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.545,
+      "valence": 0.966,
+      "danceability": 0.599,
+      "acousticness": 0.72,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.07,
+      "duration_ms": 175647,
+      "slug": "boquita-sala-billos"
+    },
+    {
+      "name": "Con la Misma Moneda",
+      "artists": "Josimar y Su Yamb\u00fa",
+      "album": "A Lo Perucho",
+      "popularity": 40,
+      "tempo": 88.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.665,
+      "valence": 0.453,
+      "danceability": 0.536,
+      "acousticness": 0.287,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.039,
+      "duration_ms": 322432,
+      "slug": "con-la-misma-moneda-josimar-y-su-yamb\u00fa"
+    },
+    {
+      "name": "Dame Tus Ojos (feat. Laurie Col\u00f3n)",
+      "artists": "Reynaldo Santiago \" Chino \";Laurie Colon",
+      "album": "Chino \" De Viaje \" ..... Camino Al Cielo",
+      "popularity": 40,
+      "tempo": 130.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.747,
+      "valence": 0.787,
+      "danceability": 0.813,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.069,
+      "duration_ms": 250493,
+      "slug": "dame-tus-ojos-feat-laurie-col\u00f3n-reynaldo-santiago-chino"
+    },
+    {
+      "name": "Amor No Me Ignores",
+      "artists": "Maelo Ruiz",
+      "album": "Puro Coraz\u00f3n",
+      "popularity": 40,
+      "tempo": 179.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.808,
+      "valence": 0.808,
+      "danceability": 0.584,
+      "acousticness": 0.513,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.036,
+      "duration_ms": 286680,
+      "slug": "amor-no-me-ignores-maelo-ruiz"
+    },
+    {
+      "name": "Amada Amante",
+      "artists": "Eddie Santiago",
+      "album": "30 Exitos Insuperables",
+      "popularity": 40,
+      "tempo": 92.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.788,
+      "valence": 0.971,
+      "danceability": 0.76,
+      "acousticness": 0.769,
+      "instrumentalness": 0.005,
+      "loudness": -7.4,
+      "speechiness": 0.036,
+      "duration_ms": 302173,
+      "slug": "amada-amante-eddie-santiago"
+    },
+    {
+      "name": "Los Pikis Exitos de Salsa Er\u00f3tica, Vol. 2",
+      "artists": "Ronald Borjas;Nando de la Gente;Adelmo Gauna",
+      "album": "Los Pikis Exitos de Salsa Er\u00f3tica, Vol. 2",
+      "popularity": 40,
+      "tempo": 91.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.848,
+      "danceability": 0.554,
+      "acousticness": 0.342,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.073,
+      "duration_ms": 1534315,
+      "slug": "los-pikis-exitos-de-salsa-er\u00f3tica-vol-2-ronald-borjas"
+    },
+    {
+      "name": "No Me Hagas Sufrir",
+      "artists": "Danny Daniel;Prix 06",
+      "album": "Hechizando",
+      "popularity": 40,
+      "tempo": 95.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.763,
+      "valence": 0.884,
+      "danceability": 0.58,
+      "acousticness": 0.331,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.03,
+      "duration_ms": 252891,
+      "slug": "no-me-hagas-sufrir-danny-daniel"
+    },
+    {
+      "name": "Que Te la Pongo (La Inyecci\u00f3n)",
+      "artists": "La Sonora Dinamita",
+      "album": "Colecci\u00f3n Oro la Sonora Dinamita (Vol. 8)",
+      "popularity": 40,
+      "tempo": 113.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.736,
+      "valence": 0.969,
+      "danceability": 0.847,
+      "acousticness": 0.508,
+      "instrumentalness": 0.001,
+      "loudness": -5.9,
+      "speechiness": 0.037,
+      "duration_ms": 203237,
+      "slug": "que-te-la-pongo-la-inyecci\u00f3n-la-sonora-dinamita"
+    },
+    {
+      "name": "Mi Peque\u00f1a Nataly",
+      "artists": "Checo Acosta",
+      "album": "15 A\u00f1os de \u00c9xitos",
+      "popularity": 40,
+      "tempo": 115.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.755,
+      "valence": 0.915,
+      "danceability": 0.744,
+      "acousticness": 0.166,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.035,
+      "duration_ms": 216920,
+      "slug": "mi-peque\u00f1a-nataly-checo-acosta"
+    },
+    {
+      "name": "Vivir Sin Ella",
+      "artists": "Gilberto Santa Rosa",
+      "album": "Punto de Vista",
+      "popularity": 39,
+      "tempo": 175.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.562,
+      "valence": 0.907,
+      "danceability": 0.501,
+      "acousticness": 0.723,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.046,
+      "duration_ms": 311160,
+      "slug": "vivir-sin-ella-gilberto-santa-rosa"
+    },
+    {
+      "name": "Que Nunca Me Falte",
+      "artists": "Orquesta Internacional Los Niches",
+      "album": "\u00c9xitos",
+      "popularity": 39,
+      "tempo": 169.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.567,
+      "valence": 0.96,
+      "danceability": 0.622,
+      "acousticness": 0.292,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.042,
+      "duration_ms": 280842,
+      "slug": "que-nunca-me-falte-orquesta-internacional-los-niches"
+    },
+    {
+      "name": "Todo Tiene Su Final - Nueva Versi\u00f3n",
+      "artists": "Amilcar Boscan",
+      "album": "Todo Tiene Su Final (Nueva Versi\u00f3n)",
+      "popularity": 39,
+      "tempo": 97.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.665,
+      "valence": 0.697,
+      "danceability": 0.439,
+      "acousticness": 0.368,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.032,
+      "duration_ms": 282139,
+      "slug": "todo-tiene-su-final-nueva-versi\u00f3n-amilcar-boscan"
+    },
+    {
+      "name": "Te Amo Te Extra\u00f1o",
+      "artists": "Guayac\u00e1n Orquesta",
+      "album": "Su Historia Musical",
+      "popularity": 39,
+      "tempo": 142.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.58,
+      "valence": 0.528,
+      "danceability": 0.709,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.039,
+      "duration_ms": 334628,
+      "slug": "te-amo-te-extra\u00f1o-guayac\u00e1n-orquesta"
+    },
+    {
+      "name": "Hey T\u00fa",
+      "artists": "Maelo Ruiz",
+      "album": "Lo Mejor De M\u00ed",
+      "popularity": 39,
+      "tempo": 167.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.869,
+      "danceability": 0.65,
+      "acousticness": 0.408,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.044,
+      "duration_ms": 264426,
+      "slug": "hey-t\u00fa-maelo-ruiz"
+    },
+    {
+      "name": "Medley Maelo: Vicio / No Te Quites La Ropa / Si Supieras",
+      "artists": "Maelo Ruiz",
+      "album": "Inolvidables",
+      "popularity": 39,
+      "tempo": 183.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.851,
+      "valence": 0.713,
+      "danceability": 0.599,
+      "acousticness": 0.546,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.054,
+      "duration_ms": 351546,
+      "slug": "medley-maelo-vicio-no-te-quites-la-ropa-si-supieras-maelo-ruiz"
+    },
+    {
+      "name": "Amor de papel",
+      "artists": "Tito Gomez",
+      "album": "2 Grandes de la Salsa Vol. 4",
+      "popularity": 39,
+      "tempo": 88.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.683,
+      "valence": 0.942,
+      "danceability": 0.818,
+      "acousticness": 0.448,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.043,
+      "duration_ms": 296573,
+      "slug": "amor-de-papel-tito-gomez"
+    },
+    {
+      "name": "Si Supieras",
+      "artists": "Maelo Ruiz;Pedro Conga;La Orquesta Internacional",
+      "album": "\u00c9xitos Originales, Vol. 2",
+      "popularity": 39,
+      "tempo": 91.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.445,
+      "valence": 0.842,
+      "danceability": 0.743,
+      "acousticness": 0.484,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.041,
+      "duration_ms": 310933,
+      "slug": "si-supieras-maelo-ruiz"
+    },
+    {
+      "name": "G\u00fcaracha",
+      "artists": "Willie Col\u00f3n;H\u00e9ctor Lavoe;Yomo Toro",
+      "album": "The Good, The Bad, And The Ugly",
+      "popularity": 39,
+      "tempo": 127.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.773,
+      "valence": 0.748,
+      "danceability": 0.572,
+      "acousticness": 0.42,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.047,
+      "duration_ms": 308520,
+      "slug": "g\u00fcaracha-willie-col\u00f3n"
+    },
+    {
+      "name": "Tengo un Nuevo Amor - Salsa",
+      "artists": "David Y Abraham",
+      "album": "Al\u00e1bale Con Ritmo de Salsa",
+      "popularity": 39,
+      "tempo": 90.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.658,
+      "valence": 0.833,
+      "danceability": 0.734,
+      "acousticness": 0.386,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.036,
+      "duration_ms": 282984,
+      "slug": "tengo-un-nuevo-amor-salsa-david-y-abraham"
+    },
+    {
+      "name": "La Quiero A Morir",
+      "artists": "DLG",
+      "album": "Swing On",
+      "popularity": 39,
+      "tempo": 99.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.929,
+      "danceability": 0.719,
+      "acousticness": 0.307,
+      "instrumentalness": 0.002,
+      "loudness": -2.5,
+      "speechiness": 0.049,
+      "duration_ms": 301946,
+      "slug": "la-quiero-a-morir-dlg"
+    },
+    {
+      "name": "La Parab\u00f3lica",
+      "artists": "La Sonora Dinamita;El Bebeto",
+      "album": "Cumbias De Verano Best Hits",
+      "popularity": 39,
+      "tempo": 103.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.443,
+      "danceability": 0.846,
+      "acousticness": 0.309,
+      "instrumentalness": 0.002,
+      "loudness": -4.3,
+      "speechiness": 0.045,
+      "duration_ms": 204146,
+      "slug": "la-parab\u00f3lica-la-sonora-dinamita"
+    },
+    {
+      "name": "Salsera",
+      "artists": "The Echo Park Project",
+      "album": "Salsera",
+      "popularity": 38,
+      "tempo": 105.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.96,
+      "danceability": 0.738,
+      "acousticness": 0.704,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.041,
+      "duration_ms": 361402,
+      "slug": "salsera-the-echo-park-project"
+    },
+    {
+      "name": "Abr\u00e1zame",
+      "artists": "Asdrubar",
+      "album": "Abr\u00e1zame",
+      "popularity": 38,
+      "tempo": 195.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.889,
+      "valence": 0.869,
+      "danceability": 0.65,
+      "acousticness": 0.287,
+      "instrumentalness": 0.001,
+      "loudness": -5.2,
+      "speechiness": 0.05,
+      "duration_ms": 233615,
+      "slug": "abr\u00e1zame-asdrubar"
+    },
+    {
+      "name": "Largo Viaje",
+      "artists": "Ezequiel Col\u00f3n",
+      "album": "S\u00f3lo \u00c9xitos Tropicales",
+      "popularity": 38,
+      "tempo": 175.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.766,
+      "valence": 0.676,
+      "danceability": 0.624,
+      "acousticness": 0.483,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.074,
+      "duration_ms": 209476,
+      "slug": "largo-viaje-ezequiel-col\u00f3n"
+    },
+    {
+      "name": "Vuelvo a Nacer",
+      "artists": "Jose \"Papo\" Rivera",
+      "album": "Soy Sonero - Concierto en Vivo",
+      "popularity": 38,
+      "tempo": 90.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.648,
+      "danceability": 0.675,
+      "acousticness": 0.199,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.039,
+      "duration_ms": 262533,
+      "slug": "vuelvo-a-nacer-jose-papo-rivera"
+    },
+    {
+      "name": "Barco a la Deriva",
+      "artists": "Marc Anthony",
+      "album": "Sigo Siendo Yo",
+      "popularity": 38,
+      "tempo": 90.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.806,
+      "valence": 0.656,
+      "danceability": 0.644,
+      "acousticness": 0.359,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.032,
+      "duration_ms": 273360,
+      "slug": "barco-a-la-deriva-marc-anthony"
+    },
+    {
+      "name": "Mi Cucu (My Toot Toot)",
+      "artists": "Azucar Negra",
+      "album": "Cumbias Dinamiteras",
+      "popularity": 38,
+      "tempo": 105.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.956,
+      "danceability": 0.829,
+      "acousticness": 0.47,
+      "instrumentalness": 0.001,
+      "loudness": -3.8,
+      "speechiness": 0.053,
+      "duration_ms": 236026,
+      "slug": "mi-cucu-my-toot-toot-azucar-negra"
+    },
+    {
+      "name": "Lamento Borincano - Salsa Version",
+      "artists": "Marc Anthony",
+      "album": "Valio La Pena",
+      "popularity": 38,
+      "tempo": 135.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.372,
+      "valence": 0.593,
+      "danceability": 0.493,
+      "acousticness": 0.81,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.037,
+      "duration_ms": 305026,
+      "slug": "lamento-borincano-salsa-version-marc-anthony"
+    },
+    {
+      "name": "Me Niegas Tanto Amor",
+      "artists": "Pedro Conga",
+      "album": "1",
+      "popularity": 38,
+      "tempo": 174.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.656,
+      "valence": 0.962,
+      "danceability": 0.65,
+      "acousticness": 0.627,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.038,
+      "duration_ms": 283333,
+      "slug": "me-niegas-tanto-amor-pedro-conga"
+    },
+    {
+      "name": "Bomba en Navidad",
+      "artists": "Bobby Cruz;Ricardo \"Richie\" Ray",
+      "album": "Felices Pascuas",
+      "popularity": 38,
+      "tempo": 109.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.748,
+      "valence": 0.95,
+      "danceability": 0.648,
+      "acousticness": 0.747,
+      "instrumentalness": 0.001,
+      "loudness": -7.5,
+      "speechiness": 0.064,
+      "duration_ms": 306760,
+      "slug": "bomba-en-navidad-bobby-cruz"
+    },
+    {
+      "name": "En Las Nubes",
+      "artists": "Jerry Rivera",
+      "album": "Cara De Ni\u00f1o",
+      "popularity": 38,
+      "tempo": 86.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.672,
+      "valence": 0.77,
+      "danceability": 0.699,
+      "acousticness": 0.447,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.038,
+      "duration_ms": 290053,
+      "slug": "en-las-nubes-jerry-rivera"
+    },
+    {
+      "name": "Esperando Un Nuevo amor",
+      "artists": "Maelo Ruiz",
+      "album": "En Tiempo De Amor",
+      "popularity": 38,
+      "tempo": 185.8,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.804,
+      "valence": 0.79,
+      "danceability": 0.682,
+      "acousticness": 0.615,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.062,
+      "duration_ms": 279733,
+      "slug": "esperando-un-nuevo-amor-maelo-ruiz"
+    },
+    {
+      "name": "Conteo Regresivo",
+      "artists": "Gilberto Santa Rosa",
+      "album": "Salsa Caliente",
+      "popularity": 38,
+      "tempo": 163.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.684,
+      "valence": 0.962,
+      "danceability": 0.787,
+      "acousticness": 0.761,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.07,
+      "duration_ms": 267684,
+      "slug": "conteo-regresivo-gilberto-santa-rosa"
+    },
+    {
+      "name": "Quiero Amarte",
+      "artists": "Maelo Ruiz",
+      "album": "Amor Y Sentimiento",
+      "popularity": 38,
+      "tempo": 159.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.674,
+      "valence": 0.862,
+      "danceability": 0.598,
+      "acousticness": 0.483,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.041,
+      "duration_ms": 259575,
+      "slug": "quiero-amarte-maelo-ruiz"
+    },
+    {
+      "name": "Mi Cali Bella",
+      "artists": "Billo's",
+      "album": "Exitos De Billo's Caracas Boys",
+      "popularity": 38,
+      "tempo": 196.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.621,
+      "valence": 0.877,
+      "danceability": 0.454,
+      "acousticness": 0.49,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.082,
+      "duration_ms": 187959,
+      "slug": "mi-cali-bella-billos"
+    },
+    {
+      "name": "El Molde",
+      "artists": "Jos\u00e9 Alberto \"El Canario\"",
+      "album": "Diferente",
+      "popularity": 37,
+      "tempo": 92.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.803,
+      "valence": 0.964,
+      "danceability": 0.792,
+      "acousticness": 0.539,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.043,
+      "duration_ms": 252893,
+      "slug": "el-molde-jos\u00e9-alberto-el-canario"
+    },
+    {
+      "name": "Tu Amor Me Hace Bien",
+      "artists": "Marc Anthony",
+      "album": "Amar Sin Mentiras",
+      "popularity": 37,
+      "tempo": 134.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.595,
+      "valence": 0.84,
+      "danceability": 0.61,
+      "acousticness": 0.397,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.041,
+      "duration_ms": 276146,
+      "slug": "tu-amor-me-hace-bien-marc-anthony"
+    },
+    {
+      "name": "Ni tu ni ella",
+      "artists": "Ray De La Paz",
+      "album": "Vol.1",
+      "popularity": 37,
+      "tempo": 91.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.851,
+      "danceability": 0.776,
+      "acousticness": 0.317,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.034,
+      "duration_ms": 282193,
+      "slug": "ni-tu-ni-ella-ray-de-la-paz"
+    },
+    {
+      "name": "Olvidalo Ya",
+      "artists": "Tony Vega",
+      "album": "Tony Vega",
+      "popularity": 37,
+      "tempo": 167.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.641,
+      "valence": 0.705,
+      "danceability": 0.698,
+      "acousticness": 0.633,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.04,
+      "duration_ms": 299520,
+      "slug": "olvidalo-ya-tony-vega"
+    },
+    {
+      "name": "M\u00e1s All\u00e1 Del Tiempo",
+      "artists": "Frankie Ruiz",
+      "album": "Serie Top 10",
+      "popularity": 37,
+      "tempo": 92.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.848,
+      "valence": 0.857,
+      "danceability": 0.771,
+      "acousticness": 0.329,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.06,
+      "duration_ms": 292400,
+      "slug": "m\u00e1s-all\u00e1-del-tiempo-frankie-ruiz"
+    },
+    {
+      "name": "Taboga",
+      "artists": "Dimension Latina",
+      "album": "Una Dimensi\u00f3n De \u00c9xitos",
+      "popularity": 37,
+      "tempo": 132.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.444,
+      "valence": 0.857,
+      "danceability": 0.621,
+      "acousticness": 0.55,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.038,
+      "duration_ms": 237765,
+      "slug": "taboga-dimension-latina"
+    },
+    {
+      "name": "El Capitolio",
+      "artists": "Rumbavana",
+      "album": "Pa Que Lo Goces Con Ganas",
+      "popularity": 37,
+      "tempo": 104.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.702,
+      "valence": 0.696,
+      "danceability": 0.786,
+      "acousticness": 0.511,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.046,
+      "duration_ms": 360320,
+      "slug": "el-capitolio-rumbavana"
+    },
+    {
+      "name": "Vicio",
+      "artists": "Pedro Conga;Maelo Ruiz",
+      "album": "\u00c9xitos Originales, Vol. 2",
+      "popularity": 37,
+      "tempo": 90.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.635,
+      "valence": 0.9,
+      "danceability": 0.767,
+      "acousticness": 0.358,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.042,
+      "duration_ms": 301693,
+      "slug": "vicio-pedro-conga"
+    },
+    {
+      "name": "Pero Yo Te Amo",
+      "artists": "Maelo Ruiz",
+      "album": "Lo Mejor De M\u00ed",
+      "popularity": 37,
+      "tempo": 176.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.861,
+      "danceability": 0.6,
+      "acousticness": 0.497,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.047,
+      "duration_ms": 256394,
+      "slug": "pero-yo-te-amo-maelo-ruiz"
+    },
+    {
+      "name": "Donde Podre Gritar Que Te Quiero",
+      "artists": "Cuco Valoy",
+      "album": "Juntos Otra Vez",
+      "popularity": 37,
+      "tempo": 101.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.602,
+      "valence": 0.961,
+      "danceability": 0.612,
+      "acousticness": 0.538,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.033,
+      "duration_ms": 233760,
+      "slug": "donde-podre-gritar-que-te-quiero-cuco-valoy"
+    },
+    {
+      "name": "Amaneciendo Con Zaperoko",
+      "artists": "ZAPEROKO La Resistencia Salsera del Callao",
+      "album": "Amaneciendo Con Zaperoko",
+      "popularity": 37,
+      "tempo": 190.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.837,
+      "valence": 0.921,
+      "danceability": 0.71,
+      "acousticness": 0.429,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.044,
+      "duration_ms": 308760,
+      "slug": "amaneciendo-con-zaperoko-zaperoko-la-resistencia-salsera-del-callao"
+    },
+    {
+      "name": "Qui\u00e9reme",
+      "artists": "ZAPEROKO La Resistencia Salsera del Callao",
+      "album": "Del Callao Mi Barrio, para el Mundo",
+      "popularity": 37,
+      "tempo": 93.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.845,
+      "valence": 0.873,
+      "danceability": 0.756,
+      "acousticness": 0.504,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.039,
+      "duration_ms": 275210,
+      "slug": "qui\u00e9reme-zaperoko-la-resistencia-salsera-del-callao"
+    },
+    {
+      "name": "Necesito Quererte",
+      "artists": "Maelo Ruiz",
+      "album": "Amor Y Sentimiento",
+      "popularity": 37,
+      "tempo": 165.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.729,
+      "valence": 0.908,
+      "danceability": 0.579,
+      "acousticness": 0.465,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.045,
+      "duration_ms": 277571,
+      "slug": "necesito-quererte-maelo-ruiz"
+    },
+    {
+      "name": "No Te Quites La Ropa",
+      "artists": "Maelo Ruiz",
+      "album": "Exitos Originales",
+      "popularity": 37,
+      "tempo": 89.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.596,
+      "valence": 0.919,
+      "danceability": 0.684,
+      "acousticness": 0.388,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.037,
+      "duration_ms": 340240,
+      "slug": "no-te-quites-la-ropa-maelo-ruiz"
+    },
+    {
+      "name": "Mariposa",
+      "artists": "Charlie Cruz",
+      "album": "Tentaciones Vol 2.",
+      "popularity": 37,
+      "tempo": 92.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.749,
+      "valence": 0.55,
+      "danceability": 0.73,
+      "acousticness": 0.54,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.046,
+      "duration_ms": 254029,
+      "slug": "mariposa-charlie-cruz"
+    },
+    {
+      "name": "Castigala",
+      "artists": "Maraca",
+      "album": "Tremenda Rumba!",
+      "popularity": 37,
+      "tempo": 102.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.886,
+      "valence": 0.967,
+      "danceability": 0.762,
+      "acousticness": 0.402,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.041,
+      "duration_ms": 234133,
+      "slug": "castigala-maraca"
+    },
+    {
+      "name": "Plazos Traicioneros",
+      "artists": "Celia Cruz;Willie Col\u00f3n",
+      "album": "Fania Classics: Celia Cruz & Willie Col\u00f3n",
+      "popularity": 37,
+      "tempo": 174.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.221,
+      "valence": 0.352,
+      "danceability": 0.445,
+      "acousticness": 0.879,
+      "instrumentalness": 0.001,
+      "loudness": -12.5,
+      "speechiness": 0.045,
+      "duration_ms": 173226,
+      "slug": "plazos-traicioneros-celia-cruz"
+    },
+    {
+      "name": "Mor\u00eda De Las Ganas",
+      "artists": "Eddie Santiago",
+      "album": "Mor\u00eda De Las Ganas",
+      "popularity": 36,
+      "tempo": 168.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.826,
+      "valence": 0.921,
+      "danceability": 0.724,
+      "acousticness": 0.709,
+      "instrumentalness": 0.001,
+      "loudness": -5.2,
+      "speechiness": 0.036,
+      "duration_ms": 247315,
+      "slug": "mor\u00eda-de-las-ganas-eddie-santiago"
+    },
+    {
+      "name": "Si Ya No Estas - (Remix)",
+      "artists": "N'Klabe;R.K.M & Ken-Y",
+      "album": "La Nueva Escuela",
+      "popularity": 36,
+      "tempo": 168.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.82,
+      "valence": 0.965,
+      "danceability": 0.651,
+      "acousticness": 0.772,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.038,
+      "duration_ms": 277040,
+      "slug": "si-ya-no-estas-remix-nklabe"
+    },
+    {
+      "name": "Sabre Olvidar",
+      "artists": "Joe Arroyo",
+      "album": "32 Grandes Exitos",
+      "popularity": 36,
+      "tempo": 127.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.575,
+      "valence": 0.86,
+      "danceability": 0.645,
+      "acousticness": 0.471,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.087,
+      "duration_ms": 255440,
+      "slug": "sabre-olvidar-joe-arroyo"
+    },
+    {
+      "name": "Y Es Por Ti",
+      "artists": "Maelo Ruiz",
+      "album": "Puro Coraz\u00f3n",
+      "popularity": 36,
+      "tempo": 175.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.692,
+      "danceability": 0.51,
+      "acousticness": 0.555,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.044,
+      "duration_ms": 274946,
+      "slug": "y-es-por-ti-maelo-ruiz"
+    },
+    {
+      "name": "Amandote",
+      "artists": "Gilberto Santa Rosa",
+      "album": "Esencia",
+      "popularity": 36,
+      "tempo": 169.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.806,
+      "valence": 0.89,
+      "danceability": 0.706,
+      "acousticness": 0.654,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.039,
+      "duration_ms": 280573,
+      "slug": "amandote-gilberto-santa-rosa"
+    },
+    {
+      "name": "Dame Tu Amor",
+      "artists": "Ronald Borjas",
+      "album": "Da Capo",
+      "popularity": 36,
+      "tempo": 93.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.932,
+      "valence": 0.897,
+      "danceability": 0.749,
+      "acousticness": 0.241,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.082,
+      "duration_ms": 218024,
+      "slug": "dame-tu-amor-ronald-borjas"
+    },
+    {
+      "name": "Costumbres",
+      "artists": "LA INDIA",
+      "album": "40 Artistas Y Sus Super Exitos",
+      "popularity": 36,
+      "tempo": 92.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.772,
+      "valence": 0.722,
+      "danceability": 0.693,
+      "acousticness": 0.383,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.045,
+      "duration_ms": 348763,
+      "slug": "costumbres-la-india"
+    },
+    {
+      "name": "Se\u00f1orita",
+      "artists": "Adolescent's Orquesta",
+      "album": "Reclamando Nuestro Espacio",
+      "popularity": 36,
+      "tempo": 91.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.553,
+      "valence": 0.876,
+      "danceability": 0.683,
+      "acousticness": 0.579,
+      "instrumentalness": 0.0,
+      "loudness": -15.2,
+      "speechiness": 0.049,
+      "duration_ms": 300800,
+      "slug": "se\u00f1orita-adolescents-orquesta"
+    },
+    {
+      "name": "Porque Ahora",
+      "artists": "Orquesta Inmensidad",
+      "album": "De Aqu\u00ed pa' la Eternidad",
+      "popularity": 36,
+      "tempo": 90.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.792,
+      "valence": 0.906,
+      "danceability": 0.728,
+      "acousticness": 0.39,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.032,
+      "duration_ms": 282798,
+      "slug": "porque-ahora-orquesta-inmensidad"
+    },
+    {
+      "name": "M\u00edrame",
+      "artists": "Adolescent's Orquesta",
+      "album": "La Misma Pluma",
+      "popularity": 36,
+      "tempo": 97.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.657,
+      "valence": 0.884,
+      "danceability": 0.666,
+      "acousticness": 0.809,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.037,
+      "duration_ms": 246308,
+      "slug": "m\u00edrame-adolescents-orquesta"
+    },
+    {
+      "name": "T\u00fa y Yo Tenemos",
+      "artists": "Ronald Borjas",
+      "album": "Bailamos Otra Vez",
+      "popularity": 36,
+      "tempo": 98.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.716,
+      "danceability": 0.777,
+      "acousticness": 0.35,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.042,
+      "duration_ms": 240765,
+      "slug": "t\u00fa-y-yo-tenemos-ronald-borjas"
+    },
+    {
+      "name": "Quiero Volver A Enamorarte",
+      "artists": "Yan Collazo",
+      "album": "Salsa Top Hits",
+      "popularity": 36,
+      "tempo": 100.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.806,
+      "valence": 0.646,
+      "danceability": 0.738,
+      "acousticness": 0.582,
+      "instrumentalness": 0.025,
+      "loudness": -6.4,
+      "speechiness": 0.047,
+      "duration_ms": 259522,
+      "slug": "quiero-volver-a-enamorarte-yan-collazo"
+    },
+    {
+      "name": "Si Supiera / No Podras Escapar De Mi / Peque\u00f1as Cosas / Tomame Como Soy / En La Intimidad",
+      "artists": "Willie Gonzalez",
+      "album": "Salsa Mixes Y Mas Mixes",
+      "popularity": 36,
+      "tempo": 175.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.773,
+      "valence": 0.835,
+      "danceability": 0.459,
+      "acousticness": 0.432,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.034,
+      "duration_ms": 400800,
+      "slug": "si-supiera-no-podras-escapar-de-mi-peque\u00f1as-cosas-tomame-como-soy-en-la-intimida"
+    },
+    {
+      "name": "No Hay Carretera",
+      "artists": "La Misma Gente",
+      "album": "25 Aniversario",
+      "popularity": 36,
+      "tempo": 92.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.718,
+      "valence": 0.923,
+      "danceability": 0.822,
+      "acousticness": 0.708,
+      "instrumentalness": 0.001,
+      "loudness": -7.2,
+      "speechiness": 0.053,
+      "duration_ms": 264097,
+      "slug": "no-hay-carretera-la-misma-gente"
+    },
+    {
+      "name": "Rumbarengue",
+      "artists": "Jose \"Papo\" Rivera",
+      "album": "De Todo Un Poco",
+      "popularity": 36,
+      "tempo": 144.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.835,
+      "valence": 0.909,
+      "danceability": 0.708,
+      "acousticness": 0.182,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.058,
+      "duration_ms": 210053,
+      "slug": "rumbarengue-jose-papo-rivera"
+    },
+    {
+      "name": "Cipriano",
+      "artists": "Mr Black El Presidente",
+      "album": "Cipriano",
+      "popularity": 36,
+      "tempo": 116.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.84,
+      "danceability": 0.562,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.131,
+      "duration_ms": 240666,
+      "slug": "cipriano-mr-black-el-presidente"
+    },
+    {
+      "name": "Aguinaldo Con Billo",
+      "artists": "Billo's",
+      "album": "Cl\u00e1sicos de Oro de Billo Caracas Boy's, Vol II",
+      "popularity": 36,
+      "tempo": 127.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.493,
+      "valence": 0.965,
+      "danceability": 0.759,
+      "acousticness": 0.634,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.043,
+      "duration_ms": 193800,
+      "slug": "aguinaldo-con-billo-billos"
+    },
+    {
+      "name": "La Boa",
+      "artists": "Alquimia La Sonora Del XXI",
+      "album": "Fiebre Santanera",
+      "popularity": 36,
+      "tempo": 126.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.593,
+      "valence": 0.899,
+      "danceability": 0.91,
+      "acousticness": 0.663,
+      "instrumentalness": 0.008,
+      "loudness": -5.5,
+      "speechiness": 0.044,
+      "duration_ms": 183890,
+      "slug": "la-boa-alquimia-la-sonora-del-xxi"
+    },
+    {
+      "name": "Mi Machete",
+      "artists": "Grupo Niche",
+      "album": "Imaginacion",
+      "popularity": 36,
+      "tempo": 103.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.831,
+      "valence": 0.83,
+      "danceability": 0.854,
+      "acousticness": 0.343,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.041,
+      "duration_ms": 327160,
+      "slug": "mi-machete-grupo-niche"
+    },
+    {
+      "name": "Chemapale",
+      "artists": "Checo Acosta",
+      "album": "Checomania",
+      "popularity": 36,
+      "tempo": 112.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.856,
+      "valence": 0.783,
+      "danceability": 0.573,
+      "acousticness": 0.011,
+      "instrumentalness": 0.005,
+      "loudness": -3.7,
+      "speechiness": 0.096,
+      "duration_ms": 262243,
+      "slug": "chemapale-checo-acosta"
+    },
+    {
+      "name": "Es Por Que Te Amo",
+      "artists": "Hansel Camacho",
+      "album": "Verdades",
+      "popularity": 36,
+      "tempo": 163.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.744,
+      "valence": 0.962,
+      "danceability": 0.717,
+      "acousticness": 0.501,
+      "instrumentalness": 0.029,
+      "loudness": -12.1,
+      "speechiness": 0.039,
+      "duration_ms": 310204,
+      "slug": "es-por-que-te-amo-hansel-camacho"
+    },
+    {
+      "name": "Y Me Hace Llorar",
+      "artists": "Galy Galiano",
+      "album": "Galy Galiano 30 A\u00f1os",
+      "popularity": 36,
+      "tempo": 101.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.678,
+      "valence": 0.866,
+      "danceability": 0.826,
+      "acousticness": 0.53,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.026,
+      "duration_ms": 202560,
+      "slug": "y-me-hace-llorar-galy-galiano"
+    },
+    {
+      "name": "No Te Quites la Ropa",
+      "artists": "Pedro Conga;Maelo Ruiz",
+      "album": "\u00c9xitos Originales, Vol. 2",
+      "popularity": 36,
+      "tempo": 89.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.579,
+      "valence": 0.934,
+      "danceability": 0.693,
+      "acousticness": 0.511,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.034,
+      "duration_ms": 340800,
+      "slug": "no-te-quites-la-ropa-pedro-conga"
+    },
+    {
+      "name": "Desde Que Te Fuiste",
+      "artists": "Daiquiri",
+      "album": "La Casa del Ritmo",
+      "popularity": 36,
+      "tempo": 95.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.461,
+      "valence": 0.763,
+      "danceability": 0.772,
+      "acousticness": 0.6,
+      "instrumentalness": 0.0,
+      "loudness": -14.1,
+      "speechiness": 0.043,
+      "duration_ms": 196360,
+      "slug": "desde-que-te-fuiste-daiquiri"
+    },
+    {
+      "name": "Popurr\u00ed Checumbias: Santoparrandero / La Pollera Color\u00e1 / El Africano / La Estera / La Puya Loca",
+      "artists": "Checo Acosta",
+      "album": "Checazos de Carnaval",
+      "popularity": 36,
+      "tempo": 110.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.701,
+      "danceability": 0.528,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.076,
+      "duration_ms": 321854,
+      "slug": "popurr\u00ed-checumbias-santoparrandero-la-pollera-color\u00e1-el-africano-la-estera-la-pu"
+    },
+    {
+      "name": "A\u00f1o Nuevo",
+      "artists": "Billo's",
+      "album": "Fin de A\u00f1o",
+      "popularity": 36,
+      "tempo": 134.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.396,
+      "valence": 0.97,
+      "danceability": 0.771,
+      "acousticness": 0.666,
+      "instrumentalness": 0.0,
+      "loudness": -14.9,
+      "speechiness": 0.071,
+      "duration_ms": 171389,
+      "slug": "a\u00f1o-nuevo-billos"
+    },
+    {
+      "name": "Digan Lo Que Diga",
+      "artists": "Richard Cepeda",
+      "album": "Vivo Enamorado",
+      "popularity": 36,
+      "tempo": 149.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.963,
+      "danceability": 0.738,
+      "acousticness": 0.406,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.052,
+      "duration_ms": 244426,
+      "slug": "digan-lo-que-diga-richard-cepeda"
+    },
+    {
+      "name": "Virgen de Chiquinquira",
+      "artists": "Guaco",
+      "album": "Guaco Es Guaco",
+      "popularity": 36,
+      "tempo": 110.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.958,
+      "danceability": 0.866,
+      "acousticness": 0.145,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.058,
+      "duration_ms": 197800,
+      "slug": "virgen-de-chiquinquira-guaco"
+    },
+    {
+      "name": "Tiemblo",
+      "artists": "Baby Rasta & Gringo",
+      "album": "The Comeback: Back To Business",
+      "popularity": 36,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.594,
+      "valence": 0.537,
+      "danceability": 0.815,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.042,
+      "duration_ms": 256333,
+      "slug": "tiemblo-baby-rasta-gringo"
+    }
+  ]
+}

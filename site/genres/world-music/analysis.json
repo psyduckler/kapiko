@@ -1,0 +1,2796 @@
+{
+  "genre": "World Music",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 70.022,
+    "max": 189.168,
+    "mean": 126.891,
+    "median": 136.096,
+    "q1": 101.873,
+    "q3": 145.003,
+    "histogram": {
+      "70-79": 9,
+      "80-89": 7,
+      "90-99": 7,
+      "100-109": 6,
+      "110-119": 5,
+      "120-129": 7,
+      "130-139": 15,
+      "140-149": 30,
+      "150-159": 7,
+      "160-169": 3,
+      "170-179": 3,
+      "180-189": 1
+    }
+  },
+  "key_distribution": {
+    "C": 13,
+    "B": 12,
+    "D": 11,
+    "E": 10,
+    "A": 10,
+    "A#/Bb": 9,
+    "G": 8,
+    "C#/Db": 8,
+    "G#/Ab": 7,
+    "F#/Gb": 5,
+    "F": 5,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 92,
+    "Minor": 8
+  },
+  "key_mode_distribution": {
+    "B Major": 12,
+    "D Major": 11,
+    "C Major": 11,
+    "A Major": 9,
+    "A#/Bb Major": 9,
+    "E Major": 8,
+    "G Major": 8,
+    "C#/Db Major": 8,
+    "G#/Ab Major": 7,
+    "F#/Gb Major": 4,
+    "F Major": 3,
+    "E Minor": 2,
+    "C Minor": 2,
+    "D#/Eb Major": 2,
+    "F Minor": 2,
+    "A Minor": 1,
+    "F#/Gb Minor": 1
+  },
+  "energy": {
+    "min": 0.119,
+    "max": 0.937,
+    "mean": 0.578,
+    "median": 0.587,
+    "q1": 0.477,
+    "q3": 0.72
+  },
+  "valence": {
+    "min": 0.061,
+    "max": 0.727,
+    "mean": 0.259,
+    "median": 0.226,
+    "q1": 0.161,
+    "q3": 0.33
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.685,
+      "valence": 0.232
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.183
+    },
+    {
+      "energy": 0.499,
+      "valence": 0.144
+    },
+    {
+      "energy": 0.485,
+      "valence": 0.367
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.395
+    },
+    {
+      "energy": 0.587,
+      "valence": 0.164
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.277
+    },
+    {
+      "energy": 0.561,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.222
+    },
+    {
+      "energy": 0.417,
+      "valence": 0.263
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.076
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.216
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.395
+    },
+    {
+      "energy": 0.612,
+      "valence": 0.154
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.242
+    },
+    {
+      "energy": 0.669,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.25,
+      "valence": 0.11
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.152
+    },
+    {
+      "energy": 0.478,
+      "valence": 0.117
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.254,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.119,
+      "valence": 0.183
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.176
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.184
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.727
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.517
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.164,
+      "valence": 0.17
+    },
+    {
+      "energy": 0.477,
+      "valence": 0.177
+    },
+    {
+      "energy": 0.463,
+      "valence": 0.187
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.634,
+      "valence": 0.172
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.166
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.071
+    },
+    {
+      "energy": 0.457,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.241
+    },
+    {
+      "energy": 0.68,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.135
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.358
+    },
+    {
+      "energy": 0.43,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.127
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.581,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.447,
+      "valence": 0.236
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.296
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.643,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.202
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.417
+    },
+    {
+      "energy": 0.337,
+      "valence": 0.234
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.174
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.596,
+      "valence": 0.172
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.099
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.112
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.539
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.613,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.351,
+      "valence": 0.061
+    },
+    {
+      "energy": 0.338,
+      "valence": 0.095
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.082
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.467
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.521,
+      "valence": 0.12
+    },
+    {
+      "energy": 0.587,
+      "valence": 0.098
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.169
+    },
+    {
+      "energy": 0.45,
+      "valence": 0.122
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.218,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.255
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.553
+    },
+    {
+      "energy": 0.769,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.58,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.186
+    },
+    {
+      "energy": 0.179,
+      "valence": 0.229
+    },
+    {
+      "energy": 0.403,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.819,
+      "valence": 0.098
+    },
+    {
+      "energy": 0.556,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.318,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.161
+    },
+    {
+      "energy": 0.786,
+      "valence": 0.461
+    },
+    {
+      "energy": 0.606,
+      "valence": 0.301
+    },
+    {
+      "energy": 0.209,
+      "valence": 0.365
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.069
+    },
+    {
+      "energy": 0.386,
+      "valence": 0.151
+    },
+    {
+      "energy": 0.566,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.155,
+      "valence": 0.223
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.987,
+    "mean": 0.221,
+    "median": 0.074,
+    "q1": 0.018,
+    "q3": 0.326
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.882,
+    "mean": 0.011,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.212,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.452,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.155,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.315,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.395,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.107,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.293,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.698,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.371,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.189,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.825,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.953,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.352,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.34,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.833,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.122,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.16,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.203,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.083,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.822,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.775,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.137,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.391,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.065,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.773,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.255,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.589,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.737,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.882
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.803,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.762,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.398,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.112,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.848,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.555,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.016
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.163
+    },
+    {
+      "acousticness": 0.87,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.171,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.934,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.269,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.877,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 75969,
+    "max": 568791,
+    "mean": 295790.7,
+    "median": 278093.0,
+    "q1": 230226,
+    "q3": 339493
+  },
+  "danceability": {
+    "min": 0.156,
+    "max": 0.694,
+    "mean": 0.433,
+    "median": 0.441,
+    "q1": 0.37,
+    "q3": 0.502
+  },
+  "loudness": {
+    "min": -18.646,
+    "max": -2.757,
+    "mean": -7.223,
+    "median": -7.071,
+    "q1": -8.139,
+    "q3": -5.762
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.17,
+    "mean": 0.039,
+    "median": 0.034,
+    "q1": 0.031,
+    "q3": 0.04
+  },
+  "top_artists": [
+    {
+      "name": "Hillsong Worship",
+      "count": 15
+    },
+    {
+      "name": "Bethel Music",
+      "count": 15
+    },
+    {
+      "name": "Chris Tomlin",
+      "count": 10
+    },
+    {
+      "name": "for KING & COUNTRY",
+      "count": 10
+    },
+    {
+      "name": "Cory Asbury",
+      "count": 7
+    },
+    {
+      "name": "Brooke Ligertwood",
+      "count": 5
+    },
+    {
+      "name": "Matt Redman",
+      "count": 4
+    },
+    {
+      "name": "Jenn Johnson",
+      "count": 4
+    },
+    {
+      "name": "Jonathan David Helser",
+      "count": 4
+    },
+    {
+      "name": "Melissa Helser",
+      "count": 4
+    },
+    {
+      "name": "I AM THEY",
+      "count": 4
+    },
+    {
+      "name": "Mosaic MSC",
+      "count": 4
+    },
+    {
+      "name": "Kari Jobe",
+      "count": 4
+    },
+    {
+      "name": "Rend Collective",
+      "count": 4
+    },
+    {
+      "name": "Leeland",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Reckless Love",
+      "artists": "Cory Asbury",
+      "album": "Reckless Love",
+      "popularity": 70,
+      "tempo": 110.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.685,
+      "valence": 0.232,
+      "danceability": 0.572,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.036,
+      "duration_ms": 333386,
+      "slug": "reckless-love-cory-asbury"
+    },
+    {
+      "name": "Way Maker - Live",
+      "artists": "Leeland",
+      "album": "Better Word (Live)",
+      "popularity": 67,
+      "tempo": 136.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.183,
+      "danceability": 0.432,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.032,
+      "duration_ms": 503240,
+      "slug": "way-maker-live-leeland"
+    },
+    {
+      "name": "What A Beautiful Name",
+      "artists": "Hillsong Worship;Brooke Ligertwood",
+      "album": "What A Beautiful Name",
+      "popularity": 66,
+      "tempo": 135.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.499,
+      "valence": 0.144,
+      "danceability": 0.417,
+      "acousticness": 0.212,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.03,
+      "duration_ms": 240200,
+      "slug": "what-a-beautiful-name-hillsong-worship"
+    },
+    {
+      "name": "10,000 Reasons (Bless The Lord) - Live",
+      "artists": "Matt Redman",
+      "album": "10,000 Reasons (Live)",
+      "popularity": 66,
+      "tempo": 145.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.485,
+      "valence": 0.367,
+      "danceability": 0.431,
+      "acousticness": 0.452,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.027,
+      "duration_ms": 342493,
+      "slug": "10000-reasons-bless-the-lord-live-matt-redman"
+    },
+    {
+      "name": "Goodness of God - Live",
+      "artists": "Bethel Music;Jenn Johnson",
+      "album": "Victory (Live)",
+      "popularity": 66,
+      "tempo": 126.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.67,
+      "valence": 0.395,
+      "danceability": 0.466,
+      "acousticness": 0.155,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.03,
+      "duration_ms": 296400,
+      "slug": "goodness-of-god-live-bethel-music"
+    },
+    {
+      "name": "Good Good Father",
+      "artists": "Chris Tomlin",
+      "album": "The Ultimate Playlist",
+      "popularity": 66,
+      "tempo": 145.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.587,
+      "valence": 0.164,
+      "danceability": 0.429,
+      "acousticness": 0.315,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.028,
+      "duration_ms": 293398,
+      "slug": "good-good-father-chris-tomlin"
+    },
+    {
+      "name": "This Is Amazing Grace",
+      "artists": "Phil Wickham",
+      "album": "The Ascension",
+      "popularity": 65,
+      "tempo": 98.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.277,
+      "danceability": 0.512,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.033,
+      "duration_ms": 279786,
+      "slug": "this-is-amazing-grace-phil-wickham"
+    },
+    {
+      "name": "10,000 Reasons (Bless The Lord) [Radio Version] - Radio Version/Live",
+      "artists": "Matt Redman",
+      "album": "Sing Like Never Before: The Essential Collection",
+      "popularity": 65,
+      "tempo": 144.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.561,
+      "valence": 0.306,
+      "danceability": 0.459,
+      "acousticness": 0.084,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.027,
+      "duration_ms": 256933,
+      "slug": "10000-reasons-bless-the-lord-radio-version-radio-versionlive-matt-redman"
+    },
+    {
+      "name": "Way Maker - Single Version",
+      "artists": "Leeland",
+      "album": "Way Maker",
+      "popularity": 64,
+      "tempo": 144.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.655,
+      "valence": 0.222,
+      "danceability": 0.468,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.03,
+      "duration_ms": 206440,
+      "slug": "way-maker-single-version-leeland"
+    },
+    {
+      "name": "God Only Knows",
+      "artists": "for KING & COUNTRY",
+      "album": "Burn The Ships",
+      "popularity": 64,
+      "tempo": 143.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.417,
+      "valence": 0.263,
+      "danceability": 0.597,
+      "acousticness": 0.395,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.05,
+      "duration_ms": 229760,
+      "slug": "god-only-knows-for-king-country"
+    },
+    {
+      "name": "How Great Is Our God",
+      "artists": "Chris Tomlin",
+      "album": "How Great Is Our God: The Essential Collection",
+      "popularity": 64,
+      "tempo": 156.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.573,
+      "valence": 0.076,
+      "danceability": 0.318,
+      "acousticness": 0.107,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.032,
+      "duration_ms": 305426,
+      "slug": "how-great-is-our-god-chris-tomlin"
+    },
+    {
+      "name": "Yes I Will",
+      "artists": "Vertical Worship",
+      "album": "Bright Faith Bold Future",
+      "popularity": 64,
+      "tempo": 75.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.708,
+      "valence": 0.243,
+      "danceability": 0.43,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.034,
+      "duration_ms": 234731,
+      "slug": "yes-i-will-vertical-worship"
+    },
+    {
+      "name": "Our God",
+      "artists": "Chris Tomlin",
+      "album": "And If Our God Is For Us...",
+      "popularity": 63,
+      "tempo": 105.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.778,
+      "valence": 0.216,
+      "danceability": 0.509,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.029,
+      "duration_ms": 285160,
+      "slug": "our-god-chris-tomlin"
+    },
+    {
+      "name": "Broken Vessels (Amazing Grace)",
+      "artists": "Hillsong Worship;TAYA",
+      "album": "No Other Name",
+      "popularity": 63,
+      "tempo": 140.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.489,
+      "valence": 0.087,
+      "danceability": 0.379,
+      "acousticness": 0.293,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.028,
+      "duration_ms": 568791,
+      "slug": "broken-vessels-amazing-grace-hillsong-worship"
+    },
+    {
+      "name": "Raise a Hallelujah - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser",
+      "album": "Victory (Live)",
+      "popularity": 63,
+      "tempo": 82.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.291,
+      "danceability": 0.452,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.04,
+      "duration_ms": 470880,
+      "slug": "raise-a-hallelujah-live-bethel-music"
+    },
+    {
+      "name": "King of My Heart - Live",
+      "artists": "Bethel Music;Steffany Gretzinger",
+      "album": "Starlight (Live)",
+      "popularity": 63,
+      "tempo": 136.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.529,
+      "valence": 0.395,
+      "danceability": 0.438,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.032,
+      "duration_ms": 299365,
+      "slug": "king-of-my-heart-live-bethel-music"
+    },
+    {
+      "name": "This I Believe (The Creed)",
+      "artists": "Hillsong Worship",
+      "album": "No Other Name",
+      "popularity": 63,
+      "tempo": 142.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.612,
+      "valence": 0.154,
+      "danceability": 0.427,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.031,
+      "duration_ms": 401759,
+      "slug": "this-i-believe-the-creed-hillsong-worship"
+    },
+    {
+      "name": "No Longer Slaves (Spontaneous) - Live",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser",
+      "album": "We Will Not Be Shaken (Live)",
+      "popularity": 62,
+      "tempo": 148.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.61,
+      "valence": 0.242,
+      "danceability": 0.412,
+      "acousticness": 0.177,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.038,
+      "duration_ms": 373691,
+      "slug": "no-longer-slaves-spontaneous-live-bethel-music"
+    },
+    {
+      "name": "Who You Say I Am - Live",
+      "artists": "Hillsong Worship;Brooke Ligertwood;Reuben Morgan",
+      "album": "There Is More",
+      "popularity": 62,
+      "tempo": 171.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.669,
+      "valence": 0.21,
+      "danceability": 0.271,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.036,
+      "duration_ms": 329080,
+      "slug": "who-you-say-i-am-live-hillsong-worship"
+    },
+    {
+      "name": "It Is Well - Live",
+      "artists": "Bethel Music;Kristene DiMarco",
+      "album": "You Make Me Brave (Live)",
+      "popularity": 62,
+      "tempo": 129.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.25,
+      "valence": 0.11,
+      "danceability": 0.35,
+      "acousticness": 0.698,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.031,
+      "duration_ms": 385053,
+      "slug": "it-is-well-live-bethel-music"
+    },
+    {
+      "name": "Scars",
+      "artists": "I AM THEY",
+      "album": "Trial & Triumph",
+      "popularity": 62,
+      "tempo": 75.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.152,
+      "danceability": 0.417,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.033,
+      "duration_ms": 238306,
+      "slug": "scars-i-am-they"
+    },
+    {
+      "name": "Build My Life",
+      "artists": "Housefires",
+      "album": "Housefires III",
+      "popularity": 62,
+      "tempo": 139.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.478,
+      "valence": 0.117,
+      "danceability": 0.303,
+      "acousticness": 0.371,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.035,
+      "duration_ms": 491690,
+      "slug": "build-my-life-housefires"
+    },
+    {
+      "name": "The Father's House - Studio",
+      "artists": "Cory Asbury",
+      "album": "The Father's House",
+      "popularity": 62,
+      "tempo": 162.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.707,
+      "valence": 0.333,
+      "danceability": 0.408,
+      "acousticness": 0.189,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.034,
+      "duration_ms": 253640,
+      "slug": "the-fathers-house-studio-cory-asbury"
+    },
+    {
+      "name": "This Is How I Thank The Lord",
+      "artists": "Mosaic MSC",
+      "album": "This Is How I Thank The Lord",
+      "popularity": 62,
+      "tempo": 189.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.254,
+      "valence": 0.272,
+      "danceability": 0.333,
+      "acousticness": 0.825,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.055,
+      "duration_ms": 189933,
+      "slug": "this-is-how-i-thank-the-lord-mosaic-msc"
+    },
+    {
+      "name": "Goodness of God",
+      "artists": "Bethel Music;Jenn Johnson",
+      "album": "Peace",
+      "popularity": 61,
+      "tempo": 110.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.119,
+      "valence": 0.183,
+      "danceability": 0.37,
+      "acousticness": 0.953,
+      "instrumentalness": 0.0,
+      "loudness": -11.5,
+      "speechiness": 0.039,
+      "duration_ms": 456480,
+      "slug": "goodness-of-god-bethel-music"
+    },
+    {
+      "name": "Here I Am To Worship",
+      "artists": "Hillsong Worship",
+      "album": "Ultimate Worship Vol 1",
+      "popularity": 61,
+      "tempo": 143.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.435,
+      "valence": 0.176,
+      "danceability": 0.373,
+      "acousticness": 0.352,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.029,
+      "duration_ms": 220826,
+      "slug": "here-i-am-to-worship-hillsong-worship"
+    },
+    {
+      "name": "Still",
+      "artists": "Hillsong Worship",
+      "album": "Ultimate Worship Vol 1",
+      "popularity": 61,
+      "tempo": 70.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.473,
+      "valence": 0.184,
+      "danceability": 0.419,
+      "acousticness": 0.34,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.028,
+      "duration_ms": 320506,
+      "slug": "still-hillsong-worship"
+    },
+    {
+      "name": "The Blessing - Live",
+      "artists": "Kari Jobe;Cody Carnes;Elevation Worship",
+      "album": "The Blessing (Live)",
+      "popularity": 61,
+      "tempo": 140.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.562,
+      "valence": 0.197,
+      "danceability": 0.411,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.036,
+      "duration_ms": 514665,
+      "slug": "the-blessing-live-kari-jobe"
+    },
+    {
+      "name": "My Lighthouse",
+      "artists": "Rend Collective",
+      "album": "The Art Of Celebration",
+      "popularity": 61,
+      "tempo": 110.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.727,
+      "danceability": 0.545,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.049,
+      "duration_ms": 224169,
+      "slug": "my-lighthouse-rend-collective"
+    },
+    {
+      "name": "Raise a Hallelujah (Studio Version)",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser",
+      "album": "Raise a Hallelujah (Studio Version)",
+      "popularity": 61,
+      "tempo": 164.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.517,
+      "danceability": 0.42,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.043,
+      "duration_ms": 244040,
+      "slug": "raise-a-hallelujah-studio-version-bethel-music"
+    },
+    {
+      "name": "Tremble - Live",
+      "artists": "Mosaic MSC",
+      "album": "Glory & Wonder",
+      "popularity": 61,
+      "tempo": 148.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.162,
+      "danceability": 0.329,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.053,
+      "duration_ms": 309093,
+      "slug": "tremble-live-mosaic-msc"
+    },
+    {
+      "name": "Amazing Grace (My Chains Are Gone)",
+      "artists": "Chris Tomlin",
+      "album": "Double Take - Chris Tomlin",
+      "popularity": 60,
+      "tempo": 125.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.164,
+      "valence": 0.17,
+      "danceability": 0.471,
+      "acousticness": 0.833,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.032,
+      "duration_ms": 267066,
+      "slug": "amazing-grace-my-chains-are-gone-chris-tomlin"
+    },
+    {
+      "name": "King Of Kings - Studio",
+      "artists": "Hillsong Worship;Brooke Ligertwood",
+      "album": "Awake",
+      "popularity": 60,
+      "tempo": 136.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.477,
+      "valence": 0.177,
+      "danceability": 0.489,
+      "acousticness": 0.122,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.03,
+      "duration_ms": 265133,
+      "slug": "king-of-kings-studio-hillsong-worship"
+    },
+    {
+      "name": "The Blessing",
+      "artists": "Kari Jobe;Cody Carnes",
+      "album": "The Blessing",
+      "popularity": 60,
+      "tempo": 140.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.463,
+      "valence": 0.187,
+      "danceability": 0.367,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.034,
+      "duration_ms": 423193,
+      "slug": "the-blessing-kari-jobe"
+    },
+    {
+      "name": "Waymaker - Radio Version",
+      "artists": "Michael W. Smith;Vanessa Campagna",
+      "album": "Waymaker (Radio Version)",
+      "popularity": 60,
+      "tempo": 142.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.449,
+      "danceability": 0.499,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.035,
+      "duration_ms": 242107,
+      "slug": "waymaker-radio-version-michael-w-smith"
+    },
+    {
+      "name": "Champion - Live",
+      "artists": "Bethel Music;Dante Bowe",
+      "album": "Revival's In The Air (Live)",
+      "popularity": 60,
+      "tempo": 144.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.634,
+      "valence": 0.172,
+      "danceability": 0.314,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.034,
+      "duration_ms": 526890,
+      "slug": "champion-live-bethel-music"
+    },
+    {
+      "name": "Glorious Day - Live",
+      "artists": "Passion;Kristian Stanfill",
+      "album": "Worthy Of Your Name (Live)",
+      "popularity": 60,
+      "tempo": 110.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.166,
+      "danceability": 0.49,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.042,
+      "duration_ms": 298520,
+      "slug": "glorious-day-live-passion"
+    },
+    {
+      "name": "Burn The Ships",
+      "artists": "for KING & COUNTRY",
+      "album": "Burn The Ships",
+      "popularity": 60,
+      "tempo": 93.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.542,
+      "valence": 0.071,
+      "danceability": 0.497,
+      "acousticness": 0.16,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.032,
+      "duration_ms": 276400,
+      "slug": "burn-the-ships-for-king-country"
+    },
+    {
+      "name": "Great Are You Lord - Live",
+      "artists": "All Sons & Daughters;Leslie Jordan;David Leonard",
+      "album": "Live",
+      "popularity": 60,
+      "tempo": 144.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.457,
+      "valence": 0.145,
+      "danceability": 0.39,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.033,
+      "duration_ms": 290413,
+      "slug": "great-are-you-lord-live-all-sons-daughters"
+    },
+    {
+      "name": "Christ Is Enough",
+      "artists": "Hillsong Worship;Reuben Morgan",
+      "album": "Glorious Ruins",
+      "popularity": 59,
+      "tempo": 80.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.241,
+      "danceability": 0.366,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.034,
+      "duration_ms": 320986,
+      "slug": "christ-is-enough-hillsong-worship"
+    },
+    {
+      "name": "Through It All",
+      "artists": "Hillsong Worship",
+      "album": "Blessed (Live)",
+      "popularity": 59,
+      "tempo": 152.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.68,
+      "valence": 0.221,
+      "danceability": 0.195,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.038,
+      "duration_ms": 317266,
+      "slug": "through-it-all-hillsong-worship"
+    },
+    {
+      "name": "TOGETHER",
+      "artists": "for KING & COUNTRY;Kirk Franklin;Tori Kelly",
+      "album": "TOGETHER",
+      "popularity": 59,
+      "tempo": 178.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.784,
+      "valence": 0.484,
+      "danceability": 0.389,
+      "acousticness": 0.203,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.13,
+      "duration_ms": 206103,
+      "slug": "together-for-king-country"
+    },
+    {
+      "name": "Tremble - Studio Version",
+      "artists": "Mosaic MSC",
+      "album": "Unknown - EP",
+      "popularity": 59,
+      "tempo": 149.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.552,
+      "valence": 0.135,
+      "danceability": 0.468,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.045,
+      "duration_ms": 183280,
+      "slug": "tremble-studio-version-mosaic-msc"
+    },
+    {
+      "name": "Great Are You Lord",
+      "artists": "one sonic society",
+      "album": "Great Are You Lord EP",
+      "popularity": 59,
+      "tempo": 147.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.656,
+      "valence": 0.358,
+      "danceability": 0.492,
+      "acousticness": 0.083,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.036,
+      "duration_ms": 232379,
+      "slug": "great-are-you-lord-one-sonic-society"
+    },
+    {
+      "name": "Sodade",
+      "artists": "Ces\u00e1ria Evora",
+      "album": "Miss Perfumado",
+      "popularity": 59,
+      "tempo": 82.7,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.43,
+      "valence": 0.427,
+      "danceability": 0.575,
+      "acousticness": 0.822,
+      "instrumentalness": 0.001,
+      "loudness": -13.2,
+      "speechiness": 0.036,
+      "duration_ms": 293640,
+      "slug": "sodade-ces\u00e1ria-evora"
+    },
+    {
+      "name": "At The Cross (Love Ran Red)",
+      "artists": "Chris Tomlin",
+      "album": "Love Ran Red",
+      "popularity": 58,
+      "tempo": 145.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.535,
+      "valence": 0.127,
+      "danceability": 0.391,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.029,
+      "duration_ms": 250626,
+      "slug": "at-the-cross-love-ran-red-chris-tomlin"
+    },
+    {
+      "name": "The Heart Of Worship",
+      "artists": "Matt Redman",
+      "album": "Sing Like Never Before: The Essential Collection",
+      "popularity": 58,
+      "tempo": 139.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.28,
+      "valence": 0.233,
+      "danceability": 0.507,
+      "acousticness": 0.775,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.028,
+      "duration_ms": 318120,
+      "slug": "the-heart-of-worship-matt-redman"
+    },
+    {
+      "name": "No Longer Slaves",
+      "artists": "I AM THEY",
+      "album": "No Longer Slaves",
+      "popularity": 58,
+      "tempo": 147.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.581,
+      "valence": 0.326,
+      "danceability": 0.525,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.028,
+      "duration_ms": 230088,
+      "slug": "no-longer-slaves-i-am-they"
+    },
+    {
+      "name": "Song Of My Father",
+      "artists": "Urban Rescue",
+      "album": "Wild Heart",
+      "popularity": 58,
+      "tempo": 92.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.447,
+      "valence": 0.236,
+      "danceability": 0.532,
+      "acousticness": 0.137,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.026,
+      "duration_ms": 247386,
+      "slug": "song-of-my-father-urban-rescue"
+    },
+    {
+      "name": "Thank You Lord (feat. Thomas Rhett & Florida Georgia Line)",
+      "artists": "Chris Tomlin;Thomas Rhett;Florida Georgia Line",
+      "album": "Chris Tomlin & Friends",
+      "popularity": 58,
+      "tempo": 104.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.87,
+      "valence": 0.695,
+      "danceability": 0.667,
+      "acousticness": 0.391,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.078,
+      "duration_ms": 168693,
+      "slug": "thank-you-lord-feat-thomas-rhett-florida-georgia-line-chris-tomlin"
+    },
+    {
+      "name": "Whom Shall I Fear (God Of Angel Armies)",
+      "artists": "Chris Tomlin",
+      "album": "Burning Lights",
+      "popularity": 58,
+      "tempo": 148.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.778,
+      "valence": 0.42,
+      "danceability": 0.444,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.032,
+      "duration_ms": 267906,
+      "slug": "whom-shall-i-fear-god-of-angel-armies-chris-tomlin"
+    },
+    {
+      "name": "God of Revival - Live",
+      "artists": "Bethel Music;Brian Johnson;Jenn Johnson",
+      "album": "Revival's In The Air (Live)",
+      "popularity": 58,
+      "tempo": 144.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.608,
+      "valence": 0.21,
+      "danceability": 0.36,
+      "acousticness": 0.065,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.031,
+      "duration_ms": 515387,
+      "slug": "god-of-revival-live-bethel-music"
+    },
+    {
+      "name": "Faithful God",
+      "artists": "I AM THEY",
+      "album": "Faithful God",
+      "popularity": 58,
+      "tempo": 88.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.296,
+      "danceability": 0.529,
+      "acousticness": 0.191,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.026,
+      "duration_ms": 209320,
+      "slug": "faithful-god-i-am-they"
+    },
+    {
+      "name": "Sparrows",
+      "artists": "Cory Asbury",
+      "album": "To Love a Fool",
+      "popularity": 58,
+      "tempo": 139.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.704,
+      "valence": 0.549,
+      "danceability": 0.58,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.028,
+      "duration_ms": 197046,
+      "slug": "sparrows-cory-asbury"
+    },
+    {
+      "name": "For God Is With Us",
+      "artists": "for KING & COUNTRY",
+      "album": "What Are We Waiting For?",
+      "popularity": 58,
+      "tempo": 75.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.643,
+      "valence": 0.15,
+      "danceability": 0.338,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.068,
+      "duration_ms": 196846,
+      "slug": "for-god-is-with-us-for-king-country"
+    },
+    {
+      "name": "Egypt - Studio Version",
+      "artists": "Cory Asbury",
+      "album": "Egypt (Studio Version)",
+      "popularity": 58,
+      "tempo": 153.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.802,
+      "valence": 0.202,
+      "danceability": 0.436,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.05,
+      "duration_ms": 200360,
+      "slug": "egypt-studio-version-cory-asbury"
+    },
+    {
+      "name": "Egypt - Live",
+      "artists": "Bethel Music;Cory Asbury",
+      "album": "Revival's In The Air (Live)",
+      "popularity": 58,
+      "tempo": 149.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.845,
+      "valence": 0.282,
+      "danceability": 0.328,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.041,
+      "duration_ms": 383447,
+      "slug": "egypt-live-bethel-music"
+    },
+    {
+      "name": "joy.",
+      "artists": "for KING & COUNTRY",
+      "album": "Burn The Ships",
+      "popularity": 58,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.536,
+      "valence": 0.417,
+      "danceability": 0.68,
+      "acousticness": 0.01,
+      "instrumentalness": 0.001,
+      "loudness": -6.7,
+      "speechiness": 0.058,
+      "duration_ms": 233946,
+      "slug": "joy-for-king-country"
+    },
+    {
+      "name": "Gratitude (feat. Cheyenne Mitchell)",
+      "artists": "I AM THEY;Cheyenne Mitchell",
+      "album": "Gratitude (feat. Cheyenne Mitchell)",
+      "popularity": 58,
+      "tempo": 101.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.337,
+      "valence": 0.234,
+      "danceability": 0.321,
+      "acousticness": 0.773,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.033,
+      "duration_ms": 252492,
+      "slug": "gratitude-feat-cheyenne-mitchell-i-am-they"
+    },
+    {
+      "name": "Counting Every Blessing",
+      "artists": "Rend Collective",
+      "album": "Good News (Deluxe Edition)",
+      "popularity": 58,
+      "tempo": 90.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.174,
+      "danceability": 0.55,
+      "acousticness": 0.136,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.033,
+      "duration_ms": 302780,
+      "slug": "counting-every-blessing-rend-collective"
+    },
+    {
+      "name": "Worthy of My Song (Worthy of It All)",
+      "artists": "Phil Wickham;Chandler Moore;Maverick City Music;Mav City Gospel Choir",
+      "album": "Worthy of My Song (Worthy of It All)",
+      "popularity": 58,
+      "tempo": 139.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.622,
+      "valence": 0.231,
+      "danceability": 0.26,
+      "acousticness": 0.128,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.042,
+      "duration_ms": 506796,
+      "slug": "worthy-of-my-song-worthy-of-it-all-phil-wickham"
+    },
+    {
+      "name": "In Christ Alone - Live",
+      "artists": "Passion;Kristian Stanfill",
+      "album": "Passion: Let The Future Begin",
+      "popularity": 57,
+      "tempo": 136.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.596,
+      "valence": 0.172,
+      "danceability": 0.378,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.032,
+      "duration_ms": 339493,
+      "slug": "in-christ-alone-live-passion"
+    },
+    {
+      "name": "What A Beautiful Name",
+      "artists": "Hillsong Worship;Brooke Ligertwood",
+      "album": "let there be light.",
+      "popularity": 57,
+      "tempo": 135.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.5,
+      "valence": 0.099,
+      "danceability": 0.396,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.032,
+      "duration_ms": 343080,
+      "slug": "what-a-beautiful-name-hillsong-worship"
+    },
+    {
+      "name": "Who You Are To Me (feat. Lady A)",
+      "artists": "Chris Tomlin;Lady A",
+      "album": "Chris Tomlin & Friends",
+      "popularity": 57,
+      "tempo": 96.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.305,
+      "danceability": 0.586,
+      "acousticness": 0.255,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.035,
+      "duration_ms": 230360,
+      "slug": "who-you-are-to-me-feat-lady-a-chris-tomlin"
+    },
+    {
+      "name": "Forever - Live",
+      "artists": "Kari Jobe",
+      "album": "Majestic (Live)",
+      "popularity": 57,
+      "tempo": 144.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.697,
+      "valence": 0.112,
+      "danceability": 0.268,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.042,
+      "duration_ms": 409986,
+      "slug": "forever-live-kari-jobe"
+    },
+    {
+      "name": "Nothing Is Impossible (Featuring Israel Houghton)",
+      "artists": "Planetshakers",
+      "album": "Nothing Is Impossible",
+      "popularity": 57,
+      "tempo": 142.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.539,
+      "danceability": 0.51,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.082,
+      "duration_ms": 244333,
+      "slug": "nothing-is-impossible-featuring-israel-houghton-planetshakers"
+    },
+    {
+      "name": "The Father\u2019s House",
+      "artists": "Cory Asbury",
+      "album": "To Love a Fool",
+      "popularity": 57,
+      "tempo": 162.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.53,
+      "danceability": 0.539,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.046,
+      "duration_ms": 245740,
+      "slug": "the-fathers-house-cory-asbury"
+    },
+    {
+      "name": "Strongholds",
+      "artists": "Chris Tomlin",
+      "album": "Always",
+      "popularity": 57,
+      "tempo": 90.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.613,
+      "valence": 0.271,
+      "danceability": 0.502,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.029,
+      "duration_ms": 240566,
+      "slug": "strongholds-chris-tomlin"
+    },
+    {
+      "name": "Great Are You Lord",
+      "artists": "All Sons & Daughters;Leslie Jordan;David Leonard",
+      "album": "All Sons & Daughters",
+      "popularity": 57,
+      "tempo": 144.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.351,
+      "valence": 0.061,
+      "danceability": 0.472,
+      "acousticness": 0.589,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.033,
+      "duration_ms": 296343,
+      "slug": "great-are-you-lord-all-sons-daughters"
+    },
+    {
+      "name": "Let My Life Be Worship",
+      "artists": "Bethel Music;Jenn Johnson;Michaela Gentile",
+      "album": "Simple",
+      "popularity": 57,
+      "tempo": 156.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.338,
+      "valence": 0.095,
+      "danceability": 0.374,
+      "acousticness": 0.737,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.029,
+      "duration_ms": 319739,
+      "slug": "let-my-life-be-worship-bethel-music"
+    },
+    {
+      "name": "Control (Somehow You Want Me)",
+      "artists": "Tenth Avenue North",
+      "album": "Followers",
+      "popularity": 57,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.75,
+      "valence": 0.131,
+      "danceability": 0.509,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.04,
+      "duration_ms": 248733,
+      "slug": "control-somehow-you-want-me-tenth-avenue-north"
+    },
+    {
+      "name": "Fix My Eyes",
+      "artists": "for KING & COUNTRY",
+      "album": "RUN WILD. LIVE FREE. LOVE STRONG. (Deluxe Anniversary Edition)",
+      "popularity": 57,
+      "tempo": 100.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.549,
+      "danceability": 0.587,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.036,
+      "duration_ms": 215933,
+      "slug": "fix-my-eyes-for-king-country"
+    },
+    {
+      "name": "Fire and Light",
+      "artists": "Actress",
+      "album": "Karma & Desire",
+      "popularity": 57,
+      "tempo": 140.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.28,
+      "valence": 0.082,
+      "danceability": 0.337,
+      "acousticness": 0.987,
+      "instrumentalness": 0.882,
+      "loudness": -18.6,
+      "speechiness": 0.038,
+      "duration_ms": 75969,
+      "slug": "fire-and-light-actress"
+    },
+    {
+      "name": "Hallelujah Anyway",
+      "artists": "Rend Collective",
+      "album": "Whosoever",
+      "popularity": 57,
+      "tempo": 130.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.857,
+      "valence": 0.467,
+      "danceability": 0.494,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.038,
+      "duration_ms": 225755,
+      "slug": "hallelujah-anyway-rend-collective"
+    },
+    {
+      "name": "Who You Say I Am",
+      "artists": "Hillsong Worship;Brooke Ligertwood",
+      "album": "Who You Say I Am",
+      "popularity": 56,
+      "tempo": 171.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.644,
+      "valence": 0.299,
+      "danceability": 0.377,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.04,
+      "duration_ms": 198704,
+      "slug": "who-you-say-i-am-hillsong-worship"
+    },
+    {
+      "name": "I Surrender - Live",
+      "artists": "Hillsong Worship",
+      "album": "Cornerstone (Live)",
+      "popularity": 56,
+      "tempo": 154.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.521,
+      "valence": 0.12,
+      "danceability": 0.269,
+      "acousticness": 0.023,
+      "instrumentalness": 0.002,
+      "loudness": -7.4,
+      "speechiness": 0.034,
+      "duration_ms": 346346,
+      "slug": "i-surrender-live-hillsong-worship"
+    },
+    {
+      "name": "So Will I (100 Billion X) - Live",
+      "artists": "Hillsong Worship;TAYA",
+      "album": "There Is More",
+      "popularity": 56,
+      "tempo": 127.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.587,
+      "valence": 0.098,
+      "danceability": 0.307,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.034,
+      "duration_ms": 424386,
+      "slug": "so-will-i-100-billion-x-live-hillsong-worship"
+    },
+    {
+      "name": "God Is Able",
+      "artists": "Hillsong Worship",
+      "album": "Hillsong Chapel: Forever Reign",
+      "popularity": 56,
+      "tempo": 77.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.662,
+      "valence": 0.169,
+      "danceability": 0.455,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.036,
+      "duration_ms": 230226,
+      "slug": "god-is-able-hillsong-worship"
+    },
+    {
+      "name": "What A Beautiful Name / Agnus Dei - Medley",
+      "artists": "Travis Cottrell;Lily Cottrell",
+      "album": "The Reason",
+      "popularity": 56,
+      "tempo": 136.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.45,
+      "valence": 0.122,
+      "danceability": 0.445,
+      "acousticness": 0.803,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.036,
+      "duration_ms": 399506,
+      "slug": "what-a-beautiful-name-agnus-dei-medley-travis-cottrell"
+    },
+    {
+      "name": "No Longer Slaves - Radio Version",
+      "artists": "Bethel Music;Jonathan David Helser;Melissa Helser",
+      "album": "No Longer Slaves (Radio Version)",
+      "popularity": 56,
+      "tempo": 148.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.655,
+      "valence": 0.321,
+      "danceability": 0.417,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.035,
+      "duration_ms": 249213,
+      "slug": "no-longer-slaves-radio-version-bethel-music"
+    },
+    {
+      "name": "My Father's World",
+      "artists": "Jadon Lavik",
+      "album": "Roots Run Deep",
+      "popularity": 56,
+      "tempo": 94.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.218,
+      "valence": 0.244,
+      "danceability": 0.458,
+      "acousticness": 0.762,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.028,
+      "duration_ms": 163880,
+      "slug": "my-fathers-world-jadon-lavik"
+    },
+    {
+      "name": "The Power of Your Love - Live",
+      "artists": "Hillsong Worship;Integrity's Hosanna! Music;Darlene Zschech",
+      "album": "Shout to the Lord (Live)",
+      "popularity": 56,
+      "tempo": 80.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.396,
+      "valence": 0.255,
+      "danceability": 0.454,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -11.5,
+      "speechiness": 0.024,
+      "duration_ms": 302093,
+      "slug": "the-power-of-your-love-live-hillsong-worship"
+    },
+    {
+      "name": "Rescuer (Good News)",
+      "artists": "Rend Collective",
+      "album": "Good News (Deluxe Edition)",
+      "popularity": 56,
+      "tempo": 152.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.72,
+      "valence": 0.553,
+      "danceability": 0.494,
+      "acousticness": 0.398,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.057,
+      "duration_ms": 208800,
+      "slug": "rescuer-good-news-rend-collective"
+    },
+    {
+      "name": "Priceless",
+      "artists": "for KING & COUNTRY",
+      "album": "RUN WILD. LIVE FREE. LOVE STRONG. (Deluxe Anniversary Edition)",
+      "popularity": 56,
+      "tempo": 73.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.769,
+      "valence": 0.66,
+      "danceability": 0.529,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.047,
+      "duration_ms": 208520,
+      "slug": "priceless-for-king-country"
+    },
+    {
+      "name": "Stand In Your Love (Radio Version)",
+      "artists": "Bethel Music;Josh Baldwin",
+      "album": "Stand In Your Love (Radio Version)",
+      "popularity": 56,
+      "tempo": 144.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.342,
+      "danceability": 0.461,
+      "acousticness": 0.112,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.033,
+      "duration_ms": 221333,
+      "slug": "stand-in-your-love-radio-version-bethel-music"
+    },
+    {
+      "name": "When You Walk Into The Room",
+      "artists": "Bryan & Katie Torwalt",
+      "album": "Kingdom Come",
+      "popularity": 56,
+      "tempo": 143.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.58,
+      "valence": 0.118,
+      "danceability": 0.21,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.036,
+      "duration_ms": 288640,
+      "slug": "when-you-walk-into-the-room-bryan-katie-torwalt"
+    },
+    {
+      "name": "Faithful Now",
+      "artists": "Vertical Worship",
+      "album": "Grace Is On Our Side",
+      "popularity": 56,
+      "tempo": 73.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.186,
+      "danceability": 0.156,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.044,
+      "duration_ms": 234560,
+      "slug": "faithful-now-vertical-worship"
+    },
+    {
+      "name": "Endless Alleluia",
+      "artists": "Cory Asbury",
+      "album": "Reckless Love",
+      "popularity": 56,
+      "tempo": 77.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.179,
+      "valence": 0.229,
+      "danceability": 0.261,
+      "acousticness": 0.848,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.037,
+      "duration_ms": 265377,
+      "slug": "endless-alleluia-cory-asbury"
+    },
+    {
+      "name": "This Is How I Thank The Lord (feat. Cody Carnes, Amanda Cook, Joe L Barnes)",
+      "artists": "Mosaic MSC;Cody Carnes;Amanda Cook;Joe L Barnes",
+      "album": "Thanks",
+      "popularity": 56,
+      "tempo": 125.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.403,
+      "valence": 0.434,
+      "danceability": 0.455,
+      "acousticness": 0.555,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.039,
+      "duration_ms": 221274,
+      "slug": "this-is-how-i-thank-the-lord-feat-cody-carnes-amanda-cook-joe-l-barnes-mosaic-ms"
+    },
+    {
+      "name": "Blessed Be Your Name",
+      "artists": "Matt Redman",
+      "album": "Sing Like Never Before: The Essential Collection",
+      "popularity": 55,
+      "tempo": 116.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.819,
+      "valence": 0.098,
+      "danceability": 0.443,
+      "acousticness": 0.003,
+      "instrumentalness": 0.016,
+      "loudness": -6.6,
+      "speechiness": 0.061,
+      "duration_ms": 348893,
+      "slug": "blessed-be-your-name-matt-redman"
+    },
+    {
+      "name": "Surrounded (Fight My Battles)",
+      "artists": "Michael W. Smith",
+      "album": "Surrounded",
+      "popularity": 55,
+      "tempo": 140.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.556,
+      "valence": 0.231,
+      "danceability": 0.483,
+      "acousticness": 0.051,
+      "instrumentalness": 0.163,
+      "loudness": -8.3,
+      "speechiness": 0.032,
+      "duration_ms": 300026,
+      "slug": "surrounded-fight-my-battles-michael-w-smith"
+    },
+    {
+      "name": "I Am Not Alone - Live",
+      "artists": "Kari Jobe",
+      "album": "Majestic (Live)",
+      "popularity": 55,
+      "tempo": 135.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.318,
+      "valence": 0.201,
+      "danceability": 0.452,
+      "acousticness": 0.87,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.032,
+      "duration_ms": 333053,
+      "slug": "i-am-not-alone-live-kari-jobe"
+    },
+    {
+      "name": "Shoulders",
+      "artists": "for KING & COUNTRY",
+      "album": "RUN WILD. LIVE FREE. LOVE STRONG. (Deluxe Anniversary Edition)",
+      "popularity": 55,
+      "tempo": 98.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.744,
+      "valence": 0.161,
+      "danceability": 0.518,
+      "acousticness": 0.171,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.035,
+      "duration_ms": 303306,
+      "slug": "shoulders-for-king-country"
+    },
+    {
+      "name": "Home",
+      "artists": "Chris Tomlin",
+      "album": "Never Lose Sight (Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 85.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.786,
+      "valence": 0.461,
+      "danceability": 0.468,
+      "acousticness": 0.036,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.033,
+      "duration_ms": 219720,
+      "slug": "home-chris-tomlin"
+    },
+    {
+      "name": "Love Me Like I Am (with Jordin Sparks)",
+      "artists": "for KING & COUNTRY;Jordin Sparks",
+      "album": "Love Me Like I Am (with Jordin Sparks)",
+      "popularity": 55,
+      "tempo": 159.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.606,
+      "valence": 0.301,
+      "danceability": 0.536,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.042,
+      "duration_ms": 187306,
+      "slug": "love-me-like-i-am-with-jordin-sparks-for-king-country"
+    },
+    {
+      "name": "Dancing on the Waves",
+      "artists": "Bethel Music;We The Kingdom",
+      "album": "Peace",
+      "popularity": 55,
+      "tempo": 90.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.209,
+      "valence": 0.365,
+      "danceability": 0.318,
+      "acousticness": 0.934,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.029,
+      "duration_ms": 376093,
+      "slug": "dancing-on-the-waves-bethel-music"
+    },
+    {
+      "name": "Holy Spirit - Live",
+      "artists": "Jesus Culture;Kim Walker-Smith",
+      "album": "Live From New York",
+      "popularity": 55,
+      "tempo": 144.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.533,
+      "valence": 0.069,
+      "danceability": 0.363,
+      "acousticness": 0.136,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.031,
+      "duration_ms": 489453,
+      "slug": "holy-spirit-live-jesus-culture"
+    },
+    {
+      "name": "Heart & Flesh",
+      "artists": "Leeland;TAYA",
+      "album": "Heart & Flesh",
+      "popularity": 55,
+      "tempo": 131.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.386,
+      "valence": 0.151,
+      "danceability": 0.27,
+      "acousticness": 0.269,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.03,
+      "duration_ms": 431520,
+      "slug": "heart-flesh-leeland"
+    },
+    {
+      "name": "RELATE",
+      "artists": "for KING & COUNTRY",
+      "album": "What Are We Waiting For?",
+      "popularity": 55,
+      "tempo": 100.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.566,
+      "valence": 0.33,
+      "danceability": 0.694,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.17,
+      "duration_ms": 173500,
+      "slug": "relate-for-king-country"
+    },
+    {
+      "name": "Tend",
+      "artists": "Bethel Music;Emmy Rose",
+      "album": "Simple",
+      "popularity": 55,
+      "tempo": 135.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.155,
+      "valence": 0.223,
+      "danceability": 0.517,
+      "acousticness": 0.877,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.032,
+      "duration_ms": 293377,
+      "slug": "tend-bethel-music"
+    }
+  ]
+}

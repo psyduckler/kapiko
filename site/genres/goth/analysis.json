@@ -1,0 +1,2803 @@
+{
+  "genre": "Goth",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 75.026,
+    "max": 198.121,
+    "mean": 126.363,
+    "median": 120.023,
+    "q1": 101.492,
+    "q3": 150.025,
+    "histogram": {
+      "70-79": 6,
+      "80-89": 6,
+      "90-99": 9,
+      "100-109": 14,
+      "110-119": 13,
+      "120-129": 11,
+      "130-139": 5,
+      "140-149": 11,
+      "150-159": 6,
+      "160-169": 6,
+      "170-179": 8,
+      "180-189": 4,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "D": 18,
+    "C": 12,
+    "G": 11,
+    "F": 10,
+    "A#/Bb": 9,
+    "B": 8,
+    "E": 8,
+    "F#/Gb": 7,
+    "C#/Db": 5,
+    "A": 5,
+    "D#/Eb": 4,
+    "G#/Ab": 3
+  },
+  "mode_distribution": {
+    "Major": 46,
+    "Minor": 54
+  },
+  "key_mode_distribution": {
+    "D Minor": 12,
+    "G Major": 8,
+    "F Minor": 7,
+    "B Minor": 7,
+    "A#/Bb Minor": 7,
+    "C Minor": 6,
+    "C Major": 6,
+    "D Major": 6,
+    "E Minor": 6,
+    "C#/Db Major": 5,
+    "F#/Gb Major": 4,
+    "A Major": 4,
+    "D#/Eb Major": 3,
+    "F#/Gb Minor": 3,
+    "F Major": 3,
+    "G Minor": 3,
+    "E Major": 2,
+    "A#/Bb Major": 2,
+    "G#/Ab Major": 2,
+    "G#/Ab Minor": 1,
+    "A Minor": 1,
+    "B Major": 1,
+    "D#/Eb Minor": 1
+  },
+  "energy": {
+    "min": 0.15,
+    "max": 0.991,
+    "mean": 0.798,
+    "median": 0.867,
+    "q1": 0.7,
+    "q3": 0.945
+  },
+  "valence": {
+    "min": 0.045,
+    "max": 0.818,
+    "mean": 0.352,
+    "median": 0.315,
+    "q1": 0.225,
+    "q3": 0.485
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.306,
+      "valence": 0.314
+    },
+    {
+      "energy": 0.15,
+      "valence": 0.314
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.045
+    },
+    {
+      "energy": 0.901,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.436,
+      "valence": 0.36
+    },
+    {
+      "energy": 0.251,
+      "valence": 0.27
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.83,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.416
+    },
+    {
+      "energy": 0.93,
+      "valence": 0.294
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.346
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.986,
+      "valence": 0.199
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.165
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.872,
+      "valence": 0.46
+    },
+    {
+      "energy": 0.588,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.172
+    },
+    {
+      "energy": 0.971,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.12
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.374
+    },
+    {
+      "energy": 0.732,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.991,
+      "valence": 0.134
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.279
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.352
+    },
+    {
+      "energy": 0.556,
+      "valence": 0.746
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.2
+    },
+    {
+      "energy": 0.699,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.552
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.583
+    },
+    {
+      "energy": 0.945,
+      "valence": 0.22
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.318
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.101
+    },
+    {
+      "energy": 0.851,
+      "valence": 0.512
+    },
+    {
+      "energy": 0.93,
+      "valence": 0.361
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.253
+    },
+    {
+      "energy": 0.734,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.751,
+      "valence": 0.208
+    },
+    {
+      "energy": 0.197,
+      "valence": 0.228
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.51,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.596,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.25
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.127
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.222
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.122
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.583,
+      "valence": 0.139
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.153
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.818
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.255
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.63
+    },
+    {
+      "energy": 0.643,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.972,
+      "valence": 0.225
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.193
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.071
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.215
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.384
+    },
+    {
+      "energy": 0.969,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.229
+    },
+    {
+      "energy": 0.962,
+      "valence": 0.27
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.225
+    },
+    {
+      "energy": 0.497,
+      "valence": 0.281
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.346
+    },
+    {
+      "energy": 0.266,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.114
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.977,
+    "mean": 0.076,
+    "median": 0.003,
+    "q1": 0.0,
+    "q3": 0.031
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.876,
+    "mean": 0.113,
+    "median": 0.001,
+    "q1": 0.0,
+    "q3": 0.053
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.726,
+      "instrumentalness": 0.168
+    },
+    {
+      "acousticness": 0.974,
+      "instrumentalness": 0.735
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.766
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.604
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.161,
+      "instrumentalness": 0.106
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.104
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.029
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.053
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.047
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.856
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.876
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.199,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.432,
+      "instrumentalness": 0.292
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.359,
+      "instrumentalness": 0.084
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.549
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.02
+    },
+    {
+      "acousticness": 0.19,
+      "instrumentalness": 0.016
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.293,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.809
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.678
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.292
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.188
+    },
+    {
+      "acousticness": 0.148,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.895,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.641
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.04
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.25
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.977,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.214,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.416
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.791
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.162
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.04
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.074
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.15,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.344
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.954,
+      "instrumentalness": 0.807
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.216
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    }
+  ],
+  "duration": {
+    "min": 129199,
+    "max": 675653,
+    "mean": 256991.55,
+    "median": 238733.5,
+    "q1": 204006,
+    "q3": 287000
+  },
+  "danceability": {
+    "min": 0.203,
+    "max": 0.743,
+    "mean": 0.456,
+    "median": 0.448,
+    "q1": 0.401,
+    "q3": 0.524
+  },
+  "loudness": {
+    "min": -18.156,
+    "max": -1.998,
+    "mean": -6.586,
+    "median": -5.856,
+    "q1": -8.062,
+    "q3": -4.53
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.189,
+    "mean": 0.06,
+    "median": 0.049,
+    "q1": 0.038,
+    "q3": 0.07
+  },
+  "top_artists": [
+    {
+      "name": "Nightwish",
+      "count": 16
+    },
+    {
+      "name": "Within Temptation",
+      "count": 14
+    },
+    {
+      "name": "Amaranthe",
+      "count": 10
+    },
+    {
+      "name": "In Flames",
+      "count": 9
+    },
+    {
+      "name": "Siouxsie and the Banshees",
+      "count": 6
+    },
+    {
+      "name": "Jos\u00e9 Gonz\u00e1lez",
+      "count": 4
+    },
+    {
+      "name": "Type O Negative",
+      "count": 4
+    },
+    {
+      "name": "HammerFall",
+      "count": 3
+    },
+    {
+      "name": "Little Dragon",
+      "count": 3
+    },
+    {
+      "name": "Bauhaus",
+      "count": 3
+    },
+    {
+      "name": "Lacuna Coil",
+      "count": 3
+    },
+    {
+      "name": "Epica",
+      "count": 3
+    },
+    {
+      "name": "Icon For Hire",
+      "count": 2
+    },
+    {
+      "name": "The Cramps",
+      "count": 2
+    },
+    {
+      "name": "Cyhra",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Stay Alive",
+      "artists": "Jos\u00e9 Gonz\u00e1lez",
+      "album": "Stay Alive (From The Secret Life Of Walter Mitty)",
+      "popularity": 67,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.306,
+      "valence": 0.314,
+      "danceability": 0.714,
+      "acousticness": 0.726,
+      "instrumentalness": 0.168,
+      "loudness": -12.1,
+      "speechiness": 0.039,
+      "duration_ms": 266906,
+      "slug": "stay-alive-jos\u00e9-gonz\u00e1lez"
+    },
+    {
+      "name": "Heartbeats",
+      "artists": "Jos\u00e9 Gonz\u00e1lez",
+      "album": "Veneer",
+      "popularity": 66,
+      "tempo": 88.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.15,
+      "valence": 0.314,
+      "danceability": 0.554,
+      "acousticness": 0.974,
+      "instrumentalness": 0.735,
+      "loudness": -16.7,
+      "speechiness": 0.034,
+      "duration_ms": 160240,
+      "slug": "heartbeats-jos\u00e9-gonz\u00e1lez"
+    },
+    {
+      "name": "Spellbound",
+      "artists": "Siouxsie and the Banshees",
+      "album": "Juju",
+      "popularity": 64,
+      "tempo": 148.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.853,
+      "valence": 0.302,
+      "danceability": 0.415,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.038,
+      "duration_ms": 197013,
+      "slug": "spellbound-siouxsie-and-the-banshees"
+    },
+    {
+      "name": "Only for the Weak",
+      "artists": "In Flames",
+      "album": "Clayman",
+      "popularity": 63,
+      "tempo": 105.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.835,
+      "valence": 0.549,
+      "danceability": 0.418,
+      "acousticness": 0.0,
+      "instrumentalness": 0.766,
+      "loudness": -4.8,
+      "speechiness": 0.045,
+      "duration_ms": 294866,
+      "slug": "only-for-the-weak-in-flames"
+    },
+    {
+      "name": "Drop Dead Cynical",
+      "artists": "Amaranthe",
+      "album": "MASSIVE ADDICTIVE",
+      "popularity": 63,
+      "tempo": 140.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.485,
+      "danceability": 0.286,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.09,
+      "duration_ms": 197853,
+      "slug": "drop-dead-cynical-amaranthe"
+    },
+    {
+      "name": "I Don't Wanna Be Me",
+      "artists": "Type O Negative",
+      "album": "Life Is Killing Me",
+      "popularity": 63,
+      "tempo": 100.6,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.977,
+      "valence": 0.045,
+      "danceability": 0.474,
+      "acousticness": 0.024,
+      "instrumentalness": 0.604,
+      "loudness": -8.7,
+      "speechiness": 0.15,
+      "duration_ms": 308826,
+      "slug": "i-dont-wanna-be-me-type-o-negative"
+    },
+    {
+      "name": "Hearts on Fire",
+      "artists": "HammerFall",
+      "album": "Crimson Thunder",
+      "popularity": 63,
+      "tempo": 91.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.901,
+      "valence": 0.337,
+      "danceability": 0.577,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.049,
+      "duration_ms": 231386,
+      "slug": "hearts-on-fire-hammerfall"
+    },
+    {
+      "name": "Where You Belong",
+      "artists": "Little Dragon",
+      "album": "New Me, Same Us",
+      "popularity": 62,
+      "tempo": 83.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.436,
+      "valence": 0.36,
+      "danceability": 0.737,
+      "acousticness": 0.161,
+      "instrumentalness": 0.106,
+      "loudness": -9.1,
+      "speechiness": 0.056,
+      "duration_ms": 207037,
+      "slug": "where-you-belong-little-dragon"
+    },
+    {
+      "name": "All We Ever Wanted Was Everything",
+      "artists": "Bauhaus",
+      "album": "The Sky's Gone Out",
+      "popularity": 62,
+      "tempo": 116.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.251,
+      "valence": 0.27,
+      "danceability": 0.601,
+      "acousticness": 0.118,
+      "instrumentalness": 0.104,
+      "loudness": -17.6,
+      "speechiness": 0.035,
+      "duration_ms": 232306,
+      "slug": "all-we-ever-wanted-was-everything-bauhaus"
+    },
+    {
+      "name": "Faster",
+      "artists": "Within Temptation",
+      "album": "The Unforgiving",
+      "popularity": 61,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.932,
+      "valence": 0.486,
+      "danceability": 0.505,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.041,
+      "duration_ms": 263973,
+      "slug": "faster-within-temptation"
+    },
+    {
+      "name": "The Phantom Of The Opera",
+      "artists": "Nightwish",
+      "album": "Century Child",
+      "popularity": 60,
+      "tempo": 131.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.829,
+      "valence": 0.356,
+      "danceability": 0.431,
+      "acousticness": 0.0,
+      "instrumentalness": 0.03,
+      "loudness": -7.7,
+      "speechiness": 0.049,
+      "duration_ms": 248706,
+      "slug": "the-phantom-of-the-opera-nightwish"
+    },
+    {
+      "name": "Archangel",
+      "artists": "Amaranthe",
+      "album": "Manifest",
+      "popularity": 60,
+      "tempo": 180.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.967,
+      "valence": 0.227,
+      "danceability": 0.407,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -7.1,
+      "speechiness": 0.067,
+      "duration_ms": 203373,
+      "slug": "archangel-amaranthe"
+    },
+    {
+      "name": "Wish I Had An Angel",
+      "artists": "Nightwish",
+      "album": "Highest Hopes-The Best Of Nightwish",
+      "popularity": 60,
+      "tempo": 79.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.936,
+      "valence": 0.58,
+      "danceability": 0.438,
+      "acousticness": 0.0,
+      "instrumentalness": 0.029,
+      "loudness": -6.5,
+      "speechiness": 0.053,
+      "duration_ms": 243213,
+      "slug": "wish-i-had-an-angel-nightwish"
+    },
+    {
+      "name": "Make A Move",
+      "artists": "Icon For Hire",
+      "album": "Scripted",
+      "popularity": 60,
+      "tempo": 83.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.83,
+      "valence": 0.714,
+      "danceability": 0.513,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.072,
+      "duration_ms": 183813,
+      "slug": "make-a-move-icon-for-hire"
+    },
+    {
+      "name": "Digital World",
+      "artists": "Amaranthe",
+      "album": "MASSIVE ADDICTIVE",
+      "popularity": 60,
+      "tempo": 150.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.948,
+      "valence": 0.567,
+      "danceability": 0.523,
+      "acousticness": 0.0,
+      "instrumentalness": 0.053,
+      "loudness": -4.6,
+      "speechiness": 0.12,
+      "duration_ms": 197666,
+      "slug": "digital-world-amaranthe"
+    },
+    {
+      "name": "Black No. 1 (Little Miss Scare -All)",
+      "artists": "Type O Negative",
+      "album": "Bloody Kisses (Top Shelf Edition)",
+      "popularity": 60,
+      "tempo": 93.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.7,
+      "valence": 0.416,
+      "danceability": 0.348,
+      "acousticness": 0.04,
+      "instrumentalness": 0.002,
+      "loudness": -8.9,
+      "speechiness": 0.061,
+      "duration_ms": 675653,
+      "slug": "black-no-1-little-miss-scare-all-type-o-negative"
+    },
+    {
+      "name": "The Passenger",
+      "artists": "Siouxsie and the Banshees",
+      "album": "Through The Looking Glass (Remastered And Expanded)",
+      "popularity": 60,
+      "tempo": 139.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.93,
+      "valence": 0.294,
+      "danceability": 0.457,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.067,
+      "duration_ms": 309306,
+      "slug": "the-passenger-siouxsie-and-the-banshees"
+    },
+    {
+      "name": "Cities In Dust",
+      "artists": "Siouxsie and the Banshees",
+      "album": "Tinderbox",
+      "popularity": 60,
+      "tempo": 120.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.974,
+      "valence": 0.337,
+      "danceability": 0.561,
+      "acousticness": 0.057,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.113,
+      "duration_ms": 231573,
+      "slug": "cities-in-dust-siouxsie-and-the-banshees"
+    },
+    {
+      "name": "Nemo",
+      "artists": "Nightwish",
+      "album": "Highest Hopes-The Best Of Nightwish",
+      "popularity": 59,
+      "tempo": 125.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.745,
+      "valence": 0.346,
+      "danceability": 0.498,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.035,
+      "duration_ms": 273626,
+      "slug": "nemo-nightwish"
+    },
+    {
+      "name": "I Was A Teenage Werewolf - Remastered",
+      "artists": "The Cramps",
+      "album": "Songs The Lord Taught Us",
+      "popularity": 59,
+      "tempo": 114.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.49,
+      "danceability": 0.412,
+      "acousticness": 0.001,
+      "instrumentalness": 0.047,
+      "loudness": -10.5,
+      "speechiness": 0.054,
+      "duration_ms": 183866,
+      "slug": "i-was-a-teenage-werewolf-remastered-the-cramps"
+    },
+    {
+      "name": "Foregone Pt. 1",
+      "artists": "In Flames",
+      "album": "Foregone Pt. 1",
+      "popularity": 59,
+      "tempo": 100.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.986,
+      "valence": 0.199,
+      "danceability": 0.467,
+      "acousticness": 0.0,
+      "instrumentalness": 0.014,
+      "loudness": -4.6,
+      "speechiness": 0.136,
+      "duration_ms": 204006,
+      "slug": "foregone-pt-1-in-flames"
+    },
+    {
+      "name": "Cloud Connected",
+      "artists": "In Flames",
+      "album": "Reroute to Remain",
+      "popularity": 59,
+      "tempo": 95.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.908,
+      "valence": 0.313,
+      "danceability": 0.48,
+      "acousticness": 0.0,
+      "instrumentalness": 0.856,
+      "loudness": -5.5,
+      "speechiness": 0.045,
+      "duration_ms": 220706,
+      "slug": "cloud-connected-in-flames"
+    },
+    {
+      "name": "Last Man Standing",
+      "artists": "HammerFall",
+      "album": "Any Means Necessary",
+      "popularity": 59,
+      "tempo": 110.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.803,
+      "valence": 0.165,
+      "danceability": 0.533,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.038,
+      "duration_ms": 270233,
+      "slug": "last-man-standing-hammerfall"
+    },
+    {
+      "name": "Human Fly",
+      "artists": "The Cramps",
+      "album": "Off The Bone",
+      "popularity": 59,
+      "tempo": 119.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.305,
+      "danceability": 0.531,
+      "acousticness": 0.039,
+      "instrumentalness": 0.008,
+      "loudness": -10.8,
+      "speechiness": 0.111,
+      "duration_ms": 136426,
+      "slug": "human-fly-the-cramps"
+    },
+    {
+      "name": "PvP",
+      "artists": "Amaranthe",
+      "album": "PvP",
+      "popularity": 58,
+      "tempo": 169.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.963,
+      "valence": 0.515,
+      "danceability": 0.436,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.083,
+      "duration_ms": 179093,
+      "slug": "pvp-amaranthe"
+    },
+    {
+      "name": "The Jester's Dance",
+      "artists": "In Flames",
+      "album": "The Jester Race (Black Ash-Inheritance Version)",
+      "popularity": 58,
+      "tempo": 178.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.872,
+      "valence": 0.46,
+      "danceability": 0.276,
+      "acousticness": 0.0,
+      "instrumentalness": 0.876,
+      "loudness": -10.2,
+      "speechiness": 0.039,
+      "duration_ms": 129199,
+      "slug": "the-jesters-dance-in-flames"
+    },
+    {
+      "name": "\u00c9lan",
+      "artists": "Nightwish",
+      "album": "Endless Forms Most Beautiful (Deluxe Version)",
+      "popularity": 58,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.588,
+      "valence": 0.316,
+      "danceability": 0.576,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.031,
+      "duration_ms": 287000,
+      "slug": "\u00e9lan-nightwish"
+    },
+    {
+      "name": "Amaranth",
+      "artists": "Nightwish",
+      "album": "Dark Passion Play",
+      "popularity": 58,
+      "tempo": 128.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.31,
+      "danceability": 0.558,
+      "acousticness": 0.005,
+      "instrumentalness": 0.002,
+      "loudness": -4.0,
+      "speechiness": 0.042,
+      "duration_ms": 231444,
+      "slug": "amaranth-nightwish"
+    },
+    {
+      "name": "I Am Above",
+      "artists": "In Flames",
+      "album": "I, the Mask",
+      "popularity": 58,
+      "tempo": 120.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.977,
+      "valence": 0.172,
+      "danceability": 0.545,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.106,
+      "duration_ms": 229816,
+      "slug": "i-am-above-in-flames"
+    },
+    {
+      "name": "Storytime",
+      "artists": "Nightwish",
+      "album": "Imaginaerum",
+      "popularity": 58,
+      "tempo": 156.2,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.971,
+      "valence": 0.483,
+      "danceability": 0.465,
+      "acousticness": 0.004,
+      "instrumentalness": 0.004,
+      "loudness": -3.5,
+      "speechiness": 0.075,
+      "duration_ms": 322280,
+      "slug": "storytime-nightwish"
+    },
+    {
+      "name": "Dear Prudence",
+      "artists": "Siouxsie and the Banshees",
+      "album": "Hyaena (Remastered And Expanded)",
+      "popularity": 58,
+      "tempo": 101.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.42,
+      "danceability": 0.426,
+      "acousticness": 0.012,
+      "instrumentalness": 0.001,
+      "loudness": -4.4,
+      "speechiness": 0.047,
+      "duration_ms": 228200,
+      "slug": "dear-prudence-siouxsie-and-the-banshees"
+    },
+    {
+      "name": "All I Need",
+      "artists": "Within Temptation",
+      "album": "The Heart Of Everything",
+      "popularity": 57,
+      "tempo": 153.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.12,
+      "danceability": 0.234,
+      "acousticness": 0.199,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.045,
+      "duration_ms": 290946,
+      "slug": "all-i-need-within-temptation"
+    },
+    {
+      "name": "Find Life",
+      "artists": "Amaranthe",
+      "album": "Find Life",
+      "popularity": 57,
+      "tempo": 139.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.374,
+      "danceability": 0.524,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.087,
+      "duration_ms": 184346,
+      "slug": "find-life-amaranthe"
+    },
+    {
+      "name": "Trees and Flowers",
+      "artists": "Strawberry Switchblade",
+      "album": "1982 4 Piece Demo",
+      "popularity": 57,
+      "tempo": 118.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.732,
+      "valence": 0.805,
+      "danceability": 0.426,
+      "acousticness": 0.432,
+      "instrumentalness": 0.292,
+      "loudness": -5.8,
+      "speechiness": 0.033,
+      "duration_ms": 194821,
+      "slug": "trees-and-flowers-strawberry-switchblade"
+    },
+    {
+      "name": "Noise",
+      "artists": "Nightwish",
+      "album": "HUMAN. :II: NATURE.",
+      "popularity": 57,
+      "tempo": 77.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.85,
+      "valence": 0.434,
+      "danceability": 0.5,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -7.8,
+      "speechiness": 0.049,
+      "duration_ms": 340281,
+      "slug": "noise-nightwish"
+    },
+    {
+      "name": "Love You to Death",
+      "artists": "Type O Negative",
+      "album": "October Rust (Special Edition)",
+      "popularity": 57,
+      "tempo": 111.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.738,
+      "valence": 0.276,
+      "danceability": 0.423,
+      "acousticness": 0.359,
+      "instrumentalness": 0.084,
+      "loudness": -7.3,
+      "speechiness": 0.032,
+      "duration_ms": 428800,
+      "slug": "love-you-to-death-type-o-negative"
+    },
+    {
+      "name": "State Of Slow Decay",
+      "artists": "In Flames",
+      "album": "State Of Slow Decay",
+      "popularity": 57,
+      "tempo": 120.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.991,
+      "valence": 0.134,
+      "danceability": 0.465,
+      "acousticness": 0.0,
+      "instrumentalness": 0.009,
+      "loudness": -4.8,
+      "speechiness": 0.115,
+      "duration_ms": 238187,
+      "slug": "state-of-slow-decay-in-flames"
+    },
+    {
+      "name": "The Nexus",
+      "artists": "Amaranthe",
+      "album": "The Nexus",
+      "popularity": 57,
+      "tempo": 105.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.963,
+      "valence": 0.636,
+      "danceability": 0.503,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.124,
+      "duration_ms": 196040,
+      "slug": "the-nexus-amaranthe"
+    },
+    {
+      "name": "Strong",
+      "artists": "Amaranthe;Noora Louhimo",
+      "album": "Manifest",
+      "popularity": 57,
+      "tempo": 180.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.561,
+      "danceability": 0.436,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.059,
+      "duration_ms": 186986,
+      "slug": "strong-amaranthe"
+    },
+    {
+      "name": "End Of All Hope",
+      "artists": "Nightwish",
+      "album": "Century Child",
+      "popularity": 57,
+      "tempo": 79.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.946,
+      "valence": 0.563,
+      "danceability": 0.477,
+      "acousticness": 0.0,
+      "instrumentalness": 0.027,
+      "loudness": -6.7,
+      "speechiness": 0.042,
+      "duration_ms": 233800,
+      "slug": "end-of-all-hope-nightwish"
+    },
+    {
+      "name": "The Great Deceiver",
+      "artists": "In Flames",
+      "album": "The Great Deceiver",
+      "popularity": 57,
+      "tempo": 170.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.985,
+      "valence": 0.279,
+      "danceability": 0.373,
+      "acousticness": 0.0,
+      "instrumentalness": 0.549,
+      "loudness": -4.2,
+      "speechiness": 0.114,
+      "duration_ms": 225314,
+      "slug": "the-great-deceiver-in-flames"
+    },
+    {
+      "name": "Eighties - 2007 Digital Remaster",
+      "artists": "Killing Joke",
+      "album": "Night Time",
+      "popularity": 57,
+      "tempo": 151.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.964,
+      "valence": 0.352,
+      "danceability": 0.393,
+      "acousticness": 0.001,
+      "instrumentalness": 0.02,
+      "loudness": -8.8,
+      "speechiness": 0.144,
+      "duration_ms": 239280,
+      "slug": "eighties-2007-digital-remaster-killing-joke"
+    },
+    {
+      "name": "Far From Any Road",
+      "artists": "The Handsome Family",
+      "album": "Singing Bones",
+      "popularity": 56,
+      "tempo": 120.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.556,
+      "valence": 0.746,
+      "danceability": 0.707,
+      "acousticness": 0.19,
+      "instrumentalness": 0.016,
+      "loudness": -10.1,
+      "speechiness": 0.03,
+      "duration_ms": 166493,
+      "slug": "far-from-any-road-the-handsome-family"
+    },
+    {
+      "name": "While Your Lips Are Still Red - Theme from the Movie \"Lieksa!\"",
+      "artists": "Nightwish",
+      "album": "The Sound of Nightwish Reborn",
+      "popularity": 56,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.658,
+      "valence": 0.113,
+      "danceability": 0.472,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.026,
+      "duration_ms": 258977,
+      "slug": "while-your-lips-are-still-red-theme-from-the-movie-lieksa-nightwish"
+    },
+    {
+      "name": "Angels",
+      "artists": "Within Temptation",
+      "album": "The Silent Force",
+      "popularity": 56,
+      "tempo": 182.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.867,
+      "valence": 0.2,
+      "danceability": 0.341,
+      "acousticness": 0.293,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.049,
+      "duration_ms": 240440,
+      "slug": "angels-within-temptation"
+    },
+    {
+      "name": "Heavy Wave",
+      "artists": "Motorama",
+      "album": "Poverty",
+      "popularity": 56,
+      "tempo": 77.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.699,
+      "valence": 0.511,
+      "danceability": 0.586,
+      "acousticness": 0.114,
+      "instrumentalness": 0.809,
+      "loudness": -7.8,
+      "speechiness": 0.029,
+      "duration_ms": 209002,
+      "slug": "heavy-wave-motorama"
+    },
+    {
+      "name": "Bela Lugosi's Dead (Official Version)",
+      "artists": "Bauhaus",
+      "album": "The Bela Session",
+      "popularity": 56,
+      "tempo": 153.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.692,
+      "valence": 0.552,
+      "danceability": 0.594,
+      "acousticness": 0.013,
+      "instrumentalness": 0.678,
+      "loudness": -9.4,
+      "speechiness": 0.114,
+      "duration_ms": 576703,
+      "slug": "bela-lugosis-dead-official-version-bauhaus"
+    },
+    {
+      "name": "Over The Hills And Far Away",
+      "artists": "Nightwish",
+      "album": "Over The Hills And Far Away",
+      "popularity": 56,
+      "tempo": 101.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.915,
+      "valence": 0.381,
+      "danceability": 0.224,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.07,
+      "duration_ms": 302266,
+      "slug": "over-the-hills-and-far-away-nightwish"
+    },
+    {
+      "name": "Viral",
+      "artists": "Amaranthe",
+      "album": "Manifest",
+      "popularity": 56,
+      "tempo": 105.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.968,
+      "valence": 0.583,
+      "danceability": 0.563,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.053,
+      "duration_ms": 181200,
+      "slug": "viral-amaranthe"
+    },
+    {
+      "name": "Valley of Disease",
+      "artists": "Avatar",
+      "album": "Valley of Disease",
+      "popularity": 56,
+      "tempo": 179.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.945,
+      "valence": 0.22,
+      "danceability": 0.437,
+      "acousticness": 0.0,
+      "instrumentalness": 0.292,
+      "loudness": -5.2,
+      "speechiness": 0.074,
+      "duration_ms": 248092,
+      "slug": "valley-of-disease-avatar"
+    },
+    {
+      "name": "Happy House",
+      "artists": "Siouxsie and the Banshees",
+      "album": "Kaleidoscope (Remastered & Expanded)",
+      "popularity": 56,
+      "tempo": 119.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.705,
+      "valence": 0.334,
+      "danceability": 0.543,
+      "acousticness": 0.011,
+      "instrumentalness": 0.188,
+      "loudness": -8.1,
+      "speechiness": 0.046,
+      "duration_ms": 231706,
+      "slug": "happy-house-siouxsie-and-the-banshees"
+    },
+    {
+      "name": "Christian Woman",
+      "artists": "Type O Negative",
+      "album": "Bloody Kisses (Top Shelf Edition)",
+      "popularity": 56,
+      "tempo": 90.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.619,
+      "valence": 0.131,
+      "danceability": 0.285,
+      "acousticness": 0.148,
+      "instrumentalness": 0.024,
+      "loudness": -9.0,
+      "speechiness": 0.04,
+      "duration_ms": 538106,
+      "slug": "christian-woman-type-o-negative"
+    },
+    {
+      "name": "Crosses",
+      "artists": "Jos\u00e9 Gonz\u00e1lez",
+      "album": "Veneer",
+      "popularity": 55,
+      "tempo": 134.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.369,
+      "valence": 0.318,
+      "danceability": 0.666,
+      "acousticness": 0.895,
+      "instrumentalness": 0.027,
+      "loudness": -9.9,
+      "speechiness": 0.029,
+      "duration_ms": 161840,
+      "slug": "crosses-jos\u00e9-gonz\u00e1lez"
+    },
+    {
+      "name": "Out of My Life",
+      "artists": "Cyhra",
+      "album": "No Halos in Hell",
+      "popularity": 55,
+      "tempo": 140.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.952,
+      "valence": 0.37,
+      "danceability": 0.447,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.051,
+      "duration_ms": 197466,
+      "slug": "out-of-my-life-cyhra"
+    },
+    {
+      "name": "Enjoy the Silence - cover version",
+      "artists": "Lacuna Coil",
+      "album": "Karmacode",
+      "popularity": 55,
+      "tempo": 113.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.667,
+      "valence": 0.101,
+      "danceability": 0.503,
+      "acousticness": 0.001,
+      "instrumentalness": 0.027,
+      "loudness": -6.8,
+      "speechiness": 0.029,
+      "duration_ms": 245573,
+      "slug": "enjoy-the-silence-cover-version-lacuna-coil"
+    },
+    {
+      "name": "Dark Entries",
+      "artists": "Bauhaus",
+      "album": "In the Flat Field",
+      "popularity": 55,
+      "tempo": 171.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.851,
+      "valence": 0.512,
+      "danceability": 0.24,
+      "acousticness": 0.0,
+      "instrumentalness": 0.641,
+      "loudness": -11.9,
+      "speechiness": 0.049,
+      "duration_ms": 231560,
+      "slug": "dark-entries-bauhaus"
+    },
+    {
+      "name": "Alias",
+      "artists": "In Flames",
+      "album": "A Sense of Purpose (The Mirror's Truth Version)",
+      "popularity": 55,
+      "tempo": 170.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.93,
+      "valence": 0.361,
+      "danceability": 0.427,
+      "acousticness": 0.019,
+      "instrumentalness": 0.001,
+      "loudness": -3.7,
+      "speechiness": 0.059,
+      "duration_ms": 289240,
+      "slug": "alias-in-flames"
+    },
+    {
+      "name": "Nymphetamine Fix",
+      "artists": "Cradle Of Filth",
+      "album": "Nymphetamine Special Edition",
+      "popularity": 54,
+      "tempo": 122.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.905,
+      "valence": 0.253,
+      "danceability": 0.462,
+      "acousticness": 0.001,
+      "instrumentalness": 0.04,
+      "loudness": -3.8,
+      "speechiness": 0.044,
+      "duration_ms": 302360,
+      "slug": "nymphetamine-fix-cradle-of-filth"
+    },
+    {
+      "name": "Thin Flesh",
+      "artists": "Traitrs",
+      "album": "Butcher's Coin",
+      "popularity": 54,
+      "tempo": 76.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.734,
+      "valence": 0.185,
+      "danceability": 0.271,
+      "acousticness": 0.0,
+      "instrumentalness": 0.25,
+      "loudness": -2.3,
+      "speechiness": 0.04,
+      "duration_ms": 218750,
+      "slug": "thin-flesh-traitrs"
+    },
+    {
+      "name": "Amaranthine",
+      "artists": "Amaranthe",
+      "album": "Amaranthe (Special Edition)",
+      "popularity": 54,
+      "tempo": 178.1,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.751,
+      "valence": 0.208,
+      "danceability": 0.351,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.064,
+      "duration_ms": 209933,
+      "slug": "amaranthine-amaranthe"
+    },
+    {
+      "name": "Twice",
+      "artists": "Little Dragon",
+      "album": "Little Dragon",
+      "popularity": 54,
+      "tempo": 136.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.197,
+      "valence": 0.228,
+      "danceability": 0.394,
+      "acousticness": 0.977,
+      "instrumentalness": 0.014,
+      "loudness": -11.7,
+      "speechiness": 0.035,
+      "duration_ms": 186186,
+      "slug": "twice-little-dragon"
+    },
+    {
+      "name": "Shot in the Dark",
+      "artists": "Within Temptation",
+      "album": "The Unforgiving",
+      "popularity": 54,
+      "tempo": 106.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.883,
+      "valence": 0.289,
+      "danceability": 0.524,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.035,
+      "duration_ms": 302240,
+      "slug": "shot-in-the-dark-within-temptation"
+    },
+    {
+      "name": "Cry for the Moon (The Embrace That Smothers , Pt. 4)",
+      "artists": "Epica",
+      "album": "The Phantom Agony (Expanded Edition)",
+      "popularity": 54,
+      "tempo": 180.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.902,
+      "valence": 0.302,
+      "danceability": 0.446,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.046,
+      "duration_ms": 406040,
+      "slug": "cry-for-the-moon-the-embrace-that-smothers-pt-4-epica"
+    },
+    {
+      "name": "Stay",
+      "artists": "Little Dragon;JID",
+      "album": "Opening The Door",
+      "popularity": 54,
+      "tempo": 80.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.51,
+      "valence": 0.586,
+      "danceability": 0.734,
+      "acousticness": 0.214,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.111,
+      "duration_ms": 228727,
+      "slug": "stay-little-dragon"
+    },
+    {
+      "name": "Don't Pray For Me",
+      "artists": "Within Temptation",
+      "album": "Don't Pray For Me",
+      "popularity": 54,
+      "tempo": 141.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.9,
+      "valence": 0.503,
+      "danceability": 0.481,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.07,
+      "duration_ms": 221560,
+      "slug": "dont-pray-for-me-within-temptation"
+    },
+    {
+      "name": "The Reckoning",
+      "artists": "Within Temptation;Jacoby Shaddix",
+      "album": "Resist (Extended Deluxe)",
+      "popularity": 54,
+      "tempo": 89.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.475,
+      "danceability": 0.31,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.056,
+      "duration_ms": 251106,
+      "slug": "the-reckoning-within-temptation"
+    },
+    {
+      "name": "Too Old to Die Young",
+      "artists": "Brother Dege",
+      "album": "Folk Songs of the American Longhair",
+      "popularity": 54,
+      "tempo": 112.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.596,
+      "valence": 0.743,
+      "danceability": 0.743,
+      "acousticness": 0.075,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.029,
+      "duration_ms": 224053,
+      "slug": "too-old-to-die-young-brother-dege"
+    },
+    {
+      "name": "Ever Dream",
+      "artists": "Nightwish",
+      "album": "Century Child",
+      "popularity": 54,
+      "tempo": 147.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.873,
+      "valence": 0.25,
+      "danceability": 0.394,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.059,
+      "duration_ms": 282933,
+      "slug": "ever-dream-nightwish"
+    },
+    {
+      "name": "Stand My Ground",
+      "artists": "Within Temptation",
+      "album": "The Silent Force",
+      "popularity": 54,
+      "tempo": 175.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.866,
+      "valence": 0.127,
+      "danceability": 0.271,
+      "acousticness": 0.049,
+      "instrumentalness": 0.001,
+      "loudness": -4.1,
+      "speechiness": 0.058,
+      "duration_ms": 267986,
+      "slug": "stand-my-ground-within-temptation"
+    },
+    {
+      "name": "The Reckoning",
+      "artists": "Within Temptation;Jacoby Shaddix",
+      "album": "The Reckoning",
+      "popularity": 53,
+      "tempo": 89.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.475,
+      "danceability": 0.31,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.056,
+      "duration_ms": 251106,
+      "slug": "the-reckoning-within-temptation"
+    },
+    {
+      "name": "Shed My Skin (feat. Annisokay)",
+      "artists": "Within Temptation;Annisokay",
+      "album": "Shed My Skin",
+      "popularity": 53,
+      "tempo": 93.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.941,
+      "valence": 0.222,
+      "danceability": 0.476,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.07,
+      "duration_ms": 270479,
+      "slug": "shed-my-skin-feat-annisokay-within-temptation"
+    },
+    {
+      "name": "What Have You Done (feat. Keith Caputo)",
+      "artists": "Within Temptation;Keith Caputo",
+      "album": "The Heart Of Everything",
+      "popularity": 53,
+      "tempo": 114.4,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.932,
+      "valence": 0.122,
+      "danceability": 0.259,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.189,
+      "duration_ms": 313333,
+      "slug": "what-have-you-done-feat-keith-caputo-within-temptation"
+    },
+    {
+      "name": "Stay with Me",
+      "artists": "In Flames",
+      "album": "I, the Mask",
+      "popularity": 53,
+      "tempo": 95.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.757,
+      "valence": 0.244,
+      "danceability": 0.424,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -7.3,
+      "speechiness": 0.036,
+      "duration_ms": 316907,
+      "slug": "stay-with-me-in-flames"
+    },
+    {
+      "name": "Last Ride of the Day",
+      "artists": "Nightwish",
+      "album": "Imaginaerum",
+      "popularity": 53,
+      "tempo": 162.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.951,
+      "valence": 0.581,
+      "danceability": 0.448,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.052,
+      "duration_ms": 271120,
+      "slug": "last-ride-of-the-day-nightwish"
+    },
+    {
+      "name": "Dreams Gone Wrong",
+      "artists": "Cyhra",
+      "album": "No Halos in Hell",
+      "popularity": 53,
+      "tempo": 163.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.557,
+      "danceability": 0.401,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.054,
+      "duration_ms": 215680,
+      "slug": "dreams-gone-wrong-cyhra"
+    },
+    {
+      "name": "Step Out",
+      "artists": "Jos\u00e9 Gonz\u00e1lez",
+      "album": "The Secret Life Of Walter Mitty (Music From And Inspired By The Motion Picture)",
+      "popularity": 52,
+      "tempo": 144.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.583,
+      "valence": 0.139,
+      "danceability": 0.431,
+      "acousticness": 0.014,
+      "instrumentalness": 0.416,
+      "loudness": -10.3,
+      "speechiness": 0.045,
+      "duration_ms": 241573,
+      "slug": "step-out-jos\u00e9-gonz\u00e1lez"
+    },
+    {
+      "name": "Youth Cults",
+      "artists": "Traitrs",
+      "album": "Rites and Ritual",
+      "popularity": 52,
+      "tempo": 171.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.153,
+      "danceability": 0.363,
+      "acousticness": 0.0,
+      "instrumentalness": 0.791,
+      "loudness": -5.3,
+      "speechiness": 0.04,
+      "duration_ms": 172117,
+      "slug": "youth-cults-traitrs"
+    },
+    {
+      "name": "Amaranth",
+      "artists": "Nightwish",
+      "album": "Dark Passion Play",
+      "popularity": 52,
+      "tempo": 128.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.31,
+      "danceability": 0.558,
+      "acousticness": 0.005,
+      "instrumentalness": 0.002,
+      "loudness": -4.0,
+      "speechiness": 0.042,
+      "duration_ms": 231444,
+      "slug": "amaranth-nightwish"
+    },
+    {
+      "name": "Venom",
+      "artists": "Icon For Hire",
+      "album": "Amorphous (Extended Edition)",
+      "popularity": 52,
+      "tempo": 144.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.918,
+      "valence": 0.818,
+      "danceability": 0.676,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.051,
+      "duration_ms": 175454,
+      "slug": "venom-icon-for-hire"
+    },
+    {
+      "name": "Swamped XX",
+      "artists": "Lacuna Coil",
+      "album": "Swamped XX",
+      "popularity": 52,
+      "tempo": 158.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.255,
+      "danceability": 0.321,
+      "acousticness": 0.0,
+      "instrumentalness": 0.162,
+      "loudness": -3.3,
+      "speechiness": 0.04,
+      "duration_ms": 212826,
+      "slug": "swamped-xx-lacuna-coil"
+    },
+    {
+      "name": "Never Forever",
+      "artists": "Elysion",
+      "album": "Silent Scream",
+      "popularity": 52,
+      "tempo": 160.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.876,
+      "valence": 0.63,
+      "danceability": 0.425,
+      "acousticness": 0.0,
+      "instrumentalness": 0.012,
+      "loudness": -5.1,
+      "speechiness": 0.045,
+      "duration_ms": 200800,
+      "slug": "never-forever-elysion"
+    },
+    {
+      "name": "How's the Heart?",
+      "artists": "Nightwish",
+      "album": "HUMAN. :II: NATURE.",
+      "popularity": 52,
+      "tempo": 104.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.643,
+      "valence": 0.272,
+      "danceability": 0.543,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.028,
+      "duration_ms": 302179,
+      "slug": "hows-the-heart-nightwish"
+    },
+    {
+      "name": "Wishmaster",
+      "artists": "Nightwish",
+      "album": "Wishmaster",
+      "popularity": 52,
+      "tempo": 174.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.427,
+      "danceability": 0.379,
+      "acousticness": 0.0,
+      "instrumentalness": 0.04,
+      "loudness": -4.9,
+      "speechiness": 0.114,
+      "duration_ms": 264026,
+      "slug": "wishmaster-nightwish"
+    },
+    {
+      "name": "Hallowed Be Thy Name",
+      "artists": "Cradle Of Filth",
+      "album": "Lovecraft & Witch Hearts",
+      "popularity": 51,
+      "tempo": 118.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.972,
+      "valence": 0.225,
+      "danceability": 0.428,
+      "acousticness": 0.0,
+      "instrumentalness": 0.074,
+      "loudness": -2.0,
+      "speechiness": 0.067,
+      "duration_ms": 430733,
+      "slug": "hallowed-be-thy-name-cradle-of-filth"
+    },
+    {
+      "name": "Raindrops",
+      "artists": "Shamrain",
+      "album": "Goodbye To All That",
+      "popularity": 51,
+      "tempo": 106.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.61,
+      "valence": 0.193,
+      "danceability": 0.466,
+      "acousticness": 0.005,
+      "instrumentalness": 0.019,
+      "loudness": -5.0,
+      "speechiness": 0.03,
+      "duration_ms": 270293,
+      "slug": "raindrops-shamrain"
+    },
+    {
+      "name": "Sleeping Sun",
+      "artists": "Nightwish",
+      "album": "Oceanborn",
+      "popularity": 51,
+      "tempo": 110.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.572,
+      "valence": 0.071,
+      "danceability": 0.333,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.03,
+      "duration_ms": 245000,
+      "slug": "sleeping-sun-nightwish"
+    },
+    {
+      "name": "Memories",
+      "artists": "Within Temptation",
+      "album": "The Silent Force",
+      "popularity": 51,
+      "tempo": 90.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.676,
+      "valence": 0.215,
+      "danceability": 0.43,
+      "acousticness": 0.15,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.027,
+      "duration_ms": 231186,
+      "slug": "memories-within-temptation"
+    },
+    {
+      "name": "Spellbound",
+      "artists": "Siouxsie and the Banshees",
+      "album": "Stranger Things: Soundtrack from the Netflix Series, Season 4",
+      "popularity": 51,
+      "tempo": 148.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.271,
+      "danceability": 0.41,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.051,
+      "duration_ms": 195506,
+      "slug": "spellbound-siouxsie-and-the-banshees"
+    },
+    {
+      "name": "Heaven's a Lie",
+      "artists": "Lacuna Coil",
+      "album": "Comalies",
+      "popularity": 51,
+      "tempo": 140.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.881,
+      "valence": 0.384,
+      "danceability": 0.426,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -3.5,
+      "speechiness": 0.04,
+      "duration_ms": 286533,
+      "slug": "heavens-a-lie-lacuna-coil"
+    },
+    {
+      "name": "Atoma",
+      "artists": "Dark Tranquillity",
+      "album": "Atoma",
+      "popularity": 51,
+      "tempo": 75.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.969,
+      "valence": 0.179,
+      "danceability": 0.413,
+      "acousticness": 0.0,
+      "instrumentalness": 0.344,
+      "loudness": -4.9,
+      "speechiness": 0.082,
+      "duration_ms": 259959,
+      "slug": "atoma-dark-tranquillity"
+    },
+    {
+      "name": "The Skeleton Key",
+      "artists": "Epica",
+      "album": "Omega",
+      "popularity": 51,
+      "tempo": 142.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.75,
+      "valence": 0.229,
+      "danceability": 0.486,
+      "acousticness": 0.014,
+      "instrumentalness": 0.001,
+      "loudness": -8.2,
+      "speechiness": 0.054,
+      "duration_ms": 306346,
+      "slug": "the-skeleton-key-epica"
+    },
+    {
+      "name": "Iron",
+      "artists": "Within Temptation",
+      "album": "The Unforgiving",
+      "popularity": 51,
+      "tempo": 198.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.962,
+      "valence": 0.27,
+      "danceability": 0.293,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.121,
+      "duration_ms": 341000,
+      "slug": "iron-within-temptation"
+    },
+    {
+      "name": "The Purge",
+      "artists": "Within Temptation",
+      "album": "The Purge",
+      "popularity": 51,
+      "tempo": 93.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.905,
+      "valence": 0.496,
+      "danceability": 0.487,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.074,
+      "duration_ms": 256466,
+      "slug": "the-purge-within-temptation"
+    },
+    {
+      "name": "Made of Lies",
+      "artists": "Elysion",
+      "album": "Someplace Better",
+      "popularity": 51,
+      "tempo": 147.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.858,
+      "valence": 0.225,
+      "danceability": 0.44,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.046,
+      "duration_ms": 199066,
+      "slug": "made-of-lies-elysion"
+    },
+    {
+      "name": "Crystalline",
+      "artists": "Amaranthe",
+      "album": "Manifest",
+      "popularity": 51,
+      "tempo": 109.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.497,
+      "valence": 0.281,
+      "danceability": 0.49,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.028,
+      "duration_ms": 200466,
+      "slug": "crystalline-amaranthe"
+    },
+    {
+      "name": "In the Middle of the Night",
+      "artists": "Within Temptation",
+      "album": "The Unforgiving",
+      "popularity": 51,
+      "tempo": 100.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.892,
+      "valence": 0.346,
+      "danceability": 0.502,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.031,
+      "duration_ms": 311626,
+      "slug": "in-the-middle-of-the-night-within-temptation"
+    },
+    {
+      "name": "Give Me Light",
+      "artists": "Marti West",
+      "album": "Give Me Light",
+      "popularity": 50,
+      "tempo": 115.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.266,
+      "valence": 0.324,
+      "danceability": 0.579,
+      "acousticness": 0.954,
+      "instrumentalness": 0.807,
+      "loudness": -18.2,
+      "speechiness": 0.036,
+      "duration_ms": 226000,
+      "slug": "give-me-light-marti-west"
+    },
+    {
+      "name": "To Leave",
+      "artists": "Shamrain",
+      "album": "Someplace Else",
+      "popularity": 50,
+      "tempo": 160.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.687,
+      "valence": 0.354,
+      "danceability": 0.361,
+      "acousticness": 0.0,
+      "instrumentalness": 0.216,
+      "loudness": -5.0,
+      "speechiness": 0.028,
+      "duration_ms": 267160,
+      "slug": "to-leave-shamrain"
+    },
+    {
+      "name": "Glory to the Brave",
+      "artists": "HammerFall",
+      "album": "Glory to the Brave",
+      "popularity": 50,
+      "tempo": 123.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.65,
+      "valence": 0.221,
+      "danceability": 0.469,
+      "acousticness": 0.045,
+      "instrumentalness": 0.001,
+      "loudness": -9.2,
+      "speechiness": 0.034,
+      "duration_ms": 440240,
+      "slug": "glory-to-the-brave-hammerfall"
+    },
+    {
+      "name": "The Great Tribulation (feat. Fleshgod Apocalypse)",
+      "artists": "Epica;Fleshgod Apocalypse",
+      "album": "The Great Tribulation (feat. Fleshgod Apocalypse)",
+      "popularity": 50,
+      "tempo": 95.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.114,
+      "danceability": 0.203,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -6.2,
+      "speechiness": 0.115,
+      "duration_ms": 303588,
+      "slug": "the-great-tribulation-feat-fleshgod-apocalypse-epica"
+    }
+  ]
+}

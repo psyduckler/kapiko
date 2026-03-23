@@ -1,0 +1,2795 @@
+{
+  "genre": "Honky-Tonk",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 62.914,
+    "max": 208.426,
+    "mean": 122.848,
+    "median": 120.712,
+    "q1": 98.146,
+    "q3": 144.25,
+    "histogram": {
+      "60-69": 3,
+      "70-79": 6,
+      "80-89": 12,
+      "90-99": 5,
+      "100-109": 8,
+      "110-119": 16,
+      "120-129": 14,
+      "130-139": 6,
+      "140-149": 8,
+      "150-159": 3,
+      "160-169": 14,
+      "170-179": 1,
+      "200+": 4
+    }
+  },
+  "key_distribution": {
+    "C": 19,
+    "G": 18,
+    "E": 14,
+    "A": 10,
+    "A#/Bb": 10,
+    "D": 6,
+    "F": 6,
+    "G#/Ab": 5,
+    "F#/Gb": 4,
+    "D#/Eb": 4,
+    "B": 3,
+    "C#/Db": 1
+  },
+  "mode_distribution": {
+    "Major": 97,
+    "Minor": 3
+  },
+  "key_mode_distribution": {
+    "C Major": 19,
+    "G Major": 18,
+    "E Major": 14,
+    "A Major": 9,
+    "A#/Bb Major": 9,
+    "D Major": 6,
+    "F Major": 6,
+    "G#/Ab Major": 5,
+    "F#/Gb Major": 4,
+    "D#/Eb Major": 4,
+    "B Major": 2,
+    "B Minor": 1,
+    "C#/Db Major": 1,
+    "A Minor": 1,
+    "A#/Bb Minor": 1
+  },
+  "energy": {
+    "min": 0.157,
+    "max": 0.8,
+    "mean": 0.332,
+    "median": 0.299,
+    "q1": 0.218,
+    "q3": 0.406
+  },
+  "valence": {
+    "min": 0.234,
+    "max": 0.961,
+    "mean": 0.654,
+    "median": 0.653,
+    "q1": 0.482,
+    "q3": 0.884
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.21,
+      "valence": 0.394
+    },
+    {
+      "energy": 0.701,
+      "valence": 0.918
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.959
+    },
+    {
+      "energy": 0.36,
+      "valence": 0.887
+    },
+    {
+      "energy": 0.406,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.769
+    },
+    {
+      "energy": 0.232,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.173,
+      "valence": 0.365
+    },
+    {
+      "energy": 0.298,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.273,
+      "valence": 0.493
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.262,
+      "valence": 0.317
+    },
+    {
+      "energy": 0.349,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.365,
+      "valence": 0.913
+    },
+    {
+      "energy": 0.182,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.218,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.236,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.32,
+      "valence": 0.234
+    },
+    {
+      "energy": 0.287,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.291,
+      "valence": 0.886
+    },
+    {
+      "energy": 0.424,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.278,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.37,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.16,
+      "valence": 0.401
+    },
+    {
+      "energy": 0.275,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.204,
+      "valence": 0.524
+    },
+    {
+      "energy": 0.567,
+      "valence": 0.957
+    },
+    {
+      "energy": 0.162,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.295,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.166,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.309,
+      "valence": 0.836
+    },
+    {
+      "energy": 0.395,
+      "valence": 0.589
+    },
+    {
+      "energy": 0.42,
+      "valence": 0.924
+    },
+    {
+      "energy": 0.373,
+      "valence": 0.893
+    },
+    {
+      "energy": 0.3,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.243,
+      "valence": 0.689
+    },
+    {
+      "energy": 0.405,
+      "valence": 0.706
+    },
+    {
+      "energy": 0.212,
+      "valence": 0.294
+    },
+    {
+      "energy": 0.231,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.277,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.441,
+      "valence": 0.795
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.892
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.846
+    },
+    {
+      "energy": 0.288,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.306,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.423,
+      "valence": 0.88
+    },
+    {
+      "energy": 0.392,
+      "valence": 0.951
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.188,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.209,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.35,
+      "valence": 0.654
+    },
+    {
+      "energy": 0.361,
+      "valence": 0.947
+    },
+    {
+      "energy": 0.202,
+      "valence": 0.89
+    },
+    {
+      "energy": 0.178,
+      "valence": 0.589
+    },
+    {
+      "energy": 0.327,
+      "valence": 0.742
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.29,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.42,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.38,
+      "valence": 0.891
+    },
+    {
+      "energy": 0.327,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.699
+    },
+    {
+      "energy": 0.223,
+      "valence": 0.535
+    },
+    {
+      "energy": 0.317,
+      "valence": 0.932
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.871
+    },
+    {
+      "energy": 0.213,
+      "valence": 0.618
+    },
+    {
+      "energy": 0.2,
+      "valence": 0.554
+    },
+    {
+      "energy": 0.279,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.197,
+      "valence": 0.689
+    },
+    {
+      "energy": 0.304,
+      "valence": 0.95
+    },
+    {
+      "energy": 0.248,
+      "valence": 0.865
+    },
+    {
+      "energy": 0.287,
+      "valence": 0.89
+    },
+    {
+      "energy": 0.384,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.164,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.431,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.182,
+      "valence": 0.704
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.482
+    },
+    {
+      "energy": 0.243,
+      "valence": 0.34
+    },
+    {
+      "energy": 0.157,
+      "valence": 0.412
+    },
+    {
+      "energy": 0.294,
+      "valence": 0.858
+    },
+    {
+      "energy": 0.425,
+      "valence": 0.679
+    },
+    {
+      "energy": 0.246,
+      "valence": 0.502
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.951
+    },
+    {
+      "energy": 0.21,
+      "valence": 0.635
+    },
+    {
+      "energy": 0.167,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.445,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.404,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.214,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.333,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.568,
+      "valence": 0.899
+    },
+    {
+      "energy": 0.247,
+      "valence": 0.732
+    },
+    {
+      "energy": 0.211,
+      "valence": 0.747
+    },
+    {
+      "energy": 0.351,
+      "valence": 0.559
+    },
+    {
+      "energy": 0.333,
+      "valence": 0.419
+    },
+    {
+      "energy": 0.499,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.943
+    },
+    {
+      "energy": 0.309,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.827
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.251,
+      "valence": 0.957
+    }
+  ],
+  "acousticness": {
+    "min": 0.172,
+    "max": 0.975,
+    "mean": 0.74,
+    "median": 0.76,
+    "q1": 0.663,
+    "q3": 0.858
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.958,
+    "mean": 0.034,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.247,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.517,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.805,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.722,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.387,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.785,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.594,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.725,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.95,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.706,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.706,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.672,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.537,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.801,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.971,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.874,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.766,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.582,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.701,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.706,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.283,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.761,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.788,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.826,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.944,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.449,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.887,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.824,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.64,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.668,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.836,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.774,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.706,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.663,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.56,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.749,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.791,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.639,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.779,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.858,
+      "instrumentalness": 0.958
+    },
+    {
+      "acousticness": 0.827,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.83,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.895,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.871,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.863,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.961,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.57,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.851,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.847,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.687,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.361
+    },
+    {
+      "acousticness": 0.852,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.666,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.702,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.797,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.612,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.663,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.794,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.47,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.709,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.565,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.447,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.95,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.825,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.868,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.887,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.511,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.898,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.703,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.924,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.971,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.844,
+      "instrumentalness": 0.499
+    },
+    {
+      "acousticness": 0.797,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.889,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.636,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.885,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.6,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.866,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.172,
+      "instrumentalness": 0.78
+    },
+    {
+      "acousticness": 0.614,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.739,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.888,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.689,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.81,
+      "instrumentalness": 0.672
+    },
+    {
+      "acousticness": 0.942,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.973,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.942,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.709,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.725,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.685,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.807,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.727,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.652,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.832,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 110826,
+    "max": 227786,
+    "mean": 163189.07,
+    "median": 164806.5,
+    "q1": 149800,
+    "q3": 177106
+  },
+  "danceability": {
+    "min": 0.29,
+    "max": 0.837,
+    "mean": 0.582,
+    "median": 0.591,
+    "q1": 0.502,
+    "q3": 0.675
+  },
+  "loudness": {
+    "min": -18.597,
+    "max": -6.246,
+    "mean": -11.766,
+    "median": -11.603,
+    "q1": -13.084,
+    "q3": -9.966
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.095,
+    "mean": 0.038,
+    "median": 0.034,
+    "q1": 0.03,
+    "q3": 0.04
+  },
+  "top_artists": [
+    {
+      "name": "Hank Williams",
+      "count": 31
+    },
+    {
+      "name": "George Jones",
+      "count": 30
+    },
+    {
+      "name": "Drifting Cowboys",
+      "count": 28
+    },
+    {
+      "name": "Faron Young",
+      "count": 7
+    },
+    {
+      "name": "Ernest Tubb",
+      "count": 6
+    },
+    {
+      "name": "Floyd Cramer",
+      "count": 5
+    },
+    {
+      "name": "Ray Price",
+      "count": 5
+    },
+    {
+      "name": "Lefty Frizzell",
+      "count": 3
+    },
+    {
+      "name": "Frankie Carle",
+      "count": 3
+    },
+    {
+      "name": "Stonewall Jackson",
+      "count": 2
+    },
+    {
+      "name": "Tammy Wynette",
+      "count": 2
+    },
+    {
+      "name": "Carl Smith",
+      "count": 2
+    },
+    {
+      "name": "Webb Pierce",
+      "count": 2
+    },
+    {
+      "name": "Carl Butler",
+      "count": 1
+    },
+    {
+      "name": "June Carter Cash",
+      "count": 1
+    }
+  ],
+  "tracks": [
+    {
+      "name": "He Stopped Loving Her Today",
+      "artists": "George Jones",
+      "album": "I Am What I Am (Expanded Edition)",
+      "popularity": 56,
+      "tempo": 144.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.21,
+      "valence": 0.394,
+      "danceability": 0.351,
+      "acousticness": 0.76,
+      "instrumentalness": 0.0,
+      "loudness": -14.8,
+      "speechiness": 0.033,
+      "duration_ms": 195760,
+      "slug": "he-stopped-loving-her-today-george-jones"
+    },
+    {
+      "name": "The Race Is On",
+      "artists": "George Jones",
+      "album": "I Get Lonely In A Hurry",
+      "popularity": 56,
+      "tempo": 170.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.701,
+      "valence": 0.918,
+      "danceability": 0.428,
+      "acousticness": 0.247,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.066,
+      "duration_ms": 127400,
+      "slug": "the-race-is-on-george-jones"
+    },
+    {
+      "name": "The One I Loved Back Then (The Corvette Song)",
+      "artists": "George Jones",
+      "album": "Who's Gonna Fill Their Shoes",
+      "popularity": 56,
+      "tempo": 159.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.468,
+      "valence": 0.959,
+      "danceability": 0.644,
+      "acousticness": 0.517,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.095,
+      "duration_ms": 150520,
+      "slug": "the-one-i-loved-back-then-the-corvette-song-george-jones"
+    },
+    {
+      "name": "Hey, Good Lookin'",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Memorial Album (Expanded Edition)",
+      "popularity": 55,
+      "tempo": 141.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.36,
+      "valence": 0.887,
+      "danceability": 0.777,
+      "acousticness": 0.805,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.04,
+      "duration_ms": 176893,
+      "slug": "hey-good-lookin-hank-williams"
+    },
+    {
+      "name": "Hello Walls",
+      "artists": "Faron Young",
+      "album": "The Complete Capitol Hits Of Faron Young",
+      "popularity": 55,
+      "tempo": 101.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.406,
+      "valence": 0.695,
+      "danceability": 0.62,
+      "acousticness": 0.722,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.028,
+      "duration_ms": 146840,
+      "slug": "hello-walls-faron-young"
+    },
+    {
+      "name": "Thanks A Lot",
+      "artists": "Ernest Tubb",
+      "album": "Retrospective (Volume 2)",
+      "popularity": 55,
+      "tempo": 167.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.769,
+      "danceability": 0.636,
+      "acousticness": 0.387,
+      "instrumentalness": 0.0,
+      "loudness": -14.0,
+      "speechiness": 0.039,
+      "duration_ms": 154333,
+      "slug": "thanks-a-lot-ernest-tubb"
+    },
+    {
+      "name": "He Stopped Loving Her Today",
+      "artists": "George Jones",
+      "album": "George Jones - 16 Biggest Hits",
+      "popularity": 54,
+      "tempo": 144.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.232,
+      "valence": 0.398,
+      "danceability": 0.333,
+      "acousticness": 0.785,
+      "instrumentalness": 0.001,
+      "loudness": -14.6,
+      "speechiness": 0.037,
+      "duration_ms": 197400,
+      "slug": "he-stopped-loving-her-today-george-jones"
+    },
+    {
+      "name": "He Stopped Loving Her Today",
+      "artists": "George Jones",
+      "album": "Super Hits",
+      "popularity": 54,
+      "tempo": 72.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.173,
+      "valence": 0.365,
+      "danceability": 0.43,
+      "acousticness": 0.594,
+      "instrumentalness": 0.0,
+      "loudness": -18.6,
+      "speechiness": 0.032,
+      "duration_ms": 195333,
+      "slug": "he-stopped-loving-her-today-george-jones"
+    },
+    {
+      "name": "Jambalaya (On The Bayou)",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Honky Tonkin (Expanded Undubbed Edition)",
+      "popularity": 54,
+      "tempo": 164.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.298,
+      "valence": 0.884,
+      "danceability": 0.504,
+      "acousticness": 0.725,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.035,
+      "duration_ms": 174866,
+      "slug": "jambalaya-on-the-bayou-hank-williams"
+    },
+    {
+      "name": "I Saw The Light",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Sings",
+      "popularity": 52,
+      "tempo": 204.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.273,
+      "valence": 0.493,
+      "danceability": 0.349,
+      "acousticness": 0.95,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.033,
+      "duration_ms": 166000,
+      "slug": "i-saw-the-light-hank-williams"
+    },
+    {
+      "name": "White Lightning - Single Version",
+      "artists": "George Jones",
+      "album": "Best Of",
+      "popularity": 52,
+      "tempo": 74.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.958,
+      "danceability": 0.583,
+      "acousticness": 0.706,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.091,
+      "duration_ms": 165453,
+      "slug": "white-lightning-single-version-george-jones"
+    },
+    {
+      "name": "White Lightning - Single Version",
+      "artists": "George Jones",
+      "album": "Best Of",
+      "popularity": 52,
+      "tempo": 74.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.958,
+      "danceability": 0.583,
+      "acousticness": 0.706,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.091,
+      "duration_ms": 165453,
+      "slug": "white-lightning-single-version-george-jones"
+    },
+    {
+      "name": "Who's Gonna Fill Their Shoes",
+      "artists": "George Jones",
+      "album": "Super Hits",
+      "popularity": 51,
+      "tempo": 138.3,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.262,
+      "valence": 0.317,
+      "danceability": 0.441,
+      "acousticness": 0.672,
+      "instrumentalness": 0.0,
+      "loudness": -13.4,
+      "speechiness": 0.03,
+      "duration_ms": 195133,
+      "slug": "whos-gonna-fill-their-shoes-george-jones"
+    },
+    {
+      "name": "Choices",
+      "artists": "George Jones",
+      "album": "Cold Hard Truth",
+      "popularity": 51,
+      "tempo": 138.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.349,
+      "valence": 0.316,
+      "danceability": 0.476,
+      "acousticness": 0.537,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.028,
+      "duration_ms": 206213,
+      "slug": "choices-george-jones"
+    },
+    {
+      "name": "Hey, Good Lookin'",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Complete Hank Williams",
+      "popularity": 50,
+      "tempo": 141.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.365,
+      "valence": 0.913,
+      "danceability": 0.785,
+      "acousticness": 0.801,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.038,
+      "duration_ms": 174293,
+      "slug": "hey-good-lookin-hank-williams"
+    },
+    {
+      "name": "Alone And Forsaken",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Moanin' The Blues (Expanded Edition)",
+      "popularity": 50,
+      "tempo": 80.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.182,
+      "valence": 0.488,
+      "danceability": 0.472,
+      "acousticness": 0.971,
+      "instrumentalness": 0.006,
+      "loudness": -12.3,
+      "speechiness": 0.065,
+      "duration_ms": 121733,
+      "slug": "alone-and-forsaken-hank-williams"
+    },
+    {
+      "name": "I'm So Lonesome I Could Cry",
+      "artists": "Hank Williams",
+      "album": "Moanin' The Blues (Expanded Edition)",
+      "popularity": 50,
+      "tempo": 111.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.218,
+      "valence": 0.652,
+      "danceability": 0.678,
+      "acousticness": 0.874,
+      "instrumentalness": 0.001,
+      "loudness": -13.1,
+      "speechiness": 0.029,
+      "duration_ms": 168773,
+      "slug": "im-so-lonesome-i-could-cry-hank-williams"
+    },
+    {
+      "name": "Your Cheatin' Heart",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Memorial Album (Expanded Edition)",
+      "popularity": 50,
+      "tempo": 127.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.236,
+      "valence": 0.653,
+      "danceability": 0.662,
+      "acousticness": 0.766,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.029,
+      "duration_ms": 164373,
+      "slug": "your-cheatin-heart-hank-williams"
+    },
+    {
+      "name": "If Drinkin' Don't Kill Me (Her Memory Will)",
+      "artists": "George Jones",
+      "album": "I Am What I Am (Expanded Edition)",
+      "popularity": 50,
+      "tempo": 89.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.32,
+      "valence": 0.234,
+      "danceability": 0.607,
+      "acousticness": 0.582,
+      "instrumentalness": 0.0,
+      "loudness": -13.0,
+      "speechiness": 0.03,
+      "duration_ms": 189933,
+      "slug": "if-drinkin-dont-kill-me-her-memory-will-george-jones"
+    },
+    {
+      "name": "Last Date - Instrumental",
+      "artists": "Floyd Cramer",
+      "album": "Last Date",
+      "popularity": 49,
+      "tempo": 205.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.287,
+      "valence": 0.716,
+      "danceability": 0.296,
+      "acousticness": 0.701,
+      "instrumentalness": 0.001,
+      "loudness": -13.0,
+      "speechiness": 0.035,
+      "duration_ms": 146933,
+      "slug": "last-date-instrumental-floyd-cramer"
+    },
+    {
+      "name": "Jambalaya (On The Bayou)",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Complete Hank Williams",
+      "popularity": 49,
+      "tempo": 164.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.291,
+      "valence": 0.886,
+      "danceability": 0.526,
+      "acousticness": 0.706,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.035,
+      "duration_ms": 172133,
+      "slug": "jambalaya-on-the-bayou-hank-williams"
+    },
+    {
+      "name": "She Thinks I Still Care",
+      "artists": "George Jones",
+      "album": "The New Favorites Of George Jones",
+      "popularity": 49,
+      "tempo": 115.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.424,
+      "valence": 0.613,
+      "danceability": 0.591,
+      "acousticness": 0.283,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.03,
+      "duration_ms": 154800,
+      "slug": "she-thinks-i-still-care-george-jones"
+    },
+    {
+      "name": "Tennessee Whiskey",
+      "artists": "George Jones",
+      "album": "Shine On",
+      "popularity": 49,
+      "tempo": 105.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.278,
+      "valence": 0.33,
+      "danceability": 0.587,
+      "acousticness": 0.761,
+      "instrumentalness": 0.0,
+      "loudness": -15.5,
+      "speechiness": 0.031,
+      "duration_ms": 171093,
+      "slug": "tennessee-whiskey-george-jones"
+    },
+    {
+      "name": "I Washed My Hands in Muddy Water",
+      "artists": "Stonewall Jackson",
+      "album": "Trouble & Me",
+      "popularity": 49,
+      "tempo": 81.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.37,
+      "valence": 0.653,
+      "danceability": 0.618,
+      "acousticness": 0.788,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.035,
+      "duration_ms": 162840,
+      "slug": "i-washed-my-hands-in-muddy-water-stonewall-jackson"
+    },
+    {
+      "name": "Long Black Veil",
+      "artists": "Lefty Frizzell",
+      "album": "American Originals",
+      "popularity": 48,
+      "tempo": 63.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.16,
+      "valence": 0.401,
+      "danceability": 0.558,
+      "acousticness": 0.826,
+      "instrumentalness": 0.0,
+      "loudness": -17.5,
+      "speechiness": 0.038,
+      "duration_ms": 182360,
+      "slug": "long-black-veil-lefty-frizzell"
+    },
+    {
+      "name": "The Grand Tour",
+      "artists": "George Jones",
+      "album": "George Jones - 16 Biggest Hits",
+      "popularity": 48,
+      "tempo": 88.7,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.275,
+      "valence": 0.449,
+      "danceability": 0.458,
+      "acousticness": 0.944,
+      "instrumentalness": 0.019,
+      "loudness": -11.5,
+      "speechiness": 0.026,
+      "duration_ms": 187373,
+      "slug": "the-grand-tour-george-jones"
+    },
+    {
+      "name": "For the Good Times",
+      "artists": "Ray Price",
+      "album": "The Essential Ray Price",
+      "popularity": 47,
+      "tempo": 83.3,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.204,
+      "valence": 0.524,
+      "danceability": 0.352,
+      "acousticness": 0.76,
+      "instrumentalness": 0.0,
+      "loudness": -15.4,
+      "speechiness": 0.031,
+      "duration_ms": 227786,
+      "slug": "for-the-good-times-ray-price"
+    },
+    {
+      "name": "Live Fast, Love Hard, Die Young",
+      "artists": "Faron Young",
+      "album": "The Complete Capitol Hits Of Faron Young",
+      "popularity": 47,
+      "tempo": 162.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.567,
+      "valence": 0.957,
+      "danceability": 0.583,
+      "acousticness": 0.661,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.038,
+      "duration_ms": 138960,
+      "slug": "live-fast-love-hard-die-young-faron-young"
+    },
+    {
+      "name": "Alone And Forsaken",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Original Singles Collection . . . Plus",
+      "popularity": 46,
+      "tempo": 76.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.162,
+      "valence": 0.472,
+      "danceability": 0.575,
+      "acousticness": 0.975,
+      "instrumentalness": 0.024,
+      "loudness": -11.6,
+      "speechiness": 0.049,
+      "duration_ms": 121066,
+      "slug": "alone-and-forsaken-hank-williams"
+    },
+    {
+      "name": "Walk Through This World With Me",
+      "artists": "George Jones",
+      "album": "Walk Through This World With Me",
+      "popularity": 46,
+      "tempo": 94.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.295,
+      "valence": 0.49,
+      "danceability": 0.435,
+      "acousticness": 0.449,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.028,
+      "duration_ms": 137960,
+      "slug": "walk-through-this-world-with-me-george-jones"
+    },
+    {
+      "name": "Cold, Cold Heart",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Memorial Album (Expanded Edition)",
+      "popularity": 46,
+      "tempo": 113.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.166,
+      "valence": 0.541,
+      "danceability": 0.576,
+      "acousticness": 0.887,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.037,
+      "duration_ms": 165800,
+      "slug": "cold-cold-heart-hank-williams"
+    },
+    {
+      "name": "Honky Tonk Blues",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Honky Tonkin (Expanded Undubbed Edition)",
+      "popularity": 46,
+      "tempo": 127.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.309,
+      "valence": 0.836,
+      "danceability": 0.777,
+      "acousticness": 0.824,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.042,
+      "duration_ms": 133306,
+      "slug": "honky-tonk-blues-hank-williams"
+    },
+    {
+      "name": "Waltz Across Texas",
+      "artists": "Ernest Tubb",
+      "album": "Retrospective (Volume 2)",
+      "popularity": 46,
+      "tempo": 98.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.395,
+      "valence": 0.589,
+      "danceability": 0.621,
+      "acousticness": 0.64,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.031,
+      "duration_ms": 158866,
+      "slug": "waltz-across-texas-ernest-tubb"
+    },
+    {
+      "name": "Move It On Over",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Memorial Album (Expanded Edition)",
+      "popularity": 46,
+      "tempo": 167.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.42,
+      "valence": 0.924,
+      "danceability": 0.613,
+      "acousticness": 0.936,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.048,
+      "duration_ms": 166160,
+      "slug": "move-it-on-over-hank-williams"
+    },
+    {
+      "name": "Pass The Booze",
+      "artists": "Ernest Tubb",
+      "album": "Retrospective (Volume 2)",
+      "popularity": 46,
+      "tempo": 163.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.373,
+      "valence": 0.893,
+      "danceability": 0.615,
+      "acousticness": 0.668,
+      "instrumentalness": 0.0,
+      "loudness": -13.2,
+      "speechiness": 0.036,
+      "duration_ms": 163360,
+      "slug": "pass-the-booze-ernest-tubb"
+    },
+    {
+      "name": "Settin' The Woods On Fire",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Memorial Album (Expanded Edition)",
+      "popularity": 45,
+      "tempo": 161.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.3,
+      "valence": 0.961,
+      "danceability": 0.757,
+      "acousticness": 0.836,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.043,
+      "duration_ms": 158266,
+      "slug": "settin-the-woods-on-fire-hank-williams"
+    },
+    {
+      "name": "Your Cheatin' Heart",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Complete Hank Williams",
+      "popularity": 45,
+      "tempo": 127.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.243,
+      "valence": 0.689,
+      "danceability": 0.672,
+      "acousticness": 0.774,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.028,
+      "duration_ms": 161640,
+      "slug": "your-cheatin-heart-hank-williams"
+    },
+    {
+      "name": "Drivin' Nails In My Coffin - Single Version",
+      "artists": "Ernest Tubb",
+      "album": "The Definitive Collection",
+      "popularity": 45,
+      "tempo": 112.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.405,
+      "valence": 0.706,
+      "danceability": 0.677,
+      "acousticness": 0.706,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.03,
+      "duration_ms": 173093,
+      "slug": "drivin-nails-in-my-coffin-single-version-ernest-tubb"
+    },
+    {
+      "name": "Who's Gonna Fill Their Shoes",
+      "artists": "George Jones",
+      "album": "Who's Gonna Fill Their Shoes",
+      "popularity": 45,
+      "tempo": 69.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.212,
+      "valence": 0.294,
+      "danceability": 0.506,
+      "acousticness": 0.663,
+      "instrumentalness": 0.0,
+      "loudness": -15.5,
+      "speechiness": 0.032,
+      "duration_ms": 196973,
+      "slug": "whos-gonna-fill-their-shoes-george-jones"
+    },
+    {
+      "name": "My Heart Would Know",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Ramblin\u2019 Man (Undubbed Edition)",
+      "popularity": 44,
+      "tempo": 122.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.231,
+      "valence": 0.649,
+      "danceability": 0.684,
+      "acousticness": 0.56,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.035,
+      "duration_ms": 147573,
+      "slug": "my-heart-would-know-hank-williams"
+    },
+    {
+      "name": "It's Four in the Morning",
+      "artists": "Faron Young",
+      "album": "All Time Greatest Hits",
+      "popularity": 44,
+      "tempo": 131.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.277,
+      "valence": 0.388,
+      "danceability": 0.462,
+      "acousticness": 0.749,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.032,
+      "duration_ms": 164234,
+      "slug": "its-four-in-the-morning-faron-young"
+    },
+    {
+      "name": "Country Girl",
+      "artists": "Faron Young",
+      "album": "The Complete Capitol Hits Of Faron Young",
+      "popularity": 44,
+      "tempo": 128.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.441,
+      "valence": 0.795,
+      "danceability": 0.604,
+      "acousticness": 0.791,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.035,
+      "duration_ms": 155973,
+      "slug": "country-girl-faron-young"
+    },
+    {
+      "name": "Heartaches By The Number",
+      "artists": "Ray Price",
+      "album": "Super Hits",
+      "popularity": 44,
+      "tempo": 127.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.892,
+      "danceability": 0.515,
+      "acousticness": 0.639,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.032,
+      "duration_ms": 176626,
+      "slug": "heartaches-by-the-number-ray-price"
+    },
+    {
+      "name": "Heartaches By the Number",
+      "artists": "Ray Price",
+      "album": "The Essential Ray Price 1951-1962",
+      "popularity": 44,
+      "tempo": 127.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.533,
+      "valence": 0.846,
+      "danceability": 0.512,
+      "acousticness": 0.779,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.035,
+      "duration_ms": 177240,
+      "slug": "heartaches-by-the-number-ray-price"
+    },
+    {
+      "name": "Same Ole Me",
+      "artists": "George Jones",
+      "album": "Still The Same Ole Me",
+      "popularity": 44,
+      "tempo": 109.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.288,
+      "valence": 0.403,
+      "danceability": 0.724,
+      "acousticness": 0.634,
+      "instrumentalness": 0.0,
+      "loudness": -13.9,
+      "speechiness": 0.03,
+      "duration_ms": 170733,
+      "slug": "same-ole-me-george-jones"
+    },
+    {
+      "name": "Last Date - Instrumental",
+      "artists": "Floyd Cramer",
+      "album": "Super Hits",
+      "popularity": 43,
+      "tempo": 103.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.306,
+      "valence": 0.613,
+      "danceability": 0.615,
+      "acousticness": 0.858,
+      "instrumentalness": 0.958,
+      "loudness": -12.0,
+      "speechiness": 0.029,
+      "duration_ms": 146760,
+      "slug": "last-date-instrumental-floyd-cramer"
+    },
+    {
+      "name": "Honky Tonkin'",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Honky Tonkin (Expanded Undubbed Edition)",
+      "popularity": 43,
+      "tempo": 164.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.423,
+      "valence": 0.88,
+      "danceability": 0.538,
+      "acousticness": 0.827,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.031,
+      "duration_ms": 166200,
+      "slug": "honky-tonkin-hank-williams"
+    },
+    {
+      "name": "If You've Got the Money I've Got the Time",
+      "artists": "Lefty Frizzell",
+      "album": "The Complete Columbia Recording Sessions, Vol. 1 - 1950-1951",
+      "popularity": 43,
+      "tempo": 208.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.392,
+      "valence": 0.951,
+      "danceability": 0.545,
+      "acousticness": 0.83,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.048,
+      "duration_ms": 179306,
+      "slug": "if-youve-got-the-money-ive-got-the-time-lefty-frizzell"
+    },
+    {
+      "name": "The Grand Tour - Single Version",
+      "artists": "George Jones",
+      "album": "The Grand Tour",
+      "popularity": 43,
+      "tempo": 89.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.184,
+      "valence": 0.423,
+      "danceability": 0.436,
+      "acousticness": 0.895,
+      "instrumentalness": 0.0,
+      "loudness": -15.4,
+      "speechiness": 0.029,
+      "duration_ms": 186786,
+      "slug": "the-grand-tour-single-version-george-jones"
+    },
+    {
+      "name": "Don't Let Me Cross Over",
+      "artists": "Carl Butler",
+      "album": "Don't Let Me Cross Over",
+      "popularity": 42,
+      "tempo": 113.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.188,
+      "valence": 0.521,
+      "danceability": 0.59,
+      "acousticness": 0.871,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.03,
+      "duration_ms": 177106,
+      "slug": "dont-let-me-cross-over-carl-butler"
+    },
+    {
+      "name": "Take Me",
+      "artists": "George Jones;Tammy Wynette",
+      "album": "The Essential George Jones",
+      "popularity": 42,
+      "tempo": 102.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.209,
+      "valence": 0.333,
+      "danceability": 0.427,
+      "acousticness": 0.863,
+      "instrumentalness": 0.0,
+      "loudness": -13.9,
+      "speechiness": 0.031,
+      "duration_ms": 140733,
+      "slug": "take-me-george-jones"
+    },
+    {
+      "name": "Lovesick Blues - Show 9",
+      "artists": "Hank Williams",
+      "album": "The Garden Spot Programs, 1950",
+      "popularity": 41,
+      "tempo": 133.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.35,
+      "valence": 0.654,
+      "danceability": 0.673,
+      "acousticness": 0.961,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.042,
+      "duration_ms": 172218,
+      "slug": "lovesick-blues-show-9-hank-williams"
+    },
+    {
+      "name": "Why Don't You Love Me",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Ramblin\u2019 Man (Undubbed Edition)",
+      "popularity": 41,
+      "tempo": 140.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.361,
+      "valence": 0.947,
+      "danceability": 0.776,
+      "acousticness": 0.57,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.054,
+      "duration_ms": 146333,
+      "slug": "why-dont-you-love-me-hank-williams"
+    },
+    {
+      "name": "Time's a Wastin'",
+      "artists": "Carl Smith;June Carter Cash",
+      "album": "The Essential Carl Smith",
+      "popularity": 41,
+      "tempo": 165.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.202,
+      "valence": 0.89,
+      "danceability": 0.775,
+      "acousticness": 0.851,
+      "instrumentalness": 0.0,
+      "loudness": -11.5,
+      "speechiness": 0.04,
+      "duration_ms": 129013,
+      "slug": "times-a-wastin-carl-smith"
+    },
+    {
+      "name": "Goodnight, Irene",
+      "artists": "Ernest Tubb;Red Foley;Sunshine Trio",
+      "album": "The Definitive Collection",
+      "popularity": 40,
+      "tempo": 128.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.178,
+      "valence": 0.589,
+      "danceability": 0.671,
+      "acousticness": 0.847,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.048,
+      "duration_ms": 181653,
+      "slug": "goodnight-irene-ernest-tubb"
+    },
+    {
+      "name": "Long Gone Lonesome Blues",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Moanin' The Blues (Expanded Edition)",
+      "popularity": 40,
+      "tempo": 122.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.327,
+      "valence": 0.742,
+      "danceability": 0.717,
+      "acousticness": 0.687,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.036,
+      "duration_ms": 159706,
+      "slug": "long-gone-lonesome-blues-hank-williams"
+    },
+    {
+      "name": "Don't You Ever Get Tired of Hurting Me",
+      "artists": "Ray Price",
+      "album": "The Other Woman",
+      "popularity": 40,
+      "tempo": 83.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.184,
+      "valence": 0.541,
+      "danceability": 0.372,
+      "acousticness": 0.661,
+      "instrumentalness": 0.361,
+      "loudness": -16.8,
+      "speechiness": 0.031,
+      "duration_ms": 168240,
+      "slug": "dont-you-ever-get-tired-of-hurting-me-ray-price"
+    },
+    {
+      "name": "Kaw-Liga",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Memorial Album (Expanded Edition)",
+      "popularity": 40,
+      "tempo": 112.3,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.29,
+      "valence": 0.709,
+      "danceability": 0.566,
+      "acousticness": 0.852,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.038,
+      "duration_ms": 156493,
+      "slug": "kaw-liga-hank-williams"
+    },
+    {
+      "name": "Crazy Arms",
+      "artists": "Ray Price",
+      "album": "Greatest Hits",
+      "popularity": 40,
+      "tempo": 116.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.42,
+      "valence": 0.761,
+      "danceability": 0.506,
+      "acousticness": 0.666,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.033,
+      "duration_ms": 152906,
+      "slug": "crazy-arms-ray-price"
+    },
+    {
+      "name": "Hello Walls",
+      "artists": "Faron Young",
+      "album": "Alone with You",
+      "popularity": 39,
+      "tempo": 119.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.38,
+      "valence": 0.891,
+      "danceability": 0.683,
+      "acousticness": 0.702,
+      "instrumentalness": 0.015,
+      "loudness": -13.9,
+      "speechiness": 0.039,
+      "duration_ms": 120302,
+      "slug": "hello-walls-faron-young"
+    },
+    {
+      "name": "Hey, Good Lookin'",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Original Singles Collection . . . Plus",
+      "popularity": 38,
+      "tempo": 141.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.327,
+      "valence": 0.898,
+      "danceability": 0.784,
+      "acousticness": 0.797,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.038,
+      "duration_ms": 175360,
+      "slug": "hey-good-lookin-hank-williams"
+    },
+    {
+      "name": "Two Story House",
+      "artists": "George Jones;Tammy Wynette",
+      "album": "George Jones and Tammy Wynette - 16 Biggest Hits",
+      "popularity": 38,
+      "tempo": 165.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.532,
+      "valence": 0.699,
+      "danceability": 0.461,
+      "acousticness": 0.612,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.043,
+      "duration_ms": 160773,
+      "slug": "two-story-house-george-jones"
+    },
+    {
+      "name": "You Win Again",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Memorial Album (Expanded Edition)",
+      "popularity": 38,
+      "tempo": 114.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.223,
+      "valence": 0.535,
+      "danceability": 0.655,
+      "acousticness": 0.663,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.03,
+      "duration_ms": 158493,
+      "slug": "you-win-again-hank-williams"
+    },
+    {
+      "name": "Pick Me Up On Your Way Down - Single Version",
+      "artists": "Charlie Walker",
+      "album": "Charlie Walker: Greatest Honky Tonk Hits",
+      "popularity": 38,
+      "tempo": 153.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.317,
+      "valence": 0.932,
+      "danceability": 0.52,
+      "acousticness": 0.794,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.029,
+      "duration_ms": 145226,
+      "slug": "pick-me-up-on-your-way-down-single-version-charlie-walker"
+    },
+    {
+      "name": "Goin' Steady",
+      "artists": "Faron Young",
+      "album": "Golden Hits",
+      "popularity": 37,
+      "tempo": 165.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.428,
+      "valence": 0.871,
+      "danceability": 0.492,
+      "acousticness": 0.47,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.035,
+      "duration_ms": 125266,
+      "slug": "goin-steady-faron-young"
+    },
+    {
+      "name": "I Can't Help It (If I'm Still In Love With You)",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "Ramblin\u2019 Man (Undubbed Edition)",
+      "popularity": 37,
+      "tempo": 116.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.213,
+      "valence": 0.618,
+      "danceability": 0.677,
+      "acousticness": 0.709,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.039,
+      "duration_ms": 145933,
+      "slug": "i-cant-help-it-if-im-still-in-love-with-you-hank-williams"
+    },
+    {
+      "name": "I Miss You Already (And You're Not Even Gone)",
+      "artists": "Faron Young",
+      "album": "The Complete Capitol Hits Of Faron Young",
+      "popularity": 37,
+      "tempo": 129.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.2,
+      "valence": 0.554,
+      "danceability": 0.502,
+      "acousticness": 0.565,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.029,
+      "duration_ms": 151226,
+      "slug": "i-miss-you-already-and-youre-not-even-gone-faron-young"
+    },
+    {
+      "name": "The King Is Gone (So Are You)",
+      "artists": "George Jones",
+      "album": "George Jones - 16 Biggest Hits",
+      "popularity": 36,
+      "tempo": 116.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.279,
+      "valence": 0.405,
+      "danceability": 0.755,
+      "acousticness": 0.447,
+      "instrumentalness": 0.0,
+      "loudness": -14.8,
+      "speechiness": 0.033,
+      "duration_ms": 201293,
+      "slug": "the-king-is-gone-so-are-you-george-jones"
+    },
+    {
+      "name": "Lovesick Blues - Single Version",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "40 Greatest Hits",
+      "popularity": 36,
+      "tempo": 126.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.197,
+      "valence": 0.689,
+      "danceability": 0.776,
+      "acousticness": 0.95,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.047,
+      "duration_ms": 165240,
+      "slug": "lovesick-blues-single-version-hank-williams"
+    },
+    {
+      "name": "Settin' The Woods On Fire",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Complete Hank Williams",
+      "popularity": 36,
+      "tempo": 161.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.304,
+      "valence": 0.95,
+      "danceability": 0.739,
+      "acousticness": 0.825,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.045,
+      "duration_ms": 155533,
+      "slug": "settin-the-woods-on-fire-hank-williams"
+    },
+    {
+      "name": "Hey, Good Lookin'",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "40 Greatest Hits",
+      "popularity": 36,
+      "tempo": 141.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.248,
+      "valence": 0.865,
+      "danceability": 0.786,
+      "acousticness": 0.868,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.038,
+      "duration_ms": 175333,
+      "slug": "hey-good-lookin-hank-williams"
+    },
+    {
+      "name": "Walking The Floor Over You - 1941 Single Version",
+      "artists": "Ernest Tubb",
+      "album": "The Country Music Hall Of Fame",
+      "popularity": 35,
+      "tempo": 115.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.287,
+      "valence": 0.89,
+      "danceability": 0.837,
+      "acousticness": 0.887,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.052,
+      "duration_ms": 157146,
+      "slug": "walking-the-floor-over-you-1941-single-version-ernest-tubb"
+    },
+    {
+      "name": "Why Me Lord?",
+      "artists": "George Jones",
+      "album": "The Gospel Collection: George Jones Sings The Greatest Stories Ever Told",
+      "popularity": 35,
+      "tempo": 73.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.384,
+      "valence": 0.299,
+      "danceability": 0.29,
+      "acousticness": 0.511,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.029,
+      "duration_ms": 178733,
+      "slug": "why-me-lord-george-jones"
+    },
+    {
+      "name": "Cold, Cold Heart",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Complete Hank Williams",
+      "popularity": 35,
+      "tempo": 113.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.164,
+      "valence": 0.522,
+      "danceability": 0.574,
+      "acousticness": 0.898,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.037,
+      "duration_ms": 163240,
+      "slug": "cold-cold-heart-hank-williams"
+    },
+    {
+      "name": "Peace In The Valley",
+      "artists": "George Jones",
+      "album": "The Gospel Collection: George Jones Sings The Greatest Stories Ever Told",
+      "popularity": 35,
+      "tempo": 70.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.431,
+      "valence": 0.326,
+      "danceability": 0.535,
+      "acousticness": 0.703,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.026,
+      "duration_ms": 206160,
+      "slug": "peace-in-the-valley-george-jones"
+    },
+    {
+      "name": "There Stands the Glass",
+      "artists": "Webb Pierce",
+      "album": "Presenting Webb Pierce: The Wondering Boy",
+      "popularity": 34,
+      "tempo": 116.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.182,
+      "valence": 0.704,
+      "danceability": 0.553,
+      "acousticness": 0.924,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.034,
+      "duration_ms": 146000,
+      "slug": "there-stands-the-glass-webb-pierce"
+    },
+    {
+      "name": "Alone And Forsaken - Single Version",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Complete Hank Williams",
+      "popularity": 34,
+      "tempo": 151.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.184,
+      "valence": 0.482,
+      "danceability": 0.471,
+      "acousticness": 0.971,
+      "instrumentalness": 0.007,
+      "loudness": -12.3,
+      "speechiness": 0.065,
+      "duration_ms": 119266,
+      "slug": "alone-and-forsaken-single-version-hank-williams"
+    },
+    {
+      "name": "Tennessee Waltz",
+      "artists": "Floyd Cramer",
+      "album": "Last Date",
+      "popularity": 33,
+      "tempo": 82.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.243,
+      "valence": 0.34,
+      "danceability": 0.442,
+      "acousticness": 0.844,
+      "instrumentalness": 0.499,
+      "loudness": -11.1,
+      "speechiness": 0.028,
+      "duration_ms": 110826,
+      "slug": "tennessee-waltz-floyd-cramer"
+    },
+    {
+      "name": "The Long Black Veil",
+      "artists": "Lefty Frizzell",
+      "album": "Glad I Found You Lefty!",
+      "popularity": 32,
+      "tempo": 62.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.157,
+      "valence": 0.412,
+      "danceability": 0.566,
+      "acousticness": 0.797,
+      "instrumentalness": 0.0,
+      "loudness": -17.5,
+      "speechiness": 0.042,
+      "duration_ms": 182415,
+      "slug": "the-long-black-veil-lefty-frizzell"
+    },
+    {
+      "name": "Tomorrow",
+      "artists": "Frankie Carle",
+      "album": "Encores",
+      "popularity": 32,
+      "tempo": 160.7,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.294,
+      "valence": 0.858,
+      "danceability": 0.574,
+      "acousticness": 0.889,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.036,
+      "duration_ms": 157343,
+      "slug": "tomorrow-frankie-carle"
+    },
+    {
+      "name": "More and More",
+      "artists": "Webb Pierce",
+      "album": "Golden Hits - Volume I (Vol. 1)",
+      "popularity": 32,
+      "tempo": 113.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.425,
+      "valence": 0.679,
+      "danceability": 0.531,
+      "acousticness": 0.636,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.032,
+      "duration_ms": 149800,
+      "slug": "more-and-more-webb-pierce"
+    },
+    {
+      "name": "Don't Be Angry",
+      "artists": "Stonewall Jackson",
+      "album": "American Originals",
+      "popularity": 32,
+      "tempo": 105.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.246,
+      "valence": 0.502,
+      "danceability": 0.651,
+      "acousticness": 0.885,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.029,
+      "duration_ms": 178266,
+      "slug": "dont-be-angry-stonewall-jackson"
+    },
+    {
+      "name": "A Way With Words",
+      "artists": "Carl Smith",
+      "album": "Best Of Carl Smith",
+      "popularity": 31,
+      "tempo": 96.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.951,
+      "danceability": 0.658,
+      "acousticness": 0.6,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.029,
+      "duration_ms": 114133,
+      "slug": "a-way-with-words-carl-smith"
+    },
+    {
+      "name": "I'm So Lonesome I Could Cry - Single Version",
+      "artists": "Hank Williams",
+      "album": "The Complete Hank Williams",
+      "popularity": 31,
+      "tempo": 111.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.21,
+      "valence": 0.635,
+      "danceability": 0.675,
+      "acousticness": 0.866,
+      "instrumentalness": 0.001,
+      "loudness": -13.1,
+      "speechiness": 0.029,
+      "duration_ms": 166000,
+      "slug": "im-so-lonesome-i-could-cry-single-version-hank-williams"
+    },
+    {
+      "name": "Blue Eyes Crying In The Rain",
+      "artists": "Floyd Cramer",
+      "album": "Collector's Series",
+      "popularity": 31,
+      "tempo": 100.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.167,
+      "valence": 0.427,
+      "danceability": 0.66,
+      "acousticness": 0.172,
+      "instrumentalness": 0.78,
+      "loudness": -17.7,
+      "speechiness": 0.029,
+      "duration_ms": 138600,
+      "slug": "blue-eyes-crying-in-the-rain-floyd-cramer"
+    },
+    {
+      "name": "She's My Rock",
+      "artists": "George Jones",
+      "album": "George Jones - 16 Biggest Hits",
+      "popularity": 30,
+      "tempo": 92.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.445,
+      "valence": 0.586,
+      "danceability": 0.668,
+      "acousticness": 0.614,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.06,
+      "duration_ms": 146600,
+      "slug": "shes-my-rock-george-jones"
+    },
+    {
+      "name": "Swing Low, Sweet Chariot",
+      "artists": "George Jones",
+      "album": "Amazing Grace",
+      "popularity": 30,
+      "tempo": 80.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.404,
+      "valence": 0.439,
+      "danceability": 0.307,
+      "acousticness": 0.739,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.057,
+      "duration_ms": 170720,
+      "slug": "swing-low-sweet-chariot-george-jones"
+    },
+    {
+      "name": "The Grand Tour",
+      "artists": "George Jones",
+      "album": "Columbia Country Classics - Volume 4: The Nashville Sound",
+      "popularity": 29,
+      "tempo": 88.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.214,
+      "valence": 0.442,
+      "danceability": 0.482,
+      "acousticness": 0.888,
+      "instrumentalness": 0.003,
+      "loudness": -15.0,
+      "speechiness": 0.028,
+      "duration_ms": 185533,
+      "slug": "the-grand-tour-george-jones"
+    },
+    {
+      "name": "If Drinkin' Don't Kill Me (Her Memory Will)",
+      "artists": "George Jones",
+      "album": "George Jones - 16 Biggest Hits",
+      "popularity": 29,
+      "tempo": 89.6,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.333,
+      "valence": 0.239,
+      "danceability": 0.596,
+      "acousticness": 0.689,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.03,
+      "duration_ms": 191293,
+      "slug": "if-drinkin-dont-kill-me-her-memory-will-george-jones"
+    },
+    {
+      "name": "Heart And Soul",
+      "artists": "Floyd Cramer",
+      "album": "For The Moment",
+      "popularity": 29,
+      "tempo": 106.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.568,
+      "valence": 0.899,
+      "danceability": 0.601,
+      "acousticness": 0.81,
+      "instrumentalness": 0.672,
+      "loudness": -9.3,
+      "speechiness": 0.03,
+      "duration_ms": 131546,
+      "slug": "heart-and-soul-floyd-cramer"
+    },
+    {
+      "name": "Little Jack Frost Get Lost (with Marjorie Hughes) - 78rpm Version",
+      "artists": "Frankie Carle;Marjorie Hughes",
+      "album": "From The Sony Vault: Christmas With The Big Bands",
+      "popularity": 28,
+      "tempo": 135.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.247,
+      "valence": 0.732,
+      "danceability": 0.779,
+      "acousticness": 0.942,
+      "instrumentalness": 0.001,
+      "loudness": -12.5,
+      "speechiness": 0.034,
+      "duration_ms": 164160,
+      "slug": "little-jack-frost-get-lost-with-marjorie-hughes-78rpm-version-frankie-carle"
+    },
+    {
+      "name": "In The Cool, Cool, Cool Of The Evening",
+      "artists": "Frankie Carle",
+      "album": "The Piano Style Of Frankie Carle",
+      "popularity": 27,
+      "tempo": 132.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.211,
+      "valence": 0.747,
+      "danceability": 0.763,
+      "acousticness": 0.973,
+      "instrumentalness": 0.0,
+      "loudness": -16.8,
+      "speechiness": 0.034,
+      "duration_ms": 196481,
+      "slug": "in-the-cool-cool-cool-of-the-evening-frankie-carle"
+    },
+    {
+      "name": "The Door",
+      "artists": "George Jones",
+      "album": "George Jones - 16 Biggest Hits",
+      "popularity": 27,
+      "tempo": 88.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.351,
+      "valence": 0.559,
+      "danceability": 0.381,
+      "acousticness": 0.942,
+      "instrumentalness": 0.002,
+      "loudness": -10.8,
+      "speechiness": 0.027,
+      "duration_ms": 162066,
+      "slug": "the-door-george-jones"
+    },
+    {
+      "name": "I'm Not Ready Yet",
+      "artists": "George Jones",
+      "album": "I Am What I Am (Expanded Edition)",
+      "popularity": 27,
+      "tempo": 95.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.333,
+      "valence": 0.419,
+      "danceability": 0.612,
+      "acousticness": 0.709,
+      "instrumentalness": 0.009,
+      "loudness": -14.1,
+      "speechiness": 0.026,
+      "duration_ms": 177933,
+      "slug": "im-not-ready-yet-george-jones"
+    },
+    {
+      "name": "Floor To Crawl",
+      "artists": "James Hand",
+      "album": "Shadow On The Ground",
+      "popularity": 26,
+      "tempo": 126.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.499,
+      "valence": 0.655,
+      "danceability": 0.64,
+      "acousticness": 0.725,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.029,
+      "duration_ms": 169000,
+      "slug": "floor-to-crawl-james-hand"
+    },
+    {
+      "name": "White Lightnin'",
+      "artists": "George Jones",
+      "album": "Mr. Country and Western",
+      "popularity": 26,
+      "tempo": 149.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.943,
+      "danceability": 0.603,
+      "acousticness": 0.685,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.062,
+      "duration_ms": 166368,
+      "slug": "white-lightnin-george-jones"
+    },
+    {
+      "name": "Honky Tonk Blues",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Complete Hank Williams",
+      "popularity": 26,
+      "tempo": 127.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.309,
+      "valence": 0.824,
+      "danceability": 0.773,
+      "acousticness": 0.807,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.042,
+      "duration_ms": 130573,
+      "slug": "honky-tonk-blues-hank-williams"
+    },
+    {
+      "name": "Beer Drinkin' Blues",
+      "artists": "Eddie Noack",
+      "album": "Presenting Eddie Noack",
+      "popularity": 26,
+      "tempo": 126.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.827,
+      "danceability": 0.686,
+      "acousticness": 0.727,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.03,
+      "duration_ms": 167133,
+      "slug": "beer-drinkin-blues-eddie-noack"
+    },
+    {
+      "name": "Just A Closer Walk With Thee",
+      "artists": "George Jones",
+      "album": "The Gospel Collection: George Jones Sings The Greatest Stories Ever Told",
+      "popularity": 26,
+      "tempo": 205.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.49,
+      "danceability": 0.296,
+      "acousticness": 0.652,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.033,
+      "duration_ms": 181160,
+      "slug": "just-a-closer-walk-with-thee-george-jones"
+    },
+    {
+      "name": "Settin' The Woods On Fire",
+      "artists": "Hank Williams;Drifting Cowboys",
+      "album": "The Original Singles Collection . . . Plus",
+      "popularity": 26,
+      "tempo": 161.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.251,
+      "valence": 0.957,
+      "danceability": 0.735,
+      "acousticness": 0.832,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.051,
+      "duration_ms": 157133,
+      "slug": "settin-the-woods-on-fire-hank-williams"
+    }
+  ]
+}

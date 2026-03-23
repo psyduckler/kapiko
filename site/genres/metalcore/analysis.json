@@ -1,0 +1,2803 @@
+{
+  "genre": "Metalcore",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 74.966,
+    "max": 194.073,
+    "mean": 140.884,
+    "median": 145.077,
+    "q1": 124.001,
+    "q3": 164.989,
+    "histogram": {
+      "70-79": 4,
+      "90-99": 12,
+      "100-109": 5,
+      "110-119": 3,
+      "120-129": 6,
+      "130-139": 10,
+      "140-149": 20,
+      "150-159": 7,
+      "160-169": 11,
+      "170-179": 13,
+      "180-189": 8,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "G": 14,
+    "F": 12,
+    "C": 12,
+    "C#/Db": 12,
+    "F#/Gb": 10,
+    "D": 9,
+    "E": 8,
+    "A#/Bb": 7,
+    "G#/Ab": 7,
+    "D#/Eb": 4,
+    "A": 3,
+    "B": 2
+  },
+  "mode_distribution": {
+    "Minor": 60,
+    "Major": 40
+  },
+  "key_mode_distribution": {
+    "F Minor": 9,
+    "G Major": 9,
+    "C#/Db Minor": 8,
+    "E Minor": 7,
+    "C Minor": 7,
+    "D Minor": 7,
+    "F#/Gb Minor": 7,
+    "G#/Ab Major": 6,
+    "A#/Bb Minor": 5,
+    "C Major": 5,
+    "G Minor": 5,
+    "C#/Db Major": 4,
+    "F Major": 3,
+    "F#/Gb Major": 3,
+    "D#/Eb Minor": 2,
+    "D#/Eb Major": 2,
+    "A#/Bb Major": 2,
+    "A Major": 2,
+    "D Major": 2,
+    "G#/Ab Minor": 1,
+    "A Minor": 1,
+    "B Minor": 1,
+    "E Major": 1,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.536,
+    "max": 0.996,
+    "mean": 0.903,
+    "median": 0.927,
+    "q1": 0.87,
+    "q3": 0.956
+  },
+  "valence": {
+    "min": 0.06,
+    "max": 0.723,
+    "mean": 0.395,
+    "median": 0.387,
+    "q1": 0.259,
+    "q3": 0.526
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.859,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.358
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.387
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.639
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.428
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.644
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.558
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.959,
+      "valence": 0.339
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.986,
+      "valence": 0.501
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.661,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.919,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.591
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.369
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.322
+    },
+    {
+      "energy": 0.945,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.187
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.183
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.373
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.975,
+      "valence": 0.387
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.207
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.401
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.293
+    },
+    {
+      "energy": 0.924,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.392
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.62
+    },
+    {
+      "energy": 0.983,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.341
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.159
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.844,
+      "valence": 0.141
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.267
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.569
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.639
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.232
+    },
+    {
+      "energy": 0.931,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.959,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.571
+    },
+    {
+      "energy": 0.99,
+      "valence": 0.204
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.232
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.136
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.394
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.611
+    },
+    {
+      "energy": 0.972,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.715
+    },
+    {
+      "energy": 0.996,
+      "valence": 0.06
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.995,
+      "valence": 0.27
+    },
+    {
+      "energy": 0.925,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.944,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.597
+    },
+    {
+      "energy": 0.903,
+      "valence": 0.22
+    },
+    {
+      "energy": 0.854,
+      "valence": 0.319
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.279
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.458
+    },
+    {
+      "energy": 0.819,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.069
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.451
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.919,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.882,
+      "valence": 0.443
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.723
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.572
+    },
+    {
+      "energy": 0.808,
+      "valence": 0.712
+    },
+    {
+      "energy": 0.995,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.261
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.283
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.444
+    },
+    {
+      "energy": 0.976,
+      "valence": 0.222
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.112,
+    "mean": 0.006,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.002
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.217,
+    "mean": 0.005,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.194
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.048
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.076,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.112,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.02
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.217
+    }
+  ],
+  "duration": {
+    "min": 90265,
+    "max": 348386,
+    "mean": 220139.81,
+    "median": 220301.5,
+    "q1": 202640,
+    "q3": 240927
+  },
+  "danceability": {
+    "min": 0.15,
+    "max": 0.595,
+    "mean": 0.439,
+    "median": 0.451,
+    "q1": 0.4,
+    "q3": 0.505
+  },
+  "loudness": {
+    "min": -8.158,
+    "max": 1.023,
+    "mean": -4.205,
+    "median": -3.862,
+    "q1": -5.048,
+    "q3": -3.228
+  },
+  "speechiness": {
+    "min": 0.028,
+    "max": 0.397,
+    "mean": 0.107,
+    "median": 0.085,
+    "q1": 0.062,
+    "q3": 0.139
+  },
+  "top_artists": [
+    {
+      "name": "Bring Me The Horizon",
+      "count": 21
+    },
+    {
+      "name": "I Prevail",
+      "count": 10
+    },
+    {
+      "name": "Electric Callboy",
+      "count": 8
+    },
+    {
+      "name": "Falling In Reverse",
+      "count": 7
+    },
+    {
+      "name": "A Day To Remember",
+      "count": 7
+    },
+    {
+      "name": "Motionless In White",
+      "count": 4
+    },
+    {
+      "name": "Bad Omens",
+      "count": 4
+    },
+    {
+      "name": "Architects",
+      "count": 4
+    },
+    {
+      "name": "Bullet For My Valentine",
+      "count": 3
+    },
+    {
+      "name": "Killswitch Engage",
+      "count": 3
+    },
+    {
+      "name": "Asking Alexandria",
+      "count": 3
+    },
+    {
+      "name": "Ice Nine Kills",
+      "count": 3
+    },
+    {
+      "name": "SiM",
+      "count": 2
+    },
+    {
+      "name": "We Came As Romans",
+      "count": 2
+    },
+    {
+      "name": "Get Scared",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Can You Feel My Heart",
+      "artists": "Bring Me The Horizon",
+      "album": "Sempiternal (Expanded Edition)",
+      "popularity": 81,
+      "tempo": 170.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.354,
+      "danceability": 0.15,
+      "acousticness": 0.002,
+      "instrumentalness": 0.194,
+      "loudness": -2.8,
+      "speechiness": 0.059,
+      "duration_ms": 228146,
+      "slug": "can-you-feel-my-heart-bring-me-the-horizon"
+    },
+    {
+      "name": "FEEL NOTHING",
+      "artists": "The Plot In You",
+      "album": "DISPOSE",
+      "popularity": 76,
+      "tempo": 144.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.825,
+      "valence": 0.226,
+      "danceability": 0.448,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.062,
+      "duration_ms": 216826,
+      "slug": "feel-nothing-the-plot-in-you"
+    },
+    {
+      "name": "Popular Monster",
+      "artists": "Falling In Reverse",
+      "album": "Popular Monster",
+      "popularity": 75,
+      "tempo": 165.1,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.897,
+      "valence": 0.358,
+      "danceability": 0.461,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.092,
+      "duration_ms": 220537,
+      "slug": "popular-monster-falling-in-reverse"
+    },
+    {
+      "name": "sTraNgeRs",
+      "artists": "Bring Me The Horizon",
+      "album": "sTraNgeRs",
+      "popularity": 75,
+      "tempo": 183.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.939,
+      "valence": 0.526,
+      "danceability": 0.346,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.182,
+      "duration_ms": 195747,
+      "slug": "strangers-bring-me-the-horizon"
+    },
+    {
+      "name": "Throne",
+      "artists": "Bring Me The Horizon",
+      "album": "That's The Spirit",
+      "popularity": 74,
+      "tempo": 144.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.888,
+      "valence": 0.387,
+      "danceability": 0.426,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.099,
+      "duration_ms": 191520,
+      "slug": "throne-bring-me-the-horizon"
+    },
+    {
+      "name": "The Rumbling",
+      "artists": "SiM",
+      "album": "The Rumbling",
+      "popularity": 73,
+      "tempo": 144.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.878,
+      "valence": 0.494,
+      "danceability": 0.459,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -1.4,
+      "speechiness": 0.069,
+      "duration_ms": 220799,
+      "slug": "the-rumbling-sim"
+    },
+    {
+      "name": "Voices In My Head",
+      "artists": "Falling In Reverse",
+      "album": "Voices In My Head",
+      "popularity": 73,
+      "tempo": 173.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.898,
+      "valence": 0.639,
+      "danceability": 0.546,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.162,
+      "duration_ms": 191414,
+      "slug": "voices-in-my-head-falling-in-reverse"
+    },
+    {
+      "name": "Drown",
+      "artists": "Bring Me The Horizon",
+      "album": "That's The Spirit",
+      "popularity": 72,
+      "tempo": 143.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.94,
+      "valence": 0.24,
+      "danceability": 0.405,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.084,
+      "duration_ms": 222093,
+      "slug": "drown-bring-me-the-horizon"
+    },
+    {
+      "name": "Kingslayer (feat. BABYMETAL)",
+      "artists": "Bring Me The Horizon;BABYMETAL",
+      "album": "POST HUMAN: SURVIVAL HORROR",
+      "popularity": 72,
+      "tempo": 92.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.929,
+      "valence": 0.428,
+      "danceability": 0.434,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -2.7,
+      "speechiness": 0.147,
+      "duration_ms": 220041,
+      "slug": "kingslayer-feat-babymetal-bring-me-the-horizon"
+    },
+    {
+      "name": "Another Life",
+      "artists": "Motionless In White",
+      "album": "Disguise",
+      "popularity": 72,
+      "tempo": 162.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.939,
+      "valence": 0.495,
+      "danceability": 0.39,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.079,
+      "duration_ms": 205394,
+      "slug": "another-life-motionless-in-white"
+    },
+    {
+      "name": "The Drug In Me Is You",
+      "artists": "Falling In Reverse",
+      "album": "The Drug In Me Is You",
+      "popularity": 72,
+      "tempo": 145.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.644,
+      "danceability": 0.548,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.151,
+      "duration_ms": 218786,
+      "slug": "the-drug-in-me-is-you-falling-in-reverse"
+    },
+    {
+      "name": "ZOMBIFIED",
+      "artists": "Falling In Reverse",
+      "album": "ZOMBIFIED",
+      "popularity": 71,
+      "tempo": 91.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.911,
+      "valence": 0.558,
+      "danceability": 0.544,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.042,
+      "duration_ms": 218520,
+      "slug": "zombified-falling-in-reverse"
+    },
+    {
+      "name": "Just Pretend",
+      "artists": "Bad Omens",
+      "album": "THE DEATH OF PEACE OF MIND",
+      "popularity": 71,
+      "tempo": 140.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.831,
+      "valence": 0.211,
+      "danceability": 0.449,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -4.7,
+      "speechiness": 0.084,
+      "duration_ms": 204676,
+      "slug": "just-pretend-bad-omens"
+    },
+    {
+      "name": "Sleepwalking",
+      "artists": "Bring Me The Horizon",
+      "album": "Sempiternal (Expanded Edition)",
+      "popularity": 70,
+      "tempo": 149.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.959,
+      "valence": 0.339,
+      "danceability": 0.4,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.103,
+      "duration_ms": 230093,
+      "slug": "sleepwalking-bring-me-the-horizon"
+    },
+    {
+      "name": "Black Hole",
+      "artists": "We Came As Romans;Caleb Shomo",
+      "album": "Black Hole",
+      "popularity": 70,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.958,
+      "valence": 0.385,
+      "danceability": 0.48,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.066,
+      "duration_ms": 179181,
+      "slug": "black-hole-we-came-as-romans"
+    },
+    {
+      "name": "Looking Down the Barrel of Today",
+      "artists": "Hatebreed",
+      "album": "The Concrete Confessional",
+      "popularity": 70,
+      "tempo": 180.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.986,
+      "valence": 0.501,
+      "danceability": 0.486,
+      "acousticness": 0.001,
+      "instrumentalness": 0.048,
+      "loudness": -4.7,
+      "speechiness": 0.082,
+      "duration_ms": 161626,
+      "slug": "looking-down-the-barrel-of-today-hatebreed"
+    },
+    {
+      "name": "The Downfall Of Us All",
+      "artists": "A Day To Remember",
+      "album": "Homesick",
+      "popularity": 70,
+      "tempo": 129.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.881,
+      "valence": 0.709,
+      "danceability": 0.588,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.067,
+      "duration_ms": 209093,
+      "slug": "the-downfall-of-us-all-a-day-to-remember"
+    },
+    {
+      "name": "Follow You",
+      "artists": "Bring Me The Horizon",
+      "album": "That's The Spirit",
+      "popularity": 69,
+      "tempo": 90.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.661,
+      "valence": 0.506,
+      "danceability": 0.54,
+      "acousticness": 0.076,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.038,
+      "duration_ms": 231106,
+      "slug": "follow-you-bring-me-the-horizon"
+    },
+    {
+      "name": "DiE4u",
+      "artists": "Bring Me The Horizon",
+      "album": "DiE4u",
+      "popularity": 69,
+      "tempo": 159.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.919,
+      "valence": 0.259,
+      "danceability": 0.355,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.356,
+      "duration_ms": 207141,
+      "slug": "die4u-bring-me-the-horizon"
+    },
+    {
+      "name": "Sarcasm",
+      "artists": "Get Scared",
+      "album": "Best Kind Of Mess",
+      "popularity": 69,
+      "tempo": 180.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.929,
+      "valence": 0.591,
+      "danceability": 0.387,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.161,
+      "duration_ms": 198080,
+      "slug": "sarcasm-get-scared"
+    },
+    {
+      "name": "If It Means A Lot To You",
+      "artists": "A Day To Remember",
+      "album": "Homesick",
+      "popularity": 69,
+      "tempo": 127.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.536,
+      "valence": 0.441,
+      "danceability": 0.584,
+      "acousticness": 0.112,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.028,
+      "duration_ms": 243226,
+      "slug": "if-it-means-a-lot-to-you-a-day-to-remember"
+    },
+    {
+      "name": "Miracle",
+      "artists": "A Day To Remember",
+      "album": "Miracle",
+      "popularity": 69,
+      "tempo": 160.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.369,
+      "danceability": 0.463,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.13,
+      "duration_ms": 243977,
+      "slug": "miracle-a-day-to-remember"
+    },
+    {
+      "name": "I'm Not A Vampire",
+      "artists": "Falling In Reverse",
+      "album": "The Drug In Me Is You",
+      "popularity": 69,
+      "tempo": 185.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.965,
+      "valence": 0.322,
+      "danceability": 0.235,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.28,
+      "duration_ms": 231840,
+      "slug": "im-not-a-vampire-falling-in-reverse"
+    },
+    {
+      "name": "Gasoline",
+      "artists": "I Prevail",
+      "album": "TRAUMA",
+      "popularity": 68,
+      "tempo": 135.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.945,
+      "valence": 0.545,
+      "danceability": 0.546,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.053,
+      "duration_ms": 153613,
+      "slug": "gasoline-i-prevail"
+    },
+    {
+      "name": "Hurricane",
+      "artists": "I Prevail",
+      "album": "TRAUMA",
+      "popularity": 68,
+      "tempo": 165.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.885,
+      "valence": 0.187,
+      "danceability": 0.389,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.055,
+      "duration_ms": 223173,
+      "slug": "hurricane-i-prevail"
+    },
+    {
+      "name": "Shadow Moses",
+      "artists": "Bring Me The Horizon",
+      "album": "Sempiternal (Expanded Edition)",
+      "popularity": 68,
+      "tempo": 143.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.985,
+      "valence": 0.183,
+      "danceability": 0.456,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -2.9,
+      "speechiness": 0.207,
+      "duration_ms": 243320,
+      "slug": "shadow-moses-bring-me-the-horizon"
+    },
+    {
+      "name": "Your Betrayal",
+      "artists": "Bullet For My Valentine",
+      "album": "Fever",
+      "popularity": 68,
+      "tempo": 134.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.883,
+      "valence": 0.373,
+      "danceability": 0.569,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.075,
+      "duration_ms": 291426,
+      "slug": "your-betrayal-bullet-for-my-valentine"
+    },
+    {
+      "name": "My Curse",
+      "artists": "Killswitch Engage",
+      "album": "As Daylight Dies (Special Edition)",
+      "popularity": 68,
+      "tempo": 177.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.956,
+      "valence": 0.209,
+      "danceability": 0.197,
+      "acousticness": 0.0,
+      "instrumentalness": 0.01,
+      "loudness": -2.9,
+      "speechiness": 0.066,
+      "duration_ms": 244773,
+      "slug": "my-curse-killswitch-engage"
+    },
+    {
+      "name": "Self-Destruction",
+      "artists": "I Prevail",
+      "album": "TRUE POWER",
+      "popularity": 68,
+      "tempo": 172.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.975,
+      "valence": 0.387,
+      "danceability": 0.423,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.397,
+      "duration_ms": 146176,
+      "slug": "self-destruction-i-prevail"
+    },
+    {
+      "name": "All I Want",
+      "artists": "A Day To Remember",
+      "album": "What Separates Me From You",
+      "popularity": 68,
+      "tempo": 160.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.981,
+      "valence": 0.207,
+      "danceability": 0.349,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.141,
+      "duration_ms": 202640,
+      "slug": "all-i-want-a-day-to-remember"
+    },
+    {
+      "name": "1x1 (feat. Nova Twins)",
+      "artists": "Bring Me The Horizon;Nova Twins",
+      "album": "POST HUMAN: SURVIVAL HORROR",
+      "popularity": 67,
+      "tempo": 164.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.937,
+      "valence": 0.604,
+      "danceability": 0.452,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.161,
+      "duration_ms": 209598,
+      "slug": "1x1-feat-nova-twins-bring-me-the-horizon"
+    },
+    {
+      "name": "Teardrops",
+      "artists": "Bring Me The Horizon",
+      "album": "POST HUMAN: SURVIVAL HORROR",
+      "popularity": 67,
+      "tempo": 96.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.916,
+      "valence": 0.401,
+      "danceability": 0.497,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.108,
+      "duration_ms": 215003,
+      "slug": "teardrops-bring-me-the-horizon"
+    },
+    {
+      "name": "Animals",
+      "artists": "Architects",
+      "album": "For Those That Wish To Exist",
+      "popularity": 67,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.759,
+      "valence": 0.293,
+      "danceability": 0.532,
+      "acousticness": 0.0,
+      "instrumentalness": 0.02,
+      "loudness": -3.8,
+      "speechiness": 0.032,
+      "duration_ms": 244364,
+      "slug": "animals-architects"
+    },
+    {
+      "name": "Happy Song",
+      "artists": "Bring Me The Horizon",
+      "album": "That's The Spirit",
+      "popularity": 67,
+      "tempo": 171.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.924,
+      "valence": 0.219,
+      "danceability": 0.295,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -3.4,
+      "speechiness": 0.068,
+      "duration_ms": 239386,
+      "slug": "happy-song-bring-me-the-horizon"
+    },
+    {
+      "name": "Like A Villain",
+      "artists": "Bad Omens",
+      "album": "THE DEATH OF PEACE OF MIND",
+      "popularity": 67,
+      "tempo": 155.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.918,
+      "valence": 0.392,
+      "danceability": 0.457,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.203,
+      "duration_ms": 210685,
+      "slug": "like-a-villain-bad-omens"
+    },
+    {
+      "name": "Arrow of Love",
+      "artists": "Electric Callboy",
+      "album": "TEKKNO",
+      "popularity": 67,
+      "tempo": 75.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.863,
+      "valence": 0.62,
+      "danceability": 0.45,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.065,
+      "duration_ms": 222866,
+      "slug": "arrow-of-love-electric-callboy"
+    },
+    {
+      "name": "All Signs Point To Lauderdale",
+      "artists": "A Day To Remember",
+      "album": "What Separates Me From You",
+      "popularity": 67,
+      "tempo": 149.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.983,
+      "valence": 0.513,
+      "danceability": 0.425,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.114,
+      "duration_ms": 197200,
+      "slug": "all-signs-point-to-lauderdale-a-day-to-remember"
+    },
+    {
+      "name": "The Rumbling (TV Size)",
+      "artists": "SiM",
+      "album": "The Rumbling (TV Size)",
+      "popularity": 66,
+      "tempo": 145.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.875,
+      "valence": 0.646,
+      "danceability": 0.408,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -1.5,
+      "speechiness": 0.055,
+      "duration_ms": 90265,
+      "slug": "the-rumbling-tv-size-sim"
+    },
+    {
+      "name": "Glass Heart",
+      "artists": "Caskets",
+      "album": "Lost Souls",
+      "popularity": 66,
+      "tempo": 164.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.958,
+      "valence": 0.341,
+      "danceability": 0.412,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.1,
+      "duration_ms": 224421,
+      "slug": "glass-heart-caskets"
+    },
+    {
+      "name": "Laid to Rest",
+      "artists": "Lamb of God",
+      "album": "Ashes of the Wake (15th Anniversary)",
+      "popularity": 66,
+      "tempo": 104.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.956,
+      "valence": 0.159,
+      "danceability": 0.366,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -3.7,
+      "speechiness": 0.108,
+      "duration_ms": 230127,
+      "slug": "laid-to-rest-lamb-of-god"
+    },
+    {
+      "name": "True Friends",
+      "artists": "Bring Me The Horizon",
+      "album": "That's The Spirit",
+      "popularity": 66,
+      "tempo": 160.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.938,
+      "valence": 0.333,
+      "danceability": 0.419,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.084,
+      "duration_ms": 232320,
+      "slug": "true-friends-bring-me-the-horizon"
+    },
+    {
+      "name": "Bad Things",
+      "artists": "I Prevail",
+      "album": "TRUE POWER",
+      "popularity": 66,
+      "tempo": 92.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.844,
+      "valence": 0.141,
+      "danceability": 0.5,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.064,
+      "duration_ms": 228260,
+      "slug": "bad-things-i-prevail"
+    },
+    {
+      "name": "THE DEATH OF PEACE OF MIND",
+      "artists": "Bad Omens",
+      "album": "THE DEATH OF PEACE OF MIND",
+      "popularity": 66,
+      "tempo": 155.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.705,
+      "valence": 0.267,
+      "danceability": 0.467,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.046,
+      "duration_ms": 241499,
+      "slug": "the-death-of-peace-of-mind-bad-omens"
+    },
+    {
+      "name": "Voices",
+      "artists": "Motionless In White",
+      "album": "Graveyard Shift",
+      "popularity": 66,
+      "tempo": 90.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.569,
+      "danceability": 0.499,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.5,
+      "speechiness": 0.06,
+      "duration_ms": 224000,
+      "slug": "voices-motionless-in-white"
+    },
+    {
+      "name": "Afterlife",
+      "artists": "Holding Absence",
+      "album": "The Greatest Mistake of My Life",
+      "popularity": 66,
+      "tempo": 134.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.355,
+      "danceability": 0.475,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.06,
+      "duration_ms": 226546,
+      "slug": "afterlife-holding-absence"
+    },
+    {
+      "name": "Sexy Drug",
+      "artists": "Falling In Reverse",
+      "album": "Just Like You (Deluxe Edition)",
+      "popularity": 66,
+      "tempo": 135.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.639,
+      "danceability": 0.367,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.232,
+      "duration_ms": 194671,
+      "slug": "sexy-drug-falling-in-reverse"
+    },
+    {
+      "name": "Parasite Eve",
+      "artists": "Bring Me The Horizon",
+      "album": "Parasite Eve",
+      "popularity": 65,
+      "tempo": 102.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.232,
+      "danceability": 0.589,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.15,
+      "duration_ms": 291812,
+      "slug": "parasite-eve-bring-me-the-horizon"
+    },
+    {
+      "name": "Tears Don't Fall",
+      "artists": "Bullet For My Valentine",
+      "album": "The Poison",
+      "popularity": 65,
+      "tempo": 162.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.931,
+      "valence": 0.233,
+      "danceability": 0.214,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.143,
+      "duration_ms": 348386,
+      "slug": "tears-dont-fall-bullet-for-my-valentine"
+    },
+    {
+      "name": "Avalanche",
+      "artists": "Bring Me The Horizon",
+      "album": "That's The Spirit",
+      "popularity": 65,
+      "tempo": 160.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.934,
+      "valence": 0.285,
+      "danceability": 0.426,
+      "acousticness": 0.0,
+      "instrumentalness": 0.009,
+      "loudness": -4.1,
+      "speechiness": 0.069,
+      "duration_ms": 262013,
+      "slug": "avalanche-bring-me-the-horizon"
+    },
+    {
+      "name": "Bow Down",
+      "artists": "I Prevail",
+      "album": "TRAUMA",
+      "popularity": 65,
+      "tempo": 155.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.959,
+      "valence": 0.372,
+      "danceability": 0.426,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.052,
+      "duration_ms": 242680,
+      "slug": "bow-down-i-prevail"
+    },
+    {
+      "name": "Scars",
+      "artists": "I Prevail",
+      "album": "Lifelines",
+      "popularity": 65,
+      "tempo": 138.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.964,
+      "valence": 0.571,
+      "danceability": 0.505,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.072,
+      "duration_ms": 229773,
+      "slug": "scars-i-prevail"
+    },
+    {
+      "name": "Obey (with YUNGBLUD)",
+      "artists": "Bring Me The Horizon;YUNGBLUD",
+      "album": "POST HUMAN: SURVIVAL HORROR",
+      "popularity": 65,
+      "tempo": 137.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.99,
+      "valence": 0.204,
+      "danceability": 0.462,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.211,
+      "duration_ms": 220538,
+      "slug": "obey-with-yungblud-bring-me-the-horizon"
+    },
+    {
+      "name": "One For the Money",
+      "artists": "Escape the Fate",
+      "album": "Ungrateful (Deluxe)",
+      "popularity": 65,
+      "tempo": 90.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.964,
+      "valence": 0.385,
+      "danceability": 0.525,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.057,
+      "duration_ms": 199950,
+      "slug": "one-for-the-money-escape-the-fate"
+    },
+    {
+      "name": "Parasite Eve",
+      "artists": "Bring Me The Horizon",
+      "album": "POST HUMAN: SURVIVAL HORROR",
+      "popularity": 65,
+      "tempo": 102.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.232,
+      "danceability": 0.589,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.15,
+      "duration_ms": 291812,
+      "slug": "parasite-eve-bring-me-the-horizon"
+    },
+    {
+      "name": "There\u2019s Fear In Letting Go",
+      "artists": "I Prevail",
+      "album": "TRUE POWER",
+      "popularity": 65,
+      "tempo": 123.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.136,
+      "danceability": 0.492,
+      "acousticness": 0.001,
+      "instrumentalness": 0.002,
+      "loudness": -6.4,
+      "speechiness": 0.067,
+      "duration_ms": 234945,
+      "slug": "theres-fear-in-letting-go-i-prevail"
+    },
+    {
+      "name": "Masterpiece",
+      "artists": "Motionless In White",
+      "album": "Scoring The End Of The World",
+      "popularity": 65,
+      "tempo": 178.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.863,
+      "valence": 0.394,
+      "danceability": 0.324,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.123,
+      "duration_ms": 206648,
+      "slug": "masterpiece-motionless-in-white"
+    },
+    {
+      "name": "Faded Out (feat. Within Temptation)",
+      "artists": "Asking Alexandria;Within Temptation",
+      "album": "Faded Out (feat. Within Temptation)",
+      "popularity": 65,
+      "tempo": 75.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.526,
+      "danceability": 0.478,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.094,
+      "duration_ms": 185542,
+      "slug": "faded-out-feat-within-temptation-asking-alexandria"
+    },
+    {
+      "name": "Two Weeks",
+      "artists": "All That Remains",
+      "album": "Overcome",
+      "popularity": 65,
+      "tempo": 112.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.943,
+      "valence": 0.56,
+      "danceability": 0.558,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.053,
+      "duration_ms": 257346,
+      "slug": "two-weeks-all-that-remains"
+    },
+    {
+      "name": "Sign Of Life",
+      "artists": "Motionless In White",
+      "album": "Scoring The End Of The World",
+      "popularity": 65,
+      "tempo": 101.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.929,
+      "valence": 0.429,
+      "danceability": 0.507,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.076,
+      "duration_ms": 220066,
+      "slug": "sign-of-life-motionless-in-white"
+    },
+    {
+      "name": "Riptide",
+      "artists": "Beartooth",
+      "album": "Riptide",
+      "popularity": 65,
+      "tempo": 128.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.934,
+      "valence": 0.55,
+      "danceability": 0.477,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.08,
+      "duration_ms": 211119,
+      "slug": "riptide-beartooth"
+    },
+    {
+      "name": "Good Girls Bad Guys",
+      "artists": "Falling In Reverse",
+      "album": "The Drug In Me Is You",
+      "popularity": 65,
+      "tempo": 146.5,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.948,
+      "valence": 0.611,
+      "danceability": 0.474,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.122,
+      "duration_ms": 195373,
+      "slug": "good-girls-bad-guys-falling-in-reverse"
+    },
+    {
+      "name": "In Between",
+      "artists": "Beartooth",
+      "album": "Disgusting",
+      "popularity": 65,
+      "tempo": 128.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.972,
+      "valence": 0.449,
+      "danceability": 0.462,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.138,
+      "duration_ms": 213576,
+      "slug": "in-between-beartooth"
+    },
+    {
+      "name": "Tekkno Train",
+      "artists": "Electric Callboy",
+      "album": "TEKKNO",
+      "popularity": 65,
+      "tempo": 145.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.87,
+      "valence": 0.541,
+      "danceability": 0.538,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.053,
+      "duration_ms": 177626,
+      "slug": "tekkno-train-electric-callboy"
+    },
+    {
+      "name": "Have Faith In Me",
+      "artists": "A Day To Remember",
+      "album": "Homesick",
+      "popularity": 65,
+      "tempo": 150.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.715,
+      "danceability": 0.507,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.087,
+      "duration_ms": 188813,
+      "slug": "have-faith-in-me-a-day-to-remember"
+    },
+    {
+      "name": "Redneck",
+      "artists": "Lamb of God",
+      "album": "Sacrament",
+      "popularity": 64,
+      "tempo": 130.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.996,
+      "valence": 0.06,
+      "danceability": 0.512,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.1,
+      "speechiness": 0.114,
+      "duration_ms": 220880,
+      "slug": "redneck-lamb-of-god"
+    },
+    {
+      "name": "Alone In A Room",
+      "artists": "Asking Alexandria",
+      "album": "Asking Alexandria",
+      "popularity": 64,
+      "tempo": 135.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.946,
+      "valence": 0.284,
+      "danceability": 0.482,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.085,
+      "duration_ms": 245861,
+      "slug": "alone-in-a-room-asking-alexandria"
+    },
+    {
+      "name": "MANTRA",
+      "artists": "Bring Me The Horizon",
+      "album": "amo",
+      "popularity": 64,
+      "tempo": 90.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.817,
+      "valence": 0.599,
+      "danceability": 0.5,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.046,
+      "duration_ms": 233128,
+      "slug": "mantra-bring-me-the-horizon"
+    },
+    {
+      "name": "Holy Diver",
+      "artists": "Killswitch Engage",
+      "album": "As Daylight Dies (Special Edition)",
+      "popularity": 64,
+      "tempo": 186.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.995,
+      "valence": 0.27,
+      "danceability": 0.369,
+      "acousticness": 0.0,
+      "instrumentalness": 0.006,
+      "loudness": -2.6,
+      "speechiness": 0.12,
+      "duration_ms": 250253,
+      "slug": "holy-diver-killswitch-engage"
+    },
+    {
+      "name": "A Grave Mistake",
+      "artists": "Ice Nine Kills",
+      "album": "The Silver Scream",
+      "popularity": 64,
+      "tempo": 175.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.925,
+      "valence": 0.446,
+      "danceability": 0.36,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.072,
+      "duration_ms": 184226,
+      "slug": "a-grave-mistake-ice-nine-kills"
+    },
+    {
+      "name": "Is There Anybody Out There?",
+      "artists": "Machine Head",
+      "album": "Is There Anybody Out There?",
+      "popularity": 64,
+      "tempo": 177.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.291,
+      "danceability": 0.408,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.226,
+      "duration_ms": 272665,
+      "slug": "is-there-anybody-out-there-machine-head"
+    },
+    {
+      "name": "Don't You Dare Forget the Sun",
+      "artists": "Get Scared",
+      "album": "Built for Blame, Laced With Shame - Spotify Exclusive",
+      "popularity": 64,
+      "tempo": 144.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.814,
+      "valence": 0.472,
+      "danceability": 0.276,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.1,
+      "duration_ms": 193584,
+      "slug": "dont-you-dare-forget-the-sun-get-scared"
+    },
+    {
+      "name": "Hip To Be Scared [Feat. Jacoby Shaddix]",
+      "artists": "Ice Nine Kills;Jacoby Shaddix",
+      "album": "Welcome To Horrorwood: The Silver Scream 2",
+      "popularity": 64,
+      "tempo": 182.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.862,
+      "valence": 0.526,
+      "danceability": 0.276,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.255,
+      "duration_ms": 203560,
+      "slug": "hip-to-be-scared-feat-jacoby-shaddix-ice-nine-kills"
+    },
+    {
+      "name": "The Shower Scene",
+      "artists": "Ice Nine Kills",
+      "album": "Welcome To Horrorwood: The Silver Scream 2",
+      "popularity": 64,
+      "tempo": 176.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.944,
+      "valence": 0.453,
+      "danceability": 0.376,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.174,
+      "duration_ms": 191693,
+      "slug": "the-shower-scene-ice-nine-kills"
+    },
+    {
+      "name": "Situations",
+      "artists": "Escape the Fate",
+      "album": "Dying Is Your Latest Fashion",
+      "popularity": 64,
+      "tempo": 101.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.881,
+      "valence": 0.597,
+      "danceability": 0.503,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.083,
+      "duration_ms": 187880,
+      "slug": "situations-escape-the-fate"
+    },
+    {
+      "name": "Doomed",
+      "artists": "Bring Me The Horizon",
+      "album": "That's The Spirit",
+      "popularity": 63,
+      "tempo": 147.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.903,
+      "valence": 0.22,
+      "danceability": 0.271,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.137,
+      "duration_ms": 274133,
+      "slug": "doomed-bring-me-the-horizon"
+    },
+    {
+      "name": "deep fake",
+      "artists": "Architects",
+      "album": "deep fake",
+      "popularity": 63,
+      "tempo": 96.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.854,
+      "valence": 0.319,
+      "danceability": 0.505,
+      "acousticness": 0.0,
+      "instrumentalness": 0.003,
+      "loudness": -4.2,
+      "speechiness": 0.085,
+      "duration_ms": 213871,
+      "slug": "deep-fake-architects"
+    },
+    {
+      "name": "The House of Wolves",
+      "artists": "Bring Me The Horizon",
+      "album": "Sempiternal (Expanded Edition)",
+      "popularity": 63,
+      "tempo": 152.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.98,
+      "valence": 0.279,
+      "danceability": 0.425,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.189,
+      "duration_ms": 205160,
+      "slug": "the-house-of-wolves-bring-me-the-horizon"
+    },
+    {
+      "name": "Nowhere To Go",
+      "artists": "Bad Omens",
+      "album": "THE DEATH OF PEACE OF MIND",
+      "popularity": 63,
+      "tempo": 174.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.958,
+      "valence": 0.458,
+      "danceability": 0.417,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.139,
+      "duration_ms": 246774,
+      "slug": "nowhere-to-go-bad-omens"
+    },
+    {
+      "name": "Without Me",
+      "artists": "Dayseeker",
+      "album": "Without Me",
+      "popularity": 63,
+      "tempo": 92.7,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.819,
+      "valence": 0.162,
+      "danceability": 0.421,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.041,
+      "duration_ms": 223800,
+      "slug": "without-me-dayseeker"
+    },
+    {
+      "name": "Sleeptalk",
+      "artists": "Dayseeker",
+      "album": "Sleeptalk",
+      "popularity": 63,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.946,
+      "valence": 0.24,
+      "danceability": 0.49,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.118,
+      "duration_ms": 223026,
+      "slug": "sleeptalk-dayseeker"
+    },
+    {
+      "name": "Not The American Average",
+      "artists": "Asking Alexandria",
+      "album": "Stand Up And Scream",
+      "popularity": 63,
+      "tempo": 185.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.892,
+      "valence": 0.069,
+      "danceability": 0.236,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.188,
+      "duration_ms": 279226,
+      "slug": "not-the-american-average-asking-alexandria"
+    },
+    {
+      "name": "Mr. Highway's Thinking About The End",
+      "artists": "A Day To Remember",
+      "album": "Homesick",
+      "popularity": 63,
+      "tempo": 150.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.916,
+      "valence": 0.451,
+      "danceability": 0.301,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.092,
+      "duration_ms": 255826,
+      "slug": "mr-highways-thinking-about-the-end-a-day-to-remember"
+    },
+    {
+      "name": "Blank Space",
+      "artists": "I Prevail",
+      "album": "Heart Vs. Mind",
+      "popularity": 63,
+      "tempo": 194.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.863,
+      "valence": 0.233,
+      "danceability": 0.437,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.094,
+      "duration_ms": 240927,
+      "slug": "blank-space-i-prevail"
+    },
+    {
+      "name": "Pump It",
+      "artists": "Electric Callboy",
+      "album": "Pump It",
+      "popularity": 63,
+      "tempo": 174.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.437,
+      "danceability": 0.448,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.059,
+      "duration_ms": 172758,
+      "slug": "pump-it-electric-callboy"
+    },
+    {
+      "name": "Mindreader",
+      "artists": "Electric Callboy",
+      "album": "TEKKNO",
+      "popularity": 63,
+      "tempo": 90.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.919,
+      "valence": 0.146,
+      "danceability": 0.413,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.062,
+      "duration_ms": 225000,
+      "slug": "mindreader-electric-callboy"
+    },
+    {
+      "name": "Pump It",
+      "artists": "Electric Callboy",
+      "album": "TEKKNO",
+      "popularity": 63,
+      "tempo": 174.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.882,
+      "valence": 0.443,
+      "danceability": 0.442,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.054,
+      "duration_ms": 172240,
+      "slug": "pump-it-electric-callboy"
+    },
+    {
+      "name": "We Got the Moves",
+      "artists": "Electric Callboy",
+      "album": "TEKKNO",
+      "popularity": 63,
+      "tempo": 150.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.781,
+      "valence": 0.723,
+      "danceability": 0.587,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.055,
+      "duration_ms": 206133,
+      "slug": "we-got-the-moves-electric-callboy"
+    },
+    {
+      "name": "Spaceman (feat. FiNCH)",
+      "artists": "Electric Callboy;FiNCH",
+      "album": "TEKKNO",
+      "popularity": 63,
+      "tempo": 80.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.891,
+      "valence": 0.572,
+      "danceability": 0.508,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.054,
+      "duration_ms": 190000,
+      "slug": "spaceman-feat-finch-electric-callboy"
+    },
+    {
+      "name": "We Got the Moves",
+      "artists": "Electric Callboy",
+      "album": "We Got the Moves",
+      "popularity": 63,
+      "tempo": 150.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.808,
+      "valence": 0.712,
+      "danceability": 0.595,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.056,
+      "duration_ms": 206858,
+      "slug": "we-got-the-moves-electric-callboy"
+    },
+    {
+      "name": "Let Me Hear",
+      "artists": "Fear, and Loathing in Las Vegas",
+      "album": "Feeling of Unity",
+      "popularity": 62,
+      "tempo": 184.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.995,
+      "valence": 0.303,
+      "danceability": 0.175,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": 1.0,
+      "speechiness": 0.211,
+      "duration_ms": 225546,
+      "slug": "let-me-hear-fear-and-loathing-in-las-vegas"
+    },
+    {
+      "name": "Deep End",
+      "artists": "I Prevail",
+      "album": "TRUE POWER",
+      "popularity": 62,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.729,
+      "valence": 0.261,
+      "danceability": 0.53,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.034,
+      "duration_ms": 206142,
+      "slug": "deep-end-i-prevail"
+    },
+    {
+      "name": "sugar honey ice & tea",
+      "artists": "Bring Me The Horizon",
+      "album": "amo",
+      "popularity": 62,
+      "tempo": 147.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.914,
+      "valence": 0.534,
+      "danceability": 0.431,
+      "acousticness": 0.0,
+      "instrumentalness": 0.01,
+      "loudness": -4.2,
+      "speechiness": 0.062,
+      "duration_ms": 261560,
+      "slug": "sugar-honey-ice-tea-bring-me-the-horizon"
+    },
+    {
+      "name": "Astronaut In The Ocean",
+      "artists": "Our Last Night",
+      "album": "Astronaut In The Ocean",
+      "popularity": 62,
+      "tempo": 149.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.956,
+      "valence": 0.655,
+      "danceability": 0.519,
+      "acousticness": 0.001,
+      "instrumentalness": 0.009,
+      "loudness": -3.0,
+      "speechiness": 0.079,
+      "duration_ms": 134200,
+      "slug": "astronaut-in-the-ocean-our-last-night"
+    },
+    {
+      "name": "a new moral low ground",
+      "artists": "Architects",
+      "album": "a new moral low ground",
+      "popularity": 62,
+      "tempo": 178.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.937,
+      "valence": 0.197,
+      "danceability": 0.376,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -3.4,
+      "speechiness": 0.152,
+      "duration_ms": 211848,
+      "slug": "a-new-moral-low-ground-architects"
+    },
+    {
+      "name": "You Want a Battle? (Here's a War)",
+      "artists": "Bullet For My Valentine",
+      "album": "Venom (Deluxe Edition)",
+      "popularity": 62,
+      "tempo": 134.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.98,
+      "valence": 0.283,
+      "danceability": 0.295,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.085,
+      "duration_ms": 254613,
+      "slug": "you-want-a-battle-heres-a-war-bullet-for-my-valentine"
+    },
+    {
+      "name": "when we were young",
+      "artists": "Architects",
+      "album": "when we were young",
+      "popularity": 62,
+      "tempo": 170.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.938,
+      "valence": 0.439,
+      "danceability": 0.443,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.106,
+      "duration_ms": 193886,
+      "slug": "when-we-were-young-architects"
+    },
+    {
+      "name": "Every Time You Leave",
+      "artists": "I Prevail;Delaney Jane",
+      "album": "TRAUMA",
+      "popularity": 62,
+      "tempo": 150.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.749,
+      "valence": 0.167,
+      "danceability": 0.473,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.029,
+      "duration_ms": 216626,
+      "slug": "every-time-you-leave-i-prevail"
+    },
+    {
+      "name": "Learning to Survive",
+      "artists": "We Came As Romans",
+      "album": "Cold Like War",
+      "popularity": 62,
+      "tempo": 140.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.829,
+      "valence": 0.495,
+      "danceability": 0.588,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.051,
+      "duration_ms": 269966,
+      "slug": "learning-to-survive-we-came-as-romans"
+    },
+    {
+      "name": "Lost in Echoes",
+      "artists": "Caskets",
+      "album": "Lost Souls",
+      "popularity": 62,
+      "tempo": 75.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.937,
+      "valence": 0.444,
+      "danceability": 0.442,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.072,
+      "duration_ms": 217814,
+      "slug": "lost-in-echoes-caskets"
+    },
+    {
+      "name": "The End of Heartache",
+      "artists": "Killswitch Engage",
+      "album": "The End of Heartache (Special Edition)",
+      "popularity": 62,
+      "tempo": 124.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.976,
+      "valence": 0.222,
+      "danceability": 0.469,
+      "acousticness": 0.0,
+      "instrumentalness": 0.217,
+      "loudness": -3.6,
+      "speechiness": 0.111,
+      "duration_ms": 298106,
+      "slug": "the-end-of-heartache-killswitch-engage"
+    }
+  ]
+}

@@ -1,0 +1,2802 @@
+{
+  "genre": "Dub",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 71.665,
+    "max": 199.526,
+    "mean": 129.65,
+    "median": 140.991,
+    "q1": 96.96,
+    "q3": 150.064,
+    "histogram": {
+      "70-79": 14,
+      "80-89": 5,
+      "90-99": 8,
+      "100-109": 1,
+      "110-119": 3,
+      "120-129": 8,
+      "130-139": 7,
+      "140-149": 28,
+      "150-159": 14,
+      "160-169": 3,
+      "170-179": 8,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "C#/Db": 13,
+    "D": 12,
+    "G": 11,
+    "C": 10,
+    "G#/Ab": 9,
+    "E": 8,
+    "F": 8,
+    "A": 8,
+    "F#/Gb": 7,
+    "B": 6,
+    "A#/Bb": 6,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 65,
+    "Minor": 35
+  },
+  "key_mode_distribution": {
+    "D Major": 10,
+    "C#/Db Major": 9,
+    "G Major": 8,
+    "A Major": 7,
+    "C Major": 6,
+    "G#/Ab Major": 6,
+    "E Minor": 5,
+    "F Major": 5,
+    "F#/Gb Major": 5,
+    "B Minor": 4,
+    "A#/Bb Minor": 4,
+    "C Minor": 4,
+    "C#/Db Minor": 4,
+    "F Minor": 3,
+    "G#/Ab Minor": 3,
+    "E Major": 3,
+    "G Minor": 3,
+    "D#/Eb Major": 2,
+    "B Major": 2,
+    "F#/Gb Minor": 2,
+    "D Minor": 2,
+    "A#/Bb Major": 2,
+    "A Minor": 1
+  },
+  "energy": {
+    "min": 0.299,
+    "max": 0.985,
+    "mean": 0.71,
+    "median": 0.724,
+    "q1": 0.594,
+    "q3": 0.836
+  },
+  "valence": {
+    "min": 0.04,
+    "max": 0.966,
+    "mean": 0.369,
+    "median": 0.289,
+    "q1": 0.19,
+    "q3": 0.483
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.543,
+      "valence": 0.112
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.083
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.159
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.26
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.369
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.594,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.35,
+      "valence": 0.097
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.895
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.112
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.144
+    },
+    {
+      "energy": 0.591,
+      "valence": 0.76
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.358
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.222
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.828
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.959
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.591,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.932
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.744
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.741
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.267
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.564,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.577
+    },
+    {
+      "energy": 0.969,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.485,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.634,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.117
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.397
+    },
+    {
+      "energy": 0.983,
+      "valence": 0.28
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.182
+    },
+    {
+      "energy": 0.854,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.499,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.772,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.402
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.082
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.203
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.218
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.053
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.22
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.212
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.373
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.961,
+      "valence": 0.664
+    },
+    {
+      "energy": 0.962,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.299,
+      "valence": 0.933
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.395,
+      "valence": 0.783
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.814
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.826,
+      "valence": 0.216
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.683,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.042
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.205
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.815,
+      "valence": 0.175
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.072
+    },
+    {
+      "energy": 0.43,
+      "valence": 0.89
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.527
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.885
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.138
+    },
+    {
+      "energy": 0.516,
+      "valence": 0.877
+    },
+    {
+      "energy": 0.711,
+      "valence": 0.266
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.323,
+      "valence": 0.193
+    },
+    {
+      "energy": 0.753,
+      "valence": 0.254
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.39
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.093
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.108
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.329
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.217
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.278
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.966
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.103
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.825,
+    "mean": 0.099,
+    "median": 0.043,
+    "q1": 0.009,
+    "q3": 0.117
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.717,
+    "mean": 0.022,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.002
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.261,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.825,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.453,
+      "instrumentalness": 0.109
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.106
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.102
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.215,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.409,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.308,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.077
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.183,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.34,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.199
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.134,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.439,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.645,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.342,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.062
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.53,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.088,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.122,
+      "instrumentalness": 0.051
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.055,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.251,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.248
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.115
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.175,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.373,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.717
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.206
+    }
+  ],
+  "duration": {
+    "min": 135529,
+    "max": 366252,
+    "mean": 235625.17,
+    "median": 229400.0,
+    "q1": 202821,
+    "q3": 257386
+  },
+  "danceability": {
+    "min": 0.209,
+    "max": 0.874,
+    "mean": 0.552,
+    "median": 0.526,
+    "q1": 0.432,
+    "q3": 0.643
+  },
+  "loudness": {
+    "min": -14.285,
+    "max": -0.48,
+    "mean": -5.774,
+    "median": -5.452,
+    "q1": -7.145,
+    "q3": -4.172
+  },
+  "speechiness": {
+    "min": 0.027,
+    "max": 0.662,
+    "mean": 0.101,
+    "median": 0.053,
+    "q1": 0.042,
+    "q3": 0.1
+  },
+  "top_artists": [
+    {
+      "name": "ILLENIUM",
+      "count": 23
+    },
+    {
+      "name": "SLANDER",
+      "count": 10
+    },
+    {
+      "name": "Porter Robinson",
+      "count": 6
+    },
+    {
+      "name": "Inhaler",
+      "count": 6
+    },
+    {
+      "name": "Said The Sky",
+      "count": 6
+    },
+    {
+      "name": "Dylan Matthew",
+      "count": 5
+    },
+    {
+      "name": "Zeds Dead",
+      "count": 5
+    },
+    {
+      "name": "Seven Lions",
+      "count": 5
+    },
+    {
+      "name": "Jon Bellion",
+      "count": 3
+    },
+    {
+      "name": "Annika Wells",
+      "count": 3
+    },
+    {
+      "name": "The Wailers",
+      "count": 3
+    },
+    {
+      "name": "Flux Pavilion",
+      "count": 3
+    },
+    {
+      "name": "Tristam",
+      "count": 3
+    },
+    {
+      "name": "Whales",
+      "count": 2
+    },
+    {
+      "name": "Fraxo",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Dead To Me - Slow + Reverb",
+      "artists": "Whales;Fraxo;Lox Chatterbox",
+      "album": "Dead To Me Slow + Reverb",
+      "popularity": 73,
+      "tempo": 127.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.112,
+      "danceability": 0.682,
+      "acousticness": 0.261,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.069,
+      "duration_ms": 267227,
+      "slug": "dead-to-me-slow-reverb-whales"
+    },
+    {
+      "name": "Everything Goes On",
+      "artists": "Porter Robinson;League of Legends",
+      "album": "Everything Goes On",
+      "popularity": 73,
+      "tempo": 157.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.648,
+      "valence": 0.323,
+      "danceability": 0.55,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.031,
+      "duration_ms": 202821,
+      "slug": "everything-goes-on-porter-robinson"
+    },
+    {
+      "name": "All That Really Matters",
+      "artists": "ILLENIUM;Teddy Swims",
+      "album": "All That Really Matters",
+      "popularity": 70,
+      "tempo": 170.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.227,
+      "danceability": 0.352,
+      "acousticness": 0.117,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.051,
+      "duration_ms": 244235,
+      "slug": "all-that-really-matters-illenium"
+    },
+    {
+      "name": "Love Is Gone",
+      "artists": "SLANDER;Dylan Matthew",
+      "album": "Love Is Gone",
+      "popularity": 67,
+      "tempo": 149.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.465,
+      "valence": 0.083,
+      "danceability": 0.452,
+      "acousticness": 0.059,
+      "instrumentalness": 0.001,
+      "loudness": -10.0,
+      "speechiness": 0.034,
+      "duration_ms": 256042,
+      "slug": "love-is-gone-slander"
+    },
+    {
+      "name": "From The Ashes (with Skylar Grey)",
+      "artists": "ILLENIUM;Skylar Grey",
+      "album": "From The Ashes (with Skylar Grey)",
+      "popularity": 67,
+      "tempo": 154.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.789,
+      "valence": 0.159,
+      "danceability": 0.404,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.057,
+      "duration_ms": 253983,
+      "slug": "from-the-ashes-with-skylar-grey-illenium"
+    },
+    {
+      "name": "Bam Bam",
+      "artists": "Sister Nancy",
+      "album": "One Two",
+      "popularity": 67,
+      "tempo": 166.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.605,
+      "valence": 0.709,
+      "danceability": 0.722,
+      "acousticness": 0.825,
+      "instrumentalness": 0.018,
+      "loudness": -6.1,
+      "speechiness": 0.153,
+      "duration_ms": 196506,
+      "slug": "bam-bam-sister-nancy"
+    },
+    {
+      "name": "Shelter",
+      "artists": "Porter Robinson;Madeon",
+      "album": "Shelter",
+      "popularity": 66,
+      "tempo": 199.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.796,
+      "valence": 0.26,
+      "danceability": 0.276,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.058,
+      "duration_ms": 218964,
+      "slug": "shelter-porter-robinson"
+    },
+    {
+      "name": "Story Of My Life (feat. Trippie Redd)",
+      "artists": "ILLENIUM;Sueco;Trippie Redd",
+      "album": "Story Of My Life (feat. Trippie Redd)",
+      "popularity": 65,
+      "tempo": 97.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.892,
+      "valence": 0.369,
+      "danceability": 0.521,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.043,
+      "duration_ms": 191124,
+      "slug": "story-of-my-life-feat-trippie-redd-illenium"
+    },
+    {
+      "name": "Feel Something (With I Prevail)",
+      "artists": "ILLENIUM;Excision;I Prevail",
+      "album": "Feel Something (With I Prevail)",
+      "popularity": 65,
+      "tempo": 75.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.877,
+      "valence": 0.113,
+      "danceability": 0.428,
+      "acousticness": 0.002,
+      "instrumentalness": 0.004,
+      "loudness": -4.7,
+      "speechiness": 0.084,
+      "duration_ms": 221000,
+      "slug": "feel-something-with-i-prevail-illenium"
+    },
+    {
+      "name": "Good Things Fall Apart (with Jon Bellion)",
+      "artists": "ILLENIUM;Jon Bellion",
+      "album": "Good Things Fall Apart (with Jon Bellion)",
+      "popularity": 64,
+      "tempo": 144.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.594,
+      "valence": 0.442,
+      "danceability": 0.643,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.032,
+      "duration_ms": 216668,
+      "slug": "good-things-fall-apart-with-jon-bellion-illenium"
+    },
+    {
+      "name": "Goodbye To A World",
+      "artists": "Porter Robinson",
+      "album": "Worlds",
+      "popularity": 64,
+      "tempo": 96.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.35,
+      "valence": 0.097,
+      "danceability": 0.444,
+      "acousticness": 0.453,
+      "instrumentalness": 0.109,
+      "loudness": -7.2,
+      "speechiness": 0.048,
+      "duration_ms": 328506,
+      "slug": "goodbye-to-a-world-porter-robinson"
+    },
+    {
+      "name": "Night Nurse",
+      "artists": "Gregory Isaacs",
+      "album": "Night Nurse (Expanded Edition)",
+      "popularity": 64,
+      "tempo": 73.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.895,
+      "danceability": 0.824,
+      "acousticness": 0.039,
+      "instrumentalness": 0.106,
+      "loudness": -11.0,
+      "speechiness": 0.145,
+      "duration_ms": 249533,
+      "slug": "night-nurse-gregory-isaacs"
+    },
+    {
+      "name": "In Your Arms (with X Ambassadors)",
+      "artists": "ILLENIUM;X Ambassadors",
+      "album": "ASCEND",
+      "popularity": 63,
+      "tempo": 148.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.806,
+      "valence": 0.112,
+      "danceability": 0.404,
+      "acousticness": 0.198,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.05,
+      "duration_ms": 220730,
+      "slug": "in-your-arms-with-x-ambassadors-illenium"
+    },
+    {
+      "name": "Good Things Fall Apart (with Jon Bellion)",
+      "artists": "ILLENIUM;Jon Bellion",
+      "album": "ASCEND",
+      "popularity": 63,
+      "tempo": 144.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.42,
+      "danceability": 0.643,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.031,
+      "duration_ms": 216668,
+      "slug": "good-things-fall-apart-with-jon-bellion-illenium"
+    },
+    {
+      "name": "Can You Feel My Heart",
+      "artists": "Varien;Andrew Zink",
+      "album": "Can You Feel My Heart",
+      "popularity": 63,
+      "tempo": 120.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.747,
+      "valence": 0.321,
+      "danceability": 0.258,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.042,
+      "duration_ms": 232200,
+      "slug": "can-you-feel-my-heart-varien"
+    },
+    {
+      "name": "Alive",
+      "artists": "Zeds Dead;MKLA",
+      "album": "Alive",
+      "popularity": 63,
+      "tempo": 121.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.144,
+      "danceability": 0.618,
+      "acousticness": 0.009,
+      "instrumentalness": 0.102,
+      "loudness": -8.0,
+      "speechiness": 0.034,
+      "duration_ms": 197388,
+      "slug": "alive-zeds-dead"
+    },
+    {
+      "name": "Chase The Devil",
+      "artists": "Max Romeo",
+      "album": "Best Of",
+      "popularity": 63,
+      "tempo": 76.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.591,
+      "valence": 0.76,
+      "danceability": 0.874,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.143,
+      "duration_ms": 177000,
+      "slug": "chase-the-devil-max-romeo"
+    },
+    {
+      "name": "First Time",
+      "artists": "ILLENIUM;iann dior",
+      "album": "First Time",
+      "popularity": 62,
+      "tempo": 155.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.667,
+      "valence": 0.43,
+      "danceability": 0.526,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.044,
+      "duration_ms": 165779,
+      "slug": "first-time-illenium"
+    },
+    {
+      "name": "Shivering (feat. Spiritbox)",
+      "artists": "ILLENIUM;Spiritbox",
+      "album": "Shivering (feat. Spiritbox)",
+      "popularity": 62,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.907,
+      "valence": 0.244,
+      "danceability": 0.428,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.163,
+      "duration_ms": 300916,
+      "slug": "shivering-feat-spiritbox-illenium"
+    },
+    {
+      "name": "Nightlight",
+      "artists": "ILLENIUM;Annika Wells",
+      "album": "Nightlight",
+      "popularity": 61,
+      "tempo": 150.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.162,
+      "danceability": 0.494,
+      "acousticness": 0.082,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.038,
+      "duration_ms": 222400,
+      "slug": "nightlight-illenium"
+    },
+    {
+      "name": "First Time",
+      "artists": "ILLENIUM;iann dior",
+      "album": "Fallen Embers",
+      "popularity": 61,
+      "tempo": 155.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.667,
+      "valence": 0.43,
+      "danceability": 0.526,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.044,
+      "duration_ms": 165779,
+      "slug": "first-time-illenium"
+    },
+    {
+      "name": "40 Cal",
+      "artists": "Hairitage;Rico Act",
+      "album": "Triumph EP",
+      "popularity": 61,
+      "tempo": 75.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.357,
+      "danceability": 0.613,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.297,
+      "duration_ms": 200071,
+      "slug": "40-cal-hairitage"
+    },
+    {
+      "name": "Make Me Move",
+      "artists": "Culture Code;Karra",
+      "album": "Make Me Move",
+      "popularity": 61,
+      "tempo": 95.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.65,
+      "valence": 0.358,
+      "danceability": 0.537,
+      "acousticness": 0.215,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.042,
+      "duration_ms": 197052,
+      "slug": "make-me-move-culture-code"
+    },
+    {
+      "name": "Getaway - Koven Remix",
+      "artists": "Tritonal;Angel Taylor;Koven",
+      "album": "Getaway (Remixes)",
+      "popularity": 61,
+      "tempo": 172.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.914,
+      "valence": 0.222,
+      "danceability": 0.488,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.223,
+      "duration_ms": 203720,
+      "slug": "getaway-koven-remix-tritonal"
+    },
+    {
+      "name": "Get Up, Stand Up",
+      "artists": "The Wailers",
+      "album": "Burnin' (Deluxe Edition)",
+      "popularity": 61,
+      "tempo": 77.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.555,
+      "valence": 0.828,
+      "danceability": 0.765,
+      "acousticness": 0.409,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.374,
+      "duration_ms": 197666,
+      "slug": "get-up-stand-up-the-wailers"
+    },
+    {
+      "name": "Johnny B. Goode - 2002 Remaster",
+      "artists": "Peter Tosh;John Benitez",
+      "album": "Mama Africa",
+      "popularity": 61,
+      "tempo": 145.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.849,
+      "valence": 0.959,
+      "danceability": 0.749,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.054,
+      "duration_ms": 244253,
+      "slug": "johnny-b-goode-2002-remaster-peter-tosh"
+    },
+    {
+      "name": "Stop Thinking (feat. Lights)",
+      "artists": "Seven Lions;Lights",
+      "album": "Stop Thinking (feat. Lights)",
+      "popularity": 60,
+      "tempo": 170.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.597,
+      "valence": 0.185,
+      "danceability": 0.396,
+      "acousticness": 0.308,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.036,
+      "duration_ms": 292633,
+      "slug": "stop-thinking-feat-lights-seven-lions"
+    },
+    {
+      "name": "Sad Machine",
+      "artists": "Porter Robinson",
+      "album": "Worlds",
+      "popularity": 60,
+      "tempo": 88.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.706,
+      "valence": 0.327,
+      "danceability": 0.47,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.032,
+      "duration_ms": 350690,
+      "slug": "sad-machine-porter-robinson"
+    },
+    {
+      "name": "These Are The Days",
+      "artists": "Inhaler",
+      "album": "These Are The Days",
+      "popularity": 60,
+      "tempo": 140.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.761,
+      "danceability": 0.51,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.045,
+      "duration_ms": 222297,
+      "slug": "these-are-the-days-inhaler"
+    },
+    {
+      "name": "Neck And Neck - DNMO Remix",
+      "artists": "Zeds Dead;Dragonette;DNMO",
+      "album": "Northern Lights (Remixes)",
+      "popularity": 60,
+      "tempo": 150.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.591,
+      "valence": 0.37,
+      "danceability": 0.601,
+      "acousticness": 0.019,
+      "instrumentalness": 0.077,
+      "loudness": -7.4,
+      "speechiness": 0.034,
+      "duration_ms": 182400,
+      "slug": "neck-and-neck-dnmo-remix-zeds-dead"
+    },
+    {
+      "name": "Why",
+      "artists": "The Viceroys",
+      "album": "Iroko Showcase, Vol. 2: Memories",
+      "popularity": 60,
+      "tempo": 134.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.641,
+      "valence": 0.932,
+      "danceability": 0.869,
+      "acousticness": 0.017,
+      "instrumentalness": 0.001,
+      "loudness": -6.2,
+      "speechiness": 0.04,
+      "duration_ms": 146623,
+      "slug": "why-the-viceroys"
+    },
+    {
+      "name": "Chase The Devil",
+      "artists": "Max Romeo;The Upsetters",
+      "album": "War Ina Babylon (Expanded Edition)",
+      "popularity": 60,
+      "tempo": 150.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.62,
+      "valence": 0.744,
+      "danceability": 0.825,
+      "acousticness": 0.183,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.211,
+      "duration_ms": 206306,
+      "slug": "chase-the-devil-max-romeo"
+    },
+    {
+      "name": "I Shot The Sheriff",
+      "artists": "The Wailers",
+      "album": "Burnin' (Deluxe Edition)",
+      "popularity": 60,
+      "tempo": 97.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.641,
+      "valence": 0.741,
+      "danceability": 0.801,
+      "acousticness": 0.34,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.173,
+      "duration_ms": 279720,
+      "slug": "i-shot-the-sheriff-the-wailers"
+    },
+    {
+      "name": "Good Things Fall Apart vs. Sad Songs (With Said The Sky feat. Annika Wells)",
+      "artists": "ILLENIUM;Jon Bellion;Said The Sky;Annika Wells",
+      "album": "ASCEND (Tour Edits)",
+      "popularity": 59,
+      "tempo": 144.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.555,
+      "valence": 0.267,
+      "danceability": 0.563,
+      "acousticness": 0.11,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.029,
+      "duration_ms": 366252,
+      "slug": "good-things-fall-apart-vs-sad-songs-with-said-the-sky-feat-annika-wells-illenium"
+    },
+    {
+      "name": "Crawl Outta Love",
+      "artists": "ILLENIUM;Annika Wells",
+      "album": "Awake",
+      "popularity": 59,
+      "tempo": 84.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.167,
+      "danceability": 0.377,
+      "acousticness": 0.181,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.046,
+      "duration_ms": 242011,
+      "slug": "crawl-outta-love-illenium"
+    },
+    {
+      "name": "Look at the Sky",
+      "artists": "Porter Robinson",
+      "album": "Nurture",
+      "popularity": 59,
+      "tempo": 115.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.564,
+      "valence": 0.385,
+      "danceability": 0.568,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.027,
+      "duration_ms": 309985,
+      "slug": "look-at-the-sky-porter-robinson"
+    },
+    {
+      "name": "Thief - Flux Pavilion Remix",
+      "artists": "Ookay;Flux Pavilion",
+      "album": "Thief (Flux Pavilion Remix)",
+      "popularity": 59,
+      "tempo": 145.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.858,
+      "valence": 0.577,
+      "danceability": 0.55,
+      "acousticness": 0.041,
+      "instrumentalness": 0.199,
+      "loudness": -2.6,
+      "speechiness": 0.036,
+      "duration_ms": 271749,
+      "slug": "thief-flux-pavilion-remix-ookay"
+    },
+    {
+      "name": "My Honest Face",
+      "artists": "Inhaler",
+      "album": "It Won't Always Be Like This",
+      "popularity": 59,
+      "tempo": 160.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.969,
+      "valence": 0.51,
+      "danceability": 0.419,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -4.2,
+      "speechiness": 0.098,
+      "duration_ms": 272666,
+      "slug": "my-honest-face-inhaler"
+    },
+    {
+      "name": "Ganja Smuggling",
+      "artists": "Eek-A-Mouse",
+      "album": "Wa-Do-Dem",
+      "popularity": 59,
+      "tempo": 71.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.427,
+      "valence": 0.526,
+      "danceability": 0.78,
+      "acousticness": 0.128,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.126,
+      "duration_ms": 228760,
+      "slug": "ganja-smuggling-eek-a-mouse"
+    },
+    {
+      "name": "Walk Me Home",
+      "artists": "Said The Sky;ILLENIUM;Chelsea Cutler",
+      "album": "Sentiment",
+      "popularity": 58,
+      "tempo": 159.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.485,
+      "valence": 0.211,
+      "danceability": 0.4,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.037,
+      "duration_ms": 216125,
+      "slug": "walk-me-home-said-the-sky"
+    },
+    {
+      "name": "Replay (with Dylan Matthew)",
+      "artists": "SLANDER;Dylan Matthew",
+      "album": "Replay (with Dylan Matthew)",
+      "popularity": 58,
+      "tempo": 170.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.634,
+      "valence": 0.105,
+      "danceability": 0.209,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.054,
+      "duration_ms": 241411,
+      "slug": "replay-with-dylan-matthew-slander"
+    },
+    {
+      "name": "Here Comes the Hotstepper",
+      "artists": "Ini Kamoze",
+      "album": "On Your 90's Radio",
+      "popularity": 58,
+      "tempo": 100.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.537,
+      "valence": 0.483,
+      "danceability": 0.852,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.114,
+      "duration_ms": 244813,
+      "slug": "here-comes-the-hotstepper-ini-kamoze"
+    },
+    {
+      "name": "We Won't Be Alone",
+      "artists": "Feint;Laura Brehm",
+      "album": "We Won't Be Alone",
+      "popularity": 58,
+      "tempo": 174.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.858,
+      "valence": 0.117,
+      "danceability": 0.377,
+      "acousticness": 0.134,
+      "instrumentalness": 0.002,
+      "loudness": -4.9,
+      "speechiness": 0.148,
+      "duration_ms": 234475,
+      "slug": "we-wont-be-alone-feint"
+    },
+    {
+      "name": "Frame of Mind",
+      "artists": "Tristam;Braken",
+      "album": "Frame of Mind",
+      "popularity": 58,
+      "tempo": 175.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.397,
+      "danceability": 0.435,
+      "acousticness": 0.042,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.061,
+      "duration_ms": 274285,
+      "slug": "frame-of-mind-tristam"
+    },
+    {
+      "name": "Name Drop",
+      "artists": "Excision;Wooli",
+      "album": "Name Drop",
+      "popularity": 58,
+      "tempo": 75.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.983,
+      "valence": 0.28,
+      "danceability": 0.319,
+      "acousticness": 0.008,
+      "instrumentalness": 0.001,
+      "loudness": -0.5,
+      "speechiness": 0.38,
+      "duration_ms": 228800,
+      "slug": "name-drop-excision"
+    },
+    {
+      "name": "Gassed Up",
+      "artists": "Zeds Dead;Subtronics;Flowdan",
+      "album": "Gassed Up",
+      "popularity": 58,
+      "tempo": 140.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.985,
+      "valence": 0.182,
+      "danceability": 0.643,
+      "acousticness": 0.015,
+      "instrumentalness": 0.001,
+      "loudness": -1.8,
+      "speechiness": 0.41,
+      "duration_ms": 238285,
+      "slug": "gassed-up-zeds-dead"
+    },
+    {
+      "name": "Only Just Begun",
+      "artists": "Manudigital;Joseph Cotton",
+      "album": "Only Just Begun",
+      "popularity": 57,
+      "tempo": 93.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.854,
+      "valence": 0.743,
+      "danceability": 0.831,
+      "acousticness": 0.439,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.105,
+      "duration_ms": 204032,
+      "slug": "only-just-begun-manudigital"
+    },
+    {
+      "name": "Back To U",
+      "artists": "SLANDER;William Black",
+      "album": "Back To U",
+      "popularity": 57,
+      "tempo": 149.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.499,
+      "valence": 0.272,
+      "danceability": 0.586,
+      "acousticness": 0.645,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.049,
+      "duration_ms": 214400,
+      "slug": "back-to-u-slander"
+    },
+    {
+      "name": "Dead To Me - Original Mix",
+      "artists": "Whales;Fraxo;Lox Chatterbox",
+      "album": "Dead To Me",
+      "popularity": 57,
+      "tempo": 73.7,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.772,
+      "valence": 0.239,
+      "danceability": 0.384,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.311,
+      "duration_ms": 230282,
+      "slug": "dead-to-me-original-mix-whales"
+    },
+    {
+      "name": "Crashing (feat. Bahari)",
+      "artists": "ILLENIUM;Bahari",
+      "album": "ASCEND",
+      "popularity": 57,
+      "tempo": 96.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.273,
+      "danceability": 0.582,
+      "acousticness": 0.342,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.046,
+      "duration_ms": 230000,
+      "slug": "crashing-feat-bahari-illenium"
+    },
+    {
+      "name": "Blame Myself",
+      "artists": "ILLENIUM;Tori Kelly",
+      "album": "Fallen Embers",
+      "popularity": 57,
+      "tempo": 140.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.737,
+      "valence": 0.402,
+      "danceability": 0.392,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.086,
+      "duration_ms": 230571,
+      "slug": "blame-myself-illenium"
+    },
+    {
+      "name": "Laserbeam",
+      "artists": "Ray Volpe",
+      "album": "Laserbeam",
+      "popularity": 57,
+      "tempo": 150.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.082,
+      "danceability": 0.573,
+      "acousticness": 0.001,
+      "instrumentalness": 0.062,
+      "loudness": -1.0,
+      "speechiness": 0.088,
+      "duration_ms": 221600,
+      "slug": "laserbeam-ray-volpe"
+    },
+    {
+      "name": "On My Own",
+      "artists": "Said The Sky;William Black;SayWeCanFly",
+      "album": "On My Own",
+      "popularity": 57,
+      "tempo": 150.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.773,
+      "valence": 0.203,
+      "danceability": 0.463,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.091,
+      "duration_ms": 255448,
+      "slug": "on-my-own-said-the-sky"
+    },
+    {
+      "name": "Someone Else",
+      "artists": "Sullivan King",
+      "album": "Someone Else",
+      "popularity": 57,
+      "tempo": 144.7,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.218,
+      "danceability": 0.363,
+      "acousticness": 0.53,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.042,
+      "duration_ms": 226758,
+      "slug": "someone-else-sullivan-king"
+    },
+    {
+      "name": "Miss You",
+      "artists": "SLANDER;Ganja White Night",
+      "album": "Miss You",
+      "popularity": 57,
+      "tempo": 74.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.472,
+      "valence": 0.053,
+      "danceability": 0.392,
+      "acousticness": 0.088,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.048,
+      "duration_ms": 200000,
+      "slug": "miss-you-slander"
+    },
+    {
+      "name": "Flight",
+      "artists": "Tristam;Braken",
+      "album": "Flight",
+      "popularity": 57,
+      "tempo": 87.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.22,
+      "danceability": 0.433,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.662,
+      "duration_ms": 219428,
+      "slug": "flight-tristam"
+    },
+    {
+      "name": "Thief",
+      "artists": "Ookay",
+      "album": "Thief",
+      "popularity": 57,
+      "tempo": 149.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.212,
+      "danceability": 0.57,
+      "acousticness": 0.005,
+      "instrumentalness": 0.008,
+      "loudness": -3.0,
+      "speechiness": 0.061,
+      "duration_ms": 239711,
+      "slug": "thief-ookay"
+    },
+    {
+      "name": "The Machines",
+      "artists": "Zeds Dead;Blanke",
+      "album": "The Machines",
+      "popularity": 57,
+      "tempo": 179.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.888,
+      "valence": 0.373,
+      "danceability": 0.504,
+      "acousticness": 0.004,
+      "instrumentalness": 0.004,
+      "loudness": -0.7,
+      "speechiness": 0.161,
+      "duration_ms": 202666,
+      "slug": "the-machines-zeds-dead"
+    },
+    {
+      "name": "Paper Thin - Headhunterz Remix",
+      "artists": "ILLENIUM;Tom DeLonge;Angels & Airwaves;Headhunterz",
+      "album": "Paper Thin (Headhunterz Remix)",
+      "popularity": 57,
+      "tempo": 154.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.288,
+      "danceability": 0.398,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.048,
+      "duration_ms": 245392,
+      "slug": "paper-thin-headhunterz-remix-illenium"
+    },
+    {
+      "name": "Suffocate",
+      "artists": "Kayzo;Bad Omens",
+      "album": "Suffocate",
+      "popularity": 57,
+      "tempo": 150.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.961,
+      "valence": 0.664,
+      "danceability": 0.638,
+      "acousticness": 0.014,
+      "instrumentalness": 0.001,
+      "loudness": -1.7,
+      "speechiness": 0.3,
+      "duration_ms": 179200,
+      "slug": "suffocate-kayzo"
+    },
+    {
+      "name": "When It Breaks",
+      "artists": "Inhaler",
+      "album": "It Won't Always Be Like This",
+      "popularity": 57,
+      "tempo": 146.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.962,
+      "valence": 0.231,
+      "danceability": 0.432,
+      "acousticness": 0.001,
+      "instrumentalness": 0.005,
+      "loudness": -6.2,
+      "speechiness": 0.087,
+      "duration_ms": 222746,
+      "slug": "when-it-breaks-inhaler"
+    },
+    {
+      "name": "Cool Down The Pace",
+      "artists": "Gregory Isaacs",
+      "album": "Night Nurse (Expanded Edition)",
+      "popularity": 57,
+      "tempo": 75.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.299,
+      "valence": 0.933,
+      "danceability": 0.87,
+      "acousticness": 0.122,
+      "instrumentalness": 0.051,
+      "loudness": -13.4,
+      "speechiness": 0.248,
+      "duration_ms": 317360,
+      "slug": "cool-down-the-pace-gregory-isaacs"
+    },
+    {
+      "name": "Legalize It",
+      "artists": "Peter Tosh",
+      "album": "Legalize It (Legacy Edition)",
+      "popularity": 57,
+      "tempo": 144.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.589,
+      "valence": 0.65,
+      "danceability": 0.71,
+      "acousticness": 0.068,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.167,
+      "duration_ms": 279360,
+      "slug": "legalize-it-peter-tosh"
+    },
+    {
+      "name": "Natty Rebel - Remaster 1990",
+      "artists": "U-Roy",
+      "album": "Natty Rebel (Extra Version)",
+      "popularity": 57,
+      "tempo": 83.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.395,
+      "valence": 0.783,
+      "danceability": 0.813,
+      "acousticness": 0.061,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.072,
+      "duration_ms": 211960,
+      "slug": "natty-rebel-remaster-1990-u-roy"
+    },
+    {
+      "name": "Get Up, Stand Up",
+      "artists": "The Wailers",
+      "album": "Legend - The Best Of Bob Marley And The Wailers",
+      "popularity": 57,
+      "tempo": 78.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.814,
+      "danceability": 0.797,
+      "acousticness": 0.229,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.373,
+      "duration_ms": 197573,
+      "slug": "get-up-stand-up-the-wailers"
+    },
+    {
+      "name": "Lost",
+      "artists": "ILLENIUM;Emilie Brandt",
+      "album": "Awake",
+      "popularity": 56,
+      "tempo": 135.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.327,
+      "danceability": 0.671,
+      "acousticness": 0.101,
+      "instrumentalness": 0.006,
+      "loudness": -5.9,
+      "speechiness": 0.048,
+      "duration_ms": 200000,
+      "slug": "lost-illenium"
+    },
+    {
+      "name": "Love Is Gone - Ti\u00ebsto Remix",
+      "artists": "SLANDER;Ti\u00ebsto;Dylan Matthew",
+      "album": "Love Is Gone (Ti\u00ebsto Remix)",
+      "popularity": 56,
+      "tempo": 130.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.765,
+      "valence": 0.04,
+      "danceability": 0.414,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.048,
+      "duration_ms": 169846,
+      "slug": "love-is-gone-ti\u00ebsto-remix-slander"
+    },
+    {
+      "name": "Beautiful Creatures (feat. MAX)",
+      "artists": "ILLENIUM;MAX",
+      "album": "Awake",
+      "popularity": 56,
+      "tempo": 117.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.826,
+      "valence": 0.216,
+      "danceability": 0.578,
+      "acousticness": 0.067,
+      "instrumentalness": 0.001,
+      "loudness": -4.6,
+      "speechiness": 0.08,
+      "duration_ms": 240508,
+      "slug": "beautiful-creatures-feat-max-illenium"
+    },
+    {
+      "name": "Love Is Gone - Alok Remix",
+      "artists": "SLANDER;Alok;Dylan Matthew",
+      "album": "Love Is Gone - Alok Remix",
+      "popularity": 56,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.787,
+      "valence": 0.386,
+      "danceability": 0.626,
+      "acousticness": 0.055,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.046,
+      "duration_ms": 137124,
+      "slug": "love-is-gone-alok-remix-slander"
+    },
+    {
+      "name": "Sideways",
+      "artists": "ILLENIUM;Valerie Broussard;NURKO",
+      "album": "Sideways",
+      "popularity": 56,
+      "tempo": 141.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.792,
+      "valence": 0.31,
+      "danceability": 0.474,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.051,
+      "duration_ms": 251830,
+      "slug": "sideways-illenium"
+    },
+    {
+      "name": "I Feel The Love",
+      "artists": "Tritonal;Ross Lynch;R5",
+      "album": "Painting With Dreams",
+      "popularity": 56,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.813,
+      "valence": 0.435,
+      "danceability": 0.555,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.033,
+      "duration_ms": 213120,
+      "slug": "i-feel-the-love-tritonal"
+    },
+    {
+      "name": "Nothing Hurts Like Goodbye (with Kiiara)",
+      "artists": "SLANDER;Kiiara",
+      "album": "Thrive",
+      "popularity": 56,
+      "tempo": 140.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.683,
+      "valence": 0.19,
+      "danceability": 0.672,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.049,
+      "duration_ms": 202285,
+      "slug": "nothing-hurts-like-goodbye-with-kiiara-slander"
+    },
+    {
+      "name": "From The Ashes (with Skylar Grey) - Paul van Dyk Remix",
+      "artists": "ILLENIUM;Skylar Grey;Paul van Dyk",
+      "album": "From The Ashes (with Skylar Grey) [Paul van Dyk Remix]",
+      "popularity": 56,
+      "tempo": 140.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.967,
+      "valence": 0.042,
+      "danceability": 0.574,
+      "acousticness": 0.0,
+      "instrumentalness": 0.034,
+      "loudness": -5.6,
+      "speechiness": 0.043,
+      "duration_ms": 253714,
+      "slug": "from-the-ashes-with-skylar-grey-paul-van-dyk-remix-illenium"
+    },
+    {
+      "name": "First Time (feat. Dylan Matthew)",
+      "artists": "Seven Lions;SLANDER;Dabin;Dylan Matthew",
+      "album": "First Time (feat. Dylan Matthew)",
+      "popularity": 56,
+      "tempo": 150.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.146,
+      "danceability": 0.422,
+      "acousticness": 0.251,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.036,
+      "duration_ms": 297782,
+      "slug": "first-time-feat-dylan-matthew-seven-lions"
+    },
+    {
+      "name": "I Can't Stop",
+      "artists": "Flux Pavilion",
+      "album": "Lines in Wax",
+      "popularity": 56,
+      "tempo": 139.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.775,
+      "valence": 0.205,
+      "danceability": 0.513,
+      "acousticness": 0.001,
+      "instrumentalness": 0.248,
+      "loudness": -7.2,
+      "speechiness": 0.03,
+      "duration_ms": 303911,
+      "slug": "i-cant-stop-flux-pavilion"
+    },
+    {
+      "name": "Call On Me (feat. Vancouver Sleep Clinic)",
+      "artists": "Seven Lions;Vancouver Sleep Clinic",
+      "album": "Call On Me (feat. Vancouver Sleep Clinic)",
+      "popularity": 56,
+      "tempo": 145.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.105,
+      "danceability": 0.323,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.045,
+      "duration_ms": 293122,
+      "slug": "call-on-me-feat-vancouver-sleep-clinic-seven-lions"
+    },
+    {
+      "name": "Emotion Sickness",
+      "artists": "Said The Sky;Parachute;Will Anderson",
+      "album": "Sentiment",
+      "popularity": 56,
+      "tempo": 168.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.7,
+      "valence": 0.235,
+      "danceability": 0.465,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.038,
+      "duration_ms": 202493,
+      "slug": "emotion-sickness-said-the-sky"
+    },
+    {
+      "name": "Something Comforting",
+      "artists": "Porter Robinson",
+      "album": "Nurture",
+      "popularity": 56,
+      "tempo": 144.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.291,
+      "danceability": 0.474,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.03,
+      "duration_ms": 281974,
+      "slug": "something-comforting-porter-robinson"
+    },
+    {
+      "name": "Snake Eyes",
+      "artists": "Feint;CoMa",
+      "album": "Snake Eyes",
+      "popularity": 56,
+      "tempo": 173.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.815,
+      "valence": 0.175,
+      "danceability": 0.501,
+      "acousticness": 0.0,
+      "instrumentalness": 0.115,
+      "loudness": -5.9,
+      "speechiness": 0.075,
+      "duration_ms": 264834,
+      "slug": "snake-eyes-feint"
+    },
+    {
+      "name": "Every Time (feat. So Below)",
+      "artists": "Seven Lions;So Below",
+      "album": "Every Time (feat. So Below)",
+      "popularity": 56,
+      "tempo": 146.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.871,
+      "valence": 0.072,
+      "danceability": 0.352,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -3.7,
+      "speechiness": 0.077,
+      "duration_ms": 342008,
+      "slug": "every-time-feat-so-below-seven-lions"
+    },
+    {
+      "name": "Dream Land",
+      "artists": "Bunny Wailer",
+      "album": "Blackheart Man",
+      "popularity": 56,
+      "tempo": 72.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.43,
+      "valence": 0.89,
+      "danceability": 0.782,
+      "acousticness": 0.175,
+      "instrumentalness": 0.0,
+      "loudness": -14.3,
+      "speechiness": 0.363,
+      "duration_ms": 166773,
+      "slug": "dream-land-bunny-wailer"
+    },
+    {
+      "name": "Promises",
+      "artists": "NERO",
+      "album": "Welcome Reality",
+      "popularity": 56,
+      "tempo": 143.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.943,
+      "valence": 0.345,
+      "danceability": 0.484,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -4.4,
+      "speechiness": 0.065,
+      "duration_ms": 257386,
+      "slug": "promises-nero"
+    },
+    {
+      "name": "Love Will Get You There",
+      "artists": "Inhaler",
+      "album": "Love Will Get You There",
+      "popularity": 56,
+      "tempo": 96.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.897,
+      "valence": 0.527,
+      "danceability": 0.504,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.044,
+      "duration_ms": 250280,
+      "slug": "love-will-get-you-there-inhaler"
+    },
+    {
+      "name": "Back Staba",
+      "artists": "Israel Vibration",
+      "album": "Stamina",
+      "popularity": 56,
+      "tempo": 73.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.537,
+      "valence": 0.885,
+      "danceability": 0.755,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.29,
+      "duration_ms": 231186,
+      "slug": "back-staba-israel-vibration"
+    },
+    {
+      "name": "Me and You",
+      "artists": "Champagne Drip;Lucii",
+      "album": "Me and You",
+      "popularity": 56,
+      "tempo": 139.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.756,
+      "valence": 0.138,
+      "danceability": 0.498,
+      "acousticness": 0.004,
+      "instrumentalness": 0.003,
+      "loudness": -4.9,
+      "speechiness": 0.03,
+      "duration_ms": 226285,
+      "slug": "me-and-you-champagne-drip"
+    },
+    {
+      "name": "Black Roses",
+      "artists": "Barrington Levy",
+      "album": "Original Ragga Muffin, Pt. 1",
+      "popularity": 56,
+      "tempo": 84.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.516,
+      "valence": 0.877,
+      "danceability": 0.801,
+      "acousticness": 0.056,
+      "instrumentalness": 0.009,
+      "loudness": -7.0,
+      "speechiness": 0.081,
+      "duration_ms": 187611,
+      "slug": "black-roses-barrington-levy"
+    },
+    {
+      "name": "Fractures (feat. Nevve)",
+      "artists": "ILLENIUM;Nevve",
+      "album": "Fractures (feat. Nevve)",
+      "popularity": 55,
+      "tempo": 159.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.711,
+      "valence": 0.266,
+      "danceability": 0.41,
+      "acousticness": 0.373,
+      "instrumentalness": 0.002,
+      "loudness": -3.1,
+      "speechiness": 0.043,
+      "duration_ms": 245250,
+      "slug": "fractures-feat-nevve-illenium"
+    },
+    {
+      "name": "Alive",
+      "artists": "Krewella",
+      "album": "Play Hard EP",
+      "popularity": 55,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.567,
+      "danceability": 0.663,
+      "acousticness": 0.004,
+      "instrumentalness": 0.003,
+      "loudness": -2.9,
+      "speechiness": 0.056,
+      "duration_ms": 290760,
+      "slug": "alive-krewella"
+    },
+    {
+      "name": "Potions",
+      "artists": "SLANDER;Said The Sky;JT Roach",
+      "album": "Potions",
+      "popularity": 55,
+      "tempo": 149.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.323,
+      "valence": 0.193,
+      "danceability": 0.545,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.039,
+      "duration_ms": 215200,
+      "slug": "potions-slander"
+    },
+    {
+      "name": "Rush Over Me",
+      "artists": "Seven Lions;ILLENIUM;Said The Sky;HALIENE",
+      "album": "Rush Over Me",
+      "popularity": 55,
+      "tempo": 135.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.753,
+      "valence": 0.254,
+      "danceability": 0.441,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.044,
+      "duration_ms": 259555,
+      "slug": "rush-over-me-seven-lions"
+    },
+    {
+      "name": "Gravity",
+      "artists": "SLANDER;Subtronics;JT Roach",
+      "album": "Gravity",
+      "popularity": 55,
+      "tempo": 149.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.862,
+      "valence": 0.39,
+      "danceability": 0.631,
+      "acousticness": 0.153,
+      "instrumentalness": 0.001,
+      "loudness": -3.6,
+      "speechiness": 0.1,
+      "duration_ms": 364800,
+      "slug": "gravity-slander"
+    },
+    {
+      "name": "Smoke",
+      "artists": "GHASTLY;Madalen Duke",
+      "album": "Haunted Haus",
+      "popularity": 55,
+      "tempo": 121.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.44,
+      "valence": 0.093,
+      "danceability": 0.636,
+      "acousticness": 0.416,
+      "instrumentalness": 0.018,
+      "loudness": -10.6,
+      "speechiness": 0.093,
+      "duration_ms": 187991,
+      "slug": "smoke-ghastly"
+    },
+    {
+      "name": "I'm Delighted",
+      "artists": "Cookie Monsta;Flux Pavilion;Koven",
+      "album": "I'm Delighted",
+      "popularity": 55,
+      "tempo": 75.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.759,
+      "valence": 0.108,
+      "danceability": 0.363,
+      "acousticness": 0.009,
+      "instrumentalness": 0.001,
+      "loudness": -5.4,
+      "speechiness": 0.045,
+      "duration_ms": 339200,
+      "slug": "im-delighted-cookie-monsta"
+    },
+    {
+      "name": "Till It's Over",
+      "artists": "Tristam",
+      "album": "Till It's Over",
+      "popularity": 55,
+      "tempo": 110.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.329,
+      "danceability": 0.61,
+      "acousticness": 0.123,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.089,
+      "duration_ms": 270545,
+      "slug": "till-its-over-tristam"
+    },
+    {
+      "name": "Rude Boy 22 - Spotify Singles",
+      "artists": "Zeds Dead",
+      "album": "Spotify Singles",
+      "popularity": 55,
+      "tempo": 170.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.655,
+      "valence": 0.475,
+      "danceability": 0.696,
+      "acousticness": 0.003,
+      "instrumentalness": 0.717,
+      "loudness": -8.7,
+      "speechiness": 0.099,
+      "duration_ms": 135529,
+      "slug": "rude-boy-22-spotify-singles-zeds-dead"
+    },
+    {
+      "name": "Cheer Up Baby",
+      "artists": "Inhaler",
+      "album": "It Won't Always Be Like This",
+      "popularity": 55,
+      "tempo": 143.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.326,
+      "danceability": 0.462,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.042,
+      "duration_ms": 233906,
+      "slug": "cheer-up-baby-inhaler"
+    },
+    {
+      "name": "Don't Worry My Love",
+      "artists": "Kaivon",
+      "album": "Don't Worry My Love",
+      "popularity": 55,
+      "tempo": 150.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.804,
+      "valence": 0.217,
+      "danceability": 0.511,
+      "acousticness": 0.03,
+      "instrumentalness": 0.026,
+      "loudness": -3.4,
+      "speechiness": 0.036,
+      "duration_ms": 187200,
+      "slug": "dont-worry-my-love-kaivon"
+    },
+    {
+      "name": "It Won't Always Be Like This",
+      "artists": "Inhaler",
+      "album": "It Won't Always Be Like This",
+      "popularity": 55,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.895,
+      "valence": 0.278,
+      "danceability": 0.518,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.046,
+      "duration_ms": 244906,
+      "slug": "it-wont-always-be-like-this-inhaler"
+    },
+    {
+      "name": "Your House",
+      "artists": "Steel Pulse",
+      "album": "Smash Hits",
+      "popularity": 55,
+      "tempo": 154.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.716,
+      "valence": 0.966,
+      "danceability": 0.707,
+      "acousticness": 0.057,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.088,
+      "duration_ms": 222600,
+      "slug": "your-house-steel-pulse"
+    },
+    {
+      "name": "Here With Me",
+      "artists": "PEEKABOO",
+      "album": "Here With Me",
+      "popularity": 55,
+      "tempo": 90.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.59,
+      "valence": 0.103,
+      "danceability": 0.64,
+      "acousticness": 0.05,
+      "instrumentalness": 0.206,
+      "loudness": -2.5,
+      "speechiness": 0.069,
+      "duration_ms": 223999,
+      "slug": "here-with-me-peekaboo"
+    }
+  ]
+}

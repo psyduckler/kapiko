@@ -1,0 +1,2802 @@
+{
+  "genre": "Industrial",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 75.098,
+    "max": 192.153,
+    "mean": 129.457,
+    "median": 129.935,
+    "q1": 113.939,
+    "q3": 143.973,
+    "histogram": {
+      "70-79": 1,
+      "80-89": 5,
+      "90-99": 8,
+      "100-109": 8,
+      "110-119": 10,
+      "120-129": 19,
+      "130-139": 18,
+      "140-149": 11,
+      "150-159": 6,
+      "160-169": 6,
+      "170-179": 7,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "D": 16,
+    "G#/Ab": 12,
+    "A": 11,
+    "B": 11,
+    "E": 10,
+    "G": 8,
+    "A#/Bb": 8,
+    "C": 6,
+    "F": 6,
+    "C#/Db": 6,
+    "F#/Gb": 4,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 68,
+    "Minor": 32
+  },
+  "key_mode_distribution": {
+    "D Major": 13,
+    "G#/Ab Major": 11,
+    "A Major": 8,
+    "G Major": 7,
+    "E Minor": 6,
+    "B Major": 6,
+    "C#/Db Major": 5,
+    "B Minor": 5,
+    "A#/Bb Minor": 4,
+    "E Major": 4,
+    "A#/Bb Major": 4,
+    "C Minor": 3,
+    "A Minor": 3,
+    "F Minor": 3,
+    "C Major": 3,
+    "D Minor": 3,
+    "F Major": 3,
+    "F#/Gb Major": 2,
+    "F#/Gb Minor": 2,
+    "D#/Eb Major": 2,
+    "G Minor": 1,
+    "C#/Db Minor": 1,
+    "G#/Ab Minor": 1
+  },
+  "energy": {
+    "min": 0.569,
+    "max": 0.993,
+    "mean": 0.85,
+    "median": 0.885,
+    "q1": 0.773,
+    "q3": 0.942
+  },
+  "valence": {
+    "min": 0.037,
+    "max": 0.938,
+    "mean": 0.435,
+    "median": 0.41,
+    "q1": 0.282,
+    "q3": 0.586
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.895,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.901,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.479
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.642,
+      "valence": 0.129
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.76
+    },
+    {
+      "energy": 0.569,
+      "valence": 0.052
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.851,
+      "valence": 0.512
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.966,
+      "valence": 0.223
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.365
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.797
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.508
+    },
+    {
+      "energy": 0.903,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.96,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.138
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.3
+    },
+    {
+      "energy": 0.984,
+      "valence": 0.037
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.776,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.588,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.71
+    },
+    {
+      "energy": 0.718,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.975,
+      "valence": 0.32
+    },
+    {
+      "energy": 0.979,
+      "valence": 0.292
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.983,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.77,
+      "valence": 0.145
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.204
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.082
+    },
+    {
+      "energy": 0.959,
+      "valence": 0.199
+    },
+    {
+      "energy": 0.629,
+      "valence": 0.183
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.295
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.045
+    },
+    {
+      "energy": 0.969,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.901,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.245
+    },
+    {
+      "energy": 0.766,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.141
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.479
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.686
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.28
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.816,
+      "valence": 0.248
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.713
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.309
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.731
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.938
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.376
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.665
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.611
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.647
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.6
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.358
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.416
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.477
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.579
+    },
+    {
+      "energy": 0.947,
+      "valence": 0.206
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.837
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.397
+    },
+    {
+      "energy": 0.993,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.688,
+      "valence": 0.389
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.666
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.787
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.979,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.751
+    },
+    {
+      "energy": 0.93,
+      "valence": 0.432
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.278,
+    "mean": 0.012,
+    "median": 0.001,
+    "q1": 0.0,
+    "q3": 0.005
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.898,
+    "mean": 0.124,
+    "median": 0.004,
+    "q1": 0.0,
+    "q3": 0.104
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.349
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.055
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.456
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.486
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.132,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.104
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.346
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.025
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.203
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.062
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.667
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.712
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.062
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.827
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.278,
+      "instrumentalness": 0.083
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.062
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.763
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.431
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.191
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.604
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.088
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.673
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.366
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.016
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.096
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.12
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.898
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.667
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.624
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.084
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.099
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.349
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.102
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.164
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.193
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.607
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.344
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.253,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.291
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.002
+    }
+  ],
+  "duration": {
+    "min": 112451,
+    "max": 675653,
+    "mean": 236619.41,
+    "median": 231004.5,
+    "q1": 201400,
+    "q3": 267743
+  },
+  "danceability": {
+    "min": 0.262,
+    "max": 0.863,
+    "mean": 0.55,
+    "median": 0.566,
+    "q1": 0.493,
+    "q3": 0.623
+  },
+  "loudness": {
+    "min": -11.26,
+    "max": 0.915,
+    "mean": -5.492,
+    "median": -5.216,
+    "q1": -6.283,
+    "q3": -4.254
+  },
+  "speechiness": {
+    "min": 0.027,
+    "max": 0.337,
+    "mean": 0.072,
+    "median": 0.054,
+    "q1": 0.041,
+    "q3": 0.075
+  },
+  "top_artists": [
+    {
+      "name": "Rammstein",
+      "count": 51
+    },
+    {
+      "name": "Marilyn Manson",
+      "count": 10
+    },
+    {
+      "name": "Rob Zombie",
+      "count": 5
+    },
+    {
+      "name": "Mudvayne",
+      "count": 3
+    },
+    {
+      "name": "Dope",
+      "count": 3
+    },
+    {
+      "name": "JPEGMAFIA",
+      "count": 3
+    },
+    {
+      "name": "Mindless Self Indulgence",
+      "count": 3
+    },
+    {
+      "name": "Drowning Pool",
+      "count": 2
+    },
+    {
+      "name": "Nine Inch Nails",
+      "count": 2
+    },
+    {
+      "name": "Filter",
+      "count": 2
+    },
+    {
+      "name": "Static-X",
+      "count": 2
+    },
+    {
+      "name": "Pain",
+      "count": 2
+    },
+    {
+      "name": "Type O Negative",
+      "count": 2
+    },
+    {
+      "name": "White Zombie",
+      "count": 1
+    },
+    {
+      "name": "Powerman 5000",
+      "count": 1
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Deutschland",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 77,
+      "tempo": 120.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.895,
+      "valence": 0.237,
+      "danceability": 0.521,
+      "acousticness": 0.0,
+      "instrumentalness": 0.349,
+      "loudness": -5.2,
+      "speechiness": 0.044,
+      "duration_ms": 322339,
+      "slug": "deutschland-rammstein"
+    },
+    {
+      "name": "Dragula",
+      "artists": "Rob Zombie",
+      "album": "Hellbilly Deluxe",
+      "popularity": 76,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.609,
+      "danceability": 0.591,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.053,
+      "duration_ms": 222826,
+      "slug": "dragula-rob-zombie"
+    },
+    {
+      "name": "Du hast",
+      "artists": "Rammstein",
+      "album": "Sehnsucht",
+      "popularity": 75,
+      "tempo": 125.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.716,
+      "danceability": 0.64,
+      "acousticness": 0.004,
+      "instrumentalness": 0.055,
+      "loudness": -6.3,
+      "speechiness": 0.038,
+      "duration_ms": 234226,
+      "slug": "du-hast-rammstein"
+    },
+    {
+      "name": "Bodies",
+      "artists": "Drowning Pool",
+      "album": "Sinner",
+      "popularity": 75,
+      "tempo": 130.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.932,
+      "valence": 0.544,
+      "danceability": 0.656,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -3.4,
+      "speechiness": 0.071,
+      "duration_ms": 201960,
+      "slug": "bodies-drowning-pool"
+    },
+    {
+      "name": "Dicke Titten",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 75,
+      "tempo": 117.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.565,
+      "danceability": 0.63,
+      "acousticness": 0.021,
+      "instrumentalness": 0.005,
+      "loudness": -4.9,
+      "speechiness": 0.05,
+      "duration_ms": 218593,
+      "slug": "dicke-titten-rammstein"
+    },
+    {
+      "name": "Sonne",
+      "artists": "Rammstein",
+      "album": "Mutter",
+      "popularity": 74,
+      "tempo": 75.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.917,
+      "valence": 0.313,
+      "danceability": 0.51,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.085,
+      "duration_ms": 272440,
+      "slug": "sonne-rammstein"
+    },
+    {
+      "name": "Armee der Tristen",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 74,
+      "tempo": 86.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.901,
+      "valence": 0.334,
+      "danceability": 0.447,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.049,
+      "duration_ms": 205589,
+      "slug": "armee-der-tristen-rammstein"
+    },
+    {
+      "name": "The Beautiful People",
+      "artists": "Marilyn Manson",
+      "album": "Antichrist Superstar",
+      "popularity": 73,
+      "tempo": 144.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.834,
+      "valence": 0.937,
+      "danceability": 0.621,
+      "acousticness": 0.001,
+      "instrumentalness": 0.456,
+      "loudness": -10.1,
+      "speechiness": 0.056,
+      "duration_ms": 218826,
+      "slug": "the-beautiful-people-marilyn-manson"
+    },
+    {
+      "name": "Zick Zack",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 72,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.814,
+      "valence": 0.398,
+      "danceability": 0.669,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -5.4,
+      "speechiness": 0.068,
+      "duration_ms": 244365,
+      "slug": "zick-zack-rammstein"
+    },
+    {
+      "name": "Ausl\u00e4nder",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 72,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.912,
+      "valence": 0.479,
+      "danceability": 0.681,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -4.2,
+      "speechiness": 0.091,
+      "duration_ms": 231603,
+      "slug": "ausl\u00e4nder-rammstein"
+    },
+    {
+      "name": "Angst",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 72,
+      "tempo": 112.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.86,
+      "valence": 0.328,
+      "danceability": 0.639,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -4.3,
+      "speechiness": 0.069,
+      "duration_ms": 224801,
+      "slug": "angst-rammstein"
+    },
+    {
+      "name": "Sweet Dreams (Are Made Of This)",
+      "artists": "Marilyn Manson",
+      "album": "Smells Like Children",
+      "popularity": 70,
+      "tempo": 92.7,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.642,
+      "valence": 0.129,
+      "danceability": 0.392,
+      "acousticness": 0.005,
+      "instrumentalness": 0.486,
+      "loudness": -5.3,
+      "speechiness": 0.033,
+      "duration_ms": 293293,
+      "slug": "sweet-dreams-are-made-of-this-marilyn-manson"
+    },
+    {
+      "name": "Engel",
+      "artists": "Rammstein",
+      "album": "Sehnsucht",
+      "popularity": 70,
+      "tempo": 96.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.658,
+      "valence": 0.328,
+      "danceability": 0.637,
+      "acousticness": 0.009,
+      "instrumentalness": 0.002,
+      "loudness": -5.8,
+      "speechiness": 0.029,
+      "duration_ms": 264266,
+      "slug": "engel-rammstein"
+    },
+    {
+      "name": "Radio",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 70,
+      "tempo": 132.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.894,
+      "valence": 0.76,
+      "danceability": 0.652,
+      "acousticness": 0.004,
+      "instrumentalness": 0.004,
+      "loudness": -5.1,
+      "speechiness": 0.041,
+      "duration_ms": 277397,
+      "slug": "radio-rammstein"
+    },
+    {
+      "name": "Zeit",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 70,
+      "tempo": 123.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.569,
+      "valence": 0.052,
+      "danceability": 0.55,
+      "acousticness": 0.132,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.046,
+      "duration_ms": 321686,
+      "slug": "zeit-rammstein"
+    },
+    {
+      "name": "Living Dead Girl",
+      "artists": "Rob Zombie",
+      "album": "Hellbilly Deluxe",
+      "popularity": 70,
+      "tempo": 103.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.948,
+      "valence": 0.55,
+      "danceability": 0.518,
+      "acousticness": 0.005,
+      "instrumentalness": 0.104,
+      "loudness": -5.6,
+      "speechiness": 0.068,
+      "duration_ms": 201400,
+      "slug": "living-dead-girl-rob-zombie"
+    },
+    {
+      "name": "Ich will",
+      "artists": "Rammstein",
+      "album": "Mutter",
+      "popularity": 69,
+      "tempo": 128.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.468,
+      "danceability": 0.648,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -4.3,
+      "speechiness": 0.041,
+      "duration_ms": 217106,
+      "slug": "ich-will-rammstein"
+    },
+    {
+      "name": "Happy?",
+      "artists": "Mudvayne",
+      "album": "Lost and Found",
+      "popularity": 69,
+      "tempo": 100.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.97,
+      "valence": 0.383,
+      "danceability": 0.546,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.097,
+      "duration_ms": 216426,
+      "slug": "happy-mudvayne"
+    },
+    {
+      "name": "Thunder Kiss '65",
+      "artists": "White Zombie",
+      "album": "La Sexorcisto: Devil Music Volume 1",
+      "popularity": 69,
+      "tempo": 112.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.851,
+      "valence": 0.512,
+      "danceability": 0.684,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -9.8,
+      "speechiness": 0.041,
+      "duration_ms": 234080,
+      "slug": "thunder-kiss-65-white-zombie"
+    },
+    {
+      "name": "Amerika",
+      "artists": "Rammstein",
+      "album": "Reise, Reise",
+      "popularity": 68,
+      "tempo": 125.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.885,
+      "valence": 0.518,
+      "danceability": 0.608,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.096,
+      "duration_ms": 226760,
+      "slug": "amerika-rammstein"
+    },
+    {
+      "name": "Feuer frei!",
+      "artists": "Rammstein",
+      "album": "Mutter",
+      "popularity": 68,
+      "tempo": 95.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.966,
+      "valence": 0.223,
+      "danceability": 0.491,
+      "acousticness": 0.0,
+      "instrumentalness": 0.346,
+      "loudness": -4.0,
+      "speechiness": 0.046,
+      "duration_ms": 188600,
+      "slug": "feuer-frei-rammstein"
+    },
+    {
+      "name": "Zeig dich",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 68,
+      "tempo": 165.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.942,
+      "valence": 0.365,
+      "danceability": 0.545,
+      "acousticness": 0.001,
+      "instrumentalness": 0.025,
+      "loudness": -4.3,
+      "speechiness": 0.042,
+      "duration_ms": 255845,
+      "slug": "zeig-dich-rammstein"
+    },
+    {
+      "name": "Du riechst so gut",
+      "artists": "Rammstein",
+      "album": "Herzeleid (XXV Anniversary Edition \u2013 Remastered)",
+      "popularity": 68,
+      "tempo": 111.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.747,
+      "valence": 0.797,
+      "danceability": 0.676,
+      "acousticness": 0.0,
+      "instrumentalness": 0.203,
+      "loudness": -7.7,
+      "speechiness": 0.031,
+      "duration_ms": 291660,
+      "slug": "du-riechst-so-gut-rammstein"
+    },
+    {
+      "name": "Giftig",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 68,
+      "tempo": 145.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.845,
+      "valence": 0.508,
+      "danceability": 0.608,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.052,
+      "duration_ms": 188263,
+      "slug": "giftig-rammstein"
+    },
+    {
+      "name": "When Worlds Collide",
+      "artists": "Powerman 5000",
+      "album": "Tonight The Stars Revolt",
+      "popularity": 68,
+      "tempo": 143.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.903,
+      "valence": 0.581,
+      "danceability": 0.56,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.075,
+      "duration_ms": 177960,
+      "slug": "when-worlds-collide-powerman-5000"
+    },
+    {
+      "name": "Die MF Die",
+      "artists": "Dope",
+      "album": "Life",
+      "popularity": 67,
+      "tempo": 126.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.96,
+      "valence": 0.567,
+      "danceability": 0.657,
+      "acousticness": 0.002,
+      "instrumentalness": 0.001,
+      "loudness": -3.5,
+      "speechiness": 0.07,
+      "duration_ms": 186066,
+      "slug": "die-mf-die-dope"
+    },
+    {
+      "name": "Mein Herz brennt",
+      "artists": "Rammstein",
+      "album": "Mutter",
+      "popularity": 67,
+      "tempo": 83.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.76,
+      "valence": 0.138,
+      "danceability": 0.501,
+      "acousticness": 0.003,
+      "instrumentalness": 0.062,
+      "loudness": -5.8,
+      "speechiness": 0.034,
+      "duration_ms": 279893,
+      "slug": "mein-herz-brennt-rammstein"
+    },
+    {
+      "name": "Puppe",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 67,
+      "tempo": 116.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.3,
+      "danceability": 0.581,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.057,
+      "duration_ms": 273706,
+      "slug": "puppe-rammstein"
+    },
+    {
+      "name": "The Fight Song",
+      "artists": "Marilyn Manson",
+      "album": "Holy Wood",
+      "popularity": 66,
+      "tempo": 130.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.984,
+      "valence": 0.037,
+      "danceability": 0.47,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.094,
+      "duration_ms": 175760,
+      "slug": "the-fight-song-marilyn-manson"
+    },
+    {
+      "name": "Closer",
+      "artists": "Nine Inch Nails",
+      "album": "The Downward Spiral (Deluxe Edition)",
+      "popularity": 66,
+      "tempo": 90.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.724,
+      "valence": 0.586,
+      "danceability": 0.546,
+      "acousticness": 0.0,
+      "instrumentalness": 0.667,
+      "loudness": -8.6,
+      "speechiness": 0.043,
+      "duration_ms": 373306,
+      "slug": "closer-nine-inch-nails"
+    },
+    {
+      "name": "Take A Picture",
+      "artists": "Filter",
+      "album": "Title Of Record (Expanded Edition)",
+      "popularity": 66,
+      "tempo": 99.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.776,
+      "valence": 0.282,
+      "danceability": 0.541,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.03,
+      "duration_ms": 363800,
+      "slug": "take-a-picture-filter"
+    },
+    {
+      "name": "Hey Man, Nice Shot - Remastered Version",
+      "artists": "Filter",
+      "album": "Short Bus",
+      "popularity": 66,
+      "tempo": 177.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.588,
+      "valence": 0.305,
+      "danceability": 0.48,
+      "acousticness": 0.002,
+      "instrumentalness": 0.712,
+      "loudness": -10.8,
+      "speechiness": 0.034,
+      "duration_ms": 314440,
+      "slug": "hey-man-nice-shot-remastered-version-filter"
+    },
+    {
+      "name": "Links 2 3 4",
+      "artists": "Rammstein",
+      "album": "Mutter",
+      "popularity": 65,
+      "tempo": 130.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.649,
+      "danceability": 0.624,
+      "acousticness": 0.001,
+      "instrumentalness": 0.023,
+      "loudness": -4.8,
+      "speechiness": 0.048,
+      "duration_ms": 216733,
+      "slug": "links-2-3-4-rammstein"
+    },
+    {
+      "name": "Was ich liebe",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 65,
+      "tempo": 172.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.665,
+      "valence": 0.582,
+      "danceability": 0.571,
+      "acousticness": 0.001,
+      "instrumentalness": 0.062,
+      "loudness": -5.0,
+      "speechiness": 0.044,
+      "duration_ms": 269045,
+      "slug": "was-ich-liebe-rammstein"
+    },
+    {
+      "name": "Asche zu Asche",
+      "artists": "Rammstein",
+      "album": "Herzeleid (XXV Anniversary Edition \u2013 Remastered)",
+      "popularity": 65,
+      "tempo": 170.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.906,
+      "valence": 0.71,
+      "danceability": 0.563,
+      "acousticness": 0.002,
+      "instrumentalness": 0.018,
+      "loudness": -7.5,
+      "speechiness": 0.073,
+      "duration_ms": 231449,
+      "slug": "asche-zu-asche-rammstein"
+    },
+    {
+      "name": "Adieu",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 65,
+      "tempo": 125.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.718,
+      "valence": 0.189,
+      "danceability": 0.609,
+      "acousticness": 0.026,
+      "instrumentalness": 0.002,
+      "loudness": -5.8,
+      "speechiness": 0.041,
+      "duration_ms": 278211,
+      "slug": "adieu-rammstein"
+    },
+    {
+      "name": "Superbeast",
+      "artists": "Rob Zombie",
+      "album": "Hellbilly Deluxe",
+      "popularity": 65,
+      "tempo": 154.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.975,
+      "valence": 0.32,
+      "danceability": 0.518,
+      "acousticness": 0.0,
+      "instrumentalness": 0.827,
+      "loudness": -4.4,
+      "speechiness": 0.058,
+      "duration_ms": 220266,
+      "slug": "superbeast-rob-zombie"
+    },
+    {
+      "name": "The Only",
+      "artists": "Static-X",
+      "album": "Shadow Zone",
+      "popularity": 64,
+      "tempo": 104.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.979,
+      "valence": 0.292,
+      "danceability": 0.428,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.225,
+      "duration_ms": 171106,
+      "slug": "the-only-static-x"
+    },
+    {
+      "name": "1539 N. Calvert",
+      "artists": "JPEGMAFIA",
+      "album": "Veteran",
+      "popularity": 64,
+      "tempo": 152.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.717,
+      "valence": 0.357,
+      "danceability": 0.863,
+      "acousticness": 0.278,
+      "instrumentalness": 0.083,
+      "loudness": -3.1,
+      "speechiness": 0.17,
+      "duration_ms": 157258,
+      "slug": "1539-n-calvert-jpegmafia"
+    },
+    {
+      "name": "Dig",
+      "artists": "Mudvayne",
+      "album": "L.D. 50",
+      "popularity": 64,
+      "tempo": 135.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.983,
+      "valence": 0.271,
+      "danceability": 0.623,
+      "acousticness": 0.0,
+      "instrumentalness": 0.062,
+      "loudness": -3.5,
+      "speechiness": 0.151,
+      "duration_ms": 162293,
+      "slug": "dig-mudvayne"
+    },
+    {
+      "name": "Party in My Head",
+      "artists": "Pain",
+      "album": "Party in My Head",
+      "popularity": 64,
+      "tempo": 135.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.914,
+      "valence": 0.587,
+      "danceability": 0.445,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.049,
+      "duration_ms": 188111,
+      "slug": "party-in-my-head-pain"
+    },
+    {
+      "name": "Is There Anybody Out There?",
+      "artists": "Machine Head",
+      "album": "Is There Anybody Out There?",
+      "popularity": 64,
+      "tempo": 177.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.291,
+      "danceability": 0.408,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.226,
+      "duration_ms": 272665,
+      "slug": "is-there-anybody-out-there-machine-head"
+    },
+    {
+      "name": "Rammstein",
+      "artists": "Rammstein",
+      "album": "Herzeleid (XXV Anniversary Edition \u2013 Remastered)",
+      "popularity": 64,
+      "tempo": 113.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.708,
+      "valence": 0.201,
+      "danceability": 0.657,
+      "acousticness": 0.002,
+      "instrumentalness": 0.763,
+      "loudness": -7.7,
+      "speechiness": 0.056,
+      "duration_ms": 267743,
+      "slug": "rammstein-rammstein"
+    },
+    {
+      "name": "Schwarz",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 64,
+      "tempo": 127.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.77,
+      "valence": 0.145,
+      "danceability": 0.559,
+      "acousticness": 0.053,
+      "instrumentalness": 0.001,
+      "loudness": -5.6,
+      "speechiness": 0.032,
+      "duration_ms": 258108,
+      "slug": "schwarz-rammstein"
+    },
+    {
+      "name": "Ohne dich",
+      "artists": "Rammstein",
+      "album": "Reise, Reise",
+      "popularity": 63,
+      "tempo": 136.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.59,
+      "valence": 0.204,
+      "danceability": 0.424,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.029,
+      "duration_ms": 271173,
+      "slug": "ohne-dich-rammstein"
+    },
+    {
+      "name": "Mutter",
+      "artists": "Rammstein",
+      "album": "Mutter",
+      "popularity": 63,
+      "tempo": 116.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.082,
+      "danceability": 0.491,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.035,
+      "duration_ms": 268600,
+      "slug": "mutter-rammstein"
+    },
+    {
+      "name": "Mein Teil",
+      "artists": "Rammstein",
+      "album": "Reise, Reise",
+      "popularity": 63,
+      "tempo": 88.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.959,
+      "valence": 0.199,
+      "danceability": 0.47,
+      "acousticness": 0.005,
+      "instrumentalness": 0.01,
+      "loudness": -4.3,
+      "speechiness": 0.075,
+      "duration_ms": 272413,
+      "slug": "mein-teil-rammstein"
+    },
+    {
+      "name": "Rosenrot",
+      "artists": "Rammstein",
+      "album": "Rosenrot",
+      "popularity": 63,
+      "tempo": 114.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.629,
+      "valence": 0.183,
+      "danceability": 0.591,
+      "acousticness": 0.001,
+      "instrumentalness": 0.431,
+      "loudness": -5.6,
+      "speechiness": 0.027,
+      "duration_ms": 234706,
+      "slug": "rosenrot-rammstein"
+    },
+    {
+      "name": "Ich tu dir weh",
+      "artists": "Rammstein",
+      "album": "Liebe ist f\u00fcr alle da (Special Edition)",
+      "popularity": 63,
+      "tempo": 165.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.295,
+      "danceability": 0.295,
+      "acousticness": 0.001,
+      "instrumentalness": 0.191,
+      "loudness": -5.0,
+      "speechiness": 0.054,
+      "duration_ms": 301853,
+      "slug": "ich-tu-dir-weh-rammstein"
+    },
+    {
+      "name": "I Don't Wanna Be Me",
+      "artists": "Type O Negative",
+      "album": "Life Is Killing Me",
+      "popularity": 63,
+      "tempo": 100.6,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.977,
+      "valence": 0.045,
+      "danceability": 0.474,
+      "acousticness": 0.024,
+      "instrumentalness": 0.604,
+      "loudness": -8.7,
+      "speechiness": 0.15,
+      "duration_ms": 308826,
+      "slug": "i-dont-wanna-be-me-type-o-negative"
+    },
+    {
+      "name": "Waidmanns Heil",
+      "artists": "Rammstein",
+      "album": "Liebe ist f\u00fcr alle da (Special Edition)",
+      "popularity": 63,
+      "tempo": 105.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.969,
+      "valence": 0.684,
+      "danceability": 0.578,
+      "acousticness": 0.001,
+      "instrumentalness": 0.023,
+      "loudness": -3.9,
+      "speechiness": 0.032,
+      "duration_ms": 212800,
+      "slug": "waidmanns-heil-rammstein"
+    },
+    {
+      "name": "Meine Tr\u00e4nen",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 63,
+      "tempo": 115.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.189,
+      "danceability": 0.569,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.031,
+      "duration_ms": 237045,
+      "slug": "meine-tr\u00e4nen-rammstein"
+    },
+    {
+      "name": "Push It",
+      "artists": "Static-X",
+      "album": "Wisconsin Death Trip",
+      "popularity": 63,
+      "tempo": 149.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.499,
+      "danceability": 0.557,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.049,
+      "duration_ms": 154906,
+      "slug": "push-it-static-x"
+    },
+    {
+      "name": "Tear Away",
+      "artists": "Drowning Pool",
+      "album": "Sinner",
+      "popularity": 63,
+      "tempo": 133.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.648,
+      "valence": 0.457,
+      "danceability": 0.611,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -4.6,
+      "speechiness": 0.044,
+      "duration_ms": 254200,
+      "slug": "tear-away-drowning-pool"
+    },
+    {
+      "name": "OK",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 63,
+      "tempo": 166.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.901,
+      "valence": 0.31,
+      "danceability": 0.49,
+      "acousticness": 0.0,
+      "instrumentalness": 0.088,
+      "loudness": -5.5,
+      "speechiness": 0.12,
+      "duration_ms": 243720,
+      "slug": "ok-rammstein"
+    },
+    {
+      "name": "L\u00fcgen",
+      "artists": "Rammstein",
+      "album": "Zeit",
+      "popularity": 63,
+      "tempo": 129.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.687,
+      "valence": 0.245,
+      "danceability": 0.449,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.059,
+      "duration_ms": 229844,
+      "slug": "l\u00fcgen-rammstein"
+    },
+    {
+      "name": "Wollt ihr das Bett in Flammen sehen",
+      "artists": "Rammstein",
+      "album": "Herzeleid (XXV Anniversary Edition \u2013 Remastered)",
+      "popularity": 63,
+      "tempo": 129.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.766,
+      "valence": 0.641,
+      "danceability": 0.673,
+      "acousticness": 0.0,
+      "instrumentalness": 0.673,
+      "loudness": -7.3,
+      "speechiness": 0.039,
+      "duration_ms": 315850,
+      "slug": "wollt-ihr-das-bett-in-flammen-sehen-rammstein"
+    },
+    {
+      "name": "Feel So Numb",
+      "artists": "Rob Zombie",
+      "album": "The Sinister Urge",
+      "popularity": 63,
+      "tempo": 127.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.889,
+      "valence": 0.141,
+      "danceability": 0.566,
+      "acousticness": 0.0,
+      "instrumentalness": 0.009,
+      "loudness": -5.2,
+      "speechiness": 0.043,
+      "duration_ms": 233666,
+      "slug": "feel-so-numb-rob-zombie"
+    },
+    {
+      "name": "Heirate mich",
+      "artists": "Rammstein",
+      "album": "Herzeleid (XXV Anniversary Edition \u2013 Remastered)",
+      "popularity": 63,
+      "tempo": 94.8,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.867,
+      "valence": 0.479,
+      "danceability": 0.651,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.103,
+      "duration_ms": 284648,
+      "slug": "heirate-mich-rammstein"
+    },
+    {
+      "name": "Bullet With a Name",
+      "artists": "Nonpoint",
+      "album": "To the Pain (Deluxe Edition)",
+      "popularity": 63,
+      "tempo": 91.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.884,
+      "valence": 0.686,
+      "danceability": 0.577,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.09,
+      "duration_ms": 206404,
+      "slug": "bullet-with-a-name-nonpoint"
+    },
+    {
+      "name": "Keine Lust",
+      "artists": "Rammstein",
+      "album": "Reise, Reise",
+      "popularity": 62,
+      "tempo": 137.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.892,
+      "valence": 0.28,
+      "danceability": 0.534,
+      "acousticness": 0.0,
+      "instrumentalness": 0.014,
+      "loudness": -4.9,
+      "speechiness": 0.054,
+      "duration_ms": 222933,
+      "slug": "keine-lust-rammstein"
+    },
+    {
+      "name": "Tainted Love",
+      "artists": "Marilyn Manson",
+      "album": "The Golden Age Of Grotesque",
+      "popularity": 62,
+      "tempo": 142.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.537,
+      "danceability": 0.622,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.073,
+      "duration_ms": 200426,
+      "slug": "tainted-love-marilyn-manson"
+    },
+    {
+      "name": "Reise, Reise",
+      "artists": "Rammstein",
+      "album": "Reise, Reise",
+      "popularity": 62,
+      "tempo": 130.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.816,
+      "valence": 0.248,
+      "danceability": 0.475,
+      "acousticness": 0.003,
+      "instrumentalness": 0.366,
+      "loudness": -5.5,
+      "speechiness": 0.064,
+      "duration_ms": 251146,
+      "slug": "reise-reise-rammstein"
+    },
+    {
+      "name": "Disposable Teens",
+      "artists": "Marilyn Manson",
+      "album": "Holy Wood",
+      "popularity": 62,
+      "tempo": 134.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.956,
+      "valence": 0.271,
+      "danceability": 0.3,
+      "acousticness": 0.0,
+      "instrumentalness": 0.016,
+      "loudness": -5.0,
+      "speechiness": 0.185,
+      "duration_ms": 181506,
+      "slug": "disposable-teens-marilyn-manson"
+    },
+    {
+      "name": "Faggot",
+      "artists": "Mindless Self Indulgence",
+      "album": "Frankenstein Girls Will Seem Strangely Sexy",
+      "popularity": 62,
+      "tempo": 152.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.561,
+      "danceability": 0.63,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -10.3,
+      "speechiness": 0.115,
+      "duration_ms": 163706,
+      "slug": "faggot-mindless-self-indulgence"
+    },
+    {
+      "name": "Pussy",
+      "artists": "Rammstein",
+      "album": "Liebe ist f\u00fcr alle da (Special Edition)",
+      "popularity": 62,
+      "tempo": 135.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.773,
+      "valence": 0.541,
+      "danceability": 0.573,
+      "acousticness": 0.002,
+      "instrumentalness": 0.096,
+      "loudness": -4.6,
+      "speechiness": 0.044,
+      "duration_ms": 239080,
+      "slug": "pussy-rammstein"
+    },
+    {
+      "name": "Head Like A Hole",
+      "artists": "Nine Inch Nails",
+      "album": "Pretty Hate Machine",
+      "popularity": 62,
+      "tempo": 115.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.442,
+      "danceability": 0.666,
+      "acousticness": 0.008,
+      "instrumentalness": 0.002,
+      "loudness": -11.3,
+      "speechiness": 0.048,
+      "duration_ms": 299680,
+      "slug": "head-like-a-hole-nine-inch-nails"
+    },
+    {
+      "name": "You Spin Me Round (Like A Record)",
+      "artists": "Dope",
+      "album": "Felons and Revolutionaries",
+      "popularity": 62,
+      "tempo": 128.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.713,
+      "danceability": 0.602,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.044,
+      "duration_ms": 163666,
+      "slug": "you-spin-me-round-like-a-record-dope"
+    },
+    {
+      "name": "Mein Land",
+      "artists": "Rammstein",
+      "album": "Made In Germany 1995 - 2011 (Special Edition)",
+      "popularity": 62,
+      "tempo": 176.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.905,
+      "valence": 0.356,
+      "danceability": 0.378,
+      "acousticness": 0.0,
+      "instrumentalness": 0.12,
+      "loudness": -5.0,
+      "speechiness": 0.035,
+      "duration_ms": 233186,
+      "slug": "mein-land-rammstein"
+    },
+    {
+      "name": "Haifisch",
+      "artists": "Rammstein",
+      "album": "Liebe ist f\u00fcr alle da (Special Edition)",
+      "popularity": 62,
+      "tempo": 135.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.309,
+      "danceability": 0.627,
+      "acousticness": 0.001,
+      "instrumentalness": 0.898,
+      "loudness": -4.2,
+      "speechiness": 0.037,
+      "duration_ms": 224906,
+      "slug": "haifisch-rammstein"
+    },
+    {
+      "name": "Unsung",
+      "artists": "Helmet",
+      "album": "Meantime",
+      "popularity": 62,
+      "tempo": 160.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.731,
+      "danceability": 0.311,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -9.3,
+      "speechiness": 0.054,
+      "duration_ms": 236400,
+      "slug": "unsung-helmet"
+    },
+    {
+      "name": "Blue Monday",
+      "artists": "Orgy",
+      "album": "Candyass",
+      "popularity": 62,
+      "tempo": 129.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.938,
+      "danceability": 0.589,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.034,
+      "duration_ms": 267000,
+      "slug": "blue-monday-orgy"
+    },
+    {
+      "name": "Moskau",
+      "artists": "Rammstein",
+      "album": "Reise, Reise",
+      "popularity": 61,
+      "tempo": 148.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.963,
+      "valence": 0.305,
+      "danceability": 0.493,
+      "acousticness": 0.0,
+      "instrumentalness": 0.667,
+      "loudness": -3.4,
+      "speechiness": 0.064,
+      "duration_ms": 256306,
+      "slug": "moskau-rammstein"
+    },
+    {
+      "name": "The Dope Show",
+      "artists": "Marilyn Manson",
+      "album": "Mechanical Animals",
+      "popularity": 61,
+      "tempo": 135.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.671,
+      "valence": 0.376,
+      "danceability": 0.562,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.038,
+      "duration_ms": 226733,
+      "slug": "the-dope-show-marilyn-manson"
+    },
+    {
+      "name": "Sehnsucht",
+      "artists": "Rammstein",
+      "album": "Sehnsucht",
+      "popularity": 61,
+      "tempo": 140.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.954,
+      "valence": 0.665,
+      "danceability": 0.6,
+      "acousticness": 0.009,
+      "instrumentalness": 0.624,
+      "loudness": -5.5,
+      "speechiness": 0.056,
+      "duration_ms": 244426,
+      "slug": "sehnsucht-rammstein"
+    },
+    {
+      "name": "Sun Doesn't Rise",
+      "artists": "Mushroomhead",
+      "album": "XIII",
+      "popularity": 61,
+      "tempo": 192.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.507,
+      "danceability": 0.376,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.216,
+      "duration_ms": 193813,
+      "slug": "sun-doesnt-rise-mushroomhead"
+    },
+    {
+      "name": "Weisses Fleisch",
+      "artists": "Rammstein",
+      "album": "Herzeleid (XXV Anniversary Edition \u2013 Remastered)",
+      "popularity": 61,
+      "tempo": 132.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.75,
+      "valence": 0.611,
+      "danceability": 0.603,
+      "acousticness": 0.0,
+      "instrumentalness": 0.084,
+      "loudness": -9.3,
+      "speechiness": 0.038,
+      "duration_ms": 215998,
+      "slug": "weisses-fleisch-rammstein"
+    },
+    {
+      "name": "Scream With Me",
+      "artists": "Mudvayne",
+      "album": "Mudvayne",
+      "popularity": 61,
+      "tempo": 180.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.867,
+      "valence": 0.485,
+      "danceability": 0.262,
+      "acousticness": 0.002,
+      "instrumentalness": 0.002,
+      "loudness": -4.5,
+      "speechiness": 0.048,
+      "duration_ms": 172586,
+      "slug": "scream-with-me-mudvayne"
+    },
+    {
+      "name": "Halleluja",
+      "artists": "Rammstein",
+      "album": "Rarit\u00e4ten (1994 - 2012)",
+      "popularity": 61,
+      "tempo": 130.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.846,
+      "valence": 0.357,
+      "danceability": 0.575,
+      "acousticness": 0.0,
+      "instrumentalness": 0.099,
+      "loudness": -5.6,
+      "speechiness": 0.032,
+      "duration_ms": 224706,
+      "slug": "halleluja-rammstein"
+    },
+    {
+      "name": "This Is The New Shit",
+      "artists": "Marilyn Manson",
+      "album": "The Golden Age Of Grotesque",
+      "popularity": 60,
+      "tempo": 178.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.647,
+      "danceability": 0.566,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -6.1,
+      "speechiness": 0.1,
+      "duration_ms": 259666,
+      "slug": "this-is-the-new-shit-marilyn-manson"
+    },
+    {
+      "name": "HAZARD DUTY PAY!",
+      "artists": "JPEGMAFIA",
+      "album": "HAZARD DUTY PAY!",
+      "popularity": 60,
+      "tempo": 121.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.951,
+      "valence": 0.6,
+      "danceability": 0.615,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": 0.9,
+      "speechiness": 0.169,
+      "duration_ms": 157169,
+      "slug": "hazard-duty-pay-jpegmafia"
+    },
+    {
+      "name": "Deutschland",
+      "artists": "Rammstein",
+      "album": "Deutschland",
+      "popularity": 60,
+      "tempo": 120.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.895,
+      "valence": 0.237,
+      "danceability": 0.521,
+      "acousticness": 0.0,
+      "instrumentalness": 0.349,
+      "loudness": -5.2,
+      "speechiness": 0.044,
+      "duration_ms": 322339,
+      "slug": "deutschland-rammstein"
+    },
+    {
+      "name": "Rock Is Dead",
+      "artists": "Marilyn Manson",
+      "album": "Mechanical Animals",
+      "popularity": 60,
+      "tempo": 101.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.91,
+      "valence": 0.358,
+      "danceability": 0.509,
+      "acousticness": 0.0,
+      "instrumentalness": 0.102,
+      "loudness": -6.5,
+      "speechiness": 0.038,
+      "duration_ms": 189760,
+      "slug": "rock-is-dead-marilyn-manson"
+    },
+    {
+      "name": "Black No. 1 (Little Miss Scare -All)",
+      "artists": "Type O Negative",
+      "album": "Bloody Kisses (Top Shelf Edition)",
+      "popularity": 60,
+      "tempo": 93.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.7,
+      "valence": 0.416,
+      "danceability": 0.348,
+      "acousticness": 0.04,
+      "instrumentalness": 0.002,
+      "loudness": -8.9,
+      "speechiness": 0.061,
+      "duration_ms": 675653,
+      "slug": "black-no-1-little-miss-scare-all-type-o-negative"
+    },
+    {
+      "name": "Wait",
+      "artists": "Earshot",
+      "album": "Two",
+      "popularity": 60,
+      "tempo": 102.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.934,
+      "valence": 0.477,
+      "danceability": 0.502,
+      "acousticness": 0.0,
+      "instrumentalness": 0.164,
+      "loudness": -3.9,
+      "speechiness": 0.055,
+      "duration_ms": 213000,
+      "slug": "wait-earshot"
+    },
+    {
+      "name": "Mann gegen Mann",
+      "artists": "Rammstein",
+      "album": "Rosenrot",
+      "popularity": 60,
+      "tempo": 166.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.579,
+      "danceability": 0.448,
+      "acousticness": 0.001,
+      "instrumentalness": 0.193,
+      "loudness": -5.3,
+      "speechiness": 0.073,
+      "duration_ms": 230560,
+      "slug": "mann-gegen-mann-rammstein"
+    },
+    {
+      "name": "Benzin",
+      "artists": "Rammstein",
+      "album": "Rosenrot",
+      "popularity": 60,
+      "tempo": 142.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.947,
+      "valence": 0.206,
+      "danceability": 0.527,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -4.2,
+      "speechiness": 0.057,
+      "duration_ms": 226000,
+      "slug": "benzin-rammstein"
+    },
+    {
+      "name": "Debonaire",
+      "artists": "Dope",
+      "album": "Felons and Revolutionaries",
+      "popularity": 60,
+      "tempo": 140.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.889,
+      "valence": 0.837,
+      "danceability": 0.586,
+      "acousticness": 0.0,
+      "instrumentalness": 0.607,
+      "loudness": -4.3,
+      "speechiness": 0.049,
+      "duration_ms": 152626,
+      "slug": "debonaire-dope"
+    },
+    {
+      "name": "Te quiero puta!",
+      "artists": "Rammstein",
+      "album": "Rosenrot",
+      "popularity": 60,
+      "tempo": 159.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.934,
+      "valence": 0.268,
+      "danceability": 0.496,
+      "acousticness": 0.0,
+      "instrumentalness": 0.344,
+      "loudness": -5.3,
+      "speechiness": 0.145,
+      "duration_ms": 235626,
+      "slug": "te-quiero-puta-rammstein"
+    },
+    {
+      "name": "Scum Of The Earth",
+      "artists": "Rob Zombie",
+      "album": "The Sinister Urge",
+      "popularity": 60,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.968,
+      "valence": 0.397,
+      "danceability": 0.523,
+      "acousticness": 0.0,
+      "instrumentalness": 0.009,
+      "loudness": -4.1,
+      "speechiness": 0.07,
+      "duration_ms": 175266,
+      "slug": "scum-of-the-earth-rob-zombie"
+    },
+    {
+      "name": "Get Got",
+      "artists": "Death Grips",
+      "album": "The Money Store",
+      "popularity": 59,
+      "tempo": 87.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.993,
+      "valence": 0.405,
+      "danceability": 0.57,
+      "acousticness": 0.006,
+      "instrumentalness": 0.008,
+      "loudness": -3.8,
+      "speechiness": 0.337,
+      "duration_ms": 171866,
+      "slug": "get-got-death-grips"
+    },
+    {
+      "name": "KILL4ME",
+      "artists": "Marilyn Manson",
+      "album": "Heaven Upside Down",
+      "popularity": 59,
+      "tempo": 108.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.688,
+      "valence": 0.389,
+      "danceability": 0.635,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.035,
+      "duration_ms": 239240,
+      "slug": "kill4me-marilyn-manson"
+    },
+    {
+      "name": "WHAT KIND OF RAPPIN' IS THIS?",
+      "artists": "JPEGMAFIA",
+      "album": "LP!",
+      "popularity": 59,
+      "tempo": 139.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.967,
+      "valence": 0.666,
+      "danceability": 0.373,
+      "acousticness": 0.253,
+      "instrumentalness": 0.0,
+      "loudness": -1.4,
+      "speechiness": 0.202,
+      "duration_ms": 112451,
+      "slug": "what-kind-of-rappin-is-this-jpegmafia"
+    },
+    {
+      "name": "Shut Me Up",
+      "artists": "Mindless Self Indulgence",
+      "album": "You'll Rebel To Anything (Expanded and Remastered)",
+      "popularity": 59,
+      "tempo": 174.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.787,
+      "danceability": 0.589,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.173,
+      "duration_ms": 168533,
+      "slug": "shut-me-up-mindless-self-indulgence"
+    },
+    {
+      "name": "What Do They Know?",
+      "artists": "Mindless Self Indulgence",
+      "album": "You'll Rebel To Anything (Expanded and Remastered)",
+      "popularity": 59,
+      "tempo": 154.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.601,
+      "danceability": 0.645,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.093,
+      "duration_ms": 188573,
+      "slug": "what-do-they-know-mindless-self-indulgence"
+    },
+    {
+      "name": "The Nobodies",
+      "artists": "Marilyn Manson",
+      "album": "Holy Wood",
+      "popularity": 59,
+      "tempo": 150.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.271,
+      "danceability": 0.431,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.064,
+      "duration_ms": 215426,
+      "slug": "the-nobodies-marilyn-manson"
+    },
+    {
+      "name": "Shut Your Mouth",
+      "artists": "Pain",
+      "album": "Nothing Remains The Same",
+      "popularity": 59,
+      "tempo": 120.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.912,
+      "valence": 0.55,
+      "danceability": 0.562,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.038,
+      "duration_ms": 192986,
+      "slug": "shut-your-mouth-pain"
+    },
+    {
+      "name": "B\u00fcck dich",
+      "artists": "Rammstein",
+      "album": "Sehnsucht",
+      "popularity": 59,
+      "tempo": 149.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.979,
+      "valence": 0.653,
+      "danceability": 0.693,
+      "acousticness": 0.007,
+      "instrumentalness": 0.291,
+      "loudness": -5.1,
+      "speechiness": 0.091,
+      "duration_ms": 201533,
+      "slug": "b\u00fcck-dich-rammstein"
+    },
+    {
+      "name": "Nobody",
+      "artists": "Skindred",
+      "album": "Babylon (Revised Online Music)",
+      "popularity": 59,
+      "tempo": 97.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.91,
+      "valence": 0.751,
+      "danceability": 0.627,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.052,
+      "duration_ms": 236013,
+      "slug": "nobody-skindred"
+    },
+    {
+      "name": "Sex",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 59,
+      "tempo": 123.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.93,
+      "valence": 0.432,
+      "danceability": 0.608,
+      "acousticness": 0.001,
+      "instrumentalness": 0.002,
+      "loudness": -4.0,
+      "speechiness": 0.06,
+      "duration_ms": 236529,
+      "slug": "sex-rammstein"
+    }
+  ]
+}

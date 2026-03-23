@@ -1,0 +1,2804 @@
+{
+  "genre": "Garage",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 67.528,
+    "max": 203.871,
+    "mean": 122.842,
+    "median": 118.554,
+    "q1": 100.033,
+    "q3": 140.266,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 6,
+      "80-89": 6,
+      "90-99": 12,
+      "100-109": 13,
+      "110-119": 13,
+      "120-129": 13,
+      "130-139": 11,
+      "140-149": 4,
+      "150-159": 6,
+      "160-169": 7,
+      "170-179": 2,
+      "180-189": 3,
+      "190-199": 2,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "C": 14,
+    "A": 14,
+    "D": 13,
+    "G": 9,
+    "B": 9,
+    "E": 9,
+    "F": 8,
+    "F#/Gb": 8,
+    "C#/Db": 7,
+    "A#/Bb": 5,
+    "D#/Eb": 3,
+    "G#/Ab": 1
+  },
+  "mode_distribution": {
+    "Minor": 31,
+    "Major": 69
+  },
+  "key_mode_distribution": {
+    "C Major": 12,
+    "D Major": 11,
+    "A Major": 10,
+    "E Major": 7,
+    "F Major": 6,
+    "F#/Gb Minor": 6,
+    "G Major": 6,
+    "B Major": 5,
+    "B Minor": 4,
+    "C#/Db Major": 4,
+    "A Minor": 4,
+    "D#/Eb Major": 3,
+    "C#/Db Minor": 3,
+    "G Minor": 3,
+    "A#/Bb Major": 3,
+    "C Minor": 2,
+    "F Minor": 2,
+    "E Minor": 2,
+    "F#/Gb Major": 2,
+    "A#/Bb Minor": 2,
+    "D Minor": 2,
+    "G#/Ab Minor": 1
+  },
+  "energy": {
+    "min": 0.209,
+    "max": 0.982,
+    "mean": 0.694,
+    "median": 0.704,
+    "q1": 0.578,
+    "q3": 0.844
+  },
+  "valence": {
+    "min": 0.077,
+    "max": 0.968,
+    "mean": 0.532,
+    "median": 0.534,
+    "q1": 0.393,
+    "q3": 0.69
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.417,
+      "valence": 0.479
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.248
+    },
+    {
+      "energy": 0.631,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.433
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.872
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.79
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.313,
+      "valence": 0.254
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.649,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.312
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.767
+    },
+    {
+      "energy": 0.872,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.67
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.968
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.823
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.698,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.679,
+      "valence": 0.089
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.463
+    },
+    {
+      "energy": 0.668,
+      "valence": 0.842
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.531,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.332,
+      "valence": 0.5
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.882,
+      "valence": 0.656
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.639,
+      "valence": 0.957
+    },
+    {
+      "energy": 0.931,
+      "valence": 0.419
+    },
+    {
+      "energy": 0.714,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.588
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.3
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.508
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.528
+    },
+    {
+      "energy": 0.367,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.617,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.351,
+      "valence": 0.451
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.209,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.441,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.341
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.591,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.462,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.38
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.704
+    },
+    {
+      "energy": 0.672,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.466,
+      "valence": 0.487
+    },
+    {
+      "energy": 0.645,
+      "valence": 0.612
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.425
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.554
+    },
+    {
+      "energy": 0.844,
+      "valence": 0.198
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.592
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.172
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.948
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.603
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.744
+    },
+    {
+      "energy": 0.521,
+      "valence": 0.143
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.878
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.465
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.571,
+      "valence": 0.467
+    },
+    {
+      "energy": 0.596,
+      "valence": 0.896
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.874
+    },
+    {
+      "energy": 0.466,
+      "valence": 0.623
+    },
+    {
+      "energy": 0.456,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.59
+    },
+    {
+      "energy": 0.337,
+      "valence": 0.667
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.474
+    },
+    {
+      "energy": 0.693,
+      "valence": 0.771
+    },
+    {
+      "energy": 0.685,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.587,
+      "valence": 0.605
+    },
+    {
+      "energy": 0.925,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.164
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.623
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.646
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.759,
+    "mean": 0.165,
+    "median": 0.033,
+    "q1": 0.005,
+    "q3": 0.249
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.908,
+    "mean": 0.15,
+    "median": 0.007,
+    "q1": 0.0,
+    "q3": 0.14
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.186,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.908
+    },
+    {
+      "acousticness": 0.249,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.088,
+      "instrumentalness": 0.063
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.106
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.567,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.713
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.592
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.33,
+      "instrumentalness": 0.089
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.212,
+      "instrumentalness": 0.061
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.474,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.215,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.058
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.283
+    },
+    {
+      "acousticness": 0.393,
+      "instrumentalness": 0.379
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.341
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.628,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.341,
+      "instrumentalness": 0.181
+    },
+    {
+      "acousticness": 0.516,
+      "instrumentalness": 0.819
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.075
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.668,
+      "instrumentalness": 0.14
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.311
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.75,
+      "instrumentalness": 0.135
+    },
+    {
+      "acousticness": 0.319,
+      "instrumentalness": 0.766
+    },
+    {
+      "acousticness": 0.279,
+      "instrumentalness": 0.196
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.047
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.478,
+      "instrumentalness": 0.803
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.149
+    },
+    {
+      "acousticness": 0.161,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.086,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.759,
+      "instrumentalness": 0.725
+    },
+    {
+      "acousticness": 0.155,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.908
+    },
+    {
+      "acousticness": 0.152,
+      "instrumentalness": 0.626
+    },
+    {
+      "acousticness": 0.312,
+      "instrumentalness": 0.8
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.099
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.741,
+      "instrumentalness": 0.029
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.514,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.114
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.204
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.475,
+      "instrumentalness": 0.203
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.097
+    },
+    {
+      "acousticness": 0.315,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.62,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.357,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.055,
+      "instrumentalness": 0.824
+    },
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.859
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.055
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.27
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.849
+    },
+    {
+      "acousticness": 0.242,
+      "instrumentalness": 0.876
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.015
+    }
+  ],
+  "duration": {
+    "min": 68000,
+    "max": 351786,
+    "mean": 203602.9,
+    "median": 193579.5,
+    "q1": 176026,
+    "q3": 225986
+  },
+  "danceability": {
+    "min": 0.211,
+    "max": 0.788,
+    "mean": 0.521,
+    "median": 0.529,
+    "q1": 0.445,
+    "q3": 0.63
+  },
+  "loudness": {
+    "min": -16.402,
+    "max": -1.574,
+    "mean": -6.654,
+    "median": -6.005,
+    "q1": -8.167,
+    "q3": -4.787
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.318,
+    "mean": 0.058,
+    "median": 0.041,
+    "q1": 0.032,
+    "q3": 0.064
+  },
+  "top_artists": [
+    {
+      "name": "Arctic Monkeys",
+      "count": 41
+    },
+    {
+      "name": "The Strokes",
+      "count": 15
+    },
+    {
+      "name": "The Black Keys",
+      "count": 5
+    },
+    {
+      "name": "The White Stripes",
+      "count": 5
+    },
+    {
+      "name": "Maribou State",
+      "count": 3
+    },
+    {
+      "name": "Holly Walker",
+      "count": 3
+    },
+    {
+      "name": "Wolfmother",
+      "count": 3
+    },
+    {
+      "name": "Jamie xx",
+      "count": 3
+    },
+    {
+      "name": "TEMPOREX",
+      "count": 2
+    },
+    {
+      "name": "Jakob",
+      "count": 2
+    },
+    {
+      "name": "Beach Fossils",
+      "count": 2
+    },
+    {
+      "name": "Crumb",
+      "count": 2
+    },
+    {
+      "name": "Good Morning",
+      "count": 2
+    },
+    {
+      "name": "Vundabar",
+      "count": 1
+    },
+    {
+      "name": "Joy Again",
+      "count": 1
+    }
+  ],
+  "tracks": [
+    {
+      "name": "I Wanna Be Yours",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 92,
+      "tempo": 67.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.417,
+      "valence": 0.479,
+      "danceability": 0.464,
+      "acousticness": 0.136,
+      "instrumentalness": 0.022,
+      "loudness": -9.3,
+      "speechiness": 0.026,
+      "duration_ms": 183956,
+      "slug": "i-wanna-be-yours-arctic-monkeys"
+    },
+    {
+      "name": "Do I Wanna Know?",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 88,
+      "tempo": 85.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.532,
+      "valence": 0.405,
+      "danceability": 0.548,
+      "acousticness": 0.186,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.032,
+      "duration_ms": 272394,
+      "slug": "do-i-wanna-know-arctic-monkeys"
+    },
+    {
+      "name": "505",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 88,
+      "tempo": 140.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.248,
+      "danceability": 0.526,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.057,
+      "duration_ms": 253586,
+      "slug": "505-arctic-monkeys"
+    },
+    {
+      "name": "Why'd You Only Call Me When You're High?",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 88,
+      "tempo": 92.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.631,
+      "valence": 0.8,
+      "danceability": 0.691,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.037,
+      "duration_ms": 161123,
+      "slug": "whyd-you-only-call-me-when-youre-high-arctic-monkeys"
+    },
+    {
+      "name": "R U Mine?",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 83,
+      "tempo": 97.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.758,
+      "valence": 0.619,
+      "danceability": 0.288,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.037,
+      "duration_ms": 201726,
+      "slug": "r-u-mine-arctic-monkeys"
+    },
+    {
+      "name": "Alien Blues",
+      "artists": "Vundabar",
+      "album": "Gawk",
+      "popularity": 82,
+      "tempo": 82.3,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.757,
+      "valence": 0.433,
+      "danceability": 0.467,
+      "acousticness": 0.081,
+      "instrumentalness": 0.908,
+      "loudness": -5.1,
+      "speechiness": 0.033,
+      "duration_ms": 155933,
+      "slug": "alien-blues-vundabar"
+    },
+    {
+      "name": "Snap Out Of It",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 80,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.872,
+      "danceability": 0.728,
+      "acousticness": 0.249,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.034,
+      "duration_ms": 193030,
+      "slug": "snap-out-of-it-arctic-monkeys"
+    },
+    {
+      "name": "Looking Out for You",
+      "artists": "Joy Again",
+      "album": "Looking Out for You",
+      "popularity": 80,
+      "tempo": 100.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.937,
+      "danceability": 0.682,
+      "acousticness": 0.088,
+      "instrumentalness": 0.063,
+      "loudness": -5.0,
+      "speechiness": 0.087,
+      "duration_ms": 179499,
+      "slug": "looking-out-for-you-joy-again"
+    },
+    {
+      "name": "Fluorescent Adolescent",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 79,
+      "tempo": 112.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.79,
+      "danceability": 0.654,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.028,
+      "duration_ms": 183893,
+      "slug": "fluorescent-adolescent-arctic-monkeys"
+    },
+    {
+      "name": "The Adults Are Talking",
+      "artists": "The Strokes",
+      "album": "The New Abnormal",
+      "popularity": 79,
+      "tempo": 165.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.749,
+      "valence": 0.649,
+      "danceability": 0.593,
+      "acousticness": 0.011,
+      "instrumentalness": 0.106,
+      "loudness": -5.7,
+      "speechiness": 0.048,
+      "duration_ms": 309053,
+      "slug": "the-adults-are-talking-the-strokes"
+    },
+    {
+      "name": "Homage",
+      "artists": "Mild High Club",
+      "album": "Skiptracing",
+      "popularity": 78,
+      "tempo": 73.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.415,
+      "danceability": 0.546,
+      "acousticness": 0.153,
+      "instrumentalness": 0.003,
+      "loudness": -8.2,
+      "speechiness": 0.029,
+      "duration_ms": 177493,
+      "slug": "homage-mild-high-club"
+    },
+    {
+      "name": "Arabella",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 78,
+      "tempo": 179.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.506,
+      "danceability": 0.579,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.089,
+      "duration_ms": 207356,
+      "slug": "arabella-arctic-monkeys"
+    },
+    {
+      "name": "Body Paint",
+      "artists": "Arctic Monkeys",
+      "album": "Body Paint",
+      "popularity": 77,
+      "tempo": 144.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.313,
+      "valence": 0.254,
+      "danceability": 0.56,
+      "acousticness": 0.567,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.063,
+      "duration_ms": 290584,
+      "slug": "body-paint-arctic-monkeys"
+    },
+    {
+      "name": "There\u2019d Better Be A Mirrorball",
+      "artists": "Arctic Monkeys",
+      "album": "There\u2019d Better Be A Mirrorball",
+      "popularity": 77,
+      "tempo": 72.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.369,
+      "valence": 0.311,
+      "danceability": 0.513,
+      "acousticness": 0.634,
+      "instrumentalness": 0.014,
+      "loudness": -10.9,
+      "speechiness": 0.031,
+      "duration_ms": 265798,
+      "slug": "thered-better-be-a-mirrorball-arctic-monkeys"
+    },
+    {
+      "name": "Knee Socks",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 76,
+      "tempo": 98.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.542,
+      "valence": 0.587,
+      "danceability": 0.665,
+      "acousticness": 0.123,
+      "instrumentalness": 0.003,
+      "loudness": -8.3,
+      "speechiness": 0.033,
+      "duration_ms": 257563,
+      "slug": "knee-socks-arctic-monkeys"
+    },
+    {
+      "name": "When The Sun Goes Down",
+      "artists": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "popularity": 76,
+      "tempo": 169.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.875,
+      "valence": 0.407,
+      "danceability": 0.348,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.199,
+      "duration_ms": 202133,
+      "slug": "when-the-sun-goes-down-arctic-monkeys"
+    },
+    {
+      "name": "I Bet You Look Good On The Dancefloor",
+      "artists": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "popularity": 75,
+      "tempo": 103.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.948,
+      "valence": 0.778,
+      "danceability": 0.535,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.036,
+      "duration_ms": 173680,
+      "slug": "i-bet-you-look-good-on-the-dancefloor-arctic-monkeys"
+    },
+    {
+      "name": "Reptilia",
+      "artists": "The Strokes",
+      "album": "Room On Fire",
+      "popularity": 75,
+      "tempo": 158.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.649,
+      "valence": 0.77,
+      "danceability": 0.489,
+      "acousticness": 0.001,
+      "instrumentalness": 0.713,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 219826,
+      "slug": "reptilia-the-strokes"
+    },
+    {
+      "name": "Mardy Bum",
+      "artists": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "popularity": 74,
+      "tempo": 112.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.599,
+      "valence": 0.312,
+      "danceability": 0.634,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.036,
+      "duration_ms": 175440,
+      "slug": "mardy-bum-arctic-monkeys"
+    },
+    {
+      "name": "Last Nite",
+      "artists": "The Strokes",
+      "album": "Is This It",
+      "popularity": 74,
+      "tempo": 104.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.767,
+      "danceability": 0.624,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.03,
+      "duration_ms": 193506,
+      "slug": "last-nite-the-strokes"
+    },
+    {
+      "name": "Lonely Boy",
+      "artists": "The Black Keys",
+      "album": "El Camino",
+      "popularity": 73,
+      "tempo": 166.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.872,
+      "valence": 0.607,
+      "danceability": 0.356,
+      "acousticness": 0.004,
+      "instrumentalness": 0.01,
+      "loudness": -7.8,
+      "speechiness": 0.068,
+      "duration_ms": 193653,
+      "slug": "lonely-boy-the-black-keys"
+    },
+    {
+      "name": "Crying Lightning",
+      "artists": "Arctic Monkeys",
+      "album": "Humbug",
+      "popularity": 72,
+      "tempo": 106.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.885,
+      "valence": 0.67,
+      "danceability": 0.498,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.046,
+      "duration_ms": 224826,
+      "slug": "crying-lightning-arctic-monkeys"
+    },
+    {
+      "name": "You Only Live Once",
+      "artists": "The Strokes",
+      "album": "First Impressions Of Earth",
+      "popularity": 72,
+      "tempo": 120.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.968,
+      "danceability": 0.63,
+      "acousticness": 0.024,
+      "instrumentalness": 0.592,
+      "loudness": -2.4,
+      "speechiness": 0.033,
+      "duration_ms": 189226,
+      "slug": "you-only-live-once-the-strokes"
+    },
+    {
+      "name": "Teddy Picker",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 72,
+      "tempo": 150.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.963,
+      "valence": 0.823,
+      "danceability": 0.637,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -5.1,
+      "speechiness": 0.088,
+      "duration_ms": 165000,
+      "slug": "teddy-picker-arctic-monkeys"
+    },
+    {
+      "name": "Fell In Love With a Girl",
+      "artists": "The White Stripes",
+      "album": "White Blood Cells",
+      "popularity": 72,
+      "tempo": 95.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.299,
+      "danceability": 0.356,
+      "acousticness": 0.713,
+      "instrumentalness": 0.001,
+      "loudness": -1.6,
+      "speechiness": 0.112,
+      "duration_ms": 110093,
+      "slug": "fell-in-love-with-a-girl-the-white-stripes"
+    },
+    {
+      "name": "No. 1 Party Anthem",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 71,
+      "tempo": 115.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.698,
+      "valence": 0.599,
+      "danceability": 0.505,
+      "acousticness": 0.33,
+      "instrumentalness": 0.089,
+      "loudness": -5.6,
+      "speechiness": 0.03,
+      "duration_ms": 243131,
+      "slug": "no-1-party-anthem-arctic-monkeys"
+    },
+    {
+      "name": "Selfless",
+      "artists": "The Strokes",
+      "album": "The New Abnormal",
+      "popularity": 71,
+      "tempo": 122.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.679,
+      "valence": 0.089,
+      "danceability": 0.538,
+      "acousticness": 0.191,
+      "instrumentalness": 0.002,
+      "loudness": -4.3,
+      "speechiness": 0.033,
+      "duration_ms": 222093,
+      "slug": "selfless-the-strokes"
+    },
+    {
+      "name": "Brianstorm",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 71,
+      "tempo": 165.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.974,
+      "valence": 0.463,
+      "danceability": 0.42,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -4.7,
+      "speechiness": 0.191,
+      "duration_ms": 172866,
+      "slug": "brianstorm-arctic-monkeys"
+    },
+    {
+      "name": "One For The Road",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 70,
+      "tempo": 180.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.668,
+      "valence": 0.842,
+      "danceability": 0.415,
+      "acousticness": 0.212,
+      "instrumentalness": 0.061,
+      "loudness": -6.8,
+      "speechiness": 0.036,
+      "duration_ms": 206051,
+      "slug": "one-for-the-road-arctic-monkeys"
+    },
+    {
+      "name": "Stop The World I Wanna Get Off With You",
+      "artists": "Arctic Monkeys",
+      "album": "Why'd You Only Call Me When You're High?",
+      "popularity": 70,
+      "tempo": 95.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.73,
+      "valence": 0.53,
+      "danceability": 0.661,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.057,
+      "duration_ms": 191040,
+      "slug": "stop-the-world-i-wanna-get-off-with-you-arctic-monkeys"
+    },
+    {
+      "name": "Someday",
+      "artists": "The Strokes",
+      "album": "Is This It",
+      "popularity": 70,
+      "tempo": 106.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.531,
+      "valence": 0.671,
+      "danceability": 0.542,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.03,
+      "duration_ms": 183573,
+      "slug": "someday-the-strokes"
+    },
+    {
+      "name": "Steady, As She Goes",
+      "artists": "The Raconteurs",
+      "album": "Broken Boy Soldiers",
+      "popularity": 70,
+      "tempo": 123.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.578,
+      "valence": 0.537,
+      "danceability": 0.525,
+      "acousticness": 0.013,
+      "instrumentalness": 0.009,
+      "loudness": -4.6,
+      "speechiness": 0.12,
+      "duration_ms": 215266,
+      "slug": "steady-as-she-goes-the-raconteurs"
+    },
+    {
+      "name": "Numbers",
+      "artists": "TEMPOREX",
+      "album": "Numbers",
+      "popularity": 70,
+      "tempo": 94.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.332,
+      "valence": 0.5,
+      "danceability": 0.423,
+      "acousticness": 0.474,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.029,
+      "duration_ms": 127972,
+      "slug": "numbers-temporex"
+    },
+    {
+      "name": "Gold on the Ceiling",
+      "artists": "The Black Keys",
+      "album": "El Camino",
+      "popularity": 70,
+      "tempo": 130.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.565,
+      "danceability": 0.505,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.048,
+      "duration_ms": 224333,
+      "slug": "gold-on-the-ceiling-the-black-keys"
+    },
+    {
+      "name": "Baby I'm Yours",
+      "artists": "Arctic Monkeys",
+      "album": "Leave Before The Lights Come On",
+      "popularity": 69,
+      "tempo": 113.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.595,
+      "valence": 0.64,
+      "danceability": 0.462,
+      "acousticness": 0.215,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.035,
+      "duration_ms": 152613,
+      "slug": "baby-im-yours-arctic-monkeys"
+    },
+    {
+      "name": "Fireside",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 69,
+      "tempo": 100.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.953,
+      "valence": 0.74,
+      "danceability": 0.538,
+      "acousticness": 0.023,
+      "instrumentalness": 0.001,
+      "loudness": -5.6,
+      "speechiness": 0.056,
+      "duration_ms": 181049,
+      "slug": "fireside-arctic-monkeys"
+    },
+    {
+      "name": "From The Ritz To The Rubble",
+      "artists": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "popularity": 69,
+      "tempo": 189.3,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.882,
+      "valence": 0.656,
+      "danceability": 0.216,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.044,
+      "duration_ms": 193426,
+      "slug": "from-the-ritz-to-the-rubble-arctic-monkeys"
+    },
+    {
+      "name": "Do Me a Favour",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 69,
+      "tempo": 180.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.738,
+      "valence": 0.624,
+      "danceability": 0.469,
+      "acousticness": 0.0,
+      "instrumentalness": 0.058,
+      "loudness": -6.6,
+      "speechiness": 0.062,
+      "duration_ms": 209253,
+      "slug": "do-me-a-favour-arctic-monkeys"
+    },
+    {
+      "name": "Old Yellow Bricks",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 69,
+      "tempo": 135.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.837,
+      "valence": 0.757,
+      "danceability": 0.66,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.068,
+      "duration_ms": 193226,
+      "slug": "old-yellow-bricks-arctic-monkeys"
+    },
+    {
+      "name": "Wild Child",
+      "artists": "The Black Keys",
+      "album": "Dropout Boogie",
+      "popularity": 69,
+      "tempo": 107.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.639,
+      "valence": 0.957,
+      "danceability": 0.68,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.028,
+      "duration_ms": 164866,
+      "slug": "wild-child-the-black-keys"
+    },
+    {
+      "name": "Hate To Say I Told You So",
+      "artists": "The Hives",
+      "album": "Veni Vidi Vicious",
+      "popularity": 69,
+      "tempo": 135.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.931,
+      "valence": 0.419,
+      "danceability": 0.459,
+      "acousticness": 0.001,
+      "instrumentalness": 0.009,
+      "loudness": -5.0,
+      "speechiness": 0.061,
+      "duration_ms": 200693,
+      "slug": "hate-to-say-i-told-you-so-the-hives"
+    },
+    {
+      "name": "Why Are Sundays So Depressing",
+      "artists": "The Strokes",
+      "album": "The New Abnormal",
+      "popularity": 68,
+      "tempo": 110.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.714,
+      "valence": 0.299,
+      "danceability": 0.579,
+      "acousticness": 0.003,
+      "instrumentalness": 0.027,
+      "loudness": -4.5,
+      "speechiness": 0.035,
+      "duration_ms": 275666,
+      "slug": "why-are-sundays-so-depressing-the-strokes"
+    },
+    {
+      "name": "Cornerstone",
+      "artists": "Arctic Monkeys",
+      "album": "Humbug",
+      "popularity": 68,
+      "tempo": 169.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.763,
+      "danceability": 0.287,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.039,
+      "duration_ms": 197973,
+      "slug": "cornerstone-arctic-monkeys"
+    },
+    {
+      "name": "Under Cover of Darkness",
+      "artists": "The Strokes",
+      "album": "Angles",
+      "popularity": 68,
+      "tempo": 199.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.775,
+      "valence": 0.588,
+      "danceability": 0.35,
+      "acousticness": 0.004,
+      "instrumentalness": 0.283,
+      "loudness": -3.4,
+      "speechiness": 0.054,
+      "duration_ms": 235546,
+      "slug": "under-cover-of-darkness-the-strokes"
+    },
+    {
+      "name": "Midas",
+      "artists": "Maribou State;Holly Walker",
+      "album": "Portraits",
+      "popularity": 68,
+      "tempo": 115.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.578,
+      "valence": 0.3,
+      "danceability": 0.697,
+      "acousticness": 0.393,
+      "instrumentalness": 0.379,
+      "loudness": -5.2,
+      "speechiness": 0.095,
+      "duration_ms": 218357,
+      "slug": "midas-maribou-state"
+    },
+    {
+      "name": "Joker And The Thief",
+      "artists": "Wolfmother",
+      "album": "Wolfmother",
+      "popularity": 68,
+      "tempo": 155.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.78,
+      "valence": 0.456,
+      "danceability": 0.264,
+      "acousticness": 0.045,
+      "instrumentalness": 0.022,
+      "loudness": -2.7,
+      "speechiness": 0.052,
+      "duration_ms": 280466,
+      "slug": "joker-and-the-thief-wolfmother"
+    },
+    {
+      "name": "You Might Be Sleeping",
+      "artists": "Jakob;Clairo",
+      "album": "Bedroom Tapes",
+      "popularity": 67,
+      "tempo": 92.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.565,
+      "valence": 0.508,
+      "danceability": 0.587,
+      "acousticness": 0.731,
+      "instrumentalness": 0.341,
+      "loudness": -9.2,
+      "speechiness": 0.026,
+      "duration_ms": 147093,
+      "slug": "you-might-be-sleeping-jakob"
+    },
+    {
+      "name": "Down the Line",
+      "artists": "Beach Fossils",
+      "album": "Somersault",
+      "popularity": 67,
+      "tempo": 162.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.528,
+      "danceability": 0.615,
+      "acousticness": 0.237,
+      "instrumentalness": 0.004,
+      "loudness": -6.6,
+      "speechiness": 0.041,
+      "duration_ms": 158474,
+      "slug": "down-the-line-beach-fossils"
+    },
+    {
+      "name": "There\u2019d Better Be A Mirrorball",
+      "artists": "Arctic Monkeys",
+      "album": "Body Paint",
+      "popularity": 67,
+      "tempo": 72.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.367,
+      "valence": 0.327,
+      "danceability": 0.523,
+      "acousticness": 0.628,
+      "instrumentalness": 0.012,
+      "loudness": -10.9,
+      "speechiness": 0.031,
+      "duration_ms": 265798,
+      "slug": "thered-better-be-a-mirrorball-arctic-monkeys"
+    },
+    {
+      "name": "Ode To The Mets",
+      "artists": "The Strokes",
+      "album": "The New Abnormal",
+      "popularity": 67,
+      "tempo": 92.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.617,
+      "valence": 0.201,
+      "danceability": 0.426,
+      "acousticness": 0.341,
+      "instrumentalness": 0.181,
+      "loudness": -5.4,
+      "speechiness": 0.029,
+      "duration_ms": 351786,
+      "slug": "ode-to-the-mets-the-strokes"
+    },
+    {
+      "name": "Ghostride",
+      "artists": "Crumb",
+      "album": "Jinx",
+      "popularity": 67,
+      "tempo": 87.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.351,
+      "valence": 0.451,
+      "danceability": 0.665,
+      "acousticness": 0.516,
+      "instrumentalness": 0.819,
+      "loudness": -9.4,
+      "speechiness": 0.028,
+      "duration_ms": 126120,
+      "slug": "ghostride-crumb"
+    },
+    {
+      "name": "I Want It All",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 67,
+      "tempo": 131.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.81,
+      "valence": 0.288,
+      "danceability": 0.499,
+      "acousticness": 0.001,
+      "instrumentalness": 0.075,
+      "loudness": -5.6,
+      "speechiness": 0.035,
+      "duration_ms": 185406,
+      "slug": "i-want-it-all-arctic-monkeys"
+    },
+    {
+      "name": "A Certain Romance",
+      "artists": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "popularity": 67,
+      "tempo": 137.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.881,
+      "valence": 0.201,
+      "danceability": 0.455,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.04,
+      "duration_ms": 331200,
+      "slug": "a-certain-romance-arctic-monkeys"
+    },
+    {
+      "name": "Warned You",
+      "artists": "Good Morning",
+      "album": "Shawcross",
+      "popularity": 67,
+      "tempo": 137.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.209,
+      "valence": 0.515,
+      "danceability": 0.535,
+      "acousticness": 0.668,
+      "instrumentalness": 0.14,
+      "loudness": -16.4,
+      "speechiness": 0.026,
+      "duration_ms": 136032,
+      "slug": "warned-you-good-morning"
+    },
+    {
+      "name": "KILL DEM",
+      "artists": "Jamie xx",
+      "album": "KILL DEM",
+      "popularity": 67,
+      "tempo": 128.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.291,
+      "danceability": 0.788,
+      "acousticness": 0.003,
+      "instrumentalness": 0.311,
+      "loudness": -6.2,
+      "speechiness": 0.043,
+      "duration_ms": 223536,
+      "slug": "kill-dem-jamie-xx"
+    },
+    {
+      "name": "Figure It Out",
+      "artists": "Royal Blood",
+      "album": "Royal Blood",
+      "popularity": 67,
+      "tempo": 108.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.69,
+      "danceability": 0.658,
+      "acousticness": 0.229,
+      "instrumentalness": 0.007,
+      "loudness": -4.6,
+      "speechiness": 0.056,
+      "duration_ms": 183602,
+      "slug": "figure-it-out-royal-blood"
+    },
+    {
+      "name": "We're Going to Be Friends",
+      "artists": "The White Stripes",
+      "album": "White Blood Cells",
+      "popularity": 67,
+      "tempo": 97.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.441,
+      "valence": 0.439,
+      "danceability": 0.534,
+      "acousticness": 0.661,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.03,
+      "duration_ms": 140178,
+      "slug": "were-going-to-be-friends-the-white-stripes"
+    },
+    {
+      "name": "Icky Thump",
+      "artists": "The White Stripes",
+      "album": "Icky Thump",
+      "popularity": 67,
+      "tempo": 94.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.341,
+      "danceability": 0.417,
+      "acousticness": 0.021,
+      "instrumentalness": 0.013,
+      "loudness": -7.2,
+      "speechiness": 0.09,
+      "duration_ms": 254533,
+      "slug": "icky-thump-the-white-stripes"
+    },
+    {
+      "name": "Velvet Light",
+      "artists": "Jakob",
+      "album": "Velvet Light",
+      "popularity": 66,
+      "tempo": 77.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.419,
+      "valence": 0.513,
+      "danceability": 0.67,
+      "acousticness": 0.75,
+      "instrumentalness": 0.135,
+      "loudness": -10.5,
+      "speechiness": 0.075,
+      "duration_ms": 141587,
+      "slug": "velvet-light-jakob"
+    },
+    {
+      "name": "Yam Yam",
+      "artists": "No Vacation",
+      "album": "Yam Yam",
+      "popularity": 66,
+      "tempo": 137.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.591,
+      "valence": 0.077,
+      "danceability": 0.445,
+      "acousticness": 0.319,
+      "instrumentalness": 0.766,
+      "loudness": -9.0,
+      "speechiness": 0.032,
+      "duration_ms": 216038,
+      "slug": "yam-yam-no-vacation"
+    },
+    {
+      "name": "Mad Sounds",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 66,
+      "tempo": 80.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.462,
+      "valence": 0.485,
+      "danceability": 0.532,
+      "acousticness": 0.279,
+      "instrumentalness": 0.196,
+      "loudness": -10.7,
+      "speechiness": 0.03,
+      "duration_ms": 215011,
+      "slug": "mad-sounds-arctic-monkeys"
+    },
+    {
+      "name": "Howlin' for You",
+      "artists": "The Black Keys",
+      "album": "Brothers (Deluxe Remastered Anniversary Edition)",
+      "popularity": 66,
+      "tempo": 132.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.747,
+      "valence": 0.38,
+      "danceability": 0.725,
+      "acousticness": 0.027,
+      "instrumentalness": 0.047,
+      "loudness": -5.5,
+      "speechiness": 0.088,
+      "duration_ms": 191956,
+      "slug": "howlin-for-you-the-black-keys"
+    },
+    {
+      "name": "Fake Tales Of San Francisco",
+      "artists": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "popularity": 66,
+      "tempo": 127.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.778,
+      "valence": 0.704,
+      "danceability": 0.454,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.045,
+      "duration_ms": 177946,
+      "slug": "fake-tales-of-san-francisco-arctic-monkeys"
+    },
+    {
+      "name": "Nice Boys",
+      "artists": "TEMPOREX",
+      "album": "Care",
+      "popularity": 66,
+      "tempo": 75.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.672,
+      "valence": 0.324,
+      "danceability": 0.557,
+      "acousticness": 0.478,
+      "instrumentalness": 0.803,
+      "loudness": -10.8,
+      "speechiness": 0.104,
+      "duration_ms": 180800,
+      "slug": "nice-boys-temporex"
+    },
+    {
+      "name": "Fire",
+      "artists": "Kasabian",
+      "album": "West Ryder Pauper Lunatic Asylum",
+      "popularity": 66,
+      "tempo": 117.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.179,
+      "danceability": 0.525,
+      "acousticness": 0.087,
+      "instrumentalness": 0.149,
+      "loudness": -5.6,
+      "speechiness": 0.031,
+      "duration_ms": 252279,
+      "slug": "fire-kasabian"
+    },
+    {
+      "name": "Little Black Submarines",
+      "artists": "The Black Keys",
+      "album": "El Camino",
+      "popularity": 66,
+      "tempo": 95.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.466,
+      "valence": 0.487,
+      "danceability": 0.365,
+      "acousticness": 0.161,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.042,
+      "duration_ms": 251266,
+      "slug": "little-black-submarines-the-black-keys"
+    },
+    {
+      "name": "Blue Orchid",
+      "artists": "The White Stripes",
+      "album": "Get Behind Me Satan",
+      "popularity": 66,
+      "tempo": 151.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.645,
+      "valence": 0.612,
+      "danceability": 0.481,
+      "acousticness": 0.086,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.318,
+      "duration_ms": 157560,
+      "slug": "blue-orchid-the-white-stripes"
+    },
+    {
+      "name": "Locket",
+      "artists": "Crumb",
+      "album": "Locket",
+      "popularity": 65,
+      "tempo": 98.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.077,
+      "danceability": 0.393,
+      "acousticness": 0.759,
+      "instrumentalness": 0.725,
+      "loudness": -10.5,
+      "speechiness": 0.027,
+      "duration_ms": 318378,
+      "slug": "locket-crumb"
+    },
+    {
+      "name": "No Buses",
+      "artists": "Arctic Monkeys",
+      "album": "Who The F*** Are Arctic Monkeys?",
+      "popularity": 65,
+      "tempo": 101.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.425,
+      "danceability": 0.481,
+      "acousticness": 0.155,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.037,
+      "duration_ms": 197320,
+      "slug": "no-buses-arctic-monkeys"
+    },
+    {
+      "name": "Love is a Laserquest",
+      "artists": "Arctic Monkeys",
+      "album": "Suck It and See",
+      "popularity": 65,
+      "tempo": 169.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.554,
+      "danceability": 0.349,
+      "acousticness": 0.002,
+      "instrumentalness": 0.908,
+      "loudness": -6.9,
+      "speechiness": 0.04,
+      "duration_ms": 191426,
+      "slug": "love-is-a-laserquest-arctic-monkeys"
+    },
+    {
+      "name": "Seven Nation Army - The Glitch Mob Remix",
+      "artists": "The White Stripes;The Glitch Mob",
+      "album": "Seven Nation Army (The Glitch Mob Remix)",
+      "popularity": 65,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.844,
+      "valence": 0.198,
+      "danceability": 0.701,
+      "acousticness": 0.152,
+      "instrumentalness": 0.626,
+      "loudness": -6.6,
+      "speechiness": 0.133,
+      "duration_ms": 257021,
+      "slug": "seven-nation-army-the-glitch-mob-remix-the-white-stripes"
+    },
+    {
+      "name": "12:51",
+      "artists": "The Strokes",
+      "album": "Room On Fire",
+      "popularity": 65,
+      "tempo": 145.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.889,
+      "valence": 0.592,
+      "danceability": 0.451,
+      "acousticness": 0.312,
+      "instrumentalness": 0.8,
+      "loudness": -3.8,
+      "speechiness": 0.038,
+      "duration_ms": 153133,
+      "slug": "1251-the-strokes"
+    },
+    {
+      "name": "Woman",
+      "artists": "Wolfmother",
+      "album": "Wolfmother",
+      "popularity": 65,
+      "tempo": 112.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.172,
+      "danceability": 0.219,
+      "acousticness": 0.0,
+      "instrumentalness": 0.099,
+      "loudness": -3.6,
+      "speechiness": 0.176,
+      "duration_ms": 176306,
+      "slug": "woman-wolfmother"
+    },
+    {
+      "name": "Louie Louie",
+      "artists": "The Kingsmen",
+      "album": "The Best of The Kingsmen",
+      "popularity": 65,
+      "tempo": 122.4,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.709,
+      "valence": 0.948,
+      "danceability": 0.623,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.064,
+      "duration_ms": 165381,
+      "slug": "louie-louie-the-kingsmen"
+    },
+    {
+      "name": "Get Free",
+      "artists": "The Vines",
+      "album": "Highly Evolved",
+      "popularity": 65,
+      "tempo": 138.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.603,
+      "danceability": 0.502,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.065,
+      "duration_ms": 126573,
+      "slug": "get-free-the-vines"
+    },
+    {
+      "name": "Wild Thing",
+      "artists": "The Troggs",
+      "album": "From Nowhere",
+      "popularity": 65,
+      "tempo": 203.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.658,
+      "valence": 0.761,
+      "danceability": 0.453,
+      "acousticness": 0.741,
+      "instrumentalness": 0.029,
+      "loudness": -13.5,
+      "speechiness": 0.054,
+      "duration_ms": 155333,
+      "slug": "wild-thing-the-troggs"
+    },
+    {
+      "name": "My My My",
+      "artists": "Armand Van Helden",
+      "album": "Nympho",
+      "popularity": 65,
+      "tempo": 127.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.744,
+      "danceability": 0.652,
+      "acousticness": 0.007,
+      "instrumentalness": 0.009,
+      "loudness": -8.2,
+      "speechiness": 0.246,
+      "duration_ms": 182266,
+      "slug": "my-my-my-armand-van-helden"
+    },
+    {
+      "name": "Tongue",
+      "artists": "Maribou State;Holly Walker",
+      "album": "Tongue EP",
+      "popularity": 64,
+      "tempo": 115.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.521,
+      "valence": 0.143,
+      "danceability": 0.569,
+      "acousticness": 0.514,
+      "instrumentalness": 0.005,
+      "loudness": -10.2,
+      "speechiness": 0.084,
+      "duration_ms": 304825,
+      "slug": "tongue-maribou-state"
+    },
+    {
+      "name": "Too Much To Ask",
+      "artists": "Arctic Monkeys",
+      "album": "Fluorescent Adolescent",
+      "popularity": 64,
+      "tempo": 110.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.757,
+      "valence": 0.878,
+      "danceability": 0.724,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.027,
+      "duration_ms": 183253,
+      "slug": "too-much-to-ask-arctic-monkeys"
+    },
+    {
+      "name": "Suck It and See",
+      "artists": "Arctic Monkeys",
+      "album": "Suck It and See",
+      "popularity": 64,
+      "tempo": 128.3,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.932,
+      "valence": 0.586,
+      "danceability": 0.339,
+      "acousticness": 0.001,
+      "instrumentalness": 0.114,
+      "loudness": -5.0,
+      "speechiness": 0.057,
+      "duration_ms": 225986,
+      "slug": "suck-it-and-see-arctic-monkeys"
+    },
+    {
+      "name": "Secret Door",
+      "artists": "Arctic Monkeys",
+      "album": "Humbug",
+      "popularity": 64,
+      "tempo": 124.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.806,
+      "valence": 0.548,
+      "danceability": 0.323,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.077,
+      "duration_ms": 223066,
+      "slug": "secret-door-arctic-monkeys"
+    },
+    {
+      "name": "Joker And The Thief",
+      "artists": "Wolfmother",
+      "album": "Wolfmother",
+      "popularity": 64,
+      "tempo": 155.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.465,
+      "danceability": 0.264,
+      "acousticness": 0.019,
+      "instrumentalness": 0.007,
+      "loudness": -2.4,
+      "speechiness": 0.054,
+      "duration_ms": 279666,
+      "slug": "joker-and-the-thief-wolfmother"
+    },
+    {
+      "name": "Bad Decisions",
+      "artists": "The Strokes",
+      "album": "The New Abnormal",
+      "popularity": 64,
+      "tempo": 153.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.922,
+      "valence": 0.393,
+      "danceability": 0.374,
+      "acousticness": 0.013,
+      "instrumentalness": 0.204,
+      "loudness": -3.4,
+      "speechiness": 0.056,
+      "duration_ms": 293360,
+      "slug": "bad-decisions-the-strokes"
+    },
+    {
+      "name": "Brooklyn Bridge To Chorus",
+      "artists": "The Strokes",
+      "album": "The New Abnormal",
+      "popularity": 64,
+      "tempo": 119.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.571,
+      "valence": 0.467,
+      "danceability": 0.628,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.063,
+      "duration_ms": 235946,
+      "slug": "brooklyn-bridge-to-chorus-the-strokes"
+    },
+    {
+      "name": "$10",
+      "artists": "Good Morning",
+      "album": "Prize//Reward",
+      "popularity": 64,
+      "tempo": 121.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.596,
+      "valence": 0.896,
+      "danceability": 0.624,
+      "acousticness": 0.475,
+      "instrumentalness": 0.203,
+      "loudness": -9.8,
+      "speechiness": 0.031,
+      "duration_ms": 89508,
+      "slug": "10-good-morning"
+    },
+    {
+      "name": "Machu Picchu",
+      "artists": "The Strokes",
+      "album": "Angles",
+      "popularity": 64,
+      "tempo": 105.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.817,
+      "valence": 0.874,
+      "danceability": 0.695,
+      "acousticness": 0.013,
+      "instrumentalness": 0.097,
+      "loudness": -5.3,
+      "speechiness": 0.066,
+      "duration_ms": 209626,
+      "slug": "machu-picchu-the-strokes"
+    },
+    {
+      "name": "Never in My Wildest Dreams",
+      "artists": "Dan Auerbach",
+      "album": "Waiting on a Song",
+      "popularity": 64,
+      "tempo": 117.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.466,
+      "valence": 0.623,
+      "danceability": 0.559,
+      "acousticness": 0.315,
+      "instrumentalness": 0.004,
+      "loudness": -6.8,
+      "speechiness": 0.036,
+      "duration_ms": 176026,
+      "slug": "never-in-my-wildest-dreams-dan-auerbach"
+    },
+    {
+      "name": "Steal",
+      "artists": "Maribou State;Holly Walker",
+      "album": "Portraits",
+      "popularity": 64,
+      "tempo": 111.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.456,
+      "valence": 0.221,
+      "danceability": 0.729,
+      "acousticness": 0.62,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.053,
+      "duration_ms": 219945,
+      "slug": "steal-maribou-state"
+    },
+    {
+      "name": "Don't Look Back into the Sun",
+      "artists": "The Libertines",
+      "album": "Don't Look Back into the Sun",
+      "popularity": 64,
+      "tempo": 175.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.849,
+      "valence": 0.59,
+      "danceability": 0.211,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.116,
+      "duration_ms": 180266,
+      "slug": "dont-look-back-into-the-sun-the-libertines"
+    },
+    {
+      "name": "I Ain\u2019t Quite Where I Think I Am",
+      "artists": "Arctic Monkeys",
+      "album": "I Ain't Quite Where I Think I Am",
+      "popularity": 63,
+      "tempo": 192.7,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.337,
+      "valence": 0.667,
+      "danceability": 0.544,
+      "acousticness": 0.357,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.065,
+      "duration_ms": 191173,
+      "slug": "i-aint-quite-where-i-think-i-am-arctic-monkeys"
+    },
+    {
+      "name": "Piledriver Waltz",
+      "artists": "Arctic Monkeys",
+      "album": "Suck It and See",
+      "popularity": 63,
+      "tempo": 110.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.865,
+      "valence": 0.474,
+      "danceability": 0.443,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.039,
+      "duration_ms": 203880,
+      "slug": "piledriver-waltz-arctic-monkeys"
+    },
+    {
+      "name": "2516",
+      "artists": "Luna Li",
+      "album": "jams EP",
+      "popularity": 63,
+      "tempo": 90.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.693,
+      "valence": 0.771,
+      "danceability": 0.514,
+      "acousticness": 0.055,
+      "instrumentalness": 0.824,
+      "loudness": -5.6,
+      "speechiness": 0.026,
+      "duration_ms": 68000,
+      "slug": "2516-luna-li"
+    },
+    {
+      "name": "Sleep Apnea",
+      "artists": "Beach Fossils",
+      "album": "Clash the Truth",
+      "popularity": 63,
+      "tempo": 80.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.685,
+      "valence": 0.491,
+      "danceability": 0.553,
+      "acousticness": 0.145,
+      "instrumentalness": 0.859,
+      "loudness": -10.6,
+      "speechiness": 0.027,
+      "duration_ms": 146293,
+      "slug": "sleep-apnea-beach-fossils"
+    },
+    {
+      "name": "Bigger Boys and Stolen Sweethearts",
+      "artists": "Arctic Monkeys",
+      "album": "I Bet You Look Good On The Dancefloor",
+      "popularity": 63,
+      "tempo": 131.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.587,
+      "valence": 0.605,
+      "danceability": 0.494,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.032,
+      "duration_ms": 180640,
+      "slug": "bigger-boys-and-stolen-sweethearts-arctic-monkeys"
+    },
+    {
+      "name": "D is for Dangerous",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 63,
+      "tempo": 145.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.925,
+      "valence": 0.77,
+      "danceability": 0.555,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.036,
+      "duration_ms": 138106,
+      "slug": "d-is-for-dangerous-arctic-monkeys"
+    },
+    {
+      "name": "My Propeller",
+      "artists": "Arctic Monkeys",
+      "album": "Humbug",
+      "popularity": 63,
+      "tempo": 115.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.657,
+      "valence": 0.69,
+      "danceability": 0.415,
+      "acousticness": 0.052,
+      "instrumentalness": 0.055,
+      "loudness": -6.8,
+      "speechiness": 0.029,
+      "duration_ms": 205746,
+      "slug": "my-propeller-arctic-monkeys"
+    },
+    {
+      "name": "Loud Places",
+      "artists": "Jamie xx;Romy",
+      "album": "In Colour",
+      "popularity": 63,
+      "tempo": 109.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.63,
+      "valence": 0.164,
+      "danceability": 0.646,
+      "acousticness": 0.005,
+      "instrumentalness": 0.27,
+      "loudness": -10.7,
+      "speechiness": 0.043,
+      "duration_ms": 283066,
+      "slug": "loud-places-jamie-xx"
+    },
+    {
+      "name": "Hard To Explain",
+      "artists": "The Strokes",
+      "album": "Is This It",
+      "popularity": 63,
+      "tempo": 82.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.623,
+      "danceability": 0.406,
+      "acousticness": 0.0,
+      "instrumentalness": 0.849,
+      "loudness": -6.3,
+      "speechiness": 0.058,
+      "duration_ms": 224426,
+      "slug": "hard-to-explain-the-strokes"
+    },
+    {
+      "name": "LET\u2019S DO IT AGAIN - Radio Edit",
+      "artists": "Jamie xx",
+      "album": "LET\u2019S DO IT AGAIN",
+      "popularity": 63,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.837,
+      "valence": 0.302,
+      "danceability": 0.66,
+      "acousticness": 0.242,
+      "instrumentalness": 0.876,
+      "loudness": -7.4,
+      "speechiness": 0.029,
+      "duration_ms": 225494,
+      "slug": "lets-do-it-again-radio-edit-jamie-xx"
+    },
+    {
+      "name": "Welcome To Japan",
+      "artists": "The Strokes",
+      "album": "Comedown Machine",
+      "popularity": 63,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.666,
+      "valence": 0.646,
+      "danceability": 0.705,
+      "acousticness": 0.002,
+      "instrumentalness": 0.015,
+      "loudness": -7.2,
+      "speechiness": 0.03,
+      "duration_ms": 230826,
+      "slug": "welcome-to-japan-the-strokes"
+    }
+  ]
+}

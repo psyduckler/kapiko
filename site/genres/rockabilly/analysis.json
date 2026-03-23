@@ -1,0 +1,2800 @@
+{
+  "genre": "Rockabilly",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 67.196,
+    "max": 202.899,
+    "mean": 120.146,
+    "median": 118.025,
+    "q1": 94.108,
+    "q3": 143.453,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 10,
+      "80-89": 8,
+      "90-99": 17,
+      "100-109": 8,
+      "110-119": 7,
+      "120-129": 13,
+      "130-139": 11,
+      "140-149": 7,
+      "150-159": 4,
+      "160-169": 6,
+      "170-179": 3,
+      "180-189": 3,
+      "190-199": 1,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "G": 18,
+    "D": 15,
+    "F": 15,
+    "C": 13,
+    "A": 9,
+    "A#/Bb": 8,
+    "G#/Ab": 5,
+    "E": 5,
+    "D#/Eb": 5,
+    "B": 3,
+    "C#/Db": 3,
+    "F#/Gb": 1
+  },
+  "mode_distribution": {
+    "Major": 90,
+    "Minor": 10
+  },
+  "key_mode_distribution": {
+    "G Major": 16,
+    "D Major": 14,
+    "F Major": 13,
+    "C Major": 12,
+    "A Major": 9,
+    "A#/Bb Major": 5,
+    "G#/Ab Major": 5,
+    "E Major": 5,
+    "D#/Eb Major": 4,
+    "A#/Bb Minor": 3,
+    "B Major": 3,
+    "C#/Db Major": 3,
+    "G Minor": 2,
+    "F Minor": 2,
+    "D Minor": 1,
+    "D#/Eb Minor": 1,
+    "C Minor": 1,
+    "F#/Gb Major": 1
+  },
+  "energy": {
+    "min": 0.053,
+    "max": 0.943,
+    "mean": 0.541,
+    "median": 0.565,
+    "q1": 0.371,
+    "q3": 0.715
+  },
+  "valence": {
+    "min": 0.162,
+    "max": 0.98,
+    "mean": 0.711,
+    "median": 0.788,
+    "q1": 0.521,
+    "q3": 0.934
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.293,
+      "valence": 0.343
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.382,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.208,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.748,
+      "valence": 0.972
+    },
+    {
+      "energy": 0.387,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.905
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.939
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.247,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.266,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.618,
+      "valence": 0.667
+    },
+    {
+      "energy": 0.582,
+      "valence": 0.915
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.907
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.266,
+      "valence": 0.163
+    },
+    {
+      "energy": 0.516,
+      "valence": 0.569
+    },
+    {
+      "energy": 0.226,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.874
+    },
+    {
+      "energy": 0.462,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.613,
+      "valence": 0.924
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.598
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.949
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.939
+    },
+    {
+      "energy": 0.325,
+      "valence": 0.362
+    },
+    {
+      "energy": 0.295,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.219,
+      "valence": 0.498
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.391
+    },
+    {
+      "energy": 0.69,
+      "valence": 0.938
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.633
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.567,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.308,
+      "valence": 0.514
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.954
+    },
+    {
+      "energy": 0.193,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.94
+    },
+    {
+      "energy": 0.295,
+      "valence": 0.732
+    },
+    {
+      "energy": 0.53,
+      "valence": 0.896
+    },
+    {
+      "energy": 0.305,
+      "valence": 0.376
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.371,
+      "valence": 0.882
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.952
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.729
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.98
+    },
+    {
+      "energy": 0.618,
+      "valence": 0.852
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.938
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.798
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.377,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.843
+    },
+    {
+      "energy": 0.494,
+      "valence": 0.803
+    },
+    {
+      "energy": 0.416,
+      "valence": 0.516
+    },
+    {
+      "energy": 0.292,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.967
+    },
+    {
+      "energy": 0.219,
+      "valence": 0.26
+    },
+    {
+      "energy": 0.499,
+      "valence": 0.829
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.934
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.936
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.897
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.874
+    },
+    {
+      "energy": 0.318,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.361,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.374,
+      "valence": 0.558
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.841
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.482,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.734,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.053,
+      "valence": 0.314
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.633
+    },
+    {
+      "energy": 0.347,
+      "valence": 0.644
+    },
+    {
+      "energy": 0.26,
+      "valence": 0.492
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.317,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.236,
+      "valence": 0.196
+    },
+    {
+      "energy": 0.405,
+      "valence": 0.696
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.835
+    },
+    {
+      "energy": 0.613,
+      "valence": 0.918
+    },
+    {
+      "energy": 0.27,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.523,
+      "valence": 0.89
+    },
+    {
+      "energy": 0.774,
+      "valence": 0.715
+    },
+    {
+      "energy": 0.587,
+      "valence": 0.664
+    },
+    {
+      "energy": 0.624,
+      "valence": 0.579
+    },
+    {
+      "energy": 0.826,
+      "valence": 0.891
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.162
+    },
+    {
+      "energy": 0.29,
+      "valence": 0.92
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.957
+    },
+    {
+      "energy": 0.424,
+      "valence": 0.493
+    },
+    {
+      "energy": 0.442,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.975
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.947,
+    "mean": 0.583,
+    "median": 0.658,
+    "q1": 0.425,
+    "q3": 0.76
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.679,
+    "mean": 0.012,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.941,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.741,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.396,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.746,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.712,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.332,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.318,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.614,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.872,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.716,
+      "instrumentalness": 0.133
+    },
+    {
+      "acousticness": 0.596,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.41,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.563,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.845,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.723,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.908,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.575,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.839,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.348,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.733,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.654,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.787,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.893,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.92,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.793,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.584,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.286,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.755,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.819,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.551,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.725,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.794,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.623,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.843,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.614,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.522,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.873,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.881,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.674,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.425,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.18,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.298,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.467,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.671,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.667,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.78,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.742,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.476,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.628,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.602,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.563,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.74,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.377,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.318,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.679
+    },
+    {
+      "acousticness": 0.902,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.573,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.747,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.427,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.837,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.778,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.63,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.881,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.7,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.695,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.588,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.541,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.86,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.808,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.231,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.9,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.385,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.48,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.724,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.715,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.536,
+      "instrumentalness": 0.29
+    },
+    {
+      "acousticness": 0.655,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.693,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.758,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.706,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.812,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.947,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.758,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.173,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 111535,
+    "max": 377586,
+    "mean": 163496.66,
+    "median": 156106.5,
+    "q1": 136546,
+    "q3": 172480
+  },
+  "danceability": {
+    "min": 0.203,
+    "max": 0.845,
+    "mean": 0.538,
+    "median": 0.542,
+    "q1": 0.455,
+    "q3": 0.634
+  },
+  "loudness": {
+    "min": -17.501,
+    "max": -1.526,
+    "mean": -9.958,
+    "median": -9.792,
+    "q1": -11.947,
+    "q3": -7.993
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.315,
+    "mean": 0.056,
+    "median": 0.037,
+    "q1": 0.031,
+    "q3": 0.054
+  },
+  "top_artists": [
+    {
+      "name": "Elvis Presley",
+      "count": 34
+    },
+    {
+      "name": "Chuck Berry",
+      "count": 6
+    },
+    {
+      "name": "Roy Orbison",
+      "count": 6
+    },
+    {
+      "name": "Bobby Darin",
+      "count": 5
+    },
+    {
+      "name": "The Righteous Brothers",
+      "count": 4
+    },
+    {
+      "name": "Jackie Wilson",
+      "count": 3
+    },
+    {
+      "name": "Brenda Lee",
+      "count": 3
+    },
+    {
+      "name": "The Drifters",
+      "count": 3
+    },
+    {
+      "name": "The Everly Brothers",
+      "count": 3
+    },
+    {
+      "name": "Little Richard",
+      "count": 3
+    },
+    {
+      "name": "Buddy Holly",
+      "count": 3
+    },
+    {
+      "name": "Ricky Nelson",
+      "count": 3
+    },
+    {
+      "name": "Ritchie Valens",
+      "count": 2
+    },
+    {
+      "name": "Chubby Checker",
+      "count": 2
+    },
+    {
+      "name": "Neil Sedaka",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Can't Help Falling in Love",
+      "artists": "Elvis Presley",
+      "album": "Blue Hawaii",
+      "popularity": 80,
+      "tempo": 100.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.293,
+      "valence": 0.343,
+      "danceability": 0.396,
+      "acousticness": 0.941,
+      "instrumentalness": 0.0,
+      "loudness": -14.1,
+      "speechiness": 0.028,
+      "duration_ms": 182360,
+      "slug": "cant-help-falling-in-love-elvis-presley"
+    },
+    {
+      "name": "Johnny B. Goode",
+      "artists": "Chuck Berry",
+      "album": "Berry Is On Top",
+      "popularity": 76,
+      "tempo": 168.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.803,
+      "valence": 0.969,
+      "danceability": 0.534,
+      "acousticness": 0.741,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.074,
+      "duration_ms": 161560,
+      "slug": "johnny-b-goode-chuck-berry"
+    },
+    {
+      "name": "Suspicious Minds",
+      "artists": "Elvis Presley",
+      "album": "From Elvis in Memphis",
+      "popularity": 76,
+      "tempo": 116.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.382,
+      "valence": 0.714,
+      "danceability": 0.487,
+      "acousticness": 0.042,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.031,
+      "duration_ms": 261279,
+      "slug": "suspicious-minds-elvis-presley"
+    },
+    {
+      "name": "Unchained Melody",
+      "artists": "The Righteous Brothers",
+      "album": "Just Once In My Life",
+      "popularity": 75,
+      "tempo": 98.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.208,
+      "valence": 0.288,
+      "danceability": 0.339,
+      "acousticness": 0.396,
+      "instrumentalness": 0.001,
+      "loudness": -16.7,
+      "speechiness": 0.031,
+      "duration_ms": 218013,
+      "slug": "unchained-melody-the-righteous-brothers"
+    },
+    {
+      "name": "Burning Love",
+      "artists": "Elvis Presley",
+      "album": "Elvis (Fool)",
+      "popularity": 74,
+      "tempo": 143.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.748,
+      "valence": 0.972,
+      "danceability": 0.66,
+      "acousticness": 0.099,
+      "instrumentalness": 0.006,
+      "loudness": -11.2,
+      "speechiness": 0.028,
+      "duration_ms": 170293,
+      "slug": "burning-love-elvis-presley"
+    },
+    {
+      "name": "Always On My Mind",
+      "artists": "Elvis Presley",
+      "album": "Elvis (Fool)",
+      "popularity": 73,
+      "tempo": 181.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.387,
+      "valence": 0.495,
+      "danceability": 0.358,
+      "acousticness": 0.746,
+      "instrumentalness": 0.012,
+      "loudness": -14.3,
+      "speechiness": 0.032,
+      "duration_ms": 218440,
+      "slug": "always-on-my-mind-elvis-presley"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artists": "Roy Orbison",
+      "album": "Oh, Pretty Woman",
+      "popularity": 73,
+      "tempo": 127.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.958,
+      "danceability": 0.619,
+      "acousticness": 0.712,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.034,
+      "duration_ms": 178933,
+      "slug": "oh-pretty-woman-roy-orbison"
+    },
+    {
+      "name": "Jailhouse Rock",
+      "artists": "Elvis Presley",
+      "album": "Platinum - A Life In Music",
+      "popularity": 72,
+      "tempo": 166.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.537,
+      "valence": 0.905,
+      "danceability": 0.623,
+      "acousticness": 0.332,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.073,
+      "duration_ms": 146933,
+      "slug": "jailhouse-rock-elvis-presley"
+    },
+    {
+      "name": "(Your Love Keeps Lifting Me) Higher & Higher",
+      "artists": "Jackie Wilson",
+      "album": "Higher And Higher",
+      "popularity": 72,
+      "tempo": 95.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.939,
+      "danceability": 0.634,
+      "acousticness": 0.318,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.045,
+      "duration_ms": 179120,
+      "slug": "your-love-keeps-lifting-me-higher-higher-jackie-wilson"
+    },
+    {
+      "name": "If I Can Dream",
+      "artists": "Elvis Presley",
+      "album": "ELVIS (Original Motion Picture Soundtrack)",
+      "popularity": 71,
+      "tempo": 93.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.715,
+      "valence": 0.282,
+      "danceability": 0.325,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.037,
+      "duration_ms": 191840,
+      "slug": "if-i-can-dream-elvis-presley"
+    },
+    {
+      "name": "Rockin' Around The Christmas Tree",
+      "artists": "Brenda Lee",
+      "album": "Merry Christmas From Brenda Lee",
+      "popularity": 71,
+      "tempo": 67.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.472,
+      "valence": 0.898,
+      "danceability": 0.589,
+      "acousticness": 0.614,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.05,
+      "duration_ms": 126266,
+      "slug": "rockin-around-the-christmas-tree-brenda-lee"
+    },
+    {
+      "name": "You Never Can Tell",
+      "artists": "Chuck Berry",
+      "album": "St. Louis To Liverpool",
+      "popularity": 70,
+      "tempo": 157.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.884,
+      "danceability": 0.525,
+      "acousticness": 0.731,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.222,
+      "duration_ms": 161906,
+      "slug": "you-never-can-tell-chuck-berry"
+    },
+    {
+      "name": "We Belong Together",
+      "artists": "Ritchie Valens",
+      "album": "Ritchie Valens",
+      "popularity": 69,
+      "tempo": 106.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.247,
+      "valence": 0.768,
+      "danceability": 0.684,
+      "acousticness": 0.872,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.028,
+      "duration_ms": 116626,
+      "slug": "we-belong-together-ritchie-valens"
+    },
+    {
+      "name": "In the Ghetto",
+      "artists": "Elvis Presley",
+      "album": "From Elvis in Memphis",
+      "popularity": 69,
+      "tempo": 88.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.266,
+      "valence": 0.491,
+      "danceability": 0.404,
+      "acousticness": 0.716,
+      "instrumentalness": 0.133,
+      "loudness": -16.7,
+      "speechiness": 0.033,
+      "duration_ms": 167413,
+      "slug": "in-the-ghetto-elvis-presley"
+    },
+    {
+      "name": "You Got It",
+      "artists": "Roy Orbison",
+      "album": "Mystery Girl",
+      "popularity": 69,
+      "tempo": 114.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.618,
+      "valence": 0.667,
+      "danceability": 0.649,
+      "acousticness": 0.596,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.026,
+      "duration_ms": 210266,
+      "slug": "you-got-it-roy-orbison"
+    },
+    {
+      "name": "Jailhouse Rock",
+      "artists": "Elvis Presley",
+      "album": "Elvis' Golden Records",
+      "popularity": 68,
+      "tempo": 167.4,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.582,
+      "valence": 0.915,
+      "danceability": 0.647,
+      "acousticness": 0.41,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.075,
+      "duration_ms": 146480,
+      "slug": "jailhouse-rock-elvis-presley"
+    },
+    {
+      "name": "Let's Twist Again",
+      "artists": "Chubby Checker",
+      "album": "It's Pony Time/Let's Twist Again",
+      "popularity": 68,
+      "tempo": 167.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.709,
+      "valence": 0.907,
+      "danceability": 0.604,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.158,
+      "duration_ms": 137360,
+      "slug": "lets-twist-again-chubby-checker"
+    },
+    {
+      "name": "Great Balls Of Fire",
+      "artists": "Jerry Lee Lewis",
+      "album": "Jerry Lee's Greatest",
+      "popularity": 68,
+      "tempo": 78.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.729,
+      "valence": 0.884,
+      "danceability": 0.533,
+      "acousticness": 0.563,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.071,
+      "duration_ms": 111535,
+      "slug": "great-balls-of-fire-jerry-lee-lewis"
+    },
+    {
+      "name": "Unchained Melody - Live at Ann Arbor, MI",
+      "artists": "Elvis Presley",
+      "album": "Moody Blue",
+      "popularity": 68,
+      "tempo": 79.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.266,
+      "valence": 0.163,
+      "danceability": 0.271,
+      "acousticness": 0.845,
+      "instrumentalness": 0.002,
+      "loudness": -13.7,
+      "speechiness": 0.035,
+      "duration_ms": 151906,
+      "slug": "unchained-melody-live-at-ann-arbor-mi-elvis-presley"
+    },
+    {
+      "name": "Beyond the Sea",
+      "artists": "Bobby Darin",
+      "album": "That's All",
+      "popularity": 68,
+      "tempo": 136.5,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.516,
+      "valence": 0.569,
+      "danceability": 0.521,
+      "acousticness": 0.723,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.037,
+      "duration_ms": 172480,
+      "slug": "beyond-the-sea-bobby-darin"
+    },
+    {
+      "name": "Under the Boardwalk",
+      "artists": "The Drifters",
+      "album": "Under the Boardwalk",
+      "popularity": 68,
+      "tempo": 123.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.226,
+      "valence": 0.778,
+      "danceability": 0.747,
+      "acousticness": 0.908,
+      "instrumentalness": 0.0,
+      "loudness": -13.6,
+      "speechiness": 0.041,
+      "duration_ms": 161960,
+      "slug": "under-the-boardwalk-the-drifters"
+    },
+    {
+      "name": "(You're The) Devil in Disguise",
+      "artists": "Elvis Presley",
+      "album": "Elvis 30 #1 Hits",
+      "popularity": 67,
+      "tempo": 122.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.874,
+      "danceability": 0.481,
+      "acousticness": 0.575,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.165,
+      "duration_ms": 140426,
+      "slug": "youre-the-devil-in-disguise-elvis-presley"
+    },
+    {
+      "name": "All I Have to Do Is Dream",
+      "artists": "The Everly Brothers",
+      "album": "The Very Best of The Everly Brothers",
+      "popularity": 67,
+      "tempo": 96.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.462,
+      "valence": 0.534,
+      "danceability": 0.534,
+      "acousticness": 0.839,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.027,
+      "duration_ms": 143333,
+      "slug": "all-i-have-to-do-is-dream-the-everly-brothers"
+    },
+    {
+      "name": "Laughter In The Rain",
+      "artists": "Neil Sedaka",
+      "album": "The Definitive Collection",
+      "popularity": 67,
+      "tempo": 100.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.613,
+      "valence": 0.924,
+      "danceability": 0.495,
+      "acousticness": 0.348,
+      "instrumentalness": 0.006,
+      "loudness": -9.5,
+      "speechiness": 0.024,
+      "duration_ms": 170066,
+      "slug": "laughter-in-the-rain-neil-sedaka"
+    },
+    {
+      "name": "Runaround Sue",
+      "artists": "Dion",
+      "album": "Runaround Sue",
+      "popularity": 67,
+      "tempo": 80.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.607,
+      "valence": 0.598,
+      "danceability": 0.364,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.125,
+      "duration_ms": 171600,
+      "slug": "runaround-sue-dion"
+    },
+    {
+      "name": "Hound Dog",
+      "artists": "Elvis Presley",
+      "album": "Elvis' Golden Records",
+      "popularity": 66,
+      "tempo": 86.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.756,
+      "valence": 0.949,
+      "danceability": 0.494,
+      "acousticness": 0.733,
+      "instrumentalness": 0.005,
+      "loudness": -8.5,
+      "speechiness": 0.05,
+      "duration_ms": 136026,
+      "slug": "hound-dog-elvis-presley"
+    },
+    {
+      "name": "Blue Suede Shoes",
+      "artists": "Elvis Presley",
+      "album": "Elvis Presley",
+      "popularity": 66,
+      "tempo": 95.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.962,
+      "danceability": 0.557,
+      "acousticness": 0.654,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.056,
+      "duration_ms": 119200,
+      "slug": "blue-suede-shoes-elvis-presley"
+    },
+    {
+      "name": "La Bamba - Single Version",
+      "artists": "Ritchie Valens",
+      "album": "Ritchie Valens",
+      "popularity": 66,
+      "tempo": 75.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.809,
+      "valence": 0.939,
+      "danceability": 0.516,
+      "acousticness": 0.787,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.054,
+      "duration_ms": 126960,
+      "slug": "la-bamba-single-version-ritchie-valens"
+    },
+    {
+      "name": "Can't Help Falling In Love",
+      "artists": "Elvis Presley",
+      "album": "Elvis 30 #1 Hits",
+      "popularity": 65,
+      "tempo": 101.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.325,
+      "valence": 0.362,
+      "danceability": 0.438,
+      "acousticness": 0.893,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.027,
+      "duration_ms": 177840,
+      "slug": "cant-help-falling-in-love-elvis-presley"
+    },
+    {
+      "name": "Smoke Gets In Your Eyes",
+      "artists": "The Platters",
+      "album": "Remember When?",
+      "popularity": 65,
+      "tempo": 171.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.295,
+      "valence": 0.285,
+      "danceability": 0.203,
+      "acousticness": 0.92,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.032,
+      "duration_ms": 160933,
+      "slug": "smoke-gets-in-your-eyes-the-platters"
+    },
+    {
+      "name": "Tutti Frutti",
+      "artists": "Little Richard",
+      "album": "Here's Little Richard (Deluxe Edition)",
+      "popularity": 65,
+      "tempo": 184.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.658,
+      "valence": 0.937,
+      "danceability": 0.555,
+      "acousticness": 0.793,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.054,
+      "duration_ms": 144226,
+      "slug": "tutti-frutti-little-richard"
+    },
+    {
+      "name": "Everyday",
+      "artists": "Buddy Holly;The Crickets",
+      "album": "Buddy Holly",
+      "popularity": 65,
+      "tempo": 135.6,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.219,
+      "valence": 0.498,
+      "danceability": 0.747,
+      "acousticness": 0.584,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.037,
+      "duration_ms": 129120,
+      "slug": "everyday-buddy-holly"
+    },
+    {
+      "name": "If I Can Dream - Live from the '68 Comeback Special",
+      "artists": "Elvis Presley",
+      "album": "NBC-TV Special (Live)",
+      "popularity": 65,
+      "tempo": 93.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.62,
+      "valence": 0.391,
+      "danceability": 0.346,
+      "acousticness": 0.082,
+      "instrumentalness": 0.004,
+      "loudness": -9.2,
+      "speechiness": 0.043,
+      "duration_ms": 200057,
+      "slug": "if-i-can-dream-live-from-the-68-comeback-special-elvis-presley"
+    },
+    {
+      "name": "(Your Love Keeps Lifting Me) Higher & Higher",
+      "artists": "Jackie Wilson",
+      "album": "The Ultimate Jackie Wilson",
+      "popularity": 65,
+      "tempo": 94.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.69,
+      "valence": 0.938,
+      "danceability": 0.631,
+      "acousticness": 0.176,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.053,
+      "duration_ms": 181066,
+      "slug": "your-love-keeps-lifting-me-higher-higher-jackie-wilson"
+    },
+    {
+      "name": "The Wonder of You",
+      "artists": "Elvis Presley",
+      "album": "The Essential Elvis Presley",
+      "popularity": 64,
+      "tempo": 88.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.691,
+      "valence": 0.633,
+      "danceability": 0.448,
+      "acousticness": 0.286,
+      "instrumentalness": 0.001,
+      "loudness": -7.0,
+      "speechiness": 0.029,
+      "duration_ms": 153200,
+      "slug": "the-wonder-of-you-elvis-presley"
+    },
+    {
+      "name": "Long Tall Sally (The Thing)",
+      "artists": "Little Richard",
+      "album": "Here's Little Richard (Deluxe Edition)",
+      "popularity": 64,
+      "tempo": 184.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.608,
+      "valence": 0.888,
+      "danceability": 0.474,
+      "acousticness": 0.755,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.083,
+      "duration_ms": 127426,
+      "slug": "long-tall-sally-the-thing-little-richard"
+    },
+    {
+      "name": "Viva Las Vegas",
+      "artists": "Elvis Presley",
+      "album": "Elvis' Gold Records, Vol. 4",
+      "popularity": 64,
+      "tempo": 144.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.567,
+      "valence": 0.861,
+      "danceability": 0.608,
+      "acousticness": 0.819,
+      "instrumentalness": 0.0,
+      "loudness": -11.3,
+      "speechiness": 0.044,
+      "duration_ms": 144840,
+      "slug": "viva-las-vegas-elvis-presley"
+    },
+    {
+      "name": "Will You Love Me Tomorrow",
+      "artists": "The Shirelles",
+      "album": "Remember When",
+      "popularity": 64,
+      "tempo": 136.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.308,
+      "valence": 0.514,
+      "danceability": 0.527,
+      "acousticness": 0.551,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.028,
+      "duration_ms": 160864,
+      "slug": "will-you-love-me-tomorrow-the-shirelles"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artists": "Roy Orbison",
+      "album": "The Essential Roy Orbison",
+      "popularity": 63,
+      "tempo": 127.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.954,
+      "danceability": 0.609,
+      "acousticness": 0.725,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.035,
+      "duration_ms": 176933,
+      "slug": "oh-pretty-woman-roy-orbison"
+    },
+    {
+      "name": "Lonesome Town",
+      "artists": "Ricky Nelson",
+      "album": "Ricky Sings Again (Expanded Edition / Remastered)",
+      "popularity": 63,
+      "tempo": 77.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.193,
+      "valence": 0.273,
+      "danceability": 0.404,
+      "acousticness": 0.794,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.03,
+      "duration_ms": 134040,
+      "slug": "lonesome-town-ricky-nelson"
+    },
+    {
+      "name": "Hound Dog",
+      "artists": "Elvis Presley",
+      "album": "Elvis 30 #1 Hits (Expanded Edition)",
+      "popularity": 63,
+      "tempo": 177.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.884,
+      "valence": 0.94,
+      "danceability": 0.343,
+      "acousticness": 0.623,
+      "instrumentalness": 0.001,
+      "loudness": -4.1,
+      "speechiness": 0.128,
+      "duration_ms": 133293,
+      "slug": "hound-dog-elvis-presley"
+    },
+    {
+      "name": "Heartbreak Hotel",
+      "artists": "Elvis Presley",
+      "album": "Elvis 30 #1 Hits (Expanded Edition)",
+      "popularity": 63,
+      "tempo": 93.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.295,
+      "valence": 0.732,
+      "danceability": 0.695,
+      "acousticness": 0.843,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.061,
+      "duration_ms": 127960,
+      "slug": "heartbreak-hotel-elvis-presley"
+    },
+    {
+      "name": "Save the Last Dance for Me",
+      "artists": "The Drifters",
+      "album": "Save the Last Dance for Me",
+      "popularity": 63,
+      "tempo": 143.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.53,
+      "valence": 0.896,
+      "danceability": 0.54,
+      "acousticness": 0.614,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.036,
+      "duration_ms": 154960,
+      "slug": "save-the-last-dance-for-me-the-drifters"
+    },
+    {
+      "name": "You've Lost That Lovin' Feelin' - Single Version",
+      "artists": "The Righteous Brothers",
+      "album": "You've Lost That Lovin' Feelin'",
+      "popularity": 63,
+      "tempo": 94.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.305,
+      "valence": 0.376,
+      "danceability": 0.369,
+      "acousticness": 0.522,
+      "instrumentalness": 0.0,
+      "loudness": -14.3,
+      "speechiness": 0.027,
+      "duration_ms": 226453,
+      "slug": "youve-lost-that-lovin-feelin-single-version-the-righteous-brothers"
+    },
+    {
+      "name": "Merry Christmas Everyone",
+      "artists": "Shakin' Stevens",
+      "album": "Merry Christmas Everyone",
+      "popularity": 63,
+      "tempo": 202.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.96,
+      "danceability": 0.534,
+      "acousticness": 0.129,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.037,
+      "duration_ms": 220160,
+      "slug": "merry-christmas-everyone-shakin-stevens"
+    },
+    {
+      "name": "Trouble",
+      "artists": "Elvis Presley",
+      "album": "King Creole",
+      "popularity": 62,
+      "tempo": 85.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.371,
+      "valence": 0.882,
+      "danceability": 0.42,
+      "acousticness": 0.873,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.315,
+      "duration_ms": 136546,
+      "slug": "trouble-elvis-presley"
+    },
+    {
+      "name": "All Shook Up",
+      "artists": "Elvis Presley",
+      "album": "Elvis' Golden Records",
+      "popularity": 62,
+      "tempo": 74.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.468,
+      "valence": 0.952,
+      "danceability": 0.624,
+      "acousticness": 0.881,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.132,
+      "duration_ms": 117080,
+      "slug": "all-shook-up-elvis-presley"
+    },
+    {
+      "name": "Moody Blue",
+      "artists": "Elvis Presley",
+      "album": "Moody Blue",
+      "popularity": 62,
+      "tempo": 135.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.729,
+      "valence": 0.963,
+      "danceability": 0.643,
+      "acousticness": 0.674,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.03,
+      "duration_ms": 169320,
+      "slug": "moody-blue-elvis-presley"
+    },
+    {
+      "name": "Runaway",
+      "artists": "Del Shannon",
+      "album": "Runaway with Del Shannon",
+      "popularity": 62,
+      "tempo": 78.6,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.533,
+      "valence": 0.729,
+      "danceability": 0.594,
+      "acousticness": 0.153,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.044,
+      "duration_ms": 137306,
+      "slug": "runaway-del-shannon"
+    },
+    {
+      "name": "No Particular Place To Go",
+      "artists": "Chuck Berry",
+      "album": "St. Louis To Liverpool",
+      "popularity": 62,
+      "tempo": 129.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.98,
+      "danceability": 0.596,
+      "acousticness": 0.425,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.045,
+      "duration_ms": 163000,
+      "slug": "no-particular-place-to-go-chuck-berry"
+    },
+    {
+      "name": "The Twist",
+      "artists": "Chubby Checker",
+      "album": "Dancin' Party: The Chubby Checker Collection (1960-1966)",
+      "popularity": 62,
+      "tempo": 156.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.618,
+      "valence": 0.852,
+      "danceability": 0.571,
+      "acousticness": 0.18,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.037,
+      "duration_ms": 155040,
+      "slug": "the-twist-chubby-checker"
+    },
+    {
+      "name": "Rockin' Robin",
+      "artists": "Bobby Day",
+      "album": "Rockin' Robin",
+      "popularity": 62,
+      "tempo": 172.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.608,
+      "valence": 0.938,
+      "danceability": 0.541,
+      "acousticness": 0.298,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.106,
+      "duration_ms": 160080,
+      "slug": "rockin-robin-bobby-day"
+    },
+    {
+      "name": "That'll Be The Day",
+      "artists": "Buddy Holly",
+      "album": "That'll Be The Day",
+      "popularity": 62,
+      "tempo": 115.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.637,
+      "valence": 0.798,
+      "danceability": 0.536,
+      "acousticness": 0.467,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.034,
+      "duration_ms": 150133,
+      "slug": "thatll-be-the-day-buddy-holly"
+    },
+    {
+      "name": "Mack the Knife",
+      "artists": "Bobby Darin",
+      "album": "That's All",
+      "popularity": 62,
+      "tempo": 82.8,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.529,
+      "valence": 0.464,
+      "danceability": 0.549,
+      "acousticness": 0.76,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.108,
+      "duration_ms": 184333,
+      "slug": "mack-the-knife-bobby-darin"
+    },
+    {
+      "name": "A Teenager In Love",
+      "artists": "Dion & The Belmonts",
+      "album": "Presenting Dion And The Belmonts",
+      "popularity": 61,
+      "tempo": 79.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.377,
+      "valence": 0.619,
+      "danceability": 0.555,
+      "acousticness": 0.671,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.029,
+      "duration_ms": 158253,
+      "slug": "a-teenager-in-love-dion-the-belmonts"
+    },
+    {
+      "name": "Travelin' Man - Remastered",
+      "artists": "Ricky Nelson",
+      "album": "Rick Is 21",
+      "popularity": 61,
+      "tempo": 123.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.44,
+      "valence": 0.843,
+      "danceability": 0.723,
+      "acousticness": 0.667,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.032,
+      "duration_ms": 143200,
+      "slug": "travelin-man-remastered-ricky-nelson"
+    },
+    {
+      "name": "Don't Be Cruel",
+      "artists": "Elvis Presley",
+      "album": "Platinum - A Life In Music",
+      "popularity": 61,
+      "tempo": 84.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.494,
+      "valence": 0.803,
+      "danceability": 0.678,
+      "acousticness": 0.78,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.17,
+      "duration_ms": 121960,
+      "slug": "dont-be-cruel-elvis-presley"
+    },
+    {
+      "name": "Emotions",
+      "artists": "Brenda Lee",
+      "album": "Emotions",
+      "popularity": 61,
+      "tempo": 98.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.416,
+      "valence": 0.516,
+      "danceability": 0.466,
+      "acousticness": 0.742,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.026,
+      "duration_ms": 171226,
+      "slug": "emotions-brenda-lee"
+    },
+    {
+      "name": "You've Lost That Loving Feeling - Live at The International Hotel, Las Vegas",
+      "artists": "Elvis Presley",
+      "album": "That's the Way It Is",
+      "popularity": 61,
+      "tempo": 78.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.292,
+      "valence": 0.342,
+      "danceability": 0.409,
+      "acousticness": 0.476,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.027,
+      "duration_ms": 264293,
+      "slug": "youve-lost-that-loving-feeling-live-at-the-international-hotel-las-vegas-elvis-p"
+    },
+    {
+      "name": "Return to Sender - From \"Girls! Girls! Girls!\"",
+      "artists": "Elvis Presley",
+      "album": "Girls! Girls! Girls!",
+      "popularity": 61,
+      "tempo": 130.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.563,
+      "valence": 0.969,
+      "danceability": 0.845,
+      "acousticness": 0.628,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.044,
+      "duration_ms": 126693,
+      "slug": "return-to-sender-from-girls-girls-girls-elvis-presley"
+    },
+    {
+      "name": "Good Golly, Miss Molly",
+      "artists": "Little Richard",
+      "album": "Good Golly!",
+      "popularity": 61,
+      "tempo": 164.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.741,
+      "valence": 0.967,
+      "danceability": 0.563,
+      "acousticness": 0.602,
+      "instrumentalness": 0.003,
+      "loudness": -11.9,
+      "speechiness": 0.049,
+      "duration_ms": 129132,
+      "slug": "good-golly-miss-molly-little-richard"
+    },
+    {
+      "name": "Unchained Melody",
+      "artists": "The Righteous Brothers",
+      "album": "The Very Best Of The Righteous Brothers - Unchained Melody",
+      "popularity": 61,
+      "tempo": 98.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.219,
+      "valence": 0.26,
+      "danceability": 0.361,
+      "acousticness": 0.563,
+      "instrumentalness": 0.0,
+      "loudness": -16.6,
+      "speechiness": 0.029,
+      "duration_ms": 216266,
+      "slug": "unchained-melody-the-righteous-brothers"
+    },
+    {
+      "name": "Blueberry Hill",
+      "artists": "Fats Domino",
+      "album": "Fats Domino Swings",
+      "popularity": 61,
+      "tempo": 133.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.499,
+      "valence": 0.829,
+      "danceability": 0.489,
+      "acousticness": 0.74,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.027,
+      "duration_ms": 147880,
+      "slug": "blueberry-hill-fats-domino"
+    },
+    {
+      "name": "Only the Lonely",
+      "artists": "Roy Orbison",
+      "album": "Sings Lonely and Blue",
+      "popularity": 61,
+      "tempo": 123.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.529,
+      "valence": 0.934,
+      "danceability": 0.57,
+      "acousticness": 0.377,
+      "instrumentalness": 0.005,
+      "loudness": -10.8,
+      "speechiness": 0.028,
+      "duration_ms": 145533,
+      "slug": "only-the-lonely-roy-orbison"
+    },
+    {
+      "name": "Wake up Little Susie",
+      "artists": "The Everly Brothers",
+      "album": "The Very Best of The Everly Brothers",
+      "popularity": 61,
+      "tempo": 93.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.62,
+      "valence": 0.936,
+      "danceability": 0.709,
+      "acousticness": 0.318,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.034,
+      "duration_ms": 123520,
+      "slug": "wake-up-little-susie-the-everly-brothers"
+    },
+    {
+      "name": "Come Go With Me",
+      "artists": "The Del-Vikings",
+      "album": "Come Go With Me: The Best Of The Del-Vikings",
+      "popularity": 61,
+      "tempo": 129.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.534,
+      "valence": 0.582,
+      "danceability": 0.566,
+      "acousticness": 0.713,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.041,
+      "duration_ms": 162293,
+      "slug": "come-go-with-me-the-del-vikings"
+    },
+    {
+      "name": "Tequila",
+      "artists": "The Champs",
+      "album": "Greatest Hits / Tequila",
+      "popularity": 60,
+      "tempo": 89.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.897,
+      "danceability": 0.671,
+      "acousticness": 0.121,
+      "instrumentalness": 0.679,
+      "loudness": -9.9,
+      "speechiness": 0.044,
+      "duration_ms": 135240,
+      "slug": "tequila-the-champs"
+    },
+    {
+      "name": "Route 66",
+      "artists": "Chuck Berry",
+      "album": "New Juke Box Hits",
+      "popularity": 60,
+      "tempo": 79.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.692,
+      "valence": 0.962,
+      "danceability": 0.686,
+      "acousticness": 0.902,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.042,
+      "duration_ms": 171413,
+      "slug": "route-66-chuck-berry"
+    },
+    {
+      "name": "(You're The) Devil in Disguise",
+      "artists": "Elvis Presley",
+      "album": "Elvis 30 #1 Hits (Expanded Edition)",
+      "popularity": 60,
+      "tempo": 122.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.874,
+      "danceability": 0.481,
+      "acousticness": 0.573,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.165,
+      "duration_ms": 140426,
+      "slug": "youre-the-devil-in-disguise-elvis-presley"
+    },
+    {
+      "name": "The Most Beautiful Girl",
+      "artists": "Charlie Rich",
+      "album": "Behind Closed Doors",
+      "popularity": 60,
+      "tempo": 103.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.318,
+      "valence": 0.41,
+      "danceability": 0.576,
+      "acousticness": 0.661,
+      "instrumentalness": 0.0,
+      "loudness": -14.4,
+      "speechiness": 0.029,
+      "duration_ms": 161906,
+      "slug": "the-most-beautiful-girl-charlie-rich"
+    },
+    {
+      "name": "Twilight Time - Single Version",
+      "artists": "The Platters",
+      "album": "The Flying Platters Around The World",
+      "popularity": 60,
+      "tempo": 115.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.361,
+      "valence": 0.285,
+      "danceability": 0.455,
+      "acousticness": 0.747,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.047,
+      "duration_ms": 168293,
+      "slug": "twilight-time-single-version-the-platters"
+    },
+    {
+      "name": "Kentucky Rain",
+      "artists": "Elvis Presley",
+      "album": "From Elvis in Memphis",
+      "popularity": 60,
+      "tempo": 105.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.374,
+      "valence": 0.558,
+      "danceability": 0.411,
+      "acousticness": 0.427,
+      "instrumentalness": 0.0,
+      "loudness": -14.0,
+      "speechiness": 0.028,
+      "duration_ms": 195720,
+      "slug": "kentucky-rain-elvis-presley"
+    },
+    {
+      "name": "Roll Over Beethoven",
+      "artists": "Chuck Berry",
+      "album": "Berry Is On Top",
+      "popularity": 60,
+      "tempo": 92.7,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.841,
+      "danceability": 0.715,
+      "acousticness": 0.837,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.193,
+      "duration_ms": 144600,
+      "slug": "roll-over-beethoven-chuck-berry"
+    },
+    {
+      "name": "Suspicious Minds",
+      "artists": "Elvis Presley",
+      "album": "Elvis 30 #1 Hits",
+      "popularity": 60,
+      "tempo": 115.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.609,
+      "danceability": 0.542,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.026,
+      "duration_ms": 272360,
+      "slug": "suspicious-minds-elvis-presley"
+    },
+    {
+      "name": "I Get The Sweetest Feeling",
+      "artists": "Jackie Wilson",
+      "album": "I Get The Sweetest Feeling",
+      "popularity": 60,
+      "tempo": 123.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.482,
+      "valence": 0.749,
+      "danceability": 0.684,
+      "acousticness": 0.778,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.037,
+      "duration_ms": 178373,
+      "slug": "i-get-the-sweetest-feeling-jackie-wilson"
+    },
+    {
+      "name": "Oh! Carol",
+      "artists": "Neil Sedaka",
+      "album": "Rock with Sedaka (Expanded Edition)",
+      "popularity": 59,
+      "tempo": 135.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.734,
+      "valence": 0.965,
+      "danceability": 0.728,
+      "acousticness": 0.63,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.032,
+      "duration_ms": 135466,
+      "slug": "oh-carol-neil-sedaka"
+    },
+    {
+      "name": "Love Me Tender",
+      "artists": "Elvis Presley",
+      "album": "Elvis 30 #1 Hits",
+      "popularity": 59,
+      "tempo": 109.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.053,
+      "valence": 0.314,
+      "danceability": 0.439,
+      "acousticness": 0.881,
+      "instrumentalness": 0.0,
+      "loudness": -16.3,
+      "speechiness": 0.039,
+      "duration_ms": 162066,
+      "slug": "love-me-tender-elvis-presley"
+    },
+    {
+      "name": "Then He Kissed Me",
+      "artists": "The Crystals",
+      "album": "Da Doo Ron Ron: The Very Best of The Crystals",
+      "popularity": 59,
+      "tempo": 135.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.678,
+      "valence": 0.633,
+      "danceability": 0.431,
+      "acousticness": 0.7,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.036,
+      "duration_ms": 158853,
+      "slug": "then-he-kissed-me-the-crystals"
+    },
+    {
+      "name": "Call Me Irresponsible",
+      "artists": "Bobby Darin",
+      "album": "Hello Dolly To Goodbye Charlie",
+      "popularity": 59,
+      "tempo": 125.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.347,
+      "valence": 0.644,
+      "danceability": 0.607,
+      "acousticness": 0.695,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.037,
+      "duration_ms": 124560,
+      "slug": "call-me-irresponsible-bobby-darin"
+    },
+    {
+      "name": "Break It To Me Gently",
+      "artists": "Brenda Lee",
+      "album": "...\"Let Me Sing\"",
+      "popularity": 59,
+      "tempo": 92.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.26,
+      "valence": 0.492,
+      "danceability": 0.539,
+      "acousticness": 0.588,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.027,
+      "duration_ms": 164000,
+      "slug": "break-it-to-me-gently-brenda-lee"
+    },
+    {
+      "name": "Suspicious Minds (Film Edit)",
+      "artists": "Elvis Presley",
+      "album": "ELVIS (Original Motion Picture Soundtrack)",
+      "popularity": 59,
+      "tempo": 136.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.801,
+      "valence": 0.521,
+      "danceability": 0.284,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -10.0,
+      "speechiness": 0.064,
+      "duration_ms": 377586,
+      "slug": "suspicious-minds-film-edit-elvis-presley"
+    },
+    {
+      "name": "You've Lost That Lovin' Feelin'",
+      "artists": "The Righteous Brothers",
+      "album": "The Very Best Of The Righteous Brothers - Unchained Melody",
+      "popularity": 59,
+      "tempo": 94.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.317,
+      "valence": 0.398,
+      "danceability": 0.366,
+      "acousticness": 0.541,
+      "instrumentalness": 0.0,
+      "loudness": -14.0,
+      "speechiness": 0.027,
+      "duration_ms": 225426,
+      "slug": "youve-lost-that-lovin-feelin-the-righteous-brothers"
+    },
+    {
+      "name": "Bridge Over Troubled Water",
+      "artists": "Elvis Presley",
+      "album": "That's the Way It Is",
+      "popularity": 59,
+      "tempo": 82.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.236,
+      "valence": 0.196,
+      "danceability": 0.21,
+      "acousticness": 0.86,
+      "instrumentalness": 0.002,
+      "loudness": -14.5,
+      "speechiness": 0.028,
+      "duration_ms": 275333,
+      "slug": "bridge-over-troubled-water-elvis-presley"
+    },
+    {
+      "name": "That's All Right",
+      "artists": "Elvis Presley",
+      "album": "For LP Fans Only",
+      "popularity": 59,
+      "tempo": 105.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.405,
+      "valence": 0.696,
+      "danceability": 0.655,
+      "acousticness": 0.808,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.036,
+      "duration_ms": 115280,
+      "slug": "thats-all-right-elvis-presley"
+    },
+    {
+      "name": "A Little Less Conversation",
+      "artists": "Elvis Presley",
+      "album": "The Essential Elvis Presley",
+      "popularity": 59,
+      "tempo": 114.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.835,
+      "danceability": 0.584,
+      "acousticness": 0.149,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.078,
+      "duration_ms": 132013,
+      "slug": "a-little-less-conversation-elvis-presley"
+    },
+    {
+      "name": "Rubberneckin'",
+      "artists": "Elvis Presley",
+      "album": "Almost in Love",
+      "popularity": 59,
+      "tempo": 144.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.613,
+      "valence": 0.918,
+      "danceability": 0.623,
+      "acousticness": 0.231,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.07,
+      "duration_ms": 133813,
+      "slug": "rubberneckin-elvis-presley"
+    },
+    {
+      "name": "Blue Christmas",
+      "artists": "Elvis Presley",
+      "album": "Elvis' Christmas Album",
+      "popularity": 59,
+      "tempo": 94.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.27,
+      "valence": 0.58,
+      "danceability": 0.465,
+      "acousticness": 0.9,
+      "instrumentalness": 0.001,
+      "loudness": -16.7,
+      "speechiness": 0.043,
+      "duration_ms": 129173,
+      "slug": "blue-christmas-elvis-presley"
+    },
+    {
+      "name": "Splish Splash",
+      "artists": "Bobby Darin",
+      "album": "Bobby Darin",
+      "popularity": 59,
+      "tempo": 147.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.943,
+      "valence": 0.965,
+      "danceability": 0.645,
+      "acousticness": 0.385,
+      "instrumentalness": 0.0,
+      "loudness": -1.5,
+      "speechiness": 0.039,
+      "duration_ms": 131719,
+      "slug": "splish-splash-bobby-darin"
+    },
+    {
+      "name": "Da Doo Ron Ron (When He Walked Me Home)",
+      "artists": "The Crystals",
+      "album": "Da Doo Ron Ron: The Very Best of The Crystals",
+      "popularity": 59,
+      "tempo": 148.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.613,
+      "danceability": 0.535,
+      "acousticness": 0.48,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.046,
+      "duration_ms": 140120,
+      "slug": "da-doo-ron-ron-when-he-walked-me-home-the-crystals"
+    },
+    {
+      "name": "Bye Bye Love",
+      "artists": "The Everly Brothers",
+      "album": "The Very Best of The Everly Brothers",
+      "popularity": 59,
+      "tempo": 169.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.523,
+      "valence": 0.89,
+      "danceability": 0.547,
+      "acousticness": 0.724,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.057,
+      "duration_ms": 142906,
+      "slug": "bye-bye-love-the-everly-brothers"
+    },
+    {
+      "name": "Dream Lover",
+      "artists": "Bobby Darin",
+      "album": "The Ultimate Bobby Darin",
+      "popularity": 59,
+      "tempo": 131.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.774,
+      "valence": 0.715,
+      "danceability": 0.526,
+      "acousticness": 0.715,
+      "instrumentalness": 0.0,
+      "loudness": -1.7,
+      "speechiness": 0.046,
+      "duration_ms": 150706,
+      "slug": "dream-lover-bobby-darin"
+    },
+    {
+      "name": "Little Darlin'",
+      "artists": "The Diamonds",
+      "album": "The Best Of The Diamonds",
+      "popularity": 59,
+      "tempo": 152.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.587,
+      "valence": 0.664,
+      "danceability": 0.631,
+      "acousticness": 0.536,
+      "instrumentalness": 0.29,
+      "loudness": -11.4,
+      "speechiness": 0.042,
+      "duration_ms": 129333,
+      "slug": "little-darlin-the-diamonds"
+    },
+    {
+      "name": "I Drove All Night",
+      "artists": "Roy Orbison",
+      "album": "The Essential Roy Orbison",
+      "popularity": 59,
+      "tempo": 138.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.624,
+      "valence": 0.579,
+      "danceability": 0.478,
+      "acousticness": 0.655,
+      "instrumentalness": 0.002,
+      "loudness": -11.2,
+      "speechiness": 0.039,
+      "duration_ms": 226893,
+      "slug": "i-drove-all-night-roy-orbison"
+    },
+    {
+      "name": "At The Hop",
+      "artists": "Danny & The Juniors",
+      "album": "Rockin' With Danny And The Juniors (Expanded Edition)",
+      "popularity": 59,
+      "tempo": 192.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.826,
+      "valence": 0.891,
+      "danceability": 0.407,
+      "acousticness": 0.693,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.05,
+      "duration_ms": 150866,
+      "slug": "at-the-hop-danny-the-juniors"
+    },
+    {
+      "name": "Crying",
+      "artists": "Roy Orbison",
+      "album": "Crying",
+      "popularity": 59,
+      "tempo": 96.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.293,
+      "valence": 0.162,
+      "danceability": 0.35,
+      "acousticness": 0.758,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.026,
+      "duration_ms": 166466,
+      "slug": "crying-roy-orbison"
+    },
+    {
+      "name": "Up on the Roof",
+      "artists": "The Drifters",
+      "album": "Under the Boardwalk",
+      "popularity": 59,
+      "tempo": 121.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.29,
+      "valence": 0.92,
+      "danceability": 0.693,
+      "acousticness": 0.706,
+      "instrumentalness": 0.0,
+      "loudness": -17.5,
+      "speechiness": 0.033,
+      "duration_ms": 157173,
+      "slug": "up-on-the-roof-the-drifters"
+    },
+    {
+      "name": "Run Rudolph Run",
+      "artists": "Chuck Berry",
+      "album": "Rock 'N' Roll Rarities",
+      "popularity": 59,
+      "tempo": 152.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.715,
+      "valence": 0.957,
+      "danceability": 0.681,
+      "acousticness": 0.812,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.091,
+      "duration_ms": 165733,
+      "slug": "run-rudolph-run-chuck-berry"
+    },
+    {
+      "name": "Peggy Sue",
+      "artists": "Buddy Holly;The Crickets",
+      "album": "Buddy Holly",
+      "popularity": 59,
+      "tempo": 148.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.424,
+      "valence": 0.493,
+      "danceability": 0.676,
+      "acousticness": 0.947,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.033,
+      "duration_ms": 150960,
+      "slug": "peggy-sue-buddy-holly"
+    },
+    {
+      "name": "I Will Follow You",
+      "artists": "Ricky Nelson",
+      "album": "For Your Sweet Love",
+      "popularity": 58,
+      "tempo": 120.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.442,
+      "valence": 0.749,
+      "danceability": 0.671,
+      "acousticness": 0.758,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.033,
+      "duration_ms": 146133,
+      "slug": "i-will-follow-you-ricky-nelson"
+    },
+    {
+      "name": "You Drive Me Crazy",
+      "artists": "Shakin' Stevens",
+      "album": "Shaky",
+      "popularity": 58,
+      "tempo": 119.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.927,
+      "valence": 0.975,
+      "danceability": 0.754,
+      "acousticness": 0.173,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.031,
+      "duration_ms": 171720,
+      "slug": "you-drive-me-crazy-shakin-stevens"
+    }
+  ]
+}

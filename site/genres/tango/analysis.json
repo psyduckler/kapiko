@@ -1,0 +1,2802 @@
+{
+  "genre": "Tango",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 50.96,
+    "max": 202.564,
+    "mean": 111.412,
+    "median": 112.675,
+    "q1": 94.991,
+    "q3": 120.686,
+    "histogram": {
+      "50-59": 2,
+      "60-69": 4,
+      "70-79": 3,
+      "80-89": 13,
+      "90-99": 10,
+      "100-109": 9,
+      "110-119": 32,
+      "120-129": 14,
+      "130-139": 3,
+      "140-149": 1,
+      "150-159": 1,
+      "160-169": 3,
+      "170-179": 2,
+      "180-189": 2,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "D": 26,
+    "G": 13,
+    "F": 12,
+    "C": 11,
+    "E": 10,
+    "A": 9,
+    "C#/Db": 7,
+    "G#/Ab": 3,
+    "B": 3,
+    "A#/Bb": 3,
+    "F#/Gb": 2,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Minor": 55,
+    "Major": 45
+  },
+  "key_mode_distribution": {
+    "D Major": 16,
+    "D Minor": 10,
+    "G Minor": 9,
+    "F Minor": 9,
+    "C Minor": 8,
+    "A Minor": 6,
+    "E Minor": 5,
+    "E Major": 5,
+    "C#/Db Major": 4,
+    "G Major": 4,
+    "F Major": 3,
+    "C Major": 3,
+    "G#/Ab Major": 3,
+    "B Minor": 3,
+    "A Major": 3,
+    "A#/Bb Major": 3,
+    "C#/Db Minor": 3,
+    "F#/Gb Major": 1,
+    "F#/Gb Minor": 1,
+    "D#/Eb Minor": 1
+  },
+  "energy": {
+    "min": 0.075,
+    "max": 0.708,
+    "mean": 0.399,
+    "median": 0.399,
+    "q1": 0.275,
+    "q3": 0.487
+  },
+  "valence": {
+    "min": 0.084,
+    "max": 0.936,
+    "mean": 0.568,
+    "median": 0.575,
+    "q1": 0.45,
+    "q3": 0.684
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.258,
+      "valence": 0.294
+    },
+    {
+      "energy": 0.134,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.371,
+      "valence": 0.747
+    },
+    {
+      "energy": 0.256,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.301,
+      "valence": 0.389
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.683
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.635
+    },
+    {
+      "energy": 0.37,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.116,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.458,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.696
+    },
+    {
+      "energy": 0.375,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.42,
+      "valence": 0.642
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.325
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.672
+    },
+    {
+      "energy": 0.415,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.823
+    },
+    {
+      "energy": 0.487,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.218,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.469
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.562
+    },
+    {
+      "energy": 0.209,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.456,
+      "valence": 0.772
+    },
+    {
+      "energy": 0.466,
+      "valence": 0.447
+    },
+    {
+      "energy": 0.353,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.36,
+      "valence": 0.392
+    },
+    {
+      "energy": 0.455,
+      "valence": 0.635
+    },
+    {
+      "energy": 0.467,
+      "valence": 0.707
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.075,
+      "valence": 0.084
+    },
+    {
+      "energy": 0.173,
+      "valence": 0.647
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.45
+    },
+    {
+      "energy": 0.268,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.451,
+      "valence": 0.258
+    },
+    {
+      "energy": 0.252,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.454,
+      "valence": 0.818
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.681
+    },
+    {
+      "energy": 0.53,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.331,
+      "valence": 0.392
+    },
+    {
+      "energy": 0.367,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.61
+    },
+    {
+      "energy": 0.349,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.251,
+      "valence": 0.14
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.513,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.22,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.315
+    },
+    {
+      "energy": 0.34,
+      "valence": 0.922
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.595
+    },
+    {
+      "energy": 0.285,
+      "valence": 0.727
+    },
+    {
+      "energy": 0.401,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.175,
+      "valence": 0.78
+    },
+    {
+      "energy": 0.242,
+      "valence": 0.406
+    },
+    {
+      "energy": 0.253,
+      "valence": 0.553
+    },
+    {
+      "energy": 0.403,
+      "valence": 0.818
+    },
+    {
+      "energy": 0.482,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.642
+    },
+    {
+      "energy": 0.264,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.275,
+      "valence": 0.585
+    },
+    {
+      "energy": 0.443,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.755
+    },
+    {
+      "energy": 0.389,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.254,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.461,
+      "valence": 0.844
+    },
+    {
+      "energy": 0.398,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.406,
+      "valence": 0.512
+    },
+    {
+      "energy": 0.271,
+      "valence": 0.73
+    },
+    {
+      "energy": 0.447,
+      "valence": 0.425
+    },
+    {
+      "energy": 0.252,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.44
+    },
+    {
+      "energy": 0.329,
+      "valence": 0.936
+    },
+    {
+      "energy": 0.39,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.372,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.152,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.385,
+      "valence": 0.644
+    },
+    {
+      "energy": 0.264,
+      "valence": 0.815
+    },
+    {
+      "energy": 0.377,
+      "valence": 0.585
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.34,
+      "valence": 0.482
+    },
+    {
+      "energy": 0.185,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.734
+    },
+    {
+      "energy": 0.399,
+      "valence": 0.367
+    },
+    {
+      "energy": 0.653,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.386,
+      "valence": 0.729
+    },
+    {
+      "energy": 0.548,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.45,
+      "valence": 0.57
+    },
+    {
+      "energy": 0.262,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.405,
+      "valence": 0.623
+    },
+    {
+      "energy": 0.223,
+      "valence": 0.602
+    },
+    {
+      "energy": 0.308,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.258,
+      "valence": 0.663
+    }
+  ],
+  "acousticness": {
+    "min": 0.189,
+    "max": 0.996,
+    "mean": 0.854,
+    "median": 0.883,
+    "q1": 0.834,
+    "q3": 0.955
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.966,
+    "mean": 0.052,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.002
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.939,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.821,
+      "instrumentalness": 0.049
+    },
+    {
+      "acousticness": 0.628,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.546,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.928,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.945,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.866,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.819,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.455,
+      "instrumentalness": 0.745
+    },
+    {
+      "acousticness": 0.961,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.204,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.791,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.818,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.872,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.996,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.913,
+      "instrumentalness": 0.966
+    },
+    {
+      "acousticness": 0.464,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.729,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.981,
+      "instrumentalness": 0.939
+    },
+    {
+      "acousticness": 0.924,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.868,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.928,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.979,
+      "instrumentalness": 0.379
+    },
+    {
+      "acousticness": 0.878,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.856,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.929,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.88,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.928,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.945,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.189,
+      "instrumentalness": 0.401
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.358,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.929,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.853,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.949,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.928,
+      "instrumentalness": 0.37
+    },
+    {
+      "acousticness": 0.866,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.857,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.943,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.863,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.976,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.962,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.875,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.826,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.895,
+      "instrumentalness": 0.146
+    },
+    {
+      "acousticness": 0.619,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.858,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.858,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.834,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.962,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.93,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.726,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.479,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.848,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.964,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.947,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.985,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.626,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.89,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.979,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.901,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.853,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.933,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.994,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.714,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.716,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.913,
+      "instrumentalness": 0.065
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.717,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.763,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.94,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.858,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.955,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.874,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.886,
+      "instrumentalness": 0.26
+    },
+    {
+      "acousticness": 0.98,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.98,
+      "instrumentalness": 0.068
+    },
+    {
+      "acousticness": 0.834,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.943,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.881,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.839,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.863,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.863,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.817,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.962,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.917,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.835,
+      "instrumentalness": 0.676
+    },
+    {
+      "acousticness": 0.875,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.978,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.976,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 103880,
+    "max": 325640,
+    "mean": 177772.17,
+    "median": 178173.0,
+    "q1": 156920,
+    "q3": 198680
+  },
+  "danceability": {
+    "min": 0.269,
+    "max": 0.754,
+    "mean": 0.508,
+    "median": 0.497,
+    "q1": 0.435,
+    "q3": 0.585
+  },
+  "loudness": {
+    "min": -21.963,
+    "max": -2.97,
+    "mean": -10.062,
+    "median": -9.578,
+    "q1": -11.432,
+    "q3": -8.107
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.573,
+    "mean": 0.092,
+    "median": 0.059,
+    "q1": 0.045,
+    "q3": 0.097
+  },
+  "top_artists": [
+    {
+      "name": "Julio Sosa",
+      "count": 18
+    },
+    {
+      "name": "Carlos Gardel",
+      "count": 17
+    },
+    {
+      "name": "Roberto Goyeneche",
+      "count": 17
+    },
+    {
+      "name": "Leopoldo Federico y su Orquesta",
+      "count": 5
+    },
+    {
+      "name": "Adriana Varela",
+      "count": 4
+    },
+    {
+      "name": "Tita Merello",
+      "count": 4
+    },
+    {
+      "name": "Alfredo De Angelis",
+      "count": 4
+    },
+    {
+      "name": "Astor Piazzolla",
+      "count": 3
+    },
+    {
+      "name": "Jaska M\u00e4kynen",
+      "count": 3
+    },
+    {
+      "name": "Edmundo Rivero",
+      "count": 3
+    },
+    {
+      "name": "Orquesta Tipica Porte\u00f1a",
+      "count": 3
+    },
+    {
+      "name": "Olavi Virta",
+      "count": 3
+    },
+    {
+      "name": "Armando Pontier y su Orquesta",
+      "count": 2
+    },
+    {
+      "name": "Argentino Ledesma",
+      "count": 2
+    },
+    {
+      "name": "Nelly Omar",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Por Una Cabeza",
+      "artists": "Carlos Gardel",
+      "album": "The Very Best",
+      "popularity": 46,
+      "tempo": 62.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.258,
+      "valence": 0.294,
+      "danceability": 0.387,
+      "acousticness": 0.939,
+      "instrumentalness": 0.023,
+      "loudness": -12.5,
+      "speechiness": 0.04,
+      "duration_ms": 325640,
+      "slug": "por-una-cabeza-carlos-gardel"
+    },
+    {
+      "name": "Scent of a Woman: Tango (Por Una Cabeza)",
+      "artists": "Carlos Gardel;Itzhak Perlman;John Williams;Pittsburgh Symphony Orchestra",
+      "album": "Cinema Serenade",
+      "popularity": 44,
+      "tempo": 118.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.134,
+      "valence": 0.429,
+      "danceability": 0.349,
+      "acousticness": 0.821,
+      "instrumentalness": 0.049,
+      "loudness": -22.0,
+      "speechiness": 0.051,
+      "duration_ms": 231160,
+      "slug": "scent-of-a-woman-tango-por-una-cabeza-carlos-gardel"
+    },
+    {
+      "name": "Naranjo en Flor (En Directo)",
+      "artists": "Roberto Goyeneche",
+      "album": "Historia de Oro",
+      "popularity": 38,
+      "tempo": 117.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.371,
+      "valence": 0.747,
+      "danceability": 0.581,
+      "acousticness": 0.628,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.061,
+      "duration_ms": 166812,
+      "slug": "naranjo-en-flor-en-directo-roberto-goyeneche"
+    },
+    {
+      "name": "Cambalache",
+      "artists": "Rub\u00e9n Ju\u00e1rez",
+      "album": "20 Grandes Exitos",
+      "popularity": 38,
+      "tempo": 115.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.256,
+      "valence": 0.793,
+      "danceability": 0.585,
+      "acousticness": 0.546,
+      "instrumentalness": 0.0,
+      "loudness": -17.1,
+      "speechiness": 0.08,
+      "duration_ms": 188200,
+      "slug": "cambalache-rub\u00e9n-ju\u00e1rez"
+    },
+    {
+      "name": "Balada para un Loco",
+      "artists": "Roberto Goyeneche;Astor Piazzolla",
+      "album": "Roberto Goyeneche - RCA Victor 100 A\u00f1os",
+      "popularity": 37,
+      "tempo": 72.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.301,
+      "valence": 0.389,
+      "danceability": 0.423,
+      "acousticness": 0.928,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.263,
+      "duration_ms": 266373,
+      "slug": "balada-para-un-loco-roberto-goyeneche"
+    },
+    {
+      "name": "La Cumparsita (with Leopoldo Federico y Su Orquesta)",
+      "artists": "Julio Sosa;Leopoldo Federico y su Orquesta",
+      "album": "El Var\u00f3n del Tango",
+      "popularity": 37,
+      "tempo": 114.3,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.598,
+      "valence": 0.683,
+      "danceability": 0.48,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.072,
+      "duration_ms": 183426,
+      "slug": "la-cumparsita-with-leopoldo-federico-y-su-orquesta-julio-sosa"
+    },
+    {
+      "name": "Qu\u00e9 me van a hablar de amor - Remastered",
+      "artists": "Julio Sosa",
+      "album": "Var\u00f3n (Remastered)",
+      "popularity": 36,
+      "tempo": 124.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.537,
+      "valence": 0.673,
+      "danceability": 0.441,
+      "acousticness": 0.945,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.076,
+      "duration_ms": 192815,
+      "slug": "qu\u00e9-me-van-a-hablar-de-amor-remastered-julio-sosa"
+    },
+    {
+      "name": "El Firulete (with Leopoldo Federico y Su Orquesta)",
+      "artists": "Julio Sosa;Leopoldo Federico y su Orquesta",
+      "album": "El Firulete",
+      "popularity": 36,
+      "tempo": 106.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.674,
+      "valence": 0.635,
+      "danceability": 0.48,
+      "acousticness": 0.866,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.193,
+      "duration_ms": 132586,
+      "slug": "el-firulete-with-leopoldo-federico-y-su-orquesta-julio-sosa"
+    },
+    {
+      "name": "Desencuentro",
+      "artists": "Roberto Goyeneche",
+      "album": "La \u00daltima Curda",
+      "popularity": 34,
+      "tempo": 114.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.37,
+      "valence": 0.525,
+      "danceability": 0.541,
+      "acousticness": 0.819,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.071,
+      "duration_ms": 116796,
+      "slug": "desencuentro-roberto-goyeneche"
+    },
+    {
+      "name": "Prologue - Tango Apasionada",
+      "artists": "Astor Piazzolla",
+      "album": "Rough Dancer And The Cyclical Night",
+      "popularity": 34,
+      "tempo": 202.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.116,
+      "valence": 0.224,
+      "danceability": 0.366,
+      "acousticness": 0.455,
+      "instrumentalness": 0.745,
+      "loudness": -18.6,
+      "speechiness": 0.043,
+      "duration_ms": 110706,
+      "slug": "prologue-tango-apasionada-astor-piazzolla"
+    },
+    {
+      "name": "En esta tarde gris - Remastered",
+      "artists": "Julio Sosa",
+      "album": "Var\u00f3n (Remastered)",
+      "popularity": 33,
+      "tempo": 115.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.458,
+      "valence": 0.453,
+      "danceability": 0.431,
+      "acousticness": 0.961,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.059,
+      "duration_ms": 228208,
+      "slug": "en-esta-tarde-gris-remastered-julio-sosa"
+    },
+    {
+      "name": "Soita Hiljaa Kitaraani",
+      "artists": "Jaska M\u00e4kynen",
+      "album": "Kaiken Kauniin Rinnalla",
+      "popularity": 33,
+      "tempo": 177.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.659,
+      "valence": 0.696,
+      "danceability": 0.467,
+      "acousticness": 0.204,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.035,
+      "duration_ms": 199000,
+      "slug": "soita-hiljaa-kitaraani-jaska-m\u00e4kynen"
+    },
+    {
+      "name": "Mi Buenos Aires Querido (with Osvaldo Berlingieri Y Su Orquesta)",
+      "artists": "Roberto Goyeneche;Osvaldo Berlingieri y su Orquesta",
+      "album": "Inolvidables RCA - 20 Grandes Exitos - Volumen 2",
+      "popularity": 33,
+      "tempo": 118.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.375,
+      "valence": 0.557,
+      "danceability": 0.395,
+      "acousticness": 0.791,
+      "instrumentalness": 0.002,
+      "loudness": -10.5,
+      "speechiness": 0.041,
+      "duration_ms": 151266,
+      "slug": "mi-buenos-aires-querido-with-osvaldo-berlingieri-y-su-orquesta-roberto-goyeneche"
+    },
+    {
+      "name": "Al Mundo Le Falta un Tornillo",
+      "artists": "Julio Sosa;Armando Pontier",
+      "album": "Tango Classics 180: La Ultima Copa",
+      "popularity": 33,
+      "tempo": 187.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.42,
+      "valence": 0.642,
+      "danceability": 0.446,
+      "acousticness": 0.818,
+      "instrumentalness": 0.0,
+      "loudness": -14.8,
+      "speechiness": 0.099,
+      "duration_ms": 171034,
+      "slug": "al-mundo-le-falta-un-tornillo-julio-sosa"
+    },
+    {
+      "name": "Uno (with Armando Pontier y su Orquesta)",
+      "artists": "Julio Sosa;Armando Pontier y su Orquesta",
+      "album": "30 Aniversario 1964/1994",
+      "popularity": 33,
+      "tempo": 117.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.325,
+      "danceability": 0.377,
+      "acousticness": 0.872,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.053,
+      "duration_ms": 172933,
+      "slug": "uno-with-armando-pontier-y-su-orquesta-julio-sosa"
+    },
+    {
+      "name": "A Media Luz - Remastered",
+      "artists": "Carlos Gardel",
+      "album": "Selecci\u00f3n Especial (Remastered)",
+      "popularity": 32,
+      "tempo": 82.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.412,
+      "valence": 0.672,
+      "danceability": 0.525,
+      "acousticness": 0.996,
+      "instrumentalness": 0.008,
+      "loudness": -13.8,
+      "speechiness": 0.06,
+      "duration_ms": 123626,
+      "slug": "a-media-luz-remastered-carlos-gardel"
+    },
+    {
+      "name": "Marcha Peronista",
+      "artists": "Hugo Del Carril",
+      "album": "Marcha Peronista - Evita Capitana",
+      "popularity": 32,
+      "tempo": 119.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.415,
+      "valence": 0.793,
+      "danceability": 0.713,
+      "acousticness": 0.913,
+      "instrumentalness": 0.966,
+      "loudness": -6.1,
+      "speechiness": 0.046,
+      "duration_ms": 152215,
+      "slug": "marcha-peronista-hugo-del-carril"
+    },
+    {
+      "name": "Min\u00e4 tuun nelostiet\u00e4",
+      "artists": "Jaska M\u00e4kynen",
+      "album": "Espanjan Y\u00f6t",
+      "popularity": 32,
+      "tempo": 181.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.608,
+      "valence": 0.823,
+      "danceability": 0.485,
+      "acousticness": 0.464,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.028,
+      "duration_ms": 177120,
+      "slug": "min\u00e4-tuun-nelostiet\u00e4-jaska-m\u00e4kynen"
+    },
+    {
+      "name": "Historia de un amor",
+      "artists": "Argentino Ledesma",
+      "album": "Argentino Ledesma - Fumando espero",
+      "popularity": 32,
+      "tempo": 109.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.487,
+      "valence": 0.587,
+      "danceability": 0.528,
+      "acousticness": 0.729,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.045,
+      "duration_ms": 144226,
+      "slug": "historia-de-un-amor-argentino-ledesma"
+    },
+    {
+      "name": "Quejas de Bandone\u00f3n",
+      "artists": "An\u00edbal Troilo",
+      "album": "Para Bailar",
+      "popularity": 31,
+      "tempo": 120.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.218,
+      "valence": 0.55,
+      "danceability": 0.479,
+      "acousticness": 0.981,
+      "instrumentalness": 0.939,
+      "loudness": -13.8,
+      "speechiness": 0.041,
+      "duration_ms": 158533,
+      "slug": "quejas-de-bandone\u00f3n-an\u00edbal-troilo"
+    },
+    {
+      "name": "Nada",
+      "artists": "Julio Sosa",
+      "album": "Grandes \u00c9xitos De",
+      "popularity": 31,
+      "tempo": 116.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.655,
+      "valence": 0.469,
+      "danceability": 0.375,
+      "acousticness": 0.924,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.061,
+      "duration_ms": 167773,
+      "slug": "nada-julio-sosa"
+    },
+    {
+      "name": "Cuesta Abajo",
+      "artists": "Adriana Varela",
+      "album": "Adriana Varela y Piano",
+      "popularity": 31,
+      "tempo": 107.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.5,
+      "valence": 0.562,
+      "danceability": 0.587,
+      "acousticness": 0.868,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.142,
+      "duration_ms": 224893,
+      "slug": "cuesta-abajo-adriana-varela"
+    },
+    {
+      "name": "La Cumparsita",
+      "artists": "Carlos Gardel",
+      "album": "The Greatest Interpreter of Argentine Tempos",
+      "popularity": 31,
+      "tempo": 118.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.209,
+      "valence": 0.518,
+      "danceability": 0.681,
+      "acousticness": 0.99,
+      "instrumentalness": 0.002,
+      "loudness": -13.5,
+      "speechiness": 0.139,
+      "duration_ms": 139099,
+      "slug": "la-cumparsita-carlos-gardel"
+    },
+    {
+      "name": "Desde el alma",
+      "artists": "Nelly Omar",
+      "album": "Nelly Omar - Desde el alma",
+      "popularity": 31,
+      "tempo": 89.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.456,
+      "valence": 0.772,
+      "danceability": 0.534,
+      "acousticness": 0.928,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.059,
+      "duration_ms": 156920,
+      "slug": "desde-el-alma-nelly-omar"
+    },
+    {
+      "name": "Cafet\u00edn De Buenos Aires",
+      "artists": "Edmundo Rivero",
+      "album": "Cafet\u00edn de Buenos Aires",
+      "popularity": 31,
+      "tempo": 86.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.466,
+      "valence": 0.447,
+      "danceability": 0.416,
+      "acousticness": 0.979,
+      "instrumentalness": 0.379,
+      "loudness": -7.2,
+      "speechiness": 0.083,
+      "duration_ms": 203160,
+      "slug": "cafet\u00edn-de-buenos-aires-edmundo-rivero"
+    },
+    {
+      "name": "Cambalache",
+      "artists": "Agust\u00edn Irusta",
+      "album": "Por Que la Quise Tanto",
+      "popularity": 31,
+      "tempo": 112.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.353,
+      "valence": 0.725,
+      "danceability": 0.614,
+      "acousticness": 0.878,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.088,
+      "duration_ms": 184586,
+      "slug": "cambalache-agust\u00edn-irusta"
+    },
+    {
+      "name": "Malevaje",
+      "artists": "Edmundo Rivero",
+      "album": "Edmundo Rivero: Edmundo Rivero Canta A Discepolo / Tangos Que Hicieron \u00c9poca",
+      "popularity": 31,
+      "tempo": 116.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.435,
+      "valence": 0.653,
+      "danceability": 0.526,
+      "acousticness": 0.856,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.045,
+      "duration_ms": 200306,
+      "slug": "malevaje-edmundo-rivero"
+    },
+    {
+      "name": "Como Dos Extra\u00f1os",
+      "artists": "Roberto Goyeneche",
+      "album": "La \u00daltima Curda",
+      "popularity": 31,
+      "tempo": 69.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.36,
+      "valence": 0.392,
+      "danceability": 0.449,
+      "acousticness": 0.929,
+      "instrumentalness": 0.022,
+      "loudness": -11.3,
+      "speechiness": 0.052,
+      "duration_ms": 172245,
+      "slug": "como-dos-extra\u00f1os-roberto-goyeneche"
+    },
+    {
+      "name": "Pasional",
+      "artists": "Jorge Falc\u00f3n",
+      "album": "Mis 30 Mejores Tangos",
+      "popularity": 31,
+      "tempo": 111.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.455,
+      "valence": 0.635,
+      "danceability": 0.416,
+      "acousticness": 0.88,
+      "instrumentalness": 0.001,
+      "loudness": -9.0,
+      "speechiness": 0.049,
+      "duration_ms": 168293,
+      "slug": "pasional-jorge-falc\u00f3n"
+    },
+    {
+      "name": "Malena (with Orquesta Tipica Porte\u00f1a)",
+      "artists": "Roberto Goyeneche;Orquesta Tipica Porte\u00f1a",
+      "album": "Antologia Roberto Goyeneche",
+      "popularity": 31,
+      "tempo": 103.3,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.467,
+      "valence": 0.707,
+      "danceability": 0.523,
+      "acousticness": 0.928,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.046,
+      "duration_ms": 138693,
+      "slug": "malena-with-orquesta-tipica-porte\u00f1a-roberto-goyeneche"
+    },
+    {
+      "name": "Qu\u00e9 Me Van a Hablar de Amor",
+      "artists": "Julio Sosa",
+      "album": "Presentando a Julio Sosa",
+      "popularity": 31,
+      "tempo": 170.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.687,
+      "danceability": 0.352,
+      "acousticness": 0.945,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.106,
+      "duration_ms": 192826,
+      "slug": "qu\u00e9-me-van-a-hablar-de-amor-julio-sosa"
+    },
+    {
+      "name": "Finale - Tango Apasionado",
+      "artists": "Astor Piazzolla",
+      "album": "Rough Dancer And The Cyclical Night",
+      "popularity": 31,
+      "tempo": 95.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.075,
+      "valence": 0.084,
+      "danceability": 0.295,
+      "acousticness": 0.189,
+      "instrumentalness": 0.401,
+      "loudness": -20.1,
+      "speechiness": 0.031,
+      "duration_ms": 214800,
+      "slug": "finale-tango-apasionado-astor-piazzolla"
+    },
+    {
+      "name": "La colegiala",
+      "artists": "Pepe Aguirre",
+      "album": "Solo un recuerdo",
+      "popularity": 30,
+      "tempo": 118.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.173,
+      "valence": 0.647,
+      "danceability": 0.678,
+      "acousticness": 0.992,
+      "instrumentalness": 0.004,
+      "loudness": -12.6,
+      "speechiness": 0.05,
+      "duration_ms": 114056,
+      "slug": "la-colegiala-pepe-aguirre"
+    },
+    {
+      "name": "Kaunein katse",
+      "artists": "Jaska M\u00e4kynen",
+      "album": "Espanjan Y\u00f6t",
+      "popularity": 30,
+      "tempo": 95.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.554,
+      "valence": 0.483,
+      "danceability": 0.518,
+      "acousticness": 0.358,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.025,
+      "duration_ms": 187386,
+      "slug": "kaunein-katse-jaska-m\u00e4kynen"
+    },
+    {
+      "name": "Nada",
+      "artists": "Julio Sosa",
+      "album": "Presentando a Julio Sosa",
+      "popularity": 30,
+      "tempo": 114.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.708,
+      "valence": 0.45,
+      "danceability": 0.348,
+      "acousticness": 0.929,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.067,
+      "duration_ms": 167760,
+      "slug": "nada-julio-sosa"
+    },
+    {
+      "name": "Arrabalera",
+      "artists": "Tita Merello",
+      "album": "Tita De Buenos Aires",
+      "popularity": 30,
+      "tempo": 127.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.268,
+      "valence": 0.684,
+      "danceability": 0.62,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.137,
+      "duration_ms": 136213,
+      "slug": "arrabalera-tita-merello"
+    },
+    {
+      "name": "Que Falta Que Me Haces (with Leopoldo Federico y Su Orquesta)",
+      "artists": "Julio Sosa;Leopoldo Federico y su Orquesta",
+      "album": "El Firulete",
+      "popularity": 30,
+      "tempo": 116.5,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.616,
+      "valence": 0.435,
+      "danceability": 0.453,
+      "acousticness": 0.853,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.097,
+      "duration_ms": 155466,
+      "slug": "que-falta-que-me-haces-with-leopoldo-federico-y-su-orquesta-julio-sosa"
+    },
+    {
+      "name": "Niebla del Riachuelo",
+      "artists": "Adriana Varela",
+      "album": "Docke",
+      "popularity": 29,
+      "tempo": 87.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.628,
+      "valence": 0.51,
+      "danceability": 0.434,
+      "acousticness": 0.815,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.36,
+      "duration_ms": 179400,
+      "slug": "niebla-del-riachuelo-adriana-varela"
+    },
+    {
+      "name": "Mi Noche Triste",
+      "artists": "Julio Sosa",
+      "album": "Cantor de Pueblo: Julio Sosa",
+      "popularity": 29,
+      "tempo": 105.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.451,
+      "valence": 0.258,
+      "danceability": 0.577,
+      "acousticness": 0.949,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.211,
+      "duration_ms": 211533,
+      "slug": "mi-noche-triste-julio-sosa"
+    },
+    {
+      "name": "Yira Yira",
+      "artists": "Edmundo Rivero",
+      "album": "Tangos Cl\u00e1sicos Vol. 1",
+      "popularity": 29,
+      "tempo": 122.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.252,
+      "valence": 0.519,
+      "danceability": 0.546,
+      "acousticness": 0.928,
+      "instrumentalness": 0.37,
+      "loudness": -10.3,
+      "speechiness": 0.076,
+      "duration_ms": 193443,
+      "slug": "yira-yira-edmundo-rivero"
+    },
+    {
+      "name": "Fumando Espero",
+      "artists": "Alfredo De Angelis;Carlos Dante",
+      "album": "Yo Soy El Tango",
+      "popularity": 29,
+      "tempo": 115.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.454,
+      "valence": 0.818,
+      "danceability": 0.585,
+      "acousticness": 0.866,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.036,
+      "duration_ms": 206226,
+      "slug": "fumando-espero-alfredo-de-angelis"
+    },
+    {
+      "name": "L\u00e1grimas De Sangre",
+      "artists": "Alfredo De Angelis;Oscar Larroca",
+      "album": "Yo Soy El Tango",
+      "popularity": 29,
+      "tempo": 120.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.293,
+      "valence": 0.681,
+      "danceability": 0.661,
+      "acousticness": 0.857,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.046,
+      "duration_ms": 179653,
+      "slug": "l\u00e1grimas-de-sangre-alfredo-de-angelis"
+    },
+    {
+      "name": "Que Nadie Sepa Mi Sufrir",
+      "artists": "Alberto Castillo;Ricardo Tanturi Y Su Orquesta",
+      "album": "As\u00ed Se Baila El Tango",
+      "popularity": 29,
+      "tempo": 96.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.53,
+      "valence": 0.778,
+      "danceability": 0.484,
+      "acousticness": 0.943,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.049,
+      "duration_ms": 138666,
+      "slug": "que-nadie-sepa-mi-sufrir-alberto-castillo"
+    },
+    {
+      "name": "La \u00daltima Curda",
+      "artists": "Roberto Goyeneche",
+      "album": "La \u00daltima Curda",
+      "popularity": 29,
+      "tempo": 51.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.331,
+      "valence": 0.392,
+      "danceability": 0.486,
+      "acousticness": 0.863,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.125,
+      "duration_ms": 198235,
+      "slug": "la-\u00faltima-curda-roberto-goyeneche"
+    },
+    {
+      "name": "Hopeinen kuu - Guarda che luna",
+      "artists": "Olavi Virta",
+      "album": "20 Suosikkia / Hopeinen kuu",
+      "popularity": 29,
+      "tempo": 99.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.367,
+      "valence": 0.442,
+      "danceability": 0.444,
+      "acousticness": 0.976,
+      "instrumentalness": 0.004,
+      "loudness": -9.6,
+      "speechiness": 0.031,
+      "duration_ms": 201466,
+      "slug": "hopeinen-kuu-guarda-che-luna-olavi-virta"
+    },
+    {
+      "name": "Malevaje (with Ra\u00fal Garello y su Orquesta)",
+      "artists": "Roberto Goyeneche;Ra\u00fal Garello y su Orquesta",
+      "album": "Antologia Roberto Goyeneche",
+      "popularity": 29,
+      "tempo": 112.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.419,
+      "valence": 0.61,
+      "danceability": 0.505,
+      "acousticness": 0.962,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.054,
+      "duration_ms": 166973,
+      "slug": "malevaje-with-ra\u00fal-garello-y-su-orquesta-roberto-goyeneche"
+    },
+    {
+      "name": "Antiguo Reloj De Cobre",
+      "artists": "Miguel Montero",
+      "album": "Antiguo Reloj De Cobre",
+      "popularity": 28,
+      "tempo": 90.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.349,
+      "valence": 0.488,
+      "danceability": 0.435,
+      "acousticness": 0.875,
+      "instrumentalness": 0.01,
+      "loudness": -12.0,
+      "speechiness": 0.06,
+      "duration_ms": 156223,
+      "slug": "antiguo-reloj-de-cobre-miguel-montero"
+    },
+    {
+      "name": "Chiquil\u00edn de Bach\u00edn",
+      "artists": "Amelita Baltar;Fito Paez",
+      "album": "El Nuevo Rumbo",
+      "popularity": 28,
+      "tempo": 78.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.251,
+      "valence": 0.14,
+      "danceability": 0.383,
+      "acousticness": 0.826,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.044,
+      "duration_ms": 221934,
+      "slug": "chiquil\u00edn-de-bach\u00edn-amelita-baltar"
+    },
+    {
+      "name": "Margot",
+      "artists": "Julio Sosa;Orquesta de Leopoldo Federico",
+      "album": "20 Great Tangos",
+      "popularity": 28,
+      "tempo": 110.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.536,
+      "valence": 0.661,
+      "danceability": 0.506,
+      "acousticness": 0.895,
+      "instrumentalness": 0.146,
+      "loudness": -9.8,
+      "speechiness": 0.061,
+      "duration_ms": 186306,
+      "slug": "margot-julio-sosa"
+    },
+    {
+      "name": "Un Vestido y un Amor",
+      "artists": "Adriana Varela;Walter R\u00edos;Esteban Morgado;Litto Nebbia",
+      "album": "Maquillaje",
+      "popularity": 28,
+      "tempo": 112.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.513,
+      "valence": 0.259,
+      "danceability": 0.485,
+      "acousticness": 0.619,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.064,
+      "duration_ms": 196162,
+      "slug": "un-vestido-y-un-amor-adriana-varela"
+    },
+    {
+      "name": "Paisaje",
+      "artists": "Malena Muyala;Fabi\u00e1n Marquisio",
+      "album": "Paisaje",
+      "popularity": 28,
+      "tempo": 161.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.22,
+      "valence": 0.449,
+      "danceability": 0.485,
+      "acousticness": 0.858,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.041,
+      "duration_ms": 223793,
+      "slug": "paisaje-malena-muyala"
+    },
+    {
+      "name": "Uno (with Armando Pontier y su Orquesta)",
+      "artists": "Julio Sosa;Armando Pontier y su Orquesta",
+      "album": "Cambalache",
+      "popularity": 28,
+      "tempo": 112.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.638,
+      "valence": 0.315,
+      "danceability": 0.369,
+      "acousticness": 0.858,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.051,
+      "duration_ms": 170106,
+      "slug": "uno-with-armando-pontier-y-su-orquesta-julio-sosa"
+    },
+    {
+      "name": "Pipistrela",
+      "artists": "Tita Merello;Francisco Canaro Y Su Orquesta Tipica",
+      "album": "Serie De Oro",
+      "popularity": 28,
+      "tempo": 82.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.34,
+      "valence": 0.922,
+      "danceability": 0.754,
+      "acousticness": 0.834,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.505,
+      "duration_ms": 113213,
+      "slug": "pipistrela-tita-merello"
+    },
+    {
+      "name": "Rencor - Remastered",
+      "artists": "Julio Sosa",
+      "album": "El var\u00f3n del tango (Remastered)",
+      "popularity": 28,
+      "tempo": 119.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.505,
+      "valence": 0.595,
+      "danceability": 0.495,
+      "acousticness": 0.962,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.188,
+      "duration_ms": 188433,
+      "slug": "rencor-remastered-julio-sosa"
+    },
+    {
+      "name": "Mu\u00f1eca brava",
+      "artists": "Alberto Castillo",
+      "album": "Alberto Castillo - Asi se baila el tango",
+      "popularity": 28,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.285,
+      "valence": 0.727,
+      "danceability": 0.645,
+      "acousticness": 0.93,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.225,
+      "duration_ms": 175386,
+      "slug": "mu\u00f1eca-brava-alberto-castillo"
+    },
+    {
+      "name": "Sur",
+      "artists": "An\u00edbal Troilo Y Su Orquesta T\u00edpica;Roberto Goyeneche",
+      "album": "15 Grandes Exitos - Los Discos De Oro De Roberto Goyeneche",
+      "popularity": 28,
+      "tempo": 111.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.401,
+      "valence": 0.507,
+      "danceability": 0.423,
+      "acousticness": 0.726,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.045,
+      "duration_ms": 237573,
+      "slug": "sur-an\u00edbal-troilo-y-su-orquesta-t\u00edpica"
+    },
+    {
+      "name": "Ser\u00eda Facil Decir",
+      "artists": "Amelita Baltar;Pedro Aznar",
+      "album": "El Nuevo Rumbo",
+      "popularity": 28,
+      "tempo": 122.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.446,
+      "danceability": 0.574,
+      "acousticness": 0.479,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.085,
+      "duration_ms": 154951,
+      "slug": "ser\u00eda-facil-decir-amelita-baltar"
+    },
+    {
+      "name": "Mariposita - En Vivo",
+      "artists": "Ariel Ardit;Orquesta Tipica",
+      "album": "A los Cantores (En Vivo)",
+      "popularity": 28,
+      "tempo": 111.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.554,
+      "valence": 0.509,
+      "danceability": 0.469,
+      "acousticness": 0.848,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.067,
+      "duration_ms": 224746,
+      "slug": "mariposita-en-vivo-ariel-ardit"
+    },
+    {
+      "name": "Milonga Sentimental",
+      "artists": "Carlos Gardel",
+      "album": "Mano a Mano, 1927",
+      "popularity": 28,
+      "tempo": 94.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.175,
+      "valence": 0.78,
+      "danceability": 0.674,
+      "acousticness": 0.99,
+      "instrumentalness": 0.004,
+      "loudness": -16.3,
+      "speechiness": 0.238,
+      "duration_ms": 178333,
+      "slug": "milonga-sentimental-carlos-gardel"
+    },
+    {
+      "name": "El D\u00eda Que Me Quieras",
+      "artists": "Carlos Gardel",
+      "album": "Tango Collection",
+      "popularity": 28,
+      "tempo": 87.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.242,
+      "valence": 0.406,
+      "danceability": 0.313,
+      "acousticness": 0.964,
+      "instrumentalness": 0.008,
+      "loudness": -12.0,
+      "speechiness": 0.038,
+      "duration_ms": 201932,
+      "slug": "el-d\u00eda-que-me-quieras-carlos-gardel"
+    },
+    {
+      "name": "Volvi\u00f3 Una Noche",
+      "artists": "Carlos Gardel",
+      "album": "El Album De Oro De Carlos Gardel",
+      "popularity": 28,
+      "tempo": 169.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.253,
+      "valence": 0.553,
+      "danceability": 0.452,
+      "acousticness": 0.947,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.073,
+      "duration_ms": 182320,
+      "slug": "volvi\u00f3-una-noche-carlos-gardel"
+    },
+    {
+      "name": "Tomo Y Obligo",
+      "artists": "Carlos Gardel",
+      "album": "El Album De Oro De Carlos Gardel",
+      "popularity": 28,
+      "tempo": 118.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.403,
+      "valence": 0.818,
+      "danceability": 0.722,
+      "acousticness": 0.985,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.166,
+      "duration_ms": 132453,
+      "slug": "tomo-y-obligo-carlos-gardel"
+    },
+    {
+      "name": "La Canci\u00f3n y el Poema (Morir de Amor)",
+      "artists": "Soledad Villamil",
+      "album": "Morir de Amor",
+      "popularity": 28,
+      "tempo": 122.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.482,
+      "valence": 0.673,
+      "danceability": 0.716,
+      "acousticness": 0.626,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.043,
+      "duration_ms": 197973,
+      "slug": "la-canci\u00f3n-y-el-poema-morir-de-amor-soledad-villamil"
+    },
+    {
+      "name": "Bandoneon Arrabalero",
+      "artists": "Roberto Goyeneche",
+      "album": "Roberto Goyeneche: Cantor de Mi Barrio",
+      "popularity": 28,
+      "tempo": 120.7,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.475,
+      "valence": 0.642,
+      "danceability": 0.387,
+      "acousticness": 0.89,
+      "instrumentalness": 0.005,
+      "loudness": -8.0,
+      "speechiness": 0.041,
+      "duration_ms": 164266,
+      "slug": "bandoneon-arrabalero-roberto-goyeneche"
+    },
+    {
+      "name": "Ave de Paso",
+      "artists": "Charlo",
+      "album": "Oro y Plata",
+      "popularity": 27,
+      "tempo": 108.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.264,
+      "valence": 0.403,
+      "danceability": 0.541,
+      "acousticness": 0.979,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.04,
+      "duration_ms": 191346,
+      "slug": "ave-de-paso-charlo"
+    },
+    {
+      "name": "Yo No Se Que Me Han Hecho Tus Ojos",
+      "artists": "Carlos Gardel;Francisco Canaro Y Su Orquesta Tipica",
+      "album": "La Historia Completa De Carlos Gardel - Volumen 18",
+      "popularity": 27,
+      "tempo": 82.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.275,
+      "valence": 0.585,
+      "danceability": 0.639,
+      "acousticness": 0.988,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.158,
+      "duration_ms": 189946,
+      "slug": "yo-no-se-que-me-han-hecho-tus-ojos-carlos-gardel"
+    },
+    {
+      "name": "Anclao en Par\u00eds",
+      "artists": "Sandra Luna;Juan Esteban Cuacci",
+      "album": "Solos",
+      "popularity": 27,
+      "tempo": 99.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.443,
+      "valence": 0.636,
+      "danceability": 0.587,
+      "acousticness": 0.901,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.058,
+      "duration_ms": 103880,
+      "slug": "anclao-en-par\u00eds-sandra-luna"
+    },
+    {
+      "name": "Cuando Llora Mi Guitarra",
+      "artists": "Sandra Luna",
+      "album": "Cuando Llora Mi Guitarra",
+      "popularity": 27,
+      "tempo": 156.4,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.65,
+      "valence": 0.755,
+      "danceability": 0.558,
+      "acousticness": 0.853,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.063,
+      "duration_ms": 205527,
+      "slug": "cuando-llora-mi-guitarra-sandra-luna"
+    },
+    {
+      "name": "Barrio pobre",
+      "artists": "Nelly Omar",
+      "album": "Nelly Omar - Desde el alma",
+      "popularity": 27,
+      "tempo": 119.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.389,
+      "valence": 0.541,
+      "danceability": 0.608,
+      "acousticness": 0.933,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.044,
+      "duration_ms": 205186,
+      "slug": "barrio-pobre-nelly-omar"
+    },
+    {
+      "name": "Volver",
+      "artists": "Carlos Gardel",
+      "album": "Canta El Zorzal",
+      "popularity": 27,
+      "tempo": 65.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.254,
+      "valence": 0.468,
+      "danceability": 0.333,
+      "acousticness": 0.994,
+      "instrumentalness": 0.023,
+      "loudness": -8.9,
+      "speechiness": 0.054,
+      "duration_ms": 174066,
+      "slug": "volver-carlos-gardel"
+    },
+    {
+      "name": "El Sombrero",
+      "artists": "Enrique Rodr\u00edguez",
+      "album": "Aquellas Lindas Melod\u00edas, Vol. 8",
+      "popularity": 27,
+      "tempo": 125.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.461,
+      "valence": 0.844,
+      "danceability": 0.674,
+      "acousticness": 0.714,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.049,
+      "duration_ms": 199640,
+      "slug": "el-sombrero-enrique-rodr\u00edguez"
+    },
+    {
+      "name": "Desencuentro (with Baffa-Berlingieri y su Orquesta)",
+      "artists": "Roberto Goyeneche;Baffa-Berlingieri y su Orquesta",
+      "album": "15 Grandes Exitos - Los Discos De Oro De Roberto Goyeneche",
+      "popularity": 27,
+      "tempo": 109.4,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.398,
+      "valence": 0.58,
+      "danceability": 0.487,
+      "acousticness": 0.716,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.055,
+      "duration_ms": 137133,
+      "slug": "desencuentro-with-baffa-berlingieri-y-su-orquesta-roberto-goyeneche"
+    },
+    {
+      "name": "Mano a Mano (with Orquesta Tipica Porte\u00f1a)",
+      "artists": "Roberto Goyeneche;Orquesta Tipica Porte\u00f1a",
+      "album": "Antologia Roberto Goyeneche",
+      "popularity": 27,
+      "tempo": 104.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.406,
+      "valence": 0.512,
+      "danceability": 0.5,
+      "acousticness": 0.913,
+      "instrumentalness": 0.065,
+      "loudness": -8.7,
+      "speechiness": 0.054,
+      "duration_ms": 198680,
+      "slug": "mano-a-mano-with-orquesta-tipica-porte\u00f1a-roberto-goyeneche"
+    },
+    {
+      "name": "Rubias De New York",
+      "artists": "Carlos Gardel",
+      "album": "Los Exitos De Sus Peliculas",
+      "popularity": 27,
+      "tempo": 97.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.271,
+      "valence": 0.73,
+      "danceability": 0.561,
+      "acousticness": 0.995,
+      "instrumentalness": 0.034,
+      "loudness": -9.9,
+      "speechiness": 0.117,
+      "duration_ms": 151426,
+      "slug": "rubias-de-new-york-carlos-gardel"
+    },
+    {
+      "name": "Cafet\u00edn de Buenos Aires (with Orquesta Tipica Porte\u00f1a)",
+      "artists": "Roberto Goyeneche;Orquesta Tipica Porte\u00f1a",
+      "album": "15 Grandes Exitos - Los Discos De Oro De Roberto Goyeneche",
+      "popularity": 27,
+      "tempo": 92.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.447,
+      "valence": 0.425,
+      "danceability": 0.473,
+      "acousticness": 0.717,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.088,
+      "duration_ms": 185506,
+      "slug": "cafet\u00edn-de-buenos-aires-with-orquesta-tipica-porte\u00f1a-roberto-goyeneche"
+    },
+    {
+      "name": "La \u00daltima Curda (with Armando Pontier y su Orquesta Tipica)",
+      "artists": "Roberto Goyeneche;Armando Pontier y su Orquesta Tipica",
+      "album": "15 Grandes Exitos - Los Discos De Oro De Roberto Goyeneche",
+      "popularity": 27,
+      "tempo": 108.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.252,
+      "valence": 0.594,
+      "danceability": 0.56,
+      "acousticness": 0.763,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.057,
+      "duration_ms": 187760,
+      "slug": "la-\u00faltima-curda-with-armando-pontier-y-su-orquesta-tipica-roberto-goyeneche"
+    },
+    {
+      "name": "Afiches (with Atilio Stampone y su Orquesta Tipica)",
+      "artists": "Roberto Goyeneche;Atilio Stampone y su Orquesta Tipica",
+      "album": "Cantor de Pueblo: Roberto Goyeneche",
+      "popularity": 27,
+      "tempo": 83.3,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.28,
+      "valence": 0.44,
+      "danceability": 0.35,
+      "acousticness": 0.94,
+      "instrumentalness": 0.002,
+      "loudness": -10.4,
+      "speechiness": 0.055,
+      "duration_ms": 185600,
+      "slug": "afiches-with-atilio-stampone-y-su-orquesta-tipica-roberto-goyeneche"
+    },
+    {
+      "name": "Los Amores con la Crisis",
+      "artists": "Tita Merello",
+      "album": "\u00c9xitos de la Morocha Argentina",
+      "popularity": 27,
+      "tempo": 167.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.329,
+      "valence": 0.936,
+      "danceability": 0.598,
+      "acousticness": 0.858,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.573,
+      "duration_ms": 110002,
+      "slug": "los-amores-con-la-crisis-tita-merello"
+    },
+    {
+      "name": "Fueron Tres A\u00f1os",
+      "artists": "Argentino Ledesma;Orquesta de H\u00e9ctor Varela",
+      "album": "Imprescindibles",
+      "popularity": 27,
+      "tempo": 124.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.39,
+      "valence": 0.566,
+      "danceability": 0.442,
+      "acousticness": 0.955,
+      "instrumentalness": 0.003,
+      "loudness": -9.8,
+      "speechiness": 0.054,
+      "duration_ms": 213484,
+      "slug": "fueron-tres-a\u00f1os-argentino-ledesma"
+    },
+    {
+      "name": "Hopeinen kuu",
+      "artists": "Olavi Virta;Lauluyhtye Nordias;Jaakko Salon orkesteri",
+      "album": "Hopeinen kuu",
+      "popularity": 27,
+      "tempo": 75.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.372,
+      "valence": 0.408,
+      "danceability": 0.269,
+      "acousticness": 0.975,
+      "instrumentalness": 0.002,
+      "loudness": -9.6,
+      "speechiness": 0.037,
+      "duration_ms": 198664,
+      "slug": "hopeinen-kuu-olavi-virta"
+    },
+    {
+      "name": "Mets\u00e4kukkia",
+      "artists": "Olavi Virta",
+      "album": "Unohtumattomat",
+      "popularity": 27,
+      "tempo": 82.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.152,
+      "valence": 0.531,
+      "danceability": 0.451,
+      "acousticness": 0.874,
+      "instrumentalness": 0.0,
+      "loudness": -14.1,
+      "speechiness": 0.034,
+      "duration_ms": 168266,
+      "slug": "mets\u00e4kukkia-olavi-virta"
+    },
+    {
+      "name": "Esta Noche Me Emborrach",
+      "artists": "Los Solistas",
+      "album": "Homenaje A Juan D'Arienzo",
+      "popularity": 26,
+      "tempo": 136.7,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.385,
+      "valence": 0.644,
+      "danceability": 0.731,
+      "acousticness": 0.886,
+      "instrumentalness": 0.26,
+      "loudness": -16.4,
+      "speechiness": 0.103,
+      "duration_ms": 134360,
+      "slug": "esta-noche-me-emborrach-los-solistas"
+    },
+    {
+      "name": "Adi\u00f3s Muchachos",
+      "artists": "Carlos Gardel",
+      "album": "Celebridades",
+      "popularity": 26,
+      "tempo": 122.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.264,
+      "valence": 0.815,
+      "danceability": 0.728,
+      "acousticness": 0.98,
+      "instrumentalness": 0.001,
+      "loudness": -8.7,
+      "speechiness": 0.142,
+      "duration_ms": 148093,
+      "slug": "adi\u00f3s-muchachos-carlos-gardel"
+    },
+    {
+      "name": "Vovler",
+      "artists": "Carlos Gardel",
+      "album": "100 Tangos, Vol. 4",
+      "popularity": 26,
+      "tempo": 57.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.377,
+      "valence": 0.585,
+      "danceability": 0.528,
+      "acousticness": 0.992,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.038,
+      "duration_ms": 174266,
+      "slug": "vovler-carlos-gardel"
+    },
+    {
+      "name": "Sus Ojos Se Cerraron",
+      "artists": "Carlos Gardel",
+      "album": "Carlos Gardel - Sus Mejores Tangos",
+      "popularity": 26,
+      "tempo": 85.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.396,
+      "valence": 0.436,
+      "danceability": 0.508,
+      "acousticness": 0.98,
+      "instrumentalness": 0.068,
+      "loudness": -8.5,
+      "speechiness": 0.054,
+      "duration_ms": 159960,
+      "slug": "sus-ojos-se-cerraron-carlos-gardel"
+    },
+    {
+      "name": "Tinta Roja (with Roberto Goyeneche)",
+      "artists": "An\u00edbal Troilo Y Su Orquesta T\u00edpica;Roberto Goyeneche",
+      "album": "Maestros Del Tango",
+      "popularity": 26,
+      "tempo": 111.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.34,
+      "valence": 0.482,
+      "danceability": 0.508,
+      "acousticness": 0.834,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.045,
+      "duration_ms": 179666,
+      "slug": "tinta-roja-with-roberto-goyeneche-an\u00edbal-troilo-y-su-orquesta-t\u00edpica"
+    },
+    {
+      "name": "Pedacito De Cielo",
+      "artists": "Malena Muyala",
+      "album": "Viajera",
+      "popularity": 26,
+      "tempo": 141.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.185,
+      "valence": 0.522,
+      "danceability": 0.562,
+      "acousticness": 0.943,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.063,
+      "duration_ms": 173533,
+      "slug": "pedacito-de-cielo-malena-muyala"
+    },
+    {
+      "name": "Viejo Rinc\u00f3n (with Leopoldo Federico y Su Orquesta)",
+      "artists": "Julio Sosa;Leopoldo Federico y su Orquesta",
+      "album": "El Firulete",
+      "popularity": 26,
+      "tempo": 131.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.734,
+      "danceability": 0.45,
+      "acousticness": 0.881,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.146,
+      "duration_ms": 178013,
+      "slug": "viejo-rinc\u00f3n-with-leopoldo-federico-y-su-orquesta-julio-sosa"
+    },
+    {
+      "name": "Quiero Verte Una Vez M\u00e1s - Remasterizado",
+      "artists": "Jorge Falc\u00f3n",
+      "album": "El Amor Desolado",
+      "popularity": 26,
+      "tempo": 81.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.399,
+      "valence": 0.367,
+      "danceability": 0.289,
+      "acousticness": 0.839,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.048,
+      "duration_ms": 220640,
+      "slug": "quiero-verte-una-vez-m\u00e1s-remasterizado-jorge-falc\u00f3n"
+    },
+    {
+      "name": "Nada (with Leopoldo Federico y Su Orquesta)",
+      "artists": "Julio Sosa;Leopoldo Federico y su Orquesta",
+      "album": "El Firulete",
+      "popularity": 26,
+      "tempo": 110.2,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.653,
+      "valence": 0.471,
+      "danceability": 0.401,
+      "acousticness": 0.863,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.1,
+      "duration_ms": 167826,
+      "slug": "nada-with-leopoldo-federico-y-su-orquesta-julio-sosa"
+    },
+    {
+      "name": "Tranquilo, Viejo, Tranquilo",
+      "artists": "Tita Merello;Francisco Canaro",
+      "album": "Tita De Buenos Aires",
+      "popularity": 26,
+      "tempo": 86.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.435,
+      "valence": 0.778,
+      "danceability": 0.675,
+      "acousticness": 0.863,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.286,
+      "duration_ms": 110346,
+      "slug": "tranquilo-viejo-tranquilo-tita-merello"
+    },
+    {
+      "name": "Tango Negro",
+      "artists": "Libertad Lamarque",
+      "album": "Tesoros De Coleccion - Libertad Lamarque",
+      "popularity": 26,
+      "tempo": 114.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.386,
+      "valence": 0.729,
+      "danceability": 0.532,
+      "acousticness": 0.817,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.059,
+      "duration_ms": 178706,
+      "slug": "tango-negro-libertad-lamarque"
+    },
+    {
+      "name": "En Esta Tarde Gris",
+      "artists": "Julio Sosa",
+      "album": "Presentando a Julio Sosa",
+      "popularity": 26,
+      "tempo": 112.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.548,
+      "valence": 0.491,
+      "danceability": 0.429,
+      "acousticness": 0.962,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.059,
+      "duration_ms": 228213,
+      "slug": "en-esta-tarde-gris-julio-sosa"
+    },
+    {
+      "name": "Record\u00e1ndote - Remastered",
+      "artists": "Julio Sosa",
+      "album": "El var\u00f3n del tango (Remastered)",
+      "popularity": 26,
+      "tempo": 117.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.45,
+      "valence": 0.57,
+      "danceability": 0.511,
+      "acousticness": 0.917,
+      "instrumentalness": 0.001,
+      "loudness": -10.8,
+      "speechiness": 0.084,
+      "duration_ms": 187660,
+      "slug": "record\u00e1ndote-remastered-julio-sosa"
+    },
+    {
+      "name": "Garganta Con Arena",
+      "artists": "Roberto Goyeneche;Adriana Varela",
+      "album": "La \u00daltima Curda",
+      "popularity": 26,
+      "tempo": 97.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.262,
+      "valence": 0.221,
+      "danceability": 0.436,
+      "acousticness": 0.936,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.052,
+      "duration_ms": 214923,
+      "slug": "garganta-con-arena-roberto-goyeneche"
+    },
+    {
+      "name": "El Choclo",
+      "artists": "Alfredo De Angelis;Rodi N\u00e9stor;Orquesta de Alfredo De Angelis",
+      "album": "Los 25 Mejores Tangos",
+      "popularity": 26,
+      "tempo": 132.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.511,
+      "valence": 0.785,
+      "danceability": 0.637,
+      "acousticness": 0.835,
+      "instrumentalness": 0.676,
+      "loudness": -6.4,
+      "speechiness": 0.028,
+      "duration_ms": 146373,
+      "slug": "el-choclo-alfredo-de-angelis"
+    },
+    {
+      "name": "Tus Besos Fueron M\u00edos",
+      "artists": "Alfredo De Angelis;Orquesta de Alfredo De Angelis;Carlos Dante",
+      "album": "Los 25 Mejores Tangos",
+      "popularity": 26,
+      "tempo": 125.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.405,
+      "valence": 0.623,
+      "danceability": 0.479,
+      "acousticness": 0.875,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.033,
+      "duration_ms": 176253,
+      "slug": "tus-besos-fueron-m\u00edos-alfredo-de-angelis"
+    },
+    {
+      "name": "Melod\u00eda de Arrabal",
+      "artists": "Carlos Gardel",
+      "album": "Su Buenos Aires Querido - Su Obra Integral, Vol. 1",
+      "popularity": 26,
+      "tempo": 121.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.223,
+      "valence": 0.602,
+      "danceability": 0.68,
+      "acousticness": 0.991,
+      "instrumentalness": 0.0,
+      "loudness": -13.0,
+      "speechiness": 0.086,
+      "duration_ms": 157373,
+      "slug": "melod\u00eda-de-arrabal-carlos-gardel"
+    },
+    {
+      "name": "Volver",
+      "artists": "Carlos Gardel",
+      "album": "Celebridades",
+      "popularity": 26,
+      "tempo": 60.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.308,
+      "valence": 0.582,
+      "danceability": 0.504,
+      "acousticness": 0.978,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.074,
+      "duration_ms": 170533,
+      "slug": "volver-carlos-gardel"
+    },
+    {
+      "name": "Como Abrazado A Un Rencor",
+      "artists": "Carlos Gardel",
+      "album": "El Album De Oro De Carlos Gardel",
+      "popularity": 26,
+      "tempo": 81.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.258,
+      "valence": 0.663,
+      "danceability": 0.705,
+      "acousticness": 0.976,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.4,
+      "duration_ms": 165520,
+      "slug": "como-abrazado-a-un-rencor-carlos-gardel"
+    }
+  ]
+}

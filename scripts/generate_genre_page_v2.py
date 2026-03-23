@@ -410,6 +410,166 @@ GENRE_METADATA = {
         'style_tags': "guitar, fingerstyle, classical guitar, shred, acoustic instrumental",
         'instruments': "acoustic guitar, electric guitar, classical guitar, slide guitar, bass",
         'mood': "expressive, virtuosic, melodic, contemplative"
+    },
+    'alternative': {
+        'emoji': '🔀',
+        'color': '#6b8e23',
+        'desc': "Non-mainstream music breaking conventional boundaries across multiple genres and eras.",
+        'style_tags': "alternative, alt-pop, new wave, post-punk, art rock",
+        'instruments': "guitar, synths, bass, drums, experimental textures",
+        'mood': "eclectic, introspective, unconventional, dynamic"
+    },
+    'goth': {
+        'emoji': '🖤',
+        'color': '#2f2f2f',
+        'desc': "Dark post-punk music with atmospheric production, romantic gothic aesthetics, and haunting melodies.",
+        'style_tags': "goth, gothic rock, darkwave, deathrock, ethereal wave",
+        'instruments': "chorus guitar, bass, drum machine, synth pads, deep vocals",
+        'mood': "dark, romantic, atmospheric, haunting"
+    },
+    'industrial': {
+        'emoji': '⚙️',
+        'color': '#4a4a4a',
+        'desc': "Harsh electronic music incorporating mechanical sounds, distortion, and factory aesthetics.",
+        'style_tags': "industrial, industrial metal, EBM, aggrotech, power noise",
+        'instruments': "distorted synth, metal percussion, drum machine, sampled noise, processed vocals",
+        'mood': "aggressive, mechanical, dystopian, powerful"
+    },
+    'metalcore': {
+        'emoji': '🔥',
+        'color': '#8b0000',
+        'desc': "Metal and hardcore punk fusion with melodic passages, heavy breakdowns, and clean/screamed vocal dynamics.",
+        'style_tags': "metalcore, post-hardcore, melodic metalcore, deathcore, mathcore",
+        'instruments': "drop-tuned guitar, blast beats, breakdown riffs, dual vocals, bass drops",
+        'mood': "intense, emotional, aggressive, cathartic"
+    },
+    'death-metal': {
+        'emoji': '💀',
+        'color': '#1a0a0a',
+        'desc': "Extreme metal with growled vocals, complex riffing, blast beats, and relentless aggression.",
+        'style_tags': "death metal, technical death metal, brutal death metal, melodic death metal, old school death metal",
+        'instruments': "tremolo picking, blast beat drums, guttural vocals, bass guitar, double kick",
+        'mood': "brutal, relentless, technical, dark"
+    },
+    'dub': {
+        'emoji': '🔊',
+        'color': '#006400',
+        'desc': "Jamaican reggae subgenre emphasizing rhythm section, heavy bass, and studio effects as instruments.",
+        'style_tags': "dub, dub reggae, roots dub, digital dub, dub techno",
+        'instruments': "delay effects, reverb, sub-bass, drum & bass rhythm, melodica",
+        'mood': "spacious, hypnotic, deep, meditative"
+    },
+    'garage': {
+        'emoji': '🏠',
+        'color': '#b8860b',
+        'desc': "Electronic music with shuffled beats, soulful vocal samples, and UK underground energy.",
+        'style_tags': "UK garage, 2-step, speed garage, future garage, garage rock",
+        'instruments': "shuffled hi-hats, sub-bass, vocal chops, synth stabs, skippy drums",
+        'mood': "groovy, energetic, underground, soulful"
+    },
+    'minimal-techno': {
+        'emoji': '◼️',
+        'color': '#363636',
+        'desc': "Stripped-down electronic music focusing on subtle variations, hypnotic repetition, and sonic minimalism.",
+        'style_tags': "minimal techno, microhouse, minimal house, click house, glitch minimal",
+        'instruments': "click percussion, micro-loops, subtle bass, filtered noise, sparse synth",
+        'mood': "hypnotic, meditative, cerebral, understated"
+    },
+    'detroit-techno': {
+        'emoji': '🏭',
+        'color': '#2c3e50',
+        'desc': "Industrial electronic music pioneered in Detroit with futuristic aesthetics and machine-soul fusion.",
+        'style_tags': "Detroit techno, electro-funk, hi-tech soul, second wave, techno noir",
+        'instruments': "analog synth, 909 drums, string machine, vocoder, deep bass",
+        'mood': "futuristic, soulful, driving, visionary"
+    },
+    'chicago-house': {
+        'emoji': '🏠',
+        'color': '#c0392b',
+        'desc': "Foundational electronic dance music born in Chicago with four-on-the-floor beats and soulful vocals.",
+        'style_tags': "Chicago house, acid house, deep house, jack tracks, warehouse",
+        'instruments': "TR-909 kick, TB-303 acid line, gospel vocal samples, piano stabs, claps",
+        'mood': "joyful, soulful, euphoric, liberating"
+    },
+    'hardstyle': {
+        'emoji': '⚡',
+        'color': '#ff0000',
+        'desc': "Electronic dance music with hard-hitting kicks, euphoric melodies, and high-BPM intensity.",
+        'style_tags': "hardstyle, euphoric hardstyle, rawstyle, reverse bass, hard dance",
+        'instruments': "distorted kick, reverse bass, supersaw leads, screeches, pitched vocals",
+        'mood': "euphoric, intense, powerful, anthemic"
+    },
+    'world-music': {
+        'emoji': '🌍',
+        'color': '#8b7355',
+        'desc': "Traditional and contemporary music from diverse global cultures, transcending Western genre boundaries.",
+        'style_tags': "world music, ethno, global fusion, traditional, roots world",
+        'instruments': "diverse traditional instruments, percussion, strings, wind, vocals",
+        'mood': "cultural, diverse, authentic, spiritual"
+    },
+    'opera': {
+        'emoji': '🎭',
+        'color': '#800020',
+        'desc': "Classical vocal music featuring dramatic storytelling, orchestral accompaniment, and virtuosic singing.",
+        'style_tags': "opera, classical vocal, aria, bel canto, operetta",
+        'instruments': "orchestra, soprano/tenor/baritone voice, strings, brass, woodwinds",
+        'mood': "dramatic, passionate, majestic, tragic"
+    },
+    'tango': {
+        'emoji': '💃',
+        'color': '#8b0000',
+        'desc': "Passionate Argentine dance music with dramatic melodies, bandoneon, and intense emotional expression.",
+        'style_tags': "tango, Argentine tango, tango nuevo, milonga, tango electrónico",
+        'instruments': "bandoneon, violin, piano, double bass, guitar",
+        'mood': "passionate, dramatic, melancholic, sensual"
+    },
+    'salsa': {
+        'emoji': '💃',
+        'color': '#ff4500',
+        'desc': "Latin dance music with Afro-Caribbean rhythms, brass sections, and infectious groove.",
+        'style_tags': "salsa, salsa dura, salsa romántica, timba, mambo",
+        'instruments': "congas, timbales, trumpet, trombone, piano montuno",
+        'mood': "energetic, passionate, joyful, rhythmic"
+    },
+    'j-rock': {
+        'emoji': '🎸',
+        'color': '#dc143c',
+        'desc': "Japanese rock music spanning visual kei, punk, metal, and alternative styles with distinctive aesthetics.",
+        'style_tags': "J-rock, visual kei, Japanese punk, Japanese alternative, anime rock",
+        'instruments': "electric guitar, bass, drums, synth, powerful vocals",
+        'mood': "intense, dramatic, emotional, energetic"
+    },
+    'cantopop': {
+        'emoji': '🏮',
+        'color': '#ff6347',
+        'desc': "Cantonese pop music from Hong Kong blending Western pop production with Eastern melodic sensibilities.",
+        'style_tags': "Cantopop, C-pop, Hong Kong pop, Cantonese ballad, HK R&B",
+        'instruments': "piano, strings, synth, acoustic guitar, vocal harmonies",
+        'mood': "romantic, nostalgic, melodic, emotional"
+    },
+    'rockabilly': {
+        'emoji': '🕺',
+        'color': '#cd853f',
+        'desc': "Early rock style blending country music with rhythm and blues — the original rock rebellion.",
+        'style_tags': "rockabilly, psychobilly, neo-rockabilly, Sun Records, hillbilly bop",
+        'instruments': "slap bass, twangy guitar, snare drum, piano, vocal hiccup",
+        'mood': "fun, rebellious, retro, energetic"
+    },
+    'honky-tonk': {
+        'emoji': '🍺',
+        'color': '#8b6914',
+        'desc': "Country music style rooted in bars and working-class themes with raw, unpolished honesty.",
+        'style_tags': "honky-tonk, outlaw country, traditional country, barroom, Western swing",
+        'instruments': "steel guitar, fiddle, honky-tonk piano, acoustic guitar, stand-up bass",
+        'mood': "nostalgic, heartbreak, rowdy, honest"
+    },
+    'power-pop': {
+        'emoji': '⚡',
+        'color': '#ff69b4',
+        'desc': "Energetic pop-rock with strong melodies, guitar-driven arrangements, and infectious hooks.",
+        'style_tags': "power pop, jangle pop, Britpop, melodic rock, pop-rock",
+        'instruments': "chiming guitar, bass, drums, vocal harmonies, handclaps",
+        'mood': "upbeat, catchy, energetic, bittersweet"
     }
 }
 

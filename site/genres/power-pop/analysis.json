@@ -1,0 +1,2799 @@
+{
+  "genre": "Power Pop",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 75.592,
+    "max": 186.186,
+    "mean": 127.175,
+    "median": 128.026,
+    "q1": 114.623,
+    "q3": 142.673,
+    "histogram": {
+      "70-79": 3,
+      "80-89": 6,
+      "90-99": 7,
+      "100-109": 7,
+      "110-119": 14,
+      "120-129": 17,
+      "130-139": 18,
+      "140-149": 8,
+      "150-159": 8,
+      "160-169": 10,
+      "170-179": 1,
+      "180-189": 1
+    }
+  },
+  "key_distribution": {
+    "E": 16,
+    "F#/Gb": 14,
+    "A": 12,
+    "B": 11,
+    "D": 10,
+    "C": 8,
+    "C#/Db": 7,
+    "F": 7,
+    "G": 7,
+    "G#/Ab": 5,
+    "A#/Bb": 2,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Major": 75,
+    "Minor": 25
+  },
+  "key_mode_distribution": {
+    "E Major": 13,
+    "A Major": 9,
+    "D Major": 8,
+    "F#/Gb Major": 8,
+    "B Major": 8,
+    "F Major": 7,
+    "F#/Gb Minor": 6,
+    "G#/Ab Major": 5,
+    "C Major": 5,
+    "G Major": 5,
+    "C#/Db Major": 4,
+    "E Minor": 3,
+    "C#/Db Minor": 3,
+    "B Minor": 3,
+    "A Minor": 3,
+    "C Minor": 3,
+    "D Minor": 2,
+    "A#/Bb Major": 2,
+    "G Minor": 2,
+    "D#/Eb Major": 1
+  },
+  "energy": {
+    "min": 0.28,
+    "max": 0.967,
+    "mean": 0.74,
+    "median": 0.76,
+    "q1": 0.633,
+    "q3": 0.877
+  },
+  "valence": {
+    "min": 0.137,
+    "max": 0.978,
+    "mean": 0.639,
+    "median": 0.648,
+    "q1": 0.504,
+    "q3": 0.805
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.849,
+      "valence": 0.903
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.616
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.927
+    },
+    {
+      "energy": 0.92,
+      "valence": 0.771
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.897
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.618,
+      "valence": 0.579
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.579,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.741
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.869
+    },
+    {
+      "energy": 0.577,
+      "valence": 0.845
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.773
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.912
+    },
+    {
+      "energy": 0.882,
+      "valence": 0.623
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.597
+    },
+    {
+      "energy": 0.606,
+      "valence": 0.504
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.904
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.78
+    },
+    {
+      "energy": 0.531,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.581,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.977
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.279
+    },
+    {
+      "energy": 0.673,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.971
+    },
+    {
+      "energy": 0.653,
+      "valence": 0.729
+    },
+    {
+      "energy": 0.517,
+      "valence": 0.137
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.834
+    },
+    {
+      "energy": 0.668,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.92
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.283
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.629
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.588
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.492
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.555
+    },
+    {
+      "energy": 0.661,
+      "valence": 0.675
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.966
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.909
+    },
+    {
+      "energy": 0.356,
+      "valence": 0.392
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.896
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.893,
+      "valence": 0.773
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.686,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.777
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.854
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.6
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.94
+    },
+    {
+      "energy": 0.417,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.466
+    },
+    {
+      "energy": 0.824,
+      "valence": 0.786
+    },
+    {
+      "energy": 0.474,
+      "valence": 0.651
+    },
+    {
+      "energy": 0.69,
+      "valence": 0.682
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.691
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.296
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.848
+    },
+    {
+      "energy": 0.406,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.689,
+      "valence": 0.645
+    },
+    {
+      "energy": 0.669,
+      "valence": 0.874
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.869
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.866
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.779
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.196
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.978
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.294
+    },
+    {
+      "energy": 0.966,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.762,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.633,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.629,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.816,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.344,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.978
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.835
+    },
+    {
+      "energy": 0.893,
+      "valence": 0.683
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.339,
+      "valence": 0.309
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.809,
+    "mean": 0.095,
+    "median": 0.032,
+    "q1": 0.008,
+    "q3": 0.113
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.663,
+    "mean": 0.023,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.002
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.427,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.282,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.479
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.077
+    },
+    {
+      "acousticness": 0.513,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.214,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.365,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.04
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.208,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.319,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.548,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.09
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.113,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.261,
+      "instrumentalness": 0.075
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.205,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.336,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.3,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.129
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.495
+    },
+    {
+      "acousticness": 0.809,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.099
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.073,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.39,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.248,
+      "instrumentalness": 0.663
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.565,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.029
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.14,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.429,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 93306,
+    "max": 479066,
+    "mean": 221070.97,
+    "median": 216433.0,
+    "q1": 186533,
+    "q3": 252186
+  },
+  "danceability": {
+    "min": 0.261,
+    "max": 0.795,
+    "mean": 0.549,
+    "median": 0.554,
+    "q1": 0.46,
+    "q3": 0.645
+  },
+  "loudness": {
+    "min": -14.63,
+    "max": -2.667,
+    "mean": -7.349,
+    "median": -6.913,
+    "q1": -8.771,
+    "q3": -5.414
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.136,
+    "mean": 0.045,
+    "median": 0.038,
+    "q1": 0.032,
+    "q3": 0.051
+  },
+  "top_artists": [
+    {
+      "name": "Weezer",
+      "count": 23
+    },
+    {
+      "name": "Blondie",
+      "count": 15
+    },
+    {
+      "name": "Badfinger",
+      "count": 8
+    },
+    {
+      "name": "The Cars",
+      "count": 7
+    },
+    {
+      "name": "Jimmy Eat World",
+      "count": 6
+    },
+    {
+      "name": "Cheap Trick",
+      "count": 5
+    },
+    {
+      "name": "The Outfield",
+      "count": 3
+    },
+    {
+      "name": "Andrew Gold",
+      "count": 3
+    },
+    {
+      "name": "The Romantics",
+      "count": 3
+    },
+    {
+      "name": "Fountains Of Wayne",
+      "count": 2
+    },
+    {
+      "name": "Todd Rundgren",
+      "count": 2
+    },
+    {
+      "name": "The Lemonheads",
+      "count": 2
+    },
+    {
+      "name": "glass beach",
+      "count": 2
+    },
+    {
+      "name": "Elvis Costello & The Attractions",
+      "count": 2
+    },
+    {
+      "name": "The Knack",
+      "count": 1
+    }
+  ],
+  "tracks": [
+    {
+      "name": "The Middle",
+      "artists": "Jimmy Eat World",
+      "album": "Bleed American",
+      "popularity": 81,
+      "tempo": 162.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.903,
+      "danceability": 0.643,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.053,
+      "duration_ms": 165853,
+      "slug": "the-middle-jimmy-eat-world"
+    },
+    {
+      "name": "Island In The Sun",
+      "artists": "Weezer",
+      "album": "Weezer (Green Album)",
+      "popularity": 78,
+      "tempo": 114.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.81,
+      "valence": 0.661,
+      "danceability": 0.654,
+      "acousticness": 0.007,
+      "instrumentalness": 0.003,
+      "loudness": -6.3,
+      "speechiness": 0.029,
+      "duration_ms": 200306,
+      "slug": "island-in-the-sun-weezer"
+    },
+    {
+      "name": "Say It Ain't So",
+      "artists": "Weezer",
+      "album": "Weezer",
+      "popularity": 77,
+      "tempo": 151.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.453,
+      "danceability": 0.634,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.035,
+      "duration_ms": 258826,
+      "slug": "say-it-aint-so-weezer"
+    },
+    {
+      "name": "Your Love",
+      "artists": "The Outfield",
+      "album": "Play Deep",
+      "popularity": 76,
+      "tempo": 129.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.616,
+      "danceability": 0.579,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.055,
+      "duration_ms": 216466,
+      "slug": "your-love-the-outfield"
+    },
+    {
+      "name": "Stacy's Mom",
+      "artists": "Fountains Of Wayne",
+      "album": "Welcome Interstate Managers",
+      "popularity": 76,
+      "tempo": 118.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.75,
+      "valence": 0.927,
+      "danceability": 0.774,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.041,
+      "duration_ms": 197986,
+      "slug": "stacys-mom-fountains-of-wayne"
+    },
+    {
+      "name": "Buddy Holly",
+      "artists": "Weezer",
+      "album": "Weezer",
+      "popularity": 75,
+      "tempo": 121.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.92,
+      "valence": 0.771,
+      "danceability": 0.556,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.037,
+      "duration_ms": 159226,
+      "slug": "buddy-holly-weezer"
+    },
+    {
+      "name": "My Sharona",
+      "artists": "The Knack",
+      "album": "Get The Knack",
+      "popularity": 75,
+      "tempo": 147.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.7,
+      "valence": 0.897,
+      "danceability": 0.586,
+      "acousticness": 0.059,
+      "instrumentalness": 0.001,
+      "loudness": -9.6,
+      "speechiness": 0.036,
+      "duration_ms": 295400,
+      "slug": "my-sharona-the-knack"
+    },
+    {
+      "name": "Call Me",
+      "artists": "Blondie",
+      "album": "Atomic/Atomix",
+      "popularity": 73,
+      "tempo": 142.7,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.825,
+      "valence": 0.74,
+      "danceability": 0.56,
+      "acousticness": 0.001,
+      "instrumentalness": 0.002,
+      "loudness": -6.7,
+      "speechiness": 0.035,
+      "duration_ms": 212600,
+      "slug": "call-me-blondie"
+    },
+    {
+      "name": "Undone - The Sweater Song",
+      "artists": "Weezer",
+      "album": "Weezer",
+      "popularity": 72,
+      "tempo": 80.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.618,
+      "valence": 0.579,
+      "danceability": 0.457,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -6.7,
+      "speechiness": 0.03,
+      "duration_ms": 305533,
+      "slug": "undone-the-sweater-song-weezer"
+    },
+    {
+      "name": "Your Love",
+      "artists": "The Outfield",
+      "album": "Super Hits",
+      "popularity": 72,
+      "tempo": 129.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.757,
+      "valence": 0.582,
+      "danceability": 0.555,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.06,
+      "duration_ms": 221840,
+      "slug": "your-love-the-outfield"
+    },
+    {
+      "name": "Spooky, Scary Skeletons - Undead Tombstone Remix",
+      "artists": "Andrew Gold",
+      "album": "Halloween Howls: Fun & Scary Music (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 127.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.788,
+      "valence": 0.574,
+      "danceability": 0.772,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -5.4,
+      "speechiness": 0.062,
+      "duration_ms": 125624,
+      "slug": "spooky-scary-skeletons-undead-tombstone-remix-andrew-gold"
+    },
+    {
+      "name": "Just What I Needed",
+      "artists": "The Cars",
+      "album": "The Cars",
+      "popularity": 71,
+      "tempo": 127.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.579,
+      "valence": 0.69,
+      "danceability": 0.619,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.047,
+      "duration_ms": 225626,
+      "slug": "just-what-i-needed-the-cars"
+    },
+    {
+      "name": "Beverly Hills",
+      "artists": "Weezer",
+      "album": "Make Believe",
+      "popularity": 71,
+      "tempo": 87.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.741,
+      "danceability": 0.693,
+      "acousticness": 0.093,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.073,
+      "duration_ms": 196093,
+      "slug": "beverly-hills-weezer"
+    },
+    {
+      "name": "Drive - 2017 Remaster",
+      "artists": "The Cars",
+      "album": "Heartbeat City (Expanded Edition)",
+      "popularity": 70,
+      "tempo": 83.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.703,
+      "valence": 0.405,
+      "danceability": 0.261,
+      "acousticness": 0.115,
+      "instrumentalness": 0.001,
+      "loudness": -7.9,
+      "speechiness": 0.041,
+      "duration_ms": 234332,
+      "slug": "drive-2017-remaster-the-cars"
+    },
+    {
+      "name": "She",
+      "artists": "Elvis Costello",
+      "album": "In Motion Pictures",
+      "popularity": 70,
+      "tempo": 130.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.28,
+      "valence": 0.276,
+      "danceability": 0.333,
+      "acousticness": 0.427,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.032,
+      "duration_ms": 187720,
+      "slug": "she-elvis-costello"
+    },
+    {
+      "name": "Surrender",
+      "artists": "Cheap Trick",
+      "album": "Heaven Tonight",
+      "popularity": 69,
+      "tempo": 133.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.869,
+      "danceability": 0.524,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.041,
+      "duration_ms": 253733,
+      "slug": "surrender-cheap-trick"
+    },
+    {
+      "name": "Heart Of Glass - Special Mix",
+      "artists": "Blondie",
+      "album": "Best Of Blondie",
+      "popularity": 69,
+      "tempo": 114.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.577,
+      "valence": 0.845,
+      "danceability": 0.694,
+      "acousticness": 0.015,
+      "instrumentalness": 0.008,
+      "loudness": -14.6,
+      "speechiness": 0.031,
+      "duration_ms": 275733,
+      "slug": "heart-of-glass-special-mix-blondie"
+    },
+    {
+      "name": "Call Me",
+      "artists": "Blondie",
+      "album": "Call Me",
+      "popularity": 69,
+      "tempo": 142.7,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.833,
+      "valence": 0.773,
+      "danceability": 0.554,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -6.7,
+      "speechiness": 0.035,
+      "duration_ms": 212226,
+      "slug": "call-me-blondie"
+    },
+    {
+      "name": "What I Like About You",
+      "artists": "The Romantics",
+      "album": "The Romantics",
+      "popularity": 69,
+      "tempo": 159.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.912,
+      "danceability": 0.514,
+      "acousticness": 0.282,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.05,
+      "duration_ms": 175266,
+      "slug": "what-i-like-about-you-the-romantics"
+    },
+    {
+      "name": "Hash Pipe",
+      "artists": "Weezer",
+      "album": "Weezer (Green Album)",
+      "popularity": 69,
+      "tempo": 125.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.882,
+      "valence": 0.623,
+      "danceability": 0.578,
+      "acousticness": 0.0,
+      "instrumentalness": 0.479,
+      "loudness": -6.4,
+      "speechiness": 0.044,
+      "duration_ms": 186533,
+      "slug": "hash-pipe-weezer"
+    },
+    {
+      "name": "Sweetness",
+      "artists": "Jimmy Eat World",
+      "album": "Bleed American",
+      "popularity": 68,
+      "tempo": 135.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.898,
+      "valence": 0.597,
+      "danceability": 0.487,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.038,
+      "duration_ms": 220026,
+      "slug": "sweetness-jimmy-eat-world"
+    },
+    {
+      "name": "Drive",
+      "artists": "The Cars",
+      "album": "Heartbeat City",
+      "popularity": 67,
+      "tempo": 111.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.606,
+      "valence": 0.504,
+      "danceability": 0.582,
+      "acousticness": 0.124,
+      "instrumentalness": 0.001,
+      "loudness": -10.0,
+      "speechiness": 0.029,
+      "duration_ms": 234493,
+      "slug": "drive-the-cars"
+    },
+    {
+      "name": "Baby Blue - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Straight Up (Remastered 2010 / Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 124.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.515,
+      "danceability": 0.623,
+      "acousticness": 0.019,
+      "instrumentalness": 0.013,
+      "loudness": -7.8,
+      "speechiness": 0.066,
+      "duration_ms": 217346,
+      "slug": "baby-blue-remastered-2010-badfinger"
+    },
+    {
+      "name": "One Way Or Another - Remastered/2001",
+      "artists": "Blondie",
+      "album": "Parallel Lines (Remastered)",
+      "popularity": 67,
+      "tempo": 162.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.904,
+      "danceability": 0.45,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.061,
+      "duration_ms": 215106,
+      "slug": "one-way-or-another-remastered2001-blondie"
+    },
+    {
+      "name": "Maria",
+      "artists": "Blondie",
+      "album": "Greatest Hits",
+      "popularity": 67,
+      "tempo": 159.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.805,
+      "danceability": 0.548,
+      "acousticness": 0.038,
+      "instrumentalness": 0.003,
+      "loudness": -6.9,
+      "speechiness": 0.06,
+      "duration_ms": 249426,
+      "slug": "maria-blondie"
+    },
+    {
+      "name": "No Matter What - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "No Dice (Remastered 2010 / Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 116.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.78,
+      "danceability": 0.529,
+      "acousticness": 0.177,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.048,
+      "duration_ms": 180546,
+      "slug": "no-matter-what-remastered-2010-badfinger"
+    },
+    {
+      "name": "All the Love in the World",
+      "artists": "The Outfield",
+      "album": "Play Deep",
+      "popularity": 67,
+      "tempo": 128.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.531,
+      "valence": 0.743,
+      "danceability": 0.624,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -13.2,
+      "speechiness": 0.041,
+      "duration_ms": 212240,
+      "slug": "all-the-love-in-the-world-the-outfield"
+    },
+    {
+      "name": "Bleed American",
+      "artists": "Jimmy Eat World",
+      "album": "Bleed American",
+      "popularity": 67,
+      "tempo": 160.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.938,
+      "valence": 0.584,
+      "danceability": 0.438,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.094,
+      "duration_ms": 181493,
+      "slug": "bleed-american-jimmy-eat-world"
+    },
+    {
+      "name": "Heart Of Glass",
+      "artists": "Blondie",
+      "album": "Greatest Hits: Blondie",
+      "popularity": 66,
+      "tempo": 114.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.41,
+      "danceability": 0.726,
+      "acousticness": 0.001,
+      "instrumentalness": 0.077,
+      "loudness": -8.0,
+      "speechiness": 0.033,
+      "duration_ms": 252186,
+      "slug": "heart-of-glass-blondie"
+    },
+    {
+      "name": "The Flame",
+      "artists": "Cheap Trick",
+      "album": "Lap Of Luxury",
+      "popularity": 66,
+      "tempo": 97.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.581,
+      "valence": 0.359,
+      "danceability": 0.629,
+      "acousticness": 0.513,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.027,
+      "duration_ms": 338800,
+      "slug": "the-flame-cheap-trick"
+    },
+    {
+      "name": "Talking In Your Sleep",
+      "artists": "The Romantics",
+      "album": "In Heat",
+      "popularity": 66,
+      "tempo": 129.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.967,
+      "valence": 0.977,
+      "danceability": 0.72,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.034,
+      "duration_ms": 235093,
+      "slug": "talking-in-your-sleep-the-romantics"
+    },
+    {
+      "name": "I Just Threw Out The Love Of My Dreams",
+      "artists": "Weezer",
+      "album": "Pinkerton - Deluxe Edition",
+      "popularity": 66,
+      "tempo": 130.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.967,
+      "valence": 0.279,
+      "danceability": 0.413,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.136,
+      "duration_ms": 157960,
+      "slug": "i-just-threw-out-the-love-of-my-dreams-weezer"
+    },
+    {
+      "name": "I Saw the Light - 2015 Remaster",
+      "artists": "Todd Rundgren",
+      "album": "Something / Anything?",
+      "popularity": 65,
+      "tempo": 120.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.673,
+      "valence": 0.581,
+      "danceability": 0.504,
+      "acousticness": 0.214,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.034,
+      "duration_ms": 180280,
+      "slug": "i-saw-the-light-2015-remaster-todd-rundgren"
+    },
+    {
+      "name": "You Might Think",
+      "artists": "The Cars",
+      "album": "Heartbeat City (Expanded Edition)",
+      "popularity": 65,
+      "tempo": 133.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.971,
+      "danceability": 0.728,
+      "acousticness": 0.109,
+      "instrumentalness": 0.001,
+      "loudness": -6.0,
+      "speechiness": 0.033,
+      "duration_ms": 184717,
+      "slug": "you-might-think-the-cars"
+    },
+    {
+      "name": "Let My Love Open The Door",
+      "artists": "Pete Townshend",
+      "album": "Empty Glass",
+      "popularity": 65,
+      "tempo": 164.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.653,
+      "valence": 0.729,
+      "danceability": 0.651,
+      "acousticness": 0.365,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.054,
+      "duration_ms": 164653,
+      "slug": "let-my-love-open-the-door-pete-townshend"
+    },
+    {
+      "name": "Hear You Me",
+      "artists": "Jimmy Eat World",
+      "album": "Bleed American",
+      "popularity": 64,
+      "tempo": 136.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.517,
+      "valence": 0.137,
+      "danceability": 0.465,
+      "acousticness": 0.009,
+      "instrumentalness": 0.04,
+      "loudness": -6.2,
+      "speechiness": 0.028,
+      "duration_ms": 284373,
+      "slug": "hear-you-me-jimmy-eat-world"
+    },
+    {
+      "name": "Mrs. Robinson - Remastered",
+      "artists": "The Lemonheads",
+      "album": "It's A Shame About Ray (Expanded Edition)",
+      "popularity": 64,
+      "tempo": 107.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.936,
+      "valence": 0.834,
+      "danceability": 0.494,
+      "acousticness": 0.011,
+      "instrumentalness": 0.001,
+      "loudness": -7.2,
+      "speechiness": 0.04,
+      "duration_ms": 224480,
+      "slug": "mrs-robinson-remastered-the-lemonheads"
+    },
+    {
+      "name": "All the Young Dudes",
+      "artists": "Mott The Hoople",
+      "album": "All The Young Dudes (Expanded Edition)",
+      "popularity": 64,
+      "tempo": 77.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.668,
+      "valence": 0.398,
+      "danceability": 0.429,
+      "acousticness": 0.208,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.044,
+      "duration_ms": 211066,
+      "slug": "all-the-young-dudes-mott-the-hoople"
+    },
+    {
+      "name": "What I Like About You",
+      "artists": "The Romantics",
+      "album": "What I Like About You (And Other Romantic Hits)",
+      "popularity": 64,
+      "tempo": 159.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.915,
+      "valence": 0.92,
+      "danceability": 0.542,
+      "acousticness": 0.319,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.055,
+      "duration_ms": 175400,
+      "slug": "what-i-like-about-you-the-romantics"
+    },
+    {
+      "name": "Pain",
+      "artists": "Jimmy Eat World",
+      "album": "Futures (Deluxe Edition)",
+      "popularity": 64,
+      "tempo": 168.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.955,
+      "valence": 0.283,
+      "danceability": 0.395,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.12,
+      "duration_ms": 181306,
+      "slug": "pain-jimmy-eat-world"
+    },
+    {
+      "name": "Heart Of Glass",
+      "artists": "Blondie",
+      "album": "Parallel Lines",
+      "popularity": 64,
+      "tempo": 114.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.654,
+      "valence": 0.685,
+      "danceability": 0.77,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.036,
+      "duration_ms": 229423,
+      "slug": "heart-of-glass-blondie"
+    },
+    {
+      "name": "Good Times Roll",
+      "artists": "The Cars",
+      "album": "The Cars",
+      "popularity": 64,
+      "tempo": 107.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.629,
+      "danceability": 0.607,
+      "acousticness": 0.095,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.028,
+      "duration_ms": 225853,
+      "slug": "good-times-roll-the-cars"
+    },
+    {
+      "name": "All My Favorite Songs (feat. AJR)",
+      "artists": "Weezer;AJR",
+      "album": "All My Favorite Songs (feat. AJR)",
+      "popularity": 63,
+      "tempo": 85.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.7,
+      "valence": 0.588,
+      "danceability": 0.605,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.028,
+      "duration_ms": 170720,
+      "slug": "all-my-favorite-songs-feat-ajr-weezer"
+    },
+    {
+      "name": "Heart Of Glass - Remix",
+      "artists": "Blondie",
+      "album": "Parallel Lines: Deluxe Collector's Edition",
+      "popularity": 63,
+      "tempo": 114.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.809,
+      "valence": 0.492,
+      "danceability": 0.654,
+      "acousticness": 0.001,
+      "instrumentalness": 0.014,
+      "loudness": -5.1,
+      "speechiness": 0.042,
+      "duration_ms": 249733,
+      "slug": "heart-of-glass-remix-blondie"
+    },
+    {
+      "name": "Go All The Way",
+      "artists": "Raspberries",
+      "album": "Raspberries",
+      "popularity": 62,
+      "tempo": 134.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.555,
+      "danceability": 0.305,
+      "acousticness": 0.548,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.1,
+      "duration_ms": 205346,
+      "slug": "go-all-the-way-raspberries"
+    },
+    {
+      "name": "cold weather",
+      "artists": "glass beach",
+      "album": "the first glass beach album",
+      "popularity": 62,
+      "tempo": 155.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.661,
+      "valence": 0.675,
+      "danceability": 0.341,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.034,
+      "duration_ms": 138119,
+      "slug": "cold-weather-glass-beach"
+    },
+    {
+      "name": "My Name Is Jonas",
+      "artists": "Weezer",
+      "album": "Weezer",
+      "popularity": 62,
+      "tempo": 186.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.94,
+      "valence": 0.58,
+      "danceability": 0.295,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -5.2,
+      "speechiness": 0.045,
+      "duration_ms": 204293,
+      "slug": "my-name-is-jonas-weezer"
+    },
+    {
+      "name": "Pump It Up - 2021 Remaster",
+      "artists": "Elvis Costello & The Attractions",
+      "album": "This Year's Model (2021 Remaster)",
+      "popularity": 62,
+      "tempo": 139.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.809,
+      "valence": 0.966,
+      "danceability": 0.645,
+      "acousticness": 0.009,
+      "instrumentalness": 0.001,
+      "loudness": -6.1,
+      "speechiness": 0.038,
+      "duration_ms": 196680,
+      "slug": "pump-it-up-2021-remaster-elvis-costello-the-attractions"
+    },
+    {
+      "name": "One Way Or Another",
+      "artists": "Blondie",
+      "album": "Best Of Blondie",
+      "popularity": 61,
+      "tempo": 161.4,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.796,
+      "valence": 0.909,
+      "danceability": 0.47,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.052,
+      "duration_ms": 216400,
+      "slug": "one-way-or-another-blondie"
+    },
+    {
+      "name": "Tempted",
+      "artists": "Squeeze",
+      "album": "East Side Story",
+      "popularity": 61,
+      "tempo": 95.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.356,
+      "valence": 0.392,
+      "danceability": 0.729,
+      "acousticness": 0.092,
+      "instrumentalness": 0.09,
+      "loudness": -13.7,
+      "speechiness": 0.035,
+      "duration_ms": 240333,
+      "slug": "tempted-squeeze"
+    },
+    {
+      "name": "One Way Or Another - Remastered/2001",
+      "artists": "Blondie",
+      "album": "One Way Or Another",
+      "popularity": 60,
+      "tempo": 162.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.877,
+      "valence": 0.896,
+      "danceability": 0.45,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.053,
+      "duration_ms": 212706,
+      "slug": "one-way-or-another-remastered2001-blondie"
+    },
+    {
+      "name": "Mighty Wings - From \"Top Gun\" Original Soundtrack",
+      "artists": "Cheap Trick",
+      "album": "The Epic Archive, Vol. 3 (1984-1992)",
+      "popularity": 60,
+      "tempo": 158.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.939,
+      "valence": 0.805,
+      "danceability": 0.465,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.049,
+      "duration_ms": 231080,
+      "slug": "mighty-wings-from-top-gun-original-soundtrack-cheap-trick"
+    },
+    {
+      "name": "Making Plans For Nigel",
+      "artists": "XTC",
+      "album": "Drums And Wires",
+      "popularity": 60,
+      "tempo": 150.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.893,
+      "valence": 0.773,
+      "danceability": 0.632,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.045,
+      "duration_ms": 253800,
+      "slug": "making-plans-for-nigel-xtc"
+    },
+    {
+      "name": "Rapture",
+      "artists": "Blondie",
+      "album": "Greatest Hits: Blondie",
+      "popularity": 59,
+      "tempo": 107.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.704,
+      "valence": 0.96,
+      "danceability": 0.724,
+      "acousticness": 0.113,
+      "instrumentalness": 0.004,
+      "loudness": -8.3,
+      "speechiness": 0.051,
+      "duration_ms": 299373,
+      "slug": "rapture-blondie"
+    },
+    {
+      "name": "Day After Day - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Straight Up (Remastered 2010 / Deluxe Edition)",
+      "popularity": 59,
+      "tempo": 101.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.686,
+      "valence": 0.377,
+      "danceability": 0.399,
+      "acousticness": 0.109,
+      "instrumentalness": 0.001,
+      "loudness": -7.1,
+      "speechiness": 0.031,
+      "duration_ms": 191053,
+      "slug": "day-after-day-remastered-2010-badfinger"
+    },
+    {
+      "name": "Blue Coupe",
+      "artists": "Twin Peaks",
+      "album": "Sweet '17 Singles",
+      "popularity": 59,
+      "tempo": 130.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.864,
+      "valence": 0.55,
+      "danceability": 0.597,
+      "acousticness": 0.261,
+      "instrumentalness": 0.075,
+      "loudness": -5.6,
+      "speechiness": 0.027,
+      "duration_ms": 222672,
+      "slug": "blue-coupe-twin-peaks"
+    },
+    {
+      "name": "Call Me",
+      "artists": "Blondie",
+      "album": "Best Of Blondie",
+      "popularity": 59,
+      "tempo": 142.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.628,
+      "valence": 0.777,
+      "danceability": 0.551,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -13.8,
+      "speechiness": 0.036,
+      "duration_ms": 212893,
+      "slug": "call-me-blondie"
+    },
+    {
+      "name": "Feel the Pain",
+      "artists": "Dinosaur Jr.",
+      "album": "Without a Sound",
+      "popularity": 59,
+      "tempo": 131.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.804,
+      "valence": 0.854,
+      "danceability": 0.34,
+      "acousticness": 0.003,
+      "instrumentalness": 0.019,
+      "loudness": -8.4,
+      "speechiness": 0.052,
+      "duration_ms": 259600,
+      "slug": "feel-the-pain-dinosaur-jr"
+    },
+    {
+      "name": "Africa",
+      "artists": "Weezer",
+      "album": "Weezer (Teal Album)",
+      "popularity": 59,
+      "tempo": 92.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.784,
+      "valence": 0.6,
+      "danceability": 0.534,
+      "acousticness": 0.205,
+      "instrumentalness": 0.006,
+      "loudness": -3.6,
+      "speechiness": 0.034,
+      "duration_ms": 238626,
+      "slug": "africa-weezer"
+    },
+    {
+      "name": "Oliver's Army",
+      "artists": "Elvis Costello & The Attractions",
+      "album": "Armed Forces (Remastered 2020)",
+      "popularity": 59,
+      "tempo": 143.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.94,
+      "danceability": 0.527,
+      "acousticness": 0.336,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.029,
+      "duration_ms": 180840,
+      "slug": "olivers-army-elvis-costello-the-attractions"
+    },
+    {
+      "name": "Dear Angie - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Magic Christian Music (Remastered 2010 / Deluxe Edition)",
+      "popularity": 58,
+      "tempo": 82.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.417,
+      "valence": 0.506,
+      "danceability": 0.633,
+      "acousticness": 0.3,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.026,
+      "duration_ms": 160906,
+      "slug": "dear-angie-remastered-2010-badfinger"
+    },
+    {
+      "name": "Pink Triangle",
+      "artists": "Weezer",
+      "album": "Pinkerton",
+      "popularity": 58,
+      "tempo": 118.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.466,
+      "danceability": 0.282,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.082,
+      "duration_ms": 238600,
+      "slug": "pink-triangle-weezer"
+    },
+    {
+      "name": "Atomic",
+      "artists": "Blondie",
+      "album": "Eat To The Beat",
+      "popularity": 58,
+      "tempo": 135.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.824,
+      "valence": 0.786,
+      "danceability": 0.596,
+      "acousticness": 0.05,
+      "instrumentalness": 0.129,
+      "loudness": -4.9,
+      "speechiness": 0.036,
+      "duration_ms": 280324,
+      "slug": "atomic-blondie"
+    },
+    {
+      "name": "Steppin' Out",
+      "artists": "Joe Jackson",
+      "album": "Night And Day",
+      "popularity": 58,
+      "tempo": 160.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.474,
+      "valence": 0.651,
+      "danceability": 0.584,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.03,
+      "duration_ms": 262866,
+      "slug": "steppin-out-joe-jackson"
+    },
+    {
+      "name": "Swingin Party - 2008 Remaster",
+      "artists": "The Replacements",
+      "album": "Tim (Expanded)",
+      "popularity": 58,
+      "tempo": 117.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.69,
+      "valence": 0.682,
+      "danceability": 0.647,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.045,
+      "duration_ms": 233573,
+      "slug": "swingin-party-2008-remaster-the-replacements"
+    },
+    {
+      "name": "Only In Dreams",
+      "artists": "Weezer",
+      "album": "Weezer",
+      "popularity": 57,
+      "tempo": 78.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.535,
+      "valence": 0.403,
+      "danceability": 0.507,
+      "acousticness": 0.002,
+      "instrumentalness": 0.495,
+      "loudness": -9.1,
+      "speechiness": 0.026,
+      "duration_ms": 479066,
+      "slug": "only-in-dreams-weezer"
+    },
+    {
+      "name": "The Rain The Park And Other Things",
+      "artists": "The Cowsills",
+      "album": "The Cowsills",
+      "popularity": 57,
+      "tempo": 131.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.691,
+      "danceability": 0.376,
+      "acousticness": 0.809,
+      "instrumentalness": 0.001,
+      "loudness": -8.8,
+      "speechiness": 0.04,
+      "duration_ms": 184240,
+      "slug": "the-rain-the-park-and-other-things-the-cowsills"
+    },
+    {
+      "name": "Something Loud",
+      "artists": "Jimmy Eat World",
+      "album": "Something Loud",
+      "popularity": 57,
+      "tempo": 151.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.899,
+      "valence": 0.497,
+      "danceability": 0.375,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.048,
+      "duration_ms": 196618,
+      "slug": "something-loud-jimmy-eat-world"
+    },
+    {
+      "name": "Moving in Stereo",
+      "artists": "The Cars",
+      "album": "The Cars",
+      "popularity": 57,
+      "tempo": 115.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.37,
+      "danceability": 0.718,
+      "acousticness": 0.061,
+      "instrumentalness": 0.099,
+      "loudness": -11.2,
+      "speechiness": 0.037,
+      "duration_ms": 286106,
+      "slug": "moving-in-stereo-the-cars"
+    },
+    {
+      "name": "Popular",
+      "artists": "Nada Surf",
+      "album": "High/Low",
+      "popularity": 57,
+      "tempo": 94.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.296,
+      "danceability": 0.444,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.119,
+      "duration_ms": 220586,
+      "slug": "popular-nada-surf"
+    },
+    {
+      "name": "Mighty Wings - From \"Top Gun\" Original Soundtrack",
+      "artists": "Cheap Trick",
+      "album": "Top Gun - Motion Picture Soundtrack (Special Expanded Edition)",
+      "popularity": 56,
+      "tempo": 158.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.848,
+      "danceability": 0.467,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.048,
+      "duration_ms": 231040,
+      "slug": "mighty-wings-from-top-gun-original-soundtrack-cheap-trick"
+    },
+    {
+      "name": "Believe Me - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "No Dice (Remastered 2010 / Deluxe Edition)",
+      "popularity": 56,
+      "tempo": 142.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.406,
+      "valence": 0.386,
+      "danceability": 0.548,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.029,
+      "duration_ms": 180053,
+      "slug": "believe-me-remastered-2010-badfinger"
+    },
+    {
+      "name": "Good Times Roll - 2016 Remaster",
+      "artists": "The Cars",
+      "album": "The Elektra Years 1978 - 1987",
+      "popularity": 56,
+      "tempo": 107.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.689,
+      "valence": 0.645,
+      "danceability": 0.631,
+      "acousticness": 0.073,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.028,
+      "duration_ms": 225226,
+      "slug": "good-times-roll-2016-remaster-the-cars"
+    },
+    {
+      "name": "I'd Die Babe - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Straight Up (Remastered 2010 / Deluxe Edition)",
+      "popularity": 56,
+      "tempo": 126.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.669,
+      "valence": 0.874,
+      "danceability": 0.684,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.037,
+      "duration_ms": 154413,
+      "slug": "id-die-babe-remastered-2010-badfinger"
+    },
+    {
+      "name": "What Happens After You?",
+      "artists": "Weezer",
+      "album": "SZNZ: Autumn",
+      "popularity": 56,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.607,
+      "valence": 0.536,
+      "danceability": 0.646,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.034,
+      "duration_ms": 199592,
+      "slug": "what-happens-after-you-weezer"
+    },
+    {
+      "name": "What Happens After You?",
+      "artists": "Weezer",
+      "album": "SZNZ: Autumn",
+      "popularity": 56,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.607,
+      "valence": 0.536,
+      "danceability": 0.646,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.034,
+      "duration_ms": 199592,
+      "slug": "what-happens-after-you-weezer"
+    },
+    {
+      "name": "Surrender",
+      "artists": "Cheap Trick",
+      "album": "The Essential Cheap Trick",
+      "popularity": 56,
+      "tempo": 133.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.869,
+      "danceability": 0.524,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.042,
+      "duration_ms": 253826,
+      "slug": "surrender-cheap-trick"
+    },
+    {
+      "name": "Records",
+      "artists": "Weezer",
+      "album": "SZNZ: Summer",
+      "popularity": 56,
+      "tempo": 100.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.773,
+      "valence": 0.66,
+      "danceability": 0.658,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.024,
+      "duration_ms": 208920,
+      "slug": "records-weezer"
+    },
+    {
+      "name": "El Scorcho",
+      "artists": "Weezer",
+      "album": "Pinkerton",
+      "popularity": 56,
+      "tempo": 148.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.707,
+      "valence": 0.661,
+      "danceability": 0.479,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.066,
+      "duration_ms": 243466,
+      "slug": "el-scorcho-weezer"
+    },
+    {
+      "name": "Lonely Boy",
+      "artists": "Andrew Gold",
+      "album": "What's Wrong with This Picture?",
+      "popularity": 56,
+      "tempo": 123.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.598,
+      "valence": 0.866,
+      "danceability": 0.588,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.03,
+      "duration_ms": 264893,
+      "slug": "lonely-boy-andrew-gold"
+    },
+    {
+      "name": "Hello It's Me",
+      "artists": "Todd Rundgren",
+      "album": "The Very Best of Todd Rundgren",
+      "popularity": 55,
+      "tempo": 87.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.848,
+      "valence": 0.779,
+      "danceability": 0.578,
+      "acousticness": 0.056,
+      "instrumentalness": 0.004,
+      "loudness": -6.8,
+      "speechiness": 0.026,
+      "duration_ms": 264093,
+      "slug": "hello-its-me-todd-rundgren"
+    },
+    {
+      "name": "The Call of the Mountains",
+      "artists": "Eluveitie",
+      "album": "Origins",
+      "popularity": 55,
+      "tempo": 108.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.196,
+      "danceability": 0.305,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.051,
+      "duration_ms": 253896,
+      "slug": "the-call-of-the-mountains-eluveitie"
+    },
+    {
+      "name": "Hey Julie",
+      "artists": "Fountains Of Wayne",
+      "album": "Welcome Interstate Managers",
+      "popularity": 55,
+      "tempo": 137.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.554,
+      "valence": 0.978,
+      "danceability": 0.739,
+      "acousticness": 0.39,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.036,
+      "duration_ms": 156933,
+      "slug": "hey-julie-fountains-of-wayne"
+    },
+    {
+      "name": "bedroom community",
+      "artists": "glass beach",
+      "album": "the first glass beach album",
+      "popularity": 55,
+      "tempo": 134.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.337,
+      "danceability": 0.46,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.047,
+      "duration_ms": 361328,
+      "slug": "bedroom-community-glass-beach"
+    },
+    {
+      "name": "Lost in the Woods - Weezer Version",
+      "artists": "Weezer",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 75.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.598,
+      "valence": 0.294,
+      "danceability": 0.403,
+      "acousticness": 0.198,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.024,
+      "duration_ms": 185231,
+      "slug": "lost-in-the-woods-weezer-version-weezer"
+    },
+    {
+      "name": "Game Of Pricks",
+      "artists": "Guided By Voices",
+      "album": "Alien Lanes",
+      "popularity": 55,
+      "tempo": 122.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.966,
+      "valence": 0.323,
+      "danceability": 0.368,
+      "acousticness": 0.248,
+      "instrumentalness": 0.663,
+      "loudness": -7.0,
+      "speechiness": 0.073,
+      "duration_ms": 93306,
+      "slug": "game-of-pricks-guided-by-voices"
+    },
+    {
+      "name": "Take on Me",
+      "artists": "Weezer",
+      "album": "Weezer (Teal Album)",
+      "popularity": 55,
+      "tempo": 168.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.762,
+      "valence": 0.743,
+      "danceability": 0.441,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.044,
+      "duration_ms": 223560,
+      "slug": "take-on-me-weezer"
+    },
+    {
+      "name": "Perfect Situation",
+      "artists": "Weezer",
+      "album": "Make Believe",
+      "popularity": 55,
+      "tempo": 93.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.806,
+      "valence": 0.403,
+      "danceability": 0.47,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.033,
+      "duration_ms": 254333,
+      "slug": "perfect-situation-weezer"
+    },
+    {
+      "name": "Heart Of Glass [24-Bit Digitally Remastered 01]",
+      "artists": "Blondie",
+      "album": "Parallel Lines (Remastered)",
+      "popularity": 55,
+      "tempo": 115.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.633,
+      "valence": 0.657,
+      "danceability": 0.662,
+      "acousticness": 0.008,
+      "instrumentalness": 0.023,
+      "loudness": -7.8,
+      "speechiness": 0.043,
+      "duration_ms": 350240,
+      "slug": "heart-of-glass-24-bit-digitally-remastered-01-blondie"
+    },
+    {
+      "name": "Into Your Arms",
+      "artists": "The Lemonheads",
+      "album": "Come On Feel The Lemonheads",
+      "popularity": 55,
+      "tempo": 123.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.782,
+      "valence": 0.619,
+      "danceability": 0.504,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.03,
+      "duration_ms": 164706,
+      "slug": "into-your-arms-the-lemonheads"
+    },
+    {
+      "name": "Come And Get It - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Magic Christian Music (Remastered 2010 / Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 94.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.629,
+      "valence": 0.606,
+      "danceability": 0.616,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.026,
+      "duration_ms": 143213,
+      "slug": "come-and-get-it-remastered-2010-badfinger"
+    },
+    {
+      "name": "The World Has Turned And Left Me Here",
+      "artists": "Weezer",
+      "album": "Weezer",
+      "popularity": 55,
+      "tempo": 99.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.918,
+      "valence": 0.56,
+      "danceability": 0.455,
+      "acousticness": 0.0,
+      "instrumentalness": 0.013,
+      "loudness": -5.7,
+      "speechiness": 0.035,
+      "duration_ms": 259466,
+      "slug": "the-world-has-turned-and-left-me-here-weezer"
+    },
+    {
+      "name": "Spooky, Scary Skeletons - Undead Tombstone Remix Extended",
+      "artists": "Andrew Gold",
+      "album": "Halloween Howls: Fun & Scary Music (Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.816,
+      "valence": 0.599,
+      "danceability": 0.795,
+      "acousticness": 0.001,
+      "instrumentalness": 0.002,
+      "loudness": -5.6,
+      "speechiness": 0.112,
+      "duration_ms": 229199,
+      "slug": "spooky-scary-skeletons-undead-tombstone-remix-extended-andrew-gold"
+    },
+    {
+      "name": "Thirteen",
+      "artists": "Big Star",
+      "album": "#1 Record (Remastered)",
+      "popularity": 54,
+      "tempo": 117.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.344,
+      "valence": 0.359,
+      "danceability": 0.456,
+      "acousticness": 0.565,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.03,
+      "duration_ms": 154480,
+      "slug": "thirteen-big-star"
+    },
+    {
+      "name": "You Might Think - From \"Cars 2\"/Soundtrack Version",
+      "artists": "Weezer",
+      "album": "Cars 2 (Original Soundtrack)",
+      "popularity": 54,
+      "tempo": 133.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.978,
+      "danceability": 0.715,
+      "acousticness": 0.016,
+      "instrumentalness": 0.029,
+      "loudness": -7.5,
+      "speechiness": 0.032,
+      "duration_ms": 187266,
+      "slug": "you-might-think-from-cars-2soundtrack-version-weezer"
+    },
+    {
+      "name": "Feels Like Summer",
+      "artists": "Weezer",
+      "album": "Pacific Daydream",
+      "popularity": 54,
+      "tempo": 176.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.867,
+      "valence": 0.74,
+      "danceability": 0.53,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.05,
+      "duration_ms": 195893,
+      "slug": "feels-like-summer-weezer"
+    },
+    {
+      "name": "One Way Or Another",
+      "artists": "Blondie",
+      "album": "Greatest Hits: Blondie",
+      "popularity": 54,
+      "tempo": 162.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.863,
+      "valence": 0.835,
+      "danceability": 0.447,
+      "acousticness": 0.004,
+      "instrumentalness": 0.014,
+      "loudness": -6.3,
+      "speechiness": 0.059,
+      "duration_ms": 208466,
+      "slug": "one-way-or-another-blondie"
+    },
+    {
+      "name": "The Good Life",
+      "artists": "Weezer",
+      "album": "Pinkerton",
+      "popularity": 54,
+      "tempo": 135.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.893,
+      "valence": 0.683,
+      "danceability": 0.539,
+      "acousticness": 0.14,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.042,
+      "duration_ms": 257000,
+      "slug": "the-good-life-weezer"
+    },
+    {
+      "name": "Moment In The Sun",
+      "artists": "Sunflower Bean",
+      "album": "Moment In The Sun",
+      "popularity": 53,
+      "tempo": 116.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.548,
+      "danceability": 0.687,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.031,
+      "duration_ms": 189634,
+      "slug": "moment-in-the-sun-sunflower-bean"
+    },
+    {
+      "name": "Without You - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "No Dice (Remastered 2010 / Deluxe Edition)",
+      "popularity": 53,
+      "tempo": 135.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.339,
+      "valence": 0.309,
+      "danceability": 0.558,
+      "acousticness": 0.429,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.027,
+      "duration_ms": 283493,
+      "slug": "without-you-remastered-2010-badfinger"
+    }
+  ]
+}

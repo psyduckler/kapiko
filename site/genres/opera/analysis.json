@@ -1,0 +1,2803 @@
+{
+  "genre": "Opera",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 0.0,
+    "max": 188.19,
+    "mean": 109.892,
+    "median": 109.319,
+    "q1": 83.529,
+    "q3": 129.617,
+    "histogram": {
+      "50-59": 2,
+      "60-69": 5,
+      "70-79": 10,
+      "80-89": 16,
+      "90-99": 9,
+      "100-109": 8,
+      "110-119": 9,
+      "120-129": 17,
+      "130-139": 10,
+      "140-149": 4,
+      "150-159": 2,
+      "160-169": 1,
+      "170-179": 4,
+      "180-189": 3
+    }
+  },
+  "key_distribution": {
+    "D": 22,
+    "F": 14,
+    "C": 13,
+    "G": 8,
+    "A#/Bb": 8,
+    "E": 8,
+    "A": 7,
+    "D#/Eb": 6,
+    "C#/Db": 4,
+    "F#/Gb": 4,
+    "B": 4,
+    "G#/Ab": 2
+  },
+  "mode_distribution": {
+    "Major": 63,
+    "Minor": 37
+  },
+  "key_mode_distribution": {
+    "D Major": 13,
+    "D Minor": 9,
+    "F Major": 8,
+    "A#/Bb Major": 7,
+    "C Major": 7,
+    "F Minor": 6,
+    "C Minor": 6,
+    "D#/Eb Major": 5,
+    "G Major": 4,
+    "C#/Db Major": 4,
+    "G Minor": 4,
+    "E Major": 4,
+    "E Minor": 4,
+    "A Major": 4,
+    "A Minor": 3,
+    "F#/Gb Major": 3,
+    "B Minor": 2,
+    "B Major": 2,
+    "G#/Ab Major": 2,
+    "F#/Gb Minor": 1,
+    "D#/Eb Minor": 1,
+    "A#/Bb Minor": 1
+  },
+  "energy": {
+    "min": 0.006,
+    "max": 0.971,
+    "mean": 0.382,
+    "median": 0.337,
+    "q1": 0.184,
+    "q3": 0.55
+  },
+  "valence": {
+    "min": 0.0,
+    "max": 0.926,
+    "mean": 0.241,
+    "median": 0.198,
+    "q1": 0.102,
+    "q3": 0.321
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.367,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.456,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.026,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.136,
+      "valence": 0.098
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.301,
+      "valence": 0.08
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.007,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.346
+    },
+    {
+      "energy": 0.019,
+      "valence": 0.14
+    },
+    {
+      "energy": 0.602,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.303,
+      "valence": 0.094
+    },
+    {
+      "energy": 0.058,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.588,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.971,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.381,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.926
+    },
+    {
+      "energy": 0.404,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.298,
+      "valence": 0.154
+    },
+    {
+      "energy": 0.436,
+      "valence": 0.153
+    },
+    {
+      "energy": 0.089,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.305,
+      "valence": 0.106
+    },
+    {
+      "energy": 0.498,
+      "valence": 0.241
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.128,
+      "valence": 0.363
+    },
+    {
+      "energy": 0.214,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.018,
+      "valence": 0.252
+    },
+    {
+      "energy": 0.149,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.45,
+      "valence": 0.367
+    },
+    {
+      "energy": 0.401,
+      "valence": 0.062
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.704
+    },
+    {
+      "energy": 0.161,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.346,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.295,
+      "valence": 0.467
+    },
+    {
+      "energy": 0.362,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.224,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.268,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.117,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.026,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.209,
+      "valence": 0.141
+    },
+    {
+      "energy": 0.328,
+      "valence": 0.061
+    },
+    {
+      "energy": 0.287,
+      "valence": 0.074
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.057
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.322,
+      "valence": 0.125
+    },
+    {
+      "energy": 0.031,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.322,
+      "valence": 0.109
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.25
+    },
+    {
+      "energy": 0.019,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.392,
+      "valence": 0.075
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.205
+    },
+    {
+      "energy": 0.251,
+      "valence": 0.052
+    },
+    {
+      "energy": 0.291,
+      "valence": 0.078
+    },
+    {
+      "energy": 0.219,
+      "valence": 0.097
+    },
+    {
+      "energy": 0.347,
+      "valence": 0.206
+    },
+    {
+      "energy": 0.054,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.096
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.55,
+      "valence": 0.343
+    },
+    {
+      "energy": 0.46,
+      "valence": 0.708
+    },
+    {
+      "energy": 0.233,
+      "valence": 0.102
+    },
+    {
+      "energy": 0.207,
+      "valence": 0.076
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.144
+    },
+    {
+      "energy": 0.25,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.378,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.251,
+      "valence": 0.119
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.246,
+      "valence": 0.208
+    },
+    {
+      "energy": 0.174,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.643,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.422,
+      "valence": 0.177
+    },
+    {
+      "energy": 0.211,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.399,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.071
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.052
+    },
+    {
+      "energy": 0.272,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.434,
+      "valence": 0.138
+    },
+    {
+      "energy": 0.007,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.456,
+      "valence": 0.362
+    },
+    {
+      "energy": 0.006,
+      "valence": 0.489
+    },
+    {
+      "energy": 0.127,
+      "valence": 0.215
+    },
+    {
+      "energy": 0.059,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.372,
+      "valence": 0.821
+    },
+    {
+      "energy": 0.14,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.127,
+      "valence": 0.098
+    },
+    {
+      "energy": 0.267,
+      "valence": 0.065
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.229
+    },
+    {
+      "energy": 0.019,
+      "valence": 0.0
+    },
+    {
+      "energy": 0.501,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.28
+    },
+    {
+      "energy": 0.107,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.413
+    },
+    {
+      "energy": 0.072,
+      "valence": 0.075
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.996,
+    "mean": 0.686,
+    "median": 0.835,
+    "q1": 0.609,
+    "q3": 0.925
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.964,
+    "mean": 0.258,
+    "median": 0.002,
+    "q1": 0.0,
+    "q3": 0.771
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.844,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.703,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.938
+    },
+    {
+      "acousticness": 0.673,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.886,
+      "instrumentalness": 0.02
+    },
+    {
+      "acousticness": 0.963,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.952,
+      "instrumentalness": 0.271
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.029
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.993,
+      "instrumentalness": 0.888
+    },
+    {
+      "acousticness": 0.591,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.897,
+      "instrumentalness": 0.878
+    },
+    {
+      "acousticness": 0.932,
+      "instrumentalness": 0.928
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.562,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.93
+    },
+    {
+      "acousticness": 0.829,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.944,
+      "instrumentalness": 0.254
+    },
+    {
+      "acousticness": 0.754,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.866,
+      "instrumentalness": 0.378
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.453,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.601,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.966,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.962,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.881,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.642,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.835,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.643,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.8,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.925,
+      "instrumentalness": 0.771
+    },
+    {
+      "acousticness": 0.926,
+      "instrumentalness": 0.931
+    },
+    {
+      "acousticness": 0.919,
+      "instrumentalness": 0.899
+    },
+    {
+      "acousticness": 0.794,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.835,
+      "instrumentalness": 0.843
+    },
+    {
+      "acousticness": 0.912,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.974,
+      "instrumentalness": 0.842
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.938
+    },
+    {
+      "acousticness": 0.919,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.911,
+      "instrumentalness": 0.771
+    },
+    {
+      "acousticness": 0.817,
+      "instrumentalness": 0.853
+    },
+    {
+      "acousticness": 0.645,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.69,
+      "instrumentalness": 0.888
+    },
+    {
+      "acousticness": 0.901,
+      "instrumentalness": 0.866
+    },
+    {
+      "acousticness": 0.651,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.875,
+      "instrumentalness": 0.079
+    },
+    {
+      "acousticness": 0.599,
+      "instrumentalness": 0.405
+    },
+    {
+      "acousticness": 0.926,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.902,
+      "instrumentalness": 0.868
+    },
+    {
+      "acousticness": 0.963,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.929,
+      "instrumentalness": 0.933
+    },
+    {
+      "acousticness": 0.768,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.969,
+      "instrumentalness": 0.855
+    },
+    {
+      "acousticness": 0.377,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.836,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.821,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.914,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.875,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.822,
+      "instrumentalness": 0.926
+    },
+    {
+      "acousticness": 0.913,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.803,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.918,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.789,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.967,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.914,
+      "instrumentalness": 0.031
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.844,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.813,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.911,
+      "instrumentalness": 0.929
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.964
+    },
+    {
+      "acousticness": 0.609,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.996,
+      "instrumentalness": 0.915
+    },
+    {
+      "acousticness": 0.858,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.964,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.944,
+      "instrumentalness": 0.433
+    },
+    {
+      "acousticness": 0.978,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.697,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.906,
+      "instrumentalness": 0.759
+    },
+    {
+      "acousticness": 0.94,
+      "instrumentalness": 0.909
+    },
+    {
+      "acousticness": 0.884,
+      "instrumentalness": 0.825
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.02
+    },
+    {
+      "acousticness": 0.809,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.955
+    },
+    {
+      "acousticness": 0.473,
+      "instrumentalness": 0.031
+    },
+    {
+      "acousticness": 0.666,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.96,
+      "instrumentalness": 0.694
+    }
+  ],
+  "duration": {
+    "min": 75106,
+    "max": 599401,
+    "mean": 225816.79,
+    "median": 230033.0,
+    "q1": 187857,
+    "q3": 264240
+  },
+  "danceability": {
+    "min": 0.0,
+    "max": 0.616,
+    "mean": 0.342,
+    "median": 0.328,
+    "q1": 0.236,
+    "q3": 0.465
+  },
+  "loudness": {
+    "min": -39.219,
+    "max": -3.299,
+    "mean": -13.269,
+    "median": -10.625,
+    "q1": -16.447,
+    "q3": -7.478
+  },
+  "speechiness": {
+    "min": 0.0,
+    "max": 0.09,
+    "mean": 0.041,
+    "median": 0.037,
+    "q1": 0.033,
+    "q3": 0.048
+  },
+  "top_artists": [
+    {
+      "name": "Andrea Bocelli",
+      "count": 16
+    },
+    {
+      "name": "Nightwish",
+      "count": 15
+    },
+    {
+      "name": "Georges Bizet",
+      "count": 6
+    },
+    {
+      "name": "Andr\u00e9 Rieu",
+      "count": 6
+    },
+    {
+      "name": "Josh Groban",
+      "count": 5
+    },
+    {
+      "name": "Secret Garden",
+      "count": 5
+    },
+    {
+      "name": "Giuseppe Verdi",
+      "count": 5
+    },
+    {
+      "name": "Celtic Woman",
+      "count": 5
+    },
+    {
+      "name": "Johann Strauss Orchestra",
+      "count": 5
+    },
+    {
+      "name": "Giacomo Puccini",
+      "count": 3
+    },
+    {
+      "name": "Luciano Pavarotti",
+      "count": 3
+    },
+    {
+      "name": "L\u00e9o Delibes",
+      "count": 3
+    },
+    {
+      "name": "Il Divo",
+      "count": 3
+    },
+    {
+      "name": "Dimash Qudaibergen",
+      "count": 3
+    },
+    {
+      "name": "Jean-Philippe Rameau",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Con te partir\u00f2",
+      "artists": "Andrea Bocelli",
+      "album": "Bocelli (Remastered)",
+      "popularity": 67,
+      "tempo": 135.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.367,
+      "valence": 0.302,
+      "danceability": 0.241,
+      "acousticness": 0.844,
+      "instrumentalness": 0.003,
+      "loudness": -8.0,
+      "speechiness": 0.031,
+      "duration_ms": 250983,
+      "slug": "con-te-partir\u00f2-andrea-bocelli"
+    },
+    {
+      "name": "Vivo per lei",
+      "artists": "Andrea Bocelli;Giorgia",
+      "album": "Bocelli (Remastered)",
+      "popularity": 65,
+      "tempo": 136.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.456,
+      "valence": 0.289,
+      "danceability": 0.533,
+      "acousticness": 0.703,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.026,
+      "duration_ms": 265584,
+      "slug": "vivo-per-lei-andrea-bocelli"
+    },
+    {
+      "name": "The Arts and the Hours",
+      "artists": "Jean-Philippe Rameau;V\u00edkingur \u00d3lafsson",
+      "album": "Rameau, \u00d3lafsson: The Arts and the Hours",
+      "popularity": 64,
+      "tempo": 136.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.026,
+      "valence": 0.268,
+      "danceability": 0.415,
+      "acousticness": 0.995,
+      "instrumentalness": 0.938,
+      "loudness": -36.7,
+      "speechiness": 0.05,
+      "duration_ms": 285442,
+      "slug": "the-arts-and-the-hours-jean-philippe-rameau"
+    },
+    {
+      "name": "You Raise Me Up",
+      "artists": "Josh Groban",
+      "album": "Closer (Special Edition)",
+      "popularity": 61,
+      "tempo": 118.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.136,
+      "valence": 0.098,
+      "danceability": 0.25,
+      "acousticness": 0.673,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.037,
+      "duration_ms": 292333,
+      "slug": "you-raise-me-up-josh-groban"
+    },
+    {
+      "name": "B\u00e9same Mucho",
+      "artists": "Andrea Bocelli",
+      "album": "Amor (Spanish Edition / Remastered)",
+      "popularity": 61,
+      "tempo": 95.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.502,
+      "valence": 0.378,
+      "danceability": 0.521,
+      "acousticness": 0.886,
+      "instrumentalness": 0.02,
+      "loudness": -8.5,
+      "speechiness": 0.029,
+      "duration_ms": 241232,
+      "slug": "b\u00e9same-mucho-andrea-bocelli"
+    },
+    {
+      "name": "Turandot, SC 91 / Act III: \"Nessun dorma!\"",
+      "artists": "Giacomo Puccini;Luciano Pavarotti;John Alldis Choir;Wandsworth School Boys Choir;London Philharmonic Orchestra;Zubin Mehta",
+      "album": "Puccini: Turandot - Highlights",
+      "popularity": 61,
+      "tempo": 84.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.301,
+      "valence": 0.08,
+      "danceability": 0.212,
+      "acousticness": 0.963,
+      "instrumentalness": 0.003,
+      "loudness": -12.5,
+      "speechiness": 0.038,
+      "duration_ms": 177333,
+      "slug": "turandot-sc-91-act-iii-nessun-dorma-giacomo-puccini"
+    },
+    {
+      "name": "The Phantom Of The Opera",
+      "artists": "Nightwish",
+      "album": "Century Child",
+      "popularity": 60,
+      "tempo": 131.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.829,
+      "valence": 0.356,
+      "danceability": 0.431,
+      "acousticness": 0.0,
+      "instrumentalness": 0.03,
+      "loudness": -7.7,
+      "speechiness": 0.049,
+      "duration_ms": 248706,
+      "slug": "the-phantom-of-the-opera-nightwish"
+    },
+    {
+      "name": "Carmen Suite No. 1 (Arr. E. Guiraud): IV. S\u00e9guedille",
+      "artists": "Georges Bizet;Orquestra Simf\u00f2nica de Barcelona i Nacional de Catalunya;Pablo Gonz\u00e1lez",
+      "album": "Bizet: Carmen & L'arl\u00e9sienne Suites",
+      "popularity": 60,
+      "tempo": 176.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.007,
+      "valence": 0.185,
+      "danceability": 0.248,
+      "acousticness": 0.952,
+      "instrumentalness": 0.271,
+      "loudness": -36.5,
+      "speechiness": 0.042,
+      "duration_ms": 121933,
+      "slug": "carmen-suite-no-1-arr-e-guiraud-iv-s\u00e9guedille-georges-bizet"
+    },
+    {
+      "name": "Wish I Had An Angel",
+      "artists": "Nightwish",
+      "album": "Highest Hopes-The Best Of Nightwish",
+      "popularity": 60,
+      "tempo": 79.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.936,
+      "valence": 0.58,
+      "danceability": 0.438,
+      "acousticness": 0.0,
+      "instrumentalness": 0.029,
+      "loudness": -6.5,
+      "speechiness": 0.053,
+      "duration_ms": 243213,
+      "slug": "wish-i-had-an-angel-nightwish"
+    },
+    {
+      "name": "Nemo",
+      "artists": "Nightwish",
+      "album": "Highest Hopes-The Best Of Nightwish",
+      "popularity": 59,
+      "tempo": 125.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.745,
+      "valence": 0.346,
+      "danceability": 0.498,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.035,
+      "duration_ms": 273626,
+      "slug": "nemo-nightwish"
+    },
+    {
+      "name": "Ave Maria",
+      "artists": "Charles Gounod;Yo-Yo Ma",
+      "album": "Songs from the Arc of Life",
+      "popularity": 59,
+      "tempo": 81.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.019,
+      "valence": 0.14,
+      "danceability": 0.132,
+      "acousticness": 0.993,
+      "instrumentalness": 0.888,
+      "loudness": -29.8,
+      "speechiness": 0.044,
+      "duration_ms": 163266,
+      "slug": "ave-maria-charles-gounod"
+    },
+    {
+      "name": "Cuando Me Enamoro",
+      "artists": "Andrea Bocelli",
+      "album": "Amor (Spanish Edition / Remastered)",
+      "popularity": 58,
+      "tempo": 102.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.602,
+      "valence": 0.521,
+      "danceability": 0.615,
+      "acousticness": 0.591,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.044,
+      "duration_ms": 235446,
+      "slug": "cuando-me-enamoro-andrea-bocelli"
+    },
+    {
+      "name": "Song From A Secret Garden",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 58,
+      "tempo": 66.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.303,
+      "valence": 0.094,
+      "danceability": 0.226,
+      "acousticness": 0.897,
+      "instrumentalness": 0.878,
+      "loudness": -10.9,
+      "speechiness": 0.037,
+      "duration_ms": 214786,
+      "slug": "song-from-a-secret-garden-secret-garden"
+    },
+    {
+      "name": "Sylvia: Act III: Divertissement: Variation - Valse",
+      "artists": "L\u00e9o Delibes;Razumovsky Symphony Orchestra;Andrew Mogrelia",
+      "album": "Delibes: Sylvia (Complete Ballet) / Saint-Saens: Henry Viii",
+      "popularity": 58,
+      "tempo": 97.3,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.058,
+      "valence": 0.422,
+      "danceability": 0.346,
+      "acousticness": 0.932,
+      "instrumentalness": 0.928,
+      "loudness": -22.6,
+      "speechiness": 0.035,
+      "duration_ms": 75106,
+      "slug": "sylvia-act-iii-divertissement-variation-valse-l\u00e9o-delibes"
+    },
+    {
+      "name": "\u00c9lan",
+      "artists": "Nightwish",
+      "album": "Endless Forms Most Beautiful (Deluxe Version)",
+      "popularity": 58,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.588,
+      "valence": 0.316,
+      "danceability": 0.576,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.031,
+      "duration_ms": 287000,
+      "slug": "\u00e9lan-nightwish"
+    },
+    {
+      "name": "Amaranth",
+      "artists": "Nightwish",
+      "album": "Dark Passion Play",
+      "popularity": 58,
+      "tempo": 128.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.31,
+      "danceability": 0.558,
+      "acousticness": 0.005,
+      "instrumentalness": 0.002,
+      "loudness": -4.0,
+      "speechiness": 0.042,
+      "duration_ms": 231444,
+      "slug": "amaranth-nightwish"
+    },
+    {
+      "name": "Storytime",
+      "artists": "Nightwish",
+      "album": "Imaginaerum",
+      "popularity": 58,
+      "tempo": 156.2,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.971,
+      "valence": 0.483,
+      "danceability": 0.465,
+      "acousticness": 0.004,
+      "instrumentalness": 0.004,
+      "loudness": -3.5,
+      "speechiness": 0.075,
+      "duration_ms": 322280,
+      "slug": "storytime-nightwish"
+    },
+    {
+      "name": "Regresa a M\u00ed",
+      "artists": "Il Divo",
+      "album": "Il Divo",
+      "popularity": 58,
+      "tempo": 111.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.381,
+      "valence": 0.19,
+      "danceability": 0.495,
+      "acousticness": 0.562,
+      "instrumentalness": 0.003,
+      "loudness": -10.1,
+      "speechiness": 0.028,
+      "duration_ms": 280680,
+      "slug": "regresa-a-m\u00ed-il-divo"
+    },
+    {
+      "name": "Can Can",
+      "artists": "Jacques Offenbach;Helmuth Brandenburg",
+      "album": "Operas Operetta Overtures, Operetten Opern Ouvert\u00fcren",
+      "popularity": 57,
+      "tempo": 81.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.535,
+      "valence": 0.926,
+      "danceability": 0.429,
+      "acousticness": 0.815,
+      "instrumentalness": 0.93,
+      "loudness": -11.0,
+      "speechiness": 0.038,
+      "duration_ms": 131599,
+      "slug": "can-can-jacques-offenbach"
+    },
+    {
+      "name": "La vie en rose",
+      "artists": "Andrea Bocelli;\u00c9dith Piaf",
+      "album": "Passione (Remastered)",
+      "popularity": 57,
+      "tempo": 80.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.404,
+      "valence": 0.441,
+      "danceability": 0.344,
+      "acousticness": 0.829,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.036,
+      "duration_ms": 186982,
+      "slug": "la-vie-en-rose-andrea-bocelli"
+    },
+    {
+      "name": "Nocturne",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 57,
+      "tempo": 79.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.298,
+      "valence": 0.154,
+      "danceability": 0.219,
+      "acousticness": 0.944,
+      "instrumentalness": 0.254,
+      "loudness": -11.5,
+      "speechiness": 0.031,
+      "duration_ms": 193680,
+      "slug": "nocturne-secret-garden"
+    },
+    {
+      "name": "Je T\u2019aime",
+      "artists": "Lara Fabian",
+      "album": "Pure",
+      "popularity": 57,
+      "tempo": 107.3,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.436,
+      "valence": 0.153,
+      "danceability": 0.384,
+      "acousticness": 0.754,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.028,
+      "duration_ms": 261106,
+      "slug": "je-taime-lara-fabian"
+    },
+    {
+      "name": "La Vierge / Scene 4: The Assumption: Le dernier sommeil de la Vi\u00e8rge (The Last Sleep of the Virgin)",
+      "artists": "Jules Massenet;The New Symphony Orchestra Of London;Raymond Agoult",
+      "album": "Clair de Lune - Orchestral Favourites; Waldteufel - Waltzes",
+      "popularity": 57,
+      "tempo": 81.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.089,
+      "valence": 0.039,
+      "danceability": 0.162,
+      "acousticness": 0.866,
+      "instrumentalness": 0.378,
+      "loudness": -26.1,
+      "speechiness": 0.036,
+      "duration_ms": 302466,
+      "slug": "la-vierge-scene-4-the-assumption-le-dernier-sommeil-de-la-vi\u00e8rge-the-last-sleep"
+    },
+    {
+      "name": "Noise",
+      "artists": "Nightwish",
+      "album": "HUMAN. :II: NATURE.",
+      "popularity": 57,
+      "tempo": 77.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.85,
+      "valence": 0.434,
+      "danceability": 0.5,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -7.8,
+      "speechiness": 0.049,
+      "duration_ms": 340281,
+      "slug": "noise-nightwish"
+    },
+    {
+      "name": "End Of All Hope",
+      "artists": "Nightwish",
+      "album": "Century Child",
+      "popularity": 57,
+      "tempo": 79.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.946,
+      "valence": 0.563,
+      "danceability": 0.477,
+      "acousticness": 0.0,
+      "instrumentalness": 0.027,
+      "loudness": -6.7,
+      "speechiness": 0.042,
+      "duration_ms": 233800,
+      "slug": "end-of-all-hope-nightwish"
+    },
+    {
+      "name": "Hasta mi final",
+      "artists": "Il Divo",
+      "album": "Ancora",
+      "popularity": 57,
+      "tempo": 131.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.305,
+      "valence": 0.106,
+      "danceability": 0.379,
+      "acousticness": 0.453,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.031,
+      "duration_ms": 216266,
+      "slug": "hasta-mi-final-il-divo"
+    },
+    {
+      "name": "Se Que Volveras",
+      "artists": "Nana Mouskouri;Julio Iglesias",
+      "album": "Nana Latina",
+      "popularity": 57,
+      "tempo": 95.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.498,
+      "valence": 0.241,
+      "danceability": 0.533,
+      "acousticness": 0.601,
+      "instrumentalness": 0.002,
+      "loudness": -9.3,
+      "speechiness": 0.025,
+      "duration_ms": 262800,
+      "slug": "se-que-volveras-nana-mouskouri"
+    },
+    {
+      "name": "While Your Lips Are Still Red - Theme from the Movie \"Lieksa!\"",
+      "artists": "Nightwish",
+      "album": "The Sound of Nightwish Reborn",
+      "popularity": 56,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.658,
+      "valence": 0.113,
+      "danceability": 0.472,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.026,
+      "duration_ms": 258977,
+      "slug": "while-your-lips-are-still-red-theme-from-the-movie-lieksa-nightwish"
+    },
+    {
+      "name": "Rigoletto: \"La donna \u00e8 mobile\"",
+      "artists": "Giuseppe Verdi;Luciano Pavarotti;London Symphony Orchestra;Richard Bonynge",
+      "album": "Pavarotti singt Verdi",
+      "popularity": 56,
+      "tempo": 66.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.128,
+      "valence": 0.363,
+      "danceability": 0.386,
+      "acousticness": 0.966,
+      "instrumentalness": 0.0,
+      "loudness": -16.3,
+      "speechiness": 0.037,
+      "duration_ms": 142506,
+      "slug": "rigoletto-la-donna-\u00e8-mobile-giuseppe-verdi"
+    },
+    {
+      "name": "La traviata / Act I: Libiamo ne'lieti calici",
+      "artists": "Giuseppe Verdi;Ileana Cotrubas;Pl\u00e1cido Domingo;Chor der Bayerischen Staatsoper M\u00fcnchen;Bavarian State Orchestra;Carlos Kleiber",
+      "album": "Verdi: La Traviata",
+      "popularity": 56,
+      "tempo": 113.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.214,
+      "valence": 0.282,
+      "danceability": 0.424,
+      "acousticness": 0.962,
+      "instrumentalness": 0.0,
+      "loudness": -17.7,
+      "speechiness": 0.076,
+      "duration_ms": 175506,
+      "slug": "la-traviata-act-i-libiamo-nelieti-calici-giuseppe-verdi"
+    },
+    {
+      "name": "La Gioconda / Act 3: Dance Of The Hours",
+      "artists": "Amilcare Ponchielli;Staatskapelle Dresden;Silvio Varviso",
+      "album": "Favourite Ballet",
+      "popularity": 56,
+      "tempo": 137.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.018,
+      "valence": 0.252,
+      "danceability": 0.512,
+      "acousticness": 0.881,
+      "instrumentalness": 0.0,
+      "loudness": -30.1,
+      "speechiness": 0.056,
+      "duration_ms": 86360,
+      "slug": "la-gioconda-act-3-dance-of-the-hours-amilcare-ponchielli"
+    },
+    {
+      "name": "Fall On Me",
+      "artists": "Andrea Bocelli;Matteo Bocelli",
+      "album": "S\u00ec (Deluxe)",
+      "popularity": 56,
+      "tempo": 83.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.149,
+      "valence": 0.189,
+      "danceability": 0.35,
+      "acousticness": 0.642,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.033,
+      "duration_ms": 258812,
+      "slug": "fall-on-me-andrea-bocelli"
+    },
+    {
+      "name": "Over The Hills And Far Away",
+      "artists": "Nightwish",
+      "album": "Over The Hills And Far Away",
+      "popularity": 56,
+      "tempo": 101.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.915,
+      "valence": 0.381,
+      "danceability": 0.224,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.07,
+      "duration_ms": 302266,
+      "slug": "over-the-hills-and-far-away-nightwish"
+    },
+    {
+      "name": "Quiz\u00e1s, Quiz\u00e1s, Quiz\u00e1s",
+      "artists": "Andrea Bocelli;Jennifer Lopez",
+      "album": "Pasi\u00f3n",
+      "popularity": 55,
+      "tempo": 112.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.45,
+      "valence": 0.367,
+      "danceability": 0.589,
+      "acousticness": 0.835,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.066,
+      "duration_ms": 198213,
+      "slug": "quiz\u00e1s-quiz\u00e1s-quiz\u00e1s-andrea-bocelli"
+    },
+    {
+      "name": "S.O.S d'un terrien en d\u00e9tresse",
+      "artists": "Dimash Qudaibergen",
+      "album": "\u0413\u0440\u0435\u0448\u043d\u0430\u044f \u0441\u0442\u0440\u0430\u0441\u0442\u044c",
+      "popularity": 55,
+      "tempo": 108.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.401,
+      "valence": 0.062,
+      "danceability": 0.321,
+      "acousticness": 0.643,
+      "instrumentalness": 0.005,
+      "loudness": -8.6,
+      "speechiness": 0.037,
+      "duration_ms": 246543,
+      "slug": "sos-dun-terrien-en-d\u00e9tresse-dimash-qudaibergen"
+    },
+    {
+      "name": "T\u00e9ir Abhaile Riu",
+      "artists": "Celtic Woman",
+      "album": "Decade. The Songs, The Show, The Traditions, The Classics.",
+      "popularity": 55,
+      "tempo": 124.3,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.595,
+      "valence": 0.704,
+      "danceability": 0.515,
+      "acousticness": 0.8,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.05,
+      "duration_ms": 244413,
+      "slug": "t\u00e9ir-abhaile-riu-celtic-woman"
+    },
+    {
+      "name": "The Promise",
+      "artists": "Secret Garden",
+      "album": "Once In A Red Moon",
+      "popularity": 55,
+      "tempo": 86.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.161,
+      "valence": 0.087,
+      "danceability": 0.184,
+      "acousticness": 0.925,
+      "instrumentalness": 0.771,
+      "loudness": -18.3,
+      "speechiness": 0.046,
+      "duration_ms": 200933,
+      "slug": "the-promise-secret-garden"
+    },
+    {
+      "name": "Dies Irae",
+      "artists": "Giuseppe Verdi;Carmen Giannattasio;Veronica Simeoni;Alxander Timchenko;Carlo Colombara;Yuri Temirkanov;St. Petersburg Philharmonic Orchestra",
+      "album": "Verdi Requiem",
+      "popularity": 55,
+      "tempo": 79.8,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.346,
+      "valence": 0.24,
+      "danceability": 0.272,
+      "acousticness": 0.926,
+      "instrumentalness": 0.931,
+      "loudness": -14.0,
+      "speechiness": 0.032,
+      "duration_ms": 134746,
+      "slug": "dies-irae-giuseppe-verdi"
+    },
+    {
+      "name": "The Second Waltz, Op. 99a",
+      "artists": "Andr\u00e9 Rieu;Johann Strauss Orchestra",
+      "album": "100 Greatest Moments",
+      "popularity": 55,
+      "tempo": 186.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.295,
+      "valence": 0.467,
+      "danceability": 0.242,
+      "acousticness": 0.919,
+      "instrumentalness": 0.899,
+      "loudness": -10.8,
+      "speechiness": 0.032,
+      "duration_ms": 221706,
+      "slug": "the-second-waltz-op-99a-andr\u00e9-rieu"
+    },
+    {
+      "name": "Evermore",
+      "artists": "Josh Groban",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 89.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.362,
+      "valence": 0.233,
+      "danceability": 0.219,
+      "acousticness": 0.794,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.033,
+      "duration_ms": 189477,
+      "slug": "evermore-josh-groban"
+    },
+    {
+      "name": "Love Theme (from \"Romeo and Juliet\")",
+      "artists": "Andr\u00e9 Rieu",
+      "album": "At the Movies",
+      "popularity": 55,
+      "tempo": 75.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.224,
+      "valence": 0.077,
+      "danceability": 0.236,
+      "acousticness": 0.835,
+      "instrumentalness": 0.843,
+      "loudness": -13.6,
+      "speechiness": 0.038,
+      "duration_ms": 224000,
+      "slug": "love-theme-from-romeo-and-juliet-andr\u00e9-rieu"
+    },
+    {
+      "name": "All I Ask of You (from \"The Phantom of the Opera\") [with Kelly Clarkson]",
+      "artists": "Josh Groban;Kelly Clarkson",
+      "album": "Stages (Deluxe)",
+      "popularity": 55,
+      "tempo": 91.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.268,
+      "valence": 0.189,
+      "danceability": 0.223,
+      "acousticness": 0.912,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.03,
+      "duration_ms": 239453,
+      "slug": "all-i-ask-of-you-from-the-phantom-of-the-opera-with-kelly-clarkson-josh-groban"
+    },
+    {
+      "name": "Carmen Suite No. 1 (Arr. E. Guiraud): I. Pr\u00e9lude",
+      "artists": "Georges Bizet;Orquestra Simf\u00f2nica de Barcelona i Nacional de Catalunya;Pablo Gonz\u00e1lez",
+      "album": "Bizet: Carmen & L'arl\u00e9sienne Suites",
+      "popularity": 55,
+      "tempo": 121.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.117,
+      "valence": 0.036,
+      "danceability": 0.173,
+      "acousticness": 0.974,
+      "instrumentalness": 0.842,
+      "loudness": -25.0,
+      "speechiness": 0.045,
+      "duration_ms": 88640,
+      "slug": "carmen-suite-no-1-arr-e-guiraud-i-pr\u00e9lude-georges-bizet"
+    },
+    {
+      "name": "The Arts and the Hours",
+      "artists": "Jean-Philippe Rameau;V\u00edkingur \u00d3lafsson",
+      "album": "Debussy \u2013 Rameau",
+      "popularity": 54,
+      "tempo": 136.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.026,
+      "valence": 0.268,
+      "danceability": 0.415,
+      "acousticness": 0.995,
+      "instrumentalness": 0.938,
+      "loudness": -36.7,
+      "speechiness": 0.05,
+      "duration_ms": 285442,
+      "slug": "the-arts-and-the-hours-jean-philippe-rameau"
+    },
+    {
+      "name": "You Raise Me Up",
+      "artists": "Celtic Woman",
+      "album": "Celtic Woman",
+      "popularity": 54,
+      "tempo": 121.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.209,
+      "valence": 0.141,
+      "danceability": 0.262,
+      "acousticness": 0.919,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.038,
+      "duration_ms": 271133,
+      "slug": "you-raise-me-up-celtic-woman"
+    },
+    {
+      "name": "Adagio",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 54,
+      "tempo": 51.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.328,
+      "valence": 0.061,
+      "danceability": 0.115,
+      "acousticness": 0.911,
+      "instrumentalness": 0.771,
+      "loudness": -11.2,
+      "speechiness": 0.042,
+      "duration_ms": 175040,
+      "slug": "adagio-secret-garden"
+    },
+    {
+      "name": "The Lonely Shepherd",
+      "artists": "Andr\u00e9 Rieu;Johann Strauss Orchestra",
+      "album": "Falling In Love",
+      "popularity": 54,
+      "tempo": 72.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.287,
+      "valence": 0.074,
+      "danceability": 0.166,
+      "acousticness": 0.817,
+      "instrumentalness": 0.853,
+      "loudness": -12.6,
+      "speechiness": 0.035,
+      "duration_ms": 208133,
+      "slug": "the-lonely-shepherd-andr\u00e9-rieu"
+    },
+    {
+      "name": "I Believe in You (Je crois en toi)",
+      "artists": "Il Divo;C\u00e9line Dion",
+      "album": "Ancora",
+      "popularity": 54,
+      "tempo": 179.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.522,
+      "valence": 0.057,
+      "danceability": 0.165,
+      "acousticness": 0.645,
+      "instrumentalness": 0.024,
+      "loudness": -5.5,
+      "speechiness": 0.033,
+      "duration_ms": 240293,
+      "slug": "i-believe-in-you-je-crois-en-toi-il-divo"
+    },
+    {
+      "name": "Cry for the Moon (The Embrace That Smothers , Pt. 4)",
+      "artists": "Epica",
+      "album": "The Phantom Agony (Expanded Edition)",
+      "popularity": 54,
+      "tempo": 180.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.902,
+      "valence": 0.302,
+      "danceability": 0.446,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.046,
+      "duration_ms": 406040,
+      "slug": "cry-for-the-moon-the-embrace-that-smothers-pt-4-epica"
+    },
+    {
+      "name": "Serenade To Spring",
+      "artists": "Secret Garden",
+      "album": "Songs From A Secret Garden",
+      "popularity": 54,
+      "tempo": 83.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.322,
+      "valence": 0.125,
+      "danceability": 0.119,
+      "acousticness": 0.69,
+      "instrumentalness": 0.888,
+      "loudness": -12.2,
+      "speechiness": 0.035,
+      "duration_ms": 195120,
+      "slug": "serenade-to-spring-secret-garden"
+    },
+    {
+      "name": "Coppelia: Act I - Valse",
+      "artists": "L\u00e9o Delibes;Slovak Radio Symphony Orchestra;Andrew Mogrelia",
+      "album": "Delibes: Coppelia (Complete Ballet) / La Source Suites",
+      "popularity": 54,
+      "tempo": 88.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.031,
+      "valence": 0.189,
+      "danceability": 0.198,
+      "acousticness": 0.901,
+      "instrumentalness": 0.866,
+      "loudness": -26.7,
+      "speechiness": 0.042,
+      "duration_ms": 141200,
+      "slug": "coppelia-act-i-valse-l\u00e9o-delibes"
+    },
+    {
+      "name": "To Where You Are",
+      "artists": "Josh Groban",
+      "album": "Josh Groban",
+      "popularity": 54,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.322,
+      "valence": 0.109,
+      "danceability": 0.286,
+      "acousticness": 0.651,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.032,
+      "duration_ms": 233893,
+      "slug": "to-where-you-are-josh-groban"
+    },
+    {
+      "name": "Ever Dream",
+      "artists": "Nightwish",
+      "album": "Century Child",
+      "popularity": 54,
+      "tempo": 147.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.873,
+      "valence": 0.25,
+      "danceability": 0.394,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.059,
+      "duration_ms": 282933,
+      "slug": "ever-dream-nightwish"
+    },
+    {
+      "name": "Sylvia: Pizzicato",
+      "artists": "L\u00e9o Delibes;Slovak Philharmonic;Ondrej Lenard",
+      "album": "Delibes: Best of French Ballet",
+      "popularity": 53,
+      "tempo": 159.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.019,
+      "valence": 0.189,
+      "danceability": 0.342,
+      "acousticness": 0.875,
+      "instrumentalness": 0.079,
+      "loudness": -39.2,
+      "speechiness": 0.053,
+      "duration_ms": 105000,
+      "slug": "sylvia-pizzicato-l\u00e9o-delibes"
+    },
+    {
+      "name": "Ballade pour Adeline",
+      "artists": "Andr\u00e9 Rieu;Johann Strauss Orchestra;St\u00e9phanie Detry",
+      "album": "Amore",
+      "popularity": 53,
+      "tempo": 129.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.392,
+      "valence": 0.075,
+      "danceability": 0.22,
+      "acousticness": 0.599,
+      "instrumentalness": 0.405,
+      "loudness": -11.2,
+      "speechiness": 0.034,
+      "duration_ms": 175266,
+      "slug": "ballade-pour-adeline-andr\u00e9-rieu"
+    },
+    {
+      "name": "Can't Help Falling In Love - Live From Spotify, NYC / 2015",
+      "artists": "Andrea Bocelli;David Foster",
+      "album": "Andrea Bocelli Spotify Sessions (Live)",
+      "popularity": 53,
+      "tempo": 93.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.205,
+      "danceability": 0.284,
+      "acousticness": 0.926,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.069,
+      "duration_ms": 179869,
+      "slug": "cant-help-falling-in-love-live-from-spotify-nyc-2015-andrea-bocelli"
+    },
+    {
+      "name": "Can't Help Falling In Love",
+      "artists": "Andr\u00e9 Rieu;Johann Strauss Orchestra",
+      "album": "Falling In Love",
+      "popularity": 53,
+      "tempo": 81.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.251,
+      "valence": 0.052,
+      "danceability": 0.081,
+      "acousticness": 0.902,
+      "instrumentalness": 0.868,
+      "loudness": -16.0,
+      "speechiness": 0.037,
+      "duration_ms": 229133,
+      "slug": "cant-help-falling-in-love-andr\u00e9-rieu"
+    },
+    {
+      "name": "The Flower Duet (From \"Lakm\u00e9\")",
+      "artists": "Katherine Jenkins;Kiri Te Kanawa;Philharmonia Orchestra;Anthony Inglis",
+      "album": "Katherine Jenkins / From The Heart",
+      "popularity": 53,
+      "tempo": 102.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.291,
+      "valence": 0.078,
+      "danceability": 0.32,
+      "acousticness": 0.963,
+      "instrumentalness": 0.0,
+      "loudness": -13.0,
+      "speechiness": 0.039,
+      "duration_ms": 230933,
+      "slug": "the-flower-duet-from-lakm\u00e9-katherine-jenkins"
+    },
+    {
+      "name": "Die Walkure, Act III: Ride of the Valkyries",
+      "artists": "Richard Wagner;Budapest Symphony Orchestra;Gy\u00f6rgy Lehel",
+      "album": "Wagner, R.: Orchestral Music From Operas",
+      "popularity": 53,
+      "tempo": 90.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.219,
+      "valence": 0.097,
+      "danceability": 0.251,
+      "acousticness": 0.929,
+      "instrumentalness": 0.933,
+      "loudness": -16.8,
+      "speechiness": 0.032,
+      "duration_ms": 325000,
+      "slug": "die-walkure-act-iii-ride-of-the-valkyries-richard-wagner"
+    },
+    {
+      "name": "Je Suis Malade",
+      "artists": "Lara Fabian",
+      "album": "Carpe Diem",
+      "popularity": 53,
+      "tempo": 65.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.347,
+      "valence": 0.206,
+      "danceability": 0.262,
+      "acousticness": 0.768,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.04,
+      "duration_ms": 264240,
+      "slug": "je-suis-malade-lara-fabian"
+    },
+    {
+      "name": "Feather Theme (From \"Forrest Gump\")",
+      "artists": "Danny Wright",
+      "album": "Dream A Little Dream: Classic Piano Lullabies",
+      "popularity": 53,
+      "tempo": 126.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.054,
+      "valence": 0.167,
+      "danceability": 0.395,
+      "acousticness": 0.969,
+      "instrumentalness": 0.855,
+      "loudness": -26.5,
+      "speechiness": 0.046,
+      "duration_ms": 187857,
+      "slug": "feather-theme-from-forrest-gump-danny-wright"
+    },
+    {
+      "name": "Requiem: The Story of One Sky",
+      "artists": "Dimash Qudaibergen",
+      "album": "Requiem: The Story of One Sky",
+      "popularity": 53,
+      "tempo": 137.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.525,
+      "valence": 0.096,
+      "danceability": 0.271,
+      "acousticness": 0.377,
+      "instrumentalness": 0.005,
+      "loudness": -7.3,
+      "speechiness": 0.037,
+      "duration_ms": 599401,
+      "slug": "requiem-the-story-of-one-sky-dimash-qudaibergen"
+    },
+    {
+      "name": "Last Ride of the Day",
+      "artists": "Nightwish",
+      "album": "Imaginaerum",
+      "popularity": 53,
+      "tempo": 162.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.951,
+      "valence": 0.581,
+      "danceability": 0.448,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.052,
+      "duration_ms": 271120,
+      "slug": "last-ride-of-the-day-nightwish"
+    },
+    {
+      "name": "Solamente Una Vez",
+      "artists": "Andrea Bocelli",
+      "album": "Amore (Remastered)",
+      "popularity": 53,
+      "tempo": 81.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.55,
+      "valence": 0.343,
+      "danceability": 0.505,
+      "acousticness": 0.836,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.036,
+      "duration_ms": 209768,
+      "slug": "solamente-una-vez-andrea-bocelli"
+    },
+    {
+      "name": "Teir Abhaile Riu",
+      "artists": "Celtic Woman",
+      "album": "Celebration",
+      "popularity": 52,
+      "tempo": 124.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.46,
+      "valence": 0.708,
+      "danceability": 0.528,
+      "acousticness": 0.821,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.05,
+      "duration_ms": 246880,
+      "slug": "teir-abhaile-riu-celtic-woman"
+    },
+    {
+      "name": "Scarborough Fair",
+      "artists": "Celtic Woman",
+      "album": "A New Journey",
+      "popularity": 52,
+      "tempo": 123.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.233,
+      "valence": 0.102,
+      "danceability": 0.247,
+      "acousticness": 0.914,
+      "instrumentalness": 0.0,
+      "loudness": -13.6,
+      "speechiness": 0.037,
+      "duration_ms": 192973,
+      "slug": "scarborough-fair-celtic-woman"
+    },
+    {
+      "name": "If Only",
+      "artists": "Andrea Bocelli;Dua Lipa",
+      "album": "S\u00ec (Deluxe)",
+      "popularity": 52,
+      "tempo": 147.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.207,
+      "valence": 0.076,
+      "danceability": 0.236,
+      "acousticness": 0.875,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.033,
+      "duration_ms": 217224,
+      "slug": "if-only-andrea-bocelli"
+    },
+    {
+      "name": "Pachelbel's Canon in D",
+      "artists": "Danny Wright",
+      "album": "Healer of Hearts",
+      "popularity": 52,
+      "tempo": 74.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.184,
+      "valence": 0.144,
+      "danceability": 0.267,
+      "acousticness": 0.822,
+      "instrumentalness": 0.926,
+      "loudness": -16.4,
+      "speechiness": 0.033,
+      "duration_ms": 217746,
+      "slug": "pachelbels-canon-in-d-danny-wright"
+    },
+    {
+      "name": "Amo Soltanto Te",
+      "artists": "Andrea Bocelli;Ed Sheeran",
+      "album": "S\u00ec (Deluxe)",
+      "popularity": 52,
+      "tempo": 95.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.25,
+      "valence": 0.209,
+      "danceability": 0.445,
+      "acousticness": 0.913,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.03,
+      "duration_ms": 200747,
+      "slug": "amo-soltanto-te-andrea-bocelli"
+    },
+    {
+      "name": "I Dreamed a Dream",
+      "artists": "Susan Boyle",
+      "album": "I Dreamed A Dream",
+      "popularity": 52,
+      "tempo": 69.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.378,
+      "valence": 0.113,
+      "danceability": 0.286,
+      "acousticness": 0.803,
+      "instrumentalness": 0.001,
+      "loudness": -8.8,
+      "speechiness": 0.038,
+      "duration_ms": 190560,
+      "slug": "i-dreamed-a-dream-susan-boyle"
+    },
+    {
+      "name": "Amaranth",
+      "artists": "Nightwish",
+      "album": "Dark Passion Play",
+      "popularity": 52,
+      "tempo": 128.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.31,
+      "danceability": 0.558,
+      "acousticness": 0.005,
+      "instrumentalness": 0.002,
+      "loudness": -4.0,
+      "speechiness": 0.042,
+      "duration_ms": 231444,
+      "slug": "amaranth-nightwish"
+    },
+    {
+      "name": "Amazing Grace (arr. Mercurio)",
+      "artists": "Andrea Bocelli;Alison Krauss",
+      "album": "Believe (Deluxe)",
+      "popularity": 52,
+      "tempo": 80.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.251,
+      "valence": 0.119,
+      "danceability": 0.108,
+      "acousticness": 0.918,
+      "instrumentalness": 0.001,
+      "loudness": -11.2,
+      "speechiness": 0.036,
+      "duration_ms": 236913,
+      "slug": "amazing-grace-arr-mercurio-andrea-bocelli"
+    },
+    {
+      "name": "The Voice",
+      "artists": "Celtic Woman",
+      "album": "A New Journey",
+      "popularity": 52,
+      "tempo": 188.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.578,
+      "valence": 0.372,
+      "danceability": 0.201,
+      "acousticness": 0.789,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.048,
+      "duration_ms": 185373,
+      "slug": "the-voice-celtic-woman"
+    },
+    {
+      "name": "La traviata / Act 1: Libiamo ne'lieti calici",
+      "artists": "Giuseppe Verdi;Luciano Pavarotti;Dame Joan Sutherland;The London Opera Chorus;National Philharmonic Orchestra;Richard Bonynge",
+      "album": "Verdi: La Traviata",
+      "popularity": 52,
+      "tempo": 110.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.246,
+      "valence": 0.208,
+      "danceability": 0.395,
+      "acousticness": 0.967,
+      "instrumentalness": 0.0,
+      "loudness": -16.6,
+      "speechiness": 0.064,
+      "duration_ms": 167026,
+      "slug": "la-traviata-act-1-libiamo-nelieti-calici-giuseppe-verdi"
+    },
+    {
+      "name": "Perfect Day",
+      "artists": "Miriam Stockley",
+      "album": "Miriam",
+      "popularity": 52,
+      "tempo": 170.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.174,
+      "valence": 0.039,
+      "danceability": 0.17,
+      "acousticness": 0.914,
+      "instrumentalness": 0.031,
+      "loudness": -16.9,
+      "speechiness": 0.036,
+      "duration_ms": 200973,
+      "slug": "perfect-day-miriam-stockley"
+    },
+    {
+      "name": "How's the Heart?",
+      "artists": "Nightwish",
+      "album": "HUMAN. :II: NATURE.",
+      "popularity": 52,
+      "tempo": 104.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.643,
+      "valence": 0.272,
+      "danceability": 0.543,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.028,
+      "duration_ms": 302179,
+      "slug": "hows-the-heart-nightwish"
+    },
+    {
+      "name": "We Will Meet Once Again (with Andrea Bocelli)",
+      "artists": "Josh Groban;Andrea Bocelli",
+      "album": "Bridges (Deluxe)",
+      "popularity": 52,
+      "tempo": 108.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.422,
+      "valence": 0.177,
+      "danceability": 0.249,
+      "acousticness": 0.844,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.032,
+      "duration_ms": 235226,
+      "slug": "we-will-meet-once-again-with-andrea-bocelli-josh-groban"
+    },
+    {
+      "name": "I Know Him So Well",
+      "artists": "Elaine Paige;Barbara Dickson",
+      "album": "Love Hurts",
+      "popularity": 52,
+      "tempo": 138.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.211,
+      "valence": 0.131,
+      "danceability": 0.423,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.029,
+      "duration_ms": 257106,
+      "slug": "i-know-him-so-well-elaine-paige"
+    },
+    {
+      "name": "Can't Help Falling In Love - Live At Lake Las Vegas/2005",
+      "artists": "Andrea Bocelli",
+      "album": "Amore (Remastered)",
+      "popularity": 51,
+      "tempo": 97.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.399,
+      "valence": 0.168,
+      "danceability": 0.461,
+      "acousticness": 0.813,
+      "instrumentalness": 0.014,
+      "loudness": -7.9,
+      "speechiness": 0.024,
+      "duration_ms": 205182,
+      "slug": "cant-help-falling-in-love-live-at-lake-las-vegas2005-andrea-bocelli"
+    },
+    {
+      "name": "Sleeping Sun",
+      "artists": "Nightwish",
+      "album": "Oceanborn",
+      "popularity": 51,
+      "tempo": 110.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.572,
+      "valence": 0.071,
+      "danceability": 0.333,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.03,
+      "duration_ms": 245000,
+      "slug": "sleeping-sun-nightwish"
+    },
+    {
+      "name": "Nessun Dorma",
+      "artists": "Giacomo Puccini;HAUSER;Robert Ziegler;London Symphony Orchestra",
+      "album": "Classic",
+      "popularity": 51,
+      "tempo": 98.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.475,
+      "valence": 0.052,
+      "danceability": 0.168,
+      "acousticness": 0.911,
+      "instrumentalness": 0.929,
+      "loudness": -5.7,
+      "speechiness": 0.035,
+      "duration_ms": 177960,
+      "slug": "nessun-dorma-giacomo-puccini"
+    },
+    {
+      "name": "Beethoven's Silence",
+      "artists": "Ernesto Cortazar",
+      "album": "Just for You",
+      "popularity": 51,
+      "tempo": 140.7,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.272,
+      "valence": 0.087,
+      "danceability": 0.272,
+      "acousticness": 0.975,
+      "instrumentalness": 0.964,
+      "loudness": -16.2,
+      "speechiness": 0.038,
+      "duration_ms": 158538,
+      "slug": "beethovens-silence-ernesto-cortazar"
+    },
+    {
+      "name": "Return To Love",
+      "artists": "Andrea Bocelli;Ellie Goulding",
+      "album": "Return To Love",
+      "popularity": 51,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.434,
+      "valence": 0.138,
+      "danceability": 0.494,
+      "acousticness": 0.609,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.031,
+      "duration_ms": 274093,
+      "slug": "return-to-love-andrea-bocelli"
+    },
+    {
+      "name": "Jeux d'enfants, Op. 22 WD 56: 3. La poup\u00e9e",
+      "artists": "Georges Bizet;Katia Lab\u00e8que;Marielle Lab\u00e8que",
+      "album": "Bizet: Jeux d'enfants / Faur\u00e9: Dolly Suite / Ravel: Ma M\u00e8re l'oye",
+      "popularity": 51,
+      "tempo": 64.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.007,
+      "valence": 0.239,
+      "danceability": 0.499,
+      "acousticness": 0.996,
+      "instrumentalness": 0.915,
+      "loudness": -37.5,
+      "speechiness": 0.05,
+      "duration_ms": 142000,
+      "slug": "jeux-denfants-op-22-wd-56-3-la-poup\u00e9e-georges-bizet"
+    },
+    {
+      "name": "Quiz\u00e1s, Quiz\u00e1s, Quiz\u00e1s",
+      "artists": "Andrea Bocelli;Jennifer Lopez",
+      "album": "Love In Portofino",
+      "popularity": 51,
+      "tempo": 112.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.456,
+      "valence": 0.362,
+      "danceability": 0.608,
+      "acousticness": 0.858,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.063,
+      "duration_ms": 198455,
+      "slug": "quiz\u00e1s-quiz\u00e1s-quiz\u00e1s-andrea-bocelli"
+    },
+    {
+      "name": "Carmen Suite No. 2: 2. Habanera",
+      "artists": "Georges Bizet;Orchestre de Paris;Semyon Bychkov",
+      "album": "Bizet: Carmen Suites; L'Arl\u00e9sienne Suites",
+      "popularity": 51,
+      "tempo": 133.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.006,
+      "valence": 0.489,
+      "danceability": 0.457,
+      "acousticness": 0.964,
+      "instrumentalness": 0.001,
+      "loudness": -29.6,
+      "speechiness": 0.046,
+      "duration_ms": 122000,
+      "slug": "carmen-suite-no-2-2-habanera-georges-bizet"
+    },
+    {
+      "name": "Musetta's Waltz",
+      "artists": "Giacomo Puccini;Arranged By;Dick Hyman;Moe Koffman",
+      "album": "Moonstruck (Original Motion Picture Soundtrack)",
+      "popularity": 51,
+      "tempo": 85.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.127,
+      "valence": 0.215,
+      "danceability": 0.287,
+      "acousticness": 0.944,
+      "instrumentalness": 0.433,
+      "loudness": -18.2,
+      "speechiness": 0.038,
+      "duration_ms": 267640,
+      "slug": "musettas-waltz-giacomo-puccini"
+    },
+    {
+      "name": "Carmen, Act I: No.5 Habanera : L'amour est un oiseau rebelle (Carmen/Cigari\u00e8res/Jeunes gens/Dragons)",
+      "artists": "Georges Bizet;Angela Gheorghiu;Michel Plasson;Wolff;Orchestre National Du Capitole De Toulouse",
+      "album": "Bizet : Carmen",
+      "popularity": 51,
+      "tempo": 123.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.059,
+      "valence": 0.185,
+      "danceability": 0.364,
+      "acousticness": 0.978,
+      "instrumentalness": 0.0,
+      "loudness": -21.8,
+      "speechiness": 0.057,
+      "duration_ms": 275466,
+      "slug": "carmen-act-i-no5-habanera-lamour-est-un-oiseau-rebelle-carmencigari\u00e8resjeunes-ge"
+    },
+    {
+      "name": "Carmen Suite No. 1: 5. Les tor\u00e9adors",
+      "artists": "Georges Bizet;Orchestre de Paris;Semyon Bychkov",
+      "album": "Bizet: Carmen Suites; L'Arl\u00e9sienne Suites",
+      "popularity": 51,
+      "tempo": 127.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.372,
+      "valence": 0.821,
+      "danceability": 0.335,
+      "acousticness": 0.697,
+      "instrumentalness": 0.0,
+      "loudness": -16.1,
+      "speechiness": 0.037,
+      "duration_ms": 138000,
+      "slug": "carmen-suite-no-1-5-les-tor\u00e9adors-georges-bizet"
+    },
+    {
+      "name": "Il barbiere di Siviglia: Overture (Sinfonia)",
+      "artists": "Gioachino Rossini;Academy of St. Martin in the Fields;Sir Neville Marriner",
+      "album": "Rossini: Complete Overtures",
+      "popularity": 51,
+      "tempo": 92.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.14,
+      "valence": 0.285,
+      "danceability": 0.322,
+      "acousticness": 0.906,
+      "instrumentalness": 0.759,
+      "loudness": -20.7,
+      "speechiness": 0.049,
+      "duration_ms": 425000,
+      "slug": "il-barbiere-di-siviglia-overture-sinfonia-gioachino-rossini"
+    },
+    {
+      "name": "An Evening Walk",
+      "artists": "Bernward Koch",
+      "album": "Gentle Spirit",
+      "popularity": 51,
+      "tempo": 125.2,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.127,
+      "valence": 0.098,
+      "danceability": 0.269,
+      "acousticness": 0.94,
+      "instrumentalness": 0.909,
+      "loudness": -16.9,
+      "speechiness": 0.036,
+      "duration_ms": 239053,
+      "slug": "an-evening-walk-bernward-koch"
+    },
+    {
+      "name": "Only Love",
+      "artists": "Andr\u00e9 Rieu;Johann Strauss Orchestra",
+      "album": "Amore",
+      "popularity": 51,
+      "tempo": 81.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.267,
+      "valence": 0.065,
+      "danceability": 0.118,
+      "acousticness": 0.884,
+      "instrumentalness": 0.825,
+      "loudness": -12.8,
+      "speechiness": 0.032,
+      "duration_ms": 219266,
+      "slug": "only-love-andr\u00e9-rieu"
+    },
+    {
+      "name": "The Skeleton Key",
+      "artists": "Epica",
+      "album": "Omega",
+      "popularity": 51,
+      "tempo": 142.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.75,
+      "valence": 0.229,
+      "danceability": 0.486,
+      "acousticness": 0.014,
+      "instrumentalness": 0.001,
+      "loudness": -8.2,
+      "speechiness": 0.054,
+      "duration_ms": 306346,
+      "slug": "the-skeleton-key-epica"
+    },
+    {
+      "name": "Le bourgeois gentilhomme: Chaconne des Scaramouches, Frivelins et Arlequins",
+      "artists": "Jean-Baptiste Lully;Mary Enid Haines;Sharla Nafziger;Aradia Ensemble;Kevin Mallon",
+      "album": "Lully: Ballet Music for the Sun King",
+      "popularity": 51,
+      "tempo": 0.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.019,
+      "valence": 0.0,
+      "danceability": 0.0,
+      "acousticness": 0.936,
+      "instrumentalness": 0.02,
+      "loudness": -28.8,
+      "speechiness": 0.0,
+      "duration_ms": 88160,
+      "slug": "le-bourgeois-gentilhomme-chaconne-des-scaramouches-frivelins-et-arlequins-jean-b"
+    },
+    {
+      "name": "Il Mondo",
+      "artists": "Il Volo",
+      "album": "Il Volo",
+      "popularity": 51,
+      "tempo": 75.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.501,
+      "valence": 0.219,
+      "danceability": 0.275,
+      "acousticness": 0.809,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.037,
+      "duration_ms": 258800,
+      "slug": "il-mondo-il-volo"
+    },
+    {
+      "name": "The Wicked Rule The Night",
+      "artists": "Avantasia;Ralf Scheepers",
+      "album": "The Wicked Rule The Night",
+      "popularity": 51,
+      "tempo": 170.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.28,
+      "danceability": 0.29,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -4.4,
+      "speechiness": 0.051,
+      "duration_ms": 264946,
+      "slug": "the-wicked-rule-the-night-avantasia"
+    },
+    {
+      "name": "Aida: Act II: Marcia",
+      "artists": "Giuseppe Verdi;Maria Dragoni;Kristjan Johannsson;Barbara Dever;Mark Rucker;Francesco Ellero d' Artegna;Riccardo Ferrari;Antonio Marcen\u00f2;Monica Trini;Colin Mawby;RT\u00c9 Philharmonic Choir;RTE Chamber Choir;Culwick Choral Society;Bray Choral Society;Dublin County Choir;Dun Laoghaire Choral Society;Cantabile Singers;Goethe Institut Choir;Musica Sacra;The Phoenix Singers;RT\u00c9 National Symphony Orchestra;Irish Army No. 1 Band;Ricco Saccani",
+      "album": "Verdi: Aida",
+      "popularity": 50,
+      "tempo": 112.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.107,
+      "valence": 0.321,
+      "danceability": 0.307,
+      "acousticness": 0.864,
+      "instrumentalness": 0.955,
+      "loudness": -20.2,
+      "speechiness": 0.04,
+      "duration_ms": 94666,
+      "slug": "aida-act-ii-marcia-giuseppe-verdi"
+    },
+    {
+      "name": "\u041e'\u043a\u0435\u0439",
+      "artists": "Dimash Qudaibergen",
+      "album": "\u041e'\u043a\u0435\u0439",
+      "popularity": 50,
+      "tempo": 123.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.648,
+      "valence": 0.18,
+      "danceability": 0.616,
+      "acousticness": 0.473,
+      "instrumentalness": 0.031,
+      "loudness": -10.5,
+      "speechiness": 0.09,
+      "duration_ms": 197387,
+      "slug": "\u043e\u043a\u0435\u0439-dimash-qudaibergen"
+    },
+    {
+      "name": "A Man Without Love",
+      "artists": "Patrizio Buanne",
+      "album": "The Italian",
+      "popularity": 50,
+      "tempo": 110.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.648,
+      "valence": 0.413,
+      "danceability": 0.554,
+      "acousticness": 0.666,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.03,
+      "duration_ms": 204640,
+      "slug": "a-man-without-love-patrizio-buanne"
+    },
+    {
+      "name": "Ga\u00eet\u00e9 parisienne: Barcarolle",
+      "artists": "Jacques Offenbach;Boston Symphony Orchestra;Seiji Ozawa",
+      "album": "Ballet Highlights - The Nutcracker, Romeo & Juliet, Swan Lake",
+      "popularity": 50,
+      "tempo": 77.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.072,
+      "valence": 0.075,
+      "danceability": 0.103,
+      "acousticness": 0.96,
+      "instrumentalness": 0.694,
+      "loudness": -23.6,
+      "speechiness": 0.037,
+      "duration_ms": 227973,
+      "slug": "ga\u00eet\u00e9-parisienne-barcarolle-jacques-offenbach"
+    }
+  ]
+}
