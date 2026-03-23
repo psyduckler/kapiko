@@ -21,6 +21,20 @@ def fmt_dur(ms):
 def loud_pct(db):
     return max(0, min(100, (60+db)/60*100))
 
+def get_camelot_key(key, mode):
+    """Convert key/mode to Camelot notation."""
+    major_keys = {'C': '8B', 'G': '9B', 'D': '10B', 'A': '11B', 'E': '12B', 
+                  'B': '1B', 'F#': '2B', 'Db': '3B', 'Ab': '4B', 'Eb': '5B', 
+                  'Bb': '6B', 'F': '7B'}
+    minor_keys = {'A': '8A', 'E': '9A', 'B': '10A', 'F#': '11A', 'C#': '12A',
+                  'G#': '1A', 'D#': '2A', 'Bb': '3A', 'F': '4A', 'C': '5A',
+                  'G': '6A', 'D': '7A'}
+    
+    if mode == 'Major':
+        return major_keys.get(key, f'{key}B')
+    else:
+        return minor_keys.get(key, f'{key}A')
+
 def infer_mood(energy, valence):
     if energy < 0.3 and valence < 0.3: return 'melancholic, introspective'
     if energy < 0.3 and valence >= 0.3: return 'peaceful, serene'
@@ -155,6 +169,59 @@ def infer_style(genre, energy, acousticness):
     if energy < 0.3: return 'minimal, ambient, sparse'
     return 'polished, balanced, studio-quality'
 
+def get_track_genres(track_slug, all_genres_data):
+    """Find all genres this track appears in."""
+    genres = []
+    for genre, data in all_genres_data.items():
+        if any(t.get('slug') == track_slug for t in data.get('tracks', [])):
+            genres.append(genre)
+    return genres
+
+def find_similar_songs(track_slug, track_artist, track_key, track_mode, primary_genre, all_genres_data):
+    """Find similar songs by artist, genre, and key. Deduplicates across sections."""
+    similar_artist = []
+    similar_genre = []
+    similar_key = []
+    seen_slugs = {track_slug}  # track our own slug + anything already added
+    
+    key_mode = f"{track_key} {track_mode}"
+    
+    for genre, data in all_genres_data.items():
+        for track in data.get('tracks', []):
+            slug = track.get('slug', '')
+            if not slug or slug in seen_slugs:
+                continue
+            
+            entry = {
+                'name': track.get('name'),
+                'artist': track.get('artists', '').split(';')[0].strip(),
+                'tempo': track.get('tempo', 120),
+                'key': f"{track.get('key', 'C')} {track.get('mode', 'Major')}",
+                'slug': slug,
+                'genre': genre
+            }
+            
+            # More from same artist (match on first artist)
+            first_artist = track.get('artists', '').split(';')[0].strip()
+            track_first_artist = track_artist.split(';')[0].strip()
+            if first_artist == track_first_artist and len(similar_artist) < 6:
+                similar_artist.append(entry)
+                seen_slugs.add(slug)
+            
+            # Same genre (but different artist, not already used)
+            elif (genre == primary_genre and slug not in seen_slugs and 
+                  len(similar_genre) < 6):
+                similar_genre.append(entry)
+                seen_slugs.add(slug)
+            
+            # Same key (any genre, not already used)
+            elif (f"{track.get('key', 'C')} {track.get('mode', 'Major')}" == key_mode and
+                  slug not in seen_slugs and len(similar_key) < 6):
+                similar_key.append(entry)
+                seen_slugs.add(slug)
+    
+    return similar_artist[:6], similar_genre[:6], similar_key[:6]
+
 GENRE_DISPLAY = {
     'piano':'Piano','sleep':'Sleep','chill':'Chill','study':'Study',
     'classical':'Classical','jazz':'Jazz','acoustic':'Acoustic',
@@ -163,10 +230,11 @@ GENRE_DISPLAY = {
     'neo-classical':'Neo-Classical','focus':'Focus','jazz-piano':'Jazz Piano'
 }
 
-def make_page(t, genre):
+def make_page(t, genre, all_genres_data=None):
     name = t['name']
     artist = t['artists']
     slug = t.get('slug', '')
+    album = t.get('album', '')
     pop = t.get('popularity', 50)
     tempo = t.get('tempo', 120)
     key = t.get('key', 'C')
@@ -177,6 +245,7 @@ def make_page(t, genre):
     a = t.get('acousticness', 0.5)
     ins = t.get('instrumentalness', 0.1)
     sp = t.get('speechiness', 0.05)
+    liv = t.get('liveness', 0.1)
     loud = t.get('loudness', -8.0)
     dur_ms = t.get('duration_ms', 210000)
     
@@ -187,6 +256,12 @@ def make_page(t, genre):
     gdisp = GENRE_DISPLAY.get(genre, genre.replace('-',' ').title())
     
     key_mode = f"{key} {mode}"
+    camelot_key = get_camelot_key(key, mode)
+    
+    # Get track genres and similar songs
+    track_genres = get_track_genres(slug, all_genres_data) if all_genres_data else [genre]
+    similar_artist, similar_genre, similar_key = find_similar_songs(
+        slug, artist, key, mode, genre, all_genres_data) if all_genres_data else ([], [], [])
     
     gen_prompt = f"Create a {gdisp.lower()} track at {tempo:.0f} BPM in {key_mode}. {instruments}. Mood: {mood}. Style: {style}. Target energy {e*100:.0f}%, valence {v*100:.0f}%."
     suno_prompt = f"{gdisp.lower()}, {mood}, {instruments}, {style}, {tempo:.0f} BPM"
@@ -198,13 +273,65 @@ def make_page(t, genre):
         "prompt": gen_prompt
     }, indent=2)
     
+    # Build genre pills
+    genre_pills = ''.join(f'<a href="/genres/{g}/" class="pill genre">{GENRE_DISPLAY.get(g, g.replace("-", " ").title())}</a>' 
+                         for g in sorted(track_genres)[:5])
+    
+    # Build similar songs sections
+    def format_song_card(song, link_type="song"):
+        href = f"/songs/{song['slug']}/" if song.get('slug') else '#'
+        return f'''
+        <a href="{href}" class="similar-card">
+          <div class="similar-title">{esc(song['name'])}</div>
+          <div class="similar-artist">{esc(song['artist'])}</div>
+          <div class="similar-meta">{song['tempo']:.0f} BPM • {esc(song['key'])}</div>
+        </a>'''
+    
+    similar_artist_html = ''
+    if similar_artist:
+        similar_artist_html = f'''
+        <div class="section-label"><h2>More from {esc(artist.split(';')[0])}</h2></div>
+        <div class="similar-grid">
+          {"".join(format_song_card(s) for s in similar_artist)}
+        </div>'''
+    
+    similar_genre_html = ''
+    if similar_genre:
+        similar_genre_html = f'''
+        <div class="section-label"><h2>Similar in {esc(gdisp)}</h2></div>
+        <div class="similar-grid">
+          {"".join(format_song_card(s) for s in similar_genre)}
+        </div>'''
+    
+    similar_key_html = ''
+    if similar_key:
+        similar_key_html = f'''
+        <div class="section-label"><h2>Songs in {esc(key_mode)}</h2></div>
+        <div class="similar-grid">
+          {"".join(format_song_card(s) for s in similar_key)}
+        </div>'''
+    
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{esc(name)} — Analysis + Prompt Template - kapiko</title>
+  <title>{esc(name)} by {esc(artist)} — Analysis + Prompt Template - kapiko</title>
   <meta name="description" content="Audio analysis of {esc(name)} by {esc(artist)}. BPM, key, energy, mood, and AI music generation prompts.">
+  <meta name="canonical" href="https://kapiko.ai/songs/{esc(slug)}/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="{esc(name)} by {esc(artist)}">
+  <meta property="og:description" content="Audio analysis and AI music generation prompts for {esc(name)} — {tempo:.0f} BPM in {esc(key_mode)}, {e*100:.0f}% energy">
+  <meta property="og:url" content="https://kapiko.ai/songs/{esc(slug)}/">
+  <meta property="og:type" content="music.song">
+  <meta property="og:site_name" content="kapiko">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{esc(name)} by {esc(artist)}">
+  <meta name="twitter:description" content="Audio analysis and AI music generation prompts for {esc(name)}">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -214,24 +341,61 @@ def make_page(t, genre):
     :root{{--bg:#0b0c1a;--bg-card:#111222;--border:rgba(255,255,255,0.07);--text:#dde1f0;--text-muted:#6b7099;--teal:#4ecdc4;--purple:#9b7fd4;--blue:#5b9bd5}}
     body{{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}}
     .container{{max-width:900px;margin:0 auto;padding:0 1.5rem}}
+    
+    /* Header */
     header{{background:#0d0e20;border-bottom:1px solid var(--border);padding:2rem 0}}
     .breadcrumb{{color:var(--text-muted);font-size:0.85rem;margin-bottom:1rem}}
     .breadcrumb a{{color:var(--teal);text-decoration:none}}.breadcrumb a:hover{{text-decoration:underline}}
-    .song-title{{font-size:2rem;font-weight:700;margin-bottom:0.3rem}}
-    .song-artist{{font-size:1.1rem;color:var(--purple);font-weight:500}}
+    .hero-content{{display:grid;grid-template-columns:160px 1fr;gap:1.5rem;align-items:start}}
+    .album-art{{width:160px;height:160px;border-radius:12px;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:0.8rem}}
+    .hero-info h1{{font-size:2rem;font-weight:700;margin-bottom:0.3rem}}
+    .hero-artist{{font-size:1.1rem;color:var(--purple);font-weight:500;margin-bottom:1rem}}
+    .metadata-row{{display:flex;flex-direction:column;gap:0.3rem;font-size:0.9rem;margin-bottom:1rem}}
+    .metadata-item{{color:var(--text-muted)}}
+    .spotify-btn{{display:inline-flex;align-items:center;gap:0.5rem;background:#1DB954;color:#fff;text-decoration:none;padding:0.6rem 1.2rem;border-radius:6px;font-weight:600;font-size:0.85rem;margin-bottom:1rem}}
+    .spotify-btn:hover{{background:#1ed760}}
+    .genre-tags{{display:flex;flex-wrap:wrap;gap:0.4rem}}
+    .pill{{background:rgba(91,155,213,0.1);color:var(--blue);border:1px solid rgba(91,155,213,0.2);border-radius:20px;padding:0.3rem 0.8rem;font-size:0.8rem;text-decoration:none}}
+    .pill.genre:hover{{background:rgba(91,155,213,0.2)}}
+    
+    /* YouTube */
+    .yt-section{{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin:2rem 0}}
+    .yt-embed{{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px}}
+    .yt-embed iframe{{position:absolute;top:0;left:0;width:100%;height:100%}}
+    
+    /* Stat cards */
     .stats-row{{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1rem;margin:2rem 0}}
     .stat-card{{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1rem;text-align:center}}
     .stat-val{{font-size:1.5rem;font-weight:700;color:var(--teal)}}
     .stat-label{{font-size:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-top:0.2rem}}
-    .section-label{{margin:2.5rem 0 1rem}}.section-label h2{{font-size:0.8rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--teal);font-weight:600}}
+    .stat-key{{font-size:0.75rem;color:var(--text-muted);margin-top:0.2rem}}
+    
+    /* Sections */
+    .section-label{{margin:2.5rem 0 1rem}}
+    .section-label h2{{font-size:0.8rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--teal);font-weight:600}}
+    
+    /* Charts */
     .chart-card{{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem}}
     .chart-wrap{{height:280px;position:relative}}
-    .feature-bars{{display:flex;flex-direction:column;gap:0.8rem;margin-top:1rem}}
+    .audio-features-grid{{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}}
+    
+    /* Feature bars */
+    .feature-bars{{display:flex;flex-direction:column;gap:0.8rem}}
     .feature-item{{display:grid;grid-template-columns:130px 50px 1fr;align-items:center;gap:0.5rem}}
     .feature-label{{font-size:0.85rem;color:var(--text-muted)}}
     .feature-val{{font-size:0.85rem;font-weight:600;text-align:right}}
     .feature-track{{height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden}}
     .feature-fill{{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--teal),var(--purple))}}
+    
+    /* Similar songs */
+    .similar-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}}
+    a.similar-card{{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1rem;text-decoration:none;color:inherit;display:block;transition:border-color 0.2s,transform 0.2s}}
+    a.similar-card:hover{{border-color:rgba(78,205,196,0.3);transform:translateY(-2px)}}
+    .similar-title{{font-weight:600;margin-bottom:0.2rem}}
+    .similar-artist{{color:var(--text-muted);font-size:0.9rem;margin-bottom:0.3rem}}
+    .similar-meta{{color:var(--text-muted);font-size:0.8rem}}
+    
+    /* Prompt lab */
     .prompt-lab{{display:flex;flex-direction:column;gap:1.5rem;margin-bottom:2rem}}
     .prompt-lab-intro h3{{font-size:1.3rem;font-weight:700;margin-bottom:0.5rem}}
     .prompt-lab-intro p{{color:var(--text-muted);font-size:0.95rem;line-height:1.6}}
@@ -249,51 +413,133 @@ def make_page(t, genre):
     .copy-btn:hover{{background:rgba(78,205,196,0.25)}}
     .prompt-text{{font-size:0.95rem;line-height:1.7;color:var(--text);font-family:'Inter',sans-serif}}
     .prompt-code{{font-size:0.82rem;line-height:1.6;color:var(--teal);font-family:'JetBrains Mono','Fira Code',monospace;background:rgba(0,0,0,0.3);border-radius:8px;padding:1rem;overflow-x:auto;white-space:pre;margin:0}}
+    
+    /* Footer */
     footer{{margin-top:3rem;padding:1.5rem 0;border-top:1px solid var(--border);text-align:center;color:var(--text-muted);font-size:0.8rem}}
     footer a{{color:var(--teal);text-decoration:none}}
-    @media(max-width:600px){{.song-title{{font-size:1.5rem}}.stats-row{{grid-template-columns:repeat(2,1fr)}}.feature-item{{grid-template-columns:100px 45px 1fr}}}}
+    
+    @media(max-width:600px){{
+      .hero-content{{grid-template-columns:1fr;text-align:center;gap:1rem}}
+      .album-art{{width:140px;height:140px;margin:0 auto}}
+      .stats-row{{grid-template-columns:repeat(2,1fr)}}
+      .feature-item{{grid-template-columns:100px 45px 1fr}}
+      .audio-features-grid{{grid-template-columns:1fr;gap:1rem}}
+    }}
   </style>
 </head>
 <body>
+
+<!-- Header -->
 <header>
   <div class="container">
-    <div class="breadcrumb"><a href="/genres/{esc(genre)}/">{esc(gdisp)}</a> &rarr; Song Analysis</div>
-    <div class="song-title">{esc(name)}</div>
-    <div class="song-artist">{esc(artist)}</div>
+    <div class="breadcrumb"><a href="/genres/{esc(genre)}/">{esc(gdisp)}</a> → Song Analysis</div>
+    <div class="hero-content">
+      <div class="album-art">No Image</div>
+      <div class="hero-info">
+        <h1>{esc(name)}</h1>
+        <div class="hero-artist">{esc(artist)}</div>
+        <div class="metadata-row">
+          {"<div class=\"metadata-item\">From <em>" + esc(album) + "</em></div>" if album else ""}
+        </div>
+        <div class="genre-tags">
+          {genre_pills}
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
 <div class="container">
-  <div class="stats-row">
-    <div class="stat-card"><div class="stat-val">{tempo:.0f}</div><div class="stat-label">BPM</div></div>
-    <div class="stat-card"><div class="stat-val">{esc(key_mode)}</div><div class="stat-label">Key</div></div>
-    <div class="stat-card"><div class="stat-val">{e*100:.0f}%</div><div class="stat-label">Energy</div></div>
-    <div class="stat-card"><div class="stat-val">{dur_str}</div><div class="stat-label">Duration</div></div>
-    <div class="stat-card"><div class="stat-val">{pop}</div><div class="stat-label">Popularity</div></div>
+
+  <!-- YouTube Listen Section -->
+  <div class="section-label"><h2>Listen</h2></div>
+  <div class="yt-section">
+    <p style="color:var(--text-muted);text-align:center;font-style:italic;">YouTube embed would appear here if available</p>
   </div>
 
+  <!-- Overview Stats -->
+  <div class="section-label"><h2>Overview</h2></div>
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-val">{tempo:.0f}</div>
+      <div class="stat-label">BPM</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">{esc(key_mode)}</div>
+      <div class="stat-label">Key</div>
+      <div class="stat-key">{esc(camelot_key)}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">{e*100:.0f}%</div>
+      <div class="stat-label">Energy</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">{dur_str}</div>
+      <div class="stat-label">Duration</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">{pop}</div>
+      <div class="stat-label">Popularity</div>
+    </div>
+  </div>
+
+  <!-- Audio Features -->
   <div class="section-label"><h2>Audio Features</h2></div>
   <div class="chart-card">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start">
+    <div class="audio-features-grid">
       <div class="chart-wrap" style="height:250px">
         <canvas id="radarChart"></canvas>
       </div>
       <div class="feature-bars">
-        <div class="feature-item"><div class="feature-label">Energy</div><div class="feature-val">{e*100:.1f}%</div><div class="feature-track"><div class="feature-fill" style="width:{e*100:.0f}%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Danceability</div><div class="feature-val">{d*100:.1f}%</div><div class="feature-track"><div class="feature-fill" style="width:{d*100:.0f}%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Valence</div><div class="feature-val">{v*100:.1f}%</div><div class="feature-track"><div class="feature-fill" style="width:{max(v*100,2):.0f}%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Acousticness</div><div class="feature-val">{a*100:.1f}%</div><div class="feature-track"><div class="feature-fill" style="width:{a*100:.0f}%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Instrumentalness</div><div class="feature-val">{ins*100:.1f}%</div><div class="feature-track"><div class="feature-fill" style="width:{max(ins*100,2):.0f}%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Speechiness</div><div class="feature-val">{sp*100:.1f}%</div><div class="feature-track"><div class="feature-fill" style="width:{max(sp*100,2):.0f}%"></div></div></div>
-        <div class="feature-item"><div class="feature-label">Loudness</div><div class="feature-val">{loud:.1f} dB</div><div class="feature-track"><div class="feature-fill" style="width:{loud_pct(loud):.0f}%"></div></div></div>
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">{e*100:.1f}%</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{e*100:.0f}%"></div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">{d*100:.1f}%</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{d*100:.0f}%"></div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">{v*100:.1f}%</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{max(v*100,2):.0f}%"></div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">{a*100:.1f}%</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{a*100:.0f}%"></div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">{ins*100:.1f}%</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{max(ins*100,2):.0f}%"></div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">{sp*100:.1f}%</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{max(sp*100,2):.0f}%"></div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Liveness</div>
+          <div class="feature-val">{liv*100:.1f}%</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{max(liv*100,2):.0f}%"></div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Loudness</div>
+          <div class="feature-val">{loud:.1f} dB</div>
+          <div class="feature-track"><div class="feature-fill" style="width:{loud_pct(loud):.0f}%"></div></div>
+        </div>
       </div>
     </div>
   </div>
 
+  <!-- Prompt Lab -->
   <div class="section-label"><h2>Prompt Lab</h2></div>
   <div class="prompt-lab">
     <div class="prompt-lab-intro">
-      <h3>&#x1f9ea; Recreate This Track</h3>
+      <h3>🧪 Recreate This Track</h3>
       <p>Use these prompt ingredients with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service to recreate the vibe of <em>{esc(name)}</em> by <em>{esc(artist)}</em>.</p>
     </div>
 
@@ -338,18 +584,24 @@ def make_page(t, genre):
       <pre class="prompt-code" id="promptAgent">{esc(agent_json)}</pre>
     </div>
   </div>
+
+  <!-- Similar Songs -->
+  {similar_artist_html}
+  {similar_genre_html}  
+  {similar_key_html}
+
 </div>
 
+<!-- Footer -->
 <footer>
   <div class="container">
-    <p>Data from Spotify audio features. <a href="/genres/{esc(genre)}/">&larr; Back to {esc(gdisp)}</a></p>
-    <p style="margin-top:0.3rem"><a href="/">kapiko.ai</a></p>
+    <p>&copy; <a href="/">kapiko.ai</a> • <a href="/data/">Data</a> • <a href="/genres/{esc(genre)}/">Back to {esc(gdisp)}</a></p>
   </div>
 </footer>
 
 <script>
 const ctx=document.getElementById('radarChart');
-if(ctx){{new Chart(ctx,{{type:'radar',data:{{labels:['Energy','Danceability','Valence','Acousticness','Instrumentalness','Speechiness'],datasets:[{{data:[{e},{d},{v},{a},{ins},{sp}],backgroundColor:'rgba(78,205,196,0.15)',borderColor:'#4ecdc4',borderWidth:2,pointBackgroundColor:'#4ecdc4',pointRadius:4}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{legend:{{display:false}}}},scales:{{r:{{beginAtZero:true,max:1,ticks:{{display:false}},grid:{{color:'rgba(255,255,255,0.06)'}},pointLabels:{{color:'#6b7099',font:{{size:11}}}},angleLines:{{color:'rgba(255,255,255,0.06)'}}}}}}}}}})}};
+if(ctx){{new Chart(ctx,{{type:'radar',data:{{labels:['Energy','Danceability','Valence','Acousticness','Instrumentalness','Speechiness','Liveness'],datasets:[{{data:[{e},{d},{v},{a},{ins},{sp},{liv}],backgroundColor:'rgba(78,205,196,0.15)',borderColor:'#4ecdc4',borderWidth:2,pointBackgroundColor:'#4ecdc4',pointRadius:4}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{legend:{{display:false}}}},scales:{{r:{{beginAtZero:true,max:1,ticks:{{display:false}},grid:{{color:'rgba(255,255,255,0.06)'}},pointLabels:{{color:'#6b7099',font:{{size:11}}}},angleLines:{{color:'rgba(255,255,255,0.06)'}}}}}}}}}})}};
 function copyPrompt(btn){{const id=btn.getAttribute('data-target');const text=document.getElementById(id).textContent;navigator.clipboard.writeText(text).then(()=>{{btn.textContent='Copied!';btn.style.background='rgba(78,205,196,0.3)';setTimeout(()=>{{btn.textContent='Copy';btn.style.background=''}},2000)}})}}
 function switchTab(btn,panel){{document.querySelectorAll('.prompt-tab').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.prompt-panel').forEach(p=>p.style.display='none');btn.classList.add('active');const el=document.getElementById('panel-'+panel);if(el)el.style.display=''}}
 </script>
@@ -359,6 +611,17 @@ function switchTab(btn,panel){{document.querySelectorAll('.prompt-tab').forEach(
 def main():
     start = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     end = int(sys.argv[2]) if len(sys.argv) > 2 else 999999
+    
+    # Load all genre data for similar songs feature
+    all_genres_data = {}
+    for g in GENRES:
+        apath = SITE / 'genres' / g / 'analysis.json'
+        if apath.exists():
+            try:
+                data = json.load(open(apath))
+                all_genres_data[g] = data
+            except:
+                continue
     
     # Collect all unique songs across all genres
     all_songs = {}  # slug -> (track_data, genre)
@@ -390,7 +653,7 @@ def main():
         
         t, g = all_songs[slug]
         try:
-            html = make_page(t, g)
+            html = make_page(t, g, all_genres_data)
             song_dir.mkdir(parents=True, exist_ok=True)
             (song_dir / 'index.html').write_text(html, encoding='utf-8')
             created += 1
