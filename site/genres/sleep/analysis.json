@@ -1,1554 +1,1567 @@
 {
-  "genre": "sleep / deep sleep",
+  "genre": "sleep",
   "track_count": 100,
   "collection_source": "Spotify Tracks Dataset (114K tracks, pre-deprecation audio features)",
   "bpm": {
-    "histogram": {
-      "0-30": 5,
-      "30-60": 7,
-      "60-90": 77,
-      "90-120": 0,
-      "120-150": 11,
-      "150-180": 0,
-      "180+": 0
-    },
-    "median": 70.2,
-    "mean": 72.2,
-    "stdev": 25.7,
     "min": 0.0,
-    "max": 143.3,
-    "raw": [
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      35.9,
-      48.2,
-      56.7,
-      57.4,
-      59.4,
-      59.4,
-      59.5,
-      62.4,
-      62.6,
-      63.4,
-      63.4,
-      64.0,
-      64.2,
-      64.3,
-      64.8,
-      64.8,
-      64.9,
-      65.0,
-      66.4,
-      66.4,
-      66.7,
-      66.7,
-      67.0,
-      67.2,
-      67.5,
-      67.6,
-      67.6,
-      67.8,
-      68.2,
-      68.4,
-      68.4,
-      68.6,
-      68.6,
-      68.6,
-      68.8,
-      68.8,
-      68.9,
-      68.9,
-      69.1,
-      69.3,
-      69.4,
-      69.6,
-      69.8,
-      69.9,
-      70.1,
-      70.3,
-      70.3,
-      70.4,
-      70.4,
-      70.9,
-      71.1,
-      71.4,
-      71.4,
-      71.8,
-      72.0,
-      72.0,
-      72.2,
-      72.4,
-      72.4,
-      72.5,
-      72.6,
-      72.7,
-      72.8,
-      73.0,
-      73.1,
-      73.3,
-      73.6,
-      73.8,
-      74.0,
-      74.4,
-      74.5,
-      74.8,
-      74.9,
-      75.6,
-      76.2,
-      76.6,
-      77.2,
-      77.3,
-      78.9,
-      79.2,
-      79.4,
-      79.5,
-      80.5,
-      82.9,
-      120.1,
-      120.1,
-      120.2,
-      121.3,
-      124.4,
-      127.5,
-      130.5,
-      131.4,
-      132.6,
-      134.7,
-      143.3
-    ]
+    "max": 171.06,
+    "mean": 82.398,
+    "median": 73.028,
+    "q1": 68.398,
+    "q3": 81.67,
+    "histogram": {
+      "0-9": 2,
+      "50-59": 4,
+      "80-89": 8,
+      "70-79": 37,
+      "160-169": 1,
+      "60-69": 31,
+      "130-139": 10,
+      "140-149": 4,
+      "120-129": 1,
+      "170-179": 1,
+      "100-109": 1
+    }
   },
   "key_distribution": {
-    "C": 19,
-    "C#/Db": 12,
+    "C": 18,
+    "G": 12,
     "D": 12,
-    "D#/Eb": 2,
-    "E": 4,
-    "F": 3,
-    "F#/Gb": 10,
-    "G": 11,
-    "G#/Ab": 8,
-    "A": 9,
-    "A#/Bb": 5,
-    "B": 5
+    "C#/Db": 11,
+    "F": 11,
+    "A#/Bb": 8,
+    "G#/Ab": 6,
+    "A": 6,
+    "B": 6,
+    "E": 5,
+    "D#/Eb": 3,
+    "F#/Gb": 2
   },
   "mode_distribution": {
-    "Major": 71,
-    "Minor": 29
+    "Major": 80,
+    "Minor": 20
   },
   "key_mode_distribution": {
     "C Major": 16,
+    "G Major": 11,
     "C#/Db Major": 10,
+    "F Major": 10,
     "D Major": 9,
-    "G Major": 8,
-    "F#/Gb Major": 7,
-    "G#/Ab Major": 6,
-    "A Minor": 6,
-    "A#/Bb Major": 4,
-    "C Minor": 3,
-    "G Minor": 3,
-    "A Major": 3,
-    "E Minor": 3,
-    "D Minor": 3,
-    "F#/Gb Minor": 3,
+    "A#/Bb Major": 7,
+    "A Major": 4,
+    "G#/Ab Major": 3,
+    "D#/Eb Major": 3,
+    "G#/Ab Minor": 3,
     "B Major": 3,
-    "D#/Eb Major": 2,
-    "B Minor": 2,
-    "G#/Ab Minor": 2,
-    "F Major": 2,
-    "C#/Db Minor": 2,
-    "F Minor": 1,
-    "E Major": 1,
+    "E Major": 3,
+    "B Minor": 3,
+    "D Minor": 3,
+    "C Minor": 2,
+    "A Minor": 2,
+    "E Minor": 2,
+    "G Minor": 1,
+    "F#/Gb Minor": 1,
     "A#/Bb Minor": 1
   },
   "energy": {
+    "min": 0.0,
+    "max": 0.332,
+    "mean": 0.029,
     "median": 0.013,
-    "mean": 0.032,
-    "stdev": 0.041
+    "q1": 0.005,
+    "q3": 0.034
   },
   "valence": {
-    "median": 0.055,
-    "mean": 0.067,
-    "stdev": 0.047
+    "min": 0.0,
+    "max": 0.191,
+    "mean": 0.06,
+    "median": 0.052,
+    "q1": 0.038,
+    "q3": 0.076
   },
   "energy_valence_scatter": [
     {
+      "name": "Clean White Noise - Loopable with no fade",
+      "artist": "White Noise Baby Sleep;White Noise for Babies",
       "energy": 0.003,
       "valence": 0.0,
-      "name": "Clean White Noise - Loopable with no fade",
-      "artists": "White Noise Baby Sleep;White Noise for Babies"
+      "popularity": 85
     },
     {
-      "energy": 0.036,
-      "valence": 0.0,
-      "name": "The Departure",
-      "artists": "Max Richter;Lang Lang"
-    },
-    {
+      "name": "Brown Sleep Noise",
+      "artist": "Sleep Miracle",
       "energy": 0.084,
       "valence": 0.06,
-      "name": "Brown Sleep Noise",
-      "artists": "Sleep Miracle"
+      "popularity": 80
     },
     {
-      "energy": 0.041,
-      "valence": 0.038,
-      "name": "Viento Estelar",
-      "artists": "Universo"
-    },
-    {
-      "energy": 0.011,
-      "valence": 0.038,
-      "name": "Allt finns kvar",
-      "artists": "Eleonora Feldt"
-    },
-    {
-      "energy": 0.015,
-      "valence": 0.1,
-      "name": "Nocturnal",
-      "artists": "Joep Beving"
-    },
-    {
-      "energy": 0.051,
-      "valence": 0.041,
-      "name": "Ciclo Solar",
-      "artists": "Universo"
-    },
-    {
-      "energy": 0.058,
-      "valence": 0.045,
-      "name": "Nuvole Bianche",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "energy": 0.021,
-      "valence": 0.036,
-      "name": "Sound of Invisible Waters",
-      "artists": "Deuter"
-    },
-    {
-      "energy": 0.002,
-      "valence": 0.144,
-      "name": "Blanket of White",
-      "artists": "Sleepy Clouds"
-    },
-    {
+      "name": "Deep Sleep Recovery Noise",
+      "artist": "Water Sound Natural White Noise",
       "energy": 0.032,
-      "valence": 0.076,
-      "name": "Weightless Part 4",
-      "artists": "Marconi Union"
+      "valence": 0.0,
+      "popularity": 76
     },
     {
+      "name": "White Noise Sleeping Aid to Help My Baby Fall Asleep, Sleep Through the Night",
+      "artist": "White Noise Baby Sleep",
       "energy": 0.002,
-      "valence": 0.054,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 8",
-      "artists": "Max Richter"
+      "valence": 0.0,
+      "popularity": 75
     },
     {
-      "energy": 0.002,
-      "valence": 0.063,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 2",
-      "artists": "Max Richter"
+      "name": "Herinneringen",
+      "artist": "Sohn Aelia",
+      "energy": 0.003,
+      "valence": 0.058,
+      "popularity": 74
     },
     {
-      "energy": 0.007,
-      "valence": 0.191,
-      "name": "In Between Dreams",
-      "artists": "Don Mazuck"
-    },
-    {
+      "name": "Ons",
+      "artist": "Huma",
       "energy": 0.018,
       "valence": 0.046,
-      "name": "Ons",
-      "artists": "Huma"
+      "popularity": 71
     },
     {
-      "energy": 0.006,
-      "valence": 0.062,
-      "name": "Wind Song",
-      "artists": "Ludovico Einaudi"
+      "name": "Beautiful Imagination",
+      "artist": "Little Circuits",
+      "energy": 0.033,
+      "valence": 0.059,
+      "popularity": 71
     },
     {
-      "energy": 0.01,
-      "valence": 0.094,
-      "name": "Simien",
-      "artists": "Petros Idris"
-    },
-    {
+      "name": "I et andet liv",
+      "artist": "Minik Knudsen",
       "energy": 0.008,
       "valence": 0.111,
-      "name": "I et andet liv",
-      "artists": "Minik Knudsen"
+      "popularity": 70
     },
     {
-      "energy": 0.008,
-      "valence": 0.076,
-      "name": "Beatific",
-      "artists": "Caius Biel"
-    },
-    {
-      "energy": 0.024,
-      "valence": 0.038,
-      "name": "Butterfly",
-      "artists": "Penny Layn"
-    },
-    {
-      "energy": 0.003,
-      "valence": 0.058,
-      "name": "Herinneringen",
-      "artists": "Sohn Aelia"
-    },
-    {
-      "energy": 0.22,
-      "valence": 0.079,
-      "name": "Weightless",
-      "artists": "Marconi Union"
-    },
-    {
-      "energy": 0.091,
-      "valence": 0.045,
-      "name": "An Ending (Ascent) - Remastered 2005",
-      "artists": "Brian Eno"
-    },
-    {
-      "energy": 0.066,
-      "valence": 0.062,
-      "name": "Flora",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "energy": 0.009,
-      "valence": 0.09,
-      "name": "Portrait Gallery",
-      "artists": "Luke Howard"
-    },
-    {
-      "energy": 0.072,
-      "valence": 0.032,
-      "name": "A Meaningful Moment Through a Meaning(less) Process",
-      "artists": "Stars Of The Lid"
-    },
-    {
+      "name": "Hush",
+      "artist": "Yonatan Awate",
       "energy": 0.009,
       "valence": 0.069,
-      "name": "Hush",
-      "artists": "Yonatan Awate"
+      "popularity": 69
     },
     {
-      "energy": 0.011,
-      "valence": 0.043,
       "name": "Tiniebla",
-      "artists": "Pearl Melendez"
-    },
-    {
-      "energy": 0.005,
-      "valence": 0.051,
-      "name": "Uno",
-      "artists": "Deuter"
-    },
-    {
-      "energy": 0.006,
-      "valence": 0.06,
-      "name": "Lorimor",
-      "artists": "Savasana"
-    },
-    {
-      "energy": 0.006,
-      "valence": 0.037,
-      "name": "Neblinoso",
-      "artists": "Cameron Sinosa"
-    },
-    {
-      "energy": 0.002,
-      "valence": 0.039,
-      "name": "Sleeping Music (Deep Sleep)",
-      "artists": "Deep Sleep Music Collective"
-    },
-    {
-      "energy": 0.019,
-      "valence": 0.059,
-      "name": "Turndown Service",
-      "artists": "Adeline Verver"
-    },
-    {
-      "energy": 0.008,
-      "valence": 0.081,
-      "name": "Together At Last",
-      "artists": "Alexis Ffrench;Jobim Ffrench"
-    },
-    {
-      "energy": 0.008,
-      "valence": 0.039,
-      "name": "Piano Concerto No. 2 in F Major, Op. 102: II. Andante",
-      "artists": "Dmitri Shostakovich;Boris Giltburg;Royal Liverpool Philharmonic Orchestra;Vasily Petrenko"
-    },
-    {
-      "energy": 0.041,
-      "valence": 0.039,
-      "name": "Giant Steps Tomorrow",
-      "artists": "Shibb"
-    },
-    {
-      "energy": 0.071,
-      "valence": 0.061,
-      "name": "#3",
-      "artists": "Aphex Twin"
-    },
-    {
-      "energy": 0.131,
-      "valence": 0.143,
-      "name": "Remembrance",
-      "artists": "Balmorhea"
-    },
-    {
-      "energy": 0.014,
-      "valence": 0.036,
-      "name": "Olson",
-      "artists": "Boards of Canada"
-    },
-    {
-      "energy": 0.03,
-      "valence": 0.065,
-      "name": "Lull",
-      "artists": "Sleepless Eye"
-    },
-    {
-      "energy": 0.042,
-      "valence": 0.058,
-      "name": "Rituals",
-      "artists": "Lorelle Paredes"
-    },
-    {
-      "energy": 0.038,
-      "valence": 0.038,
-      "name": "Emerald and Stone",
-      "artists": "Brian Eno;Jon Hopkins;Leo Abrahams"
-    },
-    {
-      "energy": 0.156,
-      "valence": 0.046,
-      "name": "Weightless Part 3",
-      "artists": "Marconi Union"
-    },
-    {
-      "energy": 0.174,
-      "valence": 0.286,
-      "name": "Weightless Part 6",
-      "artists": "Marconi Union"
-    },
-    {
-      "energy": 0.004,
-      "valence": 0.192,
-      "name": "Natural Light",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "energy": 0.004,
-      "valence": 0.192,
-      "name": "Natural Light",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "energy": 0.01,
-      "valence": 0.073,
-      "name": "Mo Chroidhe",
-      "artists": "Mila Harper"
-    },
-    {
-      "energy": 0.08,
-      "valence": 0.067,
-      "name": "Moments of Stillness",
-      "artists": "Hector Warrens"
-    },
-    {
-      "energy": 0.004,
-      "valence": 0.037,
-      "name": "1/1 - Remastered 2004",
-      "artists": "Brian Eno"
-    },
-    {
-      "energy": 0.034,
-      "valence": 0.116,
-      "name": "Shimmering Above Clouds",
-      "artists": "Jeff Birma"
-    },
-    {
-      "energy": 0.012,
-      "valence": 0.033,
-      "name": "Deep breaths",
-      "artists": "Jirou Soller"
-    },
-    {
+      "artist": "Pearl Melendez",
       "energy": 0.011,
-      "valence": 0.037,
-      "name": "The Other Side",
-      "artists": "Rosetta Arroyo"
-    },
-    {
-      "energy": 0.001,
-      "valence": 0.087,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 1",
-      "artists": "Max Richter"
-    },
-    {
-      "energy": 0.002,
-      "valence": 0.08,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 4",
-      "artists": "Max Richter"
-    },
-    {
-      "energy": 0.002,
-      "valence": 0.059,
-      "name": "Sonder",
-      "artists": "Modal Colours"
-    },
-    {
-      "energy": 0.002,
-      "valence": 0.121,
-      "name": "Just In View",
-      "artists": "Euloria"
-    },
-    {
-      "energy": 0.007,
-      "valence": 0.101,
-      "name": "N\u00e4ra",
-      "artists": "Najma Wallin"
-    },
-    {
-      "energy": 0.037,
-      "valence": 0.039,
-      "name": "Arp Of Life",
-      "artists": "Bj\u00f8rg Stigbj\u00f8rnson"
-    },
-    {
-      "energy": 0.028,
-      "valence": 0.036,
-      "name": "She Remembers",
-      "artists": "Max Richter"
-    },
-    {
-      "energy": 0.008,
-      "valence": 0.049,
-      "name": "Reappearance",
-      "artists": "Spacetactular"
-    },
-    {
-      "energy": 0.006,
-      "valence": 0.04,
-      "name": "Pause",
-      "artists": "Serene & Pax"
-    },
-    {
-      "energy": 0.002,
-      "valence": 0.037,
-      "name": "Nostalgia",
-      "artists": "Will Carano"
-    },
-    {
-      "energy": 0.076,
-      "valence": 0.156,
-      "name": "Living Room",
-      "artists": "Grouper"
-    },
-    {
-      "energy": 0.071,
       "valence": 0.043,
-      "name": "Four Dimensions",
-      "artists": "Ludovico Einaudi;Amsterdam Sinfonietta;PMCE Parco Della Musica Contempornea Ensemble"
+      "popularity": 69
     },
     {
-      "energy": 0.163,
-      "valence": 0.039,
-      "name": "Grey Cloud Lullaby",
-      "artists": "Slow Meadow"
-    },
-    {
-      "energy": 0.086,
-      "valence": 0.034,
-      "name": "Feel First Life",
-      "artists": "Jon Hopkins"
-    },
-    {
-      "energy": 0.056,
-      "valence": 0.149,
-      "name": "Mystical - Alpha Sinus 54,8hz - 57,3 hz",
-      "artists": "Drone"
-    },
-    {
-      "energy": 0.004,
-      "valence": 0.031,
-      "name": "Dr\u017ei me",
-      "artists": "Judi Khan"
-    },
-    {
-      "energy": 0.003,
-      "valence": 0.112,
-      "name": "Duende",
-      "artists": "Kaua Correia"
-    },
-    {
-      "energy": 0.003,
-      "valence": 0.056,
-      "name": "Distant Dreams",
-      "artists": "Euloria"
-    },
-    {
-      "energy": 0.033,
-      "valence": 0.035,
-      "name": "Uitblinken",
-      "artists": "Sohn Aelia"
-    },
-    {
-      "energy": 0.044,
-      "valence": 0.0,
-      "name": "The End of Childhood (feat. Jack Liebeck)",
-      "artists": "Dario Marianelli;Jack Liebeck;Benjamin Wallfisch"
-    },
-    {
-      "energy": 0.007,
-      "valence": 0.056,
       "name": "Dans le noir",
-      "artists": "Charmaine D'Avis"
-    },
-    {
-      "energy": 0.094,
-      "valence": 0.031,
-      "name": "Anything You Synthesize - Ambient",
-      "artists": "The American Dollar"
-    },
-    {
-      "energy": 0.003,
-      "valence": 0.064,
-      "name": "Redamancy",
-      "artists": "Rebecka Aether"
-    },
-    {
-      "energy": 0.046,
-      "valence": 0.071,
-      "name": "Deep Down The Cave",
-      "artists": "Xavier Ortando"
-    },
-    {
-      "energy": 0.023,
-      "valence": 0.04,
-      "name": "Vila\u0301n",
-      "artists": "Huma"
-    },
-    {
-      "energy": 0.008,
-      "valence": 0.061,
-      "name": "Versuchen",
-      "artists": "Leo Baumgart"
-    },
-    {
-      "energy": 0.005,
-      "valence": 0.035,
-      "name": "Ocean Breeze - Alpha Sinus 69,2 hz - 70 hz",
-      "artists": "Floating"
-    },
-    {
-      "energy": 0.052,
-      "valence": 0.097,
-      "name": "Dawn - From \"Pride & Prejudice\" Soundtrack",
-      "artists": "Dario Marianelli;Jean-Yves Thibaudet"
-    },
-    {
-      "energy": 0.01,
-      "valence": 0.212,
-      "name": "Temple White",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "energy": 0.004,
-      "valence": 0.037,
-      "name": "The Hours: An Unwelcome Friend (From \"The Hours\")",
-      "artists": "Philip Glass;Nicolas Horvath"
-    },
-    {
-      "energy": 0.016,
-      "valence": 0.038,
-      "name": "Affection",
-      "artists": "Calming Eyes"
-    },
-    {
-      "energy": 0.005,
-      "valence": 0.047,
-      "name": "e\u0301ternite\u0301",
-      "artists": "Eric Ardouin"
-    },
-    {
-      "energy": 0.031,
-      "valence": 0.037,
-      "name": "Shimmer in the Morning",
-      "artists": "Sola Vimi"
-    },
-    {
-      "energy": 0.075,
-      "valence": 0.038,
-      "name": "Deep",
-      "artists": "Peter Sandberg"
-    },
-    {
-      "energy": 0.032,
-      "valence": 0.0,
-      "name": "Deep Sleep Recovery Noise",
-      "artists": "Water Sound Natural White Noise"
-    },
-    {
-      "energy": 0.009,
-      "valence": 0.138,
-      "name": "Hopeful",
-      "artists": "Unwritten Skies"
-    },
-    {
-      "energy": 0.005,
-      "valence": 0.096,
-      "name": "Et \u00f8yeblikk",
-      "artists": "Tine Mydland"
-    },
-    {
-      "energy": 0.098,
-      "valence": 0.034,
-      "name": "Making Gardens Out of Silence",
-      "artists": "Brian Eno"
-    },
-    {
-      "energy": 0.03,
-      "valence": 0.07,
-      "name": "Una Mattina",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "energy": 0.013,
-      "valence": 0.048,
-      "name": "Winter Morning",
-      "artists": "Aysha Mathis"
-    },
-    {
-      "energy": 0.003,
-      "valence": 0.089,
-      "name": "Unavailable",
-      "artists": "Aysha Mathis"
-    },
-    {
+      "artist": "Charmaine D'Avis",
       "energy": 0.007,
-      "valence": 0.092,
-      "name": "Shape Of A Dream",
-      "artists": "Sailors Of The 7 Seas"
+      "valence": 0.056,
+      "popularity": 68
     },
     {
-      "energy": 0.034,
-      "valence": 0.082,
-      "name": "Amado Nervo",
-      "artists": "Sayulita"
+      "name": "Neblinoso",
+      "artist": "Cameron Sinosa",
+      "energy": 0.006,
+      "valence": 0.037,
+      "popularity": 68
     },
     {
-      "energy": 0.027,
-      "valence": 0.064,
-      "name": "Pomalu",
-      "artists": "Marie Protivov\u00e1"
-    },
-    {
-      "energy": 0.019,
-      "valence": 0.041,
-      "name": "Monrovia",
-      "artists": "Prescient Liquids"
-    },
-    {
+      "name": "Wei\u00dfes Rauschen: Baby Schlafhilfe",
+      "artist": "Wei\u00dfes Rauschen HD",
       "energy": 0.0,
       "valence": 0.0,
-      "name": "Smooth Sailing",
-      "artists": "White Noise Therapy"
+      "popularity": 67
     },
     {
+      "name": "Blanket of White",
+      "artist": "Sleepy Clouds",
+      "energy": 0.002,
+      "valence": 0.144,
+      "popularity": 67
+    },
+    {
+      "name": "Liberation",
+      "artist": "Nova Issue",
+      "energy": 0.029,
+      "valence": 0.114,
+      "popularity": 66
+    },
+    {
+      "name": "La Caoba",
+      "artist": "Sayulita",
+      "energy": 0.029,
+      "valence": 0.117,
+      "popularity": 66
+    },
+    {
+      "name": "Peaceful Patterns",
+      "artist": "Hatha Priya",
+      "energy": 0.037,
+      "valence": 0.06,
+      "popularity": 66
+    },
+    {
+      "name": "Under Samma Himmel",
+      "artist": "Sanja G\u00f6ransson",
+      "energy": 0.002,
+      "valence": 0.101,
+      "popularity": 66
+    },
+    {
+      "name": "Mo Chroidhe",
+      "artist": "Mila Harper",
+      "energy": 0.01,
+      "valence": 0.073,
+      "popularity": 66
+    },
+    {
+      "name": "Shhhh Baby Shusher For Sleep",
+      "artist": "Baby Sleep",
+      "energy": 0.203,
+      "valence": 0.039,
+      "popularity": 66
+    },
+    {
+      "name": "Viento Estelar",
+      "artist": "Universo",
+      "energy": 0.041,
+      "valence": 0.038,
+      "popularity": 66
+    },
+    {
+      "name": "Appreciation",
+      "artist": "Vishal Casey",
+      "energy": 0.013,
+      "valence": 0.087,
+      "popularity": 66
+    },
+    {
+      "name": "Turndown Service",
+      "artist": "Adeline Verver",
+      "energy": 0.019,
+      "valence": 0.059,
+      "popularity": 66
+    },
+    {
+      "name": "Repouso",
+      "artist": "Polysomni",
+      "energy": 0.013,
+      "valence": 0.039,
+      "popularity": 66
+    },
+    {
+      "name": "Blue Sphere",
+      "artist": "Sea of Waves",
+      "energy": 0.039,
+      "valence": 0.052,
+      "popularity": 66
+    },
+    {
+      "name": "Anatomy of Change",
+      "artist": "Oto Roth",
+      "energy": 0.003,
+      "valence": 0.035,
+      "popularity": 66
+    },
+    {
+      "name": "Calming Pacific Ocean Roar to Induce Healing Delta Sleep Waves (Nursery Rhymes Lullabies Effect)",
+      "artist": "White Noise Baby Sleep",
+      "energy": 0.199,
+      "valence": 0.0,
+      "popularity": 66
+    },
+    {
+      "name": "Lorimor",
+      "artist": "Savasana",
+      "energy": 0.006,
+      "valence": 0.06,
+      "popularity": 65
+    },
+    {
+      "name": "Life From Above",
+      "artist": "Ethan Beckett",
+      "energy": 0.014,
+      "valence": 0.033,
+      "popularity": 65
+    },
+    {
+      "name": "Sonder",
+      "artist": "Modal Colours",
+      "energy": 0.002,
+      "valence": 0.059,
+      "popularity": 65
+    },
+    {
+      "name": "Lull",
+      "artist": "Sleepless Eye",
+      "energy": 0.03,
+      "valence": 0.065,
+      "popularity": 65
+    },
+    {
+      "name": "For Your Relief",
+      "artist": "Calming Eyes",
+      "energy": 0.016,
+      "valence": 0.03,
+      "popularity": 65
+    },
+    {
+      "name": "Squama",
+      "artist": "Hello Artemisia!",
+      "energy": 0.035,
+      "valence": 0.072,
+      "popularity": 65
+    },
+    {
+      "name": "Just In View",
+      "artist": "Euloria",
+      "energy": 0.002,
+      "valence": 0.121,
+      "popularity": 65
+    },
+    {
+      "name": "Een mooie droom",
+      "artist": "Zeb Maessen",
+      "energy": 0.005,
+      "valence": 0.037,
+      "popularity": 65
+    },
+    {
+      "name": "Redamancy",
+      "artist": "Rebecka Aether",
+      "energy": 0.003,
+      "valence": 0.064,
+      "popularity": 65
+    },
+    {
+      "name": "N\u00e4ra",
+      "artist": "Najma Wallin",
+      "energy": 0.007,
+      "valence": 0.101,
+      "popularity": 65
+    },
+    {
+      "name": "Maglovito",
+      "artist": "Nadia Bulic",
+      "energy": 0.002,
+      "valence": 0.099,
+      "popularity": 65
+    },
+    {
+      "name": "Sleepy Journey",
+      "artist": "Cokobi",
+      "energy": 0.04,
+      "valence": 0.039,
+      "popularity": 65
+    },
+    {
+      "name": "Nox",
+      "artist": "Wolfgang Snow",
+      "energy": 0.049,
+      "valence": 0.051,
+      "popularity": 65
+    },
+    {
+      "name": "Deep Down The Cave",
+      "artist": "Xavier Ortando",
+      "energy": 0.046,
+      "valence": 0.071,
+      "popularity": 65
+    },
+    {
+      "name": "Allt finns kvar",
+      "artist": "Eleonora Feldt",
+      "energy": 0.011,
+      "valence": 0.038,
+      "popularity": 65
+    },
+    {
+      "name": "Stories",
+      "artist": "Rebecka Aether",
+      "energy": 0.013,
+      "valence": 0.059,
+      "popularity": 65
+    },
+    {
+      "name": "Rituals",
+      "artist": "Lorelle Paredes",
+      "energy": 0.042,
+      "valence": 0.058,
+      "popularity": 65
+    },
+    {
+      "name": "Sleeping Music (Deep Sleep)",
+      "artist": "Deep Sleep Music Collective",
+      "energy": 0.002,
+      "valence": 0.039,
+      "popularity": 65
+    },
+    {
+      "name": "Perfect Natural White Noise as a Relaxing Ambient Sleep Aid (Nice Lullaby)",
+      "artist": "White Noise Baby Sleep",
+      "energy": 0.189,
+      "valence": 0.0,
+      "popularity": 65
+    },
+    {
+      "name": "Mystical - Alpha Sinus 54,8hz - 57,3 hz",
+      "artist": "Drone",
+      "energy": 0.056,
+      "valence": 0.149,
+      "popularity": 64
+    },
+    {
+      "name": "Tauko",
+      "artist": "Juhani Ahonen",
+      "energy": 0.023,
+      "valence": 0.108,
+      "popularity": 64
+    },
+    {
+      "name": "In Between Dreams",
+      "artist": "Don Mazuck",
+      "energy": 0.007,
+      "valence": 0.191,
+      "popularity": 64
+    },
+    {
+      "name": "S\u00e1lvora",
+      "artist": "Huma",
+      "energy": 0.011,
+      "valence": 0.038,
+      "popularity": 64
+    },
+    {
+      "name": "Answers",
+      "artist": "Elmer Loyd",
+      "energy": 0.027,
+      "valence": 0.037,
+      "popularity": 64
+    },
+    {
+      "name": "Dr\u017ei me",
+      "artist": "Judi Khan",
+      "energy": 0.004,
+      "valence": 0.031,
+      "popularity": 64
+    },
+    {
+      "name": "Luova",
+      "artist": "Lumi Couri",
+      "energy": 0.002,
+      "valence": 0.04,
+      "popularity": 64
+    },
+    {
+      "name": "Duende",
+      "artist": "Kaua Correia",
+      "energy": 0.003,
+      "valence": 0.112,
+      "popularity": 64
+    },
+    {
+      "name": "Patiently",
+      "artist": "Juno Reed",
+      "energy": 0.005,
+      "valence": 0.071,
+      "popularity": 64
+    },
+    {
+      "name": "Sineway",
+      "artist": "Boreal Embla",
+      "energy": 0.005,
+      "valence": 0.039,
+      "popularity": 64
+    },
+    {
+      "name": "Mirrors",
+      "artist": "Tairata",
+      "energy": 0.009,
+      "valence": 0.048,
+      "popularity": 64
+    },
+    {
+      "name": "Shimmering Above Clouds",
+      "artist": "Jeff Birma",
+      "energy": 0.034,
+      "valence": 0.116,
+      "popularity": 64
+    },
+    {
+      "name": "Distant Dreams",
+      "artist": "Euloria",
+      "energy": 0.003,
+      "valence": 0.056,
+      "popularity": 64
+    },
+    {
+      "name": "Beatific",
+      "artist": "Caius Biel",
+      "energy": 0.008,
+      "valence": 0.076,
+      "popularity": 64
+    },
+    {
+      "name": "Mellow",
+      "artist": "Boreal Embla",
+      "energy": 0.005,
+      "valence": 0.087,
+      "popularity": 64
+    },
+    {
+      "name": "Becalming",
+      "artist": "Rebecka Aether",
+      "energy": 0.019,
+      "valence": 0.053,
+      "popularity": 64
+    },
+    {
+      "name": "If Only I Could Fly",
+      "artist": "Dream Flows",
+      "energy": 0.088,
+      "valence": 0.073,
+      "popularity": 64
+    },
+    {
+      "name": "Deep breaths",
+      "artist": "Jirou Soller",
+      "energy": 0.012,
+      "valence": 0.033,
+      "popularity": 64
+    },
+    {
+      "name": "Butterfly",
+      "artist": "Penny Layn",
+      "energy": 0.024,
+      "valence": 0.038,
+      "popularity": 64
+    },
+    {
+      "name": "The Other Side",
+      "artist": "Rosetta Arroyo",
+      "energy": 0.011,
+      "valence": 0.037,
+      "popularity": 64
+    },
+    {
+      "name": "The Riddle of Dreams",
+      "artist": "Carligo",
+      "energy": 0.007,
+      "valence": 0.038,
+      "popularity": 64
+    },
+    {
+      "name": "Tirana Wolves",
+      "artist": "Wolves Club",
+      "energy": 0.005,
+      "valence": 0.037,
+      "popularity": 63
+    },
+    {
+      "name": "sierra star",
+      "artist": "nite sky",
+      "energy": 0.008,
+      "valence": 0.037,
+      "popularity": 63
+    },
+    {
+      "name": "Moment To Moment",
+      "artist": "Modal Colours",
+      "energy": 0.041,
+      "valence": 0.152,
+      "popularity": 63
+    },
+    {
+      "name": "La Cascada",
+      "artist": "Sayulita",
+      "energy": 0.029,
+      "valence": 0.114,
+      "popularity": 63
+    },
+    {
+      "name": "Reappearance",
+      "artist": "Spacetactular",
+      "energy": 0.008,
+      "valence": 0.049,
+      "popularity": 63
+    },
+    {
+      "name": "Affection",
+      "artist": "Calming Eyes",
+      "energy": 0.016,
+      "valence": 0.038,
+      "popularity": 63
+    },
+    {
+      "name": "Ciclo Solar",
+      "artist": "Universo",
+      "energy": 0.051,
+      "valence": 0.041,
+      "popularity": 63
+    },
+    {
+      "name": "White Noise: Calming Roar of the Ocean to Fall to Sleep and Stay Asleep",
+      "artist": "Natural White Noise Relaxation",
+      "energy": 0.003,
+      "valence": 0.0,
+      "popularity": 63
+    },
+    {
+      "name": "Deep Brown Noise",
+      "artist": "Brainbox",
+      "energy": 0.332,
+      "valence": 0.129,
+      "popularity": 63
+    },
+    {
+      "name": "Pause",
+      "artist": "Serene & Pax",
+      "energy": 0.006,
+      "valence": 0.04,
+      "popularity": 63
+    },
+    {
+      "name": "Cloudology",
+      "artist": "Moomu",
+      "energy": 0.064,
+      "valence": 0.058,
+      "popularity": 63
+    },
+    {
+      "name": "e\u0301ternite\u0301",
+      "artist": "Eric Ardouin",
+      "energy": 0.005,
+      "valence": 0.047,
+      "popularity": 63
+    },
+    {
+      "name": "Nostalgia",
+      "artist": "Will Carano",
+      "energy": 0.002,
+      "valence": 0.037,
+      "popularity": 63
+    },
+    {
+      "name": "Simien",
+      "artist": "Petros Idris",
+      "energy": 0.01,
+      "valence": 0.094,
+      "popularity": 63
+    },
+    {
+      "name": "Winter Morning",
+      "artist": "Aysha Mathis",
+      "energy": 0.013,
+      "valence": 0.048,
+      "popularity": 62
+    },
+    {
+      "name": "Unavailable",
+      "artist": "Aysha Mathis",
+      "energy": 0.003,
+      "valence": 0.089,
+      "popularity": 62
+    },
+    {
+      "name": "Shape Of A Dream",
+      "artist": "Sailors Of The 7 Seas",
+      "energy": 0.007,
+      "valence": 0.092,
+      "popularity": 62
+    },
+    {
+      "name": "A Illa",
+      "artist": "Huma",
+      "energy": 0.064,
+      "valence": 0.032,
+      "popularity": 62
+    },
+    {
+      "name": "Amado Nervo",
+      "artist": "Sayulita",
+      "energy": 0.034,
+      "valence": 0.082,
+      "popularity": 62
+    },
+    {
+      "name": "Pomalu",
+      "artist": "Marie Protivov\u00e1",
+      "energy": 0.027,
+      "valence": 0.064,
+      "popularity": 62
+    },
+    {
+      "name": "Monrovia",
+      "artist": "Prescient Liquids",
+      "energy": 0.019,
+      "valence": 0.041,
+      "popularity": 62
+    },
+    {
+      "name": "Vila\u0301n",
+      "artist": "Huma",
+      "energy": 0.023,
+      "valence": 0.04,
+      "popularity": 62
+    },
+    {
+      "name": "Versuchen",
+      "artist": "Leo Baumgart",
+      "energy": 0.008,
+      "valence": 0.061,
+      "popularity": 62
+    },
+    {
+      "name": "Revolve",
+      "artist": "Sleepless Eye",
+      "energy": 0.035,
+      "valence": 0.036,
+      "popularity": 62
+    },
+    {
+      "name": "Close At Heart",
+      "artist": "The Lay-Backs",
+      "energy": 0.03,
+      "valence": 0.084,
+      "popularity": 62
+    },
+    {
+      "name": "Nattljus",
+      "artist": "M\u00e5nvarv",
       "energy": 0.024,
       "valence": 0.052,
-      "name": "Nattljus",
-      "artists": "M\u00e5nvarv"
+      "popularity": 62
     },
     {
+      "name": "Cloud Study",
+      "artist": "Norris Melcher",
       "energy": 0.096,
       "valence": 0.046,
-      "name": "Cloud Study",
-      "artists": "Norris Melcher"
+      "popularity": 62
+    },
+    {
+      "name": "Luminous",
+      "artist": "Invisible Motion",
+      "energy": 0.04,
+      "valence": 0.035,
+      "popularity": 62
+    },
+    {
+      "name": "Vaikne",
+      "artist": "Eyla Calmes",
+      "energy": 0.091,
+      "valence": 0.05,
+      "popularity": 62
+    },
+    {
+      "name": "Origami Age",
+      "artist": "De Seu",
+      "energy": 0.04,
+      "valence": 0.097,
+      "popularity": 62
+    },
+    {
+      "name": "Sequoia",
+      "artist": "Klaangen",
+      "energy": 0.02,
+      "valence": 0.04,
+      "popularity": 62
+    },
+    {
+      "name": "Nikad ne Zaboravi",
+      "artist": "Nadia Bulic",
+      "energy": 0.006,
+      "valence": 0.038,
+      "popularity": 62
+    },
+    {
+      "name": "Constant Broad Spectrum Noise Loop to Drown Out Sounds & Loud City Noises",
+      "artist": "White Noise Baby Sleep",
+      "energy": 0.0,
+      "valence": 0.0,
+      "popularity": 62
     }
   ],
   "acousticness": {
-    "median": 0.968,
-    "mean": 0.937
+    "min": 0.0,
+    "max": 0.995,
+    "mean": 0.9,
+    "median": 0.957,
+    "q1": 0.91,
+    "q3": 0.978
   },
   "instrumentalness": {
-    "median": 0.91,
-    "mean": 0.907
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.843,
+    "median": 0.887,
+    "q1": 0.826,
+    "q3": 0.933
   },
   "acoustic_instrumental_scatter": [
     {
+      "name": "Clean White Noise - Loopable with no fade",
+      "artist": "White Noise Baby Sleep;White Noise for Babies",
       "acousticness": 0.791,
       "instrumentalness": 1.0,
-      "name": "Clean White Noise - Loopable with no fade",
-      "artists": "White Noise Baby Sleep;White Noise for Babies"
+      "popularity": 85
     },
     {
-      "acousticness": 0.994,
-      "instrumentalness": 0.94,
-      "name": "The Departure",
-      "artists": "Max Richter;Lang Lang"
-    },
-    {
+      "name": "Brown Sleep Noise",
+      "artist": "Sleep Miracle",
       "acousticness": 0.116,
       "instrumentalness": 1.0,
-      "name": "Brown Sleep Noise",
-      "artists": "Sleep Miracle"
+      "popularity": 80
     },
     {
-      "acousticness": 0.965,
-      "instrumentalness": 0.966,
-      "name": "Viento Estelar",
-      "artists": "Universo"
-    },
-    {
-      "acousticness": 0.912,
-      "instrumentalness": 0.952,
-      "name": "Allt finns kvar",
-      "artists": "Eleonora Feldt"
-    },
-    {
-      "acousticness": 0.994,
-      "instrumentalness": 0.923,
-      "name": "Nocturnal",
-      "artists": "Joep Beving"
-    },
-    {
-      "acousticness": 0.935,
-      "instrumentalness": 0.877,
-      "name": "Ciclo Solar",
-      "artists": "Universo"
-    },
-    {
-      "acousticness": 0.961,
-      "instrumentalness": 0.89,
-      "name": "Nuvole Bianche",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "acousticness": 0.956,
-      "instrumentalness": 0.974,
-      "name": "Sound of Invisible Waters",
-      "artists": "Deuter"
-    },
-    {
-      "acousticness": 0.989,
-      "instrumentalness": 0.929,
-      "name": "Blanket of White",
-      "artists": "Sleepy Clouds"
-    },
-    {
-      "acousticness": 0.926,
-      "instrumentalness": 0.954,
-      "name": "Weightless Part 4",
-      "artists": "Marconi Union"
-    },
-    {
-      "acousticness": 0.988,
-      "instrumentalness": 0.946,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 8",
-      "artists": "Max Richter"
-    },
-    {
-      "acousticness": 0.994,
-      "instrumentalness": 0.97,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 2",
-      "artists": "Max Richter"
-    },
-    {
-      "acousticness": 0.972,
-      "instrumentalness": 0.913,
-      "name": "In Between Dreams",
-      "artists": "Don Mazuck"
-    },
-    {
-      "acousticness": 0.957,
-      "instrumentalness": 0.94,
-      "name": "Ons",
-      "artists": "Huma"
-    },
-    {
-      "acousticness": 0.986,
-      "instrumentalness": 0.923,
-      "name": "Wind Song",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "acousticness": 0.923,
-      "instrumentalness": 0.989,
-      "name": "Simien",
-      "artists": "Petros Idris"
-    },
-    {
-      "acousticness": 0.991,
-      "instrumentalness": 0.859,
-      "name": "I et andet liv",
-      "artists": "Minik Knudsen"
-    },
-    {
-      "acousticness": 0.968,
-      "instrumentalness": 0.859,
-      "name": "Beatific",
-      "artists": "Caius Biel"
-    },
-    {
-      "acousticness": 0.991,
-      "instrumentalness": 0.904,
-      "name": "Butterfly",
-      "artists": "Penny Layn"
-    },
-    {
-      "acousticness": 0.99,
-      "instrumentalness": 0.91,
-      "name": "Herinneringen",
-      "artists": "Sohn Aelia"
-    },
-    {
-      "acousticness": 0.856,
-      "instrumentalness": 0.831,
-      "name": "Weightless",
-      "artists": "Marconi Union"
-    },
-    {
-      "acousticness": 0.932,
-      "instrumentalness": 0.985,
-      "name": "An Ending (Ascent) - Remastered 2005",
-      "artists": "Brian Eno"
-    },
-    {
-      "acousticness": 0.989,
-      "instrumentalness": 0.928,
-      "name": "Flora",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "acousticness": 0.987,
-      "instrumentalness": 0.907,
-      "name": "Portrait Gallery",
-      "artists": "Luke Howard"
-    },
-    {
-      "acousticness": 0.955,
-      "instrumentalness": 0.907,
-      "name": "A Meaningful Moment Through a Meaning(less) Process",
-      "artists": "Stars Of The Lid"
-    },
-    {
-      "acousticness": 0.97,
-      "instrumentalness": 0.931,
-      "name": "Hush",
-      "artists": "Yonatan Awate"
-    },
-    {
-      "acousticness": 0.978,
-      "instrumentalness": 0.935,
-      "name": "Tiniebla",
-      "artists": "Pearl Melendez"
-    },
-    {
-      "acousticness": 0.985,
-      "instrumentalness": 0.965,
-      "name": "Uno",
-      "artists": "Deuter"
-    },
-    {
-      "acousticness": 0.968,
-      "instrumentalness": 0.957,
-      "name": "Lorimor",
-      "artists": "Savasana"
-    },
-    {
-      "acousticness": 0.99,
-      "instrumentalness": 0.914,
-      "name": "Neblinoso",
-      "artists": "Cameron Sinosa"
-    },
-    {
-      "acousticness": 0.968,
-      "instrumentalness": 0.913,
-      "name": "Sleeping Music (Deep Sleep)",
-      "artists": "Deep Sleep Music Collective"
-    },
-    {
-      "acousticness": 0.946,
-      "instrumentalness": 0.893,
-      "name": "Turndown Service",
-      "artists": "Adeline Verver"
-    },
-    {
-      "acousticness": 0.995,
-      "instrumentalness": 0.886,
-      "name": "Together At Last",
-      "artists": "Alexis Ffrench;Jobim Ffrench"
-    },
-    {
-      "acousticness": 0.97,
-      "instrumentalness": 0.932,
-      "name": "Piano Concerto No. 2 in F Major, Op. 102: II. Andante",
-      "artists": "Dmitri Shostakovich;Boris Giltburg;Royal Liverpool Philharmonic Orchestra;Vasily Petrenko"
-    },
-    {
-      "acousticness": 0.994,
-      "instrumentalness": 0.98,
-      "name": "Giant Steps Tomorrow",
-      "artists": "Shibb"
-    },
-    {
-      "acousticness": 0.911,
-      "instrumentalness": 0.855,
-      "name": "#3",
-      "artists": "Aphex Twin"
-    },
-    {
-      "acousticness": 0.47,
-      "instrumentalness": 0.898,
-      "name": "Remembrance",
-      "artists": "Balmorhea"
-    },
-    {
-      "acousticness": 0.937,
-      "instrumentalness": 0.916,
-      "name": "Olson",
-      "artists": "Boards of Canada"
-    },
-    {
-      "acousticness": 0.875,
-      "instrumentalness": 0.922,
-      "name": "Lull",
-      "artists": "Sleepless Eye"
-    },
-    {
-      "acousticness": 0.994,
-      "instrumentalness": 0.896,
-      "name": "Rituals",
-      "artists": "Lorelle Paredes"
-    },
-    {
-      "acousticness": 0.987,
-      "instrumentalness": 0.907,
-      "name": "Emerald and Stone",
-      "artists": "Brian Eno;Jon Hopkins;Leo Abrahams"
-    },
-    {
-      "acousticness": 0.863,
-      "instrumentalness": 0.919,
-      "name": "Weightless Part 3",
-      "artists": "Marconi Union"
-    },
-    {
-      "acousticness": 0.819,
-      "instrumentalness": 0.963,
-      "name": "Weightless Part 6",
-      "artists": "Marconi Union"
-    },
-    {
-      "acousticness": 0.992,
-      "instrumentalness": 0.951,
-      "name": "Natural Light",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "acousticness": 0.992,
-      "instrumentalness": 0.951,
-      "name": "Natural Light",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "acousticness": 0.976,
-      "instrumentalness": 0.938,
-      "name": "Mo Chroidhe",
-      "artists": "Mila Harper"
-    },
-    {
-      "acousticness": 0.943,
-      "instrumentalness": 0.909,
-      "name": "Moments of Stillness",
-      "artists": "Hector Warrens"
-    },
-    {
-      "acousticness": 0.982,
-      "instrumentalness": 0.913,
-      "name": "1/1 - Remastered 2004",
-      "artists": "Brian Eno"
-    },
-    {
-      "acousticness": 0.91,
-      "instrumentalness": 0.862,
-      "name": "Shimmering Above Clouds",
-      "artists": "Jeff Birma"
-    },
-    {
-      "acousticness": 0.918,
-      "instrumentalness": 0.887,
-      "name": "Deep breaths",
-      "artists": "Jirou Soller"
-    },
-    {
-      "acousticness": 0.995,
-      "instrumentalness": 0.976,
-      "name": "The Other Side",
-      "artists": "Rosetta Arroyo"
-    },
-    {
-      "acousticness": 0.995,
-      "instrumentalness": 0.968,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 1",
-      "artists": "Max Richter"
-    },
-    {
-      "acousticness": 0.993,
-      "instrumentalness": 0.964,
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 4",
-      "artists": "Max Richter"
-    },
-    {
-      "acousticness": 0.969,
-      "instrumentalness": 0.881,
-      "name": "Sonder",
-      "artists": "Modal Colours"
-    },
-    {
-      "acousticness": 0.995,
-      "instrumentalness": 0.861,
-      "name": "Just In View",
-      "artists": "Euloria"
-    },
-    {
-      "acousticness": 0.964,
-      "instrumentalness": 0.879,
-      "name": "N\u00e4ra",
-      "artists": "Najma Wallin"
-    },
-    {
-      "acousticness": 0.841,
-      "instrumentalness": 0.877,
-      "name": "Arp Of Life",
-      "artists": "Bj\u00f8rg Stigbj\u00f8rnson"
-    },
-    {
-      "acousticness": 0.979,
-      "instrumentalness": 0.962,
-      "name": "She Remembers",
-      "artists": "Max Richter"
-    },
-    {
-      "acousticness": 0.959,
-      "instrumentalness": 0.907,
-      "name": "Reappearance",
-      "artists": "Spacetactular"
-    },
-    {
-      "acousticness": 0.95,
-      "instrumentalness": 0.882,
-      "name": "Pause",
-      "artists": "Serene & Pax"
-    },
-    {
-      "acousticness": 0.985,
-      "instrumentalness": 0.875,
-      "name": "Nostalgia",
-      "artists": "Will Carano"
-    },
-    {
-      "acousticness": 0.89,
-      "instrumentalness": 0.901,
-      "name": "Living Room",
-      "artists": "Grouper"
-    },
-    {
-      "acousticness": 0.985,
-      "instrumentalness": 0.857,
-      "name": "Four Dimensions",
-      "artists": "Ludovico Einaudi;Amsterdam Sinfonietta;PMCE Parco Della Musica Contempornea Ensemble"
-    },
-    {
-      "acousticness": 0.945,
-      "instrumentalness": 0.965,
-      "name": "Grey Cloud Lullaby",
-      "artists": "Slow Meadow"
-    },
-    {
-      "acousticness": 0.956,
-      "instrumentalness": 0.95,
-      "name": "Feel First Life",
-      "artists": "Jon Hopkins"
-    },
-    {
-      "acousticness": 0.844,
-      "instrumentalness": 0.852,
-      "name": "Mystical - Alpha Sinus 54,8hz - 57,3 hz",
-      "artists": "Drone"
-    },
-    {
-      "acousticness": 0.937,
-      "instrumentalness": 0.895,
-      "name": "Dr\u017ei me",
-      "artists": "Judi Khan"
-    },
-    {
-      "acousticness": 0.991,
-      "instrumentalness": 0.887,
-      "name": "Duende",
-      "artists": "Kaua Correia"
-    },
-    {
-      "acousticness": 0.994,
-      "instrumentalness": 0.896,
-      "name": "Distant Dreams",
-      "artists": "Euloria"
-    },
-    {
-      "acousticness": 0.965,
-      "instrumentalness": 0.942,
-      "name": "Uitblinken",
-      "artists": "Sohn Aelia"
-    },
-    {
-      "acousticness": 0.972,
-      "instrumentalness": 0.972,
-      "name": "The End of Childhood (feat. Jack Liebeck)",
-      "artists": "Dario Marianelli;Jack Liebeck;Benjamin Wallfisch"
-    },
-    {
-      "acousticness": 0.953,
-      "instrumentalness": 0.864,
-      "name": "Dans le noir",
-      "artists": "Charmaine D'Avis"
-    },
-    {
-      "acousticness": 0.43,
-      "instrumentalness": 0.94,
-      "name": "Anything You Synthesize - Ambient",
-      "artists": "The American Dollar"
-    },
-    {
-      "acousticness": 0.989,
-      "instrumentalness": 0.784,
-      "name": "Redamancy",
-      "artists": "Rebecka Aether"
-    },
-    {
-      "acousticness": 0.976,
-      "instrumentalness": 0.815,
-      "name": "Deep Down The Cave",
-      "artists": "Xavier Ortando"
-    },
-    {
-      "acousticness": 0.961,
-      "instrumentalness": 0.892,
-      "name": "Vila\u0301n",
-      "artists": "Huma"
-    },
-    {
-      "acousticness": 0.973,
-      "instrumentalness": 0.897,
-      "name": "Versuchen",
-      "artists": "Leo Baumgart"
-    },
-    {
-      "acousticness": 0.777,
-      "instrumentalness": 0.922,
-      "name": "Ocean Breeze - Alpha Sinus 69,2 hz - 70 hz",
-      "artists": "Floating"
-    },
-    {
-      "acousticness": 0.991,
-      "instrumentalness": 0.891,
-      "name": "Dawn - From \"Pride & Prejudice\" Soundtrack",
-      "artists": "Dario Marianelli;Jean-Yves Thibaudet"
-    },
-    {
-      "acousticness": 0.991,
-      "instrumentalness": 0.953,
-      "name": "Temple White",
-      "artists": "Ludovico Einaudi"
-    },
-    {
-      "acousticness": 0.99,
-      "instrumentalness": 0.912,
-      "name": "The Hours: An Unwelcome Friend (From \"The Hours\")",
-      "artists": "Philip Glass;Nicolas Horvath"
-    },
-    {
-      "acousticness": 0.974,
-      "instrumentalness": 0.91,
-      "name": "Affection",
-      "artists": "Calming Eyes"
-    },
-    {
-      "acousticness": 0.935,
-      "instrumentalness": 0.841,
-      "name": "e\u0301ternite\u0301",
-      "artists": "Eric Ardouin"
-    },
-    {
-      "acousticness": 0.975,
-      "instrumentalness": 0.966,
-      "name": "Shimmer in the Morning",
-      "artists": "Sola Vimi"
-    },
-    {
-      "acousticness": 0.904,
-      "instrumentalness": 0.9,
-      "name": "Deep",
-      "artists": "Peter Sandberg"
-    },
-    {
+      "name": "Deep Sleep Recovery Noise",
+      "artist": "Water Sound Natural White Noise",
       "acousticness": 0.916,
       "instrumentalness": 0.202,
-      "name": "Deep Sleep Recovery Noise",
-      "artists": "Water Sound Natural White Noise"
+      "popularity": 76
     },
     {
-      "acousticness": 0.987,
-      "instrumentalness": 0.874,
-      "name": "Hopeful",
-      "artists": "Unwritten Skies"
+      "name": "White Noise Sleeping Aid to Help My Baby Fall Asleep, Sleep Through the Night",
+      "artist": "White Noise Baby Sleep",
+      "acousticness": 0.982,
+      "instrumentalness": 0.279,
+      "popularity": 75
     },
     {
-      "acousticness": 0.995,
-      "instrumentalness": 0.892,
-      "name": "Et \u00f8yeblikk",
-      "artists": "Tine Mydland"
+      "name": "Herinneringen",
+      "artist": "Sohn Aelia",
+      "acousticness": 0.99,
+      "instrumentalness": 0.91,
+      "popularity": 74
     },
     {
-      "acousticness": 0.942,
-      "instrumentalness": 0.902,
-      "name": "Making Gardens Out of Silence",
-      "artists": "Brian Eno"
+      "name": "Ons",
+      "artist": "Huma",
+      "acousticness": 0.957,
+      "instrumentalness": 0.94,
+      "popularity": 71
     },
     {
+      "name": "Beautiful Imagination",
+      "artist": "Little Circuits",
+      "acousticness": 0.797,
+      "instrumentalness": 0.927,
+      "popularity": 71
+    },
+    {
+      "name": "I et andet liv",
+      "artist": "Minik Knudsen",
       "acousticness": 0.991,
-      "instrumentalness": 0.878,
-      "name": "Una Mattina",
-      "artists": "Ludovico Einaudi"
+      "instrumentalness": 0.859,
+      "popularity": 70
     },
     {
+      "name": "Hush",
+      "artist": "Yonatan Awate",
+      "acousticness": 0.97,
+      "instrumentalness": 0.931,
+      "popularity": 69
+    },
+    {
+      "name": "Tiniebla",
+      "artist": "Pearl Melendez",
+      "acousticness": 0.978,
+      "instrumentalness": 0.935,
+      "popularity": 69
+    },
+    {
+      "name": "Dans le noir",
+      "artist": "Charmaine D'Avis",
+      "acousticness": 0.953,
+      "instrumentalness": 0.864,
+      "popularity": 68
+    },
+    {
+      "name": "Neblinoso",
+      "artist": "Cameron Sinosa",
+      "acousticness": 0.99,
+      "instrumentalness": 0.914,
+      "popularity": 68
+    },
+    {
+      "name": "Wei\u00dfes Rauschen: Baby Schlafhilfe",
+      "artist": "Wei\u00dfes Rauschen HD",
+      "acousticness": 0.117,
+      "instrumentalness": 0.194,
+      "popularity": 67
+    },
+    {
+      "name": "Blanket of White",
+      "artist": "Sleepy Clouds",
+      "acousticness": 0.989,
+      "instrumentalness": 0.929,
+      "popularity": 67
+    },
+    {
+      "name": "Liberation",
+      "artist": "Nova Issue",
+      "acousticness": 0.951,
+      "instrumentalness": 0.777,
+      "popularity": 66
+    },
+    {
+      "name": "La Caoba",
+      "artist": "Sayulita",
+      "acousticness": 0.864,
+      "instrumentalness": 0.866,
+      "popularity": 66
+    },
+    {
+      "name": "Peaceful Patterns",
+      "artist": "Hatha Priya",
+      "acousticness": 0.774,
+      "instrumentalness": 0.802,
+      "popularity": 66
+    },
+    {
+      "name": "Under Samma Himmel",
+      "artist": "Sanja G\u00f6ransson",
+      "acousticness": 0.982,
+      "instrumentalness": 0.907,
+      "popularity": 66
+    },
+    {
+      "name": "Mo Chroidhe",
+      "artist": "Mila Harper",
+      "acousticness": 0.976,
+      "instrumentalness": 0.938,
+      "popularity": 66
+    },
+    {
+      "name": "Shhhh Baby Shusher For Sleep",
+      "artist": "Baby Sleep",
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "popularity": 66
+    },
+    {
+      "name": "Viento Estelar",
+      "artist": "Universo",
+      "acousticness": 0.965,
+      "instrumentalness": 0.966,
+      "popularity": 66
+    },
+    {
+      "name": "Appreciation",
+      "artist": "Vishal Casey",
+      "acousticness": 0.99,
+      "instrumentalness": 0.974,
+      "popularity": 66
+    },
+    {
+      "name": "Turndown Service",
+      "artist": "Adeline Verver",
+      "acousticness": 0.946,
+      "instrumentalness": 0.893,
+      "popularity": 66
+    },
+    {
+      "name": "Repouso",
+      "artist": "Polysomni",
+      "acousticness": 0.982,
+      "instrumentalness": 0.755,
+      "popularity": 66
+    },
+    {
+      "name": "Blue Sphere",
+      "artist": "Sea of Waves",
+      "acousticness": 0.888,
+      "instrumentalness": 0.838,
+      "popularity": 66
+    },
+    {
+      "name": "Anatomy of Change",
+      "artist": "Oto Roth",
+      "acousticness": 0.993,
+      "instrumentalness": 0.966,
+      "popularity": 66
+    },
+    {
+      "name": "Calming Pacific Ocean Roar to Induce Healing Delta Sleep Waves (Nursery Rhymes Lullabies Effect)",
+      "artist": "White Noise Baby Sleep",
+      "acousticness": 0.729,
+      "instrumentalness": 0.995,
+      "popularity": 66
+    },
+    {
+      "name": "Lorimor",
+      "artist": "Savasana",
+      "acousticness": 0.968,
+      "instrumentalness": 0.957,
+      "popularity": 65
+    },
+    {
+      "name": "Life From Above",
+      "artist": "Ethan Beckett",
+      "acousticness": 0.938,
+      "instrumentalness": 0.699,
+      "popularity": 65
+    },
+    {
+      "name": "Sonder",
+      "artist": "Modal Colours",
+      "acousticness": 0.969,
+      "instrumentalness": 0.881,
+      "popularity": 65
+    },
+    {
+      "name": "Lull",
+      "artist": "Sleepless Eye",
+      "acousticness": 0.875,
+      "instrumentalness": 0.922,
+      "popularity": 65
+    },
+    {
+      "name": "For Your Relief",
+      "artist": "Calming Eyes",
+      "acousticness": 0.906,
+      "instrumentalness": 0.945,
+      "popularity": 65
+    },
+    {
+      "name": "Squama",
+      "artist": "Hello Artemisia!",
+      "acousticness": 0.977,
+      "instrumentalness": 0.858,
+      "popularity": 65
+    },
+    {
+      "name": "Just In View",
+      "artist": "Euloria",
+      "acousticness": 0.995,
+      "instrumentalness": 0.861,
+      "popularity": 65
+    },
+    {
+      "name": "Een mooie droom",
+      "artist": "Zeb Maessen",
+      "acousticness": 0.987,
+      "instrumentalness": 0.747,
+      "popularity": 65
+    },
+    {
+      "name": "Redamancy",
+      "artist": "Rebecka Aether",
+      "acousticness": 0.989,
+      "instrumentalness": 0.784,
+      "popularity": 65
+    },
+    {
+      "name": "N\u00e4ra",
+      "artist": "Najma Wallin",
+      "acousticness": 0.964,
+      "instrumentalness": 0.879,
+      "popularity": 65
+    },
+    {
+      "name": "Maglovito",
+      "artist": "Nadia Bulic",
+      "acousticness": 0.969,
+      "instrumentalness": 0.901,
+      "popularity": 65
+    },
+    {
+      "name": "Sleepy Journey",
+      "artist": "Cokobi",
+      "acousticness": 0.872,
+      "instrumentalness": 0.952,
+      "popularity": 65
+    },
+    {
+      "name": "Nox",
+      "artist": "Wolfgang Snow",
+      "acousticness": 0.796,
+      "instrumentalness": 0.531,
+      "popularity": 65
+    },
+    {
+      "name": "Deep Down The Cave",
+      "artist": "Xavier Ortando",
+      "acousticness": 0.976,
+      "instrumentalness": 0.815,
+      "popularity": 65
+    },
+    {
+      "name": "Allt finns kvar",
+      "artist": "Eleonora Feldt",
+      "acousticness": 0.912,
+      "instrumentalness": 0.952,
+      "popularity": 65
+    },
+    {
+      "name": "Stories",
+      "artist": "Rebecka Aether",
+      "acousticness": 0.959,
+      "instrumentalness": 0.826,
+      "popularity": 65
+    },
+    {
+      "name": "Rituals",
+      "artist": "Lorelle Paredes",
+      "acousticness": 0.994,
+      "instrumentalness": 0.896,
+      "popularity": 65
+    },
+    {
+      "name": "Sleeping Music (Deep Sleep)",
+      "artist": "Deep Sleep Music Collective",
+      "acousticness": 0.968,
+      "instrumentalness": 0.913,
+      "popularity": 65
+    },
+    {
+      "name": "Perfect Natural White Noise as a Relaxing Ambient Sleep Aid (Nice Lullaby)",
+      "artist": "White Noise Baby Sleep",
+      "acousticness": 0.785,
+      "instrumentalness": 0.968,
+      "popularity": 65
+    },
+    {
+      "name": "Mystical - Alpha Sinus 54,8hz - 57,3 hz",
+      "artist": "Drone",
+      "acousticness": 0.844,
+      "instrumentalness": 0.852,
+      "popularity": 64
+    },
+    {
+      "name": "Tauko",
+      "artist": "Juhani Ahonen",
+      "acousticness": 0.934,
+      "instrumentalness": 0.94,
+      "popularity": 64
+    },
+    {
+      "name": "In Between Dreams",
+      "artist": "Don Mazuck",
+      "acousticness": 0.972,
+      "instrumentalness": 0.913,
+      "popularity": 64
+    },
+    {
+      "name": "S\u00e1lvora",
+      "artist": "Huma",
+      "acousticness": 0.952,
+      "instrumentalness": 0.732,
+      "popularity": 64
+    },
+    {
+      "name": "Answers",
+      "artist": "Elmer Loyd",
+      "acousticness": 0.916,
+      "instrumentalness": 0.758,
+      "popularity": 64
+    },
+    {
+      "name": "Dr\u017ei me",
+      "artist": "Judi Khan",
+      "acousticness": 0.937,
+      "instrumentalness": 0.895,
+      "popularity": 64
+    },
+    {
+      "name": "Luova",
+      "artist": "Lumi Couri",
+      "acousticness": 0.984,
+      "instrumentalness": 0.88,
+      "popularity": 64
+    },
+    {
+      "name": "Duende",
+      "artist": "Kaua Correia",
+      "acousticness": 0.991,
+      "instrumentalness": 0.887,
+      "popularity": 64
+    },
+    {
+      "name": "Patiently",
+      "artist": "Juno Reed",
+      "acousticness": 0.994,
+      "instrumentalness": 0.893,
+      "popularity": 64
+    },
+    {
+      "name": "Sineway",
+      "artist": "Boreal Embla",
+      "acousticness": 0.974,
+      "instrumentalness": 0.832,
+      "popularity": 64
+    },
+    {
+      "name": "Mirrors",
+      "artist": "Tairata",
+      "acousticness": 0.979,
+      "instrumentalness": 0.937,
+      "popularity": 64
+    },
+    {
+      "name": "Shimmering Above Clouds",
+      "artist": "Jeff Birma",
+      "acousticness": 0.91,
+      "instrumentalness": 0.862,
+      "popularity": 64
+    },
+    {
+      "name": "Distant Dreams",
+      "artist": "Euloria",
+      "acousticness": 0.994,
+      "instrumentalness": 0.896,
+      "popularity": 64
+    },
+    {
+      "name": "Beatific",
+      "artist": "Caius Biel",
+      "acousticness": 0.968,
+      "instrumentalness": 0.859,
+      "popularity": 64
+    },
+    {
+      "name": "Mellow",
+      "artist": "Boreal Embla",
+      "acousticness": 0.945,
+      "instrumentalness": 0.739,
+      "popularity": 64
+    },
+    {
+      "name": "Becalming",
+      "artist": "Rebecka Aether",
+      "acousticness": 0.992,
+      "instrumentalness": 0.921,
+      "popularity": 64
+    },
+    {
+      "name": "If Only I Could Fly",
+      "artist": "Dream Flows",
+      "acousticness": 0.937,
+      "instrumentalness": 0.883,
+      "popularity": 64
+    },
+    {
+      "name": "Deep breaths",
+      "artist": "Jirou Soller",
+      "acousticness": 0.918,
+      "instrumentalness": 0.887,
+      "popularity": 64
+    },
+    {
+      "name": "Butterfly",
+      "artist": "Penny Layn",
+      "acousticness": 0.991,
+      "instrumentalness": 0.904,
+      "popularity": 64
+    },
+    {
+      "name": "The Other Side",
+      "artist": "Rosetta Arroyo",
+      "acousticness": 0.995,
+      "instrumentalness": 0.976,
+      "popularity": 64
+    },
+    {
+      "name": "The Riddle of Dreams",
+      "artist": "Carligo",
+      "acousticness": 0.971,
+      "instrumentalness": 0.87,
+      "popularity": 64
+    },
+    {
+      "name": "Tirana Wolves",
+      "artist": "Wolves Club",
+      "acousticness": 0.952,
+      "instrumentalness": 0.977,
+      "popularity": 63
+    },
+    {
+      "name": "sierra star",
+      "artist": "nite sky",
+      "acousticness": 0.867,
+      "instrumentalness": 0.956,
+      "popularity": 63
+    },
+    {
+      "name": "Moment To Moment",
+      "artist": "Modal Colours",
+      "acousticness": 0.946,
+      "instrumentalness": 0.886,
+      "popularity": 63
+    },
+    {
+      "name": "La Cascada",
+      "artist": "Sayulita",
+      "acousticness": 0.853,
+      "instrumentalness": 0.812,
+      "popularity": 63
+    },
+    {
+      "name": "Reappearance",
+      "artist": "Spacetactular",
+      "acousticness": 0.959,
+      "instrumentalness": 0.907,
+      "popularity": 63
+    },
+    {
+      "name": "Affection",
+      "artist": "Calming Eyes",
+      "acousticness": 0.974,
+      "instrumentalness": 0.91,
+      "popularity": 63
+    },
+    {
+      "name": "Ciclo Solar",
+      "artist": "Universo",
+      "acousticness": 0.935,
+      "instrumentalness": 0.877,
+      "popularity": 63
+    },
+    {
+      "name": "White Noise: Calming Roar of the Ocean to Fall to Sleep and Stay Asleep",
+      "artist": "Natural White Noise Relaxation",
+      "acousticness": 0.871,
+      "instrumentalness": 0.995,
+      "popularity": 63
+    },
+    {
+      "name": "Deep Brown Noise",
+      "artist": "Brainbox",
+      "acousticness": 0.776,
+      "instrumentalness": 0.971,
+      "popularity": 63
+    },
+    {
+      "name": "Pause",
+      "artist": "Serene & Pax",
+      "acousticness": 0.95,
+      "instrumentalness": 0.882,
+      "popularity": 63
+    },
+    {
+      "name": "Cloudology",
+      "artist": "Moomu",
+      "acousticness": 0.884,
+      "instrumentalness": 0.758,
+      "popularity": 63
+    },
+    {
+      "name": "e\u0301ternite\u0301",
+      "artist": "Eric Ardouin",
+      "acousticness": 0.935,
+      "instrumentalness": 0.841,
+      "popularity": 63
+    },
+    {
+      "name": "Nostalgia",
+      "artist": "Will Carano",
+      "acousticness": 0.985,
+      "instrumentalness": 0.875,
+      "popularity": 63
+    },
+    {
+      "name": "Simien",
+      "artist": "Petros Idris",
+      "acousticness": 0.923,
+      "instrumentalness": 0.989,
+      "popularity": 63
+    },
+    {
+      "name": "Winter Morning",
+      "artist": "Aysha Mathis",
       "acousticness": 0.943,
       "instrumentalness": 0.855,
-      "name": "Winter Morning",
-      "artists": "Aysha Mathis"
+      "popularity": 62
     },
     {
+      "name": "Unavailable",
+      "artist": "Aysha Mathis",
       "acousticness": 0.944,
       "instrumentalness": 0.898,
-      "name": "Unavailable",
-      "artists": "Aysha Mathis"
+      "popularity": 62
     },
     {
+      "name": "Shape Of A Dream",
+      "artist": "Sailors Of The 7 Seas",
       "acousticness": 0.983,
       "instrumentalness": 0.885,
-      "name": "Shape Of A Dream",
-      "artists": "Sailors Of The 7 Seas"
+      "popularity": 62
     },
     {
+      "name": "A Illa",
+      "artist": "Huma",
+      "acousticness": 0.91,
+      "instrumentalness": 0.803,
+      "popularity": 62
+    },
+    {
+      "name": "Amado Nervo",
+      "artist": "Sayulita",
       "acousticness": 0.93,
       "instrumentalness": 0.851,
-      "name": "Amado Nervo",
-      "artists": "Sayulita"
+      "popularity": 62
     },
     {
+      "name": "Pomalu",
+      "artist": "Marie Protivov\u00e1",
       "acousticness": 0.967,
       "instrumentalness": 0.956,
-      "name": "Pomalu",
-      "artists": "Marie Protivov\u00e1"
+      "popularity": 62
     },
     {
+      "name": "Monrovia",
+      "artist": "Prescient Liquids",
       "acousticness": 0.974,
       "instrumentalness": 0.933,
-      "name": "Monrovia",
-      "artists": "Prescient Liquids"
+      "popularity": 62
     },
     {
-      "acousticness": 0.951,
-      "instrumentalness": 0.873,
-      "name": "Smooth Sailing",
-      "artists": "White Noise Therapy"
+      "name": "Vila\u0301n",
+      "artist": "Huma",
+      "acousticness": 0.961,
+      "instrumentalness": 0.892,
+      "popularity": 62
     },
     {
+      "name": "Versuchen",
+      "artist": "Leo Baumgart",
+      "acousticness": 0.973,
+      "instrumentalness": 0.897,
+      "popularity": 62
+    },
+    {
+      "name": "Revolve",
+      "artist": "Sleepless Eye",
+      "acousticness": 0.861,
+      "instrumentalness": 0.572,
+      "popularity": 62
+    },
+    {
+      "name": "Close At Heart",
+      "artist": "The Lay-Backs",
+      "acousticness": 0.938,
+      "instrumentalness": 0.7,
+      "popularity": 62
+    },
+    {
+      "name": "Nattljus",
+      "artist": "M\u00e5nvarv",
       "acousticness": 0.964,
       "instrumentalness": 0.904,
-      "name": "Nattljus",
-      "artists": "M\u00e5nvarv"
+      "popularity": 62
     },
     {
+      "name": "Cloud Study",
+      "artist": "Norris Melcher",
       "acousticness": 0.949,
       "instrumentalness": 0.976,
-      "name": "Cloud Study",
-      "artists": "Norris Melcher"
+      "popularity": 62
+    },
+    {
+      "name": "Luminous",
+      "artist": "Invisible Motion",
+      "acousticness": 0.879,
+      "instrumentalness": 0.773,
+      "popularity": 62
+    },
+    {
+      "name": "Vaikne",
+      "artist": "Eyla Calmes",
+      "acousticness": 0.603,
+      "instrumentalness": 0.825,
+      "popularity": 62
+    },
+    {
+      "name": "Origami Age",
+      "artist": "De Seu",
+      "acousticness": 0.962,
+      "instrumentalness": 0.814,
+      "popularity": 62
+    },
+    {
+      "name": "Sequoia",
+      "artist": "Klaangen",
+      "acousticness": 0.972,
+      "instrumentalness": 0.847,
+      "popularity": 62
+    },
+    {
+      "name": "Nikad ne Zaboravi",
+      "artist": "Nadia Bulic",
+      "acousticness": 0.987,
+      "instrumentalness": 0.814,
+      "popularity": 62
+    },
+    {
+      "name": "Constant Broad Spectrum Noise Loop to Drown Out Sounds & Loud City Noises",
+      "artist": "White Noise Baby Sleep",
+      "acousticness": 0.0,
+      "instrumentalness": 0.279,
+      "popularity": 62
     }
   ],
   "duration": {
-    "median_min": 3.3,
-    "mean_min": 3.9,
-    "min_min": 1.1,
-    "max_min": 17.4,
-    "raw_min": [
-      1.1,
-      1.2,
-      1.5,
-      1.5,
-      1.9,
-      2.0,
-      2.0,
-      2.0,
-      2.1,
-      2.2,
-      2.2,
-      2.2,
-      2.3,
-      2.3,
-      2.4,
-      2.4,
-      2.4,
-      2.5,
-      2.6,
-      2.6,
-      2.7,
-      2.7,
-      2.7,
-      2.7,
-      2.8,
-      2.9,
-      2.9,
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.1,
-      3.1,
-      3.1,
-      3.1,
-      3.1,
-      3.2,
-      3.2,
-      3.2,
-      3.2,
-      3.2,
-      3.2,
-      3.2,
-      3.2,
-      3.3,
-      3.3,
-      3.3,
-      3.3,
-      3.3,
-      3.3,
-      3.3,
-      3.3,
-      3.4,
-      3.4,
-      3.4,
-      3.4,
-      3.5,
-      3.5,
-      3.5,
-      3.5,
-      3.6,
-      3.7,
-      3.8,
-      3.9,
-      3.9,
-      4.0,
-      4.0,
-      4.1,
-      4.1,
-      4.3,
-      4.3,
-      4.4,
-      4.4,
-      4.5,
-      4.5,
-      4.6,
-      4.7,
-      5.2,
-      5.2,
-      5.6,
-      5.6,
-      5.6,
-      5.7,
-      5.8,
-      5.9,
-      6.0,
-      6.0,
-      6.1,
-      6.9,
-      7.3,
-      7.6,
-      7.7,
-      8.0,
-      8.4,
-      9.5,
-      17.4
-    ],
-    "histogram": {
-      "0-2min": 7,
-      "2-3min": 24,
-      "3-4min": 40,
-      "4-5min": 10,
-      "5-6min": 9,
-      "6-8min": 6,
-      "8+min": 4
-    }
+    "min": 63000,
+    "max": 596886,
+    "mean": 193878.44,
+    "median": 181500,
+    "q1": 159744,
+    "q3": 202281
   },
   "danceability": {
-    "median": 0.171,
-    "mean": 0.178
+    "min": 0.0,
+    "max": 0.241,
+    "mean": 0.135,
+    "median": 0.145,
+    "q1": 0.084,
+    "q3": 0.173
   },
   "loudness": {
-    "median": -32.2,
-    "mean": -31.0
+    "min": -41.739,
+    "max": -17.511,
+    "mean": -32.579,
+    "median": -33.139,
+    "q1": -36.005,
+    "q3": -30.397
   },
   "speechiness": {
-    "median": 0.04,
-    "mean": 0.041
+    "min": 0.0,
+    "max": 0.445,
+    "mean": 0.056,
+    "median": 0.043,
+    "q1": 0.039,
+    "q3": 0.047
   },
   "top_artists": [
     {
-      "name": "Ludovico Einaudi",
-      "count": 8
+      "name": "White Noise Baby Sleep",
+      "count": 5
     },
     {
-      "name": "Max Richter",
-      "count": 6
-    },
-    {
-      "name": "Marconi Union",
+      "name": "Huma",
       "count": 4
     },
     {
-      "name": "Brian Eno",
-      "count": 4
+      "name": "Sayulita",
+      "count": 3
+    },
+    {
+      "name": "Rebecka Aether",
+      "count": 3
     },
     {
       "name": "Universo",
       "count": 2
     },
     {
-      "name": "Deuter",
+      "name": "Modal Colours",
       "count": 2
     },
     {
-      "name": "Huma",
+      "name": "Sleepless Eye",
       "count": 2
     },
     {
-      "name": "Sohn Aelia",
-      "count": 2
-    },
-    {
-      "name": "Jon Hopkins",
+      "name": "Calming Eyes",
       "count": 2
     },
     {
@@ -1556,7 +1569,11 @@
       "count": 2
     },
     {
-      "name": "Dario Marianelli",
+      "name": "Nadia Bulic",
+      "count": 2
+    },
+    {
+      "name": "Boreal Embla",
       "count": 2
     },
     {
@@ -1564,15 +1581,15 @@
       "count": 2
     },
     {
-      "name": "White Noise Baby Sleep",
-      "count": 1
-    },
-    {
       "name": "White Noise for Babies",
       "count": 1
     },
     {
-      "name": "Lang Lang",
+      "name": "Sleep Miracle",
+      "count": 1
+    },
+    {
+      "name": "Water Sound Natural White Noise",
       "count": 1
     }
   ],
@@ -1580,802 +1597,1802 @@
     {
       "name": "Clean White Noise - Loopable with no fade",
       "artists": "White Noise Baby Sleep;White Noise for Babies",
+      "album": "Best White Noise for Baby Sleep - Loopable with No Fade",
       "popularity": 85,
       "tempo": 0.0,
       "key": "G#/Ab",
-      "mode": "Major"
-    },
-    {
-      "name": "The Departure",
-      "artists": "Max Richter;Lang Lang",
-      "popularity": 64,
-      "tempo": 0.0,
-      "key": "C",
-      "mode": "Minor"
+      "mode": "Major",
+      "energy": 0.003,
+      "valence": 0.0,
+      "danceability": 0.0,
+      "acousticness": 0.791,
+      "instrumentalness": 1.0,
+      "loudness": -28.5,
+      "speechiness": 0.0,
+      "duration_ms": 90228,
+      "slug": "clean-white-noise-loopable-with-no-fade-white-noise-baby-sleep"
     },
     {
       "name": "Brown Sleep Noise",
       "artists": "Sleep Miracle",
+      "album": "Brown Sleep Noise",
       "popularity": 80,
       "tempo": 59.5,
       "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "Viento Estelar",
-      "artists": "Universo",
-      "popularity": 66,
-      "tempo": 59.4,
-      "key": "D#/Eb",
-      "mode": "Major"
-    },
-    {
-      "name": "Allt finns kvar",
-      "artists": "Eleonora Feldt",
-      "popularity": 65,
-      "tempo": 59.4,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Nocturnal",
-      "artists": "Joep Beving",
-      "popularity": 54,
-      "tempo": 57.4,
-      "key": "A",
-      "mode": "Minor"
-    },
-    {
-      "name": "Ciclo Solar",
-      "artists": "Universo",
-      "popularity": 63,
-      "tempo": 64.9,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Nuvole Bianche",
-      "artists": "Ludovico Einaudi",
-      "popularity": 73,
-      "tempo": 132.6,
-      "key": "G#/Ab",
-      "mode": "Major"
-    },
-    {
-      "name": "Sound of Invisible Waters",
-      "artists": "Deuter",
-      "popularity": 50,
-      "tempo": 56.7,
-      "key": "G",
-      "mode": "Minor"
-    },
-    {
-      "name": "Blanket of White",
-      "artists": "Sleepy Clouds",
-      "popularity": 67,
-      "tempo": 73.0,
-      "key": "A",
-      "mode": "Major"
-    },
-    {
-      "name": "Weightless Part 4",
-      "artists": "Marconi Union",
-      "popularity": 55,
-      "tempo": 130.5,
-      "key": "A",
-      "mode": "Minor"
-    },
-    {
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 8",
-      "artists": "Max Richter",
-      "popularity": 62,
-      "tempo": 69.3,
-      "key": "F#/Gb",
-      "mode": "Major"
-    },
-    {
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 2",
-      "artists": "Max Richter",
-      "popularity": 54,
-      "tempo": 64.3,
-      "key": "F#/Gb",
-      "mode": "Major"
-    },
-    {
-      "name": "In Between Dreams",
-      "artists": "Don Mazuck",
-      "popularity": 64,
-      "tempo": 65.0,
-      "key": "E",
-      "mode": "Minor"
-    },
-    {
-      "name": "Ons",
-      "artists": "Huma",
-      "popularity": 71,
-      "tempo": 76.2,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Wind Song",
-      "artists": "Ludovico Einaudi",
-      "popularity": 65,
-      "tempo": 72.7,
-      "key": "B",
-      "mode": "Minor"
-    },
-    {
-      "name": "Simien",
-      "artists": "Petros Idris",
-      "popularity": 63,
-      "tempo": 64.2,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "I et andet liv",
-      "artists": "Minik Knudsen",
-      "popularity": 70,
-      "tempo": 74.9,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "Beatific",
-      "artists": "Caius Biel",
-      "popularity": 64,
-      "tempo": 69.8,
-      "key": "B",
-      "mode": "Minor"
-    },
-    {
-      "name": "Butterfly",
-      "artists": "Penny Layn",
-      "popularity": 64,
-      "tempo": 72.8,
-      "key": "A",
-      "mode": "Minor"
-    },
-    {
-      "name": "Herinneringen",
-      "artists": "Sohn Aelia",
-      "popularity": 74,
-      "tempo": 73.6,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Weightless",
-      "artists": "Marconi Union",
-      "popularity": 68,
-      "tempo": 71.4,
-      "key": "D",
-      "mode": "Minor"
-    },
-    {
-      "name": "An Ending (Ascent) - Remastered 2005",
-      "artists": "Brian Eno",
-      "popularity": 59,
-      "tempo": 67.5,
-      "key": "G#/Ab",
-      "mode": "Major"
-    },
-    {
-      "name": "Flora",
-      "artists": "Ludovico Einaudi",
-      "popularity": 59,
-      "tempo": 76.6,
-      "key": "A",
-      "mode": "Minor"
-    },
-    {
-      "name": "Portrait Gallery",
-      "artists": "Luke Howard",
-      "popularity": 53,
-      "tempo": 127.5,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "A Meaningful Moment Through a Meaning(less) Process",
-      "artists": "Stars Of The Lid",
-      "popularity": 50,
-      "tempo": 67.2,
-      "key": "G#/Ab",
-      "mode": "Minor"
-    },
-    {
-      "name": "Hush",
-      "artists": "Yonatan Awate",
-      "popularity": 69,
-      "tempo": 73.1,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Tiniebla",
-      "artists": "Pearl Melendez",
-      "popularity": 69,
-      "tempo": 72.4,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "Uno",
-      "artists": "Deuter",
-      "popularity": 52,
-      "tempo": 67.0,
-      "key": "F#/Gb",
-      "mode": "Major"
-    },
-    {
-      "name": "Lorimor",
-      "artists": "Savasana",
-      "popularity": 65,
-      "tempo": 63.4,
-      "key": "F",
-      "mode": "Major"
-    },
-    {
-      "name": "Neblinoso",
-      "artists": "Cameron Sinosa",
-      "popularity": 68,
-      "tempo": 73.8,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "Sleeping Music (Deep Sleep)",
-      "artists": "Deep Sleep Music Collective",
-      "popularity": 65,
-      "tempo": 134.7,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "Turndown Service",
-      "artists": "Adeline Verver",
-      "popularity": 66,
-      "tempo": 72.0,
-      "key": "A#/Bb",
-      "mode": "Major"
-    },
-    {
-      "name": "Together At Last",
-      "artists": "Alexis Ffrench;Jobim Ffrench",
-      "popularity": 60,
-      "tempo": 62.6,
-      "key": "A#/Bb",
-      "mode": "Major"
-    },
-    {
-      "name": "Piano Concerto No. 2 in F Major, Op. 102: II. Andante",
-      "artists": "Dmitri Shostakovich;Boris Giltburg;Royal Liverpool Philharmonic Orchestra;Vasily Petrenko",
-      "popularity": 51,
-      "tempo": 77.3,
-      "key": "C",
-      "mode": "Minor"
-    },
-    {
-      "name": "Giant Steps Tomorrow",
-      "artists": "Shibb",
-      "popularity": 61,
-      "tempo": 69.1,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "#3",
-      "artists": "Aphex Twin",
-      "popularity": 64,
-      "tempo": 143.3,
-      "key": "F#/Gb",
-      "mode": "Minor"
-    },
-    {
-      "name": "Remembrance",
-      "artists": "Balmorhea",
-      "popularity": 61,
-      "tempo": 121.3,
-      "key": "F#/Gb",
-      "mode": "Minor"
-    },
-    {
-      "name": "Olson",
-      "artists": "Boards of Canada",
-      "popularity": 58,
-      "tempo": 64.0,
-      "key": "F",
-      "mode": "Minor"
-    },
-    {
-      "name": "Lull",
-      "artists": "Sleepless Eye",
-      "popularity": 65,
-      "tempo": 66.4,
-      "key": "A",
-      "mode": "Major"
-    },
-    {
-      "name": "Rituals",
-      "artists": "Lorelle Paredes",
-      "popularity": 65,
-      "tempo": 69.9,
-      "key": "D",
-      "mode": "Major"
-    },
-    {
-      "name": "Emerald and Stone",
-      "artists": "Brian Eno;Jon Hopkins;Leo Abrahams",
-      "popularity": 56,
-      "tempo": 120.2,
-      "key": "B",
-      "mode": "Major"
-    },
-    {
-      "name": "Weightless Part 3",
-      "artists": "Marconi Union",
-      "popularity": 56,
-      "tempo": 80.5,
-      "key": "A",
-      "mode": "Minor"
-    },
-    {
-      "name": "Weightless Part 6",
-      "artists": "Marconi Union",
-      "popularity": 53,
-      "tempo": 64.8,
-      "key": "E",
-      "mode": "Minor"
-    },
-    {
-      "name": "Natural Light",
-      "artists": "Ludovico Einaudi",
-      "popularity": 62,
-      "tempo": 68.6,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "Natural Light",
-      "artists": "Ludovico Einaudi",
-      "popularity": 62,
-      "tempo": 68.6,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "Mo Chroidhe",
-      "artists": "Mila Harper",
-      "popularity": 66,
-      "tempo": 66.4,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "Moments of Stillness",
-      "artists": "Hector Warrens",
-      "popularity": 60,
-      "tempo": 68.6,
-      "key": "E",
-      "mode": "Major"
-    },
-    {
-      "name": "1/1 - Remastered 2004",
-      "artists": "Brian Eno",
-      "popularity": 51,
-      "tempo": 82.9,
-      "key": "D",
-      "mode": "Major"
-    },
-    {
-      "name": "Shimmering Above Clouds",
-      "artists": "Jeff Birma",
-      "popularity": 64,
-      "tempo": 67.8,
-      "key": "G",
-      "mode": "Minor"
-    },
-    {
-      "name": "Deep breaths",
-      "artists": "Jirou Soller",
-      "popularity": 64,
-      "tempo": 71.4,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "The Other Side",
-      "artists": "Rosetta Arroyo",
-      "popularity": 64,
-      "tempo": 68.2,
-      "key": "D",
-      "mode": "Minor"
-    },
-    {
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 1",
-      "artists": "Max Richter",
-      "popularity": 55,
-      "tempo": 72.0,
-      "key": "F#/Gb",
-      "mode": "Major"
-    },
-    {
-      "name": "Dream 1 (before the wind blows it all away) - Pt. 4",
-      "artists": "Max Richter",
-      "popularity": 55,
-      "tempo": 66.7,
-      "key": "F#/Gb",
-      "mode": "Major"
-    },
-    {
-      "name": "Sonder",
-      "artists": "Modal Colours",
-      "popularity": 65,
-      "tempo": 72.6,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "Just In View",
-      "artists": "Euloria",
-      "popularity": 65,
-      "tempo": 71.1,
-      "key": "A",
-      "mode": "Major"
-    },
-    {
-      "name": "N\u00e4ra",
-      "artists": "Najma Wallin",
-      "popularity": 65,
-      "tempo": 69.6,
-      "key": "D",
-      "mode": "Major"
-    },
-    {
-      "name": "Arp Of Life",
-      "artists": "Bj\u00f8rg Stigbj\u00f8rnson",
-      "popularity": 59,
-      "tempo": 70.4,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "She Remembers",
-      "artists": "Max Richter",
-      "popularity": 50,
-      "tempo": 67.6,
-      "key": "F#/Gb",
-      "mode": "Minor"
-    },
-    {
-      "name": "Reappearance",
-      "artists": "Spacetactular",
-      "popularity": 63,
-      "tempo": 79.2,
-      "key": "D#/Eb",
-      "mode": "Major"
-    },
-    {
-      "name": "Pause",
-      "artists": "Serene & Pax",
-      "popularity": 63,
-      "tempo": 71.8,
-      "key": "E",
-      "mode": "Minor"
-    },
-    {
-      "name": "Nostalgia",
-      "artists": "Will Carano",
-      "popularity": 63,
-      "tempo": 68.4,
-      "key": "A#/Bb",
-      "mode": "Major"
-    },
-    {
-      "name": "Living Room",
-      "artists": "Grouper",
-      "popularity": 54,
-      "tempo": 124.4,
-      "key": "F#/Gb",
-      "mode": "Major"
-    },
-    {
-      "name": "Four Dimensions",
-      "artists": "Ludovico Einaudi;Amsterdam Sinfonietta;PMCE Parco Della Musica Contempornea Ensemble",
-      "popularity": 54,
-      "tempo": 69.4,
-      "key": "A",
-      "mode": "Minor"
-    },
-    {
-      "name": "Grey Cloud Lullaby",
-      "artists": "Slow Meadow",
-      "popularity": 57,
-      "tempo": 63.4,
-      "key": "D",
-      "mode": "Major"
-    },
-    {
-      "name": "Feel First Life",
-      "artists": "Jon Hopkins",
-      "popularity": 48,
-      "tempo": 70.9,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "Mystical - Alpha Sinus 54,8hz - 57,3 hz",
-      "artists": "Drone",
-      "popularity": 64,
-      "tempo": 72.4,
-      "key": "G#/Ab",
-      "mode": "Minor"
-    },
-    {
-      "name": "Dr\u017ei me",
-      "artists": "Judi Khan",
-      "popularity": 64,
-      "tempo": 67.6,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Duende",
-      "artists": "Kaua Correia",
-      "popularity": 64,
-      "tempo": 68.9,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "Distant Dreams",
-      "artists": "Euloria",
-      "popularity": 64,
-      "tempo": 70.1,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Uitblinken",
-      "artists": "Sohn Aelia",
-      "popularity": 61,
-      "tempo": 64.8,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "The End of Childhood (feat. Jack Liebeck)",
-      "artists": "Dario Marianelli;Jack Liebeck;Benjamin Wallfisch",
-      "popularity": 55,
-      "tempo": 0.0,
-      "key": "C",
-      "mode": "Minor"
-    },
-    {
-      "name": "Dans le noir",
-      "artists": "Charmaine D'Avis",
-      "popularity": 68,
-      "tempo": 73.3,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Anything You Synthesize - Ambient",
-      "artists": "The American Dollar",
-      "popularity": 53,
-      "tempo": 120.1,
-      "key": "C#/Db",
-      "mode": "Minor"
-    },
-    {
-      "name": "Redamancy",
-      "artists": "Rebecka Aether",
-      "popularity": 65,
-      "tempo": 68.4,
-      "key": "A#/Bb",
-      "mode": "Major"
-    },
-    {
-      "name": "Deep Down The Cave",
-      "artists": "Xavier Ortando",
-      "popularity": 65,
-      "tempo": 70.3,
-      "key": "F",
-      "mode": "Major"
-    },
-    {
-      "name": "Vila\u0301n",
-      "artists": "Huma",
-      "popularity": 62,
-      "tempo": 68.9,
-      "key": "F#/Gb",
-      "mode": "Major"
-    },
-    {
-      "name": "Versuchen",
-      "artists": "Leo Baumgart",
-      "popularity": 62,
-      "tempo": 77.2,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Ocean Breeze - Alpha Sinus 69,2 hz - 70 hz",
-      "artists": "Floating",
-      "popularity": 59,
-      "tempo": 120.1,
-      "key": "C#/Db",
-      "mode": "Major"
-    },
-    {
-      "name": "Dawn - From \"Pride & Prejudice\" Soundtrack",
-      "artists": "Dario Marianelli;Jean-Yves Thibaudet",
-      "popularity": 62,
-      "tempo": 78.9,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "Temple White",
-      "artists": "Ludovico Einaudi",
-      "popularity": 65,
-      "tempo": 72.2,
-      "key": "G#/Ab",
-      "mode": "Major"
-    },
-    {
-      "name": "The Hours: An Unwelcome Friend (From \"The Hours\")",
-      "artists": "Philip Glass;Nicolas Horvath",
-      "popularity": 59,
-      "tempo": 74.5,
-      "key": "G",
-      "mode": "Minor"
-    },
-    {
-      "name": "Affection",
-      "artists": "Calming Eyes",
-      "popularity": 63,
-      "tempo": 74.4,
-      "key": "C",
-      "mode": "Major"
-    },
-    {
-      "name": "e\u0301ternite\u0301",
-      "artists": "Eric Ardouin",
-      "popularity": 63,
-      "tempo": 62.4,
-      "key": "G#/Ab",
-      "mode": "Major"
-    },
-    {
-      "name": "Shimmer in the Morning",
-      "artists": "Sola Vimi",
-      "popularity": 60,
-      "tempo": 35.9,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "Deep",
-      "artists": "Peter Sandberg",
-      "popularity": 45,
-      "tempo": 48.2,
-      "key": "B",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.084,
+      "valence": 0.06,
+      "danceability": 0.056,
+      "acousticness": 0.116,
+      "instrumentalness": 1.0,
+      "loudness": -30.4,
+      "speechiness": 0.147,
+      "duration_ms": 248000,
+      "slug": "brown-sleep-noise-sleep-miracle"
     },
     {
       "name": "Deep Sleep Recovery Noise",
       "artists": "Water Sound Natural White Noise",
+      "album": "White Noise Spa \u2013 Calming Noises",
       "popularity": 76,
       "tempo": 0.0,
       "key": "C#/Db",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.032,
+      "valence": 0.0,
+      "danceability": 0.0,
+      "acousticness": 0.916,
+      "instrumentalness": 0.202,
+      "loudness": -30.7,
+      "speechiness": 0.0,
+      "duration_ms": 63000,
+      "slug": "deep-sleep-recovery-noise-water-sound-natural-white-noise"
     },
     {
-      "name": "Hopeful",
-      "artists": "Unwritten Skies",
-      "popularity": 61,
-      "tempo": 72.5,
-      "key": "D",
-      "mode": "Major"
+      "name": "White Noise Sleeping Aid to Help My Baby Fall Asleep, Sleep Through the Night",
+      "artists": "White Noise Baby Sleep",
+      "album": "White Noise for Sleeping Babies",
+      "popularity": 75,
+      "tempo": 81.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.0,
+      "danceability": 0.179,
+      "acousticness": 0.982,
+      "instrumentalness": 0.279,
+      "loudness": -25.2,
+      "speechiness": 0.327,
+      "duration_ms": 595105,
+      "slug": "white-noise-sleeping-aid-to-help-my-baby-fall-asleep-sleep-through-the-night-white-noise-baby-sleep"
     },
     {
-      "name": "Et \u00f8yeblikk",
-      "artists": "Tine Mydland",
-      "popularity": 61,
-      "tempo": 70.4,
-      "key": "G",
-      "mode": "Major"
-    },
-    {
-      "name": "Making Gardens Out of Silence",
-      "artists": "Brian Eno",
-      "popularity": 37,
-      "tempo": 79.4,
+      "name": "Herinneringen",
+      "artists": "Sohn Aelia",
+      "album": "Herinneringen",
+      "popularity": 74,
+      "tempo": 73.6,
       "key": "C",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.003,
+      "valence": 0.058,
+      "danceability": 0.069,
+      "acousticness": 0.99,
+      "instrumentalness": 0.91,
+      "loudness": -37.2,
+      "speechiness": 0.042,
+      "duration_ms": 172357,
+      "slug": "herinneringen-sohn-aelia"
     },
     {
-      "name": "Una Mattina",
-      "artists": "Ludovico Einaudi",
+      "name": "Ons",
+      "artists": "Huma",
+      "album": "Ons",
+      "popularity": 71,
+      "tempo": 76.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.018,
+      "valence": 0.046,
+      "danceability": 0.111,
+      "acousticness": 0.957,
+      "instrumentalness": 0.94,
+      "loudness": -32.3,
+      "speechiness": 0.042,
+      "duration_ms": 193239,
+      "slug": "ons-huma"
+    },
+    {
+      "name": "Beautiful Imagination",
+      "artists": "Little Circuits",
+      "album": "Beautiful Imagination",
+      "popularity": 71,
+      "tempo": 89.6,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.033,
+      "valence": 0.059,
+      "danceability": 0.102,
+      "acousticness": 0.797,
+      "instrumentalness": 0.927,
+      "loudness": -34.2,
+      "speechiness": 0.048,
+      "duration_ms": 143052,
+      "slug": "beautiful-imagination-little-circuits"
+    },
+    {
+      "name": "I et andet liv",
+      "artists": "Minik Knudsen",
+      "album": "I et andet liv",
       "popularity": 70,
-      "tempo": 131.4,
+      "tempo": 74.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.008,
+      "valence": 0.111,
+      "danceability": 0.069,
+      "acousticness": 0.991,
+      "instrumentalness": 0.859,
+      "loudness": -38.5,
+      "speechiness": 0.044,
+      "duration_ms": 186500,
+      "slug": "i-et-andet-liv-minik-knudsen"
+    },
+    {
+      "name": "Hush",
+      "artists": "Yonatan Awate",
+      "album": "Hush",
+      "popularity": 69,
+      "tempo": 73.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.009,
+      "valence": 0.069,
+      "danceability": 0.092,
+      "acousticness": 0.97,
+      "instrumentalness": 0.931,
+      "loudness": -33.0,
+      "speechiness": 0.044,
+      "duration_ms": 190000,
+      "slug": "hush-yonatan-awate"
+    },
+    {
+      "name": "Tiniebla",
+      "artists": "Pearl Melendez",
+      "album": "Tiniebla",
+      "popularity": 69,
+      "tempo": 72.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.011,
+      "valence": 0.043,
+      "danceability": 0.148,
+      "acousticness": 0.978,
+      "instrumentalness": 0.935,
+      "loudness": -36.4,
+      "speechiness": 0.043,
+      "duration_ms": 209250,
+      "slug": "tiniebla-pearl-melendez"
+    },
+    {
+      "name": "Dans le noir",
+      "artists": "Charmaine D'Avis",
+      "album": "Dans le noir",
+      "popularity": 68,
+      "tempo": 73.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.007,
+      "valence": 0.056,
+      "danceability": 0.132,
+      "acousticness": 0.953,
+      "instrumentalness": 0.864,
+      "loudness": -37.5,
+      "speechiness": 0.049,
+      "duration_ms": 178500,
+      "slug": "dans-le-noir-charmaine-davis"
+    },
+    {
+      "name": "Neblinoso",
+      "artists": "Cameron Sinosa",
+      "album": "Neblinoso",
+      "popularity": 68,
+      "tempo": 73.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.006,
+      "valence": 0.037,
+      "danceability": 0.198,
+      "acousticness": 0.99,
+      "instrumentalness": 0.914,
+      "loudness": -37.0,
+      "speechiness": 0.047,
+      "duration_ms": 234750,
+      "slug": "neblinoso-cameron-sinosa"
+    },
+    {
+      "name": "Wei\u00dfes Rauschen: Baby Schlafhilfe",
+      "artists": "Wei\u00dfes Rauschen HD",
+      "album": "Wei\u00dfes Ger\u00e4usch F\u00fcr Tiefen Schlaf, Tinnitus Und Meditation",
+      "popularity": 67,
+      "tempo": 168.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.0,
+      "valence": 0.0,
+      "danceability": 0.079,
+      "acousticness": 0.117,
+      "instrumentalness": 0.194,
+      "loudness": -26.4,
+      "speechiness": 0.193,
+      "duration_ms": 88229,
+      "slug": "wei\u00dfes-rauschen-baby-schlafhilfe-wei\u00dfes-rauschen-hd"
+    },
+    {
+      "name": "Blanket of White",
+      "artists": "Sleepy Clouds",
+      "album": "Elevated",
+      "popularity": 67,
+      "tempo": 73.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.144,
+      "danceability": 0.133,
+      "acousticness": 0.989,
+      "instrumentalness": 0.929,
+      "loudness": -32.5,
+      "speechiness": 0.039,
+      "duration_ms": 186088,
+      "slug": "blanket-of-white-sleepy-clouds"
+    },
+    {
+      "name": "Liberation",
+      "artists": "Nova Issue",
+      "album": "Liberation",
+      "popularity": 66,
+      "tempo": 76.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.029,
+      "valence": 0.114,
+      "danceability": 0.127,
+      "acousticness": 0.951,
+      "instrumentalness": 0.777,
+      "loudness": -31.3,
+      "speechiness": 0.046,
+      "duration_ms": 150000,
+      "slug": "liberation-nova-issue"
+    },
+    {
+      "name": "La Caoba",
+      "artists": "Sayulita",
+      "album": "La Caoba",
+      "popularity": 66,
+      "tempo": 65.4,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.029,
+      "valence": 0.117,
+      "danceability": 0.063,
+      "acousticness": 0.864,
+      "instrumentalness": 0.866,
+      "loudness": -30.6,
+      "speechiness": 0.043,
+      "duration_ms": 159744,
+      "slug": "la-caoba-sayulita"
+    },
+    {
+      "name": "Peaceful Patterns",
+      "artists": "Hatha Priya",
+      "album": "Peaceful Patterns",
+      "popularity": 66,
+      "tempo": 73.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.037,
+      "valence": 0.06,
+      "danceability": 0.164,
+      "acousticness": 0.774,
+      "instrumentalness": 0.802,
+      "loudness": -33.1,
+      "speechiness": 0.045,
+      "duration_ms": 169482,
+      "slug": "peaceful-patterns-hatha-priya"
+    },
+    {
+      "name": "Under Samma Himmel",
+      "artists": "Sanja G\u00f6ransson",
+      "album": "Under Samma Himmel",
+      "popularity": 66,
+      "tempo": 67.5,
       "key": "D",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.101,
+      "danceability": 0.171,
+      "acousticness": 0.982,
+      "instrumentalness": 0.907,
+      "loudness": -34.6,
+      "speechiness": 0.044,
+      "duration_ms": 171000,
+      "slug": "under-samma-himmel-sanja-g\u00f6ransson"
+    },
+    {
+      "name": "Mo Chroidhe",
+      "artists": "Mila Harper",
+      "album": "Mo Chroidhe",
+      "popularity": 66,
+      "tempo": 66.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.01,
+      "valence": 0.073,
+      "danceability": 0.159,
+      "acousticness": 0.976,
+      "instrumentalness": 0.938,
+      "loudness": -38.4,
+      "speechiness": 0.041,
+      "duration_ms": 182741,
+      "slug": "mo-chroidhe-mila-harper"
+    },
+    {
+      "name": "Shhhh Baby Shusher For Sleep",
+      "artists": "Baby Sleep",
+      "album": "Shhhh Baby Shusher For Sleep",
+      "popularity": 66,
+      "tempo": 132.8,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.203,
+      "valence": 0.039,
+      "danceability": 0.216,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -26.6,
+      "speechiness": 0.153,
+      "duration_ms": 157361,
+      "slug": "shhhh-baby-shusher-for-sleep-baby-sleep"
+    },
+    {
+      "name": "Viento Estelar",
+      "artists": "Universo",
+      "album": "Galaxia",
+      "popularity": 66,
+      "tempo": 59.4,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.041,
+      "valence": 0.038,
+      "danceability": 0.141,
+      "acousticness": 0.965,
+      "instrumentalness": 0.966,
+      "loudness": -29.0,
+      "speechiness": 0.038,
+      "duration_ms": 185943,
+      "slug": "viento-estelar-universo"
+    },
+    {
+      "name": "Appreciation",
+      "artists": "Vishal Casey",
+      "album": "Appreciation",
+      "popularity": 66,
+      "tempo": 74.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.013,
+      "valence": 0.087,
+      "danceability": 0.206,
+      "acousticness": 0.99,
+      "instrumentalness": 0.974,
+      "loudness": -30.6,
+      "speechiness": 0.041,
+      "duration_ms": 169000,
+      "slug": "appreciation-vishal-casey"
+    },
+    {
+      "name": "Turndown Service",
+      "artists": "Adeline Verver",
+      "album": "Turndown Service",
+      "popularity": 66,
+      "tempo": 72.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.019,
+      "valence": 0.059,
+      "danceability": 0.164,
+      "acousticness": 0.946,
+      "instrumentalness": 0.893,
+      "loudness": -34.1,
+      "speechiness": 0.034,
+      "duration_ms": 115800,
+      "slug": "turndown-service-adeline-verver"
+    },
+    {
+      "name": "Repouso",
+      "artists": "Polysomni",
+      "album": "Repouso",
+      "popularity": 66,
+      "tempo": 141.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.013,
+      "valence": 0.039,
+      "danceability": 0.142,
+      "acousticness": 0.982,
+      "instrumentalness": 0.755,
+      "loudness": -36.2,
+      "speechiness": 0.046,
+      "duration_ms": 236583,
+      "slug": "repouso-polysomni"
+    },
+    {
+      "name": "Blue Sphere",
+      "artists": "Sea of Waves",
+      "album": "Blue Sphere",
+      "popularity": 66,
+      "tempo": 60.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.039,
+      "valence": 0.052,
+      "danceability": 0.209,
+      "acousticness": 0.888,
+      "instrumentalness": 0.838,
+      "loudness": -27.4,
+      "speechiness": 0.043,
+      "duration_ms": 162118,
+      "slug": "blue-sphere-sea-of-waves"
+    },
+    {
+      "name": "Anatomy of Change",
+      "artists": "Oto Roth",
+      "album": "Anatomy of Change",
+      "popularity": 66,
+      "tempo": 81.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.003,
+      "valence": 0.035,
+      "danceability": 0.131,
+      "acousticness": 0.993,
+      "instrumentalness": 0.966,
+      "loudness": -35.4,
+      "speechiness": 0.041,
+      "duration_ms": 144782,
+      "slug": "anatomy-of-change-oto-roth"
+    },
+    {
+      "name": "Calming Pacific Ocean Roar to Induce Healing Delta Sleep Waves (Nursery Rhymes Lullabies Effect)",
+      "artists": "White Noise Baby Sleep",
+      "album": "White Noise for Sleeping Babies",
+      "popularity": 66,
+      "tempo": 87.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.199,
+      "valence": 0.0,
+      "danceability": 0.084,
+      "acousticness": 0.729,
+      "instrumentalness": 0.995,
+      "loudness": -17.5,
+      "speechiness": 0.445,
+      "duration_ms": 590177,
+      "slug": "calming-pacific-ocean-roar-to-induce-healing-delta-sleep-waves-nursery-rhymes-lullabies-effect-white-noise-baby-sleep"
+    },
+    {
+      "name": "Lorimor",
+      "artists": "Savasana",
+      "album": "Lorimor",
+      "popularity": 65,
+      "tempo": 63.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.006,
+      "valence": 0.06,
+      "danceability": 0.202,
+      "acousticness": 0.968,
+      "instrumentalness": 0.957,
+      "loudness": -33.9,
+      "speechiness": 0.049,
+      "duration_ms": 139548,
+      "slug": "lorimor-savasana"
+    },
+    {
+      "name": "Life From Above",
+      "artists": "Ethan Beckett",
+      "album": "Life From Above",
+      "popularity": 65,
+      "tempo": 138.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.014,
+      "valence": 0.033,
+      "danceability": 0.144,
+      "acousticness": 0.938,
+      "instrumentalness": 0.699,
+      "loudness": -36.0,
+      "speechiness": 0.047,
+      "duration_ms": 145610,
+      "slug": "life-from-above-ethan-beckett"
+    },
+    {
+      "name": "Sonder",
+      "artists": "Modal Colours",
+      "album": "Sonder",
+      "popularity": 65,
+      "tempo": 72.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.059,
+      "danceability": 0.118,
+      "acousticness": 0.969,
+      "instrumentalness": 0.881,
+      "loudness": -37.8,
+      "speechiness": 0.044,
+      "duration_ms": 181500,
+      "slug": "sonder-modal-colours"
+    },
+    {
+      "name": "Lull",
+      "artists": "Sleepless Eye",
+      "album": "Lull",
+      "popularity": 65,
+      "tempo": 66.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.03,
+      "valence": 0.065,
+      "danceability": 0.194,
+      "acousticness": 0.875,
+      "instrumentalness": 0.922,
+      "loudness": -33.4,
+      "speechiness": 0.037,
+      "duration_ms": 179400,
+      "slug": "lull-sleepless-eye"
+    },
+    {
+      "name": "For Your Relief",
+      "artists": "Calming Eyes",
+      "album": "Graceful",
+      "popularity": 65,
+      "tempo": 141.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.016,
+      "valence": 0.03,
+      "danceability": 0.149,
+      "acousticness": 0.906,
+      "instrumentalness": 0.945,
+      "loudness": -34.6,
+      "speechiness": 0.035,
+      "duration_ms": 141510,
+      "slug": "for-your-relief-calming-eyes"
+    },
+    {
+      "name": "Squama",
+      "artists": "Hello Artemisia!",
+      "album": "Squama",
+      "popularity": 65,
+      "tempo": 135.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.035,
+      "valence": 0.072,
+      "danceability": 0.154,
+      "acousticness": 0.977,
+      "instrumentalness": 0.858,
+      "loudness": -29.2,
+      "speechiness": 0.042,
+      "duration_ms": 211000,
+      "slug": "squama-hello-artemisia"
+    },
+    {
+      "name": "Just In View",
+      "artists": "Euloria",
+      "album": "Just In View",
+      "popularity": 65,
+      "tempo": 71.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.121,
+      "danceability": 0.162,
+      "acousticness": 0.995,
+      "instrumentalness": 0.861,
+      "loudness": -36.8,
+      "speechiness": 0.04,
+      "duration_ms": 209750,
+      "slug": "just-in-view-euloria"
+    },
+    {
+      "name": "Een mooie droom",
+      "artists": "Zeb Maessen",
+      "album": "Een mooie droom",
+      "popularity": 65,
+      "tempo": 65.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.005,
+      "valence": 0.037,
+      "danceability": 0.098,
+      "acousticness": 0.987,
+      "instrumentalness": 0.747,
+      "loudness": -36.5,
+      "speechiness": 0.045,
+      "duration_ms": 190500,
+      "slug": "een-mooie-droom-zeb-maessen"
+    },
+    {
+      "name": "Redamancy",
+      "artists": "Rebecka Aether",
+      "album": "Redamancy",
+      "popularity": 65,
+      "tempo": 68.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.003,
+      "valence": 0.064,
+      "danceability": 0.205,
+      "acousticness": 0.989,
+      "instrumentalness": 0.784,
+      "loudness": -37.1,
+      "speechiness": 0.037,
+      "duration_ms": 219268,
+      "slug": "redamancy-rebecka-aether"
+    },
+    {
+      "name": "N\u00e4ra",
+      "artists": "Najma Wallin",
+      "album": "N\u00e4ra",
+      "popularity": 65,
+      "tempo": 69.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.007,
+      "valence": 0.101,
+      "danceability": 0.175,
+      "acousticness": 0.964,
+      "instrumentalness": 0.879,
+      "loudness": -37.2,
+      "speechiness": 0.046,
+      "duration_ms": 197500,
+      "slug": "n\u00e4ra-najma-wallin"
+    },
+    {
+      "name": "Maglovito",
+      "artists": "Nadia Bulic",
+      "album": "Maglovito",
+      "popularity": 65,
+      "tempo": 68.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.099,
+      "danceability": 0.107,
+      "acousticness": 0.969,
+      "instrumentalness": 0.901,
+      "loudness": -38.2,
+      "speechiness": 0.049,
+      "duration_ms": 130750,
+      "slug": "maglovito-nadia-bulic"
+    },
+    {
+      "name": "Sleepy Journey",
+      "artists": "Cokobi",
+      "album": "Sleepy Journey",
+      "popularity": 65,
+      "tempo": 81.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.04,
+      "valence": 0.039,
+      "danceability": 0.198,
+      "acousticness": 0.872,
+      "instrumentalness": 0.952,
+      "loudness": -31.8,
+      "speechiness": 0.038,
+      "duration_ms": 170700,
+      "slug": "sleepy-journey-cokobi"
+    },
+    {
+      "name": "Nox",
+      "artists": "Wolfgang Snow",
+      "album": "Nox",
+      "popularity": 65,
+      "tempo": 125.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.049,
+      "valence": 0.051,
+      "danceability": 0.169,
+      "acousticness": 0.796,
+      "instrumentalness": 0.531,
+      "loudness": -28.2,
+      "speechiness": 0.044,
+      "duration_ms": 148984,
+      "slug": "nox-wolfgang-snow"
+    },
+    {
+      "name": "Deep Down The Cave",
+      "artists": "Xavier Ortando",
+      "album": "Deep Down The Cave",
+      "popularity": 65,
+      "tempo": 70.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.046,
+      "valence": 0.071,
+      "danceability": 0.207,
+      "acousticness": 0.976,
+      "instrumentalness": 0.815,
+      "loudness": -30.4,
+      "speechiness": 0.038,
+      "duration_ms": 194400,
+      "slug": "deep-down-the-cave-xavier-ortando"
+    },
+    {
+      "name": "Allt finns kvar",
+      "artists": "Eleonora Feldt",
+      "album": "Allt finns kvar",
+      "popularity": 65,
+      "tempo": 59.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.011,
+      "valence": 0.038,
+      "danceability": 0.173,
+      "acousticness": 0.912,
+      "instrumentalness": 0.952,
+      "loudness": -35.6,
+      "speechiness": 0.033,
+      "duration_ms": 239224,
+      "slug": "allt-finns-kvar-eleonora-feldt"
+    },
+    {
+      "name": "Stories",
+      "artists": "Rebecka Aether",
+      "album": "Stories",
+      "popularity": 65,
+      "tempo": 64.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.013,
+      "valence": 0.059,
+      "danceability": 0.133,
+      "acousticness": 0.959,
+      "instrumentalness": 0.826,
+      "loudness": -33.0,
+      "speechiness": 0.042,
+      "duration_ms": 172557,
+      "slug": "stories-rebecka-aether"
+    },
+    {
+      "name": "Rituals",
+      "artists": "Lorelle Paredes",
+      "album": "Rituals",
+      "popularity": 65,
+      "tempo": 69.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.042,
+      "valence": 0.058,
+      "danceability": 0.214,
+      "acousticness": 0.994,
+      "instrumentalness": 0.896,
+      "loudness": -28.1,
+      "speechiness": 0.037,
+      "duration_ms": 144782,
+      "slug": "rituals-lorelle-paredes"
+    },
+    {
+      "name": "Sleeping Music (Deep Sleep)",
+      "artists": "Deep Sleep Music Collective",
+      "album": "Sleeping Music: Calm Music to Help You Sleep, Natural Sleep Aid and Relaxing Piano for Sleep Music",
+      "popularity": 65,
+      "tempo": 134.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.039,
+      "danceability": 0.153,
+      "acousticness": 0.968,
+      "instrumentalness": 0.913,
+      "loudness": -36.8,
+      "speechiness": 0.052,
+      "duration_ms": 118674,
+      "slug": "sleeping-music-deep-sleep-deep-sleep-music-collective"
+    },
+    {
+      "name": "Perfect Natural White Noise as a Relaxing Ambient Sleep Aid (Nice Lullaby)",
+      "artists": "White Noise Baby Sleep",
+      "album": "White Noise for Sleeping Babies",
+      "popularity": 65,
+      "tempo": 85.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.189,
+      "valence": 0.0,
+      "danceability": 0.081,
+      "acousticness": 0.785,
+      "instrumentalness": 0.968,
+      "loudness": -17.6,
+      "speechiness": 0.098,
+      "duration_ms": 596886,
+      "slug": "perfect-natural-white-noise-as-a-relaxing-ambient-sleep-aid-nice-lullaby-white-noise-baby-sleep"
+    },
+    {
+      "name": "Mystical - Alpha Sinus 54,8hz - 57,3 hz",
+      "artists": "Drone",
+      "album": "Healing Alpha Sinus",
+      "popularity": 64,
+      "tempo": 72.4,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.056,
+      "valence": 0.149,
+      "danceability": 0.198,
+      "acousticness": 0.844,
+      "instrumentalness": 0.852,
+      "loudness": -32.1,
+      "speechiness": 0.05,
+      "duration_ms": 235894,
+      "slug": "mystical-alpha-sinus-548hz-573-hz-drone"
+    },
+    {
+      "name": "Tauko",
+      "artists": "Juhani Ahonen",
+      "album": "Tauko",
+      "popularity": 64,
+      "tempo": 69.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.023,
+      "valence": 0.108,
+      "danceability": 0.226,
+      "acousticness": 0.934,
+      "instrumentalness": 0.94,
+      "loudness": -36.5,
+      "speechiness": 0.041,
+      "duration_ms": 166497,
+      "slug": "tauko-juhani-ahonen"
+    },
+    {
+      "name": "In Between Dreams",
+      "artists": "Don Mazuck",
+      "album": "In Between Dreams",
+      "popularity": 64,
+      "tempo": 65.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.007,
+      "valence": 0.191,
+      "danceability": 0.076,
+      "acousticness": 0.972,
+      "instrumentalness": 0.913,
+      "loudness": -38.5,
+      "speechiness": 0.037,
+      "duration_ms": 185716,
+      "slug": "in-between-dreams-don-mazuck"
+    },
+    {
+      "name": "S\u00e1lvora",
+      "artists": "Huma",
+      "album": "S\u00e1lvora",
+      "popularity": 64,
+      "tempo": 75.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.011,
+      "valence": 0.038,
+      "danceability": 0.07,
+      "acousticness": 0.952,
+      "instrumentalness": 0.732,
+      "loudness": -32.0,
+      "speechiness": 0.042,
+      "duration_ms": 173097,
+      "slug": "s\u00e1lvora-huma"
+    },
+    {
+      "name": "Answers",
+      "artists": "Elmer Loyd",
+      "album": "Answers",
+      "popularity": 64,
+      "tempo": 73.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.027,
+      "valence": 0.037,
+      "danceability": 0.169,
+      "acousticness": 0.916,
+      "instrumentalness": 0.758,
+      "loudness": -32.4,
+      "speechiness": 0.045,
+      "duration_ms": 178000,
+      "slug": "answers-elmer-loyd"
+    },
+    {
+      "name": "Dr\u017ei me",
+      "artists": "Judi Khan",
+      "album": "Dr\u017ei me",
+      "popularity": 64,
+      "tempo": 67.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.004,
+      "valence": 0.031,
+      "danceability": 0.201,
+      "acousticness": 0.937,
+      "instrumentalness": 0.895,
+      "loudness": -34.8,
+      "speechiness": 0.056,
+      "duration_ms": 206124,
+      "slug": "dr\u017ei-me-judi-khan"
+    },
+    {
+      "name": "Luova",
+      "artists": "Lumi Couri",
+      "album": "Luova",
+      "popularity": 64,
+      "tempo": 68.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.04,
+      "danceability": 0.063,
+      "acousticness": 0.984,
+      "instrumentalness": 0.88,
+      "loudness": -37.5,
+      "speechiness": 0.047,
+      "duration_ms": 124805,
+      "slug": "luova-lumi-couri"
+    },
+    {
+      "name": "Duende",
+      "artists": "Kaua Correia",
+      "album": "Duende",
+      "popularity": 64,
+      "tempo": 68.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.003,
+      "valence": 0.112,
+      "danceability": 0.064,
+      "acousticness": 0.991,
+      "instrumentalness": 0.887,
+      "loudness": -36.0,
+      "speechiness": 0.044,
+      "duration_ms": 192000,
+      "slug": "duende-kaua-correia"
+    },
+    {
+      "name": "Patiently",
+      "artists": "Juno Reed",
+      "album": "Patiently",
+      "popularity": 64,
+      "tempo": 67.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.005,
+      "valence": 0.071,
+      "danceability": 0.067,
+      "acousticness": 0.994,
+      "instrumentalness": 0.893,
+      "loudness": -35.6,
+      "speechiness": 0.04,
+      "duration_ms": 179787,
+      "slug": "patiently-juno-reed"
+    },
+    {
+      "name": "Sineway",
+      "artists": "Boreal Embla",
+      "album": "Sineway",
+      "popularity": 64,
+      "tempo": 77.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.005,
+      "valence": 0.039,
+      "danceability": 0.123,
+      "acousticness": 0.974,
+      "instrumentalness": 0.832,
+      "loudness": -36.1,
+      "speechiness": 0.048,
+      "duration_ms": 141137,
+      "slug": "sineway-boreal-embla"
+    },
+    {
+      "name": "Mirrors",
+      "artists": "Tairata",
+      "album": "Mirrors",
+      "popularity": 64,
+      "tempo": 69.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.009,
+      "valence": 0.048,
+      "danceability": 0.181,
+      "acousticness": 0.979,
+      "instrumentalness": 0.937,
+      "loudness": -33.1,
+      "speechiness": 0.046,
+      "duration_ms": 138361,
+      "slug": "mirrors-tairata"
+    },
+    {
+      "name": "Shimmering Above Clouds",
+      "artists": "Jeff Birma",
+      "album": "Shimmering Above Clouds",
+      "popularity": 64,
+      "tempo": 67.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.034,
+      "valence": 0.116,
+      "danceability": 0.18,
+      "acousticness": 0.91,
+      "instrumentalness": 0.862,
+      "loudness": -27.4,
+      "speechiness": 0.037,
+      "duration_ms": 177399,
+      "slug": "shimmering-above-clouds-jeff-birma"
+    },
+    {
+      "name": "Distant Dreams",
+      "artists": "Euloria",
+      "album": "Distant Dreams",
+      "popularity": 64,
+      "tempo": 70.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.003,
+      "valence": 0.056,
+      "danceability": 0.218,
+      "acousticness": 0.994,
+      "instrumentalness": 0.896,
+      "loudness": -35.9,
+      "speechiness": 0.04,
+      "duration_ms": 239224,
+      "slug": "distant-dreams-euloria"
+    },
+    {
+      "name": "Beatific",
+      "artists": "Caius Biel",
+      "album": "Beatific",
+      "popularity": 64,
+      "tempo": 69.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.008,
+      "valence": 0.076,
+      "danceability": 0.148,
+      "acousticness": 0.968,
+      "instrumentalness": 0.859,
+      "loudness": -35.8,
+      "speechiness": 0.04,
+      "duration_ms": 196112,
+      "slug": "beatific-caius-biel"
+    },
+    {
+      "name": "Mellow",
+      "artists": "Boreal Embla",
+      "album": "Mellow",
+      "popularity": 64,
+      "tempo": 71.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.005,
+      "valence": 0.087,
+      "danceability": 0.061,
+      "acousticness": 0.945,
+      "instrumentalness": 0.739,
+      "loudness": -36.8,
+      "speechiness": 0.053,
+      "duration_ms": 213978,
+      "slug": "mellow-boreal-embla"
+    },
+    {
+      "name": "Becalming",
+      "artists": "Rebecka Aether",
+      "album": "Becalming",
+      "popularity": 64,
+      "tempo": 135.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.019,
+      "valence": 0.053,
+      "danceability": 0.158,
+      "acousticness": 0.992,
+      "instrumentalness": 0.921,
+      "loudness": -33.7,
+      "speechiness": 0.046,
+      "duration_ms": 190345,
+      "slug": "becalming-rebecka-aether"
+    },
+    {
+      "name": "If Only I Could Fly",
+      "artists": "Dream Flows",
+      "album": "Ever So Slightly",
+      "popularity": 64,
+      "tempo": 137.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.088,
+      "valence": 0.073,
+      "danceability": 0.156,
+      "acousticness": 0.937,
+      "instrumentalness": 0.883,
+      "loudness": -31.4,
+      "speechiness": 0.037,
+      "duration_ms": 107977,
+      "slug": "if-only-i-could-fly-dream-flows"
+    },
+    {
+      "name": "Deep breaths",
+      "artists": "Jirou Soller",
+      "album": "Deep breaths",
+      "popularity": 64,
+      "tempo": 71.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.012,
+      "valence": 0.033,
+      "danceability": 0.195,
+      "acousticness": 0.918,
+      "instrumentalness": 0.887,
+      "loudness": -36.0,
+      "speechiness": 0.038,
+      "duration_ms": 131666,
+      "slug": "deep-breaths-jirou-soller"
+    },
+    {
+      "name": "Butterfly",
+      "artists": "Penny Layn",
+      "album": "Butterfly",
+      "popularity": 64,
+      "tempo": 72.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.024,
+      "valence": 0.038,
+      "danceability": 0.159,
+      "acousticness": 0.991,
+      "instrumentalness": 0.904,
+      "loudness": -31.9,
+      "speechiness": 0.034,
+      "duration_ms": 181136,
+      "slug": "butterfly-penny-layn"
+    },
+    {
+      "name": "The Other Side",
+      "artists": "Rosetta Arroyo",
+      "album": "The Other Side",
+      "popularity": 64,
+      "tempo": 68.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.011,
+      "valence": 0.037,
+      "danceability": 0.215,
+      "acousticness": 0.995,
+      "instrumentalness": 0.976,
+      "loudness": -32.0,
+      "speechiness": 0.039,
+      "duration_ms": 170000,
+      "slug": "the-other-side-rosetta-arroyo"
+    },
+    {
+      "name": "The Riddle of Dreams",
+      "artists": "Carligo",
+      "album": "The Riddle of Dreams",
+      "popularity": 64,
+      "tempo": 142.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.007,
+      "valence": 0.038,
+      "danceability": 0.155,
+      "acousticness": 0.971,
+      "instrumentalness": 0.87,
+      "loudness": -36.9,
+      "speechiness": 0.056,
+      "duration_ms": 147563,
+      "slug": "the-riddle-of-dreams-carligo"
+    },
+    {
+      "name": "Tirana Wolves",
+      "artists": "Wolves Club",
+      "album": "On the Davenport",
+      "popularity": 63,
+      "tempo": 138.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.005,
+      "valence": 0.037,
+      "danceability": 0.145,
+      "acousticness": 0.952,
+      "instrumentalness": 0.977,
+      "loudness": -31.3,
+      "speechiness": 0.047,
+      "duration_ms": 206426,
+      "slug": "tirana-wolves-wolves-club"
+    },
+    {
+      "name": "sierra star",
+      "artists": "nite sky",
+      "album": "sierra star",
+      "popularity": 63,
+      "tempo": 139.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.008,
+      "valence": 0.037,
+      "danceability": 0.143,
+      "acousticness": 0.867,
+      "instrumentalness": 0.956,
+      "loudness": -41.7,
+      "speechiness": 0.045,
+      "duration_ms": 201600,
+      "slug": "sierra-star-nite-sky"
+    },
+    {
+      "name": "Moment To Moment",
+      "artists": "Modal Colours",
+      "album": "Moment To Moment",
+      "popularity": 63,
+      "tempo": 78.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.041,
+      "valence": 0.152,
+      "danceability": 0.113,
+      "acousticness": 0.946,
+      "instrumentalness": 0.886,
+      "loudness": -29.8,
+      "speechiness": 0.043,
+      "duration_ms": 155202,
+      "slug": "moment-to-moment-modal-colours"
+    },
+    {
+      "name": "La Cascada",
+      "artists": "Sayulita",
+      "album": "Bella Unio\u0301n",
+      "popularity": 63,
+      "tempo": 74.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.029,
+      "valence": 0.114,
+      "danceability": 0.162,
+      "acousticness": 0.853,
+      "instrumentalness": 0.812,
+      "loudness": -29.4,
+      "speechiness": 0.038,
+      "duration_ms": 181000,
+      "slug": "la-cascada-sayulita"
+    },
+    {
+      "name": "Reappearance",
+      "artists": "Spacetactular",
+      "album": "Reappearance",
+      "popularity": 63,
+      "tempo": 79.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.008,
+      "valence": 0.049,
+      "danceability": 0.078,
+      "acousticness": 0.959,
+      "instrumentalness": 0.907,
+      "loudness": -35.6,
+      "speechiness": 0.038,
+      "duration_ms": 122636,
+      "slug": "reappearance-spacetactular"
+    },
+    {
+      "name": "Affection",
+      "artists": "Calming Eyes",
+      "album": "Affection",
+      "popularity": 63,
+      "tempo": 74.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.016,
+      "valence": 0.038,
+      "danceability": 0.161,
+      "acousticness": 0.974,
+      "instrumentalness": 0.91,
+      "loudness": -33.4,
+      "speechiness": 0.043,
+      "duration_ms": 202353,
+      "slug": "affection-calming-eyes"
+    },
+    {
+      "name": "Ciclo Solar",
+      "artists": "Universo",
+      "album": "Planetas",
+      "popularity": 63,
+      "tempo": 64.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.051,
+      "valence": 0.041,
+      "danceability": 0.195,
+      "acousticness": 0.935,
+      "instrumentalness": 0.877,
+      "loudness": -28.1,
+      "speechiness": 0.036,
+      "duration_ms": 193607,
+      "slug": "ciclo-solar-universo"
+    },
+    {
+      "name": "White Noise: Calming Roar of the Ocean to Fall to Sleep and Stay Asleep",
+      "artists": "Natural White Noise Relaxation",
+      "album": "Baby Sleep White Noise: Ultimate Album to Help Babies Sleep Through the Night",
+      "popularity": 63,
+      "tempo": 171.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.003,
+      "valence": 0.0,
+      "danceability": 0.075,
+      "acousticness": 0.871,
+      "instrumentalness": 0.995,
+      "loudness": -19.8,
+      "speechiness": 0.273,
+      "duration_ms": 288493,
+      "slug": "white-noise-calming-roar-of-the-ocean-to-fall-to-sleep-and-stay-asleep-natural-white-noise-relaxation"
+    },
+    {
+      "name": "Deep Brown Noise",
+      "artists": "Brainbox",
+      "album": "Soft Brown Noise",
+      "popularity": 63,
+      "tempo": 138.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.332,
+      "valence": 0.129,
+      "danceability": 0.241,
+      "acousticness": 0.776,
+      "instrumentalness": 0.971,
+      "loudness": -34.9,
+      "speechiness": 0.073,
+      "duration_ms": 188000,
+      "slug": "deep-brown-noise-brainbox"
+    },
+    {
+      "name": "Pause",
+      "artists": "Serene & Pax",
+      "album": "Pause",
+      "popularity": 63,
+      "tempo": 71.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.006,
+      "valence": 0.04,
+      "danceability": 0.164,
+      "acousticness": 0.95,
+      "instrumentalness": 0.882,
+      "loudness": -33.1,
+      "speechiness": 0.039,
+      "duration_ms": 163200,
+      "slug": "pause-serene-pax"
+    },
+    {
+      "name": "Cloudology",
+      "artists": "Moomu",
+      "album": "Aguatic",
+      "popularity": 63,
+      "tempo": 107.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.064,
+      "valence": 0.058,
+      "danceability": 0.158,
+      "acousticness": 0.884,
+      "instrumentalness": 0.758,
+      "loudness": -25.7,
+      "speechiness": 0.047,
+      "duration_ms": 187970,
+      "slug": "cloudology-moomu"
+    },
+    {
+      "name": "e\u0301ternite\u0301",
+      "artists": "Eric Ardouin",
+      "album": "e\u0301ternite\u0301",
+      "popularity": 63,
+      "tempo": 62.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.005,
+      "valence": 0.047,
+      "danceability": 0.15,
+      "acousticness": 0.935,
+      "instrumentalness": 0.841,
+      "loudness": -35.5,
+      "speechiness": 0.042,
+      "duration_ms": 199488,
+      "slug": "eternite-eric-ardouin"
+    },
+    {
+      "name": "Nostalgia",
+      "artists": "Will Carano",
+      "album": "Nostalgia",
+      "popularity": 63,
+      "tempo": 68.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.002,
+      "valence": 0.037,
+      "danceability": 0.165,
+      "acousticness": 0.985,
+      "instrumentalness": 0.875,
+      "loudness": -37.1,
+      "speechiness": 0.035,
+      "duration_ms": 161860,
+      "slug": "nostalgia-will-carano"
+    },
+    {
+      "name": "Simien",
+      "artists": "Petros Idris",
+      "album": "Simien",
+      "popularity": 63,
+      "tempo": 64.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.01,
+      "valence": 0.094,
+      "danceability": 0.06,
+      "acousticness": 0.923,
+      "instrumentalness": 0.989,
+      "loudness": -34.6,
+      "speechiness": 0.05,
+      "duration_ms": 210624,
+      "slug": "simien-petros-idris"
     },
     {
       "name": "Winter Morning",
       "artists": "Aysha Mathis",
+      "album": "Winter Morning",
       "popularity": 62,
       "tempo": 68.8,
       "key": "B",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.013,
+      "valence": 0.048,
+      "danceability": 0.178,
+      "acousticness": 0.943,
+      "instrumentalness": 0.855,
+      "loudness": -33.4,
+      "speechiness": 0.045,
+      "duration_ms": 215000,
+      "slug": "winter-morning-aysha-mathis"
     },
     {
       "name": "Unavailable",
       "artists": "Aysha Mathis",
+      "album": "Unavailable",
       "popularity": 62,
       "tempo": 66.7,
       "key": "D",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.003,
+      "valence": 0.089,
+      "danceability": 0.146,
+      "acousticness": 0.944,
+      "instrumentalness": 0.898,
+      "loudness": -31.7,
+      "speechiness": 0.041,
+      "duration_ms": 199491,
+      "slug": "unavailable-aysha-mathis"
     },
     {
       "name": "Shape Of A Dream",
       "artists": "Sailors Of The 7 Seas",
+      "album": "Shape Of A Dream",
       "popularity": 62,
       "tempo": 74.8,
       "key": "G#/Ab",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.007,
+      "valence": 0.092,
+      "danceability": 0.14,
+      "acousticness": 0.983,
+      "instrumentalness": 0.885,
+      "loudness": -35.7,
+      "speechiness": 0.042,
+      "duration_ms": 186218,
+      "slug": "shape-of-a-dream-sailors-of-the-7-seas"
+    },
+    {
+      "name": "A Illa",
+      "artists": "Huma",
+      "album": "A Illa",
+      "popularity": 62,
+      "tempo": 74.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.064,
+      "valence": 0.032,
+      "danceability": 0.065,
+      "acousticness": 0.91,
+      "instrumentalness": 0.803,
+      "loudness": -26.7,
+      "speechiness": 0.041,
+      "duration_ms": 202281,
+      "slug": "a-illa-huma"
     },
     {
       "name": "Amado Nervo",
       "artists": "Sayulita",
+      "album": "Amado Nervo",
       "popularity": 62,
       "tempo": 74.0,
       "key": "A#/Bb",
-      "mode": "Minor"
+      "mode": "Minor",
+      "energy": 0.034,
+      "valence": 0.082,
+      "danceability": 0.099,
+      "acousticness": 0.93,
+      "instrumentalness": 0.851,
+      "loudness": -28.1,
+      "speechiness": 0.043,
+      "duration_ms": 189065,
+      "slug": "amado-nervo-sayulita"
     },
     {
       "name": "Pomalu",
       "artists": "Marie Protivov\u00e1",
+      "album": "Pomalu",
       "popularity": 62,
       "tempo": 68.8,
       "key": "D",
-      "mode": "Minor"
+      "mode": "Minor",
+      "energy": 0.027,
+      "valence": 0.064,
+      "danceability": 0.066,
+      "acousticness": 0.967,
+      "instrumentalness": 0.956,
+      "loudness": -34.8,
+      "speechiness": 0.045,
+      "duration_ms": 204000,
+      "slug": "pomalu-marie-protivov\u00e1"
     },
     {
       "name": "Monrovia",
       "artists": "Prescient Liquids",
+      "album": "Heliotropism",
       "popularity": 62,
       "tempo": 70.3,
       "key": "C#/Db",
-      "mode": "Minor"
+      "mode": "Minor",
+      "energy": 0.019,
+      "valence": 0.041,
+      "danceability": 0.066,
+      "acousticness": 0.974,
+      "instrumentalness": 0.933,
+      "loudness": -32.5,
+      "speechiness": 0.044,
+      "duration_ms": 210000,
+      "slug": "monrovia-prescient-liquids"
     },
     {
-      "name": "Smooth Sailing",
-      "artists": "White Noise Therapy",
-      "popularity": 38,
-      "tempo": 0.0,
-      "key": "D",
-      "mode": "Major"
+      "name": "Vila\u0301n",
+      "artists": "Huma",
+      "album": "Vila\u0301n",
+      "popularity": 62,
+      "tempo": 68.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.023,
+      "valence": 0.04,
+      "danceability": 0.135,
+      "acousticness": 0.961,
+      "instrumentalness": 0.892,
+      "loudness": -30.1,
+      "speechiness": 0.039,
+      "duration_ms": 171815,
+      "slug": "vilan-huma"
+    },
+    {
+      "name": "Versuchen",
+      "artists": "Leo Baumgart",
+      "album": "Versuchen",
+      "popularity": 62,
+      "tempo": 77.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.008,
+      "valence": 0.061,
+      "danceability": 0.12,
+      "acousticness": 0.973,
+      "instrumentalness": 0.897,
+      "loudness": -34.1,
+      "speechiness": 0.04,
+      "duration_ms": 136654,
+      "slug": "versuchen-leo-baumgart"
+    },
+    {
+      "name": "Revolve",
+      "artists": "Sleepless Eye",
+      "album": "Revolve",
+      "popularity": 62,
+      "tempo": 143.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.035,
+      "valence": 0.036,
+      "danceability": 0.133,
+      "acousticness": 0.861,
+      "instrumentalness": 0.572,
+      "loudness": -31.6,
+      "speechiness": 0.044,
+      "duration_ms": 187200,
+      "slug": "revolve-sleepless-eye"
+    },
+    {
+      "name": "Close At Heart",
+      "artists": "The Lay-Backs",
+      "album": "Close At Heart",
+      "popularity": 62,
+      "tempo": 139.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.03,
+      "valence": 0.084,
+      "danceability": 0.145,
+      "acousticness": 0.938,
+      "instrumentalness": 0.7,
+      "loudness": -29.6,
+      "speechiness": 0.042,
+      "duration_ms": 215439,
+      "slug": "close-at-heart-the-lay-backs"
     },
     {
       "name": "Nattljus",
       "artists": "M\u00e5nvarv",
+      "album": "Nattljus",
       "popularity": 62,
       "tempo": 75.6,
       "key": "C",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.024,
+      "valence": 0.052,
+      "danceability": 0.071,
+      "acousticness": 0.964,
+      "instrumentalness": 0.904,
+      "loudness": -34.2,
+      "speechiness": 0.041,
+      "duration_ms": 199250,
+      "slug": "nattljus-m\u00e5nvarv"
     },
     {
       "name": "Cloud Study",
       "artists": "Norris Melcher",
+      "album": "Cloud Study",
       "popularity": 62,
       "tempo": 79.5,
       "key": "D",
-      "mode": "Major"
+      "mode": "Major",
+      "energy": 0.096,
+      "valence": 0.046,
+      "danceability": 0.19,
+      "acousticness": 0.949,
+      "instrumentalness": 0.976,
+      "loudness": -26.2,
+      "speechiness": 0.045,
+      "duration_ms": 190000,
+      "slug": "cloud-study-norris-melcher"
+    },
+    {
+      "name": "Luminous",
+      "artists": "Invisible Motion",
+      "album": "Luminous",
+      "popularity": 62,
+      "tempo": 69.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.04,
+      "valence": 0.035,
+      "danceability": 0.065,
+      "acousticness": 0.879,
+      "instrumentalness": 0.773,
+      "loudness": -31.4,
+      "speechiness": 0.046,
+      "duration_ms": 178285,
+      "slug": "luminous-invisible-motion"
+    },
+    {
+      "name": "Vaikne",
+      "artists": "Eyla Calmes",
+      "album": "Vaikne",
+      "popularity": 62,
+      "tempo": 88.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.091,
+      "valence": 0.05,
+      "danceability": 0.104,
+      "acousticness": 0.603,
+      "instrumentalness": 0.825,
+      "loudness": -31.0,
+      "speechiness": 0.052,
+      "duration_ms": 178228,
+      "slug": "vaikne-eyla-calmes"
+    },
+    {
+      "name": "Origami Age",
+      "artists": "De Seu",
+      "album": "Origami Age",
+      "popularity": 62,
+      "tempo": 81.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.04,
+      "valence": 0.097,
+      "danceability": 0.079,
+      "acousticness": 0.962,
+      "instrumentalness": 0.814,
+      "loudness": -28.6,
+      "speechiness": 0.045,
+      "duration_ms": 170565,
+      "slug": "origami-age-de-seu"
+    },
+    {
+      "name": "Sequoia",
+      "artists": "Klaangen",
+      "album": "Sequoia",
+      "popularity": 62,
+      "tempo": 72.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.02,
+      "valence": 0.04,
+      "danceability": 0.138,
+      "acousticness": 0.972,
+      "instrumentalness": 0.847,
+      "loudness": -34.8,
+      "speechiness": 0.035,
+      "duration_ms": 173381,
+      "slug": "sequoia-klaangen"
+    },
+    {
+      "name": "Nikad ne Zaboravi",
+      "artists": "Nadia Bulic",
+      "album": "Nikad ne Zaboravi",
+      "popularity": 62,
+      "tempo": 74.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.006,
+      "valence": 0.038,
+      "danceability": 0.071,
+      "acousticness": 0.987,
+      "instrumentalness": 0.814,
+      "loudness": -36.4,
+      "speechiness": 0.035,
+      "duration_ms": 142621,
+      "slug": "nikad-ne-zaboravi-nadia-bulic"
+    },
+    {
+      "name": "Constant Broad Spectrum Noise Loop to Drown Out Sounds & Loud City Noises",
+      "artists": "White Noise Baby Sleep",
+      "album": "White Noise for Sleeping Babies",
+      "popularity": 62,
+      "tempo": 58.6,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.0,
+      "valence": 0.0,
+      "danceability": 0.053,
+      "acousticness": 0.0,
+      "instrumentalness": 0.279,
+      "loudness": -18.0,
+      "speechiness": 0.081,
+      "duration_ms": 593502,
+      "slug": "constant-broad-spectrum-noise-loop-to-drown-out-sounds-loud-city-noises-white-noise-baby-sleep"
     }
   ]
 }
