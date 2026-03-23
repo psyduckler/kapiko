@@ -95,6 +95,111 @@
       .stats-row { grid-template-columns: repeat(2, 1fr); }
       .feature-item { grid-template-columns: 100px 45px 1fr; }
     }
+  
+    /* ── Prompt Lab ── */
+    .prompt-lab {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .prompt-lab-intro h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+    .prompt-lab-intro p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .prompt-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      position: relative;
+    }
+    .prompt-card-main {
+      border-color: rgba(78,205,196,0.25);
+      background: linear-gradient(135deg, rgba(78,205,196,0.04), rgba(155,127,212,0.04));
+    }
+    .prompt-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .prompt-card-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--teal);
+      font-weight: 600;
+    }
+    .copy-btn {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.3);
+      border-radius: 8px;
+      padding: 0.4rem 1rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover {
+      background: rgba(78,205,196,0.25);
+    }
+    .prompt-text {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+    }
+    .prompt-params {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .prompt-param-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.2rem;
+    }
+    .prompt-param-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 0.3rem;
+    }
+    .prompt-param-value {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--teal);
+      margin-bottom: 0.5rem;
+    }
+    .prompt-param-detail {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 0.6rem;
+    }
+    .prompt-param-words {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .prompt-word {
+      background: rgba(78,205,196,0.08);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.15);
+      border-radius: 6px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+    }
   </style>
 </head>
 <body>
@@ -207,6 +312,101 @@
         <div class="char-value">E minor</div>
       </div>
     </div>
+  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+  
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>🧪 Recreate This Track</h3>
+      <p>Use these prompt ingredients with Suno, Udio, MusicGen, or any AI music generation service to recreate the vibe of Heavenly by Cigarettes After Sex.</p>
+    </div>
+
+    <!-- Ready-to-copy prompt -->
+    <div class="prompt-card prompt-card-main">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Ready-to-Use Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="mainPrompt">Copy</button>
+      </div>
+      <div class="prompt-text" id="mainPrompt">Create a 4:46 indie pop track at 105 BPM in G#/Ab Major. Female vocals over synth pad, bass guitar, drums. Melancholic / dreamy and expansive. Clean indie-pop production with prominent reverb on vocals and synths, with reverb tail and synth pad sustain. Layered texture, slowly_building dynamics, wide stereo field. Subdued energy (44%), melancholic mood (13%). Think Lana Del Rey meets Mazzy Star.</div>
+    </div>
+
+    <!-- Parameter cards -->
+    <div class="prompt-params">
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Tempo</div>
+        <div class="prompt-param-value">105 BPM</div>
+        <div class="prompt-param-detail">Mid-tempo pace. Natural rhythm for the genre.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">mid-tempo</span>
+          <span class="prompt-word">unhurried</span>
+          <span class="prompt-word">steady</span>
+          <span class="prompt-word">gentle</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Energy</div>
+        <div class="prompt-param-value">43.7%</div>
+        <div class="prompt-param-detail">Low to moderate energy level. Sets the dynamic intensity.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">subdued</span>
+          <span class="prompt-word">restrained</span>
+          <span class="prompt-word">understated</span>
+          <span class="prompt-word">soft</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Mood</div>
+        <div class="prompt-param-value">12.7% Valence</div>
+        <div class="prompt-param-detail">melancholic / dreamy mood with expansive atmosphere.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">melancholic</span>
+          <span class="prompt-word">somber</span>
+          <span class="prompt-word">introspective</span>
+          <span class="prompt-word">expansive</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Instrumentation</div>
+        <div class="prompt-param-value">4 Instruments</div>
+        <div class="prompt-param-detail">Primary: female vocals. Full arrangement with female vocals, synth pad, bass guitar.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">female-vocals</span>
+          <span class="prompt-word">synth-pad</span>
+          <span class="prompt-word">bass-guitar</span>
+          <span class="prompt-word">drums</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Key & Tonality</div>
+        <div class="prompt-param-value">G#/Ab Major</div>
+        <div class="prompt-param-detail">Major key. Harmonic foundation with moderate progressions.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">major</span>
+          <span class="prompt-word">bright</span>
+          <span class="prompt-word">moderate-progressions</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Production</div>
+        <div class="prompt-param-value">clean indie-pop production with prominent reverb on vocals and synths</div>
+        <div class="prompt-param-detail">reverb tail, synth pad sustain. layered texture, slowly_building dynamics.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">reverb-tail</span>
+          <span class="prompt-word">synth-pad-sustain</span>
+          <span class="prompt-word">layered</span>
+          <span class="prompt-word">wide-stereo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 <footer>
@@ -247,6 +447,19 @@ if (ctx) {
         }
       }
     }
+  });
+}
+
+function copyPrompt(btn) {
+  const id = btn.getAttribute('data-target');
+  const text = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    btn.style.background = 'rgba(78,205,196,0.3)';
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.style.background = '';
+    }, 2000);
   });
 }
 </script>

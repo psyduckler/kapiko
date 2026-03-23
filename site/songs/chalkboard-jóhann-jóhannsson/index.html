@@ -95,6 +95,111 @@
       .stats-row { grid-template-columns: repeat(2, 1fr); }
       .feature-item { grid-template-columns: 100px 45px 1fr; }
     }
+  
+    /* ── Prompt Lab ── */
+    .prompt-lab {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .prompt-lab-intro h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+    .prompt-lab-intro p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .prompt-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      position: relative;
+    }
+    .prompt-card-main {
+      border-color: rgba(78,205,196,0.25);
+      background: linear-gradient(135deg, rgba(78,205,196,0.04), rgba(155,127,212,0.04));
+    }
+    .prompt-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .prompt-card-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--teal);
+      font-weight: 600;
+    }
+    .copy-btn {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.3);
+      border-radius: 8px;
+      padding: 0.4rem 1rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover {
+      background: rgba(78,205,196,0.25);
+    }
+    .prompt-text {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+    }
+    .prompt-params {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .prompt-param-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.2rem;
+    }
+    .prompt-param-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 0.3rem;
+    }
+    .prompt-param-value {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--teal);
+      margin-bottom: 0.5rem;
+    }
+    .prompt-param-detail {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 0.6rem;
+    }
+    .prompt-param-words {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .prompt-word {
+      background: rgba(78,205,196,0.08);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.15);
+      border-radius: 6px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+    }
   </style>
 </head>
 <body>
@@ -207,6 +312,100 @@
         <div class="char-value">C minor</div>
       </div>
     </div>
+  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+  
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>🧪 Recreate This Track</h3>
+      <p>Use these prompt ingredients with Suno, Udio, MusicGen, or any AI music generation service to recreate the vibe of Chalkboard by Jóhann Jóhannsson.</p>
+    </div>
+
+    <!-- Ready-to-copy prompt -->
+    <div class="prompt-card prompt-card-main">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Ready-to-Use Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="mainPrompt">Copy</button>
+      </div>
+      <div class="prompt-text" id="mainPrompt">Create a 1:05 neo-classical track at 93 BPM in A Minor. Instrumental — strings, violin, cello, viola. Dramatic / melancholic and expansive. Orchestral, with reverb tail. Layered texture, slowly_building dynamics, wide stereo field. Whisper-quiet energy (11%), melancholic mood (8%). Think Max Richter meets Ludovico Einaudi.</div>
+    </div>
+
+    <!-- Parameter cards -->
+    <div class="prompt-params">
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Tempo</div>
+        <div class="prompt-param-value">93 BPM</div>
+        <div class="prompt-param-detail">Mid-tempo pace. Natural rhythm for the genre.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">mid-tempo</span>
+          <span class="prompt-word">unhurried</span>
+          <span class="prompt-word">steady</span>
+          <span class="prompt-word">gentle</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Energy</div>
+        <div class="prompt-param-value">10.9%</div>
+        <div class="prompt-param-detail">Very low energy level. Sets the dynamic intensity.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">whisper-quiet</span>
+          <span class="prompt-word">delicate</span>
+          <span class="prompt-word">gentle</span>
+          <span class="prompt-word">featherlight</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Mood</div>
+        <div class="prompt-param-value">8.0% Valence</div>
+        <div class="prompt-param-detail">dramatic / melancholic mood with expansive atmosphere.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">melancholic</span>
+          <span class="prompt-word">somber</span>
+          <span class="prompt-word">introspective</span>
+          <span class="prompt-word">expansive</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Instrumentation</div>
+        <div class="prompt-param-value">5 Instruments</div>
+        <div class="prompt-param-detail">Primary: strings. Full arrangement with strings, violin, cello.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">strings</span>
+          <span class="prompt-word">violin</span>
+          <span class="prompt-word">cello</span>
+          <span class="prompt-word">viola</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Key & Tonality</div>
+        <div class="prompt-param-value">A Minor</div>
+        <div class="prompt-param-detail">Tonal center. Harmonic foundation with moderate progressions.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">tonal</span>
+          <span class="prompt-word">modal</span>
+          <span class="prompt-word">moderate-progressions</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Production</div>
+        <div class="prompt-param-value">orchestral</div>
+        <div class="prompt-param-detail">reverb tail. layered texture, slowly_building dynamics.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">reverb-tail</span>
+          <span class="prompt-word">layered</span>
+          <span class="prompt-word">wide-stereo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 <footer>
@@ -247,6 +446,19 @@ if (ctx) {
         }
       }
     }
+  });
+}
+
+function copyPrompt(btn) {
+  const id = btn.getAttribute('data-target');
+  const text = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    btn.style.background = 'rgba(78,205,196,0.3)';
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.style.background = '';
+    }, 2000);
   });
 }
 </script>
