@@ -307,32 +307,10 @@
     /* ── Prompt Lab ── */
     .prompt-lab { display: flex; flex-direction: column; gap: 1.2rem; }
 
-    .platform-tabs {
+    .prompt-grid {
       display: flex;
-      gap: 0.35rem;
-      background: var(--bg-raised);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 0.3rem;
-      width: fit-content;
-    }
-    .platform-tab {
-      background: transparent;
-      color: var(--text-muted);
-      border: none;
-      border-radius: 7px;
-      padding: 0.5rem 1.1rem;
-      font-size: 0.82rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.2s;
-      font-family: var(--sans);
-    }
-    .platform-tab:hover { color: var(--text-secondary); background: rgba(255,255,255,0.03); }
-    .platform-tab.active {
-      background: var(--accent-dim);
-      color: var(--accent);
-      box-shadow: 0 1px 4px rgba(78,205,196,0.08);
+      flex-direction: column;
+      gap: 1rem;
     }
 
     .prompt-card {
@@ -726,21 +704,12 @@
   </div>
 
   <div class="prompt-lab">
-    <!-- Platform tabs -->
-    <div>
-      <div style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.5rem;font-weight:500;">Choose your AI music tool:</div>
-      <div class="platform-tabs">
-        <button class="platform-tab active" onclick="switchTab(this,'general')">General</button>
-        <button class="platform-tab" onclick="switchTab(this,'suno')">Suno</button>
-        <button class="platform-tab" onclick="switchTab(this,'udio')">Udio</button>
-        <button class="platform-tab" onclick="switchTab(this,'agent')">Agent JSON</button>
-      </div>
-    </div>
+    <div class="prompt-grid">
 
-    <!-- General -->
-    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-general">
+    <!-- General prompt -->
+    <div class="prompt-card prompt-card-highlight">
       <div class="prompt-header">
-        <span class="prompt-label">Ready-to-use prompt</span>
+        <span class="prompt-label">General — Ready-to-use prompt</span>
         <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
           Copy Prompt
@@ -749,10 +718,10 @@
       <div class="prompt-text" id="promptGeneral">Create a 5:15 neo-classical track at 92 BPM in D Major. Instrumental — harp, string pads. Meditative / melancholic and expansive. Clean digital synthesis, with reverb tail. Layered texture, static dynamics, moderate stereo field. Subdued energy (45%), melancholic mood (4%). Think Ludovico Einaudi meets Olafur Arnalds.</div>
     </div>
 
-    <!-- Suno -->
-    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-suno" style="display:none">
+    <!-- Suno prompt -->
+    <div class="prompt-card prompt-card-highlight">
       <div class="prompt-header">
-        <span class="prompt-label">Suno style tags</span>
+        <span class="prompt-label">Suno — Style tags</span>
         <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
           Copy Tags
@@ -762,10 +731,10 @@
       <div class="prompt-text" id="promptSuno">neo-classical, ambient, meditative / melancholic, expansive, harp, string pads, subdued, clean digital synthesis, reverb tail</div>
     </div>
 
-    <!-- Udio -->
-    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-udio" style="display:none">
+    <!-- Udio prompt -->
+    <div class="prompt-card prompt-card-highlight">
       <div class="prompt-header">
-        <span class="prompt-label">Udio prompt</span>
+        <span class="prompt-label">Udio — Prompt</span>
         <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
           Copy Prompt
@@ -776,9 +745,9 @@
     </div>
 
     <!-- Agent JSON -->
-    <div class="prompt-card prompt-card-highlight prompt-panel" id="panel-agent" style="display:none">
+    <div class="prompt-card prompt-card-highlight">
       <div class="prompt-header">
-        <span class="prompt-label">Structured data for agents</span>
+        <span class="prompt-label">Agent JSON — Structured data</span>
         <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
           Copy JSON
@@ -818,6 +787,8 @@
   "prompt": "Create a 5:15 neo-classical track at 92 BPM in D Major. Instrumental — harp, string pads. Meditative / melancholic and expansive. Clean digital synthesis, with reverb tail. Layered texture, static dynamics, moderate stereo field. Subdued energy (45%), melancholic mood (4%). Think Ludovico Einaudi meets Olafur Arnalds."
 }</pre>
     </div>
+
+    </div><!-- /prompt-grid -->
 
     <!-- Parameter breakdown -->
     <div class="params-grid">
@@ -1032,15 +1003,6 @@ if (ctx) {
       }
     }
   });
-}
-
-/* Tab switching */
-function switchTab(btn, panel) {
-  document.querySelectorAll('.platform-tab').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.prompt-panel').forEach(p => p.style.display = 'none');
-  btn.classList.add('active');
-  const el = document.getElementById('panel-' + panel);
-  if (el) el.style.display = '';
 }
 
 /* Copy */
