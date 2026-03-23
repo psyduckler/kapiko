@@ -49,6 +49,8 @@ Random sub-genre → 50 Suno prompts → 100 clips → Gemini scoring → Tiebre
 
 ~500 Suno credits + ~$0.31 cash per run
 
-## YouTube
+## Listen
 
-Channel: [@kapiko-music](https://youtube.com/@kapiko-music) (`UCiAd8cFRo58SzdhfE-oxnvA`)
+- 🎵 [Spotify](https://open.spotify.com/artist/2OIwYv0X7oU2s3pfLfpBS7)
+- 🍎 [Apple Music](https://music.apple.com/us/artist/kapiko/1885930004)
+- 📺 [YouTube](https://youtube.com/@kapiko-music)
