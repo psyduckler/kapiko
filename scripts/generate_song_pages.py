@@ -318,7 +318,7 @@ def make_page(t, genre, all_genres_data=None):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(name)} by {esc(artist)} — Analysis + Prompt Template - kapiko</title>
   <meta name="description" content="Audio analysis of {esc(name)} by {esc(artist)}. BPM, key, energy, mood, and AI music generation prompts.">
-  <meta name="canonical" href="https://kapiko.ai/songs/{esc(slug)}/">
+  <link rel="canonical" href="https://kapiko.ai/songs/{esc(slug)}/">
   
   <!-- Open Graph -->
   <meta property="og:title" content="{esc(name)} by {esc(artist)}">
