@@ -3,6 +3,11 @@ main = "src/index.ts"
 compatibility_date = "2024-11-01"
 compatibility_flags = ["nodejs_compat"]
 
+routes = [
+  { pattern = "kapiko.ai/api/v1", zone_id = "9934cfdd4e877d7e11488c45f64de57b" },
+  { pattern = "kapiko.ai/api/v1/*", zone_id = "9934cfdd4e877d7e11488c45f64de57b" }
+]
+
 [[d1_databases]]
 binding = "DB"
 database_name = "kapiko-db"
