@@ -1,0 +1,524 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "kapiko Music Intelligence API",
+    "description": "The kapiko API provides genre analytics, audio feature distributions, and AI-powered music analysis. Data is sourced from Spotify audio features (100 tracks per genre) and enriched with Gemini AI analysis.\n\nOpen access beta — no authentication required.",
+    "version": "1.0.0-beta",
+    "contact": {
+      "url": "https://kapiko.ai"
+    },
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://kapiko.ai/api/v1",
+      "description": "Production"
+    }
+  ],
+  "tags": [
+    { "name": "platform", "description": "Platform-level stats and discovery" },
+    { "name": "genres", "description": "Genre analytics and audio feature distributions" },
+    { "name": "tracks", "description": "Individual track data with audio features and AI analysis" }
+  ],
+  "paths": {
+    "/stats": {
+      "get": {
+        "tags": ["platform"],
+        "summary": "Platform statistics",
+        "description": "Returns top-level platform statistics including genre count, total track count, and data freshness.",
+        "operationId": "getStats",
+        "responses": {
+          "200": {
+            "description": "Platform stats",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Stats" },
+                "example": {
+                  "genre_count": 6,
+                  "track_count": 600,
+                  "genres": ["ambient", "lofi-hip-hop", "sleep", "focus", "jazz-piano", "neo-classical"],
+                  "last_updated": "2026-01-01T00:00:00Z"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/genres": {
+      "get": {
+        "tags": ["genres"],
+        "summary": "List all genres",
+        "description": "Returns a list of all available genres with summary audio feature statistics.",
+        "operationId": "listGenres",
+        "responses": {
+          "200": {
+            "description": "Array of genre summaries",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/GenreSummary" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/genres/{genre}": {
+      "get": {
+        "tags": ["genres"],
+        "summary": "Get genre analytics",
+        "description": "Returns full audio feature analysis for a genre, including BPM distribution, key/mode distributions, energy, valence, and all other Spotify audio features. Based on the top 100 tracks for the genre.",
+        "operationId": "getGenre",
+        "parameters": [
+          {
+            "name": "genre",
+            "in": "path",
+            "required": true,
+            "description": "Genre slug",
+            "schema": {
+              "type": "string",
+              "enum": ["ambient", "lofi-hip-hop", "sleep", "focus", "jazz-piano", "neo-classical"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Full genre analytics",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/GenreAnalysis" }
+              }
+            }
+          },
+          "404": {
+            "description": "Genre not found",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/genres/{genre}/tracks": {
+      "get": {
+        "tags": ["genres"],
+        "summary": "Get genre track list",
+        "description": "Returns the list of tracks used to build the genre profile, with each track's Spotify audio features.",
+        "operationId": "getGenreTracks",
+        "parameters": [
+          {
+            "name": "genre",
+            "in": "path",
+            "required": true,
+            "description": "Genre slug",
+            "schema": {
+              "type": "string",
+              "enum": ["ambient", "lofi-hip-hop", "sleep", "focus", "jazz-piano", "neo-classical"]
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Maximum number of tracks to return (default 100)",
+            "schema": { "type": "integer", "default": 100, "maximum": 100 }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Pagination offset",
+            "schema": { "type": "integer", "default": 0 }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Track list with audio features",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "genre": { "type": "string" },
+                    "total": { "type": "integer" },
+                    "tracks": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/Track" }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Genre not found",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tracks": {
+      "get": {
+        "tags": ["tracks"],
+        "summary": "Browse all tracks",
+        "description": "Returns a paginated list of all indexed tracks across all genres.",
+        "operationId": "listTracks",
+        "parameters": [
+          {
+            "name": "genre",
+            "in": "query",
+            "description": "Filter by genre slug",
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Number of results (default 50, max 200)",
+            "schema": { "type": "integer", "default": 50, "maximum": 200 }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Pagination offset",
+            "schema": { "type": "integer", "default": 0 }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated track list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total": { "type": "integer" },
+                    "offset": { "type": "integer" },
+                    "limit": { "type": "integer" },
+                    "tracks": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/Track" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tracks/{id}": {
+      "get": {
+        "tags": ["tracks"],
+        "summary": "Get a single track",
+        "description": "Returns full audio features and Gemini AI analysis for a single track.",
+        "operationId": "getTrack",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Spotify track ID",
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Track with full features and AI analysis",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/TrackDetail" }
+              }
+            }
+          },
+          "404": {
+            "description": "Track not found",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/compare": {
+      "get": {
+        "tags": ["genres"],
+        "summary": "Compare genres",
+        "description": "Compare audio feature distributions across two or more genres. Returns median values for each requested feature per genre.",
+        "operationId": "compareGenres",
+        "parameters": [
+          {
+            "name": "genres",
+            "in": "query",
+            "required": true,
+            "description": "Comma-separated list of genre slugs to compare (2–6 genres)",
+            "schema": { "type": "string" },
+            "example": "ambient,lofi-hip-hop,sleep"
+          },
+          {
+            "name": "features",
+            "in": "query",
+            "description": "Comma-separated audio features to include (default: all). Options: bpm, energy, valence, acousticness, instrumentalness, danceability, loudness, speechiness",
+            "schema": { "type": "string" },
+            "example": "bpm,energy,valence"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Feature comparison across requested genres",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/GenreComparison" }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid genre or feature parameter",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Error" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Stats": {
+        "type": "object",
+        "properties": {
+          "genre_count": { "type": "integer", "description": "Number of analyzed genres" },
+          "track_count": { "type": "integer", "description": "Total indexed tracks" },
+          "genres": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Available genre slugs"
+          },
+          "last_updated": { "type": "string", "format": "date-time" }
+        }
+      },
+      "GenreSummary": {
+        "type": "object",
+        "properties": {
+          "genre": { "type": "string", "description": "Genre slug" },
+          "track_count": { "type": "integer" },
+          "bpm_median": { "type": "number" },
+          "energy_mean": { "type": "number", "description": "0.0–1.0" },
+          "valence_mean": { "type": "number", "description": "0.0–1.0" },
+          "acousticness_mean": { "type": "number", "description": "0.0–1.0" },
+          "instrumentalness_mean": { "type": "number", "description": "0.0–1.0" },
+          "top_key": { "type": "string", "description": "Most common key (e.g. C#/Db)" },
+          "dominant_mode": { "type": "string", "enum": ["Major", "Minor"] }
+        }
+      },
+      "AudioFeatureStats": {
+        "type": "object",
+        "description": "Statistical distribution of a continuous audio feature across 100 tracks",
+        "properties": {
+          "mean": { "type": "number" },
+          "median": { "type": "number" },
+          "stdev": { "type": "number" },
+          "min": { "type": "number" },
+          "max": { "type": "number" },
+          "histogram": {
+            "type": "object",
+            "description": "Bucket counts. Keys vary per feature (e.g. '0.0-0.2' for 0–1 features, '0-30' for BPM).",
+            "additionalProperties": { "type": "integer" }
+          },
+          "raw": {
+            "type": "array",
+            "items": { "type": "number" },
+            "description": "Sorted raw values for all 100 tracks"
+          }
+        }
+      },
+      "BpmStats": {
+        "allOf": [
+          { "$ref": "#/components/schemas/AudioFeatureStats" },
+          {
+            "type": "object",
+            "properties": {
+              "histogram": {
+                "type": "object",
+                "properties": {
+                  "0-30":   { "type": "integer" },
+                  "30-60":  { "type": "integer" },
+                  "60-90":  { "type": "integer" },
+                  "90-120": { "type": "integer" },
+                  "120-150":{ "type": "integer" },
+                  "150-180":{ "type": "integer" },
+                  "180+":   { "type": "integer" }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "KeyDistribution": {
+        "type": "object",
+        "description": "Count of tracks per musical key",
+        "properties": {
+          "C":     { "type": "integer" },
+          "C#/Db": { "type": "integer" },
+          "D":     { "type": "integer" },
+          "D#/Eb": { "type": "integer" },
+          "E":     { "type": "integer" },
+          "F":     { "type": "integer" },
+          "F#/Gb": { "type": "integer" },
+          "G":     { "type": "integer" },
+          "G#/Ab": { "type": "integer" },
+          "A":     { "type": "integer" },
+          "A#/Bb": { "type": "integer" },
+          "B":     { "type": "integer" }
+        }
+      },
+      "ModeDistribution": {
+        "type": "object",
+        "properties": {
+          "Major": { "type": "integer" },
+          "Minor": { "type": "integer" }
+        }
+      },
+      "GenreAnalysis": {
+        "type": "object",
+        "description": "Full audio feature analysis for a genre based on 100 tracks",
+        "properties": {
+          "genre": { "type": "string" },
+          "track_count": { "type": "integer" },
+          "collection_source": { "type": "string" },
+          "bpm":              { "$ref": "#/components/schemas/BpmStats" },
+          "key_distribution": { "$ref": "#/components/schemas/KeyDistribution" },
+          "mode_distribution":{ "$ref": "#/components/schemas/ModeDistribution" },
+          "key_mode_distribution": {
+            "type": "object",
+            "description": "Count per key+mode combination (e.g. 'C#/Db Major')",
+            "additionalProperties": { "type": "integer" }
+          },
+          "energy":            { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "valence":           { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "acousticness":      { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "instrumentalness":  { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "danceability":      { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "loudness":          { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "speechiness":       { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "duration":          { "$ref": "#/components/schemas/AudioFeatureStats" },
+          "top_artists": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name":        { "type": "string" },
+                "track_count": { "type": "integer" }
+              }
+            }
+          },
+          "tracks": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Track" }
+          }
+        }
+      },
+      "Track": {
+        "type": "object",
+        "description": "A single track with Spotify audio features",
+        "properties": {
+          "id":              { "type": "string", "description": "Spotify track ID" },
+          "name":            { "type": "string" },
+          "artist":          { "type": "string" },
+          "album":           { "type": "string" },
+          "spotify_url":     { "type": "string", "format": "uri" },
+          "duration_ms":     { "type": "integer" },
+          "bpm":             { "type": "number", "description": "Tempo in beats per minute" },
+          "key":             { "type": "integer", "description": "Pitch class (0=C, 1=C#, ... 11=B)" },
+          "mode":            { "type": "integer", "description": "0=Minor, 1=Major" },
+          "energy":          { "type": "number", "description": "0.0–1.0" },
+          "valence":         { "type": "number", "description": "0.0–1.0, musical positiveness" },
+          "acousticness":    { "type": "number", "description": "0.0–1.0" },
+          "instrumentalness":{ "type": "number", "description": "0.0–1.0" },
+          "danceability":    { "type": "number", "description": "0.0–1.0" },
+          "loudness":        { "type": "number", "description": "dB, typically -60 to 0" },
+          "speechiness":     { "type": "number", "description": "0.0–1.0" },
+          "liveness":        { "type": "number", "description": "0.0–1.0" }
+        }
+      },
+      "GeminiAnalysis": {
+        "type": "object",
+        "description": "AI-generated analysis of audio characteristics (via Google Gemini)",
+        "properties": {
+          "instruments":          { "type": "array", "items": { "type": "string" } },
+          "primary_instrument":   { "type": "string" },
+          "mood_primary":         { "type": "string" },
+          "mood_secondary":       { "type": "string" },
+          "texture":              { "type": "string", "description": "e.g. sparse, dense, layered" },
+          "atmosphere":           { "type": "string", "description": "e.g. ethereal, intimate, cinematic" },
+          "dynamics":             { "type": "string", "description": "e.g. static, gradual build, dramatic" },
+          "vocal_presence":       { "type": "string", "description": "e.g. none, minimal, prominent" },
+          "stereo_width":         { "type": "string", "description": "e.g. narrow, wide, expansive" },
+          "harmonic_complexity":  { "type": "string", "description": "e.g. simple, moderate, complex" },
+          "rhythm_presence":      { "type": "string", "description": "e.g. none, subtle, prominent" },
+          "genre_tags":           { "type": "array", "items": { "type": "string" } },
+          "sound_design_elements":{ "type": "array", "items": { "type": "string" } },
+          "similar_artists":      { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "TrackDetail": {
+        "allOf": [
+          { "$ref": "#/components/schemas/Track" },
+          {
+            "type": "object",
+            "properties": {
+              "gemini_analysis": { "$ref": "#/components/schemas/GeminiAnalysis" }
+            }
+          }
+        ]
+      },
+      "GenreComparison": {
+        "type": "object",
+        "description": "Audio feature comparison across multiple genres",
+        "properties": {
+          "genres": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "features": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "data": {
+            "type": "object",
+            "description": "Keyed by genre slug, containing median values per feature",
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": { "type": "number" }
+            },
+            "example": {
+              "ambient":    { "bpm": 107.3, "energy": 0.28, "valence": 0.22 },
+              "lofi-hip-hop": { "bpm": 85.0,  "energy": 0.45, "valence": 0.40 }
+            }
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error":   { "type": "string" },
+          "message": { "type": "string" }
+        },
+        "required": ["error", "message"]
+      }
+    }
+  }
+}

@@ -297,6 +297,179 @@
       transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
+    /* ── Prompt Lab ── */
+    .prompt-lab {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .prompt-lab-intro h3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .prompt-lab-intro p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      max-width: 700px;
+    }
+
+    .prompt-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 24px;
+      transition: border-color 0.25s;
+    }
+
+    .prompt-card:hover {
+      border-color: var(--border-accent);
+    }
+
+    .prompt-card-main {
+      border-color: rgba(78, 205, 196, 0.2);
+      background: rgba(78, 205, 196, 0.03);
+    }
+
+    .prompt-card-avoid {
+      border-color: rgba(220, 100, 100, 0.15);
+      background: rgba(220, 100, 100, 0.03);
+    }
+
+    .prompt-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .prompt-card-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--teal);
+    }
+
+    .prompt-card-avoid .prompt-card-label {
+      color: #dc6464;
+    }
+
+    .copy-btn {
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--teal);
+      background: rgba(78, 205, 196, 0.1);
+      border: 1px solid rgba(78, 205, 196, 0.25);
+      border-radius: 8px;
+      padding: 5px 14px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      letter-spacing: 0.03em;
+    }
+
+    .copy-btn:hover {
+      background: rgba(78, 205, 196, 0.2);
+    }
+
+    .copy-btn.copied {
+      color: #fff;
+      background: var(--teal);
+    }
+
+    .prompt-text {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 13px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 8px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      user-select: all;
+    }
+
+    /* Parameter cards */
+    .prompt-params {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+
+    .prompt-param-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      transition: border-color 0.25s, background 0.25s;
+    }
+
+    .prompt-param-card:hover {
+      border-color: var(--border-accent);
+      background: rgba(78, 205, 196, 0.02);
+    }
+
+    .prompt-param-label {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 6px;
+    }
+
+    .prompt-param-value {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      line-height: 1.1;
+    }
+
+    .prompt-param-detail {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+
+    .prompt-param-words {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .prompt-word {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--purple);
+      background: rgba(155, 127, 212, 0.1);
+      border: 1px solid rgba(155, 127, 212, 0.2);
+      border-radius: 20px;
+      padding: 3px 10px;
+      cursor: default;
+      transition: background 0.2s;
+      user-select: all;
+    }
+
+    .prompt-word:hover {
+      background: rgba(155, 127, 212, 0.2);
+    }
+
+    @media (max-width: 760px) {
+      .prompt-params {
+        grid-template-columns: 1fr;
+      }
+    }
+
     /* ── Tracks Table ── */
     .tracks-container { background: var(--bg-card); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; }
     .tracks-table { width: 100%; border-collapse: collapse; }
@@ -1114,6 +1287,126 @@ Reference artists: Novo Amor, Max Richter, Nils Frahm, Bon Iver</pre>
       Show More Tracks
       <span class="show-more-count" id="showMoreCount"></span>
     </button>
+  </div>
+
+  <!-- Section: Prompt Lab -->
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>🧪 Generate Ambient Music</h3>
+      <p>Use these data-driven prompt ingredients with Suno, Udio, MusicGen, or any AI music generation service. Built from the audio DNA of 100 top ambient tracks.</p>
+    </div>
+
+    <!-- Ready-to-copy prompt -->
+    <div class="prompt-card prompt-card-main">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Ready-to-Use Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="mainPrompt">Copy</button>
+      </div>
+      <div class="prompt-text" id="mainPrompt">Create a 4-minute ambient track at 100 BPM in C# major. Soft piano and ethereal strings with very low energy and minimal dynamics. Contemplative, melancholic mood — think Ludovico Einaudi meets Ólafur Arnalds. Highly acoustic, fully instrumental, no vocals. Gentle, sustained notes with wide reverb and slow harmonic movement. The piece should feel like watching mist drift across a still lake at dawn.</div>
+    </div>
+
+    <!-- Parameter cards -->
+    <div class="prompt-params">
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Tempo</div>
+        <div class="prompt-param-value">70–120 BPM</div>
+        <div class="prompt-param-detail">Sweet spot: ~100 BPM. Median is 107 but the most popular tracks cluster lower. Avoid anything above 130.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">slow</span>
+          <span class="prompt-word">unhurried</span>
+          <span class="prompt-word">drifting</span>
+          <span class="prompt-word">suspended</span>
+          <span class="prompt-word">glacial pace</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Energy</div>
+        <div class="prompt-param-value">15–35%</div>
+        <div class="prompt-param-detail">Median 26%. This is quiet music. The top tracks barely whisper — avoid anything that could be called "driving" or "powerful."</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">gentle</span>
+          <span class="prompt-word">subdued</span>
+          <span class="prompt-word">whisper-quiet</span>
+          <span class="prompt-word">delicate</span>
+          <span class="prompt-word">featherlight</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Mood / Valence</div>
+        <div class="prompt-param-value">5–25%</div>
+        <div class="prompt-param-detail">Median 17%. Not sad — contemplative. Low valence doesn't mean depressing; it means introspective, wistful, emotionally restrained.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">contemplative</span>
+          <span class="prompt-word">melancholic</span>
+          <span class="prompt-word">wistful</span>
+          <span class="prompt-word">introspective</span>
+          <span class="prompt-word">bittersweet</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Instrumentation</div>
+        <div class="prompt-param-value">89% Acoustic</div>
+        <div class="prompt-param-detail">Overwhelmingly organic. Piano dominates, followed by strings and guitar. 78% instrumental — almost no vocals in the top tracks.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">piano</span>
+          <span class="prompt-word">strings</span>
+          <span class="prompt-word">no vocals</span>
+          <span class="prompt-word">acoustic</span>
+          <span class="prompt-word">organic textures</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Key & Tonality</div>
+        <div class="prompt-param-value">C♯/D♭ or G Major</div>
+        <div class="prompt-param-detail">74% major key. Open, bright tonalities that give ambient its sense of unresolved space. C, E, and D also popular.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">major key</span>
+          <span class="prompt-word">open</span>
+          <span class="prompt-word">unresolved</span>
+          <span class="prompt-word">luminous</span>
+          <span class="prompt-word">suspended harmony</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Duration</div>
+        <div class="prompt-param-value">4–5 minutes</div>
+        <div class="prompt-param-detail">35% of top tracks land here. Stay above 2:30 for streaming royalty thresholds. Longer is fine — ambient tolerates 6-8 min easily.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">extended</span>
+          <span class="prompt-word">unhurried development</span>
+          <span class="prompt-word">gradual build</span>
+          <span class="prompt-word">patient pacing</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Reference artists -->
+    <div class="prompt-card">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Reference Artists for Prompting</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="artistRef">Copy</button>
+      </div>
+      <div class="prompt-text" id="artistRef">Style references: Ludovico Einaudi, Ólafur Arnalds, Novo Amor, Max Richter, Yann Tiersen, Aphex Twin (ambient works), Marconi Union, Joep Beving, Fabrizio Paterlini, Sleeping At Last</div>
+    </div>
+
+    <!-- Negative prompt -->
+    <div class="prompt-card prompt-card-avoid">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">❌ What to Avoid</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="avoidPrompt">Copy</button>
+      </div>
+      <div class="prompt-text" id="avoidPrompt">Avoid: vocals, lyrics, heavy bass, drums, percussion, fast tempo, high energy, electronic drops, distortion, compression, staccato patterns, abrupt transitions, busy arrangements</div>
+    </div>
+
   </div>
 
 </main>
@@ -2249,6 +2542,37 @@ function copyBlock(blockId) {
   navigator.clipboard.writeText(text).then(() => {
     const btn = block.querySelector('.copy-btn');
     btn.textContent = 'Copied ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+
+// ─── Prompt Lab Copy ────────────────────────────────────────────────────────
+
+function copyPrompt(btn) {
+  const targetId = btn.getAttribute('data-target');
+  const el = document.getElementById(targetId);
+  const text = el.textContent.trim();
+  
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  }).catch(() => {
+    const range = document.createRange();
+    range.selectNodeContents(el);
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    document.execCommand('copy');
+    btn.textContent = 'Copied!';
     btn.classList.add('copied');
     setTimeout(() => {
       btn.textContent = 'Copy';

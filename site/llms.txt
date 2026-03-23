@@ -1,0 +1,63 @@
+# kapiko
+
+> kapiko is an AI music intelligence platform that analyzes genre characteristics, audio features, and production patterns to help musicians, producers, and developers understand what makes music work.
+
+kapiko builds statistical profiles of music genres from Spotify audio feature data, enriched with Gemini AI analysis. Each genre report covers 100 representative tracks and surfaces patterns in tempo, key, energy, mood, instrumentation, and production style.
+
+## Available Genre Analytics
+
+The following genres have full analysis reports:
+
+- [Ambient](/genres/ambient/) — Spacious, introspective soundscapes. High acousticness, low energy, near-zero speechiness.
+- [Lo-Fi Hip Hop](/genres/lofi-hip-hop/) — Relaxed, sample-based beats with warm texture and mid-tempo feel.
+- [Sleep](/genres/sleep/) — Ultra-low energy, minimal dynamics, designed for deep rest.
+- [Focus](/genres/focus/) — Instrumental concentration music balancing stimulation and calm.
+- [Jazz Piano](/genres/jazz-piano/) — Harmonic complexity, expressive dynamics, acoustic intimacy.
+- [Neo-Classical](/genres/neo-classical/) — Contemporary classical with cinematic scope and emotional depth.
+
+## Static Data Files
+
+Each genre has a machine-readable analysis file:
+
+- `/genres/ambient/analysis.json` — Full Spotify audio feature analysis for ambient (100 tracks)
+- `/genres/lofi-hip-hop/analysis.json` — Lo-fi hip hop analysis
+- `/genres/sleep/analysis.json` — Sleep music analysis
+- `/genres/focus/analysis.json` — Focus music analysis
+- `/genres/jazz-piano/analysis.json` — Jazz piano analysis
+- `/genres/neo-classical/analysis.json` — Neo-classical analysis
+
+Analysis JSON schema includes: `bpm` (histogram, median, mean, stdev, raw), `key_distribution`, `mode_distribution`, `key_mode_distribution`, `energy`, `valence`, `acousticness`, `instrumentalness`, `danceability`, `loudness`, `speechiness`, `duration`, `top_artists`, `tracks`.
+
+## API
+
+Base URL: `https://kapiko.ai/api/v1`
+
+The kapiko REST API provides programmatic access to genre analytics and track data. Open access, no authentication required during beta.
+
+### Endpoints
+
+- `GET /api/v1/stats` — Platform statistics (genre count, track count, last updated)
+- `GET /api/v1/genres` — List all available genres with summary stats
+- `GET /api/v1/genres/:genre` — Full analytics for a specific genre
+- `GET /api/v1/genres/:genre/tracks` — Track list for a genre with audio features
+- `GET /api/v1/tracks` — Browse all indexed tracks
+- `GET /api/v1/tracks/:id` — Single track with full audio features and AI analysis
+- `GET /api/v1/compare` — Compare audio feature distributions across genres
+
+Full API documentation: https://kapiko.ai/api/
+OpenAPI spec: https://kapiko.ai/openapi.json
+Machine-readable data index: https://kapiko.ai/data/api-summary.json
+
+## AI Analysis Fields (Gemini)
+
+Tracks and genre aggregates include Gemini-generated analysis: `instruments`, `primary_instrument`, `mood_primary`, `mood_secondary`, `texture`, `atmosphere`, `dynamics`, `vocal_presence`, `stereo_width`, `harmonic_complexity`, `rhythm_presence`, `genre_tags`, `sound_design_elements`, `similar_artists`.
+
+## Attribution & Contact
+
+Data sourced from the Spotify Tracks Dataset (pre-deprecation audio features). AI analysis powered by Google Gemini.
+
+- Website: https://kapiko.ai
+- API docs: https://kapiko.ai/api/
+- Data: https://kapiko.ai/data/
+
+Content is provided for research, development, and educational use. Audio feature data reflects Spotify's analysis methodology.
