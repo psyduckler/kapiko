@@ -1,0 +1,49 @@
+{
+  "name": "kapiko Music Intelligence Data",
+  "description": "Machine-readable index of all available data files and API endpoints on kapiko.ai",
+  "version": "1.0.0",
+  "available_genres": [
+    "ambient",
+    "lofi-hip-hop",
+    "sleep",
+    "focus",
+    "jazz-piano",
+    "neo-classical"
+  ],
+  "data_files": {
+    "genres/{genre}/analysis.json": {
+      "description": "Spotify audio feature analysis for the genre — BPM, key, mode, energy, valence, acousticness, instrumentalness, danceability, loudness, speechiness, duration, top artists, and raw track values",
+      "available_genres": ["ambient", "lofi-hip-hop", "sleep", "focus", "jazz-piano", "neo-classical"],
+      "example": "https://kapiko.ai/genres/ambient/analysis.json",
+      "format": "application/json"
+    },
+    "data/ambient-gemini-aggregate.json": {
+      "description": "AI-analyzed aggregate data for ambient genre — instruments, mood, texture, atmosphere, dynamics, vocal presence, stereo width, harmonic complexity, rhythm presence, genre tags, sound design elements, similar artists",
+      "format": "application/json"
+    },
+    "data/ambient-songs-index.json": {
+      "description": "Track index for ambient genre with mood and key info per track",
+      "format": "application/json"
+    },
+    "data/ambient-top100.json": {
+      "description": "Top 100 ambient tracks with full Spotify audio features",
+      "format": "application/json"
+    }
+  },
+  "api": {
+    "base_url": "https://kapiko.ai/api/v1",
+    "docs": "https://kapiko.ai/api/",
+    "openapi": "https://kapiko.ai/openapi.json",
+    "llms_txt": "https://kapiko.ai/llms.txt",
+    "auth": "none — open access beta",
+    "endpoints": {
+      "GET /stats": "Platform statistics — genre count, track count, last updated",
+      "GET /genres": "List all genres with summary stats",
+      "GET /genres/:genre": "Full audio feature analysis for a genre",
+      "GET /genres/:genre/tracks": "Track list for a genre with audio features",
+      "GET /tracks": "Browse all indexed tracks (paginated)",
+      "GET /tracks/:id": "Single track with audio features and Gemini AI analysis",
+      "GET /compare": "Compare audio features across multiple genres"
+    }
+  }
+}

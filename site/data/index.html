@@ -406,11 +406,105 @@
       color: var(--coral);
     }
 
+    /* ── Raw Data Files ── */
+    .files-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      margin-bottom: 64px;
+    }
+
+    .file-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: border-color 0.25s, background 0.25s;
+    }
+
+    .file-card:hover {
+      border-color: var(--border-accent);
+      background: rgba(78, 205, 196, 0.03);
+    }
+
+    .file-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .file-icon {
+      font-size: 20px;
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .file-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      word-break: break-all;
+      line-height: 1.4;
+    }
+
+    .file-desc {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    .file-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 4px;
+      flex-wrap: wrap;
+    }
+
+    .file-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 4px 10px;
+      transition: color 0.2s, border-color 0.2s;
+      text-decoration: none;
+    }
+
+    .file-link:hover {
+      color: var(--teal);
+      border-color: rgba(78, 205, 196, 0.4);
+    }
+
+    .file-badge {
+      display: inline-block;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2px 7px;
+      align-self: flex-start;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 760px) {
       .header-inner { padding: 48px 20px 44px; }
       main { padding: 40px 20px 72px; }
       .genre-grid { grid-template-columns: 1fr; }
+      .files-grid { grid-template-columns: 1fr; }
       .nav-links { gap: 18px; }
     }
   </style>
@@ -1784,6 +1878,85 @@
       <h3>Workout</h3>
       <p class="genre-desc">High-energy music designed for exercise and fitness motivation.</p>
       <span class="coming-badge">Coming Soon</span>
+    </div>
+
+  </div>
+
+  <div class="section-label"><h2>Raw Data Files</h2></div>
+
+  <div class="files-grid">
+
+    <!-- analysis.json (per genre) -->
+    <div class="file-card">
+      <div class="file-card-header">
+        <span class="file-icon">📊</span>
+        <span class="file-name">genres/{genre}/analysis.json</span>
+      </div>
+      <p class="file-desc">Full Spotify audio feature analysis for a genre — BPM distribution, key/mode breakdown, energy, valence, acousticness, instrumentalness, danceability, loudness, speechiness, top artists, and raw values for all 100 tracks.</p>
+      <div class="file-actions">
+        <a href="/genres/ambient/analysis.json" class="file-link">↓ ambient</a>
+      </div>
+    </div>
+
+    <!-- ambient-gemini-aggregate.json -->
+    <div class="file-card">
+      <div class="file-card-header">
+        <span class="file-icon">🤖</span>
+        <span class="file-name">data/ambient-gemini-aggregate.json</span>
+      </div>
+      <p class="file-desc">AI-analyzed aggregate data for the ambient genre. Covers instruments, primary instrument, mood (primary &amp; secondary), texture, atmosphere, dynamics, vocal presence, stereo width, harmonic complexity, rhythm presence, genre tags, sound design elements, and similar artists.</p>
+      <div class="file-actions">
+        <a href="/data/ambient-gemini-aggregate.json" class="file-link">↓ JSON</a>
+      </div>
+    </div>
+
+    <!-- ambient-songs-index.json -->
+    <div class="file-card">
+      <div class="file-card-header">
+        <span class="file-icon">🗂️</span>
+        <span class="file-name">data/ambient-songs-index.json</span>
+      </div>
+      <p class="file-desc">Compact track index for the ambient genre. Contains track names, artists, mood labels, and key information — useful for quick lookups without loading the full feature set.</p>
+      <div class="file-actions">
+        <a href="/data/ambient-songs-index.json" class="file-link">↓ JSON</a>
+      </div>
+    </div>
+
+    <!-- ambient-top100.json -->
+    <div class="file-card">
+      <div class="file-card-header">
+        <span class="file-icon">🏆</span>
+        <span class="file-name">data/ambient-top100.json</span>
+      </div>
+      <p class="file-desc">The top 100 ambient tracks with complete Spotify audio features per track — tempo, key, mode, energy, valence, acousticness, instrumentalness, danceability, loudness, speechiness, and duration.</p>
+      <div class="file-actions">
+        <a href="/data/ambient-top100.json" class="file-link">↓ JSON</a>
+      </div>
+    </div>
+
+    <!-- api-summary.json -->
+    <div class="file-card">
+      <div class="file-card-header">
+        <span class="file-icon">🔍</span>
+        <span class="file-name">data/api-summary.json</span>
+      </div>
+      <p class="file-desc">Machine-readable index of all available data files and API endpoints. Useful for automated discovery of kapiko data resources.</p>
+      <div class="file-actions">
+        <a href="/data/api-summary.json" class="file-link">↓ JSON</a>
+      </div>
+    </div>
+
+    <!-- openapi.json -->
+    <div class="file-card">
+      <div class="file-card-header">
+        <span class="file-icon">📄</span>
+        <span class="file-name">openapi.json</span>
+      </div>
+      <p class="file-desc">OpenAPI 3.0 specification for the kapiko REST API. Describes all endpoints, request parameters, and response schemas. Compatible with Swagger UI and other API tooling.</p>
+      <div class="file-actions">
+        <a href="/openapi.json" class="file-link">↓ JSON</a>
+        <a href="/api/" class="file-link">API docs →</a>
+      </div>
     </div>
 
   </div>
