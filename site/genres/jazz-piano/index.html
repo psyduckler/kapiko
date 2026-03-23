@@ -729,6 +729,95 @@
     </div>
   </div>
 
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>✨ Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-lab-section">
+    
+    <!-- How to Prompt a Hit intro -->
+    <div class="prompt-lab-intro">
+      <h3>How to Prompt a Hit</h3>
+      <p>Transform jazz piano's sophisticated harmonic language into AI prompts. Jazz requires precise harmonic understanding — these translations help generate music with authentic swing feel and complex chord progressions.</p>
+      
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-name">Suno</div>
+          <div class="platform-tip">Good for jazz standards and vocal jazz. Emphasize "swing feel" and specific jazz artists for best results.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Udio</div>
+          <div class="platform-tip">Excels at complex harmonic progressions and authentic jazz arrangements. Best for instrumental jazz piano.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Stable Audio</div>
+          <div class="platform-tip">Open-source flexibility for experimental jazz fusion and modern jazz compositions.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">MusicGen (Meta)</div>
+          <div class="platform-tip">Natural acoustic piano tones and live room acoustics. Good for traditional jazz trio settings.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Riffusion</div>
+          <div class="platform-tip">Real-time jazz improvisation. Useful for generating spontaneous jazz solos and chord progressions.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prompt-grid">
+      <div class="prompt-block" id="translatorBlock">
+        <div class="prompt-label">
+          Feature Translator
+          <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+        </div>
+        <pre>BPM 100-140: Moderate swing feel, not rushed
+Energy 15-45%: Intimate, contemplative, sophisticated
+Valence 15-50%: Bittersweet to hopeful, complex emotions
+Danceability 40-70%: Subtle groove, head-nod rhythm
+Acousticness 70-95%: Natural piano tone, live room feel
+Instrumentalness 0-60%: Piano with/without vocals
+Speechiness 0-8%: Clean melodic passages
+Key preference: G, C, G#/Ab, F - jazz-friendly keys
+Mode: Major dominant (61%) with minor complexity</pre>
+      </div>
+
+      <div class="prompt-block" id="templateBlock">
+        <div class="prompt-label">
+          Prompt Template
+          <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+        </div>
+        <pre>Jazz piano trio or quartet setting. Sophisticated harmony (7ths, 9ths, 13ths, altered dominants). Swing feel at 100-140 BPM. Piano as lead instrument with upright bass and drums. Reference Bill Evans, Thelonious Monk, Keith Jarrett, Brad Mehldau. Emphasize improvisation, call-and-response, and dynamic contrast.</pre>
+      </div>
+
+      <div class="prompt-block" id="recipeBlock">
+        <div class="prompt-label">
+          Genre Recipe JSON
+          <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+        </div>
+        <pre>{
+  "genre": "jazz piano",
+  "audio_features": {
+    "bpm": {"min": 61, "max": 171, "median": 109},
+    "energy": {"avg": 0.302, "range": "intimate"},
+    "valence": {"avg": 0.338, "range": "contemplative"},
+    "danceability": {"avg": 0.546, "range": "subtle swing"},
+    "acousticness": {"avg": 0.758, "range": "natural/acoustic"},
+    "instrumentalness": {"avg": 0.237, "range": "mixed vocal/inst"},
+    "key_preference": ["G", "C", "G#/Ab", "F", "A"],
+    "mode_split": {"major": 61, "minor": 39}
+  },
+  "production_style": {
+    "harmony": "complex jazz chords, extensions",
+    "rhythm": "swing feel, syncopation",
+    "arrangement": "trio/quartet, intimate dynamics",
+    "recording": "live room acoustics, natural reverb"
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
   <!-- Rhythm & Tonality -->
   <div class="section-label">
     <h2>Rhythm & Tonality</h2>
