@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Wonder of You — Analysis + Prompt Template - kapiko</title>
-  <meta name="description" content="Audio analysis of The Wonder of You by Elvis Presley. BPM, key, energy, mood, and AI music generation prompts.">
+  <meta name="description" content="Audio analysis of The Wonder of You by Elvis Presley. BPM, key, energy, mood, and AI music generation prompts. Released 2007.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -52,7 +52,23 @@
     footer{margin-top:3rem;padding:1.5rem 0;border-top:1px solid var(--border);text-align:center;color:var(--text-muted);font-size:0.8rem}
     footer a{color:var(--teal);text-decoration:none}
     @media(max-width:600px){.song-title{font-size:1.5rem}.stats-row{grid-template-columns:repeat(2,1fr)}.feature-item{grid-template-columns:100px 45px 1fr}}
+  
+    .song-hero{display:flex;gap:1.5rem;align-items:flex-start;margin-top:0.5rem}
+    .album-art{width:160px;height:160px;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.5);flex-shrink:0;object-fit:cover}
+    .song-meta{display:flex;flex-direction:column;gap:0.4rem;justify-content:center}
+    .release-date{font-size:0.85rem;color:var(--text-muted)}
+    .release-date span{color:var(--text);font-weight:500}
+    .isrc-code{font-size:0.75rem;color:var(--text-muted);font-family:'JetBrains Mono','Fira Code',monospace;letter-spacing:0.03em}
+    .spotify-btn{display:inline-flex;align-items:center;gap:0.5rem;background:#1DB954;color:#fff;border-radius:24px;padding:0.5rem 1.2rem;font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:0.5rem;transition:all 0.2s;width:fit-content}
+    .spotify-btn:hover{background:#1ed760;transform:translateY(-1px)}
+    .spotify-btn svg{width:20px;height:20px}
+    .album-name{font-size:0.85rem;color:var(--text-muted)}
+    .album-name span{color:var(--purple)}
+    @media(max-width:600px){.song-hero{flex-direction:column;align-items:center;text-align:center}.album-art{width:200px;height:200px}.song-meta{align-items:center}}
+
   </style>
+
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "MusicRecording", "name": "The Wonder of You", "byArtist": {"@type": "MusicGroup", "name": "Elvis Presley"}, "inAlbum": {"@type": "MusicAlbum", "name": "The Essential Elvis Presley"}, "datePublished": "2007", "isrcCode": "USA820500125", "image": "https://i.scdn.co/image/ab67616d00001e0208054b240a80c6b0e286eb66", "url": "https://open.spotify.com/track/0LfJkvPNCNEMLpZJgDQiV1"}</script>
 </head>
 <body>
 <header>
@@ -60,6 +76,16 @@
     <div class="breadcrumb"><a href="/genres/rock-n-roll/">Rock N Roll</a> &rarr; Song Analysis</div>
     <div class="song-title">The Wonder of You</div>
     <div class="song-artist">Elvis Presley</div>
+  
+    <div class="song-hero">
+      <img src="https://i.scdn.co/image/ab67616d00001e0208054b240a80c6b0e286eb66" alt="Album artwork" class="album-art" loading="lazy" srcset="https://i.scdn.co/image/ab67616d00001e0208054b240a80c6b0e286eb66 300w, https://i.scdn.co/image/ab67616d0000b27308054b240a80c6b0e286eb66 640w" sizes="(max-width:600px) 200px, 160px">
+      <div class="song-meta">
+        <div class="release-date">Released <span>2007</span></div>
+        <div class="album-name">From <span>The Essential Elvis Presley</span></div>
+        <div class="isrc-code">ISRC: USA820500125</div>
+        <a href="https://open.spotify.com/track/0LfJkvPNCNEMLpZJgDQiV1" target="_blank" rel="noopener" class="spotify-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg> Listen on Spotify</a>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -167,7 +193,7 @@
 
 <footer>
   <div class="container">
-    <p>Data from Spotify audio features. <a href="/genres/rock-n-roll/">&larr; Back to Rock N Roll</a></p>
+    <p>Data from Spotify. Album art and metadata © respective rights holders. <a href="/genres/rock-n-roll/">&larr; Back to Rock N Roll</a></p>
     <p style="margin-top:0.3rem"><a href="/">kapiko.ai</a></p>
   </div>
 </footer>
