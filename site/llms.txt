@@ -1,51 +1,167 @@
 # kapiko
 
-> kapiko is an AI music intelligence platform that analyzes genre characteristics, audio features, and production patterns to help musicians, producers, and developers understand what makes music work.
+> kapiko is an AI music intelligence platform analyzing 118 genres and 9,184 songs — audio features, production patterns, and AI music generation prompts for musicians, producers, and developers.
 
 kapiko builds statistical profiles of music genres from Spotify audio feature data, enriched with Gemini AI analysis. Each genre report covers 100 representative tracks and surfaces patterns in tempo, key, energy, mood, instrumentation, and production style.
 
-## Available Genre Analytics
+## Available Genre Analytics (118 genres)
 
-The following genres have full analysis reports:
+Full analysis reports available at `/genres/<genre>/`:
 
-- [Ambient](/genres/ambient/) — Spacious, introspective soundscapes. High acousticness, low energy, near-zero speechiness.
-- [Lo-Fi Hip Hop](/genres/lofi-hip-hop/) — Relaxed, sample-based beats with warm texture and mid-tempo feel.
-- [Sleep](/genres/sleep/) — Ultra-low energy, minimal dynamics, designed for deep rest.
-- [Focus](/genres/focus/) — Instrumental concentration music balancing stimulation and calm.
-- [Jazz Piano](/genres/jazz-piano/) — Harmonic complexity, expressive dynamics, acoustic intimacy.
-- [Neo-Classical](/genres/neo-classical/) — Contemporary classical with cinematic scope and emotional depth.
+- [Acoustic](/genres/acoustic/)
+- [Afrobeat](/genres/afrobeat/)
+- [Alt Rock](/genres/alt-rock/)
+- [Alternative](/genres/alternative/)
+- [Ambient](/genres/ambient/)
+- [Anime](/genres/anime/)
+- [Black Metal](/genres/black-metal/)
+- [Bluegrass](/genres/bluegrass/)
+- [Blues](/genres/blues/)
+- [Brazil](/genres/brazil/)
+- [Breakbeat](/genres/breakbeat/)
+- [British](/genres/british/)
+- [Cantopop](/genres/cantopop/)
+- [Chicago House](/genres/chicago-house/)
+- [Children](/genres/children/)
+- [Chill](/genres/chill/)
+- [Classical](/genres/classical/)
+- [Club](/genres/club/)
+- [Comedy](/genres/comedy/)
+- [Country](/genres/country/)
+- [Dance](/genres/dance/)
+- [Dancehall](/genres/dancehall/)
+- [Death Metal](/genres/death-metal/)
+- [Deep House](/genres/deep-house/)
+- [Detroit Techno](/genres/detroit-techno/)
+- [Disco](/genres/disco/)
+- [Disney](/genres/disney/)
+- [Drum And Bass](/genres/drum-and-bass/)
+- [Dub](/genres/dub/)
+- [Dubstep](/genres/dubstep/)
+- [Edm](/genres/edm/)
+- [Electro](/genres/electro/)
+- [Electronic](/genres/electronic/)
+- [Emo](/genres/emo/)
+- [Focus](/genres/focus/)
+- [Folk](/genres/folk/)
+- [Forro](/genres/forro/)
+- [French](/genres/french/)
+- [Funk](/genres/funk/)
+- [Garage](/genres/garage/)
+- [German](/genres/german/)
+- [Gospel](/genres/gospel/)
+- [Goth](/genres/goth/)
+- [Grindcore](/genres/grindcore/)
+- [Groove](/genres/groove/)
+- [Grunge](/genres/grunge/)
+- [Guitar](/genres/guitar/)
+- [Happy](/genres/happy/)
+- [Hard Rock](/genres/hard-rock/)
+- [Hardcore](/genres/hardcore/)
+- [Hardstyle](/genres/hardstyle/)
+- [Heavy Metal](/genres/heavy-metal/)
+- [Hip Hop](/genres/hip-hop/)
+- [Honky Tonk](/genres/honky-tonk/)
+- [House](/genres/house/)
+- [Idm](/genres/idm/)
+- [Indian](/genres/indian/)
+- [Indie](/genres/indie/)
+- [Indie Pop](/genres/indie-pop/)
+- [Industrial](/genres/industrial/)
+- [Iranian](/genres/iranian/)
+- [J Dance](/genres/j-dance/)
+- [J Idol](/genres/j-idol/)
+- [J Pop](/genres/j-pop/)
+- [J Rock](/genres/j-rock/)
+- [Jazz](/genres/jazz/)
+- [Jazz Piano](/genres/jazz-piano/)
+- [K Pop](/genres/k-pop/)
+- [Kids](/genres/kids/)
+- [Latin](/genres/latin/)
+- [Latino](/genres/latino/)
+- [Lofi Hip Hop](/genres/lofi-hip-hop/)
+- [Malay](/genres/malay/)
+- [Mandopop](/genres/mandopop/)
+- [Metal](/genres/metal/)
+- [Metalcore](/genres/metalcore/)
+- [Minimal Techno](/genres/minimal-techno/)
+- [Mpb](/genres/mpb/)
+- [Neo Classical](/genres/neo-classical/)
+- [New Age](/genres/new-age/)
+- [Opera](/genres/opera/)
+- [Pagode](/genres/pagode/)
+- [Party](/genres/party/)
+- [Piano](/genres/piano/)
+- [Pop](/genres/pop/)
+- [Pop Film](/genres/pop-film/)
+- [Power Pop](/genres/power-pop/)
+- [Progressive House](/genres/progressive-house/)
+- [Psych Rock](/genres/psych-rock/)
+- [Punk](/genres/punk/)
+- [Punk Rock](/genres/punk-rock/)
+- [R N B](/genres/r-n-b/)
+- [Reggae](/genres/reggae/)
+- [Reggaeton](/genres/reggaeton/)
+- [Rock](/genres/rock/)
+- [Rock N Roll](/genres/rock-n-roll/)
+- [Rockabilly](/genres/rockabilly/)
+- [Romance](/genres/romance/)
+- [Sad](/genres/sad/)
+- [Salsa](/genres/salsa/)
+- [Samba](/genres/samba/)
+- [Sertanejo](/genres/sertanejo/)
+- [Show Tunes](/genres/show-tunes/)
+- [Singer Songwriter](/genres/singer-songwriter/)
+- [Ska](/genres/ska/)
+- [Sleep](/genres/sleep/)
+- [Songwriter](/genres/songwriter/)
+- [Soul](/genres/soul/)
+- [Spanish](/genres/spanish/)
+- [Study](/genres/study/)
+- [Swedish](/genres/swedish/)
+- [Synth Pop](/genres/synth-pop/)
+- [Tango](/genres/tango/)
+- [Techno](/genres/techno/)
+- [Trance](/genres/trance/)
+- [Trip Hop](/genres/trip-hop/)
+- [Turkish](/genres/turkish/)
+- [World Music](/genres/world-music/)
 
 ## Static Data Files
 
-Each genre has a machine-readable analysis file:
+Each of the 118 genres has a machine-readable analysis file:
 
-- `/genres/ambient/analysis.json` — Full Spotify audio feature analysis for ambient (100 tracks)
-- `/genres/lofi-hip-hop/analysis.json` — Lo-fi hip hop analysis
-- `/genres/sleep/analysis.json` — Sleep music analysis
-- `/genres/focus/analysis.json` — Focus music analysis
-- `/genres/jazz-piano/analysis.json` — Jazz piano analysis
-- `/genres/neo-classical/analysis.json` — Neo-classical analysis
+- `/genres/<genre>/analysis.json` — Full Spotify audio feature analysis (100 tracks per genre)
 
 Analysis JSON schema includes: `bpm` (histogram, median, mean, stdev, raw), `key_distribution`, `mode_distribution`, `key_mode_distribution`, `energy`, `valence`, `acousticness`, `instrumentalness`, `danceability`, `loudness`, `speechiness`, `duration`, `top_artists`, `tracks`.
+
+## Song Pages (9,184 songs)
+
+Each song at `/songs/<slug>/` includes:
+- Audio feature breakdown (BPM, key, energy, valence, etc.)
+- AI music generation prompts (Suno, Udio, Agent JSON)
+- Spotify audio feature radar chart
+- Artist and album metadata
 
 ## API
 
 Base URL: `https://kapiko.ai/api/v1`
 
-The kapiko REST API provides programmatic access to genre analytics and track data. Open access, no authentication required during beta.
+The kapiko REST API provides programmatic access to genre analytics and track data. Open access, no authentication required.
 
 ### Endpoints
 
-- `GET /api/v1/stats` — Platform statistics (genre count, track count, last updated)
+- `GET /api/v1/stats` — Platform statistics (118 genres, 9,184 tracks)
 - `GET /api/v1/genres` — List all available genres with summary stats
 - `GET /api/v1/genres/:genre` — Full analytics for a specific genre
 - `GET /api/v1/genres/:genre/tracks` — Track list for a genre with audio features
 - `GET /api/v1/tracks` — Browse all indexed tracks
 - `GET /api/v1/tracks/:id` — Single track with full audio features and AI analysis
-- `GET /api/v1/compare` — Compare audio feature distributions across genres
+- `GET /api/v1/compare` — Compare a track against genre distributions
 
 Full API documentation: https://kapiko.ai/api/
 OpenAPI spec: https://kapiko.ai/openapi.json
+Agent discovery: https://kapiko.ai/.well-known/agents.json
 Machine-readable data index: https://kapiko.ai/data/api-summary.json
 
 ## AI Analysis Fields (Gemini)
@@ -60,4 +176,4 @@ Data sourced from the Spotify Tracks Dataset (pre-deprecation audio features). A
 - API docs: https://kapiko.ai/api/
 - Data: https://kapiko.ai/data/
 
-Content is provided for research, development, and educational use. Audio feature data reflects Spotify's analysis methodology.
+Content is provided for research, development, and educational use.
