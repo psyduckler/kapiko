@@ -752,47 +752,6 @@
 
   </div>
 
-  <!-- Section: Emotional Fingerprint -->
-  <div class="section-label"><h2>Emotional Fingerprint</h2></div>
-
-  <div class="charts-grid">
-
-    <!-- 5. Energy vs Valence Scatter -->
-    <div class="chart-card full">
-      <div class="chart-title">Energy vs. Valence</div>
-      <div class="chart-analysis">The dense cluster in the low-energy, low-valence quadrant defines ambient music's signature emotional space: quiet, contemplative, and emotionally restrained. A handful of outliers — Bethel Music worship tracks and Bicep electronica — push toward higher energy.</div>
-      <div class="chart-wrap" style="height:360px">
-        <canvas id="chartEV"></canvas>
-      </div>
-    </div>
-
-    <!-- 6. Acousticness vs Instrumentalness Scatter -->
-    <div class="chart-card full">
-      <div class="chart-title">Acousticness vs. Instrumentalness</div>
-      <div class="chart-analysis">A strong diagonal cluster in the high-acoustic, high-instrumental corner confirms ambient's identity as a largely wordless, organic-textured genre. Electronic outliers along the low-acoustic axis (Bicep, Flume) contrast with the neo-classical majority.</div>
-      <div class="chart-wrap" style="height:360px">
-        <canvas id="chartAI"></canvas>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Section: Artists -->
-  <div class="section-label"><h2>Top Artists</h2></div>
-
-  <div class="charts-grid">
-
-    <!-- 7. Top Artists -->
-    <div class="chart-card full">
-      <div class="chart-title">Top Artists by Track Count</div>
-      <div class="chart-analysis">Cigarettes After Sex dominates with 22 tracks, more than 1.5&times; the next artist, followed by Novo Amor (14) and Ludovico Einaudi (12) — a cross-section of dream pop, neo-classical piano, and folk that defines this corner of ambient.</div>
-      <div class="chart-wrap" style="height:400px">
-        <canvas id="chartArtists"></canvas>
-      </div>
-    </div>
-
-  </div>
-
   <!-- Section: AI Audio Analysis (Gemini) -->
   <div class="section-label"><h2>AI Audio Analysis</h2></div>
   <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1.5rem;">We used Gemini AI to listen to 30-second clips of 95 tracks, identifying instrumentation, mood, texture, and production characteristics that metadata alone can't capture.</p>
@@ -885,6 +844,249 @@
       <div class="chart-wrap" style="height:280px">
         <canvas id="chartSimilarArtists"></canvas>
       </div>
+    </div>
+  </div>
+
+  <!-- Section: Emotional Fingerprint -->
+  <div class="section-label"><h2>Emotional Fingerprint</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- 5. Energy vs Valence Scatter -->
+    <div class="chart-card full">
+      <div class="chart-title">Energy vs. Valence</div>
+      <div class="chart-analysis">The dense cluster in the low-energy, low-valence quadrant defines ambient music's signature emotional space: quiet, contemplative, and emotionally restrained. A handful of outliers — Bethel Music worship tracks and Bicep electronica — push toward higher energy.</div>
+      <div class="chart-wrap" style="height:360px">
+        <canvas id="chartEV"></canvas>
+      </div>
+    </div>
+
+    <!-- 6. Acousticness vs Instrumentalness Scatter -->
+    <div class="chart-card full">
+      <div class="chart-title">Acousticness vs. Instrumentalness</div>
+      <div class="chart-analysis">A strong diagonal cluster in the high-acoustic, high-instrumental corner confirms ambient's identity as a largely wordless, organic-textured genre. Electronic outliers along the low-acoustic axis (Bicep, Flume) contrast with the neo-classical majority.</div>
+      <div class="chart-wrap" style="height:360px">
+        <canvas id="chartAI"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Section: Artists -->
+  <div class="section-label"><h2>Top Artists</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- 7. Top Artists -->
+    <div class="chart-card full">
+      <div class="chart-title">Top Artists by Track Count</div>
+      <div class="chart-analysis">Cigarettes After Sex dominates with 22 tracks, more than 1.5&times; the next artist, followed by Novo Amor (14) and Ludovico Einaudi (12) — a cross-section of dream pop, neo-classical piano, and folk that defines this corner of ambient.</div>
+      <div class="chart-wrap" style="height:400px">
+        <canvas id="chartArtists"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- Feature Translator -->
+    <div class="chart-card full">
+      <div class="chart-title">Feature Translator — Numbers → Prompt Words</div>
+      <div class="chart-analysis">Each Spotify audio feature maps to natural-language descriptors you can paste directly into a music generation prompt. Ranges show the 25th–75th percentile sweet spot from the top 100 ambient tracks.</div>
+      <div class="translator-grid">
+        <div class="translator-item">
+          <div class="feature-label">Energy</div>
+          <div class="translator-range">6% – 42%</div>
+          <div class="translator-desc">Gentle, subdued, whisper-quiet dynamics</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Valence</div>
+          <div class="translator-range">9% – 28%</div>
+          <div class="translator-desc">Melancholic, contemplative, wistful, emotionally restrained</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="translator-range">50% – 98%</div>
+          <div class="translator-desc">Organic instruments — piano, guitar, strings. No heavy electronic production</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="translator-range">11% – 91%</div>
+          <div class="translator-desc">Mostly wordless. Occasional soft vocals or humming acceptable</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Danceability</div>
+          <div class="translator-range">30% – 46%</div>
+          <div class="translator-desc">Minimal rhythmic drive. Floating, unstructured pulse</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="translator-range">3% – 4%</div>
+          <div class="translator-desc">No vocals, no narration. Pure music</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">BPM</div>
+          <div class="translator-range">85 – 131</div>
+          <div class="translator-desc">Slow to mid-tempo drift. Think gentle walking pace</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Duration</div>
+          <div class="translator-range">3 – 5 min</div>
+          <div class="translator-desc">Standard streaming length. Sweet spot for Spotify play counts</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt Template -->
+    <div class="chart-card full">
+      <div class="chart-title">Prompt Template — Ready to Copy</div>
+      <div class="chart-analysis">A complete music generation prompt built from the data above. Copy and adapt for Suno, Udio, or any AI music service.</div>
+      <div class="code-block" id="promptBlock">
+        <button class="copy-btn" onclick="copyBlock('promptBlock')">Copy</button>
+        <pre>Create a 4-minute ambient track at 100 BPM in a major key.
+
+Instrumentation: Piano or acoustic guitar as the primary instrument,
+layered with soft synth pads and subtle string textures. Reverb-heavy,
+with gentle delay and possible drone undertones.
+
+Mood: Melancholic and contemplative, with an expansive atmosphere.
+Think Ludovico Einaudi meets Ólafur Arnalds — emotionally restrained
+but deeply felt.
+
+Dynamics: Static to slowly building. Low energy (15-35%), minimal
+rhythmic pulse. Let the piece breathe and evolve gradually.
+
+Production: Clean acoustic recording with generous reverb tail. Organic
+textures preferred over digital synthesis. Moderate stereo width.
+
+Reference artists: Novo Amor, Max Richter, Nils Frahm, Bon Iver</pre>
+      </div>
+    </div>
+
+    <!-- Genre Recipe JSON -->
+    <div class="chart-card full">
+      <div class="chart-title">Genre Recipe — Structured JSON for AI Agents</div>
+      <div class="chart-analysis">A machine-readable genre profile that AI agents can parse directly for automated music generation pipelines. Copy this into your agent's context or API call.</div>
+      <div class="code-block" id="jsonBlock">
+        <button class="copy-btn" onclick="copyBlock('jsonBlock')">Copy</button>
+        <pre>{
+  <span class="json-key">"genre"</span>: <span class="json-string">"ambient"</span>,
+  <span class="json-key">"target_features"</span>: {
+    <span class="json-key">"energy"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.06</span>, <span class="json-key">"target"</span>: <span class="json-number">0.25</span>, <span class="json-key">"max"</span>: <span class="json-number">0.42</span> },
+    <span class="json-key">"valence"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.09</span>, <span class="json-key">"target"</span>: <span class="json-number">0.17</span>, <span class="json-key">"max"</span>: <span class="json-number">0.28</span> },
+    <span class="json-key">"acousticness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.50</span>, <span class="json-key">"target"</span>: <span class="json-number">0.91</span>, <span class="json-key">"max"</span>: <span class="json-number">0.98</span> },
+    <span class="json-key">"instrumentalness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.11</span>, <span class="json-key">"target"</span>: <span class="json-number">0.83</span>, <span class="json-key">"max"</span>: <span class="json-number">0.91</span> },
+    <span class="json-key">"danceability"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.30</span>, <span class="json-key">"target"</span>: <span class="json-number">0.40</span>, <span class="json-key">"max"</span>: <span class="json-number">0.46</span> },
+    <span class="json-key">"speechiness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.03</span>, <span class="json-key">"target"</span>: <span class="json-number">0.03</span>, <span class="json-key">"max"</span>: <span class="json-number">0.04</span> },
+    <span class="json-key">"tempo_bpm"</span>: { <span class="json-key">"min"</span>: <span class="json-number">85</span>, <span class="json-key">"target"</span>: <span class="json-number">107</span>, <span class="json-key">"max"</span>: <span class="json-number">131</span> },
+    <span class="json-key">"duration_seconds"</span>: { <span class="json-key">"min"</span>: <span class="json-number">180</span>, <span class="json-key">"target"</span>: <span class="json-number">270</span>, <span class="json-key">"max"</span>: <span class="json-number">300</span> }
+  },
+  <span class="json-key">"key_preferences"</span>: [<span class="json-string">"C#/Db"</span>, <span class="json-string">"G"</span>, <span class="json-string">"C"</span>, <span class="json-string">"E"</span>],
+  <span class="json-key">"mode"</span>: <span class="json-string">"major"</span>,
+  <span class="json-key">"instrumentation"</span>: {
+    <span class="json-key">"primary"</span>: [<span class="json-string">"piano"</span>, <span class="json-string">"acoustic guitar"</span>],
+    <span class="json-key">"secondary"</span>: [<span class="json-string">"synth pad"</span>, <span class="json-string">"strings"</span>, <span class="json-string">"male vocals"</span>],
+    <span class="json-key">"effects"</span>: [<span class="json-string">"reverb tail"</span>, <span class="json-string">"drone"</span>, <span class="json-string">"delay"</span>, <span class="json-string">"bell tones"</span>]
+  },
+  <span class="json-key">"mood"</span>: {
+    <span class="json-key">"primary"</span>: <span class="json-string">"melancholic"</span>,
+    <span class="json-key">"secondary"</span>: [<span class="json-string">"peaceful"</span>, <span class="json-string">"dreamy"</span>, <span class="json-string">"nostalgic"</span>],
+    <span class="json-key">"atmosphere"</span>: [<span class="json-string">"expansive"</span>, <span class="json-string">"intimate"</span>]
+  },
+  <span class="json-key">"production"</span>: {
+    <span class="json-key">"texture"</span>: <span class="json-string">"layered"</span>,
+    <span class="json-key">"style"</span>: <span class="json-string">"reverb-heavy ambient pads"</span>,
+    <span class="json-key">"dynamics"</span>: <span class="json-string">"static to slowly building"</span>,
+    <span class="json-key">"stereo_width"</span>: <span class="json-string">"moderate"</span>,
+    <span class="json-key">"harmonic_complexity"</span>: <span class="json-string">"moderate progressions"</span>,
+    <span class="json-key">"rhythm"</span>: <span class="json-string">"subtle pulse or none"</span>
+  },
+  <span class="json-key">"reference_artists"</span>: [<span class="json-string">"Bon Iver"</span>, <span class="json-string">"Ludovico Einaudi"</span>, <span class="json-string">"Iron &amp; Wine"</span>, <span class="json-string">"Nils Frahm"</span>, <span class="json-string">"Ólafur Arnalds"</span>, <span class="json-string">"Max Richter"</span>]
+}</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ════════════════════════════════════════════════ What Makes a Hit ════ -->
+  <div class="section-label"><h2>What Makes a Hit</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- Popular vs Unpopular -->
+    <div class="chart-card full">
+      <div class="chart-title">Popular vs. Unpopular — Top 25 vs. Bottom 25</div>
+      <div class="chart-analysis">The most popular ambient tracks run nearly 3× hotter on energy (33% vs 11%), are slightly longer (4.3 min vs 3.2 min), and lean less instrumental — suggesting that a touch of vocal presence and dynamic range separates good ambient from great.</div>
+      <div class="chart-wrap" style="height:300px">
+        <canvas id="chartPopComp"></canvas>
+      </div>
+    </div>
+
+    <!-- Outlier Spotlight -->
+    <div class="chart-card full">
+      <div class="chart-title">Outlier Spotlight — Rule Breakers</div>
+      <div class="chart-analysis">These tracks defy the genre's conventions. Some succeed because of it, others succeed despite it — either way, they show where the boundaries of "ambient" get interesting.</div>
+      <div class="outlier-grid">
+        <div class="outlier-card">
+          <div class="outlier-name">Raise a Hallelujah</div>
+          <div class="outlier-artist">Bethel Music</div>
+          <div class="outlier-why">Energy 87%, the highest in the dataset. Worship music breaking ambient conventions with raw intensity.</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-name">Glue</div>
+          <div class="outlier-artist">Bicep</div>
+          <div class="outlier-why">Energy 80%, Acousticness 2%. Pure electronic in an organic genre. Popular despite being the polar opposite of typical ambient.</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-name">Apricots</div>
+          <div class="outlier-artist">Bicep</div>
+          <div class="outlier-why">Valence 49%, the happiest track. Proves ambient doesn't have to be sad.</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-name">Nuvole Bianche</div>
+          <div class="outlier-artist">Ludovico Einaudi</div>
+          <div class="outlier-why">Energy 6%, piano-only. The platonic ideal of ambient minimalism.</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-name">Experience</div>
+          <div class="outlier-artist">Ludovico Einaudi</div>
+          <div class="outlier-why">Acousticness 93%, Instrumentalness 96%. The purest ambient track in the dataset.</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-name">The Last of Us</div>
+          <div class="outlier-artist">Gustavo Santaolalla</div>
+          <div class="outlier-why">A video game soundtrack that became an ambient staple. Crossover success from interactive media.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════ Feature Correlations ════ -->
+  <div class="section-label"><h2>Feature Correlations</h2></div>
+
+  <div class="charts-grid">
+    <div class="chart-card full">
+      <div class="chart-title">Correlation Heatmap — Which Knobs Are Linked?</div>
+      <div class="chart-analysis">Energy and acousticness are strongly inversely linked (r = −0.79) — the more acoustic a track, the lower its energy. Valence and danceability move together (r = +0.52). These correlations reveal which features are independent: you can adjust valence without affecting acousticness, but pushing energy up will almost certainly pull acousticness down.</div>
+      <div class="corr-table-wrap">
+        <table class="corr-table" id="corrTable"></table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═════════════════════════════════════════ Production Profile ════ -->
+  <div class="section-label"><h2>Production Profile</h2></div>
+
+  <div class="charts-grid">
+    <div class="chart-card full">
+      <div class="chart-title">Production DNA — How Ambient Tracks Are Built</div>
+      <div class="chart-analysis">From Gemini AI analysis of 95 tracks: the typical ambient production layers organic textures over static or slowly-evolving dynamics, drowned in reverb, with a subtle pulse (or no rhythm at all).</div>
+      <div class="prod-grid" id="prodGrid"></div>
     </div>
   </div>
 
