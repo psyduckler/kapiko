@@ -349,10 +349,79 @@ def make_page(t, genre, all_genres_data=None):
   <meta name="robots" content="index, follow">
   
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{esc(name)} by {esc(primary_artist(artist))} — AI Prompt &amp; Analysis | kapiko">
   <meta name="twitter:description" content="Audio analysis and AI music generation prompts for {esc(name)}">
   
+  <!-- JSON-LD: MusicRecording -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "MusicRecording",
+    "name": "{esc(name)}",
+    "duration": "PT{int(dur_ms/60000)}M{int((dur_ms%60000)/1000)}S",
+    "byArtist": {{ "@type": "MusicGroup", "name": "{esc(primary_artist(artist))}" }},
+    {"\"inAlbum\": { \"@type\": \"MusicAlbum\", \"name\": \"" + esc(album) + "\" }," if album else ""}
+    "genre": ["{esc(gdisp)}"],
+    "url": "https://kapiko.ai/songs/{esc(slug)}/",
+    "sameAs": [
+      "https://open.spotify.com/search/{esc(name.replace(' ', '%20'))}%20{esc(primary_artist(artist).replace(' ', '%20'))}",
+      "https://www.youtube.com/results?search_query={esc(name.replace(' ', '+'))}+{esc(primary_artist(artist).replace(' ', '+'))}"
+    ],
+    "publisher": {{ "@type": "Organization", "name": "kapiko", "url": "https://kapiko.ai" }}
+  }}
+  </script>
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{ "@type": "ListItem", "position": 1, "name": "kapiko", "item": "https://kapiko.ai/" }},
+      {{ "@type": "ListItem", "position": 2, "name": "{esc(gdisp)}", "item": "https://kapiko.ai/genres/{esc(genre)}/" }},
+      {{ "@type": "ListItem", "position": 3, "name": "{esc(name)} — {esc(primary_artist(artist))}" }}
+    ]
+  }}
+  </script>
+  <!-- JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{
+        "@type": "Question",
+        "name": "What BPM is {esc(name)} by {esc(primary_artist(artist))}?",
+        "acceptedAnswer": {{ "@type": "Answer", "text": "{esc(name)} by {esc(primary_artist(artist))} is {tempo:.0f} BPM." }}
+      }},
+      {{
+        "@type": "Question",
+        "name": "What key is {esc(name)} by {esc(primary_artist(artist))} in?",
+        "acceptedAnswer": {{ "@type": "Answer", "text": "{esc(name)} is in {esc(key_mode)}." }}
+      }},
+      {{
+        "@type": "Question",
+        "name": "How do I recreate {esc(name)} by {esc(primary_artist(artist))} with AI?",
+        "acceptedAnswer": {{ "@type": "Answer", "text": "Use the prompt: {esc(gen_prompt)} Paste into Suno, Udio, MiniMax Music, ElevenLabs, or any AI music generator." }}
+      }}
+    ]
+  }}
+  </script>
+  <!-- JSON-LD: HowTo -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Recreate \"{esc(name)}\" by {esc(primary_artist(artist))} with AI",
+    "description": "Use data-driven prompts to recreate the sound of {esc(name)} using Suno, Udio, or any AI music generator.",
+    "step": [
+      {{ "@type": "HowToStep", "name": "Choose your AI music tool", "text": "Select Suno, Udio, MiniMax Music, ElevenLabs, Mureka, Beatoven.ai, Stable Audio, AIVA, Soundraw, or another AI music generator." }},
+      {{ "@type": "HowToStep", "name": "Copy the prompt", "text": "Copy the ready-to-use prompt: {esc(gen_prompt)}" }},
+      {{ "@type": "HowToStep", "name": "Generate and refine", "text": "Paste the prompt into your chosen tool, generate the track, and iterate on the results." }}
+    ]
+  }}
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -375,6 +444,10 @@ def make_page(t, genre, all_genres_data=None):
     .metadata-item{{color:var(--text-muted)}}
     .spotify-btn{{display:inline-flex;align-items:center;gap:0.5rem;background:#1DB954;color:#fff;text-decoration:none;padding:0.6rem 1.2rem;border-radius:6px;font-weight:600;font-size:0.85rem;margin-bottom:1rem}}
     .spotify-btn:hover{{background:#1ed760}}
+    .listen-links{{display:flex;gap:0.6rem;margin-top:0.5rem;align-items:center}}
+    .listen-links a{{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--bg-card);border:1px solid var(--border);color:var(--text-muted);transition:color 0.2s,border-color 0.2s;text-decoration:none}}
+    .listen-links a:hover{{color:var(--teal);border-color:var(--teal)}}
+    .listen-links a svg{{width:16px;height:16px;fill:currentColor}}
     .genre-tags{{display:flex;flex-wrap:wrap;gap:0.4rem}}
     .pill{{background:rgba(91,155,213,0.1);color:var(--blue);border:1px solid rgba(91,155,213,0.2);border-radius:20px;padding:0.3rem 0.8rem;font-size:0.8rem;text-decoration:none}}
     .pill.genre:hover{{background:rgba(91,155,213,0.2)}}
@@ -461,6 +534,14 @@ def make_page(t, genre, all_genres_data=None):
         <div class="hero-artist">{esc(artist)}</div>
         <div class="metadata-row">
           {"<div class=\"metadata-item\">From <em>" + esc(album) + "</em></div>" if album else ""}
+        </div>
+        <div class="listen-links">
+          <a href="https://open.spotify.com/search/{esc(name.replace(' ', '%20'))}%20{esc(primary_artist(artist).replace(' ', '%20'))}" target="_blank" rel="noopener" title="Find on Spotify">
+            <svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/results?search_query={esc(name.replace(' ', '+'))}+{esc(primary_artist(artist).replace(' ', '+'))}" target="_blank" rel="noopener" title="Find on YouTube">
+            <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
         </div>
         <div class="genre-tags">
           {genre_pills}
@@ -557,11 +638,10 @@ def make_page(t, genre, all_genres_data=None):
   </div>
 
   <!-- Prompt Lab -->
-  <div class="section-label"><h2>Prompt Lab</h2></div>
+  <div class="section-label"><h2>Prompts to recreate &ldquo;{esc(name)}&rdquo; by {esc(primary_artist(artist))}</h2></div>
   <div class="prompt-lab">
     <div class="prompt-lab-intro">
-      <h3>🧪 Recreate This Track</h3>
-      <p>Use these prompt ingredients with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service to recreate the vibe of <em>{esc(name)}</em> by <em>{esc(artist)}</em>.</p>
+      <p>Paste into <strong>Suno</strong>, <strong>Udio</strong>, <strong>MiniMax Music</strong>, <strong>ElevenLabs</strong>, <strong>Mureka</strong>, <strong>Beatoven.ai</strong>, <strong>Stable Audio</strong>, <strong>AIVA</strong>, <strong>Soundraw</strong>, or any AI music generator.</p>
     </div>
 
     <div class="prompt-tabs">
