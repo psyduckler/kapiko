@@ -14,6 +14,26 @@ GENRES = ['piano', 'sleep', 'chill', 'study', 'classical', 'jazz', 'acoustic', '
 
 def esc(t): return H.escape(str(t))
 
+def primary_artist(artist_str):
+    """Return first/primary artist only — drop featured/collaborators."""
+    for sep in [',', ' feat.', ' feat ', ' ft.', ' ft ', ' Feat.', ' Feat ', ' x ', ' X ', ' & ', ' with ', ' With ']:
+        if sep in artist_str:
+            return artist_str.split(sep)[0].strip()
+    return artist_str.strip()
+
+def make_title_tag(song_name, artist_str):
+    """Build a <title> that fits ~60 chars: Song by Artist — AI Prompt & Analysis | kapiko"""
+    artist = primary_artist(artist_str)
+    suffix_long = " — AI Prompt & Analysis | kapiko"  # 32 chars
+    suffix_short = " — AI Prompt | kapiko"             # 21 chars
+    base = f"{song_name} by {artist}"
+    if len(base + suffix_long) <= 62:
+        return base + suffix_long
+    if len(base + suffix_short) <= 62:
+        return base + suffix_short
+    # Last resort: truncate artist
+    return f"{song_name} by {artist[:20]}… — AI Prompt | kapiko"
+
 def fmt_dur(ms):
     s = ms / 1000
     return f"{int(s//60)}:{int(s%60):02d}"
@@ -316,20 +336,21 @@ def make_page(t, genre, all_genres_data=None):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{esc(name)} by {esc(artist)} — Analysis + Prompt Template - kapiko</title>
+  <title>{esc(make_title_tag(name, artist))}</title>
   <meta name="description" content="Audio analysis of {esc(name)} by {esc(artist)}. BPM, key, energy, mood, and AI music generation prompts.">
   <link rel="canonical" href="https://kapiko.ai/songs/{esc(slug)}/">
   
   <!-- Open Graph -->
-  <meta property="og:title" content="{esc(name)} by {esc(artist)}">
+  <meta property="og:title" content="{esc(name)} by {esc(primary_artist(artist))} — AI Prompt &amp; Analysis | kapiko">
   <meta property="og:description" content="Audio analysis and AI music generation prompts for {esc(name)} — {tempo:.0f} BPM in {esc(key_mode)}, {e*100:.0f}% energy">
   <meta property="og:url" content="https://kapiko.ai/songs/{esc(slug)}/">
   <meta property="og:type" content="music.song">
   <meta property="og:site_name" content="kapiko">
+  <meta name="robots" content="index, follow">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{esc(name)} by {esc(artist)}">
+  <meta name="twitter:title" content="{esc(name)} by {esc(primary_artist(artist))} — AI Prompt &amp; Analysis | kapiko">
   <meta name="twitter:description" content="Audio analysis and AI music generation prompts for {esc(name)}">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
