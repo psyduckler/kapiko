@@ -1,0 +1,2801 @@
+{
+  "genre": "Synth-Pop",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 78.93,
+    "max": 173.931,
+    "mean": 117.601,
+    "median": 116.636,
+    "q1": 103.265,
+    "q3": 126.329,
+    "histogram": {
+      "70-79": 2,
+      "80-89": 2,
+      "90-99": 17,
+      "100-109": 16,
+      "110-119": 23,
+      "120-129": 20,
+      "130-139": 8,
+      "140-149": 3,
+      "150-159": 3,
+      "160-169": 5,
+      "170-179": 1
+    }
+  },
+  "key_distribution": {
+    "C": 16,
+    "G": 13,
+    "D": 12,
+    "A": 11,
+    "F#/Gb": 10,
+    "E": 8,
+    "F": 7,
+    "A#/Bb": 7,
+    "C#/Db": 7,
+    "B": 4,
+    "G#/Ab": 3,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Major": 60,
+    "Minor": 40
+  },
+  "key_mode_distribution": {
+    "G Major": 12,
+    "C Major": 12,
+    "D Major": 8,
+    "A Minor": 7,
+    "E Minor": 7,
+    "F#/Gb Minor": 6,
+    "F Major": 6,
+    "A#/Bb Major": 5,
+    "C Minor": 4,
+    "F#/Gb Major": 4,
+    "C#/Db Minor": 4,
+    "D Minor": 4,
+    "A Major": 4,
+    "G#/Ab Major": 3,
+    "B Minor": 3,
+    "C#/Db Major": 3,
+    "A#/Bb Minor": 2,
+    "F Minor": 1,
+    "G Minor": 1,
+    "D#/Eb Minor": 1,
+    "D#/Eb Major": 1,
+    "E Major": 1,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.233,
+    "max": 0.971,
+    "mean": 0.707,
+    "median": 0.724,
+    "q1": 0.589,
+    "q3": 0.839
+  },
+  "valence": {
+    "min": 0.075,
+    "max": 0.977,
+    "mean": 0.639,
+    "median": 0.679,
+    "q1": 0.443,
+    "q3": 0.875
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.795,
+      "valence": 0.535
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.876
+    },
+    {
+      "energy": 0.711,
+      "valence": 0.875
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.897
+    },
+    {
+      "energy": 0.939,
+      "valence": 0.914
+    },
+    {
+      "energy": 0.501,
+      "valence": 0.623
+    },
+    {
+      "energy": 0.726,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.547
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.918
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.894
+    },
+    {
+      "energy": 0.478,
+      "valence": 0.947
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.675
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.686,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.939
+    },
+    {
+      "energy": 0.652,
+      "valence": 0.401
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.346
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.251
+    },
+    {
+      "energy": 0.483,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.498
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.691
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.443
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.358
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.726
+    },
+    {
+      "energy": 0.383,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.882,
+      "valence": 0.682
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.163
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.831
+    },
+    {
+      "energy": 0.771,
+      "valence": 0.527
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.844
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.867
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.793,
+      "valence": 0.708
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.391
+    },
+    {
+      "energy": 0.521,
+      "valence": 0.823
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.576
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.932
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.075
+    },
+    {
+      "energy": 0.354,
+      "valence": 0.245
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.358,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.642
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.896
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.926,
+      "valence": 0.901
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.864
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.912
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.114
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.609,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.677
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.147
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.806
+    },
+    {
+      "energy": 0.893,
+      "valence": 0.951
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.953
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.756
+    },
+    {
+      "energy": 0.376,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.919
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.203
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.477,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.414,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.745
+    },
+    {
+      "energy": 0.401,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.596,
+      "valence": 0.195
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.84
+    },
+    {
+      "energy": 0.459,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.42,
+      "valence": 0.838
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.957
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.977
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.893
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.533
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.971,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.233,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.444
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.919
+    },
+    {
+      "energy": 0.559,
+      "valence": 0.772
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.521,
+      "valence": 0.335
+    },
+    {
+      "energy": 0.714,
+      "valence": 0.806
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.765,
+    "mean": 0.174,
+    "median": 0.105,
+    "q1": 0.029,
+    "q3": 0.288
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.844,
+    "mean": 0.052,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.028
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.347,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.225,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.271,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.462,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.07
+    },
+    {
+      "acousticness": 0.184,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.225,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.189,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.088,
+      "instrumentalness": 0.063
+    },
+    {
+      "acousticness": 0.193,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.219,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.288,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.42,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.318,
+      "instrumentalness": 0.028
+    },
+    {
+      "acousticness": 0.174,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.134,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.086,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.057
+    },
+    {
+      "acousticness": 0.143,
+      "instrumentalness": 0.124
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.458,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.396,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.187,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.197,
+      "instrumentalness": 0.784
+    },
+    {
+      "acousticness": 0.502,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.459,
+      "instrumentalness": 0.148
+    },
+    {
+      "acousticness": 0.705,
+      "instrumentalness": 0.36
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.063
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.844
+    },
+    {
+      "acousticness": 0.765,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.036
+    },
+    {
+      "acousticness": 0.525,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.397,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.338,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.259,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.159,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.282,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.519,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.359,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.231,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.305,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.383
+    },
+    {
+      "acousticness": 0.071,
+      "instrumentalness": 0.051
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.094
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.746
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.046
+    },
+    {
+      "acousticness": 0.448,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.069,
+      "instrumentalness": 0.067
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.564,
+      "instrumentalness": 0.259
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.045
+    },
+    {
+      "acousticness": 0.107,
+      "instrumentalness": 0.293
+    },
+    {
+      "acousticness": 0.322,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.164
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.169,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.071,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.089
+    },
+    {
+      "acousticness": 0.346,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.635,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.021
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.071
+    },
+    {
+      "acousticness": 0.206,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.359,
+      "instrumentalness": 0.11
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 153800,
+    "max": 393666,
+    "mean": 247716.95,
+    "median": 240313.0,
+    "q1": 216933,
+    "q3": 271066
+  },
+  "danceability": {
+    "min": 0.286,
+    "max": 0.899,
+    "mean": 0.647,
+    "median": 0.665,
+    "q1": 0.578,
+    "q3": 0.731
+  },
+  "loudness": {
+    "min": -15.557,
+    "max": -2.671,
+    "mean": -8.857,
+    "median": -8.322,
+    "q1": -10.616,
+    "q3": -6.632
+  },
+  "speechiness": {
+    "min": 0.023,
+    "max": 0.227,
+    "mean": 0.042,
+    "median": 0.036,
+    "q1": 0.03,
+    "q3": 0.049
+  },
+  "top_artists": [
+    {
+      "name": "Tove Lo",
+      "count": 12
+    },
+    {
+      "name": "Tears For Fears",
+      "count": 7
+    },
+    {
+      "name": "Wham!",
+      "count": 4
+    },
+    {
+      "name": "Alphaville",
+      "count": 4
+    },
+    {
+      "name": "Pet Shop Boys",
+      "count": 4
+    },
+    {
+      "name": "Berlin",
+      "count": 3
+    },
+    {
+      "name": "Culture Club",
+      "count": 3
+    },
+    {
+      "name": "Duran Duran",
+      "count": 3
+    },
+    {
+      "name": "Modern Talking",
+      "count": 3
+    },
+    {
+      "name": "New Order",
+      "count": 3
+    },
+    {
+      "name": "a-ha",
+      "count": 2
+    },
+    {
+      "name": "Rick Astley",
+      "count": 2
+    },
+    {
+      "name": "Cutting Crew",
+      "count": 2
+    },
+    {
+      "name": "Simple Minds",
+      "count": 2
+    },
+    {
+      "name": "Fine Young Cannibals",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Everybody Wants To Rule The World",
+      "artists": "Tears For Fears",
+      "album": "Songs From The Big Chair (Super Deluxe Edition)",
+      "popularity": 87,
+      "tempo": 112.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.795,
+      "valence": 0.535,
+      "danceability": 0.645,
+      "acousticness": 0.347,
+      "instrumentalness": 0.004,
+      "loudness": -12.1,
+      "speechiness": 0.053,
+      "duration_ms": 251488,
+      "slug": "everybody-wants-to-rule-the-world-tears-for-fears"
+    },
+    {
+      "name": "Take on Me",
+      "artists": "a-ha",
+      "album": "Hunting High and Low",
+      "popularity": 85,
+      "tempo": 84.4,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.902,
+      "valence": 0.876,
+      "danceability": 0.573,
+      "acousticness": 0.018,
+      "instrumentalness": 0.001,
+      "loudness": -7.6,
+      "speechiness": 0.054,
+      "duration_ms": 225280,
+      "slug": "take-on-me-a-ha"
+    },
+    {
+      "name": "Sweet Dreams (Are Made of This) - Remastered",
+      "artists": "Eurythmics;Annie Lennox;Dave Stewart",
+      "album": "Sweet Dreams (Are Made Of This)",
+      "popularity": 82,
+      "tempo": 125.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.711,
+      "valence": 0.875,
+      "danceability": 0.692,
+      "acousticness": 0.225,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.032,
+      "duration_ms": 216933,
+      "slug": "sweet-dreams-are-made-of-this-remastered-eurythmics"
+    },
+    {
+      "name": "Wake Me Up Before You Go-Go",
+      "artists": "Wham!",
+      "album": "Make It Big",
+      "popularity": 80,
+      "tempo": 81.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.573,
+      "valence": 0.897,
+      "danceability": 0.62,
+      "acousticness": 0.271,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.042,
+      "duration_ms": 231333,
+      "slug": "wake-me-up-before-you-go-go-wham"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "artists": "Rick Astley",
+      "album": "Whenever You Need Somebody",
+      "popularity": 80,
+      "tempo": 113.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.939,
+      "valence": 0.914,
+      "danceability": 0.721,
+      "acousticness": 0.115,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.038,
+      "duration_ms": 213573,
+      "slug": "never-gonna-give-you-up-rick-astley"
+    },
+    {
+      "name": "Tainted Love",
+      "artists": "Soft Cell",
+      "album": "Non-Stop Erotic Cabaret",
+      "popularity": 79,
+      "tempo": 144.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.501,
+      "valence": 0.623,
+      "danceability": 0.5,
+      "acousticness": 0.462,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.038,
+      "duration_ms": 153800,
+      "slug": "tainted-love-soft-cell"
+    },
+    {
+      "name": "(I Just) Died In Your Arms",
+      "artists": "Cutting Crew",
+      "album": "Broadcast",
+      "popularity": 77,
+      "tempo": 124.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.726,
+      "valence": 0.507,
+      "danceability": 0.625,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.044,
+      "duration_ms": 280400,
+      "slug": "i-just-died-in-your-arms-cutting-crew"
+    },
+    {
+      "name": "Habits (Stay High)",
+      "artists": "Tove Lo",
+      "album": "Queen Of The Clouds",
+      "popularity": 76,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.65,
+      "valence": 0.348,
+      "danceability": 0.733,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.032,
+      "duration_ms": 209160,
+      "slug": "habits-stay-high-tove-lo"
+    },
+    {
+      "name": "Take My Breath Away - Love Theme from \"Top Gun\"",
+      "artists": "Berlin",
+      "album": "Top Gun - Motion Picture Soundtrack (Special Expanded Edition)",
+      "popularity": 76,
+      "tempo": 95.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.547,
+      "danceability": 0.497,
+      "acousticness": 0.061,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.027,
+      "duration_ms": 255733,
+      "slug": "take-my-breath-away-love-theme-from-top-gun-berlin"
+    },
+    {
+      "name": "You Spin Me Round (Like a Record)",
+      "artists": "Dead Or Alive",
+      "album": "Evolution: The Hits",
+      "popularity": 76,
+      "tempo": 128.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.918,
+      "danceability": 0.554,
+      "acousticness": 0.0,
+      "instrumentalness": 0.07,
+      "loudness": -3.8,
+      "speechiness": 0.035,
+      "duration_ms": 195146,
+      "slug": "you-spin-me-round-like-a-record-dead-or-alive"
+    },
+    {
+      "name": "Don't You Want Me",
+      "artists": "The Human League",
+      "album": "Dare!",
+      "popularity": 76,
+      "tempo": 117.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.738,
+      "valence": 0.958,
+      "danceability": 0.731,
+      "acousticness": 0.184,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.038,
+      "duration_ms": 236920,
+      "slug": "dont-you-want-me-the-human-league"
+    },
+    {
+      "name": "2 Die 4",
+      "artists": "Tove Lo",
+      "album": "2 Die 4",
+      "popularity": 75,
+      "tempo": 118.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.8,
+      "valence": 0.534,
+      "danceability": 0.816,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.073,
+      "duration_ms": 185875,
+      "slug": "2-die-4-tove-lo"
+    },
+    {
+      "name": "Karma Chameleon - Remastered 2002",
+      "artists": "Culture Club",
+      "album": "Colour By Numbers",
+      "popularity": 75,
+      "tempo": 92.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.894,
+      "danceability": 0.668,
+      "acousticness": 0.225,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.037,
+      "duration_ms": 252773,
+      "slug": "karma-chameleon-remastered-2002-culture-club"
+    },
+    {
+      "name": "Last Christmas",
+      "artists": "Wham!",
+      "album": "LAST CHRISTMAS",
+      "popularity": 74,
+      "tempo": 107.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.478,
+      "valence": 0.947,
+      "danceability": 0.735,
+      "acousticness": 0.189,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.029,
+      "duration_ms": 262960,
+      "slug": "last-christmas-wham"
+    },
+    {
+      "name": "Don't You (Forget About Me) - Remastered 2001",
+      "artists": "Simple Minds",
+      "album": "Celebrate (Greatest Hits / Expanded Edition)",
+      "popularity": 74,
+      "tempo": 111.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.788,
+      "valence": 0.675,
+      "danceability": 0.666,
+      "acousticness": 0.088,
+      "instrumentalness": 0.063,
+      "loudness": -7.0,
+      "speechiness": 0.028,
+      "duration_ms": 260773,
+      "slug": "dont-you-forget-about-me-remastered-2001-simple-minds"
+    },
+    {
+      "name": "She Drives Me Crazy",
+      "artists": "Fine Young Cannibals",
+      "album": "The Raw & The Cooked",
+      "popularity": 74,
+      "tempo": 108.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.687,
+      "valence": 0.965,
+      "danceability": 0.799,
+      "acousticness": 0.193,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.043,
+      "duration_ms": 215773,
+      "slug": "she-drives-me-crazy-fine-young-cannibals"
+    },
+    {
+      "name": "Self Control",
+      "artists": "Laura Branigan",
+      "album": "Self Control",
+      "popularity": 73,
+      "tempo": 106.7,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.686,
+      "valence": 0.778,
+      "danceability": 0.814,
+      "acousticness": 0.219,
+      "instrumentalness": 0.004,
+      "loudness": -12.2,
+      "speechiness": 0.034,
+      "duration_ms": 246440,
+      "slug": "self-control-laura-branigan"
+    },
+    {
+      "name": "Smalltown Boy",
+      "artists": "Bronski Beat",
+      "album": "The Age of Consent",
+      "popularity": 73,
+      "tempo": 134.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.584,
+      "valence": 0.939,
+      "danceability": 0.685,
+      "acousticness": 0.288,
+      "instrumentalness": 0.009,
+      "loudness": -10.6,
+      "speechiness": 0.028,
+      "duration_ms": 302413,
+      "slug": "smalltown-boy-bronski-beat"
+    },
+    {
+      "name": "Ordinary World",
+      "artists": "Duran Duran",
+      "album": "Duran Duran",
+      "popularity": 73,
+      "tempo": 140.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.652,
+      "valence": 0.401,
+      "danceability": 0.472,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.03,
+      "duration_ms": 340200,
+      "slug": "ordinary-world-duran-duran"
+    },
+    {
+      "name": "Hungry Like the Wolf - 2009 Remaster",
+      "artists": "Duran Duran",
+      "album": "Rio (Collector's Edition)",
+      "popularity": 73,
+      "tempo": 127.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.685,
+      "danceability": 0.691,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.056,
+      "duration_ms": 220626,
+      "slug": "hungry-like-the-wolf-2009-remaster-duran-duran"
+    },
+    {
+      "name": "No One Dies From Love",
+      "artists": "Tove Lo",
+      "album": "No One Dies From Love",
+      "popularity": 72,
+      "tempo": 121.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.801,
+      "valence": 0.346,
+      "danceability": 0.652,
+      "acousticness": 0.072,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.058,
+      "duration_ms": 186018,
+      "slug": "no-one-dies-from-love-tove-lo"
+    },
+    {
+      "name": "Video Killed The Radio Star",
+      "artists": "The Buggles",
+      "album": "The Age Of Plastic",
+      "popularity": 72,
+      "tempo": 131.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.678,
+      "valence": 0.251,
+      "danceability": 0.68,
+      "acousticness": 0.103,
+      "instrumentalness": 0.008,
+      "loudness": -11.5,
+      "speechiness": 0.075,
+      "duration_ms": 252773,
+      "slug": "video-killed-the-radio-star-the-buggles"
+    },
+    {
+      "name": "Forever Young",
+      "artists": "Alphaville",
+      "album": "Forever Young",
+      "popularity": 72,
+      "tempo": 136.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.483,
+      "valence": 0.333,
+      "danceability": 0.489,
+      "acousticness": 0.42,
+      "instrumentalness": 0.003,
+      "loudness": -9.5,
+      "speechiness": 0.028,
+      "duration_ms": 226706,
+      "slug": "forever-young-alphaville"
+    },
+    {
+      "name": "Tarzan Boy",
+      "artists": "Baltimora",
+      "album": "Living In The Background",
+      "popularity": 72,
+      "tempo": 107.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.573,
+      "valence": 0.716,
+      "danceability": 0.684,
+      "acousticness": 0.318,
+      "instrumentalness": 0.028,
+      "loudness": -12.3,
+      "speechiness": 0.026,
+      "duration_ms": 378946,
+      "slug": "tarzan-boy-baltimora"
+    },
+    {
+      "name": "Shout",
+      "artists": "Tears For Fears",
+      "album": "Songs From The Big Chair",
+      "popularity": 72,
+      "tempo": 97.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.498,
+      "danceability": 0.511,
+      "acousticness": 0.174,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.043,
+      "duration_ms": 393666,
+      "slug": "shout-tears-for-fears"
+    },
+    {
+      "name": "Relax",
+      "artists": "Frankie Goes To Hollywood",
+      "album": "Welcome To The Pleasuredome",
+      "popularity": 72,
+      "tempo": 114.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.695,
+      "valence": 0.691,
+      "danceability": 0.676,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -13.4,
+      "speechiness": 0.039,
+      "duration_ms": 236800,
+      "slug": "relax-frankie-goes-to-hollywood"
+    },
+    {
+      "name": "How Long - From\"Euphoria\" An HBO Original Series",
+      "artists": "Tove Lo",
+      "album": "How Long (From \"Euphoria\" An HBO Original Series)",
+      "popularity": 71,
+      "tempo": 97.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.687,
+      "valence": 0.468,
+      "danceability": 0.668,
+      "acousticness": 0.016,
+      "instrumentalness": 0.001,
+      "loudness": -7.1,
+      "speechiness": 0.058,
+      "duration_ms": 199314,
+      "slug": "how-long-fromeuphoria-an-hbo-original-series-tove-lo"
+    },
+    {
+      "name": "Broken Wings",
+      "artists": "Mr. Mister",
+      "album": "Welcome To The Real World",
+      "popularity": 71,
+      "tempo": 99.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.5,
+      "valence": 0.443,
+      "danceability": 0.286,
+      "acousticness": 0.134,
+      "instrumentalness": 0.0,
+      "loudness": -14.3,
+      "speechiness": 0.036,
+      "duration_ms": 343933,
+      "slug": "broken-wings-mr-mister"
+    },
+    {
+      "name": "The Promise",
+      "artists": "When In Rome",
+      "album": "When In Rome",
+      "popularity": 71,
+      "tempo": 118.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.358,
+      "danceability": 0.629,
+      "acousticness": 0.086,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.044,
+      "duration_ms": 220960,
+      "slug": "the-promise-when-in-rome"
+    },
+    {
+      "name": "Always on My Mind",
+      "artists": "Pet Shop Boys",
+      "album": "Discography - Complete Singles Collection",
+      "popularity": 71,
+      "tempo": 124.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.726,
+      "danceability": 0.533,
+      "acousticness": 0.012,
+      "instrumentalness": 0.057,
+      "loudness": -10.6,
+      "speechiness": 0.037,
+      "duration_ms": 234906,
+      "slug": "always-on-my-mind-pet-shop-boys"
+    },
+    {
+      "name": "Golden Brown",
+      "artists": "The Stranglers",
+      "album": "La Folie",
+      "popularity": 71,
+      "tempo": 93.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.383,
+      "valence": 0.599,
+      "danceability": 0.562,
+      "acousticness": 0.143,
+      "instrumentalness": 0.124,
+      "loudness": -15.5,
+      "speechiness": 0.03,
+      "duration_ms": 206760,
+      "slug": "golden-brown-the-stranglers"
+    },
+    {
+      "name": "Bulletproof",
+      "artists": "La Roux",
+      "album": "La Roux",
+      "popularity": 71,
+      "tempo": 123.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.882,
+      "valence": 0.682,
+      "danceability": 0.674,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.048,
+      "duration_ms": 205733,
+      "slug": "bulletproof-la-roux"
+    },
+    {
+      "name": "Grapefruit",
+      "artists": "Tove Lo",
+      "album": "Grapefruit",
+      "popularity": 70,
+      "tempo": 105.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.684,
+      "valence": 0.163,
+      "danceability": 0.724,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 231333,
+      "slug": "grapefruit-tove-lo"
+    },
+    {
+      "name": "Cheri Cheri Lady",
+      "artists": "Modern Talking",
+      "album": "Let's Talk About Love",
+      "popularity": 70,
+      "tempo": 114.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.851,
+      "danceability": 0.677,
+      "acousticness": 0.458,
+      "instrumentalness": 0.013,
+      "loudness": -13.8,
+      "speechiness": 0.032,
+      "duration_ms": 226333,
+      "slug": "cheri-cheri-lady-modern-talking"
+    },
+    {
+      "name": "I Love It (feat. Charli XCX)",
+      "artists": "Icona Pop;Charli XCX",
+      "album": "THIS IS... ICONA POP",
+      "popularity": 70,
+      "tempo": 125.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.906,
+      "valence": 0.824,
+      "danceability": 0.711,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.028,
+      "duration_ms": 157152,
+      "slug": "i-love-it-feat-charli-xcx-icona-pop"
+    },
+    {
+      "name": "Brother Louie",
+      "artists": "Modern Talking",
+      "album": "Ready For Romance",
+      "popularity": 70,
+      "tempo": 109.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.831,
+      "danceability": 0.783,
+      "acousticness": 0.396,
+      "instrumentalness": 0.024,
+      "loudness": -9.2,
+      "speechiness": 0.049,
+      "duration_ms": 222666,
+      "slug": "brother-louie-modern-talking"
+    },
+    {
+      "name": "Bulletproof",
+      "artists": "La Roux;GAMPER & DADONI",
+      "album": "Bulletproof",
+      "popularity": 70,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.771,
+      "valence": 0.527,
+      "danceability": 0.752,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.031,
+      "duration_ms": 162213,
+      "slug": "bulletproof-la-roux"
+    },
+    {
+      "name": "Every Time You Go Away - Radio Edit",
+      "artists": "Paul Young",
+      "album": "From Time To Time - The Singles Collection",
+      "popularity": 70,
+      "tempo": 164.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.844,
+      "danceability": 0.572,
+      "acousticness": 0.187,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.04,
+      "duration_ms": 267000,
+      "slug": "every-time-you-go-away-radio-edit-paul-young"
+    },
+    {
+      "name": "It's My Life - 1997 Remaster",
+      "artists": "Talk Talk",
+      "album": "It's My Life",
+      "popularity": 70,
+      "tempo": 126.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.867,
+      "danceability": 0.627,
+      "acousticness": 0.197,
+      "instrumentalness": 0.784,
+      "loudness": -8.4,
+      "speechiness": 0.035,
+      "duration_ms": 232400,
+      "slug": "its-my-life-1997-remaster-talk-talk"
+    },
+    {
+      "name": "Head Over Heels",
+      "artists": "Tears For Fears",
+      "album": "Rule The World: The Greatest Hits",
+      "popularity": 69,
+      "tempo": 95.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.839,
+      "valence": 0.653,
+      "danceability": 0.602,
+      "acousticness": 0.502,
+      "instrumentalness": 0.001,
+      "loudness": -4.3,
+      "speechiness": 0.025,
+      "duration_ms": 256146,
+      "slug": "head-over-heels-tears-for-fears"
+    },
+    {
+      "name": "Come Undone",
+      "artists": "Duran Duran",
+      "album": "Duran Duran",
+      "popularity": 69,
+      "tempo": 173.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.793,
+      "valence": 0.708,
+      "danceability": 0.542,
+      "acousticness": 0.042,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.053,
+      "duration_ms": 256519,
+      "slug": "come-undone-duran-duran"
+    },
+    {
+      "name": "Heaven Is a Place On Earth",
+      "artists": "Belinda Carlisle",
+      "album": "Greatest Vol.1 - Belinda Carlisle",
+      "popularity": 69,
+      "tempo": 122.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.852,
+      "valence": 0.793,
+      "danceability": 0.64,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.035,
+      "duration_ms": 246520,
+      "slug": "heaven-is-a-place-on-earth-belinda-carlisle"
+    },
+    {
+      "name": "True - Single Edit",
+      "artists": "Spandau Ballet",
+      "album": "True - The Digital E.P.",
+      "popularity": 69,
+      "tempo": 97.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.533,
+      "valence": 0.391,
+      "danceability": 0.742,
+      "acousticness": 0.459,
+      "instrumentalness": 0.148,
+      "loudness": -9.1,
+      "speechiness": 0.029,
+      "duration_ms": 329146,
+      "slug": "true-single-edit-spandau-ballet"
+    },
+    {
+      "name": "Wonderful Life",
+      "artists": "Black",
+      "album": "Wonderful Life",
+      "popularity": 69,
+      "tempo": 106.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.521,
+      "valence": 0.823,
+      "danceability": 0.72,
+      "acousticness": 0.705,
+      "instrumentalness": 0.36,
+      "loudness": -12.5,
+      "speechiness": 0.03,
+      "duration_ms": 287933,
+      "slug": "wonderful-life-black"
+    },
+    {
+      "name": "West End Girls - 2018 Remaster",
+      "artists": "Pet Shop Boys",
+      "album": "Please: Further Listening 1984 - 1986 (2018 Remaster)",
+      "popularity": 69,
+      "tempo": 113.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.914,
+      "valence": 0.576,
+      "danceability": 0.656,
+      "acousticness": 0.001,
+      "instrumentalness": 0.063,
+      "loudness": -7.5,
+      "speechiness": 0.039,
+      "duration_ms": 285906,
+      "slug": "west-end-girls-2018-remaster-pet-shop-boys"
+    },
+    {
+      "name": "Enola Gay - Remastered 2003",
+      "artists": "Orchestral Manoeuvres In The Dark",
+      "album": "Organisation",
+      "popularity": 69,
+      "tempo": 143.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.764,
+      "valence": 0.932,
+      "danceability": 0.559,
+      "acousticness": 0.004,
+      "instrumentalness": 0.03,
+      "loudness": -7.1,
+      "speechiness": 0.035,
+      "duration_ms": 213693,
+      "slug": "enola-gay-remastered-2003-orchestral-manoeuvres-in-the-dark"
+    },
+    {
+      "name": "Stay High - Habits Remix",
+      "artists": "Tove Lo;Hippie Sabotage",
+      "album": "Queen Of The Clouds",
+      "popularity": 68,
+      "tempo": 121.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.677,
+      "valence": 0.075,
+      "danceability": 0.736,
+      "acousticness": 0.001,
+      "instrumentalness": 0.844,
+      "loudness": -7.0,
+      "speechiness": 0.035,
+      "duration_ms": 258386,
+      "slug": "stay-high-habits-remix-tove-lo"
+    },
+    {
+      "name": "Amour plastique",
+      "artists": "Videoclub",
+      "album": "Amour plastique",
+      "popularity": 68,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.354,
+      "valence": 0.245,
+      "danceability": 0.7,
+      "acousticness": 0.765,
+      "instrumentalness": 0.002,
+      "loudness": -14.0,
+      "speechiness": 0.035,
+      "duration_ms": 227026,
+      "slug": "amour-plastique-videoclub"
+    },
+    {
+      "name": "Off Of My Mind",
+      "artists": "Icona Pop;VIZE",
+      "album": "Off Of My Mind",
+      "popularity": 68,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.565,
+      "danceability": 0.798,
+      "acousticness": 0.128,
+      "instrumentalness": 0.036,
+      "loudness": -5.9,
+      "speechiness": 0.227,
+      "duration_ms": 164739,
+      "slug": "off-of-my-mind-icona-pop"
+    },
+    {
+      "name": "Eternal Flame",
+      "artists": "The Bangles",
+      "album": "The Essential Bangles",
+      "popularity": 68,
+      "tempo": 79.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.358,
+      "valence": 0.399,
+      "danceability": 0.526,
+      "acousticness": 0.525,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.024,
+      "duration_ms": 238026,
+      "slug": "eternal-flame-the-bangles"
+    },
+    {
+      "name": "Forever Young - 2019 Remaster",
+      "artists": "Alphaville",
+      "album": "Forever Young (Super Deluxe Edition; 2019 Remaster)",
+      "popularity": 68,
+      "tempo": 137.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.471,
+      "valence": 0.291,
+      "danceability": 0.483,
+      "acousticness": 0.397,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.028,
+      "duration_ms": 226000,
+      "slug": "forever-young-2019-remaster-alphaville"
+    },
+    {
+      "name": "Head Over Heels - Dave Bascombe 7\" N.Mix",
+      "artists": "Tears For Fears;Dave Bascombe",
+      "album": "Songs From The Big Chair (Deluxe)",
+      "popularity": 68,
+      "tempo": 95.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.642,
+      "danceability": 0.623,
+      "acousticness": 0.338,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.024,
+      "duration_ms": 257315,
+      "slug": "head-over-heels-dave-bascombe-7-nmix-tears-for-fears"
+    },
+    {
+      "name": "Together Forever",
+      "artists": "Rick Astley",
+      "album": "Whenever You Need Somebody",
+      "popularity": 68,
+      "tempo": 115.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.896,
+      "danceability": 0.702,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.049,
+      "duration_ms": 205533,
+      "slug": "together-forever-rick-astley"
+    },
+    {
+      "name": "Dance Hall Days",
+      "artists": "Wang Chung",
+      "album": "Points On The Curve",
+      "popularity": 68,
+      "tempo": 102.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.589,
+      "valence": 0.54,
+      "danceability": 0.664,
+      "acousticness": 0.259,
+      "instrumentalness": 0.006,
+      "loudness": -14.4,
+      "speechiness": 0.041,
+      "duration_ms": 240800,
+      "slug": "dance-hall-days-wang-chung"
+    },
+    {
+      "name": "Don't Leave Me This Way (with Sarah Jane Morris)",
+      "artists": "The Communards;Sarah Jane Morris",
+      "album": "Communards",
+      "popularity": 68,
+      "tempo": 132.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.926,
+      "valence": 0.901,
+      "danceability": 0.64,
+      "acousticness": 0.135,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.032,
+      "duration_ms": 271066,
+      "slug": "dont-leave-me-this-way-with-sarah-jane-morris-the-communards"
+    },
+    {
+      "name": "Lessons In Love",
+      "artists": "Level 42",
+      "album": "Running In The Family",
+      "popularity": 68,
+      "tempo": 113.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.839,
+      "valence": 0.864,
+      "danceability": 0.709,
+      "acousticness": 0.159,
+      "instrumentalness": 0.002,
+      "loudness": -8.4,
+      "speechiness": 0.037,
+      "duration_ms": 246013,
+      "slug": "lessons-in-love-level-42"
+    },
+    {
+      "name": "What I Like About You",
+      "artists": "The Romantics",
+      "album": "The Romantics",
+      "popularity": 68,
+      "tempo": 159.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.912,
+      "danceability": 0.514,
+      "acousticness": 0.282,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.05,
+      "duration_ms": 175266,
+      "slug": "what-i-like-about-you-the-romantics"
+    },
+    {
+      "name": "Talking Body",
+      "artists": "Tove Lo",
+      "album": "Queen Of The Clouds",
+      "popularity": 67,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.761,
+      "valence": 0.114,
+      "danceability": 0.736,
+      "acousticness": 0.097,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.034,
+      "duration_ms": 238426,
+      "slug": "talking-body-tove-lo"
+    },
+    {
+      "name": "Take My Breath Away - Love Theme from \"Top Gun\"",
+      "artists": "Berlin",
+      "album": "TOP GUN/SOUNDTRACK",
+      "popularity": 67,
+      "tempo": 96.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.561,
+      "danceability": 0.482,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.027,
+      "duration_ms": 251733,
+      "slug": "take-my-breath-away-love-theme-from-top-gun-berlin"
+    },
+    {
+      "name": "Woman In Chains",
+      "artists": "Tears For Fears;Oleta Adams",
+      "album": "The Seeds Of Love",
+      "popularity": 67,
+      "tempo": 160.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.609,
+      "valence": 0.372,
+      "danceability": 0.434,
+      "acousticness": 0.023,
+      "instrumentalness": 0.001,
+      "loudness": -8.3,
+      "speechiness": 0.031,
+      "duration_ms": 391000,
+      "slug": "woman-in-chains-tears-for-fears"
+    },
+    {
+      "name": "Ni t\u00fa ni nadie",
+      "artists": "Alaska Y Dinarama",
+      "album": "Deseo Carnal",
+      "popularity": 67,
+      "tempo": 137.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.677,
+      "danceability": 0.601,
+      "acousticness": 0.519,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.029,
+      "duration_ms": 217000,
+      "slug": "ni-t\u00fa-ni-nadie-alaska-y-dinarama"
+    },
+    {
+      "name": "Grapefruit",
+      "artists": "Tove Lo",
+      "album": "Dirt Femme",
+      "popularity": 66,
+      "tempo": 105.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.687,
+      "valence": 0.147,
+      "danceability": 0.722,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 231333,
+      "slug": "grapefruit-tove-lo"
+    },
+    {
+      "name": "Never Ending Story",
+      "artists": "Limahl",
+      "album": "Don't Suppose",
+      "popularity": 66,
+      "tempo": 122.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.622,
+      "valence": 0.851,
+      "danceability": 0.599,
+      "acousticness": 0.359,
+      "instrumentalness": 0.002,
+      "loudness": -14.0,
+      "speechiness": 0.03,
+      "duration_ms": 212173,
+      "slug": "never-ending-story-limahl"
+    },
+    {
+      "name": "Karma Chameleon",
+      "artists": "Culture Club",
+      "album": "The Best Of Culture Club",
+      "popularity": 66,
+      "tempo": 92.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.473,
+      "valence": 0.962,
+      "danceability": 0.668,
+      "acousticness": 0.231,
+      "instrumentalness": 0.0,
+      "loudness": -15.4,
+      "speechiness": 0.034,
+      "duration_ms": 242200,
+      "slug": "karma-chameleon-culture-club"
+    },
+    {
+      "name": "Love Changes (Everything)",
+      "artists": "Climie Fisher",
+      "album": "Everything",
+      "popularity": 66,
+      "tempo": 111.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.868,
+      "valence": 0.806,
+      "danceability": 0.624,
+      "acousticness": 0.305,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.027,
+      "duration_ms": 268186,
+      "slug": "love-changes-everything-climie-fisher"
+    },
+    {
+      "name": "Blue Monday '88",
+      "artists": "New Order",
+      "album": "The Best of New Order",
+      "popularity": 66,
+      "tempo": 130.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.893,
+      "valence": 0.951,
+      "danceability": 0.681,
+      "acousticness": 0.0,
+      "instrumentalness": 0.383,
+      "loudness": -8.5,
+      "speechiness": 0.038,
+      "duration_ms": 244720,
+      "slug": "blue-monday-88-new-order"
+    },
+    {
+      "name": "Mad World",
+      "artists": "Tears For Fears",
+      "album": "The Hurting",
+      "popularity": 66,
+      "tempo": 118.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.953,
+      "danceability": 0.647,
+      "acousticness": 0.071,
+      "instrumentalness": 0.051,
+      "loudness": -5.9,
+      "speechiness": 0.051,
+      "duration_ms": 215400,
+      "slug": "mad-world-tears-for-fears"
+    },
+    {
+      "name": "Alive And Kicking",
+      "artists": "Simple Minds",
+      "album": "Once Upon A Time (Super Deluxe)",
+      "popularity": 66,
+      "tempo": 103.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.913,
+      "valence": 0.561,
+      "danceability": 0.572,
+      "acousticness": 0.075,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.036,
+      "duration_ms": 289453,
+      "slug": "alive-and-kicking-simple-minds"
+    },
+    {
+      "name": "Age of Consent - 2015 Remaster",
+      "artists": "New Order",
+      "album": "Power Corruption and Lies",
+      "popularity": 66,
+      "tempo": 162.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.756,
+      "danceability": 0.372,
+      "acousticness": 0.001,
+      "instrumentalness": 0.094,
+      "loudness": -5.6,
+      "speechiness": 0.039,
+      "duration_ms": 315333,
+      "slug": "age-of-consent-2015-remaster-new-order"
+    },
+    {
+      "name": "Do You Really Want To Hurt Me",
+      "artists": "Culture Club",
+      "album": "Kissing To Be Clever",
+      "popularity": 66,
+      "tempo": 100.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.376,
+      "valence": 0.42,
+      "danceability": 0.744,
+      "acousticness": 0.082,
+      "instrumentalness": 0.0,
+      "loudness": -15.0,
+      "speechiness": 0.037,
+      "duration_ms": 262173,
+      "slug": "do-you-really-want-to-hurt-me-culture-club"
+    },
+    {
+      "name": "Bizarre Love Triangle",
+      "artists": "New Order",
+      "album": "Brotherhood (Collector's Edition)",
+      "popularity": 66,
+      "tempo": 118.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.919,
+      "danceability": 0.613,
+      "acousticness": 0.08,
+      "instrumentalness": 0.746,
+      "loudness": -7.5,
+      "speechiness": 0.052,
+      "duration_ms": 263213,
+      "slug": "bizarre-love-triangle-new-order"
+    },
+    {
+      "name": "Cool Girl",
+      "artists": "Tove Lo",
+      "album": "Lady Wood",
+      "popularity": 65,
+      "tempo": 102.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.694,
+      "valence": 0.203,
+      "danceability": 0.674,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.109,
+      "duration_ms": 199179,
+      "slug": "cool-girl-tove-lo"
+    },
+    {
+      "name": "Suburbia",
+      "artists": "Tove Lo",
+      "album": "Dirt Femme",
+      "popularity": 65,
+      "tempo": 166.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.555,
+      "valence": 0.286,
+      "danceability": 0.61,
+      "acousticness": 0.084,
+      "instrumentalness": 0.046,
+      "loudness": -8.3,
+      "speechiness": 0.067,
+      "duration_ms": 199071,
+      "slug": "suburbia-tove-lo"
+    },
+    {
+      "name": "Take My Breath Away",
+      "artists": "Berlin",
+      "album": "Take My Breath Away",
+      "popularity": 65,
+      "tempo": 95.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.477,
+      "valence": 0.511,
+      "danceability": 0.578,
+      "acousticness": 0.448,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.023,
+      "duration_ms": 264213,
+      "slug": "take-my-breath-away-berlin"
+    },
+    {
+      "name": "Big in Japan",
+      "artists": "Alphaville",
+      "album": "Forever Young",
+      "popularity": 65,
+      "tempo": 97.6,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.414,
+      "valence": 0.239,
+      "danceability": 0.748,
+      "acousticness": 0.069,
+      "instrumentalness": 0.067,
+      "loudness": -15.2,
+      "speechiness": 0.041,
+      "duration_ms": 286160,
+      "slug": "big-in-japan-alphaville"
+    },
+    {
+      "name": "Shattered Dreams - Remastered",
+      "artists": "Johnny Hates Jazz",
+      "album": "Turn Back The Clock",
+      "popularity": 65,
+      "tempo": 121.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.72,
+      "valence": 0.745,
+      "danceability": 0.655,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.031,
+      "duration_ms": 207346,
+      "slug": "shattered-dreams-remastered-johnny-hates-jazz"
+    },
+    {
+      "name": "Agitations tropicales",
+      "artists": "L'Imp\u00e9ratrice",
+      "album": "Odyss\u00e9e - EP",
+      "popularity": 65,
+      "tempo": 116.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.401,
+      "valence": 0.619,
+      "danceability": 0.76,
+      "acousticness": 0.564,
+      "instrumentalness": 0.259,
+      "loudness": -9.5,
+      "speechiness": 0.067,
+      "duration_ms": 248892,
+      "slug": "agitations-tropicales-limp\u00e9ratrice"
+    },
+    {
+      "name": "Big in Japan - 2019 Remaster",
+      "artists": "Alphaville",
+      "album": "Forever Young (Super Deluxe Edition; 2019 Remaster)",
+      "popularity": 65,
+      "tempo": 97.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.596,
+      "valence": 0.195,
+      "danceability": 0.757,
+      "acousticness": 0.041,
+      "instrumentalness": 0.045,
+      "loudness": -8.0,
+      "speechiness": 0.034,
+      "duration_ms": 284625,
+      "slug": "big-in-japan-2019-remaster-alphaville"
+    },
+    {
+      "name": "Gloria",
+      "artists": "Laura Branigan",
+      "album": "Branigan",
+      "popularity": 65,
+      "tempo": 131.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.84,
+      "danceability": 0.776,
+      "acousticness": 0.107,
+      "instrumentalness": 0.293,
+      "loudness": -6.8,
+      "speechiness": 0.029,
+      "duration_ms": 289853,
+      "slug": "gloria-laura-branigan"
+    },
+    {
+      "name": "Everything She Wants",
+      "artists": "Wham!",
+      "album": "Make It Big",
+      "popularity": 65,
+      "tempo": 115.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.459,
+      "valence": 0.962,
+      "danceability": 0.899,
+      "acousticness": 0.322,
+      "instrumentalness": 0.004,
+      "loudness": -15.6,
+      "speechiness": 0.037,
+      "duration_ms": 302693,
+      "slug": "everything-she-wants-wham"
+    },
+    {
+      "name": "Major Tom - Coming Home",
+      "artists": "Peter Schilling",
+      "album": "The Different Story (World Of Lust And Crime)",
+      "popularity": 65,
+      "tempo": 161.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.42,
+      "valence": 0.838,
+      "danceability": 0.787,
+      "acousticness": 0.153,
+      "instrumentalness": 0.164,
+      "loudness": -14.3,
+      "speechiness": 0.065,
+      "duration_ms": 301373,
+      "slug": "major-tom-coming-home-peter-schilling"
+    },
+    {
+      "name": "Whip It",
+      "artists": "DEVO",
+      "album": "Freedom of Choice",
+      "popularity": 65,
+      "tempo": 157.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.957,
+      "danceability": 0.78,
+      "acousticness": 0.074,
+      "instrumentalness": 0.004,
+      "loudness": -7.3,
+      "speechiness": 0.052,
+      "duration_ms": 161133,
+      "slug": "whip-it-devo"
+    },
+    {
+      "name": "Wouldn't It Be Good",
+      "artists": "Nik Kershaw",
+      "album": "Human Racing",
+      "popularity": 65,
+      "tempo": 97.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.705,
+      "valence": 0.749,
+      "danceability": 0.655,
+      "acousticness": 0.169,
+      "instrumentalness": 0.014,
+      "loudness": -8.5,
+      "speechiness": 0.029,
+      "duration_ms": 277053,
+      "slug": "wouldnt-it-be-good-nik-kershaw"
+    },
+    {
+      "name": "Talking In Your Sleep",
+      "artists": "The Romantics",
+      "album": "In Heat",
+      "popularity": 65,
+      "tempo": 129.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.967,
+      "valence": 0.977,
+      "danceability": 0.72,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.034,
+      "duration_ms": 235093,
+      "slug": "talking-in-your-sleep-the-romantics"
+    },
+    {
+      "name": "Good Thing",
+      "artists": "Fine Young Cannibals",
+      "album": "The Raw & The Cooked",
+      "popularity": 65,
+      "tempo": 164.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.586,
+      "valence": 0.893,
+      "danceability": 0.747,
+      "acousticness": 0.071,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.03,
+      "duration_ms": 201866,
+      "slug": "good-thing-fine-young-cannibals"
+    },
+    {
+      "name": "2 Die 4",
+      "artists": "Tove Lo",
+      "album": "Dirt Femme",
+      "popularity": 64,
+      "tempo": 118.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.8,
+      "valence": 0.533,
+      "danceability": 0.816,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.074,
+      "duration_ms": 185875,
+      "slug": "2-die-4-tove-lo"
+    },
+    {
+      "name": "disco tits",
+      "artists": "Tove Lo",
+      "album": "BLUE LIPS (lady wood phase II)",
+      "popularity": 64,
+      "tempo": 110.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.728,
+      "valence": 0.333,
+      "danceability": 0.79,
+      "acousticness": 0.025,
+      "instrumentalness": 0.001,
+      "loudness": -6.5,
+      "speechiness": 0.061,
+      "duration_ms": 223794,
+      "slug": "disco-tits-tove-lo"
+    },
+    {
+      "name": "Brother Louie Mix '98 (feat. Eric Singleton) - Radio Edit",
+      "artists": "Modern Talking;Eric Singleton",
+      "album": "Back For Good/2nd",
+      "popularity": 64,
+      "tempo": 118.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.971,
+      "valence": 0.969,
+      "danceability": 0.769,
+      "acousticness": 0.017,
+      "instrumentalness": 0.089,
+      "loudness": -3.8,
+      "speechiness": 0.043,
+      "duration_ms": 204306,
+      "slug": "brother-louie-mix-98-feat-eric-singleton-radio-edit-modern-talking"
+    },
+    {
+      "name": "Tarzan Boy",
+      "artists": "Baltimora",
+      "album": "Tarzan Boy: The World Of Baltimora",
+      "popularity": 64,
+      "tempo": 107.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.803,
+      "valence": 0.695,
+      "danceability": 0.703,
+      "acousticness": 0.346,
+      "instrumentalness": 0.001,
+      "loudness": -4.6,
+      "speechiness": 0.025,
+      "duration_ms": 230026,
+      "slug": "tarzan-boy-baltimora"
+    },
+    {
+      "name": "Eternal Flame",
+      "artists": "The Bangles",
+      "album": "Everything",
+      "popularity": 64,
+      "tempo": 78.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.233,
+      "valence": 0.4,
+      "danceability": 0.521,
+      "acousticness": 0.635,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.025,
+      "duration_ms": 235666,
+      "slug": "eternal-flame-the-bangles"
+    },
+    {
+      "name": "(I Just) Died In Your Arms",
+      "artists": "Cutting Crew",
+      "album": "The Best Of Cutting Crew",
+      "popularity": 64,
+      "tempo": 124.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.499,
+      "danceability": 0.632,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.044,
+      "duration_ms": 278626,
+      "slug": "i-just-died-in-your-arms-cutting-crew"
+    },
+    {
+      "name": "Go West - 2003 Remaster",
+      "artists": "Pet Shop Boys",
+      "album": "PopArt: The Hits",
+      "popularity": 64,
+      "tempo": 120.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.951,
+      "valence": 0.444,
+      "danceability": 0.535,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.037,
+      "duration_ms": 304080,
+      "slug": "go-west-2003-remaster-pet-shop-boys"
+    },
+    {
+      "name": "Head Over Heels / Broken",
+      "artists": "Tears For Fears",
+      "album": "Songs From The Big Chair",
+      "popularity": 64,
+      "tempo": 95.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.704,
+      "valence": 0.655,
+      "danceability": 0.298,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.037,
+      "duration_ms": 302120,
+      "slug": "head-over-heels-broken-tears-for-fears"
+    },
+    {
+      "name": "The Riddle",
+      "artists": "Nik Kershaw",
+      "album": "The Riddle (Expanded Edition)",
+      "popularity": 64,
+      "tempo": 101.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.655,
+      "valence": 0.898,
+      "danceability": 0.578,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.028,
+      "duration_ms": 234840,
+      "slug": "the-riddle-nik-kershaw"
+    },
+    {
+      "name": "The King of Wishful Thinking",
+      "artists": "Go West",
+      "album": "Indian Summer",
+      "popularity": 64,
+      "tempo": 107.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.919,
+      "danceability": 0.669,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.052,
+      "duration_ms": 241760,
+      "slug": "the-king-of-wishful-thinking-go-west"
+    },
+    {
+      "name": "(I'll Never Be) Maria Magdalena - Single Verison",
+      "artists": "Sandra",
+      "album": "Ten On One",
+      "popularity": 64,
+      "tempo": 104.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.559,
+      "valence": 0.772,
+      "danceability": 0.613,
+      "acousticness": 0.099,
+      "instrumentalness": 0.021,
+      "loudness": -14.1,
+      "speechiness": 0.027,
+      "duration_ms": 239826,
+      "slug": "ill-never-be-maria-magdalena-single-verison-sandra"
+    },
+    {
+      "name": "The Sun Always Shines on T.V.",
+      "artists": "a-ha",
+      "album": "Hunting High and Low",
+      "popularity": 64,
+      "tempo": 126.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.839,
+      "valence": 0.219,
+      "danceability": 0.494,
+      "acousticness": 0.053,
+      "instrumentalness": 0.071,
+      "loudness": -8.8,
+      "speechiness": 0.065,
+      "duration_ms": 302400,
+      "slug": "the-sun-always-shines-on-tv-a-ha"
+    },
+    {
+      "name": "It's a Sin - 2018 Remaster",
+      "artists": "Pet Shop Boys",
+      "album": "Actually: Further Listening 1987 - 1988 (2018 Remaster)",
+      "popularity": 64,
+      "tempo": 127.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.86,
+      "valence": 0.284,
+      "danceability": 0.544,
+      "acousticness": 0.206,
+      "instrumentalness": 0.001,
+      "loudness": -6.2,
+      "speechiness": 0.049,
+      "duration_ms": 299253,
+      "slug": "its-a-sin-2018-remaster-pet-shop-boys"
+    },
+    {
+      "name": "True - 2003 Remaster",
+      "artists": "Spandau Ballet",
+      "album": "True (Special Edition)",
+      "popularity": 64,
+      "tempo": 97.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.521,
+      "valence": 0.335,
+      "danceability": 0.777,
+      "acousticness": 0.359,
+      "instrumentalness": 0.11,
+      "loudness": -8.4,
+      "speechiness": 0.028,
+      "duration_ms": 393386,
+      "slug": "true-2003-remaster-spandau-ballet"
+    },
+    {
+      "name": "Club Tropicana",
+      "artists": "Wham!",
+      "album": "Fantastic",
+      "popularity": 64,
+      "tempo": 117.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.714,
+      "valence": 0.806,
+      "danceability": 0.658,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.052,
+      "duration_ms": 265600,
+      "slug": "club-tropicana-wham"
+    }
+  ]
+}

@@ -26,6 +26,16 @@ def generate_genre_page(genre_slug, analysis_path, output_path):
         'electronic': {'emoji': '⚡', 'color_accent': '#9b7fd4', 'desc': 'Electronic music spans ambient to high-energy EDM. Synthesizers, drum machines, and digital production define the genre.'},
         'hip-hop': {'emoji': '🎤', 'color_accent': '#5b9bd5', 'desc': 'Hip-hop is the biggest streaming genre. Beat-driven, rhythmic, with strong bass profiles and vocal-forward production.'},
         'soul': {'emoji': '🎙️', 'color_accent': '#4ecdc4', 'desc': 'Soul music features rich, warm vocals and organic instrumentation. Gospel-influenced harmonies with deep emotional expression.'},
+        'pop': {'emoji': '🎵', 'color_accent': '#e87d7d', 'desc': 'Mainstream popular music with catchy melodies, polished production, and broad commercial appeal. The center of gravity in streaming.'},
+        'r-n-b': {'emoji': '🎤', 'color_accent': '#9b7fd4', 'desc': 'Rhythm and blues with smooth vocals, groove-heavy production, and modern 808-driven beats. The evolution of soul for the streaming era.'},
+        'country': {'emoji': '🤠', 'color_accent': '#d4a574', 'desc': 'American roots music featuring storytelling vocals, acoustic and electric guitar, and themes of love, loss, and small-town life.'},
+        'rock': {'emoji': '🎸', 'color_accent': '#e85d5d', 'desc': 'Guitar-driven music with strong rhythms and powerful vocals. From classic to alternative, rock is the backbone of modern music.'},
+        'edm': {'emoji': '⚡', 'color_accent': '#4ecdc4', 'desc': 'Electronic dance music designed for festivals and big rooms. High energy, dramatic builds, and engineered for maximum crowd impact.'},
+        'indie': {'emoji': '🎭', 'color_accent': '#5b9bd5', 'desc': 'Independent music with creative freedom and unconventional production. Lower loudness, more dynamic range, and artistic risk-taking.'},
+        'folk': {'emoji': '🌾', 'color_accent': '#8fbc8f', 'desc': 'Traditional and contemporary acoustic music rooted in storytelling, community, and organic instrumentation. Timeless and intimate.'},
+        'reggaeton': {'emoji': '🔥', 'color_accent': '#ff6b6b', 'desc': 'Latin urban music built on the iconic dembow rhythm. The fastest-growing genre globally, dominating streaming with infectious grooves.'},
+        'synth-pop': {'emoji': '🎹', 'color_accent': '#c77dba', 'desc': '80s-born pop music built on synthesizers and drum machines. Analog warmth meets digital precision — a sound that never stopped evolving.'},
+        'trip-hop': {'emoji': '🌙', 'color_accent': '#6a5acd', 'desc': 'Downtempo electronic music with jazz samples, moody atmospheres, and cinematic production. The sound of late-night introspection.'},
     }
     
     meta = genre_meta.get(genre_slug, {'emoji': '🎵', 'color_accent': '#4ecdc4', 'desc': f'Audio analysis of {display_name} music.'})
@@ -89,6 +99,16 @@ def generate_genre_page(genre_slug, analysis_path, output_path):
         'electronic': {'style_tags': 'electronic, synth, EDM, ambient electronic, synthwave', 'instruments': 'synthesizer, drum machine, arpeggiated synths, bass synth, vocoder', 'mood_words': 'futuristic, driving, immersive, pulsing'},
         'hip-hop': {'style_tags': 'hip-hop, rap, trap, boom bap, beats', 'instruments': '808 bass, hi-hats, snare, sample chops, vinyl crackle', 'mood_words': 'confident, rhythmic, bold, raw'},
         'soul': {'style_tags': 'soul, R&B, neo-soul, gospel-influenced, vintage soul', 'instruments': 'warm vocals, organ, electric piano, bass guitar, horn section', 'mood_words': 'passionate, warm, soulful, heartfelt'},
+        'pop': {'style_tags': 'pop, mainstream, radio-friendly, catchy, polished', 'instruments': 'synth, programmed drums, electric guitar, vocal layers, bass', 'mood_words': 'catchy, uplifting, energetic, anthemic'},
+        'r-n-b': {'style_tags': 'R&B, modern R&B, neo-R&B, smooth, groovy', 'instruments': '808 bass, smooth synth pads, electric piano, vocal runs, hi-hats', 'mood_words': 'smooth, sensual, moody, intimate'},
+        'country': {'style_tags': 'country, americana, country-pop, outlaw, twang', 'instruments': 'acoustic guitar, pedal steel, fiddle, banjo, dobro', 'mood_words': 'nostalgic, heartfelt, warm, storytelling'},
+        'rock': {'style_tags': 'rock, alternative rock, hard rock, classic rock, arena rock', 'instruments': 'electric guitar, distortion, drum kit, bass guitar, power chords', 'mood_words': 'powerful, driving, raw, rebellious'},
+        'edm': {'style_tags': 'EDM, dance, festival, house, progressive', 'instruments': 'synth leads, sidechained bass, risers, drops, four-on-the-floor kick', 'mood_words': 'euphoric, high-energy, anthemic, pulsing'},
+        'indie': {'style_tags': 'indie, indie rock, indie pop, alternative, lo-fi', 'instruments': 'jangly guitar, analog synths, drum machine, bass, reverbed vocals', 'mood_words': 'wistful, introspective, dreamy, bittersweet'},
+        'folk': {'style_tags': 'folk, acoustic, singer-songwriter, traditional, roots', 'instruments': 'acoustic guitar, banjo, mandolin, harmonica, upright bass', 'mood_words': 'earthy, warm, storytelling, intimate'},
+        'reggaeton': {'style_tags': 'reggaeton, latin urban, dembow, perreo, trap latino', 'instruments': 'dembow beat, 808 bass, synth stabs, vocal chops, clap patterns', 'mood_words': 'infectious, rhythmic, bold, party'},
+        'synth-pop': {'style_tags': 'synth-pop, new wave, electropop, 80s, synthwave', 'instruments': 'analog synth, drum machine, arpeggiator, vocoder, gated reverb', 'mood_words': 'nostalgic, bright, danceable, futuristic'},
+        'trip-hop': {'style_tags': 'trip-hop, downtempo, Bristol sound, dark electronic, cinematic', 'instruments': 'breakbeats, jazz samples, vinyl crackle, deep bass, Rhodes piano', 'mood_words': 'moody, atmospheric, nocturnal, hypnotic'},
     }
     
     prompt = prompt_descriptions.get(genre_slug, {

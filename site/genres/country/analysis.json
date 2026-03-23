@@ -1,0 +1,2801 @@
+{
+  "genre": "Country",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 48.718,
+    "max": 203.989,
+    "mean": 120.33,
+    "median": 120.089,
+    "q1": 95.263,
+    "q3": 140.208,
+    "histogram": {
+      "50-59": 1,
+      "60-69": 1,
+      "70-79": 9,
+      "80-89": 12,
+      "90-99": 7,
+      "100-109": 13,
+      "110-119": 7,
+      "120-129": 11,
+      "130-139": 14,
+      "140-149": 10,
+      "150-159": 2,
+      "160-169": 3,
+      "170-179": 7,
+      "190-199": 2,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "A": 14,
+    "C#/Db": 11,
+    "F#/Gb": 11,
+    "C": 10,
+    "B": 10,
+    "E": 8,
+    "D": 8,
+    "G": 8,
+    "D#/Eb": 6,
+    "F": 6,
+    "A#/Bb": 5,
+    "G#/Ab": 3
+  },
+  "mode_distribution": {
+    "Minor": 15,
+    "Major": 85
+  },
+  "key_mode_distribution": {
+    "A Major": 13,
+    "C Major": 10,
+    "C#/Db Major": 9,
+    "F#/Gb Major": 9,
+    "D Major": 8,
+    "G Major": 7,
+    "D#/Eb Major": 6,
+    "B Minor": 5,
+    "B Major": 5,
+    "E Major": 5,
+    "A#/Bb Major": 5,
+    "F Major": 5,
+    "E Minor": 3,
+    "G#/Ab Major": 3,
+    "F#/Gb Minor": 2,
+    "C#/Db Minor": 2,
+    "A Minor": 1,
+    "F Minor": 1,
+    "G Minor": 1
+  },
+  "energy": {
+    "min": 0.099,
+    "max": 0.952,
+    "mean": 0.594,
+    "median": 0.593,
+    "q1": 0.488,
+    "q3": 0.721
+  },
+  "valence": {
+    "min": 0.148,
+    "max": 0.964,
+    "mean": 0.545,
+    "median": 0.52,
+    "q1": 0.377,
+    "q3": 0.722
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.192,
+      "valence": 0.148
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.644
+    },
+    {
+      "energy": 0.508,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.774
+    },
+    {
+      "energy": 0.568,
+      "valence": 0.394
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.252
+    },
+    {
+      "energy": 0.663,
+      "valence": 0.663
+    },
+    {
+      "energy": 0.912,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.886
+    },
+    {
+      "energy": 0.37,
+      "valence": 0.512
+    },
+    {
+      "energy": 0.68,
+      "valence": 0.707
+    },
+    {
+      "energy": 0.402,
+      "valence": 0.382
+    },
+    {
+      "energy": 0.559,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.774,
+      "valence": 0.942
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.494,
+      "valence": 0.634
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.29
+    },
+    {
+      "energy": 0.455,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.639,
+      "valence": 0.674
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.822
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.338
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.855
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.813
+    },
+    {
+      "energy": 0.549,
+      "valence": 0.907
+    },
+    {
+      "energy": 0.506,
+      "valence": 0.831
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.322
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.57,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.43,
+      "valence": 0.547
+    },
+    {
+      "energy": 0.501,
+      "valence": 0.86
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.414
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.595
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.392,
+      "valence": 0.163
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.322,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.395,
+      "valence": 0.625
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.418,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.558
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.229
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.556,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.882,
+      "valence": 0.864
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.784
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.845
+    },
+    {
+      "energy": 0.438,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.581,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.819
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.458,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.305,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.455
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.73
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.862
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.48
+    },
+    {
+      "energy": 0.441,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.197,
+      "valence": 0.349
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.474
+    },
+    {
+      "energy": 0.225,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.553,
+      "valence": 0.946
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.361,
+      "valence": 0.621
+    },
+    {
+      "energy": 0.462,
+      "valence": 0.258
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.664
+    },
+    {
+      "energy": 0.099,
+      "valence": 0.44
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.411
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.22
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.361
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.224,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.277,
+      "valence": 0.309
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.741
+    },
+    {
+      "energy": 0.496,
+      "valence": 0.278
+    },
+    {
+      "energy": 0.425,
+      "valence": 0.651
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.946,
+    "mean": 0.31,
+    "median": 0.256,
+    "q1": 0.095,
+    "q3": 0.455
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.537,
+    "mean": 0.011,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.555,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.252,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.373,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.201,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.205,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.369,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.676,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.639,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.363,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.271,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.695,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.581,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.021
+    },
+    {
+      "acousticness": 0.455,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.126,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.343,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.501,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.686,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.386,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.278,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.546,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.342,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.646,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.18,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.297
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.206,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.758,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.337,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.394,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.251,
+      "instrumentalness": 0.177
+    },
+    {
+      "acousticness": 0.566,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.537
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.395,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.356,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.362,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.447,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.286,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.871,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.26,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.401,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.365,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.22,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.235,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.77,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.88,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.098,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.842,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.566,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.264,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.243,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.914,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.252,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.42,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.946,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.681,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.173,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.378,
+      "instrumentalness": 0.001
+    }
+  ],
+  "duration": {
+    "min": 140773,
+    "max": 547106,
+    "mean": 219801.85,
+    "median": 210572.5,
+    "q1": 179506,
+    "q3": 236440
+  },
+  "danceability": {
+    "min": 0.228,
+    "max": 0.802,
+    "mean": 0.565,
+    "median": 0.581,
+    "q1": 0.506,
+    "q3": 0.652
+  },
+  "loudness": {
+    "min": -20.567,
+    "max": -2.947,
+    "mean": -7.864,
+    "median": -7.24,
+    "q1": -9.665,
+    "q3": -5.487
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.224,
+    "mean": 0.04,
+    "median": 0.033,
+    "q1": 0.029,
+    "q3": 0.043
+  },
+  "top_artists": [
+    {
+      "name": "Dan + Shay",
+      "count": 7
+    },
+    {
+      "name": "Kane Brown",
+      "count": 6
+    },
+    {
+      "name": "Eagles",
+      "count": 4
+    },
+    {
+      "name": "Shania Twain",
+      "count": 4
+    },
+    {
+      "name": "Dolly Parton",
+      "count": 4
+    },
+    {
+      "name": "Morgan Wallen",
+      "count": 3
+    },
+    {
+      "name": "Creedence Clearwater Revival",
+      "count": 3
+    },
+    {
+      "name": "Luke Combs",
+      "count": 3
+    },
+    {
+      "name": "Lynyrd Skynyrd",
+      "count": 3
+    },
+    {
+      "name": "Maren Morris",
+      "count": 3
+    },
+    {
+      "name": "Rascal Flatts",
+      "count": 3
+    },
+    {
+      "name": "John Denver",
+      "count": 3
+    },
+    {
+      "name": "Bob Dylan",
+      "count": 3
+    },
+    {
+      "name": "Jordan Davis",
+      "count": 2
+    },
+    {
+      "name": "Luke Bryan",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Something in the Orange",
+      "artists": "Zach Bryan",
+      "album": "Something in the Orange",
+      "popularity": 89,
+      "tempo": 175.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.192,
+      "valence": 0.148,
+      "danceability": 0.369,
+      "acousticness": 0.555,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.04,
+      "duration_ms": 228013,
+      "slug": "something-in-the-orange-zach-bryan"
+    },
+    {
+      "name": "You Proof",
+      "artists": "Morgan Wallen",
+      "album": "You Proof",
+      "popularity": 86,
+      "tempo": 119.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.85,
+      "valence": 0.644,
+      "danceability": 0.731,
+      "acousticness": 0.252,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.034,
+      "duration_ms": 157477,
+      "slug": "you-proof-morgan-wallen"
+    },
+    {
+      "name": "Hotel California - 2013 Remaster",
+      "artists": "Eagles",
+      "album": "Hotel California (2013 Remaster)",
+      "popularity": 84,
+      "tempo": 147.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.508,
+      "valence": 0.609,
+      "danceability": 0.579,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.027,
+      "duration_ms": 391376,
+      "slug": "hotel-california-2013-remaster-eagles"
+    },
+    {
+      "name": "Have You Ever Seen The Rain",
+      "artists": "Creedence Clearwater Revival",
+      "album": "Pendulum (Expanded Edition)",
+      "popularity": 84,
+      "tempo": 116.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.697,
+      "valence": 0.774,
+      "danceability": 0.741,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.028,
+      "duration_ms": 160133,
+      "slug": "have-you-ever-seen-the-rain-creedence-clearwater-revival"
+    },
+    {
+      "name": "Rock and A Hard Place",
+      "artists": "Bailey Zimmerman",
+      "album": "Rock and A Hard Place",
+      "popularity": 84,
+      "tempo": 122.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.568,
+      "valence": 0.394,
+      "danceability": 0.582,
+      "acousticness": 0.577,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.028,
+      "duration_ms": 207540,
+      "slug": "rock-and-a-hard-place-bailey-zimmerman"
+    },
+    {
+      "name": "Wasted On You",
+      "artists": "Morgan Wallen",
+      "album": "Dangerous: The Double Album",
+      "popularity": 83,
+      "tempo": 196.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.657,
+      "valence": 0.252,
+      "danceability": 0.505,
+      "acousticness": 0.373,
+      "instrumentalness": 0.001,
+      "loudness": -5.2,
+      "speechiness": 0.032,
+      "duration_ms": 178520,
+      "slug": "wasted-on-you-morgan-wallen"
+    },
+    {
+      "name": "Fortunate Son",
+      "artists": "Creedence Clearwater Revival",
+      "album": "Willy And The Poor Boys (Expanded Edition)",
+      "popularity": 82,
+      "tempo": 132.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.663,
+      "valence": 0.663,
+      "danceability": 0.64,
+      "acousticness": 0.201,
+      "instrumentalness": 0.008,
+      "loudness": -7.5,
+      "speechiness": 0.037,
+      "duration_ms": 140773,
+      "slug": "fortunate-son-creedence-clearwater-revival"
+    },
+    {
+      "name": "She Had Me At Heads Carolina",
+      "artists": "Cole Swindell",
+      "album": "Stereotype",
+      "popularity": 82,
+      "tempo": 134.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.912,
+      "valence": 0.722,
+      "danceability": 0.607,
+      "acousticness": 0.124,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.061,
+      "duration_ms": 206106,
+      "slug": "she-had-me-at-heads-carolina-cole-swindell"
+    },
+    {
+      "name": "The Kind of Love We Make",
+      "artists": "Luke Combs",
+      "album": "The Kind of Love We Make",
+      "popularity": 82,
+      "tempo": 102.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.745,
+      "valence": 0.464,
+      "danceability": 0.608,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.028,
+      "duration_ms": 224426,
+      "slug": "the-kind-of-love-we-make-luke-combs"
+    },
+    {
+      "name": "Sweet Home Alabama",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Second Helping (Expanded Edition)",
+      "popularity": 81,
+      "tempo": 97.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.605,
+      "valence": 0.886,
+      "danceability": 0.596,
+      "acousticness": 0.181,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.025,
+      "duration_ms": 283800,
+      "slug": "sweet-home-alabama-lynyrd-skynyrd"
+    },
+    {
+      "name": "Tennessee Whiskey",
+      "artists": "Chris Stapleton",
+      "album": "Traveller",
+      "popularity": 81,
+      "tempo": 48.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.37,
+      "valence": 0.512,
+      "danceability": 0.392,
+      "acousticness": 0.205,
+      "instrumentalness": 0.01,
+      "loudness": -10.9,
+      "speechiness": 0.03,
+      "duration_ms": 293293,
+      "slug": "tennessee-whiskey-chris-stapleton"
+    },
+    {
+      "name": "Whiskey Glasses",
+      "artists": "Morgan Wallen",
+      "album": "If I Know Me",
+      "popularity": 81,
+      "tempo": 150.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.68,
+      "valence": 0.707,
+      "danceability": 0.614,
+      "acousticness": 0.369,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.029,
+      "duration_ms": 234346,
+      "slug": "whiskey-glasses-morgan-wallen"
+    },
+    {
+      "name": "Beautiful Crazy",
+      "artists": "Luke Combs",
+      "album": "This One's for You Too (Deluxe Edition)",
+      "popularity": 80,
+      "tempo": 103.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.402,
+      "valence": 0.382,
+      "danceability": 0.551,
+      "acousticness": 0.676,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.026,
+      "duration_ms": 193200,
+      "slug": "beautiful-crazy-luke-combs"
+    },
+    {
+      "name": "Buy Dirt",
+      "artists": "Jordan Davis;Luke Bryan",
+      "album": "Buy Dirt",
+      "popularity": 80,
+      "tempo": 177.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.559,
+      "valence": 0.437,
+      "danceability": 0.586,
+      "acousticness": 0.639,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.05,
+      "duration_ms": 167480,
+      "slug": "buy-dirt-jordan-davis"
+    },
+    {
+      "name": "Bad Moon Rising",
+      "artists": "Creedence Clearwater Revival",
+      "album": "Green River (Expanded Edition)",
+      "popularity": 80,
+      "tempo": 178.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.774,
+      "valence": 0.942,
+      "danceability": 0.508,
+      "acousticness": 0.059,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.032,
+      "duration_ms": 141600,
+      "slug": "bad-moon-rising-creedence-clearwater-revival"
+    },
+    {
+      "name": "More Than a Feeling",
+      "artists": "Boston",
+      "album": "Boston",
+      "popularity": 79,
+      "tempo": 108.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.285,
+      "danceability": 0.377,
+      "acousticness": 0.001,
+      "instrumentalness": 0.002,
+      "loudness": -8.0,
+      "speechiness": 0.03,
+      "duration_ms": 285133,
+      "slug": "more-than-a-feeling-boston"
+    },
+    {
+      "name": "Forever After All",
+      "artists": "Luke Combs",
+      "album": "What You See Ain't Always What You Get (Deluxe Edition)",
+      "popularity": 79,
+      "tempo": 152.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.65,
+      "valence": 0.456,
+      "danceability": 0.487,
+      "acousticness": 0.191,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.025,
+      "duration_ms": 232533,
+      "slug": "forever-after-all-luke-combs"
+    },
+    {
+      "name": "10,000 Hours (with Justin Bieber)",
+      "artists": "Dan + Shay;Justin Bieber",
+      "album": "10,000 Hours (with Justin Bieber)",
+      "popularity": 78,
+      "tempo": 90.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.43,
+      "danceability": 0.654,
+      "acousticness": 0.153,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.026,
+      "duration_ms": 167693,
+      "slug": "10000-hours-with-justin-bieber-dan-shay"
+    },
+    {
+      "name": "You're Still The One",
+      "artists": "Shania Twain",
+      "album": "Come On Over",
+      "popularity": 78,
+      "tempo": 133.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.494,
+      "valence": 0.634,
+      "danceability": 0.585,
+      "acousticness": 0.363,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.035,
+      "duration_ms": 212200,
+      "slug": "youre-still-the-one-shania-twain"
+    },
+    {
+      "name": "Before He Cheats",
+      "artists": "Carrie Underwood",
+      "album": "Some Hearts",
+      "popularity": 78,
+      "tempo": 147.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.749,
+      "valence": 0.29,
+      "danceability": 0.519,
+      "acousticness": 0.271,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.041,
+      "duration_ms": 199946,
+      "slug": "before-he-cheats-carrie-underwood"
+    },
+    {
+      "name": "Thank God",
+      "artists": "Kane Brown;Katelyn Brown",
+      "album": "Different Man",
+      "popularity": 78,
+      "tempo": 99.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.455,
+      "valence": 0.441,
+      "danceability": 0.738,
+      "acousticness": 0.695,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.035,
+      "duration_ms": 174560,
+      "slug": "thank-god-kane-brown"
+    },
+    {
+      "name": "Man! I Feel Like A Woman!",
+      "artists": "Shania Twain",
+      "album": "Come On Over",
+      "popularity": 78,
+      "tempo": 124.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.639,
+      "valence": 0.674,
+      "danceability": 0.657,
+      "acousticness": 0.581,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.041,
+      "duration_ms": 234493,
+      "slug": "man-i-feel-like-a-woman-shania-twain"
+    },
+    {
+      "name": "For What It's Worth",
+      "artists": "Buffalo Springfield",
+      "album": "Buffalo Springfield",
+      "popularity": 78,
+      "tempo": 98.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.822,
+      "danceability": 0.653,
+      "acousticness": 0.406,
+      "instrumentalness": 0.021,
+      "loudness": -10.2,
+      "speechiness": 0.05,
+      "duration_ms": 153693,
+      "slug": "for-what-its-worth-buffalo-springfield"
+    },
+    {
+      "name": "Wagon Wheel",
+      "artists": "Darius Rucker",
+      "album": "True Believers",
+      "popularity": 78,
+      "tempo": 148.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.574,
+      "danceability": 0.537,
+      "acousticness": 0.455,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.03,
+      "duration_ms": 298373,
+      "slug": "wagon-wheel-darius-rucker"
+    },
+    {
+      "name": "Tennessee Orange",
+      "artists": "Megan Moroney",
+      "album": "Tennessee Orange",
+      "popularity": 78,
+      "tempo": 156.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.268,
+      "danceability": 0.38,
+      "acousticness": 0.126,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.029,
+      "duration_ms": 223119,
+      "slug": "tennessee-orange-megan-moroney"
+    },
+    {
+      "name": "Free Bird",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "popularity": 77,
+      "tempo": 118.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.834,
+      "valence": 0.338,
+      "danceability": 0.249,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.058,
+      "duration_ms": 547106,
+      "slug": "free-bird-lynyrd-skynyrd"
+    },
+    {
+      "name": "Fancy Like",
+      "artists": "Walker Hayes",
+      "album": "Country Stuff The Album",
+      "popularity": 77,
+      "tempo": 80.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.765,
+      "valence": 0.855,
+      "danceability": 0.647,
+      "acousticness": 0.111,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.06,
+      "duration_ms": 161853,
+      "slug": "fancy-like-walker-hayes"
+    },
+    {
+      "name": "Take It Easy - 2013 Remaster",
+      "artists": "Eagles",
+      "album": "Eagles (2013 Remaster)",
+      "popularity": 77,
+      "tempo": 139.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.67,
+      "valence": 0.74,
+      "danceability": 0.575,
+      "acousticness": 0.343,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.032,
+      "duration_ms": 211577,
+      "slug": "take-it-easy-2013-remaster-eagles"
+    },
+    {
+      "name": "La Grange - 2005 Remaster",
+      "artists": "ZZ Top",
+      "album": "Tres Hombres (Expanded 2006 Remaster)",
+      "popularity": 77,
+      "tempo": 80.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.64,
+      "valence": 0.606,
+      "danceability": 0.545,
+      "acousticness": 0.002,
+      "instrumentalness": 0.03,
+      "loudness": -9.9,
+      "speechiness": 0.224,
+      "duration_ms": 230480,
+      "slug": "la-grange-2005-remaster-zz-top"
+    },
+    {
+      "name": "9 to 5",
+      "artists": "Dolly Parton",
+      "album": "9 To 5 And Odd Jobs",
+      "popularity": 77,
+      "tempo": 105.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.813,
+      "danceability": 0.554,
+      "acousticness": 0.416,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.046,
+      "duration_ms": 162466,
+      "slug": "9-to-5-dolly-parton"
+    },
+    {
+      "name": "The Boys Of Summer",
+      "artists": "Don Henley",
+      "album": "Building The Perfect Beast",
+      "popularity": 77,
+      "tempo": 176.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.549,
+      "valence": 0.907,
+      "danceability": 0.516,
+      "acousticness": 0.501,
+      "instrumentalness": 0.006,
+      "loudness": -13.7,
+      "speechiness": 0.037,
+      "duration_ms": 288733,
+      "slug": "the-boys-of-summer-don-henley"
+    },
+    {
+      "name": "A Horse with No Name",
+      "artists": "America;George Martin",
+      "album": "America",
+      "popularity": 76,
+      "tempo": 123.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.506,
+      "valence": 0.831,
+      "danceability": 0.654,
+      "acousticness": 0.686,
+      "instrumentalness": 0.015,
+      "loudness": -17.2,
+      "speechiness": 0.053,
+      "duration_ms": 252239,
+      "slug": "a-horse-with-no-name-america"
+    },
+    {
+      "name": "Be Like That - feat. Swae Lee & Khalid",
+      "artists": "Kane Brown;Swae Lee;Khalid",
+      "album": "Be Like That (feat. Swae Lee & Khalid)",
+      "popularity": 75,
+      "tempo": 87.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.626,
+      "valence": 0.322,
+      "danceability": 0.727,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.073,
+      "duration_ms": 191406,
+      "slug": "be-like-that-feat-swae-lee-khalid-kane-brown"
+    },
+    {
+      "name": "In Case You Didn't Know",
+      "artists": "Brett Young",
+      "album": "Brett Young",
+      "popularity": 75,
+      "tempo": 148.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.536,
+      "valence": 0.434,
+      "danceability": 0.607,
+      "acousticness": 0.386,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.03,
+      "duration_ms": 224853,
+      "slug": "in-case-you-didnt-know-brett-young"
+    },
+    {
+      "name": "The Bones",
+      "artists": "Maren Morris",
+      "album": "GIRL",
+      "popularity": 75,
+      "tempo": 77.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.57,
+      "valence": 0.334,
+      "danceability": 0.612,
+      "acousticness": 0.278,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.035,
+      "duration_ms": 197293,
+      "slug": "the-bones-maren-morris"
+    },
+    {
+      "name": "Life is a Highway",
+      "artists": "Rascal Flatts",
+      "album": "Me And My Gang",
+      "popularity": 75,
+      "tempo": 103.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.655,
+      "danceability": 0.582,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.073,
+      "duration_ms": 276320,
+      "slug": "life-is-a-highway-rascal-flatts"
+    },
+    {
+      "name": "Take Me Home, Country Roads",
+      "artists": "John Denver",
+      "album": "The John Denver Collection, Vol 1: Take Me Home Country Roads",
+      "popularity": 75,
+      "tempo": 82.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.43,
+      "valence": 0.547,
+      "danceability": 0.38,
+      "acousticness": 0.546,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.029,
+      "duration_ms": 197813,
+      "slug": "take-me-home-country-roads-john-denver"
+    },
+    {
+      "name": "The Gambler",
+      "artists": "Kenny Rogers",
+      "album": "The Gambler",
+      "popularity": 75,
+      "tempo": 87.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.501,
+      "valence": 0.86,
+      "danceability": 0.671,
+      "acousticness": 0.342,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.059,
+      "duration_ms": 214880,
+      "slug": "the-gambler-kenny-rogers"
+    },
+    {
+      "name": "Next Thing You Know",
+      "artists": "Jordan Davis",
+      "album": "Next Thing You Know",
+      "popularity": 75,
+      "tempo": 78.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.597,
+      "valence": 0.414,
+      "danceability": 0.557,
+      "acousticness": 0.646,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.048,
+      "duration_ms": 175237,
+      "slug": "next-thing-you-know-jordan-davis"
+    },
+    {
+      "name": "Play It Again",
+      "artists": "Luke Bryan",
+      "album": "Crash My Party",
+      "popularity": 75,
+      "tempo": 143.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.886,
+      "valence": 0.595,
+      "danceability": 0.506,
+      "acousticness": 0.092,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.066,
+      "duration_ms": 226866,
+      "slug": "play-it-again-luke-bryan"
+    },
+    {
+      "name": "Need You Now",
+      "artists": "Lady A",
+      "album": "Need You Now",
+      "popularity": 74,
+      "tempo": 107.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.316,
+      "danceability": 0.581,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.032,
+      "duration_ms": 236440,
+      "slug": "need-you-now-lady-a"
+    },
+    {
+      "name": "Hurt",
+      "artists": "Johnny Cash",
+      "album": "American IV: The Man Comes Around",
+      "popularity": 74,
+      "tempo": 90.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.392,
+      "valence": 0.163,
+      "danceability": 0.534,
+      "acousticness": 0.649,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.027,
+      "duration_ms": 216533,
+      "slug": "hurt-johnny-cash"
+    },
+    {
+      "name": "The Good Ones",
+      "artists": "Gabby Barrett",
+      "album": "Goldmine",
+      "popularity": 74,
+      "tempo": 90.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.552,
+      "valence": 0.331,
+      "danceability": 0.519,
+      "acousticness": 0.18,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.026,
+      "duration_ms": 215140,
+      "slug": "the-good-ones-gabby-barrett"
+    },
+    {
+      "name": "I Hope",
+      "artists": "Gabby Barrett",
+      "album": "Goldmine",
+      "popularity": 74,
+      "tempo": 76.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.536,
+      "valence": 0.377,
+      "danceability": 0.466,
+      "acousticness": 0.095,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.043,
+      "duration_ms": 210772,
+      "slug": "i-hope-gabby-barrett"
+    },
+    {
+      "name": "Right Down the Line",
+      "artists": "Gerry Rafferty",
+      "album": "City to City",
+      "popularity": 74,
+      "tempo": 128.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.322,
+      "valence": 0.77,
+      "danceability": 0.783,
+      "acousticness": 0.213,
+      "instrumentalness": 0.002,
+      "loudness": -15.1,
+      "speechiness": 0.034,
+      "duration_ms": 267773,
+      "slug": "right-down-the-line-gerry-rafferty"
+    },
+    {
+      "name": "Layla",
+      "artists": "Derek & The Dominos",
+      "album": "Layla And Other Assorted Love Songs (Remastered 2010)",
+      "popularity": 74,
+      "tempo": 115.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.497,
+      "danceability": 0.404,
+      "acousticness": 0.577,
+      "instrumentalness": 0.297,
+      "loudness": -3.9,
+      "speechiness": 0.067,
+      "duration_ms": 423840,
+      "slug": "layla-derek-the-dominos"
+    },
+    {
+      "name": "Simple Man",
+      "artists": "Lynyrd Skynyrd",
+      "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+      "popularity": 74,
+      "tempo": 120.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.403,
+      "danceability": 0.422,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.045,
+      "duration_ms": 356626,
+      "slug": "simple-man-lynyrd-skynyrd"
+    },
+    {
+      "name": "Old Time Rock & Roll",
+      "artists": "Bob Seger",
+      "album": "Stranger In Town",
+      "popularity": 74,
+      "tempo": 124.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.964,
+      "danceability": 0.714,
+      "acousticness": 0.206,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.04,
+      "duration_ms": 194146,
+      "slug": "old-time-rock-roll-bob-seger"
+    },
+    {
+      "name": "Take Me Home, Country Roads",
+      "artists": "John Denver",
+      "album": "Poems, Prayers and Promises",
+      "popularity": 73,
+      "tempo": 82.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.395,
+      "valence": 0.625,
+      "danceability": 0.462,
+      "acousticness": 0.758,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.026,
+      "duration_ms": 190160,
+      "slug": "take-me-home-country-roads-john-denver"
+    },
+    {
+      "name": "Your Man",
+      "artists": "Josh Turner",
+      "album": "Your Man",
+      "popularity": 73,
+      "tempo": 100.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.637,
+      "valence": 0.785,
+      "danceability": 0.744,
+      "acousticness": 0.337,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.024,
+      "duration_ms": 211893,
+      "slug": "your-man-josh-turner"
+    },
+    {
+      "name": "I Quit Drinking",
+      "artists": "Kelsea Ballerini;LANY",
+      "album": "I Quit Drinking",
+      "popularity": 73,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.418,
+      "valence": 0.386,
+      "danceability": 0.607,
+      "acousticness": 0.394,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.036,
+      "duration_ms": 171200,
+      "slug": "i-quit-drinking-kelsea-ballerini"
+    },
+    {
+      "name": "Life is a Highway",
+      "artists": "Rascal Flatts",
+      "album": "Cars (Original Motion Picture Soundtrack)",
+      "popularity": 73,
+      "tempo": 103.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.934,
+      "valence": 0.558,
+      "danceability": 0.562,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.061,
+      "duration_ms": 275640,
+      "slug": "life-is-a-highway-rascal-flatts"
+    },
+    {
+      "name": "Knockin' On Heaven's Door",
+      "artists": "Bob Dylan",
+      "album": "Pat Garrett & Billy The Kid (Soundtrack From The Motion Picture)",
+      "popularity": 73,
+      "tempo": 140.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.396,
+      "valence": 0.229,
+      "danceability": 0.513,
+      "acousticness": 0.251,
+      "instrumentalness": 0.177,
+      "loudness": -13.1,
+      "speechiness": 0.03,
+      "duration_ms": 149880,
+      "slug": "knockin-on-heavens-door-bob-dylan"
+    },
+    {
+      "name": "Jolene",
+      "artists": "Dolly Parton",
+      "album": "Jolene",
+      "popularity": 73,
+      "tempo": 110.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.537,
+      "valence": 0.809,
+      "danceability": 0.674,
+      "acousticness": 0.566,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.036,
+      "duration_ms": 161533,
+      "slug": "jolene-dolly-parton"
+    },
+    {
+      "name": "Heaven",
+      "artists": "Kane Brown",
+      "album": "Kane Brown (Deluxe Edition)",
+      "popularity": 73,
+      "tempo": 80.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.556,
+      "valence": 0.521,
+      "danceability": 0.677,
+      "acousticness": 0.263,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.031,
+      "duration_ms": 179506,
+      "slug": "heaven-kane-brown"
+    },
+    {
+      "name": "Born To Be Wild",
+      "artists": "Steppenwolf",
+      "album": "Steppenwolf",
+      "popularity": 73,
+      "tempo": 145.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.71,
+      "valence": 0.53,
+      "danceability": 0.438,
+      "acousticness": 0.262,
+      "instrumentalness": 0.537,
+      "loudness": -12.4,
+      "speechiness": 0.092,
+      "duration_ms": 210373,
+      "slug": "born-to-be-wild-steppenwolf"
+    },
+    {
+      "name": "Simple",
+      "artists": "Florida Georgia Line",
+      "album": "Can't Say I Ain't Country",
+      "popularity": 73,
+      "tempo": 199.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.882,
+      "valence": 0.864,
+      "danceability": 0.362,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.097,
+      "duration_ms": 185200,
+      "slug": "simple-florida-georgia-line"
+    },
+    {
+      "name": "Any Man Of Mine",
+      "artists": "Shania Twain",
+      "album": "The Woman In Me",
+      "popularity": 73,
+      "tempo": 78.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.784,
+      "danceability": 0.592,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.041,
+      "duration_ms": 246760,
+      "slug": "any-man-of-mine-shania-twain"
+    },
+    {
+      "name": "Memory",
+      "artists": "Kane Brown;blackbear",
+      "album": "Memory",
+      "popularity": 72,
+      "tempo": 113.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.889,
+      "valence": 0.845,
+      "danceability": 0.434,
+      "acousticness": 0.395,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.051,
+      "duration_ms": 153337,
+      "slug": "memory-kane-brown"
+    },
+    {
+      "name": "Speechless",
+      "artists": "Dan + Shay",
+      "album": "Dan + Shay",
+      "popularity": 72,
+      "tempo": 135.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.438,
+      "valence": 0.386,
+      "danceability": 0.616,
+      "acousticness": 0.356,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.03,
+      "duration_ms": 213386,
+      "slug": "speechless-dan-shay"
+    },
+    {
+      "name": "Tequila",
+      "artists": "Dan + Shay",
+      "album": "Dan + Shay",
+      "popularity": 72,
+      "tempo": 86.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.581,
+      "valence": 0.494,
+      "danceability": 0.489,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.028,
+      "duration_ms": 196746,
+      "slug": "tequila-dan-shay"
+    },
+    {
+      "name": "What Ifs (feat. Lauren Alaina)",
+      "artists": "Kane Brown;Lauren Alaina",
+      "album": "Kane Brown",
+      "popularity": 72,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.687,
+      "danceability": 0.612,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.028,
+      "duration_ms": 188253,
+      "slug": "what-ifs-feat-lauren-alaina-kane-brown"
+    },
+    {
+      "name": "You",
+      "artists": "Dan + Shay",
+      "album": "Good Things",
+      "popularity": 72,
+      "tempo": 169.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.572,
+      "valence": 0.52,
+      "danceability": 0.544,
+      "acousticness": 0.118,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.032,
+      "duration_ms": 196253,
+      "slug": "you-dan-shay"
+    },
+    {
+      "name": "Chattahoochee",
+      "artists": "Alan Jackson",
+      "album": "A Lot About Livin' (And A Little 'Bout Love)",
+      "popularity": 72,
+      "tempo": 174.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.706,
+      "valence": 0.819,
+      "danceability": 0.606,
+      "acousticness": 0.362,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.038,
+      "duration_ms": 148160,
+      "slug": "chattahoochee-alan-jackson"
+    },
+    {
+      "name": "Somebody Like That",
+      "artists": "Tenille Arts",
+      "album": "Love, Heartbreak, & Everything in Between",
+      "popularity": 72,
+      "tempo": 105.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.58,
+      "danceability": 0.574,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.049,
+      "duration_ms": 198208,
+      "slug": "somebody-like-that-tenille-arts"
+    },
+    {
+      "name": "Body Like A Back Road",
+      "artists": "Sam Hunt",
+      "album": "Body Like A Back Road",
+      "popularity": 72,
+      "tempo": 98.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.458,
+      "valence": 0.661,
+      "danceability": 0.732,
+      "acousticness": 0.447,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.031,
+      "duration_ms": 165386,
+      "slug": "body-like-a-back-road-sam-hunt"
+    },
+    {
+      "name": "The Bones - with Hozier",
+      "artists": "Maren Morris;Hozier",
+      "album": "The Bones (with Hozier)",
+      "popularity": 71,
+      "tempo": 76.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.597,
+      "valence": 0.355,
+      "danceability": 0.561,
+      "acousticness": 0.286,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.041,
+      "duration_ms": 197298,
+      "slug": "the-bones-with-hozier-maren-morris"
+    },
+    {
+      "name": "Annie's Song",
+      "artists": "John Denver",
+      "album": "Back Home Again",
+      "popularity": 71,
+      "tempo": 146.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.305,
+      "valence": 0.464,
+      "danceability": 0.304,
+      "acousticness": 0.871,
+      "instrumentalness": 0.004,
+      "loudness": -10.9,
+      "speechiness": 0.03,
+      "duration_ms": 180693,
+      "slug": "annies-song-john-denver"
+    },
+    {
+      "name": "What Hurts The Most",
+      "artists": "Rascal Flatts",
+      "album": "Me And My Gang",
+      "popularity": 71,
+      "tempo": 136.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.674,
+      "valence": 0.33,
+      "danceability": 0.537,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.028,
+      "duration_ms": 214106,
+      "slug": "what-hurts-the-most-rascal-flatts"
+    },
+    {
+      "name": "Amazed",
+      "artists": "Lonestar",
+      "album": "Lonely Grill",
+      "popularity": 71,
+      "tempo": 139.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.243,
+      "danceability": 0.561,
+      "acousticness": 0.26,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.032,
+      "duration_ms": 240866,
+      "slug": "amazed-lonestar"
+    },
+    {
+      "name": "H.O.L.Y.",
+      "artists": "Florida Georgia Line",
+      "album": "Dig Your Roots",
+      "popularity": 71,
+      "tempo": 78.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.666,
+      "valence": 0.564,
+      "danceability": 0.523,
+      "acousticness": 0.401,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.033,
+      "duration_ms": 194186,
+      "slug": "holy-florida-georgia-line"
+    },
+    {
+      "name": "Need You Now",
+      "artists": "Lady A",
+      "album": "Need You Now",
+      "popularity": 71,
+      "tempo": 107.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.622,
+      "valence": 0.231,
+      "danceability": 0.587,
+      "acousticness": 0.093,
+      "instrumentalness": 0.001,
+      "loudness": -5.5,
+      "speechiness": 0.03,
+      "duration_ms": 277573,
+      "slug": "need-you-now-lady-a"
+    },
+    {
+      "name": "Cowboy Take Me Away",
+      "artists": "The Chicks",
+      "album": "Fly",
+      "popularity": 71,
+      "tempo": 164.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.622,
+      "valence": 0.455,
+      "danceability": 0.467,
+      "acousticness": 0.365,
+      "instrumentalness": 0.005,
+      "loudness": -7.3,
+      "speechiness": 0.031,
+      "duration_ms": 287266,
+      "slug": "cowboy-take-me-away-the-chicks"
+    },
+    {
+      "name": "Good Time",
+      "artists": "Alan Jackson",
+      "album": "Good Time",
+      "popularity": 71,
+      "tempo": 132.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.767,
+      "valence": 0.73,
+      "danceability": 0.652,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.037,
+      "duration_ms": 306773,
+      "slug": "good-time-alan-jackson"
+    },
+    {
+      "name": "Boot Scootin' Boogie",
+      "artists": "Brooks & Dunn",
+      "album": "#1s ... and then some",
+      "popularity": 71,
+      "tempo": 130.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.817,
+      "valence": 0.862,
+      "danceability": 0.656,
+      "acousticness": 0.22,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.043,
+      "duration_ms": 198226,
+      "slug": "boot-scootin-boogie-brooks-dunn"
+    },
+    {
+      "name": "10,000 Hours (with Justin Bieber)",
+      "artists": "Dan + Shay;Justin Bieber",
+      "album": "Good Things",
+      "popularity": 70,
+      "tempo": 90.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.43,
+      "danceability": 0.654,
+      "acousticness": 0.149,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.026,
+      "duration_ms": 167693,
+      "slug": "10000-hours-with-justin-bieber-dan-shay"
+    },
+    {
+      "name": "Glad You Exist",
+      "artists": "Dan + Shay",
+      "album": "Glad You Exist",
+      "popularity": 70,
+      "tempo": 104.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.66,
+      "danceability": 0.748,
+      "acousticness": 0.235,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.035,
+      "duration_ms": 144533,
+      "slug": "glad-you-exist-dan-shay"
+    },
+    {
+      "name": "Grand",
+      "artists": "Kane Brown",
+      "album": "Grand",
+      "popularity": 70,
+      "tempo": 168.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.856,
+      "valence": 0.48,
+      "danceability": 0.583,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.044,
+      "duration_ms": 178973,
+      "slug": "grand-kane-brown"
+    },
+    {
+      "name": "Made For You",
+      "artists": "Jake Owen",
+      "album": "Greetings From...Jake",
+      "popularity": 70,
+      "tempo": 82.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.441,
+      "valence": 0.337,
+      "danceability": 0.581,
+      "acousticness": 0.77,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.027,
+      "duration_ms": 238400,
+      "slug": "made-for-you-jake-owen"
+    },
+    {
+      "name": "Rainbow",
+      "artists": "Kacey Musgraves",
+      "album": "Golden Hour",
+      "popularity": 70,
+      "tempo": 130.4,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.197,
+      "valence": 0.349,
+      "danceability": 0.581,
+      "acousticness": 0.88,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.033,
+      "duration_ms": 214293,
+      "slug": "rainbow-kacey-musgraves"
+    },
+    {
+      "name": "Marry Me",
+      "artists": "Thomas Rhett",
+      "album": "Life Changes",
+      "popularity": 70,
+      "tempo": 85.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.412,
+      "valence": 0.474,
+      "danceability": 0.333,
+      "acousticness": 0.098,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.029,
+      "duration_ms": 205453,
+      "slug": "marry-me-thomas-rhett"
+    },
+    {
+      "name": "Girl Crush",
+      "artists": "Little Big Town",
+      "album": "Pain Killer",
+      "popularity": 70,
+      "tempo": 173.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.225,
+      "valence": 0.355,
+      "danceability": 0.5,
+      "acousticness": 0.842,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.03,
+      "duration_ms": 193320,
+      "slug": "girl-crush-little-big-town"
+    },
+    {
+      "name": "Like a Rolling Stone",
+      "artists": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "popularity": 70,
+      "tempo": 95.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.557,
+      "danceability": 0.482,
+      "acousticness": 0.731,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.032,
+      "duration_ms": 369600,
+      "slug": "like-a-rolling-stone-bob-dylan"
+    },
+    {
+      "name": "Let Your Love Flow",
+      "artists": "The Bellamy Brothers",
+      "album": "Bellamy Brothers",
+      "popularity": 70,
+      "tempo": 109.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.553,
+      "valence": 0.946,
+      "danceability": 0.679,
+      "acousticness": 0.061,
+      "instrumentalness": 0.0,
+      "loudness": -14.7,
+      "speechiness": 0.032,
+      "duration_ms": 198760,
+      "slug": "let-your-love-flow-the-bellamy-brothers"
+    },
+    {
+      "name": "GOOD TIME",
+      "artists": "Niko Moon",
+      "album": "GOOD TIME",
+      "popularity": 70,
+      "tempo": 138.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.59,
+      "valence": 0.687,
+      "danceability": 0.802,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.049,
+      "duration_ms": 214720,
+      "slug": "good-time-niko-moon"
+    },
+    {
+      "name": "Jolene",
+      "artists": "Dolly Parton",
+      "album": "Jolene (Expanded Edition)",
+      "popularity": 70,
+      "tempo": 110.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.537,
+      "valence": 0.809,
+      "danceability": 0.674,
+      "acousticness": 0.566,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.036,
+      "duration_ms": 161533,
+      "slug": "jolene-dolly-parton"
+    },
+    {
+      "name": "Amarillo By Morning",
+      "artists": "George Strait",
+      "album": "Strait From The Heart",
+      "popularity": 70,
+      "tempo": 121.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.361,
+      "valence": 0.621,
+      "danceability": 0.606,
+      "acousticness": 0.264,
+      "instrumentalness": 0.0,
+      "loudness": -16.0,
+      "speechiness": 0.035,
+      "duration_ms": 173466,
+      "slug": "amarillo-by-morning-george-strait"
+    },
+    {
+      "name": "How Do I Live",
+      "artists": "LeAnn Rimes",
+      "album": "Greatest Hits",
+      "popularity": 69,
+      "tempo": 128.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.462,
+      "valence": 0.258,
+      "danceability": 0.577,
+      "acousticness": 0.128,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.028,
+      "duration_ms": 266973,
+      "slug": "how-do-i-live-leann-rimes"
+    },
+    {
+      "name": "My Church",
+      "artists": "Maren Morris",
+      "album": "HERO (Deluxe Edition)",
+      "popularity": 69,
+      "tempo": 77.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.664,
+      "danceability": 0.517,
+      "acousticness": 0.243,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.036,
+      "duration_ms": 197930,
+      "slug": "my-church-maren-morris"
+    },
+    {
+      "name": "Blowin' in the Wind",
+      "artists": "Bob Dylan",
+      "album": "The Freewheelin' Bob Dylan",
+      "popularity": 68,
+      "tempo": 174.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.099,
+      "valence": 0.44,
+      "danceability": 0.38,
+      "acousticness": 0.914,
+      "instrumentalness": 0.0,
+      "loudness": -20.6,
+      "speechiness": 0.051,
+      "duration_ms": 165426,
+      "slug": "blowin-in-the-wind-bob-dylan"
+    },
+    {
+      "name": "Butterflies",
+      "artists": "Kacey Musgraves",
+      "album": "Golden Hour",
+      "popularity": 68,
+      "tempo": 142.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.614,
+      "valence": 0.411,
+      "danceability": 0.689,
+      "acousticness": 0.252,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.031,
+      "duration_ms": 219053,
+      "slug": "butterflies-kacey-musgraves"
+    },
+    {
+      "name": "From This Moment On - Pop On-Tour Version",
+      "artists": "Shania Twain",
+      "album": "Greatest Hits",
+      "popularity": 68,
+      "tempo": 135.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.505,
+      "valence": 0.22,
+      "danceability": 0.46,
+      "acousticness": 0.42,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.027,
+      "duration_ms": 235106,
+      "slug": "from-this-moment-on-pop-on-tour-version-shania-twain"
+    },
+    {
+      "name": "More Hearts Than Mine",
+      "artists": "Ingrid Andress",
+      "album": "Lady Like",
+      "popularity": 68,
+      "tempo": 78.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.428,
+      "valence": 0.361,
+      "danceability": 0.375,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.029,
+      "duration_ms": 214786,
+      "slug": "more-hearts-than-mine-ingrid-andress"
+    },
+    {
+      "name": "Achy Breaky Heart",
+      "artists": "Billy Ray Cyrus",
+      "album": "Some Gave All",
+      "popularity": 68,
+      "tempo": 121.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.563,
+      "valence": 0.961,
+      "danceability": 0.8,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.03,
+      "duration_ms": 203373,
+      "slug": "achy-breaky-heart-billy-ray-cyrus"
+    },
+    {
+      "name": "Desperado - 2013 Remaster",
+      "artists": "Eagles",
+      "album": "Desperado (2013 Remaster)",
+      "popularity": 68,
+      "tempo": 60.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.224,
+      "valence": 0.18,
+      "danceability": 0.228,
+      "acousticness": 0.946,
+      "instrumentalness": 0.0,
+      "loudness": -12.7,
+      "speechiness": 0.031,
+      "duration_ms": 213712,
+      "slug": "desperado-2013-remaster-eagles"
+    },
+    {
+      "name": "Baby Blue - Remastered 2010",
+      "artists": "Badfinger",
+      "album": "Straight Up (Remastered 2010 / Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 124.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.515,
+      "danceability": 0.623,
+      "acousticness": 0.019,
+      "instrumentalness": 0.013,
+      "loudness": -7.8,
+      "speechiness": 0.066,
+      "duration_ms": 217346,
+      "slug": "baby-blue-remastered-2010-badfinger"
+    },
+    {
+      "name": "I Should Probably Go To Bed",
+      "artists": "Dan + Shay",
+      "album": "I Should Probably Go To Bed",
+      "popularity": 67,
+      "tempo": 131.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.277,
+      "valence": 0.309,
+      "danceability": 0.721,
+      "acousticness": 0.634,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.036,
+      "duration_ms": 171826,
+      "slug": "i-should-probably-go-to-bed-dan-shay"
+    },
+    {
+      "name": "Islands in the Stream",
+      "artists": "Dolly Parton;Kenny Rogers",
+      "album": "Dolly",
+      "popularity": 67,
+      "tempo": 204.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.473,
+      "valence": 0.741,
+      "danceability": 0.592,
+      "acousticness": 0.681,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.035,
+      "duration_ms": 249360,
+      "slug": "islands-in-the-stream-dolly-parton"
+    },
+    {
+      "name": "Breathe",
+      "artists": "Faith Hill",
+      "album": "Breathe",
+      "popularity": 67,
+      "tempo": 136.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.496,
+      "valence": 0.278,
+      "danceability": 0.529,
+      "acousticness": 0.173,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.029,
+      "duration_ms": 250546,
+      "slug": "breathe-faith-hill"
+    },
+    {
+      "name": "New Kid in Town - 2013 Remaster",
+      "artists": "Eagles",
+      "album": "Hotel California (2013 Remaster)",
+      "popularity": 67,
+      "tempo": 107.4,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.425,
+      "valence": 0.651,
+      "danceability": 0.649,
+      "acousticness": 0.378,
+      "instrumentalness": 0.001,
+      "loudness": -9.8,
+      "speechiness": 0.027,
+      "duration_ms": 304925,
+      "slug": "new-kid-in-town-2013-remaster-eagles"
+    }
+  ]
+}

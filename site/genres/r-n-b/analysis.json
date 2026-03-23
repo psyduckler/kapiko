@@ -1,0 +1,2801 @@
+{
+  "genre": "R&B",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 76.008,
+    "max": 176.069,
+    "mean": 122.697,
+    "median": 120.439,
+    "q1": 104.949,
+    "q3": 143.049,
+    "histogram": {
+      "70-79": 6,
+      "80-89": 9,
+      "90-99": 8,
+      "100-109": 9,
+      "110-119": 13,
+      "120-129": 14,
+      "130-139": 11,
+      "140-149": 18,
+      "150-159": 4,
+      "160-169": 4,
+      "170-179": 4
+    }
+  },
+  "key_distribution": {
+    "E": 12,
+    "G#/Ab": 12,
+    "C#/Db": 10,
+    "F": 9,
+    "D": 9,
+    "A#/Bb": 8,
+    "A": 8,
+    "G": 8,
+    "F#/Gb": 7,
+    "D#/Eb": 7,
+    "C": 6,
+    "B": 4
+  },
+  "mode_distribution": {
+    "Minor": 37,
+    "Major": 63
+  },
+  "key_mode_distribution": {
+    "E Minor": 8,
+    "G#/Ab Major": 8,
+    "G Major": 8,
+    "A Major": 7,
+    "C#/Db Major": 7,
+    "D Major": 6,
+    "F#/Gb Minor": 5,
+    "C Major": 5,
+    "F Minor": 5,
+    "D#/Eb Major": 5,
+    "A#/Bb Minor": 4,
+    "G#/Ab Minor": 4,
+    "A#/Bb Major": 4,
+    "F Major": 4,
+    "E Major": 4,
+    "B Major": 3,
+    "C#/Db Minor": 3,
+    "D Minor": 3,
+    "F#/Gb Major": 2,
+    "D#/Eb Minor": 2,
+    "B Minor": 1,
+    "C Minor": 1,
+    "A Minor": 1
+  },
+  "energy": {
+    "min": 0.193,
+    "max": 0.959,
+    "mean": 0.603,
+    "median": 0.583,
+    "q1": 0.485,
+    "q3": 0.725
+  },
+  "valence": {
+    "min": 0.036,
+    "max": 0.983,
+    "mean": 0.576,
+    "median": 0.559,
+    "q1": 0.406,
+    "q3": 0.768
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.547,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.139
+    },
+    {
+      "energy": 0.393,
+      "valence": 0.202
+    },
+    {
+      "energy": 0.512,
+      "valence": 0.638
+    },
+    {
+      "energy": 0.582,
+      "valence": 0.675
+    },
+    {
+      "energy": 0.625,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.306,
+      "valence": 0.605
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.545,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.515,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.646,
+      "valence": 0.67
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.542
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.366
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.208,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.639,
+      "valence": 0.395
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.549,
+      "valence": 0.552
+    },
+    {
+      "energy": 0.434,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.518,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.626
+    },
+    {
+      "energy": 0.495,
+      "valence": 0.967
+    },
+    {
+      "energy": 0.689,
+      "valence": 0.547
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.406
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.321
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.529
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.704
+    },
+    {
+      "energy": 0.458,
+      "valence": 0.616
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.852,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.335,
+      "valence": 0.474
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.247,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.602,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.615,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.907
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.232,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.672,
+      "valence": 0.16
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.569,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.462,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.49,
+      "valence": 0.202
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.538
+    },
+    {
+      "energy": 0.546,
+      "valence": 0.086
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.142
+    },
+    {
+      "energy": 0.478,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.485,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.786
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.406
+    },
+    {
+      "energy": 0.592,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.881
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.559
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.404,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.336,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.954
+    },
+    {
+      "energy": 0.193,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.819,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.672
+    },
+    {
+      "energy": 0.377,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.843
+    },
+    {
+      "energy": 0.901,
+      "valence": 0.651
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.431
+    },
+    {
+      "energy": 0.442,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.559
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.322
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.542
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.625,
+      "valence": 0.552
+    },
+    {
+      "energy": 0.231,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.835
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.39,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.627,
+      "valence": 0.871
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.738
+    },
+    {
+      "energy": 0.495,
+      "valence": 0.825
+    },
+    {
+      "energy": 0.487,
+      "valence": 0.98
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.772
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.858
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.983
+    },
+    {
+      "energy": 0.959,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.622
+    },
+    {
+      "energy": 0.39,
+      "valence": 0.977
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.355
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.936,
+    "mean": 0.35,
+    "median": 0.324,
+    "q1": 0.066,
+    "q3": 0.627
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.847,
+    "mean": 0.009,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.72,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.659,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.492,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.827,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.57,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.159,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.354,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.415,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.167,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.281,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.741,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.847
+    },
+    {
+      "acousticness": 0.396,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.455,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.712,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.707,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.228,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.801,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.289,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.476,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.747,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.184,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.872,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.399,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.428,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.703,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.839,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.281,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.083,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.278,
+      "instrumentalness": 0.039
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.324,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.52,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.619,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.906,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.32,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.557,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.105,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.703,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.415,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.725,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.794,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.584,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.627,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.671,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.667,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.394,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.758,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.429,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.323,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.831,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.503,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.642,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.377,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.496,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.595,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.685,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.475,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.432,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.369,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.636,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 115200,
+    "max": 357266,
+    "mean": 193762.22,
+    "median": 189026.5,
+    "q1": 155080,
+    "q3": 228706
+  },
+  "danceability": {
+    "min": 0.33,
+    "max": 0.907,
+    "mean": 0.65,
+    "median": 0.642,
+    "q1": 0.545,
+    "q3": 0.757
+  },
+  "loudness": {
+    "min": -16.725,
+    "max": -1.431,
+    "mean": -7.854,
+    "median": -7.524,
+    "q1": -9.395,
+    "q3": -6.006
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.701,
+    "mean": 0.141,
+    "median": 0.064,
+    "q1": 0.035,
+    "q3": 0.222
+  },
+  "top_artists": [
+    {
+      "name": "Lil Tjay",
+      "count": 22
+    },
+    {
+      "name": "Sleepy Hallow",
+      "count": 7
+    },
+    {
+      "name": "Fivio Foreign",
+      "count": 7
+    },
+    {
+      "name": "Crystal Castles",
+      "count": 4
+    },
+    {
+      "name": "Charlie Brown Jr.",
+      "count": 4
+    },
+    {
+      "name": "Tungevaag",
+      "count": 3
+    },
+    {
+      "name": "Ricky Nelson",
+      "count": 3
+    },
+    {
+      "name": "Kate Bush",
+      "count": 2
+    },
+    {
+      "name": "Ben E. King",
+      "count": 2
+    },
+    {
+      "name": "Offset",
+      "count": 2
+    },
+    {
+      "name": "Moneybagg Yo",
+      "count": 2
+    },
+    {
+      "name": "Chuck Berry",
+      "count": 2
+    },
+    {
+      "name": "Roy Orbison",
+      "count": 2
+    },
+    {
+      "name": "Sheff G",
+      "count": 2
+    },
+    {
+      "name": "The Kid LAROI",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Running Up That Hill (A Deal With God)",
+      "artists": "Kate Bush",
+      "album": "Hounds Of Love",
+      "popularity": 90,
+      "tempo": 108.4,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.547,
+      "valence": 0.197,
+      "danceability": 0.629,
+      "acousticness": 0.72,
+      "instrumentalness": 0.003,
+      "loudness": -13.1,
+      "speechiness": 0.055,
+      "duration_ms": 298933,
+      "slug": "running-up-that-hill-a-deal-with-god-kate-bush"
+    },
+    {
+      "name": "Running Up That Hill (A Deal With God) - 2018 Remaster",
+      "artists": "Kate Bush",
+      "album": "Hounds of Love (2018 Remaster)",
+      "popularity": 85,
+      "tempo": 108.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.533,
+      "valence": 0.139,
+      "danceability": 0.625,
+      "acousticness": 0.659,
+      "instrumentalness": 0.003,
+      "loudness": -11.9,
+      "speechiness": 0.06,
+      "duration_ms": 300840,
+      "slug": "running-up-that-hill-a-deal-with-god-2018-remaster-kate-bush"
+    },
+    {
+      "name": "Calling My Phone",
+      "artists": "Lil Tjay;6LACK",
+      "album": "Destined 2 Win",
+      "popularity": 81,
+      "tempo": 104.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.393,
+      "valence": 0.202,
+      "danceability": 0.907,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.054,
+      "duration_ms": 205458,
+      "slug": "calling-my-phone-lil-tjay"
+    },
+    {
+      "name": "2055",
+      "artists": "Sleepy Hallow",
+      "album": "Still Sleep?",
+      "popularity": 81,
+      "tempo": 80.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.512,
+      "valence": 0.638,
+      "danceability": 0.829,
+      "acousticness": 0.492,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.187,
+      "duration_ms": 123986,
+      "slug": "2055-sleepy-hallow"
+    },
+    {
+      "name": "Die Young (feat. 347aidan)",
+      "artists": "Sleepy Hallow;347aidan",
+      "album": "Die Young (feat. 347aidan)",
+      "popularity": 81,
+      "tempo": 77.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.582,
+      "valence": 0.675,
+      "danceability": 0.808,
+      "acousticness": 0.827,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.338,
+      "duration_ms": 148816,
+      "slug": "die-young-feat-347aidan-sleepy-hallow"
+    },
+    {
+      "name": "Beat the Odds",
+      "artists": "Lil Tjay",
+      "album": "Beat the Odds",
+      "popularity": 81,
+      "tempo": 84.8,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.625,
+      "valence": 0.478,
+      "danceability": 0.498,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.342,
+      "duration_ms": 150000,
+      "slug": "beat-the-odds-lil-tjay"
+    },
+    {
+      "name": "Stand by Me",
+      "artists": "Ben E. King",
+      "album": "Don't Play That Song (Mono)",
+      "popularity": 80,
+      "tempo": 118.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.306,
+      "valence": 0.605,
+      "danceability": 0.65,
+      "acousticness": 0.57,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.039,
+      "duration_ms": 180055,
+      "slug": "stand-by-me-ben-e-king"
+    },
+    {
+      "name": "Bitter Sweet Symphony",
+      "artists": "The Verve",
+      "album": "Urban Hymns (Remastered 2016)",
+      "popularity": 80,
+      "tempo": 171.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.518,
+      "danceability": 0.356,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.048,
+      "duration_ms": 357266,
+      "slug": "bitter-sweet-symphony-the-verve"
+    },
+    {
+      "name": "In My Head",
+      "artists": "Lil Tjay",
+      "album": "In My Head",
+      "popularity": 79,
+      "tempo": 143.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.545,
+      "valence": 0.407,
+      "danceability": 0.684,
+      "acousticness": 0.159,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.121,
+      "duration_ms": 135264,
+      "slug": "in-my-head-lil-tjay"
+    },
+    {
+      "name": "F.N",
+      "artists": "Lil Tjay",
+      "album": "True 2 Myself",
+      "popularity": 78,
+      "tempo": 120.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.515,
+      "valence": 0.321,
+      "danceability": 0.567,
+      "acousticness": 0.354,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.247,
+      "duration_ms": 224000,
+      "slug": "fn-lil-tjay"
+    },
+    {
+      "name": "Run It Up (feat. Offset & Moneybagg Yo)",
+      "artists": "Lil Tjay;Offset;Moneybagg Yo",
+      "album": "Destined 2 Win",
+      "popularity": 78,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.575,
+      "valence": 0.671,
+      "danceability": 0.88,
+      "acousticness": 0.415,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.163,
+      "duration_ms": 232048,
+      "slug": "run-it-up-feat-offset-moneybagg-yo-lil-tjay"
+    },
+    {
+      "name": "No Diggity",
+      "artists": "Blackstreet;Dr. Dre;Queen Pen",
+      "album": "Another Level",
+      "popularity": 77,
+      "tempo": 88.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.646,
+      "valence": 0.67,
+      "danceability": 0.867,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.288,
+      "duration_ms": 304600,
+      "slug": "no-diggity-blackstreet"
+    },
+    {
+      "name": "Put Your Records On",
+      "artists": "Corinne Bailey Rae",
+      "album": "Corinne Bailey Rae",
+      "popularity": 77,
+      "tempo": 96.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.542,
+      "danceability": 0.739,
+      "acousticness": 0.167,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.036,
+      "duration_ms": 215360,
+      "slug": "put-your-records-on-corinne-bailey-rae"
+    },
+    {
+      "name": "Sex Sounds",
+      "artists": "Lil Tjay",
+      "album": "True 2 Myself",
+      "popularity": 76,
+      "tempo": 130.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.427,
+      "valence": 0.366,
+      "danceability": 0.857,
+      "acousticness": 0.281,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.112,
+      "duration_ms": 162453,
+      "slug": "sex-sounds-lil-tjay"
+    },
+    {
+      "name": "Johnny B. Goode",
+      "artists": "Chuck Berry",
+      "album": "Berry Is On Top",
+      "popularity": 76,
+      "tempo": 168.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.803,
+      "valence": 0.969,
+      "danceability": 0.534,
+      "acousticness": 0.741,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.074,
+      "duration_ms": 161560,
+      "slug": "johnny-b-goode-chuck-berry"
+    },
+    {
+      "name": "Transgender",
+      "artists": "Crystal Castles",
+      "album": "(III)",
+      "popularity": 75,
+      "tempo": 137.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.036,
+      "danceability": 0.522,
+      "acousticness": 0.0,
+      "instrumentalness": 0.847,
+      "loudness": -8.3,
+      "speechiness": 0.038,
+      "duration_ms": 184760,
+      "slug": "transgender-crystal-castles"
+    },
+    {
+      "name": "Unchained Melody",
+      "artists": "The Righteous Brothers",
+      "album": "Just Once In My Life",
+      "popularity": 75,
+      "tempo": 98.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.208,
+      "valence": 0.288,
+      "danceability": 0.339,
+      "acousticness": 0.396,
+      "instrumentalness": 0.001,
+      "loudness": -16.7,
+      "speechiness": 0.031,
+      "duration_ms": 218013,
+      "slug": "unchained-melody-the-righteous-brothers"
+    },
+    {
+      "name": "Headshot (feat. Polo G & Fivio Foreign)",
+      "artists": "Lil Tjay;Polo G;Fivio Foreign",
+      "album": "Destined 2 Win",
+      "popularity": 75,
+      "tempo": 118.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.639,
+      "valence": 0.395,
+      "danceability": 0.808,
+      "acousticness": 0.08,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.279,
+      "duration_ms": 144349,
+      "slug": "headshot-feat-polo-g-fivio-foreign-lil-tjay"
+    },
+    {
+      "name": "Young Folks",
+      "artists": "Peter Bjorn and John",
+      "album": "Writer's Block",
+      "popularity": 75,
+      "tempo": 138.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.662,
+      "danceability": 0.699,
+      "acousticness": 0.016,
+      "instrumentalness": 0.001,
+      "loudness": -6.0,
+      "speechiness": 0.038,
+      "duration_ms": 276693,
+      "slug": "young-folks-peter-bjorn-and-john"
+    },
+    {
+      "name": "Hungry Eyes - From \"Dirty Dancing\" Soundtrack",
+      "artists": "Eric Carmen",
+      "album": "The Definitive Collection",
+      "popularity": 74,
+      "tempo": 109.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.549,
+      "valence": 0.552,
+      "danceability": 0.712,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.025,
+      "duration_ms": 251066,
+      "slug": "hungry-eyes-from-dirty-dancing-soundtrack-eric-carmen"
+    },
+    {
+      "name": "2 Mins of Pain (feat. Alborosie)",
+      "artists": "Sleepy Hallow;Alborosie",
+      "album": "2 Mins of Pain (feat. Alborosie)",
+      "popularity": 74,
+      "tempo": 148.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.434,
+      "valence": 0.785,
+      "danceability": 0.886,
+      "acousticness": 0.101,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.403,
+      "duration_ms": 136695,
+      "slug": "2-mins-of-pain-feat-alborosie-sleepy-hallow"
+    },
+    {
+      "name": "2055",
+      "artists": "Sleepy Hallow",
+      "album": "2055",
+      "popularity": 73,
+      "tempo": 161.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.518,
+      "valence": 0.646,
+      "danceability": 0.775,
+      "acousticness": 0.455,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.311,
+      "duration_ms": 123986,
+      "slug": "2055-sleepy-hallow"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artists": "Roy Orbison",
+      "album": "Oh, Pretty Woman",
+      "popularity": 73,
+      "tempo": 127.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.958,
+      "danceability": 0.619,
+      "acousticness": 0.712,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.034,
+      "duration_ms": 178933,
+      "slug": "oh-pretty-woman-roy-orbison"
+    },
+    {
+      "name": "Weight On Me",
+      "artists": "Sheff G;Sleepy Hallow",
+      "album": "One and Only",
+      "popularity": 73,
+      "tempo": 122.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.533,
+      "valence": 0.626,
+      "danceability": 0.801,
+      "acousticness": 0.707,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.222,
+      "duration_ms": 157619,
+      "slug": "weight-on-me-sheff-g"
+    },
+    {
+      "name": "December, 1963 (Oh What a Night!)",
+      "artists": "Frankie Valli & The Four Seasons",
+      "album": "Who Loves You",
+      "popularity": 73,
+      "tempo": 104.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.495,
+      "valence": 0.967,
+      "danceability": 0.737,
+      "acousticness": 0.059,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.027,
+      "duration_ms": 197146,
+      "slug": "december-1963-oh-what-a-night-frankie-valli-the-four-seasons"
+    },
+    {
+      "name": "Love Is All Around - From \"Four Weddings And A Funeral\"",
+      "artists": "Wet Wet Wet",
+      "album": "Picture This (20th Anniversary Edition)",
+      "popularity": 72,
+      "tempo": 84.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.689,
+      "valence": 0.547,
+      "danceability": 0.523,
+      "acousticness": 0.228,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.027,
+      "duration_ms": 246240,
+      "slug": "love-is-all-around-from-four-weddings-and-a-funeral-wet-wet-wet"
+    },
+    {
+      "name": "No One Knows",
+      "artists": "Queens of the Stone Age",
+      "album": "Songs For The Deaf",
+      "popularity": 72,
+      "tempo": 170.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.685,
+      "danceability": 0.509,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.057,
+      "duration_ms": 278746,
+      "slug": "no-one-knows-queens-of-the-stone-age"
+    },
+    {
+      "name": "Paris to Tokyo",
+      "artists": "Fivio Foreign;The Kid LAROI",
+      "album": "Paris to Tokyo",
+      "popularity": 71,
+      "tempo": 146.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.787,
+      "valence": 0.406,
+      "danceability": 0.642,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.17,
+      "duration_ms": 130897,
+      "slug": "paris-to-tokyo-fivio-foreign"
+    },
+    {
+      "name": "Leaked",
+      "artists": "Lil Tjay",
+      "album": "True 2 Myself",
+      "popularity": 71,
+      "tempo": 97.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.619,
+      "valence": 0.321,
+      "danceability": 0.51,
+      "acousticness": 0.801,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.281,
+      "duration_ms": 220240,
+      "slug": "leaked-lil-tjay"
+    },
+    {
+      "name": "End Of The Road",
+      "artists": "Boyz II Men",
+      "album": "Cooleyhighharmony (Bonus Tracks Version)",
+      "popularity": 71,
+      "tempo": 149.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.427,
+      "valence": 0.529,
+      "danceability": 0.64,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.024,
+      "duration_ms": 351466,
+      "slug": "end-of-the-road-boyz-ii-men"
+    },
+    {
+      "name": "Two Weeks",
+      "artists": "Grizzly Bear",
+      "album": "Veckatimest",
+      "popularity": 71,
+      "tempo": 159.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.712,
+      "valence": 0.704,
+      "danceability": 0.537,
+      "acousticness": 0.289,
+      "instrumentalness": 0.006,
+      "loudness": -5.6,
+      "speechiness": 0.029,
+      "duration_ms": 243160,
+      "slug": "two-weeks-grizzly-bear"
+    },
+    {
+      "name": "No Suburban, Pt. 2",
+      "artists": "Sheff G",
+      "album": "One and Only",
+      "popularity": 71,
+      "tempo": 144.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.458,
+      "valence": 0.616,
+      "danceability": 0.85,
+      "acousticness": 0.476,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.339,
+      "duration_ms": 153561,
+      "slug": "no-suburban-pt-2-sheff-g"
+    },
+    {
+      "name": "City of Gods",
+      "artists": "Fivio Foreign;Kanye West;Alicia Keys",
+      "album": "City of Gods",
+      "popularity": 70,
+      "tempo": 147.4,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.497,
+      "danceability": 0.474,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.375,
+      "duration_ms": 256000,
+      "slug": "city-of-gods-fivio-foreign"
+    },
+    {
+      "name": "You Never Can Tell",
+      "artists": "Chuck Berry",
+      "album": "St. Louis To Liverpool",
+      "popularity": 70,
+      "tempo": 157.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.852,
+      "valence": 0.884,
+      "danceability": 0.525,
+      "acousticness": 0.731,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.222,
+      "duration_ms": 161906,
+      "slug": "you-never-can-tell-chuck-berry"
+    },
+    {
+      "name": "Put Your Head On My Shoulder",
+      "artists": "Paul Anka",
+      "album": "Put Your Head On My Shoulder: The Very Best Of Paul Anka",
+      "popularity": 69,
+      "tempo": 115.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.335,
+      "valence": 0.474,
+      "danceability": 0.547,
+      "acousticness": 0.747,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.031,
+      "duration_ms": 154733,
+      "slug": "put-your-head-on-my-shoulder-paul-anka"
+    },
+    {
+      "name": "Crimewave",
+      "artists": "Crystal Castles",
+      "album": "Crystal Castles",
+      "popularity": 69,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.691,
+      "valence": 0.888,
+      "danceability": 0.746,
+      "acousticness": 0.184,
+      "instrumentalness": 0.026,
+      "loudness": -7.5,
+      "speechiness": 0.04,
+      "duration_ms": 258453,
+      "slug": "crimewave-crystal-castles"
+    },
+    {
+      "name": "Not In The Mood (feat. Fivio Foreign & Kay Flock)",
+      "artists": "Lil Tjay;Fivio Foreign;Kay Flock",
+      "album": "Not In The Mood (feat. Fivio Foreign & Kay Flock)",
+      "popularity": 69,
+      "tempo": 141.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.82,
+      "valence": 0.357,
+      "danceability": 0.545,
+      "acousticness": 0.095,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.275,
+      "duration_ms": 150475,
+      "slug": "not-in-the-mood-feat-fivio-foreign-kay-flock-lil-tjay"
+    },
+    {
+      "name": "Vanished",
+      "artists": "Crystal Castles",
+      "album": "Crystal Castles",
+      "popularity": 69,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.868,
+      "valence": 0.641,
+      "danceability": 0.713,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.03,
+      "duration_ms": 242960,
+      "slug": "vanished-crystal-castles"
+    },
+    {
+      "name": "We Belong Together",
+      "artists": "Ritchie Valens",
+      "album": "Ritchie Valens",
+      "popularity": 69,
+      "tempo": 106.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.247,
+      "valence": 0.768,
+      "danceability": 0.684,
+      "acousticness": 0.872,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.028,
+      "duration_ms": 116626,
+      "slug": "we-belong-together-ritchie-valens"
+    },
+    {
+      "name": "Sugar Sugar",
+      "artists": "The Archies",
+      "album": "Everything's Archie",
+      "popularity": 69,
+      "tempo": 122.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.965,
+      "danceability": 0.757,
+      "acousticness": 0.399,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.028,
+      "duration_ms": 167213,
+      "slug": "sugar-sugar-the-archies"
+    },
+    {
+      "name": "Sing",
+      "artists": "Travis",
+      "album": "The Invisible Band",
+      "popularity": 69,
+      "tempo": 163.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.905,
+      "valence": 0.259,
+      "danceability": 0.33,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.05,
+      "duration_ms": 228800,
+      "slug": "sing-travis"
+    },
+    {
+      "name": "Hold On",
+      "artists": "Lil Tjay",
+      "album": "True 2 Myself",
+      "popularity": 68,
+      "tempo": 152.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.602,
+      "valence": 0.685,
+      "danceability": 0.691,
+      "acousticness": 0.123,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.209,
+      "duration_ms": 189480,
+      "slug": "hold-on-lil-tjay"
+    },
+    {
+      "name": "One Take",
+      "artists": "Lil Tjay",
+      "album": "True 2 Myself",
+      "popularity": 68,
+      "tempo": 148.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.615,
+      "valence": 0.351,
+      "danceability": 0.76,
+      "acousticness": 0.072,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.33,
+      "duration_ms": 168653,
+      "slug": "one-take-lil-tjay"
+    },
+    {
+      "name": "Let's Twist Again",
+      "artists": "Chubby Checker",
+      "album": "It's Pony Time/Let's Twist Again",
+      "popularity": 68,
+      "tempo": 167.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.709,
+      "valence": 0.907,
+      "danceability": 0.604,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.158,
+      "duration_ms": 137360,
+      "slug": "lets-twist-again-chubby-checker"
+    },
+    {
+      "name": "Tell 'Em",
+      "artists": "Rah Swish",
+      "album": "Tell 'Em",
+      "popularity": 67,
+      "tempo": 145.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.724,
+      "valence": 0.9,
+      "danceability": 0.831,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.203,
+      "duration_ms": 119233,
+      "slug": "tell-em-rah-swish"
+    },
+    {
+      "name": "Stand by Me",
+      "artists": "Ben E. King",
+      "album": "Don't Play That Song",
+      "popularity": 67,
+      "tempo": 119.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.232,
+      "valence": 0.673,
+      "danceability": 0.632,
+      "acousticness": 0.428,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.032,
+      "duration_ms": 175493,
+      "slug": "stand-by-me-ben-e-king"
+    },
+    {
+      "name": "Goin Up",
+      "artists": "Lil Tjay",
+      "album": "Goin Up",
+      "popularity": 67,
+      "tempo": 137.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.672,
+      "valence": 0.16,
+      "danceability": 0.732,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.148,
+      "duration_ms": 140601,
+      "slug": "goin-up-lil-tjay"
+    },
+    {
+      "name": "Deep End Freestyle",
+      "artists": "Sleepy Hallow;Foushe\u00e9",
+      "album": "Sleepy Hallow Presents: Sleepy For President",
+      "popularity": 67,
+      "tempo": 133.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.479,
+      "valence": 0.776,
+      "danceability": 0.868,
+      "acousticness": 0.703,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.445,
+      "duration_ms": 115200,
+      "slug": "deep-end-freestyle-sleepy-hallow"
+    },
+    {
+      "name": "Zoo York (feat. Fivio Foreign & Pop Smoke)",
+      "artists": "Lil Tjay;Fivio Foreign;Pop Smoke",
+      "album": "State of Emergency",
+      "popularity": 67,
+      "tempo": 92.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.569,
+      "valence": 0.303,
+      "danceability": 0.565,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.379,
+      "duration_ms": 214825,
+      "slug": "zoo-york-feat-fivio-foreign-pop-smoke-lil-tjay"
+    },
+    {
+      "name": "All I Have to Do Is Dream",
+      "artists": "The Everly Brothers",
+      "album": "The Very Best of The Everly Brothers",
+      "popularity": 67,
+      "tempo": 96.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.462,
+      "valence": 0.534,
+      "danceability": 0.534,
+      "acousticness": 0.839,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.027,
+      "duration_ms": 143333,
+      "slug": "all-i-have-to-do-is-dream-the-everly-brothers"
+    },
+    {
+      "name": "I'll Make Love To You",
+      "artists": "Boyz II Men",
+      "album": "II",
+      "popularity": 67,
+      "tempo": 142.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.49,
+      "valence": 0.202,
+      "danceability": 0.559,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.025,
+      "duration_ms": 236760,
+      "slug": "ill-make-love-to-you-boyz-ii-men"
+    },
+    {
+      "name": "Suburban, Pt. 2",
+      "artists": "22Gz",
+      "album": "Growth & Development",
+      "popularity": 67,
+      "tempo": 143.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.538,
+      "danceability": 0.83,
+      "acousticness": 0.281,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.701,
+      "duration_ms": 190746,
+      "slug": "suburban-pt-2-22gz"
+    },
+    {
+      "name": "Kerosene",
+      "artists": "Crystal Castles",
+      "album": "(III)",
+      "popularity": 67,
+      "tempo": 115.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.546,
+      "valence": 0.086,
+      "danceability": 0.519,
+      "acousticness": 0.083,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.076,
+      "duration_ms": 192000,
+      "slug": "kerosene-crystal-castles"
+    },
+    {
+      "name": "First",
+      "artists": "Cold War Kids",
+      "album": "Hold My Home",
+      "popularity": 67,
+      "tempo": 78.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.692,
+      "valence": 0.561,
+      "danceability": 0.468,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.029,
+      "duration_ms": 200360,
+      "slug": "first-cold-war-kids"
+    },
+    {
+      "name": "Ride With Me (feat. Kid Ink) - Brennan Heart Remix",
+      "artists": "Tungevaag;Kid Ink;Brennan Heart",
+      "album": "Ride With Me (feat. Kid Ink) [Brennan Heart Remix]",
+      "popularity": 66,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.864,
+      "valence": 0.142,
+      "danceability": 0.693,
+      "acousticness": 0.278,
+      "instrumentalness": 0.039,
+      "loudness": -4.2,
+      "speechiness": 0.048,
+      "duration_ms": 230400,
+      "slug": "ride-with-me-feat-kid-ink-brennan-heart-remix-tungevaag"
+    },
+    {
+      "name": "Scatter Brain (feat. Ludacris & JID)",
+      "artists": "Conway the Machine;Ludacris;JID",
+      "album": "La Maquina",
+      "popularity": 66,
+      "tempo": 136.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.478,
+      "valence": 0.355,
+      "danceability": 0.855,
+      "acousticness": 0.068,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.107,
+      "duration_ms": 209117,
+      "slug": "scatter-brain-feat-ludacris-jid-conway-the-machine"
+    },
+    {
+      "name": "Resume",
+      "artists": "Lil Tjay",
+      "album": "Resume",
+      "popularity": 66,
+      "tempo": 143.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.485,
+      "valence": 0.41,
+      "danceability": 0.821,
+      "acousticness": 0.324,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.411,
+      "duration_ms": 235023,
+      "slug": "resume-lil-tjay"
+    },
+    {
+      "name": "Desabafo / Deixa Eu Dizer",
+      "artists": "Marcelo D2;Claudia",
+      "album": "A Arte Do Barulho",
+      "popularity": 65,
+      "tempo": 85.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.869,
+      "valence": 0.786,
+      "danceability": 0.6,
+      "acousticness": 0.036,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.315,
+      "duration_ms": 175666,
+      "slug": "desabafo-deixa-eu-dizer-marcelo-d2"
+    },
+    {
+      "name": "Paris to Tokyo",
+      "artists": "Fivio Foreign;The Kid LAROI",
+      "album": "B.I.B.L.E.",
+      "popularity": 65,
+      "tempo": 146.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.787,
+      "valence": 0.406,
+      "danceability": 0.642,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.17,
+      "duration_ms": 130897,
+      "slug": "paris-to-tokyo-fivio-foreign"
+    },
+    {
+      "name": "Ruthless (feat. Jay Critch)",
+      "artists": "Lil Tjay;Jay Critch",
+      "album": "True 2 Myself",
+      "popularity": 65,
+      "tempo": 129.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.592,
+      "valence": 0.356,
+      "danceability": 0.521,
+      "acousticness": 0.049,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.134,
+      "duration_ms": 244573,
+      "slug": "ruthless-feat-jay-critch-lil-tjay"
+    },
+    {
+      "name": "Come A Little Bit Closer",
+      "artists": "Jay & The Americans",
+      "album": "Come A Little Bit Closer: The Best Of Jay & The Americans",
+      "popularity": 65,
+      "tempo": 132.5,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.684,
+      "valence": 0.881,
+      "danceability": 0.636,
+      "acousticness": 0.52,
+      "instrumentalness": 0.002,
+      "loudness": -9.3,
+      "speechiness": 0.057,
+      "duration_ms": 166666,
+      "slug": "come-a-little-bit-closer-jay-the-americans"
+    },
+    {
+      "name": "Brothers (feat. Lil Durk) - Remix",
+      "artists": "Lil Tjay;Lil Durk",
+      "album": "True 2 Myself",
+      "popularity": 65,
+      "tempo": 85.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.489,
+      "valence": 0.559,
+      "danceability": 0.688,
+      "acousticness": 0.619,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.173,
+      "duration_ms": 210120,
+      "slug": "brothers-feat-lil-durk-remix-lil-tjay"
+    },
+    {
+      "name": "Put Your Head on My Shoulder",
+      "artists": "Paul Anka",
+      "album": "Sings His Favorites",
+      "popularity": 64,
+      "tempo": 116.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.433,
+      "valence": 0.486,
+      "danceability": 0.549,
+      "acousticness": 0.906,
+      "instrumentalness": 0.011,
+      "loudness": -8.5,
+      "speechiness": 0.033,
+      "duration_ms": 155080,
+      "slug": "put-your-head-on-my-shoulder-paul-anka"
+    },
+    {
+      "name": "Love Hurts (feat. Toosii)",
+      "artists": "Lil Tjay;Toosii",
+      "album": "Destined 2 Win",
+      "popularity": 64,
+      "tempo": 140.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.404,
+      "valence": 0.548,
+      "danceability": 0.712,
+      "acousticness": 0.32,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.12,
+      "duration_ms": 222367,
+      "slug": "love-hurts-feat-toosii-lil-tjay"
+    },
+    {
+      "name": "20/20",
+      "artists": "Lil Tjay",
+      "album": "20/20",
+      "popularity": 64,
+      "tempo": 100.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.336,
+      "valence": 0.536,
+      "danceability": 0.886,
+      "acousticness": 0.557,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.239,
+      "duration_ms": 230448,
+      "slug": "2020-lil-tjay"
+    },
+    {
+      "name": "City of Gods",
+      "artists": "Fivio Foreign;Kanye West;Alicia Keys",
+      "album": "B.I.B.L.E.",
+      "popularity": 64,
+      "tempo": 147.8,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.799,
+      "valence": 0.495,
+      "danceability": 0.469,
+      "acousticness": 0.105,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.387,
+      "duration_ms": 256000,
+      "slug": "city-of-gods-fivio-foreign"
+    },
+    {
+      "name": "Deep End Freestyle",
+      "artists": "Sleepy Hallow;Foushe\u00e9",
+      "album": "Deep End Freestyle",
+      "popularity": 64,
+      "tempo": 133.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.479,
+      "valence": 0.776,
+      "danceability": 0.876,
+      "acousticness": 0.703,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.44,
+      "duration_ms": 115200,
+      "slug": "deep-end-freestyle-sleepy-hallow"
+    },
+    {
+      "name": "Run It Up (feat. Offset & Moneybagg Yo)",
+      "artists": "Lil Tjay;Offset;Moneybagg Yo",
+      "album": "Destined 2 Win",
+      "popularity": 63,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.575,
+      "valence": 0.671,
+      "danceability": 0.88,
+      "acousticness": 0.415,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.163,
+      "duration_ms": 232048,
+      "slug": "run-it-up-feat-offset-moneybagg-yo-lil-tjay"
+    },
+    {
+      "name": "Oh, Pretty Woman",
+      "artists": "Roy Orbison",
+      "album": "The Essential Roy Orbison",
+      "popularity": 63,
+      "tempo": 127.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.954,
+      "danceability": 0.609,
+      "acousticness": 0.725,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.035,
+      "duration_ms": 176933,
+      "slug": "oh-pretty-woman-roy-orbison"
+    },
+    {
+      "name": "Lonesome Town",
+      "artists": "Ricky Nelson",
+      "album": "Ricky Sings Again (Expanded Edition / Remastered)",
+      "popularity": 63,
+      "tempo": 77.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.193,
+      "valence": 0.273,
+      "danceability": 0.404,
+      "acousticness": 0.794,
+      "instrumentalness": 0.0,
+      "loudness": -12.5,
+      "speechiness": 0.03,
+      "duration_ms": 134040,
+      "slug": "lonesome-town-ricky-nelson"
+    },
+    {
+      "name": "Johnny P's Caddy",
+      "artists": "Benny The Butcher;J. Cole",
+      "album": "Johnny P's Caddy",
+      "popularity": 63,
+      "tempo": 150.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.819,
+      "valence": 0.581,
+      "danceability": 0.535,
+      "acousticness": 0.584,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.455,
+      "duration_ms": 225000,
+      "slug": "johnny-ps-caddy-benny-the-butcher"
+    },
+    {
+      "name": "None of Your Love - Bonus",
+      "artists": "Lil Tjay",
+      "album": "Destined 2 Win",
+      "popularity": 63,
+      "tempo": 138.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.51,
+      "danceability": 0.702,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.161,
+      "duration_ms": 153168,
+      "slug": "none-of-your-love-bonus-lil-tjay"
+    },
+    {
+      "name": "Rhythm of the Rain",
+      "artists": "The Cascades",
+      "album": "Rhythm Of The Rain",
+      "popularity": 61,
+      "tempo": 116.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.672,
+      "danceability": 0.659,
+      "acousticness": 0.627,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.044,
+      "duration_ms": 146360,
+      "slug": "rhythm-of-the-rain-the-cascades"
+    },
+    {
+      "name": "A Teenager In Love",
+      "artists": "Dion & The Belmonts",
+      "album": "Presenting Dion And The Belmonts",
+      "popularity": 61,
+      "tempo": 79.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.377,
+      "valence": 0.619,
+      "danceability": 0.555,
+      "acousticness": 0.671,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.029,
+      "duration_ms": 158253,
+      "slug": "a-teenager-in-love-dion-the-belmonts"
+    },
+    {
+      "name": "Travelin' Man - Remastered",
+      "artists": "Ricky Nelson",
+      "album": "Rick Is 21",
+      "popularity": 61,
+      "tempo": 123.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.44,
+      "valence": 0.843,
+      "danceability": 0.723,
+      "acousticness": 0.667,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.032,
+      "duration_ms": 143200,
+      "slug": "travelin-man-remastered-ricky-nelson"
+    },
+    {
+      "name": "All For Love",
+      "artists": "Tungevaag;Raaban;Richard Smitt",
+      "album": "All For Love",
+      "popularity": 59,
+      "tempo": 125.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.901,
+      "valence": 0.651,
+      "danceability": 0.689,
+      "acousticness": 0.145,
+      "instrumentalness": 0.0,
+      "loudness": -1.4,
+      "speechiness": 0.068,
+      "duration_ms": 180484,
+      "slug": "all-for-love-tungevaag"
+    },
+    {
+      "name": "Mixed Emotions",
+      "artists": "Lil Tjay",
+      "album": "True 2 Myself",
+      "popularity": 59,
+      "tempo": 113.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.502,
+      "valence": 0.431,
+      "danceability": 0.644,
+      "acousticness": 0.394,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.42,
+      "duration_ms": 181746,
+      "slug": "mixed-emotions-lil-tjay"
+    },
+    {
+      "name": "I Will Follow You",
+      "artists": "Ricky Nelson",
+      "album": "For Your Sweet Love",
+      "popularity": 58,
+      "tempo": 120.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.442,
+      "valence": 0.749,
+      "danceability": 0.671,
+      "acousticness": 0.758,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.033,
+      "duration_ms": 146133,
+      "slug": "i-will-follow-you-ricky-nelson"
+    },
+    {
+      "name": "I Love You Will Still Sound The Same",
+      "artists": "Oh Honey",
+      "album": "With Love - EP",
+      "popularity": 58,
+      "tempo": 114.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.737,
+      "valence": 0.702,
+      "danceability": 0.607,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.031,
+      "duration_ms": 207123,
+      "slug": "i-love-you-will-still-sound-the-same-oh-honey"
+    },
+    {
+      "name": "Porta Do Teu Pr\u00e9dio",
+      "artists": "Maneva",
+      "album": "Mundo Novo",
+      "popularity": 57,
+      "tempo": 142.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.637,
+      "valence": 0.559,
+      "danceability": 0.751,
+      "acousticness": 0.429,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.256,
+      "duration_ms": 179031,
+      "slug": "porta-do-teu-pr\u00e9dio-maneva"
+    },
+    {
+      "name": "F.N",
+      "artists": "Lil Tjay",
+      "album": "F.N",
+      "popularity": 57,
+      "tempo": 120.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.502,
+      "valence": 0.322,
+      "danceability": 0.562,
+      "acousticness": 0.323,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.255,
+      "duration_ms": 224000,
+      "slug": "fn-lil-tjay"
+    },
+    {
+      "name": "DLZ",
+      "artists": "TV On The Radio",
+      "album": "Dear Science",
+      "popularity": 57,
+      "tempo": 176.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.88,
+      "valence": 0.542,
+      "danceability": 0.513,
+      "acousticness": 0.031,
+      "instrumentalness": 0.003,
+      "loudness": -4.0,
+      "speechiness": 0.044,
+      "duration_ms": 228706,
+      "slug": "dlz-tv-on-the-radio"
+    },
+    {
+      "name": "Stupid Cupid",
+      "artists": "Connie Francis",
+      "album": "The Collection",
+      "popularity": 57,
+      "tempo": 136.8,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.963,
+      "danceability": 0.606,
+      "acousticness": 0.831,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.035,
+      "duration_ms": 134560,
+      "slug": "stupid-cupid-connie-francis"
+    },
+    {
+      "name": "No Se Lo Digas A Ella",
+      "artists": "Banda Cuisillos",
+      "album": "Lo Mejor De",
+      "popularity": 56,
+      "tempo": 78.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.625,
+      "valence": 0.552,
+      "danceability": 0.49,
+      "acousticness": 0.503,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.042,
+      "duration_ms": 219573,
+      "slug": "no-se-lo-digas-a-ella-banda-cuisillos"
+    },
+    {
+      "name": "Only You (And You Alone)",
+      "artists": "The Platters",
+      "album": "The Magic Touch: An Anthology",
+      "popularity": 56,
+      "tempo": 80.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.231,
+      "valence": 0.303,
+      "danceability": 0.486,
+      "acousticness": 0.936,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.035,
+      "duration_ms": 156666,
+      "slug": "only-you-and-you-alone-the-platters"
+    },
+    {
+      "name": "Zoio De Lula - Ao Vivo",
+      "artists": "Charlie Brown Jr.",
+      "album": "Ac\u00fastico (Ao Vivo)",
+      "popularity": 55,
+      "tempo": 87.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.866,
+      "valence": 0.835,
+      "danceability": 0.632,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.049,
+      "duration_ms": 224973,
+      "slug": "zoio-de-lula-ao-vivo-charlie-brown-jr"
+    },
+    {
+      "name": "Young Summer",
+      "artists": "Tungevaag",
+      "album": "Young Summer",
+      "popularity": 55,
+      "tempo": 107.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.907,
+      "valence": 0.357,
+      "danceability": 0.642,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.051,
+      "duration_ms": 156729,
+      "slug": "young-summer-tungevaag"
+    },
+    {
+      "name": "SER SUA",
+      "artists": "Flora Matos;Chris Beats Zn",
+      "album": "FLORA DE CONTROLE",
+      "popularity": 54,
+      "tempo": 95.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.39,
+      "valence": 0.462,
+      "danceability": 0.766,
+      "acousticness": 0.642,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.106,
+      "duration_ms": 155374,
+      "slug": "ser-sua-flora-matos"
+    },
+    {
+      "name": "F\u00e1cil - Ac\u00fastico",
+      "artists": "Jota Quest",
+      "album": "Ac\u00fastico Jota Quest",
+      "popularity": 54,
+      "tempo": 95.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.537,
+      "valence": 0.313,
+      "danceability": 0.556,
+      "acousticness": 0.377,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.028,
+      "duration_ms": 229540,
+      "slug": "f\u00e1cil-ac\u00fastico-jota-quest"
+    },
+    {
+      "name": "Como Este Loco",
+      "artists": "Julio Preciado Y Su Banda Perla Del Pacifico",
+      "album": "Como Este Loco",
+      "popularity": 54,
+      "tempo": 174.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.627,
+      "valence": 0.871,
+      "danceability": 0.486,
+      "acousticness": 0.496,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.04,
+      "duration_ms": 221666,
+      "slug": "como-este-loco-julio-preciado-y-su-banda-perla-del-pacifico"
+    },
+    {
+      "name": "S\u00f3 Por Uma Noite - Ao Vivo",
+      "artists": "Charlie Brown Jr.",
+      "album": "Ac\u00fastico (Ao Vivo)",
+      "popularity": 53,
+      "tempo": 114.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.94,
+      "valence": 0.738,
+      "danceability": 0.568,
+      "acousticness": 0.037,
+      "instrumentalness": 0.003,
+      "loudness": -6.4,
+      "speechiness": 0.04,
+      "duration_ms": 190400,
+      "slug": "s\u00f3-por-uma-noite-ao-vivo-charlie-brown-jr"
+    },
+    {
+      "name": "Ero\u0301tico Y Roma\u0301ntico",
+      "artists": "Banda Autentica de Jerez",
+      "album": "La Mera Mera De Jerez",
+      "popularity": 53,
+      "tempo": 140.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.495,
+      "valence": 0.825,
+      "danceability": 0.791,
+      "acousticness": 0.595,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.08,
+      "duration_ms": 188640,
+      "slug": "erotico-y-romantico-banda-autentica-de-jerez"
+    },
+    {
+      "name": "Juan Ramos",
+      "artists": "El Coyote Y Su Banda Tierra Santa",
+      "album": "El Amo",
+      "popularity": 53,
+      "tempo": 108.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.487,
+      "valence": 0.98,
+      "danceability": 0.692,
+      "acousticness": 0.685,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.036,
+      "duration_ms": 177266,
+      "slug": "juan-ramos-el-coyote-y-su-banda-tierra-santa"
+    },
+    {
+      "name": "T\u00e9dio",
+      "artists": "Biquini Cavad\u00e3o",
+      "album": "1985/2007 Sucessos Regravados (Vol. 1)",
+      "popularity": 52,
+      "tempo": 144.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.772,
+      "danceability": 0.629,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.059,
+      "duration_ms": 200226,
+      "slug": "t\u00e9dio-biquini-cavad\u00e3o"
+    },
+    {
+      "name": "Doble Vida",
+      "artists": "Edwin Luna y La Trakalosa de Monterrey",
+      "album": "Doble Vida",
+      "popularity": 52,
+      "tempo": 128.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.707,
+      "valence": 0.858,
+      "danceability": 0.757,
+      "acousticness": 0.475,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.035,
+      "duration_ms": 194293,
+      "slug": "doble-vida-edwin-luna-y-la-trakalosa-de-monterrey"
+    },
+    {
+      "name": "La Prietita Que Yo Quiero",
+      "artists": "Joan Sebastian",
+      "album": "Tambora, Vol. 2",
+      "popularity": 52,
+      "tempo": 113.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.983,
+      "danceability": 0.806,
+      "acousticness": 0.432,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.083,
+      "duration_ms": 169691,
+      "slug": "la-prietita-que-yo-quiero-joan-sebastian"
+    },
+    {
+      "name": "O Pre\u00e7o - Ao Vivo",
+      "artists": "Charlie Brown Jr.",
+      "album": "Ac\u00fastico (Ao Vivo)",
+      "popularity": 51,
+      "tempo": 82.8,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.959,
+      "valence": 0.522,
+      "danceability": 0.417,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.154,
+      "duration_ms": 193933,
+      "slug": "o-pre\u00e7o-ao-vivo-charlie-brown-jr"
+    },
+    {
+      "name": "V\u00edcios E Virtudes - Ao Vivo",
+      "artists": "Charlie Brown Jr.",
+      "album": "De 1997 A 2007",
+      "popularity": 51,
+      "tempo": 93.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.916,
+      "valence": 0.622,
+      "danceability": 0.378,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.092,
+      "duration_ms": 189413,
+      "slug": "v\u00edcios-e-virtudes-ao-vivo-charlie-brown-jr"
+    },
+    {
+      "name": "Dos Hojas Sin Rumbo",
+      "artists": "Julio Preciado Y Su Banda Perla Del Pacifico",
+      "album": "Tesoros De Coleccion - -Victor Cordero A Traves De Sus Mas Bellas Canciones Y Sus Mejores Interpretes",
+      "popularity": 51,
+      "tempo": 120.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.39,
+      "valence": 0.977,
+      "danceability": 0.782,
+      "acousticness": 0.369,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.041,
+      "duration_ms": 184693,
+      "slug": "dos-hojas-sin-rumbo-julio-preciado-y-su-banda-perla-del-pacifico"
+    },
+    {
+      "name": "Amor Maior - Ac\u00fastico",
+      "artists": "Jota Quest",
+      "album": "Ac\u00fastico Jota Quest",
+      "popularity": 51,
+      "tempo": 76.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.538,
+      "valence": 0.355,
+      "danceability": 0.582,
+      "acousticness": 0.636,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.035,
+      "duration_ms": 235385,
+      "slug": "amor-maior-ac\u00fastico-jota-quest"
+    }
+  ]
+}

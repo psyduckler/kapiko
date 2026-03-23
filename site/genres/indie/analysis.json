@@ -1,0 +1,2806 @@
+{
+  "genre": "Indie",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 67.528,
+    "max": 207.97,
+    "mean": 119.051,
+    "median": 112.508,
+    "q1": 92.234,
+    "q3": 140.266,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 9,
+      "80-89": 11,
+      "90-99": 17,
+      "100-109": 10,
+      "110-119": 6,
+      "120-129": 10,
+      "130-139": 11,
+      "140-149": 6,
+      "150-159": 2,
+      "160-169": 7,
+      "170-179": 5,
+      "180-189": 3,
+      "190-199": 1,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "F": 13,
+    "D": 12,
+    "A": 10,
+    "F#/Gb": 10,
+    "C": 9,
+    "C#/Db": 8,
+    "G#/Ab": 8,
+    "B": 7,
+    "D#/Eb": 7,
+    "G": 6,
+    "E": 6,
+    "A#/Bb": 4
+  },
+  "mode_distribution": {
+    "Minor": 27,
+    "Major": 73
+  },
+  "key_mode_distribution": {
+    "D Major": 11,
+    "F Major": 8,
+    "A Major": 7,
+    "G#/Ab Major": 7,
+    "C#/Db Major": 6,
+    "B Major": 6,
+    "C Major": 6,
+    "F#/Gb Major": 6,
+    "D#/Eb Major": 6,
+    "F Minor": 5,
+    "E Major": 5,
+    "G Major": 4,
+    "F#/Gb Minor": 4,
+    "C Minor": 3,
+    "A Minor": 3,
+    "A#/Bb Minor": 3,
+    "C#/Db Minor": 2,
+    "G Minor": 2,
+    "A#/Bb Major": 1,
+    "B Minor": 1,
+    "G#/Ab Minor": 1,
+    "D#/Eb Minor": 1,
+    "E Minor": 1,
+    "D Minor": 1
+  },
+  "energy": {
+    "min": 0.017,
+    "max": 0.95,
+    "mean": 0.624,
+    "median": 0.615,
+    "q1": 0.488,
+    "q3": 0.8
+  },
+  "valence": {
+    "min": 0.102,
+    "max": 0.965,
+    "mean": 0.474,
+    "median": 0.486,
+    "q1": 0.311,
+    "q3": 0.619
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.417,
+      "valence": 0.479
+    },
+    {
+      "energy": 0.509,
+      "valence": 0.765
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.466
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.405
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.248
+    },
+    {
+      "energy": 0.631,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.589
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.43,
+      "valence": 0.104
+    },
+    {
+      "energy": 0.467,
+      "valence": 0.182
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.228
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.803
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.102
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.958
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.44
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.312
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.62
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.572
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.799
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.652,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.751
+    },
+    {
+      "energy": 0.351,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.557,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.393,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.433
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.886
+    },
+    {
+      "energy": 0.593,
+      "valence": 0.153
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.36
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.46
+    },
+    {
+      "energy": 0.129,
+      "valence": 0.203
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.267
+    },
+    {
+      "energy": 0.683,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.438,
+      "valence": 0.39
+    },
+    {
+      "energy": 0.017,
+      "valence": 0.229
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.596
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.872
+    },
+    {
+      "energy": 0.924,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.533
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.606,
+      "valence": 0.275
+    },
+    {
+      "energy": 0.731,
+      "valence": 0.191
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.902
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.538
+    },
+    {
+      "energy": 0.526,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.371
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.589
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.102
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.79
+    },
+    {
+      "energy": 0.267,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.533
+    },
+    {
+      "energy": 0.4,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.389
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.577,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.872,
+      "valence": 0.682
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.444,
+      "valence": 0.225
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.487
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.172
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.638
+    },
+    {
+      "energy": 0.423,
+      "valence": 0.571
+    },
+    {
+      "energy": 0.327,
+      "valence": 0.292
+    },
+    {
+      "energy": 0.627,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.786
+    },
+    {
+      "energy": 0.903,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.804
+    },
+    {
+      "energy": 0.491,
+      "valence": 0.151
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.862
+    },
+    {
+      "energy": 0.795,
+      "valence": 0.431
+    },
+    {
+      "energy": 0.313,
+      "valence": 0.254
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.575
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.546,
+      "valence": 0.623
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.124,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.642,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.554
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.979,
+    "mean": 0.225,
+    "median": 0.085,
+    "q1": 0.01,
+    "q3": 0.376
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.914,
+    "mean": 0.092,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.022
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.583,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.44,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.186,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.127,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.633
+    },
+    {
+      "acousticness": 0.44,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.572
+    },
+    {
+      "acousticness": 0.937,
+      "instrumentalness": 0.873
+    },
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.115
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.055
+    },
+    {
+      "acousticness": 0.44,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.969,
+      "instrumentalness": 0.279
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.236,
+      "instrumentalness": 0.07
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.506
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.522,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.727,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.914
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.908
+    },
+    {
+      "acousticness": 0.669,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.653,
+      "instrumentalness": 0.162
+    },
+    {
+      "acousticness": 0.598,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.281
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.49
+    },
+    {
+      "acousticness": 0.947,
+      "instrumentalness": 0.145
+    },
+    {
+      "acousticness": 0.471,
+      "instrumentalness": 0.262
+    },
+    {
+      "acousticness": 0.113,
+      "instrumentalness": 0.181
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.156,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.979,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.249,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.088,
+      "instrumentalness": 0.063
+    },
+    {
+      "acousticness": 0.297,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.27,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.247,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.245,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.22,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.674,
+      "instrumentalness": 0.534
+    },
+    {
+      "acousticness": 0.297,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.139,
+      "instrumentalness": 0.846
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.795
+    },
+    {
+      "acousticness": 0.579,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.708,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.376,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.571,
+      "instrumentalness": 0.048
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.299
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.125,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.567,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.132,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.774,
+      "instrumentalness": 0.044
+    },
+    {
+      "acousticness": 0.265,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.926,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.585,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 91869,
+    "max": 320030,
+    "mean": 204942.13,
+    "median": 207332.5,
+    "q1": 177493,
+    "q3": 234800
+  },
+  "danceability": {
+    "min": 0.174,
+    "max": 0.9,
+    "mean": 0.556,
+    "median": 0.55,
+    "q1": 0.471,
+    "q3": 0.679
+  },
+  "loudness": {
+    "min": -24.639,
+    "max": -1.864,
+    "mean": -7.094,
+    "median": -6.639,
+    "q1": -8.392,
+    "q3": -5.093
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.314,
+    "mean": 0.064,
+    "median": 0.042,
+    "q1": 0.031,
+    "q3": 0.073
+  },
+  "top_artists": [
+    {
+      "name": "Arctic Monkeys",
+      "count": 10
+    },
+    {
+      "name": "Halsey",
+      "count": 5
+    },
+    {
+      "name": "M\u00e5neskin",
+      "count": 4
+    },
+    {
+      "name": "Glass Animals",
+      "count": 3
+    },
+    {
+      "name": "Cigarettes After Sex",
+      "count": 3
+    },
+    {
+      "name": "Labrinth",
+      "count": 3
+    },
+    {
+      "name": "Mitski",
+      "count": 3
+    },
+    {
+      "name": "Clairo",
+      "count": 3
+    },
+    {
+      "name": "Ellie Goulding",
+      "count": 3
+    },
+    {
+      "name": "Radiohead",
+      "count": 2
+    },
+    {
+      "name": "Cafun\u00e9",
+      "count": 2
+    },
+    {
+      "name": "TV Girl",
+      "count": 2
+    },
+    {
+      "name": "Ricky Montgomery",
+      "count": 2
+    },
+    {
+      "name": "Beach Bunny",
+      "count": 2
+    },
+    {
+      "name": "Mac DeMarco",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "I Wanna Be Yours",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 92,
+      "tempo": 67.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.417,
+      "valence": 0.479,
+      "danceability": 0.464,
+      "acousticness": 0.136,
+      "instrumentalness": 0.022,
+      "loudness": -9.3,
+      "speechiness": 0.026,
+      "duration_ms": 183956,
+      "slug": "i-wanna-be-yours-arctic-monkeys"
+    },
+    {
+      "name": "BILLIE EILISH.",
+      "artists": "Armani White",
+      "album": "BILLIE EILISH.",
+      "popularity": 89,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.509,
+      "valence": 0.765,
+      "danceability": 0.9,
+      "acousticness": 0.115,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.257,
+      "duration_ms": 99282,
+      "slug": "billie-eilish-armani-white"
+    },
+    {
+      "name": "I Love You So",
+      "artists": "The Walters",
+      "album": "I Love You So",
+      "popularity": 89,
+      "tempo": 76.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.648,
+      "valence": 0.466,
+      "danceability": 0.575,
+      "acousticness": 0.583,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.036,
+      "duration_ms": 160239,
+      "slug": "i-love-you-so-the-walters"
+    },
+    {
+      "name": "Heat Waves",
+      "artists": "Glass Animals",
+      "album": "Dreamland (+ Bonus Levels)",
+      "popularity": 88,
+      "tempo": 80.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.525,
+      "valence": 0.531,
+      "danceability": 0.761,
+      "acousticness": 0.44,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.094,
+      "duration_ms": 238805,
+      "slug": "heat-waves-glass-animals"
+    },
+    {
+      "name": "Do I Wanna Know?",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 88,
+      "tempo": 85.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.532,
+      "valence": 0.405,
+      "danceability": 0.548,
+      "acousticness": 0.186,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.032,
+      "duration_ms": 272394,
+      "slug": "do-i-wanna-know-arctic-monkeys"
+    },
+    {
+      "name": "505",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 88,
+      "tempo": 140.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.248,
+      "danceability": 0.526,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.057,
+      "duration_ms": 253586,
+      "slug": "505-arctic-monkeys"
+    },
+    {
+      "name": "Why'd You Only Call Me When You're High?",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 88,
+      "tempo": 92.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.631,
+      "valence": 0.8,
+      "danceability": 0.691,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.037,
+      "duration_ms": 161123,
+      "slug": "whyd-you-only-call-me-when-youre-high-arctic-monkeys"
+    },
+    {
+      "name": "Beggin'",
+      "artists": "M\u00e5neskin",
+      "album": "Chosen",
+      "popularity": 86,
+      "tempo": 134.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.8,
+      "valence": 0.589,
+      "danceability": 0.714,
+      "acousticness": 0.127,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.05,
+      "duration_ms": 211560,
+      "slug": "beggin-m\u00e5neskin"
+    },
+    {
+      "name": "Freaks",
+      "artists": "Surf Curse",
+      "album": "Freaks",
+      "popularity": 86,
+      "tempo": 179.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.941,
+      "valence": 0.407,
+      "danceability": 0.345,
+      "acousticness": 0.0,
+      "instrumentalness": 0.633,
+      "loudness": -9.9,
+      "speechiness": 0.047,
+      "duration_ms": 147062,
+      "slug": "freaks-surf-curse"
+    },
+    {
+      "name": "Heat Waves",
+      "artists": "Glass Animals",
+      "album": "Heat Waves",
+      "popularity": 85,
+      "tempo": 80.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.525,
+      "valence": 0.531,
+      "danceability": 0.761,
+      "acousticness": 0.44,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.094,
+      "duration_ms": 238805,
+      "slug": "heat-waves-glass-animals"
+    },
+    {
+      "name": "THE LONELIEST",
+      "artists": "M\u00e5neskin",
+      "album": "THE LONELIEST",
+      "popularity": 85,
+      "tempo": 129.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.595,
+      "valence": 0.237,
+      "danceability": 0.519,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.028,
+      "duration_ms": 247067,
+      "slug": "the-loneliest-m\u00e5neskin"
+    },
+    {
+      "name": "Creep",
+      "artists": "Radiohead",
+      "album": "Pablo Honey",
+      "popularity": 85,
+      "tempo": 91.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.43,
+      "valence": 0.104,
+      "danceability": 0.515,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.037,
+      "duration_ms": 238640,
+      "slug": "creep-radiohead"
+    },
+    {
+      "name": "Apocalypse",
+      "artists": "Cigarettes After Sex",
+      "album": "Cigarettes After Sex",
+      "popularity": 84,
+      "tempo": 94.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.467,
+      "valence": 0.182,
+      "danceability": 0.37,
+      "acousticness": 0.021,
+      "instrumentalness": 0.572,
+      "loudness": -9.0,
+      "speechiness": 0.027,
+      "duration_ms": 290616,
+      "slug": "apocalypse-cigarettes-after-sex"
+    },
+    {
+      "name": "YKWIM?",
+      "artists": "Yot Club",
+      "album": "Bipolar",
+      "popularity": 84,
+      "tempo": 123.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.537,
+      "valence": 0.228,
+      "danceability": 0.372,
+      "acousticness": 0.937,
+      "instrumentalness": 0.873,
+      "loudness": -7.6,
+      "speechiness": 0.03,
+      "duration_ms": 212750,
+      "slug": "ykwim-yot-club"
+    },
+    {
+      "name": "Pumped Up Kicks",
+      "artists": "Foster The People",
+      "album": "Torches",
+      "popularity": 84,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.71,
+      "valence": 0.965,
+      "danceability": 0.733,
+      "acousticness": 0.145,
+      "instrumentalness": 0.115,
+      "loudness": -5.8,
+      "speechiness": 0.029,
+      "duration_ms": 239600,
+      "slug": "pumped-up-kicks-foster-the-people"
+    },
+    {
+      "name": "Losing My Religion",
+      "artists": "R.E.M.",
+      "album": "Out Of Time (25th Anniversary Edition)",
+      "popularity": 84,
+      "tempo": 125.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.855,
+      "valence": 0.803,
+      "danceability": 0.666,
+      "acousticness": 0.179,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.029,
+      "duration_ms": 268426,
+      "slug": "losing-my-religion-rem"
+    },
+    {
+      "name": "Formula",
+      "artists": "Labrinth",
+      "album": "Euphoria (Original Score from the HBO Series)",
+      "popularity": 83,
+      "tempo": 144.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.226,
+      "danceability": 0.574,
+      "acousticness": 0.045,
+      "instrumentalness": 0.055,
+      "loudness": -6.1,
+      "speechiness": 0.041,
+      "duration_ms": 91869,
+      "slug": "formula-labrinth"
+    },
+    {
+      "name": "Heat Waves",
+      "artists": "Glass Animals",
+      "album": "Dreamland",
+      "popularity": 83,
+      "tempo": 80.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.525,
+      "valence": 0.531,
+      "danceability": 0.761,
+      "acousticness": 0.44,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.094,
+      "duration_ms": 238805,
+      "slug": "heat-waves-glass-animals"
+    },
+    {
+      "name": "The Night We Met",
+      "artists": "Lord Huron",
+      "album": "Strange Trails",
+      "popularity": 83,
+      "tempo": 87.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.369,
+      "valence": 0.102,
+      "danceability": 0.544,
+      "acousticness": 0.969,
+      "instrumentalness": 0.279,
+      "loudness": -9.5,
+      "speechiness": 0.038,
+      "duration_ms": 208211,
+      "slug": "the-night-we-met-lord-huron"
+    },
+    {
+      "name": "I WANNA BE YOUR SLAVE",
+      "artists": "M\u00e5neskin",
+      "album": "Teatro d'ira - Vol. I",
+      "popularity": 83,
+      "tempo": 132.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.608,
+      "valence": 0.958,
+      "danceability": 0.75,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.039,
+      "duration_ms": 173346,
+      "slug": "i-wanna-be-your-slave-m\u00e5neskin"
+    },
+    {
+      "name": "Mount Everest",
+      "artists": "Labrinth",
+      "album": "Imagination & the Misfit Kid",
+      "popularity": 83,
+      "tempo": 87.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.428,
+      "valence": 0.44,
+      "danceability": 0.494,
+      "acousticness": 0.236,
+      "instrumentalness": 0.07,
+      "loudness": -7.2,
+      "speechiness": 0.205,
+      "duration_ms": 157497,
+      "slug": "mount-everest-labrinth"
+    },
+    {
+      "name": "Notion",
+      "artists": "The Rare Occasions",
+      "album": "Notion",
+      "popularity": 83,
+      "tempo": 159.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.883,
+      "valence": 0.312,
+      "danceability": 0.309,
+      "acousticness": 0.067,
+      "instrumentalness": 0.001,
+      "loudness": -3.8,
+      "speechiness": 0.081,
+      "duration_ms": 195120,
+      "slug": "notion-the-rare-occasions"
+    },
+    {
+      "name": "Little Dark Age",
+      "artists": "MGMT",
+      "album": "Little Dark Age",
+      "popularity": 83,
+      "tempo": 97.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.712,
+      "valence": 0.62,
+      "danceability": 0.705,
+      "acousticness": 0.01,
+      "instrumentalness": 0.001,
+      "loudness": -6.2,
+      "speechiness": 0.038,
+      "duration_ms": 299960,
+      "slug": "little-dark-age-mgmt"
+    },
+    {
+      "name": "Tek It - Sped Up",
+      "artists": "Cafun\u00e9",
+      "album": "Tek It (I Watch the Moon)",
+      "popularity": 83,
+      "tempo": 169.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.95,
+      "valence": 0.377,
+      "danceability": 0.348,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.124,
+      "duration_ms": 166859,
+      "slug": "tek-it-sped-up-cafun\u00e9"
+    },
+    {
+      "name": "R U Mine?",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 83,
+      "tempo": 97.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.758,
+      "valence": 0.619,
+      "danceability": 0.288,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.037,
+      "duration_ms": 201726,
+      "slug": "r-u-mine-arctic-monkeys"
+    },
+    {
+      "name": "Washing Machine Heart",
+      "artists": "Mitski",
+      "album": "Be the Cowboy",
+      "popularity": 83,
+      "tempo": 106.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.567,
+      "danceability": 0.613,
+      "acousticness": 0.009,
+      "instrumentalness": 0.506,
+      "loudness": -4.1,
+      "speechiness": 0.026,
+      "duration_ms": 128198,
+      "slug": "washing-machine-heart-mitski"
+    },
+    {
+      "name": "Young",
+      "artists": "Vacations",
+      "album": "Vibes",
+      "popularity": 83,
+      "tempo": 79.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.81,
+      "valence": 0.594,
+      "danceability": 0.498,
+      "acousticness": 0.004,
+      "instrumentalness": 0.007,
+      "loudness": -4.1,
+      "speechiness": 0.026,
+      "duration_ms": 189160,
+      "slug": "young-vacations"
+    },
+    {
+      "name": "Lovers Rock",
+      "artists": "TV Girl",
+      "album": "French Exit",
+      "popularity": 83,
+      "tempo": 105.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.871,
+      "valence": 0.572,
+      "danceability": 0.559,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -5.3,
+      "speechiness": 0.04,
+      "duration_ms": 213920,
+      "slug": "lovers-rock-tv-girl"
+    },
+    {
+      "name": "SUPERMODEL",
+      "artists": "M\u00e5neskin",
+      "album": "SUPERMODEL",
+      "popularity": 83,
+      "tempo": 121.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.799,
+      "danceability": 0.636,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.056,
+      "duration_ms": 148064,
+      "slug": "supermodel-m\u00e5neskin"
+    },
+    {
+      "name": "Manike (From \"Thank God\")",
+      "artists": "Yohani;Jubin Nautiyal;Tanishk Bagchi;Rashmi Virag;Surya Ragunaathan",
+      "album": "Manike (From \"Thank God\")",
+      "popularity": 82,
+      "tempo": 106.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.578,
+      "valence": 0.509,
+      "danceability": 0.551,
+      "acousticness": 0.522,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.073,
+      "duration_ms": 197473,
+      "slug": "manike-from-thank-god-yohani"
+    },
+    {
+      "name": "Line Without a Hook",
+      "artists": "Ricky Montgomery",
+      "album": "Montgomery Ricky",
+      "popularity": 82,
+      "tempo": 190.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.652,
+      "valence": 0.507,
+      "danceability": 0.432,
+      "acousticness": 0.262,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.029,
+      "duration_ms": 249586,
+      "slug": "line-without-a-hook-ricky-montgomery"
+    },
+    {
+      "name": "Prom Queen",
+      "artists": "Beach Bunny",
+      "album": "Prom Queen",
+      "popularity": 82,
+      "tempo": 143.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.751,
+      "danceability": 0.528,
+      "acousticness": 0.0,
+      "instrumentalness": 0.011,
+      "loudness": -7.5,
+      "speechiness": 0.049,
+      "duration_ms": 136562,
+      "slug": "prom-queen-beach-bunny"
+    },
+    {
+      "name": "Those Eyes",
+      "artists": "New West",
+      "album": "Those Eyes",
+      "popularity": 82,
+      "tempo": 119.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.351,
+      "valence": 0.243,
+      "danceability": 0.597,
+      "acousticness": 0.727,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.028,
+      "duration_ms": 220750,
+      "slug": "those-eyes-new-west"
+    },
+    {
+      "name": "Chamber Of Reflection",
+      "artists": "Mac DeMarco",
+      "album": "Salad Days",
+      "popularity": 82,
+      "tempo": 131.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.557,
+      "valence": 0.506,
+      "danceability": 0.538,
+      "acousticness": 0.262,
+      "instrumentalness": 0.914,
+      "loudness": -8.7,
+      "speechiness": 0.091,
+      "duration_ms": 231723,
+      "slug": "chamber-of-reflection-mac-demarco"
+    },
+    {
+      "name": "No Surprises",
+      "artists": "Radiohead",
+      "album": "OK Computer",
+      "popularity": 82,
+      "tempo": 76.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.393,
+      "valence": 0.118,
+      "danceability": 0.255,
+      "acousticness": 0.058,
+      "instrumentalness": 0.004,
+      "loudness": -10.7,
+      "speechiness": 0.028,
+      "duration_ms": 229120,
+      "slug": "no-surprises-radiohead"
+    },
+    {
+      "name": "Alien Blues",
+      "artists": "Vundabar",
+      "album": "Gawk",
+      "popularity": 82,
+      "tempo": 82.3,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.757,
+      "valence": 0.433,
+      "danceability": 0.467,
+      "acousticness": 0.081,
+      "instrumentalness": 0.908,
+      "loudness": -5.1,
+      "speechiness": 0.033,
+      "duration_ms": 155933,
+      "slug": "alien-blues-vundabar"
+    },
+    {
+      "name": "Not Allowed",
+      "artists": "TV Girl",
+      "album": "Who Really Cares",
+      "popularity": 82,
+      "tempo": 105.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.905,
+      "valence": 0.563,
+      "danceability": 0.67,
+      "acousticness": 0.669,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.129,
+      "duration_ms": 167864,
+      "slug": "not-allowed-tv-girl"
+    },
+    {
+      "name": "Chaand Baaliyan",
+      "artists": "Aditya A",
+      "album": "Chaand Baaliyan",
+      "popularity": 81,
+      "tempo": 97.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.396,
+      "valence": 0.886,
+      "danceability": 0.729,
+      "acousticness": 0.796,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.036,
+      "duration_ms": 103264,
+      "slug": "chaand-baaliyan-aditya-a"
+    },
+    {
+      "name": "golden hour",
+      "artists": "JVKE",
+      "album": "this is what ____ feels like (Vol. 1-4)",
+      "popularity": 81,
+      "tempo": 94.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.593,
+      "valence": 0.153,
+      "danceability": 0.515,
+      "acousticness": 0.653,
+      "instrumentalness": 0.162,
+      "loudness": -4.8,
+      "speechiness": 0.032,
+      "duration_ms": 209259,
+      "slug": "golden-hour-jvke"
+    },
+    {
+      "name": "Sofia",
+      "artists": "Clairo",
+      "album": "Immunity",
+      "popularity": 81,
+      "tempo": 113.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.619,
+      "valence": 0.641,
+      "danceability": 0.744,
+      "acousticness": 0.598,
+      "instrumentalness": 0.004,
+      "loudness": -9.8,
+      "speechiness": 0.039,
+      "duration_ms": 188386,
+      "slug": "sofia-clairo"
+    },
+    {
+      "name": "Always Forever",
+      "artists": "Cults",
+      "album": "Static",
+      "popularity": 81,
+      "tempo": 163.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.36,
+      "danceability": 0.174,
+      "acousticness": 0.002,
+      "instrumentalness": 0.281,
+      "loudness": -5.9,
+      "speechiness": 0.049,
+      "duration_ms": 223746,
+      "slug": "always-forever-cults"
+    },
+    {
+      "name": "My Kind of Woman",
+      "artists": "Mac DeMarco",
+      "album": "2",
+      "popularity": 81,
+      "tempo": 91.8,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.46,
+      "danceability": 0.501,
+      "acousticness": 0.003,
+      "instrumentalness": 0.49,
+      "loudness": -7.1,
+      "speechiness": 0.028,
+      "duration_ms": 190845,
+      "slug": "my-kind-of-woman-mac-demarco"
+    },
+    {
+      "name": "rises the moon",
+      "artists": "Liana Flores",
+      "album": "recently",
+      "popularity": 81,
+      "tempo": 137.3,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.129,
+      "valence": 0.203,
+      "danceability": 0.483,
+      "acousticness": 0.947,
+      "instrumentalness": 0.145,
+      "loudness": -20.1,
+      "speechiness": 0.035,
+      "duration_ms": 161929,
+      "slug": "rises-the-moon-liana-flores"
+    },
+    {
+      "name": "Still Don't Know My Name",
+      "artists": "Labrinth",
+      "album": "Euphoria (Original Score from the HBO Series)",
+      "popularity": 80,
+      "tempo": 89.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.313,
+      "danceability": 0.316,
+      "acousticness": 0.471,
+      "instrumentalness": 0.262,
+      "loudness": -6.0,
+      "speechiness": 0.117,
+      "duration_ms": 153294,
+      "slug": "still-dont-know-my-name-labrinth"
+    },
+    {
+      "name": "we fell in love in october",
+      "artists": "girl in red",
+      "album": "we fell in love in october / forget her",
+      "popularity": 80,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.237,
+      "danceability": 0.566,
+      "acousticness": 0.113,
+      "instrumentalness": 0.181,
+      "loudness": -12.8,
+      "speechiness": 0.028,
+      "duration_ms": 184153,
+      "slug": "we-fell-in-love-in-october-girl-in-red"
+    },
+    {
+      "name": "Good Looking",
+      "artists": "Suki Waterhouse",
+      "album": "Good Looking",
+      "popularity": 80,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.267,
+      "danceability": 0.377,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.03,
+      "duration_ms": 214800,
+      "slug": "good-looking-suki-waterhouse"
+    },
+    {
+      "name": "Are You Bored Yet? (feat. Clairo)",
+      "artists": "Wallows;Clairo",
+      "album": "Nothing Happens",
+      "popularity": 80,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.683,
+      "valence": 0.64,
+      "danceability": 0.682,
+      "acousticness": 0.156,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.029,
+      "duration_ms": 178000,
+      "slug": "are-you-bored-yet-feat-clairo-wallows"
+    },
+    {
+      "name": "I Can't Handle Change",
+      "artists": "Roar",
+      "album": "I Can't Handle Change",
+      "popularity": 80,
+      "tempo": 185.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.438,
+      "valence": 0.39,
+      "danceability": 0.247,
+      "acousticness": 0.045,
+      "instrumentalness": 0.001,
+      "loudness": -8.5,
+      "speechiness": 0.036,
+      "duration_ms": 198213,
+      "slug": "i-cant-handle-change-roar"
+    },
+    {
+      "name": "Bubble Gum",
+      "artists": "Clairo",
+      "album": "Bubble Gum",
+      "popularity": 80,
+      "tempo": 208.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.017,
+      "valence": 0.229,
+      "danceability": 0.509,
+      "acousticness": 0.979,
+      "instrumentalness": 0.0,
+      "loudness": -24.6,
+      "speechiness": 0.115,
+      "duration_ms": 175960,
+      "slug": "bubble-gum-clairo"
+    },
+    {
+      "name": "Tek It",
+      "artists": "Cafun\u00e9",
+      "album": "Running",
+      "popularity": 80,
+      "tempo": 147.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.913,
+      "valence": 0.596,
+      "danceability": 0.423,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.066,
+      "duration_ms": 191823,
+      "slug": "tek-it-cafun\u00e9"
+    },
+    {
+      "name": "Snap Out Of It",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 80,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.872,
+      "danceability": 0.728,
+      "acousticness": 0.249,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.034,
+      "duration_ms": 193030,
+      "slug": "snap-out-of-it-arctic-monkeys"
+    },
+    {
+      "name": "Everybody Talks",
+      "artists": "Neon Trees",
+      "album": "Picture Show",
+      "popularity": 80,
+      "tempo": 155.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.924,
+      "valence": 0.725,
+      "danceability": 0.471,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.059,
+      "duration_ms": 177280,
+      "slug": "everybody-talks-neon-trees"
+    },
+    {
+      "name": "Looking Out for You",
+      "artists": "Joy Again",
+      "album": "Looking Out for You",
+      "popularity": 80,
+      "tempo": 100.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.9,
+      "valence": 0.937,
+      "danceability": 0.682,
+      "acousticness": 0.088,
+      "instrumentalness": 0.063,
+      "loudness": -5.0,
+      "speechiness": 0.087,
+      "duration_ms": 179499,
+      "slug": "looking-out-for-you-joy-again"
+    },
+    {
+      "name": "Without Me",
+      "artists": "Halsey",
+      "album": "Manic",
+      "popularity": 79,
+      "tempo": 136.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.533,
+      "danceability": 0.752,
+      "acousticness": 0.297,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.07,
+      "duration_ms": 201660,
+      "slug": "without-me-halsey"
+    },
+    {
+      "name": "Love Me Like You Do",
+      "artists": "Ellie Goulding",
+      "album": "Fifty Shades Freed (Original Motion Picture Soundtrack)",
+      "popularity": 79,
+      "tempo": 95.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.597,
+      "valence": 0.324,
+      "danceability": 0.489,
+      "acousticness": 0.27,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.029,
+      "duration_ms": 253520,
+      "slug": "love-me-like-you-do-ellie-goulding"
+    },
+    {
+      "name": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
+      "artists": "Ellie Goulding",
+      "album": "Delirium (Deluxe)",
+      "popularity": 79,
+      "tempo": 189.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.606,
+      "valence": 0.275,
+      "danceability": 0.262,
+      "acousticness": 0.247,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.048,
+      "duration_ms": 252534,
+      "slug": "love-me-like-you-do-from-fifty-shades-of-grey-ellie-goulding"
+    },
+    {
+      "name": "Him & I (with Halsey)",
+      "artists": "G-Eazy;Halsey",
+      "album": "The Beautiful & Damned",
+      "popularity": 79,
+      "tempo": 87.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.731,
+      "valence": 0.191,
+      "danceability": 0.589,
+      "acousticness": 0.053,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.087,
+      "duration_ms": 268866,
+      "slug": "him-i-with-halsey-g-eazy"
+    },
+    {
+      "name": "Cloud 9",
+      "artists": "Beach Bunny",
+      "album": "Honeymoon",
+      "popularity": 79,
+      "tempo": 81.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.929,
+      "valence": 0.902,
+      "danceability": 0.637,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.049,
+      "duration_ms": 147350,
+      "slug": "cloud-9-beach-bunny"
+    },
+    {
+      "name": "Fireflies",
+      "artists": "Owl City",
+      "album": "Ocean Eyes",
+      "popularity": 79,
+      "tempo": 180.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.472,
+      "danceability": 0.512,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.044,
+      "duration_ms": 228346,
+      "slug": "fireflies-owl-city"
+    },
+    {
+      "name": "Best Day Of My Life",
+      "artists": "American Authors",
+      "album": "Oh, What A Life",
+      "popularity": 79,
+      "tempo": 100.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.538,
+      "danceability": 0.673,
+      "acousticness": 0.059,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.035,
+      "duration_ms": 194240,
+      "slug": "best-day-of-my-life-american-authors"
+    },
+    {
+      "name": "Mr Loverman",
+      "artists": "Ricky Montgomery",
+      "album": "Montgomery Ricky",
+      "popularity": 79,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.526,
+      "valence": 0.488,
+      "danceability": 0.639,
+      "acousticness": 0.245,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.026,
+      "duration_ms": 216880,
+      "slug": "mr-loverman-ricky-montgomery"
+    },
+    {
+      "name": "Tongue Tied",
+      "artists": "Grouplove",
+      "album": "Never Trust a Happy Song",
+      "popularity": 79,
+      "tempo": 113.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.936,
+      "valence": 0.371,
+      "danceability": 0.56,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.044,
+      "duration_ms": 218013,
+      "slug": "tongue-tied-grouplove"
+    },
+    {
+      "name": "Juliet",
+      "artists": "Cavetown",
+      "album": "Animal Kingdom",
+      "popularity": 79,
+      "tempo": 131.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.364,
+      "danceability": 0.546,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -8.5,
+      "speechiness": 0.031,
+      "duration_ms": 278991,
+      "slug": "juliet-cavetown"
+    },
+    {
+      "name": "dumb dumb",
+      "artists": "mazie",
+      "album": "the rainbow cassette",
+      "popularity": 79,
+      "tempo": 122.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.472,
+      "valence": 0.589,
+      "danceability": 0.783,
+      "acousticness": 0.22,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.043,
+      "duration_ms": 125256,
+      "slug": "dumb-dumb-mazie"
+    },
+    {
+      "name": "First Love / Late Spring",
+      "artists": "Mitski",
+      "album": "Bury Me At Makeout Creek",
+      "popularity": 79,
+      "tempo": 100.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.102,
+      "danceability": 0.445,
+      "acousticness": 0.001,
+      "instrumentalness": 0.014,
+      "loudness": -8.2,
+      "speechiness": 0.027,
+      "duration_ms": 278640,
+      "slug": "first-love-late-spring-mitski"
+    },
+    {
+      "name": "Fluorescent Adolescent",
+      "artists": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "popularity": 79,
+      "tempo": 112.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.79,
+      "danceability": 0.654,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.028,
+      "duration_ms": 183893,
+      "slug": "fluorescent-adolescent-arctic-monkeys"
+    },
+    {
+      "name": "Show Me How",
+      "artists": "Men I Trust",
+      "album": "Show Me How",
+      "popularity": 79,
+      "tempo": 166.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.267,
+      "valence": 0.544,
+      "danceability": 0.791,
+      "acousticness": 0.674,
+      "instrumentalness": 0.534,
+      "loudness": -12.0,
+      "speechiness": 0.042,
+      "duration_ms": 215110,
+      "slug": "show-me-how-men-i-trust"
+    },
+    {
+      "name": "Without Me",
+      "artists": "Halsey",
+      "album": "Without Me",
+      "popularity": 78,
+      "tempo": 136.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.533,
+      "danceability": 0.752,
+      "acousticness": 0.297,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.07,
+      "duration_ms": 201660,
+      "slug": "without-me-halsey"
+    },
+    {
+      "name": "K.",
+      "artists": "Cigarettes After Sex",
+      "album": "Cigarettes After Sex",
+      "popularity": 78,
+      "tempo": 93.7,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.4,
+      "valence": 0.327,
+      "danceability": 0.454,
+      "acousticness": 0.139,
+      "instrumentalness": 0.846,
+      "loudness": -10.3,
+      "speechiness": 0.026,
+      "duration_ms": 320030,
+      "slug": "k-cigarettes-after-sex"
+    },
+    {
+      "name": "Me, Myself & I",
+      "artists": "G-Eazy;Bebe Rexha",
+      "album": "When It's Dark Out",
+      "popularity": 78,
+      "tempo": 112.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.674,
+      "valence": 0.389,
+      "danceability": 0.756,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.096,
+      "duration_ms": 251466,
+      "slug": "me-myself-i-g-eazy"
+    },
+    {
+      "name": "Sunsetz",
+      "artists": "Cigarettes After Sex",
+      "album": "Cigarettes After Sex",
+      "popularity": 78,
+      "tempo": 75.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.479,
+      "valence": 0.131,
+      "danceability": 0.405,
+      "acousticness": 0.053,
+      "instrumentalness": 0.795,
+      "loudness": -9.4,
+      "speechiness": 0.03,
+      "duration_ms": 215150,
+      "slug": "sunsetz-cigarettes-after-sex"
+    },
+    {
+      "name": "Way down We Go",
+      "artists": "KALEO",
+      "album": "A/B",
+      "popularity": 78,
+      "tempo": 163.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.505,
+      "valence": 0.337,
+      "danceability": 0.489,
+      "acousticness": 0.579,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.117,
+      "duration_ms": 213706,
+      "slug": "way-down-we-go-kaleo"
+    },
+    {
+      "name": "Homage",
+      "artists": "Mild High Club",
+      "album": "Skiptracing",
+      "popularity": 78,
+      "tempo": 73.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.415,
+      "danceability": 0.546,
+      "acousticness": 0.153,
+      "instrumentalness": 0.003,
+      "loudness": -8.2,
+      "speechiness": 0.029,
+      "duration_ms": 177493,
+      "slug": "homage-mild-high-club"
+    },
+    {
+      "name": "I Feel Like I'm Drowning",
+      "artists": "Two Feet",
+      "album": "A 20 Something Fuck",
+      "popularity": 78,
+      "tempo": 104.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.577,
+      "valence": 0.235,
+      "danceability": 0.717,
+      "acousticness": 0.708,
+      "instrumentalness": 0.004,
+      "loudness": -5.4,
+      "speechiness": 0.049,
+      "duration_ms": 185520,
+      "slug": "i-feel-like-im-drowning-two-feet"
+    },
+    {
+      "name": "Good Time",
+      "artists": "Owl City;Carly Rae Jepsen",
+      "album": "The Midsummer Station",
+      "popularity": 78,
+      "tempo": 126.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.872,
+      "valence": 0.682,
+      "danceability": 0.56,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.14,
+      "duration_ms": 205933,
+      "slug": "good-time-owl-city"
+    },
+    {
+      "name": "Tom's Diner",
+      "artists": "AnnenMayKantereit;Giant Rooks",
+      "album": "Tom's Diner",
+      "popularity": 78,
+      "tempo": 98.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.428,
+      "valence": 0.334,
+      "danceability": 0.68,
+      "acousticness": 0.376,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.135,
+      "duration_ms": 269333,
+      "slug": "toms-diner-annenmaykantereit"
+    },
+    {
+      "name": "Arabella",
+      "artists": "Arctic Monkeys",
+      "album": "AM",
+      "popularity": 78,
+      "tempo": 179.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.506,
+      "danceability": 0.579,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.089,
+      "duration_ms": 207356,
+      "slug": "arabella-arctic-monkeys"
+    },
+    {
+      "name": "Hayloft",
+      "artists": "Mother Mother",
+      "album": "O My Heart",
+      "popularity": 78,
+      "tempo": 96.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.49,
+      "danceability": 0.527,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.073,
+      "duration_ms": 181680,
+      "slug": "hayloft-mother-mother"
+    },
+    {
+      "name": "Kilby Girl",
+      "artists": "The Backseat Lovers",
+      "album": "When We Were Friends",
+      "popularity": 78,
+      "tempo": 162.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.444,
+      "valence": 0.225,
+      "danceability": 0.329,
+      "acousticness": 0.058,
+      "instrumentalness": 0.035,
+      "loudness": -10.0,
+      "speechiness": 0.042,
+      "duration_ms": 282205,
+      "slug": "kilby-girl-the-backseat-lovers"
+    },
+    {
+      "name": "Nobody",
+      "artists": "Mitski",
+      "album": "Be the Cowboy",
+      "popularity": 78,
+      "tempo": 117.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.487,
+      "danceability": 0.398,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.04,
+      "duration_ms": 193429,
+      "slug": "nobody-mitski"
+    },
+    {
+      "name": "Hayloft II",
+      "artists": "Mother Mother",
+      "album": "Inside (Deluxe)",
+      "popularity": 78,
+      "tempo": 178.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.866,
+      "valence": 0.172,
+      "danceability": 0.326,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.101,
+      "duration_ms": 215040,
+      "slug": "hayloft-ii-mother-mother"
+    },
+    {
+      "name": "Make You Mine",
+      "artists": "PUBLIC",
+      "album": "Make You Mine",
+      "popularity": 77,
+      "tempo": 103.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.638,
+      "danceability": 0.606,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.026,
+      "duration_ms": 232906,
+      "slug": "make-you-mine-public"
+    },
+    {
+      "name": "Walls Could Talk",
+      "artists": "Halsey",
+      "album": "hopeless fountain kingdom (Deluxe)",
+      "popularity": 77,
+      "tempo": 95.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.423,
+      "valence": 0.571,
+      "danceability": 0.626,
+      "acousticness": 0.128,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.051,
+      "duration_ms": 101789,
+      "slug": "walls-could-talk-halsey"
+    },
+    {
+      "name": "Go Fuck Yourself",
+      "artists": "Two Feet",
+      "album": "First Steps",
+      "popularity": 77,
+      "tempo": 74.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.327,
+      "valence": 0.292,
+      "danceability": 0.765,
+      "acousticness": 0.571,
+      "instrumentalness": 0.048,
+      "loudness": -8.0,
+      "speechiness": 0.277,
+      "duration_ms": 129599,
+      "slug": "go-fuck-yourself-two-feet"
+    },
+    {
+      "name": "So Good",
+      "artists": "Halsey",
+      "album": "So Good",
+      "popularity": 77,
+      "tempo": 165.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.627,
+      "valence": 0.311,
+      "danceability": 0.576,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.045,
+      "duration_ms": 176058,
+      "slug": "so-good-halsey"
+    },
+    {
+      "name": "Cool Kids",
+      "artists": "Echosmith",
+      "album": "Talking Dreams (Deluxe Edition)",
+      "popularity": 77,
+      "tempo": 130.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.671,
+      "valence": 0.786,
+      "danceability": 0.719,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.034,
+      "duration_ms": 237626,
+      "slug": "cool-kids-echosmith"
+    },
+    {
+      "name": "Someone To You",
+      "artists": "BANNERS",
+      "album": "Where The Shadow Ends",
+      "popularity": 77,
+      "tempo": 75.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.903,
+      "valence": 0.652,
+      "danceability": 0.52,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.042,
+      "duration_ms": 219801,
+      "slug": "someone-to-you-banners"
+    },
+    {
+      "name": "Lights - Sped Up Version",
+      "artists": "Ellie Goulding;Speed Radio",
+      "album": "Lights (Sped Up Version)",
+      "popularity": 77,
+      "tempo": 133.2,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.804,
+      "danceability": 0.653,
+      "acousticness": 0.045,
+      "instrumentalness": 0.299,
+      "loudness": -5.6,
+      "speechiness": 0.046,
+      "duration_ms": 190053,
+      "slug": "lights-sped-up-version-ellie-goulding"
+    },
+    {
+      "name": "Put Your Records On",
+      "artists": "Ritt Momney",
+      "album": "Put Your Records On",
+      "popularity": 77,
+      "tempo": 91.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.491,
+      "valence": 0.151,
+      "danceability": 0.399,
+      "acousticness": 0.056,
+      "instrumentalness": 0.001,
+      "loudness": -10.8,
+      "speechiness": 0.054,
+      "duration_ms": 210463,
+      "slug": "put-your-records-on-ritt-momney"
+    },
+    {
+      "name": "A-O-K",
+      "artists": "Tai Verdes",
+      "album": "TV",
+      "popularity": 77,
+      "tempo": 82.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.626,
+      "valence": 0.862,
+      "danceability": 0.731,
+      "acousticness": 0.125,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.081,
+      "duration_ms": 173640,
+      "slug": "a-o-k-tai-verdes"
+    },
+    {
+      "name": "Black Out Days",
+      "artists": "Phantogram",
+      "album": "Voices",
+      "popularity": 77,
+      "tempo": 92.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.795,
+      "valence": 0.431,
+      "danceability": 0.542,
+      "acousticness": 0.005,
+      "instrumentalness": 0.019,
+      "loudness": -3.6,
+      "speechiness": 0.037,
+      "duration_ms": 227160,
+      "slug": "black-out-days-phantogram"
+    },
+    {
+      "name": "Body Paint",
+      "artists": "Arctic Monkeys",
+      "album": "Body Paint",
+      "popularity": 77,
+      "tempo": 144.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.313,
+      "valence": 0.254,
+      "danceability": 0.56,
+      "acousticness": 0.567,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.063,
+      "duration_ms": 290584,
+      "slug": "body-paint-arctic-monkeys"
+    },
+    {
+      "name": "There\u2019d Better Be A Mirrorball",
+      "artists": "Arctic Monkeys",
+      "album": "There\u2019d Better Be A Mirrorball",
+      "popularity": 77,
+      "tempo": 72.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.369,
+      "valence": 0.311,
+      "danceability": 0.513,
+      "acousticness": 0.634,
+      "instrumentalness": 0.014,
+      "loudness": -10.9,
+      "speechiness": 0.031,
+      "duration_ms": 265798,
+      "slug": "thered-better-be-a-mirrorball-arctic-monkeys"
+    },
+    {
+      "name": "Where'd All the Time Go?",
+      "artists": "Dr. Dog",
+      "album": "Shame, Shame (Deluxe Edition)",
+      "popularity": 77,
+      "tempo": 166.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.82,
+      "valence": 0.575,
+      "danceability": 0.454,
+      "acousticness": 0.132,
+      "instrumentalness": 0.001,
+      "loudness": -4.2,
+      "speechiness": 0.057,
+      "duration_ms": 234800,
+      "slug": "whered-all-the-time-go-dr-dog"
+    },
+    {
+      "name": "Paper Planes",
+      "artists": "M.I.A.",
+      "album": "Kala",
+      "popularity": 77,
+      "tempo": 172.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.848,
+      "valence": 0.485,
+      "danceability": 0.447,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.222,
+      "duration_ms": 205200,
+      "slug": "paper-planes-mia"
+    },
+    {
+      "name": "Motion Sickness",
+      "artists": "Phoebe Bridgers",
+      "album": "Stranger in the Alps",
+      "popularity": 77,
+      "tempo": 107.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.546,
+      "valence": 0.623,
+      "danceability": 0.651,
+      "acousticness": 0.774,
+      "instrumentalness": 0.044,
+      "loudness": -9.0,
+      "speechiness": 0.036,
+      "duration_ms": 229760,
+      "slug": "motion-sickness-phoebe-bridgers"
+    },
+    {
+      "name": "Cradles",
+      "artists": "Sub Urban",
+      "album": "Cradles",
+      "popularity": 76,
+      "tempo": 79.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.624,
+      "danceability": 0.537,
+      "acousticness": 0.265,
+      "instrumentalness": 0.0,
+      "loudness": -1.9,
+      "speechiness": 0.314,
+      "duration_ms": 209829,
+      "slug": "cradles-sub-urban"
+    },
+    {
+      "name": "Baarishein",
+      "artists": "Anuv Jain",
+      "album": "Baarishein",
+      "popularity": 76,
+      "tempo": 94.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.124,
+      "valence": 0.19,
+      "danceability": 0.475,
+      "acousticness": 0.926,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.044,
+      "duration_ms": 207309,
+      "slug": "baarishein-anuv-jain"
+    },
+    {
+      "name": "PS5 (with TOMORROW X TOGETHER & Alan Walker)",
+      "artists": "salem ilese;TOMORROW X TOGETHER;Alan Walker",
+      "album": "PS5 (with TOMORROW X TOGETHER & Alan Walker)",
+      "popularity": 76,
+      "tempo": 176.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.642,
+      "valence": 0.54,
+      "danceability": 0.602,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.211,
+      "duration_ms": 152214,
+      "slug": "ps5-with-tomorrow-x-together-alan-walker-salem-ilese"
+    },
+    {
+      "name": "Remember That Night?",
+      "artists": "Sara Kays",
+      "album": "Remember That Night?",
+      "popularity": 76,
+      "tempo": 124.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.61,
+      "valence": 0.554,
+      "danceability": 0.679,
+      "acousticness": 0.585,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.03,
+      "duration_ms": 227186,
+      "slug": "remember-that-night-sara-kays"
+    }
+  ]
+}

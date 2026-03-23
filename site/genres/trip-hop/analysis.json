@@ -1,0 +1,2800 @@
+{
+  "genre": "Trip-Hop",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 74.924,
+    "max": 200.213,
+    "mean": 118.699,
+    "median": 118.056,
+    "q1": 92.011,
+    "q3": 141.068,
+    "histogram": {
+      "70-79": 12,
+      "80-89": 11,
+      "90-99": 11,
+      "100-109": 6,
+      "110-119": 16,
+      "120-129": 13,
+      "130-139": 5,
+      "140-149": 8,
+      "150-159": 3,
+      "160-169": 10,
+      "170-179": 4,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "C#/Db": 13,
+    "G": 12,
+    "D": 12,
+    "F#/Gb": 10,
+    "B": 9,
+    "F": 9,
+    "A": 8,
+    "G#/Ab": 8,
+    "C": 7,
+    "E": 7,
+    "A#/Bb": 5
+  },
+  "mode_distribution": {
+    "Major": 49,
+    "Minor": 51
+  },
+  "key_mode_distribution": {
+    "C#/Db Major": 7,
+    "G Major": 7,
+    "D Minor": 7,
+    "B Minor": 6,
+    "C#/Db Minor": 6,
+    "G#/Ab Major": 6,
+    "F#/Gb Major": 6,
+    "E Minor": 6,
+    "A Minor": 5,
+    "D Major": 5,
+    "F Major": 5,
+    "G Minor": 5,
+    "C Major": 5,
+    "F Minor": 4,
+    "F#/Gb Minor": 4,
+    "A#/Bb Minor": 4,
+    "A Major": 3,
+    "B Major": 3,
+    "G#/Ab Minor": 2,
+    "C Minor": 2,
+    "E Major": 1,
+    "A#/Bb Major": 1
+  },
+  "energy": {
+    "min": 0.18,
+    "max": 0.964,
+    "mean": 0.611,
+    "median": 0.617,
+    "q1": 0.466,
+    "q3": 0.761
+  },
+  "valence": {
+    "min": 0.036,
+    "max": 0.952,
+    "mean": 0.431,
+    "median": 0.425,
+    "q1": 0.229,
+    "q3": 0.614
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.434,
+      "valence": 0.207
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.216
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.101
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.718
+    },
+    {
+      "energy": 0.244,
+      "valence": 0.421
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.703
+    },
+    {
+      "energy": 0.284,
+      "valence": 0.229
+    },
+    {
+      "energy": 0.294,
+      "valence": 0.192
+    },
+    {
+      "energy": 0.309,
+      "valence": 0.067
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.616
+    },
+    {
+      "energy": 0.423,
+      "valence": 0.117
+    },
+    {
+      "energy": 0.33,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.425,
+      "valence": 0.165
+    },
+    {
+      "energy": 0.909,
+      "valence": 0.691
+    },
+    {
+      "energy": 0.591,
+      "valence": 0.297
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.248
+    },
+    {
+      "energy": 0.633,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.436,
+      "valence": 0.36
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.952
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.279
+    },
+    {
+      "energy": 0.807,
+      "valence": 0.689
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.301
+    },
+    {
+      "energy": 0.844,
+      "valence": 0.155
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.558
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.928
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.115
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.421
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.153
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.629,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.844,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.652,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.521,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.421,
+      "valence": 0.737
+    },
+    {
+      "energy": 0.514,
+      "valence": 0.44
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.674
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.338
+    },
+    {
+      "energy": 0.592,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.516,
+      "valence": 0.502
+    },
+    {
+      "energy": 0.37,
+      "valence": 0.707
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.951
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.18,
+      "valence": 0.189
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.138
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.416
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.858
+    },
+    {
+      "energy": 0.499,
+      "valence": 0.255
+    },
+    {
+      "energy": 0.445,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.458,
+      "valence": 0.085
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.314,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.079
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.667
+    },
+    {
+      "energy": 0.588,
+      "valence": 0.627
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.648
+    },
+    {
+      "energy": 0.354,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.673,
+      "valence": 0.57
+    },
+    {
+      "energy": 0.486,
+      "valence": 0.249
+    },
+    {
+      "energy": 0.606,
+      "valence": 0.148
+    },
+    {
+      "energy": 0.615,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.288,
+      "valence": 0.256
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.596
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.395,
+      "valence": 0.26
+    },
+    {
+      "energy": 0.466,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.223
+    },
+    {
+      "energy": 0.52,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.498,
+      "valence": 0.46
+    },
+    {
+      "energy": 0.539,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.501,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.504
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.806
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.614
+    },
+    {
+      "energy": 0.547,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.367,
+      "valence": 0.447
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.314,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.748,
+      "valence": 0.184
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.349,
+      "valence": 0.517
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.958,
+    "mean": 0.277,
+    "median": 0.181,
+    "q1": 0.038,
+    "q3": 0.444
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.955,
+    "mean": 0.356,
+    "median": 0.259,
+    "q1": 0.005,
+    "q3": 0.691
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.516
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.497
+    },
+    {
+      "acousticness": 0.076,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.72,
+      "instrumentalness": 0.915
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.209
+    },
+    {
+      "acousticness": 0.871,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.778,
+      "instrumentalness": 0.162
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.807
+    },
+    {
+      "acousticness": 0.385,
+      "instrumentalness": 0.29
+    },
+    {
+      "acousticness": 0.265,
+      "instrumentalness": 0.731
+    },
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.134
+    },
+    {
+      "acousticness": 0.878,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.414,
+      "instrumentalness": 0.799
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.114
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.272
+    },
+    {
+      "acousticness": 0.161,
+      "instrumentalness": 0.106
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.786
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.077,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.399
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.684
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.194,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.654
+    },
+    {
+      "acousticness": 0.168,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.24,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.273,
+      "instrumentalness": 0.245
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.066
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.691
+    },
+    {
+      "acousticness": 0.285,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.862
+    },
+    {
+      "acousticness": 0.395,
+      "instrumentalness": 0.933
+    },
+    {
+      "acousticness": 0.217,
+      "instrumentalness": 0.686
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.614
+    },
+    {
+      "acousticness": 0.091,
+      "instrumentalness": 0.393
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.485
+    },
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.052
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.923
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.124
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.532
+    },
+    {
+      "acousticness": 0.073,
+      "instrumentalness": 0.427
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.882
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.173,
+      "instrumentalness": 0.942
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.532,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.665
+    },
+    {
+      "acousticness": 0.504,
+      "instrumentalness": 0.587
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.947
+    },
+    {
+      "acousticness": 0.185,
+      "instrumentalness": 0.108
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.923
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.607
+    },
+    {
+      "acousticness": 0.444,
+      "instrumentalness": 0.353
+    },
+    {
+      "acousticness": 0.32,
+      "instrumentalness": 0.375
+    },
+    {
+      "acousticness": 0.131,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.569,
+      "instrumentalness": 0.763
+    },
+    {
+      "acousticness": 0.606,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.094
+    },
+    {
+      "acousticness": 0.354,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.791,
+      "instrumentalness": 0.419
+    },
+    {
+      "acousticness": 0.958,
+      "instrumentalness": 0.751
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.183
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.385
+    },
+    {
+      "acousticness": 0.246,
+      "instrumentalness": 0.789
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.791
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.929,
+      "instrumentalness": 0.461
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.909
+    },
+    {
+      "acousticness": 0.507,
+      "instrumentalness": 0.819
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.812,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.276,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.768
+    },
+    {
+      "acousticness": 0.81,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.724,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.45,
+      "instrumentalness": 0.725
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.938
+    },
+    {
+      "acousticness": 0.187,
+      "instrumentalness": 0.07
+    },
+    {
+      "acousticness": 0.531,
+      "instrumentalness": 0.661
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.16
+    },
+    {
+      "acousticness": 0.405,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.336,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.802,
+      "instrumentalness": 0.695
+    },
+    {
+      "acousticness": 0.362,
+      "instrumentalness": 0.955
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.069
+    },
+    {
+      "acousticness": 0.282,
+      "instrumentalness": 0.637
+    },
+    {
+      "acousticness": 0.309,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.025
+    },
+    {
+      "acousticness": 0.217,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.791,
+      "instrumentalness": 0.419
+    },
+    {
+      "acousticness": 0.539,
+      "instrumentalness": 0.886
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.534,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.593
+    }
+  ],
+  "duration": {
+    "min": 128613,
+    "max": 518221,
+    "mean": 253874.88,
+    "median": 233490.5,
+    "q1": 210466,
+    "q3": 293306
+  },
+  "danceability": {
+    "min": 0.183,
+    "max": 0.954,
+    "mean": 0.63,
+    "median": 0.639,
+    "q1": 0.574,
+    "q3": 0.713
+  },
+  "loudness": {
+    "min": -16.664,
+    "max": -3.88,
+    "mean": -8.809,
+    "median": -8.704,
+    "q1": -10.24,
+    "q3": -6.68
+  },
+  "speechiness": {
+    "min": 0.027,
+    "max": 0.399,
+    "mean": 0.074,
+    "median": 0.044,
+    "q1": 0.035,
+    "q3": 0.075
+  },
+  "top_artists": [
+    {
+      "name": "FKA twigs",
+      "count": 13
+    },
+    {
+      "name": "Bonobo",
+      "count": 12
+    },
+    {
+      "name": "Air",
+      "count": 7
+    },
+    {
+      "name": "Portishead",
+      "count": 6
+    },
+    {
+      "name": "Massive Attack",
+      "count": 6
+    },
+    {
+      "name": "DJ Shadow",
+      "count": 4
+    },
+    {
+      "name": "Zero 7",
+      "count": 4
+    },
+    {
+      "name": "Morcheeba",
+      "count": 4
+    },
+    {
+      "name": "Little Dragon",
+      "count": 4
+    },
+    {
+      "name": "Faithless",
+      "count": 4
+    },
+    {
+      "name": "Groove Armada",
+      "count": 4
+    },
+    {
+      "name": "Thievery Corporation",
+      "count": 4
+    },
+    {
+      "name": "Quantic",
+      "count": 3
+    },
+    {
+      "name": "Mos Def",
+      "count": 2
+    },
+    {
+      "name": "Sophie Barker",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Glory Box",
+      "artists": "Portishead",
+      "album": "Dummy",
+      "popularity": 71,
+      "tempo": 119.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.434,
+      "valence": 0.207,
+      "danceability": 0.51,
+      "acousticness": 0.177,
+      "instrumentalness": 0.516,
+      "loudness": -10.0,
+      "speechiness": 0.036,
+      "duration_ms": 308626,
+      "slug": "glory-box-portishead"
+    },
+    {
+      "name": "Teardrop",
+      "artists": "Massive Attack",
+      "album": "Mezzanine",
+      "popularity": 71,
+      "tempo": 77.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.419,
+      "valence": 0.216,
+      "danceability": 0.615,
+      "acousticness": 0.017,
+      "instrumentalness": 0.497,
+      "loudness": -8.8,
+      "speechiness": 0.04,
+      "duration_ms": 330773,
+      "slug": "teardrop-massive-attack"
+    },
+    {
+      "name": "Who Is She ?",
+      "artists": "I Monster",
+      "album": "Neveroddoreven",
+      "popularity": 67,
+      "tempo": 152.7,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.802,
+      "valence": 0.101,
+      "danceability": 0.392,
+      "acousticness": 0.076,
+      "instrumentalness": 0.009,
+      "loudness": -4.0,
+      "speechiness": 0.042,
+      "duration_ms": 213373,
+      "slug": "who-is-she-i-monster"
+    },
+    {
+      "name": "Six Days - Remix",
+      "artists": "DJ Shadow;Mos Def",
+      "album": "The Fast And The Furious: Tokyo Drift (Original Motion Picture Soundtrack)",
+      "popularity": 66,
+      "tempo": 171.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.943,
+      "valence": 0.718,
+      "danceability": 0.641,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.264,
+      "duration_ms": 232000,
+      "slug": "six-days-remix-dj-shadow"
+    },
+    {
+      "name": "You Wish",
+      "artists": "Nightmares On Wax",
+      "album": "In A Space Outta Sound",
+      "popularity": 65,
+      "tempo": 103.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.244,
+      "valence": 0.421,
+      "danceability": 0.774,
+      "acousticness": 0.72,
+      "instrumentalness": 0.915,
+      "loudness": -9.7,
+      "speechiness": 0.03,
+      "duration_ms": 210466,
+      "slug": "you-wish-nightmares-on-wax"
+    },
+    {
+      "name": "Missing - Todd Terry Remix / Radio Edit",
+      "artists": "Everything But The Girl",
+      "album": "Like The Deserts Miss The Rain",
+      "popularity": 65,
+      "tempo": 123.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.853,
+      "valence": 0.652,
+      "danceability": 0.739,
+      "acousticness": 0.022,
+      "instrumentalness": 0.004,
+      "loudness": -6.5,
+      "speechiness": 0.03,
+      "duration_ms": 235026,
+      "slug": "missing-todd-terry-remix-radio-edit-everything-but-the-girl"
+    },
+    {
+      "name": "Unfinished Sympathy - 2012 Mix/Master",
+      "artists": "Massive Attack",
+      "album": "Blue Lines (2012 Mix/Master)",
+      "popularity": 64,
+      "tempo": 114.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.835,
+      "valence": 0.703,
+      "danceability": 0.592,
+      "acousticness": 0.039,
+      "instrumentalness": 0.209,
+      "loudness": -8.5,
+      "speechiness": 0.032,
+      "duration_ms": 308426,
+      "slug": "unfinished-sympathy-2012-mixmaster-massive-attack"
+    },
+    {
+      "name": "cellophane",
+      "artists": "FKA twigs",
+      "album": "MAGDALENE",
+      "popularity": 63,
+      "tempo": 98.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.284,
+      "valence": 0.229,
+      "danceability": 0.431,
+      "acousticness": 0.871,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.043,
+      "duration_ms": 204066,
+      "slug": "cellophane-fka-twigs"
+    },
+    {
+      "name": "Roads",
+      "artists": "Portishead",
+      "album": "Dummy",
+      "popularity": 63,
+      "tempo": 76.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.294,
+      "valence": 0.192,
+      "danceability": 0.607,
+      "acousticness": 0.778,
+      "instrumentalness": 0.162,
+      "loudness": -11.8,
+      "speechiness": 0.076,
+      "duration_ms": 303973,
+      "slug": "roads-portishead"
+    },
+    {
+      "name": "Angel",
+      "artists": "Massive Attack",
+      "album": "Mezzanine",
+      "popularity": 63,
+      "tempo": 107.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.309,
+      "valence": 0.067,
+      "danceability": 0.714,
+      "acousticness": 0.016,
+      "instrumentalness": 0.807,
+      "loudness": -10.8,
+      "speechiness": 0.029,
+      "duration_ms": 379533,
+      "slug": "angel-massive-attack"
+    },
+    {
+      "name": "Breathe",
+      "artists": "T\u00e9l\u00e9popmusik;Angela McCluskey",
+      "album": "Genetic World",
+      "popularity": 63,
+      "tempo": 114.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.684,
+      "valence": 0.616,
+      "danceability": 0.684,
+      "acousticness": 0.385,
+      "instrumentalness": 0.29,
+      "loudness": -13.3,
+      "speechiness": 0.042,
+      "duration_ms": 282240,
+      "slug": "breathe-t\u00e9l\u00e9popmusik"
+    },
+    {
+      "name": "Playground Love",
+      "artists": "Air;Gordon Tracks",
+      "album": "The Virgin Suicides (Original Motion Picture Score)",
+      "popularity": 63,
+      "tempo": 143.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.423,
+      "valence": 0.117,
+      "danceability": 0.33,
+      "acousticness": 0.265,
+      "instrumentalness": 0.731,
+      "loudness": -10.5,
+      "speechiness": 0.028,
+      "duration_ms": 211500,
+      "slug": "playground-love-air"
+    },
+    {
+      "name": "In The Waiting Line",
+      "artists": "Zero 7;Sophie Barker",
+      "album": "Simple Things",
+      "popularity": 63,
+      "tempo": 79.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.33,
+      "valence": 0.378,
+      "danceability": 0.561,
+      "acousticness": 0.76,
+      "instrumentalness": 0.134,
+      "loudness": -13.5,
+      "speechiness": 0.027,
+      "duration_ms": 271520,
+      "slug": "in-the-waiting-line-zero-7"
+    },
+    {
+      "name": "All I Need (feat. Beth Hirsch)",
+      "artists": "Air;Beth Hirsch",
+      "album": "Moon Safari",
+      "popularity": 63,
+      "tempo": 93.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.425,
+      "valence": 0.165,
+      "danceability": 0.327,
+      "acousticness": 0.878,
+      "instrumentalness": 0.001,
+      "loudness": -11.6,
+      "speechiness": 0.027,
+      "duration_ms": 268306,
+      "slug": "all-i-need-feat-beth-hirsch-air"
+    },
+    {
+      "name": "Six Days - Remix",
+      "artists": "DJ Shadow;Mos Def",
+      "album": "Six Days",
+      "popularity": 62,
+      "tempo": 171.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.909,
+      "valence": 0.691,
+      "danceability": 0.699,
+      "acousticness": 0.13,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.236,
+      "duration_ms": 232533,
+      "slug": "six-days-remix-dj-shadow"
+    },
+    {
+      "name": "Paradise Circus",
+      "artists": "Massive Attack",
+      "album": "Heligoland",
+      "popularity": 62,
+      "tempo": 136.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.591,
+      "valence": 0.297,
+      "danceability": 0.81,
+      "acousticness": 0.414,
+      "instrumentalness": 0.799,
+      "loudness": -13.4,
+      "speechiness": 0.064,
+      "duration_ms": 297774,
+      "slug": "paradise-circus-massive-attack"
+    },
+    {
+      "name": "The Sea",
+      "artists": "Morcheeba",
+      "album": "Big Calm",
+      "popularity": 62,
+      "tempo": 150.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.761,
+      "valence": 0.248,
+      "danceability": 0.535,
+      "acousticness": 0.017,
+      "instrumentalness": 0.114,
+      "loudness": -7.6,
+      "speechiness": 0.037,
+      "duration_ms": 347280,
+      "slug": "the-sea-morcheeba"
+    },
+    {
+      "name": "Sour Times",
+      "artists": "Portishead",
+      "album": "Dummy",
+      "popularity": 62,
+      "tempo": 94.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.633,
+      "valence": 0.55,
+      "danceability": 0.698,
+      "acousticness": 0.051,
+      "instrumentalness": 0.272,
+      "loudness": -6.7,
+      "speechiness": 0.041,
+      "duration_ms": 252266,
+      "slug": "sour-times-portishead"
+    },
+    {
+      "name": "Where You Belong",
+      "artists": "Little Dragon",
+      "album": "New Me, Same Us",
+      "popularity": 62,
+      "tempo": 83.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.436,
+      "valence": 0.36,
+      "danceability": 0.737,
+      "acousticness": 0.161,
+      "instrumentalness": 0.106,
+      "loudness": -9.1,
+      "speechiness": 0.056,
+      "duration_ms": 207037,
+      "slug": "where-you-belong-little-dragon"
+    },
+    {
+      "name": "Anything You Want - Not That",
+      "artists": "Belleruche",
+      "album": "The Express",
+      "popularity": 62,
+      "tempo": 122.3,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.777,
+      "valence": 0.952,
+      "danceability": 0.954,
+      "acousticness": 0.054,
+      "instrumentalness": 0.786,
+      "loudness": -7.9,
+      "speechiness": 0.042,
+      "duration_ms": 202480,
+      "slug": "anything-you-want-not-that-belleruche"
+    },
+    {
+      "name": "Insomnia - Radio Edit",
+      "artists": "Faithless",
+      "album": "Pure... 90s Dance Party",
+      "popularity": 62,
+      "tempo": 127.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.837,
+      "valence": 0.279,
+      "danceability": 0.712,
+      "acousticness": 0.009,
+      "instrumentalness": 0.007,
+      "loudness": -7.2,
+      "speechiness": 0.029,
+      "duration_ms": 215093,
+      "slug": "insomnia-radio-edit-faithless"
+    },
+    {
+      "name": "Rome Wasn't Built in a Day",
+      "artists": "Morcheeba",
+      "album": "Fragments of Freedom",
+      "popularity": 62,
+      "tempo": 112.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.807,
+      "valence": 0.689,
+      "danceability": 0.61,
+      "acousticness": 0.077,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.03,
+      "duration_ms": 214719,
+      "slug": "rome-wasnt-built-in-a-day-morcheeba"
+    },
+    {
+      "name": "Nobody Speak",
+      "artists": "DJ Shadow;Run The Jewels",
+      "album": "The Mountain Will Fall",
+      "popularity": 61,
+      "tempo": 160.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.301,
+      "danceability": 0.618,
+      "acousticness": 0.04,
+      "instrumentalness": 0.002,
+      "loudness": -5.9,
+      "speechiness": 0.157,
+      "duration_ms": 195965,
+      "slug": "nobody-speak-dj-shadow"
+    },
+    {
+      "name": "Mad About You",
+      "artists": "Hooverphonic",
+      "album": "The Magnificent Tree",
+      "popularity": 61,
+      "tempo": 170.4,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.844,
+      "valence": 0.155,
+      "danceability": 0.465,
+      "acousticness": 0.001,
+      "instrumentalness": 0.399,
+      "loudness": -4.4,
+      "speechiness": 0.038,
+      "duration_ms": 223733,
+      "slug": "mad-about-you-hooverphonic"
+    },
+    {
+      "name": "La femme d'argent",
+      "artists": "Air",
+      "album": "Moon Safari",
+      "popularity": 61,
+      "tempo": 79.8,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.737,
+      "valence": 0.558,
+      "danceability": 0.517,
+      "acousticness": 0.434,
+      "instrumentalness": 0.684,
+      "loudness": -8.2,
+      "speechiness": 0.035,
+      "duration_ms": 426614,
+      "slug": "la-femme-dargent-air"
+    },
+    {
+      "name": "Superstylin'",
+      "artists": "Groove Armada",
+      "album": "Goodbye Country (Hello Nightclub)",
+      "popularity": 61,
+      "tempo": 129.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.928,
+      "danceability": 0.742,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -8.3,
+      "speechiness": 0.056,
+      "duration_ms": 360426,
+      "slug": "superstylin-groove-armada"
+    },
+    {
+      "name": "tears in the club (feat. the weeknd)",
+      "artists": "FKA twigs;The Weeknd",
+      "album": "CAPRISONGS",
+      "popularity": 60,
+      "tempo": 168.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.72,
+      "danceability": 0.616,
+      "acousticness": 0.194,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.11,
+      "duration_ms": 196760,
+      "slug": "tears-in-the-club-feat-the-weeknd-fka-twigs"
+    },
+    {
+      "name": "God is A DJ",
+      "artists": "Faithless;David Guetta",
+      "album": "God Is a DJ",
+      "popularity": 60,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.964,
+      "valence": 0.115,
+      "danceability": 0.598,
+      "acousticness": 0.044,
+      "instrumentalness": 0.654,
+      "loudness": -4.2,
+      "speechiness": 0.052,
+      "duration_ms": 155000,
+      "slug": "god-is-a-dj-faithless"
+    },
+    {
+      "name": "killer",
+      "artists": "FKA twigs",
+      "album": "killer",
+      "popularity": 60,
+      "tempo": 78.8,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.619,
+      "valence": 0.757,
+      "danceability": 0.401,
+      "acousticness": 0.168,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.21,
+      "duration_ms": 176876,
+      "slug": "killer-fka-twigs"
+    },
+    {
+      "name": "Muy Tranquilo",
+      "artists": "Gramatik",
+      "album": "SB3",
+      "popularity": 60,
+      "tempo": 89.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.621,
+      "valence": 0.749,
+      "danceability": 0.641,
+      "acousticness": 0.24,
+      "instrumentalness": 0.03,
+      "loudness": -3.9,
+      "speechiness": 0.052,
+      "duration_ms": 233755,
+      "slug": "muy-tranquilo-gramatik"
+    },
+    {
+      "name": "Que Sera",
+      "artists": "Wax Tailor",
+      "album": "Tales of the Forgotten Melodies",
+      "popularity": 60,
+      "tempo": 83.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.415,
+      "danceability": 0.714,
+      "acousticness": 0.273,
+      "instrumentalness": 0.245,
+      "loudness": -5.0,
+      "speechiness": 0.078,
+      "duration_ms": 164093,
+      "slug": "que-sera-wax-tailor"
+    },
+    {
+      "name": "I Wonder",
+      "artists": "Protassov",
+      "album": "Shalina Music",
+      "popularity": 60,
+      "tempo": 80.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.781,
+      "valence": 0.421,
+      "danceability": 0.798,
+      "acousticness": 0.153,
+      "instrumentalness": 0.066,
+      "loudness": -7.4,
+      "speechiness": 0.091,
+      "duration_ms": 247426,
+      "slug": "i-wonder-protassov"
+    },
+    {
+      "name": "My Friend",
+      "artists": "Groove Armada",
+      "album": "Goodbye Country (Hello Nightclub)",
+      "popularity": 60,
+      "tempo": 94.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.867,
+      "valence": 0.153,
+      "danceability": 0.473,
+      "acousticness": 0.009,
+      "instrumentalness": 0.691,
+      "loudness": -8.8,
+      "speechiness": 0.159,
+      "duration_ms": 300266,
+      "slug": "my-friend-groove-armada"
+    },
+    {
+      "name": "jealousy (feat. rema)",
+      "artists": "FKA twigs;Rema",
+      "album": "CAPRISONGS",
+      "popularity": 59,
+      "tempo": 113.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.525,
+      "danceability": 0.828,
+      "acousticness": 0.285,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.077,
+      "duration_ms": 159666,
+      "slug": "jealousy-feat-rema-fka-twigs"
+    },
+    {
+      "name": "papi bones (feat. shygirl)",
+      "artists": "FKA twigs;Shygirl",
+      "album": "CAPRISONGS",
+      "popularity": 59,
+      "tempo": 95.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.629,
+      "valence": 0.581,
+      "danceability": 0.737,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.287,
+      "duration_ms": 220040,
+      "slug": "papi-bones-feat-shygirl-fka-twigs"
+    },
+    {
+      "name": "ATK",
+      "artists": "Bonobo",
+      "album": "ATK",
+      "popularity": 59,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.88,
+      "valence": 0.581,
+      "danceability": 0.705,
+      "acousticness": 0.005,
+      "instrumentalness": 0.862,
+      "loudness": -8.9,
+      "speechiness": 0.063,
+      "duration_ms": 245208,
+      "slug": "atk-bonobo"
+    },
+    {
+      "name": "Cirrus",
+      "artists": "Bonobo",
+      "album": "The North Borders",
+      "popularity": 59,
+      "tempo": 119.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.844,
+      "valence": 0.364,
+      "danceability": 0.64,
+      "acousticness": 0.395,
+      "instrumentalness": 0.933,
+      "loudness": -8.4,
+      "speechiness": 0.037,
+      "duration_ms": 352246,
+      "slug": "cirrus-bonobo"
+    },
+    {
+      "name": "Destiny",
+      "artists": "Zero 7;Sia;Sophie Barker",
+      "album": "Simple Things",
+      "popularity": 59,
+      "tempo": 138.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.576,
+      "valence": 0.471,
+      "danceability": 0.63,
+      "acousticness": 0.217,
+      "instrumentalness": 0.686,
+      "loudness": -9.0,
+      "speechiness": 0.03,
+      "duration_ms": 338279,
+      "slug": "destiny-zero-7"
+    },
+    {
+      "name": "Sexy Boy",
+      "artists": "Air",
+      "album": "Moon Safari",
+      "popularity": 59,
+      "tempo": 111.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.652,
+      "valence": 0.211,
+      "danceability": 0.437,
+      "acousticness": 0.001,
+      "instrumentalness": 0.614,
+      "loudness": -6.2,
+      "speechiness": 0.029,
+      "duration_ms": 298466,
+      "slug": "sexy-boy-air"
+    },
+    {
+      "name": "Shadows",
+      "artists": "Bonobo;Jordan Rakei",
+      "album": "Fragments",
+      "popularity": 59,
+      "tempo": 114.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.576,
+      "valence": 0.593,
+      "danceability": 0.658,
+      "acousticness": 0.091,
+      "instrumentalness": 0.393,
+      "loudness": -11.0,
+      "speechiness": 0.036,
+      "duration_ms": 285093,
+      "slug": "shadows-bonobo"
+    },
+    {
+      "name": "Rosewood",
+      "artists": "Bonobo",
+      "album": "Fragments",
+      "popularity": 59,
+      "tempo": 121.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.637,
+      "valence": 0.429,
+      "danceability": 0.757,
+      "acousticness": 0.067,
+      "instrumentalness": 0.485,
+      "loudness": -9.5,
+      "speechiness": 0.043,
+      "duration_ms": 242773,
+      "slug": "rosewood-bonobo"
+    },
+    {
+      "name": "Koop Island Blues",
+      "artists": "Koop",
+      "album": "Koop Islands",
+      "popularity": 59,
+      "tempo": 79.2,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.537,
+      "valence": 0.521,
+      "danceability": 0.555,
+      "acousticness": 0.731,
+      "instrumentalness": 0.052,
+      "loudness": -9.0,
+      "speechiness": 0.031,
+      "duration_ms": 276360,
+      "slug": "koop-island-blues-koop"
+    },
+    {
+      "name": "Roygbiv",
+      "artists": "Boards of Canada",
+      "album": "Music Has The Right To Children",
+      "popularity": 59,
+      "tempo": 84.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.521,
+      "valence": 0.118,
+      "danceability": 0.631,
+      "acousticness": 0.02,
+      "instrumentalness": 0.923,
+      "loudness": -10.3,
+      "speechiness": 0.063,
+      "duration_ms": 151520,
+      "slug": "roygbiv-boards-of-canada"
+    },
+    {
+      "name": "Protection",
+      "artists": "Massive Attack;Tracey Thorn",
+      "album": "Protection",
+      "popularity": 59,
+      "tempo": 168.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.421,
+      "valence": 0.737,
+      "danceability": 0.577,
+      "acousticness": 0.016,
+      "instrumentalness": 0.124,
+      "loudness": -13.1,
+      "speechiness": 0.049,
+      "duration_ms": 471560,
+      "slug": "protection-massive-attack"
+    },
+    {
+      "name": "At the River",
+      "artists": "Groove Armada",
+      "album": "Vertigo",
+      "popularity": 59,
+      "tempo": 136.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.514,
+      "valence": 0.44,
+      "danceability": 0.697,
+      "acousticness": 0.03,
+      "instrumentalness": 0.532,
+      "loudness": -8.6,
+      "speechiness": 0.029,
+      "duration_ms": 393640,
+      "slug": "at-the-river-groove-armada"
+    },
+    {
+      "name": "Cumbia Sobre el Mar",
+      "artists": "Quantic;Flowering Inferno",
+      "album": "Dog With a Rope (Quantic Presenta Flowering Inferno)",
+      "popularity": 59,
+      "tempo": 84.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.662,
+      "danceability": 0.615,
+      "acousticness": 0.073,
+      "instrumentalness": 0.427,
+      "loudness": -8.1,
+      "speechiness": 0.058,
+      "duration_ms": 377293,
+      "slug": "cumbia-sobre-el-mar-quantic"
+    },
+    {
+      "name": "God Is a DJ",
+      "artists": "Faithless",
+      "album": "Forever Faithless - The Greatest Hits",
+      "popularity": 59,
+      "tempo": 130.6,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.897,
+      "valence": 0.393,
+      "danceability": 0.606,
+      "acousticness": 0.176,
+      "instrumentalness": 0.882,
+      "loudness": -7.5,
+      "speechiness": 0.045,
+      "duration_ms": 208506,
+      "slug": "god-is-a-dj-faithless"
+    },
+    {
+      "name": "Ritual Union",
+      "artists": "Little Dragon",
+      "album": "Ritual Union",
+      "popularity": 59,
+      "tempo": 144.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.738,
+      "valence": 0.796,
+      "danceability": 0.7,
+      "acousticness": 0.038,
+      "instrumentalness": 0.005,
+      "loudness": -4.4,
+      "speechiness": 0.032,
+      "duration_ms": 210266,
+      "slug": "ritual-union-little-dragon"
+    },
+    {
+      "name": "Kong",
+      "artists": "Bonobo",
+      "album": "Black Sands",
+      "popularity": 58,
+      "tempo": 94.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.749,
+      "valence": 0.674,
+      "danceability": 0.542,
+      "acousticness": 0.173,
+      "instrumentalness": 0.942,
+      "loudness": -8.3,
+      "speechiness": 0.028,
+      "duration_ms": 237826,
+      "slug": "kong-bonobo"
+    },
+    {
+      "name": "Two Weeks",
+      "artists": "FKA twigs",
+      "album": "LP1",
+      "popularity": 58,
+      "tempo": 109.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.716,
+      "valence": 0.338,
+      "danceability": 0.479,
+      "acousticness": 0.062,
+      "instrumentalness": 0.001,
+      "loudness": -6.7,
+      "speechiness": 0.228,
+      "duration_ms": 247547,
+      "slug": "two-weeks-fka-twigs"
+    },
+    {
+      "name": "oh my love",
+      "artists": "FKA twigs",
+      "album": "CAPRISONGS",
+      "popularity": 58,
+      "tempo": 108.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.592,
+      "valence": 0.545,
+      "danceability": 0.907,
+      "acousticness": 0.532,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.086,
+      "duration_ms": 225653,
+      "slug": "oh-my-love-fka-twigs"
+    },
+    {
+      "name": "Seize The Day",
+      "artists": "Wax Tailor;Charlotte Savary",
+      "album": "Seize The Day",
+      "popularity": 58,
+      "tempo": 83.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.516,
+      "valence": 0.502,
+      "danceability": 0.634,
+      "acousticness": 0.153,
+      "instrumentalness": 0.665,
+      "loudness": -8.2,
+      "speechiness": 0.045,
+      "duration_ms": 161512,
+      "slug": "seize-the-day-wax-tailor"
+    },
+    {
+      "name": "Wandering Star",
+      "artists": "Portishead",
+      "album": "Dummy",
+      "popularity": 58,
+      "tempo": 80.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.37,
+      "valence": 0.707,
+      "danceability": 0.639,
+      "acousticness": 0.504,
+      "instrumentalness": 0.587,
+      "loudness": -10.9,
+      "speechiness": 0.072,
+      "duration_ms": 293200,
+      "slug": "wandering-star-portishead"
+    },
+    {
+      "name": "All That We Perceive",
+      "artists": "Thievery Corporation",
+      "album": "The Richest Man In Babylon",
+      "popularity": 58,
+      "tempo": 90.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.832,
+      "valence": 0.951,
+      "danceability": 0.698,
+      "acousticness": 0.025,
+      "instrumentalness": 0.947,
+      "loudness": -6.5,
+      "speechiness": 0.034,
+      "duration_ms": 226133,
+      "slug": "all-that-we-perceive-thievery-corporation"
+    },
+    {
+      "name": "What Else Is There?",
+      "artists": "R\u00f6yksopp",
+      "album": "The Understanding",
+      "popularity": 58,
+      "tempo": 115.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.927,
+      "valence": 0.342,
+      "danceability": 0.704,
+      "acousticness": 0.185,
+      "instrumentalness": 0.108,
+      "loudness": -7.2,
+      "speechiness": 0.044,
+      "duration_ms": 317173,
+      "slug": "what-else-is-there-r\u00f6yksopp"
+    },
+    {
+      "name": "The Sensual Woman",
+      "artists": "The Herbaliser",
+      "album": "Very Mercenary",
+      "popularity": 58,
+      "tempo": 90.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.18,
+      "valence": 0.189,
+      "danceability": 0.781,
+      "acousticness": 0.048,
+      "instrumentalness": 0.923,
+      "loudness": -9.5,
+      "speechiness": 0.072,
+      "duration_ms": 216001,
+      "slug": "the-sensual-woman-the-herbaliser"
+    },
+    {
+      "name": "Kerala",
+      "artists": "Bonobo",
+      "album": "Migration",
+      "popularity": 57,
+      "tempo": 124.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.739,
+      "valence": 0.138,
+      "danceability": 0.529,
+      "acousticness": 0.024,
+      "instrumentalness": 0.607,
+      "loudness": -9.6,
+      "speechiness": 0.072,
+      "duration_ms": 237546,
+      "slug": "kerala-bonobo"
+    },
+    {
+      "name": "Painting Silhouettes",
+      "artists": "Quantic",
+      "album": "Magnetica",
+      "popularity": 57,
+      "tempo": 92.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.522,
+      "valence": 0.491,
+      "danceability": 0.635,
+      "acousticness": 0.444,
+      "instrumentalness": 0.353,
+      "loudness": -12.5,
+      "speechiness": 0.037,
+      "duration_ms": 202466,
+      "slug": "painting-silhouettes-quantic"
+    },
+    {
+      "name": "Days To Come",
+      "artists": "Bonobo;Bajka",
+      "album": "Days To Come",
+      "popularity": 57,
+      "tempo": 92.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.558,
+      "valence": 0.416,
+      "danceability": 0.601,
+      "acousticness": 0.32,
+      "instrumentalness": 0.375,
+      "loudness": -8.4,
+      "speechiness": 0.044,
+      "duration_ms": 229520,
+      "slug": "days-to-come-bonobo"
+    },
+    {
+      "name": "Jungle Drum",
+      "artists": "Emil\u00edana Torrini",
+      "album": "Me and Armini",
+      "popularity": 57,
+      "tempo": 118.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.89,
+      "valence": 0.858,
+      "danceability": 0.637,
+      "acousticness": 0.131,
+      "instrumentalness": 0.005,
+      "loudness": -5.3,
+      "speechiness": 0.075,
+      "duration_ms": 133466,
+      "slug": "jungle-drum-emil\u00edana-torrini"
+    },
+    {
+      "name": "From You",
+      "artists": "Bonobo;Joji",
+      "album": "Fragments",
+      "popularity": 56,
+      "tempo": 140.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.499,
+      "valence": 0.255,
+      "danceability": 0.655,
+      "acousticness": 0.569,
+      "instrumentalness": 0.763,
+      "loudness": -10.0,
+      "speechiness": 0.043,
+      "duration_ms": 210280,
+      "slug": "from-you-bonobo"
+    },
+    {
+      "name": "Mad About You - Live at Koningin Elisabethzaal 2012",
+      "artists": "Hooverphonic",
+      "album": "With Orchestra Live",
+      "popularity": 56,
+      "tempo": 77.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.445,
+      "valence": 0.188,
+      "danceability": 0.386,
+      "acousticness": 0.606,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.038,
+      "duration_ms": 239266,
+      "slug": "mad-about-you-live-at-koningin-elisabethzaal-2012-hooverphonic"
+    },
+    {
+      "name": "Break Apart",
+      "artists": "Bonobo;Rhye",
+      "album": "Migration",
+      "popularity": 56,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.458,
+      "valence": 0.085,
+      "danceability": 0.648,
+      "acousticness": 0.864,
+      "instrumentalness": 0.094,
+      "loudness": -15.2,
+      "speechiness": 0.031,
+      "duration_ms": 274693,
+      "slug": "break-apart-bonobo"
+    },
+    {
+      "name": "ride the dragon",
+      "artists": "FKA twigs",
+      "album": "CAPRISONGS",
+      "popularity": 56,
+      "tempo": 147.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.509,
+      "danceability": 0.773,
+      "acousticness": 0.354,
+      "instrumentalness": 0.003,
+      "loudness": -11.3,
+      "speechiness": 0.112,
+      "duration_ms": 188773,
+      "slug": "ride-the-dragon-fka-twigs"
+    },
+    {
+      "name": "Tides",
+      "artists": "Bonobo;Jamila Woods",
+      "album": "Fragments",
+      "popularity": 56,
+      "tempo": 126.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.314,
+      "valence": 0.201,
+      "danceability": 0.6,
+      "acousticness": 0.791,
+      "instrumentalness": 0.419,
+      "loudness": -9.1,
+      "speechiness": 0.035,
+      "duration_ms": 226146,
+      "slug": "tides-bonobo"
+    },
+    {
+      "name": "Alone in Kyoto",
+      "artists": "Air",
+      "album": "Talkie Walkie",
+      "popularity": 56,
+      "tempo": 180.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.079,
+      "danceability": 0.525,
+      "acousticness": 0.958,
+      "instrumentalness": 0.751,
+      "loudness": -16.5,
+      "speechiness": 0.072,
+      "duration_ms": 291000,
+      "slug": "alone-in-kyoto-air"
+    },
+    {
+      "name": "Karmacoma",
+      "artists": "Massive Attack",
+      "album": "Protection",
+      "popularity": 56,
+      "tempo": 141.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.536,
+      "valence": 0.667,
+      "danceability": 0.801,
+      "acousticness": 0.005,
+      "instrumentalness": 0.183,
+      "loudness": -14.3,
+      "speechiness": 0.224,
+      "duration_ms": 316440,
+      "slug": "karmacoma-massive-attack"
+    },
+    {
+      "name": "Blood Like Lemonade",
+      "artists": "Morcheeba",
+      "album": "Blood Like Lemonade",
+      "popularity": 56,
+      "tempo": 168.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.588,
+      "valence": 0.627,
+      "danceability": 0.652,
+      "acousticness": 0.001,
+      "instrumentalness": 0.385,
+      "loudness": -9.6,
+      "speechiness": 0.103,
+      "duration_ms": 293306,
+      "slug": "blood-like-lemonade-morcheeba"
+    },
+    {
+      "name": "Lebanese Blonde",
+      "artists": "Thievery Corporation",
+      "album": "It Takes A Thief: The Very Best Of Thievery Corporation",
+      "popularity": 56,
+      "tempo": 92.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.831,
+      "valence": 0.648,
+      "danceability": 0.812,
+      "acousticness": 0.246,
+      "instrumentalness": 0.789,
+      "loudness": -6.5,
+      "speechiness": 0.046,
+      "duration_ms": 289866,
+      "slug": "lebanese-blonde-thievery-corporation"
+    },
+    {
+      "name": "Enchantica",
+      "artists": "Jon Kennedy",
+      "album": "Enchantica",
+      "popularity": 56,
+      "tempo": 127.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.354,
+      "valence": 0.21,
+      "danceability": 0.75,
+      "acousticness": 0.416,
+      "instrumentalness": 0.791,
+      "loudness": -16.7,
+      "speechiness": 0.165,
+      "duration_ms": 144149,
+      "slug": "enchantica-jon-kennedy"
+    },
+    {
+      "name": "Today",
+      "artists": "Zero 7;Jos\u00e9 Gonz\u00e1lez",
+      "album": "The Garden",
+      "popularity": 56,
+      "tempo": 168.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.673,
+      "valence": 0.57,
+      "danceability": 0.576,
+      "acousticness": 0.062,
+      "instrumentalness": 0.006,
+      "loudness": -11.4,
+      "speechiness": 0.031,
+      "duration_ms": 245640,
+      "slug": "today-zero-7"
+    },
+    {
+      "name": "The Rip",
+      "artists": "Portishead",
+      "album": "Third",
+      "popularity": 56,
+      "tempo": 74.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.486,
+      "valence": 0.249,
+      "danceability": 0.418,
+      "acousticness": 0.929,
+      "instrumentalness": 0.461,
+      "loudness": -9.4,
+      "speechiness": 0.032,
+      "duration_ms": 270960,
+      "slug": "the-rip-portishead"
+    },
+    {
+      "name": "Sweet Tides",
+      "artists": "Thievery Corporation",
+      "album": "Radio Retaliation",
+      "popularity": 56,
+      "tempo": 158.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.606,
+      "valence": 0.148,
+      "danceability": 0.415,
+      "acousticness": 0.023,
+      "instrumentalness": 0.909,
+      "loudness": -7.5,
+      "speechiness": 0.028,
+      "duration_ms": 288933,
+      "slug": "sweet-tides-thievery-corporation"
+    },
+    {
+      "name": "Dayvan Cowboy",
+      "artists": "Boards of Canada",
+      "album": "The Campfire Headphase",
+      "popularity": 56,
+      "tempo": 167.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.615,
+      "valence": 0.036,
+      "danceability": 0.322,
+      "acousticness": 0.507,
+      "instrumentalness": 0.819,
+      "loudness": -10.8,
+      "speechiness": 0.043,
+      "duration_ms": 300186,
+      "slug": "dayvan-cowboy-boards-of-canada"
+    },
+    {
+      "name": "Simmerdown",
+      "artists": "Nostalgia 77;Josa Peit",
+      "album": "The Sleepwalking Society",
+      "popularity": 56,
+      "tempo": 79.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.288,
+      "valence": 0.256,
+      "danceability": 0.805,
+      "acousticness": 0.181,
+      "instrumentalness": 0.009,
+      "loudness": -9.2,
+      "speechiness": 0.044,
+      "duration_ms": 207653,
+      "slug": "simmerdown-nostalgia-77"
+    },
+    {
+      "name": "Underwater Love",
+      "artists": "Smoke City",
+      "album": "Flying Away",
+      "popularity": 56,
+      "tempo": 81.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.626,
+      "valence": 0.521,
+      "danceability": 0.685,
+      "acousticness": 0.812,
+      "instrumentalness": 0.035,
+      "loudness": -7.8,
+      "speechiness": 0.204,
+      "duration_ms": 406000,
+      "slug": "underwater-love-smoke-city"
+    },
+    {
+      "name": "Otherwise",
+      "artists": "Morcheeba",
+      "album": "Charango",
+      "popularity": 56,
+      "tempo": 148.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.529,
+      "valence": 0.596,
+      "danceability": 0.69,
+      "acousticness": 0.276,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.031,
+      "duration_ms": 222839,
+      "slug": "otherwise-morcheeba"
+    },
+    {
+      "name": "Insomnia - Monster Mix",
+      "artists": "Faithless;Rollo Armstrong;Sister Bliss;Goetz",
+      "album": "Faithless 2.0",
+      "popularity": 56,
+      "tempo": 126.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.937,
+      "valence": 0.305,
+      "danceability": 0.683,
+      "acousticness": 0.028,
+      "instrumentalness": 0.768,
+      "loudness": -6.4,
+      "speechiness": 0.034,
+      "duration_ms": 518221,
+      "slug": "insomnia-monster-mix-faithless"
+    },
+    {
+      "name": "meta angel",
+      "artists": "FKA twigs",
+      "album": "CAPRISONGS",
+      "popularity": 55,
+      "tempo": 134.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.369,
+      "valence": 0.243,
+      "danceability": 0.568,
+      "acousticness": 0.81,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.127,
+      "duration_ms": 259466,
+      "slug": "meta-angel-fka-twigs"
+    },
+    {
+      "name": "careless (feat. daniel caesar)",
+      "artists": "FKA twigs;Daniel Caesar",
+      "album": "CAPRISONGS",
+      "popularity": 55,
+      "tempo": 118.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.395,
+      "valence": 0.26,
+      "danceability": 0.706,
+      "acousticness": 0.724,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.059,
+      "duration_ms": 216760,
+      "slug": "careless-feat-daniel-caesar-fka-twigs"
+    },
+    {
+      "name": "Hands of Time",
+      "artists": "Groove Armada",
+      "album": "Lovebox",
+      "popularity": 55,
+      "tempo": 91.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.466,
+      "valence": 0.399,
+      "danceability": 0.752,
+      "acousticness": 0.45,
+      "instrumentalness": 0.725,
+      "loudness": -7.8,
+      "speechiness": 0.033,
+      "duration_ms": 262266,
+      "slug": "hands-of-time-groove-armada"
+    },
+    {
+      "name": "Time Is the Enemy",
+      "artists": "Quantic",
+      "album": "The 5th Exotic",
+      "popularity": 55,
+      "tempo": 165.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.85,
+      "valence": 0.223,
+      "danceability": 0.183,
+      "acousticness": 0.007,
+      "instrumentalness": 0.938,
+      "loudness": -9.8,
+      "speechiness": 0.038,
+      "duration_ms": 219880,
+      "slug": "time-is-the-enemy-quantic"
+    },
+    {
+      "name": "Futures",
+      "artists": "Zero 7;Jos\u00e9 Gonz\u00e1lez",
+      "album": "The Garden",
+      "popularity": 55,
+      "tempo": 142.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.52,
+      "valence": 0.381,
+      "danceability": 0.597,
+      "acousticness": 0.187,
+      "instrumentalness": 0.07,
+      "loudness": -10.7,
+      "speechiness": 0.029,
+      "duration_ms": 233226,
+      "slug": "futures-zero-7"
+    },
+    {
+      "name": "Midnight In A Perfect World",
+      "artists": "DJ Shadow",
+      "album": "Endtroducing.....",
+      "popularity": 55,
+      "tempo": 79.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.644,
+      "valence": 0.646,
+      "danceability": 0.664,
+      "acousticness": 0.531,
+      "instrumentalness": 0.661,
+      "loudness": -9.3,
+      "speechiness": 0.035,
+      "duration_ms": 298373,
+      "slug": "midnight-in-a-perfect-world-dj-shadow"
+    },
+    {
+      "name": "6 Underground",
+      "artists": "Sneaker Pimps",
+      "album": "Becoming X",
+      "popularity": 55,
+      "tempo": 169.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.678,
+      "valence": 0.429,
+      "danceability": 0.587,
+      "acousticness": 0.032,
+      "instrumentalness": 0.16,
+      "loudness": -8.7,
+      "speechiness": 0.052,
+      "duration_ms": 228840,
+      "slug": "6-underground-sneaker-pimps"
+    },
+    {
+      "name": "Mysterons",
+      "artists": "Portishead",
+      "album": "Dummy",
+      "popularity": 55,
+      "tempo": 164.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.498,
+      "valence": 0.46,
+      "danceability": 0.657,
+      "acousticness": 0.405,
+      "instrumentalness": 0.0,
+      "loudness": -11.5,
+      "speechiness": 0.262,
+      "duration_ms": 305240,
+      "slug": "mysterons-portishead"
+    },
+    {
+      "name": "Hell Is Round The Corner",
+      "artists": "Tricky",
+      "album": "Maxinquaye (Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 119.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.539,
+      "valence": 0.507,
+      "danceability": 0.574,
+      "acousticness": 0.336,
+      "instrumentalness": 0.005,
+      "loudness": -12.3,
+      "speechiness": 0.177,
+      "duration_ms": 227066,
+      "slug": "hell-is-round-the-corner-tricky"
+    },
+    {
+      "name": "Saudade",
+      "artists": "Thievery Corporation",
+      "album": "Saudade",
+      "popularity": 55,
+      "tempo": 200.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.501,
+      "valence": 0.531,
+      "danceability": 0.667,
+      "acousticness": 0.802,
+      "instrumentalness": 0.695,
+      "loudness": -10.2,
+      "speechiness": 0.074,
+      "duration_ms": 128613,
+      "slug": "saudade-thievery-corporation"
+    },
+    {
+      "name": "Cherry Blossom Girl",
+      "artists": "Air",
+      "album": "Talkie Walkie",
+      "popularity": 55,
+      "tempo": 75.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.76,
+      "valence": 0.504,
+      "danceability": 0.436,
+      "acousticness": 0.362,
+      "instrumentalness": 0.955,
+      "loudness": -7.9,
+      "speechiness": 0.037,
+      "duration_ms": 219760,
+      "slug": "cherry-blossom-girl-air"
+    },
+    {
+      "name": "Eple",
+      "artists": "R\u00f6yksopp",
+      "album": "Melody A.M.",
+      "popularity": 55,
+      "tempo": 106.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.806,
+      "danceability": 0.68,
+      "acousticness": 0.007,
+      "instrumentalness": 0.069,
+      "loudness": -5.3,
+      "speechiness": 0.044,
+      "duration_ms": 218320,
+      "slug": "eple-r\u00f6yksopp"
+    },
+    {
+      "name": "Kelly Watch the Stars",
+      "artists": "Air",
+      "album": "Moon Safari",
+      "popularity": 55,
+      "tempo": 109.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.226,
+      "danceability": 0.516,
+      "acousticness": 0.282,
+      "instrumentalness": 0.637,
+      "loudness": -8.5,
+      "speechiness": 0.029,
+      "duration_ms": 226293,
+      "slug": "kelly-watch-the-stars-air"
+    },
+    {
+      "name": "Happy",
+      "artists": "Rae & Christian;Mark Foster",
+      "album": "Mecury Rising",
+      "popularity": 55,
+      "tempo": 110.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.551,
+      "valence": 0.614,
+      "danceability": 0.847,
+      "acousticness": 0.309,
+      "instrumentalness": 0.011,
+      "loudness": -9.3,
+      "speechiness": 0.054,
+      "duration_ms": 168054,
+      "slug": "happy-rae-christian"
+    },
+    {
+      "name": "Another Lover",
+      "artists": "Little Dragon",
+      "album": "New Me, Same Us",
+      "popularity": 55,
+      "tempo": 81.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.547,
+      "valence": 0.324,
+      "danceability": 0.643,
+      "acousticness": 0.198,
+      "instrumentalness": 0.025,
+      "loudness": -10.3,
+      "speechiness": 0.053,
+      "duration_ms": 266721,
+      "slug": "another-lover-little-dragon"
+    },
+    {
+      "name": "Frisco",
+      "artists": "Little Dragon",
+      "album": "Frisco",
+      "popularity": 55,
+      "tempo": 118.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.367,
+      "valence": 0.447,
+      "danceability": 0.781,
+      "acousticness": 0.217,
+      "instrumentalness": 0.001,
+      "loudness": -10.2,
+      "speechiness": 0.218,
+      "duration_ms": 222911,
+      "slug": "frisco-little-dragon"
+    },
+    {
+      "name": "tears in the club (feat. the weeknd)",
+      "artists": "FKA twigs;The Weeknd",
+      "album": "tears in the club (feat. the weeknd)",
+      "popularity": 54,
+      "tempo": 167.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.714,
+      "danceability": 0.617,
+      "acousticness": 0.181,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.095,
+      "duration_ms": 196760,
+      "slug": "tears-in-the-club-feat-the-weeknd-fka-twigs"
+    },
+    {
+      "name": "Tides",
+      "artists": "Bonobo;Jamila Woods",
+      "album": "Tides",
+      "popularity": 54,
+      "tempo": 126.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.314,
+      "valence": 0.201,
+      "danceability": 0.6,
+      "acousticness": 0.791,
+      "instrumentalness": 0.419,
+      "loudness": -9.1,
+      "speechiness": 0.035,
+      "duration_ms": 226146,
+      "slug": "tides-bonobo"
+    },
+    {
+      "name": "Linked",
+      "artists": "Bonobo",
+      "album": "Linked",
+      "popularity": 54,
+      "tempo": 122.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.24,
+      "danceability": 0.713,
+      "acousticness": 0.539,
+      "instrumentalness": 0.886,
+      "loudness": -10.0,
+      "speechiness": 0.038,
+      "duration_ms": 369461,
+      "slug": "linked-bonobo"
+    },
+    {
+      "name": "Measure of a Man (feat. Central Cee)",
+      "artists": "FKA twigs;Central Cee",
+      "album": "Measure of a Man (feat. Central Cee)",
+      "popularity": 54,
+      "tempo": 152.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.748,
+      "valence": 0.184,
+      "danceability": 0.582,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.043,
+      "duration_ms": 195466,
+      "slug": "measure-of-a-man-feat-central-cee-fka-twigs"
+    },
+    {
+      "name": "honda (feat. pa salieu)",
+      "artists": "FKA twigs;Pa Salieu",
+      "album": "CAPRISONGS",
+      "popularity": 54,
+      "tempo": 111.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.697,
+      "valence": 0.435,
+      "danceability": 0.81,
+      "acousticness": 0.534,
+      "instrumentalness": 0.013,
+      "loudness": -6.2,
+      "speechiness": 0.399,
+      "duration_ms": 201520,
+      "slug": "honda-feat-pa-salieu-fka-twigs"
+    },
+    {
+      "name": "A New Moanin'",
+      "artists": "Boozoo Bajou",
+      "album": "A New Moanin'",
+      "popularity": 54,
+      "tempo": 79.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.349,
+      "valence": 0.517,
+      "danceability": 0.764,
+      "acousticness": 0.017,
+      "instrumentalness": 0.593,
+      "loudness": -10.0,
+      "speechiness": 0.052,
+      "duration_ms": 193112,
+      "slug": "a-new-moanin-boozoo-bajou"
+    }
+  ]
+}

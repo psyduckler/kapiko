@@ -10,7 +10,7 @@ import json, os, sys, re, html as H
 from pathlib import Path
 
 SITE = Path.home() / 'kapiko' / 'site'
-GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul']
+GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop']
 
 def esc(t): return H.escape(str(t))
 
@@ -43,6 +43,16 @@ def infer_instruments(genre, acousticness, instrumentalness, energy):
         'electronic': ['synthesizer','drum machine'],
         'hip-hop': ['808 bass','hi-hats','snare'],
         'soul': ['organ','electric piano','bass guitar'],
+        'pop': ['synth','programmed drums','electric guitar'],
+        'r-n-b': ['808 bass','smooth synth pads','electric piano'],
+        'country': ['acoustic guitar','pedal steel','fiddle'],
+        'rock': ['electric guitar','drum kit','bass guitar'],
+        'edm': ['synth leads','sidechained bass','four-on-the-floor kick'],
+        'indie': ['jangly guitar','analog synths','drum machine'],
+        'folk': ['acoustic guitar','banjo','mandolin'],
+        'reggaeton': ['dembow beat','808 bass','synth stabs'],
+        'synth-pop': ['analog synth','drum machine','arpeggiator'],
+        'trip-hop': ['breakbeats','jazz samples','deep bass'],
     }.get(genre, ['various instruments'])
     return ', '.join(base)
 

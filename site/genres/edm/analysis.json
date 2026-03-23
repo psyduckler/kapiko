@@ -1,0 +1,2798 @@
+{
+  "genre": "EDM",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 83.018,
+    "max": 159.803,
+    "mean": 117.55,
+    "median": 122.954,
+    "q1": 104.879,
+    "q3": 125.905,
+    "histogram": {
+      "80-89": 2,
+      "90-99": 11,
+      "100-109": 17,
+      "110-119": 9,
+      "120-129": 52,
+      "130-139": 7,
+      "140-149": 1,
+      "150-159": 1
+    }
+  },
+  "key_distribution": {
+    "G#/Ab": 14,
+    "G": 13,
+    "B": 13,
+    "C#/Db": 11,
+    "C": 10,
+    "F#/Gb": 8,
+    "F": 8,
+    "E": 6,
+    "D": 5,
+    "A#/Bb": 5,
+    "A": 5,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Minor": 56,
+    "Major": 44
+  },
+  "key_mode_distribution": {
+    "G Minor": 9,
+    "G#/Ab Major": 9,
+    "B Minor": 8,
+    "F Minor": 7,
+    "C#/Db Major": 6,
+    "F#/Gb Minor": 5,
+    "C Minor": 5,
+    "A#/Bb Minor": 5,
+    "G#/Ab Minor": 5,
+    "B Major": 5,
+    "C Major": 5,
+    "C#/Db Minor": 5,
+    "G Major": 4,
+    "D Major": 4,
+    "F#/Gb Major": 3,
+    "E Minor": 3,
+    "E Major": 3,
+    "A Major": 3,
+    "A Minor": 2,
+    "F Major": 1,
+    "D#/Eb Minor": 1,
+    "D Minor": 1,
+    "D#/Eb Major": 1
+  },
+  "energy": {
+    "min": 0.511,
+    "max": 0.965,
+    "mean": 0.743,
+    "median": 0.764,
+    "q1": 0.657,
+    "q3": 0.835
+  },
+  "valence": {
+    "min": 0.039,
+    "max": 0.905,
+    "mean": 0.474,
+    "median": 0.464,
+    "q1": 0.354,
+    "q3": 0.621
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.965,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.262
+    },
+    {
+      "energy": 0.774,
+      "valence": 0.632
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.835,
+      "valence": 0.654
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.635,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.643
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.444
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.163
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.717
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.238
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.502
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.821,
+      "valence": 0.249
+    },
+    {
+      "energy": 0.557,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.801
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.751,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.46
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.571
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.301
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.585,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.615
+    },
+    {
+      "energy": 0.84,
+      "valence": 0.438
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.905
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.479
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.77,
+      "valence": 0.163
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.523
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.54,
+      "valence": 0.195
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.799
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.295
+    },
+    {
+      "energy": 0.526,
+      "valence": 0.529
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.664
+    },
+    {
+      "energy": 0.862,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.633,
+      "valence": 0.452
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.804
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.234
+    },
+    {
+      "energy": 0.634,
+      "valence": 0.411
+    },
+    {
+      "energy": 0.627,
+      "valence": 0.801
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.458
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.631
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.617
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.454
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.514
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.861,
+      "valence": 0.704
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.618
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.489
+    },
+    {
+      "energy": 0.815,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.083
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.625
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.404
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.522
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.837,
+      "valence": 0.263
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.742
+    },
+    {
+      "energy": 0.649,
+      "valence": 0.505
+    },
+    {
+      "energy": 0.629,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.181
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.343
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.192
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.176
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.621
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.54
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.515,
+    "mean": 0.124,
+    "median": 0.073,
+    "q1": 0.026,
+    "q3": 0.204
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.914,
+    "mean": 0.032,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.515,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.414,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.086,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.182,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.414,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.914
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.256,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.31,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.49
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.171,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.15
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.225,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.112,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.168,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.184,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.27,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.205,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.216,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.069,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.828
+    },
+    {
+      "acousticness": 0.293,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.132,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.119,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.299
+    },
+    {
+      "acousticness": 0.296,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.393,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.077,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.239,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.253,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.222,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.39,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.405,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.409
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.24,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.204,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.126,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.406,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.259,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.265,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.351,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 108498,
+    "max": 271640,
+    "mean": 190725.26,
+    "median": 184646.0,
+    "q1": 164818,
+    "q3": 214289
+  },
+  "danceability": {
+    "min": 0.489,
+    "max": 0.912,
+    "mean": 0.664,
+    "median": 0.657,
+    "q1": 0.599,
+    "q3": 0.734
+  },
+  "loudness": {
+    "min": -8.678,
+    "max": -2.273,
+    "mean": -5.114,
+    "median": -5.021,
+    "q1": -5.931,
+    "q3": -4.119
+  },
+  "speechiness": {
+    "min": 0.028,
+    "max": 0.255,
+    "mean": 0.067,
+    "median": 0.047,
+    "q1": 0.04,
+    "q3": 0.071
+  },
+  "top_artists": [
+    {
+      "name": "David Guetta",
+      "count": 9
+    },
+    {
+      "name": "Marshmello",
+      "count": 9
+    },
+    {
+      "name": "The Chainsmokers",
+      "count": 7
+    },
+    {
+      "name": "Avicii",
+      "count": 6
+    },
+    {
+      "name": "Ti\u00ebsto",
+      "count": 6
+    },
+    {
+      "name": "MEDUZA",
+      "count": 6
+    },
+    {
+      "name": "Kygo",
+      "count": 6
+    },
+    {
+      "name": "Bebe Rexha",
+      "count": 4
+    },
+    {
+      "name": "Zara Larsson",
+      "count": 4
+    },
+    {
+      "name": "Becky Hill",
+      "count": 4
+    },
+    {
+      "name": "DJ Snake",
+      "count": 4
+    },
+    {
+      "name": "Zedd",
+      "count": 4
+    },
+    {
+      "name": "Swedish House Mafia",
+      "count": 3
+    },
+    {
+      "name": "Joel Corry",
+      "count": 3
+    },
+    {
+      "name": "Topic",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "I'm Good (Blue)",
+      "artists": "David Guetta;Bebe Rexha",
+      "album": "I'm Good (Blue)",
+      "popularity": 98,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.965,
+      "valence": 0.304,
+      "danceability": 0.561,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.034,
+      "duration_ms": 175238,
+      "slug": "im-good-blue-david-guetta"
+    },
+    {
+      "name": "Where Are You Now",
+      "artists": "Lost Frequencies;Calum Scott",
+      "album": "Where Are You Now",
+      "popularity": 88,
+      "tempo": 121.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.636,
+      "valence": 0.262,
+      "danceability": 0.671,
+      "acousticness": 0.515,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.103,
+      "duration_ms": 148197,
+      "slug": "where-are-you-now-lost-frequencies"
+    },
+    {
+      "name": "Numb",
+      "artists": "Marshmello;Khalid",
+      "album": "Numb",
+      "popularity": 87,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.774,
+      "valence": 0.632,
+      "danceability": 0.912,
+      "acousticness": 0.121,
+      "instrumentalness": 0.013,
+      "loudness": -4.7,
+      "speechiness": 0.045,
+      "duration_ms": 155588,
+      "slug": "numb-marshmello"
+    },
+    {
+      "name": "Belly Dancer",
+      "artists": "Imanbek;BYOR",
+      "album": "Belly Dancer",
+      "popularity": 87,
+      "tempo": 122.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.422,
+      "danceability": 0.845,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.139,
+      "duration_ms": 151475,
+      "slug": "belly-dancer-imanbek"
+    },
+    {
+      "name": "The Nights",
+      "artists": "Avicii",
+      "album": "The Days / Nights",
+      "popularity": 86,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.835,
+      "valence": 0.654,
+      "danceability": 0.527,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.043,
+      "duration_ms": 176658,
+      "slug": "the-nights-avicii"
+    },
+    {
+      "name": "The Motto",
+      "artists": "Ti\u00ebsto;Ava Max",
+      "album": "The Motto",
+      "popularity": 86,
+      "tempo": 118.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.464,
+      "danceability": 0.754,
+      "acousticness": 0.03,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.043,
+      "duration_ms": 164818,
+      "slug": "the-motto-ti\u00ebsto"
+    },
+    {
+      "name": "Something Just Like This",
+      "artists": "The Chainsmokers;Coldplay",
+      "album": "Memories...Do Not Open",
+      "popularity": 85,
+      "tempo": 103.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.635,
+      "valence": 0.446,
+      "danceability": 0.617,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.032,
+      "duration_ms": 247160,
+      "slug": "something-just-like-this-the-chainsmokers"
+    },
+    {
+      "name": "Leave Before You Love Me (with Jonas Brothers)",
+      "artists": "Marshmello;Jonas Brothers",
+      "album": "Leave Before You Love Me",
+      "popularity": 85,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.738,
+      "valence": 0.637,
+      "danceability": 0.721,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.04,
+      "duration_ms": 154983,
+      "slug": "leave-before-you-love-me-with-jonas-brothers-marshmello"
+    },
+    {
+      "name": "Wake Me Up",
+      "artists": "Avicii",
+      "album": "True",
+      "popularity": 85,
+      "tempo": 124.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.643,
+      "danceability": 0.532,
+      "acousticness": 0.004,
+      "instrumentalness": 0.001,
+      "loudness": -5.7,
+      "speechiness": 0.052,
+      "duration_ms": 247426,
+      "slug": "wake-me-up-avicii"
+    },
+    {
+      "name": "Words (feat. Zara Larsson)",
+      "artists": "Alesso;Zara Larsson",
+      "album": "Words (feat. Zara Larsson)",
+      "popularity": 85,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.586,
+      "valence": 0.444,
+      "danceability": 0.739,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.047,
+      "duration_ms": 142677,
+      "slug": "words-feat-zara-larsson-alesso"
+    },
+    {
+      "name": "Bad Memories (feat. Elley Duh\u00e9 & FAST BOY)",
+      "artists": "MEDUZA;James Carter;Elley Duh\u00e9;FAST BOY",
+      "album": "Bad Memories (feat. Elley Duh\u00e9 & FAST BOY)",
+      "popularity": 85,
+      "tempo": 124.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.767,
+      "valence": 0.662,
+      "danceability": 0.607,
+      "acousticness": 0.118,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.047,
+      "duration_ms": 148629,
+      "slug": "bad-memories-feat-elley-duh\u00e9-fast-boy-meduza"
+    },
+    {
+      "name": "Crazy What Love Can Do",
+      "artists": "David Guetta;Becky Hill;Ella Henderson",
+      "album": "Crazy What Love Can Do",
+      "popularity": 85,
+      "tempo": 122.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.713,
+      "valence": 0.464,
+      "danceability": 0.601,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.045,
+      "duration_ms": 169756,
+      "slug": "crazy-what-love-can-do-david-guetta"
+    },
+    {
+      "name": "Closer",
+      "artists": "The Chainsmokers;Halsey",
+      "album": "Closer",
+      "popularity": 84,
+      "tempo": 95.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.661,
+      "danceability": 0.748,
+      "acousticness": 0.414,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.034,
+      "duration_ms": 244960,
+      "slug": "closer-the-chainsmokers"
+    },
+    {
+      "name": "Let Me Love You",
+      "artists": "DJ Snake;Justin Bieber",
+      "album": "Encore",
+      "popularity": 84,
+      "tempo": 100.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.716,
+      "valence": 0.163,
+      "danceability": 0.649,
+      "acousticness": 0.086,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.035,
+      "duration_ms": 205946,
+      "slug": "let-me-love-you-dj-snake"
+    },
+    {
+      "name": "Don't Be Shy",
+      "artists": "Ti\u00ebsto;KAROL G",
+      "album": "Don't Be Shy",
+      "popularity": 84,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.787,
+      "valence": 0.513,
+      "danceability": 0.77,
+      "acousticness": 0.198,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.058,
+      "duration_ms": 140500,
+      "slug": "dont-be-shy-ti\u00ebsto"
+    },
+    {
+      "name": "Hot In It",
+      "artists": "Ti\u00ebsto;Charli XCX",
+      "album": "Hot In It",
+      "popularity": 84,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.841,
+      "valence": 0.717,
+      "danceability": 0.748,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.177,
+      "duration_ms": 129817,
+      "slug": "hot-in-it-ti\u00ebsto"
+    },
+    {
+      "name": "Happier",
+      "artists": "Marshmello;Bastille",
+      "album": "Happier",
+      "popularity": 83,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.792,
+      "valence": 0.671,
+      "danceability": 0.687,
+      "acousticness": 0.191,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.045,
+      "duration_ms": 214289,
+      "slug": "happier-marshmello"
+    },
+    {
+      "name": "Moth To A Flame (with The Weeknd)",
+      "artists": "Swedish House Mafia;The Weeknd",
+      "album": "Paradise Again",
+      "popularity": 83,
+      "tempo": 120.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.659,
+      "valence": 0.105,
+      "danceability": 0.553,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.039,
+      "duration_ms": 234000,
+      "slug": "moth-to-a-flame-with-the-weeknd-swedish-house-mafia"
+    },
+    {
+      "name": "Bye Bye",
+      "artists": "Marshmello;Juice WRLD",
+      "album": "Bye Bye",
+      "popularity": 83,
+      "tempo": 83.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.525,
+      "valence": 0.238,
+      "danceability": 0.645,
+      "acousticness": 0.057,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.035,
+      "duration_ms": 108498,
+      "slug": "bye-bye-marshmello"
+    },
+    {
+      "name": "Where Did You Go? (feat. MNEK)",
+      "artists": "Jax Jones;MNEK",
+      "album": "Where Did You Go (feat. MNEK)",
+      "popularity": 83,
+      "tempo": 127.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.782,
+      "valence": 0.502,
+      "danceability": 0.763,
+      "acousticness": 0.182,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.035,
+      "duration_ms": 177689,
+      "slug": "where-did-you-go-feat-mnek-jax-jones"
+    },
+    {
+      "name": "The Business",
+      "artists": "Ti\u00ebsto",
+      "album": "The Business",
+      "popularity": 82,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.62,
+      "valence": 0.235,
+      "danceability": 0.798,
+      "acousticness": 0.414,
+      "instrumentalness": 0.019,
+      "loudness": -7.1,
+      "speechiness": 0.232,
+      "duration_ms": 164000,
+      "slug": "the-business-ti\u00ebsto"
+    },
+    {
+      "name": "Move Your Body",
+      "artists": "\u00d6wnboss;Sevek",
+      "album": "Move Your Body",
+      "popularity": 82,
+      "tempo": 125.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.821,
+      "valence": 0.249,
+      "danceability": 0.848,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.053,
+      "duration_ms": 157444,
+      "slug": "move-your-body-\u00f6wnboss"
+    },
+    {
+      "name": "Chamber Of Reflection",
+      "artists": "Mac DeMarco",
+      "album": "Salad Days",
+      "popularity": 82,
+      "tempo": 131.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.557,
+      "valence": 0.506,
+      "danceability": 0.538,
+      "acousticness": 0.262,
+      "instrumentalness": 0.914,
+      "loudness": -8.7,
+      "speechiness": 0.091,
+      "duration_ms": 231723,
+      "slug": "chamber-of-reflection-mac-demarco"
+    },
+    {
+      "name": "Friday (feat. Mufasa & Hypeman) - Dopamine Re-Edit",
+      "artists": "Riton;Nightcrawlers;Mufasa & Hypeman;Dopamine",
+      "album": "Friday (feat. Mufasa & Hypeman) [Dopamine Re-Edit]",
+      "popularity": 82,
+      "tempo": 123.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.862,
+      "valence": 0.801,
+      "danceability": 0.824,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.126,
+      "duration_ms": 169153,
+      "slug": "friday-feat-mufasa-hypeman-dopamine-re-edit-riton"
+    },
+    {
+      "name": "Silence",
+      "artists": "Marshmello;Khalid",
+      "album": "Silence",
+      "popularity": 81,
+      "tempo": 142.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.761,
+      "valence": 0.286,
+      "danceability": 0.52,
+      "acousticness": 0.256,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.085,
+      "duration_ms": 180822,
+      "slug": "silence-marshmello"
+    },
+    {
+      "name": "Waiting For Love",
+      "artists": "Avicii",
+      "album": "Stories",
+      "popularity": 81,
+      "tempo": 128.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.736,
+      "valence": 0.613,
+      "danceability": 0.579,
+      "acousticness": 0.31,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.053,
+      "duration_ms": 230613,
+      "slug": "waiting-for-love-avicii"
+    },
+    {
+      "name": "Ride It",
+      "artists": "Regard",
+      "album": "Ride It",
+      "popularity": 81,
+      "tempo": 117.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.751,
+      "valence": 0.884,
+      "danceability": 0.88,
+      "acousticness": 0.177,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.087,
+      "duration_ms": 157605,
+      "slug": "ride-it-regard"
+    },
+    {
+      "name": "OUT OUT (feat. Charli XCX & Saweetie)",
+      "artists": "Joel Corry;Jax Jones;Charli XCX;Saweetie",
+      "album": "OUT OUT (feat. Charli XCX & Saweetie)",
+      "popularity": 81,
+      "tempo": 124.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.796,
+      "danceability": 0.787,
+      "acousticness": 0.018,
+      "instrumentalness": 0.007,
+      "loudness": -4.4,
+      "speechiness": 0.048,
+      "duration_ms": 162603,
+      "slug": "out-out-feat-charli-xcx-saweetie-joel-corry"
+    },
+    {
+      "name": "My Kind of Woman",
+      "artists": "Mac DeMarco",
+      "album": "2",
+      "popularity": 81,
+      "tempo": 91.8,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.46,
+      "danceability": 0.501,
+      "acousticness": 0.003,
+      "instrumentalness": 0.49,
+      "loudness": -7.1,
+      "speechiness": 0.028,
+      "duration_ms": 190845,
+      "slug": "my-kind-of-woman-mac-demarco"
+    },
+    {
+      "name": "Don't Let Me Down",
+      "artists": "The Chainsmokers;Daya",
+      "album": "Don't Let Me Down",
+      "popularity": 80,
+      "tempo": 159.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.422,
+      "danceability": 0.532,
+      "acousticness": 0.157,
+      "instrumentalness": 0.005,
+      "loudness": -5.1,
+      "speechiness": 0.172,
+      "duration_ms": 208373,
+      "slug": "dont-let-me-down-the-chainsmokers"
+    },
+    {
+      "name": "More Than You Know",
+      "artists": "Axwell /\\ Ingrosso",
+      "album": "More Than You Know",
+      "popularity": 80,
+      "tempo": 123.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.741,
+      "valence": 0.571,
+      "danceability": 0.646,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.034,
+      "duration_ms": 203000,
+      "slug": "more-than-you-know-axwell-ingrosso"
+    },
+    {
+      "name": "The Middle",
+      "artists": "Zedd;Maren Morris;Grey",
+      "album": "The Middle",
+      "popularity": 80,
+      "tempo": 107.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.657,
+      "valence": 0.437,
+      "danceability": 0.753,
+      "acousticness": 0.171,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.045,
+      "duration_ms": 184732,
+      "slug": "the-middle-zedd"
+    },
+    {
+      "name": "Titanium (feat. Sia)",
+      "artists": "David Guetta;Sia",
+      "album": "Nothing but the Beat (Ultimate Edition)",
+      "popularity": 80,
+      "tempo": 126.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.787,
+      "valence": 0.301,
+      "danceability": 0.604,
+      "acousticness": 0.068,
+      "instrumentalness": 0.15,
+      "loudness": -3.7,
+      "speechiness": 0.103,
+      "duration_ms": 245040,
+      "slug": "titanium-feat-sia-david-guetta"
+    },
+    {
+      "name": "Thunder",
+      "artists": "Gabry Ponte;LUM!X;Prezioso",
+      "album": "Thunder",
+      "popularity": 80,
+      "tempo": 101.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.403,
+      "danceability": 0.67,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.058,
+      "duration_ms": 160000,
+      "slug": "thunder-gabry-ponte"
+    },
+    {
+      "name": "Woke Up in Love",
+      "artists": "Kygo;Gryffin;Calum Scott",
+      "album": "Woke Up in Love",
+      "popularity": 80,
+      "tempo": 106.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.585,
+      "valence": 0.188,
+      "danceability": 0.643,
+      "acousticness": 0.225,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.037,
+      "duration_ms": 216873,
+      "slug": "woke-up-in-love-kygo"
+    },
+    {
+      "name": "When I\u2019m Gone (with Katy Perry)",
+      "artists": "Alesso;Katy Perry",
+      "album": "When I\u2019m Gone (with Katy Perry)",
+      "popularity": 80,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.886,
+      "valence": 0.615,
+      "danceability": 0.685,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.034,
+      "duration_ms": 161266,
+      "slug": "when-im-gone-with-katy-perry-alesso"
+    },
+    {
+      "name": "Don't You Worry Child - Radio Edit",
+      "artists": "Swedish House Mafia;John Martin",
+      "album": "Don't You Worry Child",
+      "popularity": 80,
+      "tempo": 129.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.84,
+      "valence": 0.438,
+      "danceability": 0.612,
+      "acousticness": 0.112,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.051,
+      "duration_ms": 212862,
+      "slug": "dont-you-worry-child-radio-edit-swedish-house-mafia"
+    },
+    {
+      "name": "Head & Heart (feat. MNEK)",
+      "artists": "Joel Corry;MNEK",
+      "album": "Head & Heart (feat. MNEK)",
+      "popularity": 80,
+      "tempo": 123.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.874,
+      "valence": 0.905,
+      "danceability": 0.734,
+      "acousticness": 0.168,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.066,
+      "duration_ms": 166028,
+      "slug": "head-heart-feat-mnek-joel-corry"
+    },
+    {
+      "name": "Kernkraft 400 (A Better Day)",
+      "artists": "Topic;A7S",
+      "album": "Kernkraft 400 (A Better Day)",
+      "popularity": 80,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.4,
+      "danceability": 0.623,
+      "acousticness": 0.184,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.056,
+      "duration_ms": 165800,
+      "slug": "kernkraft-400-a-better-day-topic"
+    },
+    {
+      "name": "Love Me Like You Do",
+      "artists": "Ellie Goulding",
+      "album": "Fifty Shades Freed (Original Motion Picture Soundtrack)",
+      "popularity": 79,
+      "tempo": 95.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.597,
+      "valence": 0.324,
+      "danceability": 0.489,
+      "acousticness": 0.27,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.029,
+      "duration_ms": 253520,
+      "slug": "love-me-like-you-do-ellie-goulding"
+    },
+    {
+      "name": "FRIENDS",
+      "artists": "Marshmello;Anne-Marie",
+      "album": "FRIENDS",
+      "popularity": 79,
+      "tempo": 95.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.88,
+      "valence": 0.534,
+      "danceability": 0.626,
+      "acousticness": 0.205,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.05,
+      "duration_ms": 202620,
+      "slug": "friends-marshmello"
+    },
+    {
+      "name": "In the Name of Love",
+      "artists": "Martin Garrix;Bebe Rexha",
+      "album": "In the Name of Love",
+      "popularity": 79,
+      "tempo": 134.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.519,
+      "valence": 0.168,
+      "danceability": 0.501,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.041,
+      "duration_ms": 195706,
+      "slug": "in-the-name-of-love-martin-garrix"
+    },
+    {
+      "name": "Heartbreak Anthem (with David Guetta & Little Mix)",
+      "artists": "Galantis;David Guetta;Little Mix",
+      "album": "Heartbreak Anthem (with David Guetta & Little Mix)",
+      "popularity": 79,
+      "tempo": 124.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.784,
+      "valence": 0.479,
+      "danceability": 0.595,
+      "acousticness": 0.216,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.102,
+      "duration_ms": 183725,
+      "slug": "heartbreak-anthem-with-david-guetta-little-mix-galantis"
+    },
+    {
+      "name": "Paradise (feat. Dermot Kennedy)",
+      "artists": "MEDUZA;Dermot Kennedy",
+      "album": "Paradise",
+      "popularity": 79,
+      "tempo": 124.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.595,
+      "valence": 0.435,
+      "danceability": 0.632,
+      "acousticness": 0.069,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.04,
+      "duration_ms": 167903,
+      "slug": "paradise-feat-dermot-kennedy-meduza"
+    },
+    {
+      "name": "In My Mind",
+      "artists": "Dynoro;Gigi D'Agostino",
+      "album": "In My Mind",
+      "popularity": 79,
+      "tempo": 125.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.77,
+      "valence": 0.163,
+      "danceability": 0.694,
+      "acousticness": 0.176,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.149,
+      "duration_ms": 184560,
+      "slug": "in-my-mind-dynoro"
+    },
+    {
+      "name": "Levels - Radio Edit",
+      "artists": "Avicii",
+      "album": "Levels",
+      "popularity": 79,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.889,
+      "valence": 0.464,
+      "danceability": 0.584,
+      "acousticness": 0.046,
+      "instrumentalness": 0.828,
+      "loudness": -5.9,
+      "speechiness": 0.034,
+      "duration_ms": 199906,
+      "slug": "levels-radio-edit-avicii"
+    },
+    {
+      "name": "Dancing Feet (feat. DNCE)",
+      "artists": "Kygo;DNCE",
+      "album": "Dancing Feet (feat. DNCE)",
+      "popularity": 79,
+      "tempo": 105.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.523,
+      "danceability": 0.75,
+      "acousticness": 0.293,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.118,
+      "duration_ms": 215203,
+      "slug": "dancing-feet-feat-dnce-kygo"
+    },
+    {
+      "name": "Heaven Takes You Home (feat. Connie Constance)",
+      "artists": "Swedish House Mafia;Connie Constance",
+      "album": "Paradise Again",
+      "popularity": 79,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.738,
+      "valence": 0.039,
+      "danceability": 0.665,
+      "acousticness": 0.012,
+      "instrumentalness": 0.006,
+      "loudness": -5.9,
+      "speechiness": 0.038,
+      "duration_ms": 214071,
+      "slug": "heaven-takes-you-home-feat-connie-constance-swedish-house-mafia"
+    },
+    {
+      "name": "Scared to Be Lonely",
+      "artists": "Martin Garrix;Dua Lipa",
+      "album": "Scared to Be Lonely",
+      "popularity": 78,
+      "tempo": 138.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.54,
+      "valence": 0.195,
+      "danceability": 0.584,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.058,
+      "duration_ms": 220883,
+      "slug": "scared-to-be-lonely-martin-garrix"
+    },
+    {
+      "name": "Lush Life",
+      "artists": "Zara Larsson",
+      "album": "So Good",
+      "popularity": 78,
+      "tempo": 98.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.712,
+      "valence": 0.799,
+      "danceability": 0.694,
+      "acousticness": 0.132,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.046,
+      "duration_ms": 201122,
+      "slug": "lush-life-zara-larsson"
+    },
+    {
+      "name": "Without You (feat. Sandro Cavazza)",
+      "artists": "Avicii;Sandro Cavazza",
+      "album": "AV\u012aCI (01)",
+      "popularity": 78,
+      "tempo": 134.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.858,
+      "valence": 0.295,
+      "danceability": 0.662,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.043,
+      "duration_ms": 181672,
+      "slug": "without-you-feat-sandro-cavazza-avicii"
+    },
+    {
+      "name": "Lose Control",
+      "artists": "MEDUZA;Becky Hill;Goodboys",
+      "album": "Lose Control",
+      "popularity": 78,
+      "tempo": 123.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.526,
+      "valence": 0.529,
+      "danceability": 0.598,
+      "acousticness": 0.129,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.042,
+      "duration_ms": 168387,
+      "slug": "lose-control-meduza"
+    },
+    {
+      "name": "Breaking Me",
+      "artists": "Topic;A7S",
+      "album": "Breaking Me",
+      "popularity": 78,
+      "tempo": 122.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.664,
+      "danceability": 0.789,
+      "acousticness": 0.223,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.218,
+      "duration_ms": 166793,
+      "slug": "breaking-me-topic"
+    },
+    {
+      "name": "Remember",
+      "artists": "Becky Hill;David Guetta",
+      "album": "Remember",
+      "popularity": 78,
+      "tempo": 123.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.862,
+      "valence": 0.354,
+      "danceability": 0.612,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.037,
+      "duration_ms": 160766,
+      "slug": "remember-becky-hill"
+    },
+    {
+      "name": "It Ain't Me (with Selena Gomez)",
+      "artists": "Kygo;Selena Gomez",
+      "album": "It Ain't Me (with Selena Gomez)",
+      "popularity": 77,
+      "tempo": 100.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.533,
+      "valence": 0.515,
+      "danceability": 0.64,
+      "acousticness": 0.119,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.071,
+      "duration_ms": 220780,
+      "slug": "it-aint-me-with-selena-gomez-kygo"
+    },
+    {
+      "name": "Be Kind (with Halsey)",
+      "artists": "Marshmello;Halsey",
+      "album": "Be Kind (with Halsey)",
+      "popularity": 77,
+      "tempo": 94.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.633,
+      "valence": 0.452,
+      "danceability": 0.63,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.046,
+      "duration_ms": 172761,
+      "slug": "be-kind-with-halsey-marshmello"
+    },
+    {
+      "name": "SG (with Ozuna, Megan Thee Stallion & LISA of BLACKPINK)",
+      "artists": "DJ Snake;Ozuna;Megan Thee Stallion;LISA",
+      "album": "SG (with Ozuna, Megan Thee Stallion & LISA of BLACKPINK)",
+      "popularity": 77,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.837,
+      "valence": 0.702,
+      "danceability": 0.8,
+      "acousticness": 0.004,
+      "instrumentalness": 0.003,
+      "loudness": -2.8,
+      "speechiness": 0.049,
+      "duration_ms": 225600,
+      "slug": "sg-with-ozuna-megan-thee-stallion-lisa-of-blackpink-dj-snake"
+    },
+    {
+      "name": "Lights - Sped Up Version",
+      "artists": "Ellie Goulding;Speed Radio",
+      "album": "Lights (Sped Up Version)",
+      "popularity": 77,
+      "tempo": 133.2,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.804,
+      "danceability": 0.653,
+      "acousticness": 0.045,
+      "instrumentalness": 0.299,
+      "loudness": -5.6,
+      "speechiness": 0.046,
+      "duration_ms": 190053,
+      "slug": "lights-sped-up-version-ellie-goulding"
+    },
+    {
+      "name": "Don't Call Me Up",
+      "artists": "Mabel",
+      "album": "Ivy To Roses (Mixtape)",
+      "popularity": 77,
+      "tempo": 99.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.881,
+      "valence": 0.234,
+      "danceability": 0.674,
+      "acousticness": 0.296,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.147,
+      "duration_ms": 178480,
+      "slug": "dont-call-me-up-mabel"
+    },
+    {
+      "name": "Firestone",
+      "artists": "Kygo;Conrad Sewell",
+      "album": "Cloud Nine",
+      "popularity": 77,
+      "tempo": 113.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.634,
+      "valence": 0.411,
+      "danceability": 0.704,
+      "acousticness": 0.393,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.043,
+      "duration_ms": 271640,
+      "slug": "firestone-kygo"
+    },
+    {
+      "name": "Sexy Bitch (feat. Akon)",
+      "artists": "David Guetta;Akon",
+      "album": "One More Love",
+      "popularity": 77,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.627,
+      "valence": 0.801,
+      "danceability": 0.813,
+      "acousticness": 0.077,
+      "instrumentalness": 0.001,
+      "loudness": -5.0,
+      "speechiness": 0.049,
+      "duration_ms": 195853,
+      "slug": "sexy-bitch-feat-akon-david-guetta"
+    },
+    {
+      "name": "Hey Brother",
+      "artists": "Avicii",
+      "album": "True",
+      "popularity": 77,
+      "tempo": 125.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.78,
+      "valence": 0.458,
+      "danceability": 0.545,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.044,
+      "duration_ms": 255093,
+      "slug": "hey-brother-avicii"
+    },
+    {
+      "name": "Memories (feat. Kid Cudi)",
+      "artists": "David Guetta;Kid Cudi",
+      "album": "One More Love",
+      "popularity": 77,
+      "tempo": 130.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.916,
+      "valence": 0.375,
+      "danceability": 0.546,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.255,
+      "duration_ms": 210853,
+      "slug": "memories-feat-kid-cudi-david-guetta"
+    },
+    {
+      "name": "Piece Of Your Heart",
+      "artists": "MEDUZA;Goodboys",
+      "album": "Piece Of Your Heart",
+      "popularity": 77,
+      "tempo": 124.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.744,
+      "valence": 0.631,
+      "danceability": 0.677,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.029,
+      "duration_ms": 152913,
+      "slug": "piece-of-your-heart-meduza"
+    },
+    {
+      "name": "Stay the Night",
+      "artists": "Sigala;Talia Mar",
+      "album": "Stay the Night",
+      "popularity": 77,
+      "tempo": 124.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.936,
+      "valence": 0.415,
+      "danceability": 0.636,
+      "acousticness": 0.177,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.073,
+      "duration_ms": 171954,
+      "slug": "stay-the-night-sigala"
+    },
+    {
+      "name": "Call It Love",
+      "artists": "Felix Jaehn;Ray Dalton",
+      "album": "Call It Love",
+      "popularity": 77,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.841,
+      "valence": 0.714,
+      "danceability": 0.616,
+      "acousticness": 0.056,
+      "instrumentalness": 0.002,
+      "loudness": -4.8,
+      "speechiness": 0.076,
+      "duration_ms": 154560,
+      "slug": "call-it-love-felix-jaehn"
+    },
+    {
+      "name": "Taki Taki (with Selena Gomez, Ozuna & Cardi B)",
+      "artists": "DJ Snake;Selena Gomez;Ozuna;Cardi B",
+      "album": "Taki Taki (with Selena Gomez, Ozuna & Cardi B)",
+      "popularity": 76,
+      "tempo": 95.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.617,
+      "danceability": 0.842,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.228,
+      "duration_ms": 212500,
+      "slug": "taki-taki-with-selena-gomez-ozuna-cardi-b-dj-snake"
+    },
+    {
+      "name": "Symphony (feat. Zara Larsson)",
+      "artists": "Clean Bandit;Zara Larsson",
+      "album": "What Is Love? (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 123.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.454,
+      "danceability": 0.715,
+      "acousticness": 0.239,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.043,
+      "duration_ms": 212733,
+      "slug": "symphony-feat-zara-larsson-clean-bandit"
+    },
+    {
+      "name": "You",
+      "artists": "Regard;Troye Sivan;Tate McRae",
+      "album": "You",
+      "popularity": 76,
+      "tempo": 106.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.514,
+      "danceability": 0.691,
+      "acousticness": 0.059,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.037,
+      "duration_ms": 233386,
+      "slug": "you-regard"
+    },
+    {
+      "name": "Stay",
+      "artists": "Zedd;Alessia Cara",
+      "album": "Stay",
+      "popularity": 76,
+      "tempo": 102.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.622,
+      "valence": 0.544,
+      "danceability": 0.69,
+      "acousticness": 0.253,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.062,
+      "duration_ms": 210090,
+      "slug": "stay-zedd"
+    },
+    {
+      "name": "Don\u2019t Wake Me Up",
+      "artists": "Jonas Blue;Why Don't We",
+      "album": "Don\u2019t Wake Me Up",
+      "popularity": 76,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.747,
+      "valence": 0.426,
+      "danceability": 0.621,
+      "acousticness": 0.222,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 188894,
+      "slug": "dont-wake-me-up-jonas-blue"
+    },
+    {
+      "name": "Perfect Strangers",
+      "artists": "Jonas Blue;JP Cooper",
+      "album": "Blue",
+      "popularity": 76,
+      "tempo": 118.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.861,
+      "valence": 0.704,
+      "danceability": 0.73,
+      "acousticness": 0.39,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.045,
+      "duration_ms": 196613,
+      "slug": "perfect-strangers-jonas-blue"
+    },
+    {
+      "name": "Middle",
+      "artists": "DJ Snake;Bipolar Sunshine",
+      "album": "Encore",
+      "popularity": 76,
+      "tempo": 104.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.224,
+      "danceability": 0.583,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.042,
+      "duration_ms": 220573,
+      "slug": "middle-dj-snake"
+    },
+    {
+      "name": "Pump It Louder",
+      "artists": "Ti\u00ebsto;Black Eyed Peas",
+      "album": "Pump It Louder",
+      "popularity": 76,
+      "tempo": 126.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.543,
+      "danceability": 0.66,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.185,
+      "duration_ms": 158571,
+      "slug": "pump-it-louder-ti\u00ebsto"
+    },
+    {
+      "name": "BED",
+      "artists": "Joel Corry;RAYE;David Guetta",
+      "album": "BED",
+      "popularity": 76,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.782,
+      "valence": 0.618,
+      "danceability": 0.671,
+      "acousticness": 0.014,
+      "instrumentalness": 0.002,
+      "loudness": -4.6,
+      "speechiness": 0.034,
+      "duration_ms": 178087,
+      "slug": "bed-joel-corry"
+    },
+    {
+      "name": "Questions",
+      "artists": "Lost Frequencies;James Arthur",
+      "album": "Questions",
+      "popularity": 76,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.713,
+      "valence": 0.518,
+      "danceability": 0.599,
+      "acousticness": 0.405,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.054,
+      "duration_ms": 177156,
+      "slug": "questions-lost-frequencies"
+    },
+    {
+      "name": "Tell It To My Heart",
+      "artists": "MEDUZA;Hozier",
+      "album": "Tell It To My Heart",
+      "popularity": 76,
+      "tempo": 123.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.715,
+      "valence": 0.489,
+      "danceability": 0.539,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.059,
+      "duration_ms": 165524,
+      "slug": "tell-it-to-my-heart-meduza"
+    },
+    {
+      "name": "Sugar (feat. Francesco Yates)",
+      "artists": "Robin Schulz;Francesco Yates",
+      "album": "Sugar",
+      "popularity": 76,
+      "tempo": 123.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.815,
+      "valence": 0.636,
+      "danceability": 0.636,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.058,
+      "duration_ms": 219043,
+      "slug": "sugar-feat-francesco-yates-robin-schulz"
+    },
+    {
+      "name": "Baila Conmigo",
+      "artists": "Ti\u00ebsto",
+      "album": "Baila Conmigo",
+      "popularity": 76,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.083,
+      "danceability": 0.652,
+      "acousticness": 0.007,
+      "instrumentalness": 0.409,
+      "loudness": -6.4,
+      "speechiness": 0.077,
+      "duration_ms": 146249,
+      "slug": "baila-conmigo-ti\u00ebsto"
+    },
+    {
+      "name": "Do It Better (feat. Zoe Wees)",
+      "artists": "Felix Jaehn;Zoe Wees",
+      "album": "Do It Better (feat. Zoe Wees)",
+      "popularity": 76,
+      "tempo": 122.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.804,
+      "valence": 0.41,
+      "danceability": 0.677,
+      "acousticness": 0.082,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.068,
+      "duration_ms": 170045,
+      "slug": "do-it-better-feat-zoe-wees-felix-jaehn"
+    },
+    {
+      "name": "Cooler Than Me - Single Mix",
+      "artists": "Mike Posner;Gigamesh",
+      "album": "31 Minutes to Takeoff",
+      "popularity": 76,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.82,
+      "valence": 0.625,
+      "danceability": 0.768,
+      "acousticness": 0.179,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.047,
+      "duration_ms": 213293,
+      "slug": "cooler-than-me-single-mix-mike-posner"
+    },
+    {
+      "name": "Higher Love",
+      "artists": "Kygo;Whitney Houston",
+      "album": "Higher Love",
+      "popularity": 76,
+      "tempo": 104.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.678,
+      "valence": 0.404,
+      "danceability": 0.693,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.032,
+      "duration_ms": 228267,
+      "slug": "higher-love-kygo"
+    },
+    {
+      "name": "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",
+      "artists": "David Guetta;Afrojack;Bebe Rexha;Nicki Minaj",
+      "album": "Listen",
+      "popularity": 75,
+      "tempo": 86.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.525,
+      "danceability": 0.596,
+      "acousticness": 0.24,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.151,
+      "duration_ms": 192560,
+      "slug": "hey-mama-feat-nicki-minaj-bebe-rexha-afrojack-david-guetta"
+    },
+    {
+      "name": "Call You Mine",
+      "artists": "The Chainsmokers;Bebe Rexha",
+      "album": "World War Joy",
+      "popularity": 75,
+      "tempo": 104.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.696,
+      "valence": 0.522,
+      "danceability": 0.585,
+      "acousticness": 0.204,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.031,
+      "duration_ms": 217640,
+      "slug": "call-you-mine-the-chainsmokers"
+    },
+    {
+      "name": "Takeaway",
+      "artists": "The Chainsmokers;ILLENIUM;Lennon Stella",
+      "album": "World War Joy",
+      "popularity": 75,
+      "tempo": 100.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.351,
+      "danceability": 0.528,
+      "acousticness": 0.126,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.032,
+      "duration_ms": 209880,
+      "slug": "takeaway-the-chainsmokers"
+    },
+    {
+      "name": "OK Not To Be OK",
+      "artists": "Marshmello;Demi Lovato",
+      "album": "OK Not To Be OK",
+      "popularity": 75,
+      "tempo": 103.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.837,
+      "valence": 0.263,
+      "danceability": 0.743,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.065,
+      "duration_ms": 159862,
+      "slug": "ok-not-to-be-ok-marshmello"
+    },
+    {
+      "name": "High",
+      "artists": "The Chainsmokers",
+      "album": "So Far So Good",
+      "popularity": 75,
+      "tempo": 135.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.787,
+      "valence": 0.525,
+      "danceability": 0.601,
+      "acousticness": 0.049,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.031,
+      "duration_ms": 175163,
+      "slug": "high-the-chainsmokers"
+    },
+    {
+      "name": "Rockabye (feat. Sean Paul & Anne-Marie)",
+      "artists": "Clean Bandit;Sean Paul;Anne-Marie",
+      "album": "Rockabye (feat. Sean Paul & Anne-Marie)",
+      "popularity": 75,
+      "tempo": 102.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.742,
+      "danceability": 0.72,
+      "acousticness": 0.406,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.052,
+      "duration_ms": 251088,
+      "slug": "rockabye-feat-sean-paul-anne-marie-clean-bandit"
+    },
+    {
+      "name": "Something Just Like This",
+      "artists": "The Chainsmokers;Coldplay",
+      "album": "Something Just Like This",
+      "popularity": 75,
+      "tempo": 103.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.649,
+      "valence": 0.505,
+      "danceability": 0.607,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.036,
+      "duration_ms": 247626,
+      "slug": "something-just-like-this-the-chainsmokers"
+    },
+    {
+      "name": "Symphony (feat. Zara Larsson)",
+      "artists": "Clean Bandit;Zara Larsson",
+      "album": "Symphony (feat. Zara Larsson)",
+      "popularity": 75,
+      "tempo": 122.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.629,
+      "valence": 0.457,
+      "danceability": 0.707,
+      "acousticness": 0.259,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.056,
+      "duration_ms": 212459,
+      "slug": "symphony-feat-zara-larsson-clean-bandit"
+    },
+    {
+      "name": "Here With Me",
+      "artists": "Marshmello;CHVRCHES",
+      "album": "Here With Me",
+      "popularity": 75,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.565,
+      "valence": 0.181,
+      "danceability": 0.791,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.044,
+      "duration_ms": 156346,
+      "slug": "here-with-me-marshmello"
+    },
+    {
+      "name": "Lost Without You (with Dean Lewis)",
+      "artists": "Kygo;Dean Lewis",
+      "album": "Lost Without You (with Dean Lewis)",
+      "popularity": 75,
+      "tempo": 117.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.575,
+      "valence": 0.343,
+      "danceability": 0.621,
+      "acousticness": 0.265,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.056,
+      "duration_ms": 203609,
+      "slug": "lost-without-you-with-dean-lewis-kygo"
+    },
+    {
+      "name": "My Heart Goes (La Di Da) (feat. Topic)",
+      "artists": "Becky Hill;Topic",
+      "album": "My Heart Goes (La Di Da) (feat. Topic)",
+      "popularity": 75,
+      "tempo": 124.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.781,
+      "valence": 0.456,
+      "danceability": 0.695,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.045,
+      "duration_ms": 148960,
+      "slug": "my-heart-goes-la-di-da-feat-topic-becky-hill"
+    },
+    {
+      "name": "Body",
+      "artists": "Loud Luxury;Brando",
+      "album": "Body",
+      "popularity": 75,
+      "tempo": 122.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.764,
+      "valence": 0.582,
+      "danceability": 0.752,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.038,
+      "duration_ms": 163216,
+      "slug": "body-loud-luxury"
+    },
+    {
+      "name": "Runaway (U & I)",
+      "artists": "Galantis",
+      "album": "Pharmacy",
+      "popularity": 75,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.805,
+      "valence": 0.383,
+      "danceability": 0.506,
+      "acousticness": 0.007,
+      "instrumentalness": 0.002,
+      "loudness": -4.1,
+      "speechiness": 0.047,
+      "duration_ms": 227073,
+      "slug": "runaway-u-i-galantis"
+    },
+    {
+      "name": "Piece Of Your Heart - Alok Remix",
+      "artists": "MEDUZA;Alok;Goodboys",
+      "album": "Piece Of Your Heart (Alok Remix)",
+      "popularity": 75,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.86,
+      "valence": 0.192,
+      "danceability": 0.797,
+      "acousticness": 0.031,
+      "instrumentalness": 0.014,
+      "loudness": -4.4,
+      "speechiness": 0.041,
+      "duration_ms": 166451,
+      "slug": "piece-of-your-heart-alok-remix-meduza"
+    },
+    {
+      "name": "Make You Say",
+      "artists": "Zedd;Maren Morris;BEAUZ",
+      "album": "Make You Say",
+      "popularity": 75,
+      "tempo": 128.2,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.61,
+      "valence": 0.649,
+      "danceability": 0.687,
+      "acousticness": 0.351,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.05,
+      "duration_ms": 206000,
+      "slug": "make-you-say-zedd"
+    },
+    {
+      "name": "Clarity",
+      "artists": "Zedd;Foxes",
+      "album": "Clarity",
+      "popularity": 75,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.781,
+      "valence": 0.176,
+      "danceability": 0.509,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.072,
+      "duration_ms": 271426,
+      "slug": "clarity-zedd"
+    },
+    {
+      "name": "I Remember",
+      "artists": "Cheat Codes;Russell Dickerson",
+      "album": "I Remember",
+      "popularity": 75,
+      "tempo": 100.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.737,
+      "valence": 0.621,
+      "danceability": 0.57,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.069,
+      "duration_ms": 168117,
+      "slug": "i-remember-cheat-codes"
+    },
+    {
+      "name": "Wasted Love (feat. Lagique)",
+      "artists": "Ofenbach;Lagique",
+      "album": "Wasted Love (feat. Lagique)",
+      "popularity": 75,
+      "tempo": 122.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.855,
+      "valence": 0.54,
+      "danceability": 0.734,
+      "acousticness": 0.082,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.135,
+      "duration_ms": 139563,
+      "slug": "wasted-love-feat-lagique-ofenbach"
+    }
+  ]
+}
