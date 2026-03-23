@@ -1,0 +1,91 @@
+{
+  "schema_version": "v1",
+  "name": "kapiko",
+  "description": "AI music intelligence platform \u2014 genre analytics, audio features, production patterns, and AI music generation prompts for 118 genres and 9184 songs.",
+  "url": "https://kapiko.ai",
+  "logo": "https://kapiko.ai/kapiko.jpg",
+  "contact_email": "hello@kapiko.ai",
+  "capabilities": {
+    "api": {
+      "url": "https://kapiko.ai/api/v1",
+      "type": "rest",
+      "authentication": "none",
+      "docs_url": "https://kapiko.ai/openapi.json"
+    },
+    "data": {
+      "llms_txt": "https://kapiko.ai/llms.txt",
+      "openapi": "https://kapiko.ai/openapi.json",
+      "sitemap": "https://kapiko.ai/sitemap.xml"
+    }
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/v1/stats",
+      "description": "Platform statistics (genre count, track count, last updated)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/genres",
+      "description": "List all 118 genres with summary audio features"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/genres/{genre}",
+      "description": "Full audio feature analysis for a genre (BPM, key, energy, valence, etc.)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/genres/{genre}/tracks",
+      "description": "Track list for a genre with audio features"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/tracks",
+      "description": "Browse all indexed tracks"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/tracks/{id}",
+      "description": "Single track with full audio features and AI analysis"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/compare",
+      "description": "Compare a track against genre distributions"
+    }
+  ],
+  "data_coverage": {
+    "genres": 118,
+    "songs": 9184,
+    "audio_features": [
+      "bpm",
+      "key",
+      "mode",
+      "energy",
+      "valence",
+      "acousticness",
+      "instrumentalness",
+      "danceability",
+      "loudness",
+      "speechiness",
+      "duration"
+    ],
+    "ai_analysis_fields": [
+      "instruments",
+      "primary_instrument",
+      "mood_primary",
+      "mood_secondary",
+      "texture",
+      "atmosphere",
+      "dynamics",
+      "vocal_presence",
+      "stereo_width",
+      "harmonic_complexity",
+      "rhythm_presence",
+      "genre_tags",
+      "sound_design_elements",
+      "similar_artists"
+    ]
+  }
+}
