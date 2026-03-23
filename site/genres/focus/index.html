@@ -567,6 +567,58 @@
       .stat-cards { grid-template-columns: 1fr; }
       .feature-bars { grid-template-columns: 1fr; }
     }
+
+    /* ── Enhanced Prompt Lab Section ── */
+    .prompt-lab-section {
+      background: linear-gradient(135deg, rgba(78,205,196,0.04) 0%, rgba(155,127,212,0.04) 100%);
+      border: 1px solid rgba(78,205,196,0.15);
+      border-radius: 20px;
+      padding: 36px 32px;
+      margin: 8px 0 32px;
+    }
+
+    .prompt-lab-intro {
+      margin-bottom: 28px;
+    }
+
+    .prompt-lab-intro p {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .platform-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      transition: border-color 0.2s;
+    }
+
+    .platform-card:hover {
+      border-color: var(--border-accent);
+    }
+
+    .platform-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .platform-tip {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -679,6 +731,109 @@
     </div>
   </div>
 
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>✨ Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-lab-section">
+    
+    <!-- How to Prompt a Hit intro -->
+    <div class="prompt-lab-intro">
+      <h3>How to Prompt a Hit</h3>
+      <p>Engineer focus music that enhances concentration without stealing attention. These parameters strike the delicate balance between engaging enough to mask distractions, yet calm enough to fade into the background during deep work.</p>
+      
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-name">Suno</div>
+          <div class="platform-tip">Great for repetitive lo-fi patterns and ambient textures. Emphasize "consistent tempo" and "minimal variation".</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Udio</div>
+          <div class="platform-tip">Excellent dynamic control for steady energy levels. Perfect for instrumental focus tracks.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Stable Audio</div>
+          <div class="platform-tip">Open-source flexibility for extended study sessions. Good for seamless loop generation.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">MusicGen (Meta)</div>
+          <div class="platform-tip">Natural organic textures and acoustic elements. Strong at post-rock inspired focus music.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Riffusion</div>
+          <div class="platform-tip">Real-time focus music adaptation. Ideal for personalized study environment generation.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prompt-grid">
+      <div class="prompt-block" id="translatorBlock">
+        <div class="prompt-label">
+          Feature Translator
+          <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+        </div>
+        <pre>BPM 80-110: Steady, consistent groove, never rushed
+Energy 20-45%: Calm, focused, non-aggressive
+Valence 15-35%: Contemplative, neutral to slightly melancholic
+Danceability 50-70%: Gentle rhythm, subtle movement
+Acousticness 60-85%: Warm organic textures, analog feel
+Instrumentalness 75-95%: Minimal or no vocals, pure melody
+Speechiness 0-8%: Clean instrumental arrangements
+Tempo: Moderate, maintaining alertness without distraction
+Key preference: C#/Db, C, F - stable harmonic foundations</pre>
+      </div>
+
+      <div class="prompt-block" id="templateBlock">
+        <div class="prompt-label">
+          Prompt Template
+          <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+        </div>
+        <pre>Create focus/study music with:
+
+• Moderate tempo (80-110 BPM), consistent groove
+• Repetitive but evolving patterns
+• Slightly more energy than ambient/sleep but never distracting
+• Lo-fi beats, gentle electronic textures, or acoustic instruments
+• Steady rhythm, repetitive patterns, minimal variation
+• Moderate electronic elements, consistent texture
+• No sudden drops or builds, background-optimized mixing
+
+The key constraint: music that enhances concentration without demanding attention.
+
+Artists to reference: Cigarettes After Sex, Ensidya, Max Richter, Ludovico Einaudi, Tenno, Dusty Decks
+
+Duration: 2-4 minutes, perfect for focus sessions</pre>
+      </div>
+
+      <div class="prompt-block" id="recipeBlock">
+        <div class="prompt-label">
+          Genre Recipe JSON
+          <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+        </div>
+        <pre>{
+  "genre": "focus / study",
+  "audio_features": {
+    "bpm": {"min": 68, "max": 182, "median": 95.5},
+    "energy": {"avg": 0.351, "range": "calm focus"},
+    "valence": {"avg": 0.241, "range": "contemplative"},
+    "danceability": {"avg": 0.588, "range": "subtle rhythm"},
+    "acousticness": {"avg": 0.629, "range": "organic/warm"},
+    "instrumentalness": {"avg": 0.833, "range": "minimal vocals"},
+    "key_preference": ["C#/Db", "C", "F"],
+    "mode_split": {"major": 51, "minor": 49}
+  },
+  "production_style": {
+    "texture": "consistent, minimal variation",
+    "dynamics": "steady, no sudden changes",
+    "arrangement": "repetitive but evolving",
+    "mixing": "background-optimized, non-fatiguing"
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
   <!-- Rhythm & Tonality -->
   <div class="section-label">
     <h2>Rhythm & Tonality</h2>
@@ -768,76 +923,7 @@
     </div>
   </div>
 
-  <!-- Prompt Lab -->
-  <div class="section-label">
-    <h2>Prompt Lab</h2>
-  </div>
 
-  <div class="prompt-grid">
-    <div class="prompt-block" id="translatorBlock">
-      <div class="prompt-label">
-        Feature Translator
-        <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
-      </div>
-      <pre>BPM 80-110: Steady, consistent groove, never rushed
-Energy 20-45%: Calm, focused, non-aggressive
-Valence 15-35%: Contemplative, neutral to slightly melancholic
-Danceability 50-70%: Gentle rhythm, subtle movement
-Acousticness 60-85%: Warm organic textures, analog feel
-Instrumentalness 75-95%: Minimal or no vocals, pure melody
-Speechiness 0-8%: Clean instrumental arrangements
-Tempo: Moderate, maintaining alertness without distraction
-Key preference: C#/Db, C, F - stable harmonic foundations</pre>
-    </div>
-
-    <div class="prompt-block" id="templateBlock">
-      <div class="prompt-label">
-        Prompt Template
-        <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
-      </div>
-      <pre>Create focus/study music with:
-
-• Moderate tempo (80-110 BPM), consistent groove
-• Repetitive but evolving patterns
-• Slightly more energy than ambient/sleep but never distracting
-• Lo-fi beats, gentle electronic textures, or acoustic instruments
-• Steady rhythm, repetitive patterns, minimal variation
-• Moderate electronic elements, consistent texture
-• No sudden drops or builds, background-optimized mixing
-
-The key constraint: music that enhances concentration without demanding attention.
-
-Artists to reference: Cigarettes After Sex, Ensidya, Max Richter, Ludovico Einaudi, Tenno, Dusty Decks
-
-Duration: 2-4 minutes, perfect for focus sessions</pre>
-    </div>
-
-    <div class="prompt-block" id="recipeBlock">
-      <div class="prompt-label">
-        Genre Recipe JSON
-        <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
-      </div>
-      <pre>{
-  "genre": "focus / study",
-  "audio_features": {
-    "bpm": {"min": 68, "max": 182, "median": 95.5},
-    "energy": {"avg": 0.351, "range": "calm focus"},
-    "valence": {"avg": 0.241, "range": "contemplative"},
-    "danceability": {"avg": 0.588, "range": "subtle rhythm"},
-    "acousticness": {"avg": 0.629, "range": "organic/warm"},
-    "instrumentalness": {"avg": 0.833, "range": "minimal vocals"},
-    "key_preference": ["C#/Db", "C", "F"],
-    "mode_split": {"major": 51, "minor": 49}
-  },
-  "production_style": {
-    "texture": "consistent, minimal variation",
-    "dynamics": "steady, no sudden changes",
-    "arrangement": "repetitive but evolving",
-    "mixing": "background-optimized, non-fatiguing"
-  }
-}</pre>
-    </div>
-  </div>
 
   <!-- What Makes a Hit -->
   <div class="section-label">
