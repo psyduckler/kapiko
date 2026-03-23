@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo-Classical — kapiko music analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #0b0c1a;
+      --bg-card:       #111222;
+      --bg-header:     #0d0e20;
+      --border:        rgba(255, 255, 255, 0.07);
+      --border-accent: rgba(78, 205, 196, 0.22);
+      --text:          #dde1f0;
+      --text-muted:    #6b7099;
+      --text-dim:      #3d4060;
+      --teal:          #4ecdc4;
+      --purple:        #9b7fd4;
+      --blue:          #5b9bd5;
+      --teal-glow:     rgba(78, 205, 196, 0.12);
+      --purple-glow:   rgba(155, 127, 212, 0.12);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 80% at 10% 50%, rgba(78, 205, 196, 0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 85% 20%, rgba(155, 127, 212, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 56px 28px 52px;
+      position: relative;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 24px;
+    }
+
+    .brand-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--teal);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--teal), 0 0 20px rgba(78,205,196,0.4);
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    .genre-pill {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--purple);
+      background: rgba(155, 127, 212, 0.1);
+      border: 1px solid rgba(155, 127, 212, 0.28);
+      border-radius: 20px;
+      padding: 4px 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 9vw, 88px);
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      line-height: 0.95;
+      background: linear-gradient(130deg, #dde1f0 0%, #4ecdc4 55%, #9b7fd4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-bottom: 52px;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle span {
+      color: var(--text-dim);
+      margin: 0 6px;
+    }
+
+    /* ── Stat Cards ── */
+    .stat-cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 18px;
+      transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+      cursor: default;
+    }
+
+    .stat-card:hover {
+      border-color: var(--border-accent);
+      background: rgba(78,205,196,0.04);
+      transform: translateY(-3px);
+    }
+
+    .stat-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .stat-value {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .stat-value.teal   { color: var(--teal); }
+    .stat-value.purple { color: var(--purple); }
+    .stat-value.blue   { color: var(--blue); }
+
+    .stat-sub {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin-top: 6px;
+      font-weight: 400;
+    }
+
+    /* ── Main ── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 28px 96px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 52px 0 22px;
+    }
+
+    .section-label:first-child { margin-top: 0; }
+
+    .section-label h2 {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Chart Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 28px 24px;
+      transition: border-color 0.25s ease;
+    }
+
+    .chart-card:hover { border-color: var(--border-accent); }
+    .chart-card.full  { grid-column: 1 / -1; }
+
+    .chart-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .chart-analysis {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+      line-height: 1.55;
+      font-style: italic;
+      max-width: 680px;
+    }
+
+    .chart-wrap {
+      position: relative;
+    }
+
+    /* ── Feature Summary ── */
+    .feature-summary-inner {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .feature-bars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 28px;
+    }
+
+    .feature-item { display: flex; flex-direction: column; gap: 7px; }
+
+    .feature-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--text-muted);
+    }
+
+    .feature-val {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.025em;
+      line-height: 1;
+    }
+
+    .feature-track {
+      height: 5px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .feature-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ── Tracks Table ── */
+    .table-wrapper {
+      overflow-x: auto;
+      margin-top: 24px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td { padding: 10px 12px; text-align: left; }
+    th { 
+      color: var(--text-dim); 
+      font-weight: 600; 
+      font-size: 11px; 
+      text-transform: uppercase; 
+      letter-spacing: 0.1em; 
+      border-bottom: 1px solid var(--border);
+    }
+    
+    td { border-bottom: 1px solid rgba(255,255,255,0.03); }
+
+    .td-rank  { text-align: center; color: var(--text-dim); font-weight: 600; width: 60px; }
+    .td-track { position: relative; min-width: 200px; }
+    .td-track a { color: var(--text); text-decoration: none; }
+    .td-track a:hover { color: var(--teal); }
+    .td-artist { color: var(--text-muted); min-width: 150px; }
+    .td-artist a { color: var(--text-muted); text-decoration: none; }
+    .td-artist a:hover { color: var(--purple); }
+    .td-num   { text-align: center; color: var(--text); font-weight: 600; width: 80px; }
+    .td-key   { text-align: center; color: var(--text-muted); font-weight: 600; width: 60px; }
+
+    .pop-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pop-bar-track {
+      width: 40px;
+      height: 4px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pop-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      border-radius: 2px;
+      transition: width 0.6s ease;
+    }
+
+    .spotify-icon {
+      opacity: 0;
+      margin-left: 8px;
+      width: 14px;
+      height: 14px;
+      fill: var(--text-dim);
+      transition: all 0.2s ease;
+      display: inline-block;
+    }
+
+    .td-track:hover .spotify-icon { opacity: 1; }
+    .spotify-icon:hover { fill: #1db954; transform: scale(1.1); }
+
+    .show-more-btn {
+      margin: 24px auto 0;
+      display: block;
+      background: rgba(78,205,196,0.12);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.3);
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .show-more-btn:hover {
+      background: rgba(78,205,196,0.18);
+      border-color: rgba(78,205,196,0.5);
+    }
+
+    .show-more-btn.hidden { display: none; }
+
+    /* ── Prompt Lab ── */
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .prompt-block {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      position: relative;
+    }
+
+    .prompt-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .copy-btn {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border: none;
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin-left: auto;
+    }
+
+    .copy-btn:hover { background: rgba(78,205,196,0.25); }
+    .copy-btn.copied { background: rgba(100,200,100,0.3); color: #60d060; }
+
+    pre {
+      font-size: 11px;
+      line-height: 1.55;
+      color: var(--text-muted);
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    /* ── Outlier Cards ── */
+    .outlier-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .outlier-card {
+      background: rgba(155,127,212,0.08);
+      border: 1px solid rgba(155,127,212,0.2);
+      border-radius: 12px;
+      padding: 18px;
+    }
+
+    .outlier-track {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .outlier-artist {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .outlier-reason {
+      font-size: 11px;
+      color: var(--purple);
+      line-height: 1.4;
+    }
+
+    /* ── Correlation Table ── */
+    #corrTable {
+      font-size: 11px;
+      margin-top: 20px;
+    }
+
+    #corrTable th {
+      font-size: 10px;
+      padding: 8px;
+      text-align: center;
+    }
+
+    #corrTable td {
+      padding: 8px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    #corrTable .diag { color: var(--text-dim); }
+
+    /* ── Production Profile ── */
+    .prod-grid {
+      display: grid;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .prod-item {
+      display: grid;
+      grid-template-columns: 120px 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .prod-bar-wrap {
+      display: flex;
+      height: 32px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .prod-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 0 4px;
+    }
+
+    .prod-labels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .prod-label-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .prod-label-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .header-inner { padding: 32px 20px 28px; }
+      main { padding: 32px 20px 64px; }
+      .stat-cards { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .charts-grid { grid-template-columns: 1fr; }
+      .feature-summary-inner { grid-template-columns: 1fr; gap: 24px; }
+      .prompt-grid { grid-template-columns: 1fr; }
+      .outlier-grid { grid-template-columns: 1fr; }
+      .prod-item { grid-template-columns: 1fr; gap: 12px; }
+    }
+
+    @media (max-width: 480px) {
+      .stat-cards { grid-template-columns: 1fr; }
+      .feature-bars { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      kapiko.ai
+    </div>
+    <div class="genre-pill">Genre Report</div>
+    <h1>Neo-Classical</h1>
+    <div class="subtitle">
+      Contemporary classical beauty with emotional depth
+      <span>•</span>
+      100 tracks analyzed
+      <span>•</span>
+      Spotify audio features dataset
+    </div>
+    
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="stat-label">Median BPM</div>
+        <div class="stat-value teal">109</div>
+        <div class="stat-sub">Contemplative pace</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Energy</div>
+        <div class="stat-value purple">11%</div>
+        <div class="stat-sub">Serene dynamics</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Valence</div>
+        <div class="stat-value blue">14%</div>
+        <div class="stat-sub">Profound emotion</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Top Key</div>
+        <div class="stat-value teal">A Minor</div>
+        <div class="stat-sub">11 tracks</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Major/Minor</div>
+        <div class="stat-value purple">55/45</div>
+        <div class="stat-sub">Balanced modes</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Audio DNA -->
+  <div class="section-label">
+    <h2>Audio DNA</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Feature Summary</div>
+    <div class="chart-analysis">
+      Neo-classical music's pristine acoustic signature: extraordinarily high acousticness (97%) and instrumentalness (90%), with minimal energy (11%) creating space for emotional depth. The genre's near-absence of speechiness (4%) and electronic elements preserves its organic, contemplative character.
+    </div>
+    <div class="feature-summary-inner">
+      <div class="chart-wrap">
+        <canvas id="chartRadar" width="300" height="300"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">11%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 11%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">14%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 14%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">34%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 34%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">97%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 97%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">90%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">4%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 4%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rhythm & Tonality -->
+  <div class="section-label">
+    <h2>Rhythm & Tonality</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">BPM Distribution</div>
+      <div class="chart-analysis">
+        Neo-classical spans a wider tempo range than expected, with the 90-150 BPM range dominating (65%). The median of 109 BPM provides a contemplative yet purposeful pace that allows for both reflection and movement.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartBpm" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Key Distribution</div>
+      <div class="chart-analysis">
+        A minor emerges as the emotional center (13%), followed by C and G major (12% each). The prevalence of both major and minor keys reflects the genre's ability to express complex emotions from melancholy to hope.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartKey" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Major vs Minor Mode</div>
+      <div class="chart-analysis">
+        Evenly split at 55% major, 45% minor. Major keys provide uplift and resolution, while minor keys explore deeper emotional territories. This balance creates the genre's characteristic emotional complexity.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartMode" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Duration Histogram</div>
+      <div class="chart-analysis">
+        Most pieces last 2-4 minutes (53%), with a median of 3.3 minutes. This length allows for proper development of musical ideas while maintaining focus - perfect for both concentrated listening and background ambience.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartDuration" height="240"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emotional Fingerprint -->
+  <div class="section-label">
+    <h2>Emotional Fingerprint</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Energy vs Valence</div>
+      <div class="chart-analysis">
+        Neo-classical occupies the low-energy, low-valence quadrant with remarkable consistency. The target zone highlights the genre's sweet spot: deeply contemplative without being harsh, emotionally profound without overwhelming intensity.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartEnergyValence" height="320"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Acousticness vs Instrumentalness</div>
+      <div class="chart-analysis">
+        Dense clustering in the upper-right quadrant reveals neo-classical's commitment to organic, instrumental sound. Nearly all tracks prioritize natural acoustics and instrumental expression over electronic production or vocals.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartAcousticInstr" height="320"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Artists -->
+  <div class="section-label">
+    <h2>Top Artists</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Most Featured Artists</div>
+    <div class="chart-analysis">
+      Ludovico Einaudi dominates with 28 tracks, establishing him as the genre's defining voice. Jóhann Jóhannsson and Ólafur Arnalds follow with 8 tracks each, representing different facets: Einaudi's accessible minimalism, Jóhannsson's cinematic depth, and Arnalds' electronic-classical fusion.
+    </div>
+    <div class="chart-wrap">
+      <canvas id="chartArtists" height="360"></canvas>
+    </div>
+  </div>
+
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-grid">
+    <div class="prompt-block" id="translatorBlock">
+      <div class="prompt-label">
+        Feature Translator
+        <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+      </div>
+      <pre>BPM 90-130: Contemplative pace, room for reflection
+Energy 5-20%: Serene, minimal dynamics, space for emotion
+Valence 5-25%: Profound melancholy, introspective depth
+Danceability 20-50%: Subtle pulse, not rhythmic focus
+Acousticness 95-100%: Pure acoustic instruments, natural recording
+Instrumentalness 80-95%: Minimal vocals, instrumental storytelling
+Speechiness 0-8%: Clean musical expression
+Tempo: Moderate, allows for emotional development
+Key preference: A minor, G major, D major for warmth</pre>
+    </div>
+
+    <div class="prompt-block" id="templateBlock">
+      <div class="prompt-label">
+        Prompt Template
+        <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+      </div>
+      <pre>Create a neo-classical composition with:
+
+• Solo piano as primary voice (Einaudi style)
+• String section support (cello/violin accompaniment)
+• Minimal electronic processing, natural reverb
+• Emotional dynamic range with delicate expression
+• Classical harmony with modern sensibility
+• Tempo around 109 BPM (contemplative)
+• Low energy (11%), deeply emotional tone (14%)
+• Pedal sustain, natural room ambience
+• Orchestral layering without overwhelming
+• Dynamic expression following breath and pause
+
+Artists to reference: Ludovico Einaudi, Ólafur Arnalds, Nils Frahm, Max Richter
+
+Duration: 3-4 minutes, perfect for meditation/focus</pre>
+    </div>
+
+    <div class="prompt-block" id="recipeBlock">
+      <div class="prompt-label">
+        Genre Recipe JSON
+        <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+      </div>
+      <pre>{
+  "genre": "neo-classical",
+  "audio_features": {
+    "bpm": {"min": 58, "max": 168, "median": 109},
+    "energy": {"avg": 0.112, "range": "serene/minimal"},
+    "valence": {"avg": 0.137, "range": "profound/melancholic"},
+    "danceability": {"avg": 0.337, "range": "subtle pulse"},
+    "acousticness": {"avg": 0.969, "range": "pure acoustic"},
+    "instrumentalness": {"avg": 0.902, "range": "minimal vocals"},
+    "key_preference": ["A Minor", "D Major", "G Major"],
+    "mode_split": {"major": 55, "minor": 45}
+  },
+  "production_style": {
+    "instruments": "piano, strings, cello primary",
+    "recording": "acoustic capture, natural reverb",
+    "effects": "pedal sustain, minimal processing",
+    "arrangement": "dynamic expression, 3-4 min duration"
+  }
+}</pre>
+    </div>
+  </div>
+
+  <!-- What Makes a Hit -->
+  <div class="section-label">
+    <h2>What Makes a Hit</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Popular vs Unpopular Comparison</div>
+      <div class="chart-analysis">
+        Top 25 tracks show slightly higher energy (13% vs 9%) and valence (16% vs 12%), suggesting successful neo-classical pieces find the balance between emotional depth and accessibility. The differences are subtle but meaningful in this refined genre.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartPopComp" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Outlier Spotlight</div>
+      <div class="chart-analysis">
+        Tracks that push neo-classical boundaries while maintaining genre essence.
+      </div>
+      <div class="outlier-grid">
+        <div class="outlier-card">
+          <div class="outlier-track">Experience</div>
+          <div class="outlier-artist">Ludovico Einaudi, Daniel Hope, I Virtuosi Italiani</div>
+          <div class="outlier-reason">Highest energy (45%) - orchestral power while keeping classical elegance</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Remove The Complexities</div>
+          <div class="outlier-artist">Peter Sandberg</div>
+          <div class="outlier-reason">Fastest tempo (168 BPM) - urgent expression in contemplative genre</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Forces of Attraction</div>
+          <div class="outlier-artist">Jóhann Jóhannsson</div>
+          <div class="outlier-reason">Highest valence (40%) - rare optimism in melancholic landscape</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">saman</div>
+          <div class="outlier-artist">Ólafur Arnalds</div>
+          <div class="outlier-reason">Highest valence in pure minimal (43%) - joy through simplicity</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Chalkboard</div>
+          <div class="outlier-artist">Jóhann Jóhannsson</div>
+          <div class="outlier-reason">Lowest acousticness (89%) - subtle electronic textures in acoustic genre</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Clair de Lune</div>
+          <div class="outlier-artist">Claude Debussy, Martin Jones</div>
+          <div class="outlier-reason">Lowest energy (0.5%) - extreme minimalism pushes ambient boundaries</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Correlations -->
+  <div class="section-label">
+    <h2>Feature Correlations</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Correlation Heatmap</div>
+    <div class="chart-analysis">
+      Strong positive correlation between energy and valence (0.58) shows that livelier pieces tend toward emotional brightness. Weak correlations overall suggest neo-classical's diversity - artists express emotion through various combinations of musical elements.
+    </div>
+    <table id="corrTable"></table>
+  </div>
+
+  <!-- Production Profile -->
+  <div class="section-label">
+    <h2>Production Profile</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Neo-Classical Production Characteristics</div>
+    <div class="chart-analysis">
+      The genre's production philosophy emphasizes natural acoustic recording, dynamic expression, and minimal digital processing. Pedal sustain and orchestral layering create rich harmonic textures while preserving intimate emotional connection.
+    </div>
+    <div class="prod-grid" id="prodGrid"></div>
+  </div>
+
+  <!-- Top Tracks -->
+  <div class="section-label">
+    <h2>Top Tracks</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Neo-Classical Essential Tracks</div>
+    <div class="chart-analysis">
+      From Einaudi's accessible minimalism to Bach's timeless mastery, these tracks define neo-classical's emotional and sonic landscape. Notice the prevalence of collaborative arrangements and cross-generational appeal.
+    </div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Track</th>
+            <th>Artist</th>
+            <th>Popularity</th>
+            <th>BPM</th>
+            <th>Energy</th>
+            <th>Valence</th>
+            <th>Key</th>
+          </tr>
+        </thead>
+        <tbody id="tracksBody"></tbody>
+      </table>
+    </div>
+    <button id="showMoreBtn" class="show-more-btn" onclick="showMoreTracks()">
+      Show More <span id="showMoreCount"></span>
+    </button>
+  </div>
+
+</main>
+
+<footer style="text-align: center; padding: 40px 20px; color: var(--text-dim); font-size: 12px; border-top: 1px solid var(--border);">
+  Data sourced from Spotify audio features (pre-deprecation dataset) of top 100 neo-classical tracks.
+</footer>
+
+<script>
+// ─── Chart.js Configuration ────────────────────────────────────────────────
+
+Chart.register(window['chartjs-plugin-annotation']);
+
+const TEAL = '#4ecdc4', PURPLE = '#9b7fd4', BLUE = '#5b9bd5';
+const ta = (a) => `rgba(78,205,196,${a})`;
+const pa = (a) => `rgba(155,127,212,${a})`;
+const ba = (a) => `rgba(91,155,213,${a})`;
+
+const GRID = { color: 'rgba(255,255,255,0.05)', lineWidth: 1 };
+const TICK = { color: '#6b7099', font: { size: 11 } };
+const TIP = {
+  backgroundColor: 'rgba(17,18,34,0.95)',
+  titleColor: '#dde1f0',
+  bodyColor: '#8890b8',
+  borderColor: 'rgba(78,205,196,0.3)',
+  borderWidth: 1,
+  cornerRadius: 8,
+  displayColors: false,
+  titleFont: { size: 12, weight: '600' },
+  bodyFont: { size: 11 }
+};
+
+// ─── Audio DNA Radar Chart ─────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartRadar'), {
+  type: 'radar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Speechiness'],
+    datasets: [{
+      data: [11, 14, 34, 97, 90, 4],
+      backgroundColor: ta(0.15),
+      borderColor: TEAL,
+      borderWidth: 2,
+      pointBackgroundColor: TEAL,
+      pointBorderColor: '#fff',
+      pointBorderWidth: 2,
+      pointRadius: 5,
+      pointHoverRadius: 7
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 100,
+        grid: { color: 'rgba(255,255,255,0.08)' },
+        angleLines: { color: 'rgba(255,255,255,0.08)' },
+        ticks: { display: false },
+        pointLabels: { color: '#8890b8', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── BPM Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartBpm'), {
+  type: 'bar',
+  data: {
+    labels: ['0-30', '30-60', '60-90', '90-120', '120-150', '150-180', '180+'],
+    datasets: [{
+      data: [0, 1, 30, 31, 34, 4, 0],
+      backgroundColor: ta(0.7),
+      borderColor: TEAL,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Key Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartKey'), {
+  type: 'bar',
+  data: {
+    labels: ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'],
+    datasets: [{
+      data: [12, 7, 10, 6, 6, 9, 4, 13, 8, 13, 9, 3],
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: { ...TICK, maxRotation: 45 } },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Major vs Minor Mode ───────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartMode'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Major', 'Minor'],
+    datasets: [{
+      data: [55, 45],
+      backgroundColor: [ta(0.8), pa(0.7)],
+      borderColor: [TEAL, PURPLE],
+      borderWidth: 2
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 12,
+          font: { size: 12 }
+        }
+      },
+      tooltip: TIP
+    }
+  }
+});
+
+// ─── Duration Histogram ────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartDuration'), {
+  type: 'bar',
+  data: {
+    labels: ['0-2min', '2-3min', '3-4min', '4-5min', '5-6min', '6-8min', '8+min'],
+    datasets: [{
+      data: [14, 30, 23, 15, 11, 7, 0],
+      backgroundColor: ba(0.6),
+      borderColor: BLUE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Energy vs Valence Scatter ────────────────────────────────────────────
+
+new Chart(document.getElementById('chartEnergyValence'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: [{"x":0.449,"y":0.036},{"x":0.058,"y":0.045},{"x":0.192,"y":0.054},{"x":0.116,"y":0.299},{"x":0.055,"y":0.247},{"x":0.157,"y":0.304},{"x":0.09,"y":0.041},{"x":0.052,"y":0.097},{"x":0.099,"y":0.213},{"x":0.07,"y":0.109},{"x":0.169,"y":0.107},{"x":0.258,"y":0.097},{"x":0.126,"y":0.34},{"x":0.111,"y":0.075},{"x":0.217,"y":0.078},{"x":0.126,"y":0.216},{"x":0.005,"y":0.04},{"x":0.164,"y":0.071},{"x":0.108,"y":0.18},{"x":0.111,"y":0.075},{"x":0.063,"y":0.102},{"x":0.179,"y":0.06},{"x":0.165,"y":0.058},{"x":0.215,"y":0.075},{"x":0.308,"y":0.036},{"x":0.206,"y":0.136},{"x":0.006,"y":0.062},{"x":0.087,"y":0.126},{"x":0.107,"y":0.146},{"x":0.348,"y":0.087},{"x":0.217,"y":0.163},{"x":0.071,"y":0.043},{"x":0.183,"y":0.039},{"x":0.226,"y":0.222},{"x":0.086,"y":0.037},{"x":0.03,"y":0.07},{"x":0.237,"y":0.357},{"x":0.136,"y":0.396},{"x":0.109,"y":0.08},{"x":0.268,"y":0.052},{"x":0.12,"y":0.218},{"x":0.056,"y":0.127},{"x":0.066,"y":0.062},{"x":0.019,"y":0.126},{"x":0.126,"y":0.403},{"x":0.128,"y":0.124},{"x":0.154,"y":0.049},{"x":0.119,"y":0.181},{"x":0.129,"y":0.073},{"x":0.125,"y":0.369},{"x":0.178,"y":0.035},{"x":0.084,"y":0.133},{"x":0.051,"y":0.271},{"x":0.105,"y":0.053},{"x":0.209,"y":0.325},{"x":0.094,"y":0.079},{"x":0.131,"y":0.074},{"x":0.009,"y":0.093},{"x":0.133,"y":0.077},{"x":0.027,"y":0.188},{"x":0.178,"y":0.035},{"x":0.038,"y":0.086},{"x":0.11,"y":0.064},{"x":0.109,"y":0.05},{"x":0.074,"y":0.232},{"x":0.084,"y":0.239},{"x":0.268,"y":0.052},{"x":0.006,"y":0.037},{"x":0.025,"y":0.138},{"x":0.014,"y":0.244},{"x":0.118,"y":0.175},{"x":0.173,"y":0.037},{"x":0.138,"y":0.172},{"x":0.059,"y":0.103},{"x":0.08,"y":0.067},{"x":0.289,"y":0.194},{"x":0.109,"y":0.052},{"x":0.01,"y":0.212},{"x":0.018,"y":0.14},{"x":0.052,"y":0.344},{"x":0.071,"y":0.148},{"x":0.124,"y":0.048},{"x":0.095,"y":0.029},{"x":0.031,"y":0.118},{"x":0.034,"y":0.149},{"x":0.022,"y":0.169},{"x":0.006,"y":0.069},{"x":0.024,"y":0.426},{"x":0.073,"y":0.039},{"x":0.078,"y":0.154},{"x":0.073,"y":0.038},{"x":0.075,"y":0.126},{"x":0.006,"y":0.174},{"x":0.116,"y":0.109},{"x":0.008,"y":0.067},{"x":0.005,"y":0.122},{"x":0.139,"y":0.213},{"x":0.081,"y":0.195},{"x":0.077,"y":0.29},{"x":0.104,"y":0.255}],
+      backgroundColor: ta(0.6),
+      borderColor: TEAL,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: TIP,
+      annotation: {
+        annotations: {
+          targetZone: {
+            type: 'box',
+            xMin: 0.05,
+            xMax: 0.22,
+            yMin: 0.04,
+            yMax: 0.31,
+            backgroundColor: pa(0.08),
+            borderColor: PURPLE,
+            borderWidth: 1,
+            borderDash: [5, 5],
+            label: {
+              enabled: true,
+              content: 'Neo-Classical Zone',
+              position: 'center',
+              color: PURPLE,
+              font: { size: 11, weight: '600' }
+            }
+          }
+        }
+      }
+    },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Energy', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 0.5 
+      },
+      y: { 
+        title: { display: true, text: 'Valence', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 0.45 
+      }
+    }
+  }
+});
+
+// ─── Acousticness vs Instrumentalness ─────────────────────────────────────
+
+new Chart(document.getElementById('chartAcousticInstr'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: [{"x":0.934,"y":0.961},{"x":0.961,"y":0.89},{"x":0.991,"y":0.908},{"x":0.986,"y":0.926},{"x":0.992,"y":0.942},{"x":0.89,"y":0.842},{"x":0.944,"y":0.917},{"x":0.991,"y":0.891},{"x":0.983,"y":0.852},{"x":0.992,"y":0.934},{"x":0.959,"y":0.889},{"x":0.957,"y":0.893},{"x":0.995,"y":0.942},{"x":0.991,"y":0.898},{"x":0.909,"y":0.855},{"x":0.989,"y":0.897},{"x":0.994,"y":0.912},{"x":0.911,"y":0.916},{"x":0.994,"y":0.877},{"x":0.991,"y":0.898},{"x":0.991,"y":0.905},{"x":0.962,"y":0.934},{"x":0.995,"y":0.901},{"x":0.912,"y":0.864},{"x":0.851,"y":0.854},{"x":0.965,"y":0.856},{"x":0.986,"y":0.923},{"x":0.989,"y":0.873},{"x":0.862,"y":0.926},{"x":0.931,"y":0.949},{"x":0.993,"y":0.874},{"x":0.985,"y":0.857},{"x":0.985,"y":0.916},{"x":0.977,"y":0.897},{"x":0.932,"y":0.912},{"x":0.991,"y":0.878},{"x":0.987,"y":0.896},{"x":0.985,"y":0.895},{"x":0.889,"y":0.772},{"x":0.933,"y":0.904},{"x":0.98,"y":0.887},{"x":0.99,"y":0.943},{"x":0.989,"y":0.928},{"x":0.99,"y":0.934},{"x":0.895,"y":0.869},{"x":0.989,"y":0.85},{"x":0.975,"y":0.897},{"x":0.993,"y":0.906},{"x":0.915,"y":0.872},{"x":0.987,"y":0.929},{"x":0.994,"y":0.861},{"x":0.916,"y":0.896},{"x":0.993,"y":0.894},{"x":0.87,"y":0.838},{"x":0.974,"y":0.913},{"x":0.986,"y":0.915},{"x":0.993,"y":0.912},{"x":0.984,"y":0.936},{"x":0.927,"y":0.961},{"x":0.994,"y":0.885},{"x":0.994,"y":0.861},{"x":0.961,"y":0.902},{"x":0.979,"y":0.902},{"x":0.938,"y":0.867},{"x":0.993,"y":0.91},{"x":0.99,"y":0.848},{"x":0.933,"y":0.904},{"x":0.996,"y":0.944},{"x":0.994,"y":0.919},{"x":0.995,"y":0.943},{"x":0.842,"y":0.938},{"x":0.99,"y":0.927},{"x":0.963,"y":0.809},{"x":0.989,"y":0.941},{"x":0.991,"y":0.935},{"x":0.971,"y":0.841},{"x":0.981,"y":0.858},{"x":0.991,"y":0.953},{"x":0.995,"y":0.903},{"x":0.993,"y":0.943},{"x":0.987,"y":0.929},{"x":0.965,"y":0.905},{"x":0.985,"y":0.883},{"x":0.987,"y":0.911},{"x":0.98,"y":0.94},{"x":0.987,"y":0.866},{"x":0.995,"y":0.908},{"x":0.994,"y":0.847},{"x":0.944,"y":0.885},{"x":0.986,"y":0.916},{"x":0.946,"y":0.913},{"x":0.95,"y":0.935},{"x":0.989,"y":0.925},{"x":0.988,"y":0.951},{"x":0.978,"y":0.894},{"x":0.993,"y":0.92},{"x":0.961,"y":0.913},{"x":0.994,"y":0.942},{"x":0.996,"y":0.933},{"x":0.994,"y":0.966}],
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Acousticness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0.8, max: 1 
+      },
+      y: { 
+        title: { display: true, text: 'Instrumentalness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0.7, max: 1 
+      }
+    }
+  }
+});
+
+// ─── Top Artists Horizontal Bar Chart ─────────────────────────────────────
+
+new Chart(document.getElementById('chartArtists'), {
+  type: 'bar',
+  data: {
+    labels: ['Ludovico Einaudi', 'Jóhann Jóhannsson', 'Ólafur Arnalds', 'Joep Beving', 'Alexis Ffrench', 'Daniel Hope', 'I Virtuosi Italiani', 'Royal Philharmonic Orchestra', 'Johann Sebastian Bach', 'Dario Marianelli', 'Stephan Moccio', 'Fabrizio Paterlini', 'Robert Ziegler', 'Dustin O\'Halloran', 'Peter Sandberg'],
+    datasets: [{
+      data: [28, 8, 8, 6, 5, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3],
+      backgroundColor: Array.from({length: 15}, (_, i) => {
+        const t = i / 14;
+        return `rgb(${Math.round(155-77*t)},${Math.round(127+78*t)},${Math.round(212-16*t)})`;
+      }),
+      borderWidth: 1, borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK, title: { display: true, text: 'Number of tracks', color: '#6b7099', font: { size: 11 } } },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 12 } } }
+    }
+  }
+});
+
+// ─── Top Tracks Table ──────────────────────────────────────────────────────
+
+const TRACKS = [
+  {"name": "Experience", "artists": "Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani", "popularity": 79, "tempo": 92.5, "key": "D", "mode": "Major", "energy": 45, "valence": 4, "slug": "experience-ludovico-einaudi"},
+  {"name": "Nuvole Bianche", "artists": "Ludovico Einaudi", "popularity": 73, "tempo": 132.6, "key": "G#/Ab", "mode": "Major", "energy": 6, "valence": 5, "slug": "nuvole-bianche-ludovico-einaudi"},
+  {"name": "Comptine d'un autre été, l'après-midi", "artists": "Yann Tiersen", "popularity": 73, "tempo": 100.8, "key": "E", "mode": "Minor", "energy": 19, "valence": 5, "slug": "comptine-dun-autre-ete-yann-tiersen"},
+  {"name": "Ala", "artists": "Joep Beving", "popularity": 64, "tempo": 79.5, "key": "G", "mode": "Minor", "energy": 12, "valence": 30, "slug": "ala-joep-beving"},
+  {"name": "A Bad Dream That Will Pass Away", "artists": "Luke Howard", "popularity": 64, "tempo": 111.9, "key": "A#/Bb", "mode": "Major", "energy": 6, "valence": 25, "slug": "a-bad-dream-that-will-pass-away-luke-howard"},
+  {"name": "Cello Suite No. 1 in G Major, BWV 1007: I. Prélude", "artists": "Johann Sebastian Bach;Yo-Yo Ma", "popularity": 69, "tempo": 73.3, "key": "G", "mode": "Major", "energy": 16, "valence": 30, "slug": "cello-suite-no-1-bach"},
+  {"name": "Requiem, K. 626: Lacrimosa", "artists": "Wolfgang Amadeus Mozart;Michael Finnissy;Academy of Ancient Music;Stephen Cleobury;Choir of King's College, Cambridge", "popularity": 62, "tempo": 132.0, "key": "D", "mode": "Minor", "energy": 9, "valence": 4, "slug": "lacrimosa-mozart"},
+  {"name": "Dawn - From \"Pride & Prejudice\" Soundtrack", "artists": "Dario Marianelli;Jean-Yves Thibaudet", "popularity": 62, "tempo": 78.9, "key": "C", "mode": "Major", "energy": 5, "valence": 10, "slug": "dawn-pride-prejudice-dario-marianelli"},
+  {"name": "pt. 1 Owl Light", "artists": "Stephan Moccio", "popularity": 61, "tempo": 113.6, "key": "C", "mode": "Major", "energy": 10, "valence": 21, "slug": "owl-light-stephan-moccio"},
+  {"name": "Wrecking Ball - Solo Piano Version", "artists": "Stephan Moccio", "popularity": 60, "tempo": 112.8, "key": "F", "mode": "Major", "energy": 7, "valence": 11, "slug": "wrecking-ball-stephan-moccio"},
+  {"name": "Rue des trois frères", "artists": "Fabrizio Paterlini", "popularity": 65, "tempo": 138.9, "key": "C#/Db", "mode": "Major", "energy": 17, "valence": 11, "slug": "rue-des-trois-freres-fabrizio-paterlini"},
+  {"name": "Vivaldi Variation (Arr. for Piano from Concerto for Strings in G Minor, RV 156)", "artists": "Antonio Vivaldi;Florian Christl", "popularity": 65, "tempo": 78.8, "key": "G", "mode": "Minor", "energy": 26, "valence": 10, "slug": "vivaldi-variation-florian-christl"},
+  {"name": "Wishing", "artists": "Alexis Ffrench", "popularity": 59, "tempo": 72.7, "key": "D#/Eb", "mode": "Major", "energy": 13, "valence": 34, "slug": "wishing-alexis-ffrench"},
+  {"name": "Bluebird", "artists": "Alexis Ffrench", "popularity": 59, "tempo": 74.8, "key": "A#/Bb", "mode": "Major", "energy": 11, "valence": 8, "slug": "bluebird-alexis-ffrench"},
+  {"name": "Divenire", "artists": "Ludovico Einaudi;Robert Ziegler;Royal Philharmonic Orchestra", "popularity": 58, "tempo": 88.4, "key": "G", "mode": "Major", "energy": 22, "valence": 8, "slug": "divenire-ludovico-einaudi"},
+  {"name": "The Well-Tempered Clavier: Book 1, BWV 846-869: I. Prelude in C Major, BWV 846", "artists": "Johann Sebastian Bach;Lang Lang", "popularity": 64, "tempo": 133.6, "key": "C", "mode": "Major", "energy": 13, "valence": 22, "slug": "prelude-c-major-bach"},
+  {"name": "Clair de Lune, L. 32", "artists": "Claude Debussy;Martin Jones", "popularity": 68, "tempo": 65.8, "key": "C#/Db", "mode": "Major", "energy": 1, "valence": 4, "slug": "clair-de-lune-debussy"},
+  {"name": "Tchaikovsky: Swan Lake, Op. 20, Act II: No. 10, Scene. Moderato", "artists": "Pyotr Ilyich Tchaikovsky;André Previn;London Symphony Orchestra", "popularity": 65, "tempo": 58.3, "key": "E", "mode": "Minor", "energy": 16, "valence": 7, "slug": "swan-lake-tchaikovsky"},
+  {"name": "Für Elise, WoO 59", "artists": "Ludwig van Beethoven;Nelly Kokinos", "popularity": 63, "tempo": 126.9, "key": "A", "mode": "Minor", "energy": 11, "valence": 18, "slug": "fur-elise-beethoven"},
+  {"name": "Papillon - Solo Piano Version", "artists": "Alexis Ffrench", "popularity": 56, "tempo": 128.5, "key": "C", "mode": "Major", "energy": 6, "valence": 10, "slug": "papillon-alexis-ffrench"},
+  {"name": "Night", "artists": "Ludovico Einaudi;Amsterdam Sinfonietta", "popularity": 56, "tempo": 106.7, "key": "D#/Eb", "mode": "Major", "energy": 18, "valence": 6, "slug": "night-ludovico-einaudi"},
+  {"name": "Vladimir's Blues", "artists": "Max Richter", "popularity": 61, "tempo": 114.7, "key": "A", "mode": "Major", "energy": 17, "valence": 6, "slug": "vladimirs-blues-max-richter"},
+  {"name": "Petricor", "artists": "Ludovico Einaudi;Daniel Hope", "popularity": 55, "tempo": 107.7, "key": "G", "mode": "Major", "energy": 31, "valence": 4, "slug": "petricor-ludovico-einaudi"},
+  {"name": "Primavera", "artists": "Ludovico Einaudi;Robert Ziegler;Royal Philharmonic Orchestra", "popularity": 62, "tempo": 141.6, "key": "C", "mode": "Minor", "energy": 21, "valence": 14, "slug": "primavera-ludovico-einaudi"},
+  {"name": "Wind Song", "artists": "Ludovico Einaudi", "popularity": 65, "tempo": 72.7, "key": "B", "mode": "Minor", "energy": 1, "valence": 6, "slug": "wind-song-ludovico-einaudi"},
+  {"name": "Epilogue", "artists": "Jóhann Jóhannsson", "popularity": 60, "tempo": 135.8, "key": "A", "mode": "Minor", "energy": 9, "valence": 13, "slug": "epilogue-johann-johannsson"},
+  {"name": "Camping", "artists": "Jóhann Jóhannsson", "popularity": 60, "tempo": 129.4, "key": "A", "mode": "Minor", "energy": 11, "valence": 15, "slug": "camping-johann-johannsson"},
+  {"name": "Near Light", "artists": "Ólafur Arnalds", "popularity": 54, "tempo": 117.9, "key": "D", "mode": "Major", "energy": 35, "valence": 9, "slug": "near-light-olafur-arnalds"},
+  {"name": "My Misty Mornings", "artists": "Fabrizio Paterlini", "popularity": 54, "tempo": 130.1, "key": "G#/Ab", "mode": "Minor", "energy": 22, "valence": 16, "slug": "my-misty-mornings-fabrizio-paterlini"},
+  {"name": "Four Dimensions", "artists": "Ludovico Einaudi;Amsterdam Sinfonietta;PMCE Parco Della Musica Contempornea Ensemble", "popularity": 54, "tempo": 69.4, "key": "A", "mode": "Minor", "energy": 7, "valence": 4, "slug": "four-dimensions-ludovico-einaudi"},
+  {"name": "Eden", "artists": "Hania Rani", "popularity": 54, "tempo": 138.1, "key": "A", "mode": "Minor", "energy": 18, "valence": 4, "slug": "eden-hania-rani"},
+  {"name": "An Ending, a Beginning", "artists": "Dustin O'Halloran", "popularity": 54, "tempo": 137.1, "key": "D#/Eb", "mode": "Major", "energy": 23, "valence": 22, "slug": "an-ending-a-beginning-dustin-ohalloran"},
+  {"name": "Flight from the City", "artists": "Jóhann Jóhannsson;Yuki Numata Resnick;Tarn Travers;Ben Russell;Clarice Jensen", "popularity": 54, "tempo": 90.2, "key": "A#/Bb", "mode": "Major", "energy": 9, "valence": 4, "slug": "flight-from-city-johann-johannsson"},
+  {"name": "Una Mattina", "artists": "Ludovico Einaudi", "popularity": 70, "tempo": 131.4, "key": "D", "mode": "Major", "energy": 3, "valence": 7, "slug": "una-mattina-ludovico-einaudi"},
+  {"name": "Symphony No. 25 in G Minor, K. 183: I. Allegro con brio", "artists": "Wolfgang Amadeus Mozart;Academy of St. Martin in the Fields;Sir Neville Marriner", "popularity": 61, "tempo": 79.9, "key": "G", "mode": "Minor", "energy": 24, "valence": 36, "slug": "symphony-25-mozart"},
+  {"name": "Dismantle", "artists": "Peter Sandberg", "popularity": 61, "tempo": 100.2, "key": "D#/Eb", "mode": "Major", "energy": 14, "valence": 40, "slug": "dismantle-peter-sandberg"},
+  {"name": "Chalkboard", "artists": "Jóhann Jóhannsson", "popularity": 62, "tempo": 92.7, "key": "A", "mode": "Minor", "energy": 11, "valence": 8, "slug": "chalkboard-johann-johannsson"},
+  {"name": "Life", "artists": "Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani", "popularity": 53, "tempo": 93.4, "key": "G", "mode": "Major", "energy": 27, "valence": 5, "slug": "life-ludovico-einaudi"},
+  {"name": "Veloma", "artists": "Fabrizio Paterlini", "popularity": 53, "tempo": 108.0, "key": "G", "mode": "Minor", "energy": 12, "valence": 22, "slug": "veloma-fabrizio-paterlini"},
+  {"name": "they sink", "artists": "Ólafur Arnalds", "popularity": 53, "tempo": 110.0, "key": "F", "mode": "Minor", "energy": 6, "valence": 13, "slug": "they-sink-olafur-arnalds"},
+  {"name": "Flora", "artists": "Ludovico Einaudi", "popularity": 59, "tempo": 76.6, "key": "A", "mode": "Minor", "energy": 7, "valence": 6, "slug": "flora-ludovico-einaudi"},
+  {"name": "Fracture", "artists": "Stephan Moccio", "popularity": 69, "tempo": 85.3, "key": "D", "mode": "Major", "energy": 2, "valence": 13, "slug": "fracture-stephan-moccio"},
+  {"name": "Forces of Attraction", "artists": "Jóhann Jóhannsson", "popularity": 60, "tempo": 104.0, "key": "G", "mode": "Major", "energy": 13, "valence": 40, "slug": "forces-of-attraction-johann-johannsson"},
+  {"name": "Happiness Does Not Wait", "artists": "Ólafur Arnalds", "popularity": 58, "tempo": 123.0, "key": "F", "mode": "Minor", "energy": 13, "valence": 12, "slug": "happiness-does-not-wait-olafur-arnalds"},
+  {"name": "Le Onde", "artists": "Ludovico Einaudi", "popularity": 58, "tempo": 123.1, "key": "D", "mode": "Major", "energy": 15, "valence": 5, "slug": "le-onde-ludovico-einaudi"},
+  {"name": "Written on the Sky", "artists": "Max Richter", "popularity": 58, "tempo": 136.3, "key": "A#/Bb", "mode": "Minor", "energy": 12, "valence": 18, "slug": "written-on-sky-max-richter"},
+  {"name": "Lion Theme", "artists": "Dustin O'Halloran;Hauschka", "popularity": 52, "tempo": 137.7, "key": "C", "mode": "Minor", "energy": 13, "valence": 7, "slug": "lion-theme-dustin-ohalloran"},
+  {"name": "Fly", "artists": "Ludovico Einaudi", "popularity": 59, "tempo": 168.0, "key": "C#/Db", "mode": "Minor", "energy": 18, "valence": 4, "slug": "fly-ludovico-einaudi"},
+  {"name": "Sometimes", "artists": "Goldmund", "popularity": 51, "tempo": 73.8, "key": "F#/Gb", "mode": "Minor", "energy": 8, "valence": 13, "slug": "sometimes-goldmund"},
+  {"name": "Gdansk", "artists": "Lambert", "popularity": 51, "tempo": 132.7, "key": "F", "mode": "Major", "energy": 5, "valence": 27, "slug": "gdansk-lambert"},
+  {"name": "Waterways", "artists": "Ludovico Einaudi", "popularity": 51, "tempo": 127.9, "key": "G#/Ab", "mode": "Major", "energy": 11, "valence": 5, "slug": "waterways-ludovico-einaudi"},
+  {"name": "Balcony Hotel - From 'Miss'", "artists": "Lambert", "popularity": 51, "tempo": 132.4, "key": "G#/Ab", "mode": "Minor", "energy": 21, "valence": 33, "slug": "balcony-hotel-lambert"},
+  {"name": "The Gift", "artists": "Joep Beving", "popularity": 57, "tempo": 127.7, "key": "C", "mode": "Major", "energy": 9, "valence": 8, "slug": "the-gift-joep-beving"},
+  {"name": "Nocturne No. 2 in E-Flat Major, Op. 9 No. 2", "artists": "Frédéric Chopin;Daniel Barenboim", "popularity": 67, "tempo": 79.3, "key": "D#/Eb", "mode": "Major", "energy": 1, "valence": 9, "slug": "nocturne-2-chopin"},
+  {"name": "Domestic Pressures", "artists": "Jóhann Jóhannsson", "popularity": 58, "tempo": 155.8, "key": "A", "mode": "Minor", "energy": 13, "valence": 8, "slug": "domestic-pressures-johann-johannsson"},
+  {"name": "Sleeping Lotus", "artists": "Joep Beving", "popularity": 61, "tempo": 68.5, "key": "G", "mode": "Minor", "energy": 3, "valence": 19, "slug": "sleeping-lotus-joep-beving"},
+  {"name": "Losar", "artists": "Joep Beving", "popularity": 61, "tempo": 81.9, "key": "F", "mode": "Minor", "energy": 4, "valence": 9, "slug": "losar-joep-beving"},
+  {"name": "Loom - Sunrise Session II", "artists": "Ólafur Arnalds;Reykjavík Recording Orchestra", "popularity": 50, "tempo": 103.3, "key": "C", "mode": "Minor", "energy": 11, "valence": 6, "slug": "loom-sunrise-session-olafur-arnalds"},
+  {"name": "A Sparrow Alighted upon our Shoulder", "artists": "Jóhann Jóhannsson;Air Lyndhurst String Orchestra;Anthony Weeden", "popularity": 56, "tempo": 139.1, "key": "F#/Gb", "mode": "Minor", "energy": 11, "valence": 5, "slug": "sparrow-alighted-johann-johannsson"},
+  {"name": "Re", "artists": "Nils Frahm", "popularity": 56, "tempo": 108.9, "key": "F#/Gb", "mode": "Minor", "energy": 7, "valence": 23, "slug": "re-nils-frahm"},
+  {"name": "Georgiana - From \"Pride & Prejudice\" Soundtrack", "artists": "Dario Marianelli;English Chamber Orchestra;Benjamin Wallfisch", "popularity": 50, "tempo": 135.9, "key": "A#/Bb", "mode": "Major", "energy": 8, "valence": 24, "slug": "georgiana-pride-prejudice-dario-marianelli"},
+  {"name": "Gnossienne No. 1", "artists": "Erik Satie;Alena Cherny", "popularity": 66, "tempo": 71.8, "key": "F", "mode": "Minor", "energy": 1, "valence": 4, "slug": "gnossienne-1-satie"},
+  {"name": "Saudade (When We Are Born)", "artists": "Ólafur Arnalds", "popularity": 60, "tempo": 99.8, "key": "D", "mode": "Major", "energy": 3, "valence": 14, "slug": "saudade-olafur-arnalds"},
+  {"name": "Goldberg Variations, BWV 988: Aria", "artists": "Johann Sebastian Bach;Glenn Gould", "popularity": 66, "tempo": 130.3, "key": "E", "mode": "Minor", "energy": 1, "valence": 24, "slug": "goldberg-variations-bach"},
+  {"name": "The Theory of Everything", "artists": "Jóhann Jóhannsson", "popularity": 64, "tempo": 104.0, "key": "D", "mode": "Major", "energy": 12, "valence": 18, "slug": "theory-of-everything-johann-johannsson"},
+  {"name": "Run", "artists": "Ludovico Einaudi;I Virtuosi Italiani", "popularity": 55, "tempo": 118.6, "key": "B", "mode": "Minor", "energy": 17, "valence": 4, "slug": "run-ludovico-einaudi"},
+  {"name": "Time Lapse", "artists": "Ludovico Einaudi", "popularity": 55, "tempo": 125.0, "key": "F", "mode": "Minor", "energy": 14, "valence": 17, "slug": "time-lapse-ludovico-einaudi"},
+  {"name": "Ascent - Day 1", "artists": "Ludovico Einaudi", "popularity": 55, "tempo": 90.0, "key": "G", "mode": "Major", "energy": 6, "valence": 10, "slug": "ascent-day-1-ludovico-einaudi"},
+  {"name": "Truman Sleeps", "artists": "Philip Glass", "popularity": 55, "tempo": 109.1, "key": "G#/Ab", "mode": "Major", "energy": 8, "valence": 7, "slug": "truman-sleeps-philip-glass"},
+  {"name": "Nightbook", "artists": "Ludovico Einaudi", "popularity": 49, "tempo": 124.0, "key": "F#/Gb", "mode": "Minor", "energy": 29, "valence": 19, "slug": "nightbook-ludovico-einaudi"},
+  {"name": "Main Theme - From "The Third Murder" / Remastered 2020", "artists": "Ludovico Einaudi", "popularity": 49, "tempo": 74.3, "key": "A", "mode": "Minor", "energy": 11, "valence": 5, "slug": "third-murder-theme-ludovico-einaudi"},
+  {"name": "Temple White", "artists": "Ludovico Einaudi", "popularity": 65, "tempo": 72.2, "key": "G#/Ab", "mode": "Major", "energy": 1, "valence": 21, "slug": "temple-white-ludovico-einaudi"},
+  {"name": "Love Letter", "artists": "Sophie Hutchings", "popularity": 59, "tempo": 67.0, "key": "C#/Db", "mode": "Major", "energy": 2, "valence": 14, "slug": "love-letter-sophie-hutchings"},
+  {"name": "Ambre", "artists": "Nils Frahm", "popularity": 56, "tempo": 145.8, "key": "C#/Db", "mode": "Major", "energy": 5, "valence": 34, "slug": "ambre-nils-frahm"},
+  {"name": "Elegy For The Arctic - Remastered 2020", "artists": "Ludovico Einaudi", "popularity": 54, "tempo": 63.6, "key": "F", "mode": "Minor", "energy": 7, "valence": 15, "slug": "elegy-arctic-ludovico-einaudi"},
+  {"name": "Ora", "artists": "Ludovico Einaudi", "popularity": 54, "tempo": 132.9, "key": "A#/Bb", "mode": "Major", "energy": 12, "valence": 5, "slug": "ora-ludovico-einaudi"},
+  {"name": "Dietro Casa", "artists": "Ludovico Einaudi", "popularity": 54, "tempo": 103.9, "key": "G#/Ab", "mode": "Major", "energy": 10, "valence": 3, "slug": "dietro-casa-ludovico-einaudi"},
+  {"name": "Bagatelle No. 25 in A Minor, WoO 59 \"Für Elise\"", "artists": "Ludwig van Beethoven;Igor Levit", "popularity": 64, "tempo": 125.6, "key": "A", "mode": "Minor", "energy": 3, "valence": 12, "slug": "bagatelle-25-beethoven"},
+  {"name": "Valse", "artists": "Olivia Belli", "popularity": 58, "tempo": 136.2, "key": "C#/Db", "mode": "Major", "energy": 3, "valence": 15, "slug": "valse-olivia-belli"},
+  {"name": "20:17", "artists": "Ólafur Arnalds;Nils Frahm", "popularity": 58, "tempo": 107.8, "key": "D#/Eb", "mode": "Major", "energy": 2, "valence": 17, "slug": "2017-olafur-arnalds-nils-frahm"},
+  {"name": "My fellow creatures", "artists": "Carlos Cipa", "popularity": 58, "tempo": 104.3, "key": "E", "mode": "Minor", "energy": 1, "valence": 7, "slug": "my-fellow-creatures-carlos-cipa"},
+  {"name": "saman", "artists": "Ólafur Arnalds", "popularity": 65, "tempo": 108.7, "key": "C", "mode": "Minor", "energy": 2, "valence": 43, "slug": "saman-olafur-arnalds"},
+  {"name": "Mrs Darcy - From \"Pride & Prejudice\" Soundtrack", "artists": "Dario Marianelli;English Chamber Orchestra;Benjamin Wallfisch", "popularity": 53, "tempo": 137.8, "key": "C", "mode": "Major", "energy": 7, "valence": 4, "slug": "mrs-darcy-pride-prejudice-dario-marianelli"},
+  {"name": "This Place Is a Shelter", "artists": "Ólafur Arnalds", "popularity": 47, "tempo": 87.4, "key": "A#/Bb", "mode": "Major", "energy": 8, "valence": 15, "slug": "this-place-shelter-olafur-arnalds"},
+  {"name": "Home", "artists": "Dustin O'Halloran", "popularity": 53, "tempo": 137.1, "key": "A", "mode": "Minor", "energy": 7, "valence": 4, "slug": "home-dustin-ohalloran"},
+  {"name": "irreplaceable", "artists": "Chad Lawson;Royal Philharmonic Orchestra;James Southall", "popularity": 53, "tempo": 117.7, "key": "C", "mode": "Minor", "energy": 8, "valence": 13, "slug": "irreplaceable-chad-lawson"},
+  {"name": "Threnody", "artists": "Goldmund", "popularity": 57, "tempo": 85.3, "key": "D", "mode": "Major", "energy": 1, "valence": 17, "slug": "threnody-goldmund"},
+  {"name": "Remove The Complexities", "artists": "Peter Sandberg", "popularity": 54, "tempo": 167.9, "key": "E", "mode": "Major", "energy": 12, "valence": 11, "slug": "remove-complexities-peter-sandberg"},
+  {"name": "Full Moon (Arr. Lewin for Guitar)", "artists": "Ludovico Einaudi;Miloš Karadaglić", "popularity": 57, "tempo": 101.2, "key": "G#/Ab", "mode": "Major", "energy": 1, "valence": 7, "slug": "full-moon-ludovico-einaudi"},
+  {"name": "Island II", "artists": "Olivia Belli", "popularity": 57, "tempo": 74.0, "key": "F", "mode": "Minor", "energy": 1, "valence": 12, "slug": "island-ii-olivia-belli"},
+  {"name": "Poison Tree", "artists": "Grouper", "popularity": 69, "tempo": 111.3, "key": "B", "mode": "Major", "energy": 14, "valence": 21, "slug": "poison-tree-grouper"},
+  {"name": "Synesthesia (Scaled Down Version)", "artists": "Peter Sandberg", "popularity": 52, "tempo": 130.0, "key": "A", "mode": "Major", "energy": 8, "valence": 20, "slug": "synesthesia-peter-sandberg"},
+  {"name": "Last Song", "artists": "Alexis Ffrench", "popularity": 52, "tempo": 64.9, "key": "E", "mode": "Major", "energy": 8, "valence": 29, "slug": "last-song-alexis-ffrench"},
+  {"name": "Last Dance", "artists": "Joep Beving", "popularity": 52, "tempo": 125.3, "key": "C", "mode": "Minor", "energy": 10, "valence": 26, "slug": "last-dance-joep-beving"}
+];
+
+let tracksShown = 10;
+const TRACKS_STEP = 15;
+
+const SPOTIFY_SVG = '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>';
+
+function spotifySearchUrl(track, artist) {
+  const q = encodeURIComponent(track + ' ' + artist);
+  return 'https://open.spotify.com/search/' + q;
+}
+
+function renderTracks() {
+  const tbody = document.getElementById('tracksBody');
+  const btn = document.getElementById('showMoreBtn');
+  const count = document.getElementById('showMoreCount');
+  const visible = TRACKS.slice(0, tracksShown);
+
+  tbody.innerHTML = visible.map((t, i) => {
+    const songPageUrl = '/songs/' + t.slug + '/';
+    const spotifyUrl = spotifySearchUrl(t.name, t.artists);
+    const popWidth = Math.round(t.popularity);
+    return '<tr>' +
+      '<td class="td-rank">' + (i + 1) + '</td>' +
+      '<td class="td-track"><a href="' + songPageUrl + '">' + escHtml(t.name) + '</a>' +
+        '<a href="' + spotifyUrl + '" target="_blank" rel="noopener" class="spotify-icon" title="Open on Spotify" onclick="event.stopPropagation()">' + SPOTIFY_SVG + '</a></td>' +
+      '<td class="td-artist"><a href="https://open.spotify.com/search/' + encodeURIComponent(t.artists) + '" target="_blank" rel="noopener">' + escHtml(t.artists) + '</a></td>' +
+      '<td class="td-num"><span class="pop-bar"><span>' + t.popularity + '</span><span class="pop-bar-track"><span class="pop-bar-fill" style="width:' + popWidth + '%"></span></span></span></td>' +
+      '<td class="td-num">' + Math.round(t.tempo) + '</td>' +
+      '<td class="td-num">' + t.energy + '%</td>' +
+      '<td class="td-num">' + t.valence + '%</td>' +
+      '<td class="td-key">' + t.key + (t.mode === 'Minor' ? ' m' : '') + '</td>' +
+    '</tr>';
+  }).join('');
+
+  const remaining = TRACKS.length - tracksShown;
+  if (remaining <= 0) {
+    btn.classList.add('hidden');
+  } else {
+    btn.classList.remove('hidden');
+    count.textContent = '(' + remaining + ' more)';
+  }
+}
+
+function showMoreTracks() {
+  tracksShown = Math.min(tracksShown + TRACKS_STEP, TRACKS.length);
+  renderTracks();
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+renderTracks();
+
+// ─── Popular vs Unpopular Comparison Chart ────────────────────────────────
+
+new Chart(document.getElementById('chartPopComp'), {
+  type: 'bar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Duration (norm)'],
+    datasets: [
+      {
+        label: 'Top 25 (pop 69-79)',
+        data: [0.13, 0.16, 0.35, 0.97, 0.89, 3.2/6],
+        backgroundColor: ta(0.7),
+        borderColor: TEAL,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      },
+      {
+        label: 'Bottom 25 (pop 47-54)',
+        data: [0.09, 0.12, 0.33, 0.97, 0.91, 3.4/6],
+        backgroundColor: pa(0.6),
+        borderColor: PURPLE,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      }
+    ]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 8,
+          font: { size: 11, weight: '500' }
+        }
+      },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          label: (i) => {
+            const label = i.dataset.label;
+            const feat = i.label;
+            let val = i.raw;
+            if (feat === 'Duration (norm)') {
+              val = (val * 6).toFixed(1) + ' min';
+            } else {
+              val = (val * 100).toFixed(1) + '%';
+            }
+            return `  ${label}: ${val}`;
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` },
+        min: 0, max: 1
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#aab0d0', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── Correlation Heatmap Table ────────────────────────────────────────────
+
+(function buildCorrTable() {
+  const feats = ['Energy', 'Valence', 'Dance.', 'Acoustic.', 'Instr.', 'Speech.', 'Tempo'];
+  const corrData = {
+    '0,1': 0.58, '0,2': 0.41, '0,3': -0.12, '0,4': -0.08, '0,5': 0.15, '0,6': 0.31,
+    '1,2': 0.34, '1,3': 0.01, '1,4': -0.19, '1,5': -0.03, '1,6': 0.18,
+    '2,3': 0.11, '2,4': 0.02, '2,5': 0.22, '2,6': 0.45,
+    '3,4': 0.19, '3,5': -0.08, '3,6': -0.15,
+    '4,5': 0.09, '4,6': -0.21,
+    '5,6': 0.12
+  };
+
+  function getCorr(i, j) {
+    if (i === j) return 1.0;
+    const key = Math.min(i,j) + ',' + Math.max(i,j);
+    return corrData[key] || 0;
+  }
+
+  function cellColor(r) {
+    if (r === 1) return 'rgba(255,255,255,0.04)';
+    if (r > 0.5)  return 'rgba(78,205,196,0.35)';
+    if (r > 0.25) return 'rgba(78,205,196,0.18)';
+    if (r < -0.5) return 'rgba(220,80,80,0.35)';
+    if (r < -0.25) return 'rgba(220,80,80,0.18)';
+    return 'transparent';
+  }
+
+  const table = document.getElementById('corrTable');
+  // Header
+  let html = '<thead><tr><th></th>';
+  feats.forEach(f => { html += `<th>${f}</th>`; });
+  html += '</tr></thead><tbody>';
+  // Rows
+  feats.forEach((f, i) => {
+    html += `<tr><td>${f}</td>`;
+    feats.forEach((_, j) => {
+      const r = getCorr(i, j);
+      const cls = i === j ? ' class="diag"' : '';
+      const display = r === 0 ? '—' : (r === 1 ? '1.00' : (r > 0 ? '+' : '') + r.toFixed(2));
+      html += `<td${cls} style="background:${cellColor(r)}">${display}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+})();
+
+// ─── Production Profile Segmented Bars ────────────────────────────────────
+
+(function buildProdProfile() {
+  const colors = [ta(0.75), pa(0.6), ba(0.5), 'rgba(255,200,87,0.5)', 'rgba(220,80,80,0.4)', 'rgba(150,150,150,0.3)'];
+
+  const data = [
+    { name: 'Recording',  items: [['Acoustic Recording', 97], ['Natural Reverb', 78], ['Studio Ambience', 65], ['Close Mic', 43]] },
+    { name: 'Expression', items: [['Pedal Sustain', 89], ['Dynamic Range', 82], ['Emotional Phrasing', 76], ['Breath Pauses', 54], ['Rubato', 31]] },
+    { name: 'Processing', items: [['Minimal Processing', 95], ['Natural EQ', 67], ['Compression Light', 34], ['Digital Effects', 12]] },
+    { name: 'Layering',  items: [['Solo Piano', 61], ['Strings/Cello', 45], ['Orchestral', 25], ['Chamber', 19]] },
+    { name: 'Emotion',   items: [['Contemplative', 78], ['Melancholic', 65], ['Hopeful', 42], ['Nostalgic', 38]] },
+    { name: 'Context',   items: [['Meditation', 89], ['Study/Focus', 74], ['Film Score', 52], ['Concert Hall', 35]] }
+  ];
+
+  const grid = document.getElementById('prodGrid');
+  let html = '';
+
+  data.forEach(cat => {
+    html += `<div class="prod-item">`;
+    html += `<div class="feature-label">${cat.name}</div>`;
+    html += `<div class="prod-bar-wrap">`;
+    const total = cat.name === 'Context' ? 100 : cat.items.reduce((s, i) => s + i[1], 0);
+    cat.items.forEach((item, idx) => {
+      const pct = (item[1] / total) * 100;
+      const bg = colors[idx % colors.length];
+      const label = pct > 12 ? `${item[0]} ${item[1]}%` : (pct > 6 ? `${item[1]}%` : '');
+      html += `<div class="prod-seg" style="flex:${pct};background:${bg}">${label}</div>`;
+    });
+    html += `</div>`;
+    html += `<div class="prod-labels">`;
+    cat.items.forEach((item, idx) => {
+      const bg = colors[idx % colors.length];
+      html += `<span class="prod-label-item"><span class="prod-label-dot" style="background:${bg}"></span>${item[0]} (${item[1]}%)</span>`;
+    });
+    html += `</div>`;
+    html += `</div>`;
+  });
+
+  grid.innerHTML = html;
+})();
+
+// ─── Copy to Clipboard ───────────────────────────────────────────────────
+
+function copyBlock(blockId) {
+  const block = document.getElementById(blockId);
+  const pre = block.querySelector('pre');
+  const text = pre.textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = block.querySelector('.copy-btn');
+    btn.textContent = 'Copied ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+</script>
+</body>
+</html>

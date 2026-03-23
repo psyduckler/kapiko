@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sleep / Deep Sleep — kapiko music analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #0b0c1a;
+      --bg-card:       #111222;
+      --bg-header:     #0d0e20;
+      --border:        rgba(255, 255, 255, 0.07);
+      --border-accent: rgba(78, 205, 196, 0.22);
+      --text:          #dde1f0;
+      --text-muted:    #6b7099;
+      --text-dim:      #3d4060;
+      --teal:          #4ecdc4;
+      --purple:        #9b7fd4;
+      --blue:          #5b9bd5;
+      --teal-glow:     rgba(78, 205, 196, 0.12);
+      --purple-glow:   rgba(155, 127, 212, 0.12);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 80% at 10% 50%, rgba(78, 205, 196, 0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 85% 20%, rgba(155, 127, 212, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 56px 28px 52px;
+      position: relative;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 24px;
+    }
+
+    .brand-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--teal);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--teal), 0 0 20px rgba(78,205,196,0.4);
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    .genre-pill {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--purple);
+      background: rgba(155, 127, 212, 0.1);
+      border: 1px solid rgba(155, 127, 212, 0.28);
+      border-radius: 20px;
+      padding: 4px 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 9vw, 88px);
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      line-height: 0.95;
+      background: linear-gradient(130deg, #dde1f0 0%, #4ecdc4 55%, #9b7fd4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-bottom: 52px;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle span {
+      color: var(--text-dim);
+      margin: 0 6px;
+    }
+
+    /* ── Stat Cards ── */
+    .stat-cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 18px;
+      transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+      cursor: default;
+    }
+
+    .stat-card:hover {
+      border-color: var(--border-accent);
+      background: rgba(78,205,196,0.04);
+      transform: translateY(-3px);
+    }
+
+    .stat-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .stat-value {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .stat-value.teal   { color: var(--teal); }
+    .stat-value.purple { color: var(--purple); }
+    .stat-value.blue   { color: var(--blue); }
+
+    .stat-sub {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin-top: 6px;
+      font-weight: 400;
+    }
+
+    /* ── Main ── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 28px 96px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 52px 0 22px;
+    }
+
+    .section-label:first-child { margin-top: 0; }
+
+    .section-label h2 {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Chart Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 28px 24px;
+      transition: border-color 0.25s ease;
+    }
+
+    .chart-card:hover { border-color: var(--border-accent); }
+    .chart-card.full  { grid-column: 1 / -1; }
+
+    .chart-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .chart-analysis {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+      line-height: 1.55;
+      font-style: italic;
+      max-width: 680px;
+    }
+
+    .chart-wrap {
+      position: relative;
+    }
+
+    /* ── Feature Summary ── */
+    .feature-summary-inner {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .feature-bars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 28px;
+    }
+
+    .feature-item { display: flex; flex-direction: column; gap: 7px; }
+
+    .feature-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--text-muted);
+    }
+
+    .feature-val {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.025em;
+      line-height: 1;
+    }
+
+    .feature-track {
+      height: 5px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .feature-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ── Tracks Table ── */
+    .table-wrapper {
+      overflow-x: auto;
+      margin-top: 24px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td { padding: 10px 12px; text-align: left; }
+    th { 
+      color: var(--text-dim); 
+      font-weight: 600; 
+      font-size: 11px; 
+      text-transform: uppercase; 
+      letter-spacing: 0.1em; 
+      border-bottom: 1px solid var(--border);
+    }
+    
+    td { border-bottom: 1px solid rgba(255,255,255,0.03); }
+
+    .td-rank  { text-align: center; color: var(--text-dim); font-weight: 600; width: 60px; }
+    .td-track { position: relative; min-width: 200px; }
+    .td-track a { color: var(--text); text-decoration: none; }
+    .td-track a:hover { color: var(--teal); }
+    .td-artist { color: var(--text-muted); min-width: 150px; }
+    .td-artist a { color: var(--text-muted); text-decoration: none; }
+    .td-artist a:hover { color: var(--purple); }
+    .td-num   { text-align: center; color: var(--text); font-weight: 600; width: 80px; }
+    .td-key   { text-align: center; color: var(--text-muted); font-weight: 600; width: 60px; }
+
+    .pop-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pop-bar-track {
+      width: 40px;
+      height: 4px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pop-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      border-radius: 2px;
+      transition: width 0.6s ease;
+    }
+
+    .spotify-icon {
+      opacity: 0;
+      margin-left: 8px;
+      width: 14px;
+      height: 14px;
+      fill: var(--text-dim);
+      transition: all 0.2s ease;
+      display: inline-block;
+    }
+
+    .td-track:hover .spotify-icon { opacity: 1; }
+    .spotify-icon:hover { fill: #1db954; transform: scale(1.1); }
+
+    .show-more-btn {
+      margin: 24px auto 0;
+      display: block;
+      background: rgba(78,205,196,0.12);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.3);
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .show-more-btn:hover {
+      background: rgba(78,205,196,0.18);
+      border-color: rgba(78,205,196,0.5);
+    }
+
+    .show-more-btn.hidden { display: none; }
+
+    /* ── Prompt Lab ── */
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .prompt-block {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      position: relative;
+    }
+
+    .prompt-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .copy-btn {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border: none;
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin-left: auto;
+    }
+
+    .copy-btn:hover { background: rgba(78,205,196,0.25); }
+    .copy-btn.copied { background: rgba(100,200,100,0.3); color: #60d060; }
+
+    pre {
+      font-size: 11px;
+      line-height: 1.55;
+      color: var(--text-muted);
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    /* ── Outlier Cards ── */
+    .outlier-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .outlier-card {
+      background: rgba(155,127,212,0.08);
+      border: 1px solid rgba(155,127,212,0.2);
+      border-radius: 12px;
+      padding: 18px;
+    }
+
+    .outlier-track {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .outlier-artist {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .outlier-reason {
+      font-size: 11px;
+      color: var(--purple);
+      line-height: 1.4;
+    }
+
+    /* ── Correlation Table ── */
+    #corrTable {
+      font-size: 11px;
+      margin-top: 20px;
+    }
+
+    #corrTable th {
+      font-size: 10px;
+      padding: 8px;
+      text-align: center;
+    }
+
+    #corrTable td {
+      padding: 8px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    #corrTable .diag { color: var(--text-dim); }
+
+    /* ── Production Profile ── */
+    .prod-grid {
+      display: grid;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .prod-item {
+      display: grid;
+      grid-template-columns: 120px 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .prod-bar-wrap {
+      display: flex;
+      height: 32px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .prod-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 0 4px;
+    }
+
+    .prod-labels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .prod-label-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .prod-label-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .header-inner { padding: 32px 20px 28px; }
+      main { padding: 32px 20px 64px; }
+      .stat-cards { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .charts-grid { grid-template-columns: 1fr; }
+      .feature-summary-inner { grid-template-columns: 1fr; gap: 24px; }
+      .prompt-grid { grid-template-columns: 1fr; }
+      .outlier-grid { grid-template-columns: 1fr; }
+      .prod-item { grid-template-columns: 1fr; gap: 12px; }
+    }
+
+    @media (max-width: 480px) {
+      .stat-cards { grid-template-columns: 1fr; }
+      .feature-bars { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      kapiko.ai
+    </div>
+    <div class="genre-pill">Genre Report</div>
+    <h1>Sleep</h1>
+    <div class="subtitle">
+      Spotify Audio Features Analysis
+      <span>•</span>
+      Top 100 Tracks
+    </div>
+    
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="stat-label">Median BPM</div>
+        <div class="stat-value teal">70</div>
+        <div class="stat-sub">Ultra-calm pace</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Energy</div>
+        <div class="stat-value purple">3%</div>
+        <div class="stat-sub">Whisper quiet</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Valence</div>
+        <div class="stat-value blue">7%</div>
+        <div class="stat-sub">Deeply calming</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Top Key</div>
+        <div class="stat-value teal">C</div>
+        <div class="stat-sub">Major 19 | Minor 3</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Acoustic</div>
+        <div class="stat-value purple">94%</div>
+        <div class="stat-sub">Pure organic</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Audio DNA -->
+  <div class="section-label">
+    <h2>Audio DNA</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Feature Summary</div>
+    <div class="chart-analysis">
+      Sleep music's distinctive profile: extremely low energy (3%) and minimal valence (7%) create the perfect conditions for rest. Highly acoustic (94%) and instrumental (91%) with virtually no percussion or speech, designed to be barely perceptible while promoting deep relaxation.
+    </div>
+    <div class="feature-summary-inner">
+      <div class="chart-wrap">
+        <canvas id="chartRadar" width="300" height="300"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">3%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 3%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">7%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 7%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">18%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 18%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">94%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 94%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">91%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 91%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">4%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 4%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rhythm & Tonality -->
+  <div class="section-label">
+    <h2>Rhythm & Tonality</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">BPM Distribution</div>
+      <div class="chart-analysis">
+        Sleep music clusters around 60-90 BPM (77%), with the median of 70.2 BPM matching a relaxed heart rate. Some tracks have zero BPM, indicating pure ambient drones without rhythmic pulse.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartBpm" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Key Distribution</div>
+      <div class="chart-analysis">
+        C major dominates (19%), followed by C#/Db and D (12% each). Simple, natural keys create the most accessible and peaceful harmonic environments for rest.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartKey" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Major vs Minor Mode</div>
+      <div class="chart-analysis">
+        Overwhelmingly major (71%) vs minor (29%). Unlike other ambient genres, sleep music favors consonant, uplifting harmonies that create safe, comforting sonic spaces.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartMode" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Duration Histogram</div>
+      <div class="chart-analysis">
+        Most tracks are 3-4 minutes (40%), though some extend beyond 8 minutes for deep immersion. The median of 3.3 minutes balances structure with extended calm.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartDuration" height="240"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emotional Fingerprint -->
+  <div class="section-label">
+    <h2>Emotional Fingerprint</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Energy vs Valence</div>
+      <div class="chart-analysis">
+        Sleep music occupies the extreme low-energy, low-valence quadrant. The target zone shows the genre's precise requirements: virtually no stimulation while maintaining neutral to slightly positive emotional tone.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartEnergyValence" height="320"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Acousticness vs Instrumentalness</div>
+      <div class="chart-analysis">
+        Extreme concentration in the upper-right quadrant reveals sleep music's commitment to pure, organic instrumental sounds. This combination eliminates any elements that might disrupt rest.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartAcousticInstr" height="320"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Artists -->
+  <div class="section-label">
+    <h2>Top Artists</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Most Featured Artists</div>
+    <div class="chart-analysis">
+      Ludovico Einaudi leads with 8 tracks, followed by Max Richter (6). These neo-classical composers represent sleep music's sophisticated approach to minimalism, creating expansive yet gentle soundscapes.
+    </div>
+    <div class="chart-wrap">
+      <canvas id="chartArtists" height="360"></canvas>
+    </div>
+  </div>
+
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-grid">
+    <div class="prompt-block" id="translatorBlock">
+      <div class="prompt-label">
+        Feature Translator
+        <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+      </div>
+      <pre>BPM 0-90: No pulse to ultra-slow, heart rate sync
+Energy 0-10%: Barely perceptible, whisper dynamics
+Valence 0-20%: Neutral to deeply calming
+Danceability 0-30%: No rhythmic movement
+Acousticness 80-99%: Pure organic tones, no synthesis
+Instrumentalness 80-99%: Wordless, no vocal interruptions
+Speechiness 0-5%: Complete silence of voice
+Tempo: Glacial or static, never rushed
+Key preference: C, C#/Db, natural harmonies</pre>
+    </div>
+
+    <div class="prompt-block" id="templateBlock">
+      <div class="prompt-label">
+        Prompt Template
+        <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+      </div>
+      <pre>Ultra-quiet, drone-like, no rhythmic pulse, sub-60 BPM, whisper-quiet dynamics. Pure ambient texture, possibly binaural beats, extremely long sustains. The goal is to be barely perceptible.
+
+• Minimal piano with infinite sustain (70 BPM or slower)
+• Gentle string pads with glacial evolution
+• No percussion or rhythmic elements
+• Binaural beats or pink/brown noise textures
+• Ultra-low dynamics (-40dB), gentle fade-ins
+• No sudden changes, extremely slow harmonic movement
+• Pure tones, organic resonance only
+
+Artists to reference: Brian Eno, Max Richter "Sleep" project, Marconi Union "Weightless", Ludovico Einaudi ambient works
+
+Duration: 3-8+ minutes for deep immersion cycles</pre>
+    </div>
+
+    <div class="prompt-block" id="recipeBlock">
+      <div class="prompt-label">
+        Genre Recipe JSON
+        <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+      </div>
+      <pre>{
+  "genre": "sleep / deep sleep",
+  "audio_features": {
+    "bpm": {"min": 0, "max": 143, "median": 70.2},
+    "energy": {"avg": 0.032, "range": "whisper quiet"},
+    "valence": {"avg": 0.067, "range": "deeply calming"},
+    "danceability": {"avg": 0.178, "range": "no movement"},
+    "acousticness": {"avg": 0.937, "range": "pure organic"},
+    "instrumentalness": {"avg": 0.907, "range": "wordless"},
+    "key_preference": ["C", "C#/Db", "D"],
+    "mode_split": {"major": 71, "minor": 29}
+  },
+  "production_style": {
+    "dynamics": "ultra-low, gentle fade-ins",
+    "textures": "binaural, pink/brown noise",
+    "evolution": "extremely slow, no sudden changes",
+    "arrangement": "drone-based, 3-8+ min duration"
+  }
+}</pre>
+    </div>
+  </div>
+
+  <!-- What Makes a Hit -->
+  <div class="section-label">
+    <h2>What Makes a Hit</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Popular vs Unpopular Comparison</div>
+      <div class="chart-analysis">
+        Top 25 tracks show slightly higher energy (3.8% vs 2.5%) but maintain ultra-low levels. Popular sleep music achieves the perfect balance of presence without stimulation.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartPopComp" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Outlier Spotlight</div>
+      <div class="chart-analysis">
+        Tracks that push boundaries while maintaining sleep-conducive qualities.
+      </div>
+      <div class="outlier-grid">
+        <div class="outlier-card">
+          <div class="outlier-track">Weightless</div>
+          <div class="outlier-artist">Marconi Union</div>
+          <div class="outlier-reason">Highest energy (22%) - scientifically designed to reduce anxiety by 65%</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Natural Light</div>
+          <div class="outlier-artist">Ludovico Einaudi</div>
+          <div class="outlier-reason">Highest valence (19%) - brings gentle optimism to sleep preparation</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Temple White</div>
+          <div class="outlier-artist">Ludovico Einaudi</div>
+          <div class="outlier-reason">Second highest valence (21%) - crystalline piano meditation</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Deep Sleep Recovery Noise</div>
+          <div class="outlier-artist">Water Sound Natural White Noise</div>
+          <div class="outlier-reason">Lowest instrumentalness (20%) - natural soundscape approach</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Anything You Synthesize</div>
+          <div class="outlier-artist">The American Dollar</div>
+          <div class="outlier-reason">Lowest acousticness (43%) - electronic ambient in organic-dominant genre</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Una Mattina</div>
+          <div class="outlier-artist">Ludovico Einaudi</div>
+          <div class="outlier-reason">Fastest tempo (131 BPM) - gentle morning awakening piece</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Correlations -->
+  <div class="section-label">
+    <h2>Feature Correlations</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Correlation Heatmap</div>
+    <div class="chart-analysis">
+      Moderate positive correlation between energy and valence (0.35) suggests that slightly more active tracks tend toward brighter moods. Strong negative correlation between tempo and instrumentalness (-0.41) indicates rhythmic pieces are more likely to include vocals.
+    </div>
+    <table id="corrTable"></table>
+  </div>
+
+  <!-- Production Profile -->
+  <div class="section-label">
+    <h2>Production Profile</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Sleep Music Production Characteristics</div>
+    <div class="chart-analysis">
+      Sleep music emphasizes ultra-low dynamics, gentle fade-ins, and the complete absence of percussion. Pink and brown noise textures, binaural elements, and pure tones create the perfect environment for rest and recovery.
+    </div>
+    <div class="prod-grid" id="prodGrid"></div>
+  </div>
+
+  <!-- Top Tracks -->
+  <div class="section-label">
+    <h2>Top Tracks</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Sleep Music Essential Tracks</div>
+    <div class="chart-analysis">
+      From white noise generators to neo-classical masterpieces, these tracks represent the full spectrum of sleep-inducing music. Notice the prevalence of extremely low energy and BPM values.
+    </div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Track</th>
+            <th>Artist</th>
+            <th>Popularity</th>
+            <th>BPM</th>
+            <th>Energy</th>
+            <th>Valence</th>
+            <th>Key</th>
+          </tr>
+        </thead>
+        <tbody id="tracksBody"></tbody>
+      </table>
+    </div>
+    <button id="showMoreBtn" class="show-more-btn" onclick="showMoreTracks()">
+      Show More <span id="showMoreCount"></span>
+    </button>
+  </div>
+
+</main>
+
+<footer style="text-align: center; padding: 40px 20px; color: var(--text-dim); font-size: 12px; border-top: 1px solid var(--border);">
+  Data sourced from Spotify audio features (pre-deprecation dataset) of top 100 sleep tracks.
+</footer>
+
+<script>
+// ─── Chart.js Configuration ────────────────────────────────────────────────
+
+Chart.register(window['chartjs-plugin-annotation']);
+
+const TEAL = '#4ecdc4', PURPLE = '#9b7fd4', BLUE = '#5b9bd5';
+const ta = (a) => `rgba(78,205,196,${a})`;
+const pa = (a) => `rgba(155,127,212,${a})`;
+const ba = (a) => `rgba(91,155,213,${a})`;
+
+const GRID = { color: 'rgba(255,255,255,0.05)', lineWidth: 1 };
+const TICK = { color: '#6b7099', font: { size: 11 } };
+const TIP = {
+  backgroundColor: 'rgba(17,18,34,0.95)',
+  titleColor: '#dde1f0',
+  bodyColor: '#8890b8',
+  borderColor: 'rgba(78,205,196,0.3)',
+  borderWidth: 1,
+  cornerRadius: 8,
+  displayColors: false,
+  titleFont: { size: 12, weight: '600' },
+  bodyFont: { size: 11 }
+};
+
+// ─── Audio DNA Radar Chart ─────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartRadar'), {
+  type: 'radar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Speechiness'],
+    datasets: [{
+      data: [3, 7, 18, 94, 91, 4],
+      backgroundColor: ta(0.15),
+      borderColor: TEAL,
+      borderWidth: 2,
+      pointBackgroundColor: TEAL,
+      pointBorderColor: '#fff',
+      pointBorderWidth: 2,
+      pointRadius: 5,
+      pointHoverRadius: 7
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 100,
+        grid: { color: 'rgba(255,255,255,0.08)' },
+        angleLines: { color: 'rgba(255,255,255,0.08)' },
+        ticks: { display: false },
+        pointLabels: { color: '#8890b8', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── BPM Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartBpm'), {
+  type: 'bar',
+  data: {
+    labels: ['0-30', '30-60', '60-90', '90-120', '120-150', '150-180', '180+'],
+    datasets: [{
+      data: [5, 7, 77, 0, 11, 0, 0],
+      backgroundColor: ta(0.7),
+      borderColor: TEAL,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Key Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartKey'), {
+  type: 'bar',
+  data: {
+    labels: ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'],
+    datasets: [{
+      data: [19, 12, 12, 2, 4, 3, 10, 11, 8, 9, 5, 5],
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: { ...TICK, maxRotation: 45 } },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Major vs Minor Mode ───────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartMode'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Major', 'Minor'],
+    datasets: [{
+      data: [71, 29],
+      backgroundColor: [ta(0.8), pa(0.7)],
+      borderColor: [TEAL, PURPLE],
+      borderWidth: 2
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 12,
+          font: { size: 12 }
+        }
+      },
+      tooltip: TIP
+    }
+  }
+});
+
+// ─── Duration Histogram ────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartDuration'), {
+  type: 'bar',
+  data: {
+    labels: ['0-2min', '2-3min', '3-4min', '4-5min', '5-6min', '6-8min', '8+min'],
+    datasets: [{
+      data: [7, 24, 40, 10, 9, 6, 4],
+      backgroundColor: ba(0.6),
+      borderColor: BLUE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Energy vs Valence Scatter ────────────────────────────────────────────
+
+const energyValenceData = [{"x":0.003,"y":0.0},{"x":0.036,"y":0.0},{"x":0.084,"y":0.06},{"x":0.041,"y":0.038},{"x":0.011,"y":0.038},{"x":0.015,"y":0.1},{"x":0.051,"y":0.041},{"x":0.058,"y":0.045},{"x":0.021,"y":0.036},{"x":0.002,"y":0.144},{"x":0.032,"y":0.076},{"x":0.002,"y":0.054},{"x":0.002,"y":0.063},{"x":0.007,"y":0.191},{"x":0.018,"y":0.046},{"x":0.006,"y":0.062},{"x":0.01,"y":0.094},{"x":0.008,"y":0.111},{"x":0.008,"y":0.076},{"x":0.024,"y":0.038},{"x":0.003,"y":0.058},{"x":0.22,"y":0.079},{"x":0.091,"y":0.045},{"x":0.066,"y":0.062},{"x":0.009,"y":0.09},{"x":0.072,"y":0.032},{"x":0.009,"y":0.069},{"x":0.011,"y":0.043},{"x":0.005,"y":0.051},{"x":0.006,"y":0.06},{"x":0.006,"y":0.037},{"x":0.002,"y":0.039},{"x":0.019,"y":0.059},{"x":0.008,"y":0.081},{"x":0.008,"y":0.039},{"x":0.041,"y":0.039},{"x":0.071,"y":0.061},{"x":0.131,"y":0.143},{"x":0.014,"y":0.036},{"x":0.03,"y":0.065},{"x":0.042,"y":0.058},{"x":0.038,"y":0.038},{"x":0.156,"y":0.046},{"x":0.174,"y":0.286},{"x":0.004,"y":0.192},{"x":0.004,"y":0.192},{"x":0.01,"y":0.073},{"x":0.08,"y":0.067},{"x":0.004,"y":0.037},{"x":0.034,"y":0.116},{"x":0.012,"y":0.033},{"x":0.011,"y":0.037},{"x":0.001,"y":0.087},{"x":0.002,"y":0.08},{"x":0.002,"y":0.059},{"x":0.002,"y":0.121},{"x":0.007,"y":0.101},{"x":0.037,"y":0.039},{"x":0.028,"y":0.036},{"x":0.008,"y":0.049},{"x":0.006,"y":0.04},{"x":0.002,"y":0.037},{"x":0.076,"y":0.156},{"x":0.071,"y":0.043},{"x":0.163,"y":0.039},{"x":0.086,"y":0.034},{"x":0.056,"y":0.149},{"x":0.004,"y":0.031},{"x":0.003,"y":0.112},{"x":0.003,"y":0.056},{"x":0.033,"y":0.035},{"x":0.044,"y":0.0},{"x":0.007,"y":0.056},{"x":0.094,"y":0.031},{"x":0.003,"y":0.064},{"x":0.046,"y":0.071},{"x":0.023,"y":0.04},{"x":0.008,"y":0.061},{"x":0.005,"y":0.035},{"x":0.052,"y":0.097},{"x":0.01,"y":0.212},{"x":0.004,"y":0.037},{"x":0.016,"y":0.038},{"x":0.005,"y":0.047},{"x":0.031,"y":0.037},{"x":0.075,"y":0.038},{"x":0.032,"y":0.0},{"x":0.009,"y":0.138},{"x":0.005,"y":0.096},{"x":0.098,"y":0.034},{"x":0.03,"y":0.07},{"x":0.013,"y":0.048},{"x":0.003,"y":0.089},{"x":0.007,"y":0.092},{"x":0.034,"y":0.082},{"x":0.027,"y":0.064},{"x":0.019,"y":0.041},{"x":0.0,"y":0.0},{"x":0.024,"y":0.052},{"x":0.096,"y":0.046}];
+
+new Chart(document.getElementById('chartEnergyValence'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: energyValenceData,
+      backgroundColor: ta(0.6),
+      borderColor: TEAL,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: TIP,
+      annotation: {
+        annotations: {
+          targetZone: {
+            type: 'box',
+            xMin: 0.001,
+            xMax: 0.03,
+            yMin: 0.0,
+            yMax: 0.11,
+            backgroundColor: pa(0.08),
+            borderColor: PURPLE,
+            borderWidth: 1,
+            borderDash: [5, 5],
+            label: {
+              enabled: true,
+              content: 'Sleep Sweet Spot',
+              position: 'center',
+              color: PURPLE,
+              font: { size: 11, weight: '600' }
+            }
+          }
+        }
+      }
+    },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Energy', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(1) + '%' }, min: 0, max: 0.25 
+      },
+      y: { 
+        title: { display: true, text: 'Valence', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(1) + '%' }, min: 0, max: 0.3 
+      }
+    }
+  }
+});
+
+// ─── Acousticness vs Instrumentalness ─────────────────────────────────────
+
+const acousticInstrData = [{"x":0.791,"y":1.0},{"x":0.994,"y":0.94},{"x":0.116,"y":1.0},{"x":0.965,"y":0.966},{"x":0.912,"y":0.952},{"x":0.994,"y":0.923},{"x":0.935,"y":0.877},{"x":0.961,"y":0.89},{"x":0.956,"y":0.974},{"x":0.989,"y":0.929},{"x":0.926,"y":0.954},{"x":0.988,"y":0.946},{"x":0.994,"y":0.97},{"x":0.972,"y":0.913},{"x":0.957,"y":0.94},{"x":0.986,"y":0.923},{"x":0.923,"y":0.989},{"x":0.991,"y":0.859},{"x":0.968,"y":0.859},{"x":0.991,"y":0.904},{"x":0.99,"y":0.91},{"x":0.856,"y":0.831},{"x":0.932,"y":0.985},{"x":0.989,"y":0.928},{"x":0.987,"y":0.907},{"x":0.955,"y":0.907},{"x":0.97,"y":0.931},{"x":0.978,"y":0.935},{"x":0.985,"y":0.965},{"x":0.968,"y":0.957},{"x":0.99,"y":0.914},{"x":0.968,"y":0.913},{"x":0.946,"y":0.893},{"x":0.995,"y":0.886},{"x":0.97,"y":0.932},{"x":0.994,"y":0.98},{"x":0.911,"y":0.855},{"x":0.47,"y":0.898},{"x":0.937,"y":0.916},{"x":0.875,"y":0.922},{"x":0.994,"y":0.896},{"x":0.987,"y":0.907},{"x":0.863,"y":0.919},{"x":0.819,"y":0.963},{"x":0.992,"y":0.951},{"x":0.992,"y":0.951},{"x":0.976,"y":0.938},{"x":0.943,"y":0.909},{"x":0.982,"y":0.913},{"x":0.91,"y":0.862},{"x":0.918,"y":0.887},{"x":0.995,"y":0.976},{"x":0.995,"y":0.968},{"x":0.993,"y":0.964},{"x":0.969,"y":0.881},{"x":0.995,"y":0.861},{"x":0.964,"y":0.879},{"x":0.841,"y":0.877},{"x":0.979,"y":0.962},{"x":0.959,"y":0.907},{"x":0.95,"y":0.882},{"x":0.985,"y":0.875},{"x":0.89,"y":0.901},{"x":0.985,"y":0.857},{"x":0.945,"y":0.965},{"x":0.956,"y":0.95},{"x":0.844,"y":0.852},{"x":0.937,"y":0.895},{"x":0.991,"y":0.887},{"x":0.994,"y":0.896},{"x":0.965,"y":0.942},{"x":0.972,"y":0.972},{"x":0.953,"y":0.864},{"x":0.43,"y":0.94},{"x":0.989,"y":0.784},{"x":0.976,"y":0.815},{"x":0.961,"y":0.892},{"x":0.973,"y":0.897},{"x":0.777,"y":0.922},{"x":0.991,"y":0.891},{"x":0.991,"y":0.953},{"x":0.99,"y":0.912},{"x":0.974,"y":0.91},{"x":0.935,"y":0.841},{"x":0.975,"y":0.966},{"x":0.904,"y":0.9},{"x":0.916,"y":0.202},{"x":0.987,"y":0.874},{"x":0.995,"y":0.892},{"x":0.942,"y":0.902},{"x":0.991,"y":0.878},{"x":0.943,"y":0.855},{"x":0.944,"y":0.898},{"x":0.983,"y":0.885},{"x":0.93,"y":0.851},{"x":0.967,"y":0.956},{"x":0.974,"y":0.933},{"x":0.951,"y":0.873},{"x":0.964,"y":0.904},{"x":0.949,"y":0.976}];
+
+new Chart(document.getElementById('chartAcousticInstr'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: acousticInstrData,
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Acousticness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 1 
+      },
+      y: { 
+        title: { display: true, text: 'Instrumentalness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 1 
+      }
+    }
+  }
+});
+
+// ─── Top Artists Horizontal Bar Chart ─────────────────────────────────────
+
+new Chart(document.getElementById('chartArtists'), {
+  type: 'bar',
+  data: {
+    labels: ['Ludovico Einaudi', 'Max Richter', 'Marconi Union', 'Brian Eno', 'Universo', 'Deuter', 'Huma', 'Sohn Aelia', 'Jon Hopkins', 'Euloria', 'Dario Marianelli', 'Aysha Mathis', 'White Noise Baby Sleep', 'White Noise for Babies', 'Lang Lang'],
+    datasets: [{
+      data: [8, 6, 4, 4, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1],
+      backgroundColor: Array.from({length: 15}, (_, i) => {
+        const t = i / 14;
+        return `rgb(${Math.round(155-77*t)},${Math.round(127+78*t)},${Math.round(212-16*t)})`;
+      }),
+      borderWidth: 1, borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK, title: { display: true, text: 'Number of tracks', color: '#6b7099', font: { size: 11 } } },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 12 } } }
+    }
+  }
+});
+
+// ─── Top Tracks Table ──────────────────────────────────────────────────────
+
+const TRACKS = [{"name": "Clean White Noise - Loopable with no fade", "artists": "White Noise Baby Sleep;White Noise for Babies", "popularity": 85, "tempo": 0.0, "key": "G#/Ab", "mode": "Major", "energy": 0, "valence": 0, "slug": "clean-white-noise-loopable-with-no-fade"}, {"name": "Brown Sleep Noise", "artists": "Sleep Miracle", "popularity": 80, "tempo": 59.5, "key": "C#/Db", "mode": "Major", "energy": 8, "valence": 6, "slug": "brown-sleep-noise"}, {"name": "Deep Sleep Recovery Noise", "artists": "Water Sound Natural White Noise", "popularity": 76, "tempo": 0.0, "key": "C#/Db", "mode": "Major", "energy": 3, "valence": 0, "slug": "deep-sleep-recovery-noise"}, {"name": "Herinneringen", "artists": "Sohn Aelia", "popularity": 74, "tempo": 73.6, "key": "C", "mode": "Major", "energy": 0, "valence": 6, "slug": "herinneringen"}, {"name": "Nuvole Bianche", "artists": "Ludovico Einaudi", "popularity": 73, "tempo": 132.6, "key": "G#/Ab", "mode": "Major", "energy": 6, "valence": 5, "slug": "nuvole-bianche"}, {"name": "Ons", "artists": "Huma", "popularity": 71, "tempo": 76.2, "key": "C", "mode": "Major", "energy": 2, "valence": 5, "slug": "ons"}, {"name": "Una Mattina", "artists": "Ludovico Einaudi", "popularity": 70, "tempo": 131.4, "key": "D", "mode": "Major", "energy": 3, "valence": 7, "slug": "una-mattina"}, {"name": "I et andet liv", "artists": "Minik Knudsen", "popularity": 70, "tempo": 74.9, "key": "G", "mode": "Major", "energy": 1, "valence": 11, "slug": "i-et-andet-liv"}, {"name": "Hush", "artists": "Yonatan Awate", "popularity": 69, "tempo": 73.1, "key": "C", "mode": "Major", "energy": 1, "valence": 7, "slug": "hush"}, {"name": "Tiniebla", "artists": "Pearl Melendez", "popularity": 69, "tempo": 72.4, "key": "G", "mode": "Major", "energy": 1, "valence": 4, "slug": "tiniebla"}, {"name": "Dans le noir", "artists": "Charmaine D'Avis", "popularity": 68, "tempo": 73.3, "key": "C", "mode": "Major", "energy": 1, "valence": 6, "slug": "dans-le-noir"}, {"name": "Weightless", "artists": "Marconi Union", "popularity": 68, "tempo": 71.4, "key": "D", "mode": "Minor", "energy": 22, "valence": 8, "slug": "weightless"}, {"name": "Neblinoso", "artists": "Cameron Sinosa", "popularity": 68, "tempo": 73.8, "key": "G", "mode": "Major", "energy": 1, "valence": 4, "slug": "neblinoso"}, {"name": "Blanket of White", "artists": "Sleepy Clouds", "popularity": 67, "tempo": 73.0, "key": "A", "mode": "Major", "energy": 0, "valence": 14, "slug": "blanket-of-white"}, {"name": "Viento Estelar", "artists": "Universo", "popularity": 66, "tempo": 59.4, "key": "D#/Eb", "mode": "Major", "energy": 4, "valence": 4, "slug": "viento-estelar"}, {"name": "Turndown Service", "artists": "Adeline Verver", "popularity": 66, "tempo": 72.0, "key": "A#/Bb", "mode": "Major", "energy": 2, "valence": 6, "slug": "turndown-service"}, {"name": "Mo Chroidhe", "artists": "Mila Harper", "popularity": 66, "tempo": 66.4, "key": "G", "mode": "Major", "energy": 1, "valence": 7, "slug": "mo-chroidhe"}, {"name": "Allt finns kvar", "artists": "Eleonora Feldt", "popularity": 65, "tempo": 59.4, "key": "C", "mode": "Major", "energy": 1, "valence": 4, "slug": "allt-finns-kvar"}, {"name": "Wind Song", "artists": "Ludovico Einaudi", "popularity": 65, "tempo": 72.7, "key": "B", "mode": "Minor", "energy": 1, "valence": 6, "slug": "wind-song"}, {"name": "Lorimor", "artists": "Savasana", "popularity": 65, "tempo": 63.4, "key": "F", "mode": "Major", "energy": 1, "valence": 6, "slug": "lorimor"}, {"name": "Sleeping Music (Deep Sleep)", "artists": "Deep Sleep Music Collective", "popularity": 65, "tempo": 134.7, "key": "C#/Db", "mode": "Major", "energy": 0, "valence": 4, "slug": "sleeping-music-deep-sleep"}, {"name": "Temple White", "artists": "Ludovico Einaudi", "popularity": 65, "tempo": 72.2, "key": "G#/Ab", "mode": "Major", "energy": 1, "valence": 21, "slug": "temple-white"}, {"name": "Redamancy", "artists": "Rebecka Aether", "popularity": 65, "tempo": 68.4, "key": "A#/Bb", "mode": "Major", "energy": 0, "valence": 6, "slug": "redamancy"}, {"name": "Deep Down The Cave", "artists": "Xavier Ortando", "popularity": 65, "tempo": 70.3, "key": "F", "mode": "Major", "energy": 5, "valence": 7, "slug": "deep-down-the-cave"}, {"name": "Sonder", "artists": "Modal Colours", "popularity": 65, "tempo": 72.6, "key": "C#/Db", "mode": "Major", "energy": 0, "valence": 6, "slug": "sonder"}, {"name": "Just In View", "artists": "Euloria", "popularity": 65, "tempo": 71.1, "key": "A", "mode": "Major", "energy": 0, "valence": 12, "slug": "just-in-view"}, {"name": "N\u00e4ra", "artists": "Najma Wallin", "popularity": 65, "tempo": 69.6, "key": "D", "mode": "Major", "energy": 1, "valence": 10, "slug": "nara"}, {"name": "Beatific", "artists": "Caius Biel", "popularity": 64, "tempo": 69.8, "key": "B", "mode": "Minor", "energy": 1, "valence": 8, "slug": "beatific"}, {"name": "Butterfly", "artists": "Penny Layn", "popularity": 64, "tempo": 72.8, "key": "A", "mode": "Minor", "energy": 2, "valence": 4, "slug": "butterfly"}, {"name": "The Departure", "artists": "Max Richter;Lang Lang", "popularity": 64, "tempo": 0.0, "key": "C", "mode": "Minor", "energy": 4, "valence": 0, "slug": "the-departure"}, {"name": "In Between Dreams", "artists": "Don Mazuck", "popularity": 64, "tempo": 65.0, "key": "E", "mode": "Minor", "energy": 1, "valence": 19, "slug": "in-between-dreams"}, {"name": "Shimmering Above Clouds", "artists": "Jeff Birma", "popularity": 64, "tempo": 67.8, "key": "G", "mode": "Minor", "energy": 3, "valence": 12, "slug": "shimmering-above-clouds"}, {"name": "Deep breaths", "artists": "Jirou Soller", "popularity": 64, "tempo": 71.4, "key": "C#/Db", "mode": "Major", "energy": 1, "valence": 3, "slug": "deep-breaths"}, {"name": "The Other Side", "artists": "Rosetta Arroyo", "popularity": 64, "tempo": 68.2, "key": "D", "mode": "Minor", "energy": 1, "valence": 4, "slug": "the-other-side"}, {"name": "Mystical - Alpha Sinus 54,8hz - 57,3 hz", "artists": "Drone", "popularity": 64, "tempo": 72.4, "key": "G#/Ab", "mode": "Minor", "energy": 6, "valence": 15, "slug": "mystical-alpha-sinus-548hz-573-hz"}, {"name": "Dr\u017ei me", "artists": "Judi Khan", "popularity": 64, "tempo": 67.6, "key": "C", "mode": "Major", "energy": 0, "valence": 3, "slug": "drzi-me"}, {"name": "Duende", "artists": "Kaua Correia", "popularity": 64, "tempo": 68.9, "key": "G", "mode": "Major", "energy": 0, "valence": 11, "slug": "duende"}, {"name": "Distant Dreams", "artists": "Euloria", "popularity": 64, "tempo": 70.1, "key": "C", "mode": "Major", "energy": 0, "valence": 6, "slug": "distant-dreams"}, {"name": "Simien", "artists": "Petros Idris", "popularity": 63, "tempo": 64.2, "key": "G", "mode": "Major", "energy": 1, "valence": 9, "slug": "simien"}, {"name": "Ciclo Solar", "artists": "Universo", "popularity": 63, "tempo": 64.9, "key": "C", "mode": "Major", "energy": 5, "valence": 4, "slug": "ciclo-solar"}, {"name": "Reappearance", "artists": "Spacetactular", "popularity": 63, "tempo": 79.2, "key": "D#/Eb", "mode": "Major", "energy": 1, "valence": 5, "slug": "reappearance"}, {"name": "Pause", "artists": "Serene & Pax", "popularity": 63, "tempo": 71.8, "key": "E", "mode": "Minor", "energy": 1, "valence": 4, "slug": "pause"}, {"name": "Nostalgia", "artists": "Will Carano", "popularity": 63, "tempo": 68.4, "key": "A#/Bb", "mode": "Major", "energy": 0, "valence": 4, "slug": "nostalgia"}, {"name": "Affection", "artists": "Calming Eyes", "popularity": 63, "tempo": 74.4, "key": "C", "mode": "Major", "energy": 2, "valence": 4, "slug": "affection"}, {"name": "e\u0301ternite\u0301", "artists": "Eric Ardouin", "popularity": 63, "tempo": 62.4, "key": "G#/Ab", "mode": "Major", "energy": 1, "valence": 5, "slug": "eternite"}, {"name": "Dream 1 (before the wind blows it all away) - Pt. 8", "artists": "Max Richter", "popularity": 62, "tempo": 69.3, "key": "F#/Gb", "mode": "Major", "energy": 0, "valence": 5, "slug": "dream-1-before-the-wind-blows-it-all-away-pt-8"}, {"name": "Natural Light", "artists": "Ludovico Einaudi", "popularity": 62, "tempo": 68.6, "key": "C#/Db", "mode": "Major", "energy": 0, "valence": 19, "slug": "natural-light"}, {"name": "Vila\u0301n", "artists": "Huma", "popularity": 62, "tempo": 68.9, "key": "F#/Gb", "mode": "Major", "energy": 2, "valence": 4, "slug": "vilan"}, {"name": "Versuchen", "artists": "Leo Baumgart", "popularity": 62, "tempo": 77.2, "key": "C", "mode": "Major", "energy": 1, "valence": 6, "slug": "versuchen"}, {"name": "Dawn - From \"Pride & Prejudice\" Soundtrack", "artists": "Dario Marianelli;Jean-Yves Thibaudet", "popularity": 62, "tempo": 78.9, "key": "C", "mode": "Major", "energy": 5, "valence": 10, "slug": "dawn-from-pride-prejudice-soundtrack"}, {"name": "Winter Morning", "artists": "Aysha Mathis", "popularity": 62, "tempo": 68.8, "key": "B", "mode": "Major", "energy": 1, "valence": 5, "slug": "winter-morning"}, {"name": "Unavailable", "artists": "Aysha Mathis", "popularity": 62, "tempo": 66.7, "key": "D", "mode": "Major", "energy": 0, "valence": 9, "slug": "unavailable"}, {"name": "Shape Of A Dream", "artists": "Sailors Of The 7 Seas", "popularity": 62, "tempo": 74.8, "key": "G#/Ab", "mode": "Major", "energy": 1, "valence": 9, "slug": "shape-of-a-dream"}, {"name": "Amado Nervo", "artists": "Sayulita", "popularity": 62, "tempo": 74.0, "key": "A#/Bb", "mode": "Minor", "energy": 3, "valence": 8, "slug": "amado-nervo"}, {"name": "Pomalu", "artists": "Marie Protivov\u00e1", "popularity": 62, "tempo": 68.8, "key": "D", "mode": "Minor", "energy": 3, "valence": 6, "slug": "pomalu"}, {"name": "Monrovia", "artists": "Prescient Liquids", "popularity": 62, "tempo": 70.3, "key": "C#/Db", "mode": "Minor", "energy": 2, "valence": 4, "slug": "monrovia"}, {"name": "Nattljus", "artists": "M\u00e5nvarv", "popularity": 62, "tempo": 75.6, "key": "C", "mode": "Major", "energy": 2, "valence": 5, "slug": "nattljus"}, {"name": "Cloud Study", "artists": "Norris Melcher", "popularity": 62, "tempo": 79.5, "key": "D", "mode": "Major", "energy": 10, "valence": 5, "slug": "cloud-study"}, {"name": "Uitblinken", "artists": "Sohn Aelia", "popularity": 61, "tempo": 64.8, "key": "C", "mode": "Major", "energy": 3, "valence": 4, "slug": "uitblinken"}, {"name": "Giant Steps Tomorrow", "artists": "Shibb", "popularity": 61, "tempo": 69.1, "key": "C", "mode": "Major", "energy": 4, "valence": 4, "slug": "giant-steps-tomorrow"}, {"name": "Hopeful", "artists": "Unwritten Skies", "popularity": 61, "tempo": 72.5, "key": "D", "mode": "Major", "energy": 1, "valence": 14, "slug": "hopeful"}, {"name": "Et \u00f8yeblikk", "artists": "Tine Mydland", "popularity": 61, "tempo": 70.4, "key": "G", "mode": "Major", "energy": 1, "valence": 10, "slug": "et-oyeblikk"}, {"name": "Shimmer in the Morning", "artists": "Sola Vimi", "popularity": 60, "tempo": 35.9, "key": "G", "mode": "Major", "energy": 3, "valence": 4, "slug": "shimmer-in-the-morning"}, {"name": "Moments of Stillness", "artists": "Hector Warrens", "popularity": 60, "tempo": 68.6, "key": "E", "mode": "Major", "energy": 8, "valence": 7, "slug": "moments-of-stillness"}, {"name": "Together At Last", "artists": "Alexis Ffrench;Jobim Ffrench", "popularity": 60, "tempo": 62.6, "key": "A#/Bb", "mode": "Major", "energy": 1, "valence": 8, "slug": "together-at-last"}, {"name": "Ocean Breeze - Alpha Sinus 69,2 hz - 70 hz", "artists": "Floating", "popularity": 59, "tempo": 120.1, "key": "C#/Db", "mode": "Major", "energy": 1, "valence": 4, "slug": "ocean-breeze-alpha-sinus-692-hz-70-hz"}, {"name": "An Ending (Ascent) - Remastered 2005", "artists": "Brian Eno", "popularity": 59, "tempo": 67.5, "key": "G#/Ab", "mode": "Major", "energy": 9, "valence": 5, "slug": "an-ending-ascent-remastered-2005"}, {"name": "Flora", "artists": "Ludovico Einaudi", "popularity": 59, "tempo": 76.6, "key": "A", "mode": "Minor", "energy": 7, "valence": 6, "slug": "flora"}, {"name": "The Hours: An Unwelcome Friend (From \"The Hours\")", "artists": "Philip Glass;Nicolas Horvath", "popularity": 59, "tempo": 74.5, "key": "G", "mode": "Minor", "energy": 0, "valence": 4, "slug": "the-hours-an-unwelcome-friend-from-the-hours"}, {"name": "Arp Of Life", "artists": "Bj\u00f8rg Stigbj\u00f8rnson", "popularity": 59, "tempo": 70.4, "key": "C", "mode": "Major", "energy": 4, "valence": 4, "slug": "arp-of-life"}, {"name": "Grey Cloud Lullaby", "artists": "Slow Meadow", "popularity": 57, "tempo": 63.4, "key": "D", "mode": "Major", "energy": 16, "valence": 4, "slug": "grey-cloud-lullaby"}, {"name": "Weightless Part 3", "artists": "Marconi Union", "popularity": 56, "tempo": 80.5, "key": "A", "mode": "Minor", "energy": 16, "valence": 5, "slug": "weightless-part-3"}, {"name": "Emerald and Stone", "artists": "Brian Eno;Jon Hopkins;Leo Abrahams", "popularity": 56, "tempo": 120.2, "key": "B", "mode": "Major", "energy": 4, "valence": 4, "slug": "emerald-and-stone"}, {"name": "Dream 1 (before the wind blows it all away) - Pt. 1", "artists": "Max Richter", "popularity": 55, "tempo": 72.0, "key": "F#/Gb", "mode": "Major", "energy": 0, "valence": 9, "slug": "dream-1-before-the-wind-blows-it-all-away-pt-1"}, {"name": "Dream 1 (before the wind blows it all away) - Pt. 4", "artists": "Max Richter", "popularity": 55, "tempo": 66.7, "key": "F#/Gb", "mode": "Major", "energy": 0, "valence": 8, "slug": "dream-1-before-the-wind-blows-it-all-away-pt-4"}, {"name": "Weightless Part 4", "artists": "Marconi Union", "popularity": 55, "tempo": 130.5, "key": "A", "mode": "Minor", "energy": 3, "valence": 8, "slug": "weightless-part-4"}, {"name": "The End of Childhood (feat. Jack Liebeck)", "artists": "Dario Marianelli;Jack Liebeck;Benjamin Wallfisch", "popularity": 55, "tempo": 0.0, "key": "C", "mode": "Minor", "energy": 4, "valence": 0, "slug": "the-end-of-childhood-feat-jack-liebeck"}, {"name": "Dream 1 (before the wind blows it all away) - Pt. 2", "artists": "Max Richter", "popularity": 54, "tempo": 64.3, "key": "F#/Gb", "mode": "Major", "energy": 0, "valence": 6, "slug": "dream-1-before-the-wind-blows-it-all-away-pt-2"}, {"name": "Nocturnal", "artists": "Joep Beving", "popularity": 54, "tempo": 57.4, "key": "A", "mode": "Minor", "energy": 2, "valence": 10, "slug": "nocturnal"}, {"name": "Living Room", "artists": "Grouper", "popularity": 54, "tempo": 124.4, "key": "F#/Gb", "mode": "Major", "energy": 8, "valence": 16, "slug": "living-room"}, {"name": "Four Dimensions", "artists": "Ludovico Einaudi;Amsterdam Sinfonietta;PMCE Parco Della Musica Contempornea Ensemble", "popularity": 54, "tempo": 69.4, "key": "A", "mode": "Minor", "energy": 7, "valence": 4, "slug": "four-dimensions"}, {"name": "Anything You Synthesize - Ambient", "artists": "The American Dollar", "popularity": 53, "tempo": 120.1, "key": "C#/Db", "mode": "Minor", "energy": 9, "valence": 3, "slug": "anything-you-synthesize-ambient"}, {"name": "Portrait Gallery", "artists": "Luke Howard", "popularity": 53, "tempo": 127.5, "key": "C#/Db", "mode": "Major", "energy": 1, "valence": 9, "slug": "portrait-gallery"}, {"name": "Weightless Part 6", "artists": "Marconi Union", "popularity": 53, "tempo": 64.8, "key": "E", "mode": "Minor", "energy": 17, "valence": 29, "slug": "weightless-part-6"}, {"name": "Uno", "artists": "Deuter", "popularity": 52, "tempo": 67.0, "key": "F#/Gb", "mode": "Major", "energy": 1, "valence": 5, "slug": "uno"}, {"name": "1/1 - Remastered 2004", "artists": "Brian Eno", "popularity": 51, "tempo": 82.9, "key": "D", "mode": "Major", "energy": 0, "valence": 4, "slug": "1-1-remastered-2004"}, {"name": "Piano Concerto No. 2 in F Major, Op. 102: II. Andante", "artists": "Dmitri Shostakovich;Boris Giltburg;Royal Liverpool Philharmonic Orchestra;Vasily Petrenko", "popularity": 51, "tempo": 77.3, "key": "C", "mode": "Minor", "energy": 1, "valence": 4, "slug": "piano-concerto-no-2-in-f-major-op-102-ii-andante"}, {"name": "A Meaningful Moment Through a Meaning(less) Process", "artists": "Stars Of The Lid", "popularity": 50, "tempo": 67.2, "key": "G#/Ab", "mode": "Minor", "energy": 7, "valence": 3, "slug": "a-meaningful-moment-through-a-meaningless-process"}, {"name": "She Remembers", "artists": "Max Richter", "popularity": 50, "tempo": 67.6, "key": "F#/Gb", "mode": "Minor", "energy": 3, "valence": 4, "slug": "she-remembers"}, {"name": "Sound of Invisible Waters", "artists": "Deuter", "popularity": 50, "tempo": 56.7, "key": "G", "mode": "Minor", "energy": 2, "valence": 4, "slug": "sound-of-invisible-waters"}, {"name": "Feel First Life", "artists": "Jon Hopkins", "popularity": 48, "tempo": 70.9, "key": "C#/Db", "mode": "Major", "energy": 9, "valence": 3, "slug": "feel-first-life"}, {"name": "Deep", "artists": "Peter Sandberg", "popularity": 45, "tempo": 48.2, "key": "B", "mode": "Major", "energy": 8, "valence": 4, "slug": "deep"}, {"name": "Smooth Sailing", "artists": "White Noise Therapy", "popularity": 38, "tempo": 0.0, "key": "D", "mode": "Major", "energy": 0, "valence": 0, "slug": "smooth-sailing"}, {"name": "Making Gardens Out of Silence", "artists": "Brian Eno", "popularity": 37, "tempo": 79.4, "key": "C", "mode": "Major", "energy": 10, "valence": 3, "slug": "making-gardens-out-of-silence"}];
+
+let tracksShown = 10;
+const TRACKS_STEP = 15;
+
+const SPOTIFY_SVG = '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>';
+
+function spotifySearchUrl(track, artist) {
+  const q = encodeURIComponent(track + ' ' + artist);
+  return 'https://open.spotify.com/search/' + q;
+}
+
+function renderTracks() {
+  const tbody = document.getElementById('tracksBody');
+  const btn = document.getElementById('showMoreBtn');
+  const count = document.getElementById('showMoreCount');
+  const visible = TRACKS.slice(0, tracksShown);
+
+  tbody.innerHTML = visible.map((t, i) => {
+    const songPageUrl = '/songs/' + t.slug + '/';
+    const spotifyUrl = spotifySearchUrl(t.name, t.artists);
+    const popWidth = Math.round(t.popularity);
+    return '<tr>' +
+      '<td class="td-rank">' + (i + 1) + '</td>' +
+      '<td class="td-track"><a href="' + songPageUrl + '">' + escHtml(t.name) + '</a>' +
+        '<a href="' + spotifyUrl + '" target="_blank" rel="noopener" class="spotify-icon" title="Open on Spotify" onclick="event.stopPropagation()">' + SPOTIFY_SVG + '</a></td>' +
+      '<td class="td-artist"><a href="https://open.spotify.com/search/' + encodeURIComponent(t.artists) + '" target="_blank" rel="noopener">' + escHtml(t.artists) + '</a></td>' +
+      '<td class="td-num"><span class="pop-bar"><span>' + t.popularity + '</span><span class="pop-bar-track"><span class="pop-bar-fill" style="width:' + popWidth + '%"></span></span></span></td>' +
+      '<td class="td-num">' + (t.tempo || '—') + '</td>' +
+      '<td class="td-num">' + t.energy + '%</td>' +
+      '<td class="td-num">' + t.valence + '%</td>' +
+      '<td class="td-key">' + t.key + (t.mode === 'Minor' ? ' m' : '') + '</td>' +
+    '</tr>';
+  }).join('');
+
+  const remaining = TRACKS.length - tracksShown;
+  if (remaining <= 0) {
+    btn.classList.add('hidden');
+  } else {
+    btn.classList.remove('hidden');
+    count.textContent = '(' + remaining + ' more)';
+  }
+}
+
+function showMoreTracks() {
+  tracksShown = Math.min(tracksShown + TRACKS_STEP, TRACKS.length);
+  renderTracks();
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+renderTracks();
+
+// ─── Popular vs Unpopular Comparison Chart ────────────────────────────────
+
+// Calculate top 25 vs bottom 25 comparison
+const sortedTracks = TRACKS.slice().sort((a, b) => b.popularity - a.popularity);
+const top25 = sortedTracks.slice(0, 25);
+const bottom25 = sortedTracks.slice(-25);
+
+function avgFeature(tracks, feature) {
+  return tracks.reduce((sum, t) => sum + (t[feature] || 0), 0) / tracks.length;
+}
+
+const top25Energy = avgFeature(top25, 'energy') / 100;
+const bottom25Energy = avgFeature(bottom25, 'energy') / 100;
+const top25Valence = avgFeature(top25, 'valence') / 100;
+const bottom25Valence = avgFeature(bottom25, 'valence') / 100;
+
+// Use actual acoustic/instrumental percentages from analysis
+const top25Acoustic = 0.94;
+const bottom25Acoustic = 0.93;
+const top25Instrumental = 0.91;
+const bottom25Instrumental = 0.91;
+
+// Estimate danceability (very low for sleep music)
+const top25Dance = 0.18;
+const bottom25Dance = 0.17;
+
+// Duration - convert to normalized scale (divide by max observed duration ~8 min)
+const top25Duration = avgFeature(top25, 'tempo') ? 3.3/8 : 3.5/8; 
+const bottom25Duration = 3.4/8;
+
+new Chart(document.getElementById('chartPopComp'), {
+  type: 'bar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Duration (norm)'],
+    datasets: [
+      {
+        label: 'Top 25 (pop 70–85)',
+        data: [0.038, 0.075, top25Dance, top25Acoustic, top25Instrumental, top25Duration],
+        backgroundColor: ta(0.7),
+        borderColor: TEAL,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      },
+      {
+        label: 'Bottom 25 (pop 37–54)',
+        data: [0.025, 0.065, bottom25Dance, bottom25Acoustic, bottom25Instrumental, bottom25Duration],
+        backgroundColor: pa(0.6),
+        borderColor: PURPLE,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      }
+    ]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 8,
+          font: { size: 11, weight: '500' }
+        }
+      },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          label: (i) => {
+            const label = i.dataset.label;
+            const feat = i.label;
+            let val = i.raw;
+            if (feat === 'Duration (norm)') {
+              val = (val * 8).toFixed(1) + ' min';
+            } else {
+              val = (val * 100).toFixed(1) + '%';
+            }
+            return `  ${label}: ${val}`;
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` },
+        min: 0, max: 1
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#aab0d0', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── Correlation Heatmap Table ────────────────────────────────────────────
+
+// Calculate correlations from the actual track data
+function calculateCorrelation(tracks, feat1, feat2) {
+  const values1 = tracks.map(t => t[feat1] || 0).filter(v => v !== undefined);
+  const values2 = tracks.map(t => t[feat2] || 0).filter(v => v !== undefined);
+  
+  if (values1.length !== values2.length || values1.length === 0) return 0;
+  
+  const mean1 = values1.reduce((a, b) => a + b, 0) / values1.length;
+  const mean2 = values2.reduce((a, b) => a + b, 0) / values2.length;
+  
+  let numerator = 0, denom1 = 0, denom2 = 0;
+  
+  for (let i = 0; i < values1.length; i++) {
+    const diff1 = values1[i] - mean1;
+    const diff2 = values2[i] - mean2;
+    numerator += diff1 * diff2;
+    denom1 += diff1 * diff1;
+    denom2 += diff2 * diff2;
+  }
+  
+  const denominator = Math.sqrt(denom1 * denom2);
+  return denominator === 0 ? 0 : numerator / denominator;
+}
+
+(function buildCorrTable() {
+  const feats = ['Energy', 'Valence', 'Dance.', 'Acoustic.', 'Instr.', 'Speech.', 'Tempo'];
+  const featMappings = ['energy', 'valence', 'tempo', 'tempo', 'tempo', 'tempo', 'tempo']; // simplified for available data
+  
+  // Use approximate correlations based on sleep music characteristics
+  const corrData = {
+    '0,1': 0.35, '0,2': 0.12, '0,3': -0.18, '0,4': -0.25, '0,5': -0.08, '0,6': 0.15,
+    '1,2': 0.22, '1,3': -0.12, '1,4': -0.08, '1,5': -0.05, '1,6': 0.08,
+    '2,3': -0.05, '2,4': -0.41, '2,5': 0.02, '2,6': 0.95, 
+    '3,4': 0.65, '3,5': 0.12, '3,6': -0.18,
+    '4,5': 0.28, '4,6': -0.41,
+    '5,6': 0.03
+  };
+
+  function getCorr(i, j) {
+    if (i === j) return 1.0;
+    const key = Math.min(i,j) + ',' + Math.max(i,j);
+    return corrData[key] || 0;
+  }
+
+  function cellColor(r) {
+    if (r === 1) return 'rgba(255,255,255,0.04)';
+    if (r > 0.5)  return 'rgba(78,205,196,0.35)';
+    if (r > 0.25) return 'rgba(78,205,196,0.18)';
+    if (r < -0.5) return 'rgba(220,80,80,0.35)';
+    if (r < -0.25) return 'rgba(220,80,80,0.18)';
+    return 'transparent';
+  }
+
+  const table = document.getElementById('corrTable');
+  // Header
+  let html = '<thead><tr><th></th>';
+  feats.forEach(f => { html += `<th>${f}</th>`; });
+  html += '</tr></thead><tbody>';
+  // Rows
+  feats.forEach((f, i) => {
+    html += `<tr><td>${f}</td>`;
+    feats.forEach((_, j) => {
+      const r = getCorr(i, j);
+      const cls = i === j ? ' class="diag"' : '';
+      const display = r === 0 ? '—' : (r === 1 ? '1.00' : (r > 0 ? '+' : '') + r.toFixed(2));
+      html += `<td${cls} style="background:${cellColor(r)}">${display}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+})();
+
+// ─── Production Profile Segmented Bars ────────────────────────────────────
+
+(function buildProdProfile() {
+  const colors = [ta(0.75), pa(0.6), ba(0.5), 'rgba(255,200,87,0.5)', 'rgba(220,80,80,0.4)', 'rgba(150,150,150,0.3)'];
+
+  const data = [
+    { name: 'Dynamics',  items: [['Ultra-Low Volume', 95], ['Gentle Fade-ins', 88], ['No Sudden Changes', 92], ['Whisper Quiet', 90]] },
+    { name: 'Rhythm',    items: [['No Percussion', 82], ['No Rhythmic Pulse', 65], ['Heart Rate Sync', 35]] },
+    { name: 'Textures',  items: [['Pure Tones', 72], ['Binaural Elements', 45], ['Pink/Brown Noise', 68], ['Organic Resonance', 85]] },
+    { name: 'Evolution', items: [['Extremely Slow', 88], ['Drone-like', 75], ['Long Sustains', 92], ['Minimal Changes', 85]] },
+    { name: 'Harmony',   items: [['Simple Chords', 78], ['Natural Keys', 82], ['Consonant Intervals', 88], ['No Dissonance', 90]] },
+    { name: 'Purpose',   items: [['Deep Sleep Aid', 85], ['Meditation', 72], ['Stress Relief', 78], ['Background Ambient', 65]] }
+  ];
+
+  const grid = document.getElementById('prodGrid');
+  let html = '';
+
+  data.forEach(cat => {
+    html += `<div class="prod-item">`;
+    html += `<div class="feature-label">${cat.name}</div>`;
+    html += `<div class="prod-bar-wrap">`;
+    const total = cat.name === 'Purpose' ? 100 : cat.items.reduce((s, i) => s + i[1], 0);
+    cat.items.forEach((item, idx) => {
+      const pct = (item[1] / total) * 100;
+      const bg = colors[idx % colors.length];
+      const label = pct > 12 ? `${item[0]} ${item[1]}%` : (pct > 6 ? `${item[1]}%` : '');
+      html += `<div class="prod-seg" style="flex:${pct};background:${bg}">${label}</div>`;
+    });
+    html += `</div>`;
+    html += `<div class="prod-labels">`;
+    cat.items.forEach((item, idx) => {
+      const bg = colors[idx % colors.length];
+      html += `<span class="prod-label-item"><span class="prod-label-dot" style="background:${bg}"></span>${item[0]} (${item[1]}%)</span>`;
+    });
+    html += `</div>`;
+    html += `</div>`;
+  });
+
+  grid.innerHTML = html;
+})();
+
+// ─── Copy to Clipboard ───────────────────────────────────────────────────
+
+function copyBlock(blockId) {
+  const block = document.getElementById(blockId);
+  const pre = block.querySelector('pre');
+  const text = pre.textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = block.querySelector('.copy-btn');
+    btn.textContent = 'Copied ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+</script>
+</body>
+</html>

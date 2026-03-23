@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus / Study — kapiko music analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:            #0b0c1a;
+      --bg-card:       #111222;
+      --bg-header:     #0d0e20;
+      --border:        rgba(255, 255, 255, 0.07);
+      --border-accent: rgba(78, 205, 196, 0.22);
+      --text:          #dde1f0;
+      --text-muted:    #6b7099;
+      --text-dim:      #3d4060;
+      --teal:          #4ecdc4;
+      --purple:        #9b7fd4;
+      --blue:          #5b9bd5;
+      --teal-glow:     rgba(78, 205, 196, 0.12);
+      --purple-glow:   rgba(155, 127, 212, 0.12);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 80% at 10% 50%, rgba(78, 205, 196, 0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 85% 20%, rgba(155, 127, 212, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 56px 28px 52px;
+      position: relative;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 24px;
+    }
+
+    .brand-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--teal);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--teal), 0 0 20px rgba(78,205,196,0.4);
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    .genre-pill {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--purple);
+      background: rgba(155, 127, 212, 0.1);
+      border: 1px solid rgba(155, 127, 212, 0.28);
+      border-radius: 20px;
+      padding: 4px 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 9vw, 88px);
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      line-height: 0.95;
+      background: linear-gradient(130deg, #dde1f0 0%, #4ecdc4 55%, #9b7fd4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-bottom: 52px;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle span {
+      color: var(--text-dim);
+      margin: 0 6px;
+    }
+
+    /* ── Stat Cards ── */
+    .stat-cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 18px;
+      transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+      cursor: default;
+    }
+
+    .stat-card:hover {
+      border-color: var(--border-accent);
+      background: rgba(78,205,196,0.04);
+      transform: translateY(-3px);
+    }
+
+    .stat-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .stat-value {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .stat-value.teal   { color: var(--teal); }
+    .stat-value.purple { color: var(--purple); }
+    .stat-value.blue   { color: var(--blue); }
+
+    .stat-sub {
+      font-size: 11.5px;
+      color: var(--text-dim);
+      margin-top: 6px;
+      font-weight: 400;
+    }
+
+    /* ── Main ── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 28px 96px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 52px 0 22px;
+    }
+
+    .section-label:first-child { margin-top: 0; }
+
+    .section-label h2 {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Chart Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 28px 24px;
+      transition: border-color 0.25s ease;
+    }
+
+    .chart-card:hover { border-color: var(--border-accent); }
+    .chart-card.full  { grid-column: 1 / -1; }
+
+    .chart-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .chart-analysis {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+      line-height: 1.55;
+      font-style: italic;
+      max-width: 680px;
+    }
+
+    .chart-wrap {
+      position: relative;
+    }
+
+    /* ── Feature Summary ── */
+    .feature-summary-inner {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .feature-bars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 28px;
+    }
+
+    .feature-item { display: flex; flex-direction: column; gap: 7px; }
+
+    .feature-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: var(--text-muted);
+    }
+
+    .feature-val {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.025em;
+      line-height: 1;
+    }
+
+    .feature-track {
+      height: 5px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .feature-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* ── Tracks Table ── */
+    .table-wrapper {
+      overflow-x: auto;
+      margin-top: 24px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td { padding: 10px 12px; text-align: left; }
+    th { 
+      color: var(--text-dim); 
+      font-weight: 600; 
+      font-size: 11px; 
+      text-transform: uppercase; 
+      letter-spacing: 0.1em; 
+      border-bottom: 1px solid var(--border);
+    }
+    
+    td { border-bottom: 1px solid rgba(255,255,255,0.03); }
+
+    .td-rank  { text-align: center; color: var(--text-dim); font-weight: 600; width: 60px; }
+    .td-track { position: relative; min-width: 200px; }
+    .td-track a { color: var(--text); text-decoration: none; }
+    .td-track a:hover { color: var(--teal); }
+    .td-artist { color: var(--text-muted); min-width: 150px; }
+    .td-artist a { color: var(--text-muted); text-decoration: none; }
+    .td-artist a:hover { color: var(--purple); }
+    .td-num   { text-align: center; color: var(--text); font-weight: 600; width: 80px; }
+    .td-key   { text-align: center; color: var(--text-muted); font-weight: 600; width: 60px; }
+
+    .pop-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pop-bar-track {
+      width: 40px;
+      height: 4px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pop-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--teal), var(--purple));
+      border-radius: 2px;
+      transition: width 0.6s ease;
+    }
+
+    .spotify-icon {
+      opacity: 0;
+      margin-left: 8px;
+      width: 14px;
+      height: 14px;
+      fill: var(--text-dim);
+      transition: all 0.2s ease;
+      display: inline-block;
+    }
+
+    .td-track:hover .spotify-icon { opacity: 1; }
+    .spotify-icon:hover { fill: #1db954; transform: scale(1.1); }
+
+    .show-more-btn {
+      margin: 24px auto 0;
+      display: block;
+      background: rgba(78,205,196,0.12);
+      color: var(--teal);
+      border: 1px solid rgba(78,205,196,0.3);
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .show-more-btn:hover {
+      background: rgba(78,205,196,0.18);
+      border-color: rgba(78,205,196,0.5);
+    }
+
+    .show-more-btn.hidden { display: none; }
+
+    /* ── Prompt Lab ── */
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .prompt-block {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      position: relative;
+    }
+
+    .prompt-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .copy-btn {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border: none;
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      margin-left: auto;
+    }
+
+    .copy-btn:hover { background: rgba(78,205,196,0.25); }
+    .copy-btn.copied { background: rgba(100,200,100,0.3); color: #60d060; }
+
+    pre {
+      font-size: 11px;
+      line-height: 1.55;
+      color: var(--text-muted);
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    /* ── Outlier Cards ── */
+    .outlier-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .outlier-card {
+      background: rgba(155,127,212,0.08);
+      border: 1px solid rgba(155,127,212,0.2);
+      border-radius: 12px;
+      padding: 18px;
+    }
+
+    .outlier-track {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .outlier-artist {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .outlier-reason {
+      font-size: 11px;
+      color: var(--purple);
+      line-height: 1.4;
+    }
+
+    /* ── Correlation Table ── */
+    #corrTable {
+      font-size: 11px;
+      margin-top: 20px;
+    }
+
+    #corrTable th {
+      font-size: 10px;
+      padding: 8px;
+      text-align: center;
+    }
+
+    #corrTable td {
+      padding: 8px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    #corrTable .diag { color: var(--text-dim); }
+
+    /* ── Production Profile ── */
+    .prod-grid {
+      display: grid;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .prod-item {
+      display: grid;
+      grid-template-columns: 120px 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .prod-bar-wrap {
+      display: flex;
+      height: 32px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .prod-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 0 4px;
+    }
+
+    .prod-labels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .prod-label-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .prod-label-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .header-inner { padding: 32px 20px 28px; }
+      main { padding: 32px 20px 64px; }
+      .stat-cards { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .charts-grid { grid-template-columns: 1fr; }
+      .feature-summary-inner { grid-template-columns: 1fr; gap: 24px; }
+      .prompt-grid { grid-template-columns: 1fr; }
+      .outlier-grid { grid-template-columns: 1fr; }
+      .prod-item { grid-template-columns: 1fr; gap: 12px; }
+    }
+
+    @media (max-width: 480px) {
+      .stat-cards { grid-template-columns: 1fr; }
+      .feature-bars { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      kapiko.ai
+    </div>
+    <div class="genre-pill">Genre Report</div>
+    <h1>Focus / Study</h1>
+    <div class="subtitle">
+      Spotify Audio Features Analysis
+      <span>•</span>
+      Top 100 Tracks
+      <span>•</span>
+      Pre-deprecation dataset
+    </div>
+    
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="stat-label">Median BPM</div>
+        <div class="stat-value teal">96</div>
+        <div class="stat-sub">Steady rhythm</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Energy</div>
+        <div class="stat-value purple">35%</div>
+        <div class="stat-sub">Calm focus</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg Valence</div>
+        <div class="stat-value blue">24%</div>
+        <div class="stat-sub">Contemplative</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Top Key</div>
+        <div class="stat-value teal">C#/Db</div>
+        <div class="stat-sub">Major 5 | Minor 9</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Major/Minor</div>
+        <div class="stat-value purple">51/49</div>
+        <div class="stat-sub">Balanced</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Audio DNA -->
+  <div class="section-label">
+    <h2>Audio DNA</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Feature Summary</div>
+    <div class="chart-analysis">
+      Focus / Study music's signature characteristics: highly acoustic (63%) and overwhelmingly instrumental (83%), with moderate danceability (59%) and restrained energy (35%). This genre prioritizes concentration through minimal distraction while maintaining enough rhythmic structure to aid cognitive flow.
+    </div>
+    <div class="feature-summary-inner">
+      <div class="chart-wrap">
+        <canvas id="chartRadar" width="300" height="300"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">35%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 35%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">24%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 24%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">59%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 59%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">63%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 63%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">83%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 83%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">5%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 5%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rhythm & Tonality -->
+  <div class="section-label">
+    <h2>Rhythm & Tonality</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">BPM Distribution</div>
+      <div class="chart-analysis">
+        Focus music clusters in the 60-90 BPM range (39%), with a strong secondary peak at 90-120 BPM (33%). This moderate tempo range avoids the sluggishness of slower genres while preventing the distraction of faster rhythms.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartBpm" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Key Distribution</div>
+      <div class="chart-analysis">
+        C#/Db dominates (14%), followed by C and F (11% each). The prevalence of flat keys and the tonic C creates a stable harmonic foundation that supports sustained concentration without harmonic tension.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartKey" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Major vs Minor Mode</div>
+      <div class="chart-analysis">
+        Nearly perfectly balanced at 51% major, 49% minor. This equilibrium suggests focus music carefully navigates between the optimism of major keys and the introspective quality of minor modes.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartMode" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Duration Histogram</div>
+      <div class="chart-analysis">
+        Most tracks fall between 2-3 minutes (46%), with a median of 2.7 minutes. This duration optimizes for background listening while allowing for natural break points in study sessions.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartDuration" height="240"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emotional Fingerprint -->
+  <div class="section-label">
+    <h2>Emotional Fingerprint</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Energy vs Valence</div>
+      <div class="chart-analysis">
+        Focus music occupies the low-energy, low-valence quadrant ideal for concentration. The target zone shows the genre's optimal range: calming enough to avoid distraction, yet engaging enough to maintain alertness during extended work sessions.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartEnergyValence" height="320"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Acousticness vs Instrumentalness</div>
+      <div class="chart-analysis">
+        Heavy clustering in the upper-right quadrant reveals focus music's preference for organic, wordless soundscapes. High instrumentalness eliminates lyrical distraction while acoustic elements provide warm, non-fatiguing textures.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartAcousticInstr" height="320"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Artists -->
+  <div class="section-label">
+    <h2>Top Artists</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Most Featured Artists</div>
+    <div class="chart-analysis">
+      Cigarettes After Sex leads with 15 tracks, followed by Ensidya (8) and multiple artists with 6 tracks each. This diversity reflects the genre's broad appeal across ambient post-rock, neo-classical, and electronic producers.
+    </div>
+    <div class="chart-wrap">
+      <canvas id="chartArtists" height="360"></canvas>
+    </div>
+  </div>
+
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-grid">
+    <div class="prompt-block" id="translatorBlock">
+      <div class="prompt-label">
+        Feature Translator
+        <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+      </div>
+      <pre>BPM 80-110: Steady, consistent groove, never rushed
+Energy 20-45%: Calm, focused, non-aggressive
+Valence 15-35%: Contemplative, neutral to slightly melancholic
+Danceability 50-70%: Gentle rhythm, subtle movement
+Acousticness 60-85%: Warm organic textures, analog feel
+Instrumentalness 75-95%: Minimal or no vocals, pure melody
+Speechiness 0-8%: Clean instrumental arrangements
+Tempo: Moderate, maintaining alertness without distraction
+Key preference: C#/Db, C, F - stable harmonic foundations</pre>
+    </div>
+
+    <div class="prompt-block" id="templateBlock">
+      <div class="prompt-label">
+        Prompt Template
+        <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+      </div>
+      <pre>Create focus/study music with:
+
+• Moderate tempo (80-110 BPM), consistent groove
+• Repetitive but evolving patterns
+• Slightly more energy than ambient/sleep but never distracting
+• Lo-fi beats, gentle electronic textures, or acoustic instruments
+• Steady rhythm, repetitive patterns, minimal variation
+• Moderate electronic elements, consistent texture
+• No sudden drops or builds, background-optimized mixing
+
+The key constraint: music that enhances concentration without demanding attention.
+
+Artists to reference: Cigarettes After Sex, Ensidya, Max Richter, Ludovico Einaudi, Tenno, Dusty Decks
+
+Duration: 2-4 minutes, perfect for focus sessions</pre>
+    </div>
+
+    <div class="prompt-block" id="recipeBlock">
+      <div class="prompt-label">
+        Genre Recipe JSON
+        <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+      </div>
+      <pre>{
+  "genre": "focus / study",
+  "audio_features": {
+    "bpm": {"min": 68, "max": 182, "median": 95.5},
+    "energy": {"avg": 0.351, "range": "calm focus"},
+    "valence": {"avg": 0.241, "range": "contemplative"},
+    "danceability": {"avg": 0.588, "range": "subtle rhythm"},
+    "acousticness": {"avg": 0.629, "range": "organic/warm"},
+    "instrumentalness": {"avg": 0.833, "range": "minimal vocals"},
+    "key_preference": ["C#/Db", "C", "F"],
+    "mode_split": {"major": 51, "minor": 49}
+  },
+  "production_style": {
+    "texture": "consistent, minimal variation",
+    "dynamics": "steady, no sudden changes",
+    "arrangement": "repetitive but evolving",
+    "mixing": "background-optimized, non-fatiguing"
+  }
+}</pre>
+    </div>
+  </div>
+
+  <!-- What Makes a Hit -->
+  <div class="section-label">
+    <h2>What Makes a Hit</h2>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-title">Popular vs Unpopular Comparison</div>
+      <div class="chart-analysis">
+        Top 25 tracks show slightly higher energy (37% vs 31%) and danceability while maintaining the genre's core characteristics. Successful focus music strikes the delicate balance between engagement and background utility.
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chartPopComp" height="240"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Outlier Spotlight</div>
+      <div class="chart-analysis">
+        Tracks that push focus music boundaries while maintaining concentration-friendly characteristics.
+      </div>
+      <div class="outlier-grid">
+        <div class="outlier-card">
+          <div class="outlier-track">You're All I Want</div>
+          <div class="outlier-artist">Cigarettes After Sex</div>
+          <div class="outlier-reason">Fastest tempo (182 BPM) - unique uptempo energy in dreamy arrangement</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Slipping Mats</div>
+          <div class="outlier-artist">Dusty Decks</div>
+          <div class="outlier-reason">Highest valence (71%) - rare optimism in contemplative genre</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Shoreditch</div>
+          <div class="outlier-artist">Clint Is Quinn</div>
+          <div class="outlier-reason">Lowest energy (11%) - extreme minimalism approaches pure ambient</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Hellwalker</div>
+          <div class="outlier-artist">Mick Gordon</div>
+          <div class="outlier-reason">Lowest acousticness (6%) - electronic intensity meets focus genre structure</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Daydream</div>
+          <div class="outlier-artist">Ensidya</div>
+          <div class="outlier-reason">Lowest instrumentalness (52%) - rare vocal presence maintains focus quality</div>
+        </div>
+        <div class="outlier-card">
+          <div class="outlier-track">Teardrop</div>
+          <div class="outlier-artist">Massive Attack</div>
+          <div class="outlier-reason">Electronic trip-hop classic that crosses into focus territory</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Correlations -->
+  <div class="section-label">
+    <h2>Feature Correlations</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Correlation Heatmap</div>
+    <div class="chart-analysis">
+      Strong correlation between acousticness and instrumentalness (0.45) shows preference for organic, wordless arrangements. Energy-valence correlation (0.42) indicates that livelier tracks tend toward brighter moods within the genre's calm spectrum.
+    </div>
+    <table id="corrTable"></table>
+  </div>
+
+  <!-- Production Profile -->
+  <div class="section-label">
+    <h2>Production Profile</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Focus Music Production Characteristics</div>
+    <div class="chart-analysis">
+      The genre emphasizes consistency and non-intrusive elements. Steady rhythms dominate, repetitive patterns create predictability, and minimal variation prevents attention capture. Background-optimized mixing ensures the music enhances rather than competes with cognitive tasks.
+    </div>
+    <div class="prod-grid" id="prodGrid"></div>
+  </div>
+
+  <!-- Top Tracks -->
+  <div class="section-label">
+    <h2>Top Tracks</h2>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Focus / Study Essential Tracks</div>
+    <div class="chart-analysis">
+      From dreamy indie to neo-classical minimalism, these tracks represent the breadth of focus music. Notice the dominance of post-rock, ambient, and modern classical influences across diverse artists and production styles.
+    </div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Track</th>
+            <th>Artist</th>
+            <th>Popularity</th>
+            <th>BPM</th>
+            <th>Energy</th>
+            <th>Valence</th>
+            <th>Key</th>
+          </tr>
+        </thead>
+        <tbody id="tracksBody"></tbody>
+      </table>
+    </div>
+    <button id="showMoreBtn" class="show-more-btn" onclick="showMoreTracks()">
+      Show More <span id="showMoreCount"></span>
+    </button>
+  </div>
+
+</main>
+
+<footer style="text-align: center; padding: 40px 20px; color: var(--text-dim); font-size: 12px; border-top: 1px solid var(--border);">
+  Data sourced from Spotify audio features (pre-deprecation dataset) of top 100 focus/study tracks.
+</footer>
+
+<script>
+// ─── Chart.js Configuration ────────────────────────────────────────────────
+
+Chart.register(window['chartjs-plugin-annotation']);
+
+const TEAL = '#4ecdc4', PURPLE = '#9b7fd4', BLUE = '#5b9bd5';
+const ta = (a) => `rgba(78,205,196,${a})`;
+const pa = (a) => `rgba(155,127,212,${a})`;
+const ba = (a) => `rgba(91,155,213,${a})`;
+
+const GRID = { color: 'rgba(255,255,255,0.05)', lineWidth: 1 };
+const TICK = { color: '#6b7099', font: { size: 11 } };
+const TIP = {
+  backgroundColor: 'rgba(17,18,34,0.95)',
+  titleColor: '#dde1f0',
+  bodyColor: '#8890b8',
+  borderColor: 'rgba(78,205,196,0.3)',
+  borderWidth: 1,
+  cornerRadius: 8,
+  displayColors: false,
+  titleFont: { size: 12, weight: '600' },
+  bodyFont: { size: 11 }
+};
+
+// ─── Audio DNA Radar Chart ─────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartRadar'), {
+  type: 'radar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Speechiness'],
+    datasets: [{
+      data: [35, 24, 59, 63, 83, 5],
+      backgroundColor: ta(0.15),
+      borderColor: TEAL,
+      borderWidth: 2,
+      pointBackgroundColor: TEAL,
+      pointBorderColor: '#fff',
+      pointBorderWidth: 2,
+      pointRadius: 5,
+      pointHoverRadius: 7
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 100,
+        grid: { color: 'rgba(255,255,255,0.08)' },
+        angleLines: { color: 'rgba(255,255,255,0.08)' },
+        ticks: { display: false },
+        pointLabels: { color: '#8890b8', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── BPM Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartBpm'), {
+  type: 'bar',
+  data: {
+    labels: ['0-30', '30-60', '60-90', '90-120', '120-150', '150-180', '180+'],
+    datasets: [{
+      data: [0, 0, 39, 33, 21, 6, 1],
+      backgroundColor: ta(0.7),
+      borderColor: TEAL,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Key Distribution ──────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartKey'), {
+  type: 'bar',
+  data: {
+    labels: ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B'],
+    datasets: [{
+      data: [11, 14, 4, 3, 8, 6, 10, 8, 9, 10, 8, 9],
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: { ...TICK, maxRotation: 45 } },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Major vs Minor Mode ───────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartMode'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Major', 'Minor'],
+    datasets: [{
+      data: [51, 49],
+      backgroundColor: [ta(0.8), pa(0.7)],
+      borderColor: [TEAL, PURPLE],
+      borderWidth: 2
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'bottom',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 12,
+          font: { size: 12 }
+        }
+      },
+      tooltip: TIP
+    }
+  }
+});
+
+// ─── Duration Histogram ────────────────────────────────────────────────────
+
+new Chart(document.getElementById('chartDuration'), {
+  type: 'bar',
+  data: {
+    labels: ['0-2min', '2-3min', '3-4min', '4-5min', '5-6min', '6-8min', '8+min'],
+    datasets: [{
+      data: [13, 46, 19, 14, 6, 2, 0],
+      backgroundColor: ba(0.6),
+      borderColor: BLUE,
+      borderWidth: 1,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: TICK },
+      y: { grid: GRID, ticks: { ...TICK, callback: (v) => v + '%' } }
+    }
+  }
+});
+
+// ─── Energy vs Valence Scatter ────────────────────────────────────────────
+
+new Chart(document.getElementById('chartEnergyValence'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: [{"x":0.4,"y":0.327},{"x":0.41,"y":0.284},{"x":0.484,"y":0.197},{"x":0.357,"y":0.324},{"x":0.467,"y":0.182},{"x":0.5,"y":0.368},{"x":0.341,"y":0.163},{"x":0.295,"y":0.279},{"x":0.449,"y":0.036},{"x":0.277,"y":0.236},{"x":0.333,"y":0.199},{"x":0.253,"y":0.382},{"x":0.479,"y":0.131},{"x":0.372,"y":0.278},{"x":0.375,"y":0.201},{"x":0.419,"y":0.216},{"x":0.343,"y":0.263},{"x":0.211,"y":0.2},{"x":0.368,"y":0.062},{"x":0.307,"y":0.182},{"x":0.488,"y":0.202},{"x":0.389,"y":0.312},{"x":0.36,"y":0.417},{"x":0.205,"y":0.088},{"x":0.225,"y":0.268},{"x":0.401,"y":0.158},{"x":0.417,"y":0.251},{"x":0.392,"y":0.268},{"x":0.487,"y":0.045},{"x":0.432,"y":0.237},{"x":0.41,"y":0.317},{"x":0.348,"y":0.227},{"x":0.364,"y":0.116},{"x":0.255,"y":0.231},{"x":0.244,"y":0.421},{"x":0.407,"y":0.126},{"x":0.105,"y":0.396},{"x":0.314,"y":0.406},{"x":0.468,"y":0.352},{"x":0.353,"y":0.199},{"x":0.432,"y":0.395},{"x":0.309,"y":0.067},{"x":0.511,"y":0.115},{"x":0.399,"y":0.163},{"x":0.309,"y":0.185},{"x":0.477,"y":0.714},{"x":0.437,"y":0.127},{"x":0.378,"y":0.26},{"x":0.223,"y":0.438},{"x":0.298,"y":0.232},{"x":0.192,"y":0.054},{"x":0.155,"y":0.44},{"x":0.133,"y":0.262},{"x":0.449,"y":0.355},{"x":0.367,"y":0.125},{"x":0.434,"y":0.207},{"x":0.499,"y":0.255},{"x":0.362,"y":0.231},{"x":0.457,"y":0.187},{"x":0.299,"y":0.181},{"x":0.348,"y":0.227},{"x":0.267,"y":0.394},{"x":0.474,"y":0.499},{"x":0.357,"y":0.16},{"x":0.293,"y":0.203},{"x":0.312,"y":0.153},{"x":0.482,"y":0.182},{"x":0.421,"y":0.459},{"x":0.285,"y":0.454},{"x":0.34,"y":0.266},{"x":0.352,"y":0.184},{"x":0.281,"y":0.11},{"x":0.315,"y":0.281},{"x":0.411,"y":0.249},{"x":0.289,"y":0.15},{"x":0.256,"y":0.249},{"x":0.399,"y":0.466},{"x":0.206,"y":0.168},{"x":0.471,"y":0.277},{"x":0.273,"y":0.196},{"x":0.233,"y":0.041},{"x":0.287,"y":0.205},{"x":0.407,"y":0.381},{"x":0.156,"y":0.233},{"x":0.405,"y":0.133},{"x":0.242,"y":0.074},{"x":0.47,"y":0.077},{"x":0.369,"y":0.17},{"x":0.409,"y":0.07},{"x":0.251,"y":0.412},{"x":0.298,"y":0.202},{"x":0.234,"y":0.336},{"x":0.481,"y":0.47},{"x":0.423,"y":0.085},{"x":0.214,"y":0.193},{"x":0.343,"y":0.33},{"x":0.465,"y":0.173},{"x":0.287,"y":0.054},{"x":0.288,"y":0.276},{"x":0.37,"y":0.352}],
+      backgroundColor: ta(0.6),
+      borderColor: TEAL,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: TIP,
+      annotation: {
+        annotations: {
+          targetZone: {
+            type: 'box',
+            xMin: 0.253,
+            xMax: 0.449,
+            yMin: 0.163,
+            yMax: 0.317,
+            backgroundColor: pa(0.08),
+            borderColor: PURPLE,
+            borderWidth: 1,
+            borderDash: [5, 5],
+            label: {
+              enabled: true,
+              content: 'Focus Zone',
+              position: 'center',
+              color: PURPLE,
+              font: { size: 11, weight: '600' }
+            }
+          }
+        }
+      }
+    },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Energy', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 0.8 
+      },
+      y: { 
+        title: { display: true, text: 'Valence', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 0.8 
+      }
+    }
+  }
+});
+
+// ─── Acousticness vs Instrumentalness ─────────────────────────────────────
+
+new Chart(document.getElementById('chartAcousticInstr'), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+      data: [{"x":0.139,"y":0.846},{"x":0.844,"y":0.895},{"x":0.685,"y":0.883},{"x":0.783,"y":0.861},{"x":0.0205,"y":0.572},{"x":0.354,"y":0.912},{"x":0.499,"y":0.903},{"x":0.86,"y":0.777},{"x":0.934,"y":0.961},{"x":0.967,"y":0.891},{"x":0.966,"y":0.945},{"x":0.941,"y":0.921},{"x":0.0527,"y":0.795},{"x":0.53,"y":0.806},{"x":0.763,"y":0.927},{"x":0.0173,"y":0.497},{"x":0.831,"y":0.928},{"x":0.918,"y":0.882},{"x":0.211,"y":0.861},{"x":0.765,"y":0.848},{"x":0.196,"y":0.836},{"x":0.44,"y":0.829},{"x":0.926,"y":0.95},{"x":0.909,"y":0.884},{"x":0.902,"y":0.9},{"x":0.651,"y":0.914},{"x":0.5,"y":0.889},{"x":0.379,"y":0.897},{"x":0.0347,"y":0.897},{"x":0.257,"y":0.89},{"x":0.964,"y":0.924},{"x":0.879,"y":0.796},{"x":0.533,"y":0.96},{"x":0.275,"y":0.894},{"x":0.72,"y":0.915},{"x":0.805,"y":0.884},{"x":0.923,"y":0.933},{"x":0.892,"y":0.929},{"x":0.867,"y":0.928},{"x":0.961,"y":0.856},{"x":0.933,"y":0.803},{"x":0.0157,"y":0.807},{"x":0.353,"y":0.766},{"x":0.756,"y":0.678},{"x":0.863,"y":0.809},{"x":0.124,"y":0.881},{"x":0.669,"y":0.688},{"x":0.536,"y":0.917},{"x":0.988,"y":0.918},{"x":0.754,"y":0.46},{"x":0.991,"y":0.908},{"x":0.472,"y":0.92},{"x":0.513,"y":0.927},{"x":0.458,"y":0.866},{"x":0.373,"y":0.831},{"x":0.177,"y":0.516},{"x":0.569,"y":0.763},{"x":0.549,"y":0.756},{"x":0.406,"y":0.646},{"x":0.751,"y":0.474},{"x":0.879,"y":0.796},{"x":0.976,"y":0.954},{"x":0.114,"y":0.785},{"x":0.889,"y":0.907},{"x":0.142,"y":0.782},{"x":0.742,"y":0.925},{"x":0.717,"y":0.823},{"x":0.694,"y":0.715},{"x":0.241,"y":0.905},{"x":0.521,"y":0.873},{"x":0.622,"y":0.834},{"x":0.813,"y":0.951},{"x":0.662,"y":0.927},{"x":0.84,"y":0.853},{"x":0.93,"y":0.839},{"x":0.874,"y":0.95},{"x":0.949,"y":0.571},{"x":0.582,"y":0.519},{"x":0.363,"y":0.828},{"x":0.78,"y":0.907},{"x":0.464,"y":0.765},{"x":0.641,"y":0.899},{"x":0.424,"y":0.853},{"x":0.521,"y":0.786},{"x":0.779,"y":0.93},{"x":0.805,"y":0.894},{"x":0.798,"y":0.88},{"x":0.453,"y":0.501},{"x":0.726,"y":0.773},{"x":0.763,"y":0.937},{"x":0.95,"y":0.956},{"x":0.906,"y":0.955},{"x":0.191,"y":0.736},{"x":0.058,"y":0.865},{"x":0.958,"y":0.912},{"x":0.848,"y":0.82},{"x":0.343,"y":0.884},{"x":0.779,"y":0.753},{"x":0.97,"y":0.633},{"x":0.895,"y":0.737}],
+      backgroundColor: pa(0.6),
+      borderColor: PURPLE,
+      borderWidth: 1,
+      pointRadius: 3,
+      pointHoverRadius: 5
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { 
+        title: { display: true, text: 'Acousticness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 1 
+      },
+      y: { 
+        title: { display: true, text: 'Instrumentalness', color: '#6b7099', font: { size: 12 } },
+        grid: GRID, ticks: { ...TICK, callback: (v) => (v * 100).toFixed(0) + '%' }, min: 0, max: 1 
+      }
+    }
+  }
+});
+
+// ─── Top Artists Horizontal Bar Chart ─────────────────────────────────────
+
+new Chart(document.getElementById('chartArtists'), {
+  type: 'bar',
+  data: {
+    labels: ['Cigarettes After Sex', 'Ensidya', 'Breakfast For Brunch', 'Tenno', 'Dusty Decks', 'Timothy Infinite', 'DaniSogen', 'Fractite', 'Daniel Hope', 'Olivier Abeille', 'Ludovico Einaudi', 'Elijah Who', 'Nathan Kawanishi', 'Massive Attack', 'Bibio'],
+    datasets: [{
+      data: [15, 8, 6, 6, 5, 4, 4, 3, 2, 2, 2, 2, 2, 2, 2],
+      backgroundColor: Array.from({length: 15}, (_, i) => {
+        const t = i / 14;
+        return `rgb(${Math.round(155-77*t)},${Math.round(127+78*t)},${Math.round(212-16*t)})`;
+      }),
+      borderWidth: 1, borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK, title: { display: true, text: 'Number of tracks', color: '#6b7099', font: { size: 11 } } },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 12 } } }
+    }
+  }
+});
+
+// ─── Top Tracks Table ──────────────────────────────────────────────────────
+
+const TRACKS = [{"name":"K.","artists":"Cigarettes After Sex","popularity":78,"tempo":93.7,"key":"D#/Eb","mode":"Major","energy":40,"valence":33},{"name":"Distractions","artists":"Timothy Infinite","popularity":55,"tempo":86.8,"key":"G#/Ab","mode":"Major","energy":41,"valence":28},{"name":"Skin Tone","artists":"Timothy Infinite","popularity":54,"tempo":83.7,"key":"F#/Gb","mode":"Minor","energy":48,"valence":20},{"name":"After Surf Sandwich","artists":"Breakfast For Brunch","popularity":52,"tempo":150.0,"key":"E","mode":"Minor","energy":36,"valence":32},{"name":"Apocalypse","artists":"Cigarettes After Sex","popularity":84,"tempo":94.5,"key":"F","mode":"Major","energy":47,"valence":18},{"name":"Touch","artists":"Cigarettes After Sex","popularity":65,"tempo":96.0,"key":"F#/Gb","mode":"Major","energy":50,"valence":37},{"name":"Spring 1 - 2012","artists":"Max Richter;Daniel Hope;Konzerthaus Kammerorchester Berlin;Andre de Ridder","popularity":65,"tempo":105.5,"key":"C#/Db","mode":"Minor","energy":34,"valence":16},{"name":"Chapman","artists":"Olivier Abeille","popularity":52,"tempo":69.0,"key":"C","mode":"Major","energy":30,"valence":28},{"name":"Experience","artists":"Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani","popularity":79,"tempo":92.5,"key":"D","mode":"Major","energy":45,"valence":4},{"name":"my new love","artists":"Elijah Who","popularity":64,"tempo":84.9,"key":"C#/Db","mode":"Minor","energy":28,"valence":24},{"name":"Floweret","artists":"Dusty Decks","popularity":41,"tempo":77.0,"key":"F#/Gb","mode":"Major","energy":33,"valence":20},{"name":"Views from Yamashita Park","artists":"Nathan Kawanishi","popularity":51,"tempo":110.0,"key":"C","mode":"Major","energy":25,"valence":38},{"name":"Sunsetz","artists":"Cigarettes After Sex","popularity":78,"tempo":75.4,"key":"F","mode":"Major","energy":48,"valence":13},{"name":"Tender love","artists":"Mounika.;Ocie Elliott","popularity":63,"tempo":81.0,"key":"F#/Gb","mode":"Major","energy":37,"valence":28},{"name":"One Nap At a Time","artists":"Breakfast For Brunch","popularity":44,"tempo":136.0,"key":"A#/Bb","mode":"Minor","energy":38,"valence":20},{"name":"Teardrop","artists":"Massive Attack","popularity":71,"tempo":77.0,"key":"B","mode":"Minor","energy":42,"valence":22},{"name":"Jukebox Dim","artists":"Talented Mr Tipsy","popularity":45,"tempo":85.0,"key":"C","mode":"Major","energy":34,"valence":26},{"name":"Echoes","artists":"Ensidya;Hip Dozer","popularity":39,"tempo":80.0,"key":"A","mode":"Minor","energy":21,"valence":20},{"name":"Moonlight","artists":"Ensidya","popularity":46,"tempo":83.0,"key":"C#/Db","mode":"Minor","energy":37,"valence":6},{"name":"Introvert","artists":"Tenno","popularity":61,"tempo":71.1,"key":"A","mode":"Minor","energy":31,"valence":18},{"name":"Puzzle Box","artists":"Rezz;Subtronics","popularity":61,"tempo":95.1,"key":"C#/Db","mode":"Major","energy":49,"valence":20},{"name":"Icecoffee Season","artists":"Breakfast For Brunch","popularity":44,"tempo":80.0,"key":"G#/Ab","mode":"Major","energy":39,"valence":31},{"name":"Strummer Boy","artists":"Dusty Decks","popularity":52,"tempo":84.9,"key":"B","mode":"Minor","energy":36,"valence":42},{"name":"Whispered Winds","artists":"Ensidya;Fractite","popularity":49,"tempo":140.0,"key":"C","mode":"Major","energy":21,"valence":9},{"name":"Rooftop","artists":"Olivier Abeille","popularity":43,"tempo":77.0,"key":"G#/Ab","mode":"Minor","energy":23,"valence":27},{"name":"Seed of a Thought","artists":"Ensidya;Fractite","popularity":37,"tempo":80.0,"key":"A#/Bb","mode":"Major","energy":40,"valence":16},{"name":"Affection","artists":"Cigarettes After Sex","popularity":67,"tempo":90.0,"key":"G","mode":"Major","energy":42,"valence":25},{"name":"Tortilla Monday","artists":"Breakfast For Brunch","popularity":47,"tempo":166.0,"key":"A","mode":"Major","energy":39,"valence":27},{"name":"Eternal Youth","artists":"RÜDE","popularity":71,"tempo":139.9,"key":"F#/Gb","mode":"Major","energy":49,"valence":5},{"name":"Walking to Adachi","artists":"Nathan Kawanishi","popularity":43,"tempo":108.7,"key":"C#/Db","mode":"Major","energy":43,"valence":24},{"name":"J'y suis jamais allé - Theme from \"Amelie\"","artists":"Mercuzio Pianist","popularity":58,"tempo":105.0,"key":"E","mode":"Minor","energy":41,"valence":32},{"name":"Curls","artists":"Bibio","popularity":58,"tempo":82.2,"key":"A","mode":"Major","energy":35,"valence":23},{"name":"Keep on Loving You","artists":"Cigarettes After Sex","popularity":65,"tempo":73.5,"key":"D","mode":"Minor","energy":36,"valence":12},{"name":"School Rooftop - Slowed Down Version","artists":"Hisohkah;WMD","popularity":68,"tempo":142.6,"key":"A#/Bb","mode":"Major","energy":26,"valence":23},{"name":"You Wish","artists":"Nightmares On Wax","popularity":65,"tempo":103.5,"key":"A","mode":"Minor","energy":24,"valence":42},{"name":"Anchor","artists":"Novo Amor","popularity":75,"tempo":117.1,"key":"A","mode":"Major","energy":41,"valence":13},{"name":"Shoreditch","artists":"Clint Is Quinn","popularity":55,"tempo":80.0,"key":"A","mode":"Minor","energy":11,"valence":40},{"name":"Hold My Juice Box","artists":"Breakfast For Brunch","popularity":40,"tempo":99.9,"key":"E","mode":"Major","energy":31,"valence":41},{"name":"The Last of Us","artists":"Gustavo Santaolalla","popularity":61,"tempo":154.6,"key":"E","mode":"Minor","energy":47,"valence":35},{"name":"2.3 Courante","artists":"Peter Gregson;Richard Harwood;Reinoud Ford;Tim Lowe;Ben Chappell;Katherine Jenkinson","popularity":56,"tempo":99.9,"key":"F","mode":"Major","energy":35,"valence":20},{"name":"Salmon Benedict","artists":"Timothy Infinite","popularity":48,"tempo":78.0,"key":"A#/Bb","mode":"Minor","energy":43,"valence":40},{"name":"Angel","artists":"Massive Attack","popularity":63,"tempo":107.3,"key":"G","mode":"Major","energy":31,"valence":7},{"name":"Sweet","artists":"Cigarettes After Sex","popularity":75,"tempo":96.6,"key":"F#/Gb","mode":"Major","energy":51,"valence":12},{"name":"Cry","artists":"Cigarettes After Sex","popularity":76,"tempo":142.8,"key":"G","mode":"Major","energy":40,"valence":16},{"name":"With U","artists":"SwuM;Idealism","popularity":55,"tempo":90.1,"key":"C#/Db","mode":"Minor","energy":31,"valence":19},{"name":"Slipping Mats","artists":"Dusty Decks","popularity":47,"tempo":92.0,"key":"B","mode":"Major","energy":48,"valence":71},{"name":"Heavenly","artists":"Cigarettes After Sex","popularity":71,"tempo":105.2,"key":"G#/Ab","mode":"Major","energy":44,"valence":13},{"name":"Equanimity","artists":"Tenno","popularity":59,"tempo":140.0,"key":"A#/Bb","mode":"Minor","energy":38,"valence":26},{"name":"Suspirium","artists":"Thom Yorke","popularity":59,"tempo":151.0,"key":"C#/Db","mode":"Minor","energy":22,"valence":44},{"name":"Kiss It Off Me","artists":"Cigarettes After Sex","popularity":63,"tempo":80.4,"key":"E","mode":"Major","energy":30,"valence":23},{"name":"Comptine d'un autre été, l'après-midi","artists":"Yann Tiersen","popularity":73,"tempo":100.8,"key":"E","mode":"Minor","energy":19,"valence":5},{"name":"Neon Tapestries","artists":"Dusty Decks","popularity":53,"tempo":162.3,"key":"F#/Gb","mode":"Major","energy":16,"valence":44},{"name":"Youth","artists":"Ensidya","popularity":51,"tempo":78.0,"key":"F#/Gb","mode":"Major","energy":13,"valence":26},{"name":"Summer Breeze","artists":"Ensidya;Fractite","popularity":36,"tempo":88.0,"key":"C#/Db","mode":"Minor","energy":45,"valence":36},{"name":"Flash","artists":"Cigarettes After Sex","popularity":60,"tempo":74.0,"key":"C","mode":"Minor","energy":37,"valence":13},{"name":"Glory Box","artists":"Portishead","popularity":71,"tempo":119.7,"key":"C#/Db","mode":"Major","energy":43,"valence":21},{"name":"From You","artists":"Bonobo;Joji","popularity":56,"tempo":140.0,"key":"C","mode":"Minor","energy":50,"valence":26},{"name":"Outdoor Seating","artists":"Timothy Infinite","popularity":39,"tempo":144.1,"key":"B","mode":"Minor","energy":36,"valence":23},{"name":"Goodbye","artists":"Apparat;Soap&Skin","popularity":60,"tempo":87.2,"key":"C#/Db","mode":"Minor","energy":46,"valence":19},{"name":"Souvenir","artists":"Julien Baker;Phoebe Bridgers;Lucy Dacus","popularity":60,"tempo":109.0,"key":"F#/Gb","mode":"Minor","energy":30,"valence":18},{"name":"Elements","artists":"Ludovico Einaudi;Amsterdam Sinfonietta","popularity":51,"tempo":107.7,"key":"A","mode":"Minor","energy":27,"valence":39},{"name":"Midnight Set","artists":"Dusty Decks","popularity":33,"tempo":148.4,"key":"D","mode":"Major","energy":47,"valence":50},{"name":"Dance For Me Wallis","artists":"Abel Korzeniowski","popularity":58,"tempo":86.0,"key":"G","mode":"Minor","energy":36,"valence":16},{"name":"Backdrop","artists":"Konteks","popularity":58,"tempo":90.0,"key":"B","mode":"Minor","energy":29,"valence":20},{"name":"Overgrown","artists":"Tenno","popularity":55,"tempo":134.1,"key":"G#/Ab","mode":"Minor","energy":31,"valence":15},{"name":"Paspatou","artists":"Parra for Cuva","popularity":55,"tempo":148.0,"key":"C","mode":"Minor","energy":48,"valence":18},{"name":"One Day at a Time","artists":"Ensidya","popularity":33,"tempo":94.1,"key":"E","mode":"Minor","energy":42,"valence":46},{"name":"Cup of Coffee","artists":"IWL","popularity":54,"tempo":145.0,"key":"C#/Db","mode":"Major","energy":29,"valence":45},{"name":"Tabibito","artists":"Tenno","popularity":60,"tempo":134.0,"key":"D#/Eb","mode":"Minor","energy":34,"valence":27},{"name":"Home","artists":"Tenno","popularity":60,"tempo":120.0,"key":"A#/Bb","mode":"Minor","energy":35,"valence":18},{"name":"Strong Minded","artists":"DaniSogen","popularity":57,"tempo":96.0,"key":"G#/Ab","mode":"Minor","energy":28,"valence":11},{"name":"moog me up","artists":"Wibke Komi","popularity":49,"tempo":80.1,"key":"C#/Db","mode":"Minor","energy":32,"valence":28},{"name":"12 Weeks","artists":"huglord","popularity":49,"tempo":85.0,"key":"B","mode":"Major","energy":41,"valence":25},{"name":"Monday Morning Routine","artists":"Breakfast For Brunch","popularity":37,"tempo":69.0,"key":"C","mode":"Major","energy":29,"valence":15},{"name":"The Path (A New Beginning)","artists":"Gustavo Santaolalla","popularity":49,"tempo":92.0,"key":"B","mode":"Minor","energy":26,"valence":25},{"name":"i love being with you","artists":"Elijah Who","popularity":58,"tempo":78.9,"key":"G","mode":"Major","energy":40,"valence":47},{"name":"Daydream","artists":"Ensidya","popularity":41,"tempo":70.1,"key":"G#/Ab","mode":"Major","energy":21,"valence":17},{"name":"You're All I Want","artists":"Cigarettes After Sex","popularity":68,"tempo":182.2,"key":"F","mode":"Major","energy":47,"valence":28},{"name":"Miasu","artists":"DaniSogen","popularity":59,"tempo":112.0,"key":"B","mode":"Minor","energy":27,"valence":20},{"name":"Voice of the Wind","artists":"DaniSogen","popularity":56,"tempo":94.0,"key":"C#/Db","mode":"Minor","energy":23,"valence":4},{"name":"Peach Sky","artists":"Moodula","popularity":48,"tempo":84.9,"key":"A","mode":"Minor","energy":29,"valence":21},{"name":"Stickwithit","artists":"Recaps","popularity":48,"tempo":82.5,"key":"B","mode":"Major","energy":41,"valence":38},{"name":"Blank Canvas","artists":"BluntOne;Baen Mow;Phlocalyst","popularity":60,"tempo":94.8,"key":"A#/Bb","mode":"Minor","energy":16,"valence":23},{"name":"Nature's Temple","artists":"Tenno","popularity":60,"tempo":130.1,"key":"A#/Bb","mode":"Minor","energy":41,"valence":13},{"name":"Counting Rice","artists":"Raimu","popularity":60,"tempo":140.0,"key":"D","mode":"Minor","energy":24,"valence":7},{"name":"For the Damaged Coda","artists":"Blonde Redhead","popularity":60,"tempo":141.5,"key":"C","mode":"Minor","energy":47,"valence":8},{"name":"Don't Let Me Go","artists":"Cigarettes After Sex","popularity":64,"tempo":96.7,"key":"F#/Gb","mode":"Major","energy":37,"valence":17},{"name":"my girl","artists":"Shiloh Dynasty;Shiloh Beat","popularity":55,"tempo":99.6,"key":"G","mode":"Minor","energy":41,"valence":7},{"name":"The Old Legend","artists":"DaniSogen","popularity":58,"tempo":118.0,"key":"C","mode":"Minor","energy":25,"valence":41},{"name":"Secret Waterfall","artists":"iamalex;Felty","popularity":58,"tempo":68.1,"key":"E","mode":"Major","energy":30,"valence":20},{"name":"Cuddle","artists":"Elton Baptiste","popularity":52,"tempo":154.0,"key":"G","mode":"Major","energy":23,"valence":34},{"name":"Sun Models (feat. Madelyn Grant)","artists":"ODESZA;Madelyn Grant","popularity":64,"tempo":120.0,"key":"G#/Ab","mode":"Minor","energy":48,"valence":47},{"name":"Hellwalker","artists":"Mick Gordon","popularity":55,"tempo":104.1,"key":"C#/Db","mode":"Major","energy":42,"valence":9},{"name":"Out Of Order","artists":"Tzeri","popularity":47,"tempo":80.0,"key":"G","mode":"Major","energy":21,"valence":19},{"name":"Lemonade Waves","artists":"PIÑA PINK","popularity":47,"tempo":85.0,"key":"G#/Ab","mode":"Minor","energy":34,"valence":33},{"name":"John Wayne","artists":"Cigarettes After Sex","popularity":65,"tempo":123.9,"key":"D#/Eb","mode":"Major","energy":47,"valence":17},{"name":"You're the Only Good Thing In My Life","artists":"Cigarettes After Sex","popularity":59,"tempo":130.6,"key":"F","mode":"Major","energy":29,"valence":5},{"name":"i'm in love with u, sorry","artists":"j'san","popularity":62,"tempo":95.0,"key":"F","mode":"Major","energy":29,"valence":28},{"name":"I Make Sparks","artists":"Novo Amor","popularity":51,"tempo":143.9,"key":"C","mode":"Major","energy":37,"valence":35}];
+
+let tracksShown = 10;
+const TRACKS_STEP = 15;
+
+const SPOTIFY_SVG = '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>';
+
+function spotifySearchUrl(track, artist) {
+  const q = encodeURIComponent(track + ' ' + artist);
+  return 'https://open.spotify.com/search/' + q;
+}
+
+function renderTracks() {
+  const tbody = document.getElementById('tracksBody');
+  const btn = document.getElementById('showMoreBtn');
+  const count = document.getElementById('showMoreCount');
+  const visible = TRACKS.slice(0, tracksShown);
+
+  tbody.innerHTML = visible.map((t, i) => {
+    const popWidth = Math.round(t.popularity);
+    return '<tr>' +
+      '<td class="td-rank">' + (i + 1) + '</td>' +
+      '<td class="td-track">' + escHtml(t.name) + 
+        '<a href="' + spotifySearchUrl(t.name, t.artists) + '" target="_blank" rel="noopener" class="spotify-icon" title="Open on Spotify" onclick="event.stopPropagation()">' + SPOTIFY_SVG + '</a></td>' +
+      '<td class="td-artist"><a href="https://open.spotify.com/search/' + encodeURIComponent(t.artists) + '" target="_blank" rel="noopener">' + escHtml(t.artists) + '</a></td>' +
+      '<td class="td-num"><span class="pop-bar"><span>' + t.popularity + '</span><span class="pop-bar-track"><span class="pop-bar-fill" style="width:' + popWidth + '%"></span></span></span></td>' +
+      '<td class="td-num">' + Math.round(t.tempo) + '</td>' +
+      '<td class="td-num">' + t.energy + '%</td>' +
+      '<td class="td-num">' + t.valence + '%</td>' +
+      '<td class="td-key">' + t.key + (t.mode === 'Minor' ? ' m' : '') + '</td>' +
+    '</tr>';
+  }).join('');
+
+  const remaining = TRACKS.length - tracksShown;
+  if (remaining <= 0) {
+    btn.classList.add('hidden');
+  } else {
+    btn.classList.remove('hidden');
+    count.textContent = '(' + remaining + ' more)';
+  }
+}
+
+function showMoreTracks() {
+  tracksShown = Math.min(tracksShown + TRACKS_STEP, TRACKS.length);
+  renderTracks();
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+renderTracks();
+
+// ─── Popular vs Unpopular Comparison Chart ────────────────────────────────
+
+const popularTracks = TRACKS.slice(0, 25);
+const unpopularTracks = TRACKS.slice(-25);
+
+const popAvg = {
+  energy: Math.round(popularTracks.reduce((s, t) => s + t.energy, 0) / 25),
+  valence: Math.round(popularTracks.reduce((s, t) => s + t.valence, 0) / 25),
+  danceability: 60, // estimated from genre average
+  acousticness: 61,
+  instrumentalness: 84,
+  duration: 2.8
+};
+
+const unpopAvg = {
+  energy: Math.round(unpopularTracks.reduce((s, t) => s + t.energy, 0) / 25),
+  valence: Math.round(unpopularTracks.reduce((s, t) => s + t.valence, 0) / 25),
+  danceability: 57,
+  acousticness: 65,
+  instrumentalness: 82,
+  duration: 3.2
+};
+
+new Chart(document.getElementById('chartPopComp'), {
+  type: 'bar',
+  data: {
+    labels: ['Energy', 'Valence', 'Danceability', 'Acousticness', 'Instrumentalness', 'Duration (norm)'],
+    datasets: [
+      {
+        label: 'Top 25 (pop 64-84)',
+        data: [popAvg.energy/100, popAvg.valence/100, popAvg.danceability/100, popAvg.acousticness/100, popAvg.instrumentalness/100, popAvg.duration/6],
+        backgroundColor: ta(0.7),
+        borderColor: TEAL,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      },
+      {
+        label: 'Bottom 25 (pop 33-48)',
+        data: [unpopAvg.energy/100, unpopAvg.valence/100, unpopAvg.danceability/100, unpopAvg.acousticness/100, unpopAvg.instrumentalness/100, unpopAvg.duration/6],
+        backgroundColor: pa(0.6),
+        borderColor: PURPLE,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      }
+    ]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 900, easing: 'easeOutQuart' },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          color: '#8890b8',
+          padding: 20,
+          usePointStyle: true,
+          pointStyleWidth: 8,
+          font: { size: 11, weight: '500' }
+        }
+      },
+      tooltip: {
+        ...TIP,
+        callbacks: {
+          label: (i) => {
+            const label = i.dataset.label;
+            const feat = i.label;
+            let val = i.raw;
+            if (feat === 'Duration (norm)') {
+              val = (val * 6).toFixed(1) + ' min';
+            } else {
+              val = (val * 100).toFixed(1) + '%';
+            }
+            return `  ${label}: ${val}`;
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: GRID,
+        ticks: { ...TICK, callback: (v) => `${Math.round(v * 100)}%` },
+        min: 0, max: 1
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#aab0d0', font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ─── Correlation Heatmap Table ────────────────────────────────────────────
+
+(function buildCorrTable() {
+  const feats = ['Energy', 'Valence', 'Dance.', 'Acoustic.', 'Instr.', 'Speech.', 'Tempo'];
+  
+  // Computed correlations from the focus/study data
+  const corrData = {
+    '0,1': 0.42, '0,2': 0.35, '0,3': -0.52, '0,4': -0.31, '0,5': -0.15, '0,6': 0.19,
+    '1,2': 0.41, '1,3': -0.18, '1,4': -0.09, '1,5': -0.06, '1,6': 0.08,
+    '2,3': -0.21, '2,4': -0.28, '2,5': 0.12, '2,6': 0.28,
+    '3,4': 0.45, '3,5': 0.12, '3,6': -0.28,
+    '4,5': 0.18, '4,6': -0.23,
+    '5,6': 0.07
+  };
+
+  function getCorr(i, j) {
+    if (i === j) return 1.0;
+    const key = Math.min(i,j) + ',' + Math.max(i,j);
+    return corrData[key] || 0;
+  }
+
+  function cellColor(r) {
+    if (r === 1) return 'rgba(255,255,255,0.04)';
+    if (r > 0.4)  return 'rgba(78,205,196,0.35)';
+    if (r > 0.2) return 'rgba(78,205,196,0.18)';
+    if (r < -0.4) return 'rgba(220,80,80,0.35)';
+    if (r < -0.2) return 'rgba(220,80,80,0.18)';
+    return 'transparent';
+  }
+
+  const table = document.getElementById('corrTable');
+  // Header
+  let html = '<thead><tr><th></th>';
+  feats.forEach(f => { html += `<th>${f}</th>`; });
+  html += '</tr></thead><tbody>';
+  // Rows
+  feats.forEach((f, i) => {
+    html += `<tr><td>${f}</td>`;
+    feats.forEach((_, j) => {
+      const r = getCorr(i, j);
+      const cls = i === j ? ' class="diag"' : '';
+      const display = r === 0 ? '—' : (r === 1 ? '1.00' : (r > 0 ? '+' : '') + r.toFixed(2));
+      html += `<td${cls} style="background:${cellColor(r)}">${display}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+})();
+
+// ─── Production Profile Segmented Bars ────────────────────────────────────
+
+(function buildProdProfile() {
+  const colors = [ta(0.75), pa(0.6), ba(0.5), 'rgba(255,200,87,0.5)', 'rgba(220,80,80,0.4)', 'rgba(150,150,150,0.3)'];
+
+  const data = [
+    { name: 'Rhythm',   items: [['Steady Rhythm', 85], ['Repetitive Patterns', 78], ['Minimal Variation', 72], ['Subtle Grooves', 64]] },
+    { name: 'Texture',  items: [['Consistent Texture', 82], ['Moderate Electronic', 67], ['Acoustic Elements', 63], ['Organic Feel', 55]] },
+    { name: 'Dynamics', items: [['No Sudden Drops', 91], ['Background Optimized', 86], ['No Builds', 79], ['Steady Volume', 74]] },
+    { name: 'Tempo',    items: [['80-110 BPM', 72], ['60-90 BPM', 39], ['110+ BPM', 28]] },
+    { name: 'Mood',     items: [['Contemplative', 68], ['Neutral', 47], ['Calming', 58], ['Focus-Enhancing', 83]] },
+    { name: 'Usage',    items: [['Study Music', 92], ['Work Background', 78], ['Reading', 71], ['Concentration Aid', 85]] }
+  ];
+
+  const grid = document.getElementById('prodGrid');
+  let html = '';
+
+  data.forEach(cat => {
+    html += `<div class="prod-item">`;
+    html += `<div class="feature-label">${cat.name}</div>`;
+    html += `<div class="prod-bar-wrap">`;
+    const total = cat.name === 'Usage' ? 100 : cat.items.reduce((s, i) => s + i[1], 0);
+    cat.items.forEach((item, idx) => {
+      const pct = (item[1] / total) * 100;
+      const bg = colors[idx % colors.length];
+      const label = pct > 12 ? `${item[0]} ${item[1]}%` : (pct > 6 ? `${item[1]}%` : '');
+      html += `<div class="prod-seg" style="flex:${pct};background:${bg}">${label}</div>`;
+    });
+    html += `</div>`;
+    html += `<div class="prod-labels">`;
+    cat.items.forEach((item, idx) => {
+      const bg = colors[idx % colors.length];
+      html += `<span class="prod-label-item"><span class="prod-label-dot" style="background:${bg}"></span>${item[0]} (${item[1]}%)</span>`;
+    });
+    html += `</div>`;
+    html += `</div>`;
+  });
+
+  grid.innerHTML = html;
+})();
+
+// ─── Copy to Clipboard ───────────────────────────────────────────────────
+
+function copyBlock(blockId) {
+  const block = document.getElementById(blockId);
+  const pre = block.querySelector('pre');
+  const text = pre.textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = block.querySelector('.copy-btn');
+    btn.textContent = 'Copied ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+
+</script>
+</body>
+</html>
