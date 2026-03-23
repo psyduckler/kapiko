@@ -289,8 +289,16 @@
   
         
 
-    <!-- Platform tabs -->
-    <div class="prompt-tabs">
+    
+
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>🧪 Looking to recreate this song?</h3>
+      <p>Use our data-driven prompts with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service. Grab the structured JSON for programmatic access.</p>
+    </div>
+
+    
       <button class="prompt-tab active" onclick="switchTab(this, 'general')">General</button>
       <button class="prompt-tab" onclick="switchTab(this, 'suno')">Suno</button>
       <button class="prompt-tab" onclick="switchTab(this, 'udio')">Udio</button>
@@ -303,7 +311,7 @@
         <span class="prompt-card-label">Ready-to-Use Prompt</span>
         <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">Copy</button>
       </div>
-      <div class="prompt-text" id="promptGeneral">Create a 3:30 jazz piano track at 98.4 BPM in A Minor. Instrumental — mixed acoustic/electric. contemplative / contemplative and gentle. Expressive, Dynamic. Subdued energy (36%), contemplative mood (35%). Think Similar Artist meets ambient textures.</div>
+      <div class="prompt-text" id="promptGeneral">Create a 3:30 jazz piano track at 98.4 BPM in A Minor. Instrumental — mixed acoustic/electric. contemplative / contemplative and gentle. Expressive, Dynamic. Subdued energy (36%), contemplative mood (35%). Inspired by the jazz piano tradition.</div>
     </div>
 
     <!-- Suno prompt -->
@@ -368,10 +376,8 @@
     "dynamics": "static",
     "stereo": "moderate"
   },
-  "reference_artists": [
-    "Similar Artist"
-  ],
-  "prompt": "Create a 3:30 jazz piano track at 98.4 BPM in A Minor. Instrumental \u2014 mixed acoustic/electric. contemplative / contemplative and gentle. Expressive, Dynamic. Subdued energy (36%), contemplative mood (35%). Think Similar Artist meets ambient textures."
+  "reference_artists": ["Unknown Artist"],
+  "prompt": "Create a 3:30 jazz piano track at 98.4 BPM in A Minor. Instrumental \u2014 mixed acoustic/electric. contemplative / contemplative and gentle. Expressive, Dynamic. Subdued energy (36%), contemplative mood (35%). Inspired by the jazz piano tradition."
 }</pre>
     </div>
 
