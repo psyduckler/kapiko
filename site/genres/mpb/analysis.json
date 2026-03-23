@@ -1,0 +1,2802 @@
+{
+  "genre": "MPB",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 76.008,
+    "max": 204.767,
+    "mean": 126.624,
+    "median": 122.444,
+    "q1": 102.058,
+    "q3": 145.069,
+    "histogram": {
+      "70-79": 4,
+      "80-89": 4,
+      "90-99": 16,
+      "100-109": 12,
+      "110-119": 12,
+      "120-129": 10,
+      "130-139": 12,
+      "140-149": 10,
+      "150-159": 3,
+      "160-169": 5,
+      "170-179": 6,
+      "180-189": 2,
+      "200+": 4
+    }
+  },
+  "key_distribution": {
+    "G": 21,
+    "D": 19,
+    "A": 13,
+    "C": 13,
+    "B": 8,
+    "C#/Db": 6,
+    "F": 5,
+    "G#/Ab": 5,
+    "E": 4,
+    "F#/Gb": 3,
+    "A#/Bb": 2,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Minor": 30,
+    "Major": 70
+  },
+  "key_mode_distribution": {
+    "G Major": 17,
+    "D Major": 15,
+    "C Major": 11,
+    "A Major": 8,
+    "B Major": 5,
+    "A Minor": 5,
+    "C#/Db Minor": 4,
+    "D Minor": 4,
+    "G#/Ab Major": 4,
+    "G Minor": 4,
+    "F Major": 3,
+    "F#/Gb Minor": 3,
+    "B Minor": 3,
+    "E Major": 3,
+    "C Minor": 2,
+    "F Minor": 2,
+    "C#/Db Major": 2,
+    "E Minor": 1,
+    "A#/Bb Minor": 1,
+    "D#/Eb Major": 1,
+    "G#/Ab Minor": 1,
+    "A#/Bb Major": 1
+  },
+  "energy": {
+    "min": 0.129,
+    "max": 0.949,
+    "mean": 0.57,
+    "median": 0.565,
+    "q1": 0.42,
+    "q3": 0.744
+  },
+  "valence": {
+    "min": 0.101,
+    "max": 0.979,
+    "mean": 0.55,
+    "median": 0.544,
+    "q1": 0.403,
+    "q3": 0.707
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.497,
+      "valence": 0.457
+    },
+    {
+      "energy": 0.422,
+      "valence": 0.546
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.553
+    },
+    {
+      "energy": 0.327,
+      "valence": 0.3
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.27,
+      "valence": 0.421
+    },
+    {
+      "energy": 0.394,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.794,
+      "valence": 0.683
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.225,
+      "valence": 0.101
+    },
+    {
+      "energy": 0.226,
+      "valence": 0.487
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.726
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.498
+    },
+    {
+      "energy": 0.593,
+      "valence": 0.555
+    },
+    {
+      "energy": 0.358,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.33,
+      "valence": 0.373
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.67
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.247
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.413,
+      "valence": 0.504
+    },
+    {
+      "energy": 0.568,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.494,
+      "valence": 0.547
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.967
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.734
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.812
+    },
+    {
+      "energy": 0.947,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.42,
+      "valence": 0.553
+    },
+    {
+      "energy": 0.469,
+      "valence": 0.263
+    },
+    {
+      "energy": 0.438,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.37,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.568
+    },
+    {
+      "energy": 0.442,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.308,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.447,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.314
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.83
+    },
+    {
+      "energy": 0.803,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.617,
+      "valence": 0.93
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.779
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.819,
+      "valence": 0.817
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.365,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.436,
+      "valence": 0.264
+    },
+    {
+      "energy": 0.431,
+      "valence": 0.698
+    },
+    {
+      "energy": 0.386,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.254,
+      "valence": 0.382
+    },
+    {
+      "energy": 0.33,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.707
+    },
+    {
+      "energy": 0.389,
+      "valence": 0.68
+    },
+    {
+      "energy": 0.623,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.661,
+      "valence": 0.842
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.729
+    },
+    {
+      "energy": 0.432,
+      "valence": 0.605
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.643
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.312
+    },
+    {
+      "energy": 0.567,
+      "valence": 0.768
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.541,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.548,
+      "valence": 0.103
+    },
+    {
+      "energy": 0.145,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.329,
+      "valence": 0.656
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.549,
+      "valence": 0.528
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.602
+    },
+    {
+      "energy": 0.517,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.36,
+      "valence": 0.979
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.346,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.811
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.444,
+      "valence": 0.956
+    },
+    {
+      "energy": 0.347,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.42,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.312
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.895
+    },
+    {
+      "energy": 0.663,
+      "valence": 0.651
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.906
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.549,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.87
+    },
+    {
+      "energy": 0.949,
+      "valence": 0.67
+    },
+    {
+      "energy": 0.129,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.653,
+      "valence": 0.409
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.624,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.774,
+      "valence": 0.721
+    },
+    {
+      "energy": 0.581,
+      "valence": 0.614
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.851,
+      "valence": 0.126
+    }
+  ],
+  "acousticness": {
+    "min": 0.002,
+    "max": 0.964,
+    "mean": 0.408,
+    "median": 0.413,
+    "q1": 0.146,
+    "q3": 0.636
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.366,
+    "mean": 0.011,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.492,
+      "instrumentalness": 0.366
+    },
+    {
+      "acousticness": 0.474,
+      "instrumentalness": 0.085
+    },
+    {
+      "acousticness": 0.377,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.767,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.123
+    },
+    {
+      "acousticness": 0.597,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.865,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.244,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.196,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.636,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.957,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.423,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.215,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.384,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.546,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.596,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.612,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.737,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.163,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.791,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.245,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.467,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.174,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.756,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.848,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.378,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.817,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.437,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.922,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.46,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.139,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.836,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.131,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.482,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.745,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.049
+    },
+    {
+      "acousticness": 0.246,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.71,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.703,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.917,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.892,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.249,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.41,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.496,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.195
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.197,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.129
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.565,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.247,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.929,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.585,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.283,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.746,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.306,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.65,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.779,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.6,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.653,
+      "instrumentalness": 0.047
+    },
+    {
+      "acousticness": 0.522,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.539,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.593,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.402,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.964,
+      "instrumentalness": 0.016
+    },
+    {
+      "acousticness": 0.565,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.61,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.15,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.047
+    },
+    {
+      "acousticness": 0.161,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.624,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.146,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.961,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.318,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.421,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.121,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.286,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 89293,
+    "max": 424786,
+    "mean": 231422.61,
+    "median": 228976.5,
+    "q1": 199500,
+    "q3": 261666
+  },
+  "danceability": {
+    "min": 0.253,
+    "max": 0.826,
+    "mean": 0.572,
+    "median": 0.581,
+    "q1": 0.505,
+    "q3": 0.656
+  },
+  "loudness": {
+    "min": -19.89,
+    "max": -3.651,
+    "mean": -9.14,
+    "median": -8.758,
+    "q1": -10.731,
+    "q3": -6.98
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.303,
+    "mean": 0.052,
+    "median": 0.038,
+    "q1": 0.031,
+    "q3": 0.049
+  },
+  "top_artists": [
+    {
+      "name": "Legi\u00e3o Urbana",
+      "count": 7
+    },
+    {
+      "name": "Detonautas Roque Clube",
+      "count": 5
+    },
+    {
+      "name": "Os Paralamas Do Sucesso",
+      "count": 4
+    },
+    {
+      "name": "Nando Reis",
+      "count": 4
+    },
+    {
+      "name": "Jota Quest",
+      "count": 3
+    },
+    {
+      "name": "Jorge Arag\u00e3o",
+      "count": 3
+    },
+    {
+      "name": "Melim",
+      "count": 3
+    },
+    {
+      "name": "Rodrigo Amarante",
+      "count": 2
+    },
+    {
+      "name": "Z\u00e9 Ramalho",
+      "count": 2
+    },
+    {
+      "name": "Gonzaguinha",
+      "count": 2
+    },
+    {
+      "name": "Fagner",
+      "count": 2
+    },
+    {
+      "name": "Roupa Nova",
+      "count": 2
+    },
+    {
+      "name": "Renato Teixeira",
+      "count": 2
+    },
+    {
+      "name": "Dalto",
+      "count": 2
+    },
+    {
+      "name": "Raul Seixas",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Tuyo (Narcos Theme) [Extended Version] - A Netflix Original Series Soundtrack",
+      "artists": "Rodrigo Amarante",
+      "album": "Tuyo (Narcos Theme) [Extended Version] [A Netflix Original Series Soundtrack]",
+      "popularity": 66,
+      "tempo": 112.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.497,
+      "valence": 0.457,
+      "danceability": 0.765,
+      "acousticness": 0.492,
+      "instrumentalness": 0.366,
+      "loudness": -7.8,
+      "speechiness": 0.04,
+      "duration_ms": 151565,
+      "slug": "tuyo-narcos-theme-extended-version-a-netflix-original-series-soundtrack-rodrigo"
+    },
+    {
+      "name": "Tuyo (Narcos Theme) - A Netflix Original Series Soundtrack",
+      "artists": "Rodrigo Amarante",
+      "album": "Tuyo (Narcos Theme) [A Netflix Original Series Soundtrack]",
+      "popularity": 65,
+      "tempo": 112.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.422,
+      "valence": 0.546,
+      "danceability": 0.72,
+      "acousticness": 0.474,
+      "instrumentalness": 0.085,
+      "loudness": -13.3,
+      "speechiness": 0.069,
+      "duration_ms": 89293,
+      "slug": "tuyo-narcos-theme-a-netflix-original-series-soundtrack-rodrigo-amarante"
+    },
+    {
+      "name": "F\u00e1cil - Ac\u00fastico",
+      "artists": "Jota Quest",
+      "album": "Ac\u00fastico Jota Quest",
+      "popularity": 54,
+      "tempo": 95.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.537,
+      "valence": 0.313,
+      "danceability": 0.556,
+      "acousticness": 0.377,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.028,
+      "duration_ms": 229540,
+      "slug": "f\u00e1cil-ac\u00fastico-jota-quest"
+    },
+    {
+      "name": "Outro Lugar",
+      "artists": "Detonautas Roque Clube",
+      "album": "Detonautas Ac\u00fastico",
+      "popularity": 54,
+      "tempo": 104.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.553,
+      "danceability": 0.616,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.032,
+      "duration_ms": 236973,
+      "slug": "outro-lugar-detonautas-roque-clube"
+    },
+    {
+      "name": "Ch\u00e3o de Giz",
+      "artists": "Z\u00e9 Ramalho;Paulinho Moska",
+      "album": "Moska Apresenta Zoombido: Z\u00e9 Ramalho",
+      "popularity": 53,
+      "tempo": 141.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.327,
+      "valence": 0.3,
+      "danceability": 0.613,
+      "acousticness": 0.767,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.03,
+      "duration_ms": 291022,
+      "slug": "ch\u00e3o-de-giz-z\u00e9-ramalho"
+    },
+    {
+      "name": "Sobre o Tempo",
+      "artists": "Pato Fu",
+      "album": "Gol de Quem?",
+      "popularity": 52,
+      "tempo": 94.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.427,
+      "danceability": 0.633,
+      "acousticness": 0.007,
+      "instrumentalness": 0.123,
+      "loudness": -12.3,
+      "speechiness": 0.043,
+      "duration_ms": 207533,
+      "slug": "sobre-o-tempo-pato-fu"
+    },
+    {
+      "name": "Sangrando",
+      "artists": "Gonzaguinha;Ivete Sangalo",
+      "album": "Presente",
+      "popularity": 52,
+      "tempo": 91.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.412,
+      "valence": 0.221,
+      "danceability": 0.485,
+      "acousticness": 0.597,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.037,
+      "duration_ms": 233733,
+      "slug": "sangrando-gonzaguinha"
+    },
+    {
+      "name": "Canteiros",
+      "artists": "Fagner",
+      "album": "Ensaio",
+      "popularity": 52,
+      "tempo": 140.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.27,
+      "valence": 0.421,
+      "danceability": 0.436,
+      "acousticness": 0.865,
+      "instrumentalness": 0.001,
+      "loudness": -17.5,
+      "speechiness": 0.046,
+      "duration_ms": 329429,
+      "slug": "canteiros-fagner"
+    },
+    {
+      "name": "Deslizes",
+      "artists": "Fagner",
+      "album": "Romance no Deserto",
+      "popularity": 52,
+      "tempo": 136.5,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.394,
+      "valence": 0.49,
+      "danceability": 0.54,
+      "acousticness": 0.244,
+      "instrumentalness": 0.0,
+      "loudness": -15.0,
+      "speechiness": 0.028,
+      "duration_ms": 252000,
+      "slug": "deslizes-fagner"
+    },
+    {
+      "name": "Tendo A Lua - Ao Vivo",
+      "artists": "Os Paralamas Do Sucesso",
+      "album": "Ac\u00fastico (Live)",
+      "popularity": 51,
+      "tempo": 167.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.794,
+      "valence": 0.683,
+      "danceability": 0.492,
+      "acousticness": 0.196,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.046,
+      "duration_ms": 200826,
+      "slug": "tendo-a-lua-ao-vivo-os-paralamas-do-sucesso"
+    },
+    {
+      "name": "Amor Maior - Ac\u00fastico",
+      "artists": "Jota Quest",
+      "album": "Ac\u00fastico Jota Quest",
+      "popularity": 51,
+      "tempo": 76.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.538,
+      "valence": 0.355,
+      "danceability": 0.582,
+      "acousticness": 0.636,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.035,
+      "duration_ms": 235385,
+      "slug": "amor-maior-ac\u00fastico-jota-quest"
+    },
+    {
+      "name": "O Vento - Ac\u00fastico",
+      "artists": "Jota Quest",
+      "album": "Ac\u00fastico Jota Quest",
+      "popularity": 51,
+      "tempo": 144.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.225,
+      "valence": 0.101,
+      "danceability": 0.343,
+      "acousticness": 0.957,
+      "instrumentalness": 0.0,
+      "loudness": -14.9,
+      "speechiness": 0.038,
+      "duration_ms": 282891,
+      "slug": "o-vento-ac\u00fastico-jota-quest"
+    },
+    {
+      "name": "Telegrama",
+      "artists": "MAR ABERTO",
+      "album": "Telegrama",
+      "popularity": 51,
+      "tempo": 92.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.226,
+      "valence": 0.487,
+      "danceability": 0.826,
+      "acousticness": 0.423,
+      "instrumentalness": 0.0,
+      "loudness": -14.6,
+      "speechiness": 0.128,
+      "duration_ms": 236162,
+      "slug": "telegrama-mar-aberto"
+    },
+    {
+      "name": "Amor pra recome\u00e7ar",
+      "artists": "Frejat",
+      "album": "Dose Dupla Frejat",
+      "popularity": 51,
+      "tempo": 120.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.856,
+      "valence": 0.726,
+      "danceability": 0.564,
+      "acousticness": 0.215,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.036,
+      "duration_ms": 214626,
+      "slug": "amor-pra-recome\u00e7ar-frejat"
+    },
+    {
+      "name": "Retalhos De Cetim",
+      "artists": "Benito Di Paula",
+      "album": "Um Novo Samba",
+      "popularity": 51,
+      "tempo": 116.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.61,
+      "valence": 0.498,
+      "danceability": 0.411,
+      "acousticness": 0.384,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.036,
+      "duration_ms": 233293,
+      "slug": "retalhos-de-cetim-benito-di-paula"
+    },
+    {
+      "name": "Tudo Por Nada",
+      "artists": "Paulo Ricardo",
+      "album": "O Amor Me Escolheu",
+      "popularity": 51,
+      "tempo": 94.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.593,
+      "valence": 0.555,
+      "danceability": 0.654,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.028,
+      "duration_ms": 264506,
+      "slug": "tudo-por-nada-paulo-ricardo"
+    },
+    {
+      "name": "O Teatro Dos Vampiros - Ao Vivo Em S\u00e3o Paulo / 1999",
+      "artists": "Legi\u00e3o Urbana",
+      "album": "Ac\u00fastico (Ao Vivo Em S\u00e3o Paulo / 1999)",
+      "popularity": 51,
+      "tempo": 110.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.358,
+      "valence": 0.441,
+      "danceability": 0.543,
+      "acousticness": 0.546,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.151,
+      "duration_ms": 336733,
+      "slug": "o-teatro-dos-vampiros-ao-vivo-em-s\u00e3o-paulo-1999-legi\u00e3o-urbana"
+    },
+    {
+      "name": "Pare\u00e7o um Menino",
+      "artists": "F\u00e1bio Jr.",
+      "album": "Fabio Jr.",
+      "popularity": 50,
+      "tempo": 136.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.33,
+      "valence": 0.373,
+      "danceability": 0.58,
+      "acousticness": 0.596,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.029,
+      "duration_ms": 273906,
+      "slug": "pare\u00e7o-um-menino-f\u00e1bio-jr"
+    },
+    {
+      "name": "Identidade - Ao vivo",
+      "artists": "Jorge Arag\u00e3o",
+      "album": "Ao vivo",
+      "popularity": 50,
+      "tempo": 105.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.721,
+      "valence": 0.67,
+      "danceability": 0.581,
+      "acousticness": 0.612,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.044,
+      "duration_ms": 231866,
+      "slug": "identidade-ao-vivo-jorge-arag\u00e3o"
+    },
+    {
+      "name": "Eu Apenas Queria Que Voc\u00ea Soubesse",
+      "artists": "Gonzaguinha",
+      "album": "Meus Momentos",
+      "popularity": 50,
+      "tempo": 139.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.505,
+      "valence": 0.776,
+      "danceability": 0.559,
+      "acousticness": 0.737,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.034,
+      "duration_ms": 155466,
+      "slug": "eu-apenas-queria-que-voc\u00ea-soubesse-gonzaguinha"
+    },
+    {
+      "name": "Um Cara de Sorte",
+      "artists": "Detonautas Roque Clube",
+      "album": "A Saga Continua",
+      "popularity": 50,
+      "tempo": 138.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.636,
+      "valence": 0.247,
+      "danceability": 0.524,
+      "acousticness": 0.163,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.03,
+      "duration_ms": 244013,
+      "slug": "um-cara-de-sorte-detonautas-roque-clube"
+    },
+    {
+      "name": "Anjo - Ao Vivo",
+      "artists": "Roupa Nova",
+      "album": "Roupac\u00fastico (Ao Vivo)",
+      "popularity": 50,
+      "tempo": 107.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.488,
+      "danceability": 0.533,
+      "acousticness": 0.176,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.026,
+      "duration_ms": 194706,
+      "slug": "anjo-ao-vivo-roupa-nova"
+    },
+    {
+      "name": "A Flor Que A Gente Assopra",
+      "artists": "Almir Sater;Renato Teixeira",
+      "album": "AR",
+      "popularity": 50,
+      "tempo": 114.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.413,
+      "valence": 0.504,
+      "danceability": 0.675,
+      "acousticness": 0.791,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.034,
+      "duration_ms": 186160,
+      "slug": "a-flor-que-a-gente-assopra-almir-sater"
+    },
+    {
+      "name": "Espelhos D'\u00c1gua",
+      "artists": "Dalto",
+      "album": "Meus Momentos",
+      "popularity": 50,
+      "tempo": 113.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.568,
+      "valence": 0.526,
+      "danceability": 0.617,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.028,
+      "duration_ms": 175800,
+      "slug": "espelhos-d\u00e1gua-dalto"
+    },
+    {
+      "name": "Caleidosc\u00f3pio - Ao Vivo",
+      "artists": "Os Paralamas Do Sucesso",
+      "album": "Ac\u00fastico (Live)",
+      "popularity": 50,
+      "tempo": 175.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.494,
+      "valence": 0.547,
+      "danceability": 0.567,
+      "acousticness": 0.245,
+      "instrumentalness": 0.001,
+      "loudness": -11.3,
+      "speechiness": 0.046,
+      "duration_ms": 256720,
+      "slug": "caleidosc\u00f3pio-ao-vivo-os-paralamas-do-sucesso"
+    },
+    {
+      "name": "Aluga-Se",
+      "artists": "Raul Seixas",
+      "album": "Abre-Te S\u00e9samo",
+      "popularity": 50,
+      "tempo": 143.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.967,
+      "danceability": 0.71,
+      "acousticness": 0.467,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.09,
+      "duration_ms": 158266,
+      "slug": "aluga-se-raul-seixas"
+    },
+    {
+      "name": "Amanh\u00e3 ou Depois",
+      "artists": "Nenhum De N\u00f3s",
+      "album": "Hist\u00f3rias Reais Seres Imagin\u00e1rios",
+      "popularity": 50,
+      "tempo": 94.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.734,
+      "danceability": 0.56,
+      "acousticness": 0.136,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.025,
+      "duration_ms": 203466,
+      "slug": "amanh\u00e3-ou-depois-nenhum-de-n\u00f3s"
+    },
+    {
+      "name": "Cowboy Fora Da Lei",
+      "artists": "Raul Seixas",
+      "album": "Bis - Raul Seixas",
+      "popularity": 50,
+      "tempo": 172.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.744,
+      "valence": 0.812,
+      "danceability": 0.43,
+      "acousticness": 0.049,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.071,
+      "duration_ms": 215426,
+      "slug": "cowboy-fora-da-lei-raul-seixas"
+    },
+    {
+      "name": "Toda Forma De Poder",
+      "artists": "Engenheiros Do Hawaii",
+      "album": "Longe Demais Das Capitais",
+      "popularity": 50,
+      "tempo": 202.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.947,
+      "valence": 0.593,
+      "danceability": 0.325,
+      "acousticness": 0.174,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.115,
+      "duration_ms": 195066,
+      "slug": "toda-forma-de-poder-engenheiros-do-hawaii"
+    },
+    {
+      "name": "Azul (Ao Vivo)",
+      "artists": "Djavan",
+      "album": "Djavan \"Ao Vivo\"",
+      "popularity": 49,
+      "tempo": 119.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.652,
+      "danceability": 0.632,
+      "acousticness": 0.756,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.04,
+      "duration_ms": 259066,
+      "slug": "azul-ao-vivo-djavan"
+    },
+    {
+      "name": "Apaga a Luz (feat. Ol\u00edvia)",
+      "artists": "Nicolas Candido;Ol\u00edvia",
+      "album": "Apaga a Luz (feat. Ol\u00edvia)",
+      "popularity": 49,
+      "tempo": 96.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.42,
+      "valence": 0.553,
+      "danceability": 0.61,
+      "acousticness": 0.815,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.046,
+      "duration_ms": 216446,
+      "slug": "apaga-a-luz-feat-ol\u00edvia-nicolas-candido"
+    },
+    {
+      "name": "Amado - Ao Vivo",
+      "artists": "Vanessa Da Mata",
+      "album": "Caixinha de M\u00fasica (Ao Vivo)",
+      "popularity": 49,
+      "tempo": 168.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.469,
+      "valence": 0.263,
+      "danceability": 0.357,
+      "acousticness": 0.848,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.043,
+      "duration_ms": 244426,
+      "slug": "amado-ao-vivo-vanessa-da-mata"
+    },
+    {
+      "name": "FESTA JOVEM",
+      "artists": "Lagum",
+      "album": "MEM\u00d3RIAS (de onde eu nunca fui)",
+      "popularity": 49,
+      "tempo": 130.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.438,
+      "valence": 0.809,
+      "danceability": 0.819,
+      "acousticness": 0.378,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.303,
+      "duration_ms": 112052,
+      "slug": "festa-jovem-lagum"
+    },
+    {
+      "name": "Esperando Avi\u00f5es",
+      "artists": "Vander Lee",
+      "album": "9",
+      "popularity": 49,
+      "tempo": 139.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.37,
+      "valence": 0.209,
+      "danceability": 0.592,
+      "acousticness": 0.817,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.032,
+      "duration_ms": 222720,
+      "slug": "esperando-avi\u00f5es-vander-lee"
+    },
+    {
+      "name": "Muito Estranho (Cuida Bem de Mim)",
+      "artists": "Dalto",
+      "album": "Meus Momentos",
+      "popularity": 49,
+      "tempo": 107.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.562,
+      "valence": 0.568,
+      "danceability": 0.665,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.024,
+      "duration_ms": 236666,
+      "slug": "muito-estranho-cuida-bem-de-mim-dalto"
+    },
+    {
+      "name": "Cabelo Bagun\u00e7ado",
+      "artists": "Agnes Nunes;Neo Beats",
+      "album": "Cabelo Bagun\u00e7ado",
+      "popularity": 49,
+      "tempo": 89.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.442,
+      "valence": 0.4,
+      "danceability": 0.494,
+      "acousticness": 0.437,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.106,
+      "duration_ms": 231000,
+      "slug": "cabelo-bagun\u00e7ado-agnes-nunes"
+    },
+    {
+      "name": "La Belle de Jour",
+      "artists": "Alceu Valen\u00e7a",
+      "album": "Sem Pensar No Amanh\u00e3",
+      "popularity": 49,
+      "tempo": 101.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.308,
+      "valence": 0.536,
+      "danceability": 0.551,
+      "acousticness": 0.922,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.035,
+      "duration_ms": 232369,
+      "slug": "la-belle-de-jour-alceu-valen\u00e7a"
+    },
+    {
+      "name": "Carvoeiro",
+      "artists": "ANAVIT\u00d3RIA",
+      "album": "COR",
+      "popularity": 49,
+      "tempo": 125.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.447,
+      "valence": 0.543,
+      "danceability": 0.71,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.031,
+      "duration_ms": 264080,
+      "slug": "carvoeiro-anavit\u00f3ria"
+    },
+    {
+      "name": "Flor de Ca\u00f1a",
+      "artists": "Diogo Nogueira",
+      "album": "Flor de Ca\u00f1a",
+      "popularity": 49,
+      "tempo": 185.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.778,
+      "danceability": 0.519,
+      "acousticness": 0.416,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.122,
+      "duration_ms": 221669,
+      "slug": "flor-de-ca\u00f1a-diogo-nogueira"
+    },
+    {
+      "name": "Luz Dos Olhos - Ao Vivo Em S\u00e3o Paulo / 2007",
+      "artists": "Nando Reis;Andrea Martins",
+      "album": "Luau (Ao Vivo Em S\u00e3o Paulo / 2007)",
+      "popularity": 49,
+      "tempo": 91.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.336,
+      "danceability": 0.467,
+      "acousticness": 0.46,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.03,
+      "duration_ms": 306813,
+      "slug": "luz-dos-olhos-ao-vivo-em-s\u00e3o-paulo-2007-nando-reis"
+    },
+    {
+      "name": "O Amanh\u00e3",
+      "artists": "Detonautas Roque Clube",
+      "album": "Detonautas Ac\u00fastico",
+      "popularity": 49,
+      "tempo": 150.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.562,
+      "valence": 0.314,
+      "danceability": 0.563,
+      "acousticness": 0.139,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.027,
+      "duration_ms": 211706,
+      "slug": "o-amanh\u00e3-detonautas-roque-clube"
+    },
+    {
+      "name": "Gera\u00e7\u00e3o Coca-Cola",
+      "artists": "Legi\u00e3o Urbana",
+      "album": "Mais Do Mesmo",
+      "popularity": 49,
+      "tempo": 97.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.89,
+      "valence": 0.83,
+      "danceability": 0.574,
+      "acousticness": 0.082,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.041,
+      "duration_ms": 141400,
+      "slug": "gera\u00e7\u00e3o-coca-cola-legi\u00e3o-urbana"
+    },
+    {
+      "name": "O Sal Da Terra",
+      "artists": "Beto Guedes",
+      "album": "Contos Da Lua Vaga",
+      "popularity": 49,
+      "tempo": 106.3,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.803,
+      "valence": 0.403,
+      "danceability": 0.454,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.04,
+      "duration_ms": 209226,
+      "slug": "o-sal-da-terra-beto-guedes"
+    },
+    {
+      "name": "O Pato",
+      "artists": "MPB4",
+      "album": "Toquinho & Vinicius Sem Limite",
+      "popularity": 49,
+      "tempo": 204.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.617,
+      "valence": 0.93,
+      "danceability": 0.518,
+      "acousticness": 0.836,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.152,
+      "duration_ms": 127720,
+      "slug": "o-pato-mpb4"
+    },
+    {
+      "name": "Blusinha Branca",
+      "artists": "Papas Da L\u00edngua",
+      "album": "Papas Da L\u00edngua",
+      "popularity": 49,
+      "tempo": 170.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.899,
+      "valence": 0.779,
+      "danceability": 0.601,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.065,
+      "duration_ms": 298453,
+      "slug": "blusinha-branca-papas-da-l\u00edngua"
+    },
+    {
+      "name": "\u00c0 Sua Maneira (De M\u00fasica Ligera) (feat. Seu Jorge) - Ao Vivo",
+      "artists": "Capital Inicial;Seu Jorge",
+      "album": "Capital Inicial Ac\u00fastico NYC (Ao Vivo) [Deluxe]",
+      "popularity": 49,
+      "tempo": 109.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.813,
+      "valence": 0.345,
+      "danceability": 0.582,
+      "acousticness": 0.082,
+      "instrumentalness": 0.001,
+      "loudness": -4.6,
+      "speechiness": 0.029,
+      "duration_ms": 267120,
+      "slug": "\u00e0-sua-maneira-de-m\u00fasica-ligera-feat-seu-jorge-ao-vivo-capital-inicial"
+    },
+    {
+      "name": "Por Onde Andei - Ao Vivo",
+      "artists": "Nando Reis;Cachorro Grande",
+      "album": "A Arte De Nando Reis",
+      "popularity": 49,
+      "tempo": 172.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.819,
+      "valence": 0.817,
+      "danceability": 0.386,
+      "acousticness": 0.131,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.052,
+      "duration_ms": 235626,
+      "slug": "por-onde-andei-ao-vivo-nando-reis"
+    },
+    {
+      "name": "Monalisa",
+      "artists": "Jorge Vercillo",
+      "album": "Monalisa",
+      "popularity": 48,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.873,
+      "valence": 0.636,
+      "danceability": 0.773,
+      "acousticness": 0.482,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.049,
+      "duration_ms": 222732,
+      "slug": "monalisa-jorge-vercillo"
+    },
+    {
+      "name": "Garotos Ii (O Outro Lado) - Ao Vivo",
+      "artists": "Leoni;Dinho Ouro Preto",
+      "album": "Leoni - Ao Vivo",
+      "popularity": 48,
+      "tempo": 117.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.365,
+      "valence": 0.342,
+      "danceability": 0.522,
+      "acousticness": 0.745,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.045,
+      "duration_ms": 214000,
+      "slug": "garotos-ii-o-outro-lado-ao-vivo-leoni"
+    },
+    {
+      "name": "Meu Amor Se Mudou pra Lua - Ao Vivo",
+      "artists": "Paula Toller",
+      "album": "Nosso (Ao Vivo)",
+      "popularity": 48,
+      "tempo": 175.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.426,
+      "danceability": 0.483,
+      "acousticness": 0.062,
+      "instrumentalness": 0.049,
+      "loudness": -9.8,
+      "speechiness": 0.034,
+      "duration_ms": 197511,
+      "slug": "meu-amor-se-mudou-pra-lua-ao-vivo-paula-toller"
+    },
+    {
+      "name": "Pensando Bem",
+      "artists": "5 a Seco;Pedro Alt\u00e9rio;T\u00f3 Brandileone",
+      "album": "S\u00edntese",
+      "popularity": 48,
+      "tempo": 122.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.436,
+      "valence": 0.264,
+      "danceability": 0.616,
+      "acousticness": 0.246,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.029,
+      "duration_ms": 199906,
+      "slug": "pensando-bem-5-a-seco"
+    },
+    {
+      "name": "Melhor pensar",
+      "artists": "UM44K;Luan Otten",
+      "album": "Melhor pensar",
+      "popularity": 48,
+      "tempo": 149.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.431,
+      "valence": 0.698,
+      "danceability": 0.665,
+      "acousticness": 0.416,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.031,
+      "duration_ms": 205345,
+      "slug": "melhor-pensar-um44k"
+    },
+    {
+      "name": "A\u0301rvore",
+      "artists": "Fran;Chico Chico",
+      "album": "Onde?",
+      "popularity": 48,
+      "tempo": 77.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.386,
+      "valence": 0.345,
+      "danceability": 0.764,
+      "acousticness": 0.71,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.07,
+      "duration_ms": 187216,
+      "slug": "arvore-fran"
+    },
+    {
+      "name": "Ch\u00e3o de Giz",
+      "artists": "Z\u00e9 Ramalho",
+      "album": "Z\u00e9 Ramalho (Vers\u00e3o com Faixas B\u00f4nus)",
+      "popularity": 48,
+      "tempo": 145.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.427,
+      "valence": 0.561,
+      "danceability": 0.277,
+      "acousticness": 0.703,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.031,
+      "duration_ms": 285360,
+      "slug": "ch\u00e3o-de-giz-z\u00e9-ramalho"
+    },
+    {
+      "name": "Amuleto",
+      "artists": "Ti\u00ea",
+      "album": "iCollection",
+      "popularity": 48,
+      "tempo": 94.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.254,
+      "valence": 0.382,
+      "danceability": 0.551,
+      "acousticness": 0.917,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.028,
+      "duration_ms": 206585,
+      "slug": "amuleto-ti\u00ea"
+    },
+    {
+      "name": "Pra Voc\u00ea Guardei o Amor - Ao Vivo",
+      "artists": "Nando Reis",
+      "album": "Nando Reis - Voz e Viol\u00e3o - No Recreio, Vol. 1 (Ao Vivo)",
+      "popularity": 48,
+      "tempo": 142.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.33,
+      "valence": 0.381,
+      "danceability": 0.441,
+      "acousticness": 0.892,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.035,
+      "duration_ms": 312733,
+      "slug": "pra-voc\u00ea-guardei-o-amor-ao-vivo-nando-reis"
+    },
+    {
+      "name": "Enquanto Engoma A Cal\u00e7a",
+      "artists": "Ednardo",
+      "album": "Ednardo",
+      "popularity": 48,
+      "tempo": 97.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.759,
+      "valence": 0.707,
+      "danceability": 0.655,
+      "acousticness": 0.249,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.25,
+      "duration_ms": 213133,
+      "slug": "enquanto-engoma-a-cal\u00e7a-ednardo"
+    },
+    {
+      "name": "A Dan\u00e7a",
+      "artists": "Legi\u00e3o Urbana",
+      "album": "Legi\u00e3o Urbana",
+      "popularity": 48,
+      "tempo": 136.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.389,
+      "valence": 0.68,
+      "danceability": 0.759,
+      "acousticness": 0.002,
+      "instrumentalness": 0.002,
+      "loudness": -13.9,
+      "speechiness": 0.065,
+      "duration_ms": 242000,
+      "slug": "a-dan\u00e7a-legi\u00e3o-urbana"
+    },
+    {
+      "name": "Falsa considerac\u0327a\u0303o - Ao vivo",
+      "artists": "Jorge Arag\u00e3o",
+      "album": "Ao vivo convida (Redux)",
+      "popularity": 48,
+      "tempo": 105.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.623,
+      "valence": 0.496,
+      "danceability": 0.509,
+      "acousticness": 0.41,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.066,
+      "duration_ms": 228413,
+      "slug": "falsa-consideracao-ao-vivo-jorge-arag\u00e3o"
+    },
+    {
+      "name": "Cheia De Charme",
+      "artists": "Guilherme Arantes",
+      "album": "Lance Legal",
+      "popularity": 48,
+      "tempo": 124.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.661,
+      "valence": 0.842,
+      "danceability": 0.752,
+      "acousticness": 0.496,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.029,
+      "duration_ms": 261666,
+      "slug": "cheia-de-charme-guilherme-arantes"
+    },
+    {
+      "name": "Canto de Ossanha",
+      "artists": "Casuarina",
+      "album": "Roda de Samba do Casuarina e Convidados",
+      "popularity": 48,
+      "tempo": 95.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.708,
+      "valence": 0.729,
+      "danceability": 0.435,
+      "acousticness": 0.649,
+      "instrumentalness": 0.002,
+      "loudness": -8.0,
+      "speechiness": 0.037,
+      "duration_ms": 264533,
+      "slug": "canto-de-ossanha-casuarina"
+    },
+    {
+      "name": "Soldados",
+      "artists": "Legi\u00e3o Urbana",
+      "album": "Legi\u00e3o Urbana",
+      "popularity": 48,
+      "tempo": 124.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.432,
+      "valence": 0.605,
+      "danceability": 0.589,
+      "acousticness": 0.009,
+      "instrumentalness": 0.195,
+      "loudness": -14.1,
+      "speechiness": 0.036,
+      "duration_ms": 290733,
+      "slug": "soldados-legi\u00e3o-urbana"
+    },
+    {
+      "name": "Tendo A Lua - Ao Vivo",
+      "artists": "Os Paralamas Do Sucesso;Pitty",
+      "album": "Multishow Ao Vivo Paralamas Brasil Afora (Ao Vivo / Deluxe)",
+      "popularity": 48,
+      "tempo": 81.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.643,
+      "danceability": 0.688,
+      "acousticness": 0.09,
+      "instrumentalness": 0.001,
+      "loudness": -9.3,
+      "speechiness": 0.044,
+      "duration_ms": 188853,
+      "slug": "tendo-a-lua-ao-vivo-os-paralamas-do-sucesso"
+    },
+    {
+      "name": "Por Onde Voc\u00ea Anda?",
+      "artists": "Detonautas Roque Clube",
+      "album": "VI",
+      "popularity": 48,
+      "tempo": 160.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.608,
+      "valence": 0.312,
+      "danceability": 0.508,
+      "acousticness": 0.197,
+      "instrumentalness": 0.003,
+      "loudness": -8.9,
+      "speechiness": 0.034,
+      "duration_ms": 241400,
+      "slug": "por-onde-voc\u00ea-anda-detonautas-roque-clube"
+    },
+    {
+      "name": "Perdidos No Espa\u00e7o",
+      "artists": "Legi\u00e3o Urbana",
+      "album": "Legi\u00e3o Urbana",
+      "popularity": 48,
+      "tempo": 81.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.567,
+      "valence": 0.768,
+      "danceability": 0.572,
+      "acousticness": 0.043,
+      "instrumentalness": 0.129,
+      "loudness": -12.4,
+      "speechiness": 0.039,
+      "duration_ms": 177466,
+      "slug": "perdidos-no-espa\u00e7o-legi\u00e3o-urbana"
+    },
+    {
+      "name": "Inferno s\u00e3o os outros",
+      "artists": "Detonautas Roque Clube",
+      "album": "Detonautas Ac\u00fastico",
+      "popularity": 48,
+      "tempo": 110.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.797,
+      "valence": 0.563,
+      "danceability": 0.642,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.029,
+      "duration_ms": 211706,
+      "slug": "inferno-s\u00e3o-os-outros-detonautas-roque-clube"
+    },
+    {
+      "name": "Paz E Amor",
+      "artists": "Melim",
+      "album": "Amores E Flores",
+      "popularity": 47,
+      "tempo": 140.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.541,
+      "valence": 0.657,
+      "danceability": 0.683,
+      "acousticness": 0.565,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.045,
+      "duration_ms": 201404,
+      "slug": "paz-e-amor-melim"
+    },
+    {
+      "name": "Mist\u00e9rio",
+      "artists": "Lado de C\u00e1",
+      "album": "Mist\u00e9rio",
+      "popularity": 47,
+      "tempo": 133.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.548,
+      "valence": 0.103,
+      "danceability": 0.656,
+      "acousticness": 0.247,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.028,
+      "duration_ms": 195344,
+      "slug": "mist\u00e9rio-lado-de-c\u00e1"
+    },
+    {
+      "name": "Morada",
+      "artists": "Sandy",
+      "album": "Sim",
+      "popularity": 47,
+      "tempo": 145.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.145,
+      "valence": 0.337,
+      "danceability": 0.383,
+      "acousticness": 0.929,
+      "instrumentalness": 0.0,
+      "loudness": -14.8,
+      "speechiness": 0.031,
+      "duration_ms": 176680,
+      "slug": "morada-sandy"
+    },
+    {
+      "name": "Tudo por Voc\u00ea",
+      "artists": "Lado de C\u00e1;Lays Barros",
+      "album": "Tudo por Voc\u00ea",
+      "popularity": 47,
+      "tempo": 97.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.329,
+      "valence": 0.656,
+      "danceability": 0.679,
+      "acousticness": 0.585,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.033,
+      "duration_ms": 199020,
+      "slug": "tudo-por-voc\u00ea-lado-de-c\u00e1"
+    },
+    {
+      "name": "A Vida N\u00e3o Erra",
+      "artists": "Vicka",
+      "album": "De Cabe\u00e7a Pra Baixo",
+      "popularity": 47,
+      "tempo": 157.7,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.599,
+      "valence": 0.711,
+      "danceability": 0.549,
+      "acousticness": 0.283,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.031,
+      "duration_ms": 185500,
+      "slug": "a-vida-n\u00e3o-erra-vicka"
+    },
+    {
+      "name": "Pega A Vis\u00e3o",
+      "artists": "Melim",
+      "album": "Eu Feat. Voc\u00ea",
+      "popularity": 47,
+      "tempo": 85.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.549,
+      "valence": 0.528,
+      "danceability": 0.624,
+      "acousticness": 0.746,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.036,
+      "duration_ms": 162677,
+      "slug": "pega-a-vis\u00e3o-melim"
+    },
+    {
+      "name": "Agridoce",
+      "artists": "Luiza Possi;Lulu Santos",
+      "album": "Agridoce",
+      "popularity": 47,
+      "tempo": 102.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.782,
+      "valence": 0.602,
+      "danceability": 0.762,
+      "acousticness": 0.306,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.15,
+      "duration_ms": 157647,
+      "slug": "agridoce-luiza-possi"
+    },
+    {
+      "name": "Eu Pra Voc\u00ea",
+      "artists": "Sandy;Melim",
+      "album": "Eu Pra Voc\u00ea",
+      "popularity": 47,
+      "tempo": 179.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.517,
+      "valence": 0.503,
+      "danceability": 0.566,
+      "acousticness": 0.65,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.028,
+      "duration_ms": 198071,
+      "slug": "eu-pra-voc\u00ea-sandy"
+    },
+    {
+      "name": "Lenda das Sereias, Rainha do Mar - Ao Vivo",
+      "artists": "Marisa Monte",
+      "album": "Marisa Monte MM (Ao Vivo)",
+      "popularity": 47,
+      "tempo": 154.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.36,
+      "valence": 0.979,
+      "danceability": 0.668,
+      "acousticness": 0.093,
+      "instrumentalness": 0.0,
+      "loudness": -19.9,
+      "speechiness": 0.048,
+      "duration_ms": 250400,
+      "slug": "lenda-das-sereias-rainha-do-mar-ao-vivo-marisa-monte"
+    },
+    {
+      "name": "Fa\u00e7amos (Vamos Amar)",
+      "artists": "Elza Soares;Chico Buarque",
+      "album": "Do C\u00f3ccix At\u00e9 o Pesco\u00e7o",
+      "popularity": 47,
+      "tempo": 115.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.28,
+      "valence": 0.41,
+      "danceability": 0.664,
+      "acousticness": 0.779,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.036,
+      "duration_ms": 353346,
+      "slug": "fa\u00e7amos-vamos-amar-elza-soares"
+    },
+    {
+      "name": "Romaria - Remasterizado",
+      "artists": "Renato Teixeira",
+      "album": "Renato Teixeira Obra Completa na RCA de 1978 a 1982 (Remasterizado)",
+      "popularity": 47,
+      "tempo": 92.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.346,
+      "valence": 0.377,
+      "danceability": 0.505,
+      "acousticness": 0.6,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.026,
+      "duration_ms": 243466,
+      "slug": "romaria-remasterizado-renato-teixeira"
+    },
+    {
+      "name": "Papel de p\u00e3o - Ao vivo",
+      "artists": "Jorge Arag\u00e3o",
+      "album": "Ao vivo 2",
+      "popularity": 47,
+      "tempo": 155.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.775,
+      "valence": 0.811,
+      "danceability": 0.492,
+      "acousticness": 0.653,
+      "instrumentalness": 0.047,
+      "loudness": -9.8,
+      "speechiness": 0.037,
+      "duration_ms": 241666,
+      "slug": "papel-de-p\u00e3o-ao-vivo-jorge-arag\u00e3o"
+    },
+    {
+      "name": "A Carta",
+      "artists": "Renato Russo;Erasmo Carlos",
+      "album": "Presente",
+      "popularity": 47,
+      "tempo": 93.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.607,
+      "valence": 0.423,
+      "danceability": 0.636,
+      "acousticness": 0.522,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.024,
+      "duration_ms": 240613,
+      "slug": "a-carta-renato-russo"
+    },
+    {
+      "name": "Pessoal Particular (Ao Vivo)",
+      "artists": "Seu Jorge",
+      "album": "Musicas para Churrasco, Vol.1 (Ao Vivo) (Delux Edition)",
+      "popularity": 47,
+      "tempo": 112.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.64,
+      "danceability": 0.634,
+      "acousticness": 0.539,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.057,
+      "duration_ms": 387720,
+      "slug": "pessoal-particular-ao-vivo-seu-jorge"
+    },
+    {
+      "name": "Vem Morena",
+      "artists": "Luiz Gonzaga",
+      "album": "Olha Pro C\u00e9u",
+      "popularity": 47,
+      "tempo": 116.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.444,
+      "valence": 0.956,
+      "danceability": 0.751,
+      "acousticness": 0.434,
+      "instrumentalness": 0.0,
+      "loudness": -13.8,
+      "speechiness": 0.038,
+      "duration_ms": 197226,
+      "slug": "vem-morena-luiz-gonzaga"
+    },
+    {
+      "name": "Sina",
+      "artists": "IVYSON;Templo Sonoro",
+      "album": "Poemas Para Quem Chora",
+      "popularity": 47,
+      "tempo": 127.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.347,
+      "valence": 0.385,
+      "danceability": 0.703,
+      "acousticness": 0.593,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.055,
+      "duration_ms": 221995,
+      "slug": "sina-ivyson"
+    },
+    {
+      "name": "Zero",
+      "artists": "Liniker e os Caramelows;Liniker;Caramelows",
+      "album": "Remonta",
+      "popularity": 47,
+      "tempo": 146.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.42,
+      "valence": 0.441,
+      "danceability": 0.592,
+      "acousticness": 0.402,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.036,
+      "duration_ms": 292906,
+      "slug": "zero-liniker-e-os-caramelows"
+    },
+    {
+      "name": "dois rios",
+      "artists": "ANAVIT\u00d3RIA",
+      "album": "N",
+      "popularity": 47,
+      "tempo": 140.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.28,
+      "valence": 0.312,
+      "danceability": 0.672,
+      "acousticness": 0.964,
+      "instrumentalness": 0.016,
+      "loudness": -14.7,
+      "speechiness": 0.029,
+      "duration_ms": 214054,
+      "slug": "dois-rios-anavit\u00f3ria"
+    },
+    {
+      "name": "Algu\u00e9m Me Avisou/Acreditar/Sonho Meu",
+      "artists": "Dona Ivone Lara",
+      "album": "Sempre a Cantar",
+      "popularity": 47,
+      "tempo": 91.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.895,
+      "danceability": 0.585,
+      "acousticness": 0.565,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.092,
+      "duration_ms": 304866,
+      "slug": "algu\u00e9m-me-avisouacreditarsonho-meu-dona-ivone-lara"
+    },
+    {
+      "name": "Nem um Dia (Ao Vivo)",
+      "artists": "Djavan",
+      "album": "Djavan \"Ao Vivo\"",
+      "popularity": 47,
+      "tempo": 79.6,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.663,
+      "valence": 0.651,
+      "danceability": 0.561,
+      "acousticness": 0.61,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.068,
+      "duration_ms": 335626,
+      "slug": "nem-um-dia-ao-vivo-djavan"
+    },
+    {
+      "name": "EU E MINHAS PARANOIAS",
+      "artists": "Lagum",
+      "album": "MEM\u00d3RIAS (de onde eu nunca fui)",
+      "popularity": 47,
+      "tempo": 106.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.65,
+      "valence": 0.906,
+      "danceability": 0.76,
+      "acousticness": 0.025,
+      "instrumentalness": 0.001,
+      "loudness": -5.9,
+      "speechiness": 0.026,
+      "duration_ms": 174957,
+      "slug": "eu-e-minhas-paranoias-lagum"
+    },
+    {
+      "name": "La\u00e7os",
+      "artists": "Nando Reis;Ana Vilela",
+      "album": "La\u00e7os",
+      "popularity": 47,
+      "tempo": 138.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.889,
+      "valence": 0.408,
+      "danceability": 0.602,
+      "acousticness": 0.15,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.072,
+      "duration_ms": 240585,
+      "slug": "la\u00e7os-nando-reis"
+    },
+    {
+      "name": "Vinte E Nove",
+      "artists": "Legi\u00e3o Urbana",
+      "album": "O Descobrimento Do Brasil",
+      "popularity": 47,
+      "tempo": 129.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.542,
+      "valence": 0.72,
+      "danceability": 0.42,
+      "acousticness": 0.02,
+      "instrumentalness": 0.047,
+      "loudness": -13.1,
+      "speechiness": 0.036,
+      "duration_ms": 223933,
+      "slug": "vinte-e-nove-legi\u00e3o-urbana"
+    },
+    {
+      "name": "Pausa #Omundoprecisadepausa",
+      "artists": "Vicka",
+      "album": "De Cabe\u00e7a Pra Baixo",
+      "popularity": 47,
+      "tempo": 122.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.549,
+      "valence": 0.519,
+      "danceability": 0.708,
+      "acousticness": 0.161,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.028,
+      "duration_ms": 199500,
+      "slug": "pausa-omundoprecisadepausa-vicka"
+    },
+    {
+      "name": "O Meu Mundo Ficaria Completo (Com Voc\u00ea)",
+      "artists": "C\u00e1ssia Eller",
+      "album": "Com Voc\u00ea ... Meu Mundo Ficaria Completo",
+      "popularity": 47,
+      "tempo": 168.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.87,
+      "danceability": 0.637,
+      "acousticness": 0.624,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.059,
+      "duration_ms": 249132,
+      "slug": "o-meu-mundo-ficaria-completo-com-voc\u00ea-c\u00e1ssia-eller"
+    },
+    {
+      "name": "Mil e uma noites de amor",
+      "artists": "Pepeu Gomes",
+      "album": "Energia positiva",
+      "popularity": 47,
+      "tempo": 108.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.949,
+      "valence": 0.67,
+      "danceability": 0.614,
+      "acousticness": 0.146,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.039,
+      "duration_ms": 352306,
+      "slug": "mil-e-uma-noites-de-amor-pepeu-gomes"
+    },
+    {
+      "name": "Se Eu N\u00e3o Te Amasse Tanto Assim",
+      "artists": "Georgia Castro",
+      "album": "Georgia Castro e o Viol\u00e3o",
+      "popularity": 47,
+      "tempo": 200.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.129,
+      "valence": 0.496,
+      "danceability": 0.429,
+      "acousticness": 0.961,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.048,
+      "duration_ms": 201137,
+      "slug": "se-eu-n\u00e3o-te-amasse-tanto-assim-georgia-castro"
+    },
+    {
+      "name": "Foi Deus Quem Fez Voc\u00ea",
+      "artists": "Amelinha",
+      "album": "Porta Secreta",
+      "popularity": 47,
+      "tempo": 133.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.653,
+      "valence": 0.409,
+      "danceability": 0.421,
+      "acousticness": 0.318,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.049,
+      "duration_ms": 232973,
+      "slug": "foi-deus-quem-fez-voc\u00ea-amelinha"
+    },
+    {
+      "name": "Baader-Meinhof Blues",
+      "artists": "Legi\u00e3o Urbana",
+      "album": "Legi\u00e3o Urbana 30 Anos",
+      "popularity": 47,
+      "tempo": 189.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.831,
+      "valence": 0.657,
+      "danceability": 0.253,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.046,
+      "duration_ms": 207533,
+      "slug": "baader-meinhof-blues-legi\u00e3o-urbana"
+    },
+    {
+      "name": "Primavera",
+      "artists": "Los Hermanos",
+      "album": "Los Hermanos",
+      "popularity": 47,
+      "tempo": 200.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.624,
+      "valence": 0.408,
+      "danceability": 0.339,
+      "acousticness": 0.421,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.031,
+      "duration_ms": 262040,
+      "slug": "primavera-los-hermanos"
+    },
+    {
+      "name": "A For\u00e7a do Amor - Ao Vivo",
+      "artists": "Roupa Nova",
+      "album": "Roupac\u00fastico (Ao Vivo)",
+      "popularity": 47,
+      "tempo": 77.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.774,
+      "valence": 0.721,
+      "danceability": 0.525,
+      "acousticness": 0.121,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.045,
+      "duration_ms": 267906,
+      "slug": "a-for\u00e7a-do-amor-ao-vivo-roupa-nova"
+    },
+    {
+      "name": "La Belle de Jour-Girassol - Ao Vivo",
+      "artists": "Alceu Valen\u00e7a;Orquestra Ouro Preto",
+      "album": "Valencianas (Ao Vivo)",
+      "popularity": 47,
+      "tempo": 105.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.581,
+      "valence": 0.614,
+      "danceability": 0.326,
+      "acousticness": 0.286,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.038,
+      "duration_ms": 424786,
+      "slug": "la-belle-de-jour-girassol-ao-vivo-alceu-valen\u00e7a"
+    },
+    {
+      "name": "Lourinha Bombril",
+      "artists": "Os Paralamas Do Sucesso",
+      "album": "Nove Luas",
+      "popularity": 47,
+      "tempo": 168.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.907,
+      "valence": 0.8,
+      "danceability": 0.615,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.042,
+      "duration_ms": 158933,
+      "slug": "lourinha-bombril-os-paralamas-do-sucesso"
+    },
+    {
+      "name": "Pulsos - Ao Vivo",
+      "artists": "Pitty",
+      "album": "(Des) Concerto Ao Vivo",
+      "popularity": 47,
+      "tempo": 125.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.851,
+      "valence": 0.126,
+      "danceability": 0.454,
+      "acousticness": 0.153,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.054,
+      "duration_ms": 280093,
+      "slug": "pulsos-ao-vivo-pitty"
+    }
+  ]
+}

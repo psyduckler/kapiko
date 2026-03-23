@@ -1,0 +1,2802 @@
+{
+  "genre": "Spanish",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 72.896,
+    "max": 198.076,
+    "mean": 125.514,
+    "median": 127.481,
+    "q1": 103.982,
+    "q3": 144.016,
+    "histogram": {
+      "70-79": 4,
+      "80-89": 7,
+      "90-99": 11,
+      "100-109": 9,
+      "110-119": 7,
+      "120-129": 21,
+      "130-139": 11,
+      "140-149": 11,
+      "150-159": 10,
+      "160-169": 2,
+      "170-179": 5,
+      "180-189": 1,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "C#/Db": 14,
+    "A": 14,
+    "F#/Gb": 11,
+    "G": 10,
+    "F": 10,
+    "C": 8,
+    "E": 7,
+    "B": 6,
+    "D": 6,
+    "G#/Ab": 6,
+    "A#/Bb": 5,
+    "D#/Eb": 3
+  },
+  "mode_distribution": {
+    "Major": 72,
+    "Minor": 28
+  },
+  "key_mode_distribution": {
+    "A Major": 10,
+    "F#/Gb Major": 9,
+    "G Major": 9,
+    "C#/Db Minor": 8,
+    "F Major": 8,
+    "C#/Db Major": 6,
+    "C Major": 6,
+    "D Major": 6,
+    "B Minor": 5,
+    "E Major": 5,
+    "G#/Ab Major": 5,
+    "A Minor": 4,
+    "A#/Bb Major": 4,
+    "D#/Eb Major": 3,
+    "E Minor": 2,
+    "F Minor": 2,
+    "C Minor": 2,
+    "F#/Gb Minor": 2,
+    "G Minor": 1,
+    "A#/Bb Minor": 1,
+    "G#/Ab Minor": 1,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.228,
+    "max": 0.958,
+    "mean": 0.692,
+    "median": 0.73,
+    "q1": 0.57,
+    "q3": 0.842
+  },
+  "valence": {
+    "min": 0.168,
+    "max": 0.962,
+    "mean": 0.579,
+    "median": 0.571,
+    "q1": 0.423,
+    "q3": 0.72
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.429,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.522,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.548,
+      "valence": 0.516
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.728
+    },
+    {
+      "energy": 0.645,
+      "valence": 0.803
+    },
+    {
+      "energy": 0.843,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.572,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.875
+    },
+    {
+      "energy": 0.685,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.646,
+      "valence": 0.663
+    },
+    {
+      "energy": 0.854,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.792
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.664
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.815
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.527,
+      "valence": 0.192
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.772,
+      "valence": 0.923
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.362
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.893
+    },
+    {
+      "energy": 0.474,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.281
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.402
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.853
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.199
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.628
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.443
+    },
+    {
+      "energy": 0.228,
+      "valence": 0.502
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.57,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.834,
+      "valence": 0.53
+    },
+    {
+      "energy": 0.918,
+      "valence": 0.834
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.266
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.841
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.542
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.376
+    },
+    {
+      "energy": 0.527,
+      "valence": 0.569
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.658
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.589
+    },
+    {
+      "energy": 0.508,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.567,
+      "valence": 0.467
+    },
+    {
+      "energy": 0.818,
+      "valence": 0.849
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.633,
+      "valence": 0.498
+    },
+    {
+      "energy": 0.431,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.358,
+      "valence": 0.742
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.633
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.771,
+      "valence": 0.954
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.688,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.705
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.414
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.677
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.546
+    },
+    {
+      "energy": 0.816,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.866,
+      "valence": 0.677
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.891
+    },
+    {
+      "energy": 0.768,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.843
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.328,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.647,
+      "valence": 0.281
+    },
+    {
+      "energy": 0.594,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.847,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.642,
+      "valence": 0.948
+    },
+    {
+      "energy": 0.629,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.753,
+      "valence": 0.424
+    },
+    {
+      "energy": 0.732,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.706
+    },
+    {
+      "energy": 0.56,
+      "valence": 0.32
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.841
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.611
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.275
+    },
+    {
+      "energy": 0.79,
+      "valence": 0.867
+    },
+    {
+      "energy": 0.415,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.945
+    },
+    {
+      "energy": 0.816,
+      "valence": 0.373
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.703
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.686
+    },
+    {
+      "energy": 0.718,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.612,
+      "valence": 0.423
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.836
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.485,
+      "valence": 0.254
+    },
+    {
+      "energy": 0.778,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.598
+    },
+    {
+      "energy": 0.331,
+      "valence": 0.432
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.57,
+      "valence": 0.816
+    },
+    {
+      "energy": 0.844,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.423
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.923,
+    "mean": 0.249,
+    "median": 0.175,
+    "q1": 0.066,
+    "q3": 0.382
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.087,
+    "mean": 0.002,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.238,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.282,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.071
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.392,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.535,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.627,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.162,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.371,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.52,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.199,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.232,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.524,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.175,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.15,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.595,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.644,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.426,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.519,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.173,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.34,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.486,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.176,
+      "instrumentalness": 0.087
+    },
+    {
+      "acousticness": 0.923,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.173,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.291,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.337,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.457,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.306,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.695,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.465,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.795,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.133,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.083,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.055,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.27,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.132,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.743,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.394,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.283,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.071,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.519,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.328,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.134,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.216,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.56,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.728,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.32,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.546,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.272,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.248,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.133,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.255,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.065,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.449,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.6,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.258,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.144,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.382,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.147,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.356,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.869,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.327,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 112572,
+    "max": 368360,
+    "mean": 218378.69,
+    "median": 217930.5,
+    "q1": 188222,
+    "q3": 242833
+  },
+  "danceability": {
+    "min": 0.278,
+    "max": 0.88,
+    "mean": 0.658,
+    "median": 0.679,
+    "q1": 0.597,
+    "q3": 0.748
+  },
+  "loudness": {
+    "min": -15.522,
+    "max": -1.887,
+    "mean": -5.731,
+    "median": -5.223,
+    "q1": -6.731,
+    "q3": -4.056
+  },
+  "speechiness": {
+    "min": 0.027,
+    "max": 0.346,
+    "mean": 0.072,
+    "median": 0.047,
+    "q1": 0.035,
+    "q3": 0.083
+  },
+  "top_artists": [
+    {
+      "name": "Aitana",
+      "count": 12
+    },
+    {
+      "name": "Pablo Albor\u00e1n",
+      "count": 7
+    },
+    {
+      "name": "Melendi",
+      "count": 7
+    },
+    {
+      "name": "Rels B",
+      "count": 6
+    },
+    {
+      "name": "Ana Mena",
+      "count": 6
+    },
+    {
+      "name": "Beret",
+      "count": 6
+    },
+    {
+      "name": "Alejandro Sanz",
+      "count": 6
+    },
+    {
+      "name": "Estopa",
+      "count": 6
+    },
+    {
+      "name": "Manuel Carrasco",
+      "count": 6
+    },
+    {
+      "name": "La Oreja de Van Gogh",
+      "count": 5
+    },
+    {
+      "name": "David Bisbal",
+      "count": 5
+    },
+    {
+      "name": "Pol Granch",
+      "count": 3
+    },
+    {
+      "name": "Belinda",
+      "count": 3
+    },
+    {
+      "name": "Jarabe De Palo",
+      "count": 3
+    },
+    {
+      "name": "Juanes",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "c\u00f3mo dormiste?",
+      "artists": "Rels B",
+      "album": "c\u00f3mo dormiste?",
+      "popularity": 89,
+      "tempo": 126.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.429,
+      "valence": 0.565,
+      "danceability": 0.627,
+      "acousticness": 0.238,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.234,
+      "duration_ms": 112572,
+      "slug": "c\u00f3mo-dormiste-rels-b"
+    },
+    {
+      "name": "Tiroteo - Remix",
+      "artists": "Marc Segu\u00ed;Rauw Alejandro;Pol Granch",
+      "album": "Tiroteo (Remix)",
+      "popularity": 81,
+      "tempo": 110.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.522,
+      "valence": 0.601,
+      "danceability": 0.75,
+      "acousticness": 0.282,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.029,
+      "duration_ms": 321555,
+      "slug": "tiroteo-remix-marc-segu\u00ed"
+    },
+    {
+      "name": "A M\u00ed",
+      "artists": "Rels B",
+      "album": "A M\u00ed",
+      "popularity": 80,
+      "tempo": 94.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.548,
+      "valence": 0.516,
+      "danceability": 0.846,
+      "acousticness": 0.241,
+      "instrumentalness": 0.071,
+      "loudness": -6.4,
+      "speechiness": 0.256,
+      "duration_ms": 209680,
+      "slug": "a-m\u00ed-rels-b"
+    },
+    {
+      "name": "LAS 12",
+      "artists": "Ana Mena;Belinda",
+      "album": "LAS 12",
+      "popularity": 79,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.728,
+      "danceability": 0.784,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.046,
+      "duration_ms": 165230,
+      "slug": "las-12-ana-mena"
+    },
+    {
+      "name": "Formentera",
+      "artists": "Aitana;Nicki Nicole",
+      "album": "Formentera",
+      "popularity": 78,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.645,
+      "valence": 0.803,
+      "danceability": 0.781,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.04,
+      "duration_ms": 207333,
+      "slug": "formentera-aitana"
+    },
+    {
+      "name": "Devu\u00e9lveme a mi chica",
+      "artists": "Hombres G",
+      "album": "Hombres G (Edici\u00f3n 30 Aniversario)",
+      "popularity": 78,
+      "tempo": 172.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.843,
+      "valence": 0.503,
+      "danceability": 0.603,
+      "acousticness": 0.003,
+      "instrumentalness": 0.034,
+      "loudness": -7.6,
+      "speechiness": 0.056,
+      "duration_ms": 194866,
+      "slug": "devu\u00e9lveme-a-mi-chica-hombres-g"
+    },
+    {
+      "name": "Saturno",
+      "artists": "Pablo Albor\u00e1n",
+      "album": "Prometo",
+      "popularity": 77,
+      "tempo": 95.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.572,
+      "valence": 0.311,
+      "danceability": 0.278,
+      "acousticness": 0.392,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.041,
+      "duration_ms": 253760,
+      "slug": "saturno-pablo-albor\u00e1n"
+    },
+    {
+      "name": "Colgando en tus manos (con Marta S\u00e1nchez)",
+      "artists": "Carlos Baute;Marta S\u00e1nchez",
+      "album": "De mi pu\u00f1o y letra - Edicion Coleccionista",
+      "popularity": 77,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.637,
+      "valence": 0.875,
+      "danceability": 0.836,
+      "acousticness": 0.535,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.037,
+      "duration_ms": 230280,
+      "slug": "colgando-en-tus-manos-con-marta-s\u00e1nchez-carlos-baute"
+    },
+    {
+      "name": "Rosas",
+      "artists": "La Oreja de Van Gogh",
+      "album": "Lo Que Te Conte Mientras Te Hacias La Dormida",
+      "popularity": 77,
+      "tempo": 107.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.685,
+      "valence": 0.54,
+      "danceability": 0.783,
+      "acousticness": 0.627,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.027,
+      "duration_ms": 236506,
+      "slug": "rosas-la-oreja-de-van-gogh"
+    },
+    {
+      "name": "Quieres",
+      "artists": "Aitana;Emilia;Ptazeta",
+      "album": "Quieres",
+      "popularity": 76,
+      "tempo": 180.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.646,
+      "valence": 0.663,
+      "danceability": 0.796,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.158,
+      "duration_ms": 213666,
+      "slug": "quieres-aitana"
+    },
+    {
+      "name": "DISCOTEKA",
+      "artists": "Lola Indigo;Maria Becerra",
+      "album": "DISCOTEKA",
+      "popularity": 76,
+      "tempo": 106.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.854,
+      "valence": 0.549,
+      "danceability": 0.795,
+      "acousticness": 0.162,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.044,
+      "duration_ms": 174801,
+      "slug": "discoteka-lola-indigo"
+    },
+    {
+      "name": "Porfa no te vayas",
+      "artists": "Beret;Morat",
+      "album": "Porfa no te vayas",
+      "popularity": 76,
+      "tempo": 172.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.853,
+      "valence": 0.792,
+      "danceability": 0.589,
+      "acousticness": 0.371,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.058,
+      "duration_ms": 209712,
+      "slug": "porfa-no-te-vayas-beret"
+    },
+    {
+      "name": "La flaca",
+      "artists": "Jarabe De Palo",
+      "album": "La Flaca",
+      "popularity": 76,
+      "tempo": 103.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.664,
+      "danceability": 0.871,
+      "acousticness": 0.52,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.038,
+      "duration_ms": 261200,
+      "slug": "la-flaca-jarabe-de-palo"
+    },
+    {
+      "name": "Coraz\u00f3n part\u00edo",
+      "artists": "Alejandro Sanz",
+      "album": "M\u00e1s",
+      "popularity": 76,
+      "tempo": 160.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.846,
+      "valence": 0.815,
+      "danceability": 0.648,
+      "acousticness": 0.199,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.042,
+      "duration_ms": 343413,
+      "slug": "coraz\u00f3n-part\u00edo-alejandro-sanz"
+    },
+    {
+      "name": "Diablo",
+      "artists": "Beret;Estopa",
+      "album": "Diablo",
+      "popularity": 75,
+      "tempo": 135.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.871,
+      "valence": 0.557,
+      "danceability": 0.542,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.046,
+      "duration_ms": 164669,
+      "slug": "diablo-beret"
+    },
+    {
+      "name": "SHORTY QUE TE VAYA BN <3",
+      "artists": "Rels B",
+      "album": "SHORTY QUE TE VAYA BN <3",
+      "popularity": 75,
+      "tempo": 89.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.527,
+      "valence": 0.192,
+      "danceability": 0.68,
+      "acousticness": 0.232,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.11,
+      "duration_ms": 219681,
+      "slug": "shorty-que-te-vaya-bn-3-rels-b"
+    },
+    {
+      "name": "El Sol No Regresa",
+      "artists": "La Quinta Estacion",
+      "album": "Flores De Alquiler",
+      "popularity": 75,
+      "tempo": 127.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.72,
+      "danceability": 0.615,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.035,
+      "duration_ms": 228560,
+      "slug": "el-sol-no-regresa-la-quinta-estacion"
+    },
+    {
+      "name": "Quiero Decirte",
+      "artists": "Abraham Mateo;Ana Mena",
+      "album": "Quiero Decirte",
+      "popularity": 74,
+      "tempo": 117.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.772,
+      "valence": 0.923,
+      "danceability": 0.751,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.038,
+      "duration_ms": 222348,
+      "slug": "quiero-decirte-abraham-mateo"
+    },
+    {
+      "name": "Destino o casualidad",
+      "artists": "Melendi;Ha*Ash",
+      "album": "Destino o casualidad",
+      "popularity": 74,
+      "tempo": 153.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.525,
+      "valence": 0.362,
+      "danceability": 0.557,
+      "acousticness": 0.524,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.149,
+      "duration_ms": 258504,
+      "slug": "destino-o-casualidad-melendi"
+    },
+    {
+      "name": "La Playa",
+      "artists": "La Oreja de Van Gogh",
+      "album": "El Viaje de Copperpot",
+      "popularity": 74,
+      "tempo": 88.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.552,
+      "valence": 0.311,
+      "danceability": 0.589,
+      "acousticness": 0.175,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.027,
+      "duration_ms": 247693,
+      "slug": "la-playa-la-oreja-de-van-gogh"
+    },
+    {
+      "name": "En El Coche",
+      "artists": "Aitana",
+      "album": "En El Coche",
+      "popularity": 73,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.65,
+      "valence": 0.893,
+      "danceability": 0.856,
+      "acousticness": 0.15,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.095,
+      "duration_ms": 125080,
+      "slug": "en-el-coche-aitana"
+    },
+    {
+      "name": "D\u00edgale",
+      "artists": "David Bisbal",
+      "album": "Corazon Latino",
+      "popularity": 73,
+      "tempo": 130.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.474,
+      "valence": 0.299,
+      "danceability": 0.57,
+      "acousticness": 0.595,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.03,
+      "duration_ms": 262440,
+      "slug": "d\u00edgale-david-bisbal"
+    },
+    {
+      "name": "Como Antes",
+      "artists": "Rels B",
+      "album": "Como Antes",
+      "popularity": 73,
+      "tempo": 84.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.428,
+      "valence": 0.281,
+      "danceability": 0.74,
+      "acousticness": 0.644,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.096,
+      "duration_ms": 142576,
+      "slug": "como-antes-rels-b"
+    },
+    {
+      "name": "La \u00daltima Canci\u00f3n",
+      "artists": "Rels B",
+      "album": "LA ISLA LP",
+      "popularity": 73,
+      "tempo": 91.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.268,
+      "danceability": 0.793,
+      "acousticness": 0.426,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.119,
+      "duration_ms": 184748,
+      "slug": "la-\u00faltima-canci\u00f3n-rels-b"
+    },
+    {
+      "name": "Amiga m\u00eda",
+      "artists": "Alejandro Sanz",
+      "album": "M\u00e1s",
+      "popularity": 73,
+      "tempo": 144.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.703,
+      "valence": 0.402,
+      "danceability": 0.629,
+      "acousticness": 0.519,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.05,
+      "duration_ms": 290973,
+      "slug": "amiga-m\u00eda-alejandro-sanz"
+    },
+    {
+      "name": "La Ni\u00f1a de la Escuela",
+      "artists": "Lola Indigo;TINI;Belinda",
+      "album": "La Ni\u00f1a",
+      "popularity": 72,
+      "tempo": 176.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.853,
+      "danceability": 0.707,
+      "acousticness": 0.173,
+      "instrumentalness": 0.0,
+      "loudness": -1.9,
+      "speechiness": 0.079,
+      "duration_ms": 204414,
+      "slug": "la-ni\u00f1a-de-la-escuela-lola-indigo"
+    },
+    {
+      "name": "Y, \u00bfSi Fuera Ella? - + Es +",
+      "artists": "Pablo Albor\u00e1n;David Bisbal;Antonio Carmona;Jesse & Joy;Juanes;Mal\u00fa;Vanesa Mart\u00edn;India Martinez;Antonio Orozco;Ni\u00f1a Pastori;Laura Pausini;Abel Pintos;Rozal\u00e9n;Shakira;Tommy Torres;Manuel Carrasco;Pablo L\u00f3pez",
+      "album": "+ Es + (El Concierto / En Directo En El Estadio Vicente Calder\u00f3n / 2017)",
+      "popularity": 72,
+      "tempo": 150.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.536,
+      "valence": 0.199,
+      "danceability": 0.348,
+      "acousticness": 0.34,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.031,
+      "duration_ms": 250000,
+      "slug": "y-si-fuera-ella-es-pablo-albor\u00e1n"
+    },
+    {
+      "name": "Buenos Genes",
+      "artists": "Rels B;DELLAFUENTE",
+      "album": "Flakk Daniel's Lp",
+      "popularity": 72,
+      "tempo": 152.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.535,
+      "valence": 0.628,
+      "danceability": 0.804,
+      "acousticness": 0.486,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.143,
+      "duration_ms": 245190,
+      "slug": "buenos-genes-rels-b"
+    },
+    {
+      "name": "En alg\u00fan lugar",
+      "artists": "Duncan Dhu",
+      "album": "El Grito Del Tiempo",
+      "popularity": 72,
+      "tempo": 74.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.443,
+      "danceability": 0.527,
+      "acousticness": 0.176,
+      "instrumentalness": 0.087,
+      "loudness": -6.7,
+      "speechiness": 0.069,
+      "duration_ms": 235626,
+      "slug": "en-alg\u00fan-lugar-duncan-dhu"
+    },
+    {
+      "name": "Me cuesta tanto olvidarte",
+      "artists": "Mecano",
+      "album": "Entre el Cielo y el Suelo (Bonus Tracks Edition)",
+      "popularity": 72,
+      "tempo": 149.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.228,
+      "valence": 0.502,
+      "danceability": 0.516,
+      "acousticness": 0.923,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.036,
+      "duration_ms": 174946,
+      "slug": "me-cuesta-tanto-olvidarte-mecano"
+    },
+    {
+      "name": "D\u00f3nde est\u00e1 el amor (feat. Jesse & Joy)",
+      "artists": "Pablo Albor\u00e1n;Jesse & Joy",
+      "album": "Tanto (Edici\u00f3n Premium)",
+      "popularity": 72,
+      "tempo": 139.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.848,
+      "valence": 0.324,
+      "danceability": 0.597,
+      "acousticness": 0.173,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.041,
+      "duration_ms": 233895,
+      "slug": "d\u00f3nde-est\u00e1-el-amor-feat-jesse-joy-pablo-albor\u00e1n"
+    },
+    {
+      "name": "Creo en Mi",
+      "artists": "Natalia Jim\u00e9nez",
+      "album": "Creo en Mi",
+      "popularity": 72,
+      "tempo": 79.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.57,
+      "valence": 0.239,
+      "danceability": 0.496,
+      "acousticness": 0.291,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.028,
+      "duration_ms": 229373,
+      "slug": "creo-en-mi-natalia-jim\u00e9nez"
+    },
+    {
+      "name": "Tu jard\u00edn con enanitos",
+      "artists": "Melendi",
+      "album": "L\u00e1grimas desordenadas",
+      "popularity": 71,
+      "tempo": 127.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.834,
+      "valence": 0.53,
+      "danceability": 0.721,
+      "acousticness": 0.337,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.035,
+      "duration_ms": 236975,
+      "slug": "tu-jard\u00edn-con-enanitos-melendi"
+    },
+    {
+      "name": "M\u00e1s De Lo Que Apost\u00e9",
+      "artists": "Aitana;Morat",
+      "album": "M\u00e1s De Lo Que Apost\u00e9",
+      "popularity": 71,
+      "tempo": 152.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.918,
+      "valence": 0.834,
+      "danceability": 0.621,
+      "acousticness": 0.075,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.055,
+      "duration_ms": 205031,
+      "slug": "m\u00e1s-de-lo-que-apost\u00e9-aitana"
+    },
+    {
+      "name": "Solamente t\u00fa",
+      "artists": "Pablo Albor\u00e1n",
+      "album": "Pablo Alboran (Deluxe)",
+      "popularity": 71,
+      "tempo": 140.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.419,
+      "valence": 0.266,
+      "danceability": 0.519,
+      "acousticness": 0.457,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.033,
+      "duration_ms": 247186,
+      "slug": "solamente-t\u00fa-pablo-albor\u00e1n"
+    },
+    {
+      "name": "Carretera y manta",
+      "artists": "Pablo Albor\u00e1n",
+      "album": "Carretera y manta",
+      "popularity": 70,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.787,
+      "valence": 0.841,
+      "danceability": 0.816,
+      "acousticness": 0.153,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.062,
+      "duration_ms": 163244,
+      "slug": "carretera-y-manta-pablo-albor\u00e1n"
+    },
+    {
+      "name": "Cu\u00eddate",
+      "artists": "La Oreja de Van Gogh",
+      "album": "El Viaje de Copperpot",
+      "popularity": 70,
+      "tempo": 141.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.798,
+      "valence": 0.542,
+      "danceability": 0.662,
+      "acousticness": 0.306,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.034,
+      "duration_ms": 169533,
+      "slug": "cu\u00eddate-la-oreja-de-van-gogh"
+    },
+    {
+      "name": "Fiesta Pagana",
+      "artists": "M\u00e4go de Oz",
+      "album": "Finisterra",
+      "popularity": 70,
+      "tempo": 135.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.897,
+      "valence": 0.376,
+      "danceability": 0.434,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.07,
+      "duration_ms": 296751,
+      "slug": "fiesta-pagana-m\u00e4go-de-oz"
+    },
+    {
+      "name": "Hijo de la luna",
+      "artists": "Mecano",
+      "album": "Entre el Cielo y el Suelo (Bonus Tracks Edition)",
+      "popularity": 69,
+      "tempo": 179.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.527,
+      "valence": 0.569,
+      "danceability": 0.45,
+      "acousticness": 0.695,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.034,
+      "duration_ms": 259146,
+      "slug": "hijo-de-la-luna-mecano"
+    },
+    {
+      "name": "SI ELLA SUPIERA",
+      "artists": "India Martinez;Melendi",
+      "album": "SI ELLA SUPIERA",
+      "popularity": 69,
+      "tempo": 138.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.608,
+      "valence": 0.658,
+      "danceability": 0.728,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.071,
+      "duration_ms": 233633,
+      "slug": "si-ella-supiera-india-martinez"
+    },
+    {
+      "name": "Si Tu Te Vas",
+      "artists": "Khaled",
+      "album": "Si Tu Te Vas",
+      "popularity": 69,
+      "tempo": 99.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.489,
+      "valence": 0.589,
+      "danceability": 0.88,
+      "acousticness": 0.465,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.134,
+      "duration_ms": 192000,
+      "slug": "si-tu-te-vas-khaled"
+    },
+    {
+      "name": "Vas A Quedarte",
+      "artists": "Aitana",
+      "album": "Spoiler",
+      "popularity": 69,
+      "tempo": 89.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.508,
+      "valence": 0.168,
+      "danceability": 0.395,
+      "acousticness": 0.795,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.033,
+      "duration_ms": 226213,
+      "slug": "vas-a-quedarte-aitana"
+    },
+    {
+      "name": "7 L\u00e1grimas - Remix",
+      "artists": "Soge Culebra;Mora;GARABATTO",
+      "album": "7 L\u00e1grimas (Remix)",
+      "popularity": 69,
+      "tempo": 152.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.567,
+      "valence": 0.467,
+      "danceability": 0.697,
+      "acousticness": 0.133,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.083,
+      "duration_ms": 202894,
+      "slug": "7-l\u00e1grimas-remix-soge-culebra"
+    },
+    {
+      "name": "Nada Fue Un Error",
+      "artists": "Coti",
+      "album": "Coti",
+      "popularity": 69,
+      "tempo": 138.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.818,
+      "valence": 0.849,
+      "danceability": 0.622,
+      "acousticness": 0.083,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.033,
+      "duration_ms": 208200,
+      "slug": "nada-fue-un-error-coti"
+    },
+    {
+      "name": "Tiroteo",
+      "artists": "Marc Segu\u00ed;Pol Granch",
+      "album": "Tiroteo",
+      "popularity": 69,
+      "tempo": 110.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.605,
+      "valence": 0.564,
+      "danceability": 0.747,
+      "acousticness": 0.055,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.027,
+      "duration_ms": 266290,
+      "slug": "tiroteo-marc-segu\u00ed"
+    },
+    {
+      "name": "Maldito duende",
+      "artists": "Heroes Del Silencio",
+      "album": "Senderos De Traici\u00f3n - Edici\u00f3n Especial",
+      "popularity": 69,
+      "tempo": 125.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.85,
+      "valence": 0.348,
+      "danceability": 0.374,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.04,
+      "duration_ms": 253186,
+      "slug": "maldito-duende-heroes-del-silencio"
+    },
+    {
+      "name": "T\u00fa y yo",
+      "artists": "Beret;Omar Montes",
+      "album": "T\u00fa y yo",
+      "popularity": 68,
+      "tempo": 93.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.75,
+      "valence": 0.668,
+      "danceability": 0.661,
+      "acousticness": 0.057,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.069,
+      "duration_ms": 163750,
+      "slug": "t\u00fa-y-yo-beret"
+    },
+    {
+      "name": "solo x ti",
+      "artists": "Pol Granch",
+      "album": "solo x ti",
+      "popularity": 68,
+      "tempo": 118.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.633,
+      "valence": 0.498,
+      "danceability": 0.793,
+      "acousticness": 0.27,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.038,
+      "duration_ms": 198758,
+      "slug": "solo-x-ti-pol-granch"
+    },
+    {
+      "name": "Soldadito marinero",
+      "artists": "Fito y Fitipaldis",
+      "album": "Lo mas lejos a tu lado",
+      "popularity": 68,
+      "tempo": 139.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.431,
+      "valence": 0.324,
+      "danceability": 0.718,
+      "acousticness": 0.132,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.031,
+      "duration_ms": 254373,
+      "slug": "soldadito-marinero-fito-y-fitipaldis"
+    },
+    {
+      "name": "Agua",
+      "artists": "Jarabe De Palo",
+      "album": "Depende",
+      "popularity": 68,
+      "tempo": 145.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.358,
+      "valence": 0.742,
+      "danceability": 0.715,
+      "acousticness": 0.743,
+      "instrumentalness": 0.013,
+      "loudness": -15.5,
+      "speechiness": 0.033,
+      "duration_ms": 254266,
+      "slug": "agua-jarabe-de-palo"
+    },
+    {
+      "name": "M\u00fasica Ligera",
+      "artists": "Ana Mena",
+      "album": "M\u00fasica Ligera",
+      "popularity": 67,
+      "tempo": 120.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.752,
+      "valence": 0.633,
+      "danceability": 0.695,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.028,
+      "duration_ms": 235996,
+      "slug": "m\u00fasica-ligera-ana-mena"
+    },
+    {
+      "name": "MENEITO",
+      "artists": "Nil Moliner;Yera",
+      "album": "MENEITO",
+      "popularity": 67,
+      "tempo": 122.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.961,
+      "danceability": 0.823,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.05,
+      "duration_ms": 198196,
+      "slug": "meneito-nil-moliner"
+    },
+    {
+      "name": "A Un Paso De La Luna",
+      "artists": "Ana Mena;Rocco Hunt",
+      "album": "A Un Paso De La Luna",
+      "popularity": 67,
+      "tempo": 122.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.771,
+      "valence": 0.954,
+      "danceability": 0.744,
+      "acousticness": 0.394,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.053,
+      "duration_ms": 167313,
+      "slug": "a-un-paso-de-la-luna-ana-mena"
+    },
+    {
+      "name": "El Fin del Mundo",
+      "artists": "La La Love You;Axolotes Mexicanos",
+      "album": "El Fin del Mundo",
+      "popularity": 67,
+      "tempo": 127.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.676,
+      "danceability": 0.6,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.048,
+      "duration_ms": 188093,
+      "slug": "el-fin-del-mundo-la-la-love-you"
+    },
+    {
+      "name": "El d\u00eda menos pensado",
+      "artists": "Beret",
+      "album": "El d\u00eda menos pensado",
+      "popularity": 67,
+      "tempo": 89.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.688,
+      "valence": 0.372,
+      "danceability": 0.544,
+      "acousticness": 0.283,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.038,
+      "duration_ms": 224675,
+      "slug": "el-d\u00eda-menos-pensado-beret"
+    },
+    {
+      "name": "Mezzanotte",
+      "artists": "Ana Mena",
+      "album": "Mezzanotte",
+      "popularity": 67,
+      "tempo": 129.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.737,
+      "valence": 0.705,
+      "danceability": 0.757,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.051,
+      "duration_ms": 165230,
+      "slug": "mezzanotte-ana-mena"
+    },
+    {
+      "name": "La promesa",
+      "artists": "Melendi",
+      "album": "Un alumno m\u00e1s",
+      "popularity": 67,
+      "tempo": 153.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.414,
+      "danceability": 0.584,
+      "acousticness": 0.067,
+      "instrumentalness": 0.008,
+      "loudness": -5.1,
+      "speechiness": 0.035,
+      "duration_ms": 233040,
+      "slug": "la-promesa-melendi"
+    },
+    {
+      "name": "Puedes Contar Conmigo",
+      "artists": "La Oreja de Van Gogh",
+      "album": "Lo Que Te Conte Mientras Te Hacias La Dormida",
+      "popularity": 67,
+      "tempo": 144.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.561,
+      "danceability": 0.651,
+      "acousticness": 0.071,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.032,
+      "duration_ms": 236786,
+      "slug": "puedes-contar-conmigo-la-oreja-de-van-gogh"
+    },
+    {
+      "name": "Ni t\u00fa ni nadie",
+      "artists": "Alaska Y Dinarama",
+      "album": "Deseo Carnal",
+      "popularity": 67,
+      "tempo": 137.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.677,
+      "valence": 0.677,
+      "danceability": 0.601,
+      "acousticness": 0.519,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.029,
+      "duration_ms": 217000,
+      "slug": "ni-t\u00fa-ni-nadie-alaska-y-dinarama"
+    },
+    {
+      "name": "Ojal\u00e1",
+      "artists": "Beret",
+      "album": "Prisma",
+      "popularity": 67,
+      "tempo": 77.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.622,
+      "valence": 0.449,
+      "danceability": 0.615,
+      "acousticness": 0.328,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.209,
+      "duration_ms": 218861,
+      "slug": "ojal\u00e1-beret"
+    },
+    {
+      "name": "Deja Que Te Bese",
+      "artists": "Alejandro Sanz;Marc Anthony",
+      "album": "Deja Que Te Bese",
+      "popularity": 67,
+      "tempo": 104.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.546,
+      "danceability": 0.707,
+      "acousticness": 0.134,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.058,
+      "duration_ms": 244353,
+      "slug": "deja-que-te-bese-alejandro-sanz"
+    },
+    {
+      "name": "METALLICA",
+      "artists": "Yung Beef",
+      "album": "El Plugg 2",
+      "popularity": 67,
+      "tempo": 174.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.816,
+      "valence": 0.58,
+      "danceability": 0.586,
+      "acousticness": 0.099,
+      "instrumentalness": 0.005,
+      "loudness": -4.5,
+      "speechiness": 0.122,
+      "duration_ms": 228218,
+      "slug": "metallica-yung-beef"
+    },
+    {
+      "name": "El Fin del Mundo",
+      "artists": "La La Love You;Axolotes Mexicanos",
+      "album": "La la Love You Bonus",
+      "popularity": 66,
+      "tempo": 127.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.866,
+      "valence": 0.677,
+      "danceability": 0.602,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.047,
+      "duration_ms": 188093,
+      "slug": "el-fin-del-mundo-la-la-love-you"
+    },
+    {
+      "name": "Berl\u00edn",
+      "artists": "Aitana",
+      "album": "Berl\u00edn",
+      "popularity": 66,
+      "tempo": 153.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.81,
+      "valence": 0.891,
+      "danceability": 0.788,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.074,
+      "duration_ms": 146493,
+      "slug": "berl\u00edn-aitana"
+    },
+    {
+      "name": "Tu Calorro",
+      "artists": "Estopa",
+      "album": "Estopa",
+      "popularity": 66,
+      "tempo": 88.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.768,
+      "valence": 0.962,
+      "danceability": 0.713,
+      "acousticness": 0.229,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.066,
+      "duration_ms": 190626,
+      "slug": "tu-calorro-estopa"
+    },
+    {
+      "name": "Como Camar\u00f3n",
+      "artists": "Estopa",
+      "album": "Estopa",
+      "popularity": 66,
+      "tempo": 140.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.721,
+      "valence": 0.843,
+      "danceability": 0.499,
+      "acousticness": 0.216,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.056,
+      "duration_ms": 202026,
+      "slug": "como-camar\u00f3n-estopa"
+    },
+    {
+      "name": "Caminando por la vida",
+      "artists": "Melendi",
+      "album": "Que El Cielo Espere Sentao..",
+      "popularity": 66,
+      "tempo": 108.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.958,
+      "valence": 0.711,
+      "danceability": 0.695,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.083,
+      "duration_ms": 211680,
+      "slug": "caminando-por-la-vida-melendi"
+    },
+    {
+      "name": "Himno A La Alegr\u00eda",
+      "artists": "Aitana;Alejandro Sanz;Antonio Jos\u00e9;Antonio Orozco;Pablo L\u00f3pez;Alejandro Lerner;Alessia Cara;Alex Ubago;Ana Mena;Andr\u00e9s Calamaro;Andr\u00e9s Dvicio;Brian May;Camilo;Carlos Rivera;David Bisbal;Draco;Dulce Pontes;Fher;India Martinez;Joy;Juanes;Lali;Laura Pausini;Leire Martinez;Macaco;Mal\u00fa;Manolo Garcia;Manuel Carrasco;Mau y Ricky;Melendi;Miguel R\u00edos;Mikel Izal;NATHY PELUSO;Pablo Albor\u00e1n;Rosario;Rozal\u00e9n;Sebastian Yatra;Vanesa Mart\u00edn",
+      "album": "Himno A La Alegr\u00eda",
+      "popularity": 66,
+      "tempo": 119.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.328,
+      "valence": 0.243,
+      "danceability": 0.304,
+      "acousticness": 0.56,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.035,
+      "duration_ms": 307473,
+      "slug": "himno-a-la-alegr\u00eda-aitana"
+    },
+    {
+      "name": "Cicatrices",
+      "artists": "Natos y Waor",
+      "album": "Cicatrices",
+      "popularity": 66,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.647,
+      "valence": 0.281,
+      "danceability": 0.713,
+      "acousticness": 0.728,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.346,
+      "duration_ms": 176374,
+      "slug": "cicatrices-natos-y-waor"
+    },
+    {
+      "name": "Juramento eterno de sal",
+      "artists": "\u00c1lvaro De Luna",
+      "album": "Juramento eterno de sal",
+      "popularity": 66,
+      "tempo": 130.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.594,
+      "valence": 0.716,
+      "danceability": 0.631,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.058,
+      "duration_ms": 205546,
+      "slug": "juramento-eterno-de-sal-\u00e1lvaro-de-luna"
+    },
+    {
+      "name": "A Partir De Hoy",
+      "artists": "David Bisbal;Sebastian Yatra",
+      "album": "En Tus Planes",
+      "popularity": 66,
+      "tempo": 163.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.847,
+      "valence": 0.515,
+      "danceability": 0.652,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.055,
+      "duration_ms": 196802,
+      "slug": "a-partir-de-hoy-david-bisbal"
+    },
+    {
+      "name": "Aunque No Sea Conmigo",
+      "artists": "Aitana;Evaluna Montaner",
+      "album": "Aunque No Sea Conmigo",
+      "popularity": 66,
+      "tempo": 92.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.555,
+      "valence": 0.544,
+      "danceability": 0.632,
+      "acousticness": 0.32,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.033,
+      "duration_ms": 179648,
+      "slug": "aunque-no-sea-conmigo-aitana"
+    },
+    {
+      "name": "Tanto la Queria",
+      "artists": "Andy & Lucas",
+      "album": "Andy Y Lucas",
+      "popularity": 66,
+      "tempo": 144.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.756,
+      "valence": 0.574,
+      "danceability": 0.68,
+      "acousticness": 0.546,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.06,
+      "duration_ms": 280146,
+      "slug": "tanto-la-queria-andy-lucas"
+    },
+    {
+      "name": "Rumbapop",
+      "artists": "Pole.;Estopa",
+      "album": "Rumbapop",
+      "popularity": 65,
+      "tempo": 105.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.642,
+      "valence": 0.948,
+      "danceability": 0.697,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.062,
+      "duration_ms": 158857,
+      "slug": "rumbapop-pole"
+    },
+    {
+      "name": "De Perreo",
+      "artists": "Marlon",
+      "album": "De Perreo",
+      "popularity": 65,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.629,
+      "valence": 0.785,
+      "danceability": 0.789,
+      "acousticness": 0.149,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.043,
+      "duration_ms": 173784,
+      "slug": "de-perreo-marlon"
+    },
+    {
+      "name": "Ay Haiti!",
+      "artists": "Alejandro Sanz;Aleks Syntek;Bebe;Belinda;Carlos Jean;Daddy Jean;David Otero;Enrique Iglesias;Estopa;Hombres G;Juanes;Kun Ag\u00fcero;La Mala;La Oreja de Van Gogh;Macaco;Marta S\u00e1nchez;Merce;Miguel Bos\u00e9;Najwa;OBK;Sandra Carrasco;Shakira;Wally Lopez",
+      "album": "Ay Haiti!",
+      "popularity": 65,
+      "tempo": 120.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.753,
+      "valence": 0.424,
+      "danceability": 0.673,
+      "acousticness": 0.272,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.119,
+      "duration_ms": 311346,
+      "slug": "ay-haiti-alejandro-sanz"
+    },
+    {
+      "name": "Algod\u00f3n de az\u00facar",
+      "artists": "Chema Rivas",
+      "album": "Algod\u00f3n de az\u00facar",
+      "popularity": 65,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.732,
+      "valence": 0.64,
+      "danceability": 0.785,
+      "acousticness": 0.248,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.038,
+      "duration_ms": 168000,
+      "slug": "algod\u00f3n-de-az\u00facar-chema-rivas"
+    },
+    {
+      "name": "Princesas",
+      "artists": "Pereza",
+      "album": "Animales",
+      "popularity": 65,
+      "tempo": 131.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.846,
+      "valence": 0.706,
+      "danceability": 0.683,
+      "acousticness": 0.063,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.042,
+      "duration_ms": 217000,
+      "slug": "princesas-pereza"
+    },
+    {
+      "name": "Ay Mam\u00e1",
+      "artists": "Rigoberta Bandini",
+      "album": "Ay Mam\u00e1",
+      "popularity": 65,
+      "tempo": 127.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.56,
+      "valence": 0.32,
+      "danceability": 0.687,
+      "acousticness": 0.133,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.036,
+      "duration_ms": 181120,
+      "slug": "ay-mam\u00e1-rigoberta-bandini"
+    },
+    {
+      "name": "Por la boca vive el pez",
+      "artists": "Fito y Fitipaldis",
+      "album": "Por la boca vive el pez",
+      "popularity": 65,
+      "tempo": 151.2,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.892,
+      "valence": 0.841,
+      "danceability": 0.641,
+      "acousticness": 0.255,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.03,
+      "duration_ms": 269373,
+      "slug": "por-la-boca-vive-el-pez-fito-y-fitipaldis"
+    },
+    {
+      "name": "Llueve sobre mojado",
+      "artists": "Pablo Albor\u00e1n;Aitana;\u00c1lvaro De Luna",
+      "album": "Llueve sobre mojado",
+      "popularity": 65,
+      "tempo": 145.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.782,
+      "valence": 0.611,
+      "danceability": 0.663,
+      "acousticness": 0.002,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.1,
+      "duration_ms": 228783,
+      "slug": "llueve-sobre-mojado-pablo-albor\u00e1n"
+    },
+    {
+      "name": "SI NO VAS A VOLVER",
+      "artists": "Aitana",
+      "album": "11 RAZONES",
+      "popularity": 65,
+      "tempo": 117.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.667,
+      "valence": 0.275,
+      "danceability": 0.697,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.033,
+      "duration_ms": 155645,
+      "slug": "si-no-vas-a-volver-aitana"
+    },
+    {
+      "name": "La Lola",
+      "artists": "Caf\u00e9 Quijano",
+      "album": "La Extraordinaria Paradoja Del Sonido Quijano",
+      "popularity": 65,
+      "tempo": 152.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.79,
+      "valence": 0.867,
+      "danceability": 0.725,
+      "acousticness": 0.065,
+      "instrumentalness": 0.009,
+      "loudness": -4.4,
+      "speechiness": 0.102,
+      "duration_ms": 197320,
+      "slug": "la-lola-caf\u00e9-quijano"
+    },
+    {
+      "name": "FUE",
+      "artists": "Manuel Carrasco",
+      "album": "FUE",
+      "popularity": 64,
+      "tempo": 146.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.415,
+      "valence": 0.692,
+      "danceability": 0.744,
+      "acousticness": 0.449,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.161,
+      "duration_ms": 242833,
+      "slug": "fue-manuel-carrasco"
+    },
+    {
+      "name": "Dile a los dem\u00e1s",
+      "artists": "Dani Fern\u00e1ndez",
+      "album": "Dile a los dem\u00e1s",
+      "popularity": 64,
+      "tempo": 140.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.895,
+      "valence": 0.945,
+      "danceability": 0.743,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.036,
+      "duration_ms": 209925,
+      "slug": "dile-a-los-dem\u00e1s-dani-fern\u00e1ndez"
+    },
+    {
+      "name": "Como Si Fueras a Morir Ma\u00f1ana",
+      "artists": "Leiva",
+      "album": "Nuclear",
+      "popularity": 64,
+      "tempo": 143.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.816,
+      "valence": 0.373,
+      "danceability": 0.46,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.043,
+      "duration_ms": 240984,
+      "slug": "como-si-fueras-a-morir-ma\u00f1ana-leiva"
+    },
+    {
+      "name": "Levantaremos al sol",
+      "artists": "\u00c1lvaro De Luna",
+      "album": "Levantaremos al sol",
+      "popularity": 64,
+      "tempo": 124.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.777,
+      "valence": 0.703,
+      "danceability": 0.572,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.081,
+      "duration_ms": 223630,
+      "slug": "levantaremos-al-sol-\u00e1lvaro-de-luna"
+    },
+    {
+      "name": "Zapatillas",
+      "artists": "El Canto Del Loco",
+      "album": "Zapatillas",
+      "popularity": 64,
+      "tempo": 198.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.956,
+      "valence": 0.686,
+      "danceability": 0.428,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.178,
+      "duration_ms": 172640,
+      "slug": "zapatillas-el-canto-del-loco"
+    },
+    {
+      "name": "Qu\u00e9 Bonito Es Querer",
+      "artists": "Manuel Carrasco",
+      "album": "La Cruz Del Mapa",
+      "popularity": 64,
+      "tempo": 93.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.718,
+      "valence": 0.426,
+      "danceability": 0.609,
+      "acousticness": 0.6,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.045,
+      "duration_ms": 270187,
+      "slug": "qu\u00e9-bonito-es-querer-manuel-carrasco"
+    },
+    {
+      "name": "Mirando a la luna (feat. Reik)",
+      "artists": "Beret;Reik",
+      "album": "Mirando a la luna (feat. Reik)",
+      "popularity": 64,
+      "tempo": 84.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.612,
+      "valence": 0.423,
+      "danceability": 0.544,
+      "acousticness": 0.258,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.038,
+      "duration_ms": 186146,
+      "slug": "mirando-a-la-luna-feat-reik-beret"
+    },
+    {
+      "name": "Eso Que T\u00fa Me Das",
+      "artists": "Jarabe De Palo",
+      "album": "Tragas o Escupes",
+      "popularity": 64,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.804,
+      "valence": 0.836,
+      "danceability": 0.778,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.029,
+      "duration_ms": 214553,
+      "slug": "eso-que-t\u00fa-me-das-jarabe-de-palo"
+    },
+    {
+      "name": "La Tormenta De Arena",
+      "artists": "Dorian",
+      "album": "La Ciudad Subterr\u00e1nea",
+      "popularity": 64,
+      "tempo": 128.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.804,
+      "valence": 0.548,
+      "danceability": 0.603,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -3.0,
+      "speechiness": 0.031,
+      "duration_ms": 368360,
+      "slug": "la-tormenta-de-arena-dorian"
+    },
+    {
+      "name": "Ready Pa Morir",
+      "artists": "Yung Beef;Steve Lean",
+      "album": "A.D.R.O.M.I.C.F.M.S. 2",
+      "popularity": 64,
+      "tempo": 72.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.485,
+      "valence": 0.254,
+      "danceability": 0.679,
+      "acousticness": 0.382,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.324,
+      "duration_ms": 191346,
+      "slug": "ready-pa-morir-yung-beef"
+    },
+    {
+      "name": "Si T\u00fa La Quieres",
+      "artists": "David Bisbal;Aitana",
+      "album": "Si T\u00fa La Quieres",
+      "popularity": 64,
+      "tempo": 100.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.778,
+      "valence": 0.607,
+      "danceability": 0.748,
+      "acousticness": 0.147,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.069,
+      "duration_ms": 224761,
+      "slug": "si-t\u00fa-la-quieres-david-bisbal"
+    },
+    {
+      "name": "D\u00e9jala Que Baile (with Alejandro Sanz & Arkano)",
+      "artists": "Melendi;Alejandro Sanz;Arkano",
+      "album": "Ahora",
+      "popularity": 64,
+      "tempo": 96.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.777,
+      "valence": 0.598,
+      "danceability": 0.831,
+      "acousticness": 0.356,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.174,
+      "duration_ms": 219600,
+      "slug": "d\u00e9jala-que-baile-with-alejandro-sanz-arkano-melendi"
+    },
+    {
+      "name": "Con La Miel En Los Labios",
+      "artists": "Aitana",
+      "album": "Spoiler",
+      "popularity": 64,
+      "tempo": 113.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.331,
+      "valence": 0.432,
+      "danceability": 0.662,
+      "acousticness": 0.869,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.041,
+      "duration_ms": 202446,
+      "slug": "con-la-miel-en-los-labios-aitana"
+    },
+    {
+      "name": "Todo Estaba Bien",
+      "artists": "Carlos Sadness;Manuel Medrano",
+      "album": "Tropical Jesus",
+      "popularity": 64,
+      "tempo": 104.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.729,
+      "valence": 0.456,
+      "danceability": 0.761,
+      "acousticness": 0.084,
+      "instrumentalness": 0.004,
+      "loudness": -5.9,
+      "speechiness": 0.09,
+      "duration_ms": 188222,
+      "slug": "todo-estaba-bien-carlos-sadness"
+    },
+    {
+      "name": "Coquito",
+      "artists": "Manuel Carrasco",
+      "album": "Coquito",
+      "popularity": 63,
+      "tempo": 159.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.57,
+      "valence": 0.816,
+      "danceability": 0.696,
+      "acousticness": 0.327,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.246,
+      "duration_ms": 220422,
+      "slug": "coquito-manuel-carrasco"
+    },
+    {
+      "name": "Hay Que Vivir El Momento",
+      "artists": "Manuel Carrasco",
+      "album": "Hay Que Vivir El Momento",
+      "popularity": 63,
+      "tempo": 101.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.844,
+      "valence": 0.657,
+      "danceability": 0.557,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.089,
+      "duration_ms": 241367,
+      "slug": "hay-que-vivir-el-momento-manuel-carrasco"
+    },
+    {
+      "name": "Camiseta de Rokanrol",
+      "artists": "Estopa;Fito y Fitipaldis",
+      "album": "Camiseta de Rokanrol",
+      "popularity": 63,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.846,
+      "valence": 0.423,
+      "danceability": 0.682,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.052,
+      "duration_ms": 229832,
+      "slug": "camiseta-de-rokanrol-estopa"
+    }
+  ]
+}

@@ -1,0 +1,2800 @@
+{
+  "genre": "Groove",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 73.722,
+    "max": 192.153,
+    "mean": 123.979,
+    "median": 124.977,
+    "q1": 119.975,
+    "q3": 126.027,
+    "histogram": {
+      "70-79": 2,
+      "80-89": 2,
+      "90-99": 5,
+      "100-109": 7,
+      "110-119": 12,
+      "120-129": 53,
+      "130-139": 7,
+      "140-149": 6,
+      "150-159": 2,
+      "170-179": 3,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "B": 17,
+    "C#/Db": 12,
+    "F#/Gb": 11,
+    "C": 8,
+    "F": 8,
+    "G": 8,
+    "E": 8,
+    "G#/Ab": 7,
+    "D": 7,
+    "A": 6,
+    "A#/Bb": 4,
+    "D#/Eb": 4
+  },
+  "mode_distribution": {
+    "Minor": 53,
+    "Major": 47
+  },
+  "key_mode_distribution": {
+    "B Minor": 13,
+    "D Major": 7,
+    "C#/Db Minor": 6,
+    "C Major": 6,
+    "F#/Gb Minor": 6,
+    "E Minor": 6,
+    "C#/Db Major": 6,
+    "A Major": 5,
+    "F Minor": 5,
+    "F#/Gb Major": 5,
+    "G#/Ab Major": 4,
+    "G Major": 4,
+    "D#/Eb Minor": 4,
+    "G Minor": 4,
+    "B Major": 4,
+    "A#/Bb Minor": 3,
+    "G#/Ab Minor": 3,
+    "F Major": 3,
+    "C Minor": 2,
+    "E Major": 2,
+    "A#/Bb Major": 1,
+    "A Minor": 1
+  },
+  "energy": {
+    "min": 0.459,
+    "max": 0.998,
+    "mean": 0.854,
+    "median": 0.881,
+    "q1": 0.78,
+    "q3": 0.953
+  },
+  "valence": {
+    "min": 0.06,
+    "max": 0.97,
+    "mean": 0.476,
+    "median": 0.474,
+    "q1": 0.297,
+    "q3": 0.645
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.69,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.597
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.351
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.703
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.726
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.82
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.645
+    },
+    {
+      "energy": 0.872,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.074
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.238
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.675,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.699
+    },
+    {
+      "energy": 0.903,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.675
+    },
+    {
+      "energy": 0.79,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.726,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.832,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.987,
+      "valence": 0.297
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.406
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.159
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.693
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.746,
+      "valence": 0.263
+    },
+    {
+      "energy": 0.944,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.425
+    },
+    {
+      "energy": 0.935,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.17
+    },
+    {
+      "energy": 0.935,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.555
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.712
+    },
+    {
+      "energy": 0.987,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.666
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.47
+    },
+    {
+      "energy": 0.989,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.929,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.996,
+      "valence": 0.06
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.979,
+      "valence": 0.292
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.751
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.905
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.983,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.811,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.236
+    },
+    {
+      "energy": 0.615,
+      "valence": 0.411
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.137
+    },
+    {
+      "energy": 0.987,
+      "valence": 0.297
+    },
+    {
+      "energy": 0.762,
+      "valence": 0.255
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.819
+    },
+    {
+      "energy": 0.991,
+      "valence": 0.202
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.697
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.819
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.868
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.959,
+      "valence": 0.242
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.261
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.174
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.447
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.917
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.739
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.712
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.49
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.325
+    },
+    {
+      "energy": 0.925,
+      "valence": 0.2
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.97
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.296
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.585
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.627
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.753,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.986,
+      "valence": 0.293
+    },
+    {
+      "energy": 0.459,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.992,
+      "valence": 0.555
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.155
+    },
+    {
+      "energy": 0.998,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.799
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.313
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.444,
+    "mean": 0.034,
+    "median": 0.007,
+    "q1": 0.0,
+    "q3": 0.031
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.914,
+    "mean": 0.107,
+    "median": 0.004,
+    "q1": 0.0,
+    "q3": 0.101
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.025
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.72
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.073,
+      "instrumentalness": 0.016
+    },
+    {
+      "acousticness": 0.137,
+      "instrumentalness": 0.914
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.269
+    },
+    {
+      "acousticness": 0.106,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.082
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.281
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.252
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.09
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.129
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.081
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.103
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.729
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.559
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.151
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.396
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.089
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.062
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.176
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.256
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.053
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.843
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.129
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.056
+    },
+    {
+      "acousticness": 0.333,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.042
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.168,
+      "instrumentalness": 0.458
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.054
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.101
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.883
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.038
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.165
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.323
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.359
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.106,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.444,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.106
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.372,
+      "instrumentalness": 0.544
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.88
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.143
+    }
+  ],
+  "duration": {
+    "min": 118871,
+    "max": 464453,
+    "mean": 218197.67,
+    "median": 207928.5,
+    "q1": 182700,
+    "q3": 242015
+  },
+  "danceability": {
+    "min": 0.242,
+    "max": 0.896,
+    "mean": 0.603,
+    "median": 0.629,
+    "q1": 0.481,
+    "q3": 0.739
+  },
+  "loudness": {
+    "min": -11.541,
+    "max": -2.1,
+    "mean": -5.615,
+    "median": -5.152,
+    "q1": -6.548,
+    "q3": -4.278
+  },
+  "speechiness": {
+    "min": 0.028,
+    "max": 0.244,
+    "mean": 0.074,
+    "median": 0.059,
+    "q1": 0.045,
+    "q3": 0.089
+  },
+  "top_artists": [
+    {
+      "name": "Five Finger Death Punch",
+      "count": 17
+    },
+    {
+      "name": "James Hype",
+      "count": 8
+    },
+    {
+      "name": "Pantera",
+      "count": 8
+    },
+    {
+      "name": "Lamb of God",
+      "count": 4
+    },
+    {
+      "name": "Miggy Dela Rosa",
+      "count": 3
+    },
+    {
+      "name": "D.O.D",
+      "count": 3
+    },
+    {
+      "name": "Pascal Letoublon",
+      "count": 3
+    },
+    {
+      "name": "Dom Dolla",
+      "count": 3
+    },
+    {
+      "name": "Mudvayne",
+      "count": 3
+    },
+    {
+      "name": "Gorgon City",
+      "count": 3
+    },
+    {
+      "name": "Chris Lake",
+      "count": 3
+    },
+    {
+      "name": "Gojira",
+      "count": 3
+    },
+    {
+      "name": "Chris Lorenzo",
+      "count": 2
+    },
+    {
+      "name": "Leony",
+      "count": 2
+    },
+    {
+      "name": "Sonny Fodera",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Ferrari",
+      "artists": "James Hype;Miggy Dela Rosa",
+      "album": "Ferrari",
+      "popularity": 90,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.69,
+      "valence": 0.692,
+      "danceability": 0.847,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.049,
+      "duration_ms": 186661,
+      "slug": "ferrari-james-hype"
+    },
+    {
+      "name": "Ferrari - Remix",
+      "artists": "James Hype;Miggy Dela Rosa;Lazza",
+      "album": "Ferrari (Remix)",
+      "popularity": 80,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.728,
+      "valence": 0.597,
+      "danceability": 0.818,
+      "acousticness": 0.099,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.072,
+      "duration_ms": 172000,
+      "slug": "ferrari-remix-james-hype"
+    },
+    {
+      "name": "California Dreamin' (feat. High Jinx)",
+      "artists": "Chris Lorenzo;High Jinx",
+      "album": "California Dreamin' (feat. High Jinx)",
+      "popularity": 74,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.351,
+      "danceability": 0.685,
+      "acousticness": 0.006,
+      "instrumentalness": 0.025,
+      "loudness": -5.0,
+      "speechiness": 0.144,
+      "duration_ms": 196899,
+      "slug": "california-dreamin-feat-high-jinx-chris-lorenzo"
+    },
+    {
+      "name": "Walk",
+      "artists": "Pantera",
+      "album": "Vulgar Display of Power",
+      "popularity": 74,
+      "tempo": 118.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.704,
+      "valence": 0.703,
+      "danceability": 0.43,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -8.0,
+      "speechiness": 0.08,
+      "duration_ms": 315120,
+      "slug": "walk-pantera"
+    },
+    {
+      "name": "My Love (feat. Jess Glynne)",
+      "artists": "Route 94;Jess Glynne",
+      "album": "My Love (feat. Jess Glynne)",
+      "popularity": 73,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.622,
+      "valence": 0.726,
+      "danceability": 0.814,
+      "acousticness": 0.0,
+      "instrumentalness": 0.72,
+      "loudness": -7.6,
+      "speechiness": 0.049,
+      "duration_ms": 259934,
+      "slug": "my-love-feat-jess-glynne-route-94"
+    },
+    {
+      "name": "Cowboys from Hell",
+      "artists": "Pantera",
+      "album": "Cowboys from Hell",
+      "popularity": 72,
+      "tempo": 114.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.437,
+      "danceability": 0.415,
+      "acousticness": 0.004,
+      "instrumentalness": 0.035,
+      "loudness": -9.7,
+      "speechiness": 0.076,
+      "duration_ms": 243533,
+      "slug": "cowboys-from-hell-pantera"
+    },
+    {
+      "name": "A Little Bit Off",
+      "artists": "Five Finger Death Punch",
+      "album": "F8",
+      "popularity": 72,
+      "tempo": 104.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.828,
+      "valence": 0.82,
+      "danceability": 0.664,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.04,
+      "duration_ms": 190718,
+      "slug": "a-little-bit-off-five-finger-death-punch"
+    },
+    {
+      "name": "Believe Me",
+      "artists": "Navos",
+      "album": "Believe Me",
+      "popularity": 71,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.876,
+      "valence": 0.645,
+      "danceability": 0.629,
+      "acousticness": 0.129,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.041,
+      "duration_ms": 188260,
+      "slug": "believe-me-navos"
+    },
+    {
+      "name": "Every Step",
+      "artists": "D.O.D",
+      "album": "Every Step",
+      "popularity": 71,
+      "tempo": 122.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.872,
+      "valence": 0.372,
+      "danceability": 0.662,
+      "acousticness": 0.073,
+      "instrumentalness": 0.016,
+      "loudness": -4.9,
+      "speechiness": 0.032,
+      "duration_ms": 159857,
+      "slug": "every-step-dod"
+    },
+    {
+      "name": "Friendships",
+      "artists": "Pascal Letoublon",
+      "album": "Friendships",
+      "popularity": 70,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.78,
+      "valence": 0.074,
+      "danceability": 0.726,
+      "acousticness": 0.137,
+      "instrumentalness": 0.914,
+      "loudness": -6.3,
+      "speechiness": 0.041,
+      "duration_ms": 242015,
+      "slug": "friendships-pascal-letoublon"
+    },
+    {
+      "name": "Miracle Maker",
+      "artists": "Dom Dolla;Clementine Douglas",
+      "album": "Miracle Maker",
+      "popularity": 70,
+      "tempo": 128.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.94,
+      "valence": 0.238,
+      "danceability": 0.609,
+      "acousticness": 0.001,
+      "instrumentalness": 0.269,
+      "loudness": -6.1,
+      "speechiness": 0.062,
+      "duration_ms": 188592,
+      "slug": "miracle-maker-dom-dolla"
+    },
+    {
+      "name": "Friendships (Lost My Love)",
+      "artists": "Pascal Letoublon;Leony",
+      "album": "Friendships (Lost My Love)",
+      "popularity": 70,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.544,
+      "danceability": 0.787,
+      "acousticness": 0.106,
+      "instrumentalness": 0.001,
+      "loudness": -3.6,
+      "speechiness": 0.03,
+      "duration_ms": 182700,
+      "slug": "friendships-lost-my-love-pascal-letoublon"
+    },
+    {
+      "name": "Check Out",
+      "artists": "J. Worra;Leo Stannard",
+      "album": "Check Out",
+      "popularity": 70,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.675,
+      "valence": 0.776,
+      "danceability": 0.814,
+      "acousticness": 0.006,
+      "instrumentalness": 0.082,
+      "loudness": -6.8,
+      "speechiness": 0.042,
+      "duration_ms": 174138,
+      "slug": "check-out-j-worra"
+    },
+    {
+      "name": "Happy?",
+      "artists": "Mudvayne",
+      "album": "Lost and Found",
+      "popularity": 69,
+      "tempo": 100.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.97,
+      "valence": 0.383,
+      "danceability": 0.546,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.097,
+      "duration_ms": 216426,
+      "slug": "happy-mudvayne"
+    },
+    {
+      "name": "Still Sleepless",
+      "artists": "D.O.D;Carla Monroe",
+      "album": "Still Sleepless",
+      "popularity": 69,
+      "tempo": 125.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.738,
+      "valence": 0.699,
+      "danceability": 0.628,
+      "acousticness": 0.016,
+      "instrumentalness": 0.281,
+      "loudness": -5.0,
+      "speechiness": 0.037,
+      "duration_ms": 162879,
+      "slug": "still-sleepless-dod"
+    },
+    {
+      "name": "Ferrari - Oliver Heldens Remix",
+      "artists": "James Hype;Miggy Dela Rosa;Oliver Heldens",
+      "album": "Ferrari (Oliver Heldens Remix)",
+      "popularity": 68,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.903,
+      "valence": 0.694,
+      "danceability": 0.73,
+      "acousticness": 0.008,
+      "instrumentalness": 0.252,
+      "loudness": -5.6,
+      "speechiness": 0.043,
+      "duration_ms": 188640,
+      "slug": "ferrari-oliver-heldens-remix-james-hype"
+    },
+    {
+      "name": "Say Something - Zac Samuel Remix",
+      "artists": "Karen Harding;Zac Samuel",
+      "album": "Say Something",
+      "popularity": 68,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.667,
+      "valence": 0.675,
+      "danceability": 0.701,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.036,
+      "duration_ms": 213135,
+      "slug": "say-something-zac-samuel-remix-karen-harding"
+    },
+    {
+      "name": "My Humps",
+      "artists": "Joshwa;Lee Foss",
+      "album": "My Humps",
+      "popularity": 67,
+      "tempo": 129.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.79,
+      "valence": 0.587,
+      "danceability": 0.862,
+      "acousticness": 0.042,
+      "instrumentalness": 0.006,
+      "loudness": -8.4,
+      "speechiness": 0.067,
+      "duration_ms": 186124,
+      "slug": "my-humps-joshwa"
+    },
+    {
+      "name": "Go",
+      "artists": "TCTS;Maroox",
+      "album": "Go",
+      "popularity": 67,
+      "tempo": 125.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.853,
+      "valence": 0.604,
+      "danceability": 0.68,
+      "acousticness": 0.013,
+      "instrumentalness": 0.001,
+      "loudness": -5.7,
+      "speechiness": 0.05,
+      "duration_ms": 142349,
+      "slug": "go-tcts"
+    },
+    {
+      "name": "Remember (feat. Stevie Appleton)",
+      "artists": "Sonny Fodera;Gorgon City;Danny Howard;Stevie Appleton",
+      "album": "Remember (feat. Stevie Appleton)",
+      "popularity": 67,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.89,
+      "valence": 0.328,
+      "danceability": 0.655,
+      "acousticness": 0.101,
+      "instrumentalness": 0.015,
+      "loudness": -6.4,
+      "speechiness": 0.061,
+      "duration_ms": 199967,
+      "slug": "remember-feat-stevie-appleton-sonny-fodera"
+    },
+    {
+      "name": "Cemetery Gates",
+      "artists": "Pantera",
+      "album": "Cowboys from Hell",
+      "popularity": 67,
+      "tempo": 146.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.726,
+      "valence": 0.426,
+      "danceability": 0.274,
+      "acousticness": 0.0,
+      "instrumentalness": 0.011,
+      "loudness": -11.5,
+      "speechiness": 0.045,
+      "duration_ms": 422933,
+      "slug": "cemetery-gates-pantera"
+    },
+    {
+      "name": "Turn off the Lights",
+      "artists": "Chris Lake;Alexis Roberts",
+      "album": "Turn off the Lights",
+      "popularity": 67,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.745,
+      "valence": 0.888,
+      "danceability": 0.824,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.075,
+      "duration_ms": 210546,
+      "slug": "turn-off-the-lights-chris-lake"
+    },
+    {
+      "name": "Wish You Were Mine - Radio Edit",
+      "artists": "Philip George",
+      "album": "Wish You Were Mine",
+      "popularity": 67,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.832,
+      "valence": 0.407,
+      "danceability": 0.654,
+      "acousticness": 0.013,
+      "instrumentalness": 0.09,
+      "loudness": -4.2,
+      "speechiness": 0.029,
+      "duration_ms": 177560,
+      "slug": "wish-you-were-mine-radio-edit-philip-george"
+    },
+    {
+      "name": "The End",
+      "artists": "Five Finger Death Punch",
+      "album": "AfterLife",
+      "popularity": 67,
+      "tempo": 80.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.914,
+      "valence": 0.345,
+      "danceability": 0.499,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.057,
+      "duration_ms": 223199,
+      "slug": "the-end-five-finger-death-punch"
+    },
+    {
+      "name": "Welcome To The Circus",
+      "artists": "Five Finger Death Punch",
+      "album": "AfterLife",
+      "popularity": 67,
+      "tempo": 140.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.987,
+      "valence": 0.297,
+      "danceability": 0.489,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.081,
+      "duration_ms": 256741,
+      "slug": "welcome-to-the-circus-five-finger-death-punch"
+    },
+    {
+      "name": "Summer 91 (Looking Back)",
+      "artists": "Noizu",
+      "album": "Summer 91 (Looking Back)",
+      "popularity": 67,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.953,
+      "valence": 0.406,
+      "danceability": 0.509,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.041,
+      "duration_ms": 180000,
+      "slug": "summer-91-looking-back-noizu"
+    },
+    {
+      "name": "Laid to Rest",
+      "artists": "Lamb of God",
+      "album": "Ashes of the Wake (15th Anniversary)",
+      "popularity": 66,
+      "tempo": 104.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.956,
+      "valence": 0.159,
+      "danceability": 0.366,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -3.7,
+      "speechiness": 0.108,
+      "duration_ms": 230127,
+      "slug": "laid-to-rest-lamb-of-god"
+    },
+    {
+      "name": "Feel Your Body",
+      "artists": "Shift K3Y",
+      "album": "Feel Your Body",
+      "popularity": 66,
+      "tempo": 124.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.693,
+      "danceability": 0.712,
+      "acousticness": 0.036,
+      "instrumentalness": 0.129,
+      "loudness": -5.1,
+      "speechiness": 0.08,
+      "duration_ms": 176000,
+      "slug": "feel-your-body-shift-k3y"
+    },
+    {
+      "name": "Wrong Side of Heaven",
+      "artists": "Five Finger Death Punch",
+      "album": "The Wrong Side Of Heaven And The Righteous Side Of Hell, Volume 1",
+      "popularity": 66,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.932,
+      "valence": 0.543,
+      "danceability": 0.481,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.083,
+      "duration_ms": 271000,
+      "slug": "wrong-side-of-heaven-five-finger-death-punch"
+    },
+    {
+      "name": "All Mine",
+      "artists": "D.O.D",
+      "album": "All Mine",
+      "popularity": 66,
+      "tempo": 122.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.746,
+      "valence": 0.263,
+      "danceability": 0.777,
+      "acousticness": 0.014,
+      "instrumentalness": 0.081,
+      "loudness": -5.7,
+      "speechiness": 0.038,
+      "duration_ms": 151500,
+      "slug": "all-mine-dod"
+    },
+    {
+      "name": "MAMI",
+      "artists": "Chris Lorenzo;COBRAH",
+      "album": "MAMI",
+      "popularity": 66,
+      "tempo": 126.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.944,
+      "valence": 0.826,
+      "danceability": 0.758,
+      "acousticness": 0.031,
+      "instrumentalness": 0.103,
+      "loudness": -4.9,
+      "speechiness": 0.062,
+      "duration_ms": 247896,
+      "slug": "mami-chris-lorenzo"
+    },
+    {
+      "name": "Stillborn",
+      "artists": "Black Label Society",
+      "album": "The Blessed Hellride",
+      "popularity": 66,
+      "tempo": 107.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.881,
+      "valence": 0.425,
+      "danceability": 0.585,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -4.7,
+      "speechiness": 0.037,
+      "duration_ms": 196040,
+      "slug": "stillborn-black-label-society"
+    },
+    {
+      "name": "Times Like These",
+      "artists": "Five Finger Death Punch",
+      "album": "AfterLife",
+      "popularity": 66,
+      "tempo": 73.7,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.935,
+      "valence": 0.593,
+      "danceability": 0.437,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.068,
+      "duration_ms": 209976,
+      "slug": "times-like-these-five-finger-death-punch"
+    },
+    {
+      "name": "Bad Company",
+      "artists": "Five Finger Death Punch",
+      "album": "War is the Answer",
+      "popularity": 65,
+      "tempo": 114.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.886,
+      "valence": 0.17,
+      "danceability": 0.557,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.05,
+      "duration_ms": 262440,
+      "slug": "bad-company-five-finger-death-punch"
+    },
+    {
+      "name": "Blood and Thunder",
+      "artists": "Mastodon",
+      "album": "Leviathan",
+      "popularity": 65,
+      "tempo": 92.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.935,
+      "valence": 0.478,
+      "danceability": 0.364,
+      "acousticness": 0.0,
+      "instrumentalness": 0.729,
+      "loudness": -6.5,
+      "speechiness": 0.072,
+      "duration_ms": 228586,
+      "slug": "blood-and-thunder-mastodon"
+    },
+    {
+      "name": "Domination",
+      "artists": "Pantera",
+      "album": "Cowboys from Hell",
+      "popularity": 65,
+      "tempo": 141.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.888,
+      "valence": 0.555,
+      "danceability": 0.372,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -5.9,
+      "speechiness": 0.094,
+      "duration_ms": 305293,
+      "slug": "domination-pantera"
+    },
+    {
+      "name": "Stranded",
+      "artists": "Gojira",
+      "album": "Magma",
+      "popularity": 65,
+      "tempo": 92.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.88,
+      "valence": 0.495,
+      "danceability": 0.513,
+      "acousticness": 0.0,
+      "instrumentalness": 0.006,
+      "loudness": -4.7,
+      "speechiness": 0.031,
+      "duration_ms": 269533,
+      "slug": "stranded-gojira"
+    },
+    {
+      "name": "Jekyll and Hyde",
+      "artists": "Five Finger Death Punch",
+      "album": "Got Your Six",
+      "popularity": 65,
+      "tempo": 155.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.964,
+      "valence": 0.712,
+      "danceability": 0.537,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.113,
+      "duration_ms": 206903,
+      "slug": "jekyll-and-hyde-five-finger-death-punch"
+    },
+    {
+      "name": "Wash It All Away",
+      "artists": "Five Finger Death Punch",
+      "album": "Got Your Six",
+      "popularity": 65,
+      "tempo": 123.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.987,
+      "valence": 0.272,
+      "danceability": 0.485,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.074,
+      "duration_ms": 224906,
+      "slug": "wash-it-all-away-five-finger-death-punch"
+    },
+    {
+      "name": "I'm Broken",
+      "artists": "Pantera",
+      "album": "Far Beyond Driven",
+      "popularity": 65,
+      "tempo": 147.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.666,
+      "danceability": 0.419,
+      "acousticness": 0.001,
+      "instrumentalness": 0.559,
+      "loudness": -6.4,
+      "speechiness": 0.055,
+      "duration_ms": 264800,
+      "slug": "im-broken-pantera"
+    },
+    {
+      "name": "Living The Dream",
+      "artists": "Five Finger Death Punch",
+      "album": "F8",
+      "popularity": 65,
+      "tempo": 175.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.47,
+      "danceability": 0.416,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.113,
+      "duration_ms": 214542,
+      "slug": "living-the-dream-five-finger-death-punch"
+    },
+    {
+      "name": "AfterLife",
+      "artists": "Five Finger Death Punch",
+      "album": "AfterLife",
+      "popularity": 65,
+      "tempo": 94.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.989,
+      "valence": 0.327,
+      "danceability": 0.472,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.06,
+      "duration_ms": 243560,
+      "slug": "afterlife-five-finger-death-punch"
+    },
+    {
+      "name": "Judgment Day",
+      "artists": "Five Finger Death Punch",
+      "album": "AfterLife",
+      "popularity": 65,
+      "tempo": 148.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.929,
+      "valence": 0.509,
+      "danceability": 0.528,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.073,
+      "duration_ms": 292804,
+      "slug": "judgment-day-five-finger-death-punch"
+    },
+    {
+      "name": "Redneck",
+      "artists": "Lamb of God",
+      "album": "Sacrament",
+      "popularity": 64,
+      "tempo": 130.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.996,
+      "valence": 0.06,
+      "danceability": 0.512,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.1,
+      "speechiness": 0.114,
+      "duration_ms": 220880,
+      "slug": "redneck-lamb-of-god"
+    },
+    {
+      "name": "The Calling",
+      "artists": "Tchami;Marten H\u00f8rger",
+      "album": "The Calling",
+      "popularity": 64,
+      "tempo": 125.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.348,
+      "danceability": 0.748,
+      "acousticness": 0.009,
+      "instrumentalness": 0.151,
+      "loudness": -6.3,
+      "speechiness": 0.063,
+      "duration_ms": 197760,
+      "slug": "the-calling-tchami"
+    },
+    {
+      "name": "The Only",
+      "artists": "Static-X",
+      "album": "Shadow Zone",
+      "popularity": 64,
+      "tempo": 104.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.979,
+      "valence": 0.292,
+      "danceability": 0.428,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.225,
+      "duration_ms": 171106,
+      "slug": "the-only-static-x"
+    },
+    {
+      "name": "Welcome To The People",
+      "artists": "JADED",
+      "album": "Welcome To The People",
+      "popularity": 64,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.751,
+      "danceability": 0.716,
+      "acousticness": 0.123,
+      "instrumentalness": 0.396,
+      "loudness": -5.1,
+      "speechiness": 0.033,
+      "duration_ms": 160669,
+      "slug": "welcome-to-the-people-jaded"
+    },
+    {
+      "name": "Let Me Take You",
+      "artists": "CID;Westend",
+      "album": "Let Me Take You",
+      "popularity": 64,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.908,
+      "valence": 0.905,
+      "danceability": 0.874,
+      "acousticness": 0.008,
+      "instrumentalness": 0.089,
+      "loudness": -3.6,
+      "speechiness": 0.059,
+      "duration_ms": 154761,
+      "slug": "let-me-take-you-cid"
+    },
+    {
+      "name": "Is There Anybody Out There?",
+      "artists": "Machine Head",
+      "album": "Is There Anybody Out There?",
+      "popularity": 64,
+      "tempo": 177.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.291,
+      "danceability": 0.408,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.226,
+      "duration_ms": 272665,
+      "slug": "is-there-anybody-out-there-machine-head"
+    },
+    {
+      "name": "All This",
+      "artists": "Jay Pryor",
+      "album": "All This",
+      "popularity": 64,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.503,
+      "danceability": 0.598,
+      "acousticness": 0.11,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.244,
+      "duration_ms": 187692,
+      "slug": "all-this-jay-pryor"
+    },
+    {
+      "name": "Dig",
+      "artists": "Mudvayne",
+      "album": "L.D. 50",
+      "popularity": 64,
+      "tempo": 135.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.983,
+      "valence": 0.271,
+      "danceability": 0.623,
+      "acousticness": 0.0,
+      "instrumentalness": 0.062,
+      "loudness": -3.5,
+      "speechiness": 0.151,
+      "duration_ms": 162293,
+      "slug": "dig-mudvayne"
+    },
+    {
+      "name": "Disconnected",
+      "artists": "James Hype;Tita Lau",
+      "album": "Disconnected",
+      "popularity": 63,
+      "tempo": 126.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.811,
+      "valence": 0.594,
+      "danceability": 0.842,
+      "acousticness": 0.006,
+      "instrumentalness": 0.176,
+      "loudness": -6.5,
+      "speechiness": 0.109,
+      "duration_ms": 194523,
+      "slug": "disconnected-james-hype"
+    },
+    {
+      "name": "Take It",
+      "artists": "Dom Dolla",
+      "album": "Take It",
+      "popularity": 63,
+      "tempo": 123.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.236,
+      "danceability": 0.851,
+      "acousticness": 0.026,
+      "instrumentalness": 0.256,
+      "loudness": -6.1,
+      "speechiness": 0.038,
+      "duration_ms": 234440,
+      "slug": "take-it-dom-dolla"
+    },
+    {
+      "name": "Good for Me (feat. Anna Straker)",
+      "artists": "Jay Pryor;Coldabank;Anna Straker",
+      "album": "Good for Me (feat. Anna Straker)",
+      "popularity": 63,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.615,
+      "valence": 0.411,
+      "danceability": 0.725,
+      "acousticness": 0.02,
+      "instrumentalness": 0.008,
+      "loudness": -7.2,
+      "speechiness": 0.045,
+      "duration_ms": 144960,
+      "slug": "good-for-me-feat-anna-straker-jay-pryor"
+    },
+    {
+      "name": "Need You There",
+      "artists": "M-22",
+      "album": "Need You There",
+      "popularity": 63,
+      "tempo": 123.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.137,
+      "danceability": 0.651,
+      "acousticness": 0.027,
+      "instrumentalness": 0.001,
+      "loudness": -5.9,
+      "speechiness": 0.045,
+      "duration_ms": 185991,
+      "slug": "need-you-there-m-22"
+    },
+    {
+      "name": "Welcome To The Circus",
+      "artists": "Five Finger Death Punch",
+      "album": "Welcome To The Circus",
+      "popularity": 63,
+      "tempo": 140.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.987,
+      "valence": 0.297,
+      "danceability": 0.489,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.081,
+      "duration_ms": 256741,
+      "slug": "welcome-to-the-circus-five-finger-death-punch"
+    },
+    {
+      "name": "Heartstrings",
+      "artists": "M-22;Ella Henderson",
+      "album": "Heartstrings",
+      "popularity": 63,
+      "tempo": 124.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.762,
+      "valence": 0.255,
+      "danceability": 0.614,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.048,
+      "duration_ms": 211359,
+      "slug": "heartstrings-m-22"
+    },
+    {
+      "name": "More Love",
+      "artists": "Noizu;Secondcity",
+      "album": "More Love",
+      "popularity": 63,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.951,
+      "valence": 0.276,
+      "danceability": 0.572,
+      "acousticness": 0.004,
+      "instrumentalness": 0.053,
+      "loudness": -4.6,
+      "speechiness": 0.05,
+      "duration_ms": 191612,
+      "slug": "more-love-noizu"
+    },
+    {
+      "name": "Looking for Me",
+      "artists": "Paul Woolford;Diplo;Kareen Lomax",
+      "album": "Looking for Me",
+      "popularity": 63,
+      "tempo": 121.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.529,
+      "valence": 0.449,
+      "danceability": 0.641,
+      "acousticness": 0.004,
+      "instrumentalness": 0.001,
+      "loudness": -11.5,
+      "speechiness": 0.029,
+      "duration_ms": 211452,
+      "slug": "looking-for-me-paul-woolford"
+    },
+    {
+      "name": "Temptation (feat. Poppy Baskcomb)",
+      "artists": "Jess Bays;Poppy Baskcomb",
+      "album": "Temptation (feat. Poppy Baskcomb)",
+      "popularity": 63,
+      "tempo": 125.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.703,
+      "valence": 0.819,
+      "danceability": 0.744,
+      "acousticness": 0.019,
+      "instrumentalness": 0.004,
+      "loudness": -8.1,
+      "speechiness": 0.048,
+      "duration_ms": 172197,
+      "slug": "temptation-feat-poppy-baskcomb-jess-bays"
+    },
+    {
+      "name": "Inside Out",
+      "artists": "Five Finger Death Punch",
+      "album": "F8",
+      "popularity": 63,
+      "tempo": 83.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.991,
+      "valence": 0.202,
+      "danceability": 0.476,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.15,
+      "duration_ms": 226348,
+      "slug": "inside-out-five-finger-death-punch"
+    },
+    {
+      "name": "Push It",
+      "artists": "Static-X",
+      "album": "Wisconsin Death Trip",
+      "popularity": 63,
+      "tempo": 149.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.499,
+      "danceability": 0.557,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.049,
+      "duration_ms": 154906,
+      "slug": "push-it-static-x"
+    },
+    {
+      "name": "Thanks For Asking",
+      "artists": "Five Finger Death Punch",
+      "album": "AfterLife",
+      "popularity": 63,
+      "tempo": 100.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.697,
+      "danceability": 0.626,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.028,
+      "duration_ms": 198780,
+      "slug": "thanks-for-asking-five-finger-death-punch"
+    },
+    {
+      "name": "A Drug From God",
+      "artists": "Chris Lake;NPC",
+      "album": "A Drug From God",
+      "popularity": 62,
+      "tempo": 126.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.883,
+      "valence": 0.819,
+      "danceability": 0.714,
+      "acousticness": 0.008,
+      "instrumentalness": 0.843,
+      "loudness": -4.4,
+      "speechiness": 0.062,
+      "duration_ms": 192455,
+      "slug": "a-drug-from-god-chris-lake"
+    },
+    {
+      "name": "Sundown",
+      "artists": "Biscits",
+      "album": "Sundown",
+      "popularity": 62,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.886,
+      "valence": 0.868,
+      "danceability": 0.774,
+      "acousticness": 0.031,
+      "instrumentalness": 0.129,
+      "loudness": -7.6,
+      "speechiness": 0.05,
+      "duration_ms": 211448,
+      "slug": "sundown-biscits"
+    },
+    {
+      "name": "Turn off the Lights - Cages Remix",
+      "artists": "Chris Lake;Alexis Roberts;Cages",
+      "album": "Turn off the Lights",
+      "popularity": 62,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.839,
+      "valence": 0.334,
+      "danceability": 0.653,
+      "acousticness": 0.003,
+      "instrumentalness": 0.003,
+      "loudness": -6.7,
+      "speechiness": 0.058,
+      "duration_ms": 208857,
+      "slug": "turn-off-the-lights-cages-remix-chris-lake"
+    },
+    {
+      "name": "Silvera",
+      "artists": "Gojira",
+      "album": "Magma",
+      "popularity": 62,
+      "tempo": 137.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.959,
+      "valence": 0.242,
+      "danceability": 0.333,
+      "acousticness": 0.0,
+      "instrumentalness": 0.056,
+      "loudness": -4.3,
+      "speechiness": 0.072,
+      "duration_ms": 212653,
+      "slug": "silvera-gojira"
+    },
+    {
+      "name": "One Wish",
+      "artists": "JACK",
+      "album": "One Wish",
+      "popularity": 62,
+      "tempo": 124.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.67,
+      "valence": 0.429,
+      "danceability": 0.739,
+      "acousticness": 0.333,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.084,
+      "duration_ms": 189511,
+      "slug": "one-wish-jack"
+    },
+    {
+      "name": "Roots Bloody Roots",
+      "artists": "Sepultura",
+      "album": "Roots",
+      "popularity": 62,
+      "tempo": 119.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.874,
+      "valence": 0.261,
+      "danceability": 0.428,
+      "acousticness": 0.0,
+      "instrumentalness": 0.042,
+      "loudness": -6.7,
+      "speechiness": 0.128,
+      "duration_ms": 212253,
+      "slug": "roots-bloody-roots-sepultura"
+    },
+    {
+      "name": "Lift Me Up (feat. Rob Halford of Judas Priest)",
+      "artists": "Five Finger Death Punch",
+      "album": "The Wrong Side Of Heaven And The Righteous Side Of Hell, Volume 1",
+      "popularity": 62,
+      "tempo": 75.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.988,
+      "valence": 0.174,
+      "danceability": 0.508,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.165,
+      "duration_ms": 246209,
+      "slug": "lift-me-up-feat-rob-halford-of-judas-priest-five-finger-death-punch"
+    },
+    {
+      "name": "Looking For Me",
+      "artists": "Paul Woolford;Diplo;Kareen Lomax",
+      "album": "Do You Dance?",
+      "popularity": 62,
+      "tempo": 121.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.529,
+      "valence": 0.449,
+      "danceability": 0.641,
+      "acousticness": 0.004,
+      "instrumentalness": 0.001,
+      "loudness": -11.5,
+      "speechiness": 0.029,
+      "duration_ms": 211452,
+      "slug": "looking-for-me-paul-woolford"
+    },
+    {
+      "name": "Darkness Settles In",
+      "artists": "Five Finger Death Punch",
+      "album": "F8",
+      "popularity": 62,
+      "tempo": 132.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.18,
+      "danceability": 0.334,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.09,
+      "duration_ms": 281803,
+      "slug": "darkness-settles-in-five-finger-death-punch"
+    },
+    {
+      "name": "More Than Friends",
+      "artists": "James Hype;Kelli-Leigh",
+      "album": "More Than Friends",
+      "popularity": 62,
+      "tempo": 123.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.885,
+      "valence": 0.447,
+      "danceability": 0.81,
+      "acousticness": 0.101,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.108,
+      "duration_ms": 140698,
+      "slug": "more-than-friends-james-hype"
+    },
+    {
+      "name": "Your Body",
+      "artists": "Biscits",
+      "album": "Your Body",
+      "popularity": 62,
+      "tempo": 127.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.744,
+      "valence": 0.917,
+      "danceability": 0.833,
+      "acousticness": 0.168,
+      "instrumentalness": 0.458,
+      "loudness": -6.7,
+      "speechiness": 0.089,
+      "duration_ms": 207000,
+      "slug": "your-body-biscits"
+    },
+    {
+      "name": "Cut Me Loose - Edit",
+      "artists": "Jethro Heston;Max Marshall",
+      "album": "Cut Me Loose (Edit)",
+      "popularity": 62,
+      "tempo": 122.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.739,
+      "danceability": 0.416,
+      "acousticness": 0.022,
+      "instrumentalness": 0.054,
+      "loudness": -4.2,
+      "speechiness": 0.047,
+      "duration_ms": 202128,
+      "slug": "cut-me-loose-edit-jethro-heston"
+    },
+    {
+      "name": "Deep Inside",
+      "artists": "Maur",
+      "album": "Deep Inside",
+      "popularity": 62,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.936,
+      "valence": 0.497,
+      "danceability": 0.637,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.037,
+      "duration_ms": 202633,
+      "slug": "deep-inside-maur"
+    },
+    {
+      "name": "Walk with Me In Hell",
+      "artists": "Lamb of God",
+      "album": "Sacrament",
+      "popularity": 61,
+      "tempo": 110.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.118,
+      "danceability": 0.286,
+      "acousticness": 0.0,
+      "instrumentalness": 0.007,
+      "loudness": -3.8,
+      "speechiness": 0.131,
+      "duration_ms": 311506,
+      "slug": "walk-with-me-in-hell-lamb-of-god"
+    },
+    {
+      "name": "Good Luck",
+      "artists": "James Hype;Pia Mia",
+      "album": "Good Luck",
+      "popularity": 61,
+      "tempo": 125.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.836,
+      "valence": 0.712,
+      "danceability": 0.701,
+      "acousticness": 0.072,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.051,
+      "duration_ms": 147597,
+      "slug": "good-luck-james-hype"
+    },
+    {
+      "name": "San Frandisco",
+      "artists": "Dom Dolla",
+      "album": "San Frandisco",
+      "popularity": 61,
+      "tempo": 125.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.937,
+      "valence": 0.49,
+      "danceability": 0.779,
+      "acousticness": 0.044,
+      "instrumentalness": 0.101,
+      "loudness": -6.3,
+      "speechiness": 0.05,
+      "duration_ms": 185000,
+      "slug": "san-frandisco-dom-dolla"
+    },
+    {
+      "name": "Crank",
+      "artists": "James Hype",
+      "album": "Crank",
+      "popularity": 61,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.906,
+      "valence": 0.325,
+      "danceability": 0.846,
+      "acousticness": 0.023,
+      "instrumentalness": 0.883,
+      "loudness": -5.2,
+      "speechiness": 0.047,
+      "duration_ms": 178804,
+      "slug": "crank-james-hype"
+    },
+    {
+      "name": "Flying Whales",
+      "artists": "Gojira",
+      "album": "From Mars to Sirius",
+      "popularity": 61,
+      "tempo": 95.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.925,
+      "valence": 0.2,
+      "danceability": 0.266,
+      "acousticness": 0.0,
+      "instrumentalness": 0.038,
+      "loudness": -3.8,
+      "speechiness": 0.083,
+      "duration_ms": 464453,
+      "slug": "flying-whales-gojira"
+    },
+    {
+      "name": "Say My Name",
+      "artists": "Matvey Emerson;NEVRMIND",
+      "album": "Say My Name",
+      "popularity": 61,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.712,
+      "valence": 0.97,
+      "danceability": 0.843,
+      "acousticness": 0.012,
+      "instrumentalness": 0.018,
+      "loudness": -5.0,
+      "speechiness": 0.065,
+      "duration_ms": 213246,
+      "slug": "say-my-name-matvey-emerson"
+    },
+    {
+      "name": "You've Done Enough",
+      "artists": "Gorgon City;DRAMA",
+      "album": "Olympia",
+      "popularity": 61,
+      "tempo": 125.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.782,
+      "valence": 0.519,
+      "danceability": 0.676,
+      "acousticness": 0.015,
+      "instrumentalness": 0.165,
+      "loudness": -6.6,
+      "speechiness": 0.034,
+      "duration_ms": 212893,
+      "slug": "youve-done-enough-gorgon-city"
+    },
+    {
+      "name": "This Love",
+      "artists": "Pantera",
+      "album": "Vulgar Display of Power",
+      "popularity": 61,
+      "tempo": 104.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.296,
+      "danceability": 0.402,
+      "acousticness": 0.0,
+      "instrumentalness": 0.323,
+      "loudness": -9.3,
+      "speechiness": 0.045,
+      "duration_ms": 393706,
+      "slug": "this-love-pantera"
+    },
+    {
+      "name": "5 Minutes Alone",
+      "artists": "Pantera",
+      "album": "Far Beyond Driven",
+      "popularity": 61,
+      "tempo": 95.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.856,
+      "valence": 0.585,
+      "danceability": 0.504,
+      "acousticness": 0.001,
+      "instrumentalness": 0.359,
+      "loudness": -6.3,
+      "speechiness": 0.042,
+      "duration_ms": 347440,
+      "slug": "5-minutes-alone-pantera"
+    },
+    {
+      "name": "Mouth for War",
+      "artists": "Pantera",
+      "album": "Vulgar Display of Power",
+      "popularity": 61,
+      "tempo": 156.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.954,
+      "valence": 0.627,
+      "danceability": 0.329,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -7.0,
+      "speechiness": 0.072,
+      "duration_ms": 237346,
+      "slug": "mouth-for-war-pantera"
+    },
+    {
+      "name": "Back Tomorrow",
+      "artists": "Ferreck Dawn;Jem Cooke",
+      "album": "Back Tomorrow",
+      "popularity": 61,
+      "tempo": 125.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.543,
+      "danceability": 0.689,
+      "acousticness": 0.059,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.048,
+      "duration_ms": 118871,
+      "slug": "back-tomorrow-ferreck-dawn"
+    },
+    {
+      "name": "Ready For Your Love",
+      "artists": "Gorgon City;MNEK",
+      "album": "Sirens (Deluxe)",
+      "popularity": 61,
+      "tempo": 121.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.753,
+      "valence": 0.471,
+      "danceability": 0.677,
+      "acousticness": 0.053,
+      "instrumentalness": 0.013,
+      "loudness": -7.0,
+      "speechiness": 0.154,
+      "duration_ms": 198880,
+      "slug": "ready-for-your-love-gorgon-city"
+    },
+    {
+      "name": "Friendships (Lost My Love)",
+      "artists": "Pascal Letoublon;Leony",
+      "album": "Friendships (Lost My Love)",
+      "popularity": 61,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.544,
+      "danceability": 0.787,
+      "acousticness": 0.106,
+      "instrumentalness": 0.001,
+      "loudness": -3.6,
+      "speechiness": 0.03,
+      "duration_ms": 182700,
+      "slug": "friendships-lost-my-love-pascal-letoublon"
+    },
+    {
+      "name": "IOU",
+      "artists": "Five Finger Death Punch",
+      "album": "AfterLife",
+      "popularity": 61,
+      "tempo": 136.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.986,
+      "valence": 0.293,
+      "danceability": 0.526,
+      "acousticness": 0.0,
+      "instrumentalness": 0.013,
+      "loudness": -5.1,
+      "speechiness": 0.089,
+      "duration_ms": 267290,
+      "slug": "iou-five-finger-death-punch"
+    },
+    {
+      "name": "Didn't Know",
+      "artists": "Tom Zanetti",
+      "album": "Didn't Know",
+      "popularity": 61,
+      "tempo": 125.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.459,
+      "valence": 0.484,
+      "danceability": 0.896,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.051,
+      "duration_ms": 168896,
+      "slug": "didnt-know-tom-zanetti"
+    },
+    {
+      "name": "Sun Doesn't Rise",
+      "artists": "Mushroomhead",
+      "album": "XIII",
+      "popularity": 61,
+      "tempo": 192.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.507,
+      "danceability": 0.376,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.216,
+      "duration_ms": 193813,
+      "slug": "sun-doesnt-rise-mushroomhead"
+    },
+    {
+      "name": "My Love",
+      "artists": "Jethro Heston",
+      "album": "My Love",
+      "popularity": 61,
+      "tempo": 126.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.784,
+      "valence": 0.567,
+      "danceability": 0.789,
+      "acousticness": 0.444,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.036,
+      "duration_ms": 156209,
+      "slug": "my-love-jethro-heston"
+    },
+    {
+      "name": "Make Your Move",
+      "artists": "Anton Powers;Redondo",
+      "album": "Make Your Move",
+      "popularity": 61,
+      "tempo": 124.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.992,
+      "valence": 0.555,
+      "danceability": 0.647,
+      "acousticness": 0.025,
+      "instrumentalness": 0.106,
+      "loudness": -2.7,
+      "speechiness": 0.097,
+      "duration_ms": 168991,
+      "slug": "make-your-move-anton-powers"
+    },
+    {
+      "name": "Scream With Me",
+      "artists": "Mudvayne",
+      "album": "Mudvayne",
+      "popularity": 61,
+      "tempo": 180.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.867,
+      "valence": 0.485,
+      "danceability": 0.262,
+      "acousticness": 0.002,
+      "instrumentalness": 0.002,
+      "loudness": -4.5,
+      "speechiness": 0.048,
+      "duration_ms": 172586,
+      "slug": "scream-with-me-mudvayne"
+    },
+    {
+      "name": "Dancing",
+      "artists": "James Hype",
+      "album": "Dancing",
+      "popularity": 60,
+      "tempo": 125.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.877,
+      "valence": 0.377,
+      "danceability": 0.74,
+      "acousticness": 0.372,
+      "instrumentalness": 0.544,
+      "loudness": -8.4,
+      "speechiness": 0.05,
+      "duration_ms": 240480,
+      "slug": "dancing-james-hype"
+    },
+    {
+      "name": "Omerta",
+      "artists": "Lamb of God",
+      "album": "Ashes of the Wake (15th Anniversary)",
+      "popularity": 60,
+      "tempo": 118.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.155,
+      "danceability": 0.413,
+      "acousticness": 0.002,
+      "instrumentalness": 0.001,
+      "loudness": -4.1,
+      "speechiness": 0.201,
+      "duration_ms": 285962,
+      "slug": "omerta-lamb-of-god"
+    },
+    {
+      "name": "Bleed",
+      "artists": "Meshuggah",
+      "album": "ObZen",
+      "popularity": 60,
+      "tempo": 114.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.998,
+      "valence": 0.18,
+      "danceability": 0.242,
+      "acousticness": 0.0,
+      "instrumentalness": 0.88,
+      "loudness": -5.6,
+      "speechiness": 0.089,
+      "duration_ms": 442733,
+      "slug": "bleed-meshuggah"
+    },
+    {
+      "name": "Praise (feat. Gunna)",
+      "artists": "Tchami;Gunna",
+      "album": "Year Zero",
+      "popularity": 60,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.681,
+      "valence": 0.799,
+      "danceability": 0.737,
+      "acousticness": 0.04,
+      "instrumentalness": 0.001,
+      "loudness": -10.1,
+      "speechiness": 0.054,
+      "duration_ms": 210000,
+      "slug": "praise-feat-gunna-tchami"
+    },
+    {
+      "name": "Better",
+      "artists": "Sonny Fodera",
+      "album": "Better",
+      "popularity": 60,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.857,
+      "valence": 0.313,
+      "danceability": 0.593,
+      "acousticness": 0.0,
+      "instrumentalness": 0.143,
+      "loudness": -7.1,
+      "speechiness": 0.046,
+      "duration_ms": 213298,
+      "slug": "better-sonny-fodera"
+    }
+  ]
+}

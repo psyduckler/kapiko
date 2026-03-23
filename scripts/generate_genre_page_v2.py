@@ -570,6 +570,237 @@ GENRE_METADATA = {
         'style_tags': "power pop, jangle pop, Britpop, melodic rock, pop-rock",
         'instruments': "chiming guitar, bass, drums, vocal harmonies, handclaps",
         'mood': "upbeat, catchy, energetic, bittersweet"
+    },
+    'black-metal': {
+        'emoji': '⚫', 'color': '#1a1a2e',
+        'desc': "Extreme metal characterized by fast tempos, shrieking vocals, tremolo picking, and atmospheric darkness.",
+        'style_tags': "black metal, atmospheric black metal, symphonic black metal, raw black metal",
+        'instruments': "tremolo guitar, blast beats, shrieked vocals, ambient keys, bass",
+        'mood': "dark, atmospheric, cold, extreme"
+    },
+    'brazil': {
+        'emoji': '🇧🇷', 'color': '#009c3b',
+        'desc': "Rich Brazilian musical traditions from samba to tropicália, gospel to modern pop.",
+        'style_tags': "Brazilian, MPB, tropicália, bossa, gospel brasileiro",
+        'instruments': "acoustic guitar, percussion, cavaquinho, berimbau, vocals",
+        'mood': "warm, rhythmic, spiritual, diverse"
+    },
+    'breakbeat': {
+        'emoji': '💥', 'color': '#ff4500',
+        'desc': "Electronic music built around syncopated drum patterns, tempo variations, and high-energy breaks.",
+        'style_tags': "breakbeat, big beat, breaks, nu skool breaks, breakbeat hardcore",
+        'instruments': "chopped breaks, heavy bass, synth stabs, samples, distorted drums",
+        'mood': "energetic, raw, intense, driving"
+    },
+    'british': {
+        'emoji': '🇬🇧', 'color': '#003399',
+        'desc': "Music from the UK spanning rock, pop, electronic, and folk traditions across decades.",
+        'style_tags': "British, Britpop, UK rock, British Invasion, UK indie",
+        'instruments': "guitar, bass, drums, synths, vocal harmonies",
+        'mood': "diverse, witty, melodic, cultural"
+    },
+    'children': {
+        'emoji': '👶', 'color': '#ffd700',
+        'desc': "Kid-friendly music with simple melodies, educational themes, and playful arrangements.",
+        'style_tags': "children's music, nursery rhymes, educational, singalong, lullaby",
+        'instruments': "piano, ukulele, xylophone, clapping, cheerful vocals",
+        'mood': "playful, cheerful, simple, educational"
+    },
+    'club': {
+        'emoji': '🕺', 'color': '#9400d3',
+        'desc': "High-energy dance music designed for nightclub environments and late-night crowds.",
+        'style_tags': "club, club music, dancefloor, bottle service, VIP room",
+        'instruments': "heavy bass, four-on-the-floor, synth drops, vocal hooks, hi-hats",
+        'mood': "energetic, hedonistic, bold, hypnotic"
+    },
+    'comedy': {
+        'emoji': '😂', 'color': '#ffa500',
+        'desc': "Humorous songs and musical comedy with witty lyrics, parody, and playful arrangements.",
+        'style_tags': "comedy, parody, novelty, musical comedy, satirical",
+        'instruments': "various, piano, guitar, sound effects, spoken word",
+        'mood': "funny, irreverent, clever, absurd"
+    },
+    'disney': {
+        'emoji': '🏰', 'color': '#1e90ff',
+        'desc': "Musical theater and animated film soundtracks from Disney productions — timeless storytelling through song.",
+        'style_tags': "Disney, animated film, Broadway Disney, Pixar, fairy tale",
+        'instruments': "orchestra, piano, choir, Broadway vocals, strings",
+        'mood': "magical, emotional, uplifting, cinematic"
+    },
+    'forro': {
+        'emoji': '🪗', 'color': '#e67e22',
+        'desc': "Brazilian dance music from the Northeast featuring accordion, triangle, and zabumba rhythms.",
+        'style_tags': "forró, forró universitário, xote, baião, forró eletrônico",
+        'instruments': "accordion, zabumba drum, triangle, bass, vocals",
+        'mood': "festive, danceable, warm, romantic"
+    },
+    'french': {
+        'emoji': '🇫🇷', 'color': '#002395',
+        'desc': "Music from France spanning chanson, electronic, pop, and hip-hop traditions.",
+        'style_tags': "French, chanson, French pop, French house, variété française",
+        'instruments': "accordion, guitar, synths, piano, vocals",
+        'mood': "romantic, sophisticated, diverse, artistic"
+    },
+    'german': {
+        'emoji': '🇩🇪', 'color': '#dd0000',
+        'desc': "Music from Germany spanning electronic, rock, Schlager, and experimental traditions.",
+        'style_tags': "German, Schlager, Krautrock, Neue Deutsche Welle, German techno",
+        'instruments': "synths, guitar, drums, electronic production, vocals",
+        'mood': "diverse, precise, experimental, powerful"
+    },
+    'grindcore': {
+        'emoji': '⚙️', 'color': '#2f2f2f',
+        'desc': "Extreme metal-punk hybrid with blast beats, micro-songs, and maximum sonic aggression.",
+        'style_tags': "grindcore, goregrind, powerviolence, crust punk, deathgrind",
+        'instruments': "blast beats, distorted guitar, guttural vocals, bass, feedback",
+        'mood': "extreme, chaotic, aggressive, brutal"
+    },
+    'groove': {
+        'emoji': '〰️', 'color': '#8b4513',
+        'desc': "Rhythm-focused music emphasizing pocket, feel, and danceable patterns across genres.",
+        'style_tags': "groove, groove metal, groovy, rhythm-heavy, pocket",
+        'instruments': "heavy riffs, tight drums, bass groove, syncopated guitar, vocals",
+        'mood': "heavy, rhythmic, powerful, headbanging"
+    },
+    'happy': {
+        'emoji': '😊', 'color': '#ffd700',
+        'desc': "Upbeat, feel-good music designed to boost mood, energy, and positive vibes.",
+        'style_tags': "happy, upbeat, feel-good, euphoric, cheerful",
+        'instruments': "synths, bright drums, bass, cheerful melodies, handclaps",
+        'mood': "joyful, uplifting, energetic, carefree"
+    },
+    'iranian': {
+        'emoji': '🇮🇷', 'color': '#239f40',
+        'desc': "Persian music featuring traditional instruments, melodic modes (dastgah), and poetic vocal traditions.",
+        'style_tags': "Iranian, Persian, Persian classical, Persian pop, dastgah",
+        'instruments': "tar, santur, kamancheh, tombak, setar",
+        'mood': "meditative, poetic, melancholic, spiritual"
+    },
+    'j-dance': {
+        'emoji': '🕺', 'color': '#ff1493',
+        'desc': "Japanese dance music blending electronic beats with J-pop sensibilities and club energy.",
+        'style_tags': "J-dance, Japanese dance, para para, eurobeat, J-EDM",
+        'instruments': "synth, electronic drums, bass drops, vocal samples, arpeggiator",
+        'mood': "energetic, fun, danceable, vibrant"
+    },
+    'j-idol': {
+        'emoji': '⭐', 'color': '#ff69b4',
+        'desc': "Japanese idol music featuring catchy pop songs, synchronized performances, and fan culture.",
+        'style_tags': "J-idol, idol pop, AKB48-style, denpa, wotagei",
+        'instruments': "synth, programmed drums, bass, vocal harmonies, electronic fx",
+        'mood': "energetic, catchy, cute, intense"
+    },
+    'kids': {
+        'emoji': '🧸', 'color': '#87ceeb',
+        'desc': "Child-appropriate music with educational value, simple melodies, and interactive elements.",
+        'style_tags': "kids, toddler music, preschool, educational songs, family music",
+        'instruments': "ukulele, piano, xylophone, clapping, friendly vocals",
+        'mood': "fun, educational, gentle, engaging"
+    },
+    'latino': {
+        'emoji': '🎺', 'color': '#ff4500',
+        'desc': "Hispanic and Latino music spanning salsa, cumbia, bachata, and regional Mexican styles.",
+        'style_tags': "Latino, Latin pop, cumbia, bachata, regional Mexican",
+        'instruments': "congas, trumpet, accordion, guitar, timbales",
+        'mood': "passionate, festive, rhythmic, romantic"
+    },
+    'malay': {
+        'emoji': '🇲🇾', 'color': '#cc0001',
+        'desc': "Malaysian music featuring traditional and contemporary Southeast Asian sounds and modern pop.",
+        'style_tags': "Malay, Malaysian pop, Nasyid, Malay R&B, dangdut",
+        'instruments': "rebab, kompang, gamelan, guitar, synth",
+        'mood': "melodic, warm, diverse, cultural"
+    },
+    'mpb': {
+        'emoji': '🎼', 'color': '#009c3b',
+        'desc': "Música Popular Brasileira — sophisticated Brazilian songwriting blending bossa nova, jazz, and folk.",
+        'style_tags': "MPB, Música Popular Brasileira, tropicália, bossa nova moderna, samba-jazz",
+        'instruments': "acoustic guitar, piano, percussion, bass, strings",
+        'mood': "poetic, sophisticated, warm, intellectual"
+    },
+    'pagode': {
+        'emoji': '🎉', 'color': '#ffd700',
+        'desc': "Brazilian samba subgenre with intimate vocals, acoustic instrumentation, and party atmosphere.",
+        'style_tags': "pagode, pagode romântico, samba de mesa, partido alto",
+        'instruments': "cavaquinho, tantã, pandeiro, banjo (Brazilian), repique de mão",
+        'mood': "festive, romantic, communal, warm"
+    },
+    'party': {
+        'emoji': '🎉', 'color': '#ff1493',
+        'desc': "High-energy music perfect for celebrations, parties, and social gatherings.",
+        'style_tags': "party, party anthems, celebration, dance party, festival",
+        'instruments': "heavy bass, synths, brass, drums, crowd vocals",
+        'mood': "euphoric, wild, celebratory, loud"
+    },
+    'pop-film': {
+        'emoji': '🎥', 'color': '#8b7355',
+        'desc': "Pop music featured in movies and television — from Bollywood to Hollywood soundtracks.",
+        'style_tags': "pop film, movie soundtrack, Bollywood, film pop, TV themes",
+        'instruments': "orchestra, synth, piano, guitar, vocal-forward production",
+        'mood': "cinematic, emotional, dramatic, catchy"
+    },
+    'romance': {
+        'emoji': '💕', 'color': '#ff69b4',
+        'desc': "Love songs and romantic music for intimate moments — ballads, serenades, and tender melodies.",
+        'style_tags': "romance, romantic, love songs, ballad, serenade",
+        'instruments': "strings, piano, acoustic guitar, soft vocals, orchestral swells",
+        'mood': "tender, intimate, passionate, wistful"
+    },
+    'sad': {
+        'emoji': '😢', 'color': '#4682b4',
+        'desc': "Melancholic music for emotional reflection, cathartic listening, and rainy day contemplation.",
+        'style_tags': "sad, melancholic, tearjerker, heartbreak, somber",
+        'instruments': "piano, strings, soft guitar, ambient pads, vulnerable vocals",
+        'mood': "melancholic, reflective, cathartic, lonely"
+    },
+    'samba': {
+        'emoji': '🇧🇷', 'color': '#ffd700',
+        'desc': "Brazilian dance music with percussion-driven rhythms, carnival energy, and communal celebration.",
+        'style_tags': "samba, samba de roda, samba-enredo, pagode, samba-reggae",
+        'instruments': "surdo, tamborim, cuíca, cavaquinho, agogô",
+        'mood': "joyful, rhythmic, celebratory, communal"
+    },
+    'sertanejo': {
+        'emoji': '🤠', 'color': '#8b6914',
+        'desc': "Brazilian country music with storytelling vocals, acoustic guitar, and heartfelt romantic themes.",
+        'style_tags': "sertanejo, sertanejo universitário, sertanejo romântico, modão, caipira",
+        'instruments': "viola caipira, acoustic guitar, accordion, bass, vocals",
+        'mood': "romantic, nostalgic, festive, heartfelt"
+    },
+    'show-tunes': {
+        'emoji': '🎭', 'color': '#daa520',
+        'desc': "Musical theater songs from Broadway and West End — dramatic storytelling through song and dance.",
+        'style_tags': "show tunes, Broadway, musical theater, West End, cabaret",
+        'instruments': "orchestra, piano, brass, theater vocals, strings",
+        'mood': "dramatic, theatrical, emotional, uplifting"
+    },
+    'songwriter': {
+        'emoji': '✍️', 'color': '#bc8f8f',
+        'desc': "Music emphasizing lyrical craftsmanship, storytelling artistry, and personal expression.",
+        'style_tags': "songwriter, lyricist, confessional, storytelling, folk-influenced",
+        'instruments': "acoustic guitar, piano, harmonica, soft percussion, intimate vocals",
+        'mood': "introspective, honest, poetic, personal"
+    },
+    'spanish': {
+        'emoji': '🇪🇸', 'color': '#c60b1e',
+        'desc': "Music from Spain and Spanish-speaking regions — from flamenco to modern Latin pop.",
+        'style_tags': "Spanish, flamenco, Spanish pop, Latin Spanish, rumba",
+        'instruments': "Spanish guitar, cajón, palmas, castanets, vocals",
+        'mood': "passionate, fiery, romantic, rhythmic"
+    },
+    'swedish': {
+        'emoji': '🇸🇪', 'color': '#006aa7',
+        'desc': "Music from Sweden — a powerhouse of pop, electronic, metal, and folk innovation.",
+        'style_tags': "Swedish, Swedish pop, Scandinavian, Nordic, Eurovision",
+        'instruments': "synths, guitar, bass, drums, polished production",
+        'mood': "catchy, melodic, polished, diverse"
+    },
+    'turkish': {
+        'emoji': '🇹🇷', 'color': '#e30a17',
+        'desc': "Music from Turkey blending traditional Middle Eastern modes with modern electronic and pop production.",
+        'style_tags': "Turkish, Turkish pop, Arabesque, Turkish folk, Anatolian rock",
+        'instruments': "bağlama, kanun, ney, darbuka, oud",
+        'mood': "emotional, passionate, mystical, diverse"
     }
 }
 

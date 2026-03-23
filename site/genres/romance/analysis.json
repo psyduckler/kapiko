@@ -1,0 +1,2802 @@
+{
+  "genre": "Romance",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 0.0,
+    "max": 179.517,
+    "mean": 112.662,
+    "median": 111.992,
+    "q1": 90.784,
+    "q3": 137.031,
+    "histogram": {
+      "50-59": 1,
+      "60-69": 3,
+      "70-79": 8,
+      "80-89": 13,
+      "90-99": 10,
+      "100-109": 11,
+      "110-119": 15,
+      "120-129": 11,
+      "130-139": 7,
+      "140-149": 12,
+      "150-159": 3,
+      "160-169": 4,
+      "170-179": 2
+    }
+  },
+  "key_distribution": {
+    "D": 18,
+    "G": 14,
+    "E": 13,
+    "F": 11,
+    "C#/Db": 11,
+    "A": 9,
+    "G#/Ab": 8,
+    "C": 6,
+    "A#/Bb": 5,
+    "D#/Eb": 3,
+    "F#/Gb": 1,
+    "B": 1
+  },
+  "mode_distribution": {
+    "Minor": 66,
+    "Major": 34
+  },
+  "key_mode_distribution": {
+    "E Minor": 11,
+    "D Minor": 11,
+    "G Minor": 11,
+    "C#/Db Minor": 9,
+    "D Major": 7,
+    "A Minor": 7,
+    "G#/Ab Major": 6,
+    "F Major": 6,
+    "F Minor": 5,
+    "C Minor": 4,
+    "A#/Bb Minor": 4,
+    "G Major": 3,
+    "C Major": 2,
+    "C#/Db Major": 2,
+    "E Major": 2,
+    "A Major": 2,
+    "D#/Eb Major": 2,
+    "G#/Ab Minor": 2,
+    "A#/Bb Major": 1,
+    "F#/Gb Major": 1,
+    "B Minor": 1,
+    "D#/Eb Minor": 1
+  },
+  "energy": {
+    "min": 0.038,
+    "max": 0.771,
+    "mean": 0.346,
+    "median": 0.326,
+    "q1": 0.208,
+    "q3": 0.461
+  },
+  "valence": {
+    "min": 0.0,
+    "max": 0.963,
+    "mean": 0.414,
+    "median": 0.391,
+    "q1": 0.205,
+    "q3": 0.592
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.613,
+      "valence": 0.523
+    },
+    {
+      "energy": 0.321,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.157,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.363,
+      "valence": 0.121
+    },
+    {
+      "energy": 0.046,
+      "valence": 0.257
+    },
+    {
+      "energy": 0.315,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.175,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.245,
+      "valence": 0.205
+    },
+    {
+      "energy": 0.251,
+      "valence": 0.666
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.719
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.211,
+      "valence": 0.214
+    },
+    {
+      "energy": 0.394,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.372,
+      "valence": 0.463
+    },
+    {
+      "energy": 0.617,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.556,
+      "valence": 0.842
+    },
+    {
+      "energy": 0.092,
+      "valence": 0.419
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.061,
+      "valence": 0.124
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.216
+    },
+    {
+      "energy": 0.307,
+      "valence": 0.811
+    },
+    {
+      "energy": 0.144,
+      "valence": 0.223
+    },
+    {
+      "energy": 0.346,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.526,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.147,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.122,
+      "valence": 0.0
+    },
+    {
+      "energy": 0.213,
+      "valence": 0.139
+    },
+    {
+      "energy": 0.373,
+      "valence": 0.241
+    },
+    {
+      "energy": 0.699,
+      "valence": 0.412
+    },
+    {
+      "energy": 0.384,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.421,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.445,
+      "valence": 0.36
+    },
+    {
+      "energy": 0.373,
+      "valence": 0.257
+    },
+    {
+      "energy": 0.316,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.422,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.323,
+      "valence": 0.182
+    },
+    {
+      "energy": 0.274,
+      "valence": 0.733
+    },
+    {
+      "energy": 0.417,
+      "valence": 0.868
+    },
+    {
+      "energy": 0.113,
+      "valence": 0.677
+    },
+    {
+      "energy": 0.444,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.25,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.255,
+      "valence": 0.107
+    },
+    {
+      "energy": 0.29,
+      "valence": 0.254
+    },
+    {
+      "energy": 0.201,
+      "valence": 0.592
+    },
+    {
+      "energy": 0.503,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.108,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.167
+    },
+    {
+      "energy": 0.144,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.197,
+      "valence": 0.604
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.883
+    },
+    {
+      "energy": 0.515,
+      "valence": 0.57
+    },
+    {
+      "energy": 0.284,
+      "valence": 0.39
+    },
+    {
+      "energy": 0.303,
+      "valence": 0.726
+    },
+    {
+      "energy": 0.092,
+      "valence": 0.059
+    },
+    {
+      "energy": 0.208,
+      "valence": 0.374
+    },
+    {
+      "energy": 0.038,
+      "valence": 0.23
+    },
+    {
+      "energy": 0.273,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.145,
+      "valence": 0.105
+    },
+    {
+      "energy": 0.55,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.423,
+      "valence": 0.17
+    },
+    {
+      "energy": 0.455,
+      "valence": 0.08
+    },
+    {
+      "energy": 0.328,
+      "valence": 0.476
+    },
+    {
+      "energy": 0.771,
+      "valence": 0.905
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.269,
+      "valence": 0.392
+    },
+    {
+      "energy": 0.461,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.544,
+      "valence": 0.773
+    },
+    {
+      "energy": 0.382,
+      "valence": 0.447
+    },
+    {
+      "energy": 0.612,
+      "valence": 0.467
+    },
+    {
+      "energy": 0.416,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.418,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.315,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.161,
+      "valence": 0.262
+    },
+    {
+      "energy": 0.212,
+      "valence": 0.196
+    },
+    {
+      "energy": 0.087,
+      "valence": 0.538
+    },
+    {
+      "energy": 0.297,
+      "valence": 0.46
+    },
+    {
+      "energy": 0.487,
+      "valence": 0.647
+    },
+    {
+      "energy": 0.737,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.418,
+      "valence": 0.319
+    },
+    {
+      "energy": 0.054,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.169,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.129,
+      "valence": 0.22
+    },
+    {
+      "energy": 0.344,
+      "valence": 0.318
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.201
+    },
+    {
+      "energy": 0.612,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.437,
+      "valence": 0.087
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.247
+    },
+    {
+      "energy": 0.198,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.285,
+      "valence": 0.117
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.708
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.128,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.272,
+      "valence": 0.041
+    },
+    {
+      "energy": 0.166,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.175,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.353,
+      "valence": 0.165
+    },
+    {
+      "energy": 0.243,
+      "valence": 0.126
+    },
+    {
+      "energy": 0.269,
+      "valence": 0.139
+    }
+  ],
+  "acousticness": {
+    "min": 0.216,
+    "max": 0.996,
+    "mean": 0.815,
+    "median": 0.881,
+    "q1": 0.702,
+    "q3": 0.963
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.756,
+    "mean": 0.048,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.015
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.216,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.347,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.957,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.996,
+      "instrumentalness": 0.131
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.865,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.872,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.897,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.449,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.421,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.93,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.924,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.486,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.502,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.667,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.955,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.098
+    },
+    {
+      "acousticness": 0.955,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.927,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.804,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.819,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.92,
+      "instrumentalness": 0.021
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.324
+    },
+    {
+      "acousticness": 0.86,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.945,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.658,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.965,
+      "instrumentalness": 0.578
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.982,
+      "instrumentalness": 0.319
+    },
+    {
+      "acousticness": 0.499,
+      "instrumentalness": 0.134
+    },
+    {
+      "acousticness": 0.926,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.422,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.931,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.986,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.752,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.946,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.725,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.871,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.566,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.949,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.989,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.657,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.359,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.848,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.65,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.869,
+      "instrumentalness": 0.115
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.301
+    },
+    {
+      "acousticness": 0.953,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.912,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.984,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.993,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.918,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.922,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.829,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.981,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.847,
+      "instrumentalness": 0.368
+    },
+    {
+      "acousticness": 0.993,
+      "instrumentalness": 0.051
+    },
+    {
+      "acousticness": 0.702,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.322,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.853,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.978,
+      "instrumentalness": 0.042
+    },
+    {
+      "acousticness": 0.872,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.165
+    },
+    {
+      "acousticness": 0.676,
+      "instrumentalness": 0.128
+    },
+    {
+      "acousticness": 0.959,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.98,
+      "instrumentalness": 0.342
+    },
+    {
+      "acousticness": 0.67,
+      "instrumentalness": 0.756
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.984,
+      "instrumentalness": 0.312
+    },
+    {
+      "acousticness": 0.89,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.835,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.954,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.778,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.606,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.646,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.994,
+      "instrumentalness": 0.015
+    },
+    {
+      "acousticness": 0.653,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.948,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.93,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.967,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.722,
+      "instrumentalness": 0.192
+    },
+    {
+      "acousticness": 0.979,
+      "instrumentalness": 0.086
+    },
+    {
+      "acousticness": 0.962,
+      "instrumentalness": 0.14
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.058
+    },
+    {
+      "acousticness": 0.826,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.73,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.785,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.849,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.963,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.946,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.452,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.99,
+      "instrumentalness": 0.005
+    }
+  ],
+  "duration": {
+    "min": 53472,
+    "max": 512365,
+    "mean": 209698.78,
+    "median": 194640.0,
+    "q1": 155641,
+    "q3": 241106
+  },
+  "danceability": {
+    "min": 0.0,
+    "max": 0.793,
+    "mean": 0.427,
+    "median": 0.41,
+    "q1": 0.312,
+    "q3": 0.544
+  },
+  "loudness": {
+    "min": -21.031,
+    "max": -3.804,
+    "mean": -12.573,
+    "median": -12.494,
+    "q1": -14.867,
+    "q3": -10.087
+  },
+  "speechiness": {
+    "min": 0.0,
+    "max": 0.355,
+    "mean": 0.055,
+    "median": 0.043,
+    "q1": 0.034,
+    "q3": 0.055
+  },
+  "top_artists": [
+    {
+      "name": "Ivan Rebroff",
+      "count": 26
+    },
+    {
+      "name": "Igor Talkov",
+      "count": 10
+    },
+    {
+      "name": "Elena Kamburova",
+      "count": 10
+    },
+    {
+      "name": "Rashid Beibutov",
+      "count": 6
+    },
+    {
+      "name": "Alexander Vertinsky",
+      "count": 5
+    },
+    {
+      "name": "Balalaika-Ensemble Troika",
+      "count": 5
+    },
+    {
+      "name": "Valery Obodzinsky",
+      "count": 4
+    },
+    {
+      "name": "Georgi Vinogradov",
+      "count": 4
+    },
+    {
+      "name": "Maya Kristalinskaya",
+      "count": 4
+    },
+    {
+      "name": "Vladimir Troshin",
+      "count": 4
+    },
+    {
+      "name": "Kvatro",
+      "count": 4
+    },
+    {
+      "name": "Valentina Ponomaryova",
+      "count": 3
+    },
+    {
+      "name": "Zhanna Bichevskaya",
+      "count": 3
+    },
+    {
+      "name": "Lyudmila Zykina",
+      "count": 2
+    },
+    {
+      "name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0420\u044b\u0431\u043d\u0438\u043a\u043e\u0432",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "\u042d\u0442\u0438 \u0433\u043b\u0430\u0437\u0430 \u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432",
+      "artists": "Valery Obodzinsky",
+      "album": "\u0412\u0435\u0447\u043d\u0430\u044f \u0432\u0435\u0441\u043d\u0430",
+      "popularity": 35,
+      "tempo": 111.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.613,
+      "valence": 0.523,
+      "danceability": 0.503,
+      "acousticness": 0.216,
+      "instrumentalness": 0.002,
+      "loudness": -4.2,
+      "speechiness": 0.03,
+      "duration_ms": 206158,
+      "slug": "\u044d\u0442\u0438-\u0433\u043b\u0430\u0437\u0430-\u043d\u0430\u043f\u0440\u043e\u0442\u0438\u0432-valery-obodzinsky"
+    },
+    {
+      "name": "\u0427\u0438\u0441\u0442\u044b\u0435 \u043f\u0440\u0443\u0434\u044b",
+      "artists": "Igor Talkov",
+      "album": "\u041d\u043e\u0432\u043e\u0435 \u041f\u0440\u0438\u0437\u0432\u0430\u043d\u0438\u0435",
+      "popularity": 34,
+      "tempo": 140.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.321,
+      "valence": 0.185,
+      "danceability": 0.342,
+      "acousticness": 0.649,
+      "instrumentalness": 0.001,
+      "loudness": -13.6,
+      "speechiness": 0.03,
+      "duration_ms": 342204,
+      "slug": "\u0447\u0438\u0441\u0442\u044b\u0435-\u043f\u0440\u0443\u0434\u044b-igor-talkov"
+    },
+    {
+      "name": "Katyusha",
+      "artists": "Georgi Vinogradov",
+      "album": "Wartime Songs",
+      "popularity": 34,
+      "tempo": 125.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.157,
+      "valence": 0.437,
+      "danceability": 0.67,
+      "acousticness": 0.347,
+      "instrumentalness": 0.003,
+      "loudness": -17.9,
+      "speechiness": 0.093,
+      "duration_ms": 138005,
+      "slug": "katyusha-georgi-vinogradov"
+    },
+    {
+      "name": "Kalinka, Kalinka",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 33,
+      "tempo": 168.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.363,
+      "valence": 0.121,
+      "danceability": 0.265,
+      "acousticness": 0.957,
+      "instrumentalness": 0.001,
+      "loudness": -13.2,
+      "speechiness": 0.044,
+      "duration_ms": 244773,
+      "slug": "kalinka-kalinka-ivan-rebroff"
+    },
+    {
+      "name": "Kuchalara Soo Sapmisham",
+      "artists": "Rashid Beibutov",
+      "album": "Arshin Mul Ullun",
+      "popularity": 33,
+      "tempo": 70.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.046,
+      "valence": 0.257,
+      "danceability": 0.464,
+      "acousticness": 0.996,
+      "instrumentalness": 0.131,
+      "loudness": -16.5,
+      "speechiness": 0.043,
+      "duration_ms": 182047,
+      "slug": "kuchalara-soo-sapmisham-rashid-beibutov"
+    },
+    {
+      "name": "\u041b\u0435\u0442\u043d\u0438\u0439 \u0434\u043e\u0436\u0434\u044c",
+      "artists": "Igor Talkov",
+      "album": "\u0421\u0435\u0440\u0438\u044f \u041b\u0443\u0447\u0448\u0438\u0435 \u0410\u0440\u0442\u0438\u0441\u0442\u044b \u0420\u043e\u0441\u0441\u0438\u0438",
+      "popularity": 32,
+      "tempo": 111.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.315,
+      "valence": 0.544,
+      "danceability": 0.665,
+      "acousticness": 0.577,
+      "instrumentalness": 0.0,
+      "loudness": -16.7,
+      "speechiness": 0.03,
+      "duration_ms": 512365,
+      "slug": "\u043b\u0435\u0442\u043d\u0438\u0439-\u0434\u043e\u0436\u0434\u044c-igor-talkov"
+    },
+    {
+      "name": "\u0420\u0430\u0437\u043b\u0443\u043a\u0430 - \u0418\u0437 \u0442/\u0441 \"\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b, \u0432\u043f\u0435\u0440\u0451\u0434!\"",
+      "artists": "Elena Kamburova",
+      "album": "\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b \u0432\u043f\u0435\u0440\u0451\u0434! (\u041b\u0443\u0447\u0448\u0438\u0435 \u043f\u0435\u0441\u043d\u0438 \u0438\u0437 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432)",
+      "popularity": 32,
+      "tempo": 90.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.175,
+      "valence": 0.288,
+      "danceability": 0.277,
+      "acousticness": 0.865,
+      "instrumentalness": 0.0,
+      "loudness": -17.2,
+      "speechiness": 0.038,
+      "duration_ms": 152764,
+      "slug": "\u0440\u0430\u0437\u043b\u0443\u043a\u0430-\u0438\u0437-\u0442\u0441-\u0433\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b-\u0432\u043f\u0435\u0440\u0451\u0434-elena-kamburova"
+    },
+    {
+      "name": "\u041d\u0435\u0436\u043d\u043e\u0441\u0442\u044c",
+      "artists": "Maya Kristalinskaya",
+      "album": "\u041d\u0435\u0436\u043d\u043e\u0441\u0442\u044c",
+      "popularity": 31,
+      "tempo": 108.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.245,
+      "valence": 0.205,
+      "danceability": 0.334,
+      "acousticness": 0.872,
+      "instrumentalness": 0.0,
+      "loudness": -13.9,
+      "speechiness": 0.032,
+      "duration_ms": 177706,
+      "slug": "\u043d\u0435\u0436\u043d\u043e\u0441\u0442\u044c-maya-kristalinskaya"
+    },
+    {
+      "name": "\u042f \u0442\u0435\u0431\u044f \u043f\u043e\u0434\u043e\u0436\u0434\u0443",
+      "artists": "Maya Kristalinskaya",
+      "album": "\u0417\u043d\u0430\u043a\u043e\u043c\u0430\u044f \u043f\u0435\u0441\u0435\u043d\u043a\u0430. \u0414\u0438\u0441\u043a\u043e\u0442\u0435\u043a\u0430 \u0421\u0421\u0421\u0420",
+      "popularity": 31,
+      "tempo": 144.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.251,
+      "valence": 0.666,
+      "danceability": 0.53,
+      "acousticness": 0.897,
+      "instrumentalness": 0.0,
+      "loudness": -12.7,
+      "speechiness": 0.053,
+      "duration_ms": 194089,
+      "slug": "\u044f-\u0442\u0435\u0431\u044f-\u043f\u043e\u0434\u043e\u0436\u0434\u0443-maya-kristalinskaya"
+    },
+    {
+      "name": "\u041b\u0438\u0441\u0442\u043e\u043f\u0430\u0434",
+      "artists": "Valery Obodzinsky",
+      "album": "\u0412\u0435\u0447\u043d\u0430\u044f \u0432\u0435\u0441\u043d\u0430",
+      "popularity": 31,
+      "tempo": 118.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.412,
+      "valence": 0.719,
+      "danceability": 0.622,
+      "acousticness": 0.449,
+      "instrumentalness": 0.0,
+      "loudness": -13.2,
+      "speechiness": 0.059,
+      "duration_ms": 189074,
+      "slug": "\u043b\u0438\u0441\u0442\u043e\u043f\u0430\u0434-valery-obodzinsky"
+    },
+    {
+      "name": "\u041f\u0440\u0438\u0445\u043e\u0434\u0438\u0442\u0435 \u0412 \u041c\u043e\u0439 \u0414\u043e\u043c",
+      "artists": "Vika Tsyganova",
+      "album": "\u0417\u043e\u043b\u043e\u0442\u044b\u0435 \u0425\u0438\u0442\u044b",
+      "popularity": 31,
+      "tempo": 86.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.692,
+      "valence": 0.826,
+      "danceability": 0.626,
+      "acousticness": 0.421,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.045,
+      "duration_ms": 211653,
+      "slug": "\u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442\u0435-\u0432-\u043c\u043e\u0439-\u0434\u043e\u043c-vika-tsyganova"
+    },
+    {
+      "name": "\u041b\u044e\u0431\u043e\u0432\u044c - \u0432\u043e\u043b\u0448\u0435\u0431\u043d\u0430\u044f \u0441\u0442\u0440\u0430\u043d\u0430",
+      "artists": "Valentina Ponomaryova",
+      "album": "\u041b\u044e\u0431\u0438\u043c\u044b\u0435 \u043f\u0435\u0441\u043d\u0438.ru",
+      "popularity": 30,
+      "tempo": 136.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.211,
+      "valence": 0.214,
+      "danceability": 0.445,
+      "acousticness": 0.93,
+      "instrumentalness": 0.0,
+      "loudness": -12.7,
+      "speechiness": 0.058,
+      "duration_ms": 170613,
+      "slug": "\u043b\u044e\u0431\u043e\u0432\u044c-\u0432\u043e\u043b\u0448\u0435\u0431\u043d\u0430\u044f-\u0441\u0442\u0440\u0430\u043d\u0430-valentina-ponomaryova"
+    },
+    {
+      "name": "Ayr\u0131l\u0131q",
+      "artists": "Rashid Beibutov",
+      "album": "Ayr\u0131l\u0131q",
+      "popularity": 30,
+      "tempo": 166.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.394,
+      "valence": 0.437,
+      "danceability": 0.228,
+      "acousticness": 0.924,
+      "instrumentalness": 0.001,
+      "loudness": -11.0,
+      "speechiness": 0.04,
+      "duration_ms": 288760,
+      "slug": "ayr\u0131l\u0131q-rashid-beibutov"
+    },
+    {
+      "name": "14 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0441\u0442\u0430\u0440\u0442\u0430 - \u042f \u0432\u0435\u0440\u044e, \u0434\u0440\u0443\u0437\u044c\u044f",
+      "artists": "Vladimir Troshin",
+      "album": "14 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0441\u0442\u0430\u0440\u0442\u0430",
+      "popularity": 29,
+      "tempo": 109.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.372,
+      "valence": 0.463,
+      "danceability": 0.574,
+      "acousticness": 0.486,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.059,
+      "duration_ms": 199105,
+      "slug": "14-\u043c\u0438\u043d\u0443\u0442-\u0434\u043e-\u0441\u0442\u0430\u0440\u0442\u0430-\u044f-\u0432\u0435\u0440\u044e-\u0434\u0440\u0443\u0437\u044c\u044f-vladimir-troshin"
+    },
+    {
+      "name": "Vostochnaja pesnja",
+      "artists": "Valery Obodzinsky",
+      "album": "Velikie ispolniteli Rossii XX veka. Valeriy Obodzinskiy",
+      "popularity": 29,
+      "tempo": 77.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.617,
+      "valence": 0.657,
+      "danceability": 0.549,
+      "acousticness": 0.502,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.028,
+      "duration_ms": 209813,
+      "slug": "vostochnaja-pesnja-valery-obodzinsky"
+    },
+    {
+      "name": "Katjuscha, Katjuscha !",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 29,
+      "tempo": 114.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.556,
+      "valence": 0.842,
+      "danceability": 0.465,
+      "acousticness": 0.936,
+      "instrumentalness": 0.001,
+      "loudness": -10.2,
+      "speechiness": 0.059,
+      "duration_ms": 134706,
+      "slug": "katjuscha-katjuscha-ivan-rebroff"
+    },
+    {
+      "name": "Tango Magnolija",
+      "artists": "Alexander Vertinsky",
+      "album": "Velikie ispolniteli Rossii XX veka: Aleksandr Vertinskiy",
+      "popularity": 28,
+      "tempo": 91.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.092,
+      "valence": 0.419,
+      "danceability": 0.545,
+      "acousticness": 0.992,
+      "instrumentalness": 0.0,
+      "loudness": -17.0,
+      "speechiness": 0.048,
+      "duration_ms": 184699,
+      "slug": "tango-magnolija-alexander-vertinsky"
+    },
+    {
+      "name": "\u0421\u043a\u0430\u0436\u0438, \u043e\u0442\u043a\u0443\u0434\u0430 \u0442\u044b \u0432\u0437\u044f\u043b\u0430\u0441\u044c",
+      "artists": "Igor Talkov",
+      "album": "\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0432\u0441\u0435\u0445 \u0432\u0440\u0435\u043c\u0435\u043d - \u0418\u0433\u043e\u0440\u044c \u0422\u0430\u043b\u044c\u043a\u043e\u0432",
+      "popularity": 28,
+      "tempo": 147.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.562,
+      "valence": 0.581,
+      "danceability": 0.653,
+      "acousticness": 0.667,
+      "instrumentalness": 0.0,
+      "loudness": -12.7,
+      "speechiness": 0.029,
+      "duration_ms": 384000,
+      "slug": "\u0441\u043a\u0430\u0436\u0438-\u043e\u0442\u043a\u0443\u0434\u0430-\u0442\u044b-\u0432\u0437\u044f\u043b\u0430\u0441\u044c-igor-talkov"
+    },
+    {
+      "name": "\u0410 \u043d\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043e\u043a \u044f \u0441\u043a\u0430\u0436\u0443",
+      "artists": "Valentina Ponomaryova",
+      "album": "\u041c\u043e\u0435\u0439 \u0434\u0443\u0448\u0435 \u043f\u043e\u043a\u043e\u044f \u043d\u0435\u0442",
+      "popularity": 28,
+      "tempo": 77.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.061,
+      "valence": 0.124,
+      "danceability": 0.404,
+      "acousticness": 0.955,
+      "instrumentalness": 0.0,
+      "loudness": -19.9,
+      "speechiness": 0.055,
+      "duration_ms": 160679,
+      "slug": "\u0430-\u043d\u0430-\u043f\u043e\u0441\u043b\u0435\u0434\u043e\u043a-\u044f-\u0441\u043a\u0430\u0436\u0443-valentina-ponomaryova"
+    },
+    {
+      "name": "Patrouille des cosaques",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 28,
+      "tempo": 136.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.5,
+      "valence": 0.216,
+      "danceability": 0.389,
+      "acousticness": 0.864,
+      "instrumentalness": 0.098,
+      "loudness": -11.7,
+      "speechiness": 0.038,
+      "duration_ms": 165760,
+      "slug": "patrouille-des-cosaques-ivan-rebroff"
+    },
+    {
+      "name": "Two Maxims",
+      "artists": "Georgi Vinogradov;Yuri Lavrentiev Jazz Orchestra",
+      "album": "Soviet Retro Jazz Collection (1937-1944), Vol. 3",
+      "popularity": 27,
+      "tempo": 123.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.307,
+      "valence": 0.811,
+      "danceability": 0.657,
+      "acousticness": 0.955,
+      "instrumentalness": 0.0,
+      "loudness": -16.5,
+      "speechiness": 0.062,
+      "duration_ms": 245016,
+      "slug": "two-maxims-georgi-vinogradov"
+    },
+    {
+      "name": "\u041f\u043e\u0434 \u043b\u0430\u0441\u043a\u043e\u0438\u0306 \u043f\u043b\u044e\u0449\u0435\u0432\u043e\u0433\u043e \u043f\u043b\u0435\u0434\u0430",
+      "artists": "Valentina Ponomaryova",
+      "album": "\u041b\u044e\u0431\u0438\u043c\u044b\u0435 \u043f\u0435\u0441\u043d\u0438.ru",
+      "popularity": 27,
+      "tempo": 78.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.144,
+      "valence": 0.223,
+      "danceability": 0.443,
+      "acousticness": 0.927,
+      "instrumentalness": 0.0,
+      "loudness": -16.3,
+      "speechiness": 0.053,
+      "duration_ms": 157386,
+      "slug": "\u043f\u043e\u0434-\u043b\u0430\u0441\u043a\u043e\u0438-\u043f\u043b\u044e\u0449\u0435\u0432\u043e\u0433\u043e-\u043f\u043b\u0435\u0434\u0430-valentina-ponomaryova"
+    },
+    {
+      "name": "\u0420\u0430\u0437\u043b\u0443\u043a\u0430 (\u0438\u0437 \u043a/\u0444 \"\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b, \u0432\u043f\u0435\u0440\u0435\u0434!\")",
+      "artists": "Elena Kamburova",
+      "album": "\u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439 \u043f\u0440\u0438\u043d\u0446. \u041f\u0435\u0441\u043d\u0438 \u0438\u0437 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432",
+      "popularity": 27,
+      "tempo": 67.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.346,
+      "valence": 0.239,
+      "danceability": 0.287,
+      "acousticness": 0.804,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.034,
+      "duration_ms": 149053,
+      "slug": "\u0440\u0430\u0437\u043b\u0443\u043a\u0430-\u0438\u0437-\u043a\u0444-\u0433\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b-\u0432\u043f\u0435\u0440\u0435\u0434-elena-kamburova"
+    },
+    {
+      "name": "Eti glaza naprotiv",
+      "artists": "Valery Obodzinsky",
+      "album": "Velikie ispolniteli Rossii XX veka. Valeriy Obodzinskiy",
+      "popularity": 27,
+      "tempo": 111.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.526,
+      "valence": 0.545,
+      "danceability": 0.487,
+      "acousticness": 0.819,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.031,
+      "duration_ms": 210093,
+      "slug": "eti-glaza-naprotiv-valery-obodzinsky"
+    },
+    {
+      "name": "\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u044b\u0435 \u0432\u0435\u0447\u0435\u0440\u0430",
+      "artists": "Vladimir Troshin",
+      "album": "\u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u044b\u0435 \u0432\u0435\u0447\u0435\u0440\u0430 (\u0418\u043c\u0435\u043d\u0430 \u043d\u0430 \u0432\u0441\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0430)",
+      "popularity": 26,
+      "tempo": 121.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.147,
+      "valence": 0.259,
+      "danceability": 0.284,
+      "acousticness": 0.92,
+      "instrumentalness": 0.021,
+      "loudness": -17.6,
+      "speechiness": 0.036,
+      "duration_ms": 275693,
+      "slug": "\u043f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u043d\u044b\u0435-\u0432\u0435\u0447\u0435\u0440\u0430-vladimir-troshin"
+    },
+    {
+      "name": "\u0422\u0440\u0438 \u0442\u043e\u0432\u0430\u0440\u0438\u0449\u0430 - Remastered",
+      "artists": "Maya Kristalinskaya",
+      "album": "\u041f\u043e\u0451\u0442 \u041c\u0430\u0439\u044f \u041a\u0440\u0438\u0441\u0442\u0430\u043b\u0438\u043d\u0441\u043a\u0430\u044f (Remastered)",
+      "popularity": 26,
+      "tempo": 0.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.122,
+      "valence": 0.0,
+      "danceability": 0.0,
+      "acousticness": 0.987,
+      "instrumentalness": 0.324,
+      "loudness": -20.5,
+      "speechiness": 0.0,
+      "duration_ms": 122206,
+      "slug": "\u0442\u0440\u0438-\u0442\u043e\u0432\u0430\u0440\u0438\u0449\u0430-remastered-maya-kristalinskaya"
+    },
+    {
+      "name": "\u0417\u0435\u043b\u0435\u043d\u0430\u044f \u043a\u0430\u0440\u0435\u0442\u0430",
+      "artists": "Elena Kamburova",
+      "album": "\u0414\u0440\u0451\u043c\u0430. \u0420\u0443\u0441\u0441\u043a\u0438\u0435 \u043a\u043e\u043b\u044b\u0431\u0435\u043b\u044c\u043d\u044b\u0435",
+      "popularity": 26,
+      "tempo": 118.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.213,
+      "valence": 0.139,
+      "danceability": 0.278,
+      "acousticness": 0.86,
+      "instrumentalness": 0.015,
+      "loudness": -17.5,
+      "speechiness": 0.04,
+      "duration_ms": 219600,
+      "slug": "\u0437\u0435\u043b\u0435\u043d\u0430\u044f-\u043a\u0430\u0440\u0435\u0442\u0430-elena-kamburova"
+    },
+    {
+      "name": "Nezhnost'",
+      "artists": "Maya Kristalinskaya",
+      "album": "Velikie ispolniteli Rossii XX veka: Mayja Kristalinskaja",
+      "popularity": 26,
+      "tempo": 109.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.373,
+      "valence": 0.241,
+      "danceability": 0.287,
+      "acousticness": 0.945,
+      "instrumentalness": 0.001,
+      "loudness": -8.8,
+      "speechiness": 0.029,
+      "duration_ms": 173992,
+      "slug": "nezhnost-maya-kristalinskaya"
+    },
+    {
+      "name": "Hava naguila",
+      "artists": "Ivan Rebroff",
+      "album": "Ah ! Si j'\u00e9tais riche...",
+      "popularity": 26,
+      "tempo": 154.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.699,
+      "valence": 0.412,
+      "danceability": 0.385,
+      "acousticness": 0.658,
+      "instrumentalness": 0.001,
+      "loudness": -12.0,
+      "speechiness": 0.323,
+      "duration_ms": 171400,
+      "slug": "hava-naguila-ivan-rebroff"
+    },
+    {
+      "name": "Katyusha",
+      "artists": "Ivan Rebroff;Balalaika-Ensemble Troika",
+      "album": "Ivan Rebroff Sings Folk Songs from Old Russia",
+      "popularity": 25,
+      "tempo": 94.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.384,
+      "valence": 0.668,
+      "danceability": 0.491,
+      "acousticness": 0.965,
+      "instrumentalness": 0.578,
+      "loudness": -10.2,
+      "speechiness": 0.044,
+      "duration_ms": 110933,
+      "slug": "katyusha-ivan-rebroff"
+    },
+    {
+      "name": "\u0414\u043e \u0447\u0435\u0433\u043e \u0434\u043e\u0448\u0435\u043b \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441 (\u0438\u0437 \u043a/\u0444 \"\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0430\")",
+      "artists": "Elena Kamburova",
+      "album": "\u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439 \u043f\u0440\u0438\u043d\u0446. \u041f\u0435\u0441\u043d\u0438 \u0438\u0437 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432",
+      "popularity": 24,
+      "tempo": 137.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.421,
+      "valence": 0.826,
+      "danceability": 0.717,
+      "acousticness": 0.796,
+      "instrumentalness": 0.007,
+      "loudness": -6.9,
+      "speechiness": 0.037,
+      "duration_ms": 89893,
+      "slug": "\u0434\u043e-\u0447\u0435\u0433\u043e-\u0434\u043e\u0448\u0435\u043b-\u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441-\u0438\u0437-\u043a\u0444-\u043f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f-\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0430-elena-kamburova"
+    },
+    {
+      "name": "\u0414\u043e \u0437\u0430\u0432\u0442\u0440\u0430",
+      "artists": "Vladimir Troshin",
+      "album": "14 \u043c\u0438\u043d\u0443\u0442 \u0434\u043e \u0441\u0442\u0430\u0440\u0442\u0430",
+      "popularity": 24,
+      "tempo": 103.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.445,
+      "valence": 0.36,
+      "danceability": 0.423,
+      "acousticness": 0.982,
+      "instrumentalness": 0.319,
+      "loudness": -13.2,
+      "speechiness": 0.033,
+      "duration_ms": 143307,
+      "slug": "\u0434\u043e-\u0437\u0430\u0432\u0442\u0440\u0430-vladimir-troshin"
+    },
+    {
+      "name": "Wolgalied (Es steht ein Soldat am Wolgastrand)",
+      "artists": "Ivan Rebroff",
+      "album": "Erinnerungen an seine gro\u00dfen Erfolg",
+      "popularity": 23,
+      "tempo": 79.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.373,
+      "valence": 0.257,
+      "danceability": 0.096,
+      "acousticness": 0.499,
+      "instrumentalness": 0.134,
+      "loudness": -10.7,
+      "speechiness": 0.032,
+      "duration_ms": 198080,
+      "slug": "wolgalied-es-steht-ein-soldat-am-wolgastrand-ivan-rebroff"
+    },
+    {
+      "name": "\u0411\u044c\u044e\u0442 \u0441\u0432\u0438\u043d\u0446\u043e\u0432\u044b\u0435 \u043b\u0438\u0432\u043d\u0438 - \u0418\u0437 \u043a/\u0444 \"\u041d\u0435\u0443\u043b\u043e\u0432\u0438\u043c\u044b\u0435 \u043c\u0441\u0442\u0438\u0442\u0435\u043b\u0438\"",
+      "artists": "Vladimir Troshin",
+      "album": "\u041f\u0435\u0441\u043d\u0438 \u0438\u0437 \u0432\u043e\u0435\u043d\u043d\u044b\u0445 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432",
+      "popularity": 23,
+      "tempo": 84.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.316,
+      "valence": 0.484,
+      "danceability": 0.482,
+      "acousticness": 0.926,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.042,
+      "duration_ms": 94850,
+      "slug": "\u0431\u044c\u044e\u0442-\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u044b\u0435-\u043b\u0438\u0432\u043d\u0438-\u0438\u0437-\u043a\u0444-\u043d\u0435\u0443\u043b\u043e\u0432\u0438\u043c\u044b\u0435-\u043c\u0441\u0442\u0438\u0442\u0435\u043b\u0438-vladimir-troshin"
+    },
+    {
+      "name": "\u041d\u0435 \u0432\u0435\u0448\u0430\u0442\u044c \u043d\u043e\u0441 - \u0418\u0437 \u0442/\u0441 \"\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b, \u0432\u043f\u0435\u0440\u0451\u0434!\"",
+      "artists": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0441\u0438\u043c\u0444\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043e\u0440\u043a\u0435\u0441\u0442\u0440 \u043a\u0438\u043d\u0435\u043c\u0430\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438",
+      "album": "\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b \u0432\u043f\u0435\u0440\u0451\u0434! (\u041b\u0443\u0447\u0448\u0438\u0435 \u043f\u0435\u0441\u043d\u0438 \u0438\u0437 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432)",
+      "popularity": 22,
+      "tempo": 86.6,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.422,
+      "valence": 0.563,
+      "danceability": 0.548,
+      "acousticness": 0.422,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.055,
+      "duration_ms": 168176,
+      "slug": "\u043d\u0435-\u0432\u0435\u0448\u0430\u0442\u044c-\u043d\u043e\u0441-\u0438\u0437-\u0442\u0441-\u0433\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b-\u0432\u043f\u0435\u0440\u0451\u0434-\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439-\u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439-\u0441\u0438\u043c\u0444\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439"
+    },
+    {
+      "name": "\u0422\u0435\u0447\u0435\u0442 \u0440\u0435\u043a\u0430 \u0412\u043e\u043b\u0433\u0430",
+      "artists": "Lyudmila Zykina",
+      "album": "\u0421\u043e\u0437\u0432\u0435\u0437\u0434\u044c\u0435 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430 (1958 - 1962)",
+      "popularity": 22,
+      "tempo": 94.4,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.323,
+      "valence": 0.182,
+      "danceability": 0.248,
+      "acousticness": 0.931,
+      "instrumentalness": 0.0,
+      "loudness": -11.5,
+      "speechiness": 0.036,
+      "duration_ms": 343746,
+      "slug": "\u0442\u0435\u0447\u0435\u0442-\u0440\u0435\u043a\u0430-\u0432\u043e\u043b\u0433\u0430-lyudmila-zykina"
+    },
+    {
+      "name": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435 \u043c\u043e\u0451",
+      "artists": "Georgi Vinogradov",
+      "album": "\u0412 \u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u043c \u0441\u0430\u0434\u0443",
+      "popularity": 22,
+      "tempo": 117.4,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.274,
+      "valence": 0.733,
+      "danceability": 0.451,
+      "acousticness": 0.986,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.037,
+      "duration_ms": 169779,
+      "slug": "\u0441\u0447\u0430\u0441\u0442\u044c\u0435-\u043c\u043e\u0451-georgi-vinogradov"
+    },
+    {
+      "name": "\u041d\u0435 \u043a\u043e\u0447\u0435\u0433\u0430\u0440\u044b \u043c\u044b, \u043d\u0435 \u043f\u043b\u043e\u0442\u043d\u0438\u043a\u0438 - \u0418\u0437 \u043a/\u0444 \"\u0412\u044b\u0441\u043e\u0442\u0430\"",
+      "artists": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0420\u044b\u0431\u043d\u0438\u043a\u043e\u0432",
+      "album": "\u041b\u0443\u0447\u0448\u0438\u0435 \u043f\u0435\u0441\u043d\u0438 \u043d\u0430\u0448\u0435\u0433\u043e \u043a\u0438\u043d\u043e",
+      "popularity": 21,
+      "tempo": 121.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.417,
+      "valence": 0.868,
+      "danceability": 0.657,
+      "acousticness": 0.752,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.084,
+      "duration_ms": 53472,
+      "slug": "\u043d\u0435-\u043a\u043e\u0447\u0435\u0433\u0430\u0440\u044b-\u043c\u044b-\u043d\u0435-\u043f\u043b\u043e\u0442\u043d\u0438\u043a\u0438-\u0438\u0437-\u043a\u0444-\u0432\u044b\u0441\u043e\u0442\u0430-\u043d\u0438\u043a\u043e\u043b\u0430\u0439-\u0440\u044b\u0431\u043d\u0438\u043a\u043e\u0432"
+    },
+    {
+      "name": "\u0412\u043e\u0442 \u043e\u043f\u044f\u0442\u044c \u043e\u043a\u043d\u043e (\u0438\u0437 \u043a/\u0444 \"\u0410\u044d\u043b\u0438\u0442\u0430, \u043d\u0435 \u043f\u0440\u0438\u0441\u0442\u0430\u0432\u0430\u0439 \u043a \u043c\u0443\u0436\u0447\u0438\u043d\u0430\u043c\")",
+      "artists": "Elena Kamburova",
+      "album": "\u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439 \u043f\u0440\u0438\u043d\u0446. \u041f\u0435\u0441\u043d\u0438 \u0438\u0437 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432",
+      "popularity": 21,
+      "tempo": 80.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.113,
+      "valence": 0.677,
+      "danceability": 0.638,
+      "acousticness": 0.946,
+      "instrumentalness": 0.024,
+      "loudness": -14.6,
+      "speechiness": 0.084,
+      "duration_ms": 115253,
+      "slug": "\u0432\u043e\u0442-\u043e\u043f\u044f\u0442\u044c-\u043e\u043a\u043d\u043e-\u0438\u0437-\u043a\u0444-\u0430\u044d\u043b\u0438\u0442\u0430-\u043d\u0435-\u043f\u0440\u0438\u0441\u0442\u0430\u0432\u0430\u0439-\u043a-\u043c\u0443\u0436\u0447\u0438\u043d\u0430\u043c-elena-kamburova"
+    },
+    {
+      "name": "\u041c\u0430\u0440\u0448 \u043c\u043e\u043d\u0442\u0430\u0436\u043d\u0438\u043a\u043e\u0432-\u0432\u044b\u0441\u043e\u0442\u043d\u0438\u043a\u043e\u0432",
+      "artists": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0420\u044b\u0431\u043d\u0438\u043a\u043e\u0432;\u0415\u0444\u0438\u043c \u041d\u0435\u0439\u0434;\u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u043d\u0441\u0430\u043c\u0431\u043b\u044c \u043f/\u0443 \u042e\u0440\u0438\u044f \u0421\u0438\u043b\u0430\u043d\u0442\u044c\u0435\u0432\u0430",
+      "album": "\u0421\u0434\u0435\u043b\u0430\u043d\u043e \u0432 \u0421\u0421\u0421\u0420. \u0412\u044b\u043f\u0443\u0441\u043a 1",
+      "popularity": 20,
+      "tempo": 119.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.444,
+      "valence": 0.781,
+      "danceability": 0.682,
+      "acousticness": 0.725,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.057,
+      "duration_ms": 122237,
+      "slug": "\u043c\u0430\u0440\u0448-\u043c\u043e\u043d\u0442\u0430\u0436\u043d\u0438\u043a\u043e\u0432-\u0432\u044b\u0441\u043e\u0442\u043d\u0438\u043a\u043e\u0432-\u043d\u0438\u043a\u043e\u043b\u0430\u0439-\u0440\u044b\u0431\u043d\u0438\u043a\u043e\u0432"
+    },
+    {
+      "name": "Aleksandra",
+      "artists": "Tatiana and Sergey Nikitin",
+      "album": "Brich-Mulla Vol.1",
+      "popularity": 20,
+      "tempo": 115.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.25,
+      "valence": 0.496,
+      "danceability": 0.637,
+      "acousticness": 0.871,
+      "instrumentalness": 0.0,
+      "loudness": -13.9,
+      "speechiness": 0.063,
+      "duration_ms": 218232,
+      "slug": "aleksandra-tatiana-and-sergey-nikitin"
+    },
+    {
+      "name": "\u041f\u0435\u0441\u043d\u044f \u043e \u043b\u044e\u0431\u0432\u0438 - \u0418\u0437 \u0442/\u0441 \"\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b, \u0432\u043f\u0435\u0440\u0451\u0434!\"",
+      "artists": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0425\u0430\u0440\u0430\u0442\u044c\u044f\u043d;\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u0422\u0430\u0440\u0430\u0441\u043e\u0432\u0430",
+      "album": "\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b \u0432\u043f\u0435\u0440\u0451\u0434! (\u041b\u0443\u0447\u0448\u0438\u0435 \u043f\u0435\u0441\u043d\u0438 \u0438\u0437 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432)",
+      "popularity": 20,
+      "tempo": 108.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.255,
+      "valence": 0.107,
+      "danceability": 0.319,
+      "acousticness": 0.566,
+      "instrumentalness": 0.001,
+      "loudness": -15.7,
+      "speechiness": 0.031,
+      "duration_ms": 313730,
+      "slug": "\u043f\u0435\u0441\u043d\u044f-\u043e-\u043b\u044e\u0431\u0432\u0438-\u0438\u0437-\u0442\u0441-\u0433\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b-\u0432\u043f\u0435\u0440\u0451\u0434-\u0434\u043c\u0438\u0442\u0440\u0438\u0439-\u0445\u0430\u0440\u0430\u0442\u044c\u044f\u043d"
+    },
+    {
+      "name": "\u041d\u0430 \u0441\u043e\u043f\u043a\u0430\u0445 \u041c\u0430\u043d\u044c\u0447\u0436\u0443\u0440\u0438\u0438",
+      "artists": "Lyudmila Zykina",
+      "album": "\u0421\u043e\u0437\u0432\u0435\u0437\u0434\u044c\u0435 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430 (1958 - 1962)",
+      "popularity": 19,
+      "tempo": 151.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.29,
+      "valence": 0.254,
+      "danceability": 0.296,
+      "acousticness": 0.949,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.043,
+      "duration_ms": 213854,
+      "slug": "\u043d\u0430-\u0441\u043e\u043f\u043a\u0430\u0445-\u043c\u0430\u043d\u044c\u0447\u0436\u0443\u0440\u0438\u0438-lyudmila-zykina"
+    },
+    {
+      "name": "Dorogoy dlinnoy",
+      "artists": "Alexander Vertinsky",
+      "album": "Velikie ispolniteli Rossii XX veka: Aleksandr Vertinskiy",
+      "popularity": 19,
+      "tempo": 115.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.201,
+      "valence": 0.592,
+      "danceability": 0.566,
+      "acousticness": 0.989,
+      "instrumentalness": 0.0,
+      "loudness": -12.6,
+      "speechiness": 0.071,
+      "duration_ms": 174871,
+      "slug": "dorogoy-dlinnoy-alexander-vertinsky"
+    },
+    {
+      "name": "\u041f\u043e\u0437\u043e\u0432\u0438 \u043c\u0435\u043d\u044f \u0441 \u0441\u043e\u0431\u043e\u0439",
+      "artists": "Kvatro",
+      "album": "XV \u043b\u0435\u0442. \u041f\u043e\u0441\u0432\u044f\u0449\u0435\u043d\u0438\u0435 \u0436\u0435\u043d\u0449\u0438\u043d\u0435. \u0427\u0430\u0441\u0442\u044c 3",
+      "popularity": 18,
+      "tempo": 139.3,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.503,
+      "valence": 0.224,
+      "danceability": 0.493,
+      "acousticness": 0.657,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.049,
+      "duration_ms": 246575,
+      "slug": "\u043f\u043e\u0437\u043e\u0432\u0438-\u043c\u0435\u043d\u044f-\u0441-\u0441\u043e\u0431\u043e\u0439-kvatro"
+    },
+    {
+      "name": "Madam, uzhe padajut list'ja",
+      "artists": "Alexander Vertinsky",
+      "album": "Velikie ispolniteli Rossii XX veka: Aleksandr Vertinskiy",
+      "popularity": 16,
+      "tempo": 100.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.108,
+      "valence": 0.446,
+      "danceability": 0.479,
+      "acousticness": 0.991,
+      "instrumentalness": 0.0,
+      "loudness": -17.4,
+      "speechiness": 0.104,
+      "duration_ms": 273353,
+      "slug": "madam-uzhe-padajut-listja-alexander-vertinsky"
+    },
+    {
+      "name": "\u0427\u0438\u0441\u0442\u044b\u0435 \u043f\u0440\u0443\u0434\u044b",
+      "artists": "Igor Talkov;Elektroklub",
+      "album": "\u0420\u0430\u0434\u0438\u043e \u0428\u0430\u043d\u0441\u043e\u043d: \u0425\u0438\u0442\u044b \u0440\u0430\u0437\u043d\u044b\u0445 \u043b\u0435\u0442",
+      "popularity": 15,
+      "tempo": 141.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.468,
+      "valence": 0.167,
+      "danceability": 0.397,
+      "acousticness": 0.359,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.028,
+      "duration_ms": 335072,
+      "slug": "\u0447\u0438\u0441\u0442\u044b\u0435-\u043f\u0440\u0443\u0434\u044b-igor-talkov"
+    },
+    {
+      "name": "\u0423\u043c\u043a\u0430",
+      "artists": "Elena Kamburova",
+      "album": "\u0414\u0440\u0451\u043c\u0430. \u0420\u0443\u0441\u0441\u043a\u0438\u0435 \u043a\u043e\u043b\u044b\u0431\u0435\u043b\u044c\u043d\u044b\u0435",
+      "popularity": 15,
+      "tempo": 132.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.144,
+      "valence": 0.393,
+      "danceability": 0.36,
+      "acousticness": 0.848,
+      "instrumentalness": 0.001,
+      "loudness": -18.1,
+      "speechiness": 0.039,
+      "duration_ms": 190066,
+      "slug": "\u0443\u043c\u043a\u0430-elena-kamburova"
+    },
+    {
+      "name": "Gol Gulum Galsin",
+      "artists": "Rashid Beibutov",
+      "album": "Arshin Mul Ullun",
+      "popularity": 15,
+      "tempo": 107.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.197,
+      "valence": 0.604,
+      "danceability": 0.632,
+      "acousticness": 0.992,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.051,
+      "duration_ms": 148819,
+      "slug": "gol-gulum-galsin-rashid-beibutov"
+    },
+    {
+      "name": "Ech odessa",
+      "artists": "Ivan Rebroff",
+      "album": "Ah ! Si j'\u00e9tais riche...",
+      "popularity": 15,
+      "tempo": 113.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.694,
+      "valence": 0.883,
+      "danceability": 0.629,
+      "acousticness": 0.65,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.055,
+      "duration_ms": 132586,
+      "slug": "ech-odessa-ivan-rebroff"
+    },
+    {
+      "name": "Joue tzigane (Poj Zyganka)",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 15,
+      "tempo": 137.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.515,
+      "valence": 0.57,
+      "danceability": 0.269,
+      "acousticness": 0.869,
+      "instrumentalness": 0.115,
+      "loudness": -9.0,
+      "speechiness": 0.043,
+      "duration_ms": 227760,
+      "slug": "joue-tzigane-poj-zyganka-ivan-rebroff"
+    },
+    {
+      "name": "Les bateliers de la Volga",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 15,
+      "tempo": 84.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.284,
+      "valence": 0.39,
+      "danceability": 0.333,
+      "acousticness": 0.988,
+      "instrumentalness": 0.301,
+      "loudness": -12.7,
+      "speechiness": 0.046,
+      "duration_ms": 152000,
+      "slug": "les-bateliers-de-la-volga-ivan-rebroff"
+    },
+    {
+      "name": "\u0423\u0442\u043e\u043c\u043b\u0451\u043d\u043d\u043e\u0435 \u0441\u043e\u043b\u043d\u0446\u0435",
+      "artists": "\u041f\u0430\u0432\u0435\u043b \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432;\u0434\u0436\u0430\u0437-\u043e\u0440\u043a\u0435\u0441\u0442\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0426\u0444\u0430\u0441\u043c\u0430\u043d\u0430",
+      "album": "\u0412 \u043f\u0430\u0440\u043a\u0435 \u0427\u0430\u0438\u0440. \u0412\u044b\u043f\u0443\u0441\u043a 1",
+      "popularity": 14,
+      "tempo": 121.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.303,
+      "valence": 0.726,
+      "danceability": 0.544,
+      "acousticness": 0.953,
+      "instrumentalness": 0.002,
+      "loudness": -12.7,
+      "speechiness": 0.036,
+      "duration_ms": 182773,
+      "slug": "\u0443\u0442\u043e\u043c\u043b\u0451\u043d\u043d\u043e\u0435-\u0441\u043e\u043b\u043d\u0446\u0435-\u043f\u0430\u0432\u0435\u043b-\u043c\u0438\u0445\u0430\u0439\u043b\u043e\u0432"
+    },
+    {
+      "name": "\u041a\u043e\u043b\u044b\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u0441\u0432\u0435\u0442\u043b\u0430\u043d\u044b",
+      "artists": "Elena Kamburova",
+      "album": "\u0414\u0440\u0451\u043c\u0430. \u0420\u0443\u0441\u0441\u043a\u0438\u0435 \u043a\u043e\u043b\u044b\u0431\u0435\u043b\u044c\u043d\u044b\u0435",
+      "popularity": 14,
+      "tempo": 120.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.092,
+      "valence": 0.059,
+      "danceability": 0.324,
+      "acousticness": 0.912,
+      "instrumentalness": 0.001,
+      "loudness": -19.4,
+      "speechiness": 0.038,
+      "duration_ms": 223306,
+      "slug": "\u043a\u043e\u043b\u044b\u0431\u0435\u043b\u044c\u043d\u0430\u044f-\u0441\u0432\u0435\u0442\u043b\u0430\u043d\u044b-elena-kamburova"
+    },
+    {
+      "name": "Les deux guitares",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 14,
+      "tempo": 94.5,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.208,
+      "valence": 0.374,
+      "danceability": 0.426,
+      "acousticness": 0.984,
+      "instrumentalness": 0.019,
+      "loudness": -14.9,
+      "speechiness": 0.039,
+      "duration_ms": 216306,
+      "slug": "les-deux-guitares-ivan-rebroff"
+    },
+    {
+      "name": "Vashi pal'tsy",
+      "artists": "Alexander Vertinsky",
+      "album": "Velikie ispolniteli Rossii XX veka: Aleksandr Vertinskiy",
+      "popularity": 14,
+      "tempo": 80.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.038,
+      "valence": 0.23,
+      "danceability": 0.412,
+      "acousticness": 0.993,
+      "instrumentalness": 0.0,
+      "loudness": -18.7,
+      "speechiness": 0.123,
+      "duration_ms": 159165,
+      "slug": "vashi-paltsy-alexander-vertinsky"
+    },
+    {
+      "name": "\u041a\u0430\u0442\u044e\u0448\u0430",
+      "artists": "\u0413\u0440\u0443\u043f\u043f\u0430 \"\u0417\u0430\u0433\u0430\u0434\u043a\u0430\"",
+      "album": "\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f \u044d\u0441\u0442\u0440\u0430\u0434\u044b. \u041a\u0430\u043a\u0438\u043c \u0442\u044b \u0431\u044b\u043b",
+      "popularity": 13,
+      "tempo": 127.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.273,
+      "valence": 0.687,
+      "danceability": 0.711,
+      "acousticness": 0.918,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.054,
+      "duration_ms": 126293,
+      "slug": "\u043a\u0430\u0442\u044e\u0448\u0430-\u0433\u0440\u0443\u043f\u043f\u0430-\u0437\u0430\u0433\u0430\u0434\u043a\u0430"
+    },
+    {
+      "name": "\u0421\u043e\u043d \u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442 \u043d\u0430 \u043f\u043e\u0440\u043e\u0433",
+      "artists": "Elena Kamburova",
+      "album": "\u0414\u0440\u0451\u043c\u0430. \u0420\u0443\u0441\u0441\u043a\u0438\u0435 \u043a\u043e\u043b\u044b\u0431\u0435\u043b\u044c\u043d\u044b\u0435",
+      "popularity": 13,
+      "tempo": 80.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.145,
+      "valence": 0.105,
+      "danceability": 0.343,
+      "acousticness": 0.922,
+      "instrumentalness": 0.009,
+      "loudness": -20.1,
+      "speechiness": 0.055,
+      "duration_ms": 211266,
+      "slug": "\u0441\u043e\u043d-\u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442-\u043d\u0430-\u043f\u043e\u0440\u043e\u0433-elena-kamburova"
+    },
+    {
+      "name": "Tschubtschik",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 13,
+      "tempo": 127.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.55,
+      "valence": 0.722,
+      "danceability": 0.436,
+      "acousticness": 0.829,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.09,
+      "duration_ms": 128493,
+      "slug": "tschubtschik-ivan-rebroff"
+    },
+    {
+      "name": "Moscow Nights",
+      "artists": "Ivan Rebroff;Balalaika-Ensemble Troika",
+      "album": "Ivan Rebroff Sings Folk Songs from Old Russia",
+      "popularity": 13,
+      "tempo": 79.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.423,
+      "valence": 0.17,
+      "danceability": 0.22,
+      "acousticness": 0.981,
+      "instrumentalness": 0.007,
+      "loudness": -13.0,
+      "speechiness": 0.054,
+      "duration_ms": 156960,
+      "slug": "moscow-nights-ivan-rebroff"
+    },
+    {
+      "name": "Eint\u00f6nig hell klingt das Gl\u00f6cklein",
+      "artists": "Ivan Rebroff",
+      "album": "Erinnerungen an seine gro\u00dfen Erfolg",
+      "popularity": 13,
+      "tempo": 116.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.455,
+      "valence": 0.08,
+      "danceability": 0.198,
+      "acousticness": 0.847,
+      "instrumentalness": 0.368,
+      "loudness": -9.4,
+      "speechiness": 0.04,
+      "duration_ms": 234266,
+      "slug": "eint\u00f6nig-hell-klingt-das-gl\u00f6cklein-ivan-rebroff"
+    },
+    {
+      "name": "\u0414\u0440\u0443\u0436\u0431\u0430",
+      "artists": "Vadim Kozin",
+      "album": "\u041c\u043e\u0439 \u043a\u043e\u0441\u0442\u0451\u0440 / Russian Vintage Songs",
+      "popularity": 13,
+      "tempo": 164.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.328,
+      "valence": 0.476,
+      "danceability": 0.374,
+      "acousticness": 0.993,
+      "instrumentalness": 0.051,
+      "loudness": -10.6,
+      "speechiness": 0.054,
+      "duration_ms": 155641,
+      "slug": "\u0434\u0440\u0443\u0436\u0431\u0430-vadim-kozin"
+    },
+    {
+      "name": "\u0413\u043e\u0441\u043f\u043e\u0434\u0430 \u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u044b",
+      "artists": "Igor Talkov",
+      "album": "\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0432\u0441\u0435\u0445 \u0432\u0440\u0435\u043c\u0435\u043d - \u0418\u0433\u043e\u0440\u044c \u0422\u0430\u043b\u044c\u043a\u043e\u0432",
+      "popularity": 12,
+      "tempo": 66.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.771,
+      "valence": 0.905,
+      "danceability": 0.728,
+      "acousticness": 0.702,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.238,
+      "duration_ms": 228466,
+      "slug": "\u0433\u043e\u0441\u043f\u043e\u0434\u0430-\u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u044b-igor-talkov"
+    },
+    {
+      "name": "\u041a\u0430\u043a \u0443\u043f\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b \u0432 \u0420\u043e\u0441\u0441\u0438\u0438 \u0432\u0435\u0447\u0435\u0440\u0430",
+      "artists": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0414\u043e\u0431\u0440\u043e\u043d\u0440\u0430\u0432\u043e\u0432",
+      "album": "\u041a\u0430\u043a \u0443\u043f\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b \u0432 \u0420\u043e\u0441\u0441\u0438\u0438 \u0432\u0435\u0447\u0435\u0440\u0430 (\u0414\u0443\u0448\u0435\u0432\u043d\u044b\u0435 \u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u043f\u0435\u0441\u043d\u0438)",
+      "popularity": 12,
+      "tempo": 138.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.333,
+      "danceability": 0.518,
+      "acousticness": 0.322,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.029,
+      "duration_ms": 235300,
+      "slug": "\u043a\u0430\u043a-\u0443\u043f\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b-\u0432-\u0440\u043e\u0441\u0441\u0438\u0438-\u0432\u0435\u0447\u0435\u0440\u0430-\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440-\u0434\u043e\u0431\u0440\u043e\u043d\u0440\u0430\u0432\u043e\u0432"
+    },
+    {
+      "name": "\u041f\u043e\u0440\u0443\u0447\u0438\u043a \u0413\u043e\u043b\u0438\u0446\u044b\u043d",
+      "artists": "Zhanna Bichevskaya;Gennadiy Ponomarjov",
+      "album": "\u0413\u043e\u0441\u043f\u043e\u0434\u0430 \u043e\u0444\u0438\u0446\u0435\u0440\u044b",
+      "popularity": 12,
+      "tempo": 103.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.269,
+      "valence": 0.392,
+      "danceability": 0.457,
+      "acousticness": 0.853,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.029,
+      "duration_ms": 253000,
+      "slug": "\u043f\u043e\u0440\u0443\u0447\u0438\u043a-\u0433\u043e\u043b\u0438\u0446\u044b\u043d-zhanna-bichevskaya"
+    },
+    {
+      "name": "Stenka rasin",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 12,
+      "tempo": 86.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.461,
+      "valence": 0.37,
+      "danceability": 0.275,
+      "acousticness": 0.978,
+      "instrumentalness": 0.042,
+      "loudness": -11.6,
+      "speechiness": 0.048,
+      "duration_ms": 214973,
+      "slug": "stenka-rasin-ivan-rebroff"
+    },
+    {
+      "name": "Wot polk paschol",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 12,
+      "tempo": 148.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.544,
+      "valence": 0.773,
+      "danceability": 0.437,
+      "acousticness": 0.872,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.058,
+      "duration_ms": 118586,
+      "slug": "wot-polk-paschol-ivan-rebroff"
+    },
+    {
+      "name": "Tschorny woron",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 12,
+      "tempo": 81.2,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.382,
+      "valence": 0.447,
+      "danceability": 0.226,
+      "acousticness": 0.987,
+      "instrumentalness": 0.165,
+      "loudness": -11.4,
+      "speechiness": 0.033,
+      "duration_ms": 205706,
+      "slug": "tschorny-woron-ivan-rebroff"
+    },
+    {
+      "name": "Mitschza Troika",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 12,
+      "tempo": 143.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.612,
+      "valence": 0.467,
+      "danceability": 0.465,
+      "acousticness": 0.676,
+      "instrumentalness": 0.128,
+      "loudness": -9.4,
+      "speechiness": 0.051,
+      "duration_ms": 169453,
+      "slug": "mitschza-troika-ivan-rebroff"
+    },
+    {
+      "name": "Kalinka Malinka",
+      "artists": "Ivan Rebroff",
+      "album": "Erinnerungen an seine gro\u00dfen Erfolg",
+      "popularity": 12,
+      "tempo": 169.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.416,
+      "valence": 0.113,
+      "danceability": 0.266,
+      "acousticness": 0.959,
+      "instrumentalness": 0.001,
+      "loudness": -11.9,
+      "speechiness": 0.045,
+      "duration_ms": 241106,
+      "slug": "kalinka-malinka-ivan-rebroff"
+    },
+    {
+      "name": "L\u00e9gende des douze voleurs",
+      "artists": "Ivan Rebroff",
+      "album": "Best of Ivan Rebroff (18 Hits)",
+      "popularity": 12,
+      "tempo": 85.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.418,
+      "valence": 0.19,
+      "danceability": 0.234,
+      "acousticness": 0.98,
+      "instrumentalness": 0.342,
+      "loudness": -14.7,
+      "speechiness": 0.052,
+      "duration_ms": 279360,
+      "slug": "l\u00e9gende-des-douze-voleurs-ivan-rebroff"
+    },
+    {
+      "name": "Dance of the Gypsies",
+      "artists": "Ivan Rebroff;Balalaika-Ensemble Troika",
+      "album": "Ivan Rebroff Sings Folk Songs from Old Russia",
+      "popularity": 12,
+      "tempo": 93.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.662,
+      "valence": 0.963,
+      "danceability": 0.481,
+      "acousticness": 0.67,
+      "instrumentalness": 0.756,
+      "loudness": -12.7,
+      "speechiness": 0.037,
+      "duration_ms": 106466,
+      "slug": "dance-of-the-gypsies-ivan-rebroff"
+    },
+    {
+      "name": "\u041b\u0435\u0442\u043d\u0438\u0439 \u0434\u043e\u0436\u0434\u044c",
+      "artists": "Igor Talkov",
+      "album": "\u041b\u0435\u0433\u0435\u043d\u0434\u044b \u0432\u0441\u0435\u0445 \u0432\u0440\u0435\u043c\u0435\u043d - \u0418\u0433\u043e\u0440\u044c \u0422\u0430\u043b\u044c\u043a\u043e\u0432",
+      "popularity": 11,
+      "tempo": 111.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.315,
+      "valence": 0.544,
+      "danceability": 0.665,
+      "acousticness": 0.577,
+      "instrumentalness": 0.0,
+      "loudness": -16.7,
+      "speechiness": 0.03,
+      "duration_ms": 512365,
+      "slug": "\u043b\u0435\u0442\u043d\u0438\u0439-\u0434\u043e\u0436\u0434\u044c-igor-talkov"
+    },
+    {
+      "name": "\u0413\u043e\u0440\u043e\u0434 \u0437\u043e\u043b\u043e\u0442\u043e\u0439",
+      "artists": "Elena Kamburova",
+      "album": "\u0412\u0441\u0451 \u0431\u0443\u0434\u0435\u0442 \u0437\u0430\u0432\u0442\u0440\u0430",
+      "popularity": 11,
+      "tempo": 89.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.161,
+      "valence": 0.262,
+      "danceability": 0.332,
+      "acousticness": 0.984,
+      "instrumentalness": 0.312,
+      "loudness": -18.4,
+      "speechiness": 0.045,
+      "duration_ms": 215080,
+      "slug": "\u0433\u043e\u0440\u043e\u0434-\u0437\u043e\u043b\u043e\u0442\u043e\u0439-elena-kamburova"
+    },
+    {
+      "name": "\u0410 \u0433\u0434\u0435 \u043c\u043d\u0435 \u0432\u0437\u044f\u0442\u044c \u0442\u0430\u043a\u0443\u044e \u043f\u0435\u0441\u043d\u044e (\u0422\u043e\u043f\u043e\u043b\u044f)",
+      "artists": "Kvatro",
+      "album": "\u041a\u0432\u0430\u0442\u0440\u043e - XV \u043b\u0435\u0442, \u0427\u0430\u0441\u0442\u044c 1",
+      "popularity": 11,
+      "tempo": 103.7,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.212,
+      "valence": 0.196,
+      "danceability": 0.347,
+      "acousticness": 0.89,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.03,
+      "duration_ms": 211869,
+      "slug": "\u0430-\u0433\u0434\u0435-\u043c\u043d\u0435-\u0432\u0437\u044f\u0442\u044c-\u0442\u0430\u043a\u0443\u044e-\u043f\u0435\u0441\u043d\u044e-\u0442\u043e\u043f\u043e\u043b\u044f-kvatro"
+    },
+    {
+      "name": "\u0412\u0441\u0430\u0434\u043d\u0438\u043a\u0438",
+      "artists": "Sergey Nikitin;\u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u041d\u0438\u043a\u0438\u0442\u0438\u043d\u0430",
+      "album": "\u042e\u043d\u043d\u0430 \u041c\u043e\u0440\u0438\u0446: \u0421\u0442\u043e \u0444\u0430\u043d\u0442\u0430\u0437\u0438\u0439",
+      "popularity": 11,
+      "tempo": 122.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.087,
+      "valence": 0.538,
+      "danceability": 0.793,
+      "acousticness": 0.835,
+      "instrumentalness": 0.0,
+      "loudness": -21.0,
+      "speechiness": 0.109,
+      "duration_ms": 135321,
+      "slug": "\u0432\u0441\u0430\u0434\u043d\u0438\u043a\u0438-sergey-nikitin"
+    },
+    {
+      "name": "Chjornye glaza",
+      "artists": "Pyotr Leshchenko",
+      "album": "Velikie ispolniteli Rossii XX veka: Pjotr Lescenko",
+      "popularity": 11,
+      "tempo": 106.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.297,
+      "valence": 0.46,
+      "danceability": 0.491,
+      "acousticness": 0.954,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.05,
+      "duration_ms": 195161,
+      "slug": "chjornye-glaza-pyotr-leshchenko"
+    },
+    {
+      "name": "Ach Natascha",
+      "artists": "Ivan Rebroff",
+      "album": "Ah ! Si j'\u00e9tais riche...",
+      "popularity": 11,
+      "tempo": 103.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.487,
+      "valence": 0.647,
+      "danceability": 0.426,
+      "acousticness": 0.778,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.054,
+      "duration_ms": 142120,
+      "slug": "ach-natascha-ivan-rebroff"
+    },
+    {
+      "name": "Havah Nagila",
+      "artists": "Ivan Rebroff",
+      "album": "Erinnerungen an seine gro\u00dfen Erfolg",
+      "popularity": 11,
+      "tempo": 141.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.737,
+      "valence": 0.415,
+      "danceability": 0.407,
+      "acousticness": 0.606,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.355,
+      "duration_ms": 169106,
+      "slug": "havah-nagila-ivan-rebroff"
+    },
+    {
+      "name": "\u041f\u0430\u043c\u044f\u0442\u044c",
+      "artists": "Igor Talkov",
+      "album": "\u041b\u0443\u0447\u0448\u0438\u0435 \u043f\u0435\u0441\u043d\u0438 \u0447\u0430\u0441\u0442\u044c 2",
+      "popularity": 11,
+      "tempo": 128.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.418,
+      "valence": 0.319,
+      "danceability": 0.7,
+      "acousticness": 0.646,
+      "instrumentalness": 0.0,
+      "loudness": -12.7,
+      "speechiness": 0.068,
+      "duration_ms": 344537,
+      "slug": "\u043f\u0430\u043c\u044f\u0442\u044c-igor-talkov"
+    },
+    {
+      "name": "Uzun Gec\u0259l\u0259r",
+      "artists": "Rashid Beibutov",
+      "album": "Bahar S\u0259nsiz",
+      "popularity": 11,
+      "tempo": 179.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.054,
+      "valence": 0.19,
+      "danceability": 0.291,
+      "acousticness": 0.994,
+      "instrumentalness": 0.015,
+      "loudness": -16.6,
+      "speechiness": 0.041,
+      "duration_ms": 305800,
+      "slug": "uzun-gec\u0259l\u0259r-rashid-beibutov"
+    },
+    {
+      "name": "Chistye pond",
+      "artists": "Igor Talkov",
+      "album": "Mission",
+      "popularity": 11,
+      "tempo": 141.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.341,
+      "valence": 0.19,
+      "danceability": 0.443,
+      "acousticness": 0.653,
+      "instrumentalness": 0.001,
+      "loudness": -12.8,
+      "speechiness": 0.03,
+      "duration_ms": 342256,
+      "slug": "chistye-pond-igor-talkov"
+    },
+    {
+      "name": "Khana Khana",
+      "artists": "Rashid Beibutov",
+      "album": "Arshin Mul Ullun",
+      "popularity": 11,
+      "tempo": 171.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.169,
+      "valence": 0.52,
+      "danceability": 0.402,
+      "acousticness": 0.992,
+      "instrumentalness": 0.001,
+      "loudness": -14.2,
+      "speechiness": 0.038,
+      "duration_ms": 174628,
+      "slug": "khana-khana-rashid-beibutov"
+    },
+    {
+      "name": "\u0427\u0451\u0440\u043d\u044b\u0439 \u0432\u043e\u0440\u043e\u043d",
+      "artists": "Zhanna Bichevskaya",
+      "album": "\u0416\u0430\u043d\u043d\u0430 \u0411\u0438\u0447\u0435\u0432\u0441\u043a\u0430\u044f: \u0418\u0437\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438",
+      "popularity": 11,
+      "tempo": 97.4,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.129,
+      "valence": 0.22,
+      "danceability": 0.356,
+      "acousticness": 0.948,
+      "instrumentalness": 0.001,
+      "loudness": -14.4,
+      "speechiness": 0.032,
+      "duration_ms": 289786,
+      "slug": "\u0447\u0451\u0440\u043d\u044b\u0439-\u0432\u043e\u0440\u043e\u043d-zhanna-bichevskaya"
+    },
+    {
+      "name": "Kazach'ja pritcha",
+      "artists": "Zhanna Bichevskaya",
+      "album": "Starye russkie narodnye derevenskie i gorodskie pesni, Ch. 2",
+      "popularity": 11,
+      "tempo": 145.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.344,
+      "valence": 0.318,
+      "danceability": 0.369,
+      "acousticness": 0.93,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.031,
+      "duration_ms": 170280,
+      "slug": "kazachja-pritcha-zhanna-bichevskaya"
+    },
+    {
+      "name": "Schwarze Augen",
+      "artists": "Ivan Rebroff",
+      "album": "Erinnerungen an seine gro\u00dfen Erfolg",
+      "popularity": 11,
+      "tempo": 90.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.473,
+      "valence": 0.201,
+      "danceability": 0.236,
+      "acousticness": 0.967,
+      "instrumentalness": 0.007,
+      "loudness": -10.4,
+      "speechiness": 0.043,
+      "duration_ms": 246186,
+      "slug": "schwarze-augen-ivan-rebroff"
+    },
+    {
+      "name": "Fish Catch",
+      "artists": "Ivan Rebroff;Balalaika-Ensemble Troika",
+      "album": "Ivan Rebroff Sings Folk Songs from Old Russia",
+      "popularity": 11,
+      "tempo": 98.3,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.612,
+      "valence": 0.9,
+      "danceability": 0.366,
+      "acousticness": 0.722,
+      "instrumentalness": 0.192,
+      "loudness": -13.7,
+      "speechiness": 0.032,
+      "duration_ms": 135480,
+      "slug": "fish-catch-ivan-rebroff"
+    },
+    {
+      "name": "The Legend of the Twelve Thieves",
+      "artists": "Ivan Rebroff;Balalaika-Ensemble Troika",
+      "album": "Ivan Rebroff Sings Folk Songs from Old Russia",
+      "popularity": 11,
+      "tempo": 76.4,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.437,
+      "valence": 0.087,
+      "danceability": 0.151,
+      "acousticness": 0.979,
+      "instrumentalness": 0.086,
+      "loudness": -13.6,
+      "speechiness": 0.047,
+      "duration_ms": 225120,
+      "slug": "the-legend-of-the-twelve-thieves-ivan-rebroff"
+    },
+    {
+      "name": "Sehnsucht (Das Lied der Taiga-Grustij-Toska)",
+      "artists": "Ivan Rebroff",
+      "album": "Erinnerungen an seine gro\u00dfen Erfolg",
+      "popularity": 11,
+      "tempo": 81.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.247,
+      "danceability": 0.259,
+      "acousticness": 0.962,
+      "instrumentalness": 0.14,
+      "loudness": -9.0,
+      "speechiness": 0.033,
+      "duration_ms": 230920,
+      "slug": "sehnsucht-das-lied-der-taiga-grustij-toska-ivan-rebroff"
+    },
+    {
+      "name": "Lilovyy negr",
+      "artists": "Alexander Vertinsky",
+      "album": "Velikie ispolniteli Rossii XX veka: Aleksandr Vertinskiy",
+      "popularity": 11,
+      "tempo": 84.2,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.198,
+      "valence": 0.18,
+      "danceability": 0.314,
+      "acousticness": 0.991,
+      "instrumentalness": 0.058,
+      "loudness": -17.6,
+      "speechiness": 0.167,
+      "duration_ms": 168722,
+      "slug": "lilovyy-negr-alexander-vertinsky"
+    },
+    {
+      "name": "\u041e\u043f\u044f\u0442\u044c \u043c\u0435\u0442\u0435\u043b\u044c",
+      "artists": "Kvatro",
+      "album": "\u0420\u0443\u0441\u0441\u043a\u0430\u044f \u0437\u0438\u043c\u0430",
+      "popularity": 10,
+      "tempo": 140.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.285,
+      "valence": 0.117,
+      "danceability": 0.294,
+      "acousticness": 0.826,
+      "instrumentalness": 0.0,
+      "loudness": -11.3,
+      "speechiness": 0.03,
+      "duration_ms": 217819,
+      "slug": "\u043e\u043f\u044f\u0442\u044c-\u043c\u0435\u0442\u0435\u043b\u044c-kvatro"
+    },
+    {
+      "name": "\u0421\u043c\u0443\u0433\u043b\u044f\u043d\u043a\u0430",
+      "artists": "Kvatro",
+      "album": "\u041a\u0432\u0430\u0442\u0440\u043e - XV \u043b\u0435\u0442, \u0427\u0430\u0441\u0442\u044c 1",
+      "popularity": 10,
+      "tempo": 88.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.538,
+      "valence": 0.708,
+      "danceability": 0.391,
+      "acousticness": 0.73,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.038,
+      "duration_ms": 194119,
+      "slug": "\u0441\u043c\u0443\u0433\u043b\u044f\u043d\u043a\u0430-kvatro"
+    },
+    {
+      "name": "\u0410\u0439 \u0434\u0430 \u043d\u0443 \u0434\u0430, \u0434\u0430 \u043d\u0435",
+      "artists": "Nikolai Erdenko",
+      "album": "20 \u0448\u0435\u0434\u0435\u0432\u0440\u043e\u0432 \u0446\u044b\u0433\u0430\u043d\u0441\u043a\u043e\u0439 \u043f\u0435\u0441\u043d\u0438",
+      "popularity": 10,
+      "tempo": 157.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.763,
+      "danceability": 0.341,
+      "acousticness": 0.785,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.051,
+      "duration_ms": 148480,
+      "slug": "\u0430\u0439-\u0434\u0430-\u043d\u0443-\u0434\u0430-\u0434\u0430-\u043d\u0435-nikolai-erdenko"
+    },
+    {
+      "name": "\u041c\u044b \u0432 \u0442\u0440\u0430\u043c\u0432\u0430\u0439\u0447\u0438\u043a\u0435 \u043f\u043b\u044b\u0432\u0451\u043c",
+      "artists": "Sergey Nikitin;\u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u041d\u0438\u043a\u0438\u0442\u0438\u043d\u0430",
+      "album": "\u042e\u043d\u043d\u0430 \u041c\u043e\u0440\u0438\u0446: \u0421\u0442\u043e \u0444\u0430\u043d\u0442\u0430\u0437\u0438\u0439",
+      "popularity": 10,
+      "tempo": 128.3,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.128,
+      "valence": 0.548,
+      "danceability": 0.679,
+      "acousticness": 0.849,
+      "instrumentalness": 0.0,
+      "loudness": -18.3,
+      "speechiness": 0.078,
+      "duration_ms": 148524,
+      "slug": "\u043c\u044b-\u0432-\u0442\u0440\u0430\u043c\u0432\u0430\u0439\u0447\u0438\u043a\u0435-\u043f\u043b\u044b\u0432\u0451\u043c-sergey-nikitin"
+    },
+    {
+      "name": "\u0421\u043e\u043b\u043e\u0432\u044c\u0438",
+      "artists": "Georgi Vinogradov;The Red Army Choir",
+      "album": "\u041a\u043e\u0433\u0434\u0430 \u043f\u043e\u044e\u0442 \u0441\u043e\u043b\u0434\u0430\u0442\u044b...",
+      "popularity": 10,
+      "tempo": 112.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.272,
+      "valence": 0.041,
+      "danceability": 0.232,
+      "acousticness": 0.963,
+      "instrumentalness": 0.0,
+      "loudness": -14.9,
+      "speechiness": 0.053,
+      "duration_ms": 356573,
+      "slug": "\u0441\u043e\u043b\u043e\u0432\u044c\u0438-georgi-vinogradov"
+    },
+    {
+      "name": "\u0420\u043e\u0434\u043d\u0438\u043a",
+      "artists": "Oleg Pogudin",
+      "album": "\u041f\u0435\u0441\u043d\u043e\u043f\u0435\u043d\u0438\u044f \u0438\u0435\u0440\u043e\u043c\u043e\u043d\u0430\u0445\u0430 \u0420\u043e\u043c\u0430\u043d\u0430",
+      "popularity": 10,
+      "tempo": 114.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.166,
+      "valence": 0.385,
+      "danceability": 0.44,
+      "acousticness": 0.946,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.035,
+      "duration_ms": 222120,
+      "slug": "\u0440\u043e\u0434\u043d\u0438\u043a-oleg-pogudin"
+    },
+    {
+      "name": "\u0420\u0430\u0437\u043b\u0443\u043a\u0430 - \u0418\u0437 \u0442/\u0441 \"\u0413\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b, \u0432\u043f\u0435\u0440\u0451\u0434!\"",
+      "artists": "Elena Kamburova",
+      "album": "\u041f\u0435\u0441\u043d\u0438 \u043e \u043b\u044e\u0431\u0432\u0438 \u0438\u0437 \u043a\u0438\u043d\u043e\u0444\u0438\u043b\u044c\u043c\u043e\u0432",
+      "popularity": 10,
+      "tempo": 90.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.175,
+      "valence": 0.288,
+      "danceability": 0.277,
+      "acousticness": 0.864,
+      "instrumentalness": 0.0,
+      "loudness": -17.2,
+      "speechiness": 0.038,
+      "duration_ms": 152764,
+      "slug": "\u0440\u0430\u0437\u043b\u0443\u043a\u0430-\u0438\u0437-\u0442\u0441-\u0433\u0430\u0440\u0434\u0435\u043c\u0430\u0440\u0438\u043d\u044b-\u0432\u043f\u0435\u0440\u0451\u0434-elena-kamburova"
+    },
+    {
+      "name": "\u0427\u0438\u0441\u0442\u044b\u0435 \u043f\u0440\u0443\u0434\u044b",
+      "artists": "Igor Talkov",
+      "album": "\u041b\u0443\u0447\u0448\u0438\u0435 \u043f\u0435\u0441\u043d\u0438 \u0447\u0430\u0441\u0442\u044c 2",
+      "popularity": 10,
+      "tempo": 141.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.353,
+      "valence": 0.165,
+      "danceability": 0.355,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.03,
+      "duration_ms": 341263,
+      "slug": "\u0447\u0438\u0441\u0442\u044b\u0435-\u043f\u0440\u0443\u0434\u044b-igor-talkov"
+    },
+    {
+      "name": "Pure Ponds",
+      "artists": "Igor Talkov",
+      "album": "I Will Return",
+      "popularity": 10,
+      "tempo": 141.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.243,
+      "valence": 0.126,
+      "danceability": 0.408,
+      "acousticness": 0.452,
+      "instrumentalness": 0.001,
+      "loudness": -15.9,
+      "speechiness": 0.036,
+      "duration_ms": 358008,
+      "slug": "pure-ponds-igor-talkov"
+    },
+    {
+      "name": "Arsin Mal Alan",
+      "artists": "Rashid Beibutov",
+      "album": "Arshin Mul Ullun",
+      "popularity": 10,
+      "tempo": 65.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.269,
+      "valence": 0.139,
+      "danceability": 0.312,
+      "acousticness": 0.99,
+      "instrumentalness": 0.005,
+      "loudness": -9.8,
+      "speechiness": 0.036,
+      "duration_ms": 358530,
+      "slug": "arsin-mal-alan-rashid-beibutov"
+    }
+  ]
+}

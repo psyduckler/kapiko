@@ -1,0 +1,2799 @@
+{
+  "genre": "J-Dance",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 66.633,
+    "max": 212.276,
+    "mean": 112.776,
+    "median": 102.865,
+    "q1": 94.021,
+    "q3": 128.018,
+    "histogram": {
+      "60-69": 2,
+      "80-89": 14,
+      "90-99": 23,
+      "100-109": 28,
+      "110-119": 5,
+      "120-129": 8,
+      "130-139": 6,
+      "140-149": 4,
+      "160-169": 1,
+      "170-179": 3,
+      "180-189": 2,
+      "190-199": 3,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "G": 17,
+    "C#/Db": 12,
+    "C": 11,
+    "F": 11,
+    "F#/Gb": 10,
+    "A#/Bb": 8,
+    "B": 7,
+    "A": 7,
+    "G#/Ab": 7,
+    "D": 6,
+    "E": 4
+  },
+  "mode_distribution": {
+    "Minor": 57,
+    "Major": 43
+  },
+  "key_mode_distribution": {
+    "G Major": 11,
+    "A#/Bb Minor": 8,
+    "F Minor": 8,
+    "C#/Db Minor": 7,
+    "B Minor": 7,
+    "C Major": 6,
+    "G Minor": 6,
+    "F#/Gb Major": 5,
+    "C#/Db Major": 5,
+    "F#/Gb Minor": 5,
+    "C Minor": 5,
+    "G#/Ab Major": 5,
+    "D Major": 4,
+    "A Minor": 4,
+    "A Major": 3,
+    "E Minor": 3,
+    "F Major": 3,
+    "D Minor": 2,
+    "G#/Ab Minor": 2,
+    "E Major": 1
+  },
+  "energy": {
+    "min": 0.083,
+    "max": 0.936,
+    "mean": 0.672,
+    "median": 0.674,
+    "q1": 0.602,
+    "q3": 0.764
+  },
+  "valence": {
+    "min": 0.073,
+    "max": 0.95,
+    "mean": 0.554,
+    "median": 0.579,
+    "q1": 0.418,
+    "q3": 0.733
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.646,
+      "valence": 0.67
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.603
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.817
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.578
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.789
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.871
+    },
+    {
+      "energy": 0.702,
+      "valence": 0.789
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.635
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.752
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.84
+    },
+    {
+      "energy": 0.606,
+      "valence": 0.788
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.902
+    },
+    {
+      "energy": 0.668,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.404
+    },
+    {
+      "energy": 0.491,
+      "valence": 0.868
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.408,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.764,
+      "valence": 0.518
+    },
+    {
+      "energy": 0.582,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.57,
+      "valence": 0.368
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.733
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.78,
+      "valence": 0.59
+    },
+    {
+      "energy": 0.083,
+      "valence": 0.119
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.783
+    },
+    {
+      "energy": 0.675,
+      "valence": 0.645
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.283
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.127
+    },
+    {
+      "energy": 0.693,
+      "valence": 0.853
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.945
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.617
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.498,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.772
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.541,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.591,
+      "valence": 0.384
+    },
+    {
+      "energy": 0.643,
+      "valence": 0.352
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.479,
+      "valence": 0.463
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.901,
+      "valence": 0.168
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.95
+    },
+    {
+      "energy": 0.509,
+      "valence": 0.579
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.797
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.16
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.62
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.697
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.073
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.353
+    },
+    {
+      "energy": 0.691,
+      "valence": 0.699
+    },
+    {
+      "energy": 0.602,
+      "valence": 0.634
+    },
+    {
+      "energy": 0.679,
+      "valence": 0.598
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.451
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.55,
+      "valence": 0.615
+    },
+    {
+      "energy": 0.673,
+      "valence": 0.527
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.583
+    },
+    {
+      "energy": 0.625,
+      "valence": 0.736
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.134
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.391,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.612,
+      "valence": 0.418
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.62
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.623,
+      "valence": 0.807
+    },
+    {
+      "energy": 0.579,
+      "valence": 0.657
+    },
+    {
+      "energy": 0.625,
+      "valence": 0.621
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.627
+    },
+    {
+      "energy": 0.916,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.459,
+      "valence": 0.139
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.853
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.476
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.876
+    },
+    {
+      "energy": 0.517,
+      "valence": 0.482
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.616
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.88
+    },
+    {
+      "energy": 0.693,
+      "valence": 0.554
+    },
+    {
+      "energy": 0.646,
+      "valence": 0.186
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.995,
+    "mean": 0.183,
+    "median": 0.118,
+    "q1": 0.037,
+    "q3": 0.303
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.937,
+    "mean": 0.083,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.12,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.575,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.478,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.178,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.139,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.576,
+      "instrumentalness": 0.867
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.1,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.549,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.382,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.93
+    },
+    {
+      "acousticness": 0.318,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.316,
+      "instrumentalness": 0.051
+    },
+    {
+      "acousticness": 0.316,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.096
+    },
+    {
+      "acousticness": 0.112,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.028
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.147
+    },
+    {
+      "acousticness": 0.529,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.316,
+      "instrumentalness": 0.051
+    },
+    {
+      "acousticness": 0.355,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.314,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.542
+    },
+    {
+      "acousticness": 0.16,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.283,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.261,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.18,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.749,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.179,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.677,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.142,
+      "instrumentalness": 0.081
+    },
+    {
+      "acousticness": 0.112,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.348,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.441,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.839
+    },
+    {
+      "acousticness": 0.172,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.894
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.585,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.203,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.065,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.181,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.174,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.384,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.826
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.773
+    },
+    {
+      "acousticness": 0.557,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.25,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.204,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.442,
+      "instrumentalness": 0.937
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.872
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.345
+    }
+  ],
+  "duration": {
+    "min": 65293,
+    "max": 392970,
+    "mean": 193591.49,
+    "median": 189595.0,
+    "q1": 166000,
+    "q3": 215973
+  },
+  "danceability": {
+    "min": 0.3,
+    "max": 0.95,
+    "mean": 0.706,
+    "median": 0.738,
+    "q1": 0.616,
+    "q3": 0.816
+  },
+  "loudness": {
+    "min": -18.982,
+    "max": -0.308,
+    "mean": -6.136,
+    "median": -5.604,
+    "q1": -7.458,
+    "q3": -4.475
+  },
+  "speechiness": {
+    "min": 0.033,
+    "max": 0.565,
+    "mean": 0.17,
+    "median": 0.125,
+    "q1": 0.072,
+    "q3": 0.263
+  },
+  "top_artists": [
+    {
+      "name": "Fetty Wap",
+      "count": 11
+    },
+    {
+      "name": "Koffee",
+      "count": 11
+    },
+    {
+      "name": "Skeng",
+      "count": 8
+    },
+    {
+      "name": "Flying Lotus",
+      "count": 7
+    },
+    {
+      "name": "Charly Black",
+      "count": 6
+    },
+    {
+      "name": "Skillibeng",
+      "count": 6
+    },
+    {
+      "name": "Vybz Kartel",
+      "count": 6
+    },
+    {
+      "name": "Spice",
+      "count": 5
+    },
+    {
+      "name": "Popcaan",
+      "count": 5
+    },
+    {
+      "name": "Monty",
+      "count": 4
+    },
+    {
+      "name": "Tokyo Machine",
+      "count": 4
+    },
+    {
+      "name": "Busy Signal",
+      "count": 4
+    },
+    {
+      "name": "AMARIA BB",
+      "count": 3
+    },
+    {
+      "name": "Montell Jordan",
+      "count": 3
+    },
+    {
+      "name": "Dunw3ll",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "No Diggity",
+      "artists": "Blackstreet;Dr. Dre;Queen Pen",
+      "album": "Another Level",
+      "popularity": 77,
+      "tempo": 88.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.646,
+      "valence": 0.67,
+      "danceability": 0.867,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.288,
+      "duration_ms": 304600,
+      "slug": "no-diggity-blackstreet"
+    },
+    {
+      "name": "679 (feat. Remy Boyz)",
+      "artists": "Fetty Wap;Remy Boyz",
+      "album": "679 (feat. Remy Boyz)",
+      "popularity": 74,
+      "tempo": 190.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.603,
+      "danceability": 0.618,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.318,
+      "duration_ms": 196693,
+      "slug": "679-feat-remy-boyz-fetty-wap"
+    },
+    {
+      "name": "Trap Queen",
+      "artists": "Fetty Wap",
+      "album": "Fetty Wap (Deluxe)",
+      "popularity": 74,
+      "tempo": 148.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.817,
+      "danceability": 0.746,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.128,
+      "duration_ms": 222093,
+      "slug": "trap-queen-fetty-wap"
+    },
+    {
+      "name": "Go Down Deh (feat. Shaggy and Sean Paul)",
+      "artists": "Spice;Shaggy;Sean Paul",
+      "album": "Go Down Deh (feat. Shaggy and Sean Paul)",
+      "popularity": 74,
+      "tempo": 90.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.534,
+      "danceability": 0.817,
+      "acousticness": 0.12,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.108,
+      "duration_ms": 154666,
+      "slug": "go-down-deh-feat-shaggy-and-sean-paul-spice"
+    },
+    {
+      "name": "Slow Motion",
+      "artists": "AMARIA BB",
+      "album": "Slow Motion",
+      "popularity": 71,
+      "tempo": 88.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.479,
+      "valence": 0.485,
+      "danceability": 0.733,
+      "acousticness": 0.575,
+      "instrumentalness": 0.001,
+      "loudness": -9.3,
+      "speechiness": 0.301,
+      "duration_ms": 166000,
+      "slug": "slow-motion-amaria-bb"
+    },
+    {
+      "name": "Go Down Deh (feat. Shaggy and Sean Paul)",
+      "artists": "Spice;Shaggy;Sean Paul",
+      "album": "10",
+      "popularity": 69,
+      "tempo": 90.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.764,
+      "valence": 0.578,
+      "danceability": 0.801,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.099,
+      "duration_ms": 154151,
+      "slug": "go-down-deh-feat-shaggy-and-sean-paul-spice"
+    },
+    {
+      "name": "Again",
+      "artists": "Fetty Wap",
+      "album": "Fetty Wap (Deluxe)",
+      "popularity": 68,
+      "tempo": 93.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.733,
+      "valence": 0.291,
+      "danceability": 0.748,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.072,
+      "duration_ms": 312240,
+      "slug": "again-fetty-wap"
+    },
+    {
+      "name": "Gyal You A Party Animal - Remix",
+      "artists": "Charly Black;Daddy Yankee",
+      "album": "Gyal You A Party Animal (Remix)",
+      "popularity": 68,
+      "tempo": 101.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.757,
+      "danceability": 0.729,
+      "acousticness": 0.061,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.08,
+      "duration_ms": 224320,
+      "slug": "gyal-you-a-party-animal-remix-charly-black"
+    },
+    {
+      "name": "Toast",
+      "artists": "Koffee",
+      "album": "Rapture EP",
+      "popularity": 67,
+      "tempo": 100.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.789,
+      "danceability": 0.906,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.256,
+      "duration_ms": 191502,
+      "slug": "toast-koffee"
+    },
+    {
+      "name": "My Way (feat. Monty)",
+      "artists": "Fetty Wap;Monty",
+      "album": "Fetty Wap (Deluxe)",
+      "popularity": 66,
+      "tempo": 128.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.741,
+      "valence": 0.537,
+      "danceability": 0.748,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.053,
+      "duration_ms": 213053,
+      "slug": "my-way-feat-monty-fetty-wap"
+    },
+    {
+      "name": "Gyal You A Party Animal",
+      "artists": "Charly Black",
+      "album": "Gyal You A Party Animal",
+      "popularity": 66,
+      "tempo": 134.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.841,
+      "valence": 0.871,
+      "danceability": 0.588,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.093,
+      "duration_ms": 214866,
+      "slug": "gyal-you-a-party-animal-charly-black"
+    },
+    {
+      "name": "This Is How We Do It",
+      "artists": "Montell Jordan",
+      "album": "Best Of Montell Jordan",
+      "popularity": 66,
+      "tempo": 103.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.702,
+      "valence": 0.789,
+      "danceability": 0.791,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.062,
+      "duration_ms": 237546,
+      "slug": "this-is-how-we-do-it-montell-jordan"
+    },
+    {
+      "name": "TWIST & TURN (feat. Drake & PARTYNEXTDOOR)",
+      "artists": "Popcaan;Drake;PARTYNEXTDOOR",
+      "album": "FIXTAPE",
+      "popularity": 64,
+      "tempo": 106.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.747,
+      "valence": 0.635,
+      "danceability": 0.571,
+      "acousticness": 0.478,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.17,
+      "duration_ms": 259651,
+      "slug": "twist-turn-feat-drake-partynextdoor-popcaan"
+    },
+    {
+      "name": "679 (feat. Monty)",
+      "artists": "Fetty Wap;Monty",
+      "album": "Fetty Wap (Deluxe)",
+      "popularity": 64,
+      "tempo": 126.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.752,
+      "danceability": 0.545,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.407,
+      "duration_ms": 186986,
+      "slug": "679-feat-monty-fetty-wap"
+    },
+    {
+      "name": "Party Animal",
+      "artists": "Charly Black;Luis Fonsi",
+      "album": "Party Animal",
+      "popularity": 62,
+      "tempo": 101.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.84,
+      "danceability": 0.724,
+      "acousticness": 0.025,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.046,
+      "duration_ms": 195813,
+      "slug": "party-animal-charly-black"
+    },
+    {
+      "name": "This Is How We Do It",
+      "artists": "Montell Jordan;Wino",
+      "album": "This Is How We Do It",
+      "popularity": 62,
+      "tempo": 103.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.606,
+      "valence": 0.788,
+      "danceability": 0.775,
+      "acousticness": 0.042,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.12,
+      "duration_ms": 277293,
+      "slug": "this-is-how-we-do-it-montell-jordan"
+    },
+    {
+      "name": "W (feat. Gunna)",
+      "artists": "Koffee;Gunna",
+      "album": "W (feat. Gunna)",
+      "popularity": 61,
+      "tempo": 101.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.721,
+      "valence": 0.902,
+      "danceability": 0.856,
+      "acousticness": 0.178,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.078,
+      "duration_ms": 230151,
+      "slug": "w-feat-gunna-koffee"
+    },
+    {
+      "name": "History Maker",
+      "artists": "DEAN FUJIOKA",
+      "album": "History Maker",
+      "popularity": 60,
+      "tempo": 67.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.668,
+      "valence": 0.456,
+      "danceability": 0.397,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.086,
+      "duration_ms": 190044,
+      "slug": "history-maker-dean-fujioka"
+    },
+    {
+      "name": "Crocodile Teeth",
+      "artists": "Skillibeng",
+      "album": "Crocodile Teeth",
+      "popularity": 60,
+      "tempo": 107.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.644,
+      "valence": 0.221,
+      "danceability": 0.594,
+      "acousticness": 0.141,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.302,
+      "duration_ms": 166699,
+      "slug": "crocodile-teeth-skillibeng"
+    },
+    {
+      "name": "Fever",
+      "artists": "Vybz Kartel",
+      "album": "King Of The Dancehall",
+      "popularity": 60,
+      "tempo": 98.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.62,
+      "valence": 0.404,
+      "danceability": 0.891,
+      "acousticness": 0.139,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.244,
+      "duration_ms": 204500,
+      "slug": "fever-vybz-kartel"
+    },
+    {
+      "name": "Get It On Tonite",
+      "artists": "Montell Jordan",
+      "album": "Get It On...Tonite",
+      "popularity": 60,
+      "tempo": 99.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.491,
+      "valence": 0.868,
+      "danceability": 0.813,
+      "acousticness": 0.241,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.077,
+      "duration_ms": 276266,
+      "slug": "get-it-on-tonite-montell-jordan"
+    },
+    {
+      "name": "\u706b\u708e",
+      "artists": "QUEEN BEE",
+      "album": "Fire (Full Edition)",
+      "popularity": 59,
+      "tempo": 169.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.933,
+      "valence": 0.607,
+      "danceability": 0.521,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.179,
+      "duration_ms": 215973,
+      "slug": "\u706b\u708e-queen-bee"
+    },
+    {
+      "name": "Crust",
+      "artists": "Flying Lotus",
+      "album": "Yasuke",
+      "popularity": 59,
+      "tempo": 106.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.408,
+      "valence": 0.226,
+      "danceability": 0.676,
+      "acousticness": 0.576,
+      "instrumentalness": 0.867,
+      "loudness": -7.9,
+      "speechiness": 0.081,
+      "duration_ms": 133520,
+      "slug": "crust-flying-lotus"
+    },
+    {
+      "name": "RGF Island",
+      "artists": "Fetty Wap",
+      "album": "Fetty Wap (Deluxe)",
+      "popularity": 59,
+      "tempo": 138.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.764,
+      "valence": 0.518,
+      "danceability": 0.746,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.042,
+      "duration_ms": 173893,
+      "slug": "rgf-island-fetty-wap"
+    },
+    {
+      "name": "Protocol",
+      "artists": "Skeng;Tommy Lee Sparta",
+      "album": "Protocol",
+      "popularity": 59,
+      "tempo": 100.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.582,
+      "valence": 0.441,
+      "danceability": 0.665,
+      "acousticness": 0.1,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.339,
+      "duration_ms": 199836,
+      "slug": "protocol-skeng"
+    },
+    {
+      "name": "Gvnman Shift",
+      "artists": "Skeng",
+      "album": "Gvnman Shift",
+      "popularity": 59,
+      "tempo": 100.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.57,
+      "valence": 0.368,
+      "danceability": 0.911,
+      "acousticness": 0.549,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.314,
+      "duration_ms": 204068,
+      "slug": "gvnman-shift-skeng"
+    },
+    {
+      "name": "Whap Whap (feat. Fivio Foreign & French Montana)",
+      "artists": "Skillibeng;Fivio Foreign;French Montana",
+      "album": "Whap Whap (feat. Fivio Foreign & French Montana)",
+      "popularity": 58,
+      "tempo": 107.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.825,
+      "valence": 0.733,
+      "danceability": 0.95,
+      "acousticness": 0.382,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.268,
+      "duration_ms": 161495,
+      "slug": "whap-whap-feat-fivio-foreign-french-montana-skillibeng"
+    },
+    {
+      "name": "Verified Choppa 2",
+      "artists": "Marksman",
+      "album": "Verified Choppa 2",
+      "popularity": 58,
+      "tempo": 200.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.449,
+      "danceability": 0.725,
+      "acousticness": 0.117,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.408,
+      "duration_ms": 139093,
+      "slug": "verified-choppa-2-marksman"
+    },
+    {
+      "name": "Whap Whap (feat. F.S.)",
+      "artists": "Skillibeng;F.S.",
+      "album": "Whap Whap (feat. F.S.)",
+      "popularity": 58,
+      "tempo": 107.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.78,
+      "valence": 0.59,
+      "danceability": 0.895,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.232,
+      "duration_ms": 181115,
+      "slug": "whap-whap-feat-fs-skillibeng"
+    },
+    {
+      "name": "Avril 14th (Aphex Twin) - Vanessa Wagner Version",
+      "artists": "Murcof;Vanessa Wagner",
+      "album": "Avril 14th (Aphex Twin) [Vanessa Wagner Version]",
+      "popularity": 58,
+      "tempo": 93.3,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.083,
+      "valence": 0.119,
+      "danceability": 0.395,
+      "acousticness": 0.995,
+      "instrumentalness": 0.93,
+      "loudness": -19.0,
+      "speechiness": 0.043,
+      "duration_ms": 165020,
+      "slug": "avril-14th-aphex-twin-vanessa-wagner-version-murcof"
+    },
+    {
+      "name": "You're Perfect",
+      "artists": "Charly Black",
+      "album": "You're Perfect",
+      "popularity": 57,
+      "tempo": 104.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.855,
+      "valence": 0.783,
+      "danceability": 0.817,
+      "acousticness": 0.318,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.244,
+      "duration_ms": 196973,
+      "slug": "youre-perfect-charly-black"
+    },
+    {
+      "name": "Rapture",
+      "artists": "Koffee",
+      "album": "Rapture EP",
+      "popularity": 57,
+      "tempo": 99.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.675,
+      "valence": 0.645,
+      "danceability": 0.503,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.254,
+      "duration_ms": 181816,
+      "slug": "rapture-koffee"
+    },
+    {
+      "name": "Pull Up",
+      "artists": "Koffee",
+      "album": "Pull Up",
+      "popularity": 57,
+      "tempo": 102.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.646,
+      "danceability": 0.81,
+      "acousticness": 0.316,
+      "instrumentalness": 0.051,
+      "loudness": -3.3,
+      "speechiness": 0.09,
+      "duration_ms": 171092,
+      "slug": "pull-up-koffee"
+    },
+    {
+      "name": "Never Catch Me",
+      "artists": "Flying Lotus;Kendrick Lamar",
+      "album": "You're Dead!",
+      "popularity": 57,
+      "tempo": 81.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.936,
+      "valence": 0.283,
+      "danceability": 0.526,
+      "acousticness": 0.316,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.263,
+      "duration_ms": 234486,
+      "slug": "never-catch-me-flying-lotus"
+    },
+    {
+      "name": "ALL I NEED (feat. Drake)",
+      "artists": "Popcaan;Drake",
+      "album": "FIXTAPE",
+      "popularity": 57,
+      "tempo": 91.4,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.427,
+      "valence": 0.127,
+      "danceability": 0.573,
+      "acousticness": 0.068,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.05,
+      "duration_ms": 177898,
+      "slug": "all-i-need-feat-drake-popcaan"
+    },
+    {
+      "name": "So Mi Like It",
+      "artists": "Spice",
+      "album": "So Mi Like It",
+      "popularity": 57,
+      "tempo": 90.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.693,
+      "valence": 0.853,
+      "danceability": 0.812,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.367,
+      "duration_ms": 153213,
+      "slug": "so-mi-like-it-spice"
+    },
+    {
+      "name": "Dude",
+      "artists": "Beenie Man;Ms. Thing",
+      "album": "Back To Basics",
+      "popularity": 57,
+      "tempo": 93.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.71,
+      "valence": 0.945,
+      "danceability": 0.616,
+      "acousticness": 0.123,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.264,
+      "duration_ms": 255360,
+      "slug": "dude-beenie-man"
+    },
+    {
+      "name": "PLAY",
+      "artists": "Tokyo Machine",
+      "album": "PLAY",
+      "popularity": 56,
+      "tempo": 128.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.934,
+      "valence": 0.617,
+      "danceability": 0.74,
+      "acousticness": 0.002,
+      "instrumentalness": 0.096,
+      "loudness": -2.1,
+      "speechiness": 0.164,
+      "duration_ms": 183949,
+      "slug": "play-tokyo-machine"
+    },
+    {
+      "name": "Silence",
+      "artists": "Popcaan",
+      "album": "Forever",
+      "popularity": 56,
+      "tempo": 93.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.558,
+      "valence": 0.422,
+      "danceability": 0.547,
+      "acousticness": 0.112,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.309,
+      "duration_ms": 215776,
+      "slug": "silence-popcaan"
+    },
+    {
+      "name": "Badman",
+      "artists": "Skillibeng",
+      "album": "The Prodigy",
+      "popularity": 56,
+      "tempo": 132.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.498,
+      "valence": 0.364,
+      "danceability": 0.703,
+      "acousticness": 0.064,
+      "instrumentalness": 0.028,
+      "loudness": -6.7,
+      "speechiness": 0.081,
+      "duration_ms": 177525,
+      "slug": "badman-skillibeng"
+    },
+    {
+      "name": "Clarks",
+      "artists": "Vybz Kartel;Popcaan;Gaza Slim",
+      "album": "Stronger We Get",
+      "popularity": 56,
+      "tempo": 101.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.802,
+      "valence": 0.772,
+      "danceability": 0.631,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.373,
+      "duration_ms": 183893,
+      "slug": "clarks-vybz-kartel"
+    },
+    {
+      "name": "You're Perfect",
+      "artists": "Charly Black",
+      "album": "Rio Bueno",
+      "popularity": 55,
+      "tempo": 104.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.842,
+      "valence": 0.826,
+      "danceability": 0.757,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.242,
+      "duration_ms": 196946,
+      "slug": "youre-perfect-charly-black"
+    },
+    {
+      "name": "Live Some Life (feat. DING DONG)",
+      "artists": "AMARIA BB;DING DONG",
+      "album": "Live Some Life (feat. DING DONG)",
+      "popularity": 55,
+      "tempo": 104.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.541,
+      "valence": 0.584,
+      "danceability": 0.859,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.436,
+      "duration_ms": 185191,
+      "slug": "live-some-life-feat-ding-dong-amaria-bb"
+    },
+    {
+      "name": "Make A Move",
+      "artists": "EMMA WAHLIN",
+      "album": "Make A Move",
+      "popularity": 55,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.591,
+      "valence": 0.384,
+      "danceability": 0.822,
+      "acousticness": 0.013,
+      "instrumentalness": 0.147,
+      "loudness": -6.6,
+      "speechiness": 0.051,
+      "duration_ms": 189146,
+      "slug": "make-a-move-emma-wahlin"
+    },
+    {
+      "name": "London",
+      "artists": "Skeng",
+      "album": "London",
+      "popularity": 55,
+      "tempo": 103.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.643,
+      "valence": 0.352,
+      "danceability": 0.886,
+      "acousticness": 0.529,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.157,
+      "duration_ms": 151456,
+      "slug": "london-skeng"
+    },
+    {
+      "name": "Pull Up",
+      "artists": "Koffee",
+      "album": "Gifted",
+      "popularity": 55,
+      "tempo": 102.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.646,
+      "danceability": 0.81,
+      "acousticness": 0.316,
+      "instrumentalness": 0.051,
+      "loudness": -3.3,
+      "speechiness": 0.09,
+      "duration_ms": 171092,
+      "slug": "pull-up-koffee"
+    },
+    {
+      "name": "23",
+      "artists": "Skeng",
+      "album": "23",
+      "popularity": 55,
+      "tempo": 104.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.479,
+      "valence": 0.463,
+      "danceability": 0.889,
+      "acousticness": 0.355,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.099,
+      "duration_ms": 144076,
+      "slug": "23-skeng"
+    },
+    {
+      "name": "Skeleton Cartier",
+      "artists": "Popcaan",
+      "album": "Skeleton Cartier",
+      "popularity": 55,
+      "tempo": 96.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.82,
+      "valence": 0.357,
+      "danceability": 0.549,
+      "acousticness": 0.314,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.379,
+      "duration_ms": 221583,
+      "slug": "skeleton-cartier-popcaan"
+    },
+    {
+      "name": "No Way Out (feat. Mira Lu Kovacs)",
+      "artists": "Camo & Krooked;Mira Lu Kovacs",
+      "album": "No Way Out (feat. Mira Lu Kovacs)",
+      "popularity": 55,
+      "tempo": 175.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.901,
+      "valence": 0.168,
+      "danceability": 0.429,
+      "acousticness": 0.005,
+      "instrumentalness": 0.542,
+      "loudness": -0.3,
+      "speechiness": 0.1,
+      "duration_ms": 245485,
+      "slug": "no-way-out-feat-mira-lu-kovacs-camo-krooked"
+    },
+    {
+      "name": "Feel It Boy",
+      "artists": "Beenie Man;Janet Jackson",
+      "album": "Tropical Storm",
+      "popularity": 55,
+      "tempo": 102.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.656,
+      "valence": 0.95,
+      "danceability": 0.842,
+      "acousticness": 0.16,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.107,
+      "duration_ms": 207133,
+      "slug": "feel-it-boy-beenie-man"
+    },
+    {
+      "name": "1Uptown",
+      "artists": "Bayka",
+      "album": "1Uptown",
+      "popularity": 55,
+      "tempo": 112.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.509,
+      "valence": 0.579,
+      "danceability": 0.943,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.248,
+      "duration_ms": 137160,
+      "slug": "1uptown-bayka"
+    },
+    {
+      "name": "Slow Motion - Remix",
+      "artists": "AMARIA BB;Tayc",
+      "album": "Slow Motion (Remix)",
+      "popularity": 54,
+      "tempo": 86.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.555,
+      "valence": 0.497,
+      "danceability": 0.435,
+      "acousticness": 0.283,
+      "instrumentalness": 0.001,
+      "loudness": -8.9,
+      "speechiness": 0.251,
+      "duration_ms": 168316,
+      "slug": "slow-motion-remix-amaria-bb"
+    },
+    {
+      "name": "Last Summer",
+      "artists": "Tokyo Machine;Weird Genius;Lights",
+      "album": "Last Summer",
+      "popularity": 54,
+      "tempo": 145.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.915,
+      "valence": 0.898,
+      "danceability": 0.641,
+      "acousticness": 0.261,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.033,
+      "duration_ms": 172551,
+      "slug": "last-summer-tokyo-machine"
+    },
+    {
+      "name": "So Mi Like It",
+      "artists": "Spice",
+      "album": "10",
+      "popularity": 54,
+      "tempo": 120.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.628,
+      "valence": 0.797,
+      "danceability": 0.722,
+      "acousticness": 0.084,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.565,
+      "duration_ms": 154038,
+      "slug": "so-mi-like-it-spice"
+    },
+    {
+      "name": "Birthday (feat. Monty)",
+      "artists": "Fetty Wap;Monty",
+      "album": "Birthday (feat. Monty)",
+      "popularity": 54,
+      "tempo": 97.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.621,
+      "valence": 0.403,
+      "danceability": 0.816,
+      "acousticness": 0.18,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.181,
+      "duration_ms": 188041,
+      "slug": "birthday-feat-monty-fetty-wap"
+    },
+    {
+      "name": "Moments",
+      "artists": "Masicka;Stefflon Don",
+      "album": "438",
+      "popularity": 54,
+      "tempo": 129.3,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.658,
+      "valence": 0.16,
+      "danceability": 0.772,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.226,
+      "duration_ms": 183092,
+      "slug": "moments-masicka"
+    },
+    {
+      "name": "Lockdown",
+      "artists": "Koffee",
+      "album": "Lockdown",
+      "popularity": 54,
+      "tempo": 94.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.62,
+      "danceability": 0.779,
+      "acousticness": 0.149,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.2,
+      "duration_ms": 179737,
+      "slug": "lockdown-koffee"
+    },
+    {
+      "name": "Give It All To Me",
+      "artists": "Mavado;Nicki Minaj",
+      "album": "Give It All To Me",
+      "popularity": 54,
+      "tempo": 97.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.707,
+      "valence": 0.415,
+      "danceability": 0.477,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.342,
+      "duration_ms": 214226,
+      "slug": "give-it-all-to-me-mavado"
+    },
+    {
+      "name": "Gifted",
+      "artists": "Koffee",
+      "album": "Gifted",
+      "popularity": 54,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.471,
+      "valence": 0.52,
+      "danceability": 0.794,
+      "acousticness": 0.749,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.054,
+      "duration_ms": 165600,
+      "slug": "gifted-koffee"
+    },
+    {
+      "name": "679 (feat. Remy Boyz)",
+      "artists": "Fetty Wap;Remy Boyz",
+      "album": "679 (feat. Remy Boyz)",
+      "popularity": 54,
+      "tempo": 189.7,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.833,
+      "valence": 0.697,
+      "danceability": 0.577,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.343,
+      "duration_ms": 196184,
+      "slug": "679-feat-remy-boyz-fetty-wap"
+    },
+    {
+      "name": "The Room",
+      "artists": "Flying Lotus;Devin Tracy",
+      "album": "The Room",
+      "popularity": 54,
+      "tempo": 212.3,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.595,
+      "valence": 0.073,
+      "danceability": 0.348,
+      "acousticness": 0.179,
+      "instrumentalness": 0.018,
+      "loudness": -6.1,
+      "speechiness": 0.042,
+      "duration_ms": 137546,
+      "slug": "the-room-flying-lotus"
+    },
+    {
+      "name": "Summer Tiime",
+      "artists": "Vybz Kartel",
+      "album": "The Gaza Don",
+      "popularity": 54,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.798,
+      "valence": 0.353,
+      "danceability": 0.857,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.065,
+      "duration_ms": 167053,
+      "slug": "summer-tiime-vybz-kartel"
+    },
+    {
+      "name": "Likkle Miss",
+      "artists": "Skeng",
+      "album": "Likkle Miss",
+      "popularity": 54,
+      "tempo": 100.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.691,
+      "valence": 0.699,
+      "danceability": 0.89,
+      "acousticness": 0.179,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.122,
+      "duration_ms": 134452,
+      "slug": "likkle-miss-skeng"
+    },
+    {
+      "name": "U Me Luv",
+      "artists": "jahmiel;Dunw3ll",
+      "album": "U Me Luv - Single",
+      "popularity": 53,
+      "tempo": 135.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.602,
+      "valence": 0.634,
+      "danceability": 0.738,
+      "acousticness": 0.677,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.096,
+      "duration_ms": 219705,
+      "slug": "u-me-luv-jahmiel"
+    },
+    {
+      "name": "Best Part Of us",
+      "artists": "AmPm;Michael Kaneko",
+      "album": "Best Part Of Us",
+      "popularity": 53,
+      "tempo": 114.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.679,
+      "valence": 0.598,
+      "danceability": 0.76,
+      "acousticness": 0.142,
+      "instrumentalness": 0.081,
+      "loudness": -8.0,
+      "speechiness": 0.035,
+      "duration_ms": 241040,
+      "slug": "best-part-of-us-ampm"
+    },
+    {
+      "name": "Amazing",
+      "artists": "Vybz Kartel;Dunw3ll;Stefflon Don",
+      "album": "Amazing",
+      "popularity": 53,
+      "tempo": 95.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.747,
+      "valence": 0.451,
+      "danceability": 0.717,
+      "acousticness": 0.112,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.074,
+      "duration_ms": 157500,
+      "slug": "amazing-vybz-kartel"
+    },
+    {
+      "name": "Talibhan",
+      "artists": "Skeng;Stalk Ashley",
+      "album": "Talibhan",
+      "popularity": 53,
+      "tempo": 98.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.554,
+      "valence": 0.327,
+      "danceability": 0.753,
+      "acousticness": 0.348,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.041,
+      "duration_ms": 183673,
+      "slug": "talibhan-skeng"
+    },
+    {
+      "name": "Bad Gyal (feat. Skillibeng, Jucee Froot & Tommy Lee) [Divas]",
+      "artists": "Vybz Kartel;Skillibeng;Jucee Froot;Tommy Lee",
+      "album": "Of Dons & Divas",
+      "popularity": 53,
+      "tempo": 102.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.707,
+      "valence": 0.359,
+      "danceability": 0.539,
+      "acousticness": 0.441,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.141,
+      "duration_ms": 232941,
+      "slug": "bad-gyal-feat-skillibeng-jucee-froot-tommy-lee-divas-vybz-kartel"
+    },
+    {
+      "name": "ROCK IT",
+      "artists": "Tokyo Machine",
+      "album": "ROCK IT",
+      "popularity": 52,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.55,
+      "valence": 0.615,
+      "danceability": 0.868,
+      "acousticness": 0.007,
+      "instrumentalness": 0.839,
+      "loudness": -4.7,
+      "speechiness": 0.171,
+      "duration_ms": 191250,
+      "slug": "rock-it-tokyo-machine"
+    },
+    {
+      "name": "Wake Up",
+      "artists": "Fetty Wap",
+      "album": "Wake Up",
+      "popularity": 52,
+      "tempo": 180.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.673,
+      "valence": 0.527,
+      "danceability": 0.647,
+      "acousticness": 0.172,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.176,
+      "duration_ms": 224000,
+      "slug": "wake-up-fetty-wap"
+    },
+    {
+      "name": "Lonely",
+      "artists": "Koffee",
+      "album": "Gifted",
+      "popularity": 52,
+      "tempo": 81.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.505,
+      "valence": 0.583,
+      "danceability": 0.782,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.098,
+      "duration_ms": 248780,
+      "slug": "lonely-koffee"
+    },
+    {
+      "name": "Using What You Got",
+      "artists": "Flying Lotus",
+      "album": "Yasuke",
+      "popularity": 52,
+      "tempo": 85.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.625,
+      "valence": 0.736,
+      "danceability": 0.661,
+      "acousticness": 0.031,
+      "instrumentalness": 0.894,
+      "loudness": -7.1,
+      "speechiness": 0.113,
+      "duration_ms": 65293,
+      "slug": "using-what-you-got-flying-lotus"
+    },
+    {
+      "name": "Black Balloons Reprise",
+      "artists": "Flying Lotus;Denzel Curry",
+      "album": "Flamagra",
+      "popularity": 52,
+      "tempo": 88.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.134,
+      "danceability": 0.647,
+      "acousticness": 0.095,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.14,
+      "duration_ms": 161971,
+      "slug": "black-balloons-reprise-flying-lotus"
+    },
+    {
+      "name": "Thinkin About",
+      "artists": "ShockOne;Lee Mvtthews",
+      "album": "Thinkin About",
+      "popularity": 52,
+      "tempo": 171.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.337,
+      "danceability": 0.555,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.071,
+      "duration_ms": 159245,
+      "slug": "thinkin-about-shockone"
+    },
+    {
+      "name": "Vibes",
+      "artists": "Skeng",
+      "album": "Vibes",
+      "popularity": 52,
+      "tempo": 105.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.391,
+      "valence": 0.668,
+      "danceability": 0.925,
+      "acousticness": 0.585,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.061,
+      "duration_ms": 148636,
+      "slug": "vibes-skeng"
+    },
+    {
+      "name": "West Indies",
+      "artists": "Koffee",
+      "album": "West Indies",
+      "popularity": 52,
+      "tempo": 90.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.437,
+      "danceability": 0.754,
+      "acousticness": 0.118,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.303,
+      "duration_ms": 237458,
+      "slug": "west-indies-koffee"
+    },
+    {
+      "name": "West Indies",
+      "artists": "Koffee",
+      "album": "Gifted",
+      "popularity": 52,
+      "tempo": 90.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.638,
+      "valence": 0.437,
+      "danceability": 0.754,
+      "acousticness": 0.118,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.303,
+      "duration_ms": 237458,
+      "slug": "west-indies-koffee"
+    },
+    {
+      "name": "Edison",
+      "artists": "WEDNESDAY CAMPANELLA",
+      "album": "Neon",
+      "popularity": 51,
+      "tempo": 130.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.729,
+      "valence": 0.619,
+      "danceability": 0.838,
+      "acousticness": 0.019,
+      "instrumentalness": 0.009,
+      "loudness": -5.7,
+      "speechiness": 0.08,
+      "duration_ms": 193510,
+      "slug": "edison-wednesday-campanella"
+    },
+    {
+      "name": "You're Perfect - Remix",
+      "artists": "Charly Black;Juan Mag\u00e1n;Yonny Atella",
+      "album": "You're Perfect (Remix)",
+      "popularity": 51,
+      "tempo": 105.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.789,
+      "valence": 0.785,
+      "danceability": 0.821,
+      "acousticness": 0.043,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.218,
+      "duration_ms": 201400,
+      "slug": "youre-perfect-remix-charly-black"
+    },
+    {
+      "name": "Dark Room",
+      "artists": "Shane O",
+      "album": "Dark Room",
+      "popularity": 51,
+      "tempo": 82.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.612,
+      "valence": 0.418,
+      "danceability": 0.723,
+      "acousticness": 0.203,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.067,
+      "duration_ms": 193802,
+      "slug": "dark-room-shane-o"
+    },
+    {
+      "name": "Jugg (feat. Monty)",
+      "artists": "Fetty Wap;Monty",
+      "album": "Fetty Wap (Deluxe)",
+      "popularity": 51,
+      "tempo": 148.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.721,
+      "valence": 0.499,
+      "danceability": 0.635,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.049,
+      "duration_ms": 200253,
+      "slug": "jugg-feat-monty-fetty-wap"
+    },
+    {
+      "name": "Lockdown",
+      "artists": "Koffee",
+      "album": "Gifted",
+      "popularity": 51,
+      "tempo": 94.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.62,
+      "danceability": 0.779,
+      "acousticness": 0.149,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.2,
+      "duration_ms": 179737,
+      "slug": "lockdown-koffee"
+    },
+    {
+      "name": "Come Over [Missing You]",
+      "artists": "Busy Signal",
+      "album": "REGGAE Music Again",
+      "popularity": 51,
+      "tempo": 89.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.541,
+      "danceability": 0.648,
+      "acousticness": 0.061,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.082,
+      "duration_ms": 208666,
+      "slug": "come-over-missing-you-busy-signal"
+    },
+    {
+      "name": "D.A.M.",
+      "artists": "Fetty Wap",
+      "album": "Fetty Wap (Deluxe)",
+      "popularity": 51,
+      "tempo": 136.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.676,
+      "valence": 0.372,
+      "danceability": 0.697,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.04,
+      "duration_ms": 225866,
+      "slug": "dam-fetty-wap"
+    },
+    {
+      "name": "Come Into My Room",
+      "artists": "Mavado;Di Genius;Stacious",
+      "album": "Di Genius Presents-Labwork Vol.2",
+      "popularity": 51,
+      "tempo": 115.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.42,
+      "danceability": 0.639,
+      "acousticness": 0.065,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.168,
+      "duration_ms": 212323,
+      "slug": "come-into-my-room-mavado"
+    },
+    {
+      "name": "Stay So",
+      "artists": "Busy Signal",
+      "album": "Parts Of The Puzzle",
+      "popularity": 51,
+      "tempo": 102.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.623,
+      "valence": 0.807,
+      "danceability": 0.859,
+      "acousticness": 0.181,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.061,
+      "duration_ms": 220464,
+      "slug": "stay-so-busy-signal"
+    },
+    {
+      "name": "Brik Pan Brik",
+      "artists": "Skillibeng",
+      "album": "Brik Pan Brik",
+      "popularity": 51,
+      "tempo": 66.6,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.579,
+      "valence": 0.657,
+      "danceability": 0.598,
+      "acousticness": 0.174,
+      "instrumentalness": 0.005,
+      "loudness": -7.4,
+      "speechiness": 0.393,
+      "duration_ms": 160724,
+      "slug": "brik-pan-brik-skillibeng"
+    },
+    {
+      "name": "No Wahala (feat. Akon & Runtown)",
+      "artists": "Demarco;Akon;Runtown",
+      "album": "No Wahala (feat. AKON & RUNTOWN)",
+      "popularity": 50,
+      "tempo": 107.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.625,
+      "valence": 0.621,
+      "danceability": 0.819,
+      "acousticness": 0.384,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.052,
+      "duration_ms": 212383,
+      "slug": "no-wahala-feat-akon-runtown-demarco"
+    },
+    {
+      "name": "Conjugal Visit (feat. Vybz Kartel)",
+      "artists": "Spice;Vybz Kartel",
+      "album": "So Mi Like It",
+      "popularity": 50,
+      "tempo": 110.6,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.86,
+      "valence": 0.627,
+      "danceability": 0.553,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.279,
+      "duration_ms": 202600,
+      "slug": "conjugal-visit-feat-vybz-kartel-spice"
+    },
+    {
+      "name": "Black Gold",
+      "artists": "Flying Lotus;Thundercat",
+      "album": "Yasuke",
+      "popularity": 50,
+      "tempo": 86.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.916,
+      "valence": 0.464,
+      "danceability": 0.412,
+      "acousticness": 0.023,
+      "instrumentalness": 0.826,
+      "loudness": -5.6,
+      "speechiness": 0.298,
+      "duration_ms": 95973,
+      "slug": "black-gold-flying-lotus"
+    },
+    {
+      "name": "Purrfect",
+      "artists": "Funki Porcini",
+      "album": "Love Pussycats & Carwrecks",
+      "popularity": 50,
+      "tempo": 82.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.459,
+      "valence": 0.139,
+      "danceability": 0.657,
+      "acousticness": 0.059,
+      "instrumentalness": 0.773,
+      "loudness": -13.1,
+      "speechiness": 0.04,
+      "duration_ms": 290840,
+      "slug": "purrfect-funki-porcini"
+    },
+    {
+      "name": "Gang Bang",
+      "artists": "Skeng",
+      "album": "Gang Bang",
+      "popularity": 50,
+      "tempo": 96.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.597,
+      "valence": 0.853,
+      "danceability": 0.801,
+      "acousticness": 0.557,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.208,
+      "duration_ms": 122566,
+      "slug": "gang-bang-skeng"
+    },
+    {
+      "name": "BOUNCE",
+      "artists": "DING DONG;Dunw3ll",
+      "album": "BOUNCE",
+      "popularity": 50,
+      "tempo": 199.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.476,
+      "danceability": 0.62,
+      "acousticness": 0.25,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.309,
+      "duration_ms": 153652,
+      "slug": "bounce-ding-dong"
+    },
+    {
+      "name": "Perfect Spot",
+      "artists": "Busy Signal",
+      "album": "Perfect Spot",
+      "popularity": 49,
+      "tempo": 189.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.706,
+      "valence": 0.876,
+      "danceability": 0.737,
+      "acousticness": 0.204,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.122,
+      "duration_ms": 183473,
+      "slug": "perfect-spot-busy-signal"
+    },
+    {
+      "name": "You (Prod. SUGA of BTS)",
+      "artists": "\u00d8MI",
+      "album": "ANSWER... SHINE",
+      "popularity": 49,
+      "tempo": 135.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.517,
+      "valence": 0.482,
+      "danceability": 0.677,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.052,
+      "duration_ms": 187364,
+      "slug": "you-prod-suga-of-bts-\u00f8mi"
+    },
+    {
+      "name": "Move to the Music",
+      "artists": "Busy Signal;Oryane",
+      "album": "Move to the Music",
+      "popularity": 49,
+      "tempo": 115.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.616,
+      "danceability": 0.771,
+      "acousticness": 0.062,
+      "instrumentalness": 0.002,
+      "loudness": -5.3,
+      "speechiness": 0.041,
+      "duration_ms": 158608,
+      "slug": "move-to-the-music-busy-signal"
+    },
+    {
+      "name": "FF4",
+      "artists": "Flying Lotus",
+      "album": "Flamagra",
+      "popularity": 49,
+      "tempo": 81.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.184,
+      "valence": 0.475,
+      "danceability": 0.607,
+      "acousticness": 0.442,
+      "instrumentalness": 0.937,
+      "loudness": -7.7,
+      "speechiness": 0.102,
+      "duration_ms": 71520,
+      "slug": "ff4-flying-lotus"
+    },
+    {
+      "name": "THE BOYS (Theme Song)",
+      "artists": "Tokyo Machine;The Boys",
+      "album": "THE BOYS (Theme Song)",
+      "popularity": 49,
+      "tempo": 145.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.874,
+      "valence": 0.88,
+      "danceability": 0.607,
+      "acousticness": 0.011,
+      "instrumentalness": 0.872,
+      "loudness": -4.5,
+      "speechiness": 0.052,
+      "duration_ms": 175862,
+      "slug": "the-boys-theme-song-tokyo-machine"
+    },
+    {
+      "name": "I Love My Life",
+      "artists": "Demarco",
+      "album": "I Love My Life - Single",
+      "popularity": 49,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.693,
+      "valence": 0.554,
+      "danceability": 0.818,
+      "acousticness": 0.158,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.133,
+      "duration_ms": 210412,
+      "slug": "i-love-my-life-demarco"
+    },
+    {
+      "name": "bangbangbang",
+      "artists": "Deal Casino",
+      "album": "bangbangbang",
+      "popularity": 49,
+      "tempo": 83.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.646,
+      "valence": 0.186,
+      "danceability": 0.3,
+      "acousticness": 0.004,
+      "instrumentalness": 0.345,
+      "loudness": -12.7,
+      "speechiness": 0.042,
+      "duration_ms": 392970,
+      "slug": "bangbangbang-deal-casino"
+    }
+  ]
+}

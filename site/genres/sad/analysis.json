@@ -1,0 +1,2802 @@
+{
+  "genre": "Sad",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 62.829,
+    "max": 181.032,
+    "mean": 116.134,
+    "median": 114.977,
+    "q1": 101.966,
+    "q3": 133.234,
+    "histogram": {
+      "60-69": 3,
+      "70-79": 6,
+      "80-89": 6,
+      "90-99": 6,
+      "100-109": 18,
+      "110-119": 23,
+      "120-129": 13,
+      "130-139": 8,
+      "140-149": 8,
+      "150-159": 3,
+      "160-169": 4,
+      "180-189": 2
+    }
+  },
+  "key_distribution": {
+    "G": 17,
+    "C#/Db": 12,
+    "G#/Ab": 11,
+    "F#/Gb": 10,
+    "A#/Bb": 10,
+    "A": 9,
+    "C": 8,
+    "F": 6,
+    "B": 6,
+    "D": 4,
+    "D#/Eb": 4,
+    "E": 3
+  },
+  "mode_distribution": {
+    "Minor": 45,
+    "Major": 55
+  },
+  "key_mode_distribution": {
+    "G Major": 13,
+    "C#/Db Major": 10,
+    "G#/Ab Minor": 6,
+    "F#/Gb Minor": 6,
+    "A#/Bb Minor": 6,
+    "B Minor": 6,
+    "A Major": 5,
+    "G#/Ab Major": 5,
+    "C Minor": 4,
+    "A Minor": 4,
+    "C Major": 4,
+    "A#/Bb Major": 4,
+    "F#/Gb Major": 4,
+    "G Minor": 4,
+    "F Major": 3,
+    "D Major": 3,
+    "F Minor": 3,
+    "C#/Db Minor": 2,
+    "E Major": 2,
+    "D#/Eb Minor": 2,
+    "D#/Eb Major": 2,
+    "D Minor": 1,
+    "E Minor": 1
+  },
+  "energy": {
+    "min": 0.062,
+    "max": 0.946,
+    "mean": 0.423,
+    "median": 0.393,
+    "q1": 0.293,
+    "q3": 0.598
+  },
+  "valence": {
+    "min": 0.042,
+    "max": 0.964,
+    "mean": 0.425,
+    "median": 0.403,
+    "q1": 0.272,
+    "q3": 0.59
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.431,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.499,
+      "valence": 0.298
+    },
+    {
+      "energy": 0.235,
+      "valence": 0.089
+    },
+    {
+      "energy": 0.398,
+      "valence": 0.482
+    },
+    {
+      "energy": 0.128,
+      "valence": 0.124
+    },
+    {
+      "energy": 0.381,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.355,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.413,
+      "valence": 0.764
+    },
+    {
+      "energy": 0.467,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.509,
+      "valence": 0.61
+    },
+    {
+      "energy": 0.343,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.823
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.598
+    },
+    {
+      "energy": 0.583,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.35,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.143,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.609,
+      "valence": 0.659
+    },
+    {
+      "energy": 0.062,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.339,
+      "valence": 0.292
+    },
+    {
+      "energy": 0.346,
+      "valence": 0.462
+    },
+    {
+      "energy": 0.184,
+      "valence": 0.128
+    },
+    {
+      "energy": 0.401,
+      "valence": 0.243
+    },
+    {
+      "energy": 0.387,
+      "valence": 0.234
+    },
+    {
+      "energy": 0.322,
+      "valence": 0.367
+    },
+    {
+      "energy": 0.275,
+      "valence": 0.159
+    },
+    {
+      "energy": 0.45,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.609,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.275,
+      "valence": 0.363
+    },
+    {
+      "energy": 0.255,
+      "valence": 0.274
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.412
+    },
+    {
+      "energy": 0.37,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.361
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.737
+    },
+    {
+      "energy": 0.36,
+      "valence": 0.639
+    },
+    {
+      "energy": 0.199,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.084,
+      "valence": 0.452
+    },
+    {
+      "energy": 0.312,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.373,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.358,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.321,
+      "valence": 0.45
+    },
+    {
+      "energy": 0.179,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.284,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.099,
+      "valence": 0.3
+    },
+    {
+      "energy": 0.255,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.073
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.45
+    },
+    {
+      "energy": 0.282,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.461,
+      "valence": 0.512
+    },
+    {
+      "energy": 0.402,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.456,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.86
+    },
+    {
+      "energy": 0.09,
+      "valence": 0.785
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.698
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.712
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.354,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.099,
+      "valence": 0.872
+    },
+    {
+      "energy": 0.131,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.451
+    },
+    {
+      "energy": 0.32,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.617,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.482,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.385,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.59
+    },
+    {
+      "energy": 0.168,
+      "valence": 0.074
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.446,
+      "valence": 0.363
+    },
+    {
+      "energy": 0.304,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.166,
+      "valence": 0.072
+    },
+    {
+      "energy": 0.062,
+      "valence": 0.166
+    },
+    {
+      "energy": 0.317,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.617,
+      "valence": 0.432
+    },
+    {
+      "energy": 0.299,
+      "valence": 0.533
+    },
+    {
+      "energy": 0.331,
+      "valence": 0.23
+    },
+    {
+      "energy": 0.368,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.545,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.198
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.483,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.408,
+      "valence": 0.502
+    },
+    {
+      "energy": 0.134,
+      "valence": 0.26
+    },
+    {
+      "energy": 0.297,
+      "valence": 0.123
+    },
+    {
+      "energy": 0.23,
+      "valence": 0.042
+    },
+    {
+      "energy": 0.245,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.615,
+      "valence": 0.588
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.387
+    },
+    {
+      "energy": 0.215,
+      "valence": 0.335
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.402,
+      "valence": 0.684
+    }
+  ],
+  "acousticness": {
+    "min": 0.005,
+    "max": 0.982,
+    "mean": 0.517,
+    "median": 0.64,
+    "q1": 0.217,
+    "q3": 0.768
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.904,
+    "mean": 0.116,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.038
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.731,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.72,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.872,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.894,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.757,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.48,
+      "instrumentalness": 0.87
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.151
+    },
+    {
+      "acousticness": 0.671,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.872,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.525,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.593,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.058,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.151,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.059,
+      "instrumentalness": 0.243
+    },
+    {
+      "acousticness": 0.956,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.663,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.945,
+      "instrumentalness": 0.819
+    },
+    {
+      "acousticness": 0.678,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.74,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.835,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.805,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.347,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.535
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.061,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.227,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.816,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.742,
+      "instrumentalness": 0.165
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.294
+    },
+    {
+      "acousticness": 0.192,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.217,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.238,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.768,
+      "instrumentalness": 0.373
+    },
+    {
+      "acousticness": 0.418,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.106,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.673,
+      "instrumentalness": 0.018
+    },
+    {
+      "acousticness": 0.51,
+      "instrumentalness": 0.119
+    },
+    {
+      "acousticness": 0.659,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.785,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.913,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.443,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.761,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.494,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.68,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.611,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.631,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.853,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.275,
+      "instrumentalness": 0.894
+    },
+    {
+      "acousticness": 0.42,
+      "instrumentalness": 0.038
+    },
+    {
+      "acousticness": 0.307,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.828,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.245,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.469,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.814,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.911,
+      "instrumentalness": 0.112
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.127,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.885,
+      "instrumentalness": 0.179
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.702,
+      "instrumentalness": 0.872
+    },
+    {
+      "acousticness": 0.975,
+      "instrumentalness": 0.904
+    },
+    {
+      "acousticness": 0.323,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.927,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.664,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.851,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.706,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.422,
+      "instrumentalness": 0.39
+    },
+    {
+      "acousticness": 0.677,
+      "instrumentalness": 0.069
+    },
+    {
+      "acousticness": 0.295,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.747,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.681,
+      "instrumentalness": 0.484
+    },
+    {
+      "acousticness": 0.768,
+      "instrumentalness": 0.895
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.131,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.169,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.982,
+      "instrumentalness": 0.652
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.374
+    },
+    {
+      "acousticness": 0.853,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.742,
+      "instrumentalness": 0.326
+    },
+    {
+      "acousticness": 0.95,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.753,
+      "instrumentalness": 0.891
+    },
+    {
+      "acousticness": 0.468,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.367,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.653,
+      "instrumentalness": 0.829
+    },
+    {
+      "acousticness": 0.206,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.733,
+      "instrumentalness": 0.043
+    },
+    {
+      "acousticness": 0.415,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 61175,
+    "max": 224813,
+    "mean": 140796.58,
+    "median": 135847.5,
+    "q1": 117692,
+    "q3": 168308
+  },
+  "danceability": {
+    "min": 0.372,
+    "max": 0.98,
+    "mean": 0.719,
+    "median": 0.732,
+    "q1": 0.634,
+    "q3": 0.811
+  },
+  "loudness": {
+    "min": -26.551,
+    "max": -2.052,
+    "mean": -11.348,
+    "median": -10.461,
+    "q1": -14.908,
+    "q3": -7.652
+  },
+  "speechiness": {
+    "min": 0.027,
+    "max": 0.588,
+    "mean": 0.162,
+    "median": 0.1,
+    "q1": 0.056,
+    "q3": 0.25
+  },
+  "top_artists": [
+    {
+      "name": "Shiloh Dynasty",
+      "count": 12
+    },
+    {
+      "name": "Kina",
+      "count": 6
+    },
+    {
+      "name": "iamjakehill",
+      "count": 6
+    },
+    {
+      "name": "Sn\u00f8w",
+      "count": 4
+    },
+    {
+      "name": "itssvd",
+      "count": 4
+    },
+    {
+      "name": "SadBoyProlific",
+      "count": 4
+    },
+    {
+      "name": "Powfu",
+      "count": 3
+    },
+    {
+      "name": "347aidan",
+      "count": 3
+    },
+    {
+      "name": "Teqkoi",
+      "count": 3
+    },
+    {
+      "name": "Papithbk",
+      "count": 3
+    },
+    {
+      "name": "80purppp",
+      "count": 2
+    },
+    {
+      "name": "Josh A",
+      "count": 2
+    },
+    {
+      "name": "Chri$tian Gate$",
+      "count": 2
+    },
+    {
+      "name": "Lund",
+      "count": 2
+    },
+    {
+      "name": "Aiko",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "death bed (coffee for your head)",
+      "artists": "Powfu;beabadoobee",
+      "album": "death bed (coffee for your head)",
+      "popularity": 83,
+      "tempo": 144.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.431,
+      "valence": 0.348,
+      "danceability": 0.726,
+      "acousticness": 0.731,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.135,
+      "duration_ms": 173333,
+      "slug": "death-bed-coffee-for-your-head-powfu"
+    },
+    {
+      "name": "Living Life, In The Night",
+      "artists": "Cheriimoya;Sierra Kidd",
+      "album": "Living Life, In The Night",
+      "popularity": 83,
+      "tempo": 143.2,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.499,
+      "valence": 0.298,
+      "danceability": 0.624,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.05,
+      "duration_ms": 122517,
+      "slug": "living-life-in-the-night-cheriimoya"
+    },
+    {
+      "name": "Get You The Moon (feat. Sn\u00f8w)",
+      "artists": "Kina;Sn\u00f8w",
+      "album": "Get You The Moon (feat. Sn\u00f8w)",
+      "popularity": 80,
+      "tempo": 118.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.235,
+      "valence": 0.089,
+      "danceability": 0.498,
+      "acousticness": 0.72,
+      "instrumentalness": 0.0,
+      "loudness": -16.5,
+      "speechiness": 0.188,
+      "duration_ms": 179080,
+      "slug": "get-you-the-moon-feat-sn\u00f8w-kina"
+    },
+    {
+      "name": "Hex",
+      "artists": "80purppp",
+      "album": "Hex",
+      "popularity": 79,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.398,
+      "valence": 0.482,
+      "danceability": 0.845,
+      "acousticness": 0.872,
+      "instrumentalness": 0.007,
+      "loudness": -15.8,
+      "speechiness": 0.268,
+      "duration_ms": 122221,
+      "slug": "hex-80purppp"
+    },
+    {
+      "name": "Can We Kiss Forever?",
+      "artists": "Kina;Adriana Proenza",
+      "album": "Can We Kiss Forever?",
+      "popularity": 77,
+      "tempo": 110.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.128,
+      "valence": 0.124,
+      "danceability": 0.522,
+      "acousticness": 0.894,
+      "instrumentalness": 0.026,
+      "loudness": -18.7,
+      "speechiness": 0.036,
+      "duration_ms": 187931,
+      "slug": "can-we-kiss-forever-kina"
+    },
+    {
+      "name": "MEMORIES!",
+      "artists": "347aidan",
+      "album": "TROUBLED MEMORIES!",
+      "popularity": 76,
+      "tempo": 155.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.381,
+      "valence": 0.31,
+      "danceability": 0.835,
+      "acousticness": 0.757,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.342,
+      "duration_ms": 137806,
+      "slug": "memories-347aidan"
+    },
+    {
+      "name": "Losing Interest",
+      "artists": "itssvd;Shiloh Dynasty",
+      "album": "Missing",
+      "popularity": 76,
+      "tempo": 111.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.355,
+      "valence": 0.506,
+      "danceability": 0.753,
+      "acousticness": 0.48,
+      "instrumentalness": 0.87,
+      "loudness": -13.3,
+      "speechiness": 0.09,
+      "duration_ms": 120546,
+      "slug": "losing-interest-itssvd"
+    },
+    {
+      "name": "By the Sword",
+      "artists": "iamjakehill",
+      "album": "By the Sword",
+      "popularity": 75,
+      "tempo": 160.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.781,
+      "danceability": 0.685,
+      "acousticness": 0.02,
+      "instrumentalness": 0.151,
+      "loudness": -7.8,
+      "speechiness": 0.051,
+      "duration_ms": 125812,
+      "slug": "by-the-sword-iamjakehill"
+    },
+    {
+      "name": "Dancing in My Room",
+      "artists": "347aidan",
+      "album": "Dancing in My Room",
+      "popularity": 74,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.413,
+      "valence": 0.764,
+      "danceability": 0.98,
+      "acousticness": 0.671,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.101,
+      "duration_ms": 180138,
+      "slug": "dancing-in-my-room-347aidan"
+    },
+    {
+      "name": "Dead and Cold",
+      "artists": "SadBoyProlific",
+      "album": "Dead and Cold",
+      "popularity": 74,
+      "tempo": 88.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.467,
+      "valence": 0.716,
+      "danceability": 0.622,
+      "acousticness": 0.872,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.568,
+      "duration_ms": 89624,
+      "slug": "dead-and-cold-sadboyprolific"
+    },
+    {
+      "name": "Pain",
+      "artists": "Josh A",
+      "album": "Fearless",
+      "popularity": 74,
+      "tempo": 75.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.509,
+      "valence": 0.61,
+      "danceability": 0.789,
+      "acousticness": 0.525,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.277,
+      "duration_ms": 188041,
+      "slug": "pain-josh-a"
+    },
+    {
+      "name": "ALL GIRLS ARE THE SAME",
+      "artists": "R\u00d8NIN",
+      "album": "ALL GIRLS ARE THE SAME",
+      "popularity": 73,
+      "tempo": 118.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.343,
+      "valence": 0.468,
+      "danceability": 0.785,
+      "acousticness": 0.593,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.086,
+      "duration_ms": 121949,
+      "slug": "all-girls-are-the-same-r\u00f8nin"
+    },
+    {
+      "name": "NUMB",
+      "artists": "Chri$tian Gate$",
+      "album": "NUMB",
+      "popularity": 73,
+      "tempo": 103.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.598,
+      "valence": 0.823,
+      "danceability": 0.682,
+      "acousticness": 0.058,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.264,
+      "duration_ms": 112500,
+      "slug": "numb-chritian-gate"
+    },
+    {
+      "name": "MARCELINE",
+      "artists": "Lil God Dan",
+      "album": "MARCELINE",
+      "popularity": 73,
+      "tempo": 123.9,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.806,
+      "valence": 0.598,
+      "danceability": 0.746,
+      "acousticness": 0.151,
+      "instrumentalness": 0.0,
+      "loudness": -2.5,
+      "speechiness": 0.159,
+      "duration_ms": 155054,
+      "slug": "marceline-lil-god-dan"
+    },
+    {
+      "name": "Broken",
+      "artists": "Lund",
+      "album": "Broken",
+      "popularity": 72,
+      "tempo": 134.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.583,
+      "valence": 0.146,
+      "danceability": 0.83,
+      "acousticness": 0.056,
+      "instrumentalness": 0.001,
+      "loudness": -2.1,
+      "speechiness": 0.041,
+      "duration_ms": 200672,
+      "slug": "broken-lund"
+    },
+    {
+      "name": "Feel Like God",
+      "artists": "gazzzy;framed",
+      "album": "Feel Like God",
+      "popularity": 71,
+      "tempo": 122.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.35,
+      "valence": 0.118,
+      "danceability": 0.819,
+      "acousticness": 0.059,
+      "instrumentalness": 0.243,
+      "loudness": -10.4,
+      "speechiness": 0.062,
+      "duration_ms": 155951,
+      "slug": "feel-like-god-gazzzy"
+    },
+    {
+      "name": "You Broke My Heart Again",
+      "artists": "Teqkoi;Aiko",
+      "album": "You Broke My Heart Again",
+      "popularity": 71,
+      "tempo": 74.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.143,
+      "valence": 0.224,
+      "danceability": 0.55,
+      "acousticness": 0.956,
+      "instrumentalness": 0.0,
+      "loudness": -15.7,
+      "speechiness": 0.241,
+      "duration_ms": 103400,
+      "slug": "you-broke-my-heart-again-teqkoi"
+    },
+    {
+      "name": "Out Of My Mind",
+      "artists": "Gentrammel",
+      "album": "Out Of My Mind",
+      "popularity": 71,
+      "tempo": 78.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.609,
+      "valence": 0.659,
+      "danceability": 0.61,
+      "acousticness": 0.663,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.037,
+      "duration_ms": 173846,
+      "slug": "out-of-my-mind-gentrammel"
+    },
+    {
+      "name": "I'll Keep You Safe",
+      "artists": "sagun;Shiloh Dynasty",
+      "album": "I'll Keep You Safe",
+      "popularity": 71,
+      "tempo": 115.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.062,
+      "valence": 0.462,
+      "danceability": 0.752,
+      "acousticness": 0.945,
+      "instrumentalness": 0.819,
+      "loudness": -24.7,
+      "speechiness": 0.056,
+      "duration_ms": 185875,
+      "slug": "ill-keep-you-safe-sagun"
+    },
+    {
+      "name": "Forever",
+      "artists": "ilyTOMMY",
+      "album": "Forever",
+      "popularity": 71,
+      "tempo": 106.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.339,
+      "valence": 0.292,
+      "danceability": 0.613,
+      "acousticness": 0.678,
+      "instrumentalness": 0.0,
+      "loudness": -14.9,
+      "speechiness": 0.135,
+      "duration_ms": 108695,
+      "slug": "forever-ilytommy"
+    },
+    {
+      "name": "Cherry Blossoms",
+      "artists": "Shady Moon",
+      "album": "Cherry Blossoms",
+      "popularity": 71,
+      "tempo": 117.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.346,
+      "valence": 0.462,
+      "danceability": 0.792,
+      "acousticness": 0.74,
+      "instrumentalness": 0.001,
+      "loudness": -11.4,
+      "speechiness": 0.25,
+      "duration_ms": 138367,
+      "slug": "cherry-blossoms-shady-moon"
+    },
+    {
+      "name": "Moonlight Shawty",
+      "artists": "Fatboibari;Shiloh",
+      "album": "Moonlight Shawty",
+      "popularity": 71,
+      "tempo": 106.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.184,
+      "valence": 0.128,
+      "danceability": 0.671,
+      "acousticness": 0.835,
+      "instrumentalness": 0.001,
+      "loudness": -15.5,
+      "speechiness": 0.123,
+      "duration_ms": 167994,
+      "slug": "moonlight-shawty-fatboibari"
+    },
+    {
+      "name": "I\u2019ll Keep You Safe",
+      "artists": "Vluestar",
+      "album": "I\u2019ll Keep You Safe",
+      "popularity": 70,
+      "tempo": 115.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.401,
+      "valence": 0.243,
+      "danceability": 0.504,
+      "acousticness": 0.805,
+      "instrumentalness": 0.006,
+      "loudness": -10.0,
+      "speechiness": 0.096,
+      "duration_ms": 140338,
+      "slug": "ill-keep-you-safe-vluestar"
+    },
+    {
+      "name": "Why Am I Waiting",
+      "artists": "Papithbk",
+      "album": "Thbk.",
+      "popularity": 70,
+      "tempo": 126.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.387,
+      "valence": 0.234,
+      "danceability": 0.747,
+      "acousticness": 0.347,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.471,
+      "duration_ms": 95680,
+      "slug": "why-am-i-waiting-papithbk"
+    },
+    {
+      "name": "I'm Only a Fool for You",
+      "artists": "Dybbukk",
+      "album": "I'm Only a Fool for You",
+      "popularity": 70,
+      "tempo": 70.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.322,
+      "valence": 0.367,
+      "danceability": 0.632,
+      "acousticness": 0.031,
+      "instrumentalness": 0.535,
+      "loudness": -7.7,
+      "speechiness": 0.046,
+      "duration_ms": 61175,
+      "slug": "im-only-a-fool-for-you-dybbukk"
+    },
+    {
+      "name": "Tell Me Why I'm Waiting",
+      "artists": "Timmies;Shiloh Dynasty",
+      "album": "Passion & Confusion",
+      "popularity": 70,
+      "tempo": 124.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.275,
+      "valence": 0.159,
+      "danceability": 0.671,
+      "acousticness": 0.796,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.056,
+      "duration_ms": 123891,
+      "slug": "tell-me-why-im-waiting-timmies"
+    },
+    {
+      "name": "SPLAT",
+      "artists": "Connor Price",
+      "album": "SPLAT",
+      "popularity": 70,
+      "tempo": 108.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.45,
+      "valence": 0.515,
+      "danceability": 0.908,
+      "acousticness": 0.061,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.314,
+      "duration_ms": 125685,
+      "slug": "splat-connor-price"
+    },
+    {
+      "name": "7 Years (Remix)",
+      "artists": "Sik World",
+      "album": "7 Years (Remix)",
+      "popularity": 70,
+      "tempo": 120.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.609,
+      "valence": 0.439,
+      "danceability": 0.811,
+      "acousticness": 0.227,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.1,
+      "duration_ms": 134197,
+      "slug": "7-years-remix-sik-world"
+    },
+    {
+      "name": "Dance with Me",
+      "artists": "CORBAL;Shiloh Dynasty;itssvd",
+      "album": "Love Is the Same as Sadness",
+      "popularity": 70,
+      "tempo": 114.8,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.275,
+      "valence": 0.363,
+      "danceability": 0.593,
+      "acousticness": 0.816,
+      "instrumentalness": 0.011,
+      "loudness": -15.2,
+      "speechiness": 0.064,
+      "duration_ms": 87411,
+      "slug": "dance-with-me-corbal"
+    },
+    {
+      "name": "Baby You're Worth It",
+      "artists": "Kina",
+      "album": "Baby You're Worth It",
+      "popularity": 69,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.255,
+      "valence": 0.274,
+      "danceability": 0.681,
+      "acousticness": 0.742,
+      "instrumentalness": 0.165,
+      "loudness": -16.3,
+      "speechiness": 0.048,
+      "duration_ms": 130947,
+      "slug": "baby-youre-worth-it-kina"
+    },
+    {
+      "name": "It's Not So Bad",
+      "artists": "Dybbukk;Sabrina Gomes;Dybbukk Covers",
+      "album": "It's Not So Bad",
+      "popularity": 69,
+      "tempo": 137.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.399,
+      "danceability": 0.758,
+      "acousticness": 0.005,
+      "instrumentalness": 0.294,
+      "loudness": -9.1,
+      "speechiness": 0.109,
+      "duration_ms": 140617,
+      "slug": "its-not-so-bad-dybbukk"
+    },
+    {
+      "name": "Die a King",
+      "artists": "iamjakehill",
+      "album": "Spectrum",
+      "popularity": 69,
+      "tempo": 125.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.946,
+      "valence": 0.324,
+      "danceability": 0.632,
+      "acousticness": 0.192,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.277,
+      "duration_ms": 169061,
+      "slug": "die-a-king-iamjakehill"
+    },
+    {
+      "name": "Suicidal Thoughts",
+      "artists": "Josh A;iamjakehill",
+      "album": "Better off Dead",
+      "popularity": 69,
+      "tempo": 140.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.656,
+      "valence": 0.15,
+      "danceability": 0.372,
+      "acousticness": 0.217,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.078,
+      "duration_ms": 181727,
+      "slug": "suicidal-thoughts-josh-a"
+    },
+    {
+      "name": "don't sleep, repeat (feat. Machine Gun Kelly)",
+      "artists": "44phantom;Machine Gun Kelly",
+      "album": "don't sleep, repeat (feat. Machine Gun Kelly)",
+      "popularity": 69,
+      "tempo": 144.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.716,
+      "valence": 0.412,
+      "danceability": 0.667,
+      "acousticness": 0.238,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.056,
+      "duration_ms": 149160,
+      "slug": "dont-sleep-repeat-feat-machine-gun-kelly-44phantom"
+    },
+    {
+      "name": "I'll Bite Your Soul",
+      "artists": "SHRK;Shiloh Dynasty",
+      "album": "Lost in Love",
+      "popularity": 69,
+      "tempo": 102.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.37,
+      "valence": 0.18,
+      "danceability": 0.786,
+      "acousticness": 0.768,
+      "instrumentalness": 0.373,
+      "loudness": -16.8,
+      "speechiness": 0.07,
+      "duration_ms": 123186,
+      "slug": "ill-bite-your-soul-shrk"
+    },
+    {
+      "name": "fools (can't help falling in love) (feat. Sody)",
+      "artists": "Foster;Sody;Sarcastic Sounds",
+      "album": "fools (can't help falling in love) (feat. Sody)",
+      "popularity": 68,
+      "tempo": 82.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.361,
+      "danceability": 0.706,
+      "acousticness": 0.418,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.303,
+      "duration_ms": 165029,
+      "slug": "fools-cant-help-falling-in-love-feat-sody-foster"
+    },
+    {
+      "name": "Trap Anthem",
+      "artists": "MC Virgins;Yun Head",
+      "album": "Trap Anthem",
+      "popularity": 68,
+      "tempo": 160.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.82,
+      "valence": 0.737,
+      "danceability": 0.818,
+      "acousticness": 0.106,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.175,
+      "duration_ms": 133017,
+      "slug": "trap-anthem-mc-virgins"
+    },
+    {
+      "name": "Losing Interest",
+      "artists": "Stract;Shiloh Dynasty",
+      "album": "Losing Interest",
+      "popularity": 68,
+      "tempo": 114.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.36,
+      "valence": 0.639,
+      "danceability": 0.96,
+      "acousticness": 0.673,
+      "instrumentalness": 0.018,
+      "loudness": -16.2,
+      "speechiness": 0.155,
+      "duration_ms": 136695,
+      "slug": "losing-interest-stract"
+    },
+    {
+      "name": "Loosing Interest",
+      "artists": "Timmies;Shiloh Dynasty",
+      "album": "Passion & Confusion",
+      "popularity": 68,
+      "tempo": 114.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.199,
+      "valence": 0.763,
+      "danceability": 0.926,
+      "acousticness": 0.51,
+      "instrumentalness": 0.119,
+      "loudness": -13.6,
+      "speechiness": 0.092,
+      "duration_ms": 117916,
+      "slug": "loosing-interest-timmies"
+    },
+    {
+      "name": "Hate Me!",
+      "artists": "MASN",
+      "album": "How To Kill A Rockstar",
+      "popularity": 68,
+      "tempo": 142.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.628,
+      "valence": 0.356,
+      "danceability": 0.683,
+      "acousticness": 0.659,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.123,
+      "duration_ms": 154756,
+      "slug": "hate-me-masn"
+    },
+    {
+      "name": "Love Is a Drug",
+      "artists": "Papithbk",
+      "album": "Thbk.",
+      "popularity": 68,
+      "tempo": 110.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.293,
+      "valence": 0.42,
+      "danceability": 0.833,
+      "acousticness": 0.785,
+      "instrumentalness": 0.0,
+      "loudness": -17.2,
+      "speechiness": 0.416,
+      "duration_ms": 100120,
+      "slug": "love-is-a-drug-papithbk"
+    },
+    {
+      "name": "Can't Love Myself",
+      "artists": "Monty Datta;Mishaal",
+      "album": "Can't Love Myself",
+      "popularity": 68,
+      "tempo": 181.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.084,
+      "valence": 0.452,
+      "danceability": 0.541,
+      "acousticness": 0.913,
+      "instrumentalness": 0.002,
+      "loudness": -12.7,
+      "speechiness": 0.313,
+      "duration_ms": 122723,
+      "slug": "cant-love-myself-monty-datta"
+    },
+    {
+      "name": "Psycho!",
+      "artists": "MASN",
+      "album": "How To Kill A Rockstar",
+      "popularity": 68,
+      "tempo": 115.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.312,
+      "valence": 0.377,
+      "danceability": 0.876,
+      "acousticness": 0.443,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.052,
+      "duration_ms": 197217,
+      "slug": "psycho-masn"
+    },
+    {
+      "name": "You Said",
+      "artists": "Connor Price",
+      "album": "You Said",
+      "popularity": 68,
+      "tempo": 80.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.224,
+      "danceability": 0.726,
+      "acousticness": 0.141,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.207,
+      "duration_ms": 135000,
+      "slug": "you-said-connor-price"
+    },
+    {
+      "name": "Walk Away",
+      "artists": "SadBoyProlific;Aiko;Teqkoi",
+      "album": "Natsukashii",
+      "popularity": 68,
+      "tempo": 100.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.373,
+      "valence": 0.282,
+      "danceability": 0.641,
+      "acousticness": 0.761,
+      "instrumentalness": 0.0,
+      "loudness": -14.1,
+      "speechiness": 0.44,
+      "duration_ms": 120189,
+      "slug": "walk-away-sadboyprolific"
+    },
+    {
+      "name": "Alone",
+      "artists": "SadBoyProlific;Ivri",
+      "album": "Alone",
+      "popularity": 68,
+      "tempo": 119.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.358,
+      "valence": 0.437,
+      "danceability": 0.874,
+      "acousticness": 0.494,
+      "instrumentalness": 0.002,
+      "loudness": -13.6,
+      "speechiness": 0.459,
+      "duration_ms": 160061,
+      "slug": "alone-sadboyprolific"
+    },
+    {
+      "name": "Losing Interest",
+      "artists": "Papithbk",
+      "album": "Thbk.",
+      "popularity": 68,
+      "tempo": 134.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.321,
+      "valence": 0.45,
+      "danceability": 0.815,
+      "acousticness": 0.68,
+      "instrumentalness": 0.0,
+      "loudness": -15.7,
+      "speechiness": 0.42,
+      "duration_ms": 93360,
+      "slug": "losing-interest-papithbk"
+    },
+    {
+      "name": "i don't feel part of the world anymore",
+      "artists": "itssvd;Shiloh Dynasty",
+      "album": "tape for when i'm sad",
+      "popularity": 68,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.179,
+      "valence": 0.272,
+      "danceability": 0.546,
+      "acousticness": 0.611,
+      "instrumentalness": 0.002,
+      "loudness": -19.6,
+      "speechiness": 0.23,
+      "duration_ms": 84176,
+      "slug": "i-dont-feel-part-of-the-world-anymore-itssvd"
+    },
+    {
+      "name": "Never Be Alright",
+      "artists": "Seon",
+      "album": "Never Be Alright",
+      "popularity": 68,
+      "tempo": 87.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.284,
+      "valence": 0.286,
+      "danceability": 0.835,
+      "acousticness": 0.631,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.078,
+      "duration_ms": 168308,
+      "slug": "never-be-alright-seon"
+    },
+    {
+      "name": "i looked into your eyes",
+      "artists": "Sky McCreery",
+      "album": "i looked into your eyes",
+      "popularity": 68,
+      "tempo": 133.7,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.099,
+      "valence": 0.3,
+      "danceability": 0.475,
+      "acousticness": 0.853,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.047,
+      "duration_ms": 148556,
+      "slug": "i-looked-into-your-eyes-sky-mccreery"
+    },
+    {
+      "name": "School Rooftop - Slowed Down Version",
+      "artists": "Hisohkah;WMD",
+      "album": "School Rooftop (Slowed Down Version)",
+      "popularity": 68,
+      "tempo": 142.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.255,
+      "valence": 0.231,
+      "danceability": 0.74,
+      "acousticness": 0.275,
+      "instrumentalness": 0.894,
+      "loudness": -7.3,
+      "speechiness": 0.053,
+      "duration_ms": 193732,
+      "slug": "school-rooftop-slowed-down-version-hisohkah"
+    },
+    {
+      "name": "Princess Bubblegum",
+      "artists": "ilyTOMMY",
+      "album": "Princess Bubblegum",
+      "popularity": 68,
+      "tempo": 140.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.073,
+      "danceability": 0.589,
+      "acousticness": 0.42,
+      "instrumentalness": 0.038,
+      "loudness": -11.6,
+      "speechiness": 0.074,
+      "duration_ms": 95708,
+      "slug": "princess-bubblegum-ilytommy"
+    },
+    {
+      "name": "you never meant it",
+      "artists": "Skinny Atlas;Sn\u00f8w;c\u00f8zyb\u00f8y",
+      "album": "you never meant it",
+      "popularity": 67,
+      "tempo": 104.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.45,
+      "danceability": 0.792,
+      "acousticness": 0.307,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.037,
+      "duration_ms": 117692,
+      "slug": "you-never-meant-it-skinny-atlas"
+    },
+    {
+      "name": "4:44 Am",
+      "artists": "Kochetkovv",
+      "album": "4:44 Am",
+      "popularity": 67,
+      "tempo": 129.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.282,
+      "valence": 0.778,
+      "danceability": 0.809,
+      "acousticness": 0.975,
+      "instrumentalness": 0.002,
+      "loudness": -10.0,
+      "speechiness": 0.433,
+      "duration_ms": 121965,
+      "slug": "444-am-kochetkovv"
+    },
+    {
+      "name": "Safe",
+      "artists": "itssvd;Shiloh Dynasty",
+      "album": "Safe",
+      "popularity": 67,
+      "tempo": 114.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.461,
+      "valence": 0.512,
+      "danceability": 0.608,
+      "acousticness": 0.828,
+      "instrumentalness": 0.001,
+      "loudness": -13.1,
+      "speechiness": 0.146,
+      "duration_ms": 78214,
+      "slug": "safe-itssvd"
+    },
+    {
+      "name": "Darkside",
+      "artists": "Vwillz",
+      "album": "Darkside",
+      "popularity": 67,
+      "tempo": 82.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.402,
+      "valence": 0.304,
+      "danceability": 0.612,
+      "acousticness": 0.245,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.036,
+      "duration_ms": 134060,
+      "slug": "darkside-vwillz"
+    },
+    {
+      "name": "Falling Slowly",
+      "artists": "Vwillz",
+      "album": "Falling Slowly",
+      "popularity": 67,
+      "tempo": 180.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.456,
+      "valence": 0.54,
+      "danceability": 0.574,
+      "acousticness": 0.469,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.081,
+      "duration_ms": 119066,
+      "slug": "falling-slowly-vwillz"
+    },
+    {
+      "name": "Stay",
+      "artists": "iamjakehill",
+      "album": "Solace",
+      "popularity": 67,
+      "tempo": 166.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.658,
+      "valence": 0.86,
+      "danceability": 0.634,
+      "acousticness": 0.814,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.314,
+      "duration_ms": 185070,
+      "slug": "stay-iamjakehill"
+    },
+    {
+      "name": "Letter to Jarad",
+      "artists": "LRN Slime;Shiloh Dynasty",
+      "album": "why am i crying",
+      "popularity": 67,
+      "tempo": 122.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.09,
+      "valence": 0.785,
+      "danceability": 0.873,
+      "acousticness": 0.911,
+      "instrumentalness": 0.112,
+      "loudness": -26.6,
+      "speechiness": 0.071,
+      "duration_ms": 204659,
+      "slug": "letter-to-jarad-lrn-slime"
+    },
+    {
+      "name": "Chanel Bag",
+      "artists": "KillBunk",
+      "album": "Chanel Bag",
+      "popularity": 67,
+      "tempo": 115.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.614,
+      "valence": 0.698,
+      "danceability": 0.77,
+      "acousticness": 0.067,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.082,
+      "duration_ms": 158667,
+      "slug": "chanel-bag-killbunk"
+    },
+    {
+      "name": "Dangerous State of Mind",
+      "artists": "Chri$tian Gate$",
+      "album": "Dangerous State of Mind",
+      "popularity": 67,
+      "tempo": 150.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.874,
+      "valence": 0.712,
+      "danceability": 0.697,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.099,
+      "duration_ms": 115620,
+      "slug": "dangerous-state-of-mind-chritian-gate"
+    },
+    {
+      "name": "Dead Eyes",
+      "artists": "Promoting Sounds;Powfu;Ouse",
+      "album": "Dead Eyes",
+      "popularity": 66,
+      "tempo": 105.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.651,
+      "valence": 0.289,
+      "danceability": 0.719,
+      "acousticness": 0.127,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.027,
+      "duration_ms": 219428,
+      "slug": "dead-eyes-promoting-sounds"
+    },
+    {
+      "name": "eyes blue or brown, can't remember",
+      "artists": "untrusted;pretence;11:11 Music Group",
+      "album": "eyes blue or brown, can't remember",
+      "popularity": 66,
+      "tempo": 143.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.354,
+      "valence": 0.781,
+      "danceability": 0.751,
+      "acousticness": 0.885,
+      "instrumentalness": 0.179,
+      "loudness": -14.5,
+      "speechiness": 0.446,
+      "duration_ms": 180833,
+      "slug": "eyes-blue-or-brown-cant-remember-untrusted"
+    },
+    {
+      "name": "Memory",
+      "artists": "Promoting Sounds;Rxseboy;SadBoyProlific",
+      "album": "Memory",
+      "popularity": 66,
+      "tempo": 115.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.197,
+      "danceability": 0.748,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.086,
+      "duration_ms": 134608,
+      "slug": "memory-promoting-sounds"
+    },
+    {
+      "name": "Imagination",
+      "artists": "CORBAL;Shiloh Dynasty;Patient Zero",
+      "album": "Imagination",
+      "popularity": 66,
+      "tempo": 110.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.099,
+      "valence": 0.872,
+      "danceability": 0.814,
+      "acousticness": 0.702,
+      "instrumentalness": 0.872,
+      "loudness": -22.0,
+      "speechiness": 0.038,
+      "duration_ms": 104783,
+      "slug": "imagination-corbal"
+    },
+    {
+      "name": "Oblivion",
+      "artists": "Rufi-O;Lily Potter",
+      "album": "Oblivion",
+      "popularity": 66,
+      "tempo": 113.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.131,
+      "valence": 0.685,
+      "danceability": 0.714,
+      "acousticness": 0.975,
+      "instrumentalness": 0.904,
+      "loudness": -22.0,
+      "speechiness": 0.056,
+      "duration_ms": 152920,
+      "slug": "oblivion-rufi-o"
+    },
+    {
+      "name": "I Chose Violence",
+      "artists": "iamjakehill",
+      "album": "I Chose Violence",
+      "popularity": 66,
+      "tempo": 162.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.451,
+      "danceability": 0.676,
+      "acousticness": 0.323,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.323,
+      "duration_ms": 139870,
+      "slug": "i-chose-violence-iamjakehill"
+    },
+    {
+      "name": "Demons and Monsters",
+      "artists": "347aidan",
+      "album": "Demons and Monsters",
+      "popularity": 66,
+      "tempo": 81.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.32,
+      "valence": 0.407,
+      "danceability": 0.777,
+      "acousticness": 0.927,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.085,
+      "duration_ms": 197902,
+      "slug": "demons-and-monsters-347aidan"
+    },
+    {
+      "name": "Chanel Bag",
+      "artists": "KillBunk",
+      "album": "PILOT",
+      "popularity": 66,
+      "tempo": 115.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.617,
+      "valence": 0.781,
+      "danceability": 0.746,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.101,
+      "duration_ms": 158660,
+      "slug": "chanel-bag-killbunk"
+    },
+    {
+      "name": "love",
+      "artists": "lofi.samurai",
+      "album": "oldies",
+      "popularity": 66,
+      "tempo": 133.2,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.482,
+      "valence": 0.964,
+      "danceability": 0.864,
+      "acousticness": 0.664,
+      "instrumentalness": 0.0,
+      "loudness": -16.8,
+      "speechiness": 0.225,
+      "duration_ms": 81037,
+      "slug": "love-lofisamurai"
+    },
+    {
+      "name": "dream girl",
+      "artists": "8percent",
+      "album": "dream girl",
+      "popularity": 66,
+      "tempo": 110.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.385,
+      "valence": 0.55,
+      "danceability": 0.795,
+      "acousticness": 0.851,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.329,
+      "duration_ms": 87408,
+      "slug": "dream-girl-8percent"
+    },
+    {
+      "name": "IT'S OK",
+      "artists": "Daniyel",
+      "album": "82",
+      "popularity": 66,
+      "tempo": 118.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.551,
+      "valence": 0.59,
+      "danceability": 0.756,
+      "acousticness": 0.706,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.041,
+      "duration_ms": 116981,
+      "slug": "its-ok-daniyel"
+    },
+    {
+      "name": "i don't like it, you're not the same",
+      "artists": "meynus",
+      "album": "i don't like it, you're not the same",
+      "popularity": 66,
+      "tempo": 114.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.168,
+      "valence": 0.074,
+      "danceability": 0.533,
+      "acousticness": 0.422,
+      "instrumentalness": 0.39,
+      "loudness": -13.3,
+      "speechiness": 0.047,
+      "duration_ms": 97685,
+      "slug": "i-dont-like-it-youre-not-the-same-meynus"
+    },
+    {
+      "name": "pouring outside",
+      "artists": "dyl dion",
+      "album": "pouring outside",
+      "popularity": 66,
+      "tempo": 107.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.589,
+      "valence": 0.326,
+      "danceability": 0.783,
+      "acousticness": 0.677,
+      "instrumentalness": 0.069,
+      "loudness": -8.3,
+      "speechiness": 0.038,
+      "duration_ms": 156250,
+      "slug": "pouring-outside-dyl-dion"
+    },
+    {
+      "name": "F*ck Love",
+      "artists": "Lund",
+      "album": "F*ck Love",
+      "popularity": 65,
+      "tempo": 76.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.446,
+      "valence": 0.363,
+      "danceability": 0.639,
+      "acousticness": 0.295,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.038,
+      "duration_ms": 197368,
+      "slug": "fck-love-lund"
+    },
+    {
+      "name": "Wish I Was Better",
+      "artists": "Kina;yaeow",
+      "album": "Wish I Was Better",
+      "popularity": 65,
+      "tempo": 140.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.304,
+      "valence": 0.185,
+      "danceability": 0.732,
+      "acousticness": 0.747,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.111,
+      "duration_ms": 140571,
+      "slug": "wish-i-was-better-kina"
+    },
+    {
+      "name": "GTA",
+      "artists": "Rarin",
+      "album": "GTA",
+      "popularity": 65,
+      "tempo": 155.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.644,
+      "valence": 0.471,
+      "danceability": 0.685,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.1,
+      "duration_ms": 124765,
+      "slug": "gta-rarin"
+    },
+    {
+      "name": "Nobody Cares",
+      "artists": "Kina",
+      "album": "Nobody Cares",
+      "popularity": 65,
+      "tempo": 100.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.166,
+      "valence": 0.072,
+      "danceability": 0.653,
+      "acousticness": 0.681,
+      "instrumentalness": 0.484,
+      "loudness": -16.1,
+      "speechiness": 0.038,
+      "duration_ms": 175253,
+      "slug": "nobody-cares-kina"
+    },
+    {
+      "name": "Losing Interest - Slowed Version",
+      "artists": "boy in skirt",
+      "album": "Sad Boy in Skirt",
+      "popularity": 65,
+      "tempo": 96.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.062,
+      "valence": 0.166,
+      "danceability": 0.796,
+      "acousticness": 0.768,
+      "instrumentalness": 0.895,
+      "loudness": -22.0,
+      "speechiness": 0.075,
+      "duration_ms": 116920,
+      "slug": "losing-interest-slowed-version-boy-in-skirt"
+    },
+    {
+      "name": "LOSING INTEREST",
+      "artists": "Paycheck",
+      "album": "ABSTRACT, VOLUME I",
+      "popularity": 65,
+      "tempo": 119.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.317,
+      "valence": 0.641,
+      "danceability": 0.959,
+      "acousticness": 0.649,
+      "instrumentalness": 0.001,
+      "loudness": -18.2,
+      "speechiness": 0.197,
+      "duration_ms": 108481,
+      "slug": "losing-interest-paycheck"
+    },
+    {
+      "name": "ONE PUNCH",
+      "artists": "Aries",
+      "album": "BELIEVE IN ME, WHO BELIEVES IN YOU",
+      "popularity": 65,
+      "tempo": 87.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.617,
+      "valence": 0.432,
+      "danceability": 0.643,
+      "acousticness": 0.131,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.041,
+      "duration_ms": 145371,
+      "slug": "one-punch-aries"
+    },
+    {
+      "name": "Anime Thighs",
+      "artists": "MC Virgins;wonder",
+      "album": "Anime Thighs",
+      "popularity": 65,
+      "tempo": 93.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.299,
+      "valence": 0.533,
+      "danceability": 0.83,
+      "acousticness": 0.169,
+      "instrumentalness": 0.0,
+      "loudness": -17.1,
+      "speechiness": 0.476,
+      "duration_ms": 155000,
+      "slug": "anime-thighs-mc-virgins"
+    },
+    {
+      "name": "let me hold you",
+      "artists": "lofi.samurai;Insowmya",
+      "album": "oldies",
+      "popularity": 65,
+      "tempo": 69.5,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.331,
+      "valence": 0.23,
+      "danceability": 0.533,
+      "acousticness": 0.982,
+      "instrumentalness": 0.652,
+      "loudness": -15.9,
+      "speechiness": 0.588,
+      "duration_ms": 85979,
+      "slug": "let-me-hold-you-lofisamurai"
+    },
+    {
+      "name": "Kujo Freestyle",
+      "artists": "Sinoda",
+      "album": "Kujo Freestyle",
+      "popularity": 65,
+      "tempo": 105.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.368,
+      "valence": 0.348,
+      "danceability": 0.831,
+      "acousticness": 0.028,
+      "instrumentalness": 0.374,
+      "loudness": -15.1,
+      "speechiness": 0.216,
+      "duration_ms": 115099,
+      "slug": "kujo-freestyle-sinoda"
+    },
+    {
+      "name": "Rather Do",
+      "artists": "Yxngxr1",
+      "album": "Childhood Dreams",
+      "popularity": 65,
+      "tempo": 128.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.545,
+      "valence": 0.722,
+      "danceability": 0.859,
+      "acousticness": 0.853,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.248,
+      "duration_ms": 135000,
+      "slug": "rather-do-yxngxr1"
+    },
+    {
+      "name": "Me and You",
+      "artists": "Cold Hart;Lil Peep",
+      "album": "Me and You",
+      "popularity": 65,
+      "tempo": 94.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.614,
+      "valence": 0.198,
+      "danceability": 0.613,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.044,
+      "duration_ms": 224813,
+      "slug": "me-and-you-cold-hart"
+    },
+    {
+      "name": "Ghost",
+      "artists": "Ryan Caraveo",
+      "album": "At Least I Tried",
+      "popularity": 65,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.637,
+      "valence": 0.33,
+      "danceability": 0.75,
+      "acousticness": 0.303,
+      "instrumentalness": 0.004,
+      "loudness": -8.5,
+      "speechiness": 0.067,
+      "duration_ms": 185142,
+      "slug": "ghost-ryan-caraveo"
+    },
+    {
+      "name": "Soleil",
+      "artists": "80purppp",
+      "album": "Violet High",
+      "popularity": 65,
+      "tempo": 126.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.483,
+      "valence": 0.464,
+      "danceability": 0.732,
+      "acousticness": 0.742,
+      "instrumentalness": 0.326,
+      "loudness": -13.7,
+      "speechiness": 0.13,
+      "duration_ms": 109295,
+      "slug": "soleil-80purppp"
+    },
+    {
+      "name": "snowflake (feat. Jaden & Sarcastic Sounds)",
+      "artists": "Powfu;Jaden;Sarcastic Sounds",
+      "album": "tell me your feelings and i won't tell you mine",
+      "popularity": 64,
+      "tempo": 62.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.408,
+      "valence": 0.502,
+      "danceability": 0.419,
+      "acousticness": 0.95,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.25,
+      "duration_ms": 187500,
+      "slug": "snowflake-feat-jaden-sarcastic-sounds-powfu"
+    },
+    {
+      "name": "U\u2019re Mine",
+      "artists": "Kina",
+      "album": "U\u2019re Mine",
+      "popularity": 64,
+      "tempo": 100.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.134,
+      "valence": 0.26,
+      "danceability": 0.616,
+      "acousticness": 0.753,
+      "instrumentalness": 0.891,
+      "loudness": -20.0,
+      "speechiness": 0.037,
+      "duration_ms": 138026,
+      "slug": "ure-mine-kina"
+    },
+    {
+      "name": "Say Goodbye",
+      "artists": "Monty Datta;Sn\u00f8w",
+      "album": "Say Goodbye",
+      "popularity": 64,
+      "tempo": 104.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.297,
+      "valence": 0.123,
+      "danceability": 0.706,
+      "acousticness": 0.468,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.132,
+      "duration_ms": 150415,
+      "slug": "say-goodbye-monty-datta"
+    },
+    {
+      "name": "You Don't Want Me Anymore",
+      "artists": "Sn\u00f8w;Teqkoi",
+      "album": "You Don't Want Me Anymore",
+      "popularity": 64,
+      "tempo": 96.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.23,
+      "valence": 0.042,
+      "danceability": 0.685,
+      "acousticness": 0.367,
+      "instrumentalness": 0.001,
+      "loudness": -12.5,
+      "speechiness": 0.039,
+      "duration_ms": 165000,
+      "slug": "you-dont-want-me-anymore-sn\u00f8w"
+    },
+    {
+      "name": "Loosing Interest",
+      "artists": "Sarah Meow",
+      "album": "Safe, Pt. 2",
+      "popularity": 64,
+      "tempo": 114.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.245,
+      "valence": 0.453,
+      "danceability": 0.888,
+      "acousticness": 0.653,
+      "instrumentalness": 0.829,
+      "loudness": -9.6,
+      "speechiness": 0.083,
+      "duration_ms": 117984,
+      "slug": "loosing-interest-sarah-meow"
+    },
+    {
+      "name": "Naruto Bluebird Freestyle",
+      "artists": "Khantrast",
+      "album": "Naruto Bluebird Freestyle",
+      "popularity": 64,
+      "tempo": 148.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.941,
+      "valence": 0.333,
+      "danceability": 0.709,
+      "acousticness": 0.206,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.276,
+      "duration_ms": 102893,
+      "slug": "naruto-bluebird-freestyle-khantrast"
+    },
+    {
+      "name": "On My Own",
+      "artists": "Zach Diamond",
+      "album": "On My Own",
+      "popularity": 64,
+      "tempo": 90.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.615,
+      "valence": 0.588,
+      "danceability": 0.741,
+      "acousticness": 0.111,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.046,
+      "duration_ms": 133333,
+      "slug": "on-my-own-zach-diamond"
+    },
+    {
+      "name": "mr. sunshine",
+      "artists": "Arden Jones",
+      "album": "age tape 8",
+      "popularity": 64,
+      "tempo": 130.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.791,
+      "valence": 0.387,
+      "danceability": 0.589,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.052,
+      "duration_ms": 177230,
+      "slug": "mr-sunshine-arden-jones"
+    },
+    {
+      "name": "Love Is More Depressing Than Depression",
+      "artists": "prxz;Shiloh Dynasty",
+      "album": "Love Wounds",
+      "popularity": 64,
+      "tempo": 100.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.215,
+      "valence": 0.335,
+      "danceability": 0.793,
+      "acousticness": 0.733,
+      "instrumentalness": 0.043,
+      "loudness": -16.6,
+      "speechiness": 0.24,
+      "duration_ms": 133267,
+      "slug": "love-is-more-depressing-than-depression-prxz"
+    },
+    {
+      "name": "Rip X",
+      "artists": "iamjakehill",
+      "album": "Rip X",
+      "popularity": 64,
+      "tempo": 63.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.649,
+      "danceability": 0.67,
+      "acousticness": 0.415,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.229,
+      "duration_ms": 159466,
+      "slug": "rip-x-iamjakehill"
+    },
+    {
+      "name": "STEP BACK (FEAT. MIKE DIMES)",
+      "artists": "Dro Kenji;Mike Dimes",
+      "album": "LOST IN HERE",
+      "popularity": 64,
+      "tempo": 125.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.472,
+      "valence": 0.209,
+      "danceability": 0.845,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.269,
+      "duration_ms": 176692,
+      "slug": "step-back-feat-mike-dimes-dro-kenji"
+    },
+    {
+      "name": "summer&cigarettes",
+      "artists": "sammy rash",
+      "album": "summer&cigarettes",
+      "popularity": 64,
+      "tempo": 122.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.402,
+      "valence": 0.684,
+      "danceability": 0.834,
+      "acousticness": 0.76,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.072,
+      "duration_ms": 114427,
+      "slug": "summercigarettes-sammy-rash"
+    }
+  ]
+}

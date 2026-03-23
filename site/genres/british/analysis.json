@@ -1,0 +1,2801 @@
+{
+  "genre": "British",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 65.09,
+    "max": 182.862,
+    "mean": 119.218,
+    "median": 118.982,
+    "q1": 96.038,
+    "q3": 138.923,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 6,
+      "80-89": 11,
+      "90-99": 12,
+      "100-109": 9,
+      "110-119": 13,
+      "120-129": 12,
+      "130-139": 13,
+      "140-149": 10,
+      "150-159": 4,
+      "160-169": 5,
+      "170-179": 2,
+      "180-189": 2
+    }
+  },
+  "key_distribution": {
+    "A": 15,
+    "C": 14,
+    "F": 12,
+    "G": 12,
+    "C#/Db": 10,
+    "E": 9,
+    "A#/Bb": 8,
+    "D": 7,
+    "G#/Ab": 5,
+    "D#/Eb": 3,
+    "F#/Gb": 3,
+    "B": 2
+  },
+  "mode_distribution": {
+    "Major": 68,
+    "Minor": 32
+  },
+  "key_mode_distribution": {
+    "C Major": 12,
+    "G Major": 10,
+    "F Major": 8,
+    "A Minor": 8,
+    "A Major": 7,
+    "A#/Bb Major": 7,
+    "D Major": 6,
+    "C#/Db Major": 5,
+    "C#/Db Minor": 5,
+    "E Minor": 5,
+    "G#/Ab Major": 4,
+    "F Minor": 4,
+    "E Major": 4,
+    "D#/Eb Major": 3,
+    "F#/Gb Minor": 3,
+    "G Minor": 2,
+    "C Minor": 2,
+    "B Major": 2,
+    "D Minor": 1,
+    "A#/Bb Minor": 1,
+    "G#/Ab Minor": 1
+  },
+  "energy": {
+    "min": 0.04,
+    "max": 0.932,
+    "mean": 0.554,
+    "median": 0.548,
+    "q1": 0.389,
+    "q3": 0.725
+  },
+  "valence": {
+    "min": 0.061,
+    "max": 0.975,
+    "mean": 0.503,
+    "median": 0.47,
+    "q1": 0.315,
+    "q3": 0.668
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.885,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.13
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.13
+    },
+    {
+      "energy": 0.54,
+      "valence": 0.394
+    },
+    {
+      "energy": 0.319,
+      "valence": 0.294
+    },
+    {
+      "energy": 0.769,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.04,
+      "valence": 0.249
+    },
+    {
+      "energy": 0.422,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.795,
+      "valence": 0.612
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.265
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.152
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.079
+    },
+    {
+      "energy": 0.854,
+      "valence": 0.387
+    },
+    {
+      "energy": 0.403,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.376,
+      "valence": 0.187
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.931
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.489
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.542
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.867
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.971
+    },
+    {
+      "energy": 0.179,
+      "valence": 0.315
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.15
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.225
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.612
+    },
+    {
+      "energy": 0.371,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.43,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.47,
+      "valence": 0.325
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.68,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.127,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.532
+    },
+    {
+      "energy": 0.326,
+      "valence": 0.371
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.668,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.885
+    },
+    {
+      "energy": 0.496,
+      "valence": 0.799
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.335
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.777
+    },
+    {
+      "energy": 0.43,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.567
+    },
+    {
+      "energy": 0.715,
+      "valence": 0.866
+    },
+    {
+      "energy": 0.338,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.975
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.888
+    },
+    {
+      "energy": 0.485,
+      "valence": 0.341
+    },
+    {
+      "energy": 0.722,
+      "valence": 0.909
+    },
+    {
+      "energy": 0.352,
+      "valence": 0.204
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.467
+    },
+    {
+      "energy": 0.868,
+      "valence": 0.815
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.538
+    },
+    {
+      "energy": 0.111,
+      "valence": 0.061
+    },
+    {
+      "energy": 0.824,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.369,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.58,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.492,
+      "valence": 0.102
+    },
+    {
+      "energy": 0.429,
+      "valence": 0.627
+    },
+    {
+      "energy": 0.427,
+      "valence": 0.404
+    },
+    {
+      "energy": 0.58,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.48,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.091,
+      "valence": 0.212
+    },
+    {
+      "energy": 0.502,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.28,
+      "valence": 0.813
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.389,
+      "valence": 0.158
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.365,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.845
+    },
+    {
+      "energy": 0.601,
+      "valence": 0.368
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.656
+    },
+    {
+      "energy": 0.818,
+      "valence": 0.817
+    },
+    {
+      "energy": 0.301,
+      "valence": 0.621
+    },
+    {
+      "energy": 0.289,
+      "valence": 0.733
+    },
+    {
+      "energy": 0.446,
+      "valence": 0.211
+    },
+    {
+      "energy": 0.39,
+      "valence": 0.32
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.497,
+      "valence": 0.307
+    },
+    {
+      "energy": 0.331,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.9
+    },
+    {
+      "energy": 0.325,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.364,
+      "valence": 0.224
+    },
+    {
+      "energy": 0.364,
+      "valence": 0.459
+    },
+    {
+      "energy": 0.62,
+      "valence": 0.472
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.744
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.562
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.985,
+    "mean": 0.375,
+    "median": 0.337,
+    "q1": 0.102,
+    "q3": 0.592
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.465,
+    "mean": 0.019,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.002
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.578,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.091,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.578,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.893,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.138,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.981,
+      "instrumentalness": 0.465
+    },
+    {
+      "acousticness": 0.134,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.528,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.417,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.631,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.03,
+      "instrumentalness": 0.248
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.032
+    },
+    {
+      "acousticness": 0.447,
+      "instrumentalness": 0.039
+    },
+    {
+      "acousticness": 0.345,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.167,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.062,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.044,
+      "instrumentalness": 0.137
+    },
+    {
+      "acousticness": 0.879,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.185
+    },
+    {
+      "acousticness": 0.697,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.641,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.744,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.889,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.33,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.291,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.684,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.449,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.754,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.541,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.577,
+      "instrumentalness": 0.297
+    },
+    {
+      "acousticness": 0.518,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.39,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.538,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.386,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.67,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.232,
+      "instrumentalness": 0.064
+    },
+    {
+      "acousticness": 0.213,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.23,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.3,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.598,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.492,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.525,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.411,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.871,
+      "instrumentalness": 0.205
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.183,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.357,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.829,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.085,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.871,
+      "instrumentalness": 0.09
+    },
+    {
+      "acousticness": 0.238,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.266,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.503,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.985,
+      "instrumentalness": 0.028
+    },
+    {
+      "acousticness": 0.336,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.936,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.687,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.592,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.443,
+      "instrumentalness": 0.021
+    },
+    {
+      "acousticness": 0.373,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.241,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.154,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.836,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.568,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.95,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.257,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.67,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.64,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.45,
+      "instrumentalness": 0.05
+    },
+    {
+      "acousticness": 0.858,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.64,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.386,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.504,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.337,
+      "instrumentalness": 0.006
+    }
+  ],
+  "duration": {
+    "min": 119800,
+    "max": 448720,
+    "mean": 235003.6,
+    "median": 226620.5,
+    "q1": 193749,
+    "q3": 272000
+  },
+  "danceability": {
+    "min": 0.189,
+    "max": 0.818,
+    "mean": 0.541,
+    "median": 0.555,
+    "q1": 0.429,
+    "q3": 0.638
+  },
+  "loudness": {
+    "min": -16.887,
+    "max": -3.304,
+    "mean": -8.491,
+    "median": -8.07,
+    "q1": -10.484,
+    "q3": -6.128
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.224,
+    "mean": 0.049,
+    "median": 0.035,
+    "q1": 0.031,
+    "q3": 0.048
+  },
+  "top_artists": [
+    {
+      "name": "The Beatles",
+      "count": 22
+    },
+    {
+      "name": "Adele",
+      "count": 20
+    },
+    {
+      "name": "The Rolling Stones",
+      "count": 10
+    },
+    {
+      "name": "Amy Winehouse",
+      "count": 7
+    },
+    {
+      "name": "Tom Rosenthal",
+      "count": 3
+    },
+    {
+      "name": "Yusuf / Cat Stevens",
+      "count": 3
+    },
+    {
+      "name": "Paloma Faith",
+      "count": 2
+    },
+    {
+      "name": "The Who",
+      "count": 2
+    },
+    {
+      "name": "Ben Howard",
+      "count": 2
+    },
+    {
+      "name": "Simply Red",
+      "count": 2
+    },
+    {
+      "name": "YUNGBLUD",
+      "count": 2
+    },
+    {
+      "name": "Sade",
+      "count": 2
+    },
+    {
+      "name": "Whitesnake",
+      "count": 2
+    },
+    {
+      "name": "Paolo Nutini",
+      "count": 2
+    },
+    {
+      "name": "Corinne Bailey Rae",
+      "count": 1
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Only Love Can Hurt Like This",
+      "artists": "Paloma Faith",
+      "album": "A Perfect Contradiction (Outsiders' Expanded Edition)",
+      "popularity": 87,
+      "tempo": 91.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.304,
+      "danceability": 0.566,
+      "acousticness": 0.096,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.082,
+      "duration_ms": 232893,
+      "slug": "only-love-can-hurt-like-this-paloma-faith"
+    },
+    {
+      "name": "Easy On Me",
+      "artists": "Adele",
+      "album": "Easy On Me",
+      "popularity": 85,
+      "tempo": 142.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.13,
+      "danceability": 0.604,
+      "acousticness": 0.578,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.028,
+      "duration_ms": 224694,
+      "slug": "easy-on-me-adele"
+    },
+    {
+      "name": "Oh My God",
+      "artists": "Adele",
+      "album": "30",
+      "popularity": 82,
+      "tempo": 88.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.55,
+      "danceability": 0.534,
+      "acousticness": 0.091,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.046,
+      "duration_ms": 225148,
+      "slug": "oh-my-god-adele"
+    },
+    {
+      "name": "Easy On Me",
+      "artists": "Adele",
+      "album": "30",
+      "popularity": 82,
+      "tempo": 142.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.13,
+      "danceability": 0.604,
+      "acousticness": 0.578,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.028,
+      "duration_ms": 224694,
+      "slug": "easy-on-me-adele"
+    },
+    {
+      "name": "Here Comes The Sun - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "popularity": 82,
+      "tempo": 129.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.54,
+      "valence": 0.394,
+      "danceability": 0.557,
+      "acousticness": 0.034,
+      "instrumentalness": 0.002,
+      "loudness": -10.5,
+      "speechiness": 0.035,
+      "duration_ms": 185733,
+      "slug": "here-comes-the-sun-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Someone Like You",
+      "artists": "Adele",
+      "album": "21",
+      "popularity": 81,
+      "tempo": 135.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.319,
+      "valence": 0.294,
+      "danceability": 0.556,
+      "acousticness": 0.893,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.028,
+      "duration_ms": 285240,
+      "slug": "someone-like-you-adele"
+    },
+    {
+      "name": "Rolling in the Deep",
+      "artists": "Adele",
+      "album": "21",
+      "popularity": 81,
+      "tempo": 104.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.769,
+      "valence": 0.507,
+      "danceability": 0.73,
+      "acousticness": 0.138,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.03,
+      "duration_ms": 228093,
+      "slug": "rolling-in-the-deep-adele"
+    },
+    {
+      "name": "Lights Are On",
+      "artists": "Tom Rosenthal",
+      "album": "Z-Sides",
+      "popularity": 81,
+      "tempo": 136.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.04,
+      "valence": 0.249,
+      "danceability": 0.44,
+      "acousticness": 0.981,
+      "instrumentalness": 0.465,
+      "loudness": -16.9,
+      "speechiness": 0.032,
+      "duration_ms": 193749,
+      "slug": "lights-are-on-tom-rosenthal"
+    },
+    {
+      "name": "Back To Black",
+      "artists": "Amy Winehouse",
+      "album": "Back To Black (Deluxe Edition)",
+      "popularity": 81,
+      "tempo": 122.7,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.422,
+      "valence": 0.378,
+      "danceability": 0.403,
+      "acousticness": 0.134,
+      "instrumentalness": 0.0,
+      "loudness": -14.0,
+      "speechiness": 0.037,
+      "duration_ms": 241293,
+      "slug": "back-to-black-amy-winehouse"
+    },
+    {
+      "name": "Set Fire to the Rain",
+      "artists": "Adele",
+      "album": "21",
+      "popularity": 80,
+      "tempo": 108.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.67,
+      "valence": 0.446,
+      "danceability": 0.603,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.025,
+      "duration_ms": 242973,
+      "slug": "set-fire-to-the-rain-adele"
+    },
+    {
+      "name": "Paint It, Black",
+      "artists": "The Rolling Stones",
+      "album": "Aftermath",
+      "popularity": 80,
+      "tempo": 158.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.795,
+      "valence": 0.612,
+      "danceability": 0.464,
+      "acousticness": 0.049,
+      "instrumentalness": 0.002,
+      "loudness": -9.3,
+      "speechiness": 0.093,
+      "duration_ms": 202266,
+      "slug": "paint-it-black-the-rolling-stones"
+    },
+    {
+      "name": "When We Were Young",
+      "artists": "Adele",
+      "album": "25",
+      "popularity": 79,
+      "tempo": 144.4,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.595,
+      "valence": 0.265,
+      "danceability": 0.376,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.05,
+      "duration_ms": 290900,
+      "slug": "when-we-were-young-adele"
+    },
+    {
+      "name": "Love In The Dark",
+      "artists": "Adele",
+      "album": "25",
+      "popularity": 78,
+      "tempo": 109.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.341,
+      "valence": 0.152,
+      "danceability": 0.331,
+      "acousticness": 0.528,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.031,
+      "duration_ms": 285935,
+      "slug": "love-in-the-dark-adele"
+    },
+    {
+      "name": "Skyfall",
+      "artists": "Adele",
+      "album": "Skyfall",
+      "popularity": 78,
+      "tempo": 75.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.552,
+      "valence": 0.079,
+      "danceability": 0.346,
+      "acousticness": 0.417,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.028,
+      "duration_ms": 286480,
+      "slug": "skyfall-adele"
+    },
+    {
+      "name": "Only Love Can Hurt Like This - Slowed Down Version",
+      "artists": "Paloma Faith",
+      "album": "Only Love Can Hurt Like This (Slowed Down Version)",
+      "popularity": 77,
+      "tempo": 82.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.854,
+      "valence": 0.387,
+      "danceability": 0.554,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.057,
+      "duration_ms": 257743,
+      "slug": "only-love-can-hurt-like-this-slowed-down-version-paloma-faith"
+    },
+    {
+      "name": "Let It Be - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Let It Be (Remastered)",
+      "popularity": 77,
+      "tempo": 143.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.403,
+      "valence": 0.41,
+      "danceability": 0.443,
+      "acousticness": 0.631,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.032,
+      "duration_ms": 243026,
+      "slug": "let-it-be-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Come Together - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "popularity": 77,
+      "tempo": 165.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.376,
+      "valence": 0.187,
+      "danceability": 0.533,
+      "acousticness": 0.03,
+      "instrumentalness": 0.248,
+      "loudness": -11.9,
+      "speechiness": 0.039,
+      "duration_ms": 259946,
+      "slug": "come-together-remastered-2009-the-beatles"
+    },
+    {
+      "name": "(I Can't Get No) Satisfaction - Mono Version",
+      "artists": "The Rolling Stones",
+      "album": "Out Of Our Heads",
+      "popularity": 77,
+      "tempo": 136.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.863,
+      "valence": 0.931,
+      "danceability": 0.723,
+      "acousticness": 0.038,
+      "instrumentalness": 0.032,
+      "loudness": -7.9,
+      "speechiness": 0.034,
+      "duration_ms": 222813,
+      "slug": "i-cant-get-no-satisfaction-mono-version-the-rolling-stones"
+    },
+    {
+      "name": "Gimme Shelter",
+      "artists": "The Rolling Stones",
+      "album": "Let It Bleed",
+      "popularity": 77,
+      "tempo": 118.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.63,
+      "valence": 0.489,
+      "danceability": 0.634,
+      "acousticness": 0.447,
+      "instrumentalness": 0.039,
+      "loudness": -8.3,
+      "speechiness": 0.031,
+      "duration_ms": 270773,
+      "slug": "gimme-shelter-the-rolling-stones"
+    },
+    {
+      "name": "Wild World",
+      "artists": "Yusuf / Cat Stevens",
+      "album": "Tea For The Tillerman (Remastered 2020)",
+      "popularity": 77,
+      "tempo": 152.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.542,
+      "valence": 0.567,
+      "danceability": 0.48,
+      "acousticness": 0.345,
+      "instrumentalness": 0.001,
+      "loudness": -8.5,
+      "speechiness": 0.035,
+      "duration_ms": 200560,
+      "slug": "wild-world-yusuf-cat-stevens"
+    },
+    {
+      "name": "Put Your Records On",
+      "artists": "Corinne Bailey Rae",
+      "album": "Corinne Bailey Rae",
+      "popularity": 77,
+      "tempo": 96.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.542,
+      "danceability": 0.739,
+      "acousticness": 0.167,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.036,
+      "duration_ms": 215360,
+      "slug": "put-your-records-on-corinne-bailey-rae"
+    },
+    {
+      "name": "Dancing in the Moonlight",
+      "artists": "Toploader",
+      "album": "Onka's Big Moka",
+      "popularity": 77,
+      "tempo": 119.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.856,
+      "valence": 0.867,
+      "danceability": 0.632,
+      "acousticness": 0.062,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.035,
+      "duration_ms": 232693,
+      "slug": "dancing-in-the-moonlight-toploader"
+    },
+    {
+      "name": "Start Me Up - Remastered 2009",
+      "artists": "The Rolling Stones",
+      "album": "Tattoo You (2009 Re-Mastered)",
+      "popularity": 77,
+      "tempo": 122.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.932,
+      "valence": 0.971,
+      "danceability": 0.631,
+      "acousticness": 0.044,
+      "instrumentalness": 0.137,
+      "loudness": -4.1,
+      "speechiness": 0.035,
+      "duration_ms": 213066,
+      "slug": "start-me-up-remastered-2009-the-rolling-stones"
+    },
+    {
+      "name": "Yesterday - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Help! (Remastered)",
+      "popularity": 76,
+      "tempo": 96.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.179,
+      "valence": 0.315,
+      "danceability": 0.332,
+      "acousticness": 0.879,
+      "instrumentalness": 0.0,
+      "loudness": -11.8,
+      "speechiness": 0.033,
+      "duration_ms": 125666,
+      "slug": "yesterday-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Baba O'Riley",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 76,
+      "tempo": 117.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.724,
+      "valence": 0.15,
+      "danceability": 0.489,
+      "acousticness": 0.313,
+      "instrumentalness": 0.185,
+      "loudness": -8.4,
+      "speechiness": 0.035,
+      "duration_ms": 300400,
+      "slug": "baba-oriley-the-who"
+    },
+    {
+      "name": "I Drink Wine",
+      "artists": "Adele",
+      "album": "30",
+      "popularity": 75,
+      "tempo": 115.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.565,
+      "valence": 0.306,
+      "danceability": 0.437,
+      "acousticness": 0.697,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.047,
+      "duration_ms": 376169,
+      "slug": "i-drink-wine-adele"
+    },
+    {
+      "name": "Bleeding Love",
+      "artists": "Leona Lewis",
+      "album": "Spirit",
+      "popularity": 75,
+      "tempo": 104.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.656,
+      "valence": 0.225,
+      "danceability": 0.638,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.036,
+      "duration_ms": 262466,
+      "slug": "bleeding-love-leona-lewis"
+    },
+    {
+      "name": "House of the Rising Sun",
+      "artists": "The Animals",
+      "album": "The Singles Plus",
+      "popularity": 75,
+      "tempo": 117.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.484,
+      "valence": 0.299,
+      "danceability": 0.316,
+      "acousticness": 0.0,
+      "instrumentalness": 0.004,
+      "loudness": -9.1,
+      "speechiness": 0.031,
+      "duration_ms": 269906,
+      "slug": "house-of-the-rising-sun-the-animals"
+    },
+    {
+      "name": "Twist And Shout - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Please Please Me (Remastered)",
+      "popularity": 75,
+      "tempo": 124.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.937,
+      "danceability": 0.482,
+      "acousticness": 0.641,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.045,
+      "duration_ms": 155226,
+      "slug": "twist-and-shout-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Return of the Mack",
+      "artists": "Mark Morrison",
+      "album": "Return of the Mack",
+      "popularity": 75,
+      "tempo": 95.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.612,
+      "danceability": 0.715,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.108,
+      "duration_ms": 213093,
+      "slug": "return-of-the-mack-mark-morrison"
+    },
+    {
+      "name": "Valerie - Live At BBC Radio 1 Live Lounge, London / 2007",
+      "artists": "Amy Winehouse",
+      "album": "Back To Black (Deluxe Edition)",
+      "popularity": 75,
+      "tempo": 96.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.371,
+      "valence": 0.684,
+      "danceability": 0.772,
+      "acousticness": 0.744,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.035,
+      "duration_ms": 233733,
+      "slug": "valerie-live-at-bbc-radio-1-live-lounge-london-2007-amy-winehouse"
+    },
+    {
+      "name": "All I Ask",
+      "artists": "Adele",
+      "album": "25",
+      "popularity": 74,
+      "tempo": 141.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.28,
+      "valence": 0.348,
+      "danceability": 0.591,
+      "acousticness": 0.889,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.028,
+      "duration_ms": 271800,
+      "slug": "all-i-ask-adele"
+    },
+    {
+      "name": "Hello",
+      "artists": "Adele",
+      "album": "25",
+      "popularity": 74,
+      "tempo": 79.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.43,
+      "valence": 0.288,
+      "danceability": 0.578,
+      "acousticness": 0.33,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.03,
+      "duration_ms": 295502,
+      "slug": "hello-adele"
+    },
+    {
+      "name": "Chasing Pavements",
+      "artists": "Adele",
+      "album": "19",
+      "popularity": 74,
+      "tempo": 80.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.47,
+      "valence": 0.325,
+      "danceability": 0.616,
+      "acousticness": 0.291,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.025,
+      "duration_ms": 210506,
+      "slug": "chasing-pavements-adele"
+    },
+    {
+      "name": "Kiss from a Rose",
+      "artists": "Seal",
+      "album": "Seal",
+      "popularity": 74,
+      "tempo": 131.7,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.533,
+      "valence": 0.224,
+      "danceability": 0.584,
+      "acousticness": 0.684,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.03,
+      "duration_ms": 288426,
+      "slug": "kiss-from-a-rose-seal"
+    },
+    {
+      "name": "Can I Get It",
+      "artists": "Adele",
+      "album": "30",
+      "popularity": 74,
+      "tempo": 98.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.68,
+      "valence": 0.536,
+      "danceability": 0.703,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.043,
+      "duration_ms": 210384,
+      "slug": "can-i-get-it-adele"
+    },
+    {
+      "name": "In My Life - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Rubber Soul (Remastered)",
+      "popularity": 74,
+      "tempo": 103.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.435,
+      "valence": 0.435,
+      "danceability": 0.688,
+      "acousticness": 0.449,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.032,
+      "duration_ms": 146333,
+      "slug": "in-my-life-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Blackbird - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles (Remastered)",
+      "popularity": 74,
+      "tempo": 93.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.127,
+      "valence": 0.372,
+      "danceability": 0.686,
+      "acousticness": 0.754,
+      "instrumentalness": 0.0,
+      "loudness": -14.4,
+      "speechiness": 0.034,
+      "duration_ms": 138386,
+      "slug": "blackbird-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Hey Jude - Remastered 2015",
+      "artists": "The Beatles",
+      "album": "1 (Remastered)",
+      "popularity": 74,
+      "tempo": 147.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.607,
+      "valence": 0.532,
+      "danceability": 0.386,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.026,
+      "duration_ms": 425653,
+      "slug": "hey-jude-remastered-2015-the-beatles"
+    },
+    {
+      "name": "Father And Son",
+      "artists": "Yusuf / Cat Stevens",
+      "album": "Tea For The Tillerman (Remastered 2020)",
+      "popularity": 74,
+      "tempo": 136.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.326,
+      "valence": 0.371,
+      "danceability": 0.495,
+      "acousticness": 0.541,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.036,
+      "duration_ms": 221120,
+      "slug": "father-and-son-yusuf-cat-stevens"
+    },
+    {
+      "name": "Layla",
+      "artists": "Derek & The Dominos",
+      "album": "Layla And Other Assorted Love Songs (Remastered 2010)",
+      "popularity": 74,
+      "tempo": 115.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.497,
+      "danceability": 0.404,
+      "acousticness": 0.577,
+      "instrumentalness": 0.297,
+      "loudness": -3.9,
+      "speechiness": 0.067,
+      "duration_ms": 423840,
+      "slug": "layla-derek-the-dominos"
+    },
+    {
+      "name": "Sympathy For The Devil - 50th Anniversary Edition",
+      "artists": "The Rolling Stones",
+      "album": "Beggars Banquet (50th Anniversary Edition)",
+      "popularity": 74,
+      "tempo": 116.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.668,
+      "valence": 0.561,
+      "danceability": 0.702,
+      "acousticness": 0.518,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.214,
+      "duration_ms": 378146,
+      "slug": "sympathy-for-the-devil-50th-anniversary-edition-the-rolling-stones"
+    },
+    {
+      "name": "Beast Of Burden - Remastered 1994",
+      "artists": "The Rolling Stones",
+      "album": "Some Girls",
+      "popularity": 73,
+      "tempo": 100.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.878,
+      "valence": 0.885,
+      "danceability": 0.783,
+      "acousticness": 0.39,
+      "instrumentalness": 0.001,
+      "loudness": -3.9,
+      "speechiness": 0.031,
+      "duration_ms": 265173,
+      "slug": "beast-of-burden-remastered-1994-the-rolling-stones"
+    },
+    {
+      "name": "You Know I'm No Good",
+      "artists": "Amy Winehouse",
+      "album": "Back To Black (Deluxe Edition)",
+      "popularity": 73,
+      "tempo": 103.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.496,
+      "valence": 0.799,
+      "danceability": 0.694,
+      "acousticness": 0.014,
+      "instrumentalness": 0.004,
+      "loudness": -14.2,
+      "speechiness": 0.033,
+      "duration_ms": 257186,
+      "slug": "you-know-im-no-good-amy-winehouse"
+    },
+    {
+      "name": "Back To Black",
+      "artists": "Amy Winehouse",
+      "album": "Back To Black",
+      "popularity": 73,
+      "tempo": 123.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.335,
+      "danceability": 0.49,
+      "acousticness": 0.123,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.039,
+      "duration_ms": 240440,
+      "slug": "back-to-black-amy-winehouse"
+    },
+    {
+      "name": "Rehab",
+      "artists": "Amy Winehouse",
+      "album": "Back To Black (Deluxe Edition)",
+      "popularity": 73,
+      "tempo": 71.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.777,
+      "danceability": 0.407,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -13.6,
+      "speechiness": 0.055,
+      "duration_ms": 214946,
+      "slug": "rehab-amy-winehouse"
+    },
+    {
+      "name": "Son Of A Preacher Man",
+      "artists": "Dusty Springfield",
+      "album": "Dusty In Memphis",
+      "popularity": 73,
+      "tempo": 180.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.43,
+      "valence": 0.641,
+      "danceability": 0.404,
+      "acousticness": 0.538,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.224,
+      "duration_ms": 148053,
+      "slug": "son-of-a-preacher-man-dusty-springfield"
+    },
+    {
+      "name": "All Right Now",
+      "artists": "Free",
+      "album": "Fire And Water",
+      "popularity": 73,
+      "tempo": 120.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.472,
+      "valence": 0.824,
+      "danceability": 0.787,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.083,
+      "duration_ms": 330643,
+      "slug": "all-right-now-free"
+    },
+    {
+      "name": "Send My Love (To Your New Lover)",
+      "artists": "Adele",
+      "album": "25",
+      "popularity": 72,
+      "tempo": 164.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.533,
+      "valence": 0.567,
+      "danceability": 0.688,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.086,
+      "duration_ms": 223078,
+      "slug": "send-my-love-to-your-new-lover-adele"
+    },
+    {
+      "name": "I Want To Hold Your Hand - Remastered 2015",
+      "artists": "The Beatles",
+      "album": "1 (Remastered)",
+      "popularity": 72,
+      "tempo": 130.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.715,
+      "valence": 0.866,
+      "danceability": 0.49,
+      "acousticness": 0.386,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.048,
+      "duration_ms": 145746,
+      "slug": "i-want-to-hold-your-hand-remastered-2015-the-beatles"
+    },
+    {
+      "name": "Something - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Abbey Road (Remastered)",
+      "popularity": 72,
+      "tempo": 133.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.338,
+      "valence": 0.377,
+      "danceability": 0.396,
+      "acousticness": 0.198,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.03,
+      "duration_ms": 182293,
+      "slug": "something-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Angie",
+      "artists": "The Rolling Stones",
+      "album": "Goats Head Soup (Remastered 2009)",
+      "popularity": 72,
+      "tempo": 136.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.554,
+      "valence": 0.407,
+      "danceability": 0.429,
+      "acousticness": 0.67,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.029,
+      "duration_ms": 272000,
+      "slug": "angie-the-rolling-stones"
+    },
+    {
+      "name": "Ob-La-Di, Ob-La-Da - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles (Remastered)",
+      "popularity": 71,
+      "tempo": 113.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.728,
+      "valence": 0.975,
+      "danceability": 0.818,
+      "acousticness": 0.232,
+      "instrumentalness": 0.064,
+      "loudness": -8.3,
+      "speechiness": 0.031,
+      "duration_ms": 188960,
+      "slug": "ob-la-di-ob-la-da-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Behind Blue Eyes",
+      "artists": "The Who",
+      "album": "Who's Next (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 126.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.622,
+      "valence": 0.342,
+      "danceability": 0.394,
+      "acousticness": 0.213,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.034,
+      "duration_ms": 221426,
+      "slug": "behind-blue-eyes-the-who"
+    },
+    {
+      "name": "7 Days",
+      "artists": "Craig David",
+      "album": "Born to Do It",
+      "popularity": 71,
+      "tempo": 83.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.812,
+      "valence": 0.888,
+      "danceability": 0.659,
+      "acousticness": 0.23,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.049,
+      "duration_ms": 235133,
+      "slug": "7-days-craig-david"
+    },
+    {
+      "name": "Only Love",
+      "artists": "Ben Howard",
+      "album": "Every Kingdom",
+      "popularity": 71,
+      "tempo": 80.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.485,
+      "valence": 0.341,
+      "danceability": 0.545,
+      "acousticness": 0.3,
+      "instrumentalness": 0.001,
+      "loudness": -9.9,
+      "speechiness": 0.151,
+      "duration_ms": 249173,
+      "slug": "only-love-ben-howard"
+    },
+    {
+      "name": "It's Not Unusual",
+      "artists": "Tom Jones",
+      "album": "Along Came Jones",
+      "popularity": 71,
+      "tempo": 93.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.722,
+      "valence": 0.909,
+      "danceability": 0.476,
+      "acousticness": 0.598,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.065,
+      "duration_ms": 119800,
+      "slug": "its-not-unusual-tom-jones"
+    },
+    {
+      "name": "If You Don't Know Me by Now - 2008 Remaster",
+      "artists": "Simply Red",
+      "album": "A New Flame (Expanded Version)",
+      "popularity": 71,
+      "tempo": 94.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.352,
+      "valence": 0.204,
+      "danceability": 0.638,
+      "acousticness": 0.492,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.027,
+      "duration_ms": 204000,
+      "slug": "if-you-dont-know-me-by-now-2008-remaster-simply-red"
+    },
+    {
+      "name": "Tears Dry On Their Own",
+      "artists": "Amy Winehouse",
+      "album": "Back To Black (Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 121.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.543,
+      "valence": 0.467,
+      "danceability": 0.634,
+      "acousticness": 0.525,
+      "instrumentalness": 0.0,
+      "loudness": -13.4,
+      "speechiness": 0.181,
+      "duration_ms": 186440,
+      "slug": "tears-dry-on-their-own-amy-winehouse"
+    },
+    {
+      "name": "Long Cool Woman (In a Black Dress) - 1999 Remaster",
+      "artists": "The Hollies",
+      "album": "Distant Light (Expanded Edition)",
+      "popularity": 71,
+      "tempo": 138.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.868,
+      "valence": 0.815,
+      "danceability": 0.757,
+      "acousticness": 0.411,
+      "instrumentalness": 0.002,
+      "loudness": -9.3,
+      "speechiness": 0.062,
+      "duration_ms": 199200,
+      "slug": "long-cool-woman-in-a-black-dress-1999-remaster-the-hollies"
+    },
+    {
+      "name": "Water Under the Bridge",
+      "artists": "Adele",
+      "album": "25",
+      "popularity": 70,
+      "tempo": 95.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.833,
+      "valence": 0.538,
+      "danceability": 0.59,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.061,
+      "duration_ms": 240439,
+      "slug": "water-under-the-bridge-adele"
+    },
+    {
+      "name": "It's Ok",
+      "artists": "Tom Rosenthal",
+      "album": "The Pleasant Trees",
+      "popularity": 70,
+      "tempo": 148.2,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.111,
+      "valence": 0.061,
+      "danceability": 0.561,
+      "acousticness": 0.871,
+      "instrumentalness": 0.205,
+      "loudness": -15.1,
+      "speechiness": 0.032,
+      "duration_ms": 191352,
+      "slug": "its-ok-tom-rosenthal"
+    },
+    {
+      "name": "parents",
+      "artists": "YUNGBLUD",
+      "album": "weird!",
+      "popularity": 70,
+      "tempo": 82.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.824,
+      "valence": 0.586,
+      "danceability": 0.612,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.048,
+      "duration_ms": 171880,
+      "slug": "parents-yungblud"
+    },
+    {
+      "name": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Rubber Soul (Remastered)",
+      "popularity": 70,
+      "tempo": 176.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.369,
+      "valence": 0.65,
+      "danceability": 0.425,
+      "acousticness": 0.183,
+      "instrumentalness": 0.001,
+      "loudness": -11.9,
+      "speechiness": 0.038,
+      "duration_ms": 124693,
+      "slug": "norwegian-wood-this-bird-has-flown-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Cold Little Heart - Radio Edit",
+      "artists": "Michael Kiwanuka",
+      "album": "Cold Little Heart (Radio Edit)",
+      "popularity": 70,
+      "tempo": 110.3,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.58,
+      "valence": 0.655,
+      "danceability": 0.629,
+      "acousticness": 0.357,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.028,
+      "duration_ms": 210299,
+      "slug": "cold-little-heart-radio-edit-michael-kiwanuka"
+    },
+    {
+      "name": "While My Guitar Gently Weeps - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles (Remastered)",
+      "popularity": 70,
+      "tempo": 115.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.702,
+      "danceability": 0.453,
+      "acousticness": 0.021,
+      "instrumentalness": 0.004,
+      "loudness": -8.9,
+      "speechiness": 0.032,
+      "duration_ms": 285000,
+      "slug": "while-my-guitar-gently-weeps-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Help! - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Help! (Remastered)",
+      "popularity": 70,
+      "tempo": 95.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.725,
+      "valence": 0.763,
+      "danceability": 0.534,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.033,
+      "duration_ms": 139560,
+      "slug": "help-remastered-2009-the-beatles"
+    },
+    {
+      "name": "My Little Love",
+      "artists": "Adele",
+      "album": "30",
+      "popularity": 70,
+      "tempo": 151.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.492,
+      "valence": 0.102,
+      "danceability": 0.339,
+      "acousticness": 0.829,
+      "instrumentalness": 0.004,
+      "loudness": -10.7,
+      "speechiness": 0.056,
+      "duration_ms": 389107,
+      "slug": "my-little-love-adele"
+    },
+    {
+      "name": "By Your Side",
+      "artists": "Sade",
+      "album": "Lovers Rock",
+      "popularity": 70,
+      "tempo": 146.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.429,
+      "valence": 0.627,
+      "danceability": 0.653,
+      "acousticness": 0.085,
+      "instrumentalness": 0.004,
+      "loudness": -10.5,
+      "speechiness": 0.03,
+      "duration_ms": 274933,
+      "slug": "by-your-side-sade"
+    },
+    {
+      "name": "Pink Moon",
+      "artists": "Nick Drake",
+      "album": "Pink Moon",
+      "popularity": 70,
+      "tempo": 82.3,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.427,
+      "valence": 0.404,
+      "danceability": 0.642,
+      "acousticness": 0.871,
+      "instrumentalness": 0.09,
+      "loudness": -8.5,
+      "speechiness": 0.04,
+      "duration_ms": 124000,
+      "slug": "pink-moon-nick-drake"
+    },
+    {
+      "name": "Smooth Operator - Single Version",
+      "artists": "Sade",
+      "album": "The Best of Sade",
+      "popularity": 70,
+      "tempo": 119.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.58,
+      "valence": 0.962,
+      "danceability": 0.734,
+      "acousticness": 0.238,
+      "instrumentalness": 0.001,
+      "loudness": -6.6,
+      "speechiness": 0.032,
+      "duration_ms": 258693,
+      "slug": "smooth-operator-single-version-sade"
+    },
+    {
+      "name": "Mercy",
+      "artists": "Duffy",
+      "album": "Rockferry",
+      "popularity": 70,
+      "tempo": 129.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.964,
+      "danceability": 0.793,
+      "acousticness": 0.266,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.033,
+      "duration_ms": 219920,
+      "slug": "mercy-duffy"
+    },
+    {
+      "name": "Out Of Reach",
+      "artists": "Gabrielle",
+      "album": "Rise",
+      "popularity": 70,
+      "tempo": 182.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.48,
+      "valence": 0.496,
+      "danceability": 0.51,
+      "acousticness": 0.503,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.045,
+      "duration_ms": 196986,
+      "slug": "out-of-reach-gabrielle"
+    },
+    {
+      "name": "Go Solo",
+      "artists": "Tom Rosenthal",
+      "album": "The Pleasant Trees",
+      "popularity": 69,
+      "tempo": 77.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.091,
+      "valence": 0.212,
+      "danceability": 0.586,
+      "acousticness": 0.985,
+      "instrumentalness": 0.028,
+      "loudness": -12.9,
+      "speechiness": 0.038,
+      "duration_ms": 142280,
+      "slug": "go-solo-tom-rosenthal"
+    },
+    {
+      "name": "Strawberry Fields Forever - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Magical Mystery Tour (Remastered)",
+      "popularity": 69,
+      "tempo": 97.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.502,
+      "valence": 0.289,
+      "danceability": 0.39,
+      "acousticness": 0.336,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.178,
+      "duration_ms": 247320,
+      "slug": "strawberry-fields-forever-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Eleanor Rigby - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Revolver (Remastered)",
+      "popularity": 69,
+      "tempo": 137.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.28,
+      "valence": 0.813,
+      "danceability": 0.581,
+      "acousticness": 0.936,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.038,
+      "duration_ms": 126533,
+      "slug": "eleanor-rigby-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Here I Go Again - 2018 Remaster",
+      "artists": "Whitesnake",
+      "album": "Whitesnake (2018 Remaster)",
+      "popularity": 69,
+      "tempo": 89.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.244,
+      "danceability": 0.292,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.041,
+      "duration_ms": 275395,
+      "slug": "here-i-go-again-2018-remaster-whitesnake"
+    },
+    {
+      "name": "Wild Horses - 2009 Mix",
+      "artists": "The Rolling Stones",
+      "album": "Sticky Fingers (Remastered)",
+      "popularity": 69,
+      "tempo": 139.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.389,
+      "valence": 0.158,
+      "danceability": 0.432,
+      "acousticness": 0.687,
+      "instrumentalness": 0.011,
+      "loudness": -6.5,
+      "speechiness": 0.025,
+      "duration_ms": 341773,
+      "slug": "wild-horses-2009-mix-the-rolling-stones"
+    },
+    {
+      "name": "Is This Love - 2018 Remaster",
+      "artists": "Whitesnake",
+      "album": "Whitesnake (2018 Remaster)",
+      "popularity": 69,
+      "tempo": 179.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.759,
+      "valence": 0.429,
+      "danceability": 0.263,
+      "acousticness": 0.056,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.043,
+      "duration_ms": 284496,
+      "slug": "is-this-love-2018-remaster-whitesnake"
+    },
+    {
+      "name": "Morning Has Broken - Remastered 2021",
+      "artists": "Yusuf / Cat Stevens",
+      "album": "Teaser And The Firecat (Remastered 2021)",
+      "popularity": 69,
+      "tempo": 133.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.365,
+      "valence": 0.398,
+      "danceability": 0.443,
+      "acousticness": 0.592,
+      "instrumentalness": 0.005,
+      "loudness": -11.8,
+      "speechiness": 0.032,
+      "duration_ms": 199453,
+      "slug": "morning-has-broken-remastered-2021-yusuf-cat-stevens"
+    },
+    {
+      "name": "Miss You - Remastered",
+      "artists": "The Rolling Stones",
+      "album": "Some Girls",
+      "popularity": 69,
+      "tempo": 109.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.71,
+      "valence": 0.845,
+      "danceability": 0.795,
+      "acousticness": 0.443,
+      "instrumentalness": 0.021,
+      "loudness": -4.7,
+      "speechiness": 0.039,
+      "duration_ms": 288666,
+      "slug": "miss-you-remastered-the-rolling-stones"
+    },
+    {
+      "name": "Candy",
+      "artists": "Paolo Nutini",
+      "album": "Sunny Side Up",
+      "popularity": 69,
+      "tempo": 125.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.601,
+      "valence": 0.368,
+      "danceability": 0.612,
+      "acousticness": 0.373,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.042,
+      "duration_ms": 298693,
+      "slug": "candy-paolo-nutini"
+    },
+    {
+      "name": "Last Request",
+      "artists": "Paolo Nutini",
+      "album": "These Streets",
+      "popularity": 69,
+      "tempo": 80.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.704,
+      "valence": 0.4,
+      "danceability": 0.605,
+      "acousticness": 0.241,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.048,
+      "duration_ms": 220413,
+      "slug": "last-request-paolo-nutini"
+    },
+    {
+      "name": "Slow Ride",
+      "artists": "Foghat",
+      "album": "Slow Ride / Save Your Loving (For Me)",
+      "popularity": 69,
+      "tempo": 113.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.656,
+      "danceability": 0.493,
+      "acousticness": 0.02,
+      "instrumentalness": 0.001,
+      "loudness": -13.9,
+      "speechiness": 0.046,
+      "duration_ms": 232533,
+      "slug": "slow-ride-foghat"
+    },
+    {
+      "name": "Stars",
+      "artists": "Simply Red",
+      "album": "Stars (Collector's Edition)",
+      "popularity": 69,
+      "tempo": 103.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.818,
+      "valence": 0.817,
+      "danceability": 0.716,
+      "acousticness": 0.154,
+      "instrumentalness": 0.001,
+      "loudness": -7.5,
+      "speechiness": 0.026,
+      "duration_ms": 248599,
+      "slug": "stars-simply-red"
+    },
+    {
+      "name": "Eleanor Rigby",
+      "artists": "The Beatles",
+      "album": "Yellow Submarine Songtrack",
+      "popularity": 68,
+      "tempo": 137.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.301,
+      "valence": 0.621,
+      "danceability": 0.521,
+      "acousticness": 0.836,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.036,
+      "duration_ms": 125226,
+      "slug": "eleanor-rigby-the-beatles"
+    },
+    {
+      "name": "Don't Let Me Down - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "The Beatles 1967 - 1970 (Remastered)",
+      "popularity": 68,
+      "tempo": 77.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.289,
+      "valence": 0.733,
+      "danceability": 0.593,
+      "acousticness": 0.568,
+      "instrumentalness": 0.001,
+      "loudness": -11.0,
+      "speechiness": 0.026,
+      "duration_ms": 215733,
+      "slug": "dont-let-me-down-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Turning Tables",
+      "artists": "Adele",
+      "album": "21",
+      "popularity": 68,
+      "tempo": 155.5,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.446,
+      "valence": 0.211,
+      "danceability": 0.353,
+      "acousticness": 0.95,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.029,
+      "duration_ms": 250000,
+      "slug": "turning-tables-adele"
+    },
+    {
+      "name": "Still Got The Blues",
+      "artists": "Gary Moore",
+      "album": "Still Got The Blues",
+      "popularity": 68,
+      "tempo": 169.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.39,
+      "valence": 0.32,
+      "danceability": 0.189,
+      "acousticness": 0.257,
+      "instrumentalness": 0.0,
+      "loudness": -14.5,
+      "speechiness": 0.035,
+      "duration_ms": 370866,
+      "slug": "still-got-the-blues-gary-moore"
+    },
+    {
+      "name": "parents",
+      "artists": "YUNGBLUD",
+      "album": "the underrated youth",
+      "popularity": 68,
+      "tempo": 82.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.58,
+      "danceability": 0.618,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.045,
+      "duration_ms": 171880,
+      "slug": "parents-yungblud"
+    },
+    {
+      "name": "All Night Parking (with Erroll Garner) Interlude",
+      "artists": "Adele",
+      "album": "30",
+      "popularity": 68,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.497,
+      "valence": 0.307,
+      "danceability": 0.734,
+      "acousticness": 0.67,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.166,
+      "duration_ms": 161829,
+      "slug": "all-night-parking-with-erroll-garner-interlude-adele"
+    },
+    {
+      "name": "And I Love Her - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "A Hard Day's Night (Remastered)",
+      "popularity": 68,
+      "tempo": 113.3,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.331,
+      "valence": 0.636,
+      "danceability": 0.767,
+      "acousticness": 0.64,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.034,
+      "duration_ms": 149693,
+      "slug": "and-i-love-her-remastered-2009-the-beatles"
+    },
+    {
+      "name": "All My Loving - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "With The Beatles (Remastered)",
+      "popularity": 68,
+      "tempo": 77.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.563,
+      "valence": 0.9,
+      "danceability": 0.416,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.03,
+      "duration_ms": 127853,
+      "slug": "all-my-loving-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Lucy In The Sky With Diamonds - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Sgt. Pepper's Lonely Hearts Club Band (Remastered)",
+      "popularity": 68,
+      "tempo": 65.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.325,
+      "valence": 0.668,
+      "danceability": 0.311,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.028,
+      "duration_ms": 208466,
+      "slug": "lucy-in-the-sky-with-diamonds-remastered-2009-the-beatles"
+    },
+    {
+      "name": "Old Pine",
+      "artists": "Ben Howard",
+      "album": "Every Kingdom",
+      "popularity": 68,
+      "tempo": 129.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.364,
+      "valence": 0.224,
+      "danceability": 0.401,
+      "acousticness": 0.45,
+      "instrumentalness": 0.05,
+      "loudness": -10.8,
+      "speechiness": 0.033,
+      "duration_ms": 328506,
+      "slug": "old-pine-ben-howard"
+    },
+    {
+      "name": "Hold On",
+      "artists": "Adele",
+      "album": "30",
+      "popularity": 68,
+      "tempo": 165.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.364,
+      "valence": 0.459,
+      "danceability": 0.366,
+      "acousticness": 0.858,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.043,
+      "duration_ms": 366004,
+      "slug": "hold-on-adele"
+    },
+    {
+      "name": "You Can't Always Get What You Want",
+      "artists": "The Rolling Stones",
+      "album": "Let It Bleed",
+      "popularity": 68,
+      "tempo": 86.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.62,
+      "valence": 0.472,
+      "danceability": 0.32,
+      "acousticness": 0.64,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.059,
+      "duration_ms": 448720,
+      "slug": "you-cant-always-get-what-you-want-the-rolling-stones"
+    },
+    {
+      "name": "Love Me Do - Remastered 2009",
+      "artists": "The Beatles",
+      "album": "Please Please Me (Remastered)",
+      "popularity": 68,
+      "tempo": 148.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.829,
+      "valence": 0.744,
+      "danceability": 0.52,
+      "acousticness": 0.386,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.081,
+      "duration_ms": 141693,
+      "slug": "love-me-do-remastered-2009-the-beatles"
+    },
+    {
+      "name": "A Whiter Shade of Pale - Original Single Version",
+      "artists": "Procol Harum",
+      "album": "Hits'n'Flips",
+      "popularity": 68,
+      "tempo": 149.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.435,
+      "danceability": 0.249,
+      "acousticness": 0.504,
+      "instrumentalness": 0.003,
+      "loudness": -6.9,
+      "speechiness": 0.034,
+      "duration_ms": 248946,
+      "slug": "a-whiter-shade-of-pale-original-single-version-procol-harum"
+    },
+    {
+      "name": "Love Is A Losing Game",
+      "artists": "Amy Winehouse",
+      "album": "Back To Black (Deluxe Edition)",
+      "popularity": 68,
+      "tempo": 165.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.293,
+      "valence": 0.562,
+      "danceability": 0.484,
+      "acousticness": 0.337,
+      "instrumentalness": 0.006,
+      "loudness": -16.5,
+      "speechiness": 0.031,
+      "duration_ms": 155413,
+      "slug": "love-is-a-losing-game-amy-winehouse"
+    }
+  ]
+}

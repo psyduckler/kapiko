@@ -1,0 +1,2798 @@
+{
+  "genre": "Party",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 60.514,
+    "max": 178.046,
+    "mean": 130.99,
+    "median": 134.528,
+    "q1": 127.97,
+    "q3": 140.067,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 5,
+      "100-109": 5,
+      "110-119": 8,
+      "120-129": 16,
+      "130-139": 38,
+      "140-149": 19,
+      "150-159": 4,
+      "160-169": 3,
+      "170-179": 1
+    }
+  },
+  "key_distribution": {
+    "G": 16,
+    "F": 15,
+    "C": 15,
+    "C#/Db": 9,
+    "G#/Ab": 8,
+    "A#/Bb": 8,
+    "F#/Gb": 6,
+    "A": 6,
+    "B": 5,
+    "E": 5,
+    "D#/Eb": 5,
+    "D": 2
+  },
+  "mode_distribution": {
+    "Minor": 30,
+    "Major": 70
+  },
+  "key_mode_distribution": {
+    "C Major": 13,
+    "G Major": 11,
+    "F Major": 9,
+    "G#/Ab Major": 8,
+    "F Minor": 6,
+    "A#/Bb Major": 6,
+    "G Minor": 5,
+    "C#/Db Minor": 5,
+    "D#/Eb Major": 5,
+    "C#/Db Major": 4,
+    "A Major": 4,
+    "F#/Gb Major": 3,
+    "B Minor": 3,
+    "E Major": 3,
+    "F#/Gb Minor": 3,
+    "A Minor": 2,
+    "B Major": 2,
+    "D Major": 2,
+    "A#/Bb Minor": 2,
+    "C Minor": 2,
+    "E Minor": 2
+  },
+  "energy": {
+    "min": 0.111,
+    "max": 0.999,
+    "mean": 0.815,
+    "median": 0.875,
+    "q1": 0.752,
+    "q3": 0.933
+  },
+  "valence": {
+    "min": 0.113,
+    "max": 0.978,
+    "mean": 0.659,
+    "median": 0.694,
+    "q1": 0.5,
+    "q3": 0.851
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.922,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.832
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.546
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.404
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.808,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.7
+    },
+    {
+      "energy": 0.582,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.834
+    },
+    {
+      "energy": 0.944,
+      "valence": 0.322
+    },
+    {
+      "energy": 0.111,
+      "valence": 0.556
+    },
+    {
+      "energy": 0.944,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.514
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.195
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.205
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.487
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.836
+    },
+    {
+      "energy": 0.957,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.911
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.411
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.968
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.998,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.791
+    },
+    {
+      "energy": 0.171,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.925
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.593
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.922
+    },
+    {
+      "energy": 0.908,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.622
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.673
+    },
+    {
+      "energy": 0.785,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.804
+    },
+    {
+      "energy": 0.923,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.651
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.77,
+      "valence": 0.931
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.874
+    },
+    {
+      "energy": 0.967,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.999,
+      "valence": 0.773
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.966
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.811
+    },
+    {
+      "energy": 0.924,
+      "valence": 0.978
+    },
+    {
+      "energy": 0.203,
+      "valence": 0.909
+    },
+    {
+      "energy": 0.93,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.91,
+      "valence": 0.782
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.702,
+      "valence": 0.566
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.782
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.881
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.844
+    },
+    {
+      "energy": 0.973,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.9,
+      "valence": 0.579
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.794,
+      "valence": 0.946
+    },
+    {
+      "energy": 0.93,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.344
+    },
+    {
+      "energy": 0.507,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.788
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.887
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.93
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.827,
+      "valence": 0.626
+    },
+    {
+      "energy": 0.858,
+      "valence": 0.682
+    },
+    {
+      "energy": 0.995,
+      "valence": 0.977
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.911
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.261
+    },
+    {
+      "energy": 0.947,
+      "valence": 0.881
+    },
+    {
+      "energy": 0.625,
+      "valence": 0.257
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.923
+    },
+    {
+      "energy": 0.932,
+      "valence": 0.539
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.431
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.736
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.666
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.5
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.393
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.923
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.751
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.469
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.786,
+    "mean": 0.106,
+    "median": 0.054,
+    "q1": 0.021,
+    "q3": 0.122
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.49,
+    "mean": 0.007,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.199,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.165,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.123,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.414,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.276,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.278,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.753,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.298,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.219,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.098,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.065,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.122,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.511,
+      "instrumentalness": 0.052
+    },
+    {
+      "acousticness": 0.071,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.069,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.178,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.49
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.038,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.175,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.077,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.057,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.086,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.116,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.786,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.155,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.101,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.107,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.19,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.3,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.146,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.189,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.235,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.045,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.514,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.064,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.261,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.027
+    },
+    {
+      "acousticness": 0.027,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 42466,
+    "max": 265253,
+    "mean": 184137.7,
+    "median": 191093.5,
+    "q1": 164853,
+    "q3": 218851
+  },
+  "danceability": {
+    "min": 0.419,
+    "max": 0.976,
+    "mean": 0.692,
+    "median": 0.685,
+    "q1": 0.627,
+    "q3": 0.784
+  },
+  "loudness": {
+    "min": -14.423,
+    "max": -1.131,
+    "mean": -5.181,
+    "median": -4.717,
+    "q1": -6.324,
+    "q3": -3.434
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.35,
+    "mean": 0.095,
+    "median": 0.07,
+    "q1": 0.044,
+    "q3": 0.122
+  },
+  "top_artists": [
+    {
+      "name": "F\u00e4aschtb\u00e4nkler",
+      "count": 10
+    },
+    {
+      "name": "DJ \u00d6tzi",
+      "count": 6
+    },
+    {
+      "name": "Brings",
+      "count": 5
+    },
+    {
+      "name": "DJ Robin",
+      "count": 4
+    },
+    {
+      "name": "Tream",
+      "count": 4
+    },
+    {
+      "name": "FiNCH",
+      "count": 4
+    },
+    {
+      "name": "Ikke H\u00fcftgold",
+      "count": 4
+    },
+    {
+      "name": "Die Draufg\u00e4nger",
+      "count": 4
+    },
+    {
+      "name": "Sch\u00fcrze",
+      "count": 3
+    },
+    {
+      "name": "treamiboii",
+      "count": 3
+    },
+    {
+      "name": "Lorenz B\u00fcffel",
+      "count": 3
+    },
+    {
+      "name": "HBz",
+      "count": 2
+    },
+    {
+      "name": "Micha von der Rampe",
+      "count": 2
+    },
+    {
+      "name": "Cupid",
+      "count": 2
+    },
+    {
+      "name": "The Bellamy Brothers",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Layla",
+      "artists": "DJ Robin;Sch\u00fcrze",
+      "album": "Layla",
+      "popularity": 74,
+      "tempo": 140.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.388,
+      "danceability": 0.442,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.07,
+      "duration_ms": 185437,
+      "slug": "layla-dj-robin"
+    },
+    {
+      "name": "Olivia",
+      "artists": "Die Zipfelbuben;DJ Cashi",
+      "album": "Olivia",
+      "popularity": 74,
+      "tempo": 141.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.832,
+      "danceability": 0.666,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.069,
+      "duration_ms": 180157,
+      "slug": "olivia-die-zipfelbuben"
+    },
+    {
+      "name": "LEBENSLANG - HBz Remix",
+      "artists": "Tream;treamiboii;HBz",
+      "album": "LEBENSLANG (HBz Remix)",
+      "popularity": 73,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.546,
+      "danceability": 0.774,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.137,
+      "duration_ms": 170783,
+      "slug": "lebenslang-hbz-remix-tream"
+    },
+    {
+      "name": "Dicht im Flieger",
+      "artists": "Julian Sommer",
+      "album": "Dicht im Flieger",
+      "popularity": 72,
+      "tempo": 136.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.958,
+      "valence": 0.404,
+      "danceability": 0.607,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -1.1,
+      "speechiness": 0.087,
+      "duration_ms": 225882,
+      "slug": "dicht-im-flieger-julian-sommer"
+    },
+    {
+      "name": "Layla",
+      "artists": "DJ Robin;Sch\u00fcrze",
+      "album": "Layla (Dutch Version)",
+      "popularity": 70,
+      "tempo": 140.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.921,
+      "valence": 0.375,
+      "danceability": 0.448,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.069,
+      "duration_ms": 185706,
+      "slug": "layla-dj-robin"
+    },
+    {
+      "name": "Easy Peasy",
+      "artists": "FiNCH;Leony;VIZE",
+      "album": "Fliesentisch Romantik 2",
+      "popularity": 65,
+      "tempo": 142.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.808,
+      "valence": 0.519,
+      "danceability": 0.796,
+      "acousticness": 0.199,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.03,
+      "duration_ms": 150413,
+      "slug": "easy-peasy-finch"
+    },
+    {
+      "name": "Partyanimal",
+      "artists": "Micha von der Rampe",
+      "album": "Partyanimal",
+      "popularity": 64,
+      "tempo": 138.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.74,
+      "valence": 0.7,
+      "danceability": 0.814,
+      "acousticness": 0.165,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.145,
+      "duration_ms": 139159,
+      "slug": "partyanimal-micha-von-der-rampe"
+    },
+    {
+      "name": "Cupid Shuffle",
+      "artists": "Cupid",
+      "album": "Time for a Change",
+      "popularity": 63,
+      "tempo": 71.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.582,
+      "valence": 0.861,
+      "danceability": 0.785,
+      "acousticness": 0.191,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.237,
+      "duration_ms": 231360,
+      "slug": "cupid-shuffle-cupid"
+    },
+    {
+      "name": "Strobo Pop",
+      "artists": "Die Atzen;Nena",
+      "album": "Party Chaos",
+      "popularity": 62,
+      "tempo": 135.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.796,
+      "valence": 0.407,
+      "danceability": 0.691,
+      "acousticness": 0.111,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.11,
+      "duration_ms": 194173,
+      "slug": "strobo-pop-die-atzen"
+    },
+    {
+      "name": "Hey Baby (Radio Mix)",
+      "artists": "DJ \u00d6tzi",
+      "album": "Hey Baby (Uh Ah)",
+      "popularity": 59,
+      "tempo": 135.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.968,
+      "valence": 0.834,
+      "danceability": 0.666,
+      "acousticness": 0.123,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.046,
+      "duration_ms": 219240,
+      "slug": "hey-baby-radio-mix-dj-\u00f6tzi"
+    },
+    {
+      "name": "Layla - English Version",
+      "artists": "DJ Robin;Sch\u00fcrze;R3HAB",
+      "album": "Layla (English Version)",
+      "popularity": 58,
+      "tempo": 140.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.944,
+      "valence": 0.322,
+      "danceability": 0.419,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.111,
+      "duration_ms": 174964,
+      "slug": "layla-english-version-dj-robin"
+    },
+    {
+      "name": "Slippery Fish",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 58,
+      "tempo": 139.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.111,
+      "valence": 0.556,
+      "danceability": 0.777,
+      "acousticness": 0.414,
+      "instrumentalness": 0.0,
+      "loudness": -14.4,
+      "speechiness": 0.335,
+      "duration_ms": 103493,
+      "slug": "slippery-fish-amy-liz"
+    },
+    {
+      "name": "Just Dance - Maxtreme & Dropixx Mix",
+      "artists": "Empyre One;Maxtreme;DROPiXX",
+      "album": "Just Dance (Maxtreme & Dropixx Mix)",
+      "popularity": 56,
+      "tempo": 150.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.944,
+      "valence": 0.442,
+      "danceability": 0.657,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.055,
+      "duration_ms": 149913,
+      "slug": "just-dance-maxtreme-dropixx-mix-empyre-one"
+    },
+    {
+      "name": "Goodbye (feat. Xillions)",
+      "artists": "le Shuuk;Xillions",
+      "album": "Goodbye (feat. Xillions)",
+      "popularity": 55,
+      "tempo": 142.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.514,
+      "danceability": 0.689,
+      "acousticness": 0.036,
+      "instrumentalness": 0.001,
+      "loudness": -4.5,
+      "speechiness": 0.122,
+      "duration_ms": 155492,
+      "slug": "goodbye-feat-xillions-le-shuuk"
+    },
+    {
+      "name": "Hey Baby",
+      "artists": "DJ \u00d6tzi;The Bellamy Brothers",
+      "album": "Simply The Best",
+      "popularity": 54,
+      "tempo": 135.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.908,
+      "valence": 0.781,
+      "danceability": 0.627,
+      "acousticness": 0.045,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.04,
+      "duration_ms": 220706,
+      "slug": "hey-baby-dj-\u00f6tzi"
+    },
+    {
+      "name": "My Way",
+      "artists": "Harris & Ford;Mike Candys",
+      "album": "My Way",
+      "popularity": 54,
+      "tempo": 150.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.842,
+      "valence": 0.195,
+      "danceability": 0.526,
+      "acousticness": 0.015,
+      "instrumentalness": 0.023,
+      "loudness": -4.9,
+      "speechiness": 0.069,
+      "duration_ms": 182500,
+      "slug": "my-way-harris-ford"
+    },
+    {
+      "name": "Numb",
+      "artists": "Harris & Ford;DJ Gollum",
+      "album": "Numb",
+      "popularity": 53,
+      "tempo": 75.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.887,
+      "valence": 0.205,
+      "danceability": 0.438,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.098,
+      "duration_ms": 191723,
+      "slug": "numb-harris-ford"
+    },
+    {
+      "name": "Cha Cha Slide",
+      "artists": "Mr. C",
+      "album": "Mr. C Presents The Cha-cha Slide Greatest Hits",
+      "popularity": 52,
+      "tempo": 131.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.905,
+      "valence": 0.805,
+      "danceability": 0.856,
+      "acousticness": 0.041,
+      "instrumentalness": 0.004,
+      "loudness": -6.8,
+      "speechiness": 0.146,
+      "duration_ms": 222080,
+      "slug": "cha-cha-slide-mr-c"
+    },
+    {
+      "name": "Freeze Dance",
+      "artists": "BeatBo;Fisher-Price",
+      "album": "Fisher-Price BeatBo",
+      "popularity": 51,
+      "tempo": 135.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.887,
+      "valence": 0.487,
+      "danceability": 0.8,
+      "acousticness": 0.276,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.293,
+      "duration_ms": 76888,
+      "slug": "freeze-dance-beatbo"
+    },
+    {
+      "name": "Choo Choo Train",
+      "artists": "Patty Shukla",
+      "album": "Jump, Wiggle and Hop",
+      "popularity": 49,
+      "tempo": 110.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.801,
+      "valence": 0.709,
+      "danceability": 0.847,
+      "acousticness": 0.278,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.105,
+      "duration_ms": 140546,
+      "slug": "choo-choo-train-patty-shukla"
+    },
+    {
+      "name": "Alphabet Song",
+      "artists": "Cooltime Kids",
+      "album": "EVVIVA Canzoni per Bambini",
+      "popularity": 48,
+      "tempo": 116.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.473,
+      "valence": 0.836,
+      "danceability": 0.851,
+      "acousticness": 0.753,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.036,
+      "duration_ms": 106706,
+      "slug": "alphabet-song-cooltime-kids"
+    },
+    {
+      "name": "Chicken Dance",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer Party Favorites",
+      "popularity": 46,
+      "tempo": 108.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.957,
+      "valence": 0.963,
+      "danceability": 0.587,
+      "acousticness": 0.099,
+      "instrumentalness": 0.034,
+      "loudness": -4.1,
+      "speechiness": 0.029,
+      "duration_ms": 147133,
+      "slug": "chicken-dance-dora-the-explorer"
+    },
+    {
+      "name": "Shake and Move",
+      "artists": "Patty Shukla",
+      "album": "Roar Like a Lion!",
+      "popularity": 46,
+      "tempo": 119.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.113,
+      "danceability": 0.795,
+      "acousticness": 0.298,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.042,
+      "duration_ms": 164000,
+      "slug": "shake-and-move-patty-shukla"
+    },
+    {
+      "name": "I Need More Of You",
+      "artists": "DJ \u00d6tzi;The Bellamy Brothers",
+      "album": "Simply The Best",
+      "popularity": 44,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.881,
+      "valence": 0.911,
+      "danceability": 0.636,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.027,
+      "duration_ms": 216453,
+      "slug": "i-need-more-of-you-dj-\u00f6tzi"
+    },
+    {
+      "name": "Dora The Explorer Theme",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer",
+      "popularity": 43,
+      "tempo": 119.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.851,
+      "danceability": 0.711,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.238,
+      "duration_ms": 42466,
+      "slug": "dora-the-explorer-theme-dora-the-explorer"
+    },
+    {
+      "name": "Eine Liebe - Mallorca Mix",
+      "artists": "Mallorca Allstars;Isi Gl\u00fcck;Ikke H\u00fcftgold;Almklausi;Lorenz B\u00fcffel;Carolina;Honk!",
+      "album": "Eine Liebe",
+      "popularity": 39,
+      "tempo": 145.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.411,
+      "danceability": 0.457,
+      "acousticness": 0.219,
+      "instrumentalness": 0.0,
+      "loudness": -2.5,
+      "speechiness": 0.123,
+      "duration_ms": 215342,
+      "slug": "eine-liebe-mallorca-mix-mallorca-allstars"
+    },
+    {
+      "name": "Mexico",
+      "artists": "Die Flippers",
+      "album": "Singles Vol. 2 (1980 - 1988)",
+      "popularity": 39,
+      "tempo": 121.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.725,
+      "danceability": 0.69,
+      "acousticness": 0.098,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.044,
+      "duration_ms": 198533,
+      "slug": "mexico-die-flippers"
+    },
+    {
+      "name": "Eskalation",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Flamingo + Hoch die H\u00e4nde Wochenende",
+      "popularity": 39,
+      "tempo": 150.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.886,
+      "valence": 0.968,
+      "danceability": 0.683,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.045,
+      "duration_ms": 151906,
+      "slug": "eskalation-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "K\u00fcss die Hand sch\u00f6ne Frau",
+      "artists": "Die Draufg\u00e4nger",
+      "album": "Gr\u00fcn",
+      "popularity": 39,
+      "tempo": 133.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.703,
+      "valence": 0.961,
+      "danceability": 0.842,
+      "acousticness": 0.041,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.038,
+      "duration_ms": 219146,
+      "slug": "k\u00fcss-die-hand-sch\u00f6ne-frau-die-draufg\u00e4nger"
+    },
+    {
+      "name": "Suffia",
+      "artists": "Andi Kiss",
+      "album": "Suffia",
+      "popularity": 38,
+      "tempo": 138.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.902,
+      "valence": 0.468,
+      "danceability": 0.737,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.095,
+      "duration_ms": 168695,
+      "slug": "suffia-andi-kiss"
+    },
+    {
+      "name": "Hey, wir woll'n die Eisb\u00e4ren seh'n - Original Mix",
+      "artists": "Sound Convoy",
+      "album": "Hey, wir woll\u00b4n die Eisb\u00e4ren seh\u00b4n",
+      "popularity": 38,
+      "tempo": 124.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.709,
+      "danceability": 0.699,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.037,
+      "duration_ms": 211266,
+      "slug": "hey-wir-wolln-die-eisb\u00e4ren-sehn-original-mix-sound-convoy"
+    },
+    {
+      "name": "Can't Take My Eyes Off You",
+      "artists": "DJ \u00d6tzi",
+      "album": "Oktoberfest \u2013 Wiesn Party mit DJ \u00d6tzi",
+      "popularity": 38,
+      "tempo": 128.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.968,
+      "valence": 0.323,
+      "danceability": 0.653,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.177,
+      "duration_ms": 247925,
+      "slug": "cant-take-my-eyes-off-you-dj-\u00f6tzi"
+    },
+    {
+      "name": "Finger weg von Sachen ohne Alkohol",
+      "artists": "Mickie Krause",
+      "album": "Wir woll'n feiern f\u00fcr die Ewigkeit - Best Of!",
+      "popularity": 38,
+      "tempo": 140.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.998,
+      "valence": 0.722,
+      "danceability": 0.679,
+      "acousticness": 0.065,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.196,
+      "duration_ms": 199840,
+      "slug": "finger-weg-von-sachen-ohne-alkohol-mickie-krause"
+    },
+    {
+      "name": "Wennduwie",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Wennduwie",
+      "popularity": 38,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.725,
+      "danceability": 0.778,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.047,
+      "duration_ms": 168642,
+      "slug": "wennduwie-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Et jeilste Land",
+      "artists": "Brings;Dennis aus H\u00fcrth",
+      "album": "Liebe gewinnt",
+      "popularity": 38,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.828,
+      "valence": 0.791,
+      "danceability": 0.864,
+      "acousticness": 0.122,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.087,
+      "duration_ms": 219826,
+      "slug": "et-jeilste-land-brings"
+    },
+    {
+      "name": "Round and Round The Garden",
+      "artists": "The Palace Singers",
+      "album": "Nursey Rhymes For A Little Prince",
+      "popularity": 38,
+      "tempo": 110.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.171,
+      "valence": 0.692,
+      "danceability": 0.976,
+      "acousticness": 0.511,
+      "instrumentalness": 0.052,
+      "loudness": -13.2,
+      "speechiness": 0.105,
+      "duration_ms": 67266,
+      "slug": "round-and-round-the-garden-the-palace-singers"
+    },
+    {
+      "name": "Baby Schluck!",
+      "artists": "Glitzer Gischi",
+      "album": "Baby Schluck!",
+      "popularity": 37,
+      "tempo": 126.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.982,
+      "valence": 0.925,
+      "danceability": 0.619,
+      "acousticness": 0.071,
+      "instrumentalness": 0.0,
+      "loudness": -2.0,
+      "speechiness": 0.206,
+      "duration_ms": 68445,
+      "slug": "baby-schluck-glitzer-gischi"
+    },
+    {
+      "name": "Saufen, Saufen, Saufen",
+      "artists": "Pazoo;Schalldicht",
+      "album": "Saufen, Saufen, Saufen",
+      "popularity": 37,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.91,
+      "valence": 0.593,
+      "danceability": 0.685,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.137,
+      "duration_ms": 149307,
+      "slug": "saufen-saufen-saufen-pazoo"
+    },
+    {
+      "name": "Lieblingsland",
+      "artists": "minnie rock;DJ Robin",
+      "album": "Lieblingsland",
+      "popularity": 37,
+      "tempo": 132.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.91,
+      "valence": 0.584,
+      "danceability": 0.702,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -1.7,
+      "speechiness": 0.05,
+      "duration_ms": 219210,
+      "slug": "lieblingsland-minnie-rock"
+    },
+    {
+      "name": "DorfD\u00e4pp - Xtreme Sound Remix",
+      "artists": "Micha von der Rampe;Xtreme Sound",
+      "album": "DorfD\u00e4pp (Xtreme Sound Remix)",
+      "popularity": 37,
+      "tempo": 135.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.985,
+      "valence": 0.922,
+      "danceability": 0.641,
+      "acousticness": 0.069,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.044,
+      "duration_ms": 166035,
+      "slug": "dorfd\u00e4pp-xtreme-sound-remix-micha-von-der-rampe"
+    },
+    {
+      "name": "Kopfweh",
+      "artists": "Frenzy;DJ Balineiro",
+      "album": "Ballermann Hits 2022",
+      "popularity": 37,
+      "tempo": 139.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.908,
+      "valence": 0.519,
+      "danceability": 0.665,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.098,
+      "duration_ms": 186151,
+      "slug": "kopfweh-frenzy"
+    },
+    {
+      "name": "Ich schwanke noch - Kyanu & Abrissgebeat Remix",
+      "artists": "Ikke H\u00fcftgold;KYANU;Abrissgebeat",
+      "album": "Ich schwanke noch (Kyanu & Abrissgebeat Remix)",
+      "popularity": 37,
+      "tempo": 75.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.622,
+      "danceability": 0.565,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.118,
+      "duration_ms": 184741,
+      "slug": "ich-schwanke-noch-kyanu-abrissgebeat-remix-ikke-h\u00fcftgold"
+    },
+    {
+      "name": "Er war der wei\u00dfeste Mann am Strand",
+      "artists": "Paveier",
+      "album": "Dat Beste us 25 Johr",
+      "popularity": 37,
+      "tempo": 113.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.673,
+      "danceability": 0.674,
+      "acousticness": 0.178,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.026,
+      "duration_ms": 244746,
+      "slug": "er-war-der-wei\u00dfeste-mann-am-strand-paveier"
+    },
+    {
+      "name": "Man m\u00fcsste noch mal 20 sein",
+      "artists": "Brings",
+      "album": "Su lang mer noch am L\u00e4\u00e4ve sin",
+      "popularity": 37,
+      "tempo": 138.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.785,
+      "valence": 0.609,
+      "danceability": 0.61,
+      "acousticness": 0.118,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.028,
+      "duration_ms": 265253,
+      "slug": "man-m\u00fcsste-noch-mal-20-sein-brings"
+    },
+    {
+      "name": "I Like To Move It From Madagascar",
+      "artists": "The Party Cats",
+      "album": "Kids Dance Party",
+      "popularity": 37,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.864,
+      "valence": 0.826,
+      "danceability": 0.817,
+      "acousticness": 0.0,
+      "instrumentalness": 0.49,
+      "loudness": -7.9,
+      "speechiness": 0.029,
+      "duration_ms": 243960,
+      "slug": "i-like-to-move-it-from-madagascar-the-party-cats"
+    },
+    {
+      "name": "Ich sauf den ganzen Tag",
+      "artists": "Specktakel",
+      "album": "Ballermann Hits 2022",
+      "popularity": 36,
+      "tempo": 140.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.934,
+      "valence": 0.804,
+      "danceability": 0.732,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.226,
+      "duration_ms": 191041,
+      "slug": "ich-sauf-den-ganzen-tag-specktakel"
+    },
+    {
+      "name": "Auf die Liebe (Auf das Leben)",
+      "artists": "Mia Julia",
+      "album": "Auf die Liebe (Auf das Leben)",
+      "popularity": 36,
+      "tempo": 132.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.923,
+      "valence": 0.692,
+      "danceability": 0.587,
+      "acousticness": 0.038,
+      "instrumentalness": 0.0,
+      "loudness": -1.7,
+      "speechiness": 0.041,
+      "duration_ms": 199663,
+      "slug": "auf-die-liebe-auf-das-leben-mia-julia"
+    },
+    {
+      "name": "Korken knallen",
+      "artists": "Nancy Franck",
+      "album": "Korken knallen",
+      "popularity": 36,
+      "tempo": 136.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.956,
+      "valence": 0.651,
+      "danceability": 0.665,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.046,
+      "duration_ms": 196345,
+      "slug": "korken-knallen-nancy-franck"
+    },
+    {
+      "name": "M.i.a. Meine Gang",
+      "artists": "Mia Julia",
+      "album": "M.i.a. Meine Gang",
+      "popularity": 36,
+      "tempo": 136.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.864,
+      "valence": 0.714,
+      "danceability": 0.816,
+      "acousticness": 0.175,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.071,
+      "duration_ms": 218851,
+      "slug": "mia-meine-gang-mia-julia"
+    },
+    {
+      "name": "Traumfrau",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Partyplanet",
+      "popularity": 36,
+      "tempo": 120.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.77,
+      "valence": 0.931,
+      "danceability": 0.782,
+      "acousticness": 0.077,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.043,
+      "duration_ms": 176480,
+      "slug": "traumfrau-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Anton aus Tirol - Silverjam RMX",
+      "artists": "DJ \u00d6tzi",
+      "album": "Oktoberfest \u2013 Wiesn Party mit DJ \u00d6tzi",
+      "popularity": 36,
+      "tempo": 133.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.914,
+      "valence": 0.874,
+      "danceability": 0.685,
+      "acousticness": 0.08,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.182,
+      "duration_ms": 191613,
+      "slug": "anton-aus-tirol-silverjam-rmx-dj-\u00f6tzi"
+    },
+    {
+      "name": "F\u00fcr die Ewigkeit",
+      "artists": "Mickie Krause",
+      "album": "Wir woll'n feiern f\u00fcr die Ewigkeit - Best Of!",
+      "popularity": 36,
+      "tempo": 152.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.967,
+      "valence": 0.861,
+      "danceability": 0.587,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.1,
+      "duration_ms": 220466,
+      "slug": "f\u00fcr-die-ewigkeit-mickie-krause"
+    },
+    {
+      "name": "Blau wie das Meer - Bierk\u00f6nig Version",
+      "artists": "Tobee",
+      "album": "Xtreme Mallorca Hits 2014",
+      "popularity": 36,
+      "tempo": 145.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.999,
+      "valence": 0.773,
+      "danceability": 0.693,
+      "acousticness": 0.057,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.075,
+      "duration_ms": 193024,
+      "slug": "blau-wie-das-meer-bierk\u00f6nig-version-tobee"
+    },
+    {
+      "name": "Drobn aufm Berg",
+      "artists": "Die jungen Zillertaler",
+      "album": "Gipfeltreffen - Drob'n auf'm Berg",
+      "popularity": 36,
+      "tempo": 126.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.966,
+      "danceability": 0.78,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.046,
+      "duration_ms": 168506,
+      "slug": "drobn-aufm-berg-die-jungen-zillertaler"
+    },
+    {
+      "name": "Wennduwie",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Mal so mal so",
+      "popularity": 36,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.725,
+      "danceability": 0.778,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.047,
+      "duration_ms": 168642,
+      "slug": "wennduwie-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Looking For Freibier",
+      "artists": "Die Draufg\u00e4nger",
+      "album": "#Hektarparty",
+      "popularity": 36,
+      "tempo": 125.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.811,
+      "danceability": 0.716,
+      "acousticness": 0.086,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.034,
+      "duration_ms": 204440,
+      "slug": "looking-for-freibier-die-draufg\u00e4nger"
+    },
+    {
+      "name": "Besoffe v\u00f6r Gl\u00fcck",
+      "artists": "Brings",
+      "album": "Besoffe v\u00f6r Gl\u00fcck",
+      "popularity": 36,
+      "tempo": 128.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.924,
+      "valence": 0.978,
+      "danceability": 0.861,
+      "acousticness": 0.116,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.04,
+      "duration_ms": 233778,
+      "slug": "besoffe-v\u00f6r-gl\u00fcck-brings"
+    },
+    {
+      "name": "Wee Willie Winkie",
+      "artists": "The Jamborees",
+      "album": "The Wheels On the Bus",
+      "popularity": 36,
+      "tempo": 149.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.203,
+      "valence": 0.909,
+      "danceability": 0.729,
+      "acousticness": 0.786,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.035,
+      "duration_ms": 55986,
+      "slug": "wee-willie-winkie-the-jamborees"
+    },
+    {
+      "name": "Alle meine Freunde",
+      "artists": "Kreisligahelden;Thekentyp",
+      "album": "Alle meine Freunde",
+      "popularity": 35,
+      "tempo": 133.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.93,
+      "valence": 0.259,
+      "danceability": 0.532,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -2.5,
+      "speechiness": 0.071,
+      "duration_ms": 163000,
+      "slug": "alle-meine-freunde-kreisligahelden"
+    },
+    {
+      "name": "Hallo Julia (Die kleine Julia ist versaut)",
+      "artists": "Kings of G\u00fcnter;Der Lieblingsidiot",
+      "album": "Hallo Julia (Die kleine Julia ist versaut)",
+      "popularity": 35,
+      "tempo": 132.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.91,
+      "valence": 0.782,
+      "danceability": 0.752,
+      "acousticness": 0.155,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.187,
+      "duration_ms": 179297,
+      "slug": "hallo-julia-die-kleine-julia-ist-versaut-kings-of-g\u00fcnter"
+    },
+    {
+      "name": "Biermelodie",
+      "artists": "Killermichel",
+      "album": "Biermelodie",
+      "popularity": 35,
+      "tempo": 140.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.974,
+      "valence": 0.668,
+      "danceability": 0.606,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.063,
+      "duration_ms": 200407,
+      "slug": "biermelodie-killermichel"
+    },
+    {
+      "name": "Ein Lied f\u00fcr diese Welt",
+      "artists": "Lorenz B\u00fcffel;Anna-Maria Zimmermann",
+      "album": "Ein Lied f\u00fcr diese Welt",
+      "popularity": 35,
+      "tempo": 140.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.375,
+      "danceability": 0.67,
+      "acousticness": 0.101,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.034,
+      "duration_ms": 233142,
+      "slug": "ein-lied-f\u00fcr-diese-welt-lorenz-b\u00fcffel"
+    },
+    {
+      "name": "Batt Spenza",
+      "artists": "Andi Latte",
+      "album": "Batt Spenza",
+      "popularity": 35,
+      "tempo": 139.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.965,
+      "valence": 0.64,
+      "danceability": 0.835,
+      "acousticness": 0.081,
+      "instrumentalness": 0.0,
+      "loudness": -2.2,
+      "speechiness": 0.115,
+      "duration_ms": 195344,
+      "slug": "batt-spenza-andi-latte"
+    },
+    {
+      "name": "Hallihallo",
+      "artists": "Andreas Gabalier",
+      "album": "Hallihallo",
+      "popularity": 35,
+      "tempo": 125.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.702,
+      "valence": 0.566,
+      "danceability": 0.674,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.038,
+      "duration_ms": 213986,
+      "slug": "hallihallo-andreas-gabalier"
+    },
+    {
+      "name": "Liebe ist ...",
+      "artists": "FiNCH;SDP",
+      "album": "Hold Me Now",
+      "popularity": 35,
+      "tempo": 156.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.8,
+      "valence": 0.782,
+      "danceability": 0.631,
+      "acousticness": 0.107,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.101,
+      "duration_ms": 183173,
+      "slug": "liebe-ist-finch"
+    },
+    {
+      "name": "Pfusch die Mauer",
+      "artists": "Die Draufg\u00e4nger",
+      "album": "#Hektarparty",
+      "popularity": 35,
+      "tempo": 132.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.856,
+      "valence": 0.881,
+      "danceability": 0.74,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.036,
+      "duration_ms": 197440,
+      "slug": "pfusch-die-mauer-die-draufg\u00e4nger"
+    },
+    {
+      "name": "N\u00fcchtern",
+      "artists": "Anstandslos & Durchgeknallt;Emi Flemming",
+      "album": "N\u00fcchtern",
+      "popularity": 35,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.844,
+      "danceability": 0.864,
+      "acousticness": 0.19,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.05,
+      "duration_ms": 159375,
+      "slug": "n\u00fcchtern-anstandslos-durchgeknallt"
+    },
+    {
+      "name": "Bongiorno",
+      "artists": "Ikke H\u00fcftgold",
+      "album": "Ballerpunk",
+      "popularity": 35,
+      "tempo": 140.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.973,
+      "valence": 0.937,
+      "danceability": 0.678,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.055,
+      "duration_ms": 193166,
+      "slug": "bongiorno-ikke-h\u00fcftgold"
+    },
+    {
+      "name": "Supergeile Blasmusik",
+      "artists": "Dorfrocker;F\u00e4ttes Blech",
+      "album": "Supergeile Blasmusik",
+      "popularity": 35,
+      "tempo": 134.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.9,
+      "valence": 0.579,
+      "danceability": 0.686,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.063,
+      "duration_ms": 159626,
+      "slug": "supergeile-blasmusik-dorfrocker"
+    },
+    {
+      "name": "Der Gorilla mit der Sonnenbrille",
+      "artists": "Stereoact;Giraffenaffen;Lena Marie Engel",
+      "album": "Giraffenaffen 7 - Die gro\u00dfe Geburtstagsfeier (Party mit Schlagerstars)",
+      "popularity": 35,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.407,
+      "danceability": 0.826,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.109,
+      "duration_ms": 181226,
+      "slug": "der-gorilla-mit-der-sonnenbrille-stereoact"
+    },
+    {
+      "name": "Bauer Cotton Eye Joe",
+      "artists": "Klaus & Klaus",
+      "album": "Bauer Cotton Eye Joe",
+      "popularity": 35,
+      "tempo": 134.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.794,
+      "valence": 0.946,
+      "danceability": 0.679,
+      "acousticness": 0.3,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.054,
+      "duration_ms": 211533,
+      "slug": "bauer-cotton-eye-joe-klaus-klaus"
+    },
+    {
+      "name": "Der Baumgart Marsch - Made in Colonia",
+      "artists": "Lorenz B\u00fcffel",
+      "album": "Der Baumgart Marsch - Made in Colonia",
+      "popularity": 35,
+      "tempo": 133.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.93,
+      "valence": 0.636,
+      "danceability": 0.422,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.35,
+      "duration_ms": 203285,
+      "slug": "der-baumgart-marsch-made-in-colonia-lorenz-b\u00fcffel"
+    },
+    {
+      "name": "Liebe gewinnt",
+      "artists": "Brings",
+      "album": "Liebe gewinnt",
+      "popularity": 35,
+      "tempo": 144.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.654,
+      "valence": 0.344,
+      "danceability": 0.543,
+      "acousticness": 0.092,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.032,
+      "duration_ms": 223493,
+      "slug": "liebe-gewinnt-brings"
+    },
+    {
+      "name": "Ein kleines Hotel bei Cuxhaven",
+      "artists": "Die Flippers",
+      "album": "Singles Vol. 2 (1980 - 1988)",
+      "popularity": 35,
+      "tempo": 128.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.507,
+      "valence": 0.601,
+      "danceability": 0.618,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.032,
+      "duration_ms": 224960,
+      "slug": "ein-kleines-hotel-bei-cuxhaven-die-flippers"
+    },
+    {
+      "name": "Konfetti",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Flamingo + Hoch die H\u00e4nde Wochenende",
+      "popularity": 35,
+      "tempo": 128.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.712,
+      "valence": 0.788,
+      "danceability": 0.796,
+      "acousticness": 0.146,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.098,
+      "duration_ms": 150560,
+      "slug": "konfetti-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Ich hab' mich so auf dich gefreut",
+      "artists": "Matthias Reim",
+      "album": "D\u00e9j\u00e0 Vu - Das Beste Von Matthias Reim",
+      "popularity": 35,
+      "tempo": 164.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.933,
+      "valence": 0.887,
+      "danceability": 0.526,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.075,
+      "duration_ms": 220706,
+      "slug": "ich-hab-mich-so-auf-dich-gefreut-matthias-reim"
+    },
+    {
+      "name": "Hallo, ich m\u00f6cht' gern wissen wie's dir geht",
+      "artists": "Matthias Reim",
+      "album": "D\u00e9j\u00e0 Vu - Das Beste Von Matthias Reim",
+      "popularity": 35,
+      "tempo": 74.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.659,
+      "valence": 0.381,
+      "danceability": 0.506,
+      "acousticness": 0.189,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.053,
+      "duration_ms": 225320,
+      "slug": "hallo-ich-m\u00f6cht-gern-wissen-wies-dir-geht-matthias-reim"
+    },
+    {
+      "name": "Bis um 10",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Alpaland",
+      "popularity": 35,
+      "tempo": 135.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.644,
+      "valence": 0.93,
+      "danceability": 0.821,
+      "acousticness": 0.229,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.133,
+      "duration_ms": 164853,
+      "slug": "bis-um-10-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Walterli",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Alpaland",
+      "popularity": 35,
+      "tempo": 165.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.552,
+      "valence": 0.965,
+      "danceability": 0.739,
+      "acousticness": 0.063,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.104,
+      "duration_ms": 160240,
+      "slug": "walterli-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Malle DNA",
+      "artists": "Rick Arena",
+      "album": "Malle DNA",
+      "popularity": 34,
+      "tempo": 138.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.951,
+      "valence": 0.695,
+      "danceability": 0.639,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.122,
+      "duration_ms": 190160,
+      "slug": "malle-dna-rick-arena"
+    },
+    {
+      "name": "Bis das Licht angeht",
+      "artists": "Buddy",
+      "album": "Bis das Licht angeht",
+      "popularity": 34,
+      "tempo": 139.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.21,
+      "danceability": 0.732,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.141,
+      "duration_ms": 152571,
+      "slug": "bis-das-licht-angeht-buddy"
+    },
+    {
+      "name": "Dahoam",
+      "artists": "Andreas Gabalier",
+      "album": "Herzwerk (Geschenkedition)",
+      "popularity": 34,
+      "tempo": 146.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.827,
+      "valence": 0.626,
+      "danceability": 0.584,
+      "acousticness": 0.235,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.034,
+      "duration_ms": 209026,
+      "slug": "dahoam-andreas-gabalier"
+    },
+    {
+      "name": "A Jeder",
+      "artists": "voXXclub",
+      "album": "Wieder Dahoam",
+      "popularity": 34,
+      "tempo": 138.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.858,
+      "valence": 0.682,
+      "danceability": 0.785,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.126,
+      "duration_ms": 188746,
+      "slug": "a-jeder-voxxclub"
+    },
+    {
+      "name": "Ich kenne einen Cowboy",
+      "artists": "Nancy Franck;Cowboy KiTa Bill",
+      "album": "Best of Kinderkarneval 2019",
+      "popularity": 34,
+      "tempo": 135.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.995,
+      "valence": 0.977,
+      "danceability": 0.657,
+      "acousticness": 0.045,
+      "instrumentalness": 0.003,
+      "loudness": -1.7,
+      "speechiness": 0.038,
+      "duration_ms": 199763,
+      "slug": "ich-kenne-einen-cowboy-nancy-franck"
+    },
+    {
+      "name": "Goldmarie",
+      "artists": "Tream;HBz",
+      "album": "Ballermann Hits 2022",
+      "popularity": 34,
+      "tempo": 149.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.813,
+      "valence": 0.388,
+      "danceability": 0.547,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.314,
+      "duration_ms": 166346,
+      "slug": "goldmarie-tream"
+    },
+    {
+      "name": "ROCKER",
+      "artists": "Tream;treamiboii",
+      "album": "ROCKER",
+      "popularity": 34,
+      "tempo": 132.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.911,
+      "danceability": 0.772,
+      "acousticness": 0.514,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.061,
+      "duration_ms": 112727,
+      "slug": "rocker-tream"
+    },
+    {
+      "name": "Flamingo Go",
+      "artists": "Unnormal",
+      "album": "Flamingo Go",
+      "popularity": 34,
+      "tempo": 148.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.884,
+      "valence": 0.261,
+      "danceability": 0.7,
+      "acousticness": 0.064,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.15,
+      "duration_ms": 233226,
+      "slug": "flamingo-go-unnormal"
+    },
+    {
+      "name": "Er bleibt gleich",
+      "artists": "Kreisligalegende",
+      "album": "Er bleibt gleich",
+      "popularity": 34,
+      "tempo": 129.8,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.947,
+      "valence": 0.881,
+      "danceability": 0.668,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.082,
+      "duration_ms": 209382,
+      "slug": "er-bleibt-gleich-kreisligalegende"
+    },
+    {
+      "name": "Ruinen und Beton",
+      "artists": "Franco Piccolini;Luigi Ferrari",
+      "album": "Ruinen und Beton",
+      "popularity": 34,
+      "tempo": 141.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.625,
+      "valence": 0.257,
+      "danceability": 0.807,
+      "acousticness": 0.261,
+      "instrumentalness": 0.001,
+      "loudness": -7.1,
+      "speechiness": 0.149,
+      "duration_ms": 231233,
+      "slug": "ruinen-und-beton-franco-piccolini"
+    },
+    {
+      "name": "homo sapiens",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "homo sapiens",
+      "popularity": 34,
+      "tempo": 132.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.923,
+      "danceability": 0.855,
+      "acousticness": 0.037,
+      "instrumentalness": 0.007,
+      "loudness": -6.9,
+      "speechiness": 0.051,
+      "duration_ms": 166671,
+      "slug": "homo-sapiens-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Herzalarm",
+      "artists": "FiNCH;Bl\u00fcmchen",
+      "album": "Hold Me Now",
+      "popularity": 34,
+      "tempo": 166.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.932,
+      "valence": 0.539,
+      "danceability": 0.635,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.047,
+      "duration_ms": 191146,
+      "slug": "herzalarm-finch"
+    },
+    {
+      "name": "Hey Baby - Remastered 2019",
+      "artists": "DJ \u00d6tzi",
+      "album": "20 Jahre DJ \u00d6tzi - Party ohne Ende",
+      "popularity": 34,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.978,
+      "valence": 0.431,
+      "danceability": 0.564,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.08,
+      "duration_ms": 220493,
+      "slug": "hey-baby-remastered-2019-dj-\u00f6tzi"
+    },
+    {
+      "name": "Ich hab gehupt",
+      "artists": "Brummi Bryan;Ikke H\u00fcftgold",
+      "album": "Ich hab gehupt",
+      "popularity": 34,
+      "tempo": 138.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.922,
+      "valence": 0.736,
+      "danceability": 0.863,
+      "acousticness": 0.115,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.181,
+      "duration_ms": 128695,
+      "slug": "ich-hab-gehupt-brummi-bryan"
+    },
+    {
+      "name": "FEEL LIKE - Extended Mix",
+      "artists": "Tream;treamiboii",
+      "album": "FEEL LIKE",
+      "popularity": 34,
+      "tempo": 75.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.789,
+      "valence": 0.666,
+      "danceability": 0.672,
+      "acousticness": 0.003,
+      "instrumentalness": 0.027,
+      "loudness": -5.7,
+      "speechiness": 0.1,
+      "duration_ms": 204800,
+      "slug": "feel-like-extended-mix-tream"
+    },
+    {
+      "name": "Partyplanet - Darius & Finlay Remix Edit",
+      "artists": "F\u00e4aschtb\u00e4nkler;Darius & Finlay",
+      "album": "Partyplanet",
+      "popularity": 34,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.829,
+      "valence": 0.5,
+      "danceability": 0.616,
+      "acousticness": 0.027,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.073,
+      "duration_ms": 189219,
+      "slug": "partyplanet-darius-finlay-remix-edit-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Gina Lisa (Spiel mit deinen Glocken)",
+      "artists": "Die Draufg\u00e4nger",
+      "album": "#Hektarparty",
+      "popularity": 34,
+      "tempo": 136.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.921,
+      "valence": 0.52,
+      "danceability": 0.784,
+      "acousticness": 0.093,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.044,
+      "duration_ms": 211880,
+      "slug": "gina-lisa-spiel-mit-deinen-glocken-die-draufg\u00e4nger"
+    },
+    {
+      "name": "Finchi Gonzales",
+      "artists": "FiNCH",
+      "album": "Kassenh\u00e4uschen EP",
+      "popularity": 34,
+      "tempo": 178.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.87,
+      "valence": 0.393,
+      "danceability": 0.751,
+      "acousticness": 0.047,
+      "instrumentalness": 0.003,
+      "loudness": -4.0,
+      "speechiness": 0.238,
+      "duration_ms": 135142,
+      "slug": "finchi-gonzales-finch"
+    },
+    {
+      "name": "Homo Sapiens",
+      "artists": "F\u00e4aschtb\u00e4nkler",
+      "album": "Wir sehn uns wieder",
+      "popularity": 34,
+      "tempo": 132.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.923,
+      "danceability": 0.855,
+      "acousticness": 0.037,
+      "instrumentalness": 0.007,
+      "loudness": -6.9,
+      "speechiness": 0.051,
+      "duration_ms": 166671,
+      "slug": "homo-sapiens-f\u00e4aschtb\u00e4nkler"
+    },
+    {
+      "name": "Flex",
+      "artists": "Cupid",
+      "album": "Flex",
+      "popularity": 34,
+      "tempo": 60.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.674,
+      "valence": 0.751,
+      "danceability": 0.658,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.059,
+      "duration_ms": 228136,
+      "slug": "flex-cupid"
+    },
+    {
+      "name": "S\u00fcnderlein",
+      "artists": "Brings",
+      "album": "S\u00fcnderlein",
+      "popularity": 34,
+      "tempo": 129.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.848,
+      "valence": 0.469,
+      "danceability": 0.602,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.048,
+      "duration_ms": 241162,
+      "slug": "s\u00fcnderlein-brings"
+    }
+  ]
+}

@@ -1,0 +1,2803 @@
+{
+  "genre": "Grindcore",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 62.659,
+    "max": 199.951,
+    "mean": 126.207,
+    "median": 118.592,
+    "q1": 102.145,
+    "q3": 148.655,
+    "histogram": {
+      "60-69": 2,
+      "70-79": 3,
+      "80-89": 5,
+      "90-99": 13,
+      "100-109": 13,
+      "110-119": 16,
+      "120-129": 7,
+      "130-139": 11,
+      "140-149": 6,
+      "150-159": 5,
+      "160-169": 4,
+      "170-179": 10,
+      "190-199": 5
+    }
+  },
+  "key_distribution": {
+    "C#/Db": 30,
+    "E": 13,
+    "F#/Gb": 10,
+    "G#/Ab": 10,
+    "F": 8,
+    "A": 8,
+    "G": 7,
+    "B": 3,
+    "D": 3,
+    "D#/Eb": 3,
+    "A#/Bb": 3,
+    "C": 2
+  },
+  "mode_distribution": {
+    "Major": 66,
+    "Minor": 34
+  },
+  "key_mode_distribution": {
+    "C#/Db Major": 23,
+    "F#/Gb Major": 9,
+    "E Minor": 8,
+    "C#/Db Minor": 7,
+    "G#/Ab Major": 7,
+    "A Major": 6,
+    "E Major": 5,
+    "F Minor": 4,
+    "F Major": 4,
+    "G Major": 4,
+    "G#/Ab Minor": 3,
+    "D Major": 3,
+    "G Minor": 3,
+    "B Major": 2,
+    "A Minor": 2,
+    "D#/Eb Minor": 2,
+    "A#/Bb Minor": 2,
+    "D#/Eb Major": 1,
+    "A#/Bb Major": 1,
+    "B Minor": 1,
+    "C Major": 1,
+    "F#/Gb Minor": 1,
+    "C Minor": 1
+  },
+  "energy": {
+    "min": 0.654,
+    "max": 0.999,
+    "mean": 0.934,
+    "median": 0.962,
+    "q1": 0.905,
+    "q3": 0.988
+  },
+  "valence": {
+    "min": 0.029,
+    "max": 0.965,
+    "mean": 0.237,
+    "median": 0.164,
+    "q1": 0.077,
+    "q3": 0.359
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.986,
+      "valence": 0.177
+    },
+    {
+      "energy": 0.993,
+      "valence": 0.238
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.222
+    },
+    {
+      "energy": 0.923,
+      "valence": 0.391
+    },
+    {
+      "energy": 0.997,
+      "valence": 0.031
+    },
+    {
+      "energy": 0.975,
+      "valence": 0.164
+    },
+    {
+      "energy": 0.995,
+      "valence": 0.038
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.109
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.061
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.072
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.164
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.199
+    },
+    {
+      "energy": 0.978,
+      "valence": 0.149
+    },
+    {
+      "energy": 0.994,
+      "valence": 0.104
+    },
+    {
+      "energy": 0.996,
+      "valence": 0.03
+    },
+    {
+      "energy": 0.948,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.946,
+      "valence": 0.049
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.998,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.743,
+      "valence": 0.357
+    },
+    {
+      "energy": 0.997,
+      "valence": 0.038
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.433
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.848
+    },
+    {
+      "energy": 0.689,
+      "valence": 0.591
+    },
+    {
+      "energy": 0.986,
+      "valence": 0.269
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.144
+    },
+    {
+      "energy": 0.984,
+      "valence": 0.191
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.38
+    },
+    {
+      "energy": 0.998,
+      "valence": 0.033
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.14
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.064
+    },
+    {
+      "energy": 0.899,
+      "valence": 0.425
+    },
+    {
+      "energy": 0.945,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.681
+    },
+    {
+      "energy": 0.993,
+      "valence": 0.067
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.934,
+      "valence": 0.065
+    },
+    {
+      "energy": 0.972,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.818,
+      "valence": 0.075
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.186
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.443
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.996,
+      "valence": 0.085
+    },
+    {
+      "energy": 0.998,
+      "valence": 0.1
+    },
+    {
+      "energy": 0.997,
+      "valence": 0.151
+    },
+    {
+      "energy": 0.997,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.991,
+      "valence": 0.029
+    },
+    {
+      "energy": 0.979,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.998,
+      "valence": 0.029
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.074
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.125
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.124
+    },
+    {
+      "energy": 0.994,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.961,
+      "valence": 0.08
+    },
+    {
+      "energy": 0.992,
+      "valence": 0.032
+    },
+    {
+      "energy": 0.995,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.47
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.869,
+      "valence": 0.107
+    },
+    {
+      "energy": 0.935,
+      "valence": 0.45
+    },
+    {
+      "energy": 0.931,
+      "valence": 0.589
+    },
+    {
+      "energy": 0.847,
+      "valence": 0.921
+    },
+    {
+      "energy": 0.874,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.093
+    },
+    {
+      "energy": 0.92,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.046
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.847,
+      "valence": 0.46
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.291
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.416
+    },
+    {
+      "energy": 0.986,
+      "valence": 0.279
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.165
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.148
+    },
+    {
+      "energy": 0.998,
+      "valence": 0.038
+    },
+    {
+      "energy": 0.987,
+      "valence": 0.039
+    },
+    {
+      "energy": 0.993,
+      "valence": 0.13
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.22
+    },
+    {
+      "energy": 0.994,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.989,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.847,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.171
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.999,
+      "valence": 0.109
+    },
+    {
+      "energy": 0.972,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.626
+    },
+    {
+      "energy": 0.98,
+      "valence": 0.069
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.089
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.811,
+      "valence": 0.264
+    },
+    {
+      "energy": 0.994,
+      "valence": 0.099
+    },
+    {
+      "energy": 0.961,
+      "valence": 0.218
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.41,
+    "mean": 0.009,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.974,
+    "mean": 0.509,
+    "median": 0.617,
+    "q1": 0.125,
+    "q3": 0.835
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.831
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.597
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.804
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.086
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.691
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.236
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.388
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.861
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.868
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.65
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.939
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.141
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.894
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.197
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.974
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.601
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.921
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.869
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.825
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.166
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.761
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.832
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.834
+    },
+    {
+      "acousticness": 0.41,
+      "instrumentalness": 0.15
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.76
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.15
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.932
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.96
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.647
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.708
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.894
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.023
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.474
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.223
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.896
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.817
+    },
+    {
+      "acousticness": 0.077,
+      "instrumentalness": 0.105
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.105
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.949
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.03
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.936
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.473
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.812
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.118
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.836
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.603
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.789
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.874
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.545
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.859
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.15
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.729
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.423
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.964
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.662
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.734
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.901
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.942
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.022
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.116
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.881
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.897
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.736
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.61
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.833
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.333
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.688
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.905
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.012
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.588
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.607
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.152
+    },
+    {
+      "acousticness": 0.162,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.809
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.238
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.835
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.464
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.125
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.793
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.665
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.624
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.899
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.902
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.681
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.242
+    }
+  ],
+  "duration": {
+    "min": 36179,
+    "max": 554780,
+    "mean": 143623.59,
+    "median": 128319.0,
+    "q1": 68506,
+    "q3": 197293
+  },
+  "danceability": {
+    "min": 0.063,
+    "max": 0.487,
+    "mean": 0.266,
+    "median": 0.262,
+    "q1": 0.209,
+    "q3": 0.325
+  },
+  "loudness": {
+    "min": -15.643,
+    "max": -1.99,
+    "mean": -6.12,
+    "median": -4.836,
+    "q1": -7.117,
+    "q3": -3.688
+  },
+  "speechiness": {
+    "min": 0.032,
+    "max": 0.762,
+    "mean": 0.141,
+    "median": 0.116,
+    "q1": 0.081,
+    "q3": 0.164
+  },
+  "top_artists": [
+    {
+      "name": "His Hero Is Gone",
+      "count": 9
+    },
+    {
+      "name": "Cattle Decapitation",
+      "count": 6
+    },
+    {
+      "name": "Carcass",
+      "count": 6
+    },
+    {
+      "name": "Haggus",
+      "count": 6
+    },
+    {
+      "name": "Napalm Death",
+      "count": 5
+    },
+    {
+      "name": "Disfear",
+      "count": 5
+    },
+    {
+      "name": "Weekend Nachos",
+      "count": 5
+    },
+    {
+      "name": "Impetigo",
+      "count": 4
+    },
+    {
+      "name": "Trap Them",
+      "count": 4
+    },
+    {
+      "name": "Anaal Nathrakh",
+      "count": 3
+    },
+    {
+      "name": "disrupt",
+      "count": 3
+    },
+    {
+      "name": "The Red Chord",
+      "count": 3
+    },
+    {
+      "name": "Full Of Hell",
+      "count": 3
+    },
+    {
+      "name": "Despise You",
+      "count": 2
+    },
+    {
+      "name": "Sex Prisoner",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Bring Back the Plague",
+      "artists": "Cattle Decapitation",
+      "album": "Death Atlas",
+      "popularity": 46,
+      "tempo": 117.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.986,
+      "valence": 0.177,
+      "danceability": 0.244,
+      "acousticness": 0.0,
+      "instrumentalness": 0.831,
+      "loudness": -4.1,
+      "speechiness": 0.1,
+      "duration_ms": 268080,
+      "slug": "bring-back-the-plague-cattle-decapitation"
+    },
+    {
+      "name": "Unfit for Human Consumption",
+      "artists": "Carcass",
+      "album": "Surgical Steel",
+      "popularity": 46,
+      "tempo": 76.4,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.993,
+      "valence": 0.238,
+      "danceability": 0.144,
+      "acousticness": 0.0,
+      "instrumentalness": 0.597,
+      "loudness": -4.7,
+      "speechiness": 0.124,
+      "duration_ms": 264680,
+      "slug": "unfit-for-human-consumption-carcass"
+    },
+    {
+      "name": "Scum",
+      "artists": "Napalm Death",
+      "album": "Scum",
+      "popularity": 45,
+      "tempo": 83.3,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.222,
+      "danceability": 0.184,
+      "acousticness": 0.0,
+      "instrumentalness": 0.804,
+      "loudness": -7.7,
+      "speechiness": 0.103,
+      "duration_ms": 158200,
+      "slug": "scum-napalm-death"
+    },
+    {
+      "name": "Black Star",
+      "artists": "Carcass",
+      "album": "Swansong",
+      "popularity": 44,
+      "tempo": 106.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.923,
+      "valence": 0.391,
+      "danceability": 0.348,
+      "acousticness": 0.0,
+      "instrumentalness": 0.086,
+      "loudness": -3.5,
+      "speechiness": 0.062,
+      "duration_ms": 208600,
+      "slug": "black-star-carcass"
+    },
+    {
+      "name": "Forward!",
+      "artists": "Anaal Nathrakh",
+      "album": "A New Kind of Horror",
+      "popularity": 44,
+      "tempo": 150.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.997,
+      "valence": 0.031,
+      "danceability": 0.441,
+      "acousticness": 0.001,
+      "instrumentalness": 0.019,
+      "loudness": -4.9,
+      "speechiness": 0.19,
+      "duration_ms": 209100,
+      "slug": "forward-anaal-nathrakh"
+    },
+    {
+      "name": "Forced Gender Reassignment",
+      "artists": "Cattle Decapitation",
+      "album": "Monolith of Inhumanity",
+      "popularity": 43,
+      "tempo": 115.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.975,
+      "valence": 0.164,
+      "danceability": 0.345,
+      "acousticness": 0.0,
+      "instrumentalness": 0.691,
+      "loudness": -3.6,
+      "speechiness": 0.251,
+      "duration_ms": 233693,
+      "slug": "forced-gender-reassignment-cattle-decapitation"
+    },
+    {
+      "name": "The Wolf I Feed",
+      "artists": "Napalm Death",
+      "album": "Utilitarian",
+      "popularity": 43,
+      "tempo": 172.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.995,
+      "valence": 0.038,
+      "danceability": 0.328,
+      "acousticness": 0.0,
+      "instrumentalness": 0.236,
+      "loudness": -3.7,
+      "speechiness": 0.235,
+      "duration_ms": 170890,
+      "slug": "the-wolf-i-feed-napalm-death"
+    },
+    {
+      "name": "The Geocide",
+      "artists": "Cattle Decapitation",
+      "album": "Death Atlas",
+      "popularity": 41,
+      "tempo": 146.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.98,
+      "valence": 0.109,
+      "danceability": 0.248,
+      "acousticness": 0.0,
+      "instrumentalness": 0.388,
+      "loudness": -3.7,
+      "speechiness": 0.153,
+      "duration_ms": 222965,
+      "slug": "the-geocide-cattle-decapitation"
+    },
+    {
+      "name": "Suffer The Children",
+      "artists": "Napalm Death",
+      "album": "Harmony Corruption",
+      "popularity": 40,
+      "tempo": 148.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.887,
+      "valence": 0.478,
+      "danceability": 0.289,
+      "acousticness": 0.0,
+      "instrumentalness": 0.861,
+      "loudness": -14.4,
+      "speechiness": 0.096,
+      "duration_ms": 260933,
+      "slug": "suffer-the-children-napalm-death"
+    },
+    {
+      "name": "Nazi Punks Fuck Off",
+      "artists": "Napalm Death",
+      "album": "Noise For Music's Sake",
+      "popularity": 40,
+      "tempo": 95.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.977,
+      "valence": 0.316,
+      "danceability": 0.261,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -5.9,
+      "speechiness": 0.089,
+      "duration_ms": 80786,
+      "slug": "nazi-punks-fuck-off-napalm-death"
+    },
+    {
+      "name": "One Day Closer to the End of the World",
+      "artists": "Cattle Decapitation",
+      "album": "Death Atlas",
+      "popularity": 39,
+      "tempo": 125.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.98,
+      "valence": 0.061,
+      "danceability": 0.353,
+      "acousticness": 0.0,
+      "instrumentalness": 0.868,
+      "loudness": -3.8,
+      "speechiness": 0.204,
+      "duration_ms": 227398,
+      "slug": "one-day-closer-to-the-end-of-the-world-cattle-decapitation"
+    },
+    {
+      "name": "Death Atlas",
+      "artists": "Cattle Decapitation",
+      "album": "Death Atlas",
+      "popularity": 39,
+      "tempo": 112.2,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.938,
+      "valence": 0.072,
+      "danceability": 0.3,
+      "acousticness": 0.0,
+      "instrumentalness": 0.65,
+      "loudness": -5.1,
+      "speechiness": 0.079,
+      "duration_ms": 554780,
+      "slug": "death-atlas-cattle-decapitation"
+    },
+    {
+      "name": "Fear Of Napalm",
+      "artists": "Terrorizer",
+      "album": "World Downfall",
+      "popularity": 38,
+      "tempo": 105.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.94,
+      "valence": 0.164,
+      "danceability": 0.219,
+      "acousticness": 0.0,
+      "instrumentalness": 0.939,
+      "loudness": -14.9,
+      "speechiness": 0.057,
+      "duration_ms": 181400,
+      "slug": "fear-of-napalm-terrorizer"
+    },
+    {
+      "name": "Behind Closed Doors",
+      "artists": "Wormrot",
+      "album": "Hiss",
+      "popularity": 37,
+      "tempo": 107.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.946,
+      "valence": 0.199,
+      "danceability": 0.278,
+      "acousticness": 0.0,
+      "instrumentalness": 0.141,
+      "loudness": -4.9,
+      "speechiness": 0.143,
+      "duration_ms": 87786,
+      "slug": "behind-closed-doors-wormrot"
+    },
+    {
+      "name": "The Prophets of Loss",
+      "artists": "Cattle Decapitation",
+      "album": "The Anthropocene Extinction",
+      "popularity": 36,
+      "tempo": 116.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.978,
+      "valence": 0.149,
+      "danceability": 0.284,
+      "acousticness": 0.0,
+      "instrumentalness": 0.894,
+      "loudness": -3.4,
+      "speechiness": 0.095,
+      "duration_ms": 247186,
+      "slug": "the-prophets-of-loss-cattle-decapitation"
+    },
+    {
+      "name": "Get it Off",
+      "artists": "Disfear",
+      "album": "Live the Storm",
+      "popularity": 31,
+      "tempo": 154.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.994,
+      "valence": 0.104,
+      "danceability": 0.205,
+      "acousticness": 0.0,
+      "instrumentalness": 0.197,
+      "loudness": -2.3,
+      "speechiness": 0.148,
+      "duration_ms": 197293,
+      "slug": "get-it-off-disfear"
+    },
+    {
+      "name": "Psychological Necrosis",
+      "artists": "Haggus",
+      "album": "Straight from the Slaughterhaus",
+      "popularity": 29,
+      "tempo": 136.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.996,
+      "valence": 0.03,
+      "danceability": 0.169,
+      "acousticness": 0.0,
+      "instrumentalness": 0.974,
+      "loudness": -3.4,
+      "speechiness": 0.143,
+      "duration_ms": 214615,
+      "slug": "psychological-necrosis-haggus"
+    },
+    {
+      "name": "Roll Call",
+      "artists": "Despise You",
+      "album": "And On and On...",
+      "popularity": 28,
+      "tempo": 66.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.948,
+      "valence": 0.077,
+      "danceability": 0.234,
+      "acousticness": 0.0,
+      "instrumentalness": 0.011,
+      "loudness": -4.5,
+      "speechiness": 0.054,
+      "duration_ms": 70960,
+      "slug": "roll-call-despise-you"
+    },
+    {
+      "name": "Obituary",
+      "artists": "Weekend Nachos",
+      "album": "Worthless",
+      "popularity": 27,
+      "tempo": 62.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.946,
+      "valence": 0.049,
+      "danceability": 0.29,
+      "acousticness": 0.0,
+      "instrumentalness": 0.601,
+      "loudness": -2.7,
+      "speechiness": 0.09,
+      "duration_ms": 71760,
+      "slug": "obituary-weekend-nachos"
+    },
+    {
+      "name": "Religion Is A Fraud",
+      "artists": "disrupt",
+      "album": "Unrest",
+      "popularity": 27,
+      "tempo": 116.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.98,
+      "valence": 0.305,
+      "danceability": 0.315,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -7.1,
+      "speechiness": 0.123,
+      "duration_ms": 153693,
+      "slug": "religion-is-a-fraud-disrupt"
+    },
+    {
+      "name": "Septic Birth Defects",
+      "artists": "Haggus",
+      "album": "Straight from the Slaughterhaus",
+      "popularity": 26,
+      "tempo": 192.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.998,
+      "valence": 0.036,
+      "danceability": 0.087,
+      "acousticness": 0.0,
+      "instrumentalness": 0.921,
+      "loudness": -3.4,
+      "speechiness": 0.127,
+      "duration_ms": 202184,
+      "slug": "septic-birth-defects-haggus"
+    },
+    {
+      "name": "Scare Tactic",
+      "artists": "His Hero Is Gone",
+      "album": "Fool's Gold",
+      "popularity": 25,
+      "tempo": 133.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.743,
+      "valence": 0.357,
+      "danceability": 0.252,
+      "acousticness": 0.0,
+      "instrumentalness": 0.869,
+      "loudness": -13.8,
+      "speechiness": 0.04,
+      "duration_ms": 103492,
+      "slug": "scare-tactic-his-hero-is-gone"
+    },
+    {
+      "name": "Social Erosion",
+      "artists": "Haggus",
+      "album": "Straight from the Slaughterhaus",
+      "popularity": 25,
+      "tempo": 165.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.997,
+      "valence": 0.038,
+      "danceability": 0.168,
+      "acousticness": 0.0,
+      "instrumentalness": 0.825,
+      "loudness": -3.7,
+      "speechiness": 0.307,
+      "duration_ms": 161505,
+      "slug": "social-erosion-haggus"
+    },
+    {
+      "name": "Loaded Dice",
+      "artists": "Sex Prisoner",
+      "album": "Tannhauser Gate",
+      "popularity": 24,
+      "tempo": 141.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.906,
+      "valence": 0.433,
+      "danceability": 0.272,
+      "acousticness": 0.0,
+      "instrumentalness": 0.166,
+      "loudness": -4.7,
+      "speechiness": 0.127,
+      "duration_ms": 70682,
+      "slug": "loaded-dice-sex-prisoner"
+    },
+    {
+      "name": "Sound The Alarm",
+      "artists": "His Hero Is Gone",
+      "album": "Fool's Gold",
+      "popularity": 24,
+      "tempo": 77.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.848,
+      "danceability": 0.19,
+      "acousticness": 0.0,
+      "instrumentalness": 0.761,
+      "loudness": -12.6,
+      "speechiness": 0.148,
+      "duration_ms": 56612,
+      "slug": "sound-the-alarm-his-hero-is-gone"
+    },
+    {
+      "name": "Angry Gods",
+      "artists": "His Hero Is Gone",
+      "album": "The Plot Sickens",
+      "popularity": 24,
+      "tempo": 109.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.689,
+      "valence": 0.591,
+      "danceability": 0.229,
+      "acousticness": 0.0,
+      "instrumentalness": 0.832,
+      "loudness": -11.7,
+      "speechiness": 0.046,
+      "duration_ms": 111679,
+      "slug": "angry-gods-his-hero-is-gone"
+    },
+    {
+      "name": "Skull Crusher",
+      "artists": "Man Is The Bastard",
+      "album": "Sum of the Men \"The Brutality Continues...\"",
+      "popularity": 23,
+      "tempo": 114.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.986,
+      "valence": 0.269,
+      "danceability": 0.444,
+      "acousticness": 0.0,
+      "instrumentalness": 0.834,
+      "loudness": -4.1,
+      "speechiness": 0.061,
+      "duration_ms": 67266,
+      "slug": "skull-crusher-man-is-the-bastard"
+    },
+    {
+      "name": "Life Rejector",
+      "artists": "Deterioration",
+      "album": "Punish the Betrayer",
+      "popularity": 23,
+      "tempo": 94.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.654,
+      "valence": 0.144,
+      "danceability": 0.449,
+      "acousticness": 0.41,
+      "instrumentalness": 0.15,
+      "loudness": -14.4,
+      "speechiness": 0.084,
+      "duration_ms": 87941,
+      "slug": "life-rejector-deterioration"
+    },
+    {
+      "name": "Antman",
+      "artists": "The Red Chord",
+      "album": "Clients",
+      "popularity": 23,
+      "tempo": 115.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.984,
+      "valence": 0.191,
+      "danceability": 0.333,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.164,
+      "duration_ms": 187200,
+      "slug": "antman-the-red-chord"
+    },
+    {
+      "name": "Remedy Past Remedies",
+      "artists": "His Hero Is Gone",
+      "album": "The Plot Sickens",
+      "popularity": 23,
+      "tempo": 98.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.526,
+      "danceability": 0.317,
+      "acousticness": 0.0,
+      "instrumentalness": 0.76,
+      "loudness": -11.5,
+      "speechiness": 0.059,
+      "duration_ms": 46412,
+      "slug": "remedy-past-remedies-his-hero-is-gone"
+    },
+    {
+      "name": "Maggot",
+      "artists": "Insult",
+      "album": "Emobashing Fastcore Pimps",
+      "popularity": 23,
+      "tempo": 88.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.922,
+      "valence": 0.38,
+      "danceability": 0.314,
+      "acousticness": 0.0,
+      "instrumentalness": 0.15,
+      "loudness": -7.3,
+      "speechiness": 0.146,
+      "duration_ms": 88933,
+      "slug": "maggot-insult"
+    },
+    {
+      "name": "To What Fucking End?",
+      "artists": "Haggus",
+      "album": "Straight from the Slaughterhaus",
+      "popularity": 23,
+      "tempo": 117.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.998,
+      "valence": 0.033,
+      "danceability": 0.196,
+      "acousticness": 0.0,
+      "instrumentalness": 0.932,
+      "loudness": -3.3,
+      "speechiness": 0.129,
+      "duration_ms": 111028,
+      "slug": "to-what-fucking-end-haggus"
+    },
+    {
+      "name": "Old Friends Don't Mean Shit",
+      "artists": "Weekend Nachos",
+      "album": "Worthless",
+      "popularity": 23,
+      "tempo": 102.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.836,
+      "valence": 0.14,
+      "danceability": 0.388,
+      "acousticness": 0.0,
+      "instrumentalness": 0.96,
+      "loudness": -3.3,
+      "speechiness": 0.062,
+      "duration_ms": 39733,
+      "slug": "old-friends-dont-mean-shit-weekend-nachos"
+    },
+    {
+      "name": "Dead",
+      "artists": "Napalm Death",
+      "album": "Live at Rock City",
+      "popularity": 23,
+      "tempo": 116.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.964,
+      "valence": 0.064,
+      "danceability": 0.31,
+      "acousticness": 0.0,
+      "instrumentalness": 0.647,
+      "loudness": -9.0,
+      "speechiness": 0.098,
+      "duration_ms": 40226,
+      "slug": "dead-napalm-death"
+    },
+    {
+      "name": "Fool's Gold",
+      "artists": "His Hero Is Gone",
+      "album": "Fool's Gold",
+      "popularity": 22,
+      "tempo": 72.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.899,
+      "valence": 0.425,
+      "danceability": 0.3,
+      "acousticness": 0.0,
+      "instrumentalness": 0.708,
+      "loudness": -13.1,
+      "speechiness": 0.111,
+      "duration_ms": 55132,
+      "slug": "fools-gold-his-hero-is-gone"
+    },
+    {
+      "name": "Italia Di Merda",
+      "artists": "Cripple Bastards",
+      "album": "Frammenti Di Vita",
+      "popularity": 22,
+      "tempo": 118.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.945,
+      "valence": 0.427,
+      "danceability": 0.325,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.345,
+      "duration_ms": 62426,
+      "slug": "italia-di-merda-cripple-bastards"
+    },
+    {
+      "name": "The Willing Host",
+      "artists": "His Hero Is Gone",
+      "album": "The Plot Sickens",
+      "popularity": 22,
+      "tempo": 81.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.887,
+      "valence": 0.681,
+      "danceability": 0.246,
+      "acousticness": 0.0,
+      "instrumentalness": 0.894,
+      "loudness": -12.1,
+      "speechiness": 0.056,
+      "duration_ms": 73719,
+      "slug": "the-willing-host-his-hero-is-gone"
+    },
+    {
+      "name": "Black Earth",
+      "artists": "Weekend Nachos",
+      "album": "Worthless",
+      "popularity": 22,
+      "tempo": 102.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.993,
+      "valence": 0.067,
+      "danceability": 0.187,
+      "acousticness": 0.0,
+      "instrumentalness": 0.023,
+      "loudness": -2.7,
+      "speechiness": 0.116,
+      "duration_ms": 93373,
+      "slug": "black-earth-weekend-nachos"
+    },
+    {
+      "name": "Martyrs Of The Shoah",
+      "artists": "Magrudergrind",
+      "album": "Magrudergrind",
+      "popularity": 22,
+      "tempo": 109.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.936,
+      "valence": 0.233,
+      "danceability": 0.258,
+      "acousticness": 0.0,
+      "instrumentalness": 0.474,
+      "loudness": -6.1,
+      "speechiness": 0.082,
+      "duration_ms": 165746,
+      "slug": "martyrs-of-the-shoah-magrudergrind"
+    },
+    {
+      "name": "Divisions",
+      "artists": "Despise You",
+      "album": "West Side Horizons",
+      "popularity": 21,
+      "tempo": 116.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.934,
+      "valence": 0.065,
+      "danceability": 0.302,
+      "acousticness": 0.0,
+      "instrumentalness": 0.223,
+      "loudness": -5.1,
+      "speechiness": 0.13,
+      "duration_ms": 48333,
+      "slug": "divisions-despise-you"
+    },
+    {
+      "name": "Entomb",
+      "artists": "Vermin Womb",
+      "album": "Decline",
+      "popularity": 21,
+      "tempo": 143.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.972,
+      "valence": 0.077,
+      "danceability": 0.174,
+      "acousticness": 0.0,
+      "instrumentalness": 0.896,
+      "loudness": -4.5,
+      "speechiness": 0.161,
+      "duration_ms": 141294,
+      "slug": "entomb-vermin-womb"
+    },
+    {
+      "name": "Degrade",
+      "artists": "Fluoride",
+      "album": "Disentanglement",
+      "popularity": 21,
+      "tempo": 162.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.818,
+      "valence": 0.075,
+      "danceability": 0.091,
+      "acousticness": 0.0,
+      "instrumentalness": 0.817,
+      "loudness": -4.4,
+      "speechiness": 0.106,
+      "duration_ms": 149797,
+      "slug": "degrade-fluoride"
+    },
+    {
+      "name": "Zombie",
+      "artists": "Impetigo",
+      "album": "Ultimo Mondo Cannibale",
+      "popularity": 21,
+      "tempo": 162.4,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.82,
+      "valence": 0.861,
+      "danceability": 0.325,
+      "acousticness": 0.077,
+      "instrumentalness": 0.105,
+      "loudness": -7.6,
+      "speechiness": 0.762,
+      "duration_ms": 68506,
+      "slug": "zombie-impetigo"
+    },
+    {
+      "name": "A Raiva Muda o Mundo",
+      "artists": "Manger Cadavre?",
+      "album": "Decomposi\u00e7\u00e3o",
+      "popularity": 21,
+      "tempo": 135.6,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.887,
+      "valence": 0.186,
+      "danceability": 0.217,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -5.1,
+      "speechiness": 0.07,
+      "duration_ms": 177640,
+      "slug": "a-raiva-muda-o-mundo-manger-cadavre"
+    },
+    {
+      "name": "Trag\u00e9dias Previstas",
+      "artists": "Manger Cadavre?",
+      "album": "Decomposi\u00e7\u00e3o",
+      "popularity": 21,
+      "tempo": 88.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.936,
+      "valence": 0.443,
+      "danceability": 0.311,
+      "acousticness": 0.0,
+      "instrumentalness": 0.105,
+      "loudness": -4.7,
+      "speechiness": 0.08,
+      "duration_ms": 124800,
+      "slug": "trag\u00e9dias-previstas-manger-cadavre"
+    },
+    {
+      "name": "Domesticated Breed",
+      "artists": "His Hero Is Gone",
+      "album": "The Plot Sickens",
+      "popularity": 21,
+      "tempo": 198.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.905,
+      "valence": 0.441,
+      "danceability": 0.132,
+      "acousticness": 0.0,
+      "instrumentalness": 0.949,
+      "loudness": -12.4,
+      "speechiness": 0.061,
+      "duration_ms": 54132,
+      "slug": "domesticated-breed-his-hero-is-gone"
+    },
+    {
+      "name": "Fiery Father",
+      "artists": "Disfear",
+      "album": "Live the Storm",
+      "popularity": 21,
+      "tempo": 170.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.996,
+      "valence": 0.085,
+      "danceability": 0.168,
+      "acousticness": 0.0,
+      "instrumentalness": 0.03,
+      "loudness": -2.3,
+      "speechiness": 0.176,
+      "duration_ms": 159053,
+      "slug": "fiery-father-disfear"
+    },
+    {
+      "name": "A Disease Called Man",
+      "artists": "Dropdead",
+      "album": "Dropdead / Totalitar Split",
+      "popularity": 21,
+      "tempo": 119.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.998,
+      "valence": 0.1,
+      "danceability": 0.26,
+      "acousticness": 0.0,
+      "instrumentalness": 0.936,
+      "loudness": -5.4,
+      "speechiness": 0.113,
+      "duration_ms": 66066,
+      "slug": "a-disease-called-man-dropdead"
+    },
+    {
+      "name": "Xenophobia",
+      "artists": "disrupt",
+      "album": "The Rest",
+      "popularity": 21,
+      "tempo": 175.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.997,
+      "valence": 0.151,
+      "danceability": 0.267,
+      "acousticness": 0.0,
+      "instrumentalness": 0.009,
+      "loudness": -5.3,
+      "speechiness": 0.11,
+      "duration_ms": 67520,
+      "slug": "xenophobia-disrupt"
+    },
+    {
+      "name": "Terminally Infernal",
+      "artists": "Haggus",
+      "album": "Straight from the Slaughterhaus",
+      "popularity": 21,
+      "tempo": 178.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.997,
+      "valence": 0.036,
+      "danceability": 0.105,
+      "acousticness": 0.0,
+      "instrumentalness": 0.473,
+      "loudness": -3.5,
+      "speechiness": 0.116,
+      "duration_ms": 175266,
+      "slug": "terminally-infernal-haggus"
+    },
+    {
+      "name": "Felt Nothing",
+      "artists": "Soilent Green",
+      "album": "Sewn Mouth Secrets & A String of Lies",
+      "popularity": 21,
+      "tempo": 130.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.039,
+      "danceability": 0.344,
+      "acousticness": 0.018,
+      "instrumentalness": 0.812,
+      "loudness": -5.8,
+      "speechiness": 0.148,
+      "duration_ms": 61173,
+      "slug": "felt-nothing-soilent-green"
+    },
+    {
+      "name": "Car Battery Interrogation",
+      "artists": "Deterioration",
+      "album": "Lupara Bianca",
+      "popularity": 21,
+      "tempo": 107.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.991,
+      "valence": 0.029,
+      "danceability": 0.24,
+      "acousticness": 0.005,
+      "instrumentalness": 0.118,
+      "loudness": -7.3,
+      "speechiness": 0.148,
+      "duration_ms": 64033,
+      "slug": "car-battery-interrogation-deterioration"
+    },
+    {
+      "name": "Powerload",
+      "artists": "Disfear",
+      "album": "Misanthropic Generation",
+      "popularity": 21,
+      "tempo": 160.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.979,
+      "valence": 0.118,
+      "danceability": 0.16,
+      "acousticness": 0.0,
+      "instrumentalness": 0.836,
+      "loudness": -5.5,
+      "speechiness": 0.104,
+      "duration_ms": 219960,
+      "slug": "powerload-disfear"
+    },
+    {
+      "name": "Gordian Knot",
+      "artists": "Full Of Hell",
+      "album": "Full of Hell & Merzbow",
+      "popularity": 21,
+      "tempo": 99.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.998,
+      "valence": 0.029,
+      "danceability": 0.305,
+      "acousticness": 0.0,
+      "instrumentalness": 0.603,
+      "loudness": -4.3,
+      "speechiness": 0.107,
+      "duration_ms": 55955,
+      "slug": "gordian-knot-full-of-hell"
+    },
+    {
+      "name": "Punish Them",
+      "artists": "Anaal Nathrakh",
+      "album": "Endarkenment",
+      "popularity": 21,
+      "tempo": 170.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.074,
+      "danceability": 0.193,
+      "acousticness": 0.0,
+      "instrumentalness": 0.789,
+      "loudness": -4.9,
+      "speechiness": 0.091,
+      "duration_ms": 217773,
+      "slug": "punish-them-anaal-nathrakh"
+    },
+    {
+      "name": "Endless Drone",
+      "artists": "Full Of Hell",
+      "album": "Roots of Earth Are Consuming My Home",
+      "popularity": 21,
+      "tempo": 126.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.891,
+      "valence": 0.125,
+      "danceability": 0.263,
+      "acousticness": 0.0,
+      "instrumentalness": 0.007,
+      "loudness": -4.9,
+      "speechiness": 0.06,
+      "duration_ms": 165120,
+      "slug": "endless-drone-full-of-hell"
+    },
+    {
+      "name": "Excoriating Abdominal Emanation",
+      "artists": "Carcass",
+      "album": "Symphonies of Sickness",
+      "popularity": 21,
+      "tempo": 97.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.841,
+      "valence": 0.219,
+      "danceability": 0.24,
+      "acousticness": 0.0,
+      "instrumentalness": 0.874,
+      "loudness": -11.6,
+      "speechiness": 0.084,
+      "duration_ms": 271693,
+      "slug": "excoriating-abdominal-emanation-carcass"
+    },
+    {
+      "name": "Psychonaut",
+      "artists": "Hatred Surge",
+      "album": "Human Overdose",
+      "popularity": 20,
+      "tempo": 139.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.124,
+      "danceability": 0.216,
+      "acousticness": 0.0,
+      "instrumentalness": 0.545,
+      "loudness": -6.9,
+      "speechiness": 0.113,
+      "duration_ms": 235358,
+      "slug": "psychonaut-hatred-surge"
+    },
+    {
+      "name": "Maggots",
+      "artists": "Impetigo",
+      "album": "Ultimo Mondo Cannibale",
+      "popularity": 20,
+      "tempo": 154.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.994,
+      "valence": 0.291,
+      "danceability": 0.259,
+      "acousticness": 0.009,
+      "instrumentalness": 0.859,
+      "loudness": -5.8,
+      "speechiness": 0.455,
+      "duration_ms": 224346,
+      "slug": "maggots-impetigo"
+    },
+    {
+      "name": "I Work for the Streetcleaner",
+      "artists": "Impetigo",
+      "album": "Horror of the Zombies",
+      "popularity": 20,
+      "tempo": 118.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.961,
+      "valence": 0.08,
+      "danceability": 0.233,
+      "acousticness": 0.003,
+      "instrumentalness": 0.15,
+      "loudness": -4.4,
+      "speechiness": 0.276,
+      "duration_ms": 431520,
+      "slug": "i-work-for-the-streetcleaner-impetigo"
+    },
+    {
+      "name": "Unnegotiable Impact",
+      "artists": "Internal Rot",
+      "album": "Grieving Birth",
+      "popularity": 20,
+      "tempo": 131.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.992,
+      "valence": 0.032,
+      "danceability": 0.16,
+      "acousticness": 0.004,
+      "instrumentalness": 0.729,
+      "loudness": -3.7,
+      "speechiness": 0.126,
+      "duration_ms": 76720,
+      "slug": "unnegotiable-impact-internal-rot"
+    },
+    {
+      "name": "Apology for Praxeology",
+      "artists": "Haggus",
+      "album": "Straight from the Slaughterhaus",
+      "popularity": 20,
+      "tempo": 122.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.995,
+      "valence": 0.036,
+      "danceability": 0.208,
+      "acousticness": 0.0,
+      "instrumentalness": 0.423,
+      "loudness": -3.4,
+      "speechiness": 0.159,
+      "duration_ms": 187211,
+      "slug": "apology-for-praxeology-haggus"
+    },
+    {
+      "name": "Nearly Depacitated",
+      "artists": "Couple Skate",
+      "album": "Gore Orphanage",
+      "popularity": 20,
+      "tempo": 130.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.741,
+      "valence": 0.47,
+      "danceability": 0.363,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.358,
+      "duration_ms": 36179,
+      "slug": "nearly-depacitated-couple-skate"
+    },
+    {
+      "name": "Rise And Fall Of Empires Past",
+      "artists": "Magrudergrind",
+      "album": "Magrudergrind",
+      "popularity": 20,
+      "tempo": 126.6,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.933,
+      "valence": 0.37,
+      "danceability": 0.26,
+      "acousticness": 0.0,
+      "instrumentalness": 0.964,
+      "loudness": -4.5,
+      "speechiness": 0.129,
+      "duration_ms": 39893,
+      "slug": "rise-and-fall-of-empires-past-magrudergrind"
+    },
+    {
+      "name": "Fuck the System",
+      "artists": "Archagathus",
+      "album": "Canadian Horse",
+      "popularity": 20,
+      "tempo": 123.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.869,
+      "valence": 0.107,
+      "danceability": 0.331,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.088,
+      "duration_ms": 83474,
+      "slug": "fuck-the-system-archagathus"
+    },
+    {
+      "name": "Who Benefits",
+      "artists": "His Hero Is Gone",
+      "album": "The Plot Sickens",
+      "popularity": 20,
+      "tempo": 100.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.935,
+      "valence": 0.45,
+      "danceability": 0.229,
+      "acousticness": 0.0,
+      "instrumentalness": 0.662,
+      "loudness": -12.0,
+      "speechiness": 0.061,
+      "duration_ms": 54172,
+      "slug": "who-benefits-his-hero-is-gone"
+    },
+    {
+      "name": "Becoming Soil",
+      "artists": "His Hero Is Gone",
+      "album": "Fool's Gold",
+      "popularity": 20,
+      "tempo": 141.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.931,
+      "valence": 0.589,
+      "danceability": 0.229,
+      "acousticness": 0.0,
+      "instrumentalness": 0.734,
+      "loudness": -12.4,
+      "speechiness": 0.093,
+      "duration_ms": 76252,
+      "slug": "becoming-soil-his-hero-is-gone"
+    },
+    {
+      "name": "Decaying",
+      "artists": "Capitalist Casualties",
+      "album": "Disassembly Line",
+      "popularity": 20,
+      "tempo": 99.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.847,
+      "valence": 0.921,
+      "danceability": 0.294,
+      "acousticness": 0.0,
+      "instrumentalness": 0.901,
+      "loudness": -12.6,
+      "speechiness": 0.036,
+      "duration_ms": 134146,
+      "slug": "decaying-capitalist-casualties"
+    },
+    {
+      "name": "Plastic Public",
+      "artists": "Capitalist Casualties",
+      "album": "Disassembly Line",
+      "popularity": 20,
+      "tempo": 113.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.874,
+      "valence": 0.965,
+      "danceability": 0.487,
+      "acousticness": 0.0,
+      "instrumentalness": 0.942,
+      "loudness": -11.8,
+      "speechiness": 0.032,
+      "duration_ms": 69960,
+      "slug": "plastic-public-capitalist-casualties"
+    },
+    {
+      "name": "Surf Goataragua - Sacred Reich Cover",
+      "artists": "Milking the Goatmachine",
+      "album": "Back from the Goats",
+      "popularity": 20,
+      "tempo": 200.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.977,
+      "valence": 0.093,
+      "danceability": 0.338,
+      "acousticness": 0.0,
+      "instrumentalness": 0.022,
+      "loudness": -4.9,
+      "speechiness": 0.316,
+      "duration_ms": 149343,
+      "slug": "surf-goataragua-sacred-reich-cover-milking-the-goatmachine"
+    },
+    {
+      "name": "Black Santa",
+      "artists": "The Red Chord",
+      "album": "Clients",
+      "popularity": 20,
+      "tempo": 98.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.92,
+      "valence": 0.146,
+      "danceability": 0.28,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.154,
+      "duration_ms": 172066,
+      "slug": "black-santa-the-red-chord"
+    },
+    {
+      "name": "Shot in the Head",
+      "artists": "Weekend Nachos",
+      "album": "Unforgivable",
+      "popularity": 20,
+      "tempo": 80.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.968,
+      "valence": 0.131,
+      "danceability": 0.168,
+      "acousticness": 0.0,
+      "instrumentalness": 0.116,
+      "loudness": -4.5,
+      "speechiness": 0.073,
+      "duration_ms": 90840,
+      "slug": "shot-in-the-head-weekend-nachos"
+    },
+    {
+      "name": "Deathtripper",
+      "artists": "Pig Destroyer",
+      "album": "Phantom Limb",
+      "popularity": 20,
+      "tempo": 139.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.046,
+      "danceability": 0.251,
+      "acousticness": 0.0,
+      "instrumentalness": 0.881,
+      "loudness": -3.7,
+      "speechiness": 0.238,
+      "duration_ms": 64346,
+      "slug": "deathtripper-pig-destroyer"
+    },
+    {
+      "name": "Coven of the Larynx",
+      "artists": "Full Of Hell",
+      "album": "Rudiments of Mutilation",
+      "popularity": 20,
+      "tempo": 194.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.915,
+      "valence": 0.185,
+      "danceability": 0.064,
+      "acousticness": 0.0,
+      "instrumentalness": 0.897,
+      "loudness": -6.9,
+      "speechiness": 0.074,
+      "duration_ms": 63011,
+      "slug": "coven-of-the-larynx-full-of-hell"
+    },
+    {
+      "name": "Empathological Necroticism",
+      "artists": "Carcass",
+      "album": "Symphonies of Sickness",
+      "popularity": 20,
+      "tempo": 134.2,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.847,
+      "valence": 0.46,
+      "danceability": 0.252,
+      "acousticness": 0.0,
+      "instrumentalness": 0.736,
+      "loudness": -11.5,
+      "speechiness": 0.08,
+      "duration_ms": 345066,
+      "slug": "empathological-necroticism-carcass"
+    },
+    {
+      "name": "Trap the and Kill Them",
+      "artists": "Impetigo",
+      "album": "Horror of the Zombies",
+      "popularity": 19,
+      "tempo": 97.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.981,
+      "valence": 0.291,
+      "danceability": 0.312,
+      "acousticness": 0.0,
+      "instrumentalness": 0.61,
+      "loudness": -4.0,
+      "speechiness": 0.111,
+      "duration_ms": 168040,
+      "slug": "trap-the-and-kill-them-impetigo"
+    },
+    {
+      "name": "Dethrone the Tyrant",
+      "artists": "Agathocles",
+      "album": "Mincer",
+      "popularity": 19,
+      "tempo": 143.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.887,
+      "valence": 0.416,
+      "danceability": 0.322,
+      "acousticness": 0.0,
+      "instrumentalness": 0.833,
+      "loudness": -3.9,
+      "speechiness": 0.207,
+      "duration_ms": 67693,
+      "slug": "dethrone-the-tyrant-agathocles"
+    },
+    {
+      "name": "Testament",
+      "artists": "Disfear",
+      "album": "Live the Storm",
+      "popularity": 19,
+      "tempo": 111.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.986,
+      "valence": 0.279,
+      "danceability": 0.354,
+      "acousticness": 0.0,
+      "instrumentalness": 0.009,
+      "loudness": -3.0,
+      "speechiness": 0.13,
+      "duration_ms": 157613,
+      "slug": "testament-disfear"
+    },
+    {
+      "name": "Manipulate/Consume",
+      "artists": "No/M\u00e1s",
+      "album": "Consume / Deny / Repent",
+      "popularity": 19,
+      "tempo": 103.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.956,
+      "valence": 0.165,
+      "danceability": 0.269,
+      "acousticness": 0.0,
+      "instrumentalness": 0.333,
+      "loudness": -3.9,
+      "speechiness": 0.169,
+      "duration_ms": 131838,
+      "slug": "manipulateconsume-nom\u00e1s"
+    },
+    {
+      "name": "Shoulders Straight",
+      "artists": "Sex Prisoner",
+      "album": "Tannhauser Gate",
+      "popularity": 19,
+      "tempo": 179.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.148,
+      "danceability": 0.179,
+      "acousticness": 0.0,
+      "instrumentalness": 0.688,
+      "loudness": -4.7,
+      "speechiness": 0.152,
+      "duration_ms": 40910,
+      "slug": "shoulders-straight-sex-prisoner"
+    },
+    {
+      "name": "Suicide Mission",
+      "artists": "Hatred Surge",
+      "album": "Human Overdose",
+      "popularity": 19,
+      "tempo": 91.6,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.998,
+      "valence": 0.038,
+      "danceability": 0.154,
+      "acousticness": 0.0,
+      "instrumentalness": 0.905,
+      "loudness": -6.4,
+      "speechiness": 0.115,
+      "duration_ms": 63167,
+      "slug": "suicide-mission-hatred-surge"
+    },
+    {
+      "name": "Phantom",
+      "artists": "Disfear",
+      "album": "Live the Storm",
+      "popularity": 19,
+      "tempo": 175.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.987,
+      "valence": 0.039,
+      "danceability": 0.081,
+      "acousticness": 0.0,
+      "instrumentalness": 0.012,
+      "loudness": -3.1,
+      "speechiness": 0.179,
+      "duration_ms": 431506,
+      "slug": "phantom-disfear"
+    },
+    {
+      "name": "Protest",
+      "artists": "disrupt",
+      "album": "The Rest",
+      "popularity": 19,
+      "tempo": 171.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.993,
+      "valence": 0.13,
+      "danceability": 0.192,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.232,
+      "duration_ms": 114933,
+      "slug": "protest-disrupt"
+    },
+    {
+      "name": "Slumcult & Gather",
+      "artists": "Trap Them",
+      "album": "Darker Handcraft",
+      "popularity": 19,
+      "tempo": 177.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.22,
+      "danceability": 0.262,
+      "acousticness": 0.0,
+      "instrumentalness": 0.588,
+      "loudness": -3.4,
+      "speechiness": 0.221,
+      "duration_ms": 203066,
+      "slug": "slumcult-gather-trap-them"
+    },
+    {
+      "name": "Saintpeelers",
+      "artists": "Trap Them",
+      "album": "Darker Handcraft",
+      "popularity": 19,
+      "tempo": 100.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.994,
+      "valence": 0.118,
+      "danceability": 0.321,
+      "acousticness": 0.0,
+      "instrumentalness": 0.607,
+      "loudness": -2.9,
+      "speechiness": 0.15,
+      "duration_ms": 75200,
+      "slug": "saintpeelers-trap-them"
+    },
+    {
+      "name": "Lay The Tarp",
+      "artists": "The Red Chord",
+      "album": "Clients",
+      "popularity": 19,
+      "tempo": 97.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.359,
+      "danceability": 0.347,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.111,
+      "duration_ms": 192760,
+      "slug": "lay-the-tarp-the-red-chord"
+    },
+    {
+      "name": "Manic in the Grips",
+      "artists": "Trap Them",
+      "album": "Darker Handcraft",
+      "popularity": 19,
+      "tempo": 91.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.989,
+      "valence": 0.483,
+      "danceability": 0.442,
+      "acousticness": 0.0,
+      "instrumentalness": 0.152,
+      "loudness": -2.9,
+      "speechiness": 0.086,
+      "duration_ms": 58400,
+      "slug": "manic-in-the-grips-trap-them"
+    },
+    {
+      "name": "Danza De Los Cristales",
+      "artists": "Narcosis",
+      "album": "Primera Dosis",
+      "popularity": 19,
+      "tempo": 150.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.847,
+      "valence": 0.478,
+      "danceability": 0.352,
+      "acousticness": 0.162,
+      "instrumentalness": 0.005,
+      "loudness": -8.5,
+      "speechiness": 0.063,
+      "duration_ms": 182821,
+      "slug": "danza-de-los-cristales-narcosis"
+    },
+    {
+      "name": "Every Walk a Quarantine",
+      "artists": "Trap Them",
+      "album": "Darker Handcraft",
+      "popularity": 19,
+      "tempo": 125.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.985,
+      "valence": 0.359,
+      "danceability": 0.362,
+      "acousticness": 0.0,
+      "instrumentalness": 0.809,
+      "loudness": -3.0,
+      "speechiness": 0.214,
+      "duration_ms": 175146,
+      "slug": "every-walk-a-quarantine-trap-them"
+    },
+    {
+      "name": "Embalmed",
+      "artists": "Autopsy",
+      "album": "Severed Survival",
+      "popularity": 19,
+      "tempo": 104.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.171,
+      "danceability": 0.219,
+      "acousticness": 0.0,
+      "instrumentalness": 0.238,
+      "loudness": -8.1,
+      "speechiness": 0.07,
+      "duration_ms": 182266,
+      "slug": "embalmed-autopsy"
+    },
+    {
+      "name": "Phantom Limb",
+      "artists": "Pig Destroyer",
+      "album": "Phantom Limb",
+      "popularity": 19,
+      "tempo": 116.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.965,
+      "valence": 0.077,
+      "danceability": 0.382,
+      "acousticness": 0.0,
+      "instrumentalness": 0.835,
+      "loudness": -4.6,
+      "speechiness": 0.226,
+      "duration_ms": 97986,
+      "slug": "phantom-limb-pig-destroyer"
+    },
+    {
+      "name": "Kill Theme for American Apeshit",
+      "artists": "Agoraphobic Nosebleed",
+      "album": "Frozen Corpse Stuffed With Dope",
+      "popularity": 19,
+      "tempo": 154.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.999,
+      "valence": 0.109,
+      "danceability": 0.234,
+      "acousticness": 0.0,
+      "instrumentalness": 0.464,
+      "loudness": -2.0,
+      "speechiness": 0.279,
+      "duration_ms": 62613,
+      "slug": "kill-theme-for-american-apeshit-agoraphobic-nosebleed"
+    },
+    {
+      "name": "You're Not Punk",
+      "artists": "Weekend Nachos",
+      "album": "Still",
+      "popularity": 19,
+      "tempo": 96.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.972,
+      "valence": 0.221,
+      "danceability": 0.369,
+      "acousticness": 0.0,
+      "instrumentalness": 0.125,
+      "loudness": -4.3,
+      "speechiness": 0.081,
+      "duration_ms": 57306,
+      "slug": "youre-not-punk-weekend-nachos"
+    },
+    {
+      "name": "Radio Hit",
+      "artists": "Anal Cunt",
+      "album": "Morbid Florist",
+      "popularity": 19,
+      "tempo": 97.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.626,
+      "danceability": 0.328,
+      "acousticness": 0.0,
+      "instrumentalness": 0.793,
+      "loudness": -5.8,
+      "speechiness": 0.044,
+      "duration_ms": 71866,
+      "slug": "radio-hit-anal-cunt"
+    },
+    {
+      "name": "Sammy Jankis",
+      "artists": "The Tony Danza Tapdance Extravaganza",
+      "album": "Danza 3: The Series of Unfortunate Events",
+      "popularity": 19,
+      "tempo": 170.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.98,
+      "valence": 0.069,
+      "danceability": 0.434,
+      "acousticness": 0.002,
+      "instrumentalness": 0.665,
+      "loudness": -5.5,
+      "speechiness": 0.243,
+      "duration_ms": 211139,
+      "slug": "sammy-jankis-the-tony-danza-tapdance-extravaganza"
+    },
+    {
+      "name": "A Metaphor For The Dead",
+      "artists": "Anaal Nathrakh",
+      "album": "Vanitas",
+      "popularity": 19,
+      "tempo": 139.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.81,
+      "valence": 0.089,
+      "danceability": 0.306,
+      "acousticness": 0.0,
+      "instrumentalness": 0.624,
+      "loudness": -2.6,
+      "speechiness": 0.057,
+      "duration_ms": 259826,
+      "slug": "a-metaphor-for-the-dead-anaal-nathrakh"
+    },
+    {
+      "name": "Swarming Vulgar Mass of Infected Virulency",
+      "artists": "Carcass",
+      "album": "Symphonies of Sickness",
+      "popularity": 19,
+      "tempo": 102.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.846,
+      "valence": 0.359,
+      "danceability": 0.253,
+      "acousticness": 0.0,
+      "instrumentalness": 0.899,
+      "loudness": -11.6,
+      "speechiness": 0.079,
+      "duration_ms": 190506,
+      "slug": "swarming-vulgar-mass-of-infected-virulency-carcass"
+    },
+    {
+      "name": "Buried Dreams - Demo",
+      "artists": "Carcass",
+      "album": "Heartwork (Ultimate Edition)",
+      "popularity": 19,
+      "tempo": 131.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.811,
+      "valence": 0.264,
+      "danceability": 0.209,
+      "acousticness": 0.0,
+      "instrumentalness": 0.902,
+      "loudness": -15.6,
+      "speechiness": 0.117,
+      "duration_ms": 246480,
+      "slug": "buried-dreams-demo-carcass"
+    },
+    {
+      "name": "Undeterminate",
+      "artists": "Antigama",
+      "album": "Whiteout",
+      "popularity": 18,
+      "tempo": 129.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.994,
+      "valence": 0.099,
+      "danceability": 0.373,
+      "acousticness": 0.0,
+      "instrumentalness": 0.681,
+      "loudness": -5.6,
+      "speechiness": 0.209,
+      "duration_ms": 105186,
+      "slug": "undeterminate-antigama"
+    },
+    {
+      "name": "Perennial Loser",
+      "artists": "Archagathus",
+      "album": "Canadian Horse",
+      "popularity": 18,
+      "tempo": 199.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.961,
+      "valence": 0.218,
+      "danceability": 0.063,
+      "acousticness": 0.001,
+      "instrumentalness": 0.242,
+      "loudness": -6.7,
+      "speechiness": 0.24,
+      "duration_ms": 81988,
+      "slug": "perennial-loser-archagathus"
+    }
+  ]
+}

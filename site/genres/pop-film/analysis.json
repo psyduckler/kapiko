@@ -1,0 +1,2802 @@
+{
+  "genre": "Pop Film",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 65.528,
+    "max": 191.827,
+    "mean": 113.906,
+    "median": 111.474,
+    "q1": 90.058,
+    "q3": 132.261,
+    "histogram": {
+      "60-69": 1,
+      "70-79": 8,
+      "80-89": 15,
+      "90-99": 14,
+      "100-109": 9,
+      "110-119": 15,
+      "120-129": 12,
+      "130-139": 7,
+      "140-149": 7,
+      "150-159": 5,
+      "160-169": 3,
+      "170-179": 2,
+      "180-189": 1,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "E": 13,
+    "A": 12,
+    "D": 12,
+    "B": 9,
+    "C": 9,
+    "G#/Ab": 9,
+    "C#/Db": 8,
+    "G": 8,
+    "F#/Gb": 7,
+    "F": 7,
+    "A#/Bb": 4,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Minor": 36,
+    "Major": 64
+  },
+  "key_mode_distribution": {
+    "D Major": 10,
+    "G#/Ab Major": 9,
+    "A Major": 8,
+    "E Major": 7,
+    "E Minor": 6,
+    "C Major": 6,
+    "G Major": 6,
+    "C#/Db Major": 5,
+    "B Minor": 5,
+    "A Minor": 4,
+    "A#/Bb Minor": 4,
+    "B Major": 4,
+    "F#/Gb Major": 4,
+    "F Minor": 4,
+    "C#/Db Minor": 3,
+    "F Major": 3,
+    "C Minor": 3,
+    "F#/Gb Minor": 3,
+    "D#/Eb Major": 2,
+    "G Minor": 2,
+    "D Minor": 2
+  },
+  "energy": {
+    "min": 0.227,
+    "max": 0.962,
+    "mean": 0.597,
+    "median": 0.603,
+    "q1": 0.478,
+    "q3": 0.713
+  },
+  "valence": {
+    "min": 0.193,
+    "max": 0.912,
+    "mean": 0.54,
+    "median": 0.53,
+    "q1": 0.381,
+    "q3": 0.704
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.614,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.859
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.762
+    },
+    {
+      "energy": 0.612,
+      "valence": 0.241
+    },
+    {
+      "energy": 0.536,
+      "valence": 0.877
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.236
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.611
+    },
+    {
+      "energy": 0.92,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.373
+    },
+    {
+      "energy": 0.478,
+      "valence": 0.341
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.743
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.212
+    },
+    {
+      "energy": 0.366,
+      "valence": 0.508
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.4,
+      "valence": 0.617
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.539,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.429,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.771,
+      "valence": 0.539
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.749
+    },
+    {
+      "energy": 0.632,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.829
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.344,
+      "valence": 0.548
+    },
+    {
+      "energy": 0.495,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.432,
+      "valence": 0.693
+    },
+    {
+      "energy": 0.553,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.758
+    },
+    {
+      "energy": 0.638,
+      "valence": 0.813
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.82
+    },
+    {
+      "energy": 0.392,
+      "valence": 0.257
+    },
+    {
+      "energy": 0.449,
+      "valence": 0.317
+    },
+    {
+      "energy": 0.587,
+      "valence": 0.774
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.207
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.494
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.864
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.516
+    },
+    {
+      "energy": 0.551,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.89,
+      "valence": 0.891
+    },
+    {
+      "energy": 0.627,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.711,
+      "valence": 0.33
+    },
+    {
+      "energy": 0.416,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.767,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.648
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.75
+    },
+    {
+      "energy": 0.496,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.512,
+      "valence": 0.39
+    },
+    {
+      "energy": 0.786,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.295,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.343,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.363
+    },
+    {
+      "energy": 0.537,
+      "valence": 0.481
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.292
+    },
+    {
+      "energy": 0.628,
+      "valence": 0.514
+    },
+    {
+      "energy": 0.562,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.257
+    },
+    {
+      "energy": 0.227,
+      "valence": 0.38
+    },
+    {
+      "energy": 0.839,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.359,
+      "valence": 0.193
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.912
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.562
+    },
+    {
+      "energy": 0.438,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.488,
+      "valence": 0.301
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.766
+    },
+    {
+      "energy": 0.378,
+      "valence": 0.575
+    },
+    {
+      "energy": 0.779,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.774,
+      "valence": 0.883
+    },
+    {
+      "energy": 0.45,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.826,
+      "valence": 0.674
+    },
+    {
+      "energy": 0.714,
+      "valence": 0.78
+    },
+    {
+      "energy": 0.769,
+      "valence": 0.473
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.547
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.57,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.686
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.65
+    },
+    {
+      "energy": 0.397,
+      "valence": 0.303
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.62
+    },
+    {
+      "energy": 0.618,
+      "valence": 0.454
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.704
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.207
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.788
+    },
+    {
+      "energy": 0.962,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.885,
+      "valence": 0.831
+    },
+    {
+      "energy": 0.631,
+      "valence": 0.46
+    },
+    {
+      "energy": 0.446,
+      "valence": 0.654
+    },
+    {
+      "energy": 0.424,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.394,
+      "valence": 0.326
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.688
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.335
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.485
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.983,
+    "mean": 0.469,
+    "median": 0.505,
+    "q1": 0.276,
+    "q3": 0.65
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.14,
+    "mean": 0.004,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.513,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.598,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.196,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.432,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.604,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.478,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.12,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.777,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.56,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.054,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.435,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.819,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.87,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.291,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.735,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.557,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.738,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.548,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.304,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.391,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.361,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.736,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.789,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.781,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.242,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.629,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.47,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.492,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.557,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.192,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.478,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.785,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.203,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.073,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.779,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.792,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.597,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.619,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.497,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.436,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.635,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.309,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.315,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.588,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.592,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.349,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.534,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.767,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.401,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.157,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.844,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.76,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.148,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.65,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.876,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.983,
+      "instrumentalness": 0.14
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.845,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.759,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.397,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.718,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.679,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.606,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.594,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.357,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.581,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.159,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.308,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.251,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.458,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.735,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.634,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.295,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.279,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.558,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.25,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.517,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.627,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.596,
+      "instrumentalness": 0.016
+    },
+    {
+      "acousticness": 0.545,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.624,
+      "instrumentalness": 0.014
+    },
+    {
+      "acousticness": 0.486,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.844,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.789,
+      "instrumentalness": 0.124
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.053
+    },
+    {
+      "acousticness": 0.276,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.565,
+      "instrumentalness": 0.001
+    }
+  ],
+  "duration": {
+    "min": 132158,
+    "max": 586075,
+    "mean": 272404.42,
+    "median": 262480.0,
+    "q1": 226941,
+    "q3": 309457
+  },
+  "danceability": {
+    "min": 0.223,
+    "max": 0.845,
+    "mean": 0.608,
+    "median": 0.623,
+    "q1": 0.518,
+    "q3": 0.717
+  },
+  "loudness": {
+    "min": -16.278,
+    "max": -3.209,
+    "mean": -7.513,
+    "median": -7.365,
+    "q1": -8.726,
+    "q3": -5.799
+  },
+  "speechiness": {
+    "min": 0.025,
+    "max": 0.362,
+    "mean": 0.068,
+    "median": 0.038,
+    "q1": 0.033,
+    "q3": 0.071
+  },
+  "top_artists": [
+    {
+      "name": "Arijit Singh",
+      "count": 21
+    },
+    {
+      "name": "A.R. Rahman",
+      "count": 13
+    },
+    {
+      "name": "Atif Aslam",
+      "count": 8
+    },
+    {
+      "name": "Diljit Dosanjh",
+      "count": 5
+    },
+    {
+      "name": "Vishal-Shekhar",
+      "count": 5
+    },
+    {
+      "name": "Anirudh Ravichander",
+      "count": 4
+    },
+    {
+      "name": "Mithoon",
+      "count": 4
+    },
+    {
+      "name": "Neeti Mohan",
+      "count": 4
+    },
+    {
+      "name": "Shreya Ghoshal",
+      "count": 4
+    },
+    {
+      "name": "Dhanush",
+      "count": 3
+    },
+    {
+      "name": "Ankit Tiwari",
+      "count": 3
+    },
+    {
+      "name": "Armaan Malik",
+      "count": 3
+    },
+    {
+      "name": "Javed Ali",
+      "count": 3
+    },
+    {
+      "name": "Yuvan Shankar Raja",
+      "count": 3
+    },
+    {
+      "name": "Sid Sriram",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Megham Karukatha (From \"Thiruchitrambalam\")",
+      "artists": "Dhanush;Anirudh Ravichander",
+      "album": "Megham Karukatha (From \"Thiruchitrambalam\")",
+      "popularity": 80,
+      "tempo": 150.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.614,
+      "valence": 0.743,
+      "danceability": 0.429,
+      "acousticness": 0.513,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.071,
+      "duration_ms": 290400,
+      "slug": "megham-karukatha-from-thiruchitrambalam-dhanush"
+    },
+    {
+      "name": "Thenmozhi (From \"Thiruchitrambalam\")",
+      "artists": "Santhosh Narayanan;Anirudh Ravichander",
+      "album": "Thenmozhi (From \"Thiruchitrambalam\")",
+      "popularity": 79,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.859,
+      "danceability": 0.764,
+      "acousticness": 0.598,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.049,
+      "duration_ms": 173225,
+      "slug": "thenmozhi-from-thiruchitrambalam-santhosh-narayanan"
+    },
+    {
+      "name": "Mallipoo",
+      "artists": "A.R. Rahman;Madhushree",
+      "album": "Vendhu Thanindhathu Kaadu (Original Motion Picture Soundtrack)",
+      "popularity": 79,
+      "tempo": 175.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.654,
+      "valence": 0.762,
+      "danceability": 0.715,
+      "acousticness": 0.196,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.336,
+      "duration_ms": 245365,
+      "slug": "mallipoo-ar-rahman"
+    },
+    {
+      "name": "Galliyan Returns (From \"Ek Villain Returns\")",
+      "artists": "Ankit Tiwari;Manoj Muntashir",
+      "album": "Galliyan Returns (From \"Ek Villain Returns\")",
+      "popularity": 77,
+      "tempo": 86.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.612,
+      "valence": 0.241,
+      "danceability": 0.43,
+      "acousticness": 0.432,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.039,
+      "duration_ms": 350011,
+      "slug": "galliyan-returns-from-ek-villain-returns-ankit-tiwari"
+    },
+    {
+      "name": "Mayakkama Kalakkama (From \"Thiruchitrambalam\")",
+      "artists": "Dhanush;Anirudh Ravichander",
+      "album": "Mayakkama Kalakkama (From \"Thiruchitrambalam\")",
+      "popularity": 77,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.536,
+      "valence": 0.877,
+      "danceability": 0.789,
+      "acousticness": 0.604,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.042,
+      "duration_ms": 142258,
+      "slug": "mayakkama-kalakkama-from-thiruchitrambalam-dhanush"
+    },
+    {
+      "name": "Ranjha (From \"Shershaah\")",
+      "artists": "Jasleen Royal;B Praak;Romy;Anvita Dutt",
+      "album": "Ranjha (From \"Shershaah\")",
+      "popularity": 77,
+      "tempo": 82.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.573,
+      "valence": 0.236,
+      "danceability": 0.603,
+      "acousticness": 0.478,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.05,
+      "duration_ms": 228855,
+      "slug": "ranjha-from-shershaah-jasleen-royal"
+    },
+    {
+      "name": "Ponni Nadhi (From \"Ponniyin Selvan Part -1\") - Tamil",
+      "artists": "A.R. Rahman;A. R. Reihana;Bamba Bakya",
+      "album": "Ponni Nadhi (From \"Ponniyin Selvan Part -1\") [Original Motion Picture Soundtrack]",
+      "popularity": 77,
+      "tempo": 152.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.637,
+      "valence": 0.56,
+      "danceability": 0.687,
+      "acousticness": 0.12,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.13,
+      "duration_ms": 290526,
+      "slug": "ponni-nadhi-from-ponniyin-selvan-part-1-tamil-ar-rahman"
+    },
+    {
+      "name": "Dil Ko Karaar Aaya (From \"Sukoon\")",
+      "artists": "Yasser Desai;Neha Kakkar;Rajat Nagpal",
+      "album": "Dil Ko Karaar Aaya (From \"Sukoon\")",
+      "popularity": 77,
+      "tempo": 148.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.448,
+      "valence": 0.388,
+      "danceability": 0.55,
+      "acousticness": 0.777,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.037,
+      "duration_ms": 231486,
+      "slug": "dil-ko-karaar-aaya-from-sukoon-yasser-desai"
+    },
+    {
+      "name": "Pehla Pyaar",
+      "artists": "Armaan Malik;Vishal Mishra",
+      "album": "Kabir Singh",
+      "popularity": 76,
+      "tempo": 124.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.713,
+      "valence": 0.611,
+      "danceability": 0.607,
+      "acousticness": 0.56,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.03,
+      "duration_ms": 272532,
+      "slug": "pehla-pyaar-armaan-malik"
+    },
+    {
+      "name": "Thaai Kelavi (From \"Thiruchitrambalam\")",
+      "artists": "Dhanush;Anirudh Ravichander",
+      "album": "Thaai Kelavi (From \"Thiruchitrambalam\")",
+      "popularity": 76,
+      "tempo": 82.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.92,
+      "valence": 0.494,
+      "danceability": 0.661,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.188,
+      "duration_ms": 258909,
+      "slug": "thaai-kelavi-from-thiruchitrambalam-dhanush"
+    },
+    {
+      "name": "Mann Mera",
+      "artists": "Gajendra Verma",
+      "album": "Table No. 21 (Original Motion Picture Soundtrack)",
+      "popularity": 74,
+      "tempo": 191.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.373,
+      "danceability": 0.535,
+      "acousticness": 0.054,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.044,
+      "duration_ms": 200120,
+      "slug": "mann-mera-gajendra-verma"
+    },
+    {
+      "name": "Peaches",
+      "artists": "Diljit Dosanjh",
+      "album": "Drive Thru",
+      "popularity": 74,
+      "tempo": 85.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.478,
+      "valence": 0.341,
+      "danceability": 0.663,
+      "acousticness": 0.095,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.185,
+      "duration_ms": 189176,
+      "slug": "peaches-diljit-dosanjh"
+    },
+    {
+      "name": "Srivalli (From \"Pushpa The Rise Part - 01\")",
+      "artists": "Javed Ali;Devi Sri Prasad",
+      "album": "Srivalli (From \"Pushpa The Rise Part - 01\")",
+      "popularity": 74,
+      "tempo": 107.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.743,
+      "danceability": 0.787,
+      "acousticness": 0.435,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.034,
+      "duration_ms": 224072,
+      "slug": "srivalli-from-pushpa-the-rise-part-01-javed-ali"
+    },
+    {
+      "name": "Fitoor",
+      "artists": "Mithoon;Arijit Singh;Neeti Mohan;Karan Malhotra",
+      "album": "Shamshera",
+      "popularity": 74,
+      "tempo": 139.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.212,
+      "danceability": 0.516,
+      "acousticness": 0.819,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.043,
+      "duration_ms": 308459,
+      "slug": "fitoor-mithoon"
+    },
+    {
+      "name": "Atak Gaya - Arijit Singh",
+      "artists": "Arijit Singh;Rupali Moghe",
+      "album": "Badhaai Do (Original Motion Picture Soundtrack)",
+      "popularity": 74,
+      "tempo": 80.6,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.366,
+      "valence": 0.508,
+      "danceability": 0.4,
+      "acousticness": 0.87,
+      "instrumentalness": 0.002,
+      "loudness": -8.6,
+      "speechiness": 0.034,
+      "duration_ms": 199407,
+      "slug": "atak-gaya-arijit-singh-arijit-singh"
+    },
+    {
+      "name": "Kanja Poovu Kannala (From \"Viruman\")",
+      "artists": "Yuvan Shankar Raja;Sid Sriram",
+      "album": "Kanja Poovu Kannala (From \"Viruman\")",
+      "popularity": 74,
+      "tempo": 110.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.692,
+      "valence": 0.52,
+      "danceability": 0.72,
+      "acousticness": 0.291,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.089,
+      "duration_ms": 237558,
+      "slug": "kanja-poovu-kannala-from-viruman-yuvan-shankar-raja"
+    },
+    {
+      "name": "Jhoom - R&B Mix",
+      "artists": "Ali Zafar",
+      "album": "Jhoom",
+      "popularity": 73,
+      "tempo": 80.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.4,
+      "valence": 0.617,
+      "danceability": 0.662,
+      "acousticness": 0.735,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.055,
+      "duration_ms": 298986,
+      "slug": "jhoom-rb-mix-ali-zafar"
+    },
+    {
+      "name": "Agar Tum Saath Ho",
+      "artists": "Alka Yagnik;Arijit Singh",
+      "album": "Tamasha",
+      "popularity": 73,
+      "tempo": 122.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.415,
+      "danceability": 0.562,
+      "acousticness": 0.557,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.033,
+      "duration_ms": 341054,
+      "slug": "agar-tum-saath-ho-alka-yagnik"
+    },
+    {
+      "name": "Mere Yaaraa (From \"Sooryavanshi\")",
+      "artists": "Arijit Singh;Neeti Mohan;Rashmi Virag",
+      "album": "Mere Yaaraa (From \"Sooryavanshi\")",
+      "popularity": 73,
+      "tempo": 120.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.539,
+      "valence": 0.486,
+      "danceability": 0.324,
+      "acousticness": 0.713,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.038,
+      "duration_ms": 285163,
+      "slug": "mere-yaaraa-from-sooryavanshi-arijit-singh"
+    },
+    {
+      "name": "Saibo",
+      "artists": "Sachin-Jigar;Shreya Ghoshal;Tochi Raina",
+      "album": "Shor in the City (Original Motion Picture Soundtrack)",
+      "popularity": 73,
+      "tempo": 90.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.429,
+      "valence": 0.545,
+      "danceability": 0.619,
+      "acousticness": 0.738,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.028,
+      "duration_ms": 195253,
+      "slug": "saibo-sachin-jigar"
+    },
+    {
+      "name": "Tera Hone Laga Hoon",
+      "artists": "Atif Aslam;Alisha Chinai;Pritam",
+      "album": "Ajab Prem Ki Ghazab Kahani (Original Motion Picture Soundtrack)",
+      "popularity": 73,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.771,
+      "valence": 0.539,
+      "danceability": 0.684,
+      "acousticness": 0.548,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.031,
+      "duration_ms": 299827,
+      "slug": "tera-hone-laga-hoon-atif-aslam"
+    },
+    {
+      "name": "Chola Chola",
+      "artists": "Sathyaprakash;VM Mahalingam;Nakul Abhyankar",
+      "album": "Ponniyin Selvan Part-1 (Original Motion Picture Soundtrack)",
+      "popularity": 73,
+      "tempo": 99.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.655,
+      "valence": 0.749,
+      "danceability": 0.623,
+      "acousticness": 0.304,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.203,
+      "duration_ms": 219638,
+      "slug": "chola-chola-sathyaprakash"
+    },
+    {
+      "name": "Khuda Jaane",
+      "artists": "Vishal-Shekhar;KK;Shilpa Rao",
+      "album": "Bachna Ae Haseeno",
+      "popularity": 72,
+      "tempo": 78.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.632,
+      "valence": 0.716,
+      "danceability": 0.382,
+      "acousticness": 0.391,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.041,
+      "duration_ms": 333583,
+      "slug": "khuda-jaane-vishal-shekhar"
+    },
+    {
+      "name": "Tu Jaane Na",
+      "artists": "Atif Aslam;Pritam",
+      "album": "Ajab Prem Ki Ghazab Kahani (Original Motion Picture Soundtrack)",
+      "popularity": 72,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.86,
+      "valence": 0.829,
+      "danceability": 0.702,
+      "acousticness": 0.361,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.035,
+      "duration_ms": 341933,
+      "slug": "tu-jaane-na-atif-aslam"
+    },
+    {
+      "name": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")",
+      "artists": "Arijit Singh;Mithoon",
+      "album": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")",
+      "popularity": 72,
+      "tempo": 70.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.396,
+      "valence": 0.306,
+      "danceability": 0.427,
+      "acousticness": 0.736,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.037,
+      "duration_ms": 284779,
+      "slug": "tujhe-kitna-chahne-lage-from-kabir-singh-arijit-singh"
+    },
+    {
+      "name": "Jeena Jeena",
+      "artists": "Atif Aslam",
+      "album": "Badlapur (Original Motion Picture Soundtrack)",
+      "popularity": 72,
+      "tempo": 105.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.344,
+      "valence": 0.548,
+      "danceability": 0.682,
+      "acousticness": 0.789,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.028,
+      "duration_ms": 228969,
+      "slug": "jeena-jeena-atif-aslam"
+    },
+    {
+      "name": "Rait Zara Si (From \"Atrangi Re\")",
+      "artists": "A.R. Rahman;Arijit Singh;Shashaa Tirupati",
+      "album": "Rait Zara Si (From \"Atrangi Re\")",
+      "popularity": 72,
+      "tempo": 126.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.495,
+      "valence": 0.244,
+      "danceability": 0.563,
+      "acousticness": 0.781,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.036,
+      "duration_ms": 291462,
+      "slug": "rait-zara-si-from-atrangi-re-ar-rahman"
+    },
+    {
+      "name": "Chand Sifarish",
+      "artists": "Jatin-Lalit;Shaan;Kailash Kher;Prasoon Joshi",
+      "album": "Fanaa",
+      "popularity": 72,
+      "tempo": 122.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.665,
+      "valence": 0.861,
+      "danceability": 0.829,
+      "acousticness": 0.242,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.087,
+      "duration_ms": 275931,
+      "slug": "chand-sifarish-jatin-lalit"
+    },
+    {
+      "name": "Meri Jaan",
+      "artists": "Neeti Mohan;Sanjay Leela Bhansali",
+      "album": "Gangubai Kathiawadi",
+      "popularity": 72,
+      "tempo": 104.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.432,
+      "valence": 0.693,
+      "danceability": 0.745,
+      "acousticness": 0.629,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.041,
+      "duration_ms": 238103,
+      "slug": "meri-jaan-neeti-mohan"
+    },
+    {
+      "name": "Humnava Mere",
+      "artists": "Jubin Nautiyal;Rocky - Shiv",
+      "album": "Humnava Mere",
+      "popularity": 72,
+      "tempo": 79.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.553,
+      "valence": 0.364,
+      "danceability": 0.401,
+      "acousticness": 0.47,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.034,
+      "duration_ms": 328992,
+      "slug": "humnava-mere-jubin-nautiyal"
+    },
+    {
+      "name": "O'Meri Laila",
+      "artists": "Atif Aslam;Jyotica Tangri",
+      "album": "Laila Majnu",
+      "popularity": 72,
+      "tempo": 160.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.758,
+      "danceability": 0.577,
+      "acousticness": 0.158,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.053,
+      "duration_ms": 281856,
+      "slug": "omeri-laila-atif-aslam"
+    },
+    {
+      "name": "Mere Liye Tum Kaafi Ho (From \"Shubh Mangal Zyada Saavdhan\")",
+      "artists": "Ayushmann Khurrana;Tanishk-Vayu",
+      "album": "Mere Liye Tum Kaafi Ho (From \"Shubh Mangal Zyada Saavdhan\")",
+      "popularity": 72,
+      "tempo": 177.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.638,
+      "valence": 0.813,
+      "danceability": 0.701,
+      "acousticness": 0.492,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.302,
+      "duration_ms": 132158,
+      "slug": "mere-liye-tum-kaafi-ho-from-shubh-mangal-zyada-saavdhan-ayushmann-khurrana"
+    },
+    {
+      "name": "Agar Tum Saath Ho (From \"Tamasha\")",
+      "artists": "Alka Yagnik;Arijit Singh",
+      "album": "Love Forever With Arijit Singh",
+      "popularity": 72,
+      "tempo": 122.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.519,
+      "valence": 0.415,
+      "danceability": 0.562,
+      "acousticness": 0.557,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.033,
+      "duration_ms": 341054,
+      "slug": "agar-tum-saath-ho-from-tamasha-alka-yagnik"
+    },
+    {
+      "name": "Param Sundari",
+      "artists": "A.R. Rahman;Shreya Ghoshal",
+      "album": "Mimi (Original Motion Picture Soundtrack)",
+      "popularity": 72,
+      "tempo": 122.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.761,
+      "valence": 0.82,
+      "danceability": 0.815,
+      "acousticness": 0.192,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.144,
+      "duration_ms": 200218,
+      "slug": "param-sundari-ar-rahman"
+    },
+    {
+      "name": "Jaan 'Nisaar (Arijit)",
+      "artists": "Arijit Singh",
+      "album": "Kedarnath",
+      "popularity": 71,
+      "tempo": 91.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.392,
+      "valence": 0.257,
+      "danceability": 0.481,
+      "acousticness": 0.478,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.025,
+      "duration_ms": 238369,
+      "slug": "jaan-nisaar-arijit-arijit-singh"
+    },
+    {
+      "name": "Tum Hi Ho",
+      "artists": "Arijit Singh",
+      "album": "Aashiqui 2",
+      "popularity": 71,
+      "tempo": 94.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.449,
+      "valence": 0.317,
+      "danceability": 0.528,
+      "acousticness": 0.785,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.025,
+      "duration_ms": 261974,
+      "slug": "tum-hi-ho-arijit-singh"
+    },
+    {
+      "name": "Lover",
+      "artists": "Diljit Dosanjh",
+      "album": "MoonChild Era",
+      "popularity": 71,
+      "tempo": 119.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.587,
+      "valence": 0.774,
+      "danceability": 0.827,
+      "acousticness": 0.203,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.113,
+      "duration_ms": 190000,
+      "slug": "lover-diljit-dosanjh"
+    },
+    {
+      "name": "Qaafirana",
+      "artists": "Arijit Singh;Nikhita Gandhi",
+      "album": "Kedarnath",
+      "popularity": 71,
+      "tempo": 169.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.433,
+      "valence": 0.207,
+      "danceability": 0.417,
+      "acousticness": 0.073,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.042,
+      "duration_ms": 341823,
+      "slug": "qaafirana-arijit-singh"
+    },
+    {
+      "name": "O Re Piya",
+      "artists": "Salim\u2013Sulaiman;Rahat Fateh Ali Khan;Jaideep Sahni",
+      "album": "Aaja Nachle",
+      "popularity": 71,
+      "tempo": 100.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.494,
+      "danceability": 0.586,
+      "acousticness": 0.779,
+      "instrumentalness": 0.001,
+      "loudness": -8.8,
+      "speechiness": 0.033,
+      "duration_ms": 379768,
+      "slug": "o-re-piya-salimsulaiman"
+    },
+    {
+      "name": "Ghungroo (From \"War\")",
+      "artists": "Vishal-Shekhar;Arijit Singh;Shilpa Rao;Kumaar",
+      "album": "Ghungroo (From \"War\")",
+      "popularity": 71,
+      "tempo": 118.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.864,
+      "danceability": 0.695,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.032,
+      "duration_ms": 302935,
+      "slug": "ghungroo-from-war-vishal-shekhar"
+    },
+    {
+      "name": "Tu / You",
+      "artists": "Armaan Malik",
+      "album": "Tu/You - Spotify Singles",
+      "popularity": 71,
+      "tempo": 110.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.471,
+      "valence": 0.426,
+      "danceability": 0.717,
+      "acousticness": 0.792,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.035,
+      "duration_ms": 142511,
+      "slug": "tu-you-armaan-malik"
+    },
+    {
+      "name": "Soch Na Sake",
+      "artists": "Amaal Mallik;Arijit Singh;Tulsi Kumar",
+      "album": "Airlift",
+      "popularity": 71,
+      "tempo": 151.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.667,
+      "valence": 0.516,
+      "danceability": 0.505,
+      "acousticness": 0.597,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.032,
+      "duration_ms": 281322,
+      "slug": "soch-na-sake-amaal-mallik"
+    },
+    {
+      "name": "Bandeya (feat. Arijit Singh) - From \"Dil Juunglee\"",
+      "artists": "Shaarib Toshi;Arijit Singh",
+      "album": "Bandeya (feat. Arijit Singh) [From \"Dil Juunglee\"]",
+      "popularity": 71,
+      "tempo": 89.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.551,
+      "valence": 0.415,
+      "danceability": 0.465,
+      "acousticness": 0.619,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.036,
+      "duration_ms": 184666,
+      "slug": "bandeya-feat-arijit-singh-from-dil-juunglee-shaarib-toshi"
+    },
+    {
+      "name": "Tum Hi Ho Bandhu",
+      "artists": "Neeraj Shridhar;Kavita Seth",
+      "album": "Cocktail (Original Motion Picture Soundtrack)",
+      "popularity": 71,
+      "tempo": 135.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.89,
+      "valence": 0.891,
+      "danceability": 0.715,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -5.4,
+      "speechiness": 0.051,
+      "duration_ms": 283693,
+      "slug": "tum-hi-ho-bandhu-neeraj-shridhar"
+    },
+    {
+      "name": "Nazm Nazm",
+      "artists": "Arko",
+      "album": "Bareilly Ki Barfi",
+      "popularity": 71,
+      "tempo": 82.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.627,
+      "valence": 0.557,
+      "danceability": 0.62,
+      "acousticness": 0.497,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.031,
+      "duration_ms": 226941,
+      "slug": "nazm-nazm-arko"
+    },
+    {
+      "name": "Namo Namo",
+      "artists": "Amit Trivedi",
+      "album": "Kedarnath",
+      "popularity": 71,
+      "tempo": 119.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.711,
+      "valence": 0.33,
+      "danceability": 0.648,
+      "acousticness": 0.436,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.03,
+      "duration_ms": 322250,
+      "slug": "namo-namo-amit-trivedi"
+    },
+    {
+      "name": "Enna Sona",
+      "artists": "A.R. Rahman;Arijit Singh",
+      "album": "OK Jaanu (Original Motion Picture Soundtrack)",
+      "popularity": 71,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.416,
+      "valence": 0.381,
+      "danceability": 0.717,
+      "acousticness": 0.635,
+      "instrumentalness": 0.0,
+      "loudness": -9.9,
+      "speechiness": 0.03,
+      "duration_ms": 213632,
+      "slug": "enna-sona-ar-rahman"
+    },
+    {
+      "name": "Chauffeur",
+      "artists": "Diljit Dosanjh;Tory Lanez;Ikky",
+      "album": "Chauffeur",
+      "popularity": 71,
+      "tempo": 154.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.767,
+      "valence": 0.54,
+      "danceability": 0.639,
+      "acousticness": 0.13,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.093,
+      "duration_ms": 205040,
+      "slug": "chauffeur-diljit-dosanjh"
+    },
+    {
+      "name": "Zaalima",
+      "artists": "Arijit Singh;Harshdeep Kaur",
+      "album": "Raees",
+      "popularity": 71,
+      "tempo": 88.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.898,
+      "valence": 0.648,
+      "danceability": 0.486,
+      "acousticness": 0.309,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.171,
+      "duration_ms": 299333,
+      "slug": "zaalima-arijit-singh"
+    },
+    {
+      "name": "Tujh Mein Rab Dikhta Hai",
+      "artists": "Roop Kumar Rathod",
+      "album": "Rab Ne Bana Di Jodi (Original)",
+      "popularity": 71,
+      "tempo": 84.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.75,
+      "danceability": 0.56,
+      "acousticness": 0.315,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.087,
+      "duration_ms": 281573,
+      "slug": "tujh-mein-rab-dikhta-hai-roop-kumar-rathod"
+    },
+    {
+      "name": "O Saathi",
+      "artists": "Atif Aslam;Arko",
+      "album": "O Saathi (From \"Baaghi 2\")",
+      "popularity": 71,
+      "tempo": 89.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.496,
+      "valence": 0.453,
+      "danceability": 0.481,
+      "acousticness": 0.588,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.026,
+      "duration_ms": 251818,
+      "slug": "o-saathi-atif-aslam"
+    },
+    {
+      "name": "Pal Pal Dil Ke Paas- Title Track",
+      "artists": "Arijit Singh;Parampara Tandon",
+      "album": "Pal Pal Dil Ke Paas- Title Track (From \"Pal Pal Dil Ke Paas\")",
+      "popularity": 71,
+      "tempo": 124.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.512,
+      "valence": 0.39,
+      "danceability": 0.56,
+      "acousticness": 0.592,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.033,
+      "duration_ms": 254516,
+      "slug": "pal-pal-dil-ke-paas-title-track-arijit-singh"
+    },
+    {
+      "name": "Ratchasa Maamaney",
+      "artists": "Shreya Ghoshal;Palakad Sreeram;Mahesh Vinayakram",
+      "album": "Ponniyin Selvan Part-1 (Original Motion Picture Soundtrack)",
+      "popularity": 71,
+      "tempo": 99.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.786,
+      "valence": 0.434,
+      "danceability": 0.546,
+      "acousticness": 0.349,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.212,
+      "duration_ms": 289942,
+      "slug": "ratchasa-maamaney-shreya-ghoshal"
+    },
+    {
+      "name": "Ishq Wala Love",
+      "artists": "Vishal-Shekhar;Salim Merchant;Neeti Mohan;Shekhar Ravjiani",
+      "album": "Student of the Year (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 135.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.295,
+      "valence": 0.694,
+      "danceability": 0.711,
+      "acousticness": 0.534,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.033,
+      "duration_ms": 257972,
+      "slug": "ishq-wala-love-vishal-shekhar"
+    },
+    {
+      "name": "Jashn-E-Bahaaraa",
+      "artists": "A.R. Rahman;Javed Ali",
+      "album": "Jodhaa Akbar (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 137.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.343,
+      "valence": 0.488,
+      "danceability": 0.7,
+      "acousticness": 0.767,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.031,
+      "duration_ms": 315173,
+      "slug": "jashn-e-bahaaraa-ar-rahman"
+    },
+    {
+      "name": "Iktara (From \"Wake Up Sid\")",
+      "artists": "Amit Trivedi;Kavita Seth;Amitabh Bhattacharya",
+      "album": "I Love You...Forever",
+      "popularity": 70,
+      "tempo": 80.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.525,
+      "valence": 0.427,
+      "danceability": 0.616,
+      "acousticness": 0.401,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.026,
+      "duration_ms": 253773,
+      "slug": "iktara-from-wake-up-sid-amit-trivedi"
+    },
+    {
+      "name": "Veera Soora",
+      "artists": "Yuvan Shankar Raja",
+      "album": "Veera Soora (From \"Naane Varuvean\")",
+      "popularity": 70,
+      "tempo": 100.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.363,
+      "danceability": 0.518,
+      "acousticness": 0.157,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.137,
+      "duration_ms": 205145,
+      "slug": "veera-soora-yuvan-shankar-raja"
+    },
+    {
+      "name": "Pehli Dafa",
+      "artists": "Atif Aslam;Shiraz Uppal",
+      "album": "Pehli Dafa",
+      "popularity": 70,
+      "tempo": 112.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.537,
+      "valence": 0.481,
+      "danceability": 0.679,
+      "acousticness": 0.844,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.032,
+      "duration_ms": 298771,
+      "slug": "pehli-dafa-atif-aslam"
+    },
+    {
+      "name": "Jaan Ban Gaye",
+      "artists": "Mithoon;Vishal Mishra;Asees Kaur",
+      "album": "Jaan Ban Gaye (From \"Khuda Haafiz\")",
+      "popularity": 70,
+      "tempo": 132.3,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.419,
+      "valence": 0.292,
+      "danceability": 0.537,
+      "acousticness": 0.76,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.041,
+      "duration_ms": 211673,
+      "slug": "jaan-ban-gaye-mithoon"
+    },
+    {
+      "name": "Shaamat (From \"Ek Villain Returns\")",
+      "artists": "Ankit Tiwari;Tara Sutaria",
+      "album": "Shaamat (From \"Ek Villain Returns\")",
+      "popularity": 70,
+      "tempo": 97.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.628,
+      "valence": 0.514,
+      "danceability": 0.537,
+      "acousticness": 0.148,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.029,
+      "duration_ms": 334173,
+      "slug": "shaamat-from-ek-villain-returns-ankit-tiwari"
+    },
+    {
+      "name": "Saiyyan",
+      "artists": "Kailash Kher;Paresh Kamath;Naresh Kamath",
+      "album": "Kailasa Jhoomo Re",
+      "popularity": 70,
+      "tempo": 74.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.562,
+      "valence": 0.316,
+      "danceability": 0.473,
+      "acousticness": 0.65,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.045,
+      "duration_ms": 343906,
+      "slug": "saiyyan-kailash-kher"
+    },
+    {
+      "name": "Phir Bhi Tumko Chaahunga",
+      "artists": "Mithoon;Arijit Singh;Shashaa Tirupati",
+      "album": "Half Girlfriend",
+      "popularity": 70,
+      "tempo": 99.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.525,
+      "valence": 0.257,
+      "danceability": 0.527,
+      "acousticness": 0.876,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.034,
+      "duration_ms": 351587,
+      "slug": "phir-bhi-tumko-chaahunga-mithoon"
+    },
+    {
+      "name": "Kho Gaye Hum Kahan",
+      "artists": "Jasleen Royal;Prateek Kuhad",
+      "album": "Baar Baar Dekho (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 116.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.227,
+      "valence": 0.38,
+      "danceability": 0.778,
+      "acousticness": 0.983,
+      "instrumentalness": 0.14,
+      "loudness": -16.2,
+      "speechiness": 0.038,
+      "duration_ms": 213055,
+      "slug": "kho-gaye-hum-kahan-jasleen-royal"
+    },
+    {
+      "name": "Ishqam",
+      "artists": "Mika Singh;Ali Quli Mirza",
+      "album": "Ishqam",
+      "popularity": 70,
+      "tempo": 100.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.839,
+      "valence": 0.609,
+      "danceability": 0.735,
+      "acousticness": 0.129,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.038,
+      "duration_ms": 194418,
+      "slug": "ishqam-mika-singh"
+    },
+    {
+      "name": "Hamari Adhuri Kahani (Title Track)",
+      "artists": "Jeet Gannguli;Arijit Singh",
+      "album": "Hamari Adhuri Kahani (Original Motion Picture Soundtrack)",
+      "popularity": 70,
+      "tempo": 73.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.359,
+      "valence": 0.193,
+      "danceability": 0.223,
+      "acousticness": 0.845,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.031,
+      "duration_ms": 398799,
+      "slug": "hamari-adhuri-kahani-title-track-jeet-gannguli"
+    },
+    {
+      "name": "Tum Tum (From \"Enemy - Tamil\")",
+      "artists": "Thaman S;Srivardhini;Aditi Bhavaraju;Satya Yamini;Roshini JKV;Tejaswini",
+      "album": "Tum Tum (From \"Enemy - Tamil\")",
+      "popularity": 70,
+      "tempo": 147.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.761,
+      "valence": 0.912,
+      "danceability": 0.741,
+      "acousticness": 0.759,
+      "instrumentalness": 0.001,
+      "loudness": -5.4,
+      "speechiness": 0.143,
+      "duration_ms": 228567,
+      "slug": "tum-tum-from-enemy-tamil-thaman-s"
+    },
+    {
+      "name": "Adheeraa (From \"Cobra\")",
+      "artists": "A.R. Rahman;Vagu Mazan;Thoughtsfornow",
+      "album": "Adheeraa (From \"Cobra\")",
+      "popularity": 70,
+      "tempo": 111.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.562,
+      "danceability": 0.722,
+      "acousticness": 0.11,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.039,
+      "duration_ms": 259139,
+      "slug": "adheeraa-from-cobra-ar-rahman"
+    },
+    {
+      "name": "Ajab Si",
+      "artists": "KK",
+      "album": "Om Shanti Om",
+      "popularity": 69,
+      "tempo": 118.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.438,
+      "valence": 0.58,
+      "danceability": 0.697,
+      "acousticness": 0.397,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.029,
+      "duration_ms": 241668,
+      "slug": "ajab-si-kk"
+    },
+    {
+      "name": "Main Rahoon Ya Na Rahoon",
+      "artists": "Amaal Mallik;Armaan Malik;Rashmi Virag",
+      "album": "Main Rahoon Ya Na Rahoon",
+      "popularity": 69,
+      "tempo": 136.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.488,
+      "valence": 0.301,
+      "danceability": 0.55,
+      "acousticness": 0.718,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.028,
+      "duration_ms": 309457,
+      "slug": "main-rahoon-ya-na-rahoon-amaal-mallik"
+    },
+    {
+      "name": "Desi Kalakaar",
+      "artists": "Yo Yo Honey Singh",
+      "album": "Desi Kalakaar",
+      "popularity": 69,
+      "tempo": 156.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.67,
+      "valence": 0.766,
+      "danceability": 0.751,
+      "acousticness": 0.08,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.267,
+      "duration_ms": 253352,
+      "slug": "desi-kalakaar-yo-yo-honey-singh"
+    },
+    {
+      "name": "Kun Faya Kun",
+      "artists": "A.R. Rahman;Javed Ali;Mohit Chauhan",
+      "album": "Rockstar",
+      "popularity": 69,
+      "tempo": 87.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.378,
+      "valence": 0.575,
+      "danceability": 0.362,
+      "acousticness": 0.679,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.033,
+      "duration_ms": 470500,
+      "slug": "kun-faya-kun-ar-rahman"
+    },
+    {
+      "name": "Dildaara (Stand By Me)",
+      "artists": "Shafqat Amanat Ali",
+      "album": "Ra-One",
+      "popularity": 69,
+      "tempo": 100.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.779,
+      "valence": 0.761,
+      "danceability": 0.622,
+      "acousticness": 0.102,
+      "instrumentalness": 0.001,
+      "loudness": -5.8,
+      "speechiness": 0.037,
+      "duration_ms": 249660,
+      "slug": "dildaara-stand-by-me-shafqat-amanat-ali"
+    },
+    {
+      "name": "Mast Magan",
+      "artists": "Arijit Singh;Chinmayi",
+      "album": "2 States",
+      "popularity": 69,
+      "tempo": 83.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.774,
+      "valence": 0.883,
+      "danceability": 0.659,
+      "acousticness": 0.606,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.037,
+      "duration_ms": 280161,
+      "slug": "mast-magan-arijit-singh"
+    },
+    {
+      "name": "Main Dhoondne Ko Zamaane Mein",
+      "artists": "Arijit Singh",
+      "album": "Heartless",
+      "popularity": 69,
+      "tempo": 80.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.45,
+      "valence": 0.284,
+      "danceability": 0.329,
+      "acousticness": 0.594,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.041,
+      "duration_ms": 262986,
+      "slug": "main-dhoondne-ko-zamaane-mein-arijit-singh"
+    },
+    {
+      "name": "Born to Shine",
+      "artists": "Diljit Dosanjh",
+      "album": "G.O.A.T.",
+      "popularity": 69,
+      "tempo": 90.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.826,
+      "valence": 0.674,
+      "danceability": 0.745,
+      "acousticness": 0.357,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.087,
+      "duration_ms": 213333,
+      "slug": "born-to-shine-diljit-dosanjh"
+    },
+    {
+      "name": "Raanjhanaa",
+      "artists": "A.R. Rahman;Jaswinder Singh;Shiraz Uppal",
+      "album": "Raanjhanaa (Original Motion Picture Soundtrack)",
+      "popularity": 69,
+      "tempo": 112.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.714,
+      "valence": 0.78,
+      "danceability": 0.673,
+      "acousticness": 0.111,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.039,
+      "duration_ms": 254653,
+      "slug": "raanjhanaa-ar-rahman"
+    },
+    {
+      "name": "Baarish",
+      "artists": "Ash King;Shashaa Tirupati",
+      "album": "Half Girlfriend",
+      "popularity": 69,
+      "tempo": 88.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.769,
+      "valence": 0.473,
+      "danceability": 0.465,
+      "acousticness": 0.581,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.033,
+      "duration_ms": 276380,
+      "slug": "baarish-ash-king"
+    },
+    {
+      "name": "Naina Da Kya Kasoor",
+      "artists": "Amit Trivedi",
+      "album": "Andhadhun",
+      "popularity": 69,
+      "tempo": 126.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.659,
+      "valence": 0.547,
+      "danceability": 0.845,
+      "acousticness": 0.159,
+      "instrumentalness": 0.013,
+      "loudness": -6.3,
+      "speechiness": 0.037,
+      "duration_ms": 210951,
+      "slug": "naina-da-kya-kasoor-amit-trivedi"
+    },
+    {
+      "name": "Chola Chola (From \"Ponniyin Selvan Part -1\")",
+      "artists": "A.R. Rahman;Sathyaprakash;VM Mahalingam;Nakul Abhyankar",
+      "album": "Chola Chola (From \"Ponniyin Selvan Part -1\") [Original Motion Picture Soundtrack]",
+      "popularity": 69,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.714,
+      "danceability": 0.76,
+      "acousticness": 0.308,
+      "instrumentalness": 0.0,
+      "loudness": -10.0,
+      "speechiness": 0.173,
+      "duration_ms": 219638,
+      "slug": "chola-chola-from-ponniyin-selvan-part-1-ar-rahman"
+    },
+    {
+      "name": "Devaralan Aattam",
+      "artists": "A.R. Rahman;Yogi Sekar",
+      "album": "Ponniyin Selvan Part-1 (Original Motion Picture Soundtrack)",
+      "popularity": 69,
+      "tempo": 141.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.707,
+      "valence": 0.441,
+      "danceability": 0.828,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.362,
+      "duration_ms": 273228,
+      "slug": "devaralan-aattam-ar-rahman"
+    },
+    {
+      "name": "Pehli Nazar Mein",
+      "artists": "Atif Aslam;Pritam",
+      "album": "Race (Original Motion Picture Soundtrack)",
+      "popularity": 69,
+      "tempo": 169.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.57,
+      "valence": 0.668,
+      "danceability": 0.488,
+      "acousticness": 0.251,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.077,
+      "duration_ms": 312892,
+      "slug": "pehli-nazar-mein-atif-aslam"
+    },
+    {
+      "name": "Tera Ghata",
+      "artists": "Gajendra Verma",
+      "album": "Tera Ghata",
+      "popularity": 68,
+      "tempo": 180.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.573,
+      "valence": 0.686,
+      "danceability": 0.718,
+      "acousticness": 0.458,
+      "instrumentalness": 0.005,
+      "loudness": -7.3,
+      "speechiness": 0.045,
+      "duration_ms": 254173,
+      "slug": "tera-ghata-gajendra-verma"
+    },
+    {
+      "name": "Jugni",
+      "artists": "Diljit Dosanjh;Diamond Platnumz",
+      "album": "Jugni",
+      "popularity": 68,
+      "tempo": 97.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.896,
+      "valence": 0.65,
+      "danceability": 0.761,
+      "acousticness": 0.078,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.215,
+      "duration_ms": 193190,
+      "slug": "jugni-diljit-dosanjh"
+    },
+    {
+      "name": "Tujhe Kitna Chahne Lage",
+      "artists": "Arijit Singh",
+      "album": "Kabir Singh",
+      "popularity": 68,
+      "tempo": 70.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.397,
+      "valence": 0.303,
+      "danceability": 0.395,
+      "acousticness": 0.735,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.037,
+      "duration_ms": 284779,
+      "slug": "tujhe-kitna-chahne-lage-arijit-singh"
+    },
+    {
+      "name": "Falak Tak",
+      "artists": "Vishal-Shekhar;Udit Narayan;Mahalakshmi Iyer;Kausar Munir",
+      "album": "Tashan",
+      "popularity": 68,
+      "tempo": 143.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.697,
+      "valence": 0.62,
+      "danceability": 0.718,
+      "acousticness": 0.634,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.135,
+      "duration_ms": 356179,
+      "slug": "falak-tak-vishal-shekhar"
+    },
+    {
+      "name": "Pani Da Rang - Male Vocals",
+      "artists": "Ayushmann Khurrana",
+      "album": "Vicky Donor (Original Motion Picture Soundtrack)",
+      "popularity": 68,
+      "tempo": 98.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.618,
+      "valence": 0.454,
+      "danceability": 0.441,
+      "acousticness": 0.295,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.039,
+      "duration_ms": 240786,
+      "slug": "pani-da-rang-male-vocals-ayushmann-khurrana"
+    },
+    {
+      "name": "Bol Na Halke Halke",
+      "artists": "Shankar-Ehsaan-Loy;Rahat Fateh Ali Khan;Mahalakshmi Iyer;Gulzar",
+      "album": "Jhoom Barabar Jhoom",
+      "popularity": 68,
+      "tempo": 90.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.573,
+      "valence": 0.704,
+      "danceability": 0.637,
+      "acousticness": 0.279,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.049,
+      "duration_ms": 306834,
+      "slug": "bol-na-halke-halke-shankar-ehsaan-loy"
+    },
+    {
+      "name": "Ennodu Nee Irundhaal",
+      "artists": "A.R. Rahman;Sid Sriram;Sunitha Sarathy",
+      "album": "I (Original Motion Picture Soundtrack)",
+      "popularity": 68,
+      "tempo": 158.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.207,
+      "danceability": 0.261,
+      "acousticness": 0.558,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.037,
+      "duration_ms": 352710,
+      "slug": "ennodu-nee-irundhaal-ar-rahman"
+    },
+    {
+      "name": "Munbe Vaa",
+      "artists": "Naresh Iyer;Shreya Ghoshal",
+      "album": "Sillunu Oru Kadhal (Original Motion Picture Soundtrack )",
+      "popularity": 68,
+      "tempo": 141.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.788,
+      "danceability": 0.602,
+      "acousticness": 0.25,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.032,
+      "duration_ms": 357006,
+      "slug": "munbe-vaa-naresh-iyer"
+    },
+    {
+      "name": "Ra Ra Rakkamma (From \"Vikrant Rona\")",
+      "artists": "Nakash Aziz;Mangli;B. Ajaneesh Loknath",
+      "album": "Ra Ra Rakkamma (From \"Vikrant Rona\")",
+      "popularity": 68,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.962,
+      "valence": 0.359,
+      "danceability": 0.832,
+      "acousticness": 0.517,
+      "instrumentalness": 0.002,
+      "loudness": -5.9,
+      "speechiness": 0.096,
+      "duration_ms": 218418,
+      "slug": "ra-ra-rakkamma-from-vikrant-rona-nakash-aziz"
+    },
+    {
+      "name": "Kalaavathi",
+      "artists": "Thaman S;Sid Sriram",
+      "album": "Kalaavathi - Sarkaru Vaari Paata",
+      "popularity": 68,
+      "tempo": 65.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.446,
+      "danceability": 0.392,
+      "acousticness": 0.627,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.034,
+      "duration_ms": 242322,
+      "slug": "kalaavathi-thaman-s"
+    },
+    {
+      "name": "Vaseegara",
+      "artists": "Bombay Jayashri",
+      "album": "Minnalae",
+      "popularity": 68,
+      "tempo": 143.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.293,
+      "valence": 0.637,
+      "danceability": 0.695,
+      "acousticness": 0.596,
+      "instrumentalness": 0.016,
+      "loudness": -16.3,
+      "speechiness": 0.043,
+      "duration_ms": 299146,
+      "slug": "vaseegara-bombay-jayashri"
+    },
+    {
+      "name": "Shree Hanuman Chalisa",
+      "artists": "Hariharan",
+      "album": "Shree Hanuman Chalisa (Hanuman Ashtak)",
+      "popularity": 68,
+      "tempo": 91.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.885,
+      "valence": 0.831,
+      "danceability": 0.589,
+      "acousticness": 0.545,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.035,
+      "duration_ms": 586075,
+      "slug": "shree-hanuman-chalisa-hariharan"
+    },
+    {
+      "name": "Pirai Thedum",
+      "artists": "Saindhavi;G. V. Prakash",
+      "album": "Mayakkam Enna",
+      "popularity": 68,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.631,
+      "valence": 0.46,
+      "danceability": 0.638,
+      "acousticness": 0.624,
+      "instrumentalness": 0.014,
+      "loudness": -7.0,
+      "speechiness": 0.035,
+      "duration_ms": 332711,
+      "slug": "pirai-thedum-saindhavi"
+    },
+    {
+      "name": "Enkeyoo Partha",
+      "artists": "Yuvan Shankar Raja;Udit Narayan",
+      "album": "Yaaradi Nee Mohini (Original Motion Picture Soundtrack)",
+      "popularity": 68,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.446,
+      "valence": 0.654,
+      "danceability": 0.822,
+      "acousticness": 0.486,
+      "instrumentalness": 0.001,
+      "loudness": -8.9,
+      "speechiness": 0.032,
+      "duration_ms": 320960,
+      "slug": "enkeyoo-partha-yuvan-shankar-raja"
+    },
+    {
+      "name": "Pookkal Pookkum",
+      "artists": "G. V. Prakash;Roop Kumar Rathod;Harini;Andrea Jeremiah",
+      "album": "Madharasapattinam (Original Motion Picture Soundtrack)",
+      "popularity": 68,
+      "tempo": 119.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.424,
+      "valence": 0.561,
+      "danceability": 0.589,
+      "acousticness": 0.844,
+      "instrumentalness": 0.004,
+      "loudness": -12.0,
+      "speechiness": 0.036,
+      "duration_ms": 396466,
+      "slug": "pookkal-pookkum-g-v-prakash"
+    },
+    {
+      "name": "Marakkuma Nenjam - From \"Vendhu Thanindhathu Kaadu\"",
+      "artists": "A.R. Rahman;Thamarai",
+      "album": "Marakkuma Nenjam (From \"Vendhu Thanindhathu Kaadu\")",
+      "popularity": 68,
+      "tempo": 119.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.394,
+      "valence": 0.326,
+      "danceability": 0.662,
+      "acousticness": 0.789,
+      "instrumentalness": 0.124,
+      "loudness": -14.4,
+      "speechiness": 0.036,
+      "duration_ms": 258319,
+      "slug": "marakkuma-nenjam-from-vendhu-thanindhathu-kaadu-ar-rahman"
+    },
+    {
+      "name": "Liggi",
+      "artists": "Ritviz",
+      "album": "Dev",
+      "popularity": 68,
+      "tempo": 102.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.667,
+      "valence": 0.688,
+      "danceability": 0.786,
+      "acousticness": 0.011,
+      "instrumentalness": 0.053,
+      "loudness": -8.3,
+      "speechiness": 0.054,
+      "duration_ms": 181176,
+      "slug": "liggi-ritviz"
+    },
+    {
+      "name": "Sunn Raha Hai",
+      "artists": "Ankit Tiwari",
+      "album": "Aashiqui 2",
+      "popularity": 68,
+      "tempo": 81.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.641,
+      "valence": 0.335,
+      "danceability": 0.394,
+      "acousticness": 0.276,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.031,
+      "duration_ms": 390222,
+      "slug": "sunn-raha-hai-ankit-tiwari"
+    },
+    {
+      "name": "Dil Diyan Gallan",
+      "artists": "Vishal-Shekhar;Julius Packiam;Atif Aslam;Irshad Kamil",
+      "album": "Tiger Zinda Hai",
+      "popularity": 68,
+      "tempo": 105.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.64,
+      "valence": 0.485,
+      "danceability": 0.716,
+      "acousticness": 0.565,
+      "instrumentalness": 0.001,
+      "loudness": -8.7,
+      "speechiness": 0.025,
+      "duration_ms": 260536,
+      "slug": "dil-diyan-gallan-vishal-shekhar"
+    }
+  ]
+}

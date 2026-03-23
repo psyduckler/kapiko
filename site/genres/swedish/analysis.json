@@ -1,0 +1,2802 @@
+{
+  "genre": "Swedish",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 75.113,
+    "max": 195.943,
+    "mean": 119.188,
+    "median": 120.573,
+    "q1": 104.991,
+    "q3": 131.994,
+    "histogram": {
+      "70-79": 3,
+      "80-89": 6,
+      "90-99": 7,
+      "100-109": 14,
+      "110-119": 18,
+      "120-129": 25,
+      "130-139": 15,
+      "140-149": 7,
+      "150-159": 2,
+      "160-169": 1,
+      "170-179": 1,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "F": 16,
+    "A": 13,
+    "F#/Gb": 10,
+    "G": 10,
+    "D": 10,
+    "B": 9,
+    "C": 8,
+    "E": 7,
+    "G#/Ab": 5,
+    "C#/Db": 5,
+    "A#/Bb": 4,
+    "D#/Eb": 3
+  },
+  "mode_distribution": {
+    "Major": 65,
+    "Minor": 35
+  },
+  "key_mode_distribution": {
+    "F Major": 11,
+    "D Major": 9,
+    "C Major": 7,
+    "A Minor": 7,
+    "G Major": 7,
+    "A Major": 6,
+    "B Major": 6,
+    "F#/Gb Minor": 6,
+    "F Minor": 5,
+    "E Minor": 4,
+    "F#/Gb Major": 4,
+    "C#/Db Major": 4,
+    "G Minor": 3,
+    "B Minor": 3,
+    "G#/Ab Major": 3,
+    "E Major": 3,
+    "D#/Eb Major": 3,
+    "A#/Bb Major": 2,
+    "A#/Bb Minor": 2,
+    "G#/Ab Minor": 2,
+    "D Minor": 1,
+    "C#/Db Minor": 1,
+    "C Minor": 1
+  },
+  "energy": {
+    "min": 0.15,
+    "max": 0.992,
+    "mean": 0.685,
+    "median": 0.716,
+    "q1": 0.578,
+    "q3": 0.804
+  },
+  "valence": {
+    "min": 0.075,
+    "max": 0.975,
+    "mean": 0.49,
+    "median": 0.438,
+    "q1": 0.298,
+    "q3": 0.701
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.87,
+      "valence": 0.754
+    },
+    {
+      "energy": 0.491,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.843,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.652,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.799
+    },
+    {
+      "energy": 0.748,
+      "valence": 0.827
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.1
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.348
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.534
+    },
+    {
+      "energy": 0.615,
+      "valence": 0.193
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.534,
+      "valence": 0.631
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.436
+    },
+    {
+      "energy": 0.452,
+      "valence": 0.235
+    },
+    {
+      "energy": 0.732,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.71
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.1
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.675,
+      "valence": 0.924
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.89
+    },
+    {
+      "energy": 0.949,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.933
+    },
+    {
+      "energy": 0.583,
+      "valence": 0.337
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.595
+    },
+    {
+      "energy": 0.575,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.346
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.701,
+      "valence": 0.58
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.468
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.163
+    },
+    {
+      "energy": 0.906,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.26,
+      "valence": 0.339
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.487,
+      "valence": 0.139
+    },
+    {
+      "energy": 0.774,
+      "valence": 0.903
+    },
+    {
+      "energy": 0.838,
+      "valence": 0.541
+    },
+    {
+      "energy": 0.782,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.578,
+      "valence": 0.297
+    },
+    {
+      "energy": 0.677,
+      "valence": 0.075
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.931,
+      "valence": 0.419
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.935,
+      "valence": 0.498
+    },
+    {
+      "energy": 0.452,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.114
+    },
+    {
+      "energy": 0.243,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.699,
+      "valence": 0.585
+    },
+    {
+      "energy": 0.46,
+      "valence": 0.226
+    },
+    {
+      "energy": 0.306,
+      "valence": 0.314
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.767
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.409,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.373
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.218
+    },
+    {
+      "energy": 0.744,
+      "valence": 0.305
+    },
+    {
+      "energy": 0.332,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.687,
+      "valence": 0.147
+    },
+    {
+      "energy": 0.528,
+      "valence": 0.419
+    },
+    {
+      "energy": 0.813,
+      "valence": 0.429
+    },
+    {
+      "energy": 0.15,
+      "valence": 0.314
+    },
+    {
+      "energy": 0.725,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.992,
+      "valence": 0.112
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.975
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.433
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.961
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.71
+    },
+    {
+      "energy": 0.523,
+      "valence": 0.376
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.203
+    },
+    {
+      "energy": 0.529,
+      "valence": 0.308
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.785,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.645
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.691
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.136
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.579
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.701
+    },
+    {
+      "energy": 0.75,
+      "valence": 0.298
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.609,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.8,
+      "valence": 0.533
+    },
+    {
+      "energy": 0.374,
+      "valence": 0.439
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.333
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.278
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.46,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.975,
+      "valence": 0.242
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.819
+    },
+    {
+      "energy": 0.733,
+      "valence": 0.91
+    }
+  ],
+  "acousticness": {
+    "min": 0.001,
+    "max": 0.974,
+    "mean": 0.244,
+    "median": 0.129,
+    "q1": 0.023,
+    "q3": 0.423
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.844,
+    "mean": 0.025,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.001
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.358,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.523,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.34,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.132,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.295,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.27,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.574,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.323,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.471,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.841,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.117,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.734,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.163,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.395,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.261,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.108,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.601,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.046
+    },
+    {
+      "acousticness": 0.457,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.052
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.714,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.844
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.036
+    },
+    {
+      "acousticness": 0.627,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.356,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.423,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.847,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.726,
+      "instrumentalness": 0.168
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.324
+    },
+    {
+      "acousticness": 0.412,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.376,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.053,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.238,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.469,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.784,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.748,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.974,
+      "instrumentalness": 0.735
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.535,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.151,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.194,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.43,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.761,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.178,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.4,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.046
+    },
+    {
+      "acousticness": 0.093,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.13,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.43,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.251,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.294,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.499,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.6,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.196
+    },
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.309,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.307,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 129589,
+    "max": 351578,
+    "mean": 215776.32,
+    "median": 204096.0,
+    "q1": 180640,
+    "q3": 243933
+  },
+  "danceability": {
+    "min": 0.354,
+    "max": 0.883,
+    "mean": 0.635,
+    "median": 0.653,
+    "q1": 0.546,
+    "q3": 0.724
+  },
+  "loudness": {
+    "min": -16.746,
+    "max": -2.603,
+    "mean": -6.736,
+    "median": -6.395,
+    "q1": -7.496,
+    "q3": -5.449
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.235,
+    "mean": 0.052,
+    "median": 0.041,
+    "q1": 0.032,
+    "q3": 0.06
+  },
+  "top_artists": [
+    {
+      "name": "ABBA",
+      "count": 22
+    },
+    {
+      "name": "Tove Lo",
+      "count": 12
+    },
+    {
+      "name": "Zara Larsson",
+      "count": 9
+    },
+    {
+      "name": "Sabaton",
+      "count": 6
+    },
+    {
+      "name": "Roxette",
+      "count": 4
+    },
+    {
+      "name": "Jub\u00ebl",
+      "count": 4
+    },
+    {
+      "name": "Lykke Li",
+      "count": 4
+    },
+    {
+      "name": "Mike Perry",
+      "count": 3
+    },
+    {
+      "name": "shy martin",
+      "count": 3
+    },
+    {
+      "name": "Europe",
+      "count": 2
+    },
+    {
+      "name": "Ricky Rich",
+      "count": 2
+    },
+    {
+      "name": "flora cash",
+      "count": 2
+    },
+    {
+      "name": "Isak Danielson",
+      "count": 2
+    },
+    {
+      "name": "Icona Pop",
+      "count": 2
+    },
+    {
+      "name": "Jos\u00e9 Gonz\u00e1lez",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Dancing Queen",
+      "artists": "ABBA",
+      "album": "Arrival",
+      "popularity": 83,
+      "tempo": 100.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.87,
+      "valence": 0.754,
+      "danceability": 0.543,
+      "acousticness": 0.358,
+      "instrumentalness": 0.001,
+      "loudness": -6.5,
+      "speechiness": 0.043,
+      "duration_ms": 230400,
+      "slug": "dancing-queen-abba"
+    },
+    {
+      "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "artists": "ABBA",
+      "album": "Voulez-Vous",
+      "popularity": 82,
+      "tempo": 119.5,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.491,
+      "valence": 0.536,
+      "danceability": 0.749,
+      "acousticness": 0.02,
+      "instrumentalness": 0.009,
+      "loudness": -9.7,
+      "speechiness": 0.04,
+      "duration_ms": 292613,
+      "slug": "gimme-gimme-gimme-a-man-after-midnight-abba"
+    },
+    {
+      "name": "Angeleyes",
+      "artists": "ABBA",
+      "album": "Voulez-Vous",
+      "popularity": 78,
+      "tempo": 133.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.922,
+      "valence": 0.964,
+      "danceability": 0.719,
+      "acousticness": 0.523,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.034,
+      "duration_ms": 260893,
+      "slug": "angeleyes-abba"
+    },
+    {
+      "name": "The Final Countdown",
+      "artists": "Europe",
+      "album": "The Final Countdown (Expanded Edition)",
+      "popularity": 78,
+      "tempo": 117.7,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.843,
+      "valence": 0.188,
+      "danceability": 0.529,
+      "acousticness": 0.063,
+      "instrumentalness": 0.001,
+      "loudness": -6.9,
+      "speechiness": 0.062,
+      "duration_ms": 310333,
+      "slug": "the-final-countdown-europe"
+    },
+    {
+      "name": "It Must Have Been Love - From the Film \"Pretty Woman\"",
+      "artists": "Roxette",
+      "album": "It Must Have Been Love",
+      "popularity": 78,
+      "tempo": 80.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.652,
+      "valence": 0.722,
+      "danceability": 0.52,
+      "acousticness": 0.34,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.027,
+      "duration_ms": 258786,
+      "slug": "it-must-have-been-love-from-the-film-pretty-woman-roxette"
+    },
+    {
+      "name": "Lush Life",
+      "artists": "Zara Larsson",
+      "album": "So Good",
+      "popularity": 77,
+      "tempo": 98.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.712,
+      "valence": 0.799,
+      "danceability": 0.694,
+      "acousticness": 0.132,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.046,
+      "duration_ms": 201122,
+      "slug": "lush-life-zara-larsson"
+    },
+    {
+      "name": "Mamma Mia",
+      "artists": "ABBA",
+      "album": "Abba",
+      "popularity": 77,
+      "tempo": 137.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.748,
+      "valence": 0.827,
+      "danceability": 0.749,
+      "acousticness": 0.295,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.032,
+      "duration_ms": 213266,
+      "slug": "mamma-mia-abba"
+    },
+    {
+      "name": "Habibi - Albanian Remix",
+      "artists": "Ricky Rich;Dardan;DJ Gimi-O",
+      "album": "Habibi (Albanian Remix)",
+      "popularity": 76,
+      "tempo": 104.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.728,
+      "valence": 0.1,
+      "danceability": 0.639,
+      "acousticness": 0.022,
+      "instrumentalness": 0.004,
+      "loudness": -7.1,
+      "speechiness": 0.03,
+      "duration_ms": 129589,
+      "slug": "habibi-albanian-remix-ricky-rich"
+    },
+    {
+      "name": "Habits (Stay High)",
+      "artists": "Tove Lo",
+      "album": "Queen Of The Clouds",
+      "popularity": 76,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.65,
+      "valence": 0.348,
+      "danceability": 0.733,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.032,
+      "duration_ms": 209160,
+      "slug": "habits-stay-high-tove-lo"
+    },
+    {
+      "name": "2 Die 4",
+      "artists": "Tove Lo",
+      "album": "2 Die 4",
+      "popularity": 75,
+      "tempo": 118.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.8,
+      "valence": 0.534,
+      "danceability": 0.816,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.073,
+      "duration_ms": 185875,
+      "slug": "2-die-4-tove-lo"
+    },
+    {
+      "name": "Dancing In The Moonlight (feat. NEIMY)",
+      "artists": "Jub\u00ebl;NEIMY",
+      "album": "Dancing In The Moonlight (feat. NEIMY)",
+      "popularity": 75,
+      "tempo": 119.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.615,
+      "valence": 0.193,
+      "danceability": 0.659,
+      "acousticness": 0.27,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.064,
+      "duration_ms": 164009,
+      "slug": "dancing-in-the-moonlight-feat-neimy-jub\u00ebl"
+    },
+    {
+      "name": "The Winner Takes It All",
+      "artists": "ABBA",
+      "album": "Super Trouper",
+      "popularity": 75,
+      "tempo": 126.2,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.788,
+      "valence": 0.52,
+      "danceability": 0.454,
+      "acousticness": 0.574,
+      "instrumentalness": 0.001,
+      "loudness": -6.7,
+      "speechiness": 0.037,
+      "duration_ms": 294720,
+      "slug": "the-winner-takes-it-all-abba"
+    },
+    {
+      "name": "Young Folks",
+      "artists": "Peter Bjorn and John",
+      "album": "Writer's Block",
+      "popularity": 75,
+      "tempo": 138.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.662,
+      "danceability": 0.699,
+      "acousticness": 0.016,
+      "instrumentalness": 0.001,
+      "loudness": -6.0,
+      "speechiness": 0.038,
+      "duration_ms": 276693,
+      "slug": "young-folks-peter-bjorn-and-john"
+    },
+    {
+      "name": "sex money feelings die",
+      "artists": "Lykke Li",
+      "album": "so sad so sexy",
+      "popularity": 74,
+      "tempo": 134.1,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.534,
+      "valence": 0.631,
+      "danceability": 0.789,
+      "acousticness": 0.323,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.071,
+      "duration_ms": 139840,
+      "slug": "sex-money-feelings-die-lykke-li"
+    },
+    {
+      "name": "sex money feelings die - slowed version",
+      "artists": "Lykke Li",
+      "album": "sex money feelings die (slowed version)",
+      "popularity": 74,
+      "tempo": 111.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.44,
+      "valence": 0.436,
+      "danceability": 0.797,
+      "acousticness": 0.471,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.059,
+      "duration_ms": 168810,
+      "slug": "sex-money-feelings-die-slowed-version-lykke-li"
+    },
+    {
+      "name": "You're Somebody Else",
+      "artists": "flora cash",
+      "album": "You're Somebody Else",
+      "popularity": 74,
+      "tempo": 103.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.452,
+      "valence": 0.235,
+      "danceability": 0.713,
+      "acousticness": 0.841,
+      "instrumentalness": 0.004,
+      "loudness": -9.6,
+      "speechiness": 0.029,
+      "duration_ms": 218883,
+      "slug": "youre-somebody-else-flora-cash"
+    },
+    {
+      "name": "Never Forget You",
+      "artists": "Zara Larsson;MNEK",
+      "album": "So Good",
+      "popularity": 74,
+      "tempo": 146.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.732,
+      "valence": 0.276,
+      "danceability": 0.583,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.046,
+      "duration_ms": 213427,
+      "slug": "never-forget-you-zara-larsson"
+    },
+    {
+      "name": "Lay All Your Love On Me",
+      "artists": "ABBA",
+      "album": "Super Trouper",
+      "popularity": 74,
+      "tempo": 133.5,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.71,
+      "danceability": 0.678,
+      "acousticness": 0.117,
+      "instrumentalness": 0.004,
+      "loudness": -7.8,
+      "speechiness": 0.026,
+      "duration_ms": 274466,
+      "slug": "lay-all-your-love-on-me-abba"
+    },
+    {
+      "name": "Broken",
+      "artists": "Isak Danielson",
+      "album": "Yours",
+      "popularity": 74,
+      "tempo": 141.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.637,
+      "valence": 0.1,
+      "danceability": 0.434,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.061,
+      "duration_ms": 216338,
+      "slug": "broken-isak-danielson"
+    },
+    {
+      "name": "Chiquitita",
+      "artists": "ABBA",
+      "album": "Voulez-Vous",
+      "popularity": 74,
+      "tempo": 84.2,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.554,
+      "valence": 0.372,
+      "danceability": 0.5,
+      "acousticness": 0.734,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.035,
+      "duration_ms": 326320,
+      "slug": "chiquitita-abba"
+    },
+    {
+      "name": "Take A Chance On Me",
+      "artists": "ABBA",
+      "album": "The Album",
+      "popularity": 74,
+      "tempo": 107.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.675,
+      "valence": 0.924,
+      "danceability": 0.684,
+      "acousticness": 0.163,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.026,
+      "duration_ms": 243933,
+      "slug": "take-a-chance-on-me-abba"
+    },
+    {
+      "name": "Lovefool",
+      "artists": "The Cardigans",
+      "album": "First Band On The Moon (Remastered)",
+      "popularity": 74,
+      "tempo": 111.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.636,
+      "valence": 0.89,
+      "danceability": 0.704,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.025,
+      "duration_ms": 193953,
+      "slug": "lovefool-the-cardigans"
+    },
+    {
+      "name": "Waterloo",
+      "artists": "ABBA",
+      "album": "Waterloo",
+      "popularity": 73,
+      "tempo": 147.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.949,
+      "valence": 0.653,
+      "danceability": 0.445,
+      "acousticness": 0.395,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.047,
+      "duration_ms": 168960,
+      "slug": "waterloo-abba"
+    },
+    {
+      "name": "Hooked On A Feeling",
+      "artists": "Blue Swede;Bj\u00f6rn Skifs",
+      "album": "Hooked On A Feeling",
+      "popularity": 73,
+      "tempo": 118.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.82,
+      "valence": 0.933,
+      "danceability": 0.547,
+      "acousticness": 0.261,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.081,
+      "duration_ms": 172866,
+      "slug": "hooked-on-a-feeling-blue-swede"
+    },
+    {
+      "name": "Listen To Your Heart",
+      "artists": "Roxette",
+      "album": "Look Sharp! (Extended Version)",
+      "popularity": 73,
+      "tempo": 86.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.583,
+      "valence": 0.337,
+      "danceability": 0.539,
+      "acousticness": 0.108,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.028,
+      "duration_ms": 328093,
+      "slug": "listen-to-your-heart-roxette"
+    },
+    {
+      "name": "I'm an Albatraoz",
+      "artists": "AronChupa;Little Sis Nora",
+      "album": "I'm an Albatraoz",
+      "popularity": 72,
+      "tempo": 128.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.817,
+      "valence": 0.595,
+      "danceability": 0.883,
+      "acousticness": 0.601,
+      "instrumentalness": 0.004,
+      "loudness": -5.4,
+      "speechiness": 0.235,
+      "duration_ms": 166848,
+      "slug": "im-an-albatraoz-aronchupa"
+    },
+    {
+      "name": "The Ocean (feat. Shy Martin)",
+      "artists": "Mike Perry;shy martin",
+      "album": "The Ocean (feat. Shy Martin)",
+      "popularity": 72,
+      "tempo": 90.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.575,
+      "valence": 0.188,
+      "danceability": 0.632,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.029,
+      "duration_ms": 183414,
+      "slug": "the-ocean-feat-shy-martin-mike-perry"
+    },
+    {
+      "name": "No One Dies From Love",
+      "artists": "Tove Lo",
+      "album": "No One Dies From Love",
+      "popularity": 72,
+      "tempo": 121.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.801,
+      "valence": 0.346,
+      "danceability": 0.652,
+      "acousticness": 0.072,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.058,
+      "duration_ms": 186018,
+      "slug": "no-one-dies-from-love-tove-lo"
+    },
+    {
+      "name": "I Follow Rivers - The Magician Remix",
+      "artists": "Lykke Li;The Magician",
+      "album": "I Follow Rivers (The Magician Remix)",
+      "popularity": 72,
+      "tempo": 122.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.696,
+      "valence": 0.306,
+      "danceability": 0.786,
+      "acousticness": 0.023,
+      "instrumentalness": 0.002,
+      "loudness": -5.8,
+      "speechiness": 0.043,
+      "duration_ms": 280069,
+      "slug": "i-follow-rivers-the-magician-remix-lykke-li"
+    },
+    {
+      "name": "Lay All Your Love On Me",
+      "artists": "ABBA",
+      "album": "ABBA Gold",
+      "popularity": 72,
+      "tempo": 133.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.701,
+      "valence": 0.58,
+      "danceability": 0.695,
+      "acousticness": 0.019,
+      "instrumentalness": 0.046,
+      "loudness": -6.4,
+      "speechiness": 0.028,
+      "duration_ms": 272506,
+      "slug": "lay-all-your-love-on-me-abba"
+    },
+    {
+      "name": "Super Trouper",
+      "artists": "ABBA",
+      "album": "Super Trouper",
+      "popularity": 72,
+      "tempo": 118.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.626,
+      "valence": 0.961,
+      "danceability": 0.764,
+      "acousticness": 0.457,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.029,
+      "duration_ms": 252853,
+      "slug": "super-trouper-abba"
+    },
+    {
+      "name": "Still (I Got Summer On My Mind) - FORTELLA Remix",
+      "artists": "JJ;FORTELLA",
+      "album": "Still (I Got Summer On My Mind) [FORTELLA Remix]",
+      "popularity": 72,
+      "tempo": 124.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.902,
+      "valence": 0.408,
+      "danceability": 0.759,
+      "acousticness": 0.005,
+      "instrumentalness": 0.052,
+      "loudness": -6.1,
+      "speechiness": 0.051,
+      "duration_ms": 193475,
+      "slug": "still-i-got-summer-on-my-mind-fortella-remix-jj"
+    },
+    {
+      "name": "How Long - From\"Euphoria\" An HBO Original Series",
+      "artists": "Tove Lo",
+      "album": "How Long (From \"Euphoria\" An HBO Original Series)",
+      "popularity": 71,
+      "tempo": 97.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.687,
+      "valence": 0.468,
+      "danceability": 0.668,
+      "acousticness": 0.016,
+      "instrumentalness": 0.001,
+      "loudness": -7.1,
+      "speechiness": 0.058,
+      "duration_ms": 199314,
+      "slug": "how-long-fromeuphoria-an-hbo-original-series-tove-lo"
+    },
+    {
+      "name": "Grapefruit",
+      "artists": "Tove Lo",
+      "album": "Grapefruit",
+      "popularity": 70,
+      "tempo": 105.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.684,
+      "valence": 0.163,
+      "danceability": 0.724,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 231333,
+      "slug": "grapefruit-tove-lo"
+    },
+    {
+      "name": "I Love It (feat. Charli XCX)",
+      "artists": "Icona Pop;Charli XCX",
+      "album": "THIS IS... ICONA POP",
+      "popularity": 70,
+      "tempo": 125.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.906,
+      "valence": 0.824,
+      "danceability": 0.711,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.028,
+      "duration_ms": 157152,
+      "slug": "i-love-it-feat-charli-xcx-icona-pop"
+    },
+    {
+      "name": "Slipping Through My Fingers",
+      "artists": "ABBA",
+      "album": "The Visitors (Deluxe Edition)",
+      "popularity": 70,
+      "tempo": 137.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.26,
+      "valence": 0.339,
+      "danceability": 0.475,
+      "acousticness": 0.796,
+      "instrumentalness": 0.002,
+      "loudness": -16.0,
+      "speechiness": 0.032,
+      "duration_ms": 233720,
+      "slug": "slipping-through-my-fingers-abba"
+    },
+    {
+      "name": "SOS",
+      "artists": "ABBA",
+      "album": "ABBA Gold",
+      "popularity": 70,
+      "tempo": 124.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.497,
+      "danceability": 0.393,
+      "acousticness": 0.063,
+      "instrumentalness": 0.004,
+      "loudness": -4.8,
+      "speechiness": 0.028,
+      "duration_ms": 201360,
+      "slug": "sos-abba"
+    },
+    {
+      "name": "Carrie",
+      "artists": "Europe",
+      "album": "The Final Countdown (Expanded Edition)",
+      "popularity": 70,
+      "tempo": 136.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.487,
+      "valence": 0.139,
+      "danceability": 0.455,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.026,
+      "duration_ms": 272133,
+      "slug": "carrie-europe"
+    },
+    {
+      "name": "Voulez-Vous",
+      "artists": "ABBA",
+      "album": "Voulez-Vous",
+      "popularity": 70,
+      "tempo": 126.6,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.774,
+      "valence": 0.903,
+      "danceability": 0.708,
+      "acousticness": 0.149,
+      "instrumentalness": 0.001,
+      "loudness": -6.9,
+      "speechiness": 0.037,
+      "duration_ms": 309173,
+      "slug": "voulez-vous-abba"
+    },
+    {
+      "name": "The Look",
+      "artists": "Roxette",
+      "album": "Look Sharp! (Extended Version)",
+      "popularity": 70,
+      "tempo": 95.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.838,
+      "valence": 0.541,
+      "danceability": 0.634,
+      "acousticness": 0.053,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.041,
+      "duration_ms": 237320,
+      "slug": "the-look-roxette"
+    },
+    {
+      "name": "Ain't My Fault",
+      "artists": "Zara Larsson",
+      "album": "So Good",
+      "popularity": 69,
+      "tempo": 141.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.782,
+      "valence": 0.355,
+      "danceability": 0.576,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.03,
+      "duration_ms": 224030,
+      "slug": "aint-my-fault-zara-larsson"
+    },
+    {
+      "name": "Blow My Brains Out",
+      "artists": "Tikkle Me",
+      "album": "Tikkle Me",
+      "popularity": 69,
+      "tempo": 145.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.549,
+      "danceability": 0.55,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.036,
+      "duration_ms": 222403,
+      "slug": "blow-my-brains-out-tikkle-me"
+    },
+    {
+      "name": "Are you happy?",
+      "artists": "shy martin",
+      "album": "Sad Songs",
+      "popularity": 68,
+      "tempo": 139.3,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.578,
+      "valence": 0.297,
+      "danceability": 0.632,
+      "acousticness": 0.714,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.09,
+      "duration_ms": 157555,
+      "slug": "are-you-happy-shy-martin"
+    },
+    {
+      "name": "Stay High - Habits Remix",
+      "artists": "Tove Lo;Hippie Sabotage",
+      "album": "Queen Of The Clouds",
+      "popularity": 68,
+      "tempo": 121.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.677,
+      "valence": 0.075,
+      "danceability": 0.736,
+      "acousticness": 0.001,
+      "instrumentalness": 0.844,
+      "loudness": -7.0,
+      "speechiness": 0.035,
+      "duration_ms": 258386,
+      "slug": "stay-high-habits-remix-tove-lo"
+    },
+    {
+      "name": "Off Of My Mind",
+      "artists": "Icona Pop;VIZE",
+      "album": "Off Of My Mind",
+      "popularity": 68,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.565,
+      "danceability": 0.798,
+      "acousticness": 0.128,
+      "instrumentalness": 0.036,
+      "loudness": -5.9,
+      "speechiness": 0.227,
+      "duration_ms": 164739,
+      "slug": "off-of-my-mind-icona-pop"
+    },
+    {
+      "name": "Fernando",
+      "artists": "ABBA",
+      "album": "Arrival",
+      "popularity": 68,
+      "tempo": 110.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.535,
+      "valence": 0.434,
+      "danceability": 0.354,
+      "acousticness": 0.627,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.03,
+      "duration_ms": 252960,
+      "slug": "fernando-abba"
+    },
+    {
+      "name": "Hate To Say I Told You So",
+      "artists": "The Hives",
+      "album": "Veni Vidi Vicious",
+      "popularity": 68,
+      "tempo": 135.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.931,
+      "valence": 0.419,
+      "danceability": 0.459,
+      "acousticness": 0.001,
+      "instrumentalness": 0.009,
+      "loudness": -5.0,
+      "speechiness": 0.061,
+      "duration_ms": 200693,
+      "slug": "hate-to-say-i-told-you-so-the-hives"
+    },
+    {
+      "name": "To Hell and Back",
+      "artists": "Sabaton",
+      "album": "Heroes",
+      "popularity": 68,
+      "tempo": 127.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.305,
+      "danceability": 0.536,
+      "acousticness": 0.003,
+      "instrumentalness": 0.002,
+      "loudness": -4.7,
+      "speechiness": 0.062,
+      "duration_ms": 206546,
+      "slug": "to-hell-and-back-sabaton"
+    },
+    {
+      "name": "The Last Stand",
+      "artists": "Sabaton",
+      "album": "The Last Stand",
+      "popularity": 68,
+      "tempo": 104.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.935,
+      "valence": 0.498,
+      "danceability": 0.519,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.042,
+      "duration_ms": 235840,
+      "slug": "the-last-stand-sabaton"
+    },
+    {
+      "name": "Always",
+      "artists": "Isak Danielson",
+      "album": "Yours",
+      "popularity": 67,
+      "tempo": 113.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.452,
+      "valence": 0.55,
+      "danceability": 0.691,
+      "acousticness": 0.356,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.047,
+      "duration_ms": 213451,
+      "slug": "always-isak-danielson"
+    },
+    {
+      "name": "Talking Body",
+      "artists": "Tove Lo",
+      "album": "Queen Of The Clouds",
+      "popularity": 67,
+      "tempo": 120.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.761,
+      "valence": 0.114,
+      "danceability": 0.736,
+      "acousticness": 0.097,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.034,
+      "duration_ms": 238426,
+      "slug": "talking-body-tove-lo"
+    },
+    {
+      "name": "Slow",
+      "artists": "shy martin",
+      "album": "Slow",
+      "popularity": 67,
+      "tempo": 142.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.243,
+      "valence": 0.239,
+      "danceability": 0.636,
+      "acousticness": 0.815,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.04,
+      "duration_ms": 163547,
+      "slug": "slow-shy-martin"
+    },
+    {
+      "name": "Ruin My Life",
+      "artists": "Zara Larsson",
+      "album": "Ruin My Life",
+      "popularity": 67,
+      "tempo": 124.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.699,
+      "valence": 0.585,
+      "danceability": 0.665,
+      "acousticness": 0.423,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.058,
+      "duration_ms": 190931,
+      "slug": "ruin-my-life-zara-larsson"
+    },
+    {
+      "name": "You're Somebody Else",
+      "artists": "flora cash",
+      "album": "Baby, It's Okay",
+      "popularity": 67,
+      "tempo": 103.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.46,
+      "valence": 0.226,
+      "danceability": 0.706,
+      "acousticness": 0.847,
+      "instrumentalness": 0.008,
+      "loudness": -9.1,
+      "speechiness": 0.03,
+      "duration_ms": 219013,
+      "slug": "youre-somebody-else-flora-cash"
+    },
+    {
+      "name": "Stay Alive",
+      "artists": "Jos\u00e9 Gonz\u00e1lez",
+      "album": "Stay Alive (From The Secret Life Of Walter Mitty)",
+      "popularity": 67,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.306,
+      "valence": 0.314,
+      "danceability": 0.714,
+      "acousticness": 0.726,
+      "instrumentalness": 0.168,
+      "loudness": -12.1,
+      "speechiness": 0.039,
+      "duration_ms": 266906,
+      "slug": "stay-alive-jos\u00e9-gonz\u00e1lez"
+    },
+    {
+      "name": "Drowning In You",
+      "artists": "Lucas Estrada",
+      "album": "Drowning In You",
+      "popularity": 67,
+      "tempo": 126.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.651,
+      "valence": 0.767,
+      "danceability": 0.782,
+      "acousticness": 0.012,
+      "instrumentalness": 0.324,
+      "loudness": -6.0,
+      "speechiness": 0.06,
+      "duration_ms": 141875,
+      "slug": "drowning-in-you-lucas-estrada"
+    },
+    {
+      "name": "Lean On Me",
+      "artists": "Sandro Cavazza",
+      "album": "Lean On Me",
+      "popularity": 67,
+      "tempo": 156.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.419,
+      "valence": 0.716,
+      "danceability": 0.799,
+      "acousticness": 0.412,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.174,
+      "duration_ms": 182497,
+      "slug": "lean-on-me-sandro-cavazza"
+    },
+    {
+      "name": "Lay All Your Love On Me - Spotify Singles",
+      "artists": "Zara Larsson",
+      "album": "Lay All Your Love On Me - Spotify Singles",
+      "popularity": 67,
+      "tempo": 125.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.409,
+      "valence": 0.21,
+      "danceability": 0.691,
+      "acousticness": 0.376,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.038,
+      "duration_ms": 161125,
+      "slug": "lay-all-your-love-on-me-spotify-singles-zara-larsson"
+    },
+    {
+      "name": "Father",
+      "artists": "Sabaton",
+      "album": "Weapons Of The Modern Age",
+      "popularity": 67,
+      "tempo": 77.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.904,
+      "valence": 0.373,
+      "danceability": 0.47,
+      "acousticness": 0.053,
+      "instrumentalness": 0.002,
+      "loudness": -7.0,
+      "speechiness": 0.053,
+      "duration_ms": 278093,
+      "slug": "father-sabaton"
+    },
+    {
+      "name": "Spending My Time",
+      "artists": "Roxette",
+      "album": "Joyride (Extended Version)",
+      "popularity": 67,
+      "tempo": 170.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.218,
+      "danceability": 0.42,
+      "acousticness": 0.238,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.029,
+      "duration_ms": 275666,
+      "slug": "spending-my-time-roxette"
+    },
+    {
+      "name": "WOW (feat. Sabrina Carpenter) - Remix",
+      "artists": "Zara Larsson;Sabrina Carpenter",
+      "album": "WOW (feat. Sabrina Carpenter) [Remix]",
+      "popularity": 66,
+      "tempo": 77.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.744,
+      "valence": 0.305,
+      "danceability": 0.702,
+      "acousticness": 0.469,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.086,
+      "duration_ms": 179652,
+      "slug": "wow-feat-sabrina-carpenter-remix-zara-larsson"
+    },
+    {
+      "name": "I Can't Fall in Love Without You",
+      "artists": "Zara Larsson",
+      "album": "So Good",
+      "popularity": 66,
+      "tempo": 130.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.332,
+      "valence": 0.273,
+      "danceability": 0.485,
+      "acousticness": 0.784,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.034,
+      "duration_ms": 180640,
+      "slug": "i-cant-fall-in-love-without-you-zara-larsson"
+    },
+    {
+      "name": "Grapefruit",
+      "artists": "Tove Lo",
+      "album": "Dirt Femme",
+      "popularity": 66,
+      "tempo": 105.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.687,
+      "valence": 0.147,
+      "danceability": 0.722,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 231333,
+      "slug": "grapefruit-tove-lo"
+    },
+    {
+      "name": "Svag",
+      "artists": "Victor Leksell",
+      "album": "F\u00e5nga mig n\u00e4r jag faller",
+      "popularity": 66,
+      "tempo": 153.7,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.528,
+      "valence": 0.419,
+      "danceability": 0.595,
+      "acousticness": 0.748,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.062,
+      "duration_ms": 191103,
+      "slug": "svag-victor-leksell"
+    },
+    {
+      "name": "By Your Side",
+      "artists": "Mike Perry",
+      "album": "By Your Side",
+      "popularity": 66,
+      "tempo": 123.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.813,
+      "valence": 0.429,
+      "danceability": 0.637,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.054,
+      "duration_ms": 155121,
+      "slug": "by-your-side-mike-perry"
+    },
+    {
+      "name": "Heartbeats",
+      "artists": "Jos\u00e9 Gonz\u00e1lez",
+      "album": "Veneer",
+      "popularity": 66,
+      "tempo": 88.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.15,
+      "valence": 0.314,
+      "danceability": 0.554,
+      "acousticness": 0.974,
+      "instrumentalness": 0.735,
+      "loudness": -16.7,
+      "speechiness": 0.034,
+      "duration_ms": 160240,
+      "slug": "heartbeats-jos\u00e9-gonz\u00e1lez"
+    },
+    {
+      "name": "My Silver Lining",
+      "artists": "First Aid Kit",
+      "album": "Stay Gold",
+      "popularity": 66,
+      "tempo": 101.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.725,
+      "valence": 0.43,
+      "danceability": 0.479,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.034,
+      "duration_ms": 215493,
+      "slug": "my-silver-lining-first-aid-kit"
+    },
+    {
+      "name": "Money, Money, Money",
+      "artists": "ABBA",
+      "album": "Arrival",
+      "popularity": 66,
+      "tempo": 120.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.704,
+      "valence": 0.646,
+      "danceability": 0.787,
+      "acousticness": 0.535,
+      "instrumentalness": 0.003,
+      "loudness": -6.9,
+      "speechiness": 0.038,
+      "duration_ms": 186426,
+      "slug": "money-money-money-abba"
+    },
+    {
+      "name": "Stormtroopers",
+      "artists": "Sabaton",
+      "album": "The War to End All Wars",
+      "popularity": 66,
+      "tempo": 122.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.992,
+      "valence": 0.112,
+      "danceability": 0.515,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.08,
+      "duration_ms": 236000,
+      "slug": "stormtroopers-sabaton"
+    },
+    {
+      "name": "Does Your Mother Know",
+      "artists": "ABBA",
+      "album": "Voulez-Vous",
+      "popularity": 66,
+      "tempo": 135.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.865,
+      "valence": 0.975,
+      "danceability": 0.728,
+      "acousticness": 0.151,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.036,
+      "duration_ms": 193440,
+      "slug": "does-your-mother-know-abba"
+    },
+    {
+      "name": "Dumb",
+      "artists": "Jub\u00ebl",
+      "album": "Dumb",
+      "popularity": 66,
+      "tempo": 124.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.636,
+      "valence": 0.433,
+      "danceability": 0.728,
+      "acousticness": 0.194,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.037,
+      "duration_ms": 192847,
+      "slug": "dumb-jub\u00ebl"
+    },
+    {
+      "name": "Jerk It Out",
+      "artists": "Caesars",
+      "album": "Love For The Streets",
+      "popularity": 66,
+      "tempo": 134.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.981,
+      "valence": 0.861,
+      "danceability": 0.58,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.06,
+      "duration_ms": 195666,
+      "slug": "jerk-it-out-caesars"
+    },
+    {
+      "name": "Cry for You",
+      "artists": "September",
+      "album": "Dancing Shoes",
+      "popularity": 66,
+      "tempo": 130.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.881,
+      "valence": 0.961,
+      "danceability": 0.767,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.03,
+      "duration_ms": 209800,
+      "slug": "cry-for-you-september"
+    },
+    {
+      "name": "Ruin My Life",
+      "artists": "Zara Larsson",
+      "album": "Poster Girl",
+      "popularity": 65,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.71,
+      "valence": 0.613,
+      "danceability": 0.608,
+      "acousticness": 0.43,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.064,
+      "duration_ms": 190050,
+      "slug": "ruin-my-life-zara-larsson"
+    },
+    {
+      "name": "Love To Lose",
+      "artists": "Sandro Cavazza;Georgia Ku",
+      "album": "Love To Lose",
+      "popularity": 65,
+      "tempo": 195.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.741,
+      "valence": 0.71,
+      "danceability": 0.601,
+      "acousticness": 0.047,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.127,
+      "duration_ms": 177731,
+      "slug": "love-to-lose-sandro-cavazza"
+    },
+    {
+      "name": "Not Sad Anymore",
+      "artists": "Clara Mae",
+      "album": "Not Sad Anymore",
+      "popularity": 65,
+      "tempo": 94.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.523,
+      "valence": 0.376,
+      "danceability": 0.675,
+      "acousticness": 0.761,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.044,
+      "duration_ms": 195563,
+      "slug": "not-sad-anymore-clara-mae"
+    },
+    {
+      "name": "Forever Young",
+      "artists": "John De Sohn;LIAMOO",
+      "album": "Made For You",
+      "popularity": 65,
+      "tempo": 122.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.621,
+      "valence": 0.584,
+      "danceability": 0.653,
+      "acousticness": 0.178,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.031,
+      "duration_ms": 167911,
+      "slug": "forever-young-john-de-sohn"
+    },
+    {
+      "name": "Cool Girl",
+      "artists": "Tove Lo",
+      "album": "Lady Wood",
+      "popularity": 65,
+      "tempo": 102.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.694,
+      "valence": 0.203,
+      "danceability": 0.674,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.109,
+      "duration_ms": 199179,
+      "slug": "cool-girl-tove-lo"
+    },
+    {
+      "name": "Uncover",
+      "artists": "Zara Larsson",
+      "album": "Uncover",
+      "popularity": 65,
+      "tempo": 89.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.529,
+      "valence": 0.308,
+      "danceability": 0.556,
+      "acousticness": 0.4,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.025,
+      "duration_ms": 213543,
+      "slug": "uncover-zara-larsson"
+    },
+    {
+      "name": "Suburbia",
+      "artists": "Tove Lo",
+      "album": "Dirt Femme",
+      "popularity": 65,
+      "tempo": 166.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.555,
+      "valence": 0.286,
+      "danceability": 0.61,
+      "acousticness": 0.084,
+      "instrumentalness": 0.046,
+      "loudness": -8.3,
+      "speechiness": 0.067,
+      "duration_ms": 199071,
+      "slug": "suburbia-tove-lo"
+    },
+    {
+      "name": "Love You Better",
+      "artists": "John De Sohn;Rasmus Hagen",
+      "album": "Made For You",
+      "popularity": 65,
+      "tempo": 103.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.785,
+      "valence": 0.796,
+      "danceability": 0.733,
+      "acousticness": 0.093,
+      "instrumentalness": 0.001,
+      "loudness": -7.5,
+      "speechiness": 0.042,
+      "duration_ms": 170893,
+      "slug": "love-you-better-john-de-sohn"
+    },
+    {
+      "name": "Younger - Kygo Remix",
+      "artists": "Seinabo Sey;Kygo",
+      "album": "Pretend",
+      "popularity": 65,
+      "tempo": 114.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.489,
+      "valence": 0.645,
+      "danceability": 0.69,
+      "acousticness": 0.13,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.079,
+      "duration_ms": 351578,
+      "slug": "younger-kygo-remix-seinabo-sey"
+    },
+    {
+      "name": "Money, Money, Money",
+      "artists": "ABBA",
+      "album": "ABBA Gold",
+      "popularity": 65,
+      "tempo": 120.4,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.741,
+      "valence": 0.691,
+      "danceability": 0.756,
+      "acousticness": 0.43,
+      "instrumentalness": 0.001,
+      "loudness": -6.4,
+      "speechiness": 0.036,
+      "duration_ms": 186786,
+      "slug": "money-money-money-abba"
+    },
+    {
+      "name": "Bloom",
+      "artists": "Lucas Estrada;TWOPILOTS",
+      "album": "Bloom",
+      "popularity": 65,
+      "tempo": 105.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.742,
+      "valence": 0.136,
+      "danceability": 0.646,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.025,
+      "duration_ms": 179428,
+      "slug": "bloom-lucas-estrada"
+    },
+    {
+      "name": "SOS",
+      "artists": "ABBA",
+      "album": "Abba",
+      "popularity": 65,
+      "tempo": 125.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.713,
+      "valence": 0.579,
+      "danceability": 0.415,
+      "acousticness": 0.251,
+      "instrumentalness": 0.002,
+      "loudness": -5.5,
+      "speechiness": 0.028,
+      "duration_ms": 202386,
+      "slug": "sos-abba"
+    },
+    {
+      "name": "Little Bit",
+      "artists": "Lykke Li",
+      "album": "Youth Novels",
+      "popularity": 65,
+      "tempo": 120.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.736,
+      "valence": 0.701,
+      "danceability": 0.819,
+      "acousticness": 0.158,
+      "instrumentalness": 0.002,
+      "loudness": -6.5,
+      "speechiness": 0.042,
+      "duration_ms": 273426,
+      "slug": "little-bit-lykke-li"
+    },
+    {
+      "name": "So Sick",
+      "artists": "Jub\u00ebl",
+      "album": "So Sick",
+      "popularity": 65,
+      "tempo": 99.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.75,
+      "valence": 0.298,
+      "danceability": 0.575,
+      "acousticness": 0.294,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.059,
+      "duration_ms": 177634,
+      "slug": "so-sick-jub\u00ebl"
+    },
+    {
+      "name": "Bismarck",
+      "artists": "Sabaton",
+      "album": "Bismarck",
+      "popularity": 65,
+      "tempo": 95.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.859,
+      "valence": 0.434,
+      "danceability": 0.505,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -5.5,
+      "speechiness": 0.043,
+      "duration_ms": 313984,
+      "slug": "bismarck-sabaton"
+    },
+    {
+      "name": "Weekend Vibe",
+      "artists": "Jub\u00ebl",
+      "album": "Weekend Vibe",
+      "popularity": 65,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.74,
+      "danceability": 0.688,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.05,
+      "duration_ms": 166909,
+      "slug": "weekend-vibe-jub\u00ebl"
+    },
+    {
+      "name": "Habibi",
+      "artists": "Ricky Rich;ARAM Mafia",
+      "album": "Habibi",
+      "popularity": 64,
+      "tempo": 75.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.609,
+      "valence": 0.74,
+      "danceability": 0.479,
+      "acousticness": 0.499,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.133,
+      "duration_ms": 179030,
+      "slug": "habibi-ricky-rich"
+    },
+    {
+      "name": "2 Die 4",
+      "artists": "Tove Lo",
+      "album": "Dirt Femme",
+      "popularity": 64,
+      "tempo": 118.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.8,
+      "valence": 0.533,
+      "danceability": 0.816,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.074,
+      "duration_ms": 185875,
+      "slug": "2-die-4-tove-lo"
+    },
+    {
+      "name": "I Have A Dream",
+      "artists": "ABBA",
+      "album": "Voulez-Vous",
+      "popularity": 64,
+      "tempo": 104.3,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.374,
+      "valence": 0.439,
+      "danceability": 0.549,
+      "acousticness": 0.6,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.024,
+      "duration_ms": 285413,
+      "slug": "i-have-a-dream-abba"
+    },
+    {
+      "name": "disco tits",
+      "artists": "Tove Lo",
+      "album": "BLUE LIPS (lady wood phase II)",
+      "popularity": 64,
+      "tempo": 110.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.728,
+      "valence": 0.333,
+      "danceability": 0.79,
+      "acousticness": 0.025,
+      "instrumentalness": 0.001,
+      "loudness": -6.5,
+      "speechiness": 0.061,
+      "duration_ms": 223794,
+      "slug": "disco-tits-tove-lo"
+    },
+    {
+      "name": "Dancing On My Own",
+      "artists": "Robyn",
+      "album": "Body Talk",
+      "popularity": 64,
+      "tempo": 117.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.857,
+      "valence": 0.278,
+      "danceability": 0.674,
+      "acousticness": 0.056,
+      "instrumentalness": 0.196,
+      "loudness": -5.3,
+      "speechiness": 0.035,
+      "duration_ms": 285853,
+      "slug": "dancing-on-my-own-robyn"
+    },
+    {
+      "name": "I Can't Love",
+      "artists": "Mike Perry;Barefoot",
+      "album": "I Can't Love",
+      "popularity": 64,
+      "tempo": 132.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.574,
+      "danceability": 0.612,
+      "acousticness": 0.075,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.044,
+      "duration_ms": 147750,
+      "slug": "i-cant-love-mike-perry"
+    },
+    {
+      "name": "Honey, Honey",
+      "artists": "ABBA",
+      "album": "Waterloo",
+      "popularity": 64,
+      "tempo": 140.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.804,
+      "valence": 0.757,
+      "danceability": 0.474,
+      "acousticness": 0.309,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.047,
+      "duration_ms": 175000,
+      "slug": "honey-honey-abba"
+    },
+    {
+      "name": "Closer To You",
+      "artists": "Rasmus Hagen;Nora Andersson",
+      "album": "Love & Hurt",
+      "popularity": 64,
+      "tempo": 88.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.46,
+      "valence": 0.286,
+      "danceability": 0.638,
+      "acousticness": 0.307,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.048,
+      "duration_ms": 205806,
+      "slug": "closer-to-you-rasmus-hagen"
+    },
+    {
+      "name": "The Attack of the Dead Men",
+      "artists": "Sabaton",
+      "album": "The Great War",
+      "popularity": 64,
+      "tempo": 116.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.975,
+      "valence": 0.242,
+      "danceability": 0.522,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.092,
+      "duration_ms": 235720,
+      "slug": "the-attack-of-the-dead-men-sabaton"
+    },
+    {
+      "name": "Smile",
+      "artists": "Benjamin Ingrosso",
+      "album": "Smile",
+      "popularity": 64,
+      "tempo": 127.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.749,
+      "valence": 0.819,
+      "danceability": 0.592,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -6.2,
+      "speechiness": 0.029,
+      "duration_ms": 192920,
+      "slug": "smile-benjamin-ingrosso"
+    },
+    {
+      "name": "Knowing Me, Knowing You",
+      "artists": "ABBA",
+      "album": "Arrival",
+      "popularity": 64,
+      "tempo": 107.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.733,
+      "valence": 0.91,
+      "danceability": 0.546,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.03,
+      "duration_ms": 241920,
+      "slug": "knowing-me-knowing-you-abba"
+    }
+  ]
+}

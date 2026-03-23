@@ -1,0 +1,2799 @@
+{
+  "genre": "Disney",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 59.95,
+    "max": 181.416,
+    "mean": 109.009,
+    "median": 101.712,
+    "q1": 86.253,
+    "q3": 129.272,
+    "histogram": {
+      "50-59": 1,
+      "60-69": 4,
+      "70-79": 11,
+      "80-89": 15,
+      "90-99": 14,
+      "100-109": 13,
+      "110-119": 9,
+      "120-129": 9,
+      "130-139": 11,
+      "140-149": 2,
+      "150-159": 3,
+      "160-169": 1,
+      "170-179": 6,
+      "180-189": 1
+    }
+  },
+  "key_distribution": {
+    "C": 24,
+    "F": 18,
+    "G": 8,
+    "C#/Db": 8,
+    "G#/Ab": 8,
+    "A#/Bb": 7,
+    "E": 7,
+    "D": 6,
+    "F#/Gb": 5,
+    "D#/Eb": 4,
+    "A": 4,
+    "B": 1
+  },
+  "mode_distribution": {
+    "Major": 82,
+    "Minor": 18
+  },
+  "key_mode_distribution": {
+    "F Major": 18,
+    "C Major": 17,
+    "G Major": 8,
+    "G#/Ab Major": 8,
+    "C Minor": 7,
+    "A#/Bb Major": 7,
+    "E Major": 6,
+    "C#/Db Major": 6,
+    "F#/Gb Minor": 4,
+    "D#/Eb Major": 4,
+    "D Major": 4,
+    "A Major": 2,
+    "D Minor": 2,
+    "C#/Db Minor": 2,
+    "A Minor": 2,
+    "B Major": 1,
+    "E Minor": 1,
+    "F#/Gb Major": 1
+  },
+  "energy": {
+    "min": 0.01,
+    "max": 0.833,
+    "mean": 0.358,
+    "median": 0.336,
+    "q1": 0.168,
+    "q3": 0.504
+  },
+  "valence": {
+    "min": 0.034,
+    "max": 0.923,
+    "mean": 0.407,
+    "median": 0.369,
+    "q1": 0.195,
+    "q3": 0.568
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.313,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.333,
+      "valence": 0.471
+    },
+    {
+      "energy": 0.637,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.144,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.121,
+      "valence": 0.166
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.819
+    },
+    {
+      "energy": 0.411,
+      "valence": 0.43
+    },
+    {
+      "energy": 0.391,
+      "valence": 0.568
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.259,
+      "valence": 0.473
+    },
+    {
+      "energy": 0.307,
+      "valence": 0.114
+    },
+    {
+      "energy": 0.825,
+      "valence": 0.798
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.697
+    },
+    {
+      "energy": 0.352,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.126,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.504,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.396,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.332,
+      "valence": 0.552
+    },
+    {
+      "energy": 0.826,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.18,
+      "valence": 0.368
+    },
+    {
+      "energy": 0.636,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.47
+    },
+    {
+      "energy": 0.338,
+      "valence": 0.389
+    },
+    {
+      "energy": 0.132,
+      "valence": 0.473
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.191
+    },
+    {
+      "energy": 0.5,
+      "valence": 0.562
+    },
+    {
+      "energy": 0.565,
+      "valence": 0.466
+    },
+    {
+      "energy": 0.379,
+      "valence": 0.923
+    },
+    {
+      "energy": 0.364,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.119,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.132,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.463,
+      "valence": 0.858
+    },
+    {
+      "energy": 0.088,
+      "valence": 0.149
+    },
+    {
+      "energy": 0.016,
+      "valence": 0.153
+    },
+    {
+      "energy": 0.377,
+      "valence": 0.06
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.038,
+      "valence": 0.117
+    },
+    {
+      "energy": 0.584,
+      "valence": 0.575
+    },
+    {
+      "energy": 0.301,
+      "valence": 0.474
+    },
+    {
+      "energy": 0.041,
+      "valence": 0.191
+    },
+    {
+      "energy": 0.317,
+      "valence": 0.476
+    },
+    {
+      "energy": 0.742,
+      "valence": 0.897
+    },
+    {
+      "energy": 0.235,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.239,
+      "valence": 0.721
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.518,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.058,
+      "valence": 0.154
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.887
+    },
+    {
+      "energy": 0.187,
+      "valence": 0.445
+    },
+    {
+      "energy": 0.108,
+      "valence": 0.063
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.847
+    },
+    {
+      "energy": 0.225,
+      "valence": 0.717
+    },
+    {
+      "energy": 0.02,
+      "valence": 0.093
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.283
+    },
+    {
+      "energy": 0.711,
+      "valence": 0.819
+    },
+    {
+      "energy": 0.269,
+      "valence": 0.161
+    },
+    {
+      "energy": 0.118,
+      "valence": 0.075
+    },
+    {
+      "energy": 0.065,
+      "valence": 0.137
+    },
+    {
+      "energy": 0.041,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.102,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.592,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.325,
+      "valence": 0.569
+    },
+    {
+      "energy": 0.316,
+      "valence": 0.315
+    },
+    {
+      "energy": 0.168,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.623,
+      "valence": 0.463
+    },
+    {
+      "energy": 0.051,
+      "valence": 0.155
+    },
+    {
+      "energy": 0.543,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.153,
+      "valence": 0.359
+    },
+    {
+      "energy": 0.779,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.504,
+      "valence": 0.57
+    },
+    {
+      "energy": 0.32,
+      "valence": 0.228
+    },
+    {
+      "energy": 0.383,
+      "valence": 0.565
+    },
+    {
+      "energy": 0.195,
+      "valence": 0.158
+    },
+    {
+      "energy": 0.321,
+      "valence": 0.213
+    },
+    {
+      "energy": 0.056,
+      "valence": 0.034
+    },
+    {
+      "energy": 0.533,
+      "valence": 0.685
+    },
+    {
+      "energy": 0.225,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.227,
+      "valence": 0.142
+    },
+    {
+      "energy": 0.133,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.171,
+      "valence": 0.404
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.453,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.121,
+      "valence": 0.166
+    },
+    {
+      "energy": 0.426,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.492,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.57,
+      "valence": 0.852
+    },
+    {
+      "energy": 0.307,
+      "valence": 0.108
+    },
+    {
+      "energy": 0.424,
+      "valence": 0.637
+    },
+    {
+      "energy": 0.237,
+      "valence": 0.208
+    },
+    {
+      "energy": 0.115,
+      "valence": 0.049
+    },
+    {
+      "energy": 0.358,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.06,
+      "valence": 0.195
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.191
+    },
+    {
+      "energy": 0.01,
+      "valence": 0.142
+    },
+    {
+      "energy": 0.694,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.305,
+      "valence": 0.249
+    },
+    {
+      "energy": 0.411,
+      "valence": 0.43
+    }
+  ],
+  "acousticness": {
+    "min": 0.003,
+    "max": 0.995,
+    "mean": 0.677,
+    "median": 0.759,
+    "q1": 0.501,
+    "q3": 0.896
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.962,
+    "mean": 0.177,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.001
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.617,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.817,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.92,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.85,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.708,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.063,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.613,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.829,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.39,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.493,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.812,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.879,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.674,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.826,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.77,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.262,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.403
+    },
+    {
+      "acousticness": 0.806,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.787,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.545,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.696,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.25,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.856,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.178,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.839,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.914,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.718,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.922
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.935
+    },
+    {
+      "acousticness": 0.736,
+      "instrumentalness": 0.758
+    },
+    {
+      "acousticness": 0.83,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.935
+    },
+    {
+      "acousticness": 0.274,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.962
+    },
+    {
+      "acousticness": 0.896,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.439,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.748,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.686,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.318,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.412,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.933
+    },
+    {
+      "acousticness": 0.949,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.789,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.861,
+      "instrumentalness": 0.934
+    },
+    {
+      "acousticness": 0.743,
+      "instrumentalness": 0.676
+    },
+    {
+      "acousticness": 0.661,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.923
+    },
+    {
+      "acousticness": 0.382,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.423,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.494,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.938,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.915,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.992,
+      "instrumentalness": 0.948
+    },
+    {
+      "acousticness": 0.973,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.993,
+      "instrumentalness": 0.946
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.836,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.746
+    },
+    {
+      "acousticness": 0.956,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.349
+    },
+    {
+      "acousticness": 0.963,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.613,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.848,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.182,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.715,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.511,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.658,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.811,
+      "instrumentalness": 0.786
+    },
+    {
+      "acousticness": 0.501,
+      "instrumentalness": 0.601
+    },
+    {
+      "acousticness": 0.953,
+      "instrumentalness": 0.952
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.978,
+      "instrumentalness": 0.924
+    },
+    {
+      "acousticness": 0.848,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.895,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.983,
+      "instrumentalness": 0.9
+    },
+    {
+      "acousticness": 0.645,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.187,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.85,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.686,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.231,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.951,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.724,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.974,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.935,
+      "instrumentalness": 0.82
+    },
+    {
+      "acousticness": 0.673,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.727,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.98,
+      "instrumentalness": 0.947
+    },
+    {
+      "acousticness": 0.545,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.972,
+      "instrumentalness": 0.374
+    },
+    {
+      "acousticness": 0.364,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.88,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 46040,
+    "max": 333265,
+    "mean": 167227.36,
+    "median": 167034.0,
+    "q1": 126386,
+    "q3": 206007
+  },
+  "danceability": {
+    "min": 0.091,
+    "max": 0.808,
+    "mean": 0.475,
+    "median": 0.486,
+    "q1": 0.354,
+    "q3": 0.585
+  },
+  "loudness": {
+    "min": -30.646,
+    "max": -3.493,
+    "mean": -13.093,
+    "median": -11.773,
+    "q1": -16.112,
+    "q3": -8.152
+  },
+  "speechiness": {
+    "min": 0.029,
+    "max": 0.243,
+    "mean": 0.068,
+    "median": 0.05,
+    "q1": 0.037,
+    "q3": 0.085
+  },
+  "top_artists": [
+    {
+      "name": "Disney",
+      "count": 19
+    },
+    {
+      "name": "Kristen Bell",
+      "count": 12
+    },
+    {
+      "name": "Randy Newman",
+      "count": 6
+    },
+    {
+      "name": "Samuel E. Wright",
+      "count": 6
+    },
+    {
+      "name": "Idina Menzel",
+      "count": 6
+    },
+    {
+      "name": "Lebo M.",
+      "count": 5
+    },
+    {
+      "name": "Emma Watson",
+      "count": 5
+    },
+    {
+      "name": "Disney Peaceful Piano",
+      "count": 5
+    },
+    {
+      "name": "Germaine Franco",
+      "count": 5
+    },
+    {
+      "name": "Alan Menken",
+      "count": 4
+    },
+    {
+      "name": "Nathan Lane",
+      "count": 3
+    },
+    {
+      "name": "Ernie Sabella",
+      "count": 3
+    },
+    {
+      "name": "Joseph Williams",
+      "count": 3
+    },
+    {
+      "name": "Jodi Benson",
+      "count": 3
+    },
+    {
+      "name": "Josh Gad",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Hakuna Matata - From \"The Lion King\"/Soundtrack",
+      "artists": "Nathan Lane;Ernie Sabella;Jason Weaver;Joseph Williams",
+      "album": "The Lion King",
+      "popularity": 72,
+      "tempo": 170.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.313,
+      "valence": 0.725,
+      "danceability": 0.408,
+      "acousticness": 0.617,
+      "instrumentalness": 0.0,
+      "loudness": -18.1,
+      "speechiness": 0.137,
+      "duration_ms": 213600,
+      "slug": "hakuna-matata-from-the-lion-kingsoundtrack-nathan-lane"
+    },
+    {
+      "name": "You've Got a Friend in Me - From \"Toy Story\"/Soundtrack Version",
+      "artists": "Randy Newman",
+      "album": "Toy Story",
+      "popularity": 71,
+      "tempo": 115.8,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.333,
+      "valence": 0.471,
+      "danceability": 0.689,
+      "acousticness": 0.817,
+      "instrumentalness": 0.0,
+      "loudness": -12.1,
+      "speechiness": 0.031,
+      "duration_ms": 124160,
+      "slug": "youve-got-a-friend-in-me-from-toy-storysoundtrack-version-randy-newman"
+    },
+    {
+      "name": "Love Is an Open Door - From \"Frozen\"/Soundtrack Version",
+      "artists": "Kristen Bell;Santino Fontana",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 71,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.637,
+      "valence": 0.537,
+      "danceability": 0.737,
+      "acousticness": 0.262,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.073,
+      "duration_ms": 124733,
+      "slug": "love-is-an-open-door-from-frozensoundtrack-version-kristen-bell"
+    },
+    {
+      "name": "Part of Your World",
+      "artists": "Jodi Benson;Disney",
+      "album": "The Little Mermaid Special Edition",
+      "popularity": 70,
+      "tempo": 61.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.144,
+      "valence": 0.302,
+      "danceability": 0.274,
+      "acousticness": 0.92,
+      "instrumentalness": 0.0,
+      "loudness": -14.5,
+      "speechiness": 0.048,
+      "duration_ms": 195493,
+      "slug": "part-of-your-world-jodi-benson"
+    },
+    {
+      "name": "Do You Want to Build a Snowman? - From \"Frozen\"/Soundtrack Version",
+      "artists": "Kristen Bell;Agatha Lee Monn;Katie Lopez",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 70,
+      "tempo": 174.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.121,
+      "valence": 0.166,
+      "danceability": 0.306,
+      "acousticness": 0.85,
+      "instrumentalness": 0.0,
+      "loudness": -15.6,
+      "speechiness": 0.055,
+      "duration_ms": 206506,
+      "slug": "do-you-want-to-build-a-snowman-from-frozensoundtrack-version-kristen-bell"
+    },
+    {
+      "name": "Under the Sea",
+      "artists": "Samuel E. Wright;Disney",
+      "album": "The Little Mermaid Special Edition",
+      "popularity": 69,
+      "tempo": 99.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.475,
+      "valence": 0.819,
+      "danceability": 0.511,
+      "acousticness": 0.708,
+      "instrumentalness": 0.0,
+      "loudness": -14.7,
+      "speechiness": 0.161,
+      "duration_ms": 195146,
+      "slug": "under-the-sea-samuel-e-wright"
+    },
+    {
+      "name": "For the First Time in Forever - From \"Frozen\"/Soundtrack Version",
+      "artists": "Kristen Bell;Idina Menzel",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 69,
+      "tempo": 90.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.411,
+      "valence": 0.43,
+      "danceability": 0.354,
+      "acousticness": 0.815,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.034,
+      "duration_ms": 225080,
+      "slug": "for-the-first-time-in-forever-from-frozensoundtrack-version-kristen-bell"
+    },
+    {
+      "name": "Circle of Life - From \"The Lion King\"/ Soundtrack",
+      "artists": "Carmen Twillie;Lebo M.",
+      "album": "The Lion King",
+      "popularity": 67,
+      "tempo": 83.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.391,
+      "valence": 0.568,
+      "danceability": 0.402,
+      "acousticness": 0.063,
+      "instrumentalness": 0.0,
+      "loudness": -16.1,
+      "speechiness": 0.041,
+      "duration_ms": 239146,
+      "slug": "circle-of-life-from-the-lion-king-soundtrack-carmen-twillie"
+    },
+    {
+      "name": "Some Things Never Change",
+      "artists": "Kristen Bell;Idina Menzel;Josh Gad;Jonathan Groff;Cast of Frozen 2",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 67,
+      "tempo": 89.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.299,
+      "danceability": 0.566,
+      "acousticness": 0.613,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.031,
+      "duration_ms": 209964,
+      "slug": "some-things-never-change-kristen-bell"
+    },
+    {
+      "name": "Mother Knows Best - From \"Tangled\"/Soundtrack Version",
+      "artists": "Donna Murphy",
+      "album": "Tangled",
+      "popularity": 66,
+      "tempo": 69.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.259,
+      "valence": 0.473,
+      "danceability": 0.403,
+      "acousticness": 0.829,
+      "instrumentalness": 0.0,
+      "loudness": -11.4,
+      "speechiness": 0.166,
+      "duration_ms": 190440,
+      "slug": "mother-knows-best-from-tangledsoundtrack-version-donna-murphy"
+    },
+    {
+      "name": "How Far I'll Go - From \"Moana\"/Soundtrack Version",
+      "artists": "Auli'i Cravalho",
+      "album": "Disney Summer Songs",
+      "popularity": 66,
+      "tempo": 83.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.307,
+      "valence": 0.114,
+      "danceability": 0.537,
+      "acousticness": 0.649,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.054,
+      "duration_ms": 163386,
+      "slug": "how-far-ill-go-from-moanasoundtrack-version-aulii-cravalho"
+    },
+    {
+      "name": "Dig a Little Deeper",
+      "artists": "Jenifer Lewis;The Pinnacle Gospel Choir",
+      "album": "The Princess and the Frog (Original Motion Picture Soundtrack)",
+      "popularity": 65,
+      "tempo": 98.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.825,
+      "valence": 0.798,
+      "danceability": 0.719,
+      "acousticness": 0.39,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.052,
+      "duration_ms": 167933,
+      "slug": "dig-a-little-deeper-jenifer-lewis"
+    },
+    {
+      "name": "Zero To Hero",
+      "artists": "Chorus - Hercules;Lillias White;Cheryl Freeman;LaChanze;Roz Ryan;Vaneese Thomas;Tawatha Agee;Disney",
+      "album": "Hercules (Original Motion Picture Soundtrack)",
+      "popularity": 65,
+      "tempo": 164.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.82,
+      "valence": 0.697,
+      "danceability": 0.474,
+      "acousticness": 0.493,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.243,
+      "duration_ms": 140573,
+      "slug": "zero-to-hero-chorus-hercules"
+    },
+    {
+      "name": "Ma Belle Evangeline",
+      "artists": "Jim Cummings;Terence Blanchard",
+      "album": "The Princess and the Frog (Original Motion Picture Soundtrack)",
+      "popularity": 65,
+      "tempo": 139.5,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.352,
+      "valence": 0.306,
+      "danceability": 0.378,
+      "acousticness": 0.812,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.035,
+      "duration_ms": 115693,
+      "slug": "ma-belle-evangeline-jim-cummings"
+    },
+    {
+      "name": "Go the Distance",
+      "artists": "Roger Bart;Disney",
+      "album": "Hercules (Original Motion Picture Soundtrack)",
+      "popularity": 65,
+      "tempo": 88.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.126,
+      "valence": 0.21,
+      "danceability": 0.275,
+      "acousticness": 0.879,
+      "instrumentalness": 0.001,
+      "loudness": -17.1,
+      "speechiness": 0.033,
+      "duration_ms": 194160,
+      "slug": "go-the-distance-roger-bart"
+    },
+    {
+      "name": "Belle",
+      "artists": "Emma Watson;Luke Evans;Ensemble - Beauty and the Beast",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 64,
+      "tempo": 123.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.504,
+      "valence": 0.327,
+      "danceability": 0.524,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.05,
+      "duration_ms": 333265,
+      "slug": "belle-emma-watson"
+    },
+    {
+      "name": "Evermore",
+      "artists": "Dan Stevens",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 64,
+      "tempo": 79.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.396,
+      "valence": 0.219,
+      "danceability": 0.285,
+      "acousticness": 0.674,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.032,
+      "duration_ms": 194541,
+      "slug": "evermore-dan-stevens"
+    },
+    {
+      "name": "Mother Knows Best (Reprise) - From \"Tangled\"/Soundtrack Version",
+      "artists": "Donna Murphy",
+      "album": "Tangled",
+      "popularity": 64,
+      "tempo": 110.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.332,
+      "valence": 0.552,
+      "danceability": 0.55,
+      "acousticness": 0.826,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.175,
+      "duration_ms": 98320,
+      "slug": "mother-knows-best-reprise-from-tangledsoundtrack-version-donna-murphy"
+    },
+    {
+      "name": "Calling All the Monsters",
+      "artists": "China Anne McClain",
+      "album": "A.N.T. Farm",
+      "popularity": 64,
+      "tempo": 142.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.826,
+      "valence": 0.499,
+      "danceability": 0.561,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.097,
+      "duration_ms": 206506,
+      "slug": "calling-all-the-monsters-china-anne-mcclain"
+    },
+    {
+      "name": "Poor Unfortunate Souls",
+      "artists": "Pat Carroll;Disney",
+      "album": "The Little Mermaid Special Edition",
+      "popularity": 63,
+      "tempo": 73.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.18,
+      "valence": 0.368,
+      "danceability": 0.384,
+      "acousticness": 0.77,
+      "instrumentalness": 0.0,
+      "loudness": -17.3,
+      "speechiness": 0.101,
+      "duration_ms": 291693,
+      "slug": "poor-unfortunate-souls-pat-carroll"
+    },
+    {
+      "name": "Love Is an Open Door - From \"Frozen\"/Soundtrack Version",
+      "artists": "Kristen Bell;Santino Fontana",
+      "album": "Disney Summer Songs",
+      "popularity": 62,
+      "tempo": 100.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.636,
+      "valence": 0.537,
+      "danceability": 0.737,
+      "acousticness": 0.262,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.074,
+      "duration_ms": 124733,
+      "slug": "love-is-an-open-door-from-frozensoundtrack-version-kristen-bell"
+    },
+    {
+      "name": "Kingdom Dance - From \"Tangled\"/Score",
+      "artists": "Alan Menken",
+      "album": "Tangled",
+      "popularity": 62,
+      "tempo": 155.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.614,
+      "valence": 0.47,
+      "danceability": 0.239,
+      "acousticness": 0.09,
+      "instrumentalness": 0.403,
+      "loudness": -9.8,
+      "speechiness": 0.077,
+      "duration_ms": 140413,
+      "slug": "kingdom-dance-from-tangledscore-alan-menken"
+    },
+    {
+      "name": "For the First Time in Forever (Reprise) - From \"Frozen\"/Soundtrack Version",
+      "artists": "Kristen Bell;Idina Menzel",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 62,
+      "tempo": 94.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.338,
+      "valence": 0.389,
+      "danceability": 0.362,
+      "acousticness": 0.806,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.039,
+      "duration_ms": 149640,
+      "slug": "for-the-first-time-in-forever-reprise-from-frozensoundtrack-version-kristen-bell"
+    },
+    {
+      "name": "Can You Feel the Love Tonight - From \"The Lion King\" / Soundtrack Version",
+      "artists": "Joseph Williams;Sally Dworsky;Nathan Lane;Ernie Sabella;Kristle Edwards",
+      "album": "The Lion King",
+      "popularity": 62,
+      "tempo": 78.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.132,
+      "valence": 0.473,
+      "danceability": 0.306,
+      "acousticness": 0.787,
+      "instrumentalness": 0.0,
+      "loudness": -19.3,
+      "speechiness": 0.054,
+      "duration_ms": 177786,
+      "slug": "can-you-feel-the-love-tonight-from-the-lion-king-soundtrack-version-joseph-willi"
+    },
+    {
+      "name": "Frozen Heart - From \"Frozen\"/Soundtrack Version",
+      "artists": "Cast - Frozen",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 61,
+      "tempo": 95.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.481,
+      "valence": 0.191,
+      "danceability": 0.538,
+      "acousticness": 0.545,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.1,
+      "duration_ms": 105293,
+      "slug": "frozen-heart-from-frozensoundtrack-version-cast-frozen"
+    },
+    {
+      "name": "Un Poco Loco",
+      "artists": "Luis \u00c1ngel G\u00f3mez Jaramillo;Gael Garcia Bernal",
+      "album": "Coco (Banda Sonora Original en Espa\u00f1ol)",
+      "popularity": 61,
+      "tempo": 95.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.5,
+      "valence": 0.562,
+      "danceability": 0.624,
+      "acousticness": 0.696,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.166,
+      "duration_ms": 112205,
+      "slug": "un-poco-loco-luis-\u00e1ngel-g\u00f3mez-jaramillo"
+    },
+    {
+      "name": "The Gospel Truth I / Main Titles - Hercules",
+      "artists": "Cheryl Freeman;LaChanze;Vaneese Thomas;Lillias White;Roz Ryan;Disney",
+      "album": "Hercules (Original Motion Picture Soundtrack)",
+      "popularity": 61,
+      "tempo": 158.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.565,
+      "valence": 0.466,
+      "danceability": 0.5,
+      "acousticness": 0.25,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.145,
+      "duration_ms": 145640,
+      "slug": "the-gospel-truth-i-main-titles-hercules-cheryl-freeman"
+    },
+    {
+      "name": "The Lion Sleeps Tonight",
+      "artists": "Billy Eichner;Seth Rogen",
+      "album": "The Lion King (Original Motion Picture Soundtrack)",
+      "popularity": 60,
+      "tempo": 138.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.379,
+      "valence": 0.923,
+      "danceability": 0.686,
+      "acousticness": 0.856,
+      "instrumentalness": 0.0,
+      "loudness": -15.2,
+      "speechiness": 0.223,
+      "duration_ms": 84720,
+      "slug": "the-lion-sleeps-tonight-billy-eichner"
+    },
+    {
+      "name": "1 True Love",
+      "artists": "4*TOWN (From Disney and Pixar\u2019s Turning Red);Jordan Fisher;Finneas O'Connell;Topher Ngo;Grayson Villanueva;Josh Levi",
+      "album": "Turning Red (Original Motion Picture Soundtrack)",
+      "popularity": 60,
+      "tempo": 120.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.364,
+      "valence": 0.221,
+      "danceability": 0.622,
+      "acousticness": 0.178,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.033,
+      "duration_ms": 199906,
+      "slug": "1-true-love-4town-from-disney-and-pixars-turning-red"
+    },
+    {
+      "name": "The Next Right Thing",
+      "artists": "Kristen Bell",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 60,
+      "tempo": 170.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.119,
+      "valence": 0.146,
+      "danceability": 0.296,
+      "acousticness": 0.839,
+      "instrumentalness": 0.0,
+      "loudness": -14.3,
+      "speechiness": 0.048,
+      "duration_ms": 216773,
+      "slug": "the-next-right-thing-kristen-bell"
+    },
+    {
+      "name": "Part of Your World - From \"The Little Mermaid\" / Soundtrack Version",
+      "artists": "Jodi Benson;Disney",
+      "album": "The Little Mermaid",
+      "popularity": 60,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.132,
+      "valence": 0.323,
+      "danceability": 0.387,
+      "acousticness": 0.914,
+      "instrumentalness": 0.001,
+      "loudness": -15.1,
+      "speechiness": 0.039,
+      "duration_ms": 195493,
+      "slug": "part-of-your-world-from-the-little-mermaid-soundtrack-version-jodi-benson"
+    },
+    {
+      "name": "Under the Sea - From \"The Little Mermaid\" / Soundtrack Version",
+      "artists": "Samuel E. Wright;Disney",
+      "album": "The Little Mermaid",
+      "popularity": 60,
+      "tempo": 99.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.463,
+      "valence": 0.858,
+      "danceability": 0.68,
+      "acousticness": 0.718,
+      "instrumentalness": 0.0,
+      "loudness": -15.3,
+      "speechiness": 0.165,
+      "duration_ms": 195146,
+      "slug": "under-the-sea-from-the-little-mermaid-soundtrack-version-samuel-e-wright"
+    },
+    {
+      "name": "Beauty and the Beast",
+      "artists": "Disney Peaceful Piano;Disney",
+      "album": "Disney Peaceful Piano: Lullaby",
+      "popularity": 60,
+      "tempo": 79.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.088,
+      "valence": 0.149,
+      "danceability": 0.432,
+      "acousticness": 0.995,
+      "instrumentalness": 0.922,
+      "loudness": -27.0,
+      "speechiness": 0.068,
+      "duration_ms": 167055,
+      "slug": "beauty-and-the-beast-disney-peaceful-piano"
+    },
+    {
+      "name": "A Dream Is a Wish Your Heart Makes",
+      "artists": "Disney Peaceful Piano;Disney",
+      "album": "Disney Peaceful Piano: Lullaby",
+      "popularity": 60,
+      "tempo": 80.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.016,
+      "valence": 0.153,
+      "danceability": 0.484,
+      "acousticness": 0.995,
+      "instrumentalness": 0.935,
+      "loudness": -28.6,
+      "speechiness": 0.059,
+      "duration_ms": 148953,
+      "slug": "a-dream-is-a-wish-your-heart-makes-disney-peaceful-piano"
+    },
+    {
+      "name": "\u00a1Hola Casita!",
+      "artists": "Germaine Franco",
+      "album": "Encanto (Original Motion Picture Soundtrack)",
+      "popularity": 59,
+      "tempo": 130.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.377,
+      "valence": 0.06,
+      "danceability": 0.164,
+      "acousticness": 0.736,
+      "instrumentalness": 0.758,
+      "loudness": -11.9,
+      "speechiness": 0.037,
+      "duration_ms": 46040,
+      "slug": "hola-casita-germaine-franco"
+    },
+    {
+      "name": "Lass jetzt los - aus \"Die Eisk\u00f6nigin - V\u00f6llig Unverfroren\"/Deutscher Film-Soundtrack",
+      "artists": "Willemijn Verkaik",
+      "album": "Die Eisk\u00f6nigin V\u00f6llig Unverfroren (Deutscher Original Film Soundtrack)",
+      "popularity": 59,
+      "tempo": 137.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.412,
+      "valence": 0.336,
+      "danceability": 0.554,
+      "acousticness": 0.83,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.032,
+      "duration_ms": 224026,
+      "slug": "lass-jetzt-los-aus-die-eisk\u00f6nigin-v\u00f6llig-unverfrorendeutscher-film-soundtrack-wi"
+    },
+    {
+      "name": "Once Upon a Dream",
+      "artists": "Disney Peaceful Piano;Disney",
+      "album": "Disney Peaceful Piano: Lullaby",
+      "popularity": 59,
+      "tempo": 70.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.038,
+      "valence": 0.117,
+      "danceability": 0.441,
+      "acousticness": 0.995,
+      "instrumentalness": 0.935,
+      "loudness": -27.0,
+      "speechiness": 0.077,
+      "duration_ms": 197519,
+      "slug": "once-upon-a-dream-disney-peaceful-piano"
+    },
+    {
+      "name": "Hakuna Matata",
+      "artists": "Billy Eichner;Seth Rogen;JD McCrary;Childish Gambino",
+      "album": "The Lion King (Original Motion Picture Soundtrack)",
+      "popularity": 58,
+      "tempo": 81.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.584,
+      "valence": 0.575,
+      "danceability": 0.53,
+      "acousticness": 0.274,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.218,
+      "duration_ms": 251520,
+      "slug": "hakuna-matata-billy-eichner"
+    },
+    {
+      "name": "You've Got a Friend in Me",
+      "artists": "Randy Newman",
+      "album": "Toy Story 4 (Original Motion Picture Soundtrack)",
+      "popularity": 57,
+      "tempo": 115.6,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.301,
+      "valence": 0.474,
+      "danceability": 0.698,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -13.1,
+      "speechiness": 0.03,
+      "duration_ms": 124386,
+      "slug": "youve-got-a-friend-in-me-randy-newman"
+    },
+    {
+      "name": "I Can't Make You Love Me - Piano Version",
+      "artists": "Mark Benson",
+      "album": "Piano Favorites 3",
+      "popularity": 57,
+      "tempo": 111.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.041,
+      "valence": 0.191,
+      "danceability": 0.442,
+      "acousticness": 0.992,
+      "instrumentalness": 0.962,
+      "loudness": -25.8,
+      "speechiness": 0.057,
+      "duration_ms": 218266,
+      "slug": "i-cant-make-you-love-me-piano-version-mark-benson"
+    },
+    {
+      "name": "Something There",
+      "artists": "Emma Watson;Dan Stevens;Ewan McGregor;Ian McKellen;Emma Thompson;Nathan Mack;Gugu Mbatha-Raw",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 57,
+      "tempo": 123.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.317,
+      "valence": 0.476,
+      "danceability": 0.45,
+      "acousticness": 0.896,
+      "instrumentalness": 0.0,
+      "loudness": -12.9,
+      "speechiness": 0.038,
+      "duration_ms": 174878,
+      "slug": "something-there-emma-watson"
+    },
+    {
+      "name": "I Can't Let You Throw Yourself Away",
+      "artists": "Randy Newman",
+      "album": "Toy Story 4 (Original Motion Picture Soundtrack)",
+      "popularity": 57,
+      "tempo": 106.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.742,
+      "valence": 0.897,
+      "danceability": 0.642,
+      "acousticness": 0.439,
+      "instrumentalness": 0.001,
+      "loudness": -8.2,
+      "speechiness": 0.04,
+      "duration_ms": 125786,
+      "slug": "i-cant-let-you-throw-yourself-away-randy-newman"
+    },
+    {
+      "name": "Kiss the Girl - Remastered 2014",
+      "artists": "Samuel E. Wright",
+      "album": "Walt Disney Records The Legacy Collection: The Little Mermaid",
+      "popularity": 57,
+      "tempo": 134.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.235,
+      "valence": 0.757,
+      "danceability": 0.67,
+      "acousticness": 0.748,
+      "instrumentalness": 0.0,
+      "loudness": -15.6,
+      "speechiness": 0.047,
+      "duration_ms": 160880,
+      "slug": "kiss-the-girl-remastered-2014-samuel-e-wright"
+    },
+    {
+      "name": "Kiss the Girl",
+      "artists": "Samuel E. Wright;Disney",
+      "album": "The Little Mermaid Special Edition",
+      "popularity": 57,
+      "tempo": 134.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.239,
+      "valence": 0.721,
+      "danceability": 0.667,
+      "acousticness": 0.686,
+      "instrumentalness": 0.0,
+      "loudness": -15.9,
+      "speechiness": 0.048,
+      "duration_ms": 163400,
+      "slug": "kiss-the-girl-samuel-e-wright"
+    },
+    {
+      "name": "La Llorona",
+      "artists": "Alanna Ubach;Antonio Sol",
+      "album": "Coco (Original Motion Picture Soundtrack)",
+      "popularity": 56,
+      "tempo": 67.7,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.574,
+      "valence": 0.37,
+      "danceability": 0.46,
+      "acousticness": 0.318,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.112,
+      "duration_ms": 165533,
+      "slug": "la-llorona-alanna-ubach"
+    },
+    {
+      "name": "Circle of Life/Nants' Ingonyama",
+      "artists": "Lindiwe Mkhize;Lebo M.",
+      "album": "The Lion King (Original Motion Picture Soundtrack)",
+      "popularity": 56,
+      "tempo": 81.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.518,
+      "valence": 0.496,
+      "danceability": 0.297,
+      "acousticness": 0.412,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.038,
+      "duration_ms": 241800,
+      "slug": "circle-of-lifenants-ingonyama-lindiwe-mkhize"
+    },
+    {
+      "name": "It Must Have Been Love - Piano version",
+      "artists": "Mark Benson",
+      "album": "Piano Favorites 2",
+      "popularity": 56,
+      "tempo": 118.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.058,
+      "valence": 0.154,
+      "danceability": 0.554,
+      "acousticness": 0.988,
+      "instrumentalness": 0.933,
+      "loudness": -24.3,
+      "speechiness": 0.046,
+      "duration_ms": 255236,
+      "slug": "it-must-have-been-love-piano-version-mark-benson"
+    },
+    {
+      "name": "Bibbidi-Bobbidi-Boo - From \"Cinderella\"",
+      "artists": "Verna Felton",
+      "album": "Disney's Greatest Volume 1",
+      "popularity": 56,
+      "tempo": 105.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.525,
+      "valence": 0.887,
+      "danceability": 0.513,
+      "acousticness": 0.949,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.052,
+      "duration_ms": 77933,
+      "slug": "bibbidi-bobbidi-boo-from-cinderella-verna-felton"
+    },
+    {
+      "name": "Can You Feel the Love Tonight - From \"The Lion King\" / Soundtrack Version",
+      "artists": "Joseph Williams;Sally Dworsky;Nathan Lane;Ernie Sabella;Kristle Edwards",
+      "album": "Disney Summer Songs",
+      "popularity": 56,
+      "tempo": 81.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.187,
+      "valence": 0.445,
+      "danceability": 0.345,
+      "acousticness": 0.789,
+      "instrumentalness": 0.0,
+      "loudness": -15.3,
+      "speechiness": 0.046,
+      "duration_ms": 176213,
+      "slug": "can-you-feel-the-love-tonight-from-the-lion-king-soundtrack-version-joseph-willi"
+    },
+    {
+      "name": "Abre Los Ojos",
+      "artists": "Germaine Franco",
+      "album": "Encanto (Original Motion Picture Soundtrack)",
+      "popularity": 56,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.108,
+      "valence": 0.063,
+      "danceability": 0.236,
+      "acousticness": 0.861,
+      "instrumentalness": 0.934,
+      "loudness": -16.4,
+      "speechiness": 0.037,
+      "duration_ms": 196213,
+      "slug": "abre-los-ojos-germaine-franco"
+    },
+    {
+      "name": "Monsters, Inc.",
+      "artists": "Randy Newman",
+      "album": "Monsters, Inc. (Original Motion Picture Soundtrack)",
+      "popularity": 56,
+      "tempo": 110.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.847,
+      "danceability": 0.68,
+      "acousticness": 0.743,
+      "instrumentalness": 0.676,
+      "loudness": -8.4,
+      "speechiness": 0.029,
+      "duration_ms": 126386,
+      "slug": "monsters-inc-randy-newman"
+    },
+    {
+      "name": "Kiss the Girl - From \"The Little Mermaid\"/ Soundtrack Version",
+      "artists": "Samuel E. Wright;Disney",
+      "album": "The Little Mermaid",
+      "popularity": 56,
+      "tempo": 134.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.225,
+      "valence": 0.717,
+      "danceability": 0.671,
+      "acousticness": 0.661,
+      "instrumentalness": 0.0,
+      "loudness": -16.6,
+      "speechiness": 0.049,
+      "duration_ms": 163386,
+      "slug": "kiss-the-girl-from-the-little-mermaid-soundtrack-version-samuel-e-wright"
+    },
+    {
+      "name": "All Is Found",
+      "artists": "Disney Peaceful Piano;Disney",
+      "album": "Disney Peaceful Piano: Breathe",
+      "popularity": 56,
+      "tempo": 70.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.02,
+      "valence": 0.093,
+      "danceability": 0.431,
+      "acousticness": 0.991,
+      "instrumentalness": 0.923,
+      "loudness": -26.9,
+      "speechiness": 0.076,
+      "duration_ms": 158806,
+      "slug": "all-is-found-disney-peaceful-piano"
+    },
+    {
+      "name": "A Star Is Born",
+      "artists": "Cheryl Freeman;LaChanze;Vaneese Thomas;Lillias White;Roz Ryan;Disney",
+      "album": "Hercules (Original Motion Picture Soundtrack)",
+      "popularity": 56,
+      "tempo": 117.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.725,
+      "danceability": 0.681,
+      "acousticness": 0.382,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.085,
+      "duration_ms": 124200,
+      "slug": "a-star-is-born-cheryl-freeman"
+    },
+    {
+      "name": "Sofia the First Main Title Theme - From \"Sofia the First\"",
+      "artists": "Cast - Sofia the First;Sofia",
+      "album": "Sofia the First",
+      "popularity": 55,
+      "tempo": 93.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.789,
+      "valence": 0.66,
+      "danceability": 0.655,
+      "acousticness": 0.423,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.049,
+      "duration_ms": 52866,
+      "slug": "sofia-the-first-main-title-theme-from-sofia-the-first-cast-sofia-the-first"
+    },
+    {
+      "name": "Live Your Story",
+      "artists": "Auli'i Cravalho",
+      "album": "Live Your Story",
+      "popularity": 55,
+      "tempo": 135.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.283,
+      "danceability": 0.577,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.051,
+      "duration_ms": 206007,
+      "slug": "live-your-story-aulii-cravalho"
+    },
+    {
+      "name": "Agatha All Along",
+      "artists": "Kristen Anderson-Lopez;Robert Lopez;Kathryn Hahn;Eric Bradley;Greg Whipple;Jasper Randall;Gerald White",
+      "album": "WandaVision: Episode 7 (Original Soundtrack)",
+      "popularity": 55,
+      "tempo": 71.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.711,
+      "valence": 0.819,
+      "danceability": 0.434,
+      "acousticness": 0.494,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.053,
+      "duration_ms": 62613,
+      "slug": "agatha-all-along-kristen-anderson-lopez"
+    },
+    {
+      "name": "Days In The Sun",
+      "artists": "Adam Mitchell;Stanley Tucci;Ewan McGregor;Gugu Mbatha-Raw;Ian McKellen;Emma Thompson;Emma Watson;Audra McDonald;Clive Rowe",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 93.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.269,
+      "valence": 0.161,
+      "danceability": 0.299,
+      "acousticness": 0.938,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.03,
+      "duration_ms": 160349,
+      "slug": "days-in-the-sun-adam-mitchell"
+    },
+    {
+      "name": "How Does A Moment Last Forever (Montmartre)",
+      "artists": "Emma Watson",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 55,
+      "tempo": 94.7,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.118,
+      "valence": 0.075,
+      "danceability": 0.224,
+      "acousticness": 0.915,
+      "instrumentalness": 0.0,
+      "loudness": -18.7,
+      "speechiness": 0.036,
+      "duration_ms": 115502,
+      "slug": "how-does-a-moment-last-forever-montmartre-emma-watson"
+    },
+    {
+      "name": "Let It Be - Piano Version",
+      "artists": "Mark Benson",
+      "album": "Piano Favorites 3",
+      "popularity": 55,
+      "tempo": 60.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.065,
+      "valence": 0.137,
+      "danceability": 0.243,
+      "acousticness": 0.992,
+      "instrumentalness": 0.948,
+      "loudness": -25.7,
+      "speechiness": 0.051,
+      "duration_ms": 173644,
+      "slug": "let-it-be-piano-version-mark-benson"
+    },
+    {
+      "name": "Recu\u00e9rdame (Reencuentro)",
+      "artists": "Luis \u00c1ngel G\u00f3mez Jaramillo;Roc\u00edo Garcel",
+      "album": "Coco (Banda Sonora Original en Espa\u00f1ol)",
+      "popularity": 55,
+      "tempo": 78.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.041,
+      "valence": 0.354,
+      "danceability": 0.585,
+      "acousticness": 0.973,
+      "instrumentalness": 0.0,
+      "loudness": -19.4,
+      "speechiness": 0.095,
+      "duration_ms": 73650,
+      "slug": "recu\u00e9rdame-reencuentro-luis-\u00e1ngel-g\u00f3mez-jaramillo"
+    },
+    {
+      "name": "Beauty and the Beast - Arr. for Piano",
+      "artists": "Andy Tallent",
+      "album": "Wishes",
+      "popularity": 54,
+      "tempo": 137.5,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.102,
+      "valence": 0.185,
+      "danceability": 0.409,
+      "acousticness": 0.993,
+      "instrumentalness": 0.946,
+      "loudness": -21.6,
+      "speechiness": 0.051,
+      "duration_ms": 212495,
+      "slug": "beauty-and-the-beast-arr-for-piano-andy-tallent"
+    },
+    {
+      "name": "Circle of Life - From \"The Lion King\"/ Soundtrack",
+      "artists": "Carmen Twillie;Lebo M.",
+      "album": "Disney Summer Songs",
+      "popularity": 53,
+      "tempo": 83.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.592,
+      "valence": 0.557,
+      "danceability": 0.321,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.045,
+      "duration_ms": 237560,
+      "slug": "circle-of-life-from-the-lion-king-soundtrack-carmen-twillie"
+    },
+    {
+      "name": "Something There - From \"Beauty and the Beast\"/Soundtrack Version",
+      "artists": "Robby Benson;Jerry Orbach;Paige O'Hara;Angela Lansbury;David Ogden Stiers;Disney",
+      "album": "Beauty and the Beast",
+      "popularity": 53,
+      "tempo": 126.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.325,
+      "valence": 0.569,
+      "danceability": 0.588,
+      "acousticness": 0.836,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.037,
+      "duration_ms": 138986,
+      "slug": "something-there-from-beauty-and-the-beastsoundtrack-version-robby-benson"
+    },
+    {
+      "name": "Meet La Familia",
+      "artists": "Germaine Franco",
+      "album": "Encanto (Original Motion Picture Soundtrack)",
+      "popularity": 53,
+      "tempo": 96.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.316,
+      "valence": 0.315,
+      "danceability": 0.808,
+      "acousticness": 0.434,
+      "instrumentalness": 0.746,
+      "loudness": -14.9,
+      "speechiness": 0.085,
+      "duration_ms": 128345,
+      "slug": "meet-la-familia-germaine-franco"
+    },
+    {
+      "name": "The Mad Tea Party / The Unbirthday Song / Twinkle Twinkle / Clean Cup Move Down / Mad Watch",
+      "artists": "Kathryn Beaumont;Edwynn;James Macdonald;Jerry Colonna",
+      "album": "Alice In Wonderland (Original Motion Picture Soundtrack)",
+      "popularity": 53,
+      "tempo": 100.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.168,
+      "valence": 0.302,
+      "danceability": 0.572,
+      "acousticness": 0.956,
+      "instrumentalness": 0.001,
+      "loudness": -14.3,
+      "speechiness": 0.107,
+      "duration_ms": 271226,
+      "slug": "the-mad-tea-party-the-unbirthday-song-twinkle-twinkle-clean-cup-move-down-mad-wa"
+    },
+    {
+      "name": "Kingdom Dance",
+      "artists": "Alan Menken",
+      "album": "Enredados",
+      "popularity": 52,
+      "tempo": 157.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.623,
+      "valence": 0.463,
+      "danceability": 0.27,
+      "acousticness": 0.097,
+      "instrumentalness": 0.349,
+      "loudness": -9.8,
+      "speechiness": 0.093,
+      "duration_ms": 140160,
+      "slug": "kingdom-dance-alan-menken"
+    },
+    {
+      "name": "The Sound Of Music",
+      "artists": "Charmian Carr;Heather Menzies;Nicholas Hammond;Duane Chase;Angela Cartwright;Debbie Turner;Kym Karath;Bill Lee",
+      "album": "The Sound Of Music (Original Soundtrack Recording)",
+      "popularity": 52,
+      "tempo": 88.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.051,
+      "valence": 0.155,
+      "danceability": 0.272,
+      "acousticness": 0.963,
+      "instrumentalness": 0.0,
+      "loudness": -21.7,
+      "speechiness": 0.037,
+      "duration_ms": 133026,
+      "slug": "the-sound-of-music-charmian-carr"
+    },
+    {
+      "name": "Some Things Never Change - From \"Frozen 2\"/Soundtrack Version",
+      "artists": "Kristen Bell;Idina Menzel;Josh Gad;Jonathan Groff;Cast of Frozen 2",
+      "album": "Disney Summer Songs",
+      "popularity": 52,
+      "tempo": 89.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.543,
+      "valence": 0.299,
+      "danceability": 0.567,
+      "acousticness": 0.613,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.031,
+      "duration_ms": 209964,
+      "slug": "some-things-never-change-from-frozen-2soundtrack-version-kristen-bell"
+    },
+    {
+      "name": "So Long, Farewell",
+      "artists": "Charmian Carr;Angela Cartwright;Duane Chase;Nicholas Hammond;Kym Karath;Heather Menzies;Debbie Turner",
+      "album": "The Sound Of Music (Original Soundtrack Recording)",
+      "popularity": 52,
+      "tempo": 119.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.153,
+      "valence": 0.359,
+      "danceability": 0.548,
+      "acousticness": 0.848,
+      "instrumentalness": 0.0,
+      "loudness": -16.4,
+      "speechiness": 0.05,
+      "duration_ms": 176400,
+      "slug": "so-long-farewell-charmian-carr"
+    },
+    {
+      "name": "Dynamite",
+      "artists": "China Anne McClain",
+      "album": "A.N.T. Farm",
+      "popularity": 52,
+      "tempo": 122.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.779,
+      "valence": 0.511,
+      "danceability": 0.676,
+      "acousticness": 0.182,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.066,
+      "duration_ms": 161466,
+      "slug": "dynamite-china-anne-mcclain"
+    },
+    {
+      "name": "Un Poco Loco",
+      "artists": "Luis \u00c1ngel G\u00f3mez Jaramillo;Gael Garcia Bernal",
+      "album": "Coco (Original Motion Picture Soundtrack)",
+      "popularity": 52,
+      "tempo": 127.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.504,
+      "valence": 0.57,
+      "danceability": 0.629,
+      "acousticness": 0.715,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.156,
+      "duration_ms": 112205,
+      "slug": "un-poco-loco-luis-\u00e1ngel-g\u00f3mez-jaramillo"
+    },
+    {
+      "name": "Belle (Reprise)",
+      "artists": "Emma Watson",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 52,
+      "tempo": 87.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.32,
+      "valence": 0.228,
+      "danceability": 0.395,
+      "acousticness": 0.511,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.032,
+      "duration_ms": 75825,
+      "slug": "belle-reprise-emma-watson"
+    },
+    {
+      "name": "The Lion Sleeps Tonight - From \"The Lion King\"/Original Broadway Cast Recording",
+      "artists": "Lebo M.",
+      "album": "The Lion King: Original Broadway Cast Recording",
+      "popularity": 52,
+      "tempo": 68.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.383,
+      "valence": 0.565,
+      "danceability": 0.548,
+      "acousticness": 0.658,
+      "instrumentalness": 0.0,
+      "loudness": -15.3,
+      "speechiness": 0.061,
+      "duration_ms": 69760,
+      "slug": "the-lion-sleeps-tonight-from-the-lion-kingoriginal-broadway-cast-recording-lebo"
+    },
+    {
+      "name": "Main Titles - The Little Mermaid",
+      "artists": "Alan Menken;Disney",
+      "album": "The Little Mermaid Special Edition",
+      "popularity": 52,
+      "tempo": 86.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.195,
+      "valence": 0.158,
+      "danceability": 0.091,
+      "acousticness": 0.811,
+      "instrumentalness": 0.786,
+      "loudness": -16.5,
+      "speechiness": 0.037,
+      "duration_ms": 86186,
+      "slug": "main-titles-the-little-mermaid-alan-menken"
+    },
+    {
+      "name": "Antonio's Voice",
+      "artists": "Germaine Franco",
+      "album": "Encanto (Original Motion Picture Soundtrack)",
+      "popularity": 52,
+      "tempo": 108.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.321,
+      "valence": 0.213,
+      "danceability": 0.424,
+      "acousticness": 0.501,
+      "instrumentalness": 0.601,
+      "loudness": -11.4,
+      "speechiness": 0.061,
+      "duration_ms": 134786,
+      "slug": "antonios-voice-germaine-franco"
+    },
+    {
+      "name": "I Need You",
+      "artists": "Germaine Franco",
+      "album": "Encanto (Original Motion Picture Soundtrack)",
+      "popularity": 52,
+      "tempo": 74.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.056,
+      "valence": 0.034,
+      "danceability": 0.172,
+      "acousticness": 0.953,
+      "instrumentalness": 0.952,
+      "loudness": -28.0,
+      "speechiness": 0.036,
+      "duration_ms": 147520,
+      "slug": "i-need-you-germaine-franco"
+    },
+    {
+      "name": "Strange Things - From \"Toy Story\"/Soundtrack Version",
+      "artists": "Randy Newman",
+      "album": "Toy Story",
+      "popularity": 52,
+      "tempo": 135.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.533,
+      "valence": 0.685,
+      "danceability": 0.544,
+      "acousticness": 0.153,
+      "instrumentalness": 0.004,
+      "loudness": -11.1,
+      "speechiness": 0.031,
+      "duration_ms": 198586,
+      "slug": "strange-things-from-toy-storysoundtrack-version-randy-newman"
+    },
+    {
+      "name": "The Family Madrigal",
+      "artists": "Disney Peaceful Piano;Disney",
+      "album": "Disney Peaceful Piano: Magical",
+      "popularity": 52,
+      "tempo": 103.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.225,
+      "valence": 0.334,
+      "danceability": 0.503,
+      "acousticness": 0.978,
+      "instrumentalness": 0.924,
+      "loudness": -17.0,
+      "speechiness": 0.045,
+      "duration_ms": 254335,
+      "slug": "the-family-madrigal-disney-peaceful-piano"
+    },
+    {
+      "name": "A Whole New World - Remastered 2022",
+      "artists": "Brad Kane;Lea Salonga;Disney",
+      "album": "Walt Disney Records The Legacy Collection: Aladdin",
+      "popularity": 51,
+      "tempo": 129.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.227,
+      "valence": 0.142,
+      "danceability": 0.273,
+      "acousticness": 0.848,
+      "instrumentalness": 0.0,
+      "loudness": -15.7,
+      "speechiness": 0.035,
+      "duration_ms": 160306,
+      "slug": "a-whole-new-world-remastered-2022-brad-kane"
+    },
+    {
+      "name": "Sixteen Going On Seventeen",
+      "artists": "Charmian Carr;Dan Truhitte",
+      "album": "The Sound Of Music (Original Soundtrack Recording)",
+      "popularity": 51,
+      "tempo": 128.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.133,
+      "valence": 0.289,
+      "danceability": 0.488,
+      "acousticness": 0.895,
+      "instrumentalness": 0.0,
+      "loudness": -15.9,
+      "speechiness": 0.036,
+      "duration_ms": 200000,
+      "slug": "sixteen-going-on-seventeen-charmian-carr"
+    },
+    {
+      "name": "Canon In D - Piano & Cello",
+      "artists": "Benny Martin;The Wong Janice",
+      "album": "Canon In D (Piano & Cello)",
+      "popularity": 51,
+      "tempo": 181.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.171,
+      "valence": 0.404,
+      "danceability": 0.165,
+      "acousticness": 0.983,
+      "instrumentalness": 0.9,
+      "loudness": -17.5,
+      "speechiness": 0.038,
+      "duration_ms": 244090,
+      "slug": "canon-in-d-piano-cello-benny-martin"
+    },
+    {
+      "name": "He Lives In You - From \"Rhythm Of The Pride Lands\"",
+      "artists": "Lebo M.",
+      "album": "The Lion King 2: Simba's Pride",
+      "popularity": 51,
+      "tempo": 114.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.428,
+      "valence": 0.456,
+      "danceability": 0.777,
+      "acousticness": 0.645,
+      "instrumentalness": 0.0,
+      "loudness": -14.0,
+      "speechiness": 0.035,
+      "duration_ms": 187746,
+      "slug": "he-lives-in-you-from-rhythm-of-the-pride-lands-lebo-m"
+    },
+    {
+      "name": "One of Us - From \"The Lion King II: Simba's Pride\"/Soundtrack Version",
+      "artists": "Chorus - The Lion King 2: Simba's Pride",
+      "album": "The Lion King 2: Simba's Pride",
+      "popularity": 51,
+      "tempo": 101.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.453,
+      "valence": 0.272,
+      "danceability": 0.465,
+      "acousticness": 0.187,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.053,
+      "duration_ms": 160653,
+      "slug": "one-of-us-from-the-lion-king-ii-simbas-pridesoundtrack-version-chorus-the-lion-k"
+    },
+    {
+      "name": "Do You Want to Build a Snowman? - From \"Frozen\"/Soundtrack Version",
+      "artists": "Kristen Bell;Agatha Lee Monn;Katie Lopez",
+      "album": "Frozen (Original Motion Picture Soundtrack)",
+      "popularity": 50,
+      "tempo": 174.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.121,
+      "valence": 0.166,
+      "danceability": 0.306,
+      "acousticness": 0.85,
+      "instrumentalness": 0.0,
+      "loudness": -15.6,
+      "speechiness": 0.055,
+      "duration_ms": 206506,
+      "slug": "do-you-want-to-build-a-snowman-from-frozensoundtrack-version-kristen-bell"
+    },
+    {
+      "name": "Ring in the Season",
+      "artists": "Kristen Bell;Idina Menzel;Josh Gad",
+      "album": "Olaf's Frozen Adventure (Original Soundtrack)",
+      "popularity": 50,
+      "tempo": 70.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.426,
+      "valence": 0.422,
+      "danceability": 0.392,
+      "acousticness": 0.686,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.039,
+      "duration_ms": 118833,
+      "slug": "ring-in-the-season-kristen-bell"
+    },
+    {
+      "name": "Duck Tales Theme - From \u201cDuck Tales\u201c",
+      "artists": "The Disney Afternoon Studio Chorus",
+      "album": "The Disney Afternoon",
+      "popularity": 50,
+      "tempo": 174.8,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.492,
+      "valence": 0.861,
+      "danceability": 0.708,
+      "acousticness": 0.231,
+      "instrumentalness": 0.0,
+      "loudness": -13.0,
+      "speechiness": 0.101,
+      "duration_ms": 173680,
+      "slug": "duck-tales-theme-from-duck-tales-the-disney-afternoon-studio-chorus"
+    },
+    {
+      "name": "Bibbidi-Bobbidi-Boo - From \"Cinderella\"",
+      "artists": "Verna Felton",
+      "album": "Songs and Story: Cinderella",
+      "popularity": 50,
+      "tempo": 105.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.57,
+      "valence": 0.852,
+      "danceability": 0.541,
+      "acousticness": 0.951,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.049,
+      "duration_ms": 77973,
+      "slug": "bibbidi-bobbidi-boo-from-cinderella-verna-felton"
+    },
+    {
+      "name": "How Far I'll Go",
+      "artists": "Auli'i Cravalho",
+      "album": "Moana (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 49,
+      "tempo": 83.7,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.307,
+      "valence": 0.108,
+      "danceability": 0.571,
+      "acousticness": 0.649,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.05,
+      "duration_ms": 163386,
+      "slug": "how-far-ill-go-aulii-cravalho"
+    },
+    {
+      "name": "Home - Outtake",
+      "artists": "Kristen Bell",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 49,
+      "tempo": 101.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.424,
+      "valence": 0.637,
+      "danceability": 0.708,
+      "acousticness": 0.724,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.035,
+      "duration_ms": 176865,
+      "slug": "home-outtake-kristen-bell"
+    },
+    {
+      "name": "Once Upon a Dream - From \"Sleeping Beauty\" / Soundtrack Version",
+      "artists": "Mary Costa;Bill Shirley;Chorus - Sleeping Beauty",
+      "album": "Disney's Greatest Volume 1",
+      "popularity": 49,
+      "tempo": 85.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.237,
+      "valence": 0.208,
+      "danceability": 0.248,
+      "acousticness": 0.974,
+      "instrumentalness": 0.0,
+      "loudness": -14.2,
+      "speechiness": 0.033,
+      "duration_ms": 167013,
+      "slug": "once-upon-a-dream-from-sleeping-beauty-soundtrack-version-mary-costa"
+    },
+    {
+      "name": "Waiting for the Lights - From \"Tangled\"/Score",
+      "artists": "Alan Menken",
+      "album": "Tangled",
+      "popularity": 49,
+      "tempo": 143.3,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.115,
+      "valence": 0.049,
+      "danceability": 0.182,
+      "acousticness": 0.935,
+      "instrumentalness": 0.82,
+      "loudness": -16.3,
+      "speechiness": 0.038,
+      "duration_ms": 167693,
+      "slug": "waiting-for-the-lights-from-tangledscore-alan-menken"
+    },
+    {
+      "name": "You've Got a Friend in Me - From \"Toy Story\" / Duet",
+      "artists": "Randy Newman;Lyle Lovett",
+      "album": "Toy Story",
+      "popularity": 49,
+      "tempo": 107.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.358,
+      "valence": 0.313,
+      "danceability": 0.66,
+      "acousticness": 0.673,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.032,
+      "duration_ms": 162213,
+      "slug": "youve-got-a-friend-in-me-from-toy-story-duet-randy-newman"
+    },
+    {
+      "name": "Down to the Sea",
+      "artists": "Jodi Benson;Samuel E. Wright;Rob Paulsen;Clancy Brown;Kay E Kuter",
+      "album": "The Little Mermaid 2",
+      "popularity": 49,
+      "tempo": 96.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.44,
+      "valence": 0.582,
+      "danceability": 0.387,
+      "acousticness": 0.727,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.087,
+      "duration_ms": 212146,
+      "slug": "down-to-the-sea-jodi-benson"
+    },
+    {
+      "name": "Bundle of Joy",
+      "artists": "Jartisto",
+      "album": "Inside Out: Music from the Motion Picture for Solo Piano and Lullaby",
+      "popularity": 48,
+      "tempo": 126.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.06,
+      "valence": 0.195,
+      "danceability": 0.461,
+      "acousticness": 0.98,
+      "instrumentalness": 0.947,
+      "loudness": -30.6,
+      "speechiness": 0.093,
+      "duration_ms": 174327,
+      "slug": "bundle-of-joy-jartisto"
+    },
+    {
+      "name": "Frozen Heart - From \"Frozen\"/Soundtrack Version",
+      "artists": "Cast - Frozen",
+      "album": "Frozen (Original Motion Picture Soundtrack)",
+      "popularity": 48,
+      "tempo": 95.9,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.481,
+      "valence": 0.191,
+      "danceability": 0.538,
+      "acousticness": 0.545,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.1,
+      "duration_ms": 105293,
+      "slug": "frozen-heart-from-frozensoundtrack-version-cast-frozen"
+    },
+    {
+      "name": "Bundle of Joy (From \"Inside Out\")",
+      "artists": "Benny Martin",
+      "album": "Disney & Pixar Piano Classics",
+      "popularity": 48,
+      "tempo": 130.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.01,
+      "valence": 0.142,
+      "danceability": 0.569,
+      "acousticness": 0.972,
+      "instrumentalness": 0.374,
+      "loudness": -30.4,
+      "speechiness": 0.162,
+      "duration_ms": 171050,
+      "slug": "bundle-of-joy-from-inside-out-benny-martin"
+    },
+    {
+      "name": "Princess Things",
+      "artists": "Cast - Sofia the First",
+      "album": "Sofia the First",
+      "popularity": 47,
+      "tempo": 173.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.694,
+      "valence": 0.581,
+      "danceability": 0.507,
+      "acousticness": 0.364,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.095,
+      "duration_ms": 126386,
+      "slug": "princess-things-cast-sofia-the-first"
+    },
+    {
+      "name": "I Seek the Truth - Outtake",
+      "artists": "Kristen Anderson-Lopez;Patti Murin",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 47,
+      "tempo": 72.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.305,
+      "valence": 0.249,
+      "danceability": 0.454,
+      "acousticness": 0.88,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.034,
+      "duration_ms": 241534,
+      "slug": "i-seek-the-truth-outtake-kristen-anderson-lopez"
+    },
+    {
+      "name": "For the First Time in Forever - From \"Frozen\"/Soundtrack Version",
+      "artists": "Kristen Bell;Idina Menzel",
+      "album": "Frozen (Original Motion Picture Soundtrack)",
+      "popularity": 47,
+      "tempo": 90.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.411,
+      "valence": 0.43,
+      "danceability": 0.354,
+      "acousticness": 0.815,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.034,
+      "duration_ms": 225080,
+      "slug": "for-the-first-time-in-forever-from-frozensoundtrack-version-kristen-bell"
+    }
+  ]
+}

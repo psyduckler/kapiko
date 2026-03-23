@@ -1,0 +1,2799 @@
+{
+  "genre": "Comedy",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 70.304,
+    "max": 180.71,
+    "mean": 115.857,
+    "median": 111.132,
+    "q1": 88.098,
+    "q3": 136.785,
+    "histogram": {
+      "70-79": 8,
+      "80-89": 21,
+      "90-99": 10,
+      "100-109": 11,
+      "110-119": 8,
+      "120-129": 11,
+      "130-139": 10,
+      "140-149": 3,
+      "150-159": 3,
+      "160-169": 8,
+      "170-179": 6,
+      "180-189": 1
+    }
+  },
+  "key_distribution": {
+    "D": 16,
+    "G": 14,
+    "F#/Gb": 12,
+    "G#/Ab": 11,
+    "C": 9,
+    "A": 8,
+    "E": 8,
+    "C#/Db": 7,
+    "F": 6,
+    "D#/Eb": 3,
+    "B": 3,
+    "A#/Bb": 3
+  },
+  "mode_distribution": {
+    "Major": 78,
+    "Minor": 22
+  },
+  "key_mode_distribution": {
+    "D Major": 16,
+    "G Major": 11,
+    "C Major": 9,
+    "G#/Ab Major": 8,
+    "F#/Gb Major": 7,
+    "E Major": 7,
+    "A Major": 5,
+    "F#/Gb Minor": 5,
+    "C#/Db Minor": 4,
+    "F Major": 4,
+    "D#/Eb Major": 3,
+    "A#/Bb Major": 3,
+    "C#/Db Major": 3,
+    "G Minor": 3,
+    "A Minor": 3,
+    "G#/Ab Minor": 3,
+    "F Minor": 2,
+    "B Major": 2,
+    "B Minor": 1,
+    "E Minor": 1
+  },
+  "energy": {
+    "min": 0.29,
+    "max": 0.96,
+    "mean": 0.646,
+    "median": 0.685,
+    "q1": 0.514,
+    "q3": 0.792
+  },
+  "valence": {
+    "min": 0.055,
+    "max": 0.96,
+    "mean": 0.525,
+    "median": 0.496,
+    "q1": 0.356,
+    "q3": 0.719
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.731,
+      "valence": 0.876
+    },
+    {
+      "energy": 0.367,
+      "valence": 0.576
+    },
+    {
+      "energy": 0.341,
+      "valence": 0.849
+    },
+    {
+      "energy": 0.514,
+      "valence": 0.397
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.577,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.811,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.621,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.739
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.582
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.297,
+      "valence": 0.517
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.639
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.42
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.362,
+      "valence": 0.416
+    },
+    {
+      "energy": 0.531,
+      "valence": 0.919
+    },
+    {
+      "energy": 0.552,
+      "valence": 0.807
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.756
+    },
+    {
+      "energy": 0.87,
+      "valence": 0.199
+    },
+    {
+      "energy": 0.336,
+      "valence": 0.796
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.595,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.819,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.508,
+      "valence": 0.055
+    },
+    {
+      "energy": 0.448,
+      "valence": 0.774
+    },
+    {
+      "energy": 0.676,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.699,
+      "valence": 0.687
+    },
+    {
+      "energy": 0.77,
+      "valence": 0.248
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.31
+    },
+    {
+      "energy": 0.574,
+      "valence": 0.299
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.29,
+      "valence": 0.238
+    },
+    {
+      "energy": 0.64,
+      "valence": 0.063
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.824
+    },
+    {
+      "energy": 0.587,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.755
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.482,
+      "valence": 0.783
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.748
+    },
+    {
+      "energy": 0.34,
+      "valence": 0.921
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.328
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.676
+    },
+    {
+      "energy": 0.688,
+      "valence": 0.469
+    },
+    {
+      "energy": 0.582,
+      "valence": 0.501
+    },
+    {
+      "energy": 0.384,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.728
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.533
+    },
+    {
+      "energy": 0.333,
+      "valence": 0.287
+    },
+    {
+      "energy": 0.432,
+      "valence": 0.336
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.855
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.731
+    },
+    {
+      "energy": 0.424,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.332,
+      "valence": 0.296
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.445
+    },
+    {
+      "energy": 0.769,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.959,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.773,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.527,
+      "valence": 0.925
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.822
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.077
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.306
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.379
+    },
+    {
+      "energy": 0.653,
+      "valence": 0.719
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.397,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.71,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.12
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.646
+    },
+    {
+      "energy": 0.398,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.66
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.449
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.732
+    },
+    {
+      "energy": 0.55,
+      "valence": 0.412
+    },
+    {
+      "energy": 0.879,
+      "valence": 0.144
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.402
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.386
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.408
+    },
+    {
+      "energy": 0.423,
+      "valence": 0.239
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.62
+    },
+    {
+      "energy": 0.96,
+      "valence": 0.448
+    },
+    {
+      "energy": 0.414,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.939
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.509,
+      "valence": 0.832
+    },
+    {
+      "energy": 0.51,
+      "valence": 0.704
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.403
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.553
+    },
+    {
+      "energy": 0.894,
+      "valence": 0.345
+    },
+    {
+      "energy": 0.332,
+      "valence": 0.701
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.934,
+    "mean": 0.438,
+    "median": 0.41,
+    "q1": 0.108,
+    "q3": 0.785
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.188,
+    "mean": 0.002,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.42,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.325,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.169,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.203,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.599,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.432,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.432,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.107,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.732,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.014,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.552,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.576,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.907,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.892,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.182,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.108,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.284,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.788,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.239,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.102,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.734,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.401,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.351,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.076,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.844,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.227,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.08,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.147,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.188
+    },
+    {
+      "acousticness": 0.547,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.687,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.248,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.639,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.789,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.173,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.144,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.693,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.136,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.37,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.866,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.081,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.28,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.348,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.297,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.863,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.432,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.512,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.833,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.857,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.883,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.925,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.782,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.819,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.741,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.735,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.693,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.831,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.765,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.446,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.793,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.092,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.729,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.528,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.794,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.862,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.785,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.754,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.934,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.737,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.818,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.919,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.926,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.8,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.322,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.078,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.795,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.699,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.802,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.873,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 56106,
+    "max": 645876,
+    "mean": 210503.54,
+    "median": 189593.0,
+    "q1": 152293,
+    "q3": 258836
+  },
+  "danceability": {
+    "min": 0.336,
+    "max": 0.933,
+    "mean": 0.68,
+    "median": 0.661,
+    "q1": 0.589,
+    "q3": 0.794
+  },
+  "loudness": {
+    "min": -22.033,
+    "max": -1.238,
+    "mean": -8.375,
+    "median": -7.638,
+    "q1": -10.49,
+    "q3": -5.398
+  },
+  "speechiness": {
+    "min": 0.033,
+    "max": 0.961,
+    "mean": 0.414,
+    "median": 0.292,
+    "q1": 0.144,
+    "q3": 0.898
+  },
+  "top_artists": [
+    {
+      "name": "Pink Guy",
+      "count": 19
+    },
+    {
+      "name": "Lil Dicky",
+      "count": 12
+    },
+    {
+      "name": "The Lonely Island",
+      "count": 11
+    },
+    {
+      "name": "Kyle Kinane",
+      "count": 9
+    },
+    {
+      "name": "Jon Lajoie",
+      "count": 6
+    },
+    {
+      "name": "Afroman",
+      "count": 5
+    },
+    {
+      "name": "Kevin Bloody Wilson",
+      "count": 5
+    },
+    {
+      "name": "Jim Norton",
+      "count": 4
+    },
+    {
+      "name": "Tenacious D",
+      "count": 3
+    },
+    {
+      "name": "Justin Timberlake",
+      "count": 3
+    },
+    {
+      "name": "Hype Duo",
+      "count": 3
+    },
+    {
+      "name": "T-Pain",
+      "count": 2
+    },
+    {
+      "name": "\"Weird Al\" Yankovic",
+      "count": 2
+    },
+    {
+      "name": "Katt Williams",
+      "count": 2
+    },
+    {
+      "name": "Jeff Foxworthy",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Everyday Normal Guy 2",
+      "artists": "Jon Lajoie",
+      "album": "You Want Some of This?",
+      "popularity": 75,
+      "tempo": 90.3,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.731,
+      "valence": 0.876,
+      "danceability": 0.823,
+      "acousticness": 0.42,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.307,
+      "duration_ms": 195693,
+      "slug": "everyday-normal-guy-2-jon-lajoie"
+    },
+    {
+      "name": "Crazy Rap (Colt 45 & 2 Zig Zags)",
+      "artists": "Afroman",
+      "album": "The Good Times",
+      "popularity": 74,
+      "tempo": 99.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.367,
+      "valence": 0.576,
+      "danceability": 0.927,
+      "acousticness": 0.325,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.382,
+      "duration_ms": 328666,
+      "slug": "crazy-rap-colt-45-2-zig-zags-afroman"
+    },
+    {
+      "name": "Because I Got High",
+      "artists": "Afroman",
+      "album": "The Good Times",
+      "popularity": 69,
+      "tempo": 166.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.341,
+      "valence": 0.849,
+      "danceability": 0.802,
+      "acousticness": 0.169,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.488,
+      "duration_ms": 197760,
+      "slug": "because-i-got-high-afroman"
+    },
+    {
+      "name": "Molly (feat. Brendon Urie of Panic at the Disco)",
+      "artists": "Lil Dicky;Brendon Urie",
+      "album": "Professional Rapper",
+      "popularity": 66,
+      "tempo": 115.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.514,
+      "valence": 0.397,
+      "danceability": 0.829,
+      "acousticness": 0.203,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.037,
+      "duration_ms": 244339,
+      "slug": "molly-feat-brendon-urie-of-panic-at-the-disco-lil-dicky"
+    },
+    {
+      "name": "$ave Dat Money (feat. Fetty Wap & Rich Homie Quan)",
+      "artists": "Lil Dicky;Fetty Wap;Rich Homie Quan",
+      "album": "Professional Rapper",
+      "popularity": 64,
+      "tempo": 98.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.697,
+      "valence": 0.364,
+      "danceability": 0.858,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.23,
+      "duration_ms": 290835,
+      "slug": "ave-dat-money-feat-fetty-wap-rich-homie-quan-lil-dicky"
+    },
+    {
+      "name": "She's So Nice",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 64,
+      "tempo": 86.3,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.577,
+      "valence": 0.587,
+      "danceability": 0.828,
+      "acousticness": 0.599,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.158,
+      "duration_ms": 163493,
+      "slug": "shes-so-nice-pink-guy"
+    },
+    {
+      "name": "I Just Had Sex",
+      "artists": "The Lonely Island;Akon",
+      "album": "Turtleneck & Chain (Explicit Version)",
+      "popularity": 63,
+      "tempo": 168.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.811,
+      "valence": 0.808,
+      "danceability": 0.615,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.144,
+      "duration_ms": 166560,
+      "slug": "i-just-had-sex-the-lonely-island"
+    },
+    {
+      "name": "Professional Rapper (feat. Snoop Dogg)",
+      "artists": "Lil Dicky;Snoop Dogg",
+      "album": "Professional Rapper",
+      "popularity": 62,
+      "tempo": 128.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.621,
+      "valence": 0.537,
+      "danceability": 0.684,
+      "acousticness": 0.432,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.362,
+      "duration_ms": 353959,
+      "slug": "professional-rapper-feat-snoop-dogg-lil-dicky"
+    },
+    {
+      "name": "Always Look On The Bright Side Of Life",
+      "artists": "Monty Python",
+      "album": "Monty Python Sings",
+      "popularity": 60,
+      "tempo": 120.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.535,
+      "valence": 0.739,
+      "danceability": 0.669,
+      "acousticness": 0.432,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.097,
+      "duration_ms": 215333,
+      "slug": "always-look-on-the-bright-side-of-life-monty-python"
+    },
+    {
+      "name": "Kickapoo",
+      "artists": "Tenacious D",
+      "album": "The Pick Of Destiny",
+      "popularity": 60,
+      "tempo": 130.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.796,
+      "valence": 0.582,
+      "danceability": 0.501,
+      "acousticness": 0.107,
+      "instrumentalness": 0.001,
+      "loudness": -4.6,
+      "speechiness": 0.104,
+      "duration_ms": 254346,
+      "slug": "kickapoo-tenacious-d"
+    },
+    {
+      "name": "I'm On A Boat",
+      "artists": "The Lonely Island;T-Pain",
+      "album": "Incredibad",
+      "popularity": 59,
+      "tempo": 150.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.871,
+      "valence": 0.653,
+      "danceability": 0.623,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -2.4,
+      "speechiness": 0.239,
+      "duration_ms": 156266,
+      "slug": "im-on-a-boat-the-lonely-island"
+    },
+    {
+      "name": "Fuck Her Gently",
+      "artists": "Tenacious D",
+      "album": "Tenacious D",
+      "popularity": 59,
+      "tempo": 118.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.297,
+      "valence": 0.517,
+      "danceability": 0.521,
+      "acousticness": 0.732,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.035,
+      "duration_ms": 123666,
+      "slug": "fuck-her-gently-tenacious-d"
+    },
+    {
+      "name": "Motherlover",
+      "artists": "The Lonely Island;Justin Timberlake",
+      "album": "Turtleneck & Chain (Explicit Version)",
+      "popularity": 58,
+      "tempo": 131.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.708,
+      "valence": 0.639,
+      "danceability": 0.762,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.057,
+      "duration_ms": 169506,
+      "slug": "motherlover-the-lonely-island"
+    },
+    {
+      "name": "Jack Sparrow",
+      "artists": "The Lonely Island;Michael Bolton",
+      "album": "Turtleneck & Chain (Explicit Version)",
+      "popularity": 58,
+      "tempo": 97.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.712,
+      "valence": 0.42,
+      "danceability": 0.718,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.222,
+      "duration_ms": 187746,
+      "slug": "jack-sparrow-the-lonely-island"
+    },
+    {
+      "name": "Amish Paradise (Parody of \"Gangsta's Paradise\" by Coolio)",
+      "artists": "\"Weird Al\" Yankovic",
+      "album": "Bad Hair Day",
+      "popularity": 58,
+      "tempo": 80.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.448,
+      "valence": 0.483,
+      "danceability": 0.728,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.172,
+      "duration_ms": 202920,
+      "slug": "amish-paradise-parody-of-gangstas-paradise-by-coolio-weird-al-yankovic"
+    },
+    {
+      "name": "Lemme Freak",
+      "artists": "Lil Dicky",
+      "album": "Professional Rapper",
+      "popularity": 56,
+      "tempo": 119.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.656,
+      "valence": 0.437,
+      "danceability": 0.8,
+      "acousticness": 0.014,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.114,
+      "duration_ms": 285894,
+      "slug": "lemme-freak-lil-dicky"
+    },
+    {
+      "name": "Stfu",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 56,
+      "tempo": 136.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.356,
+      "danceability": 0.827,
+      "acousticness": 0.552,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.054,
+      "duration_ms": 224493,
+      "slug": "stfu-pink-guy"
+    },
+    {
+      "name": "Pillow Talking (feat. Brain)",
+      "artists": "Lil Dicky;Brain",
+      "album": "Professional Rapper",
+      "popularity": 55,
+      "tempo": 105.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.362,
+      "valence": 0.416,
+      "danceability": 0.919,
+      "acousticness": 0.576,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.368,
+      "duration_ms": 645876,
+      "slug": "pillow-talking-feat-brain-lil-dicky"
+    },
+    {
+      "name": "Classico",
+      "artists": "Tenacious D",
+      "album": "The Pick Of Destiny",
+      "popularity": 55,
+      "tempo": 170.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.531,
+      "valence": 0.919,
+      "danceability": 0.738,
+      "acousticness": 0.907,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.14,
+      "duration_ms": 58506,
+      "slug": "classico-tenacious-d"
+    },
+    {
+      "name": "Fried Noodles",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 54,
+      "tempo": 158.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.552,
+      "valence": 0.807,
+      "danceability": 0.58,
+      "acousticness": 0.892,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.456,
+      "duration_ms": 170946,
+      "slug": "fried-noodles-pink-guy"
+    },
+    {
+      "name": "Bruh...",
+      "artists": "Lil Dicky",
+      "album": "Professional Rapper",
+      "popularity": 54,
+      "tempo": 106.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.888,
+      "valence": 0.756,
+      "danceability": 0.906,
+      "acousticness": 0.182,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.152,
+      "duration_ms": 262984,
+      "slug": "bruh-lil-dicky"
+    },
+    {
+      "name": "Jizz In My Pants",
+      "artists": "The Lonely Island",
+      "album": "Incredibad",
+      "popularity": 53,
+      "tempo": 122.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.87,
+      "valence": 0.199,
+      "danceability": 0.641,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.213,
+      "duration_ms": 151346,
+      "slug": "jizz-in-my-pants-the-lonely-island"
+    },
+    {
+      "name": "Because I Got High - Extended Version",
+      "artists": "Afroman",
+      "album": "The Good Times",
+      "popularity": 53,
+      "tempo": 166.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.336,
+      "valence": 0.796,
+      "danceability": 0.788,
+      "acousticness": 0.108,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.561,
+      "duration_ms": 310466,
+      "slug": "because-i-got-high-extended-version-afroman"
+    },
+    {
+      "name": "Everyday Normal Guy",
+      "artists": "Jon Lajoie",
+      "album": "You Want Some of This?",
+      "popularity": 52,
+      "tempo": 169.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.69,
+      "danceability": 0.662,
+      "acousticness": 0.284,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.316,
+      "duration_ms": 201493,
+      "slug": "everyday-normal-guy-jon-lajoie"
+    },
+    {
+      "name": "Oh Well (feat. Jace of Two-9)",
+      "artists": "Lil Dicky;Jace",
+      "album": "Professional Rapper",
+      "popularity": 52,
+      "tempo": 88.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.595,
+      "valence": 0.268,
+      "danceability": 0.593,
+      "acousticness": 0.788,
+      "instrumentalness": 0.0,
+      "loudness": -12.0,
+      "speechiness": 0.626,
+      "duration_ms": 208916,
+      "slug": "oh-well-feat-jace-of-two-9-lil-dicky"
+    },
+    {
+      "name": "Like A Boss",
+      "artists": "The Lonely Island",
+      "album": "Incredibad",
+      "popularity": 52,
+      "tempo": 73.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.819,
+      "valence": 0.676,
+      "danceability": 0.604,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.447,
+      "duration_ms": 106813,
+      "slug": "like-a-boss-the-lonely-island"
+    },
+    {
+      "name": "White Crime",
+      "artists": "Lil Dicky",
+      "album": "Professional Rapper",
+      "popularity": 52,
+      "tempo": 84.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.508,
+      "valence": 0.055,
+      "danceability": 0.744,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.071,
+      "duration_ms": 219936,
+      "slug": "white-crime-lil-dicky"
+    },
+    {
+      "name": "She Won't Let Me Fuck",
+      "artists": "Afroman",
+      "album": "The Good Times",
+      "popularity": 52,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.448,
+      "valence": 0.774,
+      "danceability": 0.933,
+      "acousticness": 0.239,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.347,
+      "duration_ms": 361173,
+      "slug": "she-wont-let-me-fuck-afroman"
+    },
+    {
+      "name": "\u30bb\u30c3\u30af\u30b9\u5927\u597d\u304d",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 51,
+      "tempo": 90.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.676,
+      "valence": 0.485,
+      "danceability": 0.804,
+      "acousticness": 0.102,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.236,
+      "duration_ms": 142760,
+      "slug": "\u30bb\u30c3\u30af\u30b9\u5927\u597d\u304d-pink-guy"
+    },
+    {
+      "name": "Help",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 51,
+      "tempo": 117.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.554,
+      "valence": 0.676,
+      "danceability": 0.837,
+      "acousticness": 0.734,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.109,
+      "duration_ms": 165040,
+      "slug": "help-pink-guy"
+    },
+    {
+      "name": "Dick In A Box",
+      "artists": "The Lonely Island;Justin Timberlake",
+      "album": "Incredibad",
+      "popularity": 51,
+      "tempo": 76.4,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.699,
+      "valence": 0.687,
+      "danceability": 0.542,
+      "acousticness": 0.401,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.306,
+      "duration_ms": 161053,
+      "slug": "dick-in-a-box-the-lonely-island"
+    },
+    {
+      "name": "Shy Ronnie 2: Ronnie & Clyde",
+      "artists": "The Lonely Island;Rihanna",
+      "album": "Turtleneck & Chain (Explicit Version)",
+      "popularity": 49,
+      "tempo": 150.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.77,
+      "valence": 0.248,
+      "danceability": 0.623,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.208,
+      "duration_ms": 146506,
+      "slug": "shy-ronnie-2-ronnie-clyde-the-lonely-island"
+    },
+    {
+      "name": "Threw It On The Ground",
+      "artists": "The Lonely Island",
+      "album": "Turtleneck & Chain (Explicit Version)",
+      "popularity": 49,
+      "tempo": 129.7,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.817,
+      "valence": 0.671,
+      "danceability": 0.655,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.346,
+      "duration_ms": 158520,
+      "slug": "threw-it-on-the-ground-the-lonely-island"
+    },
+    {
+      "name": "Nickelodeon Girls",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 48,
+      "tempo": 106.3,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.31,
+      "danceability": 0.735,
+      "acousticness": 0.351,
+      "instrumentalness": 0.0,
+      "loudness": -1.2,
+      "speechiness": 0.128,
+      "duration_ms": 188546,
+      "slug": "nickelodeon-girls-pink-guy"
+    },
+    {
+      "name": "We Good (From The TV Show \"DAVE\")",
+      "artists": "Lil Dicky;GaTa",
+      "album": "We Good (From The TV Show \"DAVE\")",
+      "popularity": 48,
+      "tempo": 81.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.574,
+      "valence": 0.299,
+      "danceability": 0.652,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.064,
+      "duration_ms": 167676,
+      "slug": "we-good-from-the-tv-show-dave-lil-dicky"
+    },
+    {
+      "name": "3-Way (The Golden Rule)",
+      "artists": "The Lonely Island;Justin Timberlake;Lady Gaga",
+      "album": "The Wack Album",
+      "popularity": 48,
+      "tempo": 90.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.747,
+      "valence": 0.574,
+      "danceability": 0.736,
+      "acousticness": 0.076,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.185,
+      "duration_ms": 171026,
+      "slug": "3-way-the-golden-rule-the-lonely-island"
+    },
+    {
+      "name": "We Fall Again",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 47,
+      "tempo": 76.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.29,
+      "valence": 0.238,
+      "danceability": 0.65,
+      "acousticness": 0.844,
+      "instrumentalness": 0.0,
+      "loudness": -17.5,
+      "speechiness": 0.247,
+      "duration_ms": 102093,
+      "slug": "we-fall-again-pink-guy"
+    },
+    {
+      "name": "Dumplings",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 47,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.64,
+      "valence": 0.063,
+      "danceability": 0.87,
+      "acousticness": 0.002,
+      "instrumentalness": 0.004,
+      "loudness": -5.2,
+      "speechiness": 0.051,
+      "duration_ms": 138946,
+      "slug": "dumplings-pink-guy"
+    },
+    {
+      "name": "Personality (feat. T Pain)",
+      "artists": "Lil Dicky;T-Pain",
+      "album": "Professional Rapper",
+      "popularity": 47,
+      "tempo": 96.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.709,
+      "valence": 0.824,
+      "danceability": 0.768,
+      "acousticness": 0.227,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.196,
+      "duration_ms": 258836,
+      "slug": "personality-feat-t-pain-lil-dicky"
+    },
+    {
+      "name": "Rice Balls",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 46,
+      "tempo": 112.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.587,
+      "valence": 0.336,
+      "danceability": 0.717,
+      "acousticness": 0.08,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.368,
+      "duration_ms": 196173,
+      "slug": "rice-balls-pink-guy"
+    },
+    {
+      "name": "YOLO",
+      "artists": "The Lonely Island;Adam Levine;Kendrick Lamar",
+      "album": "The Wack Album",
+      "popularity": 46,
+      "tempo": 160.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.871,
+      "valence": 0.66,
+      "danceability": 0.611,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.275,
+      "duration_ms": 184640,
+      "slug": "yolo-the-lonely-island"
+    },
+    {
+      "name": "Freaky Friday (feat. Chris Brown)",
+      "artists": "Lil Dicky;Chris Brown",
+      "album": "Freaky Friday (feat. Chris Brown)",
+      "popularity": 45,
+      "tempo": 133.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.599,
+      "valence": 0.755,
+      "danceability": 0.755,
+      "acousticness": 0.147,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.224,
+      "duration_ms": 216631,
+      "slug": "freaky-friday-feat-chris-brown-lil-dicky"
+    },
+    {
+      "name": "Fried Noodles (Getter Remix)",
+      "artists": "Pink Guy;Getter",
+      "album": "Pink Season: The Prophecy",
+      "popularity": 45,
+      "tempo": 139.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.231,
+      "danceability": 0.524,
+      "acousticness": 0.135,
+      "instrumentalness": 0.188,
+      "loudness": -4.9,
+      "speechiness": 0.387,
+      "duration_ms": 351428,
+      "slug": "fried-noodles-getter-remix-pink-guy"
+    },
+    {
+      "name": "420",
+      "artists": "Afroman;Yung Fate;DJLeach;Jake Strain",
+      "album": "420",
+      "popularity": 45,
+      "tempo": 120.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.482,
+      "valence": 0.783,
+      "danceability": 0.848,
+      "acousticness": 0.547,
+      "instrumentalness": 0.002,
+      "loudness": -10.6,
+      "speechiness": 0.098,
+      "duration_ms": 312058,
+      "slug": "420-afroman"
+    },
+    {
+      "name": "Show Me Your Genitals",
+      "artists": "Jon Lajoie",
+      "album": "You Want Some of This?",
+      "popularity": 44,
+      "tempo": 160.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.748,
+      "danceability": 0.833,
+      "acousticness": 0.092,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.253,
+      "duration_ms": 152293,
+      "slug": "show-me-your-genitals-jon-lajoie"
+    },
+    {
+      "name": "The Fishin' Hole - Remastered 1993",
+      "artists": "Andy Griffith",
+      "album": "American Originals (Remastered)",
+      "popularity": 44,
+      "tempo": 172.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.34,
+      "valence": 0.921,
+      "danceability": 0.625,
+      "acousticness": 0.687,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.083,
+      "duration_ms": 116533,
+      "slug": "the-fishin-hole-remastered-1993-andy-griffith"
+    },
+    {
+      "name": "Pink Life",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 41,
+      "tempo": 131.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.745,
+      "valence": 0.328,
+      "danceability": 0.589,
+      "acousticness": 0.248,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.41,
+      "duration_ms": 190640,
+      "slug": "pink-life-pink-guy"
+    },
+    {
+      "name": "Earth",
+      "artists": "Lil Dicky",
+      "album": "Earth",
+      "popularity": 40,
+      "tempo": 95.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.676,
+      "danceability": 0.694,
+      "acousticness": 0.639,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.05,
+      "duration_ms": 281500,
+      "slug": "earth-lil-dicky"
+    },
+    {
+      "name": "Are You Serious",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 40,
+      "tempo": 120.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.688,
+      "valence": 0.469,
+      "danceability": 0.775,
+      "acousticness": 0.11,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.062,
+      "duration_ms": 149888,
+      "slug": "are-you-serious-pink-guy"
+    },
+    {
+      "name": "Gays 4 Donald",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 40,
+      "tempo": 132.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.582,
+      "valence": 0.501,
+      "danceability": 0.817,
+      "acousticness": 0.789,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.421,
+      "duration_ms": 184266,
+      "slug": "gays-4-donald-pink-guy"
+    },
+    {
+      "name": "Meme Machine",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 40,
+      "tempo": 76.8,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.384,
+      "valence": 0.437,
+      "danceability": 0.882,
+      "acousticness": 0.173,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.386,
+      "duration_ms": 130720,
+      "slug": "meme-machine-pink-guy"
+    },
+    {
+      "name": "Hot Nickel Ball on a Pussy",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 39,
+      "tempo": 90.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.61,
+      "valence": 0.728,
+      "danceability": 0.874,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.301,
+      "duration_ms": 139640,
+      "slug": "hot-nickel-ball-on-a-pussy-pink-guy"
+    },
+    {
+      "name": "Uber Pussy",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 39,
+      "tempo": 104.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.597,
+      "valence": 0.533,
+      "danceability": 0.87,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.333,
+      "duration_ms": 117360,
+      "slug": "uber-pussy-pink-guy"
+    },
+    {
+      "name": "Hentai",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 39,
+      "tempo": 70.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.333,
+      "valence": 0.287,
+      "danceability": 0.717,
+      "acousticness": 0.693,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.409,
+      "duration_ms": 89173,
+      "slug": "hentai-pink-guy"
+    },
+    {
+      "name": "Please Stop Calling Me Gay",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 39,
+      "tempo": 86.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.432,
+      "valence": 0.336,
+      "danceability": 0.794,
+      "acousticness": 0.136,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.166,
+      "duration_ms": 139800,
+      "slug": "please-stop-calling-me-gay-pink-guy"
+    },
+    {
+      "name": "Show Me Your Genitals 2: E=MC Vagina",
+      "artists": "Jon Lajoie",
+      "album": "You Want Some of This?",
+      "popularity": 38,
+      "tempo": 160.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.855,
+      "danceability": 0.79,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.224,
+      "duration_ms": 176386,
+      "slug": "show-me-your-genitals-2-emc-vagina-jon-lajoie"
+    },
+    {
+      "name": "F**K Everything",
+      "artists": "Jon Lajoie",
+      "album": "F**K Everything",
+      "popularity": 38,
+      "tempo": 170.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.845,
+      "valence": 0.731,
+      "danceability": 0.659,
+      "acousticness": 0.37,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.174,
+      "duration_ms": 224614,
+      "slug": "fk-everything-jon-lajoie"
+    },
+    {
+      "name": "High as F%#K",
+      "artists": "Jon Lajoie",
+      "album": "You Want Some of This?",
+      "popularity": 38,
+      "tempo": 139.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.424,
+      "valence": 0.399,
+      "danceability": 0.517,
+      "acousticness": 0.866,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.033,
+      "duration_ms": 174986,
+      "slug": "high-as-fk-jon-lajoie"
+    },
+    {
+      "name": "Dora the Explora",
+      "artists": "Pink Guy",
+      "album": "Pink Season",
+      "popularity": 38,
+      "tempo": 145.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.332,
+      "valence": 0.296,
+      "danceability": 0.871,
+      "acousticness": 0.081,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.652,
+      "duration_ms": 144186,
+      "slug": "dora-the-explora-pink-guy"
+    },
+    {
+      "name": "Sunday Morning",
+      "artists": "Kevin Hart;Nick Jonas",
+      "album": "Kevin Hart: What Now? (The Mixtape Presents Chocolate Droppa) [Original Motion Picture Soundtrack]",
+      "popularity": 36,
+      "tempo": 85.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.555,
+      "valence": 0.445,
+      "danceability": 0.659,
+      "acousticness": 0.28,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.054,
+      "duration_ms": 174779,
+      "slug": "sunday-morning-kevin-hart"
+    },
+    {
+      "name": "Yeah the Boys",
+      "artists": "Hype Duo",
+      "album": "Yeah the Boys",
+      "popularity": 35,
+      "tempo": 148.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.769,
+      "valence": 0.898,
+      "danceability": 0.692,
+      "acousticness": 0.348,
+      "instrumentalness": 0.0,
+      "loudness": -3.7,
+      "speechiness": 0.151,
+      "duration_ms": 194594,
+      "slug": "yeah-the-boys-hype-duo"
+    },
+    {
+      "name": "I'm Australian Man",
+      "artists": "Hype Duo",
+      "album": "I'm Australian Man",
+      "popularity": 33,
+      "tempo": 102.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.959,
+      "valence": 0.96,
+      "danceability": 0.796,
+      "acousticness": 0.297,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.05,
+      "duration_ms": 182634,
+      "slug": "im-australian-man-hype-duo"
+    },
+    {
+      "name": "An Importanta Relationship Lesson",
+      "artists": "Jim Norton",
+      "album": "Despicable",
+      "popularity": 33,
+      "tempo": 120.5,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.773,
+      "valence": 0.364,
+      "danceability": 0.553,
+      "acousticness": 0.863,
+      "instrumentalness": 0.0,
+      "loudness": -11.3,
+      "speechiness": 0.94,
+      "duration_ms": 82680,
+      "slug": "an-importanta-relationship-lesson-jim-norton"
+    },
+    {
+      "name": "Nigel Fuckin' Legend",
+      "artists": "Kevin Bloody Wilson",
+      "album": "Klassic Kev",
+      "popularity": 33,
+      "tempo": 105.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.483,
+      "danceability": 0.766,
+      "acousticness": 0.432,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.079,
+      "duration_ms": 261480,
+      "slug": "nigel-fuckin-legend-kevin-bloody-wilson"
+    },
+    {
+      "name": "The Builder",
+      "artists": "Kevin Bloody Wilson",
+      "album": "My Australian Roots",
+      "popularity": 32,
+      "tempo": 120.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.527,
+      "valence": 0.925,
+      "danceability": 0.825,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.328,
+      "duration_ms": 198173,
+      "slug": "the-builder-kevin-bloody-wilson"
+    },
+    {
+      "name": "I.H.T.B.T.O.T.T.Y.I.D.F.Y.M.",
+      "artists": "Muck Sticky",
+      "album": "Dang!",
+      "popularity": 31,
+      "tempo": 103.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.759,
+      "valence": 0.822,
+      "danceability": 0.899,
+      "acousticness": 0.512,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.283,
+      "duration_ms": 199826,
+      "slug": "ihtbtottyidfym-muck-sticky"
+    },
+    {
+      "name": "What Sex Is That Thing?",
+      "artists": "Jim Norton",
+      "album": "Despicable - EP",
+      "popularity": 31,
+      "tempo": 102.9,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.954,
+      "valence": 0.077,
+      "danceability": 0.488,
+      "acousticness": 0.833,
+      "instrumentalness": 0.0,
+      "loudness": -11.3,
+      "speechiness": 0.928,
+      "duration_ms": 88533,
+      "slug": "what-sex-is-that-thing-jim-norton"
+    },
+    {
+      "name": "Fuck Florida",
+      "artists": "Jim Norton",
+      "album": "Despicable",
+      "popularity": 31,
+      "tempo": 129.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.519,
+      "danceability": 0.585,
+      "acousticness": 0.857,
+      "instrumentalness": 0.0,
+      "loudness": -11.2,
+      "speechiness": 0.954,
+      "duration_ms": 72373,
+      "slug": "fuck-florida-jim-norton"
+    },
+    {
+      "name": "Mustard",
+      "artists": "Kyle Kinane",
+      "album": "Loose in Chicago",
+      "popularity": 31,
+      "tempo": 78.3,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.765,
+      "valence": 0.491,
+      "danceability": 0.468,
+      "acousticness": 0.883,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.95,
+      "duration_ms": 155188,
+      "slug": "mustard-kyle-kinane"
+    },
+    {
+      "name": "Sloppy Drunk",
+      "artists": "Mitch Fatel",
+      "album": "Miniskirts and Muffins - EP",
+      "popularity": 30,
+      "tempo": 145.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.865,
+      "valence": 0.306,
+      "danceability": 0.443,
+      "acousticness": 0.925,
+      "instrumentalness": 0.001,
+      "loudness": -13.3,
+      "speechiness": 0.927,
+      "duration_ms": 79093,
+      "slug": "sloppy-drunk-mitch-fatel"
+    },
+    {
+      "name": "Stop Trippin",
+      "artists": "Katt Williams",
+      "album": "Pimp Chronicles Pt.1",
+      "popularity": 30,
+      "tempo": 90.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.904,
+      "valence": 0.379,
+      "danceability": 0.653,
+      "acousticness": 0.782,
+      "instrumentalness": 0.0,
+      "loudness": -12.7,
+      "speechiness": 0.92,
+      "duration_ms": 155280,
+      "slug": "stop-trippin-katt-williams"
+    },
+    {
+      "name": "The Bridge, Lol",
+      "artists": "Jim Norton",
+      "album": "Despicable - EP",
+      "popularity": 30,
+      "tempo": 85.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.653,
+      "valence": 0.719,
+      "danceability": 0.643,
+      "acousticness": 0.819,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.955,
+      "duration_ms": 56106,
+      "slug": "the-bridge-lol-jim-norton"
+    },
+    {
+      "name": "Water",
+      "artists": "Kyle Kinane",
+      "album": "Loose in Chicago",
+      "popularity": 30,
+      "tempo": 117.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.334,
+      "danceability": 0.593,
+      "acousticness": 0.741,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.914,
+      "duration_ms": 350340,
+      "slug": "water-kyle-kinane"
+    },
+    {
+      "name": "The Only Prostate",
+      "artists": "Jeff Foxworthy",
+      "album": "We've Been Thinking",
+      "popularity": 30,
+      "tempo": 180.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.792,
+      "valence": 0.18,
+      "danceability": 0.497,
+      "acousticness": 0.735,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.945,
+      "duration_ms": 206684,
+      "slug": "the-only-prostate-jeff-foxworthy"
+    },
+    {
+      "name": "Halloween",
+      "artists": "Stephen Lynch",
+      "album": "The Craig Machine",
+      "popularity": 30,
+      "tempo": 174.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.397,
+      "valence": 0.355,
+      "danceability": 0.336,
+      "acousticness": 0.693,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.061,
+      "duration_ms": 166106,
+      "slug": "halloween-stephen-lynch"
+    },
+    {
+      "name": "Corn Syrup",
+      "artists": "Kyle Kinane",
+      "album": "Loose in Chicago",
+      "popularity": 30,
+      "tempo": 103.5,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.71,
+      "valence": 0.426,
+      "danceability": 0.621,
+      "acousticness": 0.831,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.867,
+      "duration_ms": 356841,
+      "slug": "corn-syrup-kyle-kinane"
+    },
+    {
+      "name": "Git R Done",
+      "artists": "Larry The Cable Guy",
+      "album": "We've Been Thinking",
+      "popularity": 30,
+      "tempo": 79.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.917,
+      "valence": 0.12,
+      "danceability": 0.51,
+      "acousticness": 0.765,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.913,
+      "duration_ms": 160635,
+      "slug": "git-r-done-larry-the-cable-guy"
+    },
+    {
+      "name": "Went to a Pub in Australia",
+      "artists": "Hype Duo",
+      "album": "Went to a Pub in Australia",
+      "popularity": 30,
+      "tempo": 87.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.719,
+      "valence": 0.646,
+      "danceability": 0.385,
+      "acousticness": 0.446,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.186,
+      "duration_ms": 247028,
+      "slug": "went-to-a-pub-in-australia-hype-duo"
+    },
+    {
+      "name": "Porno Chicks",
+      "artists": "Russell Peters",
+      "album": "Russell Peters Hosts: Comics Without Borders",
+      "popularity": 30,
+      "tempo": 79.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.398,
+      "valence": 0.607,
+      "danceability": 0.589,
+      "acousticness": 0.793,
+      "instrumentalness": 0.0,
+      "loudness": -20.5,
+      "speechiness": 0.943,
+      "duration_ms": 111084,
+      "slug": "porno-chicks-russell-peters"
+    },
+    {
+      "name": "Du' Fan'me P\u00e6n Du Er",
+      "artists": "Linda P",
+      "album": "Just Divorced",
+      "popularity": 30,
+      "tempo": 169.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.66,
+      "danceability": 0.631,
+      "acousticness": 0.092,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.195,
+      "duration_ms": 185782,
+      "slug": "du-fanme-p\u00e6n-du-er-linda-p"
+    },
+    {
+      "name": "This Track Is Not Called Something 2 Dance 2",
+      "artists": "Kyle Kinane",
+      "album": "\"I Liked His Old Stuff Better\"",
+      "popularity": 30,
+      "tempo": 82.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.806,
+      "valence": 0.449,
+      "danceability": 0.595,
+      "acousticness": 0.729,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.937,
+      "duration_ms": 579925,
+      "slug": "this-track-is-not-called-something-2-dance-2-kyle-kinane"
+    },
+    {
+      "name": "Stack the Fridge",
+      "artists": "Kevin Bloody Wilson",
+      "album": "Klassic Kev",
+      "popularity": 30,
+      "tempo": 120.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.732,
+      "danceability": 0.733,
+      "acousticness": 0.528,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.174,
+      "duration_ms": 153133,
+      "slug": "stack-the-fridge-kevin-bloody-wilson"
+    },
+    {
+      "name": "3 Balloons",
+      "artists": "Stephen Lynch",
+      "album": "3 Balloons",
+      "popularity": 29,
+      "tempo": 96.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.55,
+      "valence": 0.412,
+      "danceability": 0.547,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.035,
+      "duration_ms": 244413,
+      "slug": "3-balloons-stephen-lynch"
+    },
+    {
+      "name": "Facts of Life",
+      "artists": "Jeff Foxworthy",
+      "album": "We've Been Thinking",
+      "popularity": 29,
+      "tempo": 106.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.879,
+      "valence": 0.144,
+      "danceability": 0.581,
+      "acousticness": 0.794,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.947,
+      "duration_ms": 606023,
+      "slug": "facts-of-life-jeff-foxworthy"
+    },
+    {
+      "name": "Beef",
+      "artists": "Kyle Kinane",
+      "album": "Loose in Chicago",
+      "popularity": 29,
+      "tempo": 112.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.7,
+      "valence": 0.402,
+      "danceability": 0.613,
+      "acousticness": 0.862,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.896,
+      "duration_ms": 247188,
+      "slug": "beef-kyle-kinane"
+    },
+    {
+      "name": "Salt",
+      "artists": "Kyle Kinane",
+      "album": "Loose in Chicago",
+      "popularity": 29,
+      "tempo": 83.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.745,
+      "valence": 0.386,
+      "danceability": 0.579,
+      "acousticness": 0.785,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.932,
+      "duration_ms": 262597,
+      "slug": "salt-kyle-kinane"
+    },
+    {
+      "name": "Sweet Pain",
+      "artists": "Kyle Kinane",
+      "album": "Whiskey Icarus",
+      "popularity": 29,
+      "tempo": 88.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.853,
+      "valence": 0.408,
+      "danceability": 0.52,
+      "acousticness": 0.754,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.929,
+      "duration_ms": 362848,
+      "slug": "sweet-pain-kyle-kinane"
+    },
+    {
+      "name": "Love",
+      "artists": "Ron White",
+      "album": "A Little Unprofessional",
+      "popularity": 29,
+      "tempo": 177.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.423,
+      "valence": 0.239,
+      "danceability": 0.516,
+      "acousticness": 0.934,
+      "instrumentalness": 0.0,
+      "loudness": -20.2,
+      "speechiness": 0.955,
+      "duration_ms": 191858,
+      "slug": "love-ron-white"
+    },
+    {
+      "name": "This Track Is Not Called Parental Discretion Iz Advised",
+      "artists": "Kyle Kinane",
+      "album": "\"I Liked His Old Stuff Better\"",
+      "popularity": 29,
+      "tempo": 84.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.62,
+      "danceability": 0.587,
+      "acousticness": 0.737,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.9,
+      "duration_ms": 280618,
+      "slug": "this-track-is-not-called-parental-discretion-iz-advised-kyle-kinane"
+    },
+    {
+      "name": "Post Office",
+      "artists": "Kathleen Madigan",
+      "album": "Madigan Again",
+      "popularity": 29,
+      "tempo": 81.9,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.96,
+      "valence": 0.448,
+      "danceability": 0.589,
+      "acousticness": 0.818,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.898,
+      "duration_ms": 72973,
+      "slug": "post-office-kathleen-madigan"
+    },
+    {
+      "name": "Roller Coaster/Ok to Be Gay/Pornucopia/Gay Exec",
+      "artists": "Ron White",
+      "album": "A Little Unprofessional",
+      "popularity": 29,
+      "tempo": 84.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.414,
+      "valence": 0.188,
+      "danceability": 0.478,
+      "acousticness": 0.919,
+      "instrumentalness": 0.0,
+      "loudness": -22.0,
+      "speechiness": 0.949,
+      "duration_ms": 271438,
+      "slug": "roller-coasterok-to-be-gaypornucopiagay-exec-ron-white"
+    },
+    {
+      "name": "Intro",
+      "artists": "Bert Kreischer",
+      "album": "Bert Bert Bert",
+      "popularity": 29,
+      "tempo": 83.5,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.709,
+      "valence": 0.453,
+      "danceability": 0.468,
+      "acousticness": 0.926,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.952,
+      "duration_ms": 134000,
+      "slug": "intro-bert-kreischer"
+    },
+    {
+      "name": "Kev's Courtin' Song",
+      "artists": "Kevin Bloody Wilson",
+      "album": "Kev's Back (The Return of the Yobbo)",
+      "popularity": 29,
+      "tempo": 139.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.433,
+      "valence": 0.939,
+      "danceability": 0.773,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -16.1,
+      "speechiness": 0.129,
+      "duration_ms": 237610,
+      "slug": "kevs-courtin-song-kevin-bloody-wilson"
+    },
+    {
+      "name": "Skeeters, Spiders and Lookalikes",
+      "artists": "Larry The Cable Guy",
+      "album": "We've Been Thinking",
+      "popularity": 29,
+      "tempo": 86.4,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.179,
+      "danceability": 0.459,
+      "acousticness": 0.8,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.948,
+      "duration_ms": 275493,
+      "slug": "skeeters-spiders-and-lookalikes-larry-the-cable-guy"
+    },
+    {
+      "name": "Dick'taphone",
+      "artists": "Kevin Bloody Wilson",
+      "album": "Kev's Back (The Return of the Yobbo)",
+      "popularity": 29,
+      "tempo": 120.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.509,
+      "valence": 0.832,
+      "danceability": 0.745,
+      "acousticness": 0.322,
+      "instrumentalness": 0.0,
+      "loudness": -15.1,
+      "speechiness": 0.166,
+      "duration_ms": 297170,
+      "slug": "dicktaphone-kevin-bloody-wilson"
+    },
+    {
+      "name": "Grapefruit Diet (Parody of \"Zoot Suit Riot\" by Cherry Poppin' Daddies)",
+      "artists": "\"Weird Al\" Yankovic",
+      "album": "Running With Scissors",
+      "popularity": 29,
+      "tempo": 94.7,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.51,
+      "valence": 0.704,
+      "danceability": 0.738,
+      "acousticness": 0.078,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.047,
+      "duration_ms": 210306,
+      "slug": "grapefruit-diet-parody-of-zoot-suit-riot-by-cherry-poppin-daddies-weird-al-yanko"
+    },
+    {
+      "name": "Government Is Pimps",
+      "artists": "Katt Williams",
+      "album": "Pimp Chronicles Pt.1",
+      "popularity": 28,
+      "tempo": 109.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.403,
+      "danceability": 0.654,
+      "acousticness": 0.795,
+      "instrumentalness": 0.0,
+      "loudness": -13.9,
+      "speechiness": 0.937,
+      "duration_ms": 236904,
+      "slug": "government-is-pimps-katt-williams"
+    },
+    {
+      "name": "This Track Is Not Called 8 Ball",
+      "artists": "Kyle Kinane",
+      "album": "\"I Liked His Old Stuff Better\"",
+      "popularity": 28,
+      "tempo": 132.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.712,
+      "valence": 0.553,
+      "danceability": 0.649,
+      "acousticness": 0.699,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.929,
+      "duration_ms": 415786,
+      "slug": "this-track-is-not-called-8-ball-kyle-kinane"
+    },
+    {
+      "name": "Witching Hour of Drinking",
+      "artists": "Iliza Shlesinger",
+      "album": "War Paint",
+      "popularity": 28,
+      "tempo": 171.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.894,
+      "valence": 0.345,
+      "danceability": 0.622,
+      "acousticness": 0.802,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.958,
+      "duration_ms": 282465,
+      "slug": "witching-hour-of-drinking-iliza-shlesinger"
+    },
+    {
+      "name": "Non Hogkins Lymphoma",
+      "artists": "Robert Schimmel",
+      "album": "Life Since Then",
+      "popularity": 28,
+      "tempo": 80.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.332,
+      "valence": 0.701,
+      "danceability": 0.689,
+      "acousticness": 0.873,
+      "instrumentalness": 0.0,
+      "loudness": -19.4,
+      "speechiness": 0.961,
+      "duration_ms": 68520,
+      "slug": "non-hogkins-lymphoma-robert-schimmel"
+    }
+  ]
+}

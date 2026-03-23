@@ -1,0 +1,2801 @@
+{
+  "genre": "Sertanejo",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 74.884,
+    "max": 194.615,
+    "mean": 129.038,
+    "median": 126.939,
+    "q1": 103.905,
+    "q3": 155.947,
+    "histogram": {
+      "70-79": 4,
+      "80-89": 8,
+      "90-99": 10,
+      "100-109": 12,
+      "110-119": 14,
+      "120-129": 4,
+      "130-139": 5,
+      "140-149": 8,
+      "150-159": 18,
+      "160-169": 5,
+      "170-179": 10,
+      "180-189": 1,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "A": 19,
+    "C#/Db": 16,
+    "D": 15,
+    "G": 12,
+    "C": 7,
+    "F": 7,
+    "A#/Bb": 6,
+    "B": 6,
+    "E": 4,
+    "F#/Gb": 4,
+    "G#/Ab": 2,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Minor": 13,
+    "Major": 87
+  },
+  "key_mode_distribution": {
+    "A Major": 18,
+    "D Major": 15,
+    "C#/Db Major": 13,
+    "G Major": 11,
+    "C Major": 6,
+    "A#/Bb Major": 5,
+    "F Major": 5,
+    "B Major": 4,
+    "C#/Db Minor": 3,
+    "E Major": 3,
+    "F#/Gb Major": 3,
+    "G#/Ab Major": 2,
+    "D#/Eb Major": 2,
+    "F Minor": 2,
+    "B Minor": 2,
+    "A#/Bb Minor": 1,
+    "C Minor": 1,
+    "E Minor": 1,
+    "F#/Gb Minor": 1,
+    "G Minor": 1,
+    "A Minor": 1
+  },
+  "energy": {
+    "min": 0.306,
+    "max": 0.952,
+    "mean": 0.711,
+    "median": 0.742,
+    "q1": 0.605,
+    "q3": 0.829
+  },
+  "valence": {
+    "min": 0.231,
+    "max": 0.962,
+    "mean": 0.607,
+    "median": 0.601,
+    "q1": 0.504,
+    "q3": 0.756
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.671,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.298
+    },
+    {
+      "energy": 0.754,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.709,
+      "valence": 0.631
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.836
+    },
+    {
+      "energy": 0.897,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.34,
+      "valence": 0.603
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.564
+    },
+    {
+      "energy": 0.566,
+      "valence": 0.454
+    },
+    {
+      "energy": 0.754,
+      "valence": 0.599
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.5
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.558
+    },
+    {
+      "energy": 0.493,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.765,
+      "valence": 0.679
+    },
+    {
+      "energy": 0.372,
+      "valence": 0.822
+    },
+    {
+      "energy": 0.647,
+      "valence": 0.962
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.452
+    },
+    {
+      "energy": 0.856,
+      "valence": 0.938
+    },
+    {
+      "energy": 0.861,
+      "valence": 0.249
+    },
+    {
+      "energy": 0.734,
+      "valence": 0.756
+    },
+    {
+      "energy": 0.306,
+      "valence": 0.315
+    },
+    {
+      "energy": 0.817,
+      "valence": 0.903
+    },
+    {
+      "energy": 0.59,
+      "valence": 0.533
+    },
+    {
+      "energy": 0.553,
+      "valence": 0.285
+    },
+    {
+      "energy": 0.437,
+      "valence": 0.773
+    },
+    {
+      "energy": 0.686,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.785,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.607,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.719,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.563,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.74
+    },
+    {
+      "energy": 0.867,
+      "valence": 0.717
+    },
+    {
+      "energy": 0.755,
+      "valence": 0.629
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.655
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.344
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.762
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.913
+    },
+    {
+      "energy": 0.73,
+      "valence": 0.583
+    },
+    {
+      "energy": 0.863,
+      "valence": 0.625
+    },
+    {
+      "energy": 0.493,
+      "valence": 0.557
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.786
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.605
+    },
+    {
+      "energy": 0.855,
+      "valence": 0.489
+    },
+    {
+      "energy": 0.587,
+      "valence": 0.474
+    },
+    {
+      "energy": 0.859,
+      "valence": 0.664
+    },
+    {
+      "energy": 0.706,
+      "valence": 0.79
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.509
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.506
+    },
+    {
+      "energy": 0.857,
+      "valence": 0.558
+    },
+    {
+      "energy": 0.418,
+      "valence": 0.465
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.801
+    },
+    {
+      "energy": 0.689,
+      "valence": 0.584
+    },
+    {
+      "energy": 0.493,
+      "valence": 0.605
+    },
+    {
+      "energy": 0.703,
+      "valence": 0.606
+    },
+    {
+      "energy": 0.757,
+      "valence": 0.37
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.775,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.805,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.489,
+      "valence": 0.531
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.955
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.446
+    },
+    {
+      "energy": 0.842,
+      "valence": 0.504
+    },
+    {
+      "energy": 0.769,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.745,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.73
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.442
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.914
+    },
+    {
+      "energy": 0.752,
+      "valence": 0.926
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.72
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.598
+    },
+    {
+      "energy": 0.558,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.672,
+      "valence": 0.586
+    },
+    {
+      "energy": 0.755,
+      "valence": 0.778
+    },
+    {
+      "energy": 0.604,
+      "valence": 0.372
+    },
+    {
+      "energy": 0.788,
+      "valence": 0.352
+    },
+    {
+      "energy": 0.662,
+      "valence": 0.602
+    },
+    {
+      "energy": 0.809,
+      "valence": 0.271
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.602
+    },
+    {
+      "energy": 0.65,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.937,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.496,
+      "valence": 0.488
+    },
+    {
+      "energy": 0.746,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.523,
+      "valence": 0.609
+    },
+    {
+      "energy": 0.678,
+      "valence": 0.388
+    },
+    {
+      "energy": 0.516,
+      "valence": 0.767
+    },
+    {
+      "energy": 0.557,
+      "valence": 0.515
+    },
+    {
+      "energy": 0.861,
+      "valence": 0.766
+    },
+    {
+      "energy": 0.878,
+      "valence": 0.508
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.86,
+      "valence": 0.591
+    },
+    {
+      "energy": 0.787,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.761,
+      "valence": 0.508
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.477
+    },
+    {
+      "energy": 0.507,
+      "valence": 0.562
+    },
+    {
+      "energy": 0.792,
+      "valence": 0.586
+    }
+  ],
+  "acousticness": {
+    "min": 0.031,
+    "max": 0.931,
+    "mean": 0.478,
+    "median": 0.491,
+    "q1": 0.337,
+    "q3": 0.656
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.505,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.538,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.532,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.712,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.219,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.129,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.781,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.362,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.931,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.684,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.656,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.581,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.436,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.453,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.38,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.645,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.585,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.764,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.524,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.827,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.606,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.669,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.481,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.857,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.337,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.57,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.505,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.656,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.762,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.714,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.467,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.345,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.324,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.47,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.471,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.419,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.562,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.51,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.52,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.335,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.074,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.374,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.454,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.115,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.701,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.303,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.638,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.293,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.559,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.821,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.174,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.454,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.14,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.114,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.375,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.435,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.745,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.352,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.726,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.672,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.713,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.149,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.48,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.729,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.627,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.694,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.206,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.787,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.505,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.528,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.576,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.564,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.679,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.235,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.16,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.168,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.492,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.599,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.652,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.486,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.744,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.812,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.648,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.616,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.814,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.089,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.49,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.217,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.263,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.488,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.032,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.465,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.342,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 137957,
+    "max": 588307,
+    "mean": 201004.11,
+    "median": 185191.5,
+    "q1": 174179,
+    "q3": 212023
+  },
+  "danceability": {
+    "min": 0.31,
+    "max": 0.773,
+    "mean": 0.567,
+    "median": 0.591,
+    "q1": 0.495,
+    "q3": 0.637
+  },
+  "loudness": {
+    "min": -10.903,
+    "max": -1.145,
+    "mean": -5.469,
+    "median": -5.165,
+    "q1": -6.288,
+    "q3": -4.279
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.411,
+    "mean": 0.074,
+    "median": 0.053,
+    "q1": 0.039,
+    "q3": 0.096
+  },
+  "top_artists": [
+    {
+      "name": "Henrique & Juliano",
+      "count": 30
+    },
+    {
+      "name": "Murilo Huff",
+      "count": 9
+    },
+    {
+      "name": "Matheus & Kauan",
+      "count": 8
+    },
+    {
+      "name": "Turma do Pagode",
+      "count": 6
+    },
+    {
+      "name": "Pixote",
+      "count": 4
+    },
+    {
+      "name": "Humberto & Ronaldo",
+      "count": 3
+    },
+    {
+      "name": "Milion\u00e1rio & Jos\u00e9 Rico",
+      "count": 3
+    },
+    {
+      "name": "Matogrosso & Mathias",
+      "count": 3
+    },
+    {
+      "name": "Gusttavo Lima",
+      "count": 3
+    },
+    {
+      "name": "Vou pro Sereno",
+      "count": 2
+    },
+    {
+      "name": "Clayton & Rom\u00e1rio",
+      "count": 2
+    },
+    {
+      "name": "Jo\u00e3o Bosco & Vinicius",
+      "count": 2
+    },
+    {
+      "name": "Juan Marcus & Vin\u00edcius",
+      "count": 2
+    },
+    {
+      "name": "Diego & Victor Hugo",
+      "count": 2
+    },
+    {
+      "name": "Jeito Moleque",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Gola\u00e7o (Ao Vivo)",
+      "artists": "Turma do Pagode;Vou pro Sereno",
+      "album": "Turma no Quintal EP4 (Ao Vivo)",
+      "popularity": 63,
+      "tempo": 171.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.671,
+      "valence": 0.72,
+      "danceability": 0.617,
+      "acousticness": 0.505,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.099,
+      "duration_ms": 184622,
+      "slug": "gola\u00e7o-ao-vivo-turma-do-pagode"
+    },
+    {
+      "name": "Problem\u00e3o - Ao Vivo",
+      "artists": "Hugo & Vitor;Clayton & Rom\u00e1rio",
+      "album": "Respeita Minha Dupla (Ao Vivo / Vol. 1)",
+      "popularity": 62,
+      "tempo": 155.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.891,
+      "valence": 0.661,
+      "danceability": 0.582,
+      "acousticness": 0.538,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.095,
+      "duration_ms": 137957,
+      "slug": "problem\u00e3o-ao-vivo-hugo-vitor"
+    },
+    {
+      "name": "Meu Anjo / Esque\u00e7a Que Eu Te Amo / \u00c9 Amor Demais (Ao Vivo)",
+      "artists": "Murilo Huff",
+      "album": "Ao Viv\u00e3o 2",
+      "popularity": 62,
+      "tempo": 141.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.542,
+      "valence": 0.298,
+      "danceability": 0.362,
+      "acousticness": 0.532,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.051,
+      "duration_ms": 307684,
+      "slug": "meu-anjo-esque\u00e7a-que-eu-te-amo-\u00e9-amor-demais-ao-vivo-murilo-huff"
+    },
+    {
+      "name": "Amante, Amiga e Namorada - Ao Vivo",
+      "artists": "Max e Luan",
+      "album": "Esqueminha (Ao Vivo)",
+      "popularity": 62,
+      "tempo": 155.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.754,
+      "valence": 0.655,
+      "danceability": 0.644,
+      "acousticness": 0.712,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.068,
+      "duration_ms": 139088,
+      "slug": "amante-amiga-e-namorada-ao-vivo-max-e-luan"
+    },
+    {
+      "name": "Sentimentalmente Esperto - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo / Vol. 6)",
+      "popularity": 62,
+      "tempo": 172.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.709,
+      "valence": 0.631,
+      "danceability": 0.455,
+      "acousticness": 0.219,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.165,
+      "duration_ms": 152593,
+      "slug": "sentimentalmente-esperto-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Esqueceu Foi Porra",
+      "artists": "Eric Land;Tarc\u00edsio do Acordeon",
+      "album": "Esqueceu Foi Porra",
+      "popularity": 61,
+      "tempo": 149.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.938,
+      "valence": 0.836,
+      "danceability": 0.624,
+      "acousticness": 0.129,
+      "instrumentalness": 0.0,
+      "loudness": -1.1,
+      "speechiness": 0.064,
+      "duration_ms": 177531,
+      "slug": "esqueceu-foi-porra-eric-land"
+    },
+    {
+      "name": "Quase Reca\u00edda",
+      "artists": "Jo\u00e3o Bosco & Vinicius",
+      "album": "Parceria, Ep. 02",
+      "popularity": 60,
+      "tempo": 153.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.897,
+      "valence": 0.776,
+      "danceability": 0.652,
+      "acousticness": 0.781,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.052,
+      "duration_ms": 148374,
+      "slug": "quase-reca\u00edda-jo\u00e3o-bosco-vinicius"
+    },
+    {
+      "name": "Cora\u00e7\u00e3o De Rua - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo / Vol. 1)",
+      "popularity": 60,
+      "tempo": 174.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.661,
+      "danceability": 0.56,
+      "acousticness": 0.362,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.187,
+      "duration_ms": 173415,
+      "slug": "cora\u00e7\u00e3o-de-rua-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Vestido De Seda",
+      "artists": "Teodoro & Sampaio",
+      "album": "Vestido De Seda",
+      "popularity": 60,
+      "tempo": 84.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.34,
+      "valence": 0.603,
+      "danceability": 0.564,
+      "acousticness": 0.931,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.026,
+      "duration_ms": 179000,
+      "slug": "vestido-de-seda-teodoro-sampaio"
+    },
+    {
+      "name": "Amores De Esquina - Ao Vivo",
+      "artists": "Juan Marcus & Vin\u00edcius",
+      "album": "Da Nossa Moda (Ao Vivo)",
+      "popularity": 60,
+      "tempo": 114.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.564,
+      "danceability": 0.646,
+      "acousticness": 0.684,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.041,
+      "duration_ms": 151325,
+      "slug": "amores-de-esquina-ao-vivo-juan-marcus-vin\u00edcius"
+    },
+    {
+      "name": "Sem Rede - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 59,
+      "tempo": 105.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.566,
+      "valence": 0.454,
+      "danceability": 0.531,
+      "acousticness": 0.656,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.027,
+      "duration_ms": 202724,
+      "slug": "sem-rede-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Eu Tamb\u00e9m N\u00e3o Vou - Ao Vivo",
+      "artists": "Humberto & Ronaldo;\u00cdcaro e Gilmar",
+      "album": "Ao Vivo em Goi\u00e2nia, Completo",
+      "popularity": 59,
+      "tempo": 155.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.754,
+      "valence": 0.599,
+      "danceability": 0.495,
+      "acousticness": 0.581,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.051,
+      "duration_ms": 222271,
+      "slug": "eu-tamb\u00e9m-n\u00e3o-vou-ao-vivo-humberto-ronaldo"
+    },
+    {
+      "name": "Se Tiver Coragem Joga Fora / Inevit\u00e1vel / Meu Segredo / N\u00e3o Imploro por Amor / Ent\u00e3o Pode Ir (Ao Vivo)",
+      "artists": "Murilo Huff",
+      "album": "Ao Viv\u00e3o 2",
+      "popularity": 59,
+      "tempo": 113.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.599,
+      "valence": 0.237,
+      "danceability": 0.457,
+      "acousticness": 0.436,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.052,
+      "duration_ms": 588307,
+      "slug": "se-tiver-coragem-joga-fora-inevit\u00e1vel-meu-segredo-n\u00e3o-imploro-por-amor-ent\u00e3o-pod"
+    },
+    {
+      "name": "Ame O Tanto Que Puder - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 59,
+      "tempo": 113.8,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.74,
+      "valence": 0.5,
+      "danceability": 0.681,
+      "acousticness": 0.453,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.041,
+      "duration_ms": 195760,
+      "slug": "ame-o-tanto-que-puder-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "D\u00favida Boa - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 59,
+      "tempo": 111.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.67,
+      "valence": 0.558,
+      "danceability": 0.593,
+      "acousticness": 0.38,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.061,
+      "duration_ms": 192793,
+      "slug": "d\u00favida-boa-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Decida - Ao Vivo",
+      "artists": "Milion\u00e1rio & Jos\u00e9 Rico",
+      "album": "Atravessando Gera\u00e7\u00f5es, Vol. 29",
+      "popularity": 58,
+      "tempo": 79.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.493,
+      "valence": 0.586,
+      "danceability": 0.516,
+      "acousticness": 0.645,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.081,
+      "duration_ms": 239053,
+      "slug": "decida-ao-vivo-milion\u00e1rio-jos\u00e9-rico"
+    },
+    {
+      "name": "Conhe\u00e7o Meu Gado - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 58,
+      "tempo": 157.9,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.765,
+      "valence": 0.679,
+      "danceability": 0.405,
+      "acousticness": 0.585,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.1,
+      "duration_ms": 183620,
+      "slug": "conhe\u00e7o-meu-gado-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Pot-Pourri: Amor Sem Ju\u00edzo / Minha Namorada",
+      "artists": "Murilo Huff",
+      "album": "Ao Viv\u00e3o",
+      "popularity": 58,
+      "tempo": 127.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.372,
+      "valence": 0.822,
+      "danceability": 0.548,
+      "acousticness": 0.764,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.048,
+      "duration_ms": 198154,
+      "slug": "pot-pourri-amor-sem-ju\u00edzo-minha-namorada-murilo-huff"
+    },
+    {
+      "name": "Saudade Arrega\u00e7a",
+      "artists": "Pixote",
+      "album": "Saudade Arrega\u00e7a",
+      "popularity": 57,
+      "tempo": 179.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.647,
+      "valence": 0.962,
+      "danceability": 0.667,
+      "acousticness": 0.524,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.038,
+      "duration_ms": 194168,
+      "slug": "saudade-arrega\u00e7a-pixote"
+    },
+    {
+      "name": "Te Amei A Mais - Ao Vivo",
+      "artists": "Douglas & Vinicius",
+      "album": "Ao Vivo Em S\u00e3o Paulo (Vol. 4)",
+      "popularity": 57,
+      "tempo": 139.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.452,
+      "danceability": 0.599,
+      "acousticness": 0.827,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.041,
+      "duration_ms": 219130,
+      "slug": "te-amei-a-mais-ao-vivo-douglas-vinicius"
+    },
+    {
+      "name": "Vai Errar de Novo - Ao Vivo",
+      "artists": "Pixote",
+      "album": "F\u00e3 de Carteirinha Sunset, Ep. 02 (Ao Vivo)",
+      "popularity": 57,
+      "tempo": 170.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.856,
+      "valence": 0.938,
+      "danceability": 0.61,
+      "acousticness": 0.606,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.039,
+      "duration_ms": 176103,
+      "slug": "vai-errar-de-novo-ao-vivo-pixote"
+    },
+    {
+      "name": "Pra Que Ju\u00edzo - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo Em Bras\u00edlia (Deluxe)",
+      "popularity": 57,
+      "tempo": 109.5,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.861,
+      "valence": 0.249,
+      "danceability": 0.562,
+      "acousticness": 0.669,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.042,
+      "duration_ms": 162280,
+      "slug": "pra-que-ju\u00edzo-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Desbeijar Minha Boca - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Menos \u00c9 Mais (Ao Vivo)",
+      "popularity": 57,
+      "tempo": 126.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.734,
+      "valence": 0.756,
+      "danceability": 0.737,
+      "acousticness": 0.481,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.038,
+      "duration_ms": 157810,
+      "slug": "desbeijar-minha-boca-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Lembran\u00e7a Boa - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Menos \u00c9 Mais (Ao Vivo)",
+      "popularity": 57,
+      "tempo": 92.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.306,
+      "valence": 0.315,
+      "danceability": 0.609,
+      "acousticness": 0.857,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.027,
+      "duration_ms": 178464,
+      "slug": "lembran\u00e7a-boa-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Bateria Externa - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 57,
+      "tempo": 162.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.817,
+      "valence": 0.903,
+      "danceability": 0.671,
+      "acousticness": 0.337,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.065,
+      "duration_ms": 174179,
+      "slug": "bateria-externa-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Sens\u00edvel Demais / Som e Imagem / Voc\u00ea Vai Ficar em Mim (Ao Vivo)",
+      "artists": "Murilo Huff",
+      "album": "Ao Viv\u00e3o 2",
+      "popularity": 57,
+      "tempo": 107.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.59,
+      "valence": 0.533,
+      "danceability": 0.565,
+      "acousticness": 0.57,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.099,
+      "duration_ms": 239975,
+      "slug": "sens\u00edvel-demais-som-e-imagem-voc\u00ea-vai-ficar-em-mim-ao-vivo-murilo-huff"
+    },
+    {
+      "name": "Declara\u00e7\u00e3o de Amor / Pecado de Amor / Deixaria Tudo (Ao Vivo)",
+      "artists": "Murilo Huff",
+      "album": "Ao Viv\u00e3o 2",
+      "popularity": 57,
+      "tempo": 145.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.553,
+      "valence": 0.285,
+      "danceability": 0.432,
+      "acousticness": 0.505,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.056,
+      "duration_ms": 403405,
+      "slug": "declara\u00e7\u00e3o-de-amor-pecado-de-amor-deixaria-tudo-ao-vivo-murilo-huff"
+    },
+    {
+      "name": "At\u00e9 O Sol Quis Ver - Ao Vivo Na Ilha Da Magia,Brasil/2008",
+      "artists": "Exaltasamba",
+      "album": "Ao Vivo Na Ilha Da Magia",
+      "popularity": 56,
+      "tempo": 148.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.437,
+      "valence": 0.773,
+      "danceability": 0.614,
+      "acousticness": 0.656,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.037,
+      "duration_ms": 236382,
+      "slug": "at\u00e9-o-sol-quis-ver-ao-vivo-na-ilha-da-magiabrasil2008-exaltasamba"
+    },
+    {
+      "name": "Sorte - Ao Vivo",
+      "artists": "Diego & Victor Hugo",
+      "album": "Sorte (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 94.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.686,
+      "valence": 0.509,
+      "danceability": 0.475,
+      "acousticness": 0.762,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.041,
+      "duration_ms": 186469,
+      "slug": "sorte-ao-vivo-diego-victor-hugo"
+    },
+    {
+      "name": "Incerteza - Na Praia / Ao Vivo",
+      "artists": "Matheus & Kauan",
+      "album": "Na Praia (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 109.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.785,
+      "valence": 0.484,
+      "danceability": 0.569,
+      "acousticness": 0.048,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.087,
+      "duration_ms": 189400,
+      "slug": "incerteza-na-praia-ao-vivo-matheus-kauan"
+    },
+    {
+      "name": "Faz um Cora\u00e7\u00e3o A\u00ed (Ao Vivo)",
+      "artists": "Turma do Pagode",
+      "album": "Turma no Quintal EP 1 (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 90.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.607,
+      "valence": 0.711,
+      "danceability": 0.649,
+      "acousticness": 0.714,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.041,
+      "duration_ms": 212023,
+      "slug": "faz-um-cora\u00e7\u00e3o-a\u00ed-ao-vivo-turma-do-pagode"
+    },
+    {
+      "name": "Eterno Replay - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 56,
+      "tempo": 161.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.719,
+      "valence": 0.805,
+      "danceability": 0.658,
+      "acousticness": 0.467,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.153,
+      "duration_ms": 174066,
+      "slug": "eterno-replay-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Desfarreou - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 56,
+      "tempo": 117.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.563,
+      "valence": 0.668,
+      "danceability": 0.426,
+      "acousticness": 0.345,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.038,
+      "duration_ms": 172572,
+      "slug": "desfarreou-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Relaxa O Cora\u00e7\u00e3o - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 56,
+      "tempo": 116.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.717,
+      "valence": 0.584,
+      "danceability": 0.739,
+      "acousticness": 0.324,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.038,
+      "duration_ms": 156100,
+      "slug": "relaxa-o-cora\u00e7\u00e3o-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Espetinho",
+      "artists": "Os Parazim",
+      "album": "O Som do Bbq",
+      "popularity": 56,
+      "tempo": 133.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.74,
+      "danceability": 0.633,
+      "acousticness": 0.47,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.034,
+      "duration_ms": 180334,
+      "slug": "espetinho-os-parazim"
+    },
+    {
+      "name": "Segunda Ta\u00e7a - Ao Vivo",
+      "artists": "Jo\u00e3o Bosco & Vinicius;Matheus",
+      "album": "Segunda Ta\u00e7a (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 81.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.867,
+      "valence": 0.717,
+      "danceability": 0.61,
+      "acousticness": 0.471,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.176,
+      "duration_ms": 180346,
+      "slug": "segunda-ta\u00e7a-ao-vivo-jo\u00e3o-bosco-vinicius"
+    },
+    {
+      "name": "At\u00e9 A Pr\u00f3xima Vida - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 117.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.755,
+      "valence": 0.629,
+      "danceability": 0.587,
+      "acousticness": 0.135,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.184,
+      "duration_ms": 194310,
+      "slug": "at\u00e9-a-pr\u00f3xima-vida-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Morro de Saudade / Vem Me Amar - Ao Vivo",
+      "artists": "Clayton & Rom\u00e1rio",
+      "album": "No Churrasco (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 173.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.902,
+      "valence": 0.808,
+      "danceability": 0.61,
+      "acousticness": 0.419,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.224,
+      "duration_ms": 222784,
+      "slug": "morro-de-saudade-vem-me-amar-ao-vivo-clayton-rom\u00e1rio"
+    },
+    {
+      "name": "Secando V\u00e1rias Garrafas - Ao Vivo",
+      "artists": "Matogrosso & Mathias;Henrique & Juliano",
+      "album": "Zona Rural (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 160.2,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.863,
+      "valence": 0.655,
+      "danceability": 0.462,
+      "acousticness": 0.562,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.129,
+      "duration_ms": 196550,
+      "slug": "secando-v\u00e1rias-garrafas-ao-vivo-matogrosso-mathias"
+    },
+    {
+      "name": "Eu Mere\u00e7o / Inesquec\u00edvel / N\u00e3o Tem Perd\u00e3o (Ao Vivo)",
+      "artists": "Murilo Huff",
+      "album": "Ao Viv\u00e3o 2",
+      "popularity": 56,
+      "tempo": 74.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.538,
+      "valence": 0.344,
+      "danceability": 0.374,
+      "acousticness": 0.51,
+      "instrumentalness": 0.0,
+      "loudness": -6.7,
+      "speechiness": 0.14,
+      "duration_ms": 299753,
+      "slug": "eu-mere\u00e7o-inesquec\u00edvel-n\u00e3o-tem-perd\u00e3o-ao-vivo-murilo-huff"
+    },
+    {
+      "name": "Se \u00c9 pra Chorar Eu Choro - Ao Vivo",
+      "artists": "Lucas Reis & Th\u00e1cio;Jads;Jadson",
+      "album": "O Sertanejo \u00c9 Assim (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 128.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.762,
+      "danceability": 0.715,
+      "acousticness": 0.52,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.038,
+      "duration_ms": 206274,
+      "slug": "se-\u00e9-pra-chorar-eu-choro-ao-vivo-lucas-reis-th\u00e1cio"
+    },
+    {
+      "name": "Saudade V\u00e9ia - Ao Vivo",
+      "artists": "Humberto & Ronaldo",
+      "album": "Saudade V\u00e9ia (Ao Vivo)",
+      "popularity": 56,
+      "tempo": 162.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.877,
+      "valence": 0.913,
+      "danceability": 0.633,
+      "acousticness": 0.335,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.053,
+      "duration_ms": 160682,
+      "slug": "saudade-v\u00e9ia-ao-vivo-humberto-ronaldo"
+    },
+    {
+      "name": "Para Tudo - Ao Vivo",
+      "artists": "Jeito Moleque",
+      "album": "Me Faz Feliz (Ao Vivo)",
+      "popularity": 55,
+      "tempo": 145.3,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.73,
+      "valence": 0.583,
+      "danceability": 0.31,
+      "acousticness": 0.416,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.05,
+      "duration_ms": 275600,
+      "slug": "para-tudo-ao-vivo-jeito-moleque"
+    },
+    {
+      "name": "At\u00e9 Falar Chega (feat. Matheus & Kauan) - Ao Vivo",
+      "artists": "Diego & Victor Hugo;Matheus & Kauan",
+      "album": "Equil\u00edbrio (Ao Vivo)",
+      "popularity": 55,
+      "tempo": 155.2,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.863,
+      "valence": 0.625,
+      "danceability": 0.411,
+      "acousticness": 0.074,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.09,
+      "duration_ms": 208346,
+      "slug": "at\u00e9-falar-chega-feat-matheus-kauan-ao-vivo-diego-victor-hugo"
+    },
+    {
+      "name": "Telefone Mudo",
+      "artists": "Trio Parada Dura",
+      "album": "Trio Parada Dura",
+      "popularity": 55,
+      "tempo": 95.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.493,
+      "valence": 0.557,
+      "danceability": 0.658,
+      "acousticness": 0.374,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.027,
+      "duration_ms": 203000,
+      "slug": "telefone-mudo-trio-parada-dura"
+    },
+    {
+      "name": "Boca Semi Nua - Ao Vivo No Casa Filtr",
+      "artists": "Diego & Arnaldo;Mari Fernandez",
+      "album": "Boca Semi Nua (Ao Vivo No Casa Filtr)",
+      "popularity": 55,
+      "tempo": 150.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.849,
+      "valence": 0.786,
+      "danceability": 0.593,
+      "acousticness": 0.454,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.1,
+      "duration_ms": 147733,
+      "slug": "boca-semi-nua-ao-vivo-no-casa-filtr-diego-arnaldo"
+    },
+    {
+      "name": "Dominamo Memo",
+      "artists": "Bruno & Barretto",
+      "album": "Dominamo Memo",
+      "popularity": 55,
+      "tempo": 194.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.904,
+      "valence": 0.605,
+      "danceability": 0.444,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.411,
+      "duration_ms": 153234,
+      "slug": "dominamo-memo-bruno-barretto"
+    },
+    {
+      "name": "Barulho Das Rodinhas - Ao Vivo",
+      "artists": "Matheus & Kauan",
+      "album": "Se Melhorar Estraga (Ao Vivo)",
+      "popularity": 55,
+      "tempo": 80.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.855,
+      "valence": 0.489,
+      "danceability": 0.434,
+      "acousticness": 0.115,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.095,
+      "duration_ms": 158014,
+      "slug": "barulho-das-rodinhas-ao-vivo-matheus-kauan"
+    },
+    {
+      "name": "Igrejinha Azul",
+      "artists": "Fiduma & Jeca;Matogrosso & Mathias",
+      "album": "Alcoo\u00fastico 2",
+      "popularity": 55,
+      "tempo": 105.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.587,
+      "valence": 0.474,
+      "danceability": 0.689,
+      "acousticness": 0.701,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.029,
+      "duration_ms": 206912,
+      "slug": "igrejinha-azul-fiduma-jeca"
+    },
+    {
+      "name": "Compensa Me Amar - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Novas Hist\u00f3rias (Ao Vivo / Deluxe)",
+      "popularity": 55,
+      "tempo": 179.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.859,
+      "valence": 0.664,
+      "danceability": 0.354,
+      "acousticness": 0.303,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.064,
+      "duration_ms": 171872,
+      "slug": "compensa-me-amar-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Vai Que Bebereis - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Menos \u00c9 Mais (Ao Vivo)",
+      "popularity": 55,
+      "tempo": 122.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.706,
+      "valence": 0.79,
+      "danceability": 0.744,
+      "acousticness": 0.638,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.054,
+      "duration_ms": 160553,
+      "slug": "vai-que-bebereis-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "N\u00e3o Tenho Coragem - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 55,
+      "tempo": 102.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.749,
+      "valence": 0.509,
+      "danceability": 0.628,
+      "acousticness": 0.408,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.058,
+      "duration_ms": 186217,
+      "slug": "n\u00e3o-tenho-coragem-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Sem Amor - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 55,
+      "tempo": 89.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.829,
+      "valence": 0.506,
+      "danceability": 0.537,
+      "acousticness": 0.293,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.075,
+      "duration_ms": 194268,
+      "slug": "sem-amor-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Do Mato pro Mundo",
+      "artists": "Luan Pereira",
+      "album": "Do Mato pro Mundo",
+      "popularity": 55,
+      "tempo": 158.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.857,
+      "valence": 0.558,
+      "danceability": 0.477,
+      "acousticness": 0.559,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.073,
+      "duration_ms": 193116,
+      "slug": "do-mato-pro-mundo-luan-pereira"
+    },
+    {
+      "name": "Colega De Caso - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo No Ibirapuera",
+      "popularity": 55,
+      "tempo": 118.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.418,
+      "valence": 0.465,
+      "danceability": 0.511,
+      "acousticness": 0.821,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.042,
+      "duration_ms": 186682,
+      "slug": "colega-de-caso-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Ficamento - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo / Vol. 2)",
+      "popularity": 55,
+      "tempo": 159.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.828,
+      "valence": 0.801,
+      "danceability": 0.637,
+      "acousticness": 0.174,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.239,
+      "duration_ms": 148151,
+      "slug": "ficamento-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Beijadamente Calculado - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Menos \u00c9 Mais (Ao Vivo)",
+      "popularity": 55,
+      "tempo": 158.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.689,
+      "valence": 0.584,
+      "danceability": 0.632,
+      "acousticness": 0.454,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.11,
+      "duration_ms": 148966,
+      "slug": "beijadamente-calculado-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Quem Ser\u00e1 Seu Outro Amor",
+      "artists": "Chico Rey & Paran\u00e1",
+      "album": "Chico Rey & Paran\u00e1 - Ac\u00fastico, Vol. 13",
+      "popularity": 54,
+      "tempo": 184.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.493,
+      "valence": 0.605,
+      "danceability": 0.428,
+      "acousticness": 0.14,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.027,
+      "duration_ms": 230280,
+      "slug": "quem-ser\u00e1-seu-outro-amor-chico-rey-paran\u00e1"
+    },
+    {
+      "name": "Amor de Primavera - Ao Vivo",
+      "artists": "Di Paullo & Paulino",
+      "album": "Mod\u00e3o Sertanejo (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 92.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.703,
+      "valence": 0.606,
+      "danceability": 0.481,
+      "acousticness": 0.114,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.024,
+      "duration_ms": 237693,
+      "slug": "amor-de-primavera-ao-vivo-di-paullo-paulino"
+    },
+    {
+      "name": "Meu Oxig\u00eanio - Live",
+      "artists": "Matheus & Kauan",
+      "album": "Face A Face (Live)",
+      "popularity": 54,
+      "tempo": 158.6,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.757,
+      "valence": 0.37,
+      "danceability": 0.313,
+      "acousticness": 0.375,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.043,
+      "duration_ms": 174186,
+      "slug": "meu-oxig\u00eanio-live-matheus-kauan"
+    },
+    {
+      "name": "Amor Sem Medida (Te Voy A Amar) - Live",
+      "artists": "Matheus & Kauan",
+      "album": "Face A Face (Live)",
+      "popularity": 54,
+      "tempo": 163.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.729,
+      "valence": 0.231,
+      "danceability": 0.325,
+      "acousticness": 0.435,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.046,
+      "duration_ms": 180213,
+      "slug": "amor-sem-medida-te-voy-a-amar-live-matheus-kauan"
+    },
+    {
+      "name": "A Culpa \u00c9 do Cora\u00e7\u00e3o - Ao Vivo",
+      "artists": "Pixote",
+      "album": "F\u00e3 de Carteirinha Sunset, Ep. 03 (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 85.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.775,
+      "valence": 0.653,
+      "danceability": 0.634,
+      "acousticness": 0.745,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.069,
+      "duration_ms": 172195,
+      "slug": "a-culpa-\u00e9-do-cora\u00e7\u00e3o-ao-vivo-pixote"
+    },
+    {
+      "name": "Coisas do Amor (F\u00e3 de Carteirinha) / Voc\u00ea Pode - Ao Vivo",
+      "artists": "Pixote",
+      "album": "15 Anos (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 157.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.805,
+      "valence": 0.722,
+      "danceability": 0.379,
+      "acousticness": 0.352,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.099,
+      "duration_ms": 270426,
+      "slug": "coisas-do-amor-f\u00e3-de-carteirinha-voc\u00ea-pode-ao-vivo-pixote"
+    },
+    {
+      "name": "Voz Sem Viol\u00e3o",
+      "artists": "Murilo Huff",
+      "album": "Pra Ouvir Tomando Uma, Vol. 1",
+      "popularity": 54,
+      "tempo": 152.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.489,
+      "valence": 0.531,
+      "danceability": 0.655,
+      "acousticness": 0.726,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.059,
+      "duration_ms": 183651,
+      "slug": "voz-sem-viol\u00e3o-murilo-huff"
+    },
+    {
+      "name": "Foi \u00d3timo - Ao Vivo No Casa Filtr",
+      "artists": "Turma do Pagode;Mari Fernandez",
+      "album": "Foi \u00d3timo (Ao Vivo No Casa Filtr)",
+      "popularity": 54,
+      "tempo": 155.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.896,
+      "valence": 0.955,
+      "danceability": 0.663,
+      "acousticness": 0.672,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.096,
+      "duration_ms": 154240,
+      "slug": "foi-\u00f3timo-ao-vivo-no-casa-filtr-turma-do-pagode"
+    },
+    {
+      "name": "Poema Bobo - Ao Vivo",
+      "artists": "Juan Marcus & Vin\u00edcius;Z\u00e9 Neto & Cristiano",
+      "album": "Pra Todo Mundo Ver (Ao Vivo / Vol.3)",
+      "popularity": 54,
+      "tempo": 139.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.446,
+      "danceability": 0.623,
+      "acousticness": 0.713,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.057,
+      "duration_ms": 174922,
+      "slug": "poema-bobo-ao-vivo-juan-marcus-vin\u00edcius"
+    },
+    {
+      "name": "Me Faz Feliz - Ao Vivo",
+      "artists": "Jeito Moleque",
+      "album": "Me Faz Feliz (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 103.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.842,
+      "valence": 0.504,
+      "danceability": 0.604,
+      "acousticness": 0.149,
+      "instrumentalness": 0.0,
+      "loudness": -8.5,
+      "speechiness": 0.047,
+      "duration_ms": 175280,
+      "slug": "me-faz-feliz-ao-vivo-jeito-moleque"
+    },
+    {
+      "name": "Idiota Favorito",
+      "artists": "Murilo Huff",
+      "album": "Pra Ouvir Tomando Uma, Vol. 1",
+      "popularity": 54,
+      "tempo": 153.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.769,
+      "valence": 0.809,
+      "danceability": 0.739,
+      "acousticness": 0.48,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.054,
+      "duration_ms": 180389,
+      "slug": "idiota-favorito-murilo-huff"
+    },
+    {
+      "name": "Desliga e Vem / Gamei / Gandaia (feat. P\u00e9ricles & Chrigor) - Ao Vivo",
+      "artists": "Turma do Pagode;P\u00e9ricles;Chrigor",
+      "album": "Desliga e Vem / Gamei / Gandaia (feat. P\u00e9ricles & Chrigor) [Ao Vivo]",
+      "popularity": 54,
+      "tempo": 80.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.745,
+      "valence": 0.793,
+      "danceability": 0.332,
+      "acousticness": 0.729,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.044,
+      "duration_ms": 360269,
+      "slug": "desliga-e-vem-gamei-gandaia-feat-p\u00e9ricles-chrigor-ao-vivo-turma-do-pagode"
+    },
+    {
+      "name": "No Meio do Rolo - Ao Vivo",
+      "artists": "Luan Pereira;Bruno & Barretto",
+      "album": "No Meio do Rolo (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.739,
+      "valence": 0.73,
+      "danceability": 0.623,
+      "acousticness": 0.627,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.098,
+      "duration_ms": 181096,
+      "slug": "no-meio-do-rolo-ao-vivo-luan-pereira"
+    },
+    {
+      "name": "Juras de Amor",
+      "artists": "Bruno & Marrone",
+      "album": "Juras de Amor",
+      "popularity": 54,
+      "tempo": 92.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.605,
+      "valence": 0.442,
+      "danceability": 0.611,
+      "acousticness": 0.694,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.036,
+      "duration_ms": 189266,
+      "slug": "juras-de-amor-bruno-marrone"
+    },
+    {
+      "name": "Gordinho Saliente - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Ao Vivo Em Bras\u00edlia (Deluxe)",
+      "popularity": 54,
+      "tempo": 147.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.914,
+      "danceability": 0.702,
+      "acousticness": 0.206,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.14,
+      "duration_ms": 169026,
+      "slug": "gordinho-saliente-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Casa de caboclo",
+      "artists": "Rick & Renner",
+      "album": "Happy End",
+      "popularity": 54,
+      "tempo": 115.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.752,
+      "valence": 0.926,
+      "danceability": 0.773,
+      "acousticness": 0.787,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.029,
+      "duration_ms": 218146,
+      "slug": "casa-de-caboclo-rick-renner"
+    },
+    {
+      "name": "Gola\u00e7o (Ao Vivo)",
+      "artists": "Turma do Pagode;Vou pro Sereno",
+      "album": "Turma no Quintal (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 171.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.671,
+      "valence": 0.72,
+      "danceability": 0.617,
+      "acousticness": 0.505,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.099,
+      "duration_ms": 184622,
+      "slug": "gola\u00e7o-ao-vivo-turma-do-pagode"
+    },
+    {
+      "name": "Rasteira - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 106.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.692,
+      "valence": 0.598,
+      "danceability": 0.593,
+      "acousticness": 0.528,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.042,
+      "duration_ms": 189007,
+      "slug": "rasteira-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Agenda rabiscada",
+      "artists": "Milion\u00e1rio & Jos\u00e9 Rico",
+      "album": "Decida",
+      "popularity": 54,
+      "tempo": 110.2,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.558,
+      "valence": 0.488,
+      "danceability": 0.627,
+      "acousticness": 0.576,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.026,
+      "duration_ms": 229546,
+      "slug": "agenda-rabiscada-milion\u00e1rio-jos\u00e9-rico"
+    },
+    {
+      "name": "E A\u00ed? - Ao Vivo",
+      "artists": "Matogrosso & Mathias;Gusttavo Lima",
+      "album": "40 Anos (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 132.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.672,
+      "valence": 0.586,
+      "danceability": 0.592,
+      "acousticness": 0.263,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.045,
+      "duration_ms": 210839,
+      "slug": "e-a\u00ed-ao-vivo-matogrosso-mathias"
+    },
+    {
+      "name": "Seu Perfil - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 105.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.755,
+      "valence": 0.778,
+      "danceability": 0.648,
+      "acousticness": 0.564,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.071,
+      "duration_ms": 183568,
+      "slug": "seu-perfil-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Eu Me Trai - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 97.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.604,
+      "valence": 0.372,
+      "danceability": 0.57,
+      "acousticness": 0.679,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.037,
+      "duration_ms": 179605,
+      "slug": "eu-me-trai-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Frio da Madrugada - Ao Vivo",
+      "artists": "Pedro Sanchez e Thiago",
+      "album": "S\u00f3 Mod\u00e3o (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 111.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.788,
+      "valence": 0.352,
+      "danceability": 0.549,
+      "acousticness": 0.235,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.047,
+      "duration_ms": 244682,
+      "slug": "frio-da-madrugada-ao-vivo-pedro-sanchez-e-thiago"
+    },
+    {
+      "name": "Se Joga Na Minha Vida - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Menos \u00c9 Mais (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 99.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.662,
+      "valence": 0.602,
+      "danceability": 0.611,
+      "acousticness": 0.16,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.073,
+      "duration_ms": 188706,
+      "slug": "se-joga-na-minha-vida-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Gaiola - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 155.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.809,
+      "valence": 0.271,
+      "danceability": 0.38,
+      "acousticness": 0.168,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.179,
+      "duration_ms": 195039,
+      "slug": "gaiola-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Ch\u00e1 De Casa Nova - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 77.8,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.602,
+      "danceability": 0.55,
+      "acousticness": 0.492,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.123,
+      "duration_ms": 176585,
+      "slug": "ch\u00e1-de-casa-nova-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Vai Derramando - Ao Vivo",
+      "artists": "Henrique & Juliano",
+      "album": "Manifesto Musical (Ao Vivo)",
+      "popularity": 54,
+      "tempo": 107.4,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.65,
+      "valence": 0.511,
+      "danceability": 0.615,
+      "acousticness": 0.599,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.047,
+      "duration_ms": 178706,
+      "slug": "vai-derramando-ao-vivo-henrique-juliano"
+    },
+    {
+      "name": "Paraquedas",
+      "artists": "Gabriel Diniz;Jorge & Mateus",
+      "album": "Paraquedas",
+      "popularity": 54,
+      "tempo": 171.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.937,
+      "valence": 0.809,
+      "danceability": 0.589,
+      "acousticness": 0.652,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.038,
+      "duration_ms": 168426,
+      "slug": "paraquedas-gabriel-diniz"
+    },
+    {
+      "name": "Sujeito - Ao Vivo",
+      "artists": "Gusttavo Lima",
+      "album": "O Embaixador (Ao Vivo)",
+      "popularity": 53,
+      "tempo": 79.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.496,
+      "valence": 0.488,
+      "danceability": 0.705,
+      "acousticness": 0.486,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.063,
+      "duration_ms": 178208,
+      "slug": "sujeito-ao-vivo-gusttavo-lima"
+    },
+    {
+      "name": "A Gente Tem Tudo a Ver - Ao Vivo",
+      "artists": "Turma do Pagode",
+      "album": "O Som das Multid\u00f5es",
+      "popularity": 53,
+      "tempo": 82.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.746,
+      "valence": 0.809,
+      "danceability": 0.571,
+      "acousticness": 0.744,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.034,
+      "duration_ms": 225040,
+      "slug": "a-gente-tem-tudo-a-ver-ao-vivo-turma-do-pagode"
+    },
+    {
+      "name": "Pagode em Bras!lia",
+      "artists": "Ti\u00e3o Carreiro & Pardinho",
+      "album": "Dose Dupla",
+      "popularity": 53,
+      "tempo": 100.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.523,
+      "valence": 0.609,
+      "danceability": 0.69,
+      "acousticness": 0.812,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.029,
+      "duration_ms": 177173,
+      "slug": "pagode-em-braslia-ti\u00e3o-carreiro-pardinho"
+    },
+    {
+      "name": "Escolta De Vagalumes",
+      "artists": "S\u00e9rgio Reis e Filhos",
+      "album": "Violas e Violeiros",
+      "popularity": 53,
+      "tempo": 111.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.678,
+      "valence": 0.388,
+      "danceability": 0.561,
+      "acousticness": 0.648,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.029,
+      "duration_ms": 207026,
+      "slug": "escolta-de-vagalumes-s\u00e9rgio-reis-e-filhos"
+    },
+    {
+      "name": "As Andorinhas",
+      "artists": "Trio Parada Dura",
+      "album": "Trio Parada Dura",
+      "popularity": 53,
+      "tempo": 103.9,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.516,
+      "valence": 0.767,
+      "danceability": 0.689,
+      "acousticness": 0.616,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.026,
+      "duration_ms": 176600,
+      "slug": "as-andorinhas-trio-parada-dura"
+    },
+    {
+      "name": "Assino Com X - Ao Vivo",
+      "artists": "Maur\u00edcio & Eduardo;Humberto & Ronaldo",
+      "album": "Mod\u00f5es - Ep. 2 (Na Casa dos Meninos)",
+      "popularity": 53,
+      "tempo": 154.9,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.557,
+      "valence": 0.515,
+      "danceability": 0.585,
+      "acousticness": 0.814,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.1,
+      "duration_ms": 188011,
+      "slug": "assino-com-x-ao-vivo-maur\u00edcio-eduardo"
+    },
+    {
+      "name": "Por um Minuto",
+      "artists": "Gusttavo Lima",
+      "album": "Falando de Amor, Vol. 1",
+      "popularity": 53,
+      "tempo": 175.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.861,
+      "valence": 0.766,
+      "danceability": 0.585,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.052,
+      "duration_ms": 288483,
+      "slug": "por-um-minuto-gusttavo-lima"
+    },
+    {
+      "name": "Ex Amiga - Ao Vivo",
+      "artists": "Matheus & Kauan",
+      "album": "Se Melhorar Estraga (Ao Vivo)",
+      "popularity": 53,
+      "tempo": 157.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.878,
+      "valence": 0.508,
+      "danceability": 0.403,
+      "acousticness": 0.089,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.142,
+      "duration_ms": 175530,
+      "slug": "ex-amiga-ao-vivo-matheus-kauan"
+    },
+    {
+      "name": "Bom Rapaz (feat. Jorge & Mateus) - Ao Vivo",
+      "artists": "Fernando & Sorocaba;Jorge & Mateus",
+      "album": "Sou do Interior (Ao Vivo) [Deluxe]",
+      "popularity": 53,
+      "tempo": 96.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.864,
+      "valence": 0.561,
+      "danceability": 0.579,
+      "acousticness": 0.49,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.044,
+      "duration_ms": 234592,
+      "slug": "bom-rapaz-feat-jorge-mateus-ao-vivo-fernando-sorocaba"
+    },
+    {
+      "name": "Terceiro Lugar - Ao Vivo",
+      "artists": "Matheus & Kauan",
+      "album": "Se Melhorar Estraga (Ao Vivo)",
+      "popularity": 53,
+      "tempo": 149.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.86,
+      "valence": 0.591,
+      "danceability": 0.481,
+      "acousticness": 0.217,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.085,
+      "duration_ms": 168997,
+      "slug": "terceiro-lugar-ao-vivo-matheus-kauan"
+    },
+    {
+      "name": "S\u00f3 Falta Voc\u00ea",
+      "artists": "Guilherme & Santiago",
+      "album": "Ac\u00fastico 20 anos",
+      "popularity": 53,
+      "tempo": 96.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.787,
+      "valence": 0.356,
+      "danceability": 0.56,
+      "acousticness": 0.263,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.03,
+      "duration_ms": 282273,
+      "slug": "s\u00f3-falta-voc\u00ea-guilherme-santiago"
+    },
+    {
+      "name": "Te Busquei nas Avenidas",
+      "artists": "Fernando & Sorocaba",
+      "album": "MOD\u00c3O",
+      "popularity": 53,
+      "tempo": 146.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.761,
+      "valence": 0.508,
+      "danceability": 0.586,
+      "acousticness": 0.488,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.053,
+      "duration_ms": 229575,
+      "slug": "te-busquei-nas-avenidas-fernando-sorocaba"
+    },
+    {
+      "name": "Me Amar Amanh\u00e3 - Na Praia / Ao Vivo",
+      "artists": "Matheus & Kauan",
+      "album": "Na Praia (Ao Vivo)",
+      "popularity": 53,
+      "tempo": 137.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.865,
+      "valence": 0.477,
+      "danceability": 0.459,
+      "acousticness": 0.032,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.122,
+      "duration_ms": 166213,
+      "slug": "me-amar-amanh\u00e3-na-praia-ao-vivo-matheus-kauan"
+    },
+    {
+      "name": "Caminheiro",
+      "artists": "Milion\u00e1rio & Jos\u00e9 Rico",
+      "album": "As Gargantas de Ouro do Brasil (Volume 23)",
+      "popularity": 53,
+      "tempo": 118.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.507,
+      "valence": 0.562,
+      "danceability": 0.698,
+      "acousticness": 0.465,
+      "instrumentalness": 0.0,
+      "loudness": -8.7,
+      "speechiness": 0.029,
+      "duration_ms": 245826,
+      "slug": "caminheiro-milion\u00e1rio-jos\u00e9-rico"
+    },
+    {
+      "name": "Frieza (Ao Vivo)",
+      "artists": "Murilo Huff;Mar\u00edlia Mendon\u00e7a",
+      "album": "Frieza (Ao Vivo)",
+      "popularity": 53,
+      "tempo": 113.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.792,
+      "valence": 0.586,
+      "danceability": 0.564,
+      "acousticness": 0.342,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.069,
+      "duration_ms": 185761,
+      "slug": "frieza-ao-vivo-murilo-huff"
+    }
+  ]
+}

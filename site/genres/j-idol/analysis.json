@@ -1,0 +1,2800 @@
+{
+  "genre": "J-Idol",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 82.61,
+    "max": 204.913,
+    "mean": 135.272,
+    "median": 134.999,
+    "q1": 105.007,
+    "q3": 160.247,
+    "histogram": {
+      "80-89": 4,
+      "90-99": 10,
+      "100-109": 16,
+      "110-119": 7,
+      "120-129": 6,
+      "130-139": 12,
+      "140-149": 10,
+      "150-159": 9,
+      "160-169": 9,
+      "170-179": 9,
+      "180-189": 7,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "B": 15,
+    "C#/Db": 15,
+    "F#/Gb": 11,
+    "G": 11,
+    "E": 9,
+    "D": 8,
+    "C": 8,
+    "F": 7,
+    "G#/Ab": 7,
+    "A#/Bb": 4,
+    "A": 3,
+    "D#/Eb": 2
+  },
+  "mode_distribution": {
+    "Minor": 27,
+    "Major": 73
+  },
+  "key_mode_distribution": {
+    "C#/Db Major": 11,
+    "F#/Gb Major": 10,
+    "G Major": 9,
+    "B Major": 8,
+    "C Major": 8,
+    "D Major": 7,
+    "B Minor": 7,
+    "G#/Ab Major": 7,
+    "E Major": 5,
+    "C#/Db Minor": 4,
+    "E Minor": 4,
+    "F Major": 4,
+    "F Minor": 3,
+    "A#/Bb Minor": 2,
+    "G Minor": 2,
+    "D#/Eb Minor": 2,
+    "A#/Bb Major": 2,
+    "A Major": 2,
+    "D Minor": 1,
+    "A Minor": 1,
+    "F#/Gb Minor": 1
+  },
+  "energy": {
+    "min": 0.675,
+    "max": 0.997,
+    "mean": 0.918,
+    "median": 0.944,
+    "q1": 0.883,
+    "q3": 0.976
+  },
+  "valence": {
+    "min": 0.115,
+    "max": 0.96,
+    "mean": 0.541,
+    "median": 0.528,
+    "q1": 0.329,
+    "q3": 0.802
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.875,
+      "valence": 0.857
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.44
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.215
+    },
+    {
+      "energy": 0.777,
+      "valence": 0.427
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.813
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.38
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.695
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.91
+    },
+    {
+      "energy": 0.985,
+      "valence": 0.275
+    },
+    {
+      "energy": 0.989,
+      "valence": 0.432
+    },
+    {
+      "energy": 0.881,
+      "valence": 0.887
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.23
+    },
+    {
+      "energy": 0.982,
+      "valence": 0.868
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.362
+    },
+    {
+      "energy": 0.969,
+      "valence": 0.397
+    },
+    {
+      "energy": 0.872,
+      "valence": 0.579
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.192
+    },
+    {
+      "energy": 0.993,
+      "valence": 0.503
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.422
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.115
+    },
+    {
+      "energy": 0.814,
+      "valence": 0.809
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.938,
+      "valence": 0.802
+    },
+    {
+      "energy": 0.984,
+      "valence": 0.194
+    },
+    {
+      "energy": 0.951,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.95
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.924
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.389
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.217
+    },
+    {
+      "energy": 0.819,
+      "valence": 0.803
+    },
+    {
+      "energy": 0.976,
+      "valence": 0.559
+    },
+    {
+      "energy": 0.976,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.966,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.233
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.396
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.375
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.116
+    },
+    {
+      "energy": 0.945,
+      "valence": 0.197
+    },
+    {
+      "energy": 0.94,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.989,
+      "valence": 0.146
+    },
+    {
+      "energy": 0.964,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.898
+    },
+    {
+      "energy": 0.958,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.483
+    },
+    {
+      "energy": 0.952,
+      "valence": 0.445
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.364
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.85
+    },
+    {
+      "energy": 0.865,
+      "valence": 0.395
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.252
+    },
+    {
+      "energy": 0.896,
+      "valence": 0.699
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.282
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.132
+    },
+    {
+      "energy": 0.953,
+      "valence": 0.787
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.127
+    },
+    {
+      "energy": 0.955,
+      "valence": 0.653
+    },
+    {
+      "energy": 0.968,
+      "valence": 0.209
+    },
+    {
+      "energy": 0.965,
+      "valence": 0.475
+    },
+    {
+      "energy": 0.97,
+      "valence": 0.601
+    },
+    {
+      "energy": 0.983,
+      "valence": 0.266
+    },
+    {
+      "energy": 0.997,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.942,
+      "valence": 0.812
+    },
+    {
+      "energy": 0.974,
+      "valence": 0.937
+    },
+    {
+      "energy": 0.892,
+      "valence": 0.932
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.232
+    },
+    {
+      "energy": 0.74,
+      "valence": 0.377
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.329
+    },
+    {
+      "energy": 0.675,
+      "valence": 0.399
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.659
+    },
+    {
+      "energy": 0.794,
+      "valence": 0.682
+    },
+    {
+      "energy": 0.888,
+      "valence": 0.833
+    },
+    {
+      "energy": 0.877,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.81
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.718,
+      "valence": 0.281
+    },
+    {
+      "energy": 0.981,
+      "valence": 0.705
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.742
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.618
+    },
+    {
+      "energy": 0.954,
+      "valence": 0.808
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.786,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.956,
+      "valence": 0.605
+    },
+    {
+      "energy": 0.798,
+      "valence": 0.909
+    },
+    {
+      "energy": 0.943,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.921,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.95,
+      "valence": 0.638
+    },
+    {
+      "energy": 0.749,
+      "valence": 0.641
+    },
+    {
+      "energy": 0.988,
+      "valence": 0.91
+    },
+    {
+      "energy": 0.927,
+      "valence": 0.777
+    },
+    {
+      "energy": 0.936,
+      "valence": 0.959
+    },
+    {
+      "energy": 0.799,
+      "valence": 0.901
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.644
+    },
+    {
+      "energy": 0.925,
+      "valence": 0.435
+    },
+    {
+      "energy": 0.973,
+      "valence": 0.55
+    },
+    {
+      "energy": 0.933,
+      "valence": 0.738
+    },
+    {
+      "energy": 0.979,
+      "valence": 0.293
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.491,
+    "mean": 0.062,
+    "median": 0.009,
+    "q1": 0.001,
+    "q3": 0.051
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.938,
+    "mean": 0.064,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.01
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.075,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.366,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.484,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.061
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.172
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.844
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.731
+    },
+    {
+      "acousticness": 0.051,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.291
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.18,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.057
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.111,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.259,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.491,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.02,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.094
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.938
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.318
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.056
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.214
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.063
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.108,
+      "instrumentalness": 0.033
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.351
+    },
+    {
+      "acousticness": 0.343,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.019,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.043,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.158,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.017
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.693
+    },
+    {
+      "acousticness": 0.376,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.773
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.073
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.01
+    },
+    {
+      "acousticness": 0.034,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.019
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.285,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.069
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.007,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.031
+    },
+    {
+      "acousticness": 0.107,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.037,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.026,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.153,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.12,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.047,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.059
+    },
+    {
+      "acousticness": 0.427,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.088,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.253
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.11,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.111
+    }
+  ],
+  "duration": {
+    "min": 89440,
+    "max": 365151,
+    "mean": 244541.33,
+    "median": 239786.0,
+    "q1": 218466,
+    "q3": 271457
+  },
+  "danceability": {
+    "min": 0.204,
+    "max": 0.802,
+    "mean": 0.529,
+    "median": 0.517,
+    "q1": 0.449,
+    "q3": 0.616
+  },
+  "loudness": {
+    "min": -7.928,
+    "max": -0.201,
+    "mean": -3.034,
+    "median": -2.859,
+    "q1": -3.818,
+    "q3": -1.864
+  },
+  "speechiness": {
+    "min": 0.028,
+    "max": 0.271,
+    "mean": 0.086,
+    "median": 0.064,
+    "q1": 0.043,
+    "q3": 0.116
+  },
+  "top_artists": [
+    {
+      "name": "BABYMETAL",
+      "count": 18
+    },
+    {
+      "name": "BAND-MAID",
+      "count": 11
+    },
+    {
+      "name": "Kyary Pamyu Pamyu",
+      "count": 7
+    },
+    {
+      "name": "Yui Horie",
+      "count": 7
+    },
+    {
+      "name": "Mariya Takeuchi",
+      "count": 6
+    },
+    {
+      "name": "NEO JAPONISM",
+      "count": 5
+    },
+    {
+      "name": "=LOVE",
+      "count": 5
+    },
+    {
+      "name": "Seiko Oomori",
+      "count": 3
+    },
+    {
+      "name": "SCANDAL",
+      "count": 3
+    },
+    {
+      "name": "ZONE",
+      "count": 2
+    },
+    {
+      "name": "Nogizaka46",
+      "count": 2
+    },
+    {
+      "name": "Perfume",
+      "count": 2
+    },
+    {
+      "name": "GIRLFRIEND",
+      "count": 2
+    },
+    {
+      "name": "AKB48",
+      "count": 2
+    },
+    {
+      "name": "\u4e8c\u53e3\u9b54\u83dc Futakuchi Mana",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Plastic Love",
+      "artists": "Mariya Takeuchi",
+      "album": "Expressions",
+      "popularity": 65,
+      "tempo": 102.5,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.875,
+      "valence": 0.857,
+      "danceability": 0.648,
+      "acousticness": 0.075,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 294493,
+      "slug": "plastic-love-mariya-takeuchi"
+    },
+    {
+      "name": "Gimme Chocolate!!",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 59,
+      "tempo": 110.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.985,
+      "valence": 0.44,
+      "danceability": 0.616,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -1.6,
+      "speechiness": 0.083,
+      "duration_ms": 230613,
+      "slug": "gimme-chocolate-babymetal"
+    },
+    {
+      "name": "BxMxC",
+      "artists": "BABYMETAL",
+      "album": "BxMxC",
+      "popularity": 58,
+      "tempo": 112.6,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.921,
+      "valence": 0.215,
+      "danceability": 0.397,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -3.4,
+      "speechiness": 0.076,
+      "duration_ms": 183025,
+      "slug": "bxmxc-babymetal"
+    },
+    {
+      "name": "secret base ~\u541b\u304b\u3099\u304f\u308c\u305f\u3082\u306e~",
+      "artists": "ZONE",
+      "album": "E \u301cComplete A side Singles\u301c",
+      "popularity": 58,
+      "tempo": 144.8,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.777,
+      "valence": 0.427,
+      "danceability": 0.49,
+      "acousticness": 0.366,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.038,
+      "duration_ms": 295386,
+      "slug": "secret-base-\u541b\u304b\u304f\u308c\u305f\u3082\u306e-zone"
+    },
+    {
+      "name": "\u6708\u306e\u5927\u304d\u3055",
+      "artists": "Nogizaka46",
+      "album": "\u30d0\u30ec\u30c3\u30bf TypeD",
+      "popularity": 57,
+      "tempo": 92.5,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.941,
+      "valence": 0.813,
+      "danceability": 0.555,
+      "acousticness": 0.484,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.048,
+      "duration_ms": 236293,
+      "slug": "\u6708\u306e\u5927\u304d\u3055-nogizaka46"
+    },
+    {
+      "name": "JUSTadICE",
+      "artists": "Seiko Oomori",
+      "album": "JUSTadICE",
+      "popularity": 56,
+      "tempo": 185.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.38,
+      "danceability": 0.404,
+      "acousticness": 0.001,
+      "instrumentalness": 0.004,
+      "loudness": -1.8,
+      "speechiness": 0.193,
+      "duration_ms": 232338,
+      "slug": "justadice-seiko-oomori"
+    },
+    {
+      "name": "\u77ac\u9593\u30bb\u30f3\u30c1\u30e1\u30f3\u30bf\u30eb",
+      "artists": "SCANDAL",
+      "album": "TEMPTATION BOX",
+      "popularity": 55,
+      "tempo": 167.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.695,
+      "danceability": 0.502,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -1.4,
+      "speechiness": 0.063,
+      "duration_ms": 224626,
+      "slug": "\u77ac\u9593\u30bb\u30f3\u30c1\u30e1\u30f3\u30bf\u30eb-scandal"
+    },
+    {
+      "name": "PONPONPON",
+      "artists": "Kyary Pamyu Pamyu",
+      "album": "\u3071\u307f\u3085\u3071\u307f\u3085\u30ec\u30dc\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3",
+      "popularity": 55,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.91,
+      "danceability": 0.634,
+      "acousticness": 0.047,
+      "instrumentalness": 0.001,
+      "loudness": -0.2,
+      "speechiness": 0.043,
+      "duration_ms": 242826,
+      "slug": "ponponpon-kyary-pamyu-pamyu"
+    },
+    {
+      "name": "Headbangeeeeerrrrr!!!!!",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 55,
+      "tempo": 185.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.985,
+      "valence": 0.275,
+      "danceability": 0.371,
+      "acousticness": 0.0,
+      "instrumentalness": 0.061,
+      "loudness": -1.8,
+      "speechiness": 0.142,
+      "duration_ms": 240441,
+      "slug": "headbangeeeeerrrrr-babymetal"
+    },
+    {
+      "name": "PA PA YA!!",
+      "artists": "BABYMETAL;F.HERO",
+      "album": "METAL GALAXY",
+      "popularity": 55,
+      "tempo": 158.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.989,
+      "valence": 0.432,
+      "danceability": 0.521,
+      "acousticness": 0.003,
+      "instrumentalness": 0.001,
+      "loudness": -0.8,
+      "speechiness": 0.157,
+      "duration_ms": 235159,
+      "slug": "pa-pa-ya-babymetal"
+    },
+    {
+      "name": "\u5c11\u5973S",
+      "artists": "SCANDAL",
+      "album": "BEST\u2605SCANDAL",
+      "popularity": 54,
+      "tempo": 135.8,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.881,
+      "valence": 0.887,
+      "danceability": 0.588,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.03,
+      "duration_ms": 191506,
+      "slug": "\u5c11\u5973s-scandal"
+    },
+    {
+      "name": "KARATE",
+      "artists": "BABYMETAL",
+      "album": "METAL RESISTANCE",
+      "popularity": 54,
+      "tempo": 179.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.982,
+      "valence": 0.23,
+      "danceability": 0.381,
+      "acousticness": 0.001,
+      "instrumentalness": 0.172,
+      "loudness": -2.9,
+      "speechiness": 0.271,
+      "duration_ms": 263173,
+      "slug": "karate-babymetal"
+    },
+    {
+      "name": "\u3060\u3044\u3058\u3087\u3070\u306a\u3044",
+      "artists": "Perfume",
+      "album": "LEVEL3",
+      "popularity": 54,
+      "tempo": 128.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.982,
+      "valence": 0.868,
+      "danceability": 0.564,
+      "acousticness": 0.039,
+      "instrumentalness": 0.844,
+      "loudness": -2.0,
+      "speechiness": 0.045,
+      "duration_ms": 184040,
+      "slug": "\u3060\u3044\u3058\u3087\u3070\u306a\u3044-perfume"
+    },
+    {
+      "name": "JUSTadICE",
+      "artists": "Seiko Oomori",
+      "album": "\u5927\u68ee\u9756\u5b50",
+      "popularity": 53,
+      "tempo": 185.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.362,
+      "danceability": 0.413,
+      "acousticness": 0.001,
+      "instrumentalness": 0.006,
+      "loudness": -1.7,
+      "speechiness": 0.205,
+      "duration_ms": 230457,
+      "slug": "justadice-seiko-oomori"
+    },
+    {
+      "name": "Megitsune",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 53,
+      "tempo": 142.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.969,
+      "valence": 0.397,
+      "danceability": 0.441,
+      "acousticness": 0.0,
+      "instrumentalness": 0.731,
+      "loudness": -3.3,
+      "speechiness": 0.157,
+      "duration_ms": 247586,
+      "slug": "megitsune-babymetal"
+    },
+    {
+      "name": "HARUKAZE",
+      "artists": "SCANDAL",
+      "album": "Queens are trumps -\u5207\u308a\u672d\u306f\u30af\u30a4\u30fc\u30f3-",
+      "popularity": 52,
+      "tempo": 82.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.872,
+      "valence": 0.579,
+      "danceability": 0.459,
+      "acousticness": 0.051,
+      "instrumentalness": 0.0,
+      "loudness": -1.0,
+      "speechiness": 0.053,
+      "duration_ms": 277280,
+      "slug": "harukaze-scandal"
+    },
+    {
+      "name": "NEET GAME",
+      "artists": "\u82b1\u51b7\u3048\u3002",
+      "album": "NEET GAME",
+      "popularity": 52,
+      "tempo": 100.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.974,
+      "valence": 0.192,
+      "danceability": 0.492,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.105,
+      "duration_ms": 169500,
+      "slug": "neet-game-\u82b1\u51b7\u3048"
+    },
+    {
+      "name": "Turn me on",
+      "artists": "BAND-MAID",
+      "album": "WORLD DOMINATION",
+      "popularity": 52,
+      "tempo": 154.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.993,
+      "valence": 0.503,
+      "danceability": 0.478,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -0.7,
+      "speechiness": 0.139,
+      "duration_ms": 255423,
+      "slug": "turn-me-on-band-maid"
+    },
+    {
+      "name": "Hate?",
+      "artists": "BAND-MAID",
+      "album": "Unleash",
+      "popularity": 52,
+      "tempo": 180.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.988,
+      "valence": 0.422,
+      "danceability": 0.349,
+      "acousticness": 0.0,
+      "instrumentalness": 0.291,
+      "loudness": -2.1,
+      "speechiness": 0.219,
+      "duration_ms": 217240,
+      "slug": "hate-band-maid"
+    },
+    {
+      "name": "\u30a8\u30ec\u30af\u30c8\u30ed\u30fb\u30ef\u30fc\u30eb\u30c9",
+      "artists": "Perfume",
+      "album": "Perfume~Complete Best~",
+      "popularity": 51,
+      "tempo": 143.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.864,
+      "valence": 0.115,
+      "danceability": 0.513,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.049,
+      "duration_ms": 261720,
+      "slug": "\u30a8\u30ec\u30af\u30c8\u30ed\u30ef\u30fc\u30eb\u30c9-perfume"
+    },
+    {
+      "name": "Shiawasenomonosashi",
+      "artists": "Mariya Takeuchi",
+      "album": "Expressions",
+      "popularity": 51,
+      "tempo": 118.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.814,
+      "valence": 0.809,
+      "danceability": 0.7,
+      "acousticness": 0.18,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.054,
+      "duration_ms": 327146,
+      "slug": "shiawasenomonosashi-mariya-takeuchi"
+    },
+    {
+      "name": "\u30c1\u30a7\u30ea\u30fc\u30dc\u30f3\u30dc\u30f3",
+      "artists": "Kyary Pamyu Pamyu",
+      "album": "KPP BEST",
+      "popularity": 50,
+      "tempo": 130.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.808,
+      "danceability": 0.691,
+      "acousticness": 0.223,
+      "instrumentalness": 0.004,
+      "loudness": -1.8,
+      "speechiness": 0.034,
+      "duration_ms": 218466,
+      "slug": "\u30c1\u30a7\u30ea\u30fc\u30dc\u30f3\u30dc\u30f3-kyary-pamyu-pamyu"
+    },
+    {
+      "name": "sky & blue",
+      "artists": "GIRLFRIEND",
+      "album": "sky & blue",
+      "popularity": 50,
+      "tempo": 157.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.938,
+      "valence": 0.802,
+      "danceability": 0.532,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.064,
+      "duration_ms": 238128,
+      "slug": "sky-blue-girlfriend"
+    },
+    {
+      "name": "Sense",
+      "artists": "BAND-MAID",
+      "album": "Sense",
+      "popularity": 50,
+      "tempo": 102.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.984,
+      "valence": 0.194,
+      "danceability": 0.476,
+      "acousticness": 0.0,
+      "instrumentalness": 0.057,
+      "loudness": -3.5,
+      "speechiness": 0.146,
+      "duration_ms": 204853,
+      "slug": "sense-band-maid"
+    },
+    {
+      "name": "Choose me",
+      "artists": "BAND-MAID",
+      "album": "Daydreaming/Choose me",
+      "popularity": 50,
+      "tempo": 90.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.951,
+      "valence": 0.375,
+      "danceability": 0.504,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -0.5,
+      "speechiness": 0.116,
+      "duration_ms": 221400,
+      "slug": "choose-me-band-maid"
+    },
+    {
+      "name": "Twilight Night",
+      "artists": "NEO JAPONISM",
+      "album": "JAPONISM",
+      "popularity": 50,
+      "tempo": 170.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.81,
+      "valence": 0.364,
+      "danceability": 0.493,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.049,
+      "duration_ms": 257488,
+      "slug": "twilight-night-neo-japonism"
+    },
+    {
+      "name": "\u306b\u3093\u3058\u3083\u308a\u3070\u3093\u3070\u3093",
+      "artists": "Kyary Pamyu Pamyu",
+      "album": "\u306a\u3093\u3060\u3053\u308c\u304f\u3057\u3087\u3093",
+      "popularity": 50,
+      "tempo": 130.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.988,
+      "valence": 0.95,
+      "danceability": 0.564,
+      "acousticness": 0.111,
+      "instrumentalness": 0.007,
+      "loudness": -1.2,
+      "speechiness": 0.029,
+      "duration_ms": 266686,
+      "slug": "\u306b\u3093\u3058\u3083\u308a\u3070\u3093\u3070\u3093-kyary-pamyu-pamyu"
+    },
+    {
+      "name": "Subliminal",
+      "artists": "NEO JAPONISM",
+      "album": "THE SPIRIT",
+      "popularity": 50,
+      "tempo": 151.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.749,
+      "valence": 0.289,
+      "danceability": 0.552,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.043,
+      "duration_ms": 289746,
+      "slug": "subliminal-neo-japonism"
+    },
+    {
+      "name": "\u604b\u3059\u308b\u30d5\u30a9\u30fc\u30c1\u30e5\u30f3\u30af\u30c3\u30ad\u30fc",
+      "artists": "AKB48",
+      "album": "\u6b21\u306e\u8db3\u8de1 Type A <\u521d\u56de\u9650\u5b9a\u76e4>",
+      "popularity": 50,
+      "tempo": 122.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.936,
+      "valence": 0.924,
+      "danceability": 0.681,
+      "acousticness": 0.259,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.047,
+      "duration_ms": 285186,
+      "slug": "\u604b\u3059\u308b\u30d5\u30a9\u30fc\u30c1\u30e5\u30f3\u30af\u30c3\u30ad\u30fc-akb48"
+    },
+    {
+      "name": "OH NO,OH YES!",
+      "artists": "Mariya Takeuchi",
+      "album": "REQUEST (30th Anniversary Edition)",
+      "popularity": 49,
+      "tempo": 147.3,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.741,
+      "valence": 0.96,
+      "danceability": 0.729,
+      "acousticness": 0.491,
+      "instrumentalness": 0.002,
+      "loudness": -6.0,
+      "speechiness": 0.035,
+      "duration_ms": 318306,
+      "slug": "oh-nooh-yes-mariya-takeuchi"
+    },
+    {
+      "name": "\u300c70cm\u56db\u65b9\u306e\u7a93\u8fba\u300d",
+      "artists": "ROTTENGRAFFTY",
+      "album": "PLAY",
+      "popularity": 49,
+      "tempo": 149.1,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.905,
+      "valence": 0.389,
+      "danceability": 0.399,
+      "acousticness": 0.001,
+      "instrumentalness": 0.001,
+      "loudness": -4.0,
+      "speechiness": 0.095,
+      "duration_ms": 226946,
+      "slug": "70cm\u56db\u65b9\u306e\u7a93\u8fba-rottengraffty"
+    },
+    {
+      "name": "Road of Resistance",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 49,
+      "tempo": 204.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.964,
+      "valence": 0.217,
+      "danceability": 0.204,
+      "acousticness": 0.0,
+      "instrumentalness": 0.003,
+      "loudness": -2.6,
+      "speechiness": 0.138,
+      "duration_ms": 318026,
+      "slug": "road-of-resistance-babymetal"
+    },
+    {
+      "name": "\u30d7\u30e9\u30b9\u30c6\u30a3\u30c3\u30af\u30fb\u30e9\u30d6 - 12\" Original Length ReMix",
+      "artists": "Mariya Takeuchi",
+      "album": "VARIETY (30th Anniversary Edition)",
+      "popularity": 48,
+      "tempo": 102.6,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.819,
+      "valence": 0.803,
+      "danceability": 0.762,
+      "acousticness": 0.02,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.037,
+      "duration_ms": 295453,
+      "slug": "\u30d7\u30e9\u30b9\u30c6\u30a3\u30c3\u30af\u30e9\u30d6-12-original-length-remix-mariya-takeuchi"
+    },
+    {
+      "name": "Influencer",
+      "artists": "BAND-MAID",
+      "album": "Unleash",
+      "popularity": 48,
+      "tempo": 150.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.976,
+      "valence": 0.559,
+      "danceability": 0.504,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -2.6,
+      "speechiness": 0.133,
+      "duration_ms": 203320,
+      "slug": "influencer-band-maid"
+    },
+    {
+      "name": "KING",
+      "artists": "\u4e8c\u53e3\u9b54\u83dc Futakuchi Mana",
+      "album": "Covers 2021",
+      "popularity": 48,
+      "tempo": 166.1,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.976,
+      "valence": 0.289,
+      "danceability": 0.361,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -3.1,
+      "speechiness": 0.18,
+      "duration_ms": 151461,
+      "slug": "king-\u4e8c\u53e3\u9b54\u83dc-futakuchi-mana"
+    },
+    {
+      "name": "Different",
+      "artists": "BAND-MAID",
+      "album": "Different",
+      "popularity": 48,
+      "tempo": 105.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.966,
+      "valence": 0.288,
+      "danceability": 0.493,
+      "acousticness": 0.0,
+      "instrumentalness": 0.006,
+      "loudness": -3.1,
+      "speechiness": 0.209,
+      "duration_ms": 213453,
+      "slug": "different-band-maid"
+    },
+    {
+      "name": "\u30d8\u30d3\u30fc\u30ed\u30fc\u30c6\u30fc\u30b7\u30e7\u30f3",
+      "artists": "AKB48",
+      "album": "\u3053\u3053\u306b\u3044\u305f\u3053\u3068(\u521d\u56de\u9650\u5b9a\u76e4)",
+      "popularity": 48,
+      "tempo": 178.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.927,
+      "valence": 0.233,
+      "danceability": 0.319,
+      "acousticness": 0.0,
+      "instrumentalness": 0.094,
+      "loudness": -2.6,
+      "speechiness": 0.055,
+      "duration_ms": 283386,
+      "slug": "\u30d8\u30d3\u30fc\u30ed\u30fc\u30c6\u30fc\u30b7\u30e7\u30f3-akb48"
+    },
+    {
+      "name": "MORE THAN LiKE",
+      "artists": "BiSH",
+      "album": "CARROTS and STiCKS",
+      "popularity": 47,
+      "tempo": 101.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.981,
+      "valence": 0.396,
+      "danceability": 0.449,
+      "acousticness": 0.004,
+      "instrumentalness": 0.938,
+      "loudness": -1.9,
+      "speechiness": 0.075,
+      "duration_ms": 239131,
+      "slug": "more-than-like-bish"
+    },
+    {
+      "name": "Shanti Shanti Shanti",
+      "artists": "BABYMETAL",
+      "album": "METAL GALAXY",
+      "popularity": 47,
+      "tempo": 132.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.375,
+      "danceability": 0.524,
+      "acousticness": 0.022,
+      "instrumentalness": 0.318,
+      "loudness": -2.1,
+      "speechiness": 0.196,
+      "duration_ms": 190625,
+      "slug": "shanti-shanti-shanti-babymetal"
+    },
+    {
+      "name": "\u30a4\u30f3\u30ad\u30e3\u30a4\u30f3\u30d1\u30eb\u30b9(Inkya Impulse)",
+      "artists": "\u4e8c\u53e3\u9b54\u83dc Futakuchi Mana",
+      "album": "Covers 2021",
+      "popularity": 47,
+      "tempo": 140.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.116,
+      "danceability": 0.349,
+      "acousticness": 0.0,
+      "instrumentalness": 0.056,
+      "loudness": -3.2,
+      "speechiness": 0.06,
+      "duration_ms": 271457,
+      "slug": "\u30a4\u30f3\u30ad\u30e3\u30a4\u30f3\u30d1\u30eb\u30b9inkya-impulse-\u4e8c\u53e3\u9b54\u83dc-futakuchi-mana"
+    },
+    {
+      "name": "Distortion",
+      "artists": "BABYMETAL",
+      "album": "Distortion",
+      "popularity": 47,
+      "tempo": 97.5,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.945,
+      "valence": 0.197,
+      "danceability": 0.487,
+      "acousticness": 0.0,
+      "instrumentalness": 0.214,
+      "loudness": -2.9,
+      "speechiness": 0.108,
+      "duration_ms": 185195,
+      "slug": "distortion-babymetal"
+    },
+    {
+      "name": "Fight For The Right",
+      "artists": "NEO JAPONISM",
+      "album": "NEO JAPONISM",
+      "popularity": 47,
+      "tempo": 149.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.94,
+      "valence": 0.52,
+      "danceability": 0.605,
+      "acousticness": 0.001,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.141,
+      "duration_ms": 262973,
+      "slug": "fight-for-the-right-neo-japonism"
+    },
+    {
+      "name": "Sense",
+      "artists": "BAND-MAID",
+      "album": "Unleash",
+      "popularity": 47,
+      "tempo": 102.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.989,
+      "valence": 0.146,
+      "danceability": 0.452,
+      "acousticness": 0.0,
+      "instrumentalness": 0.063,
+      "loudness": -2.5,
+      "speechiness": 0.16,
+      "duration_ms": 204106,
+      "slug": "sense-band-maid"
+    },
+    {
+      "name": "CANDY CANDY",
+      "artists": "Kyary Pamyu Pamyu",
+      "album": "\u3071\u307f\u3085\u3071\u307f\u3085\u30ec\u30dc\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3",
+      "popularity": 47,
+      "tempo": 130.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.964,
+      "valence": 0.884,
+      "danceability": 0.649,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -2.1,
+      "speechiness": 0.041,
+      "duration_ms": 231219,
+      "slug": "candy-candy-kyary-pamyu-pamyu"
+    },
+    {
+      "name": "\u5922\u306e\u7d9a\u304d",
+      "artists": "Mariya Takeuchi",
+      "album": "REQUEST (30th Anniversary Edition)",
+      "popularity": 46,
+      "tempo": 116.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.898,
+      "danceability": 0.721,
+      "acousticness": 0.108,
+      "instrumentalness": 0.033,
+      "loudness": -5.2,
+      "speechiness": 0.059,
+      "duration_ms": 321866,
+      "slug": "\u5922\u306e\u7d9a\u304d-mariya-takeuchi"
+    },
+    {
+      "name": "YAVA!",
+      "artists": "BABYMETAL",
+      "album": "METAL RESISTANCE",
+      "popularity": 46,
+      "tempo": 96.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.958,
+      "valence": 0.587,
+      "danceability": 0.53,
+      "acousticness": 0.0,
+      "instrumentalness": 0.351,
+      "loudness": -3.2,
+      "speechiness": 0.123,
+      "duration_ms": 228413,
+      "slug": "yava-babymetal"
+    },
+    {
+      "name": "secret base ~\u541b\u304b\u3099\u304f\u308c\u305f\u3082\u306e~",
+      "artists": "ZONE",
+      "album": "secret base \u301c\u541b\u304c\u304f\u308c\u305f\u3082\u306e\u301c",
+      "popularity": 46,
+      "tempo": 144.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.846,
+      "valence": 0.483,
+      "danceability": 0.476,
+      "acousticness": 0.343,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.041,
+      "duration_ms": 296533,
+      "slug": "secret-base-\u541b\u304b\u304f\u308c\u305f\u3082\u306e-zone"
+    },
+    {
+      "name": "\u3059\u304d\u3063!",
+      "artists": "Tokimeki Sendenbu",
+      "album": "\u3068\u304d\u304a\u3068\u3081",
+      "popularity": 45,
+      "tempo": 163.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.952,
+      "valence": 0.445,
+      "danceability": 0.572,
+      "acousticness": 0.019,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.065,
+      "duration_ms": 316333,
+      "slug": "\u3059\u304d\u3063-tokimeki-sendenbu"
+    },
+    {
+      "name": "Twilight Night",
+      "artists": "NEO JAPONISM",
+      "album": "NEO JAPONISM",
+      "popularity": 45,
+      "tempo": 170.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.81,
+      "valence": 0.364,
+      "danceability": 0.493,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.049,
+      "duration_ms": 257488,
+      "slug": "twilight-night-neo-japonism"
+    },
+    {
+      "name": "\u30d7\u30e9\u30b9\u30c6\u30a3\u30c3\u30af\u30fb\u30e9\u30d6",
+      "artists": "Mariya Takeuchi",
+      "album": "VARIETY (30th Anniversary Edition)",
+      "popularity": 45,
+      "tempo": 102.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.875,
+      "valence": 0.85,
+      "danceability": 0.692,
+      "acousticness": 0.043,
+      "instrumentalness": 0.001,
+      "loudness": -4.8,
+      "speechiness": 0.032,
+      "duration_ms": 294346,
+      "slug": "\u30d7\u30e9\u30b9\u30c6\u30a3\u30c3\u30af\u30e9\u30d6-mariya-takeuchi"
+    },
+    {
+      "name": "WORLD PARADE",
+      "artists": "NEO JAPONISM",
+      "album": "THE SPIRIT",
+      "popularity": 45,
+      "tempo": 180.2,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.865,
+      "valence": 0.395,
+      "danceability": 0.505,
+      "acousticness": 0.017,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.076,
+      "duration_ms": 276706,
+      "slug": "world-parade-neo-japonism"
+    },
+    {
+      "name": "Unleash!!!!!",
+      "artists": "BAND-MAID",
+      "album": "Unleash",
+      "popularity": 45,
+      "tempo": 96.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.968,
+      "valence": 0.252,
+      "danceability": 0.448,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -2.0,
+      "speechiness": 0.1,
+      "duration_ms": 190840,
+      "slug": "unleash-band-maid"
+    },
+    {
+      "name": "S.O.W. Sense of Wonder",
+      "artists": "Idoling!!!",
+      "album": "Tv Anime \"Fairy Tail\" Op & Ed Theme Songs Vol. 1",
+      "popularity": 44,
+      "tempo": 170.1,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.896,
+      "valence": 0.699,
+      "danceability": 0.492,
+      "acousticness": 0.158,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.048,
+      "duration_ms": 243120,
+      "slug": "sow-sense-of-wonder-idoling"
+    },
+    {
+      "name": "Kagerou",
+      "artists": "BABYMETAL",
+      "album": "METAL GALAXY",
+      "popularity": 44,
+      "tempo": 97.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.941,
+      "valence": 0.282,
+      "danceability": 0.425,
+      "acousticness": 0.0,
+      "instrumentalness": 0.017,
+      "loudness": -2.3,
+      "speechiness": 0.077,
+      "duration_ms": 210679,
+      "slug": "kagerou-babymetal"
+    },
+    {
+      "name": "Catch Me If You Can",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 44,
+      "tempo": 180.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.97,
+      "valence": 0.132,
+      "danceability": 0.383,
+      "acousticness": 0.0,
+      "instrumentalness": 0.693,
+      "loudness": -3.4,
+      "speechiness": 0.15,
+      "duration_ms": 233946,
+      "slug": "catch-me-if-you-can-babymetal"
+    },
+    {
+      "name": "MOON PRIDE",
+      "artists": "Momoiro Clover Z",
+      "album": "\u767d\u91d1\u306e\u591c\u660e\u3051",
+      "popularity": 44,
+      "tempo": 172.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.953,
+      "valence": 0.787,
+      "danceability": 0.439,
+      "acousticness": 0.376,
+      "instrumentalness": 0.0,
+      "loudness": -2.1,
+      "speechiness": 0.084,
+      "duration_ms": 222360,
+      "slug": "moon-pride-momoiro-clover-z"
+    },
+    {
+      "name": "Ijime, Dame, Zettai",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 44,
+      "tempo": 160.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.977,
+      "valence": 0.127,
+      "danceability": 0.328,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -1.4,
+      "speechiness": 0.174,
+      "duration_ms": 365151,
+      "slug": "ijime-dame-zettai-babymetal"
+    },
+    {
+      "name": "GJ!",
+      "artists": "BABYMETAL",
+      "album": "METAL RESISTANCE",
+      "popularity": 44,
+      "tempo": 110.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.955,
+      "valence": 0.653,
+      "danceability": 0.694,
+      "acousticness": 0.001,
+      "instrumentalness": 0.773,
+      "loudness": -3.8,
+      "speechiness": 0.106,
+      "duration_ms": 176600,
+      "slug": "gj-babymetal"
+    },
+    {
+      "name": "Unleash!!!!!",
+      "artists": "BAND-MAID",
+      "album": "Unleash!!!!!",
+      "popularity": 44,
+      "tempo": 96.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.968,
+      "valence": 0.209,
+      "danceability": 0.452,
+      "acousticness": 0.0,
+      "instrumentalness": 0.002,
+      "loudness": -2.1,
+      "speechiness": 0.103,
+      "duration_ms": 190000,
+      "slug": "unleash-band-maid"
+    },
+    {
+      "name": "Balance",
+      "artists": "BAND-MAID",
+      "album": "Unleash",
+      "popularity": 44,
+      "tempo": 175.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.965,
+      "valence": 0.475,
+      "danceability": 0.367,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -1.8,
+      "speechiness": 0.147,
+      "duration_ms": 189386,
+      "slug": "balance-band-maid"
+    },
+    {
+      "name": "Doki Doki \u2606 Morning",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 44,
+      "tempo": 83.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.97,
+      "valence": 0.601,
+      "danceability": 0.55,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -1.0,
+      "speechiness": 0.086,
+      "duration_ms": 225651,
+      "slug": "doki-doki-morning-babymetal"
+    },
+    {
+      "name": "M1917",
+      "artists": "a crowd of rebellion",
+      "album": "Xanthium",
+      "popularity": 43,
+      "tempo": 103.5,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.983,
+      "valence": 0.266,
+      "danceability": 0.463,
+      "acousticness": 0.005,
+      "instrumentalness": 0.073,
+      "loudness": -0.7,
+      "speechiness": 0.151,
+      "duration_ms": 241159,
+      "slug": "m1917-a-crowd-of-rebellion"
+    },
+    {
+      "name": "Oh! MAJINAI",
+      "artists": "BABYMETAL;Joakim Brod\u00e9n",
+      "album": "METAL GALAXY",
+      "popularity": 43,
+      "tempo": 142.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.997,
+      "valence": 0.495,
+      "danceability": 0.581,
+      "acousticness": 0.002,
+      "instrumentalness": 0.01,
+      "loudness": -2.0,
+      "speechiness": 0.094,
+      "duration_ms": 192612,
+      "slug": "oh-majinai-babymetal"
+    },
+    {
+      "name": "sky & blue",
+      "artists": "GIRLFRIEND",
+      "album": "HOUSE",
+      "popularity": 42,
+      "tempo": 157.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.942,
+      "valence": 0.812,
+      "danceability": 0.535,
+      "acousticness": 0.034,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.062,
+      "duration_ms": 238133,
+      "slug": "sky-blue-girlfriend"
+    },
+    {
+      "name": "silky heart",
+      "artists": "Yui Horie",
+      "album": "HONEY JET!!",
+      "popularity": 42,
+      "tempo": 135.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.974,
+      "valence": 0.937,
+      "danceability": 0.672,
+      "acousticness": 0.008,
+      "instrumentalness": 0.019,
+      "loudness": -2.1,
+      "speechiness": 0.038,
+      "duration_ms": 238920,
+      "slug": "silky-heart-yui-horie"
+    },
+    {
+      "name": "\u30d0\u30cb\u30e9\u30bd\u30eb\u30c8",
+      "artists": "Yui Horie",
+      "album": "HONEY JET!!",
+      "popularity": 42,
+      "tempo": 140.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.892,
+      "valence": 0.932,
+      "danceability": 0.573,
+      "acousticness": 0.084,
+      "instrumentalness": 0.002,
+      "loudness": -2.1,
+      "speechiness": 0.044,
+      "duration_ms": 304240,
+      "slug": "\u30d0\u30cb\u30e9\u30bd\u30eb\u30c8-yui-horie"
+    },
+    {
+      "name": "\u638c\u3067\u8e0a\u308b",
+      "artists": "Sokoninaru",
+      "album": "\u638c\u3067\u8e0a\u308b",
+      "popularity": 42,
+      "tempo": 107.1,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.915,
+      "valence": 0.537,
+      "danceability": 0.511,
+      "acousticness": 0.002,
+      "instrumentalness": 0.004,
+      "loudness": -1.7,
+      "speechiness": 0.176,
+      "duration_ms": 194920,
+      "slug": "\u638c\u3067\u8e0a\u308b-sokoninaru"
+    },
+    {
+      "name": "Brand New Day",
+      "artists": "BABYMETAL;Tim Henson;Scott LePage",
+      "album": "METAL GALAXY",
+      "popularity": 42,
+      "tempo": 105.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.891,
+      "valence": 0.232,
+      "danceability": 0.653,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -2.3,
+      "speechiness": 0.034,
+      "duration_ms": 248399,
+      "slug": "brand-new-day-babymetal"
+    },
+    {
+      "name": "\u592a\u967d\u3068\u5411\u65e5\u8475",
+      "artists": "Flower",
+      "album": "Flower",
+      "popularity": 42,
+      "tempo": 91.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.74,
+      "valence": 0.377,
+      "danceability": 0.604,
+      "acousticness": 0.285,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.036,
+      "duration_ms": 269613,
+      "slug": "\u592a\u967d\u3068\u5411\u65e5\u8475-flower"
+    },
+    {
+      "name": "Ray",
+      "artists": "PassCode",
+      "album": "Ex libris PassCode",
+      "popularity": 42,
+      "tempo": 98.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.981,
+      "valence": 0.329,
+      "danceability": 0.451,
+      "acousticness": 0.001,
+      "instrumentalness": 0.004,
+      "loudness": -1.7,
+      "speechiness": 0.111,
+      "duration_ms": 226506,
+      "slug": "ray-passcode"
+    },
+    {
+      "name": "\u5929\u4f7f\u306e\u30a6\u30a3\u30f3\u30af(SEIKO STORY\u301c80's HITS COLLECTION\u301c)",
+      "artists": "Seiko Matsuda",
+      "album": "SEIKO STORY\u301c80's HITS COLLECTION\u301c",
+      "popularity": 41,
+      "tempo": 141.1,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.675,
+      "valence": 0.399,
+      "danceability": 0.674,
+      "acousticness": 0.408,
+      "instrumentalness": 0.001,
+      "loudness": -7.9,
+      "speechiness": 0.035,
+      "duration_ms": 241613,
+      "slug": "\u5929\u4f7f\u306e\u30a6\u30a3\u30f3\u30afseiko-story80s-hits-collection-seiko-matsuda"
+    },
+    {
+      "name": "\u03a8\u3067\u3059 I LIKE YOU",
+      "artists": "Dempagumi.Inc",
+      "album": "\u6700\u03a8\u6700\u597d\u8abf!",
+      "popularity": 41,
+      "tempo": 110.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.977,
+      "valence": 0.659,
+      "danceability": 0.72,
+      "acousticness": 0.042,
+      "instrumentalness": 0.0,
+      "loudness": -1.5,
+      "speechiness": 0.089,
+      "duration_ms": 227973,
+      "slug": "\u03c8\u3067\u3059-i-like-you-dempagumiinc"
+    },
+    {
+      "name": "OH NO,OH YES! - 2012 Remaster",
+      "artists": "Akina Nakamori",
+      "album": "CRIMSON (2012 Remaster)",
+      "popularity": 41,
+      "tempo": 138.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.794,
+      "valence": 0.682,
+      "danceability": 0.609,
+      "acousticness": 0.177,
+      "instrumentalness": 0.069,
+      "loudness": -7.1,
+      "speechiness": 0.029,
+      "duration_ms": 287586,
+      "slug": "oh-nooh-yes-2012-remaster-akina-nakamori"
+    },
+    {
+      "name": "\u79d8\u5bc6\u306e\u5ead\u306e\u3075\u305f\u308a",
+      "artists": "Yui Horie",
+      "album": "\u79d8\u5bc6\u306e\u5ead\u306e\u3075\u305f\u308a",
+      "popularity": 41,
+      "tempo": 90.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.888,
+      "valence": 0.833,
+      "danceability": 0.566,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.044,
+      "duration_ms": 245666,
+      "slug": "\u79d8\u5bc6\u306e\u5ead\u306e\u3075\u305f\u308a-yui-horie"
+    },
+    {
+      "name": "Akatsuki",
+      "artists": "BABYMETAL",
+      "album": "BABYMETAL",
+      "popularity": 41,
+      "tempo": 169.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.877,
+      "valence": 0.237,
+      "danceability": 0.376,
+      "acousticness": 0.0,
+      "instrumentalness": 0.0,
+      "loudness": -1.7,
+      "speechiness": 0.064,
+      "duration_ms": 325773,
+      "slug": "akatsuki-babymetal"
+    },
+    {
+      "name": "Isshin Doutai",
+      "artists": "Kyary Pamyu Pamyu",
+      "album": "Isshin Doutai",
+      "popularity": 40,
+      "tempo": 135.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.81,
+      "danceability": 0.734,
+      "acousticness": 0.007,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.036,
+      "duration_ms": 198254,
+      "slug": "isshin-doutai-kyary-pamyu-pamyu"
+    },
+    {
+      "name": "My will - Original Mix",
+      "artists": "Dream",
+      "album": "\u72ac\u591c\u53c9 BEST ALBUM \u4e3b\u984c\u6b4c\u96c6",
+      "popularity": 40,
+      "tempo": 126.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.81,
+      "valence": 0.268,
+      "danceability": 0.576,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.031,
+      "duration_ms": 322600,
+      "slug": "my-will-original-mix-dream"
+    },
+    {
+      "name": "\u30ea\u30d0\u30a4\u30d6",
+      "artists": "UNIONE",
+      "album": "to you",
+      "popularity": 39,
+      "tempo": 97.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.718,
+      "valence": 0.281,
+      "danceability": 0.553,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.039,
+      "duration_ms": 280293,
+      "slug": "\u30ea\u30d0\u30a4\u30d6-unione"
+    },
+    {
+      "name": "\u6700\u03a8\u6700\u597d\u8abf!",
+      "artists": "Dempagumi.Inc",
+      "album": "\u6700\u03a8\u6700\u597d\u8abf!",
+      "popularity": 39,
+      "tempo": 150.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.981,
+      "valence": 0.705,
+      "danceability": 0.425,
+      "acousticness": 0.011,
+      "instrumentalness": 0.031,
+      "loudness": -1.3,
+      "speechiness": 0.19,
+      "duration_ms": 268576,
+      "slug": "\u6700\u03c8\u6700\u597d\u8abf-dempagumiinc"
+    },
+    {
+      "name": "The\u2661World's\u2661End",
+      "artists": "Yui Horie",
+      "album": "\u30ef\u30fc\u30eb\u30c9\u30a8\u30f3\u30c9\u306e\u5ead",
+      "popularity": 39,
+      "tempo": 120.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.875,
+      "valence": 0.742,
+      "danceability": 0.663,
+      "acousticness": 0.107,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.043,
+      "duration_ms": 308013,
+      "slug": "theworldsend-yui-horie"
+    },
+    {
+      "name": "=LOVE",
+      "artists": "=LOVE",
+      "album": "\u5168\u90e8\u3001\u5185\u7dd2\u3002 (Special Edition)",
+      "popularity": 38,
+      "tempo": 158.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.963,
+      "valence": 0.618,
+      "danceability": 0.415,
+      "acousticness": 0.037,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.095,
+      "duration_ms": 246546,
+      "slug": "love-love"
+    },
+    {
+      "name": "\u30c1\u30a7\u30ea\u30fc\u30dc\u30f3\u30dc\u30f3",
+      "artists": "Kyary Pamyu Pamyu",
+      "album": "\u3082\u3057\u3082\u3057\u539f\u5bbf",
+      "popularity": 38,
+      "tempo": 130.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.954,
+      "valence": 0.808,
+      "danceability": 0.691,
+      "acousticness": 0.223,
+      "instrumentalness": 0.004,
+      "loudness": -1.8,
+      "speechiness": 0.034,
+      "duration_ms": 218466,
+      "slug": "\u30c1\u30a7\u30ea\u30fc\u30dc\u30f3\u30dc\u30f3-kyary-pamyu-pamyu"
+    },
+    {
+      "name": "Golden Time",
+      "artists": "Yui Horie",
+      "album": "\u30ef\u30fc\u30eb\u30c9\u30a8\u30f3\u30c9\u306e\u5ead",
+      "popularity": 38,
+      "tempo": 141.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.898,
+      "valence": 0.671,
+      "danceability": 0.636,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.048,
+      "duration_ms": 224933,
+      "slug": "golden-time-yui-horie"
+    },
+    {
+      "name": "JUSTadICE",
+      "artists": "Seiko Oomori",
+      "album": "Re: Re: Love",
+      "popularity": 38,
+      "tempo": 185.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.355,
+      "danceability": 0.405,
+      "acousticness": 0.001,
+      "instrumentalness": 0.003,
+      "loudness": -1.7,
+      "speechiness": 0.194,
+      "duration_ms": 230933,
+      "slug": "justadice-seiko-oomori"
+    },
+    {
+      "name": "\u541b\u304c\u6247\u3044\u3067\u304f\u308c\u305f",
+      "artists": "Nogizaka46",
+      "album": "\u751f\u307e\u308c\u3066\u304b\u3089\u521d\u3081\u3066\u898b\u305f\u5922 (Complete Edition)",
+      "popularity": 37,
+      "tempo": 106.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.786,
+      "valence": 0.684,
+      "danceability": 0.562,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.03,
+      "duration_ms": 244400,
+      "slug": "\u541b\u304c\u6247\u3044\u3067\u304f\u308c\u305f-nogizaka46"
+    },
+    {
+      "name": "\u300c\u541b\u3068\u79c1\u306e\u6b4c\u300d",
+      "artists": "=LOVE",
+      "album": "CAMEO",
+      "popularity": 37,
+      "tempo": 173.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.956,
+      "valence": 0.605,
+      "danceability": 0.424,
+      "acousticness": 0.026,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.097,
+      "duration_ms": 323186,
+      "slug": "\u541b\u3068\u79c1\u306e\u6b4c-love"
+    },
+    {
+      "name": "\u77e5\u3089\u3093\u3051\u3069",
+      "artists": "=LOVE",
+      "album": "\u3042\u306e\u5b50\u30b3\u30f3\u30d7\u30ec\u30c3\u30af\u30b9",
+      "popularity": 36,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.798,
+      "valence": 0.909,
+      "danceability": 0.552,
+      "acousticness": 0.012,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.051,
+      "duration_ms": 211373,
+      "slug": "\u77e5\u3089\u3093\u3051\u3069-love"
+    },
+    {
+      "name": "\u50d5\u306e\u30d2\u30ed\u30a4\u30f3",
+      "artists": "=LOVE",
+      "album": "\u3042\u306e\u5b50\u30b3\u30f3\u30d7\u30ec\u30c3\u30af\u30b9",
+      "popularity": 36,
+      "tempo": 164.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.943,
+      "valence": 0.563,
+      "danceability": 0.5,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.047,
+      "duration_ms": 251493,
+      "slug": "\u50d5\u306e\u30d2\u30ed\u30a4\u30f3-love"
+    },
+    {
+      "name": "\u7b11\u9854\u306e\u30ec\u30b7\u30d4",
+      "artists": "=LOVE",
+      "album": "\u3042\u306e\u5b50\u30b3\u30f3\u30d7\u30ec\u30c3\u30af\u30b9",
+      "popularity": 36,
+      "tempo": 95.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.921,
+      "valence": 0.77,
+      "danceability": 0.538,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.055,
+      "duration_ms": 230586,
+      "slug": "\u7b11\u9854\u306e\u30ec\u30b7\u30d4-love"
+    },
+    {
+      "name": "\u79d8\u5bc6\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8",
+      "artists": "\u2260ME",
+      "album": "\u8d85\u7279\u6025 \u2260ME\u884c\u304d Special Edition",
+      "popularity": 36,
+      "tempo": 160.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.95,
+      "valence": 0.638,
+      "danceability": 0.486,
+      "acousticness": 0.153,
+      "instrumentalness": 0.0,
+      "loudness": -2.7,
+      "speechiness": 0.101,
+      "duration_ms": 269746,
+      "slug": "\u79d8\u5bc6\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8-me"
+    },
+    {
+      "name": "Sweet & Sweet CHERRY",
+      "artists": "Yui Horie",
+      "album": "\u30ef\u30fc\u30eb\u30c9\u30a8\u30f3\u30c9\u306e\u5ead",
+      "popularity": 36,
+      "tempo": 104.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.749,
+      "valence": 0.641,
+      "danceability": 0.664,
+      "acousticness": 0.12,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.028,
+      "duration_ms": 194666,
+      "slug": "sweet-sweet-cherry-yui-horie"
+    },
+    {
+      "name": "PONPONPON",
+      "artists": "Kyary Pamyu Pamyu",
+      "album": "\u3082\u3057\u3082\u3057\u539f\u5bbf",
+      "popularity": 36,
+      "tempo": 128.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.988,
+      "valence": 0.91,
+      "danceability": 0.634,
+      "acousticness": 0.047,
+      "instrumentalness": 0.001,
+      "loudness": -0.2,
+      "speechiness": 0.043,
+      "duration_ms": 242826,
+      "slug": "ponponpon-kyary-pamyu-pamyu"
+    },
+    {
+      "name": "\u65c5\u7acb\u3061\u306e\u5504",
+      "artists": "Ayumikurikamaki",
+      "album": "\u5927\u9006\u8972",
+      "popularity": 36,
+      "tempo": 173.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.927,
+      "valence": 0.777,
+      "danceability": 0.593,
+      "acousticness": 0.087,
+      "instrumentalness": 0.0,
+      "loudness": -3.0,
+      "speechiness": 0.104,
+      "duration_ms": 208146,
+      "slug": "\u65c5\u7acb\u3061\u306e\u5504-ayumikurikamaki"
+    },
+    {
+      "name": "silky heart",
+      "artists": "Yui Horie",
+      "album": "BEST ALBUM",
+      "popularity": 36,
+      "tempo": 135.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.936,
+      "valence": 0.959,
+      "danceability": 0.681,
+      "acousticness": 0.009,
+      "instrumentalness": 0.059,
+      "loudness": -6.4,
+      "speechiness": 0.035,
+      "duration_ms": 233720,
+      "slug": "silky-heart-yui-horie"
+    },
+    {
+      "name": "\u30cf\u30fc\u30c8\u306e\u30a4\u30a2\u30ea\u30f3\u30b0",
+      "artists": "Seiko Matsuda",
+      "album": "SEIKO STORY\u301c80's HITS COLLECTION\u301c",
+      "popularity": 35,
+      "tempo": 114.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.799,
+      "valence": 0.901,
+      "danceability": 0.802,
+      "acousticness": 0.427,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.029,
+      "duration_ms": 247306,
+      "slug": "\u30cf\u30fc\u30c8\u306e\u30a4\u30a2\u30ea\u30f3\u30b0-seiko-matsuda"
+    },
+    {
+      "name": "Give me a Shake",
+      "artists": "MAX",
+      "album": "MAXIMUM II",
+      "popularity": 35,
+      "tempo": 105.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.883,
+      "valence": 0.644,
+      "danceability": 0.671,
+      "acousticness": 0.088,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.028,
+      "duration_ms": 326633,
+      "slug": "give-me-a-shake-max"
+    },
+    {
+      "name": "BROKEN",
+      "artists": "BiSH",
+      "album": "GOiNG TO DESTRUCTiON",
+      "popularity": 35,
+      "tempo": 174.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.925,
+      "valence": 0.435,
+      "danceability": 0.385,
+      "acousticness": 0.0,
+      "instrumentalness": 0.253,
+      "loudness": -5.5,
+      "speechiness": 0.076,
+      "duration_ms": 267547,
+      "slug": "broken-bish"
+    },
+    {
+      "name": "\u300c\u541b\u306e\u97f3\u3060\u3063\u305f\u3093\u3060\u300d",
+      "artists": "\u2260ME",
+      "album": "\u8d85\u7279\u6025 \u2260ME\u884c\u304d Special Edition",
+      "popularity": 35,
+      "tempo": 183.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.973,
+      "valence": 0.55,
+      "danceability": 0.401,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -2.6,
+      "speechiness": 0.084,
+      "duration_ms": 244413,
+      "slug": "\u541b\u306e\u97f3\u3060\u3063\u305f\u3093\u3060-me"
+    },
+    {
+      "name": "Don't Think. Feel!!!",
+      "artists": "Idoling!!!",
+      "album": "TV Anime \"Fairy Tail\" OP & ED Theme Songs Vol. 2",
+      "popularity": 35,
+      "tempo": 151.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.933,
+      "valence": 0.738,
+      "danceability": 0.588,
+      "acousticness": 0.11,
+      "instrumentalness": 0.0,
+      "loudness": -2.5,
+      "speechiness": 0.079,
+      "duration_ms": 230226,
+      "slug": "dont-think-feel-idoling"
+    },
+    {
+      "name": "Sense(TV Size Ver.)",
+      "artists": "BAND-MAID",
+      "album": "Sense(TV Size Ver.)",
+      "popularity": 35,
+      "tempo": 102.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.979,
+      "valence": 0.293,
+      "danceability": 0.465,
+      "acousticness": 0.0,
+      "instrumentalness": 0.111,
+      "loudness": -3.0,
+      "speechiness": 0.1,
+      "duration_ms": 89440,
+      "slug": "sensetv-size-ver-band-maid"
+    }
+  ]
+}

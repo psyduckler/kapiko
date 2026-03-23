@@ -1,0 +1,2803 @@
+{
+  "genre": "Kids",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 60.514,
+    "max": 203.648,
+    "mean": 121.706,
+    "median": 121.511,
+    "q1": 109.965,
+    "q3": 134.021,
+    "histogram": {
+      "60-69": 3,
+      "70-79": 3,
+      "80-89": 6,
+      "90-99": 7,
+      "100-109": 8,
+      "110-119": 18,
+      "120-129": 18,
+      "130-139": 18,
+      "140-149": 7,
+      "150-159": 7,
+      "160-169": 2,
+      "170-179": 1,
+      "180-189": 1,
+      "200+": 1
+    }
+  },
+  "key_distribution": {
+    "C": 20,
+    "G": 13,
+    "D": 10,
+    "E": 9,
+    "A#/Bb": 8,
+    "C#/Db": 8,
+    "B": 7,
+    "G#/Ab": 6,
+    "F": 5,
+    "A": 5,
+    "D#/Eb": 5,
+    "F#/Gb": 4
+  },
+  "mode_distribution": {
+    "Minor": 25,
+    "Major": 75
+  },
+  "key_mode_distribution": {
+    "C Major": 19,
+    "G Major": 12,
+    "D Major": 10,
+    "E Major": 6,
+    "G#/Ab Major": 6,
+    "B Minor": 5,
+    "A#/Bb Minor": 5,
+    "D#/Eb Major": 4,
+    "C#/Db Major": 4,
+    "A Major": 4,
+    "C#/Db Minor": 4,
+    "E Minor": 3,
+    "F Major": 3,
+    "A#/Bb Major": 3,
+    "F Minor": 2,
+    "F#/Gb Major": 2,
+    "F#/Gb Minor": 2,
+    "B Major": 2,
+    "A Minor": 1,
+    "G Minor": 1,
+    "D#/Eb Minor": 1,
+    "C Minor": 1
+  },
+  "energy": {
+    "min": 0.111,
+    "max": 0.976,
+    "mean": 0.604,
+    "median": 0.659,
+    "q1": 0.45,
+    "q3": 0.783
+  },
+  "valence": {
+    "min": 0.113,
+    "max": 0.993,
+    "mean": 0.717,
+    "median": 0.767,
+    "q1": 0.576,
+    "q3": 0.892
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.582,
+      "valence": 0.861
+    },
+    {
+      "energy": 0.111,
+      "valence": 0.556
+    },
+    {
+      "energy": 0.822,
+      "valence": 0.88
+    },
+    {
+      "energy": 0.905,
+      "valence": 0.805
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.943
+    },
+    {
+      "energy": 0.887,
+      "valence": 0.487
+    },
+    {
+      "energy": 0.625,
+      "valence": 0.576
+    },
+    {
+      "energy": 0.379,
+      "valence": 0.682
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.638
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.709
+    },
+    {
+      "energy": 0.397,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.836
+    },
+    {
+      "energy": 0.699,
+      "valence": 0.92
+    },
+    {
+      "energy": 0.957,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.511,
+      "valence": 0.113
+    },
+    {
+      "energy": 0.845,
+      "valence": 0.865
+    },
+    {
+      "energy": 0.728,
+      "valence": 0.811
+    },
+    {
+      "energy": 0.67,
+      "valence": 0.526
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.964
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.296,
+      "valence": 0.745
+    },
+    {
+      "energy": 0.794,
+      "valence": 0.485
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.907
+    },
+    {
+      "energy": 0.976,
+      "valence": 0.561
+    },
+    {
+      "energy": 0.218,
+      "valence": 0.697
+    },
+    {
+      "energy": 0.598,
+      "valence": 0.679
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.468,
+      "valence": 0.392
+    },
+    {
+      "energy": 0.409,
+      "valence": 0.803
+    },
+    {
+      "energy": 0.293,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.171,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.939
+    },
+    {
+      "energy": 0.242,
+      "valence": 0.497
+    },
+    {
+      "energy": 0.403,
+      "valence": 0.426
+    },
+    {
+      "energy": 0.505,
+      "valence": 0.959
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.763
+    },
+    {
+      "energy": 0.864,
+      "valence": 0.826
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.866
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.273
+    },
+    {
+      "energy": 0.884,
+      "valence": 0.781
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.63,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.665,
+      "valence": 0.707
+    },
+    {
+      "energy": 0.203,
+      "valence": 0.909
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.221
+    },
+    {
+      "energy": 0.716,
+      "valence": 0.96
+    },
+    {
+      "energy": 0.451,
+      "valence": 0.324
+    },
+    {
+      "energy": 0.296,
+      "valence": 0.726
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.776
+    },
+    {
+      "energy": 0.361,
+      "valence": 0.738
+    },
+    {
+      "energy": 0.45,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.661
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.568
+    },
+    {
+      "energy": 0.739,
+      "valence": 0.36
+    },
+    {
+      "energy": 0.261,
+      "valence": 0.248
+    },
+    {
+      "energy": 0.519,
+      "valence": 0.523
+    },
+    {
+      "energy": 0.674,
+      "valence": 0.751
+    },
+    {
+      "energy": 0.187,
+      "valence": 0.484
+    },
+    {
+      "energy": 0.626,
+      "valence": 0.878
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.906
+    },
+    {
+      "energy": 0.684,
+      "valence": 0.831
+    },
+    {
+      "energy": 0.498,
+      "valence": 0.914
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.779
+    },
+    {
+      "energy": 0.721,
+      "valence": 0.904
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.932
+    },
+    {
+      "energy": 0.731,
+      "valence": 0.87
+    },
+    {
+      "energy": 0.919,
+      "valence": 0.681
+    },
+    {
+      "energy": 0.873,
+      "valence": 0.976
+    },
+    {
+      "energy": 0.688,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.7,
+      "valence": 0.993
+    },
+    {
+      "energy": 0.783,
+      "valence": 0.918
+    },
+    {
+      "energy": 0.21,
+      "valence": 0.892
+    },
+    {
+      "energy": 0.911,
+      "valence": 0.688
+    },
+    {
+      "energy": 0.812,
+      "valence": 0.871
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.694
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.862
+    },
+    {
+      "energy": 0.513,
+      "valence": 0.956
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.889
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.613
+    },
+    {
+      "energy": 0.418,
+      "valence": 0.276
+    },
+    {
+      "energy": 0.125,
+      "valence": 0.532
+    },
+    {
+      "energy": 0.797,
+      "valence": 0.976
+    },
+    {
+      "energy": 0.853,
+      "valence": 0.936
+    },
+    {
+      "energy": 0.307,
+      "valence": 0.913
+    },
+    {
+      "energy": 0.339,
+      "valence": 0.798
+    },
+    {
+      "energy": 0.168,
+      "valence": 0.205
+    },
+    {
+      "energy": 0.495,
+      "valence": 0.771
+    },
+    {
+      "energy": 0.688,
+      "valence": 0.794
+    },
+    {
+      "energy": 0.642,
+      "valence": 0.943
+    },
+    {
+      "energy": 0.287,
+      "valence": 0.516
+    },
+    {
+      "energy": 0.597,
+      "valence": 0.963
+    },
+    {
+      "energy": 0.555,
+      "valence": 0.803
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.761
+    },
+    {
+      "energy": 0.717,
+      "valence": 0.578
+    },
+    {
+      "energy": 0.447,
+      "valence": 0.679
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.675
+    },
+    {
+      "energy": 0.763,
+      "valence": 0.281
+    },
+    {
+      "energy": 0.685,
+      "valence": 0.719
+    },
+    {
+      "energy": 0.902,
+      "valence": 0.952
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.972,
+    "mean": 0.313,
+    "median": 0.266,
+    "q1": 0.072,
+    "q3": 0.5
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.889,
+    "mean": 0.046,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.414,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.455
+    },
+    {
+      "acousticness": 0.041,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.276,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.41,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.819,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.298,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.278,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.412,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.753,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.095,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.298,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.039,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.349,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.083
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.777,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.312,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.613
+    },
+    {
+      "acousticness": 0.073,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.615,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.182,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.376,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.511,
+      "instrumentalness": 0.052
+    },
+    {
+      "acousticness": 0.5,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.811,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.229,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.704,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.407,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.49
+    },
+    {
+      "acousticness": 0.187,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.613,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.451,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.309,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.786,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.502,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.119,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.61,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.232,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.135,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.366,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.209,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.113,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.035,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.71,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.265,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.021,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.907,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.595
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.708,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.06,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.48,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.224
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.889
+    },
+    {
+      "acousticness": 0.125,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.167,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.266,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.516,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.071
+    },
+    {
+      "acousticness": 0.132,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.308,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.522,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.753,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.688
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.851,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.97,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.381,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.117
+    },
+    {
+      "acousticness": 0.839,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.4,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.73,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.689,
+      "instrumentalness": 0.248
+    },
+    {
+      "acousticness": 0.972,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.255,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.131,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.461,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.48,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.31,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.313,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.556,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.011,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.257,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 30826,
+    "max": 405195,
+    "mean": 146069.11,
+    "median": 145148.0,
+    "q1": 104954,
+    "q3": 184992
+  },
+  "danceability": {
+    "min": 0.375,
+    "max": 0.976,
+    "mean": 0.762,
+    "median": 0.784,
+    "q1": 0.686,
+    "q3": 0.845
+  },
+  "loudness": {
+    "min": -14.666,
+    "max": -2.761,
+    "mean": -7.541,
+    "median": -6.941,
+    "q1": -9.359,
+    "q3": -5.342
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.84,
+    "mean": 0.122,
+    "median": 0.071,
+    "q1": 0.041,
+    "q3": 0.163
+  },
+  "top_artists": [
+    {
+      "name": "Patty Shukla",
+      "count": 10
+    },
+    {
+      "name": "Dora The Explorer",
+      "count": 9
+    },
+    {
+      "name": "Amy Liz",
+      "count": 8
+    },
+    {
+      "name": "Cupid",
+      "count": 6
+    },
+    {
+      "name": "Koo Koo Kanga Roo",
+      "count": 6
+    },
+    {
+      "name": "Jack Hartmann",
+      "count": 6
+    },
+    {
+      "name": "Desmond Dennis",
+      "count": 4
+    },
+    {
+      "name": "Debbie Doo",
+      "count": 4
+    },
+    {
+      "name": "BeatBo",
+      "count": 3
+    },
+    {
+      "name": "Fisher-Price",
+      "count": 3
+    },
+    {
+      "name": "John Archambault and David Plummer",
+      "count": 3
+    },
+    {
+      "name": "Mini Pop Kids",
+      "count": 3
+    },
+    {
+      "name": "The Palace Singers",
+      "count": 3
+    },
+    {
+      "name": "The Jamborees",
+      "count": 2
+    },
+    {
+      "name": "The Kiddie Katz",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Cupid Shuffle",
+      "artists": "Cupid",
+      "album": "Time for a Change",
+      "popularity": 63,
+      "tempo": 71.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.582,
+      "valence": 0.861,
+      "danceability": 0.785,
+      "acousticness": 0.191,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.237,
+      "duration_ms": 231360,
+      "slug": "cupid-shuffle-cupid"
+    },
+    {
+      "name": "Slippery Fish",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 58,
+      "tempo": 139.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.111,
+      "valence": 0.556,
+      "danceability": 0.777,
+      "acousticness": 0.414,
+      "instrumentalness": 0.0,
+      "loudness": -14.4,
+      "speechiness": 0.335,
+      "duration_ms": 103493,
+      "slug": "slippery-fish-amy-liz"
+    },
+    {
+      "name": "Baby Shark Breakbeat",
+      "artists": "Dede Sabunge",
+      "album": "Baby Shark Breakbeat",
+      "popularity": 56,
+      "tempo": 131.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.822,
+      "valence": 0.88,
+      "danceability": 0.72,
+      "acousticness": 0.096,
+      "instrumentalness": 0.455,
+      "loudness": -9.8,
+      "speechiness": 0.133,
+      "duration_ms": 86334,
+      "slug": "baby-shark-breakbeat-dede-sabunge"
+    },
+    {
+      "name": "Cha Cha Slide",
+      "artists": "Mr. C",
+      "album": "Mr. C Presents The Cha-cha Slide Greatest Hits",
+      "popularity": 52,
+      "tempo": 131.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.905,
+      "valence": 0.805,
+      "danceability": 0.856,
+      "acousticness": 0.041,
+      "instrumentalness": 0.004,
+      "loudness": -6.8,
+      "speechiness": 0.146,
+      "duration_ms": 222080,
+      "slug": "cha-cha-slide-mr-c"
+    },
+    {
+      "name": "Get Yo Body Movin'",
+      "artists": "Koo Koo Kanga Roo",
+      "album": "Whoopty Whoop",
+      "popularity": 52,
+      "tempo": 132.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.576,
+      "valence": 0.943,
+      "danceability": 0.823,
+      "acousticness": 0.029,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.091,
+      "duration_ms": 117136,
+      "slug": "get-yo-body-movin-koo-koo-kanga-roo"
+    },
+    {
+      "name": "Freeze Dance",
+      "artists": "BeatBo;Fisher-Price",
+      "album": "Fisher-Price BeatBo",
+      "popularity": 51,
+      "tempo": 135.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.887,
+      "valence": 0.487,
+      "danceability": 0.8,
+      "acousticness": 0.276,
+      "instrumentalness": 0.0,
+      "loudness": -3.4,
+      "speechiness": 0.293,
+      "duration_ms": 76888,
+      "slug": "freeze-dance-beatbo"
+    },
+    {
+      "name": "Do What I Want",
+      "artists": "That Girl Lay Lay",
+      "album": "Do What I Want",
+      "popularity": 50,
+      "tempo": 130.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.625,
+      "valence": 0.576,
+      "danceability": 0.899,
+      "acousticness": 0.41,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.371,
+      "duration_ms": 184992,
+      "slug": "do-what-i-want-that-girl-lay-lay"
+    },
+    {
+      "name": "Chicka Chicka Boom Boom",
+      "artists": "John Archambault and David Plummer",
+      "album": "Chicka Chicka Boom Boom and Other Coconutty Songs",
+      "popularity": 50,
+      "tempo": 135.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.379,
+      "valence": 0.682,
+      "danceability": 0.88,
+      "acousticness": 0.819,
+      "instrumentalness": 0.0,
+      "loudness": -11.6,
+      "speechiness": 0.049,
+      "duration_ms": 145546,
+      "slug": "chicka-chicka-boom-boom-john-archambault-and-david-plummer"
+    },
+    {
+      "name": "Pop See Ko",
+      "artists": "Koo Koo Kanga Roo",
+      "album": "Cafetorium Songs, Vol. 1",
+      "popularity": 50,
+      "tempo": 134.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.76,
+      "valence": 0.638,
+      "danceability": 0.901,
+      "acousticness": 0.298,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.84,
+      "duration_ms": 138840,
+      "slug": "pop-see-ko-koo-koo-kanga-roo"
+    },
+    {
+      "name": "Choo Choo Train",
+      "artists": "Patty Shukla",
+      "album": "Jump, Wiggle and Hop",
+      "popularity": 49,
+      "tempo": 110.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.801,
+      "valence": 0.709,
+      "danceability": 0.847,
+      "acousticness": 0.278,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.105,
+      "duration_ms": 140546,
+      "slug": "choo-choo-train-patty-shukla"
+    },
+    {
+      "name": "I Hate Love",
+      "artists": "Desmond Dennis",
+      "album": "Emotions - EP",
+      "popularity": 48,
+      "tempo": 84.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.397,
+      "valence": 0.324,
+      "danceability": 0.625,
+      "acousticness": 0.412,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.027,
+      "duration_ms": 180244,
+      "slug": "i-hate-love-desmond-dennis"
+    },
+    {
+      "name": "Alphabet Song",
+      "artists": "Cooltime Kids",
+      "album": "EVVIVA Canzoni per Bambini",
+      "popularity": 48,
+      "tempo": 116.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.473,
+      "valence": 0.836,
+      "danceability": 0.851,
+      "acousticness": 0.753,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.036,
+      "duration_ms": 106706,
+      "slug": "alphabet-song-cooltime-kids"
+    },
+    {
+      "name": "Superheroes Unite",
+      "artists": "Koo Koo Kanga Roo",
+      "album": "Whoopty Whoop",
+      "popularity": 47,
+      "tempo": 133.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.699,
+      "valence": 0.92,
+      "danceability": 0.681,
+      "acousticness": 0.095,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.085,
+      "duration_ms": 213542,
+      "slug": "superheroes-unite-koo-koo-kanga-roo"
+    },
+    {
+      "name": "Chicken Dance",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer Party Favorites",
+      "popularity": 46,
+      "tempo": 108.5,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.957,
+      "valence": 0.963,
+      "danceability": 0.587,
+      "acousticness": 0.099,
+      "instrumentalness": 0.034,
+      "loudness": -4.1,
+      "speechiness": 0.029,
+      "duration_ms": 147133,
+      "slug": "chicken-dance-dora-the-explorer"
+    },
+    {
+      "name": "Shake and Move",
+      "artists": "Patty Shukla",
+      "album": "Roar Like a Lion!",
+      "popularity": 46,
+      "tempo": 119.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.511,
+      "valence": 0.113,
+      "danceability": 0.795,
+      "acousticness": 0.298,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.042,
+      "duration_ms": 164000,
+      "slug": "shake-and-move-patty-shukla"
+    },
+    {
+      "name": "All I Eat Is Pizza",
+      "artists": "Koo Koo Kanga Roo",
+      "album": "Whoopty Whoop",
+      "popularity": 46,
+      "tempo": 104.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.845,
+      "valence": 0.865,
+      "danceability": 0.803,
+      "acousticness": 0.039,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.073,
+      "duration_ms": 198841,
+      "slug": "all-i-eat-is-pizza-koo-koo-kanga-roo"
+    },
+    {
+      "name": "Elephants Have Wrinkles",
+      "artists": "Rock 'n' Rainbow",
+      "album": "Let's Boogie!",
+      "popularity": 45,
+      "tempo": 130.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.728,
+      "valence": 0.811,
+      "danceability": 0.81,
+      "acousticness": 0.349,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.114,
+      "duration_ms": 125866,
+      "slug": "elephants-have-wrinkles-rock-n-rainbow"
+    },
+    {
+      "name": "Dinosaur Stomp",
+      "artists": "Koo Koo Kanga Roo",
+      "album": "Rad-Trospective",
+      "popularity": 45,
+      "tempo": 121.1,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.67,
+      "valence": 0.526,
+      "danceability": 0.786,
+      "acousticness": 0.033,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.132,
+      "duration_ms": 208264,
+      "slug": "dinosaur-stomp-koo-koo-kanga-roo"
+    },
+    {
+      "name": "Stand Up, Sit Down",
+      "artists": "Patty Shukla",
+      "album": "Roar Like a Lion!",
+      "popularity": 44,
+      "tempo": 106.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.657,
+      "valence": 0.964,
+      "danceability": 0.607,
+      "acousticness": 0.072,
+      "instrumentalness": 0.083,
+      "loudness": -6.4,
+      "speechiness": 0.064,
+      "duration_ms": 162333,
+      "slug": "stand-up-sit-down-patty-shukla"
+    },
+    {
+      "name": "Dora The Explorer Theme",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer",
+      "popularity": 43,
+      "tempo": 119.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.851,
+      "danceability": 0.711,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.238,
+      "duration_ms": 42466,
+      "slug": "dora-the-explorer-theme-dora-the-explorer"
+    },
+    {
+      "name": "Goin' to the Zoo",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 43,
+      "tempo": 89.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.296,
+      "valence": 0.745,
+      "danceability": 0.649,
+      "acousticness": 0.777,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.199,
+      "duration_ms": 195413,
+      "slug": "goin-to-the-zoo-amy-liz"
+    },
+    {
+      "name": "A Tooty Ta (Tootie Ta)",
+      "artists": "Ray Remesch",
+      "album": "A Tooty Ta (Tootie Ta)",
+      "popularity": 43,
+      "tempo": 129.8,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.794,
+      "valence": 0.485,
+      "danceability": 0.878,
+      "acousticness": 0.312,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.226,
+      "duration_ms": 150717,
+      "slug": "a-tooty-ta-tootie-ta-ray-remesch"
+    },
+    {
+      "name": "Chicken Dance",
+      "artists": "Kids Dance Party",
+      "album": "Kids Dance Party",
+      "popularity": 42,
+      "tempo": 96.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.433,
+      "valence": 0.907,
+      "danceability": 0.813,
+      "acousticness": 0.023,
+      "instrumentalness": 0.613,
+      "loudness": -11.0,
+      "speechiness": 0.028,
+      "duration_ms": 128426,
+      "slug": "chicken-dance-kids-dance-party"
+    },
+    {
+      "name": "Chugga Chugga Choo Choo - Original Version",
+      "artists": "Choo Choo Soul",
+      "album": "Choo Choo Soul",
+      "popularity": 42,
+      "tempo": 110.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.976,
+      "valence": 0.561,
+      "danceability": 0.922,
+      "acousticness": 0.073,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.163,
+      "duration_ms": 132493,
+      "slug": "chugga-chugga-choo-choo-original-version-choo-choo-soul"
+    },
+    {
+      "name": "Brown Bear Brown Bear What Do You See?",
+      "artists": "John Archambault and David Plummer",
+      "album": "Chicka Chicka Boom Boom Series Volume Two - Dance and Sing With John & David",
+      "popularity": 41,
+      "tempo": 100.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.218,
+      "valence": 0.697,
+      "danceability": 0.844,
+      "acousticness": 0.615,
+      "instrumentalness": 0.0,
+      "loudness": -14.7,
+      "speechiness": 0.037,
+      "duration_ms": 145720,
+      "slug": "brown-bear-brown-bear-what-do-you-see-john-archambault-and-david-plummer"
+    },
+    {
+      "name": "Savage Love",
+      "artists": "Mini Pop Kids",
+      "album": "Mini Pop Kids 18",
+      "popularity": 41,
+      "tempo": 112.5,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.598,
+      "valence": 0.679,
+      "danceability": 0.742,
+      "acousticness": 0.326,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.06,
+      "duration_ms": 171493,
+      "slug": "savage-love-mini-pop-kids"
+    },
+    {
+      "name": "I Get Loose",
+      "artists": "Koo Koo Kanga Roo",
+      "album": "Cafetorium Songs, Vol. 1",
+      "popularity": 41,
+      "tempo": 113.9,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.705,
+      "valence": 0.694,
+      "danceability": 0.884,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.125,
+      "duration_ms": 96029,
+      "slug": "i-get-loose-koo-koo-kanga-roo"
+    },
+    {
+      "name": "I Love My Life",
+      "artists": "Super Siah",
+      "album": "I Love My Life",
+      "popularity": 40,
+      "tempo": 147.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.468,
+      "valence": 0.392,
+      "danceability": 0.896,
+      "acousticness": 0.09,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.313,
+      "duration_ms": 124160,
+      "slug": "i-love-my-life-super-siah"
+    },
+    {
+      "name": "Wind the Bobbin Up",
+      "artists": "The Jamborees",
+      "album": "The Wheels On the Bus",
+      "popularity": 39,
+      "tempo": 119.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.409,
+      "valence": 0.803,
+      "danceability": 0.865,
+      "acousticness": 0.182,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.037,
+      "duration_ms": 152493,
+      "slug": "wind-the-bobbin-up-the-jamborees"
+    },
+    {
+      "name": "I Am A Pizza",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 39,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.293,
+      "valence": 0.692,
+      "danceability": 0.636,
+      "acousticness": 0.376,
+      "instrumentalness": 0.0,
+      "loudness": -10.2,
+      "speechiness": 0.032,
+      "duration_ms": 160960,
+      "slug": "i-am-a-pizza-amy-liz"
+    },
+    {
+      "name": "369 (feat. B.o.B.)",
+      "artists": "Cupid;B.o.B",
+      "album": "Time for a Change",
+      "popularity": 39,
+      "tempo": 166.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.898,
+      "valence": 0.441,
+      "danceability": 0.624,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.276,
+      "duration_ms": 211346,
+      "slug": "369-feat-bob-cupid"
+    },
+    {
+      "name": "Round and Round The Garden",
+      "artists": "The Palace Singers",
+      "album": "Nursey Rhymes For A Little Prince",
+      "popularity": 38,
+      "tempo": 110.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.171,
+      "valence": 0.692,
+      "danceability": 0.976,
+      "acousticness": 0.511,
+      "instrumentalness": 0.052,
+      "loudness": -13.2,
+      "speechiness": 0.105,
+      "duration_ms": 67266,
+      "slug": "round-and-round-the-garden-the-palace-singers"
+    },
+    {
+      "name": "There Was An Old Lady",
+      "artists": "The Palace Singers",
+      "album": "Nursey Rhymes For A Little Prince",
+      "popularity": 38,
+      "tempo": 80.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.939,
+      "danceability": 0.837,
+      "acousticness": 0.5,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.077,
+      "duration_ms": 136000,
+      "slug": "there-was-an-old-lady-the-palace-singers"
+    },
+    {
+      "name": "Sleeping Bunnies (Hop Hop Hop)",
+      "artists": "Top of the Bus",
+      "album": "30 Songs for Children - Favourite Classics and Future Hits",
+      "popularity": 38,
+      "tempo": 127.4,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.242,
+      "valence": 0.497,
+      "danceability": 0.655,
+      "acousticness": 0.811,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.373,
+      "duration_ms": 163777,
+      "slug": "sleeping-bunnies-hop-hop-hop-top-of-the-bus"
+    },
+    {
+      "name": "Wobble",
+      "artists": "Wobble Baby Wobble Baby",
+      "album": "Wobble",
+      "popularity": 38,
+      "tempo": 95.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.403,
+      "valence": 0.426,
+      "danceability": 0.834,
+      "acousticness": 0.229,
+      "instrumentalness": 0.0,
+      "loudness": -11.9,
+      "speechiness": 0.117,
+      "duration_ms": 226105,
+      "slug": "wobble-wobble-baby-wobble-baby"
+    },
+    {
+      "name": "Daniel Tiger's Neighborhood Theme Song",
+      "artists": "The Kiddie Katz",
+      "album": "Daniel Tiger's Neighborhood Theme Song",
+      "popularity": 38,
+      "tempo": 118.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.505,
+      "valence": 0.959,
+      "danceability": 0.8,
+      "acousticness": 0.704,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.038,
+      "duration_ms": 66384,
+      "slug": "daniel-tigers-neighborhood-theme-song-the-kiddie-katz"
+    },
+    {
+      "name": "Boom Chicka Boom",
+      "artists": "Jack Hartmann",
+      "album": "Brain Breaks",
+      "popularity": 38,
+      "tempo": 120.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.871,
+      "valence": 0.763,
+      "danceability": 0.913,
+      "acousticness": 0.407,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.198,
+      "duration_ms": 182013,
+      "slug": "boom-chicka-boom-jack-hartmann"
+    },
+    {
+      "name": "I Like To Move It From Madagascar",
+      "artists": "The Party Cats",
+      "album": "Kids Dance Party",
+      "popularity": 37,
+      "tempo": 130.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.864,
+      "valence": 0.826,
+      "danceability": 0.817,
+      "acousticness": 0.0,
+      "instrumentalness": 0.49,
+      "loudness": -7.9,
+      "speechiness": 0.029,
+      "duration_ms": 243960,
+      "slug": "i-like-to-move-it-from-madagascar-the-party-cats"
+    },
+    {
+      "name": "Happy Birthday/Cumplea\u00f1os Feliz",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer Party Favorites",
+      "popularity": 37,
+      "tempo": 131.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.866,
+      "danceability": 0.614,
+      "acousticness": 0.187,
+      "instrumentalness": 0.0,
+      "loudness": -2.8,
+      "speechiness": 0.049,
+      "duration_ms": 147986,
+      "slug": "happy-birthdaycumplea\u00f1os-feliz-dora-the-explorer"
+    },
+    {
+      "name": "Baby Shark (Trap Remix)",
+      "artists": "Pj Panda",
+      "album": "The New Nursery Rhymes, Vol. 1",
+      "popularity": 37,
+      "tempo": 126.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.273,
+      "danceability": 0.914,
+      "acousticness": 0.002,
+      "instrumentalness": 0.001,
+      "loudness": -10.1,
+      "speechiness": 0.073,
+      "duration_ms": 144750,
+      "slug": "baby-shark-trap-remix-pj-panda"
+    },
+    {
+      "name": "Count to 100 (New Exercises)",
+      "artists": "Jack Hartmann",
+      "album": "Number Songs",
+      "popularity": 37,
+      "tempo": 140.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.884,
+      "valence": 0.781,
+      "danceability": 0.849,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.249,
+      "duration_ms": 162573,
+      "slug": "count-to-100-new-exercises-jack-hartmann"
+    },
+    {
+      "name": "Stay",
+      "artists": "Mini Pop Kids",
+      "album": "Stay",
+      "popularity": 37,
+      "tempo": 170.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.495,
+      "danceability": 0.606,
+      "acousticness": 0.613,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.067,
+      "duration_ms": 138739,
+      "slug": "stay-mini-pop-kids"
+    },
+    {
+      "name": "Dora The Explorer Theme",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer",
+      "popularity": 37,
+      "tempo": 119.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.63,
+      "valence": 0.851,
+      "danceability": 0.711,
+      "acousticness": 0.451,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.238,
+      "duration_ms": 42466,
+      "slug": "dora-the-explorer-theme-dora-the-explorer"
+    },
+    {
+      "name": "Watermelon Sugar",
+      "artists": "Mini Pop Kids",
+      "album": "Mini Pop Kids 18",
+      "popularity": 37,
+      "tempo": 95.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.665,
+      "valence": 0.707,
+      "danceability": 0.556,
+      "acousticness": 0.309,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.03,
+      "duration_ms": 177053,
+      "slug": "watermelon-sugar-mini-pop-kids"
+    },
+    {
+      "name": "Wee Willie Winkie",
+      "artists": "The Jamborees",
+      "album": "The Wheels On the Bus",
+      "popularity": 36,
+      "tempo": 149.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.203,
+      "valence": 0.909,
+      "danceability": 0.729,
+      "acousticness": 0.786,
+      "instrumentalness": 0.0,
+      "loudness": -13.3,
+      "speechiness": 0.035,
+      "duration_ms": 55986,
+      "slug": "wee-willie-winkie-the-jamborees"
+    },
+    {
+      "name": "Happy Birthday Song (Trap Remix)",
+      "artists": "Pj Panda",
+      "album": "The New Nursery Rhymes, Vol. 1",
+      "popularity": 36,
+      "tempo": 144.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.66,
+      "valence": 0.221,
+      "danceability": 0.755,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.043,
+      "duration_ms": 162000,
+      "slug": "happy-birthday-song-trap-remix-pj-panda"
+    },
+    {
+      "name": "Penguin Dance Chant",
+      "artists": "Jack Hartmann",
+      "album": "Get On Board the Transition Train",
+      "popularity": 36,
+      "tempo": 122.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.716,
+      "valence": 0.96,
+      "danceability": 0.948,
+      "acousticness": 0.502,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.321,
+      "duration_ms": 136493,
+      "slug": "penguin-dance-chant-jack-hartmann"
+    },
+    {
+      "name": "Can You Stand the Rain",
+      "artists": "Desmond Dennis;SJ3",
+      "album": "Can You Stand the Rain",
+      "popularity": 36,
+      "tempo": 73.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.451,
+      "valence": 0.324,
+      "danceability": 0.375,
+      "acousticness": 0.119,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.04,
+      "duration_ms": 186321,
+      "slug": "can-you-stand-the-rain-desmond-dennis"
+    },
+    {
+      "name": "Phonics Alphabet Song",
+      "artists": "Patty Shukla",
+      "album": "Jump, Wiggle and Hop",
+      "popularity": 35,
+      "tempo": 130.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.296,
+      "valence": 0.726,
+      "danceability": 0.797,
+      "acousticness": 0.61,
+      "instrumentalness": 0.0,
+      "loudness": -10.7,
+      "speechiness": 0.057,
+      "duration_ms": 225348,
+      "slug": "phonics-alphabet-song-patty-shukla"
+    },
+    {
+      "name": "S.T.O.P.",
+      "artists": "Patty Shukla",
+      "album": "Sing and Play",
+      "popularity": 35,
+      "tempo": 155.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.776,
+      "danceability": 0.805,
+      "acousticness": 0.232,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.145,
+      "duration_ms": 169826,
+      "slug": "stop-patty-shukla"
+    },
+    {
+      "name": "Fire Engine",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 35,
+      "tempo": 129.1,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.361,
+      "valence": 0.738,
+      "danceability": 0.865,
+      "acousticness": 0.135,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.056,
+      "duration_ms": 168576,
+      "slug": "fire-engine-amy-liz"
+    },
+    {
+      "name": "Row, Row, Row Your Boat",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer Party Favorites",
+      "popularity": 35,
+      "tempo": 110.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.45,
+      "valence": 0.884,
+      "danceability": 0.892,
+      "acousticness": 0.366,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.044,
+      "duration_ms": 171080,
+      "slug": "row-row-row-your-boat-dora-the-explorer"
+    },
+    {
+      "name": "Seasons Song",
+      "artists": "Have Fun Teaching",
+      "album": "Science Songs",
+      "popularity": 35,
+      "tempo": 120.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.692,
+      "valence": 0.661,
+      "danceability": 0.845,
+      "acousticness": 0.209,
+      "instrumentalness": 0.0,
+      "loudness": -4.9,
+      "speechiness": 0.045,
+      "duration_ms": 255613,
+      "slug": "seasons-song-have-fun-teaching"
+    },
+    {
+      "name": "Go Go Go Who's Next?",
+      "artists": "Hip Hop Harry",
+      "album": "Go Go Go Who's Next?",
+      "popularity": 35,
+      "tempo": 105.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.738,
+      "valence": 0.568,
+      "danceability": 0.95,
+      "acousticness": 0.113,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.323,
+      "duration_ms": 188734,
+      "slug": "go-go-go-whos-next-hip-hop-harry"
+    },
+    {
+      "name": "See It Say It Sign It",
+      "artists": "Jack Hartmann",
+      "album": "Learning by Leaps and Bounds",
+      "popularity": 35,
+      "tempo": 82.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.739,
+      "valence": 0.36,
+      "danceability": 0.766,
+      "acousticness": 0.035,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.074,
+      "duration_ms": 362946,
+      "slug": "see-it-say-it-sign-it-jack-hartmann"
+    },
+    {
+      "name": "One Small Voice",
+      "artists": "Jack Hartmann",
+      "album": "I've Got Music in Me",
+      "popularity": 35,
+      "tempo": 67.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.261,
+      "valence": 0.248,
+      "danceability": 0.521,
+      "acousticness": 0.71,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.026,
+      "duration_ms": 114826,
+      "slug": "one-small-voice-jack-hartmann"
+    },
+    {
+      "name": "Desmond Has a Big Head",
+      "artists": "Desmond Dennis;Kayden Dennis",
+      "album": "Desmond Has a Big Head",
+      "popularity": 35,
+      "tempo": 119.9,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.519,
+      "valence": 0.523,
+      "danceability": 0.558,
+      "acousticness": 0.265,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.29,
+      "duration_ms": 122000,
+      "slug": "desmond-has-a-big-head-desmond-dennis"
+    },
+    {
+      "name": "Flex",
+      "artists": "Cupid",
+      "album": "Flex",
+      "popularity": 34,
+      "tempo": 60.5,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.674,
+      "valence": 0.751,
+      "danceability": 0.658,
+      "acousticness": 0.021,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.059,
+      "duration_ms": 228136,
+      "slug": "flex-cupid"
+    },
+    {
+      "name": "London Bridge (L\u00fand\u016bn D\u00e0qi\u00e1o)",
+      "artists": "Babyboomboom",
+      "album": "English and Mandarin Chinese",
+      "popularity": 34,
+      "tempo": 114.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.187,
+      "valence": 0.484,
+      "danceability": 0.919,
+      "acousticness": 0.907,
+      "instrumentalness": 0.0,
+      "loudness": -13.6,
+      "speechiness": 0.082,
+      "duration_ms": 59040,
+      "slug": "london-bridge-l\u00fand\u016bn-d\u00e0qi\u00e1o-babyboomboom"
+    },
+    {
+      "name": "Baby Shark",
+      "artists": "Desmond Dennis",
+      "album": "Cool Kids Jams",
+      "popularity": 34,
+      "tempo": 150.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.626,
+      "valence": 0.878,
+      "danceability": 0.707,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.045,
+      "duration_ms": 198546,
+      "slug": "baby-shark-desmond-dennis"
+    },
+    {
+      "name": "Chicken Dance",
+      "artists": "Electric Slide Music Makers",
+      "album": "Electric Slide: with friends...",
+      "popularity": 34,
+      "tempo": 96.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.428,
+      "valence": 0.906,
+      "danceability": 0.814,
+      "acousticness": 0.024,
+      "instrumentalness": 0.595,
+      "loudness": -11.1,
+      "speechiness": 0.029,
+      "duration_ms": 128426,
+      "slug": "chicken-dance-electric-slide-music-makers"
+    },
+    {
+      "name": "The Freeze Dance",
+      "artists": "Miss Melodee",
+      "album": "Find Your Melody",
+      "popularity": 34,
+      "tempo": 144.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.684,
+      "valence": 0.831,
+      "danceability": 0.76,
+      "acousticness": 0.0,
+      "instrumentalness": 0.001,
+      "loudness": -6.2,
+      "speechiness": 0.056,
+      "duration_ms": 228186,
+      "slug": "the-freeze-dance-miss-melodee"
+    },
+    {
+      "name": "Once I Caught a Fish Alive",
+      "artists": "Kidsounds",
+      "album": "Number Songs",
+      "popularity": 33,
+      "tempo": 180.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.498,
+      "valence": 0.914,
+      "danceability": 0.808,
+      "acousticness": 0.708,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.188,
+      "duration_ms": 106266,
+      "slug": "once-i-caught-a-fish-alive-kidsounds"
+    },
+    {
+      "name": "Wheels On The Bus",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer Party Favorites",
+      "popularity": 33,
+      "tempo": 155.1,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.907,
+      "valence": 0.779,
+      "danceability": 0.693,
+      "acousticness": 0.06,
+      "instrumentalness": 0.003,
+      "loudness": -3.4,
+      "speechiness": 0.083,
+      "duration_ms": 164813,
+      "slug": "wheels-on-the-bus-dora-the-explorer"
+    },
+    {
+      "name": "Pop the Bubbles",
+      "artists": "Patty Shukla",
+      "album": "I Like to Dance and Sing",
+      "popularity": 33,
+      "tempo": 95.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.721,
+      "valence": 0.904,
+      "danceability": 0.82,
+      "acousticness": 0.48,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.091,
+      "duration_ms": 104954,
+      "slug": "pop-the-bubbles-patty-shukla"
+    },
+    {
+      "name": "Down By The Bay",
+      "artists": "Diego, Dora & Friends",
+      "album": "Diego, Dora & Friends' Animal Jamboree",
+      "popularity": 33,
+      "tempo": 98.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.932,
+      "danceability": 0.837,
+      "acousticness": 0.141,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.163,
+      "duration_ms": 150240,
+      "slug": "down-by-the-bay-diego-dora-friends"
+    },
+    {
+      "name": "ABC Dance",
+      "artists": "BeatBo;Fisher-Price",
+      "album": "Fisher-Price BeatBo",
+      "popularity": 33,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.731,
+      "valence": 0.87,
+      "danceability": 0.688,
+      "acousticness": 0.028,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.195,
+      "duration_ms": 75468,
+      "slug": "abc-dance-beatbo"
+    },
+    {
+      "name": "Dora The Explorer Party Mix (including \"Dora The Explorer Theme\" & \"Travel Song\")",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer Party Favorites",
+      "popularity": 33,
+      "tempo": 124.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.919,
+      "valence": 0.681,
+      "danceability": 0.735,
+      "acousticness": 0.002,
+      "instrumentalness": 0.224,
+      "loudness": -3.9,
+      "speechiness": 0.036,
+      "duration_ms": 129746,
+      "slug": "dora-the-explorer-party-mix-including-dora-the-explorer-theme-travel-song-dora-t"
+    },
+    {
+      "name": "Chicken Dance [Deluxe][Dance Mix]",
+      "artists": "The Hampsters",
+      "album": "Hampster Dance: The Hamptons",
+      "popularity": 33,
+      "tempo": 110.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.873,
+      "valence": 0.976,
+      "danceability": 0.637,
+      "acousticness": 0.0,
+      "instrumentalness": 0.889,
+      "loudness": -8.3,
+      "speechiness": 0.027,
+      "duration_ms": 117818,
+      "slug": "chicken-dance-deluxedance-mix-the-hampsters"
+    },
+    {
+      "name": "Pirate Counting to Ten",
+      "artists": "Kidsounds",
+      "album": "Number Songs",
+      "popularity": 32,
+      "tempo": 120.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.688,
+      "valence": 0.963,
+      "danceability": 0.897,
+      "acousticness": 0.125,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.198,
+      "duration_ms": 101213,
+      "slug": "pirate-counting-to-ten-kidsounds"
+    },
+    {
+      "name": "Roll Your Hands",
+      "artists": "Debbie Doo",
+      "album": "Roll Your Hands",
+      "popularity": 32,
+      "tempo": 155.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.7,
+      "valence": 0.993,
+      "danceability": 0.741,
+      "acousticness": 0.167,
+      "instrumentalness": 0.0,
+      "loudness": -7.4,
+      "speechiness": 0.039,
+      "duration_ms": 72718,
+      "slug": "roll-your-hands-debbie-doo"
+    },
+    {
+      "name": "She'll be Coming Around the Mountain",
+      "artists": "Patty Shukla",
+      "album": "Nursery Rhymes with Patty",
+      "popularity": 32,
+      "tempo": 110.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.783,
+      "valence": 0.918,
+      "danceability": 0.783,
+      "acousticness": 0.266,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.038,
+      "duration_ms": 117934,
+      "slug": "shell-be-coming-around-the-mountain-patty-shukla"
+    },
+    {
+      "name": "The Bottle Song",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 32,
+      "tempo": 168.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.21,
+      "valence": 0.892,
+      "danceability": 0.758,
+      "acousticness": 0.516,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.06,
+      "duration_ms": 81920,
+      "slug": "the-bottle-song-amy-liz"
+    },
+    {
+      "name": "Let The Music Move Your Feet",
+      "artists": "Debbie Doo",
+      "album": "Let The Music Move Your Feet",
+      "popularity": 32,
+      "tempo": 130.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.911,
+      "valence": 0.688,
+      "danceability": 0.665,
+      "acousticness": 0.124,
+      "instrumentalness": 0.071,
+      "loudness": -8.1,
+      "speechiness": 0.036,
+      "duration_ms": 190166,
+      "slug": "let-the-music-move-your-feet-debbie-doo"
+    },
+    {
+      "name": "\"C\" IS FOR COOKIE",
+      "artists": "Little Apple Band",
+      "album": "The Favorite Songs Of Sesame Street",
+      "popularity": 32,
+      "tempo": 118.4,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.812,
+      "valence": 0.871,
+      "danceability": 0.553,
+      "acousticness": 0.132,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.056,
+      "duration_ms": 84305,
+      "slug": "c-is-for-cookie-little-apple-band"
+    },
+    {
+      "name": "The Lion Sleeps Tonight",
+      "artists": "Diego, Dora & Friends",
+      "album": "Diego, Dora & Friends' Animal Jamboree",
+      "popularity": 31,
+      "tempo": 133.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.694,
+      "danceability": 0.612,
+      "acousticness": 0.308,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.074,
+      "duration_ms": 174640,
+      "slug": "the-lion-sleeps-tonight-diego-dora-friends"
+    },
+    {
+      "name": "Finger Family",
+      "artists": "Patty Shukla",
+      "album": "Nursery Rhymes with Patty",
+      "popularity": 31,
+      "tempo": 96.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.697,
+      "valence": 0.862,
+      "danceability": 0.785,
+      "acousticness": 0.522,
+      "instrumentalness": 0.0,
+      "loudness": -7.2,
+      "speechiness": 0.034,
+      "duration_ms": 132005,
+      "slug": "finger-family-patty-shukla"
+    },
+    {
+      "name": "Sing A Song Of Sixpence",
+      "artists": "The Palace Singers",
+      "album": "Nursey Rhymes For A Little Prince",
+      "popularity": 31,
+      "tempo": 111.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.513,
+      "valence": 0.956,
+      "danceability": 0.962,
+      "acousticness": 0.753,
+      "instrumentalness": 0.002,
+      "loudness": -8.3,
+      "speechiness": 0.045,
+      "duration_ms": 61293,
+      "slug": "sing-a-song-of-sixpence-the-palace-singers"
+    },
+    {
+      "name": "The Hampster Dance Song",
+      "artists": "Electric Slide Music Makers",
+      "album": "Electric Slide: with friends...",
+      "popularity": 31,
+      "tempo": 136.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.823,
+      "valence": 0.889,
+      "danceability": 0.727,
+      "acousticness": 0.003,
+      "instrumentalness": 0.688,
+      "loudness": -9.6,
+      "speechiness": 0.041,
+      "duration_ms": 209709,
+      "slug": "the-hampster-dance-song-electric-slide-music-makers"
+    },
+    {
+      "name": "Queen Of The Waves",
+      "artists": "Little Apple Band",
+      "album": "Favorite Songs From Barbie",
+      "popularity": 31,
+      "tempo": 158.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.613,
+      "danceability": 0.624,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.05,
+      "duration_ms": 151250,
+      "slug": "queen-of-the-waves-little-apple-band"
+    },
+    {
+      "name": "Row Your Boat",
+      "artists": "Andy Z",
+      "album": "Welcome To Andyland",
+      "popularity": 31,
+      "tempo": 85.4,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.418,
+      "valence": 0.276,
+      "danceability": 0.459,
+      "acousticness": 0.851,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.6,
+      "duration_ms": 55000,
+      "slug": "row-your-boat-andy-z"
+    },
+    {
+      "name": "Chicka Chicka Boom Boom Sung by Children",
+      "artists": "John Archambault and David Plummer",
+      "album": "Chicka Chicka Boom Boom Series Volume Two - Dance and Sing With John & David",
+      "popularity": 31,
+      "tempo": 132.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.125,
+      "valence": 0.532,
+      "danceability": 0.654,
+      "acousticness": 0.97,
+      "instrumentalness": 0.0,
+      "loudness": -13.5,
+      "speechiness": 0.065,
+      "duration_ms": 152973,
+      "slug": "chicka-chicka-boom-boom-sung-by-children-john-archambault-and-david-plummer"
+    },
+    {
+      "name": "We Did It!",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer",
+      "popularity": 30,
+      "tempo": 145.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.797,
+      "valence": 0.976,
+      "danceability": 0.84,
+      "acousticness": 0.381,
+      "instrumentalness": 0.001,
+      "loudness": -5.6,
+      "speechiness": 0.039,
+      "duration_ms": 37093,
+      "slug": "we-did-it-dora-the-explorer"
+    },
+    {
+      "name": "Let's Star Jump!",
+      "artists": "Debbie Doo",
+      "album": "Let's Star Jump!",
+      "popularity": 30,
+      "tempo": 124.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.853,
+      "valence": 0.936,
+      "danceability": 0.769,
+      "acousticness": 0.048,
+      "instrumentalness": 0.117,
+      "loudness": -4.7,
+      "speechiness": 0.049,
+      "duration_ms": 111360,
+      "slug": "lets-star-jump-debbie-doo"
+    },
+    {
+      "name": "Hokey Pokey",
+      "artists": "Ultimate Party Mixers",
+      "album": "Ultimate Party Mix",
+      "popularity": 30,
+      "tempo": 131.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.307,
+      "valence": 0.913,
+      "danceability": 0.775,
+      "acousticness": 0.839,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.056,
+      "duration_ms": 193373,
+      "slug": "hokey-pokey-ultimate-party-mixers"
+    },
+    {
+      "name": "Make a Sound",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 30,
+      "tempo": 144.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.339,
+      "valence": 0.798,
+      "danceability": 0.836,
+      "acousticness": 0.4,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.073,
+      "duration_ms": 168160,
+      "slug": "make-a-sound-amy-liz"
+    },
+    {
+      "name": "Hairy Caterpillar",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 30,
+      "tempo": 85.6,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.168,
+      "valence": 0.205,
+      "danceability": 0.45,
+      "acousticness": 0.73,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.027,
+      "duration_ms": 64899,
+      "slug": "hairy-caterpillar-amy-liz"
+    },
+    {
+      "name": "Starships - Clean Lyrics",
+      "artists": "Kids Rock Kidz",
+      "album": "Kids Rock Party - Sung by Kids for Kids (Clean Lyrics)",
+      "popularity": 30,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.495,
+      "valence": 0.771,
+      "danceability": 0.651,
+      "acousticness": 0.004,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.038,
+      "duration_ms": 192640,
+      "slug": "starships-clean-lyrics-kids-rock-kidz"
+    },
+    {
+      "name": "Cornbread & Greens (feat. Big Pokey)",
+      "artists": "Cupid;Big Pokey",
+      "album": "Dance Party King",
+      "popularity": 29,
+      "tempo": 203.6,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.688,
+      "valence": 0.794,
+      "danceability": 0.69,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.156,
+      "duration_ms": 254170,
+      "slug": "cornbread-greens-feat-big-pokey-cupid"
+    },
+    {
+      "name": "I'm The Map!",
+      "artists": "Dora The Explorer",
+      "album": "Dora The Explorer",
+      "popularity": 29,
+      "tempo": 67.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.642,
+      "valence": 0.943,
+      "danceability": 0.79,
+      "acousticness": 0.689,
+      "instrumentalness": 0.248,
+      "loudness": -9.4,
+      "speechiness": 0.083,
+      "duration_ms": 30826,
+      "slug": "im-the-map-dora-the-explorer"
+    },
+    {
+      "name": "The Wheels On the Bus (Les Roues Du Bus)",
+      "artists": "Babyboomboom",
+      "album": "English and French",
+      "popularity": 29,
+      "tempo": 114.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.287,
+      "valence": 0.516,
+      "danceability": 0.923,
+      "acousticness": 0.972,
+      "instrumentalness": 0.0,
+      "loudness": -13.7,
+      "speechiness": 0.114,
+      "duration_ms": 57653,
+      "slug": "the-wheels-on-the-bus-les-roues-du-bus-babyboomboom"
+    },
+    {
+      "name": "Fire Truck",
+      "artists": "Patty Shukla",
+      "album": "Jump, Wiggle and Hop",
+      "popularity": 29,
+      "tempo": 120.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.597,
+      "valence": 0.963,
+      "danceability": 0.845,
+      "acousticness": 0.255,
+      "instrumentalness": 0.0,
+      "loudness": -3.8,
+      "speechiness": 0.036,
+      "duration_ms": 100536,
+      "slug": "fire-truck-patty-shukla"
+    },
+    {
+      "name": "Wiggle It",
+      "artists": "Patty Shukla",
+      "album": "Jump, Wiggle and Hop",
+      "popularity": 29,
+      "tempo": 150.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.555,
+      "valence": 0.803,
+      "danceability": 0.831,
+      "acousticness": 0.131,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.298,
+      "duration_ms": 115821,
+      "slug": "wiggle-it-patty-shukla"
+    },
+    {
+      "name": "The Freeze",
+      "artists": "Debbie Doo",
+      "album": "The Freeze",
+      "popularity": 29,
+      "tempo": 159.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.586,
+      "valence": 0.761,
+      "danceability": 0.741,
+      "acousticness": 0.461,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.084,
+      "duration_ms": 101966,
+      "slug": "the-freeze-debbie-doo"
+    },
+    {
+      "name": "The BeatBo Shake",
+      "artists": "BeatBo;Fisher-Price",
+      "album": "Fisher-Price BeatBo",
+      "popularity": 29,
+      "tempo": 126.2,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.717,
+      "valence": 0.578,
+      "danceability": 0.74,
+      "acousticness": 0.48,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.057,
+      "duration_ms": 80000,
+      "slug": "the-beatbo-shake-beatbo"
+    },
+    {
+      "name": "Three Bear Rap",
+      "artists": "Amy Liz",
+      "album": "Kid Hits",
+      "popularity": 29,
+      "tempo": 148.2,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.447,
+      "valence": 0.679,
+      "danceability": 0.773,
+      "acousticness": 0.31,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.405,
+      "duration_ms": 109266,
+      "slug": "three-bear-rap-amy-liz"
+    },
+    {
+      "name": "Baby Shark",
+      "artists": "Jack Hartmann",
+      "album": "Learning by Leaps and Bounds",
+      "popularity": 29,
+      "tempo": 115.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.675,
+      "danceability": 0.967,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.068,
+      "duration_ms": 108539,
+      "slug": "baby-shark-jack-hartmann"
+    },
+    {
+      "name": "Shimmer and Shine Theme",
+      "artists": "The Kiddie Katz",
+      "album": "Tv Toons 2: Favorite Children Tv Show Themes",
+      "popularity": 29,
+      "tempo": 118.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.763,
+      "valence": 0.281,
+      "danceability": 0.771,
+      "acousticness": 0.556,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.048,
+      "duration_ms": 44828,
+      "slug": "shimmer-and-shine-theme-the-kiddie-katz"
+    },
+    {
+      "name": "The Love Slide",
+      "artists": "Cupid",
+      "album": "The Love Slide - Single",
+      "popularity": 28,
+      "tempo": 124.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.685,
+      "valence": 0.719,
+      "danceability": 0.686,
+      "acousticness": 0.011,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.036,
+      "duration_ms": 269140,
+      "slug": "the-love-slide-cupid"
+    },
+    {
+      "name": "Do It With Your Boots On (Zydeco Remix)",
+      "artists": "Cupid",
+      "album": "Feel Good Music",
+      "popularity": 28,
+      "tempo": 77.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.902,
+      "valence": 0.952,
+      "danceability": 0.598,
+      "acousticness": 0.257,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.084,
+      "duration_ms": 405195,
+      "slug": "do-it-with-your-boots-on-zydeco-remix-cupid"
+    }
+  ]
+}

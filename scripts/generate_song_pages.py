@@ -10,7 +10,7 @@ import json, os, sys, re, html as H
 from pathlib import Path
 
 SITE = Path.home() / 'kapiko' / 'site'
-GENRES = ['piano','sleep','chill','study','classical','jazz','acoustic','electronic','hip-hop','soul','pop','r-n-b','country','rock','edm','indie','folk','reggaeton','synth-pop','trip-hop','blues','metal','funk','disco','reggae','punk','house','techno','trance','deep-house','dubstep','k-pop','latin','afrobeat','j-pop','alt-rock','grunge','hard-rock','singer-songwriter','indie-pop','dance','heavy-metal','gospel','emo','ska','drum-and-bass','progressive-house','idm','electro','punk-rock','hardcore','psych-rock','rock-n-roll','indian','anime','dancehall','mandopop','bluegrass','new-age','guitar','alternative','goth','industrial','metalcore','death-metal','dub','garage','minimal-techno','detroit-techno','chicago-house','hardstyle','world-music','opera','tango','salsa','j-rock','cantopop','rockabilly','honky-tonk','power-pop']
+GENRES = ['piano', 'sleep', 'chill', 'study', 'classical', 'jazz', 'acoustic', 'electronic', 'hip-hop', 'soul', 'pop', 'r-n-b', 'country', 'rock', 'edm', 'indie', 'folk', 'reggaeton', 'synth-pop', 'trip-hop', 'blues', 'metal', 'funk', 'disco', 'reggae', 'punk', 'house', 'techno', 'trance', 'deep-house', 'dubstep', 'k-pop', 'latin', 'afrobeat', 'j-pop', 'alt-rock', 'grunge', 'hard-rock', 'singer-songwriter', 'indie-pop', 'dance', 'heavy-metal', 'gospel', 'emo', 'ska', 'drum-and-bass', 'progressive-house', 'idm', 'electro', 'punk-rock', 'hardcore', 'psych-rock', 'rock-n-roll', 'indian', 'anime', 'dancehall', 'mandopop', 'bluegrass', 'new-age', 'guitar', 'alternative', 'goth', 'industrial', 'metalcore', 'death-metal', 'dub', 'garage', 'minimal-techno', 'detroit-techno', 'chicago-house', 'hardstyle', 'world-music', 'opera', 'tango', 'salsa', 'j-rock', 'cantopop', 'rockabilly', 'honky-tonk', 'power-pop', 'black-metal', 'brazil', 'breakbeat', 'british', 'children', 'club', 'comedy', 'disney', 'forro', 'french', 'german', 'grindcore', 'groove', 'happy', 'iranian', 'j-dance', 'j-idol', 'kids', 'latino', 'malay', 'mpb', 'pagode', 'party', 'pop-film', 'romance', 'sad', 'samba', 'sertanejo', 'show-tunes', 'songwriter', 'spanish', 'swedish', 'turkish']
 
 def esc(t): return H.escape(str(t))
 
@@ -113,6 +113,39 @@ def infer_instruments(genre, acousticness, instrumentalness, energy):
         'rockabilly': ['slap bass','twangy guitar','snare drum'],
         'honky-tonk': ['steel guitar','fiddle','honky-tonk piano'],
         'power-pop': ['chiming guitar','vocal harmonies','handclaps'],
+        'black-metal': ['tremolo guitar','blast beats','shrieked vocals'],
+        'brazil': ['acoustic guitar','percussion','cavaquinho'],
+        'breakbeat': ['chopped breaks','heavy bass','synth stabs'],
+        'british': ['guitar','bass','drums'],
+        'children': ['piano','ukulele','xylophone'],
+        'club': ['heavy bass','synth drops','vocal hooks'],
+        'comedy': ['various','piano','sound effects'],
+        'disney': ['orchestra','piano','choir'],
+        'forro': ['accordion','zabumba drum','triangle'],
+        'french': ['accordion','guitar','synths'],
+        'german': ['synths','guitar','electronic production'],
+        'grindcore': ['blast beats','distorted guitar','guttural vocals'],
+        'groove': ['heavy riffs','tight drums','bass groove'],
+        'happy': ['synths','bright drums','cheerful melodies'],
+        'iranian': ['tar','santur','kamancheh'],
+        'j-dance': ['synth','electronic drums','bass drops'],
+        'j-idol': ['synth','programmed drums','vocal harmonies'],
+        'kids': ['ukulele','piano','friendly vocals'],
+        'latino': ['congas','trumpet','accordion'],
+        'malay': ['rebab','kompang','guitar'],
+        'mpb': ['acoustic guitar','piano','percussion'],
+        'pagode': ['cavaquinho','pandeiro','banjo'],
+        'party': ['heavy bass','synths','brass'],
+        'pop-film': ['orchestra','synth','piano'],
+        'romance': ['strings','piano','acoustic guitar'],
+        'sad': ['piano','strings','soft guitar'],
+        'samba': ['surdo','tamborim','cavaquinho'],
+        'sertanejo': ['viola caipira','acoustic guitar','accordion'],
+        'show-tunes': ['orchestra','piano','brass'],
+        'songwriter': ['acoustic guitar','piano','harmonica'],
+        'spanish': ['Spanish guitar','cajon','castanets'],
+        'swedish': ['synths','guitar','polished production'],
+        'turkish': ['baglama','ney','darbuka'],
     }.get(genre, ['various instruments'])
     return ', '.join(base)
 

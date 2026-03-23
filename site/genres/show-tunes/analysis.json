@@ -1,0 +1,2803 @@
+{
+  "genre": "Show Tunes",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 54.747,
+    "max": 191.702,
+    "mean": 118.598,
+    "median": 117.457,
+    "q1": 92.375,
+    "q3": 143.991,
+    "histogram": {
+      "50-59": 1,
+      "60-69": 1,
+      "70-79": 7,
+      "80-89": 15,
+      "90-99": 14,
+      "100-109": 7,
+      "110-119": 8,
+      "120-129": 13,
+      "130-139": 8,
+      "140-149": 7,
+      "150-159": 6,
+      "160-169": 3,
+      "170-179": 8,
+      "190-199": 2
+    }
+  },
+  "key_distribution": {
+    "C": 13,
+    "F": 13,
+    "G": 11,
+    "A": 11,
+    "D": 9,
+    "B": 9,
+    "E": 9,
+    "G#/Ab": 8,
+    "F#/Gb": 7,
+    "A#/Bb": 5,
+    "C#/Db": 4,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Major": 75,
+    "Minor": 25
+  },
+  "key_mode_distribution": {
+    "G Major": 10,
+    "C Major": 10,
+    "A Major": 9,
+    "G#/Ab Major": 8,
+    "D Major": 8,
+    "B Minor": 8,
+    "E Major": 8,
+    "F Major": 8,
+    "F#/Gb Major": 6,
+    "F Minor": 5,
+    "A#/Bb Major": 3,
+    "C#/Db Major": 3,
+    "C Minor": 3,
+    "A#/Bb Minor": 2,
+    "A Minor": 2,
+    "C#/Db Minor": 1,
+    "E Minor": 1,
+    "G Minor": 1,
+    "D#/Eb Major": 1,
+    "F#/Gb Minor": 1,
+    "D Minor": 1,
+    "B Major": 1
+  },
+  "energy": {
+    "min": 0.126,
+    "max": 0.883,
+    "mean": 0.461,
+    "median": 0.45,
+    "q1": 0.342,
+    "q3": 0.608
+  },
+  "valence": {
+    "min": 0.075,
+    "max": 0.939,
+    "mean": 0.427,
+    "median": 0.422,
+    "q1": 0.274,
+    "q3": 0.581
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.394,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.485,
+      "valence": 0.371
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.619,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.312,
+      "valence": 0.1
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.1
+    },
+    {
+      "energy": 0.405,
+      "valence": 0.274
+    },
+    {
+      "energy": 0.313,
+      "valence": 0.725
+    },
+    {
+      "energy": 0.824,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.518,
+      "valence": 0.083
+    },
+    {
+      "energy": 0.429,
+      "valence": 0.174
+    },
+    {
+      "energy": 0.144,
+      "valence": 0.302
+    },
+    {
+      "energy": 0.593,
+      "valence": 0.478
+    },
+    {
+      "energy": 0.435,
+      "valence": 0.552
+    },
+    {
+      "energy": 0.466,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.475,
+      "valence": 0.819
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.792
+    },
+    {
+      "energy": 0.473,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.491,
+      "valence": 0.737
+    },
+    {
+      "energy": 0.482,
+      "valence": 0.441
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.255
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.439,
+      "valence": 0.528
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.585
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.36
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.779
+    },
+    {
+      "energy": 0.307,
+      "valence": 0.114
+    },
+    {
+      "energy": 0.754,
+      "valence": 0.702
+    },
+    {
+      "energy": 0.326,
+      "valence": 0.434
+    },
+    {
+      "energy": 0.478,
+      "valence": 0.293
+    },
+    {
+      "energy": 0.704,
+      "valence": 0.1
+    },
+    {
+      "energy": 0.481,
+      "valence": 0.48
+    },
+    {
+      "energy": 0.49,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.137,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.284
+    },
+    {
+      "energy": 0.164,
+      "valence": 0.228
+    },
+    {
+      "energy": 0.413,
+      "valence": 0.383
+    },
+    {
+      "energy": 0.221,
+      "valence": 0.274
+    },
+    {
+      "energy": 0.237,
+      "valence": 0.625
+    },
+    {
+      "energy": 0.409,
+      "valence": 0.577
+    },
+    {
+      "energy": 0.126,
+      "valence": 0.21
+    },
+    {
+      "energy": 0.375,
+      "valence": 0.131
+    },
+    {
+      "energy": 0.504,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.883,
+      "valence": 0.51
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.596
+    },
+    {
+      "energy": 0.373,
+      "valence": 0.274
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.443,
+      "valence": 0.367
+    },
+    {
+      "energy": 0.139,
+      "valence": 0.102
+    },
+    {
+      "energy": 0.624,
+      "valence": 0.213
+    },
+    {
+      "energy": 0.305,
+      "valence": 0.594
+    },
+    {
+      "energy": 0.2,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.535,
+      "valence": 0.395
+    },
+    {
+      "energy": 0.415,
+      "valence": 0.581
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.939
+    },
+    {
+      "energy": 0.35,
+      "valence": 0.849
+    },
+    {
+      "energy": 0.326,
+      "valence": 0.156
+    },
+    {
+      "energy": 0.302,
+      "valence": 0.277
+    },
+    {
+      "energy": 0.471,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.731,
+      "valence": 0.603
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.563
+    },
+    {
+      "energy": 0.593,
+      "valence": 0.618
+    },
+    {
+      "energy": 0.614,
+      "valence": 0.47
+    },
+    {
+      "energy": 0.632,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.174,
+      "valence": 0.083
+    },
+    {
+      "energy": 0.288,
+      "valence": 0.075
+    },
+    {
+      "energy": 0.371,
+      "valence": 0.587
+    },
+    {
+      "energy": 0.643,
+      "valence": 0.644
+    },
+    {
+      "energy": 0.187,
+      "valence": 0.227
+    },
+    {
+      "energy": 0.658,
+      "valence": 0.513
+    },
+    {
+      "energy": 0.608,
+      "valence": 0.354
+    },
+    {
+      "energy": 0.42,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.477,
+      "valence": 0.247
+    },
+    {
+      "energy": 0.362,
+      "valence": 0.311
+    },
+    {
+      "energy": 0.312,
+      "valence": 0.455
+    },
+    {
+      "energy": 0.342,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.342,
+      "valence": 0.684
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.692
+    },
+    {
+      "energy": 0.37,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.436,
+      "valence": 0.378
+    },
+    {
+      "energy": 0.389,
+      "valence": 0.5
+    },
+    {
+      "energy": 0.713,
+      "valence": 0.511
+    },
+    {
+      "energy": 0.236,
+      "valence": 0.501
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.832
+    },
+    {
+      "energy": 0.546,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.242,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.132,
+      "valence": 0.323
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.543
+    },
+    {
+      "energy": 0.351,
+      "valence": 0.307
+    },
+    {
+      "energy": 0.457,
+      "valence": 0.166
+    },
+    {
+      "energy": 0.426,
+      "valence": 0.101
+    },
+    {
+      "energy": 0.19,
+      "valence": 0.253
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.744
+    },
+    {
+      "energy": 0.655,
+      "valence": 0.747
+    },
+    {
+      "energy": 0.824,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.233,
+      "valence": 0.409
+    },
+    {
+      "energy": 0.421,
+      "valence": 0.578
+    },
+    {
+      "energy": 0.29,
+      "valence": 0.078
+    },
+    {
+      "energy": 0.589,
+      "valence": 0.576
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.929,
+    "mean": 0.464,
+    "median": 0.466,
+    "q1": 0.225,
+    "q3": 0.724
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.403,
+    "mean": 0.005,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.423,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.558,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.072,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.243,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.849,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.617,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.054
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.724,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.92,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.287,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.522,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.39,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.708,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.187,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.334,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.211,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.086,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.752,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.399,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.272,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.514,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.585,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.345,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.705,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.695,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.228,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.271,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.882,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.042,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.929,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.177,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.907,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.835,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.684,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.879,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.225,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.82,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.297,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.302,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.803,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.316,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.726,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.086,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.68,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.819,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.464,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.471,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.387,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.564,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.777,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.603,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.208,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.168,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.518,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.207,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.09,
+      "instrumentalness": 0.403
+    },
+    {
+      "acousticness": 0.398,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.805,
+      "instrumentalness": 0.009
+    },
+    {
+      "acousticness": 0.917,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.587,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.378,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.796,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.086,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.168,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.631,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.291,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.637,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.647,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.536,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.536,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.312,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.293,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.649,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.685,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.892,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.762,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.447,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.914,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.339,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.467,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.222,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.452,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.919,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.234,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.743,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.054
+    },
+    {
+      "acousticness": 0.803,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.813,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.799,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.494,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 50960,
+    "max": 499106,
+    "mean": 210484.62,
+    "median": 209320.5,
+    "q1": 150063,
+    "q3": 249426
+  },
+  "danceability": {
+    "min": 0.166,
+    "max": 0.795,
+    "mean": 0.526,
+    "median": 0.537,
+    "q1": 0.417,
+    "q3": 0.672
+  },
+  "loudness": {
+    "min": -19.3,
+    "max": -4.767,
+    "mean": -9.557,
+    "median": -8.608,
+    "q1": -10.579,
+    "q3": -7.005
+  },
+  "speechiness": {
+    "min": 0.028,
+    "max": 0.818,
+    "mean": 0.153,
+    "median": 0.082,
+    "q1": 0.041,
+    "q3": 0.221
+  },
+  "top_artists": [
+    {
+      "name": "Original Broadway Cast of Hamilton",
+      "count": 23
+    },
+    {
+      "name": "Lin-Manuel Miranda",
+      "count": 21
+    },
+    {
+      "name": "Leslie Odom Jr.",
+      "count": 15
+    },
+    {
+      "name": "Disney",
+      "count": 12
+    },
+    {
+      "name": "Ben Platt",
+      "count": 9
+    },
+    {
+      "name": "Daveed Diggs",
+      "count": 8
+    },
+    {
+      "name": "Phillipa Soo",
+      "count": 8
+    },
+    {
+      "name": "Okieriete Onaodowan",
+      "count": 7
+    },
+    {
+      "name": "Christopher Jackson",
+      "count": 7
+    },
+    {
+      "name": "Anthony Ramos",
+      "count": 6
+    },
+    {
+      "name": "Zac Efron",
+      "count": 5
+    },
+    {
+      "name": "Hugh Jackman",
+      "count": 5
+    },
+    {
+      "name": "The Greatest Showman Ensemble",
+      "count": 5
+    },
+    {
+      "name": "Ren\u00e9e Elise Goldsberry",
+      "count": 5
+    },
+    {
+      "name": "Jonathan Groff",
+      "count": 5
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Never Enough",
+      "artists": "Loren Allred",
+      "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+      "popularity": 75,
+      "tempo": 86.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.394,
+      "valence": 0.227,
+      "danceability": 0.277,
+      "acousticness": 0.423,
+      "instrumentalness": 0.0,
+      "loudness": -8.9,
+      "speechiness": 0.034,
+      "duration_ms": 207786,
+      "slug": "never-enough-loren-allred"
+    },
+    {
+      "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
+      "artists": "Idina Menzel",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 75,
+      "tempo": 137.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.485,
+      "valence": 0.371,
+      "danceability": 0.543,
+      "acousticness": 0.558,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.03,
+      "duration_ms": 223840,
+      "slug": "let-it-go-from-frozensoundtrack-version-idina-menzel"
+    },
+    {
+      "name": "Rewrite The Stars",
+      "artists": "Zac Efron;Zendaya",
+      "album": "Rewrite The Stars",
+      "popularity": 74,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.619,
+      "valence": 0.284,
+      "danceability": 0.684,
+      "acousticness": 0.072,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.039,
+      "duration_ms": 217440,
+      "slug": "rewrite-the-stars-zac-efron"
+    },
+    {
+      "name": "Rewrite The Stars",
+      "artists": "Zac Efron;Zendaya",
+      "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+      "popularity": 74,
+      "tempo": 125.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.619,
+      "valence": 0.284,
+      "danceability": 0.684,
+      "acousticness": 0.072,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.039,
+      "duration_ms": 217440,
+      "slug": "rewrite-the-stars-zac-efron"
+    },
+    {
+      "name": "A Million Dreams",
+      "artists": "Ziv Zaifman;Hugh Jackman;Michelle Williams",
+      "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+      "popularity": 74,
+      "tempo": 54.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.312,
+      "valence": 0.1,
+      "danceability": 0.265,
+      "acousticness": 0.243,
+      "instrumentalness": 0.0,
+      "loudness": -11.7,
+      "speechiness": 0.057,
+      "duration_ms": 269453,
+      "slug": "a-million-dreams-ziv-zaifman"
+    },
+    {
+      "name": "This Is Me",
+      "artists": "Keala Settle;The Greatest Showman Ensemble",
+      "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+      "popularity": 74,
+      "tempo": 191.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.704,
+      "valence": 0.1,
+      "danceability": 0.284,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.186,
+      "duration_ms": 234706,
+      "slug": "this-is-me-keala-settle"
+    },
+    {
+      "name": "Into the Unknown",
+      "artists": "Idina Menzel;AURORA",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 73,
+      "tempo": 145.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.405,
+      "valence": 0.274,
+      "danceability": 0.323,
+      "acousticness": 0.849,
+      "instrumentalness": 0.001,
+      "loudness": -8.5,
+      "speechiness": 0.041,
+      "duration_ms": 194848,
+      "slug": "into-the-unknown-idina-menzel"
+    },
+    {
+      "name": "Hakuna Matata - From \"The Lion King\"/Soundtrack",
+      "artists": "Nathan Lane;Ernie Sabella;Jason Weaver;Joseph Williams",
+      "album": "The Lion King",
+      "popularity": 72,
+      "tempo": 170.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.313,
+      "valence": 0.725,
+      "danceability": 0.408,
+      "acousticness": 0.617,
+      "instrumentalness": 0.0,
+      "loudness": -18.1,
+      "speechiness": 0.137,
+      "duration_ms": 213600,
+      "slug": "hakuna-matata-from-the-lion-kingsoundtrack-nathan-lane"
+    },
+    {
+      "name": "The Greatest Show",
+      "artists": "Hugh Jackman;Keala Settle;Zac Efron;Zendaya;The Greatest Showman Ensemble",
+      "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+      "popularity": 72,
+      "tempo": 157.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.824,
+      "valence": 0.4,
+      "danceability": 0.417,
+      "acousticness": 0.0,
+      "instrumentalness": 0.054,
+      "loudness": -7.4,
+      "speechiness": 0.105,
+      "duration_ms": 302146,
+      "slug": "the-greatest-show-hugh-jackman"
+    },
+    {
+      "name": "From Now On",
+      "artists": "Hugh Jackman;The Greatest Showman Ensemble",
+      "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+      "popularity": 71,
+      "tempo": 108.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.518,
+      "valence": 0.083,
+      "danceability": 0.516,
+      "acousticness": 0.005,
+      "instrumentalness": 0.009,
+      "loudness": -10.4,
+      "speechiness": 0.04,
+      "duration_ms": 349560,
+      "slug": "from-now-on-hugh-jackman"
+    },
+    {
+      "name": "Show Yourself",
+      "artists": "Idina Menzel;Evan Rachel Wood",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 70,
+      "tempo": 123.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.429,
+      "valence": 0.174,
+      "danceability": 0.321,
+      "acousticness": 0.724,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.03,
+      "duration_ms": 260906,
+      "slug": "show-yourself-idina-menzel"
+    },
+    {
+      "name": "Part of Your World",
+      "artists": "Jodi Benson;Disney",
+      "album": "The Little Mermaid Special Edition",
+      "popularity": 70,
+      "tempo": 61.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.144,
+      "valence": 0.302,
+      "danceability": 0.274,
+      "acousticness": 0.92,
+      "instrumentalness": 0.0,
+      "loudness": -14.5,
+      "speechiness": 0.048,
+      "duration_ms": 195493,
+      "slug": "part-of-your-world-jodi-benson"
+    },
+    {
+      "name": "Satisfied",
+      "artists": "Ren\u00e9e Elise Goldsberry;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 70,
+      "tempo": 123.8,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.593,
+      "valence": 0.478,
+      "danceability": 0.707,
+      "acousticness": 0.287,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.095,
+      "duration_ms": 329228,
+      "slug": "satisfied-ren\u00e9e-elise-goldsberry"
+    },
+    {
+      "name": "Alexander Hamilton",
+      "artists": "Leslie Odom Jr.;Daveed Diggs;Okieriete Onaodowan;Lin-Manuel Miranda;Phillipa Soo;Christopher Jackson;Original Broadway Cast of Hamilton;Anthony Ramos",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 70,
+      "tempo": 132.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.435,
+      "valence": 0.552,
+      "danceability": 0.609,
+      "acousticness": 0.522,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.285,
+      "duration_ms": 236737,
+      "slug": "alexander-hamilton-leslie-odom-jr"
+    },
+    {
+      "name": "You'll Be Back",
+      "artists": "Jonathan Groff;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 70,
+      "tempo": 121.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.466,
+      "valence": 0.434,
+      "danceability": 0.607,
+      "acousticness": 0.39,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.058,
+      "duration_ms": 208321,
+      "slug": "youll-be-back-jonathan-groff"
+    },
+    {
+      "name": "Under the Sea",
+      "artists": "Samuel E. Wright;Disney",
+      "album": "The Little Mermaid Special Edition",
+      "popularity": 69,
+      "tempo": 99.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.475,
+      "valence": 0.819,
+      "danceability": 0.511,
+      "acousticness": 0.708,
+      "instrumentalness": 0.0,
+      "loudness": -14.7,
+      "speechiness": 0.161,
+      "duration_ms": 195146,
+      "slug": "under-the-sea-samuel-e-wright"
+    },
+    {
+      "name": "The Schuyler Sisters",
+      "artists": "Ren\u00e9e Elise Goldsberry;Phillipa Soo;Jasmine Cephas-Jones;Leslie Odom Jr.;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 69,
+      "tempo": 101.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.727,
+      "valence": 0.792,
+      "danceability": 0.74,
+      "acousticness": 0.187,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.278,
+      "duration_ms": 186542,
+      "slug": "the-schuyler-sisters-ren\u00e9e-elise-goldsberry"
+    },
+    {
+      "name": "Wait for It",
+      "artists": "Leslie Odom Jr.;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 69,
+      "tempo": 86.5,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.473,
+      "valence": 0.519,
+      "danceability": 0.543,
+      "acousticness": 0.124,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.157,
+      "duration_ms": 193749,
+      "slug": "wait-for-it-leslie-odom-jr"
+    },
+    {
+      "name": "Helpless",
+      "artists": "Phillipa Soo;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 68,
+      "tempo": 79.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.491,
+      "valence": 0.737,
+      "danceability": 0.688,
+      "acousticness": 0.334,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.269,
+      "duration_ms": 249770,
+      "slug": "helpless-phillipa-soo"
+    },
+    {
+      "name": "Non-Stop",
+      "artists": "Leslie Odom Jr.;Lin-Manuel Miranda;Ren\u00e9e Elise Goldsberry;Phillipa Soo;Christopher Jackson;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 67,
+      "tempo": 92.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.482,
+      "valence": 0.441,
+      "danceability": 0.77,
+      "acousticness": 0.211,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.351,
+      "duration_ms": 385438,
+      "slug": "non-stop-leslie-odom-jr"
+    },
+    {
+      "name": "Gotta Go My Own Way",
+      "artists": "Zac Efron;Vanessa Hudgens;Disney",
+      "album": "High School Musical 2 (Original Soundtrack)",
+      "popularity": 67,
+      "tempo": 89.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.692,
+      "valence": 0.313,
+      "danceability": 0.555,
+      "acousticness": 0.086,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.028,
+      "duration_ms": 222360,
+      "slug": "gotta-go-my-own-way-zac-efron"
+    },
+    {
+      "name": "Burn",
+      "artists": "Phillipa Soo",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 67,
+      "tempo": 99.6,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.428,
+      "valence": 0.255,
+      "danceability": 0.582,
+      "acousticness": 0.752,
+      "instrumentalness": 0.0,
+      "loudness": -9.1,
+      "speechiness": 0.052,
+      "duration_ms": 225240,
+      "slug": "burn-phillipa-soo"
+    },
+    {
+      "name": "Guns and Ships",
+      "artists": "Leslie Odom Jr.;Daveed Diggs;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 67,
+      "tempo": 138.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.666,
+      "valence": 0.383,
+      "danceability": 0.72,
+      "acousticness": 0.399,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.328,
+      "duration_ms": 127578,
+      "slug": "guns-and-ships-leslie-odom-jr"
+    },
+    {
+      "name": "Aaron Burr, Sir",
+      "artists": "Lin-Manuel Miranda;Leslie Odom Jr.;Daveed Diggs;Okieriete Onaodowan;Anthony Ramos",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 67,
+      "tempo": 160.4,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.439,
+      "valence": 0.528,
+      "danceability": 0.646,
+      "acousticness": 0.272,
+      "instrumentalness": 0.0,
+      "loudness": -10.8,
+      "speechiness": 0.818,
+      "duration_ms": 156630,
+      "slug": "aaron-burr-sir-lin-manuel-miranda"
+    },
+    {
+      "name": "Meant to Be Yours",
+      "artists": "Ryan McCartan;Barrett Wilbert Weed;Michelle Duffy",
+      "album": "Heathers: The Musical (World Premiere Cast Recording)",
+      "popularity": 67,
+      "tempo": 99.6,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.589,
+      "valence": 0.585,
+      "danceability": 0.505,
+      "acousticness": 0.514,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.085,
+      "duration_ms": 205826,
+      "slug": "meant-to-be-yours-ryan-mccartan"
+    },
+    {
+      "name": "30/90",
+      "artists": "Andrew Garfield;Joshua Henry;Vanessa Hudgens;Robin de Jesus;Alexandra Shipp;MJ Rodriguez",
+      "album": "tick, tick... BOOM! (Soundtrack from the Netflix Film)",
+      "popularity": 67,
+      "tempo": 175.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.789,
+      "valence": 0.36,
+      "danceability": 0.466,
+      "acousticness": 0.015,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.066,
+      "duration_ms": 262505,
+      "slug": "3090-andrew-garfield"
+    },
+    {
+      "name": "Candy Store",
+      "artists": "Jessica Keenan Wynn;Alice Lee;Elle McLemore",
+      "album": "Heathers: The Musical (World Premiere Cast Recording)",
+      "popularity": 67,
+      "tempo": 141.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.525,
+      "valence": 0.779,
+      "danceability": 0.728,
+      "acousticness": 0.585,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.171,
+      "duration_ms": 172826,
+      "slug": "candy-store-jessica-keenan-wynn"
+    },
+    {
+      "name": "How Far I'll Go - From \"Moana\"/Soundtrack Version",
+      "artists": "Auli'i Cravalho",
+      "album": "Disney Summer Songs",
+      "popularity": 66,
+      "tempo": 83.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.307,
+      "valence": 0.114,
+      "danceability": 0.537,
+      "acousticness": 0.649,
+      "instrumentalness": 0.0,
+      "loudness": -11.0,
+      "speechiness": 0.054,
+      "duration_ms": 163386,
+      "slug": "how-far-ill-go-from-moanasoundtrack-version-aulii-cravalho"
+    },
+    {
+      "name": "Say My Name",
+      "artists": "Alex Brightman;Sophia Anne Caruso;Kerry Butler;Rob McClure",
+      "album": "Beetlejuice (Original Broadway Cast Recording)",
+      "popularity": 66,
+      "tempo": 93.6,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.754,
+      "valence": 0.702,
+      "danceability": 0.534,
+      "acousticness": 0.345,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.221,
+      "duration_ms": 235286,
+      "slug": "say-my-name-alex-brightman"
+    },
+    {
+      "name": "When I Am Older",
+      "artists": "Josh Gad",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 66,
+      "tempo": 116.9,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.326,
+      "valence": 0.434,
+      "danceability": 0.73,
+      "acousticness": 0.705,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.26,
+      "duration_ms": 111452,
+      "slug": "when-i-am-older-josh-gad"
+    },
+    {
+      "name": "Lost in the Woods",
+      "artists": "Jonathan Groff",
+      "album": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 66,
+      "tempo": 149.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.478,
+      "valence": 0.293,
+      "danceability": 0.366,
+      "acousticness": 0.695,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.028,
+      "duration_ms": 180762,
+      "slug": "lost-in-the-woods-jonathan-groff"
+    },
+    {
+      "name": "This Is Me",
+      "artists": "Keala Settle;The Greatest Showman Ensemble",
+      "album": "This Is Me",
+      "popularity": 66,
+      "tempo": 191.7,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.704,
+      "valence": 0.1,
+      "danceability": 0.284,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.186,
+      "duration_ms": 234706,
+      "slug": "this-is-me-keala-settle"
+    },
+    {
+      "name": "I Won't Say (I'm In Love)",
+      "artists": "Susan Egan;Cheryl Freeman;LaChanze;Vaneese Thomas;Lillias White;Disney",
+      "album": "Hercules (Original Motion Picture Soundtrack)",
+      "popularity": 66,
+      "tempo": 121.2,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.481,
+      "valence": 0.48,
+      "danceability": 0.684,
+      "acousticness": 0.228,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.039,
+      "duration_ms": 140226,
+      "slug": "i-wont-say-im-in-love-susan-egan"
+    },
+    {
+      "name": "The Room Where It Happens",
+      "artists": "Leslie Odom Jr.;Lin-Manuel Miranda;Daveed Diggs;Okieriete Onaodowan;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 66,
+      "tempo": 173.6,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.49,
+      "valence": 0.511,
+      "danceability": 0.638,
+      "acousticness": 0.271,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.426,
+      "duration_ms": 318214,
+      "slug": "the-room-where-it-happens-leslie-odom-jr"
+    },
+    {
+      "name": "Grow As We Go",
+      "artists": "Ben Platt",
+      "album": "Sing To Me Instead",
+      "popularity": 65,
+      "tempo": 80.8,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.137,
+      "valence": 0.437,
+      "danceability": 0.458,
+      "acousticness": 0.882,
+      "instrumentalness": 0.0,
+      "loudness": -14.1,
+      "speechiness": 0.035,
+      "duration_ms": 249426,
+      "slug": "grow-as-we-go-ben-platt"
+    },
+    {
+      "name": "imagine",
+      "artists": "Ben Platt",
+      "album": "Imagine",
+      "popularity": 65,
+      "tempo": 130.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.412,
+      "valence": 0.284,
+      "danceability": 0.542,
+      "acousticness": 0.042,
+      "instrumentalness": 0.0,
+      "loudness": -6.8,
+      "speechiness": 0.041,
+      "duration_ms": 164202,
+      "slug": "imagine-ben-platt"
+    },
+    {
+      "name": "Colors of the Wind - From \"Pocahontas\" / Soundtrack Version",
+      "artists": "Judy Kuhn",
+      "album": "Pocahontas",
+      "popularity": 65,
+      "tempo": 81.6,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.164,
+      "valence": 0.228,
+      "danceability": 0.272,
+      "acousticness": 0.929,
+      "instrumentalness": 0.001,
+      "loudness": -17.0,
+      "speechiness": 0.046,
+      "duration_ms": 214400,
+      "slug": "colors-of-the-wind-from-pocahontas-soundtrack-version-judy-kuhn"
+    },
+    {
+      "name": "Right Hand Man",
+      "artists": "Lin-Manuel Miranda;Leslie Odom Jr.;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 65,
+      "tempo": 158.6,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.413,
+      "valence": 0.383,
+      "danceability": 0.68,
+      "acousticness": 0.177,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.492,
+      "duration_ms": 321696,
+      "slug": "right-hand-man-lin-manuel-miranda"
+    },
+    {
+      "name": "Dear Theodosia",
+      "artists": "Leslie Odom Jr.;Lin-Manuel Miranda",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 65,
+      "tempo": 106.8,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.221,
+      "valence": 0.274,
+      "danceability": 0.598,
+      "acousticness": 0.907,
+      "instrumentalness": 0.0,
+      "loudness": -10.5,
+      "speechiness": 0.03,
+      "duration_ms": 184004,
+      "slug": "dear-theodosia-leslie-odom-jr"
+    },
+    {
+      "name": "The Story of Tonight",
+      "artists": "Lin-Manuel Miranda;Okieriete Onaodowan;Daveed Diggs;Original Broadway Cast of Hamilton;Anthony Ramos",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 65,
+      "tempo": 95.2,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.237,
+      "valence": 0.625,
+      "danceability": 0.494,
+      "acousticness": 0.835,
+      "instrumentalness": 0.0,
+      "loudness": -10.6,
+      "speechiness": 0.052,
+      "duration_ms": 91980,
+      "slug": "the-story-of-tonight-lin-manuel-miranda"
+    },
+    {
+      "name": "Farmer Refuted",
+      "artists": "Thayne Jasperson;Lin-Manuel Miranda;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 65,
+      "tempo": 77.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.409,
+      "valence": 0.577,
+      "danceability": 0.795,
+      "acousticness": 0.684,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.372,
+      "duration_ms": 112742,
+      "slug": "farmer-refuted-thayne-jasperson"
+    },
+    {
+      "name": "Go the Distance",
+      "artists": "Roger Bart;Disney",
+      "album": "Hercules (Original Motion Picture Soundtrack)",
+      "popularity": 65,
+      "tempo": 88.6,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.126,
+      "valence": 0.21,
+      "danceability": 0.275,
+      "acousticness": 0.879,
+      "instrumentalness": 0.001,
+      "loudness": -17.1,
+      "speechiness": 0.033,
+      "duration_ms": 194160,
+      "slug": "go-the-distance-roger-bart"
+    },
+    {
+      "name": "A Whole New World",
+      "artists": "Mena Massoud;Naomi Scott",
+      "album": "Aladdin (Original Motion Picture Soundtrack)",
+      "popularity": 64,
+      "tempo": 121.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.375,
+      "valence": 0.131,
+      "danceability": 0.395,
+      "acousticness": 0.225,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.034,
+      "duration_ms": 175593,
+      "slug": "a-whole-new-world-mena-massoud"
+    },
+    {
+      "name": "Belle",
+      "artists": "Emma Watson;Luke Evans;Ensemble - Beauty and the Beast",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 64,
+      "tempo": 123.7,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.504,
+      "valence": 0.327,
+      "danceability": 0.524,
+      "acousticness": 0.82,
+      "instrumentalness": 0.0,
+      "loudness": -7.6,
+      "speechiness": 0.05,
+      "duration_ms": 333265,
+      "slug": "belle-emma-watson"
+    },
+    {
+      "name": "Yorktown (The World Turned Upside Down)",
+      "artists": "Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 64,
+      "tempo": 98.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.883,
+      "valence": 0.51,
+      "danceability": 0.76,
+      "acousticness": 0.297,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.25,
+      "duration_ms": 242587,
+      "slug": "yorktown-the-world-turned-upside-down-original-broadway-cast-of-hamilton"
+    },
+    {
+      "name": "All You Wanna Do",
+      "artists": "SIX;Aimie Atkinson",
+      "album": "Six: The Musical (Studio Cast Recording)",
+      "popularity": 64,
+      "tempo": 144.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.596,
+      "danceability": 0.738,
+      "acousticness": 0.302,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.187,
+      "duration_ms": 410089,
+      "slug": "all-you-wanna-do-six"
+    },
+    {
+      "name": "History Has Its Eyes on You",
+      "artists": "Christopher Jackson;Lin-Manuel Miranda;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 64,
+      "tempo": 77.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.373,
+      "valence": 0.274,
+      "danceability": 0.438,
+      "acousticness": 0.803,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.029,
+      "duration_ms": 97050,
+      "slug": "history-has-its-eyes-on-you-christopher-jackson"
+    },
+    {
+      "name": "Waving Through A Window",
+      "artists": "Ben Platt;Original Broadway Cast of Dear Evan Hansen",
+      "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+      "popularity": 64,
+      "tempo": 146.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.705,
+      "valence": 0.52,
+      "danceability": 0.549,
+      "acousticness": 0.316,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.056,
+      "duration_ms": 236360,
+      "slug": "waving-through-a-window-ben-platt"
+    },
+    {
+      "name": "Ex-Wives",
+      "artists": "SIX",
+      "album": "Six: The Musical (Studio Cast Recording)",
+      "popularity": 64,
+      "tempo": 136.6,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.443,
+      "valence": 0.367,
+      "danceability": 0.703,
+      "acousticness": 0.05,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.086,
+      "duration_ms": 350218,
+      "slug": "ex-wives-six"
+    },
+    {
+      "name": "A Million Dreams (Reprise)",
+      "artists": "Austyn Johnson;Cameron Seely;Hugh Jackman",
+      "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+      "popularity": 63,
+      "tempo": 74.4,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.139,
+      "valence": 0.102,
+      "danceability": 0.253,
+      "acousticness": 0.726,
+      "instrumentalness": 0.0,
+      "loudness": -17.1,
+      "speechiness": 0.041,
+      "duration_ms": 60453,
+      "slug": "a-million-dreams-reprise-austyn-johnson"
+    },
+    {
+      "name": "You Will Be Found",
+      "artists": "Ben Platt;Kristolyn Lloyd;Will Roland;Laura Dreyfuss;Original Broadway Cast of Dear Evan Hansen",
+      "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 87.3,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.624,
+      "valence": 0.213,
+      "danceability": 0.293,
+      "acousticness": 0.086,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.061,
+      "duration_ms": 360906,
+      "slug": "you-will-be-found-ben-platt"
+    },
+    {
+      "name": "The Story of Tonight - Reprise",
+      "artists": "Okieriete Onaodowan;Daveed Diggs;Lin-Manuel Miranda;Leslie Odom Jr.;Anthony Ramos",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 81.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.305,
+      "valence": 0.594,
+      "danceability": 0.724,
+      "acousticness": 0.68,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.257,
+      "duration_ms": 115879,
+      "slug": "the-story-of-tonight-reprise-okieriete-onaodowan"
+    },
+    {
+      "name": "That Would Be Enough",
+      "artists": "Phillipa Soo;Lin-Manuel Miranda",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 137.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.2,
+      "valence": 0.185,
+      "danceability": 0.499,
+      "acousticness": 0.819,
+      "instrumentalness": 0.0,
+      "loudness": -10.3,
+      "speechiness": 0.035,
+      "duration_ms": 178445,
+      "slug": "that-would-be-enough-phillipa-soo"
+    },
+    {
+      "name": "Say No to This",
+      "artists": "Jasmine Cephas-Jones;Leslie Odom Jr.;Lin-Manuel Miranda;Sydney James Harcourt;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 81.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.535,
+      "valence": 0.395,
+      "danceability": 0.754,
+      "acousticness": 0.464,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.305,
+      "duration_ms": 242017,
+      "slug": "say-no-to-this-jasmine-cephas-jones"
+    },
+    {
+      "name": "Stay Alive",
+      "artists": "Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 159.7,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.415,
+      "valence": 0.581,
+      "danceability": 0.723,
+      "acousticness": 0.471,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.395,
+      "duration_ms": 159102,
+      "slug": "stay-alive-original-broadway-cast-of-hamilton"
+    },
+    {
+      "name": "Never Ever Getting Rid of Me",
+      "artists": "Christopher Fitzgerald;Kimiko Glenn;Waitress Original Broadway Cast Ensemble",
+      "album": "Waitress (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 174.5,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.542,
+      "valence": 0.939,
+      "danceability": 0.622,
+      "acousticness": 0.387,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.051,
+      "duration_ms": 136200,
+      "slug": "never-ever-getting-rid-of-me-christopher-fitzgerald"
+    },
+    {
+      "name": "A Girl Worth Fighting For",
+      "artists": "Lea Salonga;Harvey Fierstein;Matthew Wilder;James Hong;Jerry Tondo;Disney",
+      "album": "Mulan (Original Soundtrack)",
+      "popularity": 63,
+      "tempo": 175.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.35,
+      "valence": 0.849,
+      "danceability": 0.368,
+      "acousticness": 0.564,
+      "instrumentalness": 0.0,
+      "loudness": -17.3,
+      "speechiness": 0.062,
+      "duration_ms": 146053,
+      "slug": "a-girl-worth-fighting-for-lea-salonga"
+    },
+    {
+      "name": "Who Lives, Who Dies, Who Tells Your Story",
+      "artists": "Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 75.5,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.326,
+      "valence": 0.156,
+      "danceability": 0.353,
+      "acousticness": 0.777,
+      "instrumentalness": 0.0,
+      "loudness": -9.7,
+      "speechiness": 0.09,
+      "duration_ms": 217229,
+      "slug": "who-lives-who-dies-who-tells-your-story-original-broadway-cast-of-hamilton"
+    },
+    {
+      "name": "What Comes Next?",
+      "artists": "Jonathan Groff",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 115.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.302,
+      "valence": 0.277,
+      "danceability": 0.515,
+      "acousticness": 0.603,
+      "instrumentalness": 0.0,
+      "loudness": -10.9,
+      "speechiness": 0.079,
+      "duration_ms": 99343,
+      "slug": "what-comes-next-jonathan-groff"
+    },
+    {
+      "name": "I Won't Say (I'm In Love) - From \"Hercules\" / Soundtrack Version",
+      "artists": "Susan Egan;Cheryl Freeman;LaChanze;Vaneese Thomas;Lillias White;Disney",
+      "album": "Disney's Greatest Volume 1",
+      "popularity": 63,
+      "tempo": 121.1,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.471,
+      "valence": 0.453,
+      "danceability": 0.684,
+      "acousticness": 0.208,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.043,
+      "duration_ms": 140093,
+      "slug": "i-wont-say-im-in-love-from-hercules-soundtrack-version-susan-egan"
+    },
+    {
+      "name": "Sincerely, Me",
+      "artists": "Mike Faist;Ben Platt;Will Roland",
+      "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+      "popularity": 63,
+      "tempo": 97.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.731,
+      "valence": 0.603,
+      "danceability": 0.677,
+      "acousticness": 0.168,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.12,
+      "duration_ms": 222960,
+      "slug": "sincerely-me-mike-faist"
+    },
+    {
+      "name": "Dead Girl Walking",
+      "artists": "Barrett Wilbert Weed;Ryan McCartan",
+      "album": "Heathers: The Musical (World Premiere Cast Recording)",
+      "popularity": 63,
+      "tempo": 106.2,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.563,
+      "danceability": 0.537,
+      "acousticness": 0.518,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.095,
+      "duration_ms": 204613,
+      "slug": "dead-girl-walking-barrett-wilbert-weed"
+    },
+    {
+      "name": "Therapy",
+      "artists": "Andrew Garfield;Vanessa Hudgens",
+      "album": "tick, tick... BOOM! (Soundtrack from the Netflix Film)",
+      "popularity": 62,
+      "tempo": 147.7,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.593,
+      "valence": 0.618,
+      "danceability": 0.554,
+      "acousticness": 0.207,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.215,
+      "duration_ms": 164163,
+      "slug": "therapy-andrew-garfield"
+    },
+    {
+      "name": "Kingdom Dance - From \"Tangled\"/Score",
+      "artists": "Alan Menken",
+      "album": "Tangled",
+      "popularity": 62,
+      "tempo": 155.7,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.614,
+      "valence": 0.47,
+      "danceability": 0.239,
+      "acousticness": 0.09,
+      "instrumentalness": 0.403,
+      "loudness": -9.8,
+      "speechiness": 0.077,
+      "duration_ms": 140413,
+      "slug": "kingdom-dance-from-tangledscore-alan-menken"
+    },
+    {
+      "name": "Meant to be Yours",
+      "artists": "Jamie Muscato;Original West End Cast of Heathers",
+      "album": "Heathers the Musical (Original West End Cast Recording)",
+      "popularity": 62,
+      "tempo": 98.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.632,
+      "valence": 0.464,
+      "danceability": 0.552,
+      "acousticness": 0.398,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.096,
+      "duration_ms": 210440,
+      "slug": "meant-to-be-yours-jamie-muscato"
+    },
+    {
+      "name": "Reflection",
+      "artists": "Lea Salonga;Disney",
+      "album": "Mulan (Original Soundtrack)",
+      "popularity": 62,
+      "tempo": 80.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.174,
+      "valence": 0.083,
+      "danceability": 0.255,
+      "acousticness": 0.805,
+      "instrumentalness": 0.009,
+      "loudness": -19.2,
+      "speechiness": 0.038,
+      "duration_ms": 146760,
+      "slug": "reflection-lea-salonga"
+    },
+    {
+      "name": "Once Upon a December",
+      "artists": "Christy Altomare",
+      "album": "Anastasia (Original Broadway Cast Recording)",
+      "popularity": 62,
+      "tempo": 174.2,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.288,
+      "valence": 0.075,
+      "danceability": 0.166,
+      "acousticness": 0.917,
+      "instrumentalness": 0.0,
+      "loudness": -12.4,
+      "speechiness": 0.039,
+      "duration_ms": 179840,
+      "slug": "once-upon-a-december-christy-altomare"
+    },
+    {
+      "name": "Take a Break",
+      "artists": "Phillipa Soo;Lin-Manuel Miranda;Ren\u00e9e Elise Goldsberry;Anthony Ramos",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 62,
+      "tempo": 81.5,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.371,
+      "valence": 0.587,
+      "danceability": 0.552,
+      "acousticness": 0.587,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.227,
+      "duration_ms": 286485,
+      "slug": "take-a-break-phillipa-soo"
+    },
+    {
+      "name": "Meet Me Inside",
+      "artists": "Lin-Manuel Miranda;Leslie Odom Jr.;Christopher Jackson;Original Broadway Cast of Hamilton;Anthony Ramos",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 62,
+      "tempo": 88.5,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.643,
+      "valence": 0.644,
+      "danceability": 0.732,
+      "acousticness": 0.378,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.474,
+      "duration_ms": 83632,
+      "slug": "meet-me-inside-lin-manuel-miranda"
+    },
+    {
+      "name": "It's Quiet Uptown",
+      "artists": "Ren\u00e9e Elise Goldsberry;Lin-Manuel Miranda;Phillipa Soo;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 62,
+      "tempo": 129.8,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.187,
+      "valence": 0.227,
+      "danceability": 0.484,
+      "acousticness": 0.796,
+      "instrumentalness": 0.0,
+      "loudness": -14.1,
+      "speechiness": 0.042,
+      "duration_ms": 270171,
+      "slug": "its-quiet-uptown-ren\u00e9e-elise-goldsberry"
+    },
+    {
+      "name": "Cabinet Battle #1",
+      "artists": "Christopher Jackson;Daveed Diggs;Lin-Manuel Miranda;Okieriete Onaodowan",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 62,
+      "tempo": 87.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.658,
+      "valence": 0.513,
+      "danceability": 0.607,
+      "acousticness": 0.086,
+      "instrumentalness": 0.0,
+      "loudness": -7.8,
+      "speechiness": 0.423,
+      "duration_ms": 215226,
+      "slug": "cabinet-battle-1-christopher-jackson"
+    },
+    {
+      "name": "The Phantom Of the Opera - From 'The Phantom Of The Opera' Motion Picture",
+      "artists": "Andrew Lloyd Webber;Gerard Butler;Emmy Rossum",
+      "album": "The Phantom Of The Opera (Original Motion Picture Soundtrack)",
+      "popularity": 62,
+      "tempo": 120.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.608,
+      "valence": 0.354,
+      "danceability": 0.444,
+      "acousticness": 0.168,
+      "instrumentalness": 0.0,
+      "loudness": -12.2,
+      "speechiness": 0.053,
+      "duration_ms": 216133,
+      "slug": "the-phantom-of-the-opera-from-the-phantom-of-the-opera-motion-picture-andrew-llo"
+    },
+    {
+      "name": "One Last Time",
+      "artists": "Christopher Jackson;Lin-Manuel Miranda;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 62,
+      "tempo": 177.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.42,
+      "valence": 0.41,
+      "danceability": 0.449,
+      "acousticness": 0.631,
+      "instrumentalness": 0.0,
+      "loudness": -9.6,
+      "speechiness": 0.356,
+      "duration_ms": 296387,
+      "slug": "one-last-time-christopher-jackson"
+    },
+    {
+      "name": "Dead Mom",
+      "artists": "Sophia Anne Caruso;Beetlejuice Original Broadway Cast Recording Ensemble",
+      "album": "Beetlejuice (Original Broadway Cast Recording)",
+      "popularity": 62,
+      "tempo": 135.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.477,
+      "valence": 0.247,
+      "danceability": 0.528,
+      "acousticness": 0.291,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.032,
+      "duration_ms": 184147,
+      "slug": "dead-mom-sophia-anne-caruso"
+    },
+    {
+      "name": "Run to You",
+      "artists": "Lea Michele",
+      "album": "Places",
+      "popularity": 61,
+      "tempo": 125.7,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.362,
+      "valence": 0.311,
+      "danceability": 0.399,
+      "acousticness": 0.637,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.034,
+      "duration_ms": 217426,
+      "slug": "run-to-you-lea-michele"
+    },
+    {
+      "name": "If I Could Tell Her",
+      "artists": "Ben Platt;Laura Dreyfuss",
+      "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+      "popularity": 61,
+      "tempo": 96.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.312,
+      "valence": 0.455,
+      "danceability": 0.584,
+      "acousticness": 0.647,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.041,
+      "duration_ms": 248653,
+      "slug": "if-i-could-tell-her-ben-platt"
+    },
+    {
+      "name": "In Summer - From \"Frozen\"/Soundtrack Version",
+      "artists": "Josh Gad",
+      "album": "Frozen (Original Motion Picture Soundtrack)",
+      "popularity": 61,
+      "tempo": 77.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.342,
+      "valence": 0.684,
+      "danceability": 0.5,
+      "acousticness": 0.536,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.175,
+      "duration_ms": 110986,
+      "slug": "in-summer-from-frozensoundtrack-version-josh-gad"
+    },
+    {
+      "name": "In Summer - From \"Frozen\"/Soundtrack Version",
+      "artists": "Josh Gad",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 61,
+      "tempo": 77.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.342,
+      "valence": 0.684,
+      "danceability": 0.5,
+      "acousticness": 0.536,
+      "instrumentalness": 0.0,
+      "loudness": -9.5,
+      "speechiness": 0.175,
+      "duration_ms": 110986,
+      "slug": "in-summer-from-frozensoundtrack-version-josh-gad"
+    },
+    {
+      "name": "We Know",
+      "artists": "Lin-Manuel Miranda;Daveed Diggs;Leslie Odom Jr.;Okieriete Onaodowan",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 61,
+      "tempo": 113.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.484,
+      "valence": 0.692,
+      "danceability": 0.718,
+      "acousticness": 0.312,
+      "instrumentalness": 0.0,
+      "loudness": -10.4,
+      "speechiness": 0.523,
+      "duration_ms": 142044,
+      "slug": "we-know-lin-manuel-miranda"
+    },
+    {
+      "name": "Your Obedient Servant",
+      "artists": "Leslie Odom Jr.;Lin-Manuel Miranda;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 61,
+      "tempo": 165.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.37,
+      "valence": 0.619,
+      "danceability": 0.736,
+      "acousticness": 0.293,
+      "instrumentalness": 0.0,
+      "loudness": -11.1,
+      "speechiness": 0.502,
+      "duration_ms": 150063,
+      "slug": "your-obedient-servant-leslie-odom-jr"
+    },
+    {
+      "name": "I Know Him",
+      "artists": "Jonathan Groff",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 61,
+      "tempo": 121.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.436,
+      "valence": 0.378,
+      "danceability": 0.67,
+      "acousticness": 0.649,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.364,
+      "duration_ms": 97979,
+      "slug": "i-know-him-jonathan-groff"
+    },
+    {
+      "name": "Beautiful",
+      "artists": "Barrett Wilbert Weed;Katie Ladner;Alice Lee;Jessica Keenan Wynn;Elle McLemore",
+      "album": "Heathers: The Musical (World Premiere Cast Recording)",
+      "popularity": 61,
+      "tempo": 94.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.389,
+      "valence": 0.5,
+      "danceability": 0.564,
+      "acousticness": 0.685,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.179,
+      "duration_ms": 499106,
+      "slug": "beautiful-barrett-wilbert-weed"
+    },
+    {
+      "name": "No Way",
+      "artists": "SIX;Ren\u00e9e Lamb",
+      "album": "Six: The Musical (Studio Cast Recording)",
+      "popularity": 61,
+      "tempo": 119.4,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.713,
+      "valence": 0.511,
+      "danceability": 0.629,
+      "acousticness": 0.031,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.173,
+      "duration_ms": 241501,
+      "slug": "no-way-six"
+    },
+    {
+      "name": "Grow As We Go (feat. Sara Bareilles)",
+      "artists": "Ben Platt;Sara Bareilles",
+      "album": "Grow As We Go (feat. Sara Bareilles)",
+      "popularity": 60,
+      "tempo": 83.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.236,
+      "valence": 0.501,
+      "danceability": 0.316,
+      "acousticness": 0.892,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.031,
+      "duration_ms": 249937,
+      "slug": "grow-as-we-go-feat-sara-bareilles-ben-platt"
+    },
+    {
+      "name": "Haus of Holbein",
+      "artists": "SIX",
+      "album": "Six: The Musical (Studio Cast Recording)",
+      "popularity": 60,
+      "tempo": 150.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.666,
+      "valence": 0.832,
+      "danceability": 0.672,
+      "acousticness": 0.036,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.156,
+      "duration_ms": 126870,
+      "slug": "haus-of-holbein-six"
+    },
+    {
+      "name": "Hurricane",
+      "artists": "Lin-Manuel Miranda;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 60,
+      "tempo": 171.3,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.546,
+      "valence": 0.398,
+      "danceability": 0.453,
+      "acousticness": 0.762,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.309,
+      "duration_ms": 143551,
+      "slug": "hurricane-lin-manuel-miranda"
+    },
+    {
+      "name": "Honor To Us All",
+      "artists": "Lea Salonga;Beth Fowler;Marni Nixon;Chorus - Mulan;Disney",
+      "album": "Mulan (Original Soundtrack)",
+      "popularity": 60,
+      "tempo": 168.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.242,
+      "valence": 0.652,
+      "danceability": 0.462,
+      "acousticness": 0.447,
+      "instrumentalness": 0.0,
+      "loudness": -19.3,
+      "speechiness": 0.062,
+      "duration_ms": 183200,
+      "slug": "honor-to-us-all-lea-salonga"
+    },
+    {
+      "name": "Part of Your World - From \"The Little Mermaid\" / Soundtrack Version",
+      "artists": "Jodi Benson;Disney",
+      "album": "The Little Mermaid",
+      "popularity": 60,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.132,
+      "valence": 0.323,
+      "danceability": 0.387,
+      "acousticness": 0.914,
+      "instrumentalness": 0.001,
+      "loudness": -15.1,
+      "speechiness": 0.039,
+      "duration_ms": 195493,
+      "slug": "part-of-your-world-from-the-little-mermaid-soundtrack-version-jodi-benson"
+    },
+    {
+      "name": "Waving Through A Window",
+      "artists": "Ben Platt;Original Broadway Cast of Dear Evan Hansen",
+      "album": "Waving Through A Window (from Dear Evan Hansen [Original Broadway Cast Recording])",
+      "popularity": 60,
+      "tempo": 144.7,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.692,
+      "valence": 0.543,
+      "danceability": 0.552,
+      "acousticness": 0.339,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.059,
+      "duration_ms": 236809,
+      "slug": "waving-through-a-window-ben-platt"
+    },
+    {
+      "name": "The World Was Wide Enough",
+      "artists": "Leslie Odom Jr.;Lin-Manuel Miranda;Original Broadway Cast of Hamilton",
+      "album": "Hamilton (Original Broadway Cast Recording)",
+      "popularity": 60,
+      "tempo": 116.6,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.351,
+      "valence": 0.307,
+      "danceability": 0.653,
+      "acousticness": 0.467,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.648,
+      "duration_ms": 302191,
+      "slug": "the-world-was-wide-enough-leslie-odom-jr"
+    },
+    {
+      "name": "For Forever",
+      "artists": "Ben Platt",
+      "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+      "popularity": 60,
+      "tempo": 96.3,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.457,
+      "valence": 0.166,
+      "danceability": 0.371,
+      "acousticness": 0.222,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.041,
+      "duration_ms": 301013,
+      "slug": "for-forever-ben-platt"
+    },
+    {
+      "name": "Heart of Stone",
+      "artists": "SIX;Natalie Paris",
+      "album": "Six: The Musical (Studio Cast Recording)",
+      "popularity": 60,
+      "tempo": 115.2,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.426,
+      "valence": 0.101,
+      "danceability": 0.513,
+      "acousticness": 0.452,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.03,
+      "duration_ms": 311301,
+      "slug": "heart-of-stone-six"
+    },
+    {
+      "name": "Just Around the Riverbend - From \"Pocahontas\" / Soundtrack Version",
+      "artists": "Judy Kuhn",
+      "album": "Pocahontas",
+      "popularity": 60,
+      "tempo": 94.8,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.19,
+      "valence": 0.253,
+      "danceability": 0.308,
+      "acousticness": 0.919,
+      "instrumentalness": 0.0,
+      "loudness": -16.8,
+      "speechiness": 0.042,
+      "duration_ms": 147706,
+      "slug": "just-around-the-riverbend-from-pocahontas-soundtrack-version-judy-kuhn"
+    },
+    {
+      "name": "Anybody Have a Map?",
+      "artists": "Rachel Bay Jones;Jennifer Laura Thompson",
+      "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+      "popularity": 60,
+      "tempo": 107.8,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.603,
+      "valence": 0.744,
+      "danceability": 0.634,
+      "acousticness": 0.234,
+      "instrumentalness": 0.0,
+      "loudness": -6.4,
+      "speechiness": 0.258,
+      "duration_ms": 146853,
+      "slug": "anybody-have-a-map-rachel-bay-jones"
+    },
+    {
+      "name": "Where You Are - From \"Moana\"/Soundtrack Version",
+      "artists": "Christopher Jackson;Rachel House;Nicole Scherzinger;Auli'i Cravalho;Louise Bush",
+      "album": "Disney Summer Songs",
+      "popularity": 59,
+      "tempo": 118.0,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.655,
+      "valence": 0.747,
+      "danceability": 0.695,
+      "acousticness": 0.743,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.173,
+      "duration_ms": 210320,
+      "slug": "where-you-are-from-moanasoundtrack-version-christopher-jackson"
+    },
+    {
+      "name": "The Greatest Show",
+      "artists": "Hugh Jackman;Keala Settle;Zac Efron;Zendaya;The Greatest Showman Ensemble",
+      "album": "The Greatest Show",
+      "popularity": 59,
+      "tempo": 157.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.824,
+      "valence": 0.4,
+      "danceability": 0.417,
+      "acousticness": 0.0,
+      "instrumentalness": 0.054,
+      "loudness": -7.4,
+      "speechiness": 0.105,
+      "duration_ms": 302146,
+      "slug": "the-greatest-show-hugh-jackman"
+    },
+    {
+      "name": "Reindeer(s) Are Better Than People - From \"Frozen\" / Soundtrack Version",
+      "artists": "Jonathan Groff",
+      "album": "Frozen (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "popularity": 59,
+      "tempo": 138.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.233,
+      "valence": 0.409,
+      "danceability": 0.595,
+      "acousticness": 0.803,
+      "instrumentalness": 0.0,
+      "loudness": -14.2,
+      "speechiness": 0.193,
+      "duration_ms": 50960,
+      "slug": "reindeers-are-better-than-people-from-frozen-soundtrack-version-jonathan-groff"
+    },
+    {
+      "name": "Be Our Guest - From \"Beauty and the Beast\"/Soundtrack",
+      "artists": "Angela Lansbury;Jerry Orbach;Chorus - Beauty And the Beast;Disney",
+      "album": "Beauty and the Beast",
+      "popularity": 59,
+      "tempo": 121.5,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.421,
+      "valence": 0.578,
+      "danceability": 0.517,
+      "acousticness": 0.813,
+      "instrumentalness": 0.0,
+      "loudness": -12.8,
+      "speechiness": 0.172,
+      "duration_ms": 224733,
+      "slug": "be-our-guest-from-beauty-and-the-beastsoundtrack-angela-lansbury"
+    },
+    {
+      "name": "Reflection - From \"Mulan\" / Soundtrack Version",
+      "artists": "Lea Salonga;Disney",
+      "album": "Disney's Greatest Volume 1",
+      "popularity": 59,
+      "tempo": 92.4,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.29,
+      "valence": 0.078,
+      "danceability": 0.321,
+      "acousticness": 0.799,
+      "instrumentalness": 0.003,
+      "loudness": -13.9,
+      "speechiness": 0.034,
+      "duration_ms": 146840,
+      "slug": "reflection-from-mulan-soundtrack-version-lea-salonga"
+    },
+    {
+      "name": "Gaston",
+      "artists": "Josh Gad;Luke Evans;Ensemble - Beauty and the Beast",
+      "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+      "popularity": 59,
+      "tempo": 106.4,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.589,
+      "valence": 0.576,
+      "danceability": 0.495,
+      "acousticness": 0.494,
+      "instrumentalness": 0.0,
+      "loudness": -6.6,
+      "speechiness": 0.066,
+      "duration_ms": 265787,
+      "slug": "gaston-josh-gad"
+    }
+  ]
+}

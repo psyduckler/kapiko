@@ -1,0 +1,2802 @@
+{
+  "genre": "French",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 81.023,
+    "max": 193.877,
+    "mean": 118.015,
+    "median": 117.999,
+    "q1": 105.0,
+    "q3": 126.014,
+    "histogram": {
+      "80-89": 3,
+      "90-99": 16,
+      "100-109": 15,
+      "110-119": 24,
+      "120-129": 26,
+      "130-139": 4,
+      "140-149": 6,
+      "150-159": 1,
+      "160-169": 3,
+      "170-179": 1,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "G": 14,
+    "G#/Ab": 14,
+    "A#/Bb": 10,
+    "C": 10,
+    "B": 8,
+    "A": 8,
+    "D": 8,
+    "C#/Db": 7,
+    "F#/Gb": 6,
+    "E": 5,
+    "D#/Eb": 5,
+    "F": 5
+  },
+  "mode_distribution": {
+    "Minor": 66,
+    "Major": 34
+  },
+  "key_mode_distribution": {
+    "A#/Bb Minor": 9,
+    "G Minor": 9,
+    "G#/Ab Minor": 9,
+    "A Minor": 7,
+    "C Minor": 6,
+    "G Major": 5,
+    "G#/Ab Major": 5,
+    "C#/Db Minor": 4,
+    "E Minor": 4,
+    "D#/Eb Minor": 4,
+    "B Minor": 4,
+    "B Major": 4,
+    "C Major": 4,
+    "D Major": 4,
+    "D Minor": 4,
+    "F#/Gb Minor": 3,
+    "C#/Db Major": 3,
+    "F#/Gb Major": 3,
+    "F Minor": 3,
+    "F Major": 2,
+    "A#/Bb Major": 1,
+    "D#/Eb Major": 1,
+    "A Major": 1,
+    "E Major": 1
+  },
+  "energy": {
+    "min": 0.016,
+    "max": 0.944,
+    "mean": 0.631,
+    "median": 0.667,
+    "q1": 0.538,
+    "q3": 0.756
+  },
+  "valence": {
+    "min": 0.036,
+    "max": 0.992,
+    "mean": 0.482,
+    "median": 0.508,
+    "q1": 0.268,
+    "q3": 0.699
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.869,
+      "valence": 0.726
+    },
+    {
+      "energy": 0.802,
+      "valence": 0.787
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.628
+    },
+    {
+      "energy": 0.698,
+      "valence": 0.376
+    },
+    {
+      "energy": 0.669,
+      "valence": 0.627
+    },
+    {
+      "energy": 0.729,
+      "valence": 0.272
+    },
+    {
+      "energy": 0.449,
+      "valence": 0.327
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.486
+    },
+    {
+      "energy": 0.532,
+      "valence": 0.491
+    },
+    {
+      "energy": 0.255,
+      "valence": 0.331
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.777
+    },
+    {
+      "energy": 0.736,
+      "valence": 0.612
+    },
+    {
+      "energy": 0.599,
+      "valence": 0.213
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.508
+    },
+    {
+      "energy": 0.523,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.8
+    },
+    {
+      "energy": 0.789,
+      "valence": 0.527
+    },
+    {
+      "energy": 0.192,
+      "valence": 0.054
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.525
+    },
+    {
+      "energy": 0.756,
+      "valence": 0.456
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.308
+    },
+    {
+      "energy": 0.682,
+      "valence": 0.507
+    },
+    {
+      "energy": 0.202,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.228,
+      "valence": 0.082
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.661,
+      "valence": 0.804
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.572
+    },
+    {
+      "energy": 0.734,
+      "valence": 0.356
+    },
+    {
+      "energy": 0.538,
+      "valence": 0.416
+    },
+    {
+      "energy": 0.699,
+      "valence": 0.624
+    },
+    {
+      "energy": 0.666,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.398
+    },
+    {
+      "energy": 0.422,
+      "valence": 0.119
+    },
+    {
+      "energy": 0.016,
+      "valence": 0.057
+    },
+    {
+      "energy": 0.913,
+      "valence": 0.838
+    },
+    {
+      "energy": 0.656,
+      "valence": 0.562
+    },
+    {
+      "energy": 0.831,
+      "valence": 0.448
+    },
+    {
+      "energy": 0.542,
+      "valence": 0.474
+    },
+    {
+      "energy": 0.907,
+      "valence": 0.884
+    },
+    {
+      "energy": 0.354,
+      "valence": 0.245
+    },
+    {
+      "energy": 0.875,
+      "valence": 0.766
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.288
+    },
+    {
+      "energy": 0.69,
+      "valence": 0.699
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.213
+    },
+    {
+      "energy": 0.596,
+      "valence": 0.259
+    },
+    {
+      "energy": 0.886,
+      "valence": 0.78
+    },
+    {
+      "energy": 0.741,
+      "valence": 0.466
+    },
+    {
+      "energy": 0.696,
+      "valence": 0.519
+    },
+    {
+      "energy": 0.941,
+      "valence": 0.707
+    },
+    {
+      "energy": 0.639,
+      "valence": 0.496
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.058
+    },
+    {
+      "energy": 0.398,
+      "valence": 0.097
+    },
+    {
+      "energy": 0.904,
+      "valence": 0.906
+    },
+    {
+      "energy": 0.692,
+      "valence": 0.369
+    },
+    {
+      "energy": 0.876,
+      "valence": 0.992
+    },
+    {
+      "energy": 0.586,
+      "valence": 0.729
+    },
+    {
+      "energy": 0.661,
+      "valence": 0.804
+    },
+    {
+      "energy": 0.554,
+      "valence": 0.231
+    },
+    {
+      "energy": 0.256,
+      "valence": 0.078
+    },
+    {
+      "energy": 0.405,
+      "valence": 0.054
+    },
+    {
+      "energy": 0.735,
+      "valence": 0.385
+    },
+    {
+      "energy": 0.641,
+      "valence": 0.701
+    },
+    {
+      "energy": 0.724,
+      "valence": 0.757
+    },
+    {
+      "energy": 0.573,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.667,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.88,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.747,
+      "valence": 0.668
+    },
+    {
+      "energy": 0.401,
+      "valence": 0.619
+    },
+    {
+      "energy": 0.731,
+      "valence": 0.699
+    },
+    {
+      "energy": 0.697,
+      "valence": 0.57
+    },
+    {
+      "energy": 0.806,
+      "valence": 0.815
+    },
+    {
+      "energy": 0.583,
+      "valence": 0.54
+    },
+    {
+      "energy": 0.353,
+      "valence": 0.055
+    },
+    {
+      "energy": 0.433,
+      "valence": 0.119
+    },
+    {
+      "energy": 0.647,
+      "valence": 0.689
+    },
+    {
+      "energy": 0.472,
+      "valence": 0.083
+    },
+    {
+      "energy": 0.419,
+      "valence": 0.658
+    },
+    {
+      "energy": 0.632,
+      "valence": 0.219
+    },
+    {
+      "energy": 0.026,
+      "valence": 0.268
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.495
+    },
+    {
+      "energy": 0.179,
+      "valence": 0.179
+    },
+    {
+      "energy": 0.671,
+      "valence": 0.537
+    },
+    {
+      "energy": 0.679,
+      "valence": 0.583
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.69
+    },
+    {
+      "energy": 0.712,
+      "valence": 0.891
+    },
+    {
+      "energy": 0.659,
+      "valence": 0.536
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.188
+    },
+    {
+      "energy": 0.689,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.705,
+      "valence": 0.521
+    },
+    {
+      "energy": 0.829,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.871,
+      "valence": 0.79
+    },
+    {
+      "energy": 0.758,
+      "valence": 0.686
+    },
+    {
+      "energy": 0.44,
+      "valence": 0.151
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.568
+    },
+    {
+      "energy": 0.454,
+      "valence": 0.711
+    },
+    {
+      "energy": 0.664,
+      "valence": 0.545
+    },
+    {
+      "energy": 0.484,
+      "valence": 0.849
+    },
+    {
+      "energy": 0.944,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.707,
+      "valence": 0.721
+    },
+    {
+      "energy": 0.305,
+      "valence": 0.263
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.995,
+    "mean": 0.302,
+    "median": 0.241,
+    "q1": 0.099,
+    "q3": 0.43
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.938,
+    "mean": 0.099,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.074
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.306,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.301,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.103,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.167,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.184,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.439,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.361,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.815,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.203,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.06,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.474,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.284,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.228,
+      "instrumentalness": 0.017
+    },
+    {
+      "acousticness": 0.024,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.372,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.991,
+      "instrumentalness": 0.908
+    },
+    {
+      "acousticness": 0.337,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.687,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.143,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.335,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.668,
+      "instrumentalness": 0.145
+    },
+    {
+      "acousticness": 0.198,
+      "instrumentalness": 0.13
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.116,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.413,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.108,
+      "instrumentalness": 0.074
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.457,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.192,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.512,
+      "instrumentalness": 0.162
+    },
+    {
+      "acousticness": 0.986,
+      "instrumentalness": 0.86
+    },
+    {
+      "acousticness": 0.246,
+      "instrumentalness": 0.007
+    },
+    {
+      "acousticness": 0.408,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.444,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.346,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.091,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.765,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.375,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.156,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.202,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.286,
+      "instrumentalness": 0.683
+    },
+    {
+      "acousticness": 0.049,
+      "instrumentalness": 0.008
+    },
+    {
+      "acousticness": 0.022,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.329,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.326,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.167,
+      "instrumentalness": 0.165
+    },
+    {
+      "acousticness": 0.288,
+      "instrumentalness": 0.856
+    },
+    {
+      "acousticness": 0.381,
+      "instrumentalness": 0.426
+    },
+    {
+      "acousticness": 0.05,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.094,
+      "instrumentalness": 0.011
+    },
+    {
+      "acousticness": 0.61,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.752,
+      "instrumentalness": 0.762
+    },
+    {
+      "acousticness": 0.036,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.428,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.033,
+      "instrumentalness": 0.092
+    },
+    {
+      "acousticness": 0.528,
+      "instrumentalness": 0.126
+    },
+    {
+      "acousticness": 0.191,
+      "instrumentalness": 0.038
+    },
+    {
+      "acousticness": 0.067,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.258,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.249,
+      "instrumentalness": 0.245
+    },
+    {
+      "acousticness": 0.43,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.579,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.564,
+      "instrumentalness": 0.259
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.093
+    },
+    {
+      "acousticness": 0.188,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.096,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.023,
+      "instrumentalness": 0.582
+    },
+    {
+      "acousticness": 0.099,
+      "instrumentalness": 0.274
+    },
+    {
+      "acousticness": 0.175,
+      "instrumentalness": 0.004
+    },
+    {
+      "acousticness": 0.138,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.416,
+      "instrumentalness": 0.091
+    },
+    {
+      "acousticness": 0.869,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.162,
+      "instrumentalness": 0.342
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.938
+    },
+    {
+      "acousticness": 0.012,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.988,
+      "instrumentalness": 0.866
+    },
+    {
+      "acousticness": 0.128,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.237,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.141,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.462,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.802,
+      "instrumentalness": 0.026
+    },
+    {
+      "acousticness": 0.366,
+      "instrumentalness": 0.046
+    },
+    {
+      "acousticness": 0.148,
+      "instrumentalness": 0.034
+    },
+    {
+      "acousticness": 0.031,
+      "instrumentalness": 0.283
+    },
+    {
+      "acousticness": 0.221,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.284,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.202,
+      "instrumentalness": 0.129
+    },
+    {
+      "acousticness": 0.299,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.456,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.361,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.087,
+      "instrumentalness": 0.08
+    },
+    {
+      "acousticness": 0.469,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.901,
+      "instrumentalness": 0.0
+    }
+  ],
+  "duration": {
+    "min": 102860,
+    "max": 390638,
+    "mean": 201272.52,
+    "median": 194738.0,
+    "q1": 173195,
+    "q3": 222354
+  },
+  "danceability": {
+    "min": 0.162,
+    "max": 0.97,
+    "mean": 0.684,
+    "median": 0.735,
+    "q1": 0.621,
+    "q3": 0.787
+  },
+  "loudness": {
+    "min": -36.7,
+    "max": -2.64,
+    "mean": -7.976,
+    "median": -7.081,
+    "q1": -9.038,
+    "q3": -5.484
+  },
+  "speechiness": {
+    "min": 0.026,
+    "max": 0.724,
+    "mean": 0.086,
+    "median": 0.047,
+    "q1": 0.038,
+    "q3": 0.079
+  },
+  "top_artists": [
+    {
+      "name": "Soolking",
+      "count": 7
+    },
+    {
+      "name": "Ninho",
+      "count": 5
+    },
+    {
+      "name": "M83",
+      "count": 5
+    },
+    {
+      "name": "Indila",
+      "count": 4
+    },
+    {
+      "name": "TWOPILOTS",
+      "count": 4
+    },
+    {
+      "name": "Vegedream",
+      "count": 3
+    },
+    {
+      "name": "The Blaze",
+      "count": 3
+    },
+    {
+      "name": "Matt Sassari",
+      "count": 2
+    },
+    {
+      "name": "PNL",
+      "count": 2
+    },
+    {
+      "name": "Lilly Wood and The Prick",
+      "count": 2
+    },
+    {
+      "name": "Robin Schulz",
+      "count": 2
+    },
+    {
+      "name": "Yann Tiersen",
+      "count": 2
+    },
+    {
+      "name": "De Hofnar",
+      "count": 2
+    },
+    {
+      "name": "OBOY",
+      "count": 2
+    },
+    {
+      "name": "Lartiste",
+      "count": 2
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Give It To Me - Full Vocal Mix",
+      "artists": "Matt Sassari",
+      "album": "Give It To Me (Full Vocal Mix)",
+      "popularity": 79,
+      "tempo": 126.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.869,
+      "valence": 0.726,
+      "danceability": 0.874,
+      "acousticness": 0.001,
+      "instrumentalness": 0.002,
+      "loudness": -6.0,
+      "speechiness": 0.032,
+      "duration_ms": 102860,
+      "slug": "give-it-to-me-full-vocal-mix-matt-sassari"
+    },
+    {
+      "name": "Balader",
+      "artists": "Soolking;Niska",
+      "album": "Sans visa",
+      "popularity": 79,
+      "tempo": 130.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.802,
+      "valence": 0.787,
+      "danceability": 0.603,
+      "acousticness": 0.306,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.111,
+      "duration_ms": 176120,
+      "slug": "balader-soolking"
+    },
+    {
+      "name": "TOUT VA BIEN (feat. Ninho & Naps)",
+      "artists": "Alonzo;Ninho;Naps",
+      "album": "QUARTIERS NORD",
+      "popularity": 79,
+      "tempo": 99.9,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.628,
+      "danceability": 0.66,
+      "acousticness": 0.301,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.075,
+      "duration_ms": 192960,
+      "slug": "tout-va-bien-feat-ninho-naps-alonzo"
+    },
+    {
+      "name": "Tourner Dans Le Vide",
+      "artists": "Indila",
+      "album": "Mini World",
+      "popularity": 78,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.698,
+      "valence": 0.376,
+      "danceability": 0.594,
+      "acousticness": 0.103,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.043,
+      "duration_ms": 246093,
+      "slug": "tourner-dans-le-vide-indila"
+    },
+    {
+      "name": "PETETE",
+      "artists": "Gambi",
+      "album": "PETETE",
+      "popularity": 78,
+      "tempo": 156.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.669,
+      "valence": 0.627,
+      "danceability": 0.752,
+      "acousticness": 0.167,
+      "instrumentalness": 0.0,
+      "loudness": -9.8,
+      "speechiness": 0.251,
+      "duration_ms": 123846,
+      "slug": "petete-gambi"
+    },
+    {
+      "name": "Midnight City",
+      "artists": "M83",
+      "album": "Hurry up, We're Dreaming",
+      "popularity": 76,
+      "tempo": 105.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.729,
+      "valence": 0.272,
+      "danceability": 0.507,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.039,
+      "duration_ms": 243960,
+      "slug": "midnight-city-m83"
+    },
+    {
+      "name": "Derni\u00e8re danse",
+      "artists": "Indila",
+      "album": "Mini World",
+      "popularity": 76,
+      "tempo": 114.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.449,
+      "valence": 0.327,
+      "danceability": 0.669,
+      "acousticness": 0.184,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.049,
+      "duration_ms": 213493,
+      "slug": "derni\u00e8re-danse-indila"
+    },
+    {
+      "name": "Chop (Nouvelle \u00c9cole)",
+      "artists": "Fresh",
+      "album": "Chop (Nouvelle \u00c9cole)",
+      "popularity": 76,
+      "tempo": 143.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.486,
+      "danceability": 0.745,
+      "acousticness": 0.439,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.724,
+      "duration_ms": 195560,
+      "slug": "chop-nouvelle-\u00e9cole-fresh"
+    },
+    {
+      "name": "Pas b\u00eate",
+      "artists": "Beendo Z",
+      "album": "L'\u00c9lu",
+      "popularity": 76,
+      "tempo": 138.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.532,
+      "valence": 0.491,
+      "danceability": 0.734,
+      "acousticness": 0.361,
+      "instrumentalness": 0.0,
+      "loudness": -9.0,
+      "speechiness": 0.102,
+      "duration_ms": 143525,
+      "slug": "pas-b\u00eate-beendo-z"
+    },
+    {
+      "name": "Love Story",
+      "artists": "Indila",
+      "album": "Mini World",
+      "popularity": 75,
+      "tempo": 96.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.255,
+      "valence": 0.331,
+      "danceability": 0.375,
+      "acousticness": 0.815,
+      "instrumentalness": 0.0,
+      "loudness": -12.3,
+      "speechiness": 0.038,
+      "duration_ms": 316280,
+      "slug": "love-story-indila"
+    },
+    {
+      "name": "Peur (feat. Ziak)",
+      "artists": "Kerchak;Ziak",
+      "album": "Peur (feat. Ziak)",
+      "popularity": 75,
+      "tempo": 160.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.836,
+      "valence": 0.777,
+      "danceability": 0.715,
+      "acousticness": 0.203,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.366,
+      "duration_ms": 190213,
+      "slug": "peur-feat-ziak-kerchak"
+    },
+    {
+      "name": "\u0394. Dieu ne ment jamais",
+      "artists": "Damso",
+      "album": "Ips\u00e9it\u00e9",
+      "popularity": 75,
+      "tempo": 116.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.736,
+      "valence": 0.612,
+      "danceability": 0.756,
+      "acousticness": 0.06,
+      "instrumentalness": 0.0,
+      "loudness": -7.7,
+      "speechiness": 0.044,
+      "duration_ms": 199346,
+      "slug": "\u03b4-dieu-ne-ment-jamais-damso"
+    },
+    {
+      "name": "Jefe",
+      "artists": "Ninho",
+      "album": "Jefe",
+      "popularity": 74,
+      "tempo": 121.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.599,
+      "valence": 0.213,
+      "danceability": 0.648,
+      "acousticness": 0.474,
+      "instrumentalness": 0.0,
+      "loudness": -8.6,
+      "speechiness": 0.08,
+      "duration_ms": 177705,
+      "slug": "jefe-ninho"
+    },
+    {
+      "name": "Suavemente",
+      "artists": "Soolking",
+      "album": "Suavemente",
+      "popularity": 74,
+      "tempo": 140.1,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.682,
+      "valence": 0.508,
+      "danceability": 0.865,
+      "acousticness": 0.284,
+      "instrumentalness": 0.004,
+      "loudness": -4.6,
+      "speechiness": 0.055,
+      "duration_ms": 159357,
+      "slug": "suavemente-soolking"
+    },
+    {
+      "name": "J\u2019comprends pas",
+      "artists": "PNL",
+      "album": "Que la famille",
+      "popularity": 74,
+      "tempo": 105.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.523,
+      "valence": 0.04,
+      "danceability": 0.373,
+      "acousticness": 0.228,
+      "instrumentalness": 0.017,
+      "loudness": -9.1,
+      "speechiness": 0.041,
+      "duration_ms": 283493,
+      "slug": "jcomprends-pas-pnl"
+    },
+    {
+      "name": "Prayer in C - Robin Schulz Radio Edit",
+      "artists": "Lilly Wood and The Prick;Robin Schulz",
+      "album": "Prayer in C",
+      "popularity": 73,
+      "tempo": 123.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.875,
+      "valence": 0.8,
+      "danceability": 0.763,
+      "acousticness": 0.024,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.026,
+      "duration_ms": 189413,
+      "slug": "prayer-in-c-robin-schulz-radio-edit-lilly-wood-and-the-prick"
+    },
+    {
+      "name": "Words - Original Version 1983",
+      "artists": "F.R. David",
+      "album": "Words",
+      "popularity": 73,
+      "tempo": 123.8,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.789,
+      "valence": 0.527,
+      "danceability": 0.537,
+      "acousticness": 0.372,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.055,
+      "duration_ms": 209013,
+      "slug": "words-original-version-1983-fr-david"
+    },
+    {
+      "name": "Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi",
+      "artists": "Yann Tiersen",
+      "album": "Le Fabuleux destin d'Am\u00e9lie Poulain (Bande originale du film)",
+      "popularity": 73,
+      "tempo": 100.8,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.192,
+      "valence": 0.054,
+      "danceability": 0.483,
+      "acousticness": 0.991,
+      "instrumentalness": 0.908,
+      "loudness": -15.4,
+      "speechiness": 0.047,
+      "duration_ms": 140733,
+      "slug": "comptine-dun-autre-\u00e9t\u00e9-lapr\u00e8s-midi-yann-tiersen"
+    },
+    {
+      "name": "VVS",
+      "artists": "Ninho",
+      "album": "Jefe",
+      "popularity": 73,
+      "tempo": 168.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.61,
+      "valence": 0.525,
+      "danceability": 0.751,
+      "acousticness": 0.337,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.485,
+      "duration_ms": 187027,
+      "slug": "vvs-ninho"
+    },
+    {
+      "name": "La vie qu'on m\u00e8ne",
+      "artists": "Ninho",
+      "album": "Destin",
+      "popularity": 73,
+      "tempo": 113.2,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.756,
+      "valence": 0.456,
+      "danceability": 0.8,
+      "acousticness": 0.687,
+      "instrumentalness": 0.0,
+      "loudness": -4.4,
+      "speechiness": 0.037,
+      "duration_ms": 193443,
+      "slug": "la-vie-quon-m\u00e8ne-ninho"
+    },
+    {
+      "name": "Deux fr\u00e8res",
+      "artists": "PNL",
+      "album": "Deux fr\u00e8res",
+      "popularity": 73,
+      "tempo": 112.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.659,
+      "valence": 0.308,
+      "danceability": 0.794,
+      "acousticness": 0.143,
+      "instrumentalness": 0.002,
+      "loudness": -7.1,
+      "speechiness": 0.05,
+      "duration_ms": 247459,
+      "slug": "deux-fr\u00e8res-pnl"
+    },
+    {
+      "name": "Suavemente",
+      "artists": "Soolking;Boro Boro",
+      "album": "Suavemente",
+      "popularity": 73,
+      "tempo": 140.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.682,
+      "valence": 0.507,
+      "danceability": 0.854,
+      "acousticness": 0.335,
+      "instrumentalness": 0.001,
+      "loudness": -5.2,
+      "speechiness": 0.053,
+      "duration_ms": 157714,
+      "slug": "suavemente-soolking"
+    },
+    {
+      "name": "Solitude - Felsmann + Tiley Reinterpretation",
+      "artists": "M83;Felsmann + Tiley",
+      "album": "Solitude (Felsmann + Tiley Reinterpretation)",
+      "popularity": 72,
+      "tempo": 121.9,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.202,
+      "valence": 0.036,
+      "danceability": 0.367,
+      "acousticness": 0.668,
+      "instrumentalness": 0.145,
+      "loudness": -11.3,
+      "speechiness": 0.031,
+      "duration_ms": 222354,
+      "slug": "solitude-felsmann-tiley-reinterpretation-m83"
+    },
+    {
+      "name": "Wait",
+      "artists": "M83",
+      "album": "Hurry up, We're Dreaming",
+      "popularity": 72,
+      "tempo": 148.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.228,
+      "valence": 0.082,
+      "danceability": 0.426,
+      "acousticness": 0.198,
+      "instrumentalness": 0.13,
+      "loudness": -10.6,
+      "speechiness": 0.032,
+      "duration_ms": 343253,
+      "slug": "wait-m83"
+    },
+    {
+      "name": "Ainsi bas la vida",
+      "artists": "Indila",
+      "album": "Mini World (Deluxe)",
+      "popularity": 72,
+      "tempo": 128.1,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.641,
+      "valence": 0.437,
+      "danceability": 0.776,
+      "acousticness": 0.049,
+      "instrumentalness": 0.0,
+      "loudness": -6.9,
+      "speechiness": 0.098,
+      "duration_ms": 214760,
+      "slug": "ainsi-bas-la-vida-indila"
+    },
+    {
+      "name": "Ramenez la coupe \u00e0 la maison",
+      "artists": "Vegedream",
+      "album": "Marchand de sable",
+      "popularity": 72,
+      "tempo": 108.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.661,
+      "valence": 0.804,
+      "danceability": 0.808,
+      "acousticness": 0.036,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.04,
+      "duration_ms": 235555,
+      "slug": "ramenez-la-coupe-\u00e0-la-maison-vegedream"
+    },
+    {
+      "name": "Call on me (feat. Ed Sheeran)",
+      "artists": "Vianney;Ed Sheeran",
+      "album": "Call on me (feat. Ed Sheeran)",
+      "popularity": 72,
+      "tempo": 81.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.572,
+      "danceability": 0.618,
+      "acousticness": 0.116,
+      "instrumentalness": 0.0,
+      "loudness": -3.2,
+      "speechiness": 0.066,
+      "duration_ms": 200706,
+      "slug": "call-on-me-feat-ed-sheeran-vianney"
+    },
+    {
+      "name": "Me Gusta",
+      "artists": "DTF",
+      "album": "On ira o\u00f9 ?",
+      "popularity": 72,
+      "tempo": 90.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.734,
+      "valence": 0.356,
+      "danceability": 0.834,
+      "acousticness": 0.413,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.341,
+      "duration_ms": 175269,
+      "slug": "me-gusta-dtf"
+    },
+    {
+      "name": "She Said (Big Jet Plane)",
+      "artists": "Trinix;Queen D",
+      "album": "She Said (Big Jet Plane)",
+      "popularity": 71,
+      "tempo": 108.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.538,
+      "valence": 0.416,
+      "danceability": 0.808,
+      "acousticness": 0.108,
+      "instrumentalness": 0.074,
+      "loudness": -10.2,
+      "speechiness": 0.061,
+      "duration_ms": 173750,
+      "slug": "she-said-big-jet-plane-trinix"
+    },
+    {
+      "name": "If You Had My Love (Kav Verhouzer Remix)",
+      "artists": "TWOPILOTS;De Hofnar;Kav Verhouzer",
+      "album": "If You Had My Love (Kav Verhouzer Remix)",
+      "popularity": 71,
+      "tempo": 123.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.699,
+      "valence": 0.624,
+      "danceability": 0.73,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.043,
+      "duration_ms": 158536,
+      "slug": "if-you-had-my-love-kav-verhouzer-remix-twopilots"
+    },
+    {
+      "name": "Avec Toi",
+      "artists": "OBOY",
+      "album": "OMEGA",
+      "popularity": 71,
+      "tempo": 92.5,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.666,
+      "valence": 0.381,
+      "danceability": 0.661,
+      "acousticness": 0.457,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.028,
+      "duration_ms": 193813,
+      "slug": "avec-toi-oboy"
+    },
+    {
+      "name": "Attentat",
+      "artists": "PLK;OBOY",
+      "album": "Enna Boost",
+      "popularity": 71,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.656,
+      "valence": 0.398,
+      "danceability": 0.844,
+      "acousticness": 0.192,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.216,
+      "duration_ms": 194266,
+      "slug": "attentat-plk"
+    },
+    {
+      "name": "Sunny Day",
+      "artists": "MR TOUT LE MONDE",
+      "album": "Sunny Day",
+      "popularity": 70,
+      "tempo": 120.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.422,
+      "valence": 0.119,
+      "danceability": 0.451,
+      "acousticness": 0.512,
+      "instrumentalness": 0.162,
+      "loudness": -8.5,
+      "speechiness": 0.043,
+      "duration_ms": 192000,
+      "slug": "sunny-day-mr-tout-le-monde"
+    },
+    {
+      "name": "The Carnival of the Animals, R. 125: XIII. The Swan (Arr. for Cello and Piano)",
+      "artists": "Camille Saint-Sa\u00ebns;Yo-Yo Ma;Kathryn Stott",
+      "album": "Songs from the Arc of Life",
+      "popularity": 70,
+      "tempo": 128.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.016,
+      "valence": 0.057,
+      "danceability": 0.169,
+      "acousticness": 0.986,
+      "instrumentalness": 0.86,
+      "loudness": -31.0,
+      "speechiness": 0.044,
+      "duration_ms": 174266,
+      "slug": "the-carnival-of-the-animals-r-125-xiii-the-swan-arr-for-cello-and-piano-camille"
+    },
+    {
+      "name": "Voyage voyage",
+      "artists": "Desireless",
+      "album": "Fran\u00e7ois",
+      "popularity": 70,
+      "tempo": 123.6,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.913,
+      "valence": 0.838,
+      "danceability": 0.606,
+      "acousticness": 0.246,
+      "instrumentalness": 0.007,
+      "loudness": -6.0,
+      "speechiness": 0.035,
+      "duration_ms": 266600,
+      "slug": "voyage-voyage-desireless"
+    },
+    {
+      "name": "Santa Maria",
+      "artists": "RIDSA",
+      "album": "Santa Maria",
+      "popularity": 70,
+      "tempo": 170.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.656,
+      "valence": 0.562,
+      "danceability": 0.664,
+      "acousticness": 0.408,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.04,
+      "duration_ms": 189519,
+      "slug": "santa-maria-ridsa"
+    },
+    {
+      "name": "Seve - Radio Edit",
+      "artists": "Tez Cadey",
+      "album": "Seve (Radio Edit)",
+      "popularity": 69,
+      "tempo": 121.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.831,
+      "valence": 0.448,
+      "danceability": 0.74,
+      "acousticness": 0.444,
+      "instrumentalness": 0.003,
+      "loudness": -7.3,
+      "speechiness": 0.046,
+      "duration_ms": 210853,
+      "slug": "seve-radio-edit-tez-cadey"
+    },
+    {
+      "name": "Missile - Acte II",
+      "artists": "Lartiste",
+      "album": "Maestro",
+      "popularity": 69,
+      "tempo": 115.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.542,
+      "valence": 0.474,
+      "danceability": 0.817,
+      "acousticness": 0.346,
+      "instrumentalness": 0.0,
+      "loudness": -6.5,
+      "speechiness": 0.072,
+      "duration_ms": 261182,
+      "slug": "missile-acte-ii-lartiste"
+    },
+    {
+      "name": "Magic in the Air (feat. Ahmed Chawki)",
+      "artists": "Magic System;Chawki",
+      "album": "Africainement v\u00f4tre",
+      "popularity": 68,
+      "tempo": 128.1,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.907,
+      "valence": 0.884,
+      "danceability": 0.621,
+      "acousticness": 0.091,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.047,
+      "duration_ms": 233693,
+      "slug": "magic-in-the-air-feat-ahmed-chawki-magic-system"
+    },
+    {
+      "name": "Amour plastique",
+      "artists": "Videoclub",
+      "album": "Amour plastique",
+      "popularity": 68,
+      "tempo": 120.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.354,
+      "valence": 0.245,
+      "danceability": 0.7,
+      "acousticness": 0.765,
+      "instrumentalness": 0.002,
+      "loudness": -14.0,
+      "speechiness": 0.035,
+      "duration_ms": 227026,
+      "slug": "amour-plastique-videoclub"
+    },
+    {
+      "name": "If You Had My Love",
+      "artists": "TWOPILOTS;De Hofnar",
+      "album": "If You Had My Love",
+      "popularity": 68,
+      "tempo": 114.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.875,
+      "valence": 0.766,
+      "danceability": 0.77,
+      "acousticness": 0.375,
+      "instrumentalness": 0.0,
+      "loudness": -4.0,
+      "speechiness": 0.082,
+      "duration_ms": 174210,
+      "slug": "if-you-had-my-love-twopilots"
+    },
+    {
+      "name": "Riptide",
+      "artists": "TWOPILOTS",
+      "album": "Riptide",
+      "popularity": 68,
+      "tempo": 114.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.836,
+      "valence": 0.288,
+      "danceability": 0.729,
+      "acousticness": 0.156,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.046,
+      "duration_ms": 154731,
+      "slug": "riptide-twopilots"
+    },
+    {
+      "name": "Run Free",
+      "artists": "Deep Chills;IVIE",
+      "album": "Run Free",
+      "popularity": 67,
+      "tempo": 100.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.69,
+      "valence": 0.699,
+      "danceability": 0.727,
+      "acousticness": 0.202,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.035,
+      "duration_ms": 170562,
+      "slug": "run-free-deep-chills"
+    },
+    {
+      "name": "Territory",
+      "artists": "The Blaze",
+      "album": "Territory",
+      "popularity": 67,
+      "tempo": 120.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.44,
+      "valence": 0.213,
+      "danceability": 0.563,
+      "acousticness": 0.286,
+      "instrumentalness": 0.683,
+      "loudness": -11.9,
+      "speechiness": 0.082,
+      "duration_ms": 276373,
+      "slug": "territory-the-blaze"
+    },
+    {
+      "name": "Crazy",
+      "artists": "PL\u00dcM",
+      "album": "Crazy",
+      "popularity": 67,
+      "tempo": 105.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.596,
+      "valence": 0.259,
+      "danceability": 0.769,
+      "acousticness": 0.049,
+      "instrumentalness": 0.008,
+      "loudness": -9.4,
+      "speechiness": 0.052,
+      "duration_ms": 220000,
+      "slug": "crazy-pl\u00fcm"
+    },
+    {
+      "name": "Prayer in C - Robin Schulz Radio Edit",
+      "artists": "Lilly Wood and The Prick;Robin Schulz",
+      "album": "Prayer",
+      "popularity": 67,
+      "tempo": 123.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.886,
+      "valence": 0.78,
+      "danceability": 0.76,
+      "acousticness": 0.022,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.026,
+      "duration_ms": 189399,
+      "slug": "prayer-in-c-robin-schulz-radio-edit-lilly-wood-and-the-prick"
+    },
+    {
+      "name": "Elle est bonne sa m\u00e8re",
+      "artists": "Vegedream;Ninho",
+      "album": "Ategban",
+      "popularity": 67,
+      "tempo": 105.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.741,
+      "valence": 0.466,
+      "danceability": 0.787,
+      "acousticness": 0.329,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.059,
+      "duration_ms": 196880,
+      "slug": "elle-est-bonne-sa-m\u00e8re-vegedream"
+    },
+    {
+      "name": "Suavemente",
+      "artists": "Soolking",
+      "album": "Sans visa",
+      "popularity": 67,
+      "tempo": 140.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.696,
+      "valence": 0.519,
+      "danceability": 0.862,
+      "acousticness": 0.326,
+      "instrumentalness": 0.005,
+      "loudness": -4.5,
+      "speechiness": 0.054,
+      "duration_ms": 159360,
+      "slug": "suavemente-soolking"
+    },
+    {
+      "name": "Vem Dancar Kuduro",
+      "artists": "Lucenzo;Big Ali",
+      "album": "Emigrante Del Mundo (Remastered)",
+      "popularity": 67,
+      "tempo": 129.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.941,
+      "valence": 0.707,
+      "danceability": 0.327,
+      "acousticness": 0.023,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.353,
+      "duration_ms": 199235,
+      "slug": "vem-dancar-kuduro-lucenzo"
+    },
+    {
+      "name": "Pink Soldiers",
+      "artists": "Boris Way",
+      "album": "Pink Soldiers",
+      "popularity": 66,
+      "tempo": 123.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.639,
+      "valence": 0.496,
+      "danceability": 0.828,
+      "acousticness": 0.167,
+      "instrumentalness": 0.165,
+      "loudness": -6.3,
+      "speechiness": 0.035,
+      "duration_ms": 135688,
+      "slug": "pink-soldiers-boris-way"
+    },
+    {
+      "name": "Moon (And It Went Like)",
+      "artists": "Kid Francescoli;Julia Minkin",
+      "album": "Play Me Again",
+      "popularity": 66,
+      "tempo": 118.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.657,
+      "valence": 0.058,
+      "danceability": 0.662,
+      "acousticness": 0.288,
+      "instrumentalness": 0.856,
+      "loudness": -10.0,
+      "speechiness": 0.035,
+      "duration_ms": 390638,
+      "slug": "moon-and-it-went-like-kid-francescoli"
+    },
+    {
+      "name": "Let You Know - Summer Edit",
+      "artists": "Y.V.E. 48",
+      "album": "Let You Know (Summer Edit)",
+      "popularity": 66,
+      "tempo": 100.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.398,
+      "valence": 0.097,
+      "danceability": 0.623,
+      "acousticness": 0.381,
+      "instrumentalness": 0.426,
+      "loudness": -13.8,
+      "speechiness": 0.033,
+      "duration_ms": 149400,
+      "slug": "let-you-know-summer-edit-yve-48"
+    },
+    {
+      "name": "Don't Be so Shy - Filatov & Karas Remix",
+      "artists": "Imany;Filatov & Karas",
+      "album": "The Wrong Kind of War",
+      "popularity": 66,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.904,
+      "valence": 0.906,
+      "danceability": 0.768,
+      "acousticness": 0.05,
+      "instrumentalness": 0.011,
+      "loudness": -5.8,
+      "speechiness": 0.058,
+      "duration_ms": 191360,
+      "slug": "dont-be-so-shy-filatov-karas-remix-imany"
+    },
+    {
+      "name": "Canop\u00e9e",
+      "artists": "Polo & Pan",
+      "album": "Caravelle",
+      "popularity": 66,
+      "tempo": 96.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.692,
+      "valence": 0.369,
+      "danceability": 0.704,
+      "acousticness": 0.094,
+      "instrumentalness": 0.011,
+      "loudness": -6.6,
+      "speechiness": 0.03,
+      "duration_ms": 276293,
+      "slug": "canop\u00e9e-polo-pan"
+    },
+    {
+      "name": "Hands Up - Single Version",
+      "artists": "Ottawan",
+      "album": "Hands Up",
+      "popularity": 66,
+      "tempo": 123.3,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.876,
+      "valence": 0.992,
+      "danceability": 0.888,
+      "acousticness": 0.61,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.043,
+      "duration_ms": 208573,
+      "slug": "hands-up-single-version-ottawan"
+    },
+    {
+      "name": "The Sun",
+      "artists": "Myd",
+      "album": "Born a Loser",
+      "popularity": 66,
+      "tempo": 126.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.586,
+      "valence": 0.729,
+      "danceability": 0.773,
+      "acousticness": 0.752,
+      "instrumentalness": 0.762,
+      "loudness": -7.6,
+      "speechiness": 0.031,
+      "duration_ms": 207373,
+      "slug": "the-sun-myd"
+    },
+    {
+      "name": "Ramenez la coupe \u00e0 la maison",
+      "artists": "Vegedream",
+      "album": "Ramenez la coupe \u00e0 la maison",
+      "popularity": 65,
+      "tempo": 108.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.661,
+      "valence": 0.804,
+      "danceability": 0.808,
+      "acousticness": 0.036,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.04,
+      "duration_ms": 235555,
+      "slug": "ramenez-la-coupe-\u00e0-la-maison-vegedream"
+    },
+    {
+      "name": "Fever",
+      "artists": "Luca;Nina Carr",
+      "album": "Fever",
+      "popularity": 65,
+      "tempo": 106.8,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.554,
+      "valence": 0.231,
+      "danceability": 0.61,
+      "acousticness": 0.428,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.13,
+      "duration_ms": 173411,
+      "slug": "fever-luca"
+    },
+    {
+      "name": "Outro",
+      "artists": "M83",
+      "album": "Hurry up, We're Dreaming",
+      "popularity": 65,
+      "tempo": 108.9,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.256,
+      "valence": 0.078,
+      "danceability": 0.162,
+      "acousticness": 0.033,
+      "instrumentalness": 0.092,
+      "loudness": -11.3,
+      "speechiness": 0.035,
+      "duration_ms": 247026,
+      "slug": "outro-m83"
+    },
+    {
+      "name": "Feel This Way",
+      "artists": "Lonely in the Rain;Panama",
+      "album": "Feel This Way",
+      "popularity": 65,
+      "tempo": 124.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.405,
+      "valence": 0.054,
+      "danceability": 0.757,
+      "acousticness": 0.528,
+      "instrumentalness": 0.126,
+      "loudness": -13.7,
+      "speechiness": 0.117,
+      "duration_ms": 220645,
+      "slug": "feel-this-way-lonely-in-the-rain"
+    },
+    {
+      "name": "Nan\u00e3",
+      "artists": "Polo & Pan",
+      "album": "Caravelle",
+      "popularity": 65,
+      "tempo": 94.0,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.735,
+      "valence": 0.385,
+      "danceability": 0.685,
+      "acousticness": 0.191,
+      "instrumentalness": 0.038,
+      "loudness": -6.3,
+      "speechiness": 0.033,
+      "duration_ms": 190826,
+      "slug": "nan\u00e3-polo-pan"
+    },
+    {
+      "name": "Wicked Games (feat. Anna Naklab) - Radio Edit",
+      "artists": "Parra for Cuva;Anna Naklab",
+      "album": "Wicked Games (feat. Anna Naklab) [Radio Edit]",
+      "popularity": 65,
+      "tempo": 125.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.641,
+      "valence": 0.701,
+      "danceability": 0.801,
+      "acousticness": 0.067,
+      "instrumentalness": 0.024,
+      "loudness": -8.6,
+      "speechiness": 0.045,
+      "duration_ms": 195210,
+      "slug": "wicked-games-feat-anna-naklab-radio-edit-parra-for-cuva"
+    },
+    {
+      "name": "Mafiosa (feat. Caroliina)",
+      "artists": "Lartiste;Caroliina",
+      "album": "Grandestino",
+      "popularity": 65,
+      "tempo": 129.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.724,
+      "valence": 0.757,
+      "danceability": 0.867,
+      "acousticness": 0.258,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.098,
+      "duration_ms": 193700,
+      "slug": "mafiosa-feat-caroliina-lartiste"
+    },
+    {
+      "name": "Every Breath You Take",
+      "artists": "Deep Chills",
+      "album": "Every Breath You Take",
+      "popularity": 65,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.573,
+      "valence": 0.671,
+      "danceability": 0.78,
+      "acousticness": 0.249,
+      "instrumentalness": 0.245,
+      "loudness": -8.5,
+      "speechiness": 0.038,
+      "duration_ms": 198058,
+      "slug": "every-breath-you-take-deep-chills"
+    },
+    {
+      "name": "La Seine - Extrait de la bande originale un monstre \u00e0 Paris",
+      "artists": "Vanessa Paradis;-M-",
+      "album": "Best Of & Variations",
+      "popularity": 65,
+      "tempo": 113.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.667,
+      "valence": 0.4,
+      "danceability": 0.736,
+      "acousticness": 0.43,
+      "instrumentalness": 0.0,
+      "loudness": -7.9,
+      "speechiness": 0.031,
+      "duration_ms": 167520,
+      "slug": "la-seine-extrait-de-la-bande-originale-un-monstre-\u00e0-paris-vanessa-paradis"
+    },
+    {
+      "name": "Stranded",
+      "artists": "Gojira",
+      "album": "Magma",
+      "popularity": 65,
+      "tempo": 92.4,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.88,
+      "valence": 0.495,
+      "danceability": 0.513,
+      "acousticness": 0.0,
+      "instrumentalness": 0.006,
+      "loudness": -4.7,
+      "speechiness": 0.031,
+      "duration_ms": 269533,
+      "slug": "stranded-gojira"
+    },
+    {
+      "name": "Take Me Home",
+      "artists": "Saco;Sebasti\u00ebn",
+      "album": "Take Me Home",
+      "popularity": 65,
+      "tempo": 113.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.747,
+      "valence": 0.668,
+      "danceability": 0.746,
+      "acousticness": 0.579,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.035,
+      "duration_ms": 171578,
+      "slug": "take-me-home-saco"
+    },
+    {
+      "name": "Agitations tropicales",
+      "artists": "L'Imp\u00e9ratrice",
+      "album": "Odyss\u00e9e - EP",
+      "popularity": 65,
+      "tempo": 116.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.401,
+      "valence": 0.619,
+      "danceability": 0.76,
+      "acousticness": 0.564,
+      "instrumentalness": 0.259,
+      "loudness": -9.5,
+      "speechiness": 0.067,
+      "duration_ms": 248892,
+      "slug": "agitations-tropicales-limp\u00e9ratrice"
+    },
+    {
+      "name": "Fade Out Lines - The Avener Rework",
+      "artists": "The Avener;Phoebe Killdeer",
+      "album": "The Wanderings Of The Avener",
+      "popularity": 65,
+      "tempo": 119.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.731,
+      "valence": 0.699,
+      "danceability": 0.876,
+      "acousticness": 0.016,
+      "instrumentalness": 0.093,
+      "loudness": -5.8,
+      "speechiness": 0.033,
+      "duration_ms": 276600,
+      "slug": "fade-out-lines-the-avener-rework-the-avener"
+    },
+    {
+      "name": "Mele\u011fim",
+      "artists": "Soolking;Dadju",
+      "album": "Vintage",
+      "popularity": 65,
+      "tempo": 95.0,
+      "key": "D#/Eb",
+      "mode": "Minor",
+      "energy": 0.697,
+      "valence": 0.57,
+      "danceability": 0.682,
+      "acousticness": 0.188,
+      "instrumentalness": 0.0,
+      "loudness": -4.3,
+      "speechiness": 0.076,
+      "duration_ms": 220280,
+      "slug": "mele\u011fim-soolking"
+    },
+    {
+      "name": "Afro Trap Pt. 7 (La puissance)",
+      "artists": "MHD",
+      "album": "Afro Trap Part. 7 (La puissance)",
+      "popularity": 65,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.806,
+      "valence": 0.815,
+      "danceability": 0.97,
+      "acousticness": 0.096,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.298,
+      "duration_ms": 140077,
+      "slug": "afro-trap-pt-7-la-puissance-mhd"
+    },
+    {
+      "name": "Paris",
+      "artists": "Else",
+      "album": "Paris",
+      "popularity": 64,
+      "tempo": 103.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.583,
+      "valence": 0.54,
+      "danceability": 0.792,
+      "acousticness": 0.023,
+      "instrumentalness": 0.582,
+      "loudness": -8.3,
+      "speechiness": 0.027,
+      "duration_ms": 209708,
+      "slug": "paris-else"
+    },
+    {
+      "name": "My Tears Are Becoming a Sea",
+      "artists": "M83",
+      "album": "Hurry up, We're Dreaming",
+      "popularity": 64,
+      "tempo": 110.8,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.353,
+      "valence": 0.055,
+      "danceability": 0.162,
+      "acousticness": 0.099,
+      "instrumentalness": 0.274,
+      "loudness": -11.3,
+      "speechiness": 0.051,
+      "duration_ms": 151826,
+      "slug": "my-tears-are-becoming-a-sea-m83"
+    },
+    {
+      "name": "EYES",
+      "artists": "The Blaze",
+      "album": "EYES",
+      "popularity": 64,
+      "tempo": 120.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.433,
+      "valence": 0.119,
+      "danceability": 0.818,
+      "acousticness": 0.175,
+      "instrumentalness": 0.004,
+      "loudness": -10.9,
+      "speechiness": 0.07,
+      "duration_ms": 212080,
+      "slug": "eyes-the-blaze"
+    },
+    {
+      "name": "\u00c9coute Ch\u00e9rie",
+      "artists": "Vendredi sur Mer",
+      "album": "Premiers \u00e9mois",
+      "popularity": 64,
+      "tempo": 92.9,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.647,
+      "valence": 0.689,
+      "danceability": 0.607,
+      "acousticness": 0.138,
+      "instrumentalness": 0.001,
+      "loudness": -7.2,
+      "speechiness": 0.045,
+      "duration_ms": 224933,
+      "slug": "\u00e9coute-ch\u00e9rie-vendredi-sur-mer"
+    },
+    {
+      "name": "Electric Feel",
+      "artists": "TEEMID",
+      "album": "Electric Feel",
+      "popularity": 64,
+      "tempo": 100.1,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.472,
+      "valence": 0.083,
+      "danceability": 0.686,
+      "acousticness": 0.416,
+      "instrumentalness": 0.091,
+      "loudness": -8.6,
+      "speechiness": 0.09,
+      "duration_ms": 213974,
+      "slug": "electric-feel-teemid"
+    },
+    {
+      "name": "Ceux qui r\u00eavent",
+      "artists": "Pomme",
+      "album": "\u00c0 peu pr\u00e8s",
+      "popularity": 64,
+      "tempo": 133.7,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.419,
+      "valence": 0.658,
+      "danceability": 0.432,
+      "acousticness": 0.869,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.035,
+      "duration_ms": 118386,
+      "slug": "ceux-qui-r\u00eavent-pomme"
+    },
+    {
+      "name": "The One",
+      "artists": "Jane Good;Samuel Miller",
+      "album": "The One",
+      "popularity": 64,
+      "tempo": 115.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.632,
+      "valence": 0.219,
+      "danceability": 0.644,
+      "acousticness": 0.162,
+      "instrumentalness": 0.342,
+      "loudness": -5.9,
+      "speechiness": 0.038,
+      "duration_ms": 125347,
+      "slug": "the-one-jane-good"
+    },
+    {
+      "name": "The Arts and the Hours",
+      "artists": "Jean-Philippe Rameau;V\u00edkingur \u00d3lafsson",
+      "album": "Rameau, \u00d3lafsson: The Arts and the Hours",
+      "popularity": 64,
+      "tempo": 136.2,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.026,
+      "valence": 0.268,
+      "danceability": 0.415,
+      "acousticness": 0.995,
+      "instrumentalness": 0.938,
+      "loudness": -36.7,
+      "speechiness": 0.05,
+      "duration_ms": 285442,
+      "slug": "the-arts-and-the-hours-jean-philippe-rameau"
+    },
+    {
+      "name": "Me & U",
+      "artists": "TWOPILOTS",
+      "album": "Me & U",
+      "popularity": 64,
+      "tempo": 118.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.849,
+      "valence": 0.495,
+      "danceability": 0.781,
+      "acousticness": 0.012,
+      "instrumentalness": 0.001,
+      "loudness": -4.9,
+      "speechiness": 0.04,
+      "duration_ms": 174512,
+      "slug": "me-u-twopilots"
+    },
+    {
+      "name": "La Valse d'Am\u00e9lie - Version piano",
+      "artists": "Yann Tiersen",
+      "album": "Le Fabuleux destin d'Am\u00e9lie Poulain (Bande originale du film)",
+      "popularity": 64,
+      "tempo": 177.7,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.179,
+      "valence": 0.179,
+      "danceability": 0.194,
+      "acousticness": 0.988,
+      "instrumentalness": 0.866,
+      "loudness": -16.8,
+      "speechiness": 0.042,
+      "duration_ms": 158666,
+      "slug": "la-valse-dam\u00e9lie-version-piano-yann-tiersen"
+    },
+    {
+      "name": "Askim",
+      "artists": "Soolking;Reynmen",
+      "album": "Askim",
+      "popularity": 64,
+      "tempo": 98.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.671,
+      "valence": 0.537,
+      "danceability": 0.777,
+      "acousticness": 0.128,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.069,
+      "duration_ms": 173133,
+      "slug": "askim-soolking"
+    },
+    {
+      "name": "Le temps est bon",
+      "artists": "Bon Entendeur;Isabelle Pierre",
+      "album": "Aller-retour",
+      "popularity": 64,
+      "tempo": 98.1,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.679,
+      "valence": 0.583,
+      "danceability": 0.573,
+      "acousticness": 0.237,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.079,
+      "duration_ms": 203160,
+      "slug": "le-temps-est-bon-bon-entendeur"
+    },
+    {
+      "name": "Hit Sale (feat. Rom\u00e9o Elvis)",
+      "artists": "Therapie TAXI;Rom\u00e9o Elvis",
+      "album": "Hit Sale",
+      "popularity": 64,
+      "tempo": 82.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.784,
+      "valence": 0.69,
+      "danceability": 0.573,
+      "acousticness": 0.141,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.059,
+      "duration_ms": 184400,
+      "slug": "hit-sale-feat-rom\u00e9o-elvis-therapie-taxi"
+    },
+    {
+      "name": "Bebeto",
+      "artists": "Kendji Girac;Soolking",
+      "album": "Mi Vida (Edition de No\u00ebl)",
+      "popularity": 64,
+      "tempo": 111.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.712,
+      "valence": 0.891,
+      "danceability": 0.851,
+      "acousticness": 0.462,
+      "instrumentalness": 0.0,
+      "loudness": -6.1,
+      "speechiness": 0.154,
+      "duration_ms": 205400,
+      "slug": "bebeto-kendji-girac"
+    },
+    {
+      "name": "Pesetas",
+      "artists": "Ril\u00e8s",
+      "album": "Pesetas",
+      "popularity": 63,
+      "tempo": 147.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.659,
+      "valence": 0.536,
+      "danceability": 0.772,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.335,
+      "duration_ms": 193561,
+      "slug": "pesetas-ril\u00e8s"
+    },
+    {
+      "name": "Move Me",
+      "artists": "Lavern",
+      "album": "Move Me",
+      "popularity": 63,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.644,
+      "valence": 0.188,
+      "danceability": 0.706,
+      "acousticness": 0.802,
+      "instrumentalness": 0.026,
+      "loudness": -10.0,
+      "speechiness": 0.044,
+      "duration_ms": 140000,
+      "slug": "move-me-lavern"
+    },
+    {
+      "name": "Memories - Jyrymy Remix",
+      "artists": "WAVE.;Marcus Alexander;JYRYMY",
+      "album": "Memories (Jyrymy Remix)",
+      "popularity": 63,
+      "tempo": 121.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.689,
+      "valence": 0.24,
+      "danceability": 0.787,
+      "acousticness": 0.366,
+      "instrumentalness": 0.046,
+      "loudness": -9.1,
+      "speechiness": 0.177,
+      "duration_ms": 204787,
+      "slug": "memories-jyrymy-remix-wave"
+    },
+    {
+      "name": "Wonderwall",
+      "artists": "TEEMID",
+      "album": "Wonderwall",
+      "popularity": 63,
+      "tempo": 100.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.705,
+      "valence": 0.521,
+      "danceability": 0.7,
+      "acousticness": 0.148,
+      "instrumentalness": 0.034,
+      "loudness": -6.0,
+      "speechiness": 0.041,
+      "duration_ms": 246169,
+      "slug": "wonderwall-teemid"
+    },
+    {
+      "name": "She",
+      "artists": "The Blaze",
+      "album": "Dancehall",
+      "popularity": 63,
+      "tempo": 125.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.829,
+      "valence": 0.04,
+      "danceability": 0.697,
+      "acousticness": 0.031,
+      "instrumentalness": 0.283,
+      "loudness": -8.9,
+      "speechiness": 0.04,
+      "duration_ms": 218653,
+      "slug": "she-the-blaze"
+    },
+    {
+      "name": "Away From Home",
+      "artists": "Broken Back",
+      "album": "Away From Home",
+      "popularity": 63,
+      "tempo": 98.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.871,
+      "valence": 0.79,
+      "danceability": 0.698,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.047,
+      "duration_ms": 149072,
+      "slug": "away-from-home-broken-back"
+    },
+    {
+      "name": "Shine",
+      "artists": "Broken Back",
+      "album": "Shine",
+      "popularity": 63,
+      "tempo": 96.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.758,
+      "valence": 0.686,
+      "danceability": 0.683,
+      "acousticness": 0.284,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.163,
+      "duration_ms": 171870,
+      "slug": "shine-broken-back"
+    },
+    {
+      "name": "You've Got The Love",
+      "artists": "Y.V.E. 48",
+      "album": "You've Got The Love",
+      "popularity": 63,
+      "tempo": 107.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.44,
+      "valence": 0.151,
+      "danceability": 0.755,
+      "acousticness": 0.202,
+      "instrumentalness": 0.129,
+      "loudness": -11.7,
+      "speechiness": 0.048,
+      "duration_ms": 147750,
+      "slug": "youve-got-the-love-yve-48"
+    },
+    {
+      "name": "Bailamos",
+      "artists": "Lucenzo",
+      "album": "Bailamos",
+      "popularity": 63,
+      "tempo": 193.9,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.781,
+      "valence": 0.568,
+      "danceability": 0.682,
+      "acousticness": 0.299,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.119,
+      "duration_ms": 173195,
+      "slug": "bailamos-lucenzo"
+    },
+    {
+      "name": "Les Champs-Elys\u00e9es",
+      "artists": "Joe Dassin",
+      "album": "Les Champs-\u00c8lys\u00e9es",
+      "popularity": 63,
+      "tempo": 111.6,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.454,
+      "valence": 0.711,
+      "danceability": 0.783,
+      "acousticness": 0.456,
+      "instrumentalness": 0.0,
+      "loudness": -8.3,
+      "speechiness": 0.049,
+      "duration_ms": 157626,
+      "slug": "les-champs-elys\u00e9es-joe-dassin"
+    },
+    {
+      "name": "Give It to Me",
+      "artists": "Matt Sassari",
+      "album": "Give It to Me",
+      "popularity": 63,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.664,
+      "valence": 0.545,
+      "danceability": 0.838,
+      "acousticness": 0.001,
+      "instrumentalness": 0.035,
+      "loudness": -8.1,
+      "speechiness": 0.048,
+      "duration_ms": 210000,
+      "slug": "give-it-to-me-matt-sassari"
+    },
+    {
+      "name": "Everything Eventually Ends",
+      "artists": "L'Imp\u00e9ratrice;Rejjie Snow",
+      "album": "Everything Eventually Ends",
+      "popularity": 63,
+      "tempo": 95.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.484,
+      "valence": 0.849,
+      "danceability": 0.865,
+      "acousticness": 0.361,
+      "instrumentalness": 0.0,
+      "loudness": -9.3,
+      "speechiness": 0.177,
+      "duration_ms": 177280,
+      "slug": "everything-eventually-ends-limp\u00e9ratrice"
+    },
+    {
+      "name": "Bella",
+      "artists": "GIMS",
+      "album": "Subliminal (La face cach\u00e9e)",
+      "popularity": 63,
+      "tempo": 103.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.944,
+      "valence": 0.965,
+      "danceability": 0.781,
+      "acousticness": 0.087,
+      "instrumentalness": 0.08,
+      "loudness": -2.6,
+      "speechiness": 0.061,
+      "duration_ms": 226480,
+      "slug": "bella-gims"
+    },
+    {
+      "name": "Gotta Give Me",
+      "artists": "Saco;Sebasti\u00ebn",
+      "album": "Gotta Give Me",
+      "popularity": 63,
+      "tempo": 115.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.707,
+      "valence": 0.721,
+      "danceability": 0.864,
+      "acousticness": 0.469,
+      "instrumentalness": 0.0,
+      "loudness": -7.3,
+      "speechiness": 0.039,
+      "duration_ms": 199016,
+      "slug": "gotta-give-me-saco"
+    },
+    {
+      "name": "Jimmy",
+      "artists": "Moriarty",
+      "album": "Gee Whiz But This Is a Lonesome Town",
+      "popularity": 63,
+      "tempo": 126.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.305,
+      "valence": 0.263,
+      "danceability": 0.748,
+      "acousticness": 0.901,
+      "instrumentalness": 0.0,
+      "loudness": -9.2,
+      "speechiness": 0.034,
+      "duration_ms": 264826,
+      "slug": "jimmy-moriarty"
+    }
+  ]
+}

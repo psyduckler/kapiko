@@ -1,0 +1,2804 @@
+{
+  "genre": "German",
+  "track_count": 100,
+  "collection_source": "Spotify 114K Dataset (HuggingFace)",
+  "bpm": {
+    "min": 62.881,
+    "max": 191.413,
+    "mean": 122.313,
+    "median": 123.999,
+    "q1": 113.82,
+    "q3": 128.15,
+    "histogram": {
+      "60-69": 2,
+      "70-79": 2,
+      "80-89": 3,
+      "90-99": 6,
+      "100-109": 11,
+      "110-119": 12,
+      "120-129": 41,
+      "130-139": 11,
+      "140-149": 4,
+      "150-159": 3,
+      "160-169": 1,
+      "170-179": 1,
+      "180-189": 2,
+      "190-199": 1
+    }
+  },
+  "key_distribution": {
+    "G": 13,
+    "B": 12,
+    "F": 11,
+    "C#/Db": 10,
+    "C": 9,
+    "A": 9,
+    "F#/Gb": 8,
+    "G#/Ab": 8,
+    "A#/Bb": 7,
+    "D": 7,
+    "E": 5,
+    "D#/Eb": 1
+  },
+  "mode_distribution": {
+    "Major": 48,
+    "Minor": 52
+  },
+  "key_mode_distribution": {
+    "G Major": 10,
+    "B Minor": 8,
+    "A Minor": 8,
+    "F Minor": 6,
+    "C#/Db Minor": 6,
+    "F#/Gb Minor": 5,
+    "G#/Ab Major": 5,
+    "F Major": 5,
+    "C Minor": 5,
+    "D Major": 5,
+    "A#/Bb Major": 4,
+    "B Major": 4,
+    "C Major": 4,
+    "C#/Db Major": 4,
+    "G#/Ab Minor": 3,
+    "A#/Bb Minor": 3,
+    "E Minor": 3,
+    "G Minor": 3,
+    "F#/Gb Major": 3,
+    "E Major": 2,
+    "D Minor": 2,
+    "A Major": 1,
+    "D#/Eb Major": 1
+  },
+  "energy": {
+    "min": 0.005,
+    "max": 0.977,
+    "mean": 0.606,
+    "median": 0.655,
+    "q1": 0.465,
+    "q3": 0.823
+  },
+  "valence": {
+    "min": 0.026,
+    "max": 0.969,
+    "mean": 0.414,
+    "median": 0.412,
+    "q1": 0.19,
+    "q3": 0.615
+  },
+  "energy_valence_scatter": [
+    {
+      "energy": 0.806,
+      "valence": 0.82
+    },
+    {
+      "energy": 0.657,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.581,
+      "valence": 0.728
+    },
+    {
+      "energy": 0.727,
+      "valence": 0.4
+    },
+    {
+      "energy": 0.784,
+      "valence": 0.517
+    },
+    {
+      "energy": 0.524,
+      "valence": 0.246
+    },
+    {
+      "energy": 0.428,
+      "valence": 0.334
+    },
+    {
+      "energy": 0.72,
+      "valence": 0.664
+    },
+    {
+      "energy": 0.412,
+      "valence": 0.607
+    },
+    {
+      "energy": 0.465,
+      "valence": 0.068
+    },
+    {
+      "energy": 0.841,
+      "valence": 0.714
+    },
+    {
+      "energy": 0.895,
+      "valence": 0.237
+    },
+    {
+      "energy": 0.622,
+      "valence": 0.544
+    },
+    {
+      "energy": 0.815,
+      "valence": 0.636
+    },
+    {
+      "energy": 0.804,
+      "valence": 0.41
+    },
+    {
+      "energy": 0.681,
+      "valence": 0.775
+    },
+    {
+      "energy": 0.781,
+      "valence": 0.176
+    },
+    {
+      "energy": 0.61,
+      "valence": 0.649
+    },
+    {
+      "energy": 0.922,
+      "valence": 0.716
+    },
+    {
+      "energy": 0.571,
+      "valence": 0.465
+    },
+    {
+      "energy": 0.791,
+      "valence": 0.828
+    },
+    {
+      "energy": 0.226,
+      "valence": 0.048
+    },
+    {
+      "energy": 0.605,
+      "valence": 0.078
+    },
+    {
+      "energy": 0.708,
+      "valence": 0.381
+    },
+    {
+      "energy": 0.917,
+      "valence": 0.313
+    },
+    {
+      "energy": 0.898,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.82,
+      "valence": 0.652
+    },
+    {
+      "energy": 0.801,
+      "valence": 0.202
+    },
+    {
+      "energy": 0.585,
+      "valence": 0.528
+    },
+    {
+      "energy": 0.097,
+      "valence": 0.04
+    },
+    {
+      "energy": 0.838,
+      "valence": 0.965
+    },
+    {
+      "energy": 0.836,
+      "valence": 0.831
+    },
+    {
+      "energy": 0.714,
+      "valence": 0.415
+    },
+    {
+      "energy": 0.976,
+      "valence": 0.493
+    },
+    {
+      "energy": 0.564,
+      "valence": 0.596
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.56
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.851
+    },
+    {
+      "energy": 0.849,
+      "valence": 0.722
+    },
+    {
+      "energy": 0.417,
+      "valence": 0.166
+    },
+    {
+      "energy": 0.333,
+      "valence": 0.261
+    },
+    {
+      "energy": 0.85,
+      "valence": 0.362
+    },
+    {
+      "energy": 0.848,
+      "valence": 0.286
+    },
+    {
+      "energy": 0.005,
+      "valence": 0.151
+    },
+    {
+      "energy": 0.157,
+      "valence": 0.304
+    },
+    {
+      "energy": 0.828,
+      "valence": 0.407
+    },
+    {
+      "energy": 0.648,
+      "valence": 0.171
+    },
+    {
+      "energy": 0.302,
+      "valence": 0.157
+    },
+    {
+      "energy": 0.564,
+      "valence": 0.574
+    },
+    {
+      "energy": 0.654,
+      "valence": 0.19
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.793
+    },
+    {
+      "energy": 0.337,
+      "valence": 0.342
+    },
+    {
+      "energy": 0.723,
+      "valence": 0.499
+    },
+    {
+      "energy": 0.627,
+      "valence": 0.437
+    },
+    {
+      "energy": 0.693,
+      "valence": 0.248
+    },
+    {
+      "energy": 0.846,
+      "valence": 0.366
+    },
+    {
+      "energy": 0.336,
+      "valence": 0.036
+    },
+    {
+      "energy": 0.695,
+      "valence": 0.453
+    },
+    {
+      "energy": 0.84,
+      "valence": 0.904
+    },
+    {
+      "energy": 0.014,
+      "valence": 0.244
+    },
+    {
+      "energy": 0.017,
+      "valence": 0.066
+    },
+    {
+      "energy": 0.66,
+      "valence": 0.355
+    },
+    {
+      "energy": 0.347,
+      "valence": 0.289
+    },
+    {
+      "energy": 0.738,
+      "valence": 0.461
+    },
+    {
+      "energy": 0.76,
+      "valence": 0.64
+    },
+    {
+      "energy": 0.672,
+      "valence": 0.461
+    },
+    {
+      "energy": 0.815,
+      "valence": 0.185
+    },
+    {
+      "energy": 0.585,
+      "valence": 0.77
+    },
+    {
+      "energy": 0.891,
+      "valence": 0.705
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.073
+    },
+    {
+      "energy": 0.971,
+      "valence": 0.969
+    },
+    {
+      "energy": 0.557,
+      "valence": 0.368
+    },
+    {
+      "energy": 0.963,
+      "valence": 0.464
+    },
+    {
+      "energy": 0.031,
+      "valence": 0.118
+    },
+    {
+      "energy": 0.914,
+      "valence": 0.63
+    },
+    {
+      "energy": 0.495,
+      "valence": 0.6
+    },
+    {
+      "energy": 0.126,
+      "valence": 0.216
+    },
+    {
+      "energy": 0.03,
+      "valence": 0.026
+    },
+    {
+      "energy": 0.108,
+      "valence": 0.18
+    },
+    {
+      "energy": 0.81,
+      "valence": 0.583
+    },
+    {
+      "energy": 0.977,
+      "valence": 0.493
+    },
+    {
+      "energy": 0.132,
+      "valence": 0.099
+    },
+    {
+      "energy": 0.833,
+      "valence": 0.671
+    },
+    {
+      "energy": 0.644,
+      "valence": 0.445
+    },
+    {
+      "energy": 0.823,
+      "valence": 0.52
+    },
+    {
+      "energy": 0.059,
+      "valence": 0.037
+    },
+    {
+      "energy": 0.759,
+      "valence": 0.24
+    },
+    {
+      "energy": 0.603,
+      "valence": 0.232
+    },
+    {
+      "energy": 0.651,
+      "valence": 0.14
+    },
+    {
+      "energy": 0.483,
+      "valence": 0.57
+    },
+    {
+      "energy": 0.796,
+      "valence": 0.549
+    },
+    {
+      "energy": 0.576,
+      "valence": 0.662
+    },
+    {
+      "energy": 0.616,
+      "valence": 0.316
+    },
+    {
+      "energy": 0.102,
+      "valence": 0.058
+    },
+    {
+      "energy": 0.071,
+      "valence": 0.037
+    },
+    {
+      "energy": 0.381,
+      "valence": 0.14
+    },
+    {
+      "energy": 0.525,
+      "valence": 0.1
+    },
+    {
+      "energy": 0.915,
+      "valence": 0.615
+    },
+    {
+      "energy": 0.231,
+      "valence": 0.033
+    },
+    {
+      "energy": 0.436,
+      "valence": 0.05
+    },
+    {
+      "energy": 0.889,
+      "valence": 0.511
+    }
+  ],
+  "acousticness": {
+    "min": 0.0,
+    "max": 0.995,
+    "mean": 0.3,
+    "median": 0.171,
+    "q1": 0.028,
+    "q3": 0.458
+  },
+  "instrumentalness": {
+    "min": 0.0,
+    "max": 0.982,
+    "mean": 0.203,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.103
+  },
+  "acoustic_instrumental_scatter": [
+    {
+      "acousticness": 0.145,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.171,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.427,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.184,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.194,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.315,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.376,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.223,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.287,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.643,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.056,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.349
+    },
+    {
+      "acousticness": 0.253,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.018,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.082,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.124,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.351,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.004,
+      "instrumentalness": 0.055
+    },
+    {
+      "acousticness": 0.068,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.119,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.951,
+      "instrumentalness": 0.982
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.013,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.084,
+      "instrumentalness": 0.035
+    },
+    {
+      "acousticness": 0.009,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.025,
+      "instrumentalness": 0.003
+    },
+    {
+      "acousticness": 0.07,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.178,
+      "instrumentalness": 0.696
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.396,
+      "instrumentalness": 0.024
+    },
+    {
+      "acousticness": 0.006,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.48,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.458,
+      "instrumentalness": 0.013
+    },
+    {
+      "acousticness": 0.079,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.434,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.824,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.205,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.002,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.887
+    },
+    {
+      "acousticness": 0.89,
+      "instrumentalness": 0.842
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.288,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.04,
+      "instrumentalness": 0.834
+    },
+    {
+      "acousticness": 0.399,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.453,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.003,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.794,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.097,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.339,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.838
+    },
+    {
+      "acousticness": 0.755,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.389,
+      "instrumentalness": 0.032
+    },
+    {
+      "acousticness": 0.995,
+      "instrumentalness": 0.943
+    },
+    {
+      "acousticness": 0.927,
+      "instrumentalness": 0.964
+    },
+    {
+      "acousticness": 0.512,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.905,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.109,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.286,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.172,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.016,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.01,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.005
+    },
+    {
+      "acousticness": 0.001,
+      "instrumentalness": 0.769
+    },
+    {
+      "acousticness": 0.017,
+      "instrumentalness": 0.089
+    },
+    {
+      "acousticness": 0.641,
+      "instrumentalness": 0.051
+    },
+    {
+      "acousticness": 0.171,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.987,
+      "instrumentalness": 0.911
+    },
+    {
+      "acousticness": 0.028,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.275,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.989,
+      "instrumentalness": 0.897
+    },
+    {
+      "acousticness": 0.933,
+      "instrumentalness": 0.929
+    },
+    {
+      "acousticness": 0.994,
+      "instrumentalness": 0.877
+    },
+    {
+      "acousticness": 0.118,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.005,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.744,
+      "instrumentalness": 0.942
+    },
+    {
+      "acousticness": 0.0,
+      "instrumentalness": 0.006
+    },
+    {
+      "acousticness": 0.236,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.066,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.59,
+      "instrumentalness": 0.928
+    },
+    {
+      "acousticness": 0.227,
+      "instrumentalness": 0.001
+    },
+    {
+      "acousticness": 0.302,
+      "instrumentalness": 0.794
+    },
+    {
+      "acousticness": 0.008,
+      "instrumentalness": 0.618
+    },
+    {
+      "acousticness": 0.029,
+      "instrumentalness": 0.002
+    },
+    {
+      "acousticness": 0.052,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.015,
+      "instrumentalness": 0.103
+    },
+    {
+      "acousticness": 0.167,
+      "instrumentalness": 0.017
+    },
+    {
+      "acousticness": 0.903,
+      "instrumentalness": 0.721
+    },
+    {
+      "acousticness": 0.828,
+      "instrumentalness": 0.648
+    },
+    {
+      "acousticness": 0.666,
+      "instrumentalness": 0.756
+    },
+    {
+      "acousticness": 0.864,
+      "instrumentalness": 0.777
+    },
+    {
+      "acousticness": 0.046,
+      "instrumentalness": 0.0
+    },
+    {
+      "acousticness": 0.973,
+      "instrumentalness": 0.973
+    },
+    {
+      "acousticness": 0.25,
+      "instrumentalness": 0.932
+    },
+    {
+      "acousticness": 0.048,
+      "instrumentalness": 0.034
+    }
+  ],
+  "duration": {
+    "min": 78893,
+    "max": 589094,
+    "mean": 206976.97,
+    "median": 198846.5,
+    "q1": 166793,
+    "q3": 230880
+  },
+  "danceability": {
+    "min": 0.079,
+    "max": 0.93,
+    "mean": 0.579,
+    "median": 0.629,
+    "q1": 0.492,
+    "q3": 0.717
+  },
+  "loudness": {
+    "min": -37.264,
+    "max": -2.876,
+    "mean": -9.466,
+    "median": -6.239,
+    "q1": -10.726,
+    "q3": -5.077
+  },
+  "speechiness": {
+    "min": 0.024,
+    "max": 0.494,
+    "mean": 0.072,
+    "median": 0.046,
+    "q1": 0.035,
+    "q3": 0.069
+  },
+  "top_artists": [
+    {
+      "name": "Robin Schulz",
+      "count": 12
+    },
+    {
+      "name": "Zedd",
+      "count": 10
+    },
+    {
+      "name": "Hans Zimmer",
+      "count": 9
+    },
+    {
+      "name": "Topic",
+      "count": 6
+    },
+    {
+      "name": "Luciano",
+      "count": 5
+    },
+    {
+      "name": "Scorpions",
+      "count": 5
+    },
+    {
+      "name": "Harold Faltermeyer",
+      "count": 5
+    },
+    {
+      "name": "Milky Chance",
+      "count": 4
+    },
+    {
+      "name": "A7S",
+      "count": 4
+    },
+    {
+      "name": "Zoe Wees",
+      "count": 4
+    },
+    {
+      "name": "Felix Jaehn",
+      "count": 4
+    },
+    {
+      "name": "Lady Gaga",
+      "count": 4
+    },
+    {
+      "name": "Lorne Balfe",
+      "count": 4
+    },
+    {
+      "name": "Rammstein",
+      "count": 3
+    },
+    {
+      "name": "Modern Talking",
+      "count": 3
+    }
+  ],
+  "tracks": [
+    {
+      "name": "Bamba (feat. Aitch & BIA)",
+      "artists": "Luciano;Aitch;BIA",
+      "album": "Bamba (feat. Aitch & BIA)",
+      "popularity": 84,
+      "tempo": 138.1,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.806,
+      "valence": 0.82,
+      "danceability": 0.798,
+      "acousticness": 0.145,
+      "instrumentalness": 0.0,
+      "loudness": -5.8,
+      "speechiness": 0.355,
+      "duration_ms": 203255,
+      "slug": "bamba-feat-aitch-bia-luciano"
+    },
+    {
+      "name": "The Middle",
+      "artists": "Zedd;Maren Morris;Grey",
+      "album": "The Middle",
+      "popularity": 80,
+      "tempo": 107.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.657,
+      "valence": 0.437,
+      "danceability": 0.753,
+      "acousticness": 0.171,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.045,
+      "duration_ms": 184732,
+      "slug": "the-middle-zedd"
+    },
+    {
+      "name": "Stolen Dance",
+      "artists": "Milky Chance",
+      "album": "Sadnecessary",
+      "popularity": 80,
+      "tempo": 114.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.581,
+      "valence": 0.728,
+      "danceability": 0.884,
+      "acousticness": 0.427,
+      "instrumentalness": 0.0,
+      "loudness": -8.8,
+      "speechiness": 0.038,
+      "duration_ms": 313684,
+      "slug": "stolen-dance-milky-chance"
+    },
+    {
+      "name": "Kernkraft 400 (A Better Day)",
+      "artists": "Topic;A7S",
+      "album": "Kernkraft 400 (A Better Day)",
+      "popularity": 80,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.727,
+      "valence": 0.4,
+      "danceability": 0.623,
+      "acousticness": 0.184,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.056,
+      "duration_ms": 165800,
+      "slug": "kernkraft-400-a-better-day-topic"
+    },
+    {
+      "name": "Your Love (9PM)",
+      "artists": "ATB;Topic;A7S",
+      "album": "Your Love (9PM)",
+      "popularity": 79,
+      "tempo": 126.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.784,
+      "valence": 0.517,
+      "danceability": 0.669,
+      "acousticness": 0.194,
+      "instrumentalness": 0.0,
+      "loudness": -5.6,
+      "speechiness": 0.112,
+      "duration_ms": 150052,
+      "slug": "your-love-9pm-atb"
+    },
+    {
+      "name": "Wind Of Change",
+      "artists": "Scorpions",
+      "album": "Crazy World",
+      "popularity": 79,
+      "tempo": 151.5,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.524,
+      "valence": 0.246,
+      "danceability": 0.452,
+      "acousticness": 0.315,
+      "instrumentalness": 0.0,
+      "loudness": -10.1,
+      "speechiness": 0.035,
+      "duration_ms": 312360,
+      "slug": "wind-of-change-scorpions"
+    },
+    {
+      "name": "Tom's Diner",
+      "artists": "AnnenMayKantereit;Giant Rooks",
+      "album": "Tom's Diner",
+      "popularity": 78,
+      "tempo": 98.2,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.428,
+      "valence": 0.334,
+      "danceability": 0.68,
+      "acousticness": 0.376,
+      "instrumentalness": 0.0,
+      "loudness": -8.1,
+      "speechiness": 0.135,
+      "duration_ms": 269333,
+      "slug": "toms-diner-annenmaykantereit"
+    },
+    {
+      "name": "Breaking Me",
+      "artists": "Topic;A7S",
+      "album": "Breaking Me",
+      "popularity": 78,
+      "tempo": 122.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.72,
+      "valence": 0.664,
+      "danceability": 0.789,
+      "acousticness": 0.223,
+      "instrumentalness": 0.0,
+      "loudness": -5.7,
+      "speechiness": 0.218,
+      "duration_ms": 166793,
+      "slug": "breaking-me-topic"
+    },
+    {
+      "name": "Beautiful Girl",
+      "artists": "Luciano",
+      "album": "Beautiful Girl",
+      "popularity": 78,
+      "tempo": 139.9,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.412,
+      "valence": 0.607,
+      "danceability": 0.839,
+      "acousticness": 0.287,
+      "instrumentalness": 0.001,
+      "loudness": -8.8,
+      "speechiness": 0.093,
+      "duration_ms": 179186,
+      "slug": "beautiful-girl-luciano"
+    },
+    {
+      "name": "Control",
+      "artists": "Zoe Wees",
+      "album": "Control",
+      "popularity": 77,
+      "tempo": 113.8,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.465,
+      "valence": 0.068,
+      "danceability": 0.599,
+      "acousticness": 0.643,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.031,
+      "duration_ms": 230880,
+      "slug": "control-zoe-wees"
+    },
+    {
+      "name": "Call It Love",
+      "artists": "Felix Jaehn;Ray Dalton",
+      "album": "Call It Love",
+      "popularity": 77,
+      "tempo": 110.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.841,
+      "valence": 0.714,
+      "danceability": 0.616,
+      "acousticness": 0.056,
+      "instrumentalness": 0.002,
+      "loudness": -4.8,
+      "speechiness": 0.076,
+      "duration_ms": 154560,
+      "slug": "call-it-love-felix-jaehn"
+    },
+    {
+      "name": "Deutschland",
+      "artists": "Rammstein",
+      "album": "Rammstein",
+      "popularity": 77,
+      "tempo": 120.1,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.895,
+      "valence": 0.237,
+      "danceability": 0.521,
+      "acousticness": 0.0,
+      "instrumentalness": 0.349,
+      "loudness": -5.2,
+      "speechiness": 0.044,
+      "duration_ms": 322339,
+      "slug": "deutschland-rammstein"
+    },
+    {
+      "name": "Stay",
+      "artists": "Zedd;Alessia Cara",
+      "album": "Stay",
+      "popularity": 76,
+      "tempo": 102.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.622,
+      "valence": 0.544,
+      "danceability": 0.69,
+      "acousticness": 0.253,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.062,
+      "duration_ms": 210090,
+      "slug": "stay-zedd"
+    },
+    {
+      "name": "Sugar (feat. Francesco Yates)",
+      "artists": "Robin Schulz;Francesco Yates",
+      "album": "Sugar",
+      "popularity": 76,
+      "tempo": 123.1,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.815,
+      "valence": 0.636,
+      "danceability": 0.636,
+      "acousticness": 0.018,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.058,
+      "duration_ms": 219043,
+      "slug": "sugar-feat-francesco-yates-robin-schulz"
+    },
+    {
+      "name": "Do It Better (feat. Zoe Wees)",
+      "artists": "Felix Jaehn;Zoe Wees",
+      "album": "Do It Better (feat. Zoe Wees)",
+      "popularity": 76,
+      "tempo": 122.1,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.804,
+      "valence": 0.41,
+      "danceability": 0.677,
+      "acousticness": 0.082,
+      "instrumentalness": 0.0,
+      "loudness": -5.3,
+      "speechiness": 0.068,
+      "duration_ms": 170045,
+      "slug": "do-it-better-feat-zoe-wees-felix-jaehn"
+    },
+    {
+      "name": "I Believe",
+      "artists": "KAMRAD",
+      "album": "I Believe",
+      "popularity": 76,
+      "tempo": 118.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.681,
+      "valence": 0.775,
+      "danceability": 0.711,
+      "acousticness": 0.124,
+      "instrumentalness": 0.0,
+      "loudness": -7.5,
+      "speechiness": 0.026,
+      "duration_ms": 147007,
+      "slug": "i-believe-kamrad"
+    },
+    {
+      "name": "Clarity",
+      "artists": "Zedd;Foxes",
+      "album": "Clarity",
+      "popularity": 75,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.781,
+      "valence": 0.176,
+      "danceability": 0.509,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -3.5,
+      "speechiness": 0.072,
+      "duration_ms": 271426,
+      "slug": "clarity-zedd"
+    },
+    {
+      "name": "Make You Say",
+      "artists": "Zedd;Maren Morris;BEAUZ",
+      "album": "Make You Say",
+      "popularity": 75,
+      "tempo": 128.2,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.61,
+      "valence": 0.649,
+      "danceability": 0.687,
+      "acousticness": 0.351,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.05,
+      "duration_ms": 206000,
+      "slug": "make-you-say-zedd"
+    },
+    {
+      "name": "Du hast",
+      "artists": "Rammstein",
+      "album": "Sehnsucht",
+      "popularity": 75,
+      "tempo": 125.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.922,
+      "valence": 0.716,
+      "danceability": 0.64,
+      "acousticness": 0.004,
+      "instrumentalness": 0.055,
+      "loudness": -6.3,
+      "speechiness": 0.038,
+      "duration_ms": 234226,
+      "slug": "du-hast-rammstein"
+    },
+    {
+      "name": "West Connect (feat. Central Cee)",
+      "artists": "Luciano;Central Cee",
+      "album": "Majestic",
+      "popularity": 75,
+      "tempo": 140.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.571,
+      "valence": 0.465,
+      "danceability": 0.92,
+      "acousticness": 0.068,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.494,
+      "duration_ms": 212114,
+      "slug": "west-connect-feat-central-cee-luciano"
+    },
+    {
+      "name": "Bamba (feat. Aitch & BIA)",
+      "artists": "Luciano;Aitch;BIA",
+      "album": "Majestic",
+      "popularity": 75,
+      "tempo": 138.0,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.791,
+      "valence": 0.828,
+      "danceability": 0.797,
+      "acousticness": 0.119,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.33,
+      "duration_ms": 203560,
+      "slug": "bamba-feat-aitch-bia-luciano"
+    },
+    {
+      "name": "Cornfield Chase",
+      "artists": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "popularity": 74,
+      "tempo": 94.1,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.226,
+      "valence": 0.048,
+      "danceability": 0.18,
+      "acousticness": 0.951,
+      "instrumentalness": 0.982,
+      "loudness": -16.5,
+      "speechiness": 0.042,
+      "duration_ms": 126959,
+      "slug": "cornfield-chase-hans-zimmer"
+    },
+    {
+      "name": "Still Loving You",
+      "artists": "Scorpions",
+      "album": "Comeblack",
+      "popularity": 74,
+      "tempo": 103.9,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.605,
+      "valence": 0.078,
+      "danceability": 0.282,
+      "acousticness": 0.005,
+      "instrumentalness": 0.001,
+      "loudness": -4.9,
+      "speechiness": 0.029,
+      "duration_ms": 403453,
+      "slug": "still-loving-you-scorpions"
+    },
+    {
+      "name": "Young Right Now",
+      "artists": "Robin Schulz;Dennis Lloyd",
+      "album": "Young Right Now",
+      "popularity": 74,
+      "tempo": 123.0,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.708,
+      "valence": 0.381,
+      "danceability": 0.539,
+      "acousticness": 0.013,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.098,
+      "duration_ms": 186140,
+      "slug": "young-right-now-robin-schulz"
+    },
+    {
+      "name": "Sonne",
+      "artists": "Rammstein",
+      "album": "Mutter",
+      "popularity": 74,
+      "tempo": 75.1,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.917,
+      "valence": 0.313,
+      "danceability": 0.51,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -4.8,
+      "speechiness": 0.085,
+      "duration_ms": 272440,
+      "slug": "sonne-rammstein"
+    },
+    {
+      "name": "Rain In Ibiza",
+      "artists": "Felix Jaehn;The Stickmen Project;Calum Scott",
+      "album": "Rain In Ibiza",
+      "popularity": 74,
+      "tempo": 124.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.898,
+      "valence": 0.722,
+      "danceability": 0.654,
+      "acousticness": 0.084,
+      "instrumentalness": 0.035,
+      "loudness": -6.0,
+      "speechiness": 0.041,
+      "duration_ms": 141931,
+      "slug": "rain-in-ibiza-felix-jaehn"
+    },
+    {
+      "name": "Synchronize",
+      "artists": "Milky Chance",
+      "album": "Synchronize",
+      "popularity": 73,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.82,
+      "valence": 0.652,
+      "danceability": 0.728,
+      "acousticness": 0.009,
+      "instrumentalness": 0.0,
+      "loudness": -6.2,
+      "speechiness": 0.031,
+      "duration_ms": 164576,
+      "slug": "synchronize-milky-chance"
+    },
+    {
+      "name": "On Repeat",
+      "artists": "Robin Schulz;David Guetta",
+      "album": "On Repeat",
+      "popularity": 73,
+      "tempo": 123.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.801,
+      "valence": 0.202,
+      "danceability": 0.609,
+      "acousticness": 0.025,
+      "instrumentalness": 0.003,
+      "loudness": -8.5,
+      "speechiness": 0.069,
+      "duration_ms": 190217,
+      "slug": "on-repeat-robin-schulz"
+    },
+    {
+      "name": "West Connect (feat. Central Cee)",
+      "artists": "Luciano;Central Cee",
+      "album": "West Connect (feat. Central Cee)",
+      "popularity": 73,
+      "tempo": 140.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.585,
+      "valence": 0.528,
+      "danceability": 0.92,
+      "acousticness": 0.07,
+      "instrumentalness": 0.0,
+      "loudness": -7.1,
+      "speechiness": 0.387,
+      "duration_ms": 212114,
+      "slug": "west-connect-feat-central-cee-luciano"
+    },
+    {
+      "name": "Time",
+      "artists": "Hans Zimmer",
+      "album": "Inception (Music from the Motion Picture)",
+      "popularity": 72,
+      "tempo": 62.9,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.097,
+      "valence": 0.04,
+      "danceability": 0.286,
+      "acousticness": 0.178,
+      "instrumentalness": 0.696,
+      "loudness": -16.8,
+      "speechiness": 0.032,
+      "duration_ms": 275556,
+      "slug": "time-hans-zimmer"
+    },
+    {
+      "name": "Coco Jamboo",
+      "artists": "Mr. President",
+      "album": "We See The Same Sun",
+      "popularity": 72,
+      "tempo": 100.0,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.838,
+      "valence": 0.965,
+      "danceability": 0.832,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.042,
+      "duration_ms": 218733,
+      "slug": "coco-jamboo-mr-president"
+    },
+    {
+      "name": "Brother Louie",
+      "artists": "Modern Talking",
+      "album": "Ready For Romance",
+      "popularity": 71,
+      "tempo": 109.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.836,
+      "valence": 0.831,
+      "danceability": 0.783,
+      "acousticness": 0.396,
+      "instrumentalness": 0.024,
+      "loudness": -9.2,
+      "speechiness": 0.049,
+      "duration_ms": 222666,
+      "slug": "brother-louie-modern-talking"
+    },
+    {
+      "name": "Sun Will Shine",
+      "artists": "Robin Schulz;Tom Walker",
+      "album": "Sun Will Shine",
+      "popularity": 71,
+      "tempo": 126.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.714,
+      "valence": 0.415,
+      "danceability": 0.534,
+      "acousticness": 0.006,
+      "instrumentalness": 0.0,
+      "loudness": -6.3,
+      "speechiness": 0.063,
+      "duration_ms": 201700,
+      "slug": "sun-will-shine-robin-schulz"
+    },
+    {
+      "name": "Everytime We Touch",
+      "artists": "Cascada",
+      "album": "Everytime We Touch (Premium Edition)",
+      "popularity": 71,
+      "tempo": 142.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.976,
+      "valence": 0.493,
+      "danceability": 0.633,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.052,
+      "duration_ms": 197124,
+      "slug": "everytime-we-touch-cascada"
+    },
+    {
+      "name": "90x180",
+      "artists": "Eno",
+      "album": "90x180",
+      "popularity": 71,
+      "tempo": 140.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.564,
+      "valence": 0.596,
+      "danceability": 0.822,
+      "acousticness": 0.48,
+      "instrumentalness": 0.006,
+      "loudness": -10.7,
+      "speechiness": 0.093,
+      "duration_ms": 154273,
+      "slug": "90x180-eno"
+    },
+    {
+      "name": "Beautiful Now",
+      "artists": "Zedd;Jon Bellion",
+      "album": "True Colors",
+      "popularity": 70,
+      "tempo": 128.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.833,
+      "valence": 0.56,
+      "danceability": 0.628,
+      "acousticness": 0.008,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.028,
+      "duration_ms": 218293,
+      "slug": "beautiful-now-zedd"
+    },
+    {
+      "name": "Cheri Cheri Lady",
+      "artists": "Modern Talking",
+      "album": "Let's Talk About Love",
+      "popularity": 70,
+      "tempo": 114.2,
+      "key": "A#/Bb",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.851,
+      "danceability": 0.677,
+      "acousticness": 0.458,
+      "instrumentalness": 0.013,
+      "loudness": -13.8,
+      "speechiness": 0.032,
+      "duration_ms": 226333,
+      "slug": "cheri-cheri-lady-modern-talking"
+    },
+    {
+      "name": "Chain My Heart",
+      "artists": "Topic;Bebe Rexha",
+      "album": "Chain My Heart",
+      "popularity": 70,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.849,
+      "valence": 0.722,
+      "danceability": 0.663,
+      "acousticness": 0.079,
+      "instrumentalness": 0.0,
+      "loudness": -4.5,
+      "speechiness": 0.033,
+      "duration_ms": 146880,
+      "slug": "chain-my-heart-topic"
+    },
+    {
+      "name": "Send Me An Angel",
+      "artists": "Scorpions",
+      "album": "Crazy World",
+      "popularity": 70,
+      "tempo": 80.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.417,
+      "valence": 0.166,
+      "danceability": 0.153,
+      "acousticness": 0.434,
+      "instrumentalness": 0.001,
+      "loudness": -11.6,
+      "speechiness": 0.032,
+      "duration_ms": 273333,
+      "slug": "send-me-an-angel-scorpions"
+    },
+    {
+      "name": "Falling Apart",
+      "artists": "Michael Schulte",
+      "album": "Hold the Rhythm",
+      "popularity": 70,
+      "tempo": 109.8,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.333,
+      "valence": 0.261,
+      "danceability": 0.543,
+      "acousticness": 0.824,
+      "instrumentalness": 0.0,
+      "loudness": -9.4,
+      "speechiness": 0.027,
+      "duration_ms": 198573,
+      "slug": "falling-apart-michael-schulte"
+    },
+    {
+      "name": "Marble",
+      "artists": "Neptunica;Shockz;Rebecca Helena",
+      "album": "Marble",
+      "popularity": 69,
+      "tempo": 136.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.85,
+      "valence": 0.362,
+      "danceability": 0.698,
+      "acousticness": 0.205,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.045,
+      "duration_ms": 138860,
+      "slug": "marble-neptunica"
+    },
+    {
+      "name": "Everytime We Touch - Hardwell & Maurice West Remix",
+      "artists": "Cascada;Maurice West",
+      "album": "Everytime We Touch (Hardwell & Maurice West Remix)",
+      "popularity": 69,
+      "tempo": 145.0,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.848,
+      "valence": 0.286,
+      "danceability": 0.554,
+      "acousticness": 0.002,
+      "instrumentalness": 0.0,
+      "loudness": -4.1,
+      "speechiness": 0.074,
+      "duration_ms": 216441,
+      "slug": "everytime-we-touch-hardwell-maurice-west-remix-cascada"
+    },
+    {
+      "name": "Sonata No. 14 \"Moonlight\" in C-Sharp Minor\", Op. 27 No. 2: I. Adagio sostenuto",
+      "artists": "Ludwig van Beethoven;Paul Lewis",
+      "album": "Beethoven: Piano Sonatas, Vol.3",
+      "popularity": 69,
+      "tempo": 170.6,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.005,
+      "valence": 0.151,
+      "danceability": 0.184,
+      "acousticness": 0.995,
+      "instrumentalness": 0.887,
+      "loudness": -37.3,
+      "speechiness": 0.043,
+      "duration_ms": 315426,
+      "slug": "sonata-no-14-moonlight-in-c-sharp-minor-op-27-no-2-i-adagio-sostenuto-ludwig-van"
+    },
+    {
+      "name": "Cello Suite No. 1 in G Major, BWV 1007: I. Pr\u00e9lude",
+      "artists": "Johann Sebastian Bach;Yo-Yo Ma",
+      "album": "Bach: Cello Suites Nos. 1, 5 & 6",
+      "popularity": 69,
+      "tempo": 73.3,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.157,
+      "valence": 0.304,
+      "danceability": 0.275,
+      "acousticness": 0.89,
+      "instrumentalness": 0.842,
+      "loudness": -18.8,
+      "speechiness": 0.064,
+      "duration_ms": 152280,
+      "slug": "cello-suite-no-1-in-g-major-bwv-1007-i-pr\u00e9lude-johann-sebastian-bach"
+    },
+    {
+      "name": "In Your Arms (For An Angel)",
+      "artists": "Topic;Robin Schulz;Nico Santos;Paul van Dyk",
+      "album": "In Your Arms (For An Angel)",
+      "popularity": 69,
+      "tempo": 126.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.828,
+      "valence": 0.407,
+      "danceability": 0.694,
+      "acousticness": 0.04,
+      "instrumentalness": 0.0,
+      "loudness": -4.7,
+      "speechiness": 0.034,
+      "duration_ms": 150476,
+      "slug": "in-your-arms-for-an-angel-topic"
+    },
+    {
+      "name": "Girls Like Us",
+      "artists": "Zoe Wees",
+      "album": "Girls Like Us",
+      "popularity": 68,
+      "tempo": 125.7,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.648,
+      "valence": 0.171,
+      "danceability": 0.444,
+      "acousticness": 0.288,
+      "instrumentalness": 0.0,
+      "loudness": -5.0,
+      "speechiness": 0.048,
+      "duration_ms": 189000,
+      "slug": "girls-like-us-zoe-wees"
+    },
+    {
+      "name": "Main Titles (You\u2019ve Been Called Back to Top Gun)",
+      "artists": "Harold Faltermeyer;Lady Gaga;Hans Zimmer;Lorne Balfe",
+      "album": "Top Gun: Maverick (Music From The Motion Picture)",
+      "popularity": 68,
+      "tempo": 107.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.302,
+      "valence": 0.157,
+      "danceability": 0.493,
+      "acousticness": 0.04,
+      "instrumentalness": 0.834,
+      "loudness": -12.5,
+      "speechiness": 0.029,
+      "duration_ms": 150666,
+      "slug": "main-titles-youve-been-called-back-to-top-gun-harold-faltermeyer"
+    },
+    {
+      "name": "Good Thing (with Kehlani)",
+      "artists": "Zedd;Kehlani",
+      "album": "Good Thing (with Kehlani)",
+      "popularity": 68,
+      "tempo": 185.9,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.564,
+      "valence": 0.574,
+      "danceability": 0.693,
+      "acousticness": 0.399,
+      "instrumentalness": 0.0,
+      "loudness": -3.9,
+      "speechiness": 0.038,
+      "duration_ms": 210901,
+      "slug": "good-thing-with-kehlani-zedd"
+    },
+    {
+      "name": "Daddy's Eyes",
+      "artists": "Zoe Wees",
+      "album": "Daddy\u2019s Eyes",
+      "popularity": 68,
+      "tempo": 123.8,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.654,
+      "valence": 0.19,
+      "danceability": 0.571,
+      "acousticness": 0.453,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.051,
+      "duration_ms": 182969,
+      "slug": "daddys-eyes-zoe-wees"
+    },
+    {
+      "name": "Be My Lover",
+      "artists": "La Bouche",
+      "album": "Best Of La Bouche feat. Melanie Thornton (feat. Melanie Thornton)",
+      "popularity": 68,
+      "tempo": 134.8,
+      "key": "C#/Db",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.793,
+      "danceability": 0.658,
+      "acousticness": 0.003,
+      "instrumentalness": 0.0,
+      "loudness": -3.3,
+      "speechiness": 0.033,
+      "duration_ms": 240866,
+      "slug": "be-my-lover-la-bouche"
+    },
+    {
+      "name": "Irgendwann",
+      "artists": "Eno;Bausa",
+      "album": "Irgendwann",
+      "popularity": 68,
+      "tempo": 119.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.337,
+      "valence": 0.342,
+      "danceability": 0.586,
+      "acousticness": 0.794,
+      "instrumentalness": 0.0,
+      "loudness": -13.8,
+      "speechiness": 0.133,
+      "duration_ms": 144526,
+      "slug": "irgendwann-eno"
+    },
+    {
+      "name": "Sun Goes Down (feat. Jasmine Thompson) - Radio Mix",
+      "artists": "Robin Schulz;Jasmine Thompson",
+      "album": "Prayer",
+      "popularity": 67,
+      "tempo": 125.1,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.723,
+      "valence": 0.499,
+      "danceability": 0.548,
+      "acousticness": 0.097,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.037,
+      "duration_ms": 179960,
+      "slug": "sun-goes-down-feat-jasmine-thompson-radio-mix-robin-schulz"
+    },
+    {
+      "name": "Rule The World (feat. ILIRA)",
+      "artists": "GAMPER & DADONI;ILIRA",
+      "album": "Rule The World (feat. ILIRA)",
+      "popularity": 67,
+      "tempo": 126.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.627,
+      "valence": 0.437,
+      "danceability": 0.717,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -8.2,
+      "speechiness": 0.097,
+      "duration_ms": 170785,
+      "slug": "rule-the-world-feat-ilira-gamper-dadoni"
+    },
+    {
+      "name": "365",
+      "artists": "Zedd;Katy Perry",
+      "album": "365",
+      "popularity": 66,
+      "tempo": 98.0,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.693,
+      "valence": 0.248,
+      "danceability": 0.745,
+      "acousticness": 0.339,
+      "instrumentalness": 0.0,
+      "loudness": -5.5,
+      "speechiness": 0.034,
+      "duration_ms": 181899,
+      "slug": "365-zedd"
+    },
+    {
+      "name": "I Want You To Know",
+      "artists": "Zedd;Selena Gomez",
+      "album": "True Colors",
+      "popularity": 66,
+      "tempo": 130.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.846,
+      "valence": 0.366,
+      "danceability": 0.58,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -2.9,
+      "speechiness": 0.057,
+      "duration_ms": 240000,
+      "slug": "i-want-you-to-know-zedd"
+    },
+    {
+      "name": "Top Gun Anthem",
+      "artists": "Harold Faltermeyer;Lady Gaga;Hans Zimmer;Lorne Balfe",
+      "album": "Top Gun: Maverick (Music From The Motion Picture)",
+      "popularity": 66,
+      "tempo": 107.4,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.336,
+      "valence": 0.036,
+      "danceability": 0.448,
+      "acousticness": 0.001,
+      "instrumentalness": 0.838,
+      "loudness": -13.1,
+      "speechiness": 0.032,
+      "duration_ms": 148933,
+      "slug": "top-gun-anthem-harold-faltermeyer"
+    },
+    {
+      "name": "Down By The River",
+      "artists": "Milky Chance",
+      "album": "Sadnecessary",
+      "popularity": 66,
+      "tempo": 114.0,
+      "key": "A",
+      "mode": "Major",
+      "energy": 0.695,
+      "valence": 0.453,
+      "danceability": 0.687,
+      "acousticness": 0.755,
+      "instrumentalness": 0.0,
+      "loudness": -8.0,
+      "speechiness": 0.049,
+      "duration_ms": 241052,
+      "slug": "down-by-the-river-milky-chance"
+    },
+    {
+      "name": "Flashed Junk Mind",
+      "artists": "Milky Chance",
+      "album": "Sadnecessary",
+      "popularity": 66,
+      "tempo": 118.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.84,
+      "valence": 0.904,
+      "danceability": 0.84,
+      "acousticness": 0.389,
+      "instrumentalness": 0.032,
+      "loudness": -8.7,
+      "speechiness": 0.048,
+      "duration_ms": 262000,
+      "slug": "flashed-junk-mind-milky-chance"
+    },
+    {
+      "name": "Goldberg Variations, BWV 988: Aria",
+      "artists": "Johann Sebastian Bach;Glenn Gould",
+      "album": "Bach: The Goldberg Variations, BWV 988 (1981 Gould Remaster)",
+      "popularity": 66,
+      "tempo": 130.3,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.014,
+      "valence": 0.244,
+      "danceability": 0.454,
+      "acousticness": 0.995,
+      "instrumentalness": 0.943,
+      "loudness": -30.0,
+      "speechiness": 0.051,
+      "duration_ms": 184853,
+      "slug": "goldberg-variations-bwv-988-aria-johann-sebastian-bach"
+    },
+    {
+      "name": "Day One",
+      "artists": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "popularity": 65,
+      "tempo": 96.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.017,
+      "valence": 0.066,
+      "danceability": 0.311,
+      "acousticness": 0.927,
+      "instrumentalness": 0.964,
+      "loudness": -27.8,
+      "speechiness": 0.035,
+      "duration_ms": 199422,
+      "slug": "day-one-hans-zimmer"
+    },
+    {
+      "name": "Funny",
+      "artists": "Zedd;Jasmine Thompson",
+      "album": "Funny",
+      "popularity": 65,
+      "tempo": 99.9,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.66,
+      "valence": 0.355,
+      "danceability": 0.664,
+      "acousticness": 0.512,
+      "instrumentalness": 0.0,
+      "loudness": -4.6,
+      "speechiness": 0.024,
+      "duration_ms": 221465,
+      "slug": "funny-zedd"
+    },
+    {
+      "name": "You Said You'd Grow Old With Me",
+      "artists": "Michael Schulte",
+      "album": "Wide Awake",
+      "popularity": 65,
+      "tempo": 114.4,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.347,
+      "valence": 0.289,
+      "danceability": 0.531,
+      "acousticness": 0.905,
+      "instrumentalness": 0.0,
+      "loudness": -7.0,
+      "speechiness": 0.035,
+      "duration_ms": 224743,
+      "slug": "you-said-youd-grow-old-with-me-michael-schulte"
+    },
+    {
+      "name": "Stay The Night - Featuring Hayley Williams Of Paramore",
+      "artists": "Zedd;Hayley Williams",
+      "album": "Clarity (Deluxe)",
+      "popularity": 65,
+      "tempo": 128.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.738,
+      "valence": 0.461,
+      "danceability": 0.596,
+      "acousticness": 0.109,
+      "instrumentalness": 0.0,
+      "loudness": -3.1,
+      "speechiness": 0.041,
+      "duration_ms": 217346,
+      "slug": "stay-the-night-featuring-hayley-williams-of-paramore-zedd"
+    },
+    {
+      "name": "All We Got (feat. KIDDO)",
+      "artists": "Robin Schulz;KIDDO",
+      "album": "All We Got (feat. KIDDO)",
+      "popularity": 65,
+      "tempo": 183.9,
+      "key": "E",
+      "mode": "Major",
+      "energy": 0.76,
+      "valence": 0.64,
+      "danceability": 0.504,
+      "acousticness": 0.286,
+      "instrumentalness": 0.0,
+      "loudness": -4.2,
+      "speechiness": 0.043,
+      "duration_ms": 190218,
+      "slug": "all-we-got-feat-kiddo-robin-schulz"
+    },
+    {
+      "name": "In Your Eyes (feat. Alida)",
+      "artists": "Robin Schulz;Alida",
+      "album": "In Your Eyes (feat. Alida)",
+      "popularity": 65,
+      "tempo": 120.0,
+      "key": "G#/Ab",
+      "mode": "Minor",
+      "energy": 0.672,
+      "valence": 0.461,
+      "danceability": 0.57,
+      "acousticness": 0.172,
+      "instrumentalness": 0.0,
+      "loudness": -5.9,
+      "speechiness": 0.072,
+      "duration_ms": 208222,
+      "slug": "in-your-eyes-feat-alida-robin-schulz"
+    },
+    {
+      "name": "Love Is Gone",
+      "artists": "Neptunica;Matthew Clanton",
+      "album": "Love Is Gone",
+      "popularity": 65,
+      "tempo": 152.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.815,
+      "valence": 0.185,
+      "danceability": 0.629,
+      "acousticness": 0.016,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.068,
+      "duration_ms": 157894,
+      "slug": "love-is-gone-neptunica"
+    },
+    {
+      "name": "Breaking Me - HUGEL Remix",
+      "artists": "Topic;A7S;HUGEL",
+      "album": "Breaking Me (HUGEL Remix)",
+      "popularity": 65,
+      "tempo": 126.0,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.585,
+      "valence": 0.77,
+      "danceability": 0.85,
+      "acousticness": 0.01,
+      "instrumentalness": 0.0,
+      "loudness": -5.2,
+      "speechiness": 0.049,
+      "duration_ms": 171904,
+      "slug": "breaking-me-hugel-remix-topic"
+    },
+    {
+      "name": "Rock You Like a Hurricane - 2011",
+      "artists": "Scorpions",
+      "album": "Comeblack",
+      "popularity": 64,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.891,
+      "valence": 0.705,
+      "danceability": 0.587,
+      "acousticness": 0.0,
+      "instrumentalness": 0.005,
+      "loudness": -3.4,
+      "speechiness": 0.036,
+      "duration_ms": 255573,
+      "slug": "rock-you-like-a-hurricane-2011-scorpions"
+    },
+    {
+      "name": "Gravity",
+      "artists": "Boris Brejcha;Laura Korinth",
+      "album": "Gravity",
+      "popularity": 64,
+      "tempo": 125.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.616,
+      "valence": 0.073,
+      "danceability": 0.783,
+      "acousticness": 0.001,
+      "instrumentalness": 0.769,
+      "loudness": -11.1,
+      "speechiness": 0.069,
+      "duration_ms": 216000,
+      "slug": "gravity-boris-brejcha"
+    },
+    {
+      "name": "Brother Louie Mix '98 (feat. Eric Singleton) - Radio Edit",
+      "artists": "Modern Talking;Eric Singleton",
+      "album": "Back For Good/2nd",
+      "popularity": 64,
+      "tempo": 118.1,
+      "key": "D",
+      "mode": "Minor",
+      "energy": 0.971,
+      "valence": 0.969,
+      "danceability": 0.769,
+      "acousticness": 0.017,
+      "instrumentalness": 0.089,
+      "loudness": -3.8,
+      "speechiness": 0.043,
+      "duration_ms": 204306,
+      "slug": "brother-louie-mix-98-feat-eric-singleton-radio-edit-modern-talking"
+    },
+    {
+      "name": "Go Solo (feat. Tom Rosenthal)",
+      "artists": "Zwette;Tom Rosenthal",
+      "album": "Go Solo (feat. Tom Rosenthal)",
+      "popularity": 64,
+      "tempo": 108.0,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.557,
+      "valence": 0.368,
+      "danceability": 0.783,
+      "acousticness": 0.641,
+      "instrumentalness": 0.051,
+      "loudness": -8.6,
+      "speechiness": 0.028,
+      "duration_ms": 192893,
+      "slug": "go-solo-feat-tom-rosenthal-zwette"
+    },
+    {
+      "name": "Sugar (feat. Francesco Yates) - Billions Club Remix",
+      "artists": "Robin Schulz;Francesco Yates",
+      "album": "Sugar (feat. Francesco Yates) [Billions Club Remix]",
+      "popularity": 64,
+      "tempo": 126.1,
+      "key": "A#/Bb",
+      "mode": "Minor",
+      "energy": 0.963,
+      "valence": 0.464,
+      "danceability": 0.553,
+      "acousticness": 0.171,
+      "instrumentalness": 0.001,
+      "loudness": -6.0,
+      "speechiness": 0.089,
+      "duration_ms": 186377,
+      "slug": "sugar-feat-francesco-yates-billions-club-remix-robin-schulz"
+    },
+    {
+      "name": "Bagatelle No. 25 in A Minor, WoO 59 \"F\u00fcr Elise\"",
+      "artists": "Ludwig van Beethoven;Igor Levit",
+      "album": "F\u00fcr Elise, Bagatelle No. 25 in A Minor, WoO 59",
+      "popularity": 64,
+      "tempo": 125.6,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.031,
+      "valence": 0.118,
+      "danceability": 0.289,
+      "acousticness": 0.987,
+      "instrumentalness": 0.911,
+      "loudness": -30.8,
+      "speechiness": 0.045,
+      "duration_ms": 212066,
+      "slug": "bagatelle-no-25-in-a-minor-woo-59-f\u00fcr-elise-ludwig-van-beethoven"
+    },
+    {
+      "name": "Rockstar Baby (feat. Mougleta)",
+      "artists": "Robin Schulz;Mougleta",
+      "album": "Rockstar Baby (feat. Mougleta)",
+      "popularity": 64,
+      "tempo": 123.0,
+      "key": "F#/Gb",
+      "mode": "Major",
+      "energy": 0.914,
+      "valence": 0.63,
+      "danceability": 0.689,
+      "acousticness": 0.028,
+      "instrumentalness": 0.006,
+      "loudness": -5.2,
+      "speechiness": 0.046,
+      "duration_ms": 174858,
+      "slug": "rockstar-baby-feat-mougleta-robin-schulz"
+    },
+    {
+      "name": "Amsterdam",
+      "artists": "Eno",
+      "album": "Amsterdam",
+      "popularity": 64,
+      "tempo": 102.9,
+      "key": "C#/Db",
+      "mode": "Major",
+      "energy": 0.495,
+      "valence": 0.6,
+      "danceability": 0.807,
+      "acousticness": 0.275,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.264,
+      "duration_ms": 172512,
+      "slug": "amsterdam-eno"
+    },
+    {
+      "name": "The Well-Tempered Clavier: Book 1, BWV 846-869: I. Prelude in C Major, BWV 846",
+      "artists": "Johann Sebastian Bach;Lang Lang",
+      "album": "Piano Book (Deluxe Edition)",
+      "popularity": 64,
+      "tempo": 133.6,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.126,
+      "valence": 0.216,
+      "danceability": 0.221,
+      "acousticness": 0.989,
+      "instrumentalness": 0.897,
+      "loudness": -25.4,
+      "speechiness": 0.045,
+      "duration_ms": 139306,
+      "slug": "the-well-tempered-clavier-book-1-bwv-846-869-i-prelude-in-c-major-bwv-846-johann"
+    },
+    {
+      "name": "S.T.A.Y.",
+      "artists": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "popularity": 63,
+      "tempo": 191.4,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.03,
+      "valence": 0.026,
+      "danceability": 0.079,
+      "acousticness": 0.933,
+      "instrumentalness": 0.929,
+      "loudness": -30.8,
+      "speechiness": 0.043,
+      "duration_ms": 383513,
+      "slug": "stay-hans-zimmer"
+    },
+    {
+      "name": "F\u00fcr Elise, WoO 59",
+      "artists": "Ludwig van Beethoven;Nelly Kokinos",
+      "album": "Beethoven Greatest Hits",
+      "popularity": 63,
+      "tempo": 126.9,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.108,
+      "valence": 0.18,
+      "danceability": 0.303,
+      "acousticness": 0.994,
+      "instrumentalness": 0.877,
+      "loudness": -27.4,
+      "speechiness": 0.047,
+      "duration_ms": 188466,
+      "slug": "f\u00fcr-elise-woo-59-ludwig-van-beethoven"
+    },
+    {
+      "name": "OK",
+      "artists": "Robin Schulz;James Blunt",
+      "album": "OK",
+      "popularity": 63,
+      "tempo": 122.0,
+      "key": "G",
+      "mode": "Minor",
+      "energy": 0.81,
+      "valence": 0.583,
+      "danceability": 0.653,
+      "acousticness": 0.118,
+      "instrumentalness": 0.0,
+      "loudness": -6.0,
+      "speechiness": 0.056,
+      "duration_ms": 189306,
+      "slug": "ok-robin-schulz"
+    },
+    {
+      "name": "Everytime We Touch - Radio Edit",
+      "artists": "Cascada",
+      "album": "Original Me",
+      "popularity": 63,
+      "tempo": 142.0,
+      "key": "G#/Ab",
+      "mode": "Major",
+      "energy": 0.977,
+      "valence": 0.493,
+      "danceability": 0.64,
+      "acousticness": 0.005,
+      "instrumentalness": 0.0,
+      "loudness": -5.4,
+      "speechiness": 0.056,
+      "duration_ms": 199120,
+      "slug": "everytime-we-touch-radio-edit-cascada"
+    },
+    {
+      "name": "Pachelbel: Canon and Gigue for Three Violins and Continuo in D Major: Canon",
+      "artists": "Johann Pachelbel;Sir Neville Marriner;Academy of St. Martin in the Fields",
+      "album": "Mozart: Academy in Concert",
+      "popularity": 63,
+      "tempo": 85.3,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.132,
+      "valence": 0.099,
+      "danceability": 0.128,
+      "acousticness": 0.744,
+      "instrumentalness": 0.942,
+      "loudness": -17.7,
+      "speechiness": 0.035,
+      "duration_ms": 301586,
+      "slug": "pachelbel-canon-and-gigue-for-three-violins-and-continuo-in-d-major-canon-johann"
+    },
+    {
+      "name": "Rock You Like a Hurricane - 2011",
+      "artists": "Scorpions",
+      "album": "Stranger Things (Soundtrack from the Netflix Original Series)",
+      "popularity": 63,
+      "tempo": 124.0,
+      "key": "B",
+      "mode": "Major",
+      "energy": 0.833,
+      "valence": 0.671,
+      "danceability": 0.584,
+      "acousticness": 0.0,
+      "instrumentalness": 0.006,
+      "loudness": -5.8,
+      "speechiness": 0.036,
+      "duration_ms": 254346,
+      "slug": "rock-you-like-a-hurricane-2011-scorpions"
+    },
+    {
+      "name": "Smalltown Boy",
+      "artists": "Marcus Layton;Indiana",
+      "album": "Smalltown Boy",
+      "popularity": 63,
+      "tempo": 125.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.644,
+      "valence": 0.445,
+      "danceability": 0.65,
+      "acousticness": 0.236,
+      "instrumentalness": 0.0,
+      "loudness": -8.4,
+      "speechiness": 0.234,
+      "duration_ms": 144240,
+      "slug": "smalltown-boy-marcus-layton"
+    },
+    {
+      "name": "Close Your Eyes",
+      "artists": "Felix Jaehn;VIZE;Miss Li",
+      "album": "Close Your Eyes",
+      "popularity": 63,
+      "tempo": 128.1,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.823,
+      "valence": 0.52,
+      "danceability": 0.818,
+      "acousticness": 0.066,
+      "instrumentalness": 0.0,
+      "loudness": -3.6,
+      "speechiness": 0.2,
+      "duration_ms": 160794,
+      "slug": "close-your-eyes-felix-jaehn"
+    },
+    {
+      "name": "Mountains",
+      "artists": "Hans Zimmer",
+      "album": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+      "popularity": 62,
+      "tempo": 120.0,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.059,
+      "valence": 0.037,
+      "danceability": 0.304,
+      "acousticness": 0.59,
+      "instrumentalness": 0.928,
+      "loudness": -16.9,
+      "speechiness": 0.035,
+      "duration_ms": 219092,
+      "slug": "mountains-hans-zimmer"
+    },
+    {
+      "name": "Space Melody (Edward Artemyev) (feat. Leony)",
+      "artists": "VIZE;Alan Walker;Edward Artemyev;Leony",
+      "album": "Space Melody (Edward Artemyev) (feat. Leony)",
+      "popularity": 62,
+      "tempo": 128.0,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.759,
+      "valence": 0.24,
+      "danceability": 0.898,
+      "acousticness": 0.227,
+      "instrumentalness": 0.001,
+      "loudness": -4.9,
+      "speechiness": 0.114,
+      "duration_ms": 180151,
+      "slug": "space-melody-edward-artemyev-feat-leony-vize"
+    },
+    {
+      "name": "Main Title - From The \"Game Of Thrones\" Soundtrack",
+      "artists": "Ramin Djawadi",
+      "album": "Game Of Thrones (Music From The HBO Series)",
+      "popularity": 62,
+      "tempo": 169.9,
+      "key": "F",
+      "mode": "Minor",
+      "energy": 0.603,
+      "valence": 0.232,
+      "danceability": 0.197,
+      "acousticness": 0.302,
+      "instrumentalness": 0.794,
+      "loudness": -16.1,
+      "speechiness": 0.045,
+      "duration_ms": 106280,
+      "slug": "main-title-from-the-game-of-thrones-soundtrack-ramin-djawadi"
+    },
+    {
+      "name": "Top Gun Anthem - From \"Top Gun\" Original Soundtrack",
+      "artists": "Harold Faltermeyer;Steve Stevens",
+      "album": "Top Gun - Motion Picture Soundtrack (Special Expanded Edition)",
+      "popularity": 62,
+      "tempo": 107.0,
+      "key": "C",
+      "mode": "Major",
+      "energy": 0.651,
+      "valence": 0.14,
+      "danceability": 0.423,
+      "acousticness": 0.008,
+      "instrumentalness": 0.618,
+      "loudness": -8.7,
+      "speechiness": 0.041,
+      "duration_ms": 252200,
+      "slug": "top-gun-anthem-from-top-gun-original-soundtrack-harold-faltermeyer"
+    },
+    {
+      "name": "No Eyes - Radio Edit",
+      "artists": "Claptone;JAW",
+      "album": "No Eyes",
+      "popularity": 62,
+      "tempo": 120.0,
+      "key": "D#/Eb",
+      "mode": "Major",
+      "energy": 0.483,
+      "valence": 0.57,
+      "danceability": 0.93,
+      "acousticness": 0.029,
+      "instrumentalness": 0.002,
+      "loudness": -9.9,
+      "speechiness": 0.041,
+      "duration_ms": 204992,
+      "slug": "no-eyes-radio-edit-claptone"
+    },
+    {
+      "name": "All We Got (feat. KIDDO) - Ofenbach Remix",
+      "artists": "Robin Schulz;KIDDO;Ofenbach",
+      "album": "All We Got (feat. KIDDO) [Ofenbach Remix]",
+      "popularity": 62,
+      "tempo": 115.0,
+      "key": "F#/Gb",
+      "mode": "Minor",
+      "energy": 0.796,
+      "valence": 0.549,
+      "danceability": 0.803,
+      "acousticness": 0.052,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.034,
+      "duration_ms": 129814,
+      "slug": "all-we-got-feat-kiddo-ofenbach-remix-robin-schulz"
+    },
+    {
+      "name": "Creep",
+      "artists": "GAMPER & DADONI",
+      "album": "Creep",
+      "popularity": 62,
+      "tempo": 125.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.576,
+      "valence": 0.662,
+      "danceability": 0.654,
+      "acousticness": 0.015,
+      "instrumentalness": 0.103,
+      "loudness": -9.7,
+      "speechiness": 0.035,
+      "duration_ms": 174998,
+      "slug": "creep-gamper-dadoni"
+    },
+    {
+      "name": "Wonders",
+      "artists": "Neelix;Ghost Rider;The Gardener & The Tree",
+      "album": "Wonders",
+      "popularity": 62,
+      "tempo": 139.9,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.616,
+      "valence": 0.316,
+      "danceability": 0.492,
+      "acousticness": 0.167,
+      "instrumentalness": 0.017,
+      "loudness": -8.2,
+      "speechiness": 0.049,
+      "duration_ms": 257357,
+      "slug": "wonders-neelix"
+    },
+    {
+      "name": "Light of the Seven",
+      "artists": "Ramin Djawadi",
+      "album": "Game of Thrones (Music from the HBO\u00ae Series - Season 6)",
+      "popularity": 61,
+      "tempo": 120.4,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.102,
+      "valence": 0.058,
+      "danceability": 0.273,
+      "acousticness": 0.903,
+      "instrumentalness": 0.721,
+      "loudness": -16.8,
+      "speechiness": 0.049,
+      "duration_ms": 589094,
+      "slug": "light-of-the-seven-ramin-djawadi"
+    },
+    {
+      "name": "The Prince That Was Promised (from \"House of the Dragon\")",
+      "artists": "Ramin Djawadi",
+      "album": "The Prince That Was Promised (from \"House of the Dragon\")",
+      "popularity": 61,
+      "tempo": 89.2,
+      "key": "A",
+      "mode": "Minor",
+      "energy": 0.071,
+      "valence": 0.037,
+      "danceability": 0.099,
+      "acousticness": 0.828,
+      "instrumentalness": 0.648,
+      "loudness": -21.7,
+      "speechiness": 0.038,
+      "duration_ms": 274271,
+      "slug": "the-prince-that-was-promised-from-house-of-the-dragon-ramin-djawadi"
+    },
+    {
+      "name": "Darkstar",
+      "artists": "Harold Faltermeyer;Lady Gaga;Hans Zimmer;Lorne Balfe",
+      "album": "Top Gun: Maverick (Music From The Motion Picture)",
+      "popularity": 61,
+      "tempo": 145.0,
+      "key": "D",
+      "mode": "Major",
+      "energy": 0.381,
+      "valence": 0.14,
+      "danceability": 0.448,
+      "acousticness": 0.666,
+      "instrumentalness": 0.756,
+      "loudness": -18.1,
+      "speechiness": 0.035,
+      "duration_ms": 181053,
+      "slug": "darkstar-harold-faltermeyer"
+    },
+    {
+      "name": "Charge",
+      "artists": "Marc Streitenfeld",
+      "album": "Robin Hood (Original Motion Picture Soundtrack)",
+      "popularity": 61,
+      "tempo": 98.5,
+      "key": "E",
+      "mode": "Minor",
+      "energy": 0.525,
+      "valence": 0.1,
+      "danceability": 0.184,
+      "acousticness": 0.864,
+      "instrumentalness": 0.777,
+      "loudness": -18.4,
+      "speechiness": 0.051,
+      "duration_ms": 78893,
+      "slug": "charge-marc-streitenfeld"
+    },
+    {
+      "name": "I'm Blue - Club Mix",
+      "artists": "Kush Kush",
+      "album": "I'm Blue (Club Mixes)",
+      "popularity": 61,
+      "tempo": 124.0,
+      "key": "C",
+      "mode": "Minor",
+      "energy": 0.915,
+      "valence": 0.615,
+      "danceability": 0.735,
+      "acousticness": 0.046,
+      "instrumentalness": 0.0,
+      "loudness": -5.1,
+      "speechiness": 0.048,
+      "duration_ms": 150000,
+      "slug": "im-blue-club-mix-kush-kush"
+    },
+    {
+      "name": "The Legend Begins",
+      "artists": "Marc Streitenfeld",
+      "album": "Robin Hood (Original Motion Picture Soundtrack)",
+      "popularity": 61,
+      "tempo": 66.7,
+      "key": "F",
+      "mode": "Major",
+      "energy": 0.231,
+      "valence": 0.033,
+      "danceability": 0.235,
+      "acousticness": 0.973,
+      "instrumentalness": 0.973,
+      "loudness": -18.0,
+      "speechiness": 0.039,
+      "duration_ms": 87680,
+      "slug": "the-legend-begins-marc-streitenfeld"
+    },
+    {
+      "name": "The Man, The Legend / Touchdown",
+      "artists": "Harold Faltermeyer;Lady Gaga;Hans Zimmer;Lorne Balfe",
+      "album": "Top Gun: Maverick (Music From The Motion Picture)",
+      "popularity": 60,
+      "tempo": 152.2,
+      "key": "G",
+      "mode": "Major",
+      "energy": 0.436,
+      "valence": 0.05,
+      "danceability": 0.237,
+      "acousticness": 0.25,
+      "instrumentalness": 0.932,
+      "loudness": -11.8,
+      "speechiness": 0.032,
+      "duration_ms": 234493,
+      "slug": "the-man-the-legend-touchdown-harold-faltermeyer"
+    },
+    {
+      "name": "Mr. Saxobeat",
+      "artists": "Klaas",
+      "album": "Mr. Saxobeat",
+      "popularity": 60,
+      "tempo": 127.0,
+      "key": "B",
+      "mode": "Minor",
+      "energy": 0.889,
+      "valence": 0.511,
+      "danceability": 0.638,
+      "acousticness": 0.048,
+      "instrumentalness": 0.034,
+      "loudness": -5.3,
+      "speechiness": 0.127,
+      "duration_ms": 151181,
+      "slug": "mr-saxobeat-klaas"
+    }
+  ]
+}
