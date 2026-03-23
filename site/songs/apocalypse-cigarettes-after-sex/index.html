@@ -248,6 +248,23 @@
       padding: 0.2rem 0.6rem;
       font-size: 0.75rem;
     }
+  
+    .timeline-container{margin:1rem 0}
+    .timeline-bar{display:flex;border-radius:8px;overflow:hidden;height:48px;cursor:pointer}
+    .timeline-section{display:flex;align-items:center;justify-content:center;transition:opacity 0.2s;min-width:2px;position:relative}
+    .timeline-section:hover{opacity:0.8}
+    .timeline-label{font-size:0.7rem;font-weight:600;color:#fff;text-transform:uppercase;letter-spacing:0.05em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 4px;text-shadow:0 1px 3px rgba(0,0,0,0.5)}
+    .timeline-times{display:flex;justify-content:space-between;margin-top:0.3rem;font-size:0.75rem;color:var(--text-muted)}
+    .timeline-legend{display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.8rem}
+    .legend-item{display:flex;align-items:center;gap:0.3rem;font-size:0.8rem;color:var(--text-muted)}
+    .legend-dot{width:10px;height:10px;border-radius:3px;flex-shrink:0}
+    .timeline-tooltip{display:none;position:fixed;background:#1a1b2e;border:1px solid rgba(78,205,196,0.3);border-radius:8px;padding:0.8rem;font-size:0.85rem;z-index:100;max-width:300px;box-shadow:0 4px 20px rgba(0,0,0,0.5)}
+    .tooltip-label{color:var(--teal);font-weight:600;text-transform:uppercase;font-size:0.75rem;margin-bottom:0.3rem}
+    .tooltip-time{color:var(--text);font-weight:500}
+    .tooltip-desc{color:var(--text-muted);font-size:0.8rem;margin-top:0.3rem;line-height:1.4}
+    .tooltip-stats{display:flex;gap:1rem;margin-top:0.3rem;font-size:0.8rem;color:var(--text-muted)}
+    .loudness-chart-wrap{height:200px;position:relative}
+    
   </style>
   <script type="application/ld+json">
 {
@@ -295,6 +312,32 @@
         </div>
 
   <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
+  
+  <div class="section-label"><h2>Song Structure</h2></div>
+  <div class="chart-card">
+    <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:0.8rem">Hover over sections to see details. Detected via spectral novelty analysis, labeled by AI.</p>
+    
+    <div class="timeline-container">
+      <div class="timeline-bar">
+        <div class="timeline-section" style="width:13.1%;background:#4ecdc4" data-label="intro" data-time="0:00 → 0:38" data-desc="Soft synth pad fading in, no vocals" data-dur="38.1s" data-loud="-11.8dB"><span class="timeline-label">intro</span></div><div class="timeline-section" style="width:2.9%;background:#5b9bd5" data-label="verse" data-time="0:38 → 0:46" data-desc="Drums and bass enter, male vocals begin, more energy" data-dur="8.3s" data-loud="-4.5dB"><span class="timeline-label">verse</span></div><div class="timeline-section" style="width:3.7%;background:#9b7fd4" data-label="pre-chorus" data-time="0:46 → 0:57" data-desc="Slight buildup, more prominent drums, vocals become more intense" data-dur="10.8s" data-loud="-4.8dB"><span class="timeline-label">pre-chorus</span></div><div class="timeline-section" style="width:14.2%;background:#e8596e" data-label="chorus" data-time="0:57 → 1:38" data-desc="Full band sound, more melodic vocals, catchy" data-dur="41.1s" data-loud="-4.1dB"><span class="timeline-label">chorus</span></div><div class="timeline-section" style="width:54.7%;background:#5b9bd5" data-label="verse" data-time="1:38 → 4:16" data-desc="Returns to verse structure, similar instrumentation and vocal style as section 2, but longer" data-dur="158.6s" data-loud="-4.6dB"><span class="timeline-label">verse</span></div><div class="timeline-section" style="width:11.5%;background:#6b7099" data-label="outro" data-time="4:16 → 4:50" data-desc="Music fades out, becomes sparse, synth pad returns, vocals become more distant" data-dur="33.3s" data-loud="-18.5dB"><span class="timeline-label">outro</span></div>
+      </div>
+      <div class="timeline-times">
+        <span>0:00</span>
+        <span>4:50</span>
+      </div>
+      <div class="timeline-legend"><span class="legend-item"><span class="legend-dot" style="background:#4ecdc4"></span>intro</span><span class="legend-item"><span class="legend-dot" style="background:#5b9bd5"></span>verse</span><span class="legend-item"><span class="legend-dot" style="background:#9b7fd4"></span>pre-chorus</span><span class="legend-item"><span class="legend-dot" style="background:#e8596e"></span>chorus</span><span class="legend-item"><span class="legend-dot" style="background:#6b7099"></span>outro</span></div>
+      <div class="timeline-tooltip" id="timelineTooltip"></div>
+    </div>
+  </div>
+
+  <div class="section-label"><h2>Loudness Envelope</h2></div>
+  <div class="chart-card">
+    <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:0.8rem">Dynamic range: 10.5dB — moderate dynamics</p>
+    <div class="loudness-chart-wrap">
+      <canvas id="loudnessChart"></canvas>
+    </div>
+  </div>
+
   <div class="section-label"><h2>Prompt Lab</h2></div>
   
   <div class="prompt-lab">
@@ -622,6 +665,77 @@ function switchTab(btn, panel) {
   const el = document.getElementById('panel-' + panel);
   if (el) el.style.display = '';
 }
+
+
+// Timeline tooltips
+document.querySelectorAll('.timeline-section').forEach(el => {
+  el.addEventListener('mouseenter', e => {
+    const tt = document.getElementById('timelineTooltip');
+    tt.innerHTML = `
+      <div class="tooltip-label">${el.dataset.label}</div>
+      <div class="tooltip-time">${el.dataset.time}</div>
+      <div class="tooltip-desc">${el.dataset.desc}</div>
+      <div class="tooltip-stats"><span>${el.dataset.dur}</span><span>${el.dataset.loud}</span></div>
+    `;
+    tt.style.display = 'block';
+    tt.style.left = (e.clientX + 10) + 'px';
+    tt.style.top = (e.clientY - 80) + 'px';
+  });
+  el.addEventListener('mouseleave', () => {
+    document.getElementById('timelineTooltip').style.display = 'none';
+  });
+  el.addEventListener('mousemove', e => {
+    const tt = document.getElementById('timelineTooltip');
+    tt.style.left = (e.clientX + 10) + 'px';
+    tt.style.top = (e.clientY - 80) + 'px';
+  });
+});
+
+// Loudness envelope chart
+const loudCtx = document.getElementById('loudnessChart');
+if (loudCtx) {
+  new Chart(loudCtx, {
+    type: 'line',
+    data: {
+      labels: [0.0, 4.83, 9.66, 14.49, 19.32, 24.15, 28.98, 33.81, 38.64, 43.47, 48.3, 53.13, 57.96, 62.79, 67.62, 72.45, 77.28, 82.11, 86.94, 91.77, 96.6, 101.42, 106.25, 111.08, 115.91, 120.74, 125.57, 130.4, 135.23, 140.06, 144.89, 149.72, 154.55, 159.38, 164.21, 169.04, 173.87, 178.7, 183.53, 188.36, 193.19, 198.02, 202.85, 207.68, 212.51, 217.34, 222.17, 227.0, 231.83, 236.66, 241.49, 246.32, 251.15, 255.98, 260.81, 265.64, 270.47, 275.3, 280.13, 284.96, 289.79],
+      datasets: [{
+        data: [-80.0, -16.2, -23.5, -4.4, -4.6, -3.4, -3.2, -3.1, -4.7, -3.8, -2.1, -10.0, -1.7, -4.9, -3.4, -4.1, -6.0, -6.0, -5.2, -2.4, -3.5, -2.3, -3.2, -1.7, -3.9, -11.2, -2.5, -8.8, -5.6, -8.5, -3.2, -4.3, -3.3, -4.2, -5.7, -3.4, -4.3, -6.5, -4.9, -4.3, -3.6, -3.3, -9.4, -4.1, -5.6, -19.4, -3.1, -3.2, -5.4, -2.6, -7.2, -3.2, -1.1, -1.6, -3.0, -2.7, -3.0, -6.1, -12.8, -48.3, -80.0],
+        borderColor: '#4ecdc4',
+        backgroundColor: 'rgba(78,205,196,0.08)',
+        fill: true,
+        borderWidth: 1.5,
+        pointRadius: 0,
+        tension: 0.3,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => ctx.parsed.y.toFixed(1) + ' dB',
+            title: ctx => ctx[0].label + 's',
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Time (seconds)', color: '#6b7099', font: { size: 11 } },
+          ticks: { color: '#6b7099', maxTicksLimit: 10 },
+          grid: { color: 'rgba(255,255,255,0.04)' },
+        },
+        y: {
+          title: { display: true, text: 'Loudness (dB)', color: '#6b7099', font: { size: 11 } },
+          ticks: { color: '#6b7099' },
+          grid: { color: 'rgba(255,255,255,0.04)' },
+        }
+      }
+    }
+  });
+}
+
 </script>
 </body>
 </html>
