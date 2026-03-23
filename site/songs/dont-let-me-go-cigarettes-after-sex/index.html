@@ -114,6 +114,32 @@
       font-size: 0.95rem;
       line-height: 1.6;
     }
+    .prompt-tabs {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .prompt-tab {
+      background: rgba(255,255,255,0.04);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+    .prompt-tab:hover {
+      background: rgba(78,205,196,0.08);
+      color: var(--text);
+    }
+    .prompt-tab.active {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border-color: rgba(78,205,196,0.3);
+    }
     .prompt-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -138,6 +164,15 @@
       color: var(--teal);
       font-weight: 600;
     }
+    .prompt-hint {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+      line-height: 1.5;
+    }
+    .prompt-hint strong {
+      color: var(--text);
+    }
     .copy-btn {
       background: rgba(78,205,196,0.15);
       color: var(--teal);
@@ -147,6 +182,7 @@
       font-size: 0.8rem;
       cursor: pointer;
       transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
     }
     .copy-btn:hover {
       background: rgba(78,205,196,0.25);
@@ -156,6 +192,18 @@
       line-height: 1.7;
       color: var(--text);
       font-family: 'Inter', sans-serif;
+    }
+    .prompt-code {
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: var(--teal);
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+      background: rgba(0,0,0,0.3);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      white-space: pre;
+      margin: 0;
     }
     .prompt-params {
       display: grid;
@@ -226,7 +274,184 @@
           <h3>Listen</h3>
           <div class="yt-embed">
             <iframe src="https://www.youtube.com/embed/lY3g3h0iP3A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+          
+  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+  
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>🧪 Recreate This Track</h3>
+      <p>Use these prompt ingredients with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service to recreate the vibe of <em>Don&#x27;t Let Me Go</em> by <em>Cigarettes After Sex</em>. Agents can grab the structured JSON below.</p>
+    </div>
+
+    <!-- Platform tabs -->
+    <div class="prompt-tabs">
+      <button class="prompt-tab active" onclick="switchTab(this, 'general')">General</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'suno')">Suno</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'udio')">Udio</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'agent')">Agent JSON</button>
+    </div>
+
+    <!-- General prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-general">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Ready-to-Use Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">Copy</button>
+      </div>
+      <div class="prompt-text" id="promptGeneral">Create a 4:22 indie folk track at 97 BPM in F#/Gb Major. Acoustic guitar over male vocals, synth pad. Melancholic / introspective and intimate. Clean acoustic production with subtle reverb, with reverb tail. Sparse texture, static dynamics, moderate stereo field. Subdued energy (37%), melancholic mood (17%). Think Bon Iver meets Iron &amp; Wine.</div>
+    </div>
+
+    <!-- Suno prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-suno" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Suno Style Tags</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste into the <strong>Style of Music</strong> field in Suno. Set BPM to 97.</div>
+      <div class="prompt-text" id="promptSuno">indie folk, singer-songwriter, melancholic / introspective, intimate, male vocals, acoustic guitar, synth pad, subdued, clean acoustic production with subtle reverb, reverb tail</div>
+    </div>
+
+    <!-- Udio prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-udio" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Udio Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste as the main prompt in Udio. Use manual mode to set BPM (97) and key (F#/Gb Major).</div>
+      <div class="prompt-text" id="promptUdio">A indie folk track that feels melancholic / introspective and intimate with male vocals, acoustic guitar, synth pad — clean acoustic production with subtle reverb using reverb tail in the style of Bon Iver and Iron &amp; Wine</div>
+    </div>
+
+    <!-- Agent JSON -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-agent" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Structured Data for Agents</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">Copy</button>
+      </div>
+      <div class="prompt-hint">Machine-readable format for AI agents, APIs, and programmatic music generation.</div>
+      <pre class="prompt-code" id="promptAgent">{
+  "track_reference": {
+    "title": "Don&amp;#x27;t Let Me Go",
+    "artist": "Cigarettes After Sex"
+  },
+  "generation_params": {
+    "bpm": 97,
+    "key": "F#/Gb Major",
+    "duration": "4:22",
+    "energy": 0.369,
+    "valence": 0.17,
+    "acousticness": 0.453,
+    "instrumentalness": 0.501
+  },
+  "style": {
+    "genres": [
+      "indie folk",
+      "singer-songwriter",
+      "acoustic folk"
+    ],
+    "mood": "melancholic / introspective",
+    "atmosphere": "intimate",
+    "instruments": [
+      "male vocals",
+      "acoustic guitar",
+      "synth pad"
+    ],
+    "primary_instrument": "acoustic guitar",
+    "vocals": "Singing"
+  },
+  "production": {
+    "style": "clean acoustic production with subtle reverb",
+    "effects": [
+      "reverb tail"
+    ],
+    "texture": "sparse",
+    "dynamics": "static",
+    "stereo": "moderate"
+  },
+  "reference_artists": [
+    "Bon Iver",
+    "Iron &amp;amp; Wine",
+    "Sufjan Stevens"
+  ],
+  "prompt": "Create a 4:22 indie folk track at 97 BPM in F#/Gb Major. Acoustic guitar over male vocals, synth pad. Melancholic / introspective and intimate. Clean acoustic production with subtle reverb, with reverb tail. Sparse texture, static dynamics, moderate stereo field. Subdued energy (37%), melancholic mood (17%). Think Bon Iver meets Iron &amp;amp; Wine."
+}</pre>
+    </div>
+
+    <!-- Parameter cards -->
+    <div class="prompt-params">
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Tempo</div>
+        <div class="prompt-param-value">97 BPM</div>
+        <div class="prompt-param-detail">Mid-tempo pace. Natural rhythm for the genre.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">mid-tempo</span>
+          <span class="prompt-word">unhurried</span>
+          <span class="prompt-word">steady</span>
+          <span class="prompt-word">gentle</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Energy</div>
+        <div class="prompt-param-value">36.9%</div>
+        <div class="prompt-param-detail">Low to moderate energy level. Sets the dynamic intensity.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">subdued</span>
+          <span class="prompt-word">restrained</span>
+          <span class="prompt-word">understated</span>
+          <span class="prompt-word">soft</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Mood</div>
+        <div class="prompt-param-value">17.0% Valence</div>
+        <div class="prompt-param-detail">melancholic / introspective mood with intimate atmosphere.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">melancholic</span>
+          <span class="prompt-word">somber</span>
+          <span class="prompt-word">introspective</span>
+          <span class="prompt-word">intimate</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Instrumentation</div>
+        <div class="prompt-param-value">3 Instruments</div>
+        <div class="prompt-param-detail">Primary: acoustic guitar. Full arrangement with male vocals, acoustic guitar, synth pad.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">male-vocals</span>
+          <span class="prompt-word">acoustic-guitar</span>
+          <span class="prompt-word">synth-pad</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Key & Tonality</div>
+        <div class="prompt-param-value">F#/Gb Major</div>
+        <div class="prompt-param-detail">Major key. Harmonic foundation with simple chords.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">major</span>
+          <span class="prompt-word">bright</span>
+          <span class="prompt-word">simple-chords</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Production</div>
+        <div class="prompt-param-value">clean acoustic production with subtle reverb</div>
+        <div class="prompt-param-detail">reverb tail. sparse texture, static dynamics.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">reverb-tail</span>
+          <span class="prompt-word">sparse</span>
+          <span class="prompt-word">moderate-stereo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
         </div>
 
   <div class="section-label"><h2>Audio Features</h2></div>
@@ -312,99 +537,6 @@
         <div class="char-value">A minor</div>
       </div>
     </div>
-  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
-  <div class="section-label"><h2>Prompt Lab</h2></div>
-  
-  <div class="prompt-lab">
-    <div class="prompt-lab-intro">
-      <h3>🧪 Recreate This Track</h3>
-      <p>Use these prompt ingredients with Suno, Udio, MusicGen, or any AI music generation service to recreate the vibe of Don&#x27;t Let Me Go by Cigarettes After Sex.</p>
-    </div>
-
-    <!-- Ready-to-copy prompt -->
-    <div class="prompt-card prompt-card-main">
-      <div class="prompt-card-header">
-        <span class="prompt-card-label">Ready-to-Use Prompt</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="mainPrompt">Copy</button>
-      </div>
-      <div class="prompt-text" id="mainPrompt">Create a 4:22 indie folk track at 97 BPM in F#/Gb Major. Acoustic guitar over male vocals, synth pad. Melancholic / introspective and intimate. Clean acoustic production with subtle reverb, with reverb tail. Sparse texture, static dynamics, moderate stereo field. Subdued energy (37%), melancholic mood (17%). Think Bon Iver meets Iron &amp; Wine.</div>
-    </div>
-
-    <!-- Parameter cards -->
-    <div class="prompt-params">
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Tempo</div>
-        <div class="prompt-param-value">97 BPM</div>
-        <div class="prompt-param-detail">Mid-tempo pace. Natural rhythm for the genre.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">mid-tempo</span>
-          <span class="prompt-word">unhurried</span>
-          <span class="prompt-word">steady</span>
-          <span class="prompt-word">gentle</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Energy</div>
-        <div class="prompt-param-value">36.9%</div>
-        <div class="prompt-param-detail">Low to moderate energy level. Sets the dynamic intensity.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">subdued</span>
-          <span class="prompt-word">restrained</span>
-          <span class="prompt-word">understated</span>
-          <span class="prompt-word">soft</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Mood</div>
-        <div class="prompt-param-value">17.0% Valence</div>
-        <div class="prompt-param-detail">melancholic / introspective mood with intimate atmosphere.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">melancholic</span>
-          <span class="prompt-word">somber</span>
-          <span class="prompt-word">introspective</span>
-          <span class="prompt-word">intimate</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Instrumentation</div>
-        <div class="prompt-param-value">3 Instruments</div>
-        <div class="prompt-param-detail">Primary: acoustic guitar. Full arrangement with male vocals, acoustic guitar, synth pad.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">male-vocals</span>
-          <span class="prompt-word">acoustic-guitar</span>
-          <span class="prompt-word">synth-pad</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Key & Tonality</div>
-        <div class="prompt-param-value">F#/Gb Major</div>
-        <div class="prompt-param-detail">Major key. Harmonic foundation with simple chords.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">major</span>
-          <span class="prompt-word">bright</span>
-          <span class="prompt-word">simple-chords</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Production</div>
-        <div class="prompt-param-value">clean acoustic production with subtle reverb</div>
-        <div class="prompt-param-detail">reverb tail. sparse texture, static dynamics.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">reverb-tail</span>
-          <span class="prompt-word">sparse</span>
-          <span class="prompt-word">moderate-stereo</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
 </div>
 
 <footer>
@@ -459,6 +591,13 @@ function copyPrompt(btn) {
       btn.style.background = '';
     }, 2000);
   });
+}
+function switchTab(btn, panel) {
+  document.querySelectorAll('.prompt-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.prompt-panel').forEach(p => p.style.display = 'none');
+  btn.classList.add('active');
+  const el = document.getElementById('panel-' + panel);
+  if (el) el.style.display = '';
 }
 </script>
 </body>

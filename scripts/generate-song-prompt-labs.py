@@ -243,10 +243,95 @@ def generate_main_prompt(data: Dict) -> str:
 
     return ' '.join(parts)
 
+def generate_suno_prompt(data: Dict) -> str:
+    """Generate a Suno-specific prompt (style tag + lyrics description format)."""
+    parts = []
+    # Suno uses style descriptions
+    genre_text = ', '.join(data['genres'][:2]) if data['genres'] else 'ambient'
+    parts.append(genre_text)
+    if data['mood']:
+        parts.append(data['mood'])
+    if data['atmosphere']:
+        parts.append(data['atmosphere'])
+    # Instruments
+    parts.extend(data['instruments'][:3])
+    # Production descriptors
+    energy_word = get_energy_words(data['energy'])[0] if data['energy'] else 'moderate'
+    parts.append(energy_word)
+    if data['production_style']:
+        parts.append(data['production_style'])
+    if data['sound_effects']:
+        parts.extend(data['sound_effects'][:2])
+    return ', '.join(parts)
+
+
+def generate_udio_prompt(data: Dict) -> str:
+    """Generate a Udio-specific prompt (natural language, reference-heavy)."""
+    parts = []
+    genre_text = data['genres'][0] if data['genres'] else 'ambient'
+    parts.append(f"A {genre_text} track")
+    if data['mood']:
+        parts.append(f"that feels {data['mood']}")
+    if data['atmosphere']:
+        parts.append(f"and {data['atmosphere']}")
+    if data['instruments']:
+        parts.append(f"with {', '.join(data['instruments'][:3])}")
+    if data['production_style']:
+        parts.append(f"— {data['production_style']}")
+    if data['sound_effects']:
+        parts.append(f"using {' and '.join(data['sound_effects'][:2])}")
+    if len(data['similar_artists']) >= 2:
+        parts.append(f"in the style of {data['similar_artists'][0]} and {data['similar_artists'][1]}")
+    return ' '.join(parts)
+
+
+def generate_agent_json(data: Dict) -> str:
+    """Generate structured JSON for AI agents/APIs."""
+    import json as _json
+    obj = {
+        "track_reference": {
+            "title": data['title'],
+            "artist": data['artist']
+        },
+        "generation_params": {
+            "bpm": data['bpm'],
+            "key": data['key'],
+            "duration": data['duration'],
+            "energy": round(data['energy'] / 100, 3) if data['energy'] else None,
+            "valence": round(data['valence'] / 100, 3) if data['valence'] else None,
+            "acousticness": round(data['acousticness'] / 100, 3) if data['acousticness'] else None,
+            "instrumentalness": round(data['instrumentalness'] / 100, 3) if data['instrumentalness'] else None,
+        },
+        "style": {
+            "genres": data['genres'],
+            "mood": data['mood'],
+            "atmosphere": data['atmosphere'],
+            "instruments": data['instruments'],
+            "primary_instrument": data['primary_instrument'],
+            "vocals": data['vocals'],
+        },
+        "production": {
+            "style": data['production_style'],
+            "effects": data['sound_effects'],
+            "texture": data['texture'],
+            "dynamics": data['dynamics'],
+            "stereo": data['stereo'],
+        },
+        "reference_artists": data['similar_artists'],
+        "prompt": generate_main_prompt(data),
+    }
+    return _json.dumps(obj, indent=2)
+
+
 def generate_prompt_lab_html(data: Dict) -> str:
     """Generate the complete Prompt Lab HTML section."""
     
     main_prompt = generate_main_prompt(data)
+    suno_prompt = generate_suno_prompt(data)
+    udio_prompt = generate_udio_prompt(data)
+    agent_json = generate_agent_json(data)
+    # Escape HTML entities in JSON for safe embedding
+    agent_json_escaped = agent_json.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
     
     html = f'''
   <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
@@ -255,16 +340,54 @@ def generate_prompt_lab_html(data: Dict) -> str:
   <div class="prompt-lab">
     <div class="prompt-lab-intro">
       <h3>🧪 Recreate This Track</h3>
-      <p>Use these prompt ingredients with Suno, Udio, MusicGen, or any AI music generation service to recreate the vibe of {data['title']} by {data['artist']}.</p>
+      <p>Use these prompt ingredients with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service to recreate the vibe of <em>{data['title']}</em> by <em>{data['artist']}</em>. Agents can grab the structured JSON below.</p>
     </div>
 
-    <!-- Ready-to-copy prompt -->
-    <div class="prompt-card prompt-card-main">
+    <!-- Platform tabs -->
+    <div class="prompt-tabs">
+      <button class="prompt-tab active" onclick="switchTab(this, \'general\')">General</button>
+      <button class="prompt-tab" onclick="switchTab(this, \'suno\')">Suno</button>
+      <button class="prompt-tab" onclick="switchTab(this, \'udio\')">Udio</button>
+      <button class="prompt-tab" onclick="switchTab(this, \'agent\')">Agent JSON</button>
+    </div>
+
+    <!-- General prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-general">
       <div class="prompt-card-header">
         <span class="prompt-card-label">Ready-to-Use Prompt</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="mainPrompt">Copy</button>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">Copy</button>
       </div>
-      <div class="prompt-text" id="mainPrompt">{main_prompt}</div>
+      <div class="prompt-text" id="promptGeneral">{main_prompt}</div>
+    </div>
+
+    <!-- Suno prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-suno" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Suno Style Tags</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste into the <strong>Style of Music</strong> field in Suno. Set BPM to {data['bpm']}.</div>
+      <div class="prompt-text" id="promptSuno">{suno_prompt}</div>
+    </div>
+
+    <!-- Udio prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-udio" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Udio Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste as the main prompt in Udio. Use manual mode to set BPM ({data['bpm']}) and key ({data['key']}).</div>
+      <div class="prompt-text" id="promptUdio">{udio_prompt}</div>
+    </div>
+
+    <!-- Agent JSON -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-agent" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Structured Data for Agents</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">Copy</button>
+      </div>
+      <div class="prompt-hint">Machine-readable format for AI agents, APIs, and programmatic music generation.</div>
+      <pre class="prompt-code" id="promptAgent">{agent_json_escaped}</pre>
     </div>
 
     <!-- Parameter cards -->
@@ -393,6 +516,32 @@ def get_prompt_lab_css() -> str:
       font-size: 0.95rem;
       line-height: 1.6;
     }
+    .prompt-tabs {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .prompt-tab {
+      background: rgba(255,255,255,0.04);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+    .prompt-tab:hover {
+      background: rgba(78,205,196,0.08);
+      color: var(--text);
+    }
+    .prompt-tab.active {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border-color: rgba(78,205,196,0.3);
+    }
     .prompt-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -417,6 +566,15 @@ def get_prompt_lab_css() -> str:
       color: var(--teal);
       font-weight: 600;
     }
+    .prompt-hint {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+      line-height: 1.5;
+    }
+    .prompt-hint strong {
+      color: var(--text);
+    }
     .copy-btn {
       background: rgba(78,205,196,0.15);
       color: var(--teal);
@@ -426,6 +584,7 @@ def get_prompt_lab_css() -> str:
       font-size: 0.8rem;
       cursor: pointer;
       transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
     }
     .copy-btn:hover {
       background: rgba(78,205,196,0.25);
@@ -435,6 +594,18 @@ def get_prompt_lab_css() -> str:
       line-height: 1.7;
       color: var(--text);
       font-family: 'Inter', sans-serif;
+    }
+    .prompt-code {
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: var(--teal);
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+      background: rgba(0,0,0,0.3);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      white-space: pre;
+      margin: 0;
     }
     .prompt-params {
       display: grid;
@@ -481,7 +652,7 @@ def get_prompt_lab_css() -> str:
     }'''
 
 def get_copy_prompt_js() -> str:
-    """Return the JavaScript copyPrompt function."""
+    """Return the JavaScript copyPrompt + tab switching functions."""
     return '''
 function copyPrompt(btn) {
   const id = btn.getAttribute('data-target');
@@ -494,6 +665,13 @@ function copyPrompt(btn) {
       btn.style.background = '';
     }, 2000);
   });
+}
+function switchTab(btn, panel) {
+  document.querySelectorAll('.prompt-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.prompt-panel').forEach(p => p.style.display = 'none');
+  btn.classList.add('active');
+  const el = document.getElementById('panel-' + panel);
+  if (el) el.style.display = '';
 }'''
 
 def inject_prompt_lab(file_path: str) -> bool:
@@ -521,9 +699,20 @@ def inject_prompt_lab(file_path: str) -> bool:
     style_pattern = r'(</style>)'
     content = re.sub(style_pattern, css + r'\n  \1', content)
     
-    # Inject Prompt Lab HTML before footer
-    footer_pattern = r'(\s*</div>\s*<footer>)'
-    content = re.sub(footer_pattern, prompt_lab_html + r'\1', content)
+    # Inject Prompt Lab HTML right after the Listen/YouTube section
+    # The Listen section ends with </div></div> (closing yt-embed and yt-section)
+    # Then comes the Audio Features section
+    listen_pattern = r'(</div>\s*</div>\s*\n\s*<div class="section-label"><h2>Audio Features</h2>)'
+    match = re.search(listen_pattern, content)
+    if match:
+        insert_pos = match.start()
+        # Find the end of the yt-section div (the </div> before Audio Features)
+        # We need to insert after the yt-section closes but before Audio Features
+        content = content[:match.start()] + prompt_lab_html + '\n' + content[match.start():]
+    else:
+        # Fallback: inject before footer if Listen section not found
+        footer_pattern = r'(\s*</div>\s*<footer>)'
+        content = re.sub(footer_pattern, prompt_lab_html + r'\1', content)
     
     # Inject JavaScript - check if <script> already exists
     js_function = get_copy_prompt_js()

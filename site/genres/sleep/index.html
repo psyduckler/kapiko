@@ -567,6 +567,58 @@
       .stat-cards { grid-template-columns: 1fr; }
       .feature-bars { grid-template-columns: 1fr; }
     }
+
+    /* ── Enhanced Prompt Lab Section ── */
+    .prompt-lab-section {
+      background: linear-gradient(135deg, rgba(78,205,196,0.04) 0%, rgba(155,127,212,0.04) 100%);
+      border: 1px solid rgba(78,205,196,0.15);
+      border-radius: 20px;
+      padding: 36px 32px;
+      margin: 8px 0 32px;
+    }
+
+    .prompt-lab-intro {
+      margin-bottom: 28px;
+    }
+
+    .prompt-lab-intro p {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .platform-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      transition: border-color 0.2s;
+    }
+
+    .platform-card:hover {
+      border-color: var(--border-accent);
+    }
+
+    .platform-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .platform-tip {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -766,74 +818,7 @@
     </div>
   </div>
 
-  <!-- Prompt Lab -->
-  <div class="section-label">
-    <h2>Prompt Lab</h2>
-  </div>
 
-  <div class="prompt-grid">
-    <div class="prompt-block" id="translatorBlock">
-      <div class="prompt-label">
-        Feature Translator
-        <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
-      </div>
-      <pre>BPM 0-90: No pulse to ultra-slow, heart rate sync
-Energy 0-10%: Barely perceptible, whisper dynamics
-Valence 0-20%: Neutral to deeply calming
-Danceability 0-30%: No rhythmic movement
-Acousticness 80-99%: Pure organic tones, no synthesis
-Instrumentalness 80-99%: Wordless, no vocal interruptions
-Speechiness 0-5%: Complete silence of voice
-Tempo: Glacial or static, never rushed
-Key preference: C, C#/Db, natural harmonies</pre>
-    </div>
-
-    <div class="prompt-block" id="templateBlock">
-      <div class="prompt-label">
-        Prompt Template
-        <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
-      </div>
-      <pre>Ultra-quiet, drone-like, no rhythmic pulse, sub-60 BPM, whisper-quiet dynamics. Pure ambient texture, possibly binaural beats, extremely long sustains. The goal is to be barely perceptible.
-
-• Minimal piano with infinite sustain (70 BPM or slower)
-• Gentle string pads with glacial evolution
-• No percussion or rhythmic elements
-• Binaural beats or pink/brown noise textures
-• Ultra-low dynamics (-40dB), gentle fade-ins
-• No sudden changes, extremely slow harmonic movement
-• Pure tones, organic resonance only
-
-Artists to reference: Brian Eno, Max Richter "Sleep" project, Marconi Union "Weightless", Ludovico Einaudi ambient works
-
-Duration: 3-8+ minutes for deep immersion cycles</pre>
-    </div>
-
-    <div class="prompt-block" id="recipeBlock">
-      <div class="prompt-label">
-        Genre Recipe JSON
-        <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
-      </div>
-      <pre>{
-  "genre": "sleep / deep sleep",
-  "audio_features": {
-    "bpm": {"min": 0, "max": 143, "median": 70.2},
-    "energy": {"avg": 0.032, "range": "whisper quiet"},
-    "valence": {"avg": 0.067, "range": "deeply calming"},
-    "danceability": {"avg": 0.178, "range": "no movement"},
-    "acousticness": {"avg": 0.937, "range": "pure organic"},
-    "instrumentalness": {"avg": 0.907, "range": "wordless"},
-    "key_preference": ["C", "C#/Db", "D"],
-    "mode_split": {"major": 71, "minor": 29}
-  },
-  "production_style": {
-    "dynamics": "ultra-low, gentle fade-ins",
-    "textures": "binaural, pink/brown noise",
-    "evolution": "extremely slow, no sudden changes",
-    "arrangement": "drone-based, 3-8+ min duration"
-  }
-}</pre>
-    </div>
-  </div>
 
   <!-- What Makes a Hit -->
   <div class="section-label">

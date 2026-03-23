@@ -567,6 +567,58 @@
       .stat-cards { grid-template-columns: 1fr; }
       .feature-bars { grid-template-columns: 1fr; }
     }
+
+    /* ── Enhanced Prompt Lab Section ── */
+    .prompt-lab-section {
+      background: linear-gradient(135deg, rgba(78,205,196,0.04) 0%, rgba(155,127,212,0.04) 100%);
+      border: 1px solid rgba(78,205,196,0.15);
+      border-radius: 20px;
+      padding: 36px 32px;
+      margin: 8px 0 32px;
+    }
+
+    .prompt-lab-intro {
+      margin-bottom: 28px;
+    }
+
+    .prompt-lab-intro p {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .platform-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      transition: border-color 0.2s;
+    }
+
+    .platform-card:hover {
+      border-color: var(--border-accent);
+    }
+
+    .platform-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .platform-tip {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -679,6 +731,108 @@
     </div>
   </div>
 
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>✨ Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-lab-section">
+    
+    <!-- How to Prompt a Hit intro -->
+    <div class="prompt-lab-intro">
+      <h3>How to Prompt a Hit</h3>
+      <p>Transform lo-fi hip hop's laid-back groove into AI prompts. These data-driven insights help you craft the perfect chill beats — from Suno's warm analog vibes to Udio's crisp vinyl textures.</p>
+      
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-name">Suno</div>
+          <div class="platform-tip">Excels at boom-bap rhythms and vintage textures. Great for J Dilla-inspired swing patterns.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Udio</div>
+          <div class="platform-tip">Exceptional drum quality and sample clarity. Perfect for clean, professional lo-fi beats.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Stable Audio</div>
+          <div class="platform-tip">Open-source flexibility for experimental lo-fi. Good for extended chill-hop sessions.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">MusicGen (Meta)</div>
+          <div class="platform-tip">Strong at jazz-influenced chord progressions and organic sample textures.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Riffusion</div>
+          <div class="platform-tip">Real-time beat generation. Ideal for live lo-fi streaming and spontaneous creativity.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prompt-grid">
+      <div class="prompt-block" id="translatorBlock">
+        <div class="prompt-label">
+          Feature Translator
+          <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+        </div>
+        <pre>BPM 70-95: Laid-back groove, unhurried pace
+Energy 15-45%: Mellow, contemplative, low-key
+Valence 10-45%: Introspective, melancholic, bittersweet
+Danceability 55-75%: Subtle head-nod rhythm, not for clubs
+Acousticness 50-90%: Warm analog textures, organic feel
+Instrumentalness 60-95%: Minimal vocals, focus on melody
+Speechiness 0-10%: Clean instrumental passages
+Tempo: Slow to moderate, never rushed
+Key preference: G#/Ab, C#/Db, flat keys for warmth</pre>
+      </div>
+
+      <div class="prompt-block" id="templateBlock">
+        <div class="prompt-label">
+          Prompt Template
+          <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+        </div>
+        <pre>Create a lo-fi hip hop beat with:
+
+• Dusty, warm vinyl-textured drums (87 BPM)
+• Jazz-inflected chord progressions (7ths, 9ths)
+• Boom-bap inspired pattern with J Dilla swing
+• Mellow piano or guitar samples (analog warmth)
+• Subtle vinyl crackle and tape saturation
+• SP-404 style chopped samples
+• Minimal energy (33%), introspective mood (29%)
+• Highly instrumental (76%), acoustic elements (63%)
+
+Artists to reference: Nujabes, Emancipator, Bonobo, Jinsang, potsu, Idealism
+
+Duration: 2-3 minutes, perfect for studying/relaxing</pre>
+      </div>
+
+      <div class="prompt-block" id="recipeBlock">
+        <div class="prompt-label">
+          Genre Recipe JSON
+          <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+        </div>
+        <pre>{
+  "genre": "lo-fi hip hop",
+  "audio_features": {
+    "bpm": {"min": 69, "max": 171, "median": 87},
+    "energy": {"avg": 0.325, "range": "mellow"},
+    "valence": {"avg": 0.289, "range": "introspective"},
+    "danceability": {"avg": 0.624, "range": "subtle groove"},
+    "acousticness": {"avg": 0.628, "range": "warm/organic"},
+    "instrumentalness": {"avg": 0.755, "range": "minimal vocals"},
+    "key_preference": ["G#/Ab", "C#/Db", "A#/Bb"],
+    "mode_split": {"major": 55, "minor": 45}
+  },
+  "production_style": {
+    "drums": "vinyl-textured, boom-bap swing",
+    "samples": "jazz/soul chops, SP-404 style",
+    "effects": "tape saturation, vinyl crackle",
+    "arrangement": "loop-based, 2-3 min duration"
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
   <!-- Rhythm & Tonality -->
   <div class="section-label">
     <h2>Rhythm & Tonality</h2>
@@ -768,75 +922,7 @@
     </div>
   </div>
 
-  <!-- Prompt Lab -->
-  <div class="section-label">
-    <h2>Prompt Lab</h2>
-  </div>
 
-  <div class="prompt-grid">
-    <div class="prompt-block" id="translatorBlock">
-      <div class="prompt-label">
-        Feature Translator
-        <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
-      </div>
-      <pre>BPM 70-95: Laid-back groove, unhurried pace
-Energy 15-45%: Mellow, contemplative, low-key
-Valence 10-45%: Introspective, melancholic, bittersweet
-Danceability 55-75%: Subtle head-nod rhythm, not for clubs
-Acousticness 50-90%: Warm analog textures, organic feel
-Instrumentalness 60-95%: Minimal vocals, focus on melody
-Speechiness 0-10%: Clean instrumental passages
-Tempo: Slow to moderate, never rushed
-Key preference: G#/Ab, C#/Db, flat keys for warmth</pre>
-    </div>
-
-    <div class="prompt-block" id="templateBlock">
-      <div class="prompt-label">
-        Prompt Template
-        <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
-      </div>
-      <pre>Create a lo-fi hip hop beat with:
-
-• Dusty, warm vinyl-textured drums (87 BPM)
-• Jazz-inflected chord progressions (7ths, 9ths)
-• Boom-bap inspired pattern with J Dilla swing
-• Mellow piano or guitar samples (analog warmth)
-• Subtle vinyl crackle and tape saturation
-• SP-404 style chopped samples
-• Minimal energy (33%), introspective mood (29%)
-• Highly instrumental (76%), acoustic elements (63%)
-
-Artists to reference: Nujabes, Emancipator, Bonobo, Jinsang, potsu, Idealism
-
-Duration: 2-3 minutes, perfect for studying/relaxing</pre>
-    </div>
-
-    <div class="prompt-block" id="recipeBlock">
-      <div class="prompt-label">
-        Genre Recipe JSON
-        <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
-      </div>
-      <pre>{
-  "genre": "lo-fi hip hop",
-  "audio_features": {
-    "bpm": {"min": 69, "max": 171, "median": 87},
-    "energy": {"avg": 0.325, "range": "mellow"},
-    "valence": {"avg": 0.289, "range": "introspective"},
-    "danceability": {"avg": 0.624, "range": "subtle groove"},
-    "acousticness": {"avg": 0.628, "range": "warm/organic"},
-    "instrumentalness": {"avg": 0.755, "range": "minimal vocals"},
-    "key_preference": ["G#/Ab", "C#/Db", "A#/Bb"],
-    "mode_split": {"major": 55, "minor": 45}
-  },
-  "production_style": {
-    "drums": "vinyl-textured, boom-bap swing",
-    "samples": "jazz/soul chops, SP-404 style",
-    "effects": "tape saturation, vinyl crackle",
-    "arrangement": "loop-based, 2-3 min duration"
-  }
-}</pre>
-    </div>
-  </div>
 
   <!-- What Makes a Hit -->
   <div class="section-label">

@@ -114,6 +114,32 @@
       font-size: 0.95rem;
       line-height: 1.6;
     }
+    .prompt-tabs {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .prompt-tab {
+      background: rgba(255,255,255,0.04);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+    .prompt-tab:hover {
+      background: rgba(78,205,196,0.08);
+      color: var(--text);
+    }
+    .prompt-tab.active {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border-color: rgba(78,205,196,0.3);
+    }
     .prompt-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -138,6 +164,15 @@
       color: var(--teal);
       font-weight: 600;
     }
+    .prompt-hint {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+      line-height: 1.5;
+    }
+    .prompt-hint strong {
+      color: var(--text);
+    }
     .copy-btn {
       background: rgba(78,205,196,0.15);
       color: var(--teal);
@@ -147,6 +182,7 @@
       font-size: 0.8rem;
       cursor: pointer;
       transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
     }
     .copy-btn:hover {
       background: rgba(78,205,196,0.25);
@@ -156,6 +192,18 @@
       line-height: 1.7;
       color: var(--text);
       font-family: 'Inter', sans-serif;
+    }
+    .prompt-code {
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: var(--teal);
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+      background: rgba(0,0,0,0.3);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      white-space: pre;
+      margin: 0;
     }
     .prompt-params {
       display: grid;
@@ -226,7 +274,187 @@
           <h3>Listen</h3>
           <div class="yt-embed">
             <iframe src="https://www.youtube.com/embed/VFYhWZKSOWM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+          
+  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+  
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>🧪 Recreate This Track</h3>
+      <p>Use these prompt ingredients with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service to recreate the vibe of <em>Primavera</em> by <em>Ludovico Einaudi, Robert Ziegler, Royal Philharmonic Orchestra</em>. Agents can grab the structured JSON below.</p>
+    </div>
+
+    <!-- Platform tabs -->
+    <div class="prompt-tabs">
+      <button class="prompt-tab active" onclick="switchTab(this, 'general')">General</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'suno')">Suno</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'udio')">Udio</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'agent')">Agent JSON</button>
+    </div>
+
+    <!-- General prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-general">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Ready-to-Use Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">Copy</button>
+      </div>
+      <div class="prompt-text" id="promptGeneral">Create a 7:22 neo-classical track at 142 BPM in C Minor. Instrumental — piano, synth strings, synth pad. Hopeful / melancholic and expansive. Orchestral with digital synthesis and prominent reverb, with reverb tail and synth pad. Evolving texture, slowly_building dynamics, wide stereo field. Whisper-quiet energy (21%), melancholic mood (14%). Think Ludovico Einaudi meets Yann Tiersen.</div>
+    </div>
+
+    <!-- Suno prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-suno" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Suno Style Tags</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste into the <strong>Style of Music</strong> field in Suno. Set BPM to 142.</div>
+      <div class="prompt-text" id="promptSuno">neo-classical, ambient classical, hopeful / melancholic, expansive, piano, synth strings, synth pad, whisper-quiet, orchestral with digital synthesis and prominent reverb, reverb tail, synth pad</div>
+    </div>
+
+    <!-- Udio prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-udio" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Udio Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste as the main prompt in Udio. Use manual mode to set BPM (142) and key (C Minor).</div>
+      <div class="prompt-text" id="promptUdio">A neo-classical track that feels hopeful / melancholic and expansive with piano, synth strings, synth pad — orchestral with digital synthesis and prominent reverb using reverb tail and synth pad in the style of Ludovico Einaudi and Yann Tiersen</div>
+    </div>
+
+    <!-- Agent JSON -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-agent" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Structured Data for Agents</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">Copy</button>
+      </div>
+      <div class="prompt-hint">Machine-readable format for AI agents, APIs, and programmatic music generation.</div>
+      <pre class="prompt-code" id="promptAgent">{
+  "track_reference": {
+    "title": "Primavera",
+    "artist": "Ludovico Einaudi, Robert Ziegler, Royal Philharmonic Orchestra"
+  },
+  "generation_params": {
+    "bpm": 142,
+    "key": "C Minor",
+    "duration": "7:22",
+    "energy": 0.206,
+    "valence": 0.136,
+    "acousticness": 0.965,
+    "instrumentalness": 0.856
+  },
+  "style": {
+    "genres": [
+      "neo-classical",
+      "ambient classical",
+      "film score",
+      "new age"
+    ],
+    "mood": "hopeful / melancholic",
+    "atmosphere": "expansive",
+    "instruments": [
+      "piano",
+      "synth strings",
+      "synth pad"
+    ],
+    "primary_instrument": "piano",
+    "vocals": "None"
+  },
+  "production": {
+    "style": "orchestral with digital synthesis and prominent reverb",
+    "effects": [
+      "reverb tail",
+      "synth pad"
+    ],
+    "texture": "evolving",
+    "dynamics": "slowly_building",
+    "stereo": "wide"
+  },
+  "reference_artists": [
+    "Ludovico Einaudi",
+    "Yann Tiersen",
+    "Max Richter"
+  ],
+  "prompt": "Create a 7:22 neo-classical track at 142 BPM in C Minor. Instrumental \u2014 piano, synth strings, synth pad. Hopeful / melancholic and expansive. Orchestral with digital synthesis and prominent reverb, with reverb tail and synth pad. Evolving texture, slowly_building dynamics, wide stereo field. Whisper-quiet energy (21%), melancholic mood (14%). Think Ludovico Einaudi meets Yann Tiersen."
+}</pre>
+    </div>
+
+    <!-- Parameter cards -->
+    <div class="prompt-params">
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Tempo</div>
+        <div class="prompt-param-value">142 BPM</div>
+        <div class="prompt-param-detail">Fast pace. Natural rhythm for the genre.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">fast</span>
+          <span class="prompt-word">urgent</span>
+          <span class="prompt-word">propulsive</span>
+          <span class="prompt-word">rapid</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Energy</div>
+        <div class="prompt-param-value">20.6%</div>
+        <div class="prompt-param-detail">Very low energy level. Sets the dynamic intensity.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">whisper-quiet</span>
+          <span class="prompt-word">delicate</span>
+          <span class="prompt-word">gentle</span>
+          <span class="prompt-word">featherlight</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Mood</div>
+        <div class="prompt-param-value">13.6% Valence</div>
+        <div class="prompt-param-detail">hopeful / melancholic mood with expansive atmosphere.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">melancholic</span>
+          <span class="prompt-word">somber</span>
+          <span class="prompt-word">introspective</span>
+          <span class="prompt-word">expansive</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Instrumentation</div>
+        <div class="prompt-param-value">3 Instruments</div>
+        <div class="prompt-param-detail">Primary: piano. Full arrangement with piano, synth strings, synth pad.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">piano</span>
+          <span class="prompt-word">synth-strings</span>
+          <span class="prompt-word">synth-pad</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Key & Tonality</div>
+        <div class="prompt-param-value">C Minor</div>
+        <div class="prompt-param-detail">Tonal center. Harmonic foundation with moderate progressions.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">tonal</span>
+          <span class="prompt-word">modal</span>
+          <span class="prompt-word">moderate-progressions</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Production</div>
+        <div class="prompt-param-value">orchestral with digital synthesis and prominent reverb</div>
+        <div class="prompt-param-detail">reverb tail, synth pad. evolving texture, slowly_building dynamics.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">reverb-tail</span>
+          <span class="prompt-word">synth-pad</span>
+          <span class="prompt-word">evolving</span>
+          <span class="prompt-word">wide-stereo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
         </div>
 
   <div class="section-label"><h2>Audio Features</h2></div>
@@ -312,100 +540,6 @@
         <div class="char-value">A minor</div>
       </div>
     </div>
-  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
-  <div class="section-label"><h2>Prompt Lab</h2></div>
-  
-  <div class="prompt-lab">
-    <div class="prompt-lab-intro">
-      <h3>🧪 Recreate This Track</h3>
-      <p>Use these prompt ingredients with Suno, Udio, MusicGen, or any AI music generation service to recreate the vibe of Primavera by Ludovico Einaudi, Robert Ziegler, Royal Philharmonic Orchestra.</p>
-    </div>
-
-    <!-- Ready-to-copy prompt -->
-    <div class="prompt-card prompt-card-main">
-      <div class="prompt-card-header">
-        <span class="prompt-card-label">Ready-to-Use Prompt</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="mainPrompt">Copy</button>
-      </div>
-      <div class="prompt-text" id="mainPrompt">Create a 7:22 neo-classical track at 142 BPM in C Minor. Instrumental — piano, synth strings, synth pad. Hopeful / melancholic and expansive. Orchestral with digital synthesis and prominent reverb, with reverb tail and synth pad. Evolving texture, slowly_building dynamics, wide stereo field. Whisper-quiet energy (21%), melancholic mood (14%). Think Ludovico Einaudi meets Yann Tiersen.</div>
-    </div>
-
-    <!-- Parameter cards -->
-    <div class="prompt-params">
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Tempo</div>
-        <div class="prompt-param-value">142 BPM</div>
-        <div class="prompt-param-detail">Fast pace. Natural rhythm for the genre.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">fast</span>
-          <span class="prompt-word">urgent</span>
-          <span class="prompt-word">propulsive</span>
-          <span class="prompt-word">rapid</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Energy</div>
-        <div class="prompt-param-value">20.6%</div>
-        <div class="prompt-param-detail">Very low energy level. Sets the dynamic intensity.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">whisper-quiet</span>
-          <span class="prompt-word">delicate</span>
-          <span class="prompt-word">gentle</span>
-          <span class="prompt-word">featherlight</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Mood</div>
-        <div class="prompt-param-value">13.6% Valence</div>
-        <div class="prompt-param-detail">hopeful / melancholic mood with expansive atmosphere.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">melancholic</span>
-          <span class="prompt-word">somber</span>
-          <span class="prompt-word">introspective</span>
-          <span class="prompt-word">expansive</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Instrumentation</div>
-        <div class="prompt-param-value">3 Instruments</div>
-        <div class="prompt-param-detail">Primary: piano. Full arrangement with piano, synth strings, synth pad.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">piano</span>
-          <span class="prompt-word">synth-strings</span>
-          <span class="prompt-word">synth-pad</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Key & Tonality</div>
-        <div class="prompt-param-value">C Minor</div>
-        <div class="prompt-param-detail">Tonal center. Harmonic foundation with moderate progressions.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">tonal</span>
-          <span class="prompt-word">modal</span>
-          <span class="prompt-word">moderate-progressions</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Production</div>
-        <div class="prompt-param-value">orchestral with digital synthesis and prominent reverb</div>
-        <div class="prompt-param-detail">reverb tail, synth pad. evolving texture, slowly_building dynamics.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">reverb-tail</span>
-          <span class="prompt-word">synth-pad</span>
-          <span class="prompt-word">evolving</span>
-          <span class="prompt-word">wide-stereo</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
 </div>
 
 <footer>
@@ -460,6 +594,13 @@ function copyPrompt(btn) {
       btn.style.background = '';
     }, 2000);
   });
+}
+function switchTab(btn, panel) {
+  document.querySelectorAll('.prompt-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.prompt-panel').forEach(p => p.style.display = 'none');
+  btn.classList.add('active');
+  const el = document.getElementById('panel-' + panel);
+  if (el) el.style.display = '';
 }
 </script>
 </body>

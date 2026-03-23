@@ -567,6 +567,58 @@
       .stat-cards { grid-template-columns: 1fr; }
       .feature-bars { grid-template-columns: 1fr; }
     }
+
+    /* ── Enhanced Prompt Lab Section ── */
+    .prompt-lab-section {
+      background: linear-gradient(135deg, rgba(78,205,196,0.04) 0%, rgba(155,127,212,0.04) 100%);
+      border: 1px solid rgba(78,205,196,0.15);
+      border-radius: 20px;
+      padding: 36px 32px;
+      margin: 8px 0 32px;
+    }
+
+    .prompt-lab-intro {
+      margin-bottom: 28px;
+    }
+
+    .prompt-lab-intro p {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .platform-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      transition: border-color 0.2s;
+    }
+
+    .platform-card:hover {
+      border-color: var(--border-accent);
+    }
+
+    .platform-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .platform-tip {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -679,6 +731,110 @@
     </div>
   </div>
 
+  <!-- Prompt Lab -->
+  <div class="section-label">
+    <h2>✨ Prompt Lab</h2>
+  </div>
+
+  <div class="prompt-lab-section">
+    
+    <!-- How to Prompt a Hit intro -->
+    <div class="prompt-lab-intro">
+      <h3>How to Prompt a Hit</h3>
+      <p>Distill neo-classical's emotional depth into AI prompts. These data insights help create compositions that capture the genre's signature blend of classical tradition and modern minimalism.</p>
+      
+      <div class="platforms-grid">
+        <div class="platform-card">
+          <div class="platform-name">Suno</div>
+          <div class="platform-tip">Excellent piano compositions and string arrangements. Perfect for Einaudi-style minimalist pieces.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Udio</div>
+          <div class="platform-tip">Superior orchestral quality and complex harmonic progressions. Best for film-score style neo-classical.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Stable Audio</div>
+          <div class="platform-tip">Open-source control for precise classical arrangements. Great for experimental modern classical.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">MusicGen (Meta)</div>
+          <div class="platform-tip">Strong with solo piano and chamber music textures. Natural acoustic recording quality.</div>
+        </div>
+        <div class="platform-card">
+          <div class="platform-name">Riffusion</div>
+          <div class="platform-tip">Real-time classical generation. Useful for improvised contemporary classical pieces.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prompt-grid">
+      <div class="prompt-block" id="translatorBlock">
+        <div class="prompt-label">
+          Feature Translator
+          <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
+        </div>
+        <pre>BPM 90-130: Contemplative pace, room for reflection
+Energy 5-20%: Serene, minimal dynamics, space for emotion
+Valence 5-25%: Profound melancholy, introspective depth
+Danceability 20-50%: Subtle pulse, not rhythmic focus
+Acousticness 95-100%: Pure acoustic instruments, natural recording
+Instrumentalness 80-95%: Minimal vocals, instrumental storytelling
+Speechiness 0-8%: Clean musical expression
+Tempo: Moderate, allows for emotional development
+Key preference: A minor, G major, D major for warmth</pre>
+      </div>
+
+      <div class="prompt-block" id="templateBlock">
+        <div class="prompt-label">
+          Prompt Template
+          <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
+        </div>
+        <pre>Create a neo-classical composition with:
+
+• Solo piano as primary voice (Einaudi style)
+• String section support (cello/violin accompaniment)
+• Minimal electronic processing, natural reverb
+• Emotional dynamic range with delicate expression
+• Classical harmony with modern sensibility
+• Tempo around 109 BPM (contemplative)
+• Low energy (11%), deeply emotional tone (14%)
+• Pedal sustain, natural room ambience
+• Orchestral layering without overwhelming
+• Dynamic expression following breath and pause
+
+Artists to reference: Ludovico Einaudi, Ólafur Arnalds, Nils Frahm, Max Richter
+
+Duration: 3-4 minutes, perfect for meditation/focus</pre>
+      </div>
+
+      <div class="prompt-block" id="recipeBlock">
+        <div class="prompt-label">
+          Genre Recipe JSON
+          <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
+        </div>
+        <pre>{
+  "genre": "neo-classical",
+  "audio_features": {
+    "bpm": {"min": 58, "max": 168, "median": 109},
+    "energy": {"avg": 0.112, "range": "serene/minimal"},
+    "valence": {"avg": 0.137, "range": "profound/melancholic"},
+    "danceability": {"avg": 0.337, "range": "subtle pulse"},
+    "acousticness": {"avg": 0.969, "range": "pure acoustic"},
+    "instrumentalness": {"avg": 0.902, "range": "minimal vocals"},
+    "key_preference": ["A Minor", "D Major", "G Major"],
+    "mode_split": {"major": 55, "minor": 45}
+  },
+  "production_style": {
+    "instruments": "piano, strings, cello primary",
+    "recording": "acoustic capture, natural reverb",
+    "effects": "pedal sustain, minimal processing",
+    "arrangement": "dynamic expression, 3-4 min duration"
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
   <!-- Rhythm & Tonality -->
   <div class="section-label">
     <h2>Rhythm & Tonality</h2>
@@ -768,77 +924,7 @@
     </div>
   </div>
 
-  <!-- Prompt Lab -->
-  <div class="section-label">
-    <h2>Prompt Lab</h2>
-  </div>
 
-  <div class="prompt-grid">
-    <div class="prompt-block" id="translatorBlock">
-      <div class="prompt-label">
-        Feature Translator
-        <button class="copy-btn" onclick="copyBlock('translatorBlock')">Copy</button>
-      </div>
-      <pre>BPM 90-130: Contemplative pace, room for reflection
-Energy 5-20%: Serene, minimal dynamics, space for emotion
-Valence 5-25%: Profound melancholy, introspective depth
-Danceability 20-50%: Subtle pulse, not rhythmic focus
-Acousticness 95-100%: Pure acoustic instruments, natural recording
-Instrumentalness 80-95%: Minimal vocals, instrumental storytelling
-Speechiness 0-8%: Clean musical expression
-Tempo: Moderate, allows for emotional development
-Key preference: A minor, G major, D major for warmth</pre>
-    </div>
-
-    <div class="prompt-block" id="templateBlock">
-      <div class="prompt-label">
-        Prompt Template
-        <button class="copy-btn" onclick="copyBlock('templateBlock')">Copy</button>
-      </div>
-      <pre>Create a neo-classical composition with:
-
-• Solo piano as primary voice (Einaudi style)
-• String section support (cello/violin accompaniment)
-• Minimal electronic processing, natural reverb
-• Emotional dynamic range with delicate expression
-• Classical harmony with modern sensibility
-• Tempo around 109 BPM (contemplative)
-• Low energy (11%), deeply emotional tone (14%)
-• Pedal sustain, natural room ambience
-• Orchestral layering without overwhelming
-• Dynamic expression following breath and pause
-
-Artists to reference: Ludovico Einaudi, Ólafur Arnalds, Nils Frahm, Max Richter
-
-Duration: 3-4 minutes, perfect for meditation/focus</pre>
-    </div>
-
-    <div class="prompt-block" id="recipeBlock">
-      <div class="prompt-label">
-        Genre Recipe JSON
-        <button class="copy-btn" onclick="copyBlock('recipeBlock')">Copy</button>
-      </div>
-      <pre>{
-  "genre": "neo-classical",
-  "audio_features": {
-    "bpm": {"min": 58, "max": 168, "median": 109},
-    "energy": {"avg": 0.112, "range": "serene/minimal"},
-    "valence": {"avg": 0.137, "range": "profound/melancholic"},
-    "danceability": {"avg": 0.337, "range": "subtle pulse"},
-    "acousticness": {"avg": 0.969, "range": "pure acoustic"},
-    "instrumentalness": {"avg": 0.902, "range": "minimal vocals"},
-    "key_preference": ["A Minor", "D Major", "G Major"],
-    "mode_split": {"major": 55, "minor": 45}
-  },
-  "production_style": {
-    "instruments": "piano, strings, cello primary",
-    "recording": "acoustic capture, natural reverb",
-    "effects": "pedal sustain, minimal processing",
-    "arrangement": "dynamic expression, 3-4 min duration"
-  }
-}</pre>
-    </div>
-  </div>
 
   <!-- What Makes a Hit -->
   <div class="section-label">

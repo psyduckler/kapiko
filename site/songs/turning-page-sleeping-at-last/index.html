@@ -114,6 +114,32 @@
       font-size: 0.95rem;
       line-height: 1.6;
     }
+    .prompt-tabs {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .prompt-tab {
+      background: rgba(255,255,255,0.04);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 1.2rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+    .prompt-tab:hover {
+      background: rgba(78,205,196,0.08);
+      color: var(--text);
+    }
+    .prompt-tab.active {
+      background: rgba(78,205,196,0.15);
+      color: var(--teal);
+      border-color: rgba(78,205,196,0.3);
+    }
     .prompt-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -138,6 +164,15 @@
       color: var(--teal);
       font-weight: 600;
     }
+    .prompt-hint {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+      line-height: 1.5;
+    }
+    .prompt-hint strong {
+      color: var(--text);
+    }
     .copy-btn {
       background: rgba(78,205,196,0.15);
       color: var(--teal);
@@ -147,6 +182,7 @@
       font-size: 0.8rem;
       cursor: pointer;
       transition: all 0.2s;
+      font-family: 'Inter', sans-serif;
     }
     .copy-btn:hover {
       background: rgba(78,205,196,0.25);
@@ -156,6 +192,18 @@
       line-height: 1.7;
       color: var(--text);
       font-family: 'Inter', sans-serif;
+    }
+    .prompt-code {
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: var(--teal);
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+      background: rgba(0,0,0,0.3);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      white-space: pre;
+      margin: 0;
     }
     .prompt-params {
       display: grid;
@@ -226,7 +274,187 @@
           <h3>Listen</h3>
           <div class="yt-embed">
             <iframe src="https://www.youtube.com/embed/-hb2tecD13s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+          
+  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+  
+  <div class="prompt-lab">
+    <div class="prompt-lab-intro">
+      <h3>🧪 Recreate This Track</h3>
+      <p>Use these prompt ingredients with <strong>Suno</strong>, <strong>Udio</strong>, or any AI music generation service to recreate the vibe of <em>Turning Page</em> by <em>Sleeping At Last</em>. Agents can grab the structured JSON below.</p>
+    </div>
+
+    <!-- Platform tabs -->
+    <div class="prompt-tabs">
+      <button class="prompt-tab active" onclick="switchTab(this, 'general')">General</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'suno')">Suno</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'udio')">Udio</button>
+      <button class="prompt-tab" onclick="switchTab(this, 'agent')">Agent JSON</button>
+    </div>
+
+    <!-- General prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-general">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Ready-to-Use Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptGeneral">Copy</button>
+      </div>
+      <div class="prompt-text" id="promptGeneral">Create a 4:15 indie pop track at 115 BPM in D#/Eb Major. Male vocal over piano, synth pad, bass. Melancholic / dreamy and expansive. Reverb-heavy ambient pads, with reverb tail. Layered texture, static dynamics, wide stereo field. Subdued energy (37%), melancholic mood (19%). Think Bon Iver meets The National.</div>
+    </div>
+
+    <!-- Suno prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-suno" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Suno Style Tags</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptSuno">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste into the <strong>Style of Music</strong> field in Suno. Set BPM to 115.</div>
+      <div class="prompt-text" id="promptSuno">indie pop, dream pop, melancholic / dreamy, expansive, male vocal, piano, synth pad, subdued, reverb-heavy ambient pads, reverb tail</div>
+    </div>
+
+    <!-- Udio prompt -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-udio" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Udio Prompt</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptUdio">Copy</button>
+      </div>
+      <div class="prompt-hint">Paste as the main prompt in Udio. Use manual mode to set BPM (115) and key (D#/Eb Major).</div>
+      <div class="prompt-text" id="promptUdio">A indie pop track that feels melancholic / dreamy and expansive with male vocal, piano, synth pad — reverb-heavy ambient pads using reverb tail in the style of Bon Iver and The National</div>
+    </div>
+
+    <!-- Agent JSON -->
+    <div class="prompt-card prompt-card-main prompt-panel" id="panel-agent" style="display:none">
+      <div class="prompt-card-header">
+        <span class="prompt-card-label">Structured Data for Agents</span>
+        <button class="copy-btn" onclick="copyPrompt(this)" data-target="promptAgent">Copy</button>
+      </div>
+      <div class="prompt-hint">Machine-readable format for AI agents, APIs, and programmatic music generation.</div>
+      <pre class="prompt-code" id="promptAgent">{
+  "track_reference": {
+    "title": "Turning Page",
+    "artist": "Sleeping At Last"
+  },
+  "generation_params": {
+    "bpm": 115,
+    "key": "D#/Eb Major",
+    "duration": "4:15",
+    "energy": 0.371,
+    "valence": 0.189,
+    "acousticness": 0.923,
+    "instrumentalness": 0.025
+  },
+  "style": {
+    "genres": [
+      "indie pop",
+      "dream pop",
+      "singer-songwriter",
+      "ambient pop"
+    ],
+    "mood": "melancholic / dreamy",
+    "atmosphere": "expansive",
+    "instruments": [
+      "male vocal",
+      "piano",
+      "synth pad",
+      "bass"
+    ],
+    "primary_instrument": "male vocal",
+    "vocals": "Singing"
+  },
+  "production": {
+    "style": "reverb-heavy ambient pads",
+    "effects": [
+      "reverb tail"
+    ],
+    "texture": "layered",
+    "dynamics": "static",
+    "stereo": "wide"
+  },
+  "reference_artists": [
+    "Bon Iver",
+    "The National",
+    "Coldplay"
+  ],
+  "prompt": "Create a 4:15 indie pop track at 115 BPM in D#/Eb Major. Male vocal over piano, synth pad, bass. Melancholic / dreamy and expansive. Reverb-heavy ambient pads, with reverb tail. Layered texture, static dynamics, wide stereo field. Subdued energy (37%), melancholic mood (19%). Think Bon Iver meets The National."
+}</pre>
+    </div>
+
+    <!-- Parameter cards -->
+    <div class="prompt-params">
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Tempo</div>
+        <div class="prompt-param-value">115 BPM</div>
+        <div class="prompt-param-detail">Upbeat pace. Natural rhythm for the genre.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">upbeat</span>
+          <span class="prompt-word">driving</span>
+          <span class="prompt-word">energetic</span>
+          <span class="prompt-word">lively</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Energy</div>
+        <div class="prompt-param-value">37.1%</div>
+        <div class="prompt-param-detail">Low to moderate energy level. Sets the dynamic intensity.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">subdued</span>
+          <span class="prompt-word">restrained</span>
+          <span class="prompt-word">understated</span>
+          <span class="prompt-word">soft</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Mood</div>
+        <div class="prompt-param-value">18.9% Valence</div>
+        <div class="prompt-param-detail">melancholic / dreamy mood with expansive atmosphere.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">melancholic</span>
+          <span class="prompt-word">somber</span>
+          <span class="prompt-word">introspective</span>
+          <span class="prompt-word">expansive</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Instrumentation</div>
+        <div class="prompt-param-value">4 Instruments</div>
+        <div class="prompt-param-detail">Primary: male vocal. Full arrangement with male vocal, piano, synth pad.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">male-vocal</span>
+          <span class="prompt-word">piano</span>
+          <span class="prompt-word">synth-pad</span>
+          <span class="prompt-word">bass</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Key & Tonality</div>
+        <div class="prompt-param-value">D#/Eb Major</div>
+        <div class="prompt-param-detail">Major key. Harmonic foundation with moderate progressions.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">major</span>
+          <span class="prompt-word">bright</span>
+          <span class="prompt-word">moderate-progressions</span>
+        </div>
+      </div>
+
+      <div class="prompt-param-card">
+        <div class="prompt-param-label">Production</div>
+        <div class="prompt-param-value">reverb-heavy ambient pads</div>
+        <div class="prompt-param-detail">reverb tail. layered texture, static dynamics.</div>
+        <div class="prompt-param-words">
+          <span class="prompt-word">reverb-tail</span>
+          <span class="prompt-word">layered</span>
+          <span class="prompt-word">wide-stereo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
         </div>
 
   <div class="section-label"><h2>Audio Features</h2></div>
@@ -312,100 +540,6 @@
         <div class="char-value">G major</div>
       </div>
     </div>
-  <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
-  <div class="section-label"><h2>Prompt Lab</h2></div>
-  
-  <div class="prompt-lab">
-    <div class="prompt-lab-intro">
-      <h3>🧪 Recreate This Track</h3>
-      <p>Use these prompt ingredients with Suno, Udio, MusicGen, or any AI music generation service to recreate the vibe of Turning Page by Sleeping At Last.</p>
-    </div>
-
-    <!-- Ready-to-copy prompt -->
-    <div class="prompt-card prompt-card-main">
-      <div class="prompt-card-header">
-        <span class="prompt-card-label">Ready-to-Use Prompt</span>
-        <button class="copy-btn" onclick="copyPrompt(this)" data-target="mainPrompt">Copy</button>
-      </div>
-      <div class="prompt-text" id="mainPrompt">Create a 4:15 indie pop track at 115 BPM in D#/Eb Major. Male vocal over piano, synth pad, bass. Melancholic / dreamy and expansive. Reverb-heavy ambient pads, with reverb tail. Layered texture, static dynamics, wide stereo field. Subdued energy (37%), melancholic mood (19%). Think Bon Iver meets The National.</div>
-    </div>
-
-    <!-- Parameter cards -->
-    <div class="prompt-params">
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Tempo</div>
-        <div class="prompt-param-value">115 BPM</div>
-        <div class="prompt-param-detail">Upbeat pace. Natural rhythm for the genre.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">upbeat</span>
-          <span class="prompt-word">driving</span>
-          <span class="prompt-word">energetic</span>
-          <span class="prompt-word">lively</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Energy</div>
-        <div class="prompt-param-value">37.1%</div>
-        <div class="prompt-param-detail">Low to moderate energy level. Sets the dynamic intensity.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">subdued</span>
-          <span class="prompt-word">restrained</span>
-          <span class="prompt-word">understated</span>
-          <span class="prompt-word">soft</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Mood</div>
-        <div class="prompt-param-value">18.9% Valence</div>
-        <div class="prompt-param-detail">melancholic / dreamy mood with expansive atmosphere.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">melancholic</span>
-          <span class="prompt-word">somber</span>
-          <span class="prompt-word">introspective</span>
-          <span class="prompt-word">expansive</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Instrumentation</div>
-        <div class="prompt-param-value">4 Instruments</div>
-        <div class="prompt-param-detail">Primary: male vocal. Full arrangement with male vocal, piano, synth pad.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">male-vocal</span>
-          <span class="prompt-word">piano</span>
-          <span class="prompt-word">synth-pad</span>
-          <span class="prompt-word">bass</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Key & Tonality</div>
-        <div class="prompt-param-value">D#/Eb Major</div>
-        <div class="prompt-param-detail">Major key. Harmonic foundation with moderate progressions.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">major</span>
-          <span class="prompt-word">bright</span>
-          <span class="prompt-word">moderate-progressions</span>
-        </div>
-      </div>
-
-      <div class="prompt-param-card">
-        <div class="prompt-param-label">Production</div>
-        <div class="prompt-param-value">reverb-heavy ambient pads</div>
-        <div class="prompt-param-detail">reverb tail. layered texture, static dynamics.</div>
-        <div class="prompt-param-words">
-          <span class="prompt-word">reverb-tail</span>
-          <span class="prompt-word">layered</span>
-          <span class="prompt-word">wide-stereo</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
 </div>
 
 <footer>
@@ -460,6 +594,13 @@ function copyPrompt(btn) {
       btn.style.background = '';
     }, 2000);
   });
+}
+function switchTab(btn, panel) {
+  document.querySelectorAll('.prompt-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.prompt-panel').forEach(p => p.style.display = 'none');
+  btn.classList.add('active');
+  const el = document.getElementById('panel-' + panel);
+  if (el) el.style.display = '';
 }
 </script>
 </body>
