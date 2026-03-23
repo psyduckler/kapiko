@@ -45,7 +45,6 @@
       border-bottom: 1px solid var(--border);
       position: relative;
       overflow: hidden;
-      padding-top: 56px;
     }
 
     header::before {
@@ -297,202 +296,6 @@
       transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
-    /* ── Tracks Table ── */
-    .tracks-container {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      overflow: hidden;
-    }
-
-    .tracks-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .tracks-table thead {
-      position: sticky;
-      top: 0;
-      z-index: 2;
-    }
-
-    .tracks-table th {
-      font-size: 9.5px;
-      font-weight: 600;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--text-dim);
-      text-align: left;
-      padding: 16px 14px 12px;
-      border-bottom: 1px solid var(--border);
-      background: var(--bg-card);
-    }
-
-    .tracks-table th.th-num,
-    .tracks-table td.td-num {
-      text-align: right;
-      min-width: 56px;
-    }
-
-    .tracks-table th.th-rank,
-    .tracks-table td.td-rank {
-      width: 42px;
-      text-align: center;
-    }
-
-    .tracks-table th.th-key,
-    .tracks-table td.td-key {
-      text-align: center;
-      min-width: 60px;
-    }
-
-    .tracks-table tbody tr {
-      border-bottom: 1px solid rgba(255,255,255,0.03);
-      transition: background 0.2s;
-      cursor: pointer;
-    }
-
-    .tracks-table tbody tr:hover {
-      background: rgba(78, 205, 196, 0.04);
-    }
-
-    .tracks-table tbody tr:last-child {
-      border-bottom: none;
-    }
-
-    .tracks-table td {
-      padding: 12px 14px;
-      font-size: 13.5px;
-      color: var(--text);
-      vertical-align: middle;
-    }
-
-    .td-rank {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--text-dim);
-      text-align: center;
-    }
-
-    .td-track {
-      font-weight: 500;
-      max-width: 260px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .td-track a {
-      color: var(--text);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
-    .td-track a:hover {
-      color: var(--teal);
-    }
-
-    .td-artist {
-      color: var(--text-muted);
-      font-size: 12.5px;
-      max-width: 200px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .td-artist a {
-      color: var(--text-muted);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
-    .td-artist a:hover {
-      color: var(--purple);
-    }
-
-    .td-num {
-      font-size: 12.5px;
-      font-weight: 500;
-      color: var(--text-muted);
-      text-align: right;
-      font-variant-numeric: tabular-nums;
-    }
-
-    .td-key {
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--text-muted);
-      text-align: center;
-    }
-
-    .pop-bar {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .pop-bar-track {
-      width: 40px;
-      height: 4px;
-      background: rgba(255,255,255,0.06);
-      border-radius: 2px;
-      overflow: hidden;
-    }
-
-    .pop-bar-fill {
-      height: 100%;
-      border-radius: 2px;
-      background: var(--teal);
-      transition: width 0.5s ease;
-    }
-
-    .show-more-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      width: 100%;
-      padding: 16px;
-      background: transparent;
-      border: none;
-      border-top: 1px solid var(--border);
-      color: var(--teal);
-      font-family: var(--font-body);
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      cursor: pointer;
-      transition: background 0.2s, color 0.2s;
-    }
-
-    .show-more-btn:hover {
-      background: rgba(78, 205, 196, 0.05);
-    }
-
-    .show-more-btn.hidden {
-      display: none;
-    }
-
-    .show-more-count {
-      font-size: 11px;
-      font-weight: 500;
-      color: var(--text-dim);
-    }
-
-    @media (max-width: 760px) {
-      .tracks-table th.th-num:nth-child(n+6),
-      .tracks-table td.td-num:nth-child(n+6),
-      .tracks-table th.th-key,
-      .tracks-table td.td-key {
-        display: none;
-      }
-
-      .td-track, .td-artist {
-        max-width: 140px;
-      }
-    }
-
     /* ── Footer ── */
     footer {
       border-top: 1px solid var(--border);
@@ -540,17 +343,6 @@
   </style>
 </head>
 <body>
-
-<!-- ═══════════════════════════════════════════════════════════════════ Nav -->
-<nav style="position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(11,12,26,0.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,0.07);">
-  <div style="max-width:1200px;margin:0 auto;padding:0 28px;height:56px;display:flex;align-items:center;justify-content:space-between;">
-    <a href="/" style="font-family:'Pacifico',cursive;font-size:1.4rem;color:#E8967A;letter-spacing:0.02em;text-decoration:none;">kapiko</a>
-    <ul style="display:flex;gap:28px;list-style:none;">
-      <li><a href="/" style="font-size:13px;font-weight:500;color:#6b7099;letter-spacing:0.03em;text-decoration:none;">home</a></li>
-      <li><a href="/data/" style="font-size:13px;font-weight:500;color:#4ecdc4;letter-spacing:0.03em;text-decoration:none;">data</a></li>
-    </ul>
-  </div>
-</nav>
 
 <!-- ═══════════════════════════════════════════════════════════════════ Header -->
 <header>
@@ -730,29 +522,99 @@
 
   </div>
 
-  <!-- Section: Top Tracks -->
-  <div class="section-label"><h2>Top Tracks</h2></div>
+  <!-- Section: AI Audio Analysis (Gemini) -->
+  <div class="section-label"><h2>AI Audio Analysis</h2></div>
+  <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1.5rem;">We used Gemini AI to listen to 30-second clips of 95 tracks, identifying instrumentation, mood, texture, and production characteristics that metadata alone can't capture.</p>
 
-  <div class="tracks-container">
-    <table class="tracks-table" id="tracksTable">
-      <thead>
-        <tr>
-          <th class="th-rank">#</th>
-          <th class="th-track">Track</th>
-          <th class="th-artist">Artist</th>
-          <th class="th-num">Pop</th>
-          <th class="th-num">BPM</th>
-          <th class="th-num">Energy</th>
-          <th class="th-num">Valence</th>
-          <th class="th-key">Key</th>
-        </tr>
-      </thead>
-      <tbody id="tracksBody"></tbody>
-    </table>
-    <button class="show-more-btn" id="showMoreBtn" onclick="showMoreTracks()">
-      Show More Tracks
-      <span class="show-more-count" id="showMoreCount"></span>
-    </button>
+  <div class="charts-grid">
+
+    <!-- Mood Distribution -->
+    <div class="chart-card">
+      <div class="chart-title">Mood Distribution</div>
+      <div class="chart-analysis">Ambient is overwhelmingly melancholic (63%), with peaceful (14%) and meditative (6%) trailing far behind. Nobody's making "happy ambient" — the genre is defined by introspective sadness.</div>
+      <div class="chart-wrap" style="height:280px">
+        <canvas id="chartMood"></canvas>
+      </div>
+    </div>
+
+    <!-- Instrumentation -->
+    <div class="chart-card">
+      <div class="chart-title">Instruments Detected</div>
+      <div class="chart-analysis">Synth pads appear in 57% of tracks but are rarely the lead. Piano (27%) and acoustic guitar (22%) are the dominant primary instruments — ambient favors organic over electronic as the focal point.</div>
+      <div class="chart-wrap" style="height:320px">
+        <canvas id="chartInstruments"></canvas>
+      </div>
+    </div>
+
+    <!-- Vocal Presence -->
+    <div class="chart-card">
+      <div class="chart-title">Vocal Presence</div>
+      <div class="chart-analysis">Almost a perfect 50/50 split: 48% of ambient tracks are purely instrumental, 47% feature singing. Processed vocals and spoken word are rare outliers.</div>
+      <div class="chart-wrap" style="height:250px">
+        <canvas id="chartVocals"></canvas>
+      </div>
+    </div>
+
+    <!-- Sound Design Elements -->
+    <div class="chart-card">
+      <div class="chart-title">Sound Design Elements</div>
+      <div class="chart-analysis">Reverb tail is virtually universal at 96% — it's not an effect choice, it's a genre requirement. Drones (28%) and delay (17%) round out the ambient producer's essential toolkit.</div>
+      <div class="chart-wrap" style="height:280px">
+        <canvas id="chartSoundDesign"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Texture / Atmosphere / Dynamics row -->
+  <div class="charts-grid" style="grid-template-columns: repeat(3, 1fr); margin-top:1.5rem;">
+
+    <div class="chart-card">
+      <div class="chart-title">Texture</div>
+      <div class="chart-analysis">79% layered — ambient builds depth through stacking, not complexity.</div>
+      <div class="chart-wrap" style="height:200px">
+        <canvas id="chartTexture"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Atmosphere</div>
+      <div class="chart-analysis">Split between expansive (54%) and intimate (44%) — two schools of ambient.</div>
+      <div class="chart-wrap" style="height:200px">
+        <canvas id="chartAtmosphere"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Dynamics</div>
+      <div class="chart-analysis">49% static, 36% slowly building — ambient moves glacially or not at all.</div>
+      <div class="chart-wrap" style="height:200px">
+        <canvas id="chartDynamics"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Genre Crossover -->
+  <div class="charts-grid" style="margin-top:1.5rem;">
+    <div class="chart-card full">
+      <div class="chart-title">Genre Crossover Tags</div>
+      <div class="chart-analysis">Gemini tagged each track with 2-4 subgenre labels. "Ambient" itself only appears on 21% of tracks — most ambient is first classified as neo-classical (39%), singer-songwriter (34%), or indie folk (33%). The genre lives at the intersection of other styles.</div>
+      <div class="chart-wrap" style="height:280px">
+        <canvas id="chartGenreTags"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Similar Artists -->
+  <div class="charts-grid" style="margin-top:1.5rem;">
+    <div class="chart-card full">
+      <div class="chart-title">Most Referenced Similar Artists</div>
+      <div class="chart-analysis">When Gemini compared each track to known artists, Bon Iver (40%), Ludovico Einaudi (32%), and Iron & Wine (31%) emerged as the genre's gravitational centers. Nils Frahm and Ólafur Arnalds anchor the electronic-classical wing.</div>
+      <div class="chart-wrap" style="height:280px">
+        <canvas id="chartSimilarArtists"></canvas>
+      </div>
+    </div>
   </div>
 
 </main>
@@ -760,7 +622,7 @@
 <!-- ══════════════════════════════════════════════════════════════════ Footer -->
 <footer>
   <div class="footer-inner">
-    <p class="footer-text">Data sourced from Spotify audio features analysis of top 100 ambient tracks.</p>
+    <p class="footer-text">Data sourced from Spotify audio features + Gemini AI audio analysis of top 100 ambient tracks.</p>
     <span class="footer-brand">kapiko.ai</span>
   </div>
 </footer>
@@ -1411,61 +1273,226 @@ new Chart(document.getElementById('chartRadar'), {
   }
 });
 
+// ─── AI Audio Analysis Charts (Gemini) ──────────────────────────────────────
 
-// ─── 9. Top Tracks Table ────────────────────────────────────────────────────
-
-const TRACKS = [{"name":"Apocalypse","artists":"Cigarettes After Sex","popularity":84,"tempo":94,"key":"F","mode":"Major","energy":47,"valence":18},{"name":"Experience","artists":"Ludovico Einaudi","popularity":79,"tempo":92,"key":"D","mode":"Major","energy":45,"valence":4},{"name":"K.","artists":"Cigarettes After Sex","popularity":78,"tempo":94,"key":"D#/Eb","mode":"Major","energy":40,"valence":33},{"name":"Sunsetz","artists":"Cigarettes After Sex","popularity":78,"tempo":75,"key":"F","mode":"Major","energy":48,"valence":13},{"name":"Cry","artists":"Cigarettes After Sex","popularity":76,"tempo":143,"key":"G","mode":"Major","energy":40,"valence":16},{"name":"Sweet","artists":"Cigarettes After Sex","popularity":75,"tempo":97,"key":"F#/Gb","mode":"Major","energy":51,"valence":12},{"name":"Anchor","artists":"Novo Amor","popularity":75,"tempo":117,"key":"A","mode":"Major","energy":41,"valence":13},{"name":"Glue","artists":"Bicep","popularity":74,"tempo":130,"key":"E","mode":"Minor","energy":80,"valence":42},{"name":"State Lines","artists":"Novo Amor","popularity":73,"tempo":137,"key":"A","mode":"Major","energy":31,"valence":15},{"name":"You Are Enough","artists":"Sleeping At Last","popularity":73,"tempo":118,"key":"C#/Db","mode":"Major","energy":50,"valence":46},{"name":"Nuvole Bianche","artists":"Ludovico Einaudi","popularity":73,"tempo":133,"key":"G#/Ab","mode":"Major","energy":6,"valence":5},{"name":"Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi","artists":"Yann Tiersen","popularity":73,"tempo":101,"key":"E","mode":"Minor","energy":19,"valence":5},{"name":"Turning Page","artists":"Sleeping At Last","popularity":72,"tempo":115,"key":"D#/Eb","mode":"Major","energy":37,"valence":19},{"name":"Nothing's Gonna Hurt You Baby","artists":"Cigarettes After Sex","popularity":72,"tempo":97,"key":"E","mode":"Major","energy":33,"valence":10},{"name":"Heavenly","artists":"Cigarettes After Sex","popularity":71,"tempo":105,"key":"G#/Ab","mode":"Major","energy":44,"valence":13},{"name":"Touch","artists":"Sleeping At Last","popularity":71,"tempo":82,"key":"C","mode":"Major","energy":10,"valence":18},{"name":"Test & Recognise - Flume Re-work","artists":"Seekae","popularity":70,"tempo":110,"key":"G#/Ab","mode":"Major","energy":58,"valence":29},{"name":"Una Mattina","artists":"Ludovico Einaudi","popularity":70,"tempo":131,"key":"D","mode":"Major","energy":3,"valence":7},{"name":"Ontario","artists":"Novo Amor","popularity":69,"tempo":90,"key":"A#/Bb","mode":"Major","energy":22,"valence":17},{"name":"Repeat Until Death","artists":"Novo Amor","popularity":69,"tempo":144,"key":"C#/Db","mode":"Major","energy":15,"valence":9},{"name":"Keep Me","artists":"Novo Amor","popularity":69,"tempo":105,"key":"C#/Db","mode":"Major","energy":13,"valence":7},{"name":"Already Gone","artists":"Sleeping At Last","popularity":69,"tempo":131,"key":"D#/Eb","mode":"Major","energy":25,"valence":30},{"name":"Poison Tree","artists":"Grouper","popularity":69,"tempo":111,"key":"B","mode":"Major","energy":14,"valence":21},{"name":"Fracture","artists":"Stephan Moccio","popularity":69,"tempo":85,"key":"D","mode":"Major","energy":2,"valence":13},{"name":"Falling In Love","artists":"Cigarettes After Sex","popularity":68,"tempo":141,"key":"G","mode":"Major","energy":27,"valence":37},{"name":"You're All I Want","artists":"Cigarettes After Sex","popularity":68,"tempo":182,"key":"F","mode":"Major","energy":47,"valence":28},{"name":"Carry You","artists":"Novo Amor","popularity":68,"tempo":93,"key":"G","mode":"Major","energy":40,"valence":4},{"name":"Weightless","artists":"Marconi Union","popularity":68,"tempo":71,"key":"D","mode":"Minor","energy":22,"valence":8},{"name":"Saturn","artists":"Sleeping At Last","popularity":68,"tempo":73,"key":"D#/Eb","mode":"Major","energy":24,"valence":5},{"name":"Affection","artists":"Cigarettes After Sex","popularity":67,"tempo":90,"key":"G","mode":"Major","energy":42,"valence":25},{"name":"Haven (from Life Is Strange)","artists":"Novo Amor","popularity":67,"tempo":111,"key":"E","mode":"Major","energy":26,"valence":22},{"name":"Weightless Part 1","artists":"Marconi Union","popularity":67,"tempo":80,"key":"D","mode":"Minor","energy":21,"valence":8},{"name":"Goodness of God - Live","artists":"Bethel Music","popularity":66,"tempo":126,"key":"G#/Ab","mode":"Major","energy":67,"valence":40},{"name":"Euphor","artists":"Novo Amor","popularity":66,"tempo":115,"key":"A#/Bb","mode":"Minor","energy":28,"valence":9},{"name":"Water","artists":"Bicep","popularity":66,"tempo":130,"key":"E","mode":"Minor","energy":82,"valence":36},{"name":"Crush","artists":"Cigarettes After Sex","popularity":65,"tempo":98,"key":"F","mode":"Major","energy":50,"valence":28},{"name":"Touch","artists":"Cigarettes After Sex","popularity":65,"tempo":96,"key":"F#/Gb","mode":"Major","energy":50,"valence":37},{"name":"Keep on Loving You","artists":"Cigarettes After Sex","popularity":65,"tempo":73,"key":"D","mode":"Minor","energy":36,"valence":12},{"name":"Each Time You Fall in Love","artists":"Cigarettes After Sex","popularity":65,"tempo":76,"key":"A#/Bb","mode":"Major","energy":53,"valence":28},{"name":"John Wayne","artists":"Cigarettes After Sex","popularity":65,"tempo":124,"key":"D#/Eb","mode":"Major","energy":46,"valence":17},{"name":"On the Nature of Daylight","artists":"Max Richter","popularity":65,"tempo":65,"key":"A#/Bb","mode":"Minor","energy":34,"valence":3},{"name":"Hearing","artists":"Sleeping At Last","popularity":65,"tempo":142,"key":"G","mode":"Major","energy":29,"valence":11},{"name":"Spring 1 - 2012","artists":"Max Richter","popularity":65,"tempo":106,"key":"C#/Db","mode":"Minor","energy":34,"valence":16},{"name":"Wind Song","artists":"Ludovico Einaudi","popularity":65,"tempo":73,"key":"B","mode":"Minor","energy":1,"valence":6},{"name":"Rue des trois fr\u00e8res","artists":"Fabrizio Paterlini","popularity":65,"tempo":139,"key":"C#/Db","mode":"Major","energy":17,"valence":11},{"name":"Temple White","artists":"Ludovico Einaudi","popularity":65,"tempo":72,"key":"G#/Ab","mode":"Major","energy":1,"valence":21},{"name":"saman","artists":"\u00d3lafur Arnalds","popularity":65,"tempo":109,"key":"C","mode":"Minor","energy":2,"valence":43},{"name":"Don't Let Me Go","artists":"Cigarettes After Sex","popularity":64,"tempo":97,"key":"F#/Gb","mode":"Major","energy":37,"valence":17},{"name":"Where Is My Mind","artists":"Maxence Cyrin","popularity":64,"tempo":142,"key":"A","mode":"Major","energy":11,"valence":6},{"name":"The Theory of Everything","artists":"J\u00f3hann J\u00f3hannsson","popularity":64,"tempo":104,"key":"D","mode":"Major","energy":12,"valence":18},{"name":"The Departure","artists":"Max Richter","popularity":64,"tempo":0,"key":"C","mode":"Minor","energy":4,"valence":0},{"name":"#3","artists":"Aphex Twin","popularity":64,"tempo":143,"key":"F#/Gb","mode":"Minor","energy":7,"valence":6},{"name":"Ala","artists":"Joep Beving","popularity":64,"tempo":79,"key":"G","mode":"Minor","energy":12,"valence":30},{"name":"La Valse d'Am\u00e9lie - Version piano","artists":"Yann Tiersen","popularity":64,"tempo":178,"key":"A","mode":"Minor","energy":18,"valence":18},{"name":"A Bad Dream That Will Pass Away","artists":"Luke Howard","popularity":64,"tempo":112,"key":"A#/Bb","mode":"Major","energy":6,"valence":25},{"name":"Avril 14th","artists":"Aphex Twin","popularity":64,"tempo":158,"key":"G#/Ab","mode":"Major","energy":3,"valence":37},{"name":"Kiss It Off Me","artists":"Cigarettes After Sex","popularity":63,"tempo":80,"key":"E","mode":"Major","energy":30,"valence":23},{"name":"Dreaming of You","artists":"Cigarettes After Sex","popularity":63,"tempo":64,"key":"G","mode":"Major","energy":40,"valence":17},{"name":"Neon Moon","artists":"Cigarettes After Sex","popularity":63,"tempo":180,"key":"E","mode":"Major","energy":49,"valence":28},{"name":"King of My Heart - Live","artists":"Bethel Music","popularity":63,"tempo":136,"key":"A","mode":"Major","energy":53,"valence":40},{"name":"Raise a Hallelujah - Live","artists":"Bethel Music","popularity":63,"tempo":82,"key":"C#/Db","mode":"Major","energy":87,"valence":29},{"name":"Halloween","artists":"Novo Amor","popularity":63,"tempo":107,"key":"F","mode":"Major","energy":47,"valence":35},{"name":"Apricots","artists":"Bicep","popularity":63,"tempo":128,"key":"B","mode":"Major","energy":60,"valence":49},{"name":"Playground Love","artists":"Air","popularity":63,"tempo":143,"key":"G","mode":"Minor","energy":42,"valence":12},{"name":"All I Need (feat. Beth Hirsch)","artists":"Air","popularity":63,"tempo":94,"key":"G","mode":"Minor","energy":42,"valence":16},{"name":"Starry Eyes","artists":"Cigarettes After Sex","popularity":62,"tempo":100,"key":"D","mode":"Major","energy":36,"valence":11},{"name":"Sesame Syrup","artists":"Cigarettes After Sex","popularity":62,"tempo":94,"key":"E","mode":"Major","energy":41,"valence":35},{"name":"Weather","artists":"Novo Amor","popularity":62,"tempo":144,"key":"F#/Gb","mode":"Major","energy":24,"valence":11},{"name":"From Gold","artists":"Novo Amor","popularity":62,"tempo":100,"key":"F","mode":"Major","energy":43,"valence":4},{"name":"Chalkboard","artists":"J\u00f3hann J\u00f3hannsson","popularity":62,"tempo":93,"key":"A","mode":"Minor","energy":11,"valence":8},{"name":"Chasing Cars","artists":"Sleeping At Last","popularity":62,"tempo":108,"key":"B","mode":"Major","energy":16,"valence":28},{"name":"It Is Well - Live","artists":"Bethel Music","popularity":62,"tempo":130,"key":"E","mode":"Minor","energy":25,"valence":11},{"name":"Primavera","artists":"Ludovico Einaudi","popularity":62,"tempo":142,"key":"C","mode":"Minor","energy":21,"valence":14},{"name":"No Longer Slaves (Spontaneous) - Live","artists":"Bethel Music","popularity":62,"tempo":148,"key":"A#/Bb","mode":"Major","energy":61,"valence":24},{"name":"Luminous","artists":"Ludovico Einaudi","popularity":62,"tempo":68,"key":"C#/Db","mode":"Major","energy":0,"valence":28},{"name":"A Game of Croquet","artists":"J\u00f3hann J\u00f3hannsson","popularity":62,"tempo":118,"key":"E","mode":"Minor","energy":4,"valence":11},{"name":"A Model of the Universe","artists":"J\u00f3hann J\u00f3hannsson","popularity":62,"tempo":90,"key":"G","mode":"Minor","energy":4,"valence":7},{"name":"Dawn - From \"Pride & Prejudice\" Soundtrack","artists":"Dario Marianelli","popularity":62,"tempo":79,"key":"C","mode":"Major","energy":5,"valence":10},{"name":"Dream 1 (before the wind blows it all away) - Pt. 8","artists":"Max Richter","popularity":62,"tempo":69,"key":"F#/Gb","mode":"Major","energy":0,"valence":5},{"name":"Natural Light","artists":"Ludovico Einaudi","popularity":62,"tempo":69,"key":"C#/Db","mode":"Major","energy":0,"valence":19},{"name":"QKThr","artists":"Aphex Twin","popularity":62,"tempo":79,"key":"C#/Db","mode":"Major","energy":2,"valence":6},{"name":"I'm a Firefighter","artists":"Cigarettes After Sex","popularity":61,"tempo":115,"key":"G","mode":"Major","energy":30,"valence":12},{"name":"Goodness of God","artists":"Bethel Music","popularity":61,"tempo":110,"key":"F#/Gb","mode":"Major","energy":12,"valence":18},{"name":"Alps","artists":"Novo Amor","popularity":61,"tempo":147,"key":"D#/Eb","mode":"Major","energy":31,"valence":14},{"name":"Embody Me","artists":"Novo Amor","popularity":61,"tempo":121,"key":"C","mode":"Major","energy":26,"valence":15},{"name":"The Last of Us","artists":"Gustavo Santaolalla","popularity":61,"tempo":155,"key":"E","mode":"Minor","energy":47,"valence":35},{"name":"Decimal","artists":"Novo Amor","popularity":61,"tempo":79,"key":"G","mode":"Major","energy":43,"valence":32},{"name":"Indian Yellow","artists":"Ludovico Einaudi","popularity":61,"tempo":68,"key":"D","mode":"Major","energy":1,"valence":16},{"name":"Dismantle","artists":"Peter Sandberg","popularity":61,"tempo":100,"key":"D#/Eb","mode":"Major","energy":14,"valence":40},{"name":"The Departure","artists":"Max Richter","popularity":61,"tempo":117,"key":"C","mode":"Minor","energy":0,"valence":12},{"name":"Remembrance","artists":"Balmorhea","popularity":61,"tempo":121,"key":"F#/Gb","mode":"Minor","energy":13,"valence":14},{"name":"Raise a Hallelujah (Studio Version)","artists":"Bethel Music","popularity":61,"tempo":164,"key":"C#/Db","mode":"Major","energy":82,"valence":52},{"name":"Faithful","artists":"Erik Nieder","popularity":61,"tempo":140,"key":"B","mode":"Major","energy":72,"valence":28},{"name":"Pr\u00e9lude","artists":"Olivia Belli","popularity":61,"tempo":152,"key":"C","mode":"Minor","energy":2,"valence":6},{"name":"Rolling Like A Ball","artists":"Ludovico Einaudi","popularity":61,"tempo":175,"key":"G#/Ab","mode":"Major","energy":1,"valence":4},{"name":"Mid Air","artists":"GÅEL","popularity":61,"tempo":112,"key":"C","mode":"Major","energy":3,"valence":25},{"name":"Wu Wei","artists":"De Moi","popularity":61,"tempo":69,"key":"C","mode":"Major","energy":3,"valence":4},{"name":"pt. 1 Owl Light","artists":"Stephan Moccio","popularity":61,"tempo":114,"key":"C","mode":"Major","energy":10,"valence":21}];
-
-let tracksShown = 10;
-const TRACKS_STEP = 15;
-
-function spotifySearchUrl(track, artist) {
-  const q = encodeURIComponent(`${track} ${artist}`);
-  return `https://open.spotify.com/search/${q}`;
-}
-
-function renderTracks() {
-  const tbody = document.getElementById('tracksBody');
-  const btn = document.getElementById('showMoreBtn');
-  const count = document.getElementById('showMoreCount');
-  const visible = TRACKS.slice(0, tracksShown);
-
-  tbody.innerHTML = visible.map((t, i) => {
-    const spotifyUrl = spotifySearchUrl(t.name, t.artists);
-    const popWidth = Math.round(t.popularity);
-    return `<tr onclick="window.open('${spotifyUrl}','_blank')">
-      <td class="td-rank">${i + 1}</td>
-      <td class="td-track"><a href="${spotifyUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escHtml(t.name)}</a></td>
-      <td class="td-artist"><a href="https://open.spotify.com/search/${encodeURIComponent(t.artists)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escHtml(t.artists)}</a></td>
-      <td class="td-num"><span class="pop-bar"><span>${t.popularity}</span><span class="pop-bar-track"><span class="pop-bar-fill" style="width:${popWidth}%"></span></span></span></td>
-      <td class="td-num">${t.tempo || '—'}</td>
-      <td class="td-num">${t.energy}%</td>
-      <td class="td-num">${t.valence}%</td>
-      <td class="td-key">${t.key} ${t.mode === 'Minor' ? 'm' : ''}</td>
-    </tr>`;
-  }).join('');
-
-  const remaining = TRACKS.length - tracksShown;
-  if (remaining <= 0) {
-    btn.classList.add('hidden');
-  } else {
-    btn.classList.remove('hidden');
-    count.textContent = `(${remaining} more)`;
+// Mood Distribution (horizontal bar)
+new Chart(document.getElementById('chartMood'), {
+  type: 'bar',
+  data: {
+    labels: ['Melancholic', 'Peaceful', 'Meditative', 'Hopeful', 'Ethereal', 'Energetic', 'Dreamy', 'Inspiring'],
+    datasets: [{
+      data: [60, 13, 6, 5, 4, 2, 2, 1],
+      backgroundColor: [
+        'rgba(155,127,212,0.7)', 'rgba(78,205,196,0.7)', 'rgba(91,155,213,0.7)',
+        'rgba(255,200,87,0.7)', 'rgba(170,130,255,0.7)', 'rgba(255,130,130,0.7)',
+        'rgba(130,180,255,0.7)', 'rgba(180,230,150,0.7)'
+      ],
+      borderColor: [
+        '#9b7fd4', '#4ecdc4', '#5b9bd5', '#ffc857', '#aa82ff', '#ff8282', '#82b4ff', '#b4e696'
+      ],
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 12 } } }
+    }
   }
-}
+});
 
-function showMoreTracks() {
-  tracksShown = Math.min(tracksShown + TRACKS_STEP, TRACKS.length);
-  renderTracks();
-}
+// Instruments (horizontal bar - top 12)
+new Chart(document.getElementById('chartInstruments'), {
+  type: 'bar',
+  data: {
+    labels: ['Synth Pad', 'Male Vocals', 'Acoustic Guitar', 'Piano', 'Bass Guitar', 'Strings', 'Drums', 'Drum Kit', 'Bell Tones', 'Electric Guitar', 'Female Vocals', 'Synth Bells'],
+    datasets: [{
+      data: [54, 34, 33, 31, 16, 12, 7, 4, 4, 4, 3, 3],
+      backgroundColor: Array(12).fill(0).map((_, i) => {
+        const t = i / 11;
+        return `rgba(${Math.round(78+77*t)},${Math.round(205-75*t)},${Math.round(196+16*t)},0.65)`;
+      }),
+      borderColor: Array(12).fill(0).map((_, i) => {
+        const t = i / 11;
+        return `rgb(${Math.round(78+77*t)},${Math.round(205-75*t)},${Math.round(196+16*t)})`;
+      }),
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK, title: { display: true, text: 'Tracks featuring this instrument', color: '#6b7099', font: { size: 11 } } },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 11 } } }
+    }
+  }
+});
 
-function escHtml(s) {
-  const d = document.createElement('div');
-  d.textContent = s;
-  return d.innerHTML;
-}
+// Vocal Presence (donut)
+new Chart(document.getElementById('chartVocals'), {
+  type: 'doughnut',
+  data: {
+    labels: ['No Vocals', 'Singing', 'Processed Vocals', 'Spoken Word', 'Choir'],
+    datasets: [{
+      data: [46, 45, 2, 1, 1],
+      backgroundColor: ['rgba(78,205,196,0.7)', 'rgba(155,127,212,0.7)', 'rgba(91,155,213,0.7)', 'rgba(255,200,87,0.7)', 'rgba(180,130,255,0.7)'],
+      borderColor: '#111222',
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'right', labels: { color: '#8890b8', font: { size: 12 }, padding: 12 } },
+      tooltip: TIP,
+    }
+  }
+});
 
-renderTracks();
+// Sound Design Elements (horizontal bar)
+new Chart(document.getElementById('chartSoundDesign'), {
+  type: 'bar',
+  data: {
+    labels: ['Reverb Tail', 'Drone', 'Delay', 'Bell Tones', 'Subtle Delay', 'Reverb', 'Synth Pad', 'Sustain'],
+    datasets: [{
+      data: [91, 27, 16, 15, 6, 4, 4, 2],
+      backgroundColor: Array(8).fill(0).map((_, i) => {
+        const t = i / 7;
+        return `rgba(${Math.round(91+64*t)},${Math.round(155-28*t)},${Math.round(213-1*t)},0.65)`;
+      }),
+      borderColor: Array(8).fill(0).map((_, i) => {
+        const t = i / 7;
+        return `rgb(${Math.round(91+64*t)},${Math.round(155-28*t)},${Math.round(213-1*t)})`;
+      }),
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 11 } } }
+    }
+  }
+});
+
+// Texture (donut)
+new Chart(document.getElementById('chartTexture'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Layered', 'Sparse', 'Evolving'],
+    datasets: [{
+      data: [75, 15, 5],
+      backgroundColor: ['rgba(78,205,196,0.7)', 'rgba(155,127,212,0.7)', 'rgba(91,155,213,0.7)'],
+      borderColor: '#111222', borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom', labels: { color: '#8890b8', font: { size: 11 }, padding: 8 } }, tooltip: TIP }
+  }
+});
+
+// Atmosphere (donut)
+new Chart(document.getElementById('chartAtmosphere'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Expansive', 'Intimate', 'Celestial'],
+    datasets: [{
+      data: [51, 42, 2],
+      backgroundColor: ['rgba(91,155,213,0.7)', 'rgba(155,127,212,0.7)', 'rgba(170,130,255,0.7)'],
+      borderColor: '#111222', borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom', labels: { color: '#8890b8', font: { size: 11 }, padding: 8 } }, tooltip: TIP }
+  }
+});
+
+// Dynamics (donut)
+new Chart(document.getElementById('chartDynamics'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Static', 'Slowly Building', 'Undulating'],
+    datasets: [{
+      data: [47, 34, 14],
+      backgroundColor: ['rgba(78,205,196,0.7)', 'rgba(155,127,212,0.7)', 'rgba(91,155,213,0.7)'],
+      borderColor: '#111222', borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom', labels: { color: '#8890b8', font: { size: 11 }, padding: 8 } }, tooltip: TIP }
+  }
+});
+
+// Genre Crossover Tags (bar)
+new Chart(document.getElementById('chartGenreTags'), {
+  type: 'bar',
+  data: {
+    labels: ['Neo-Classical', 'Singer-Songwriter', 'Indie Folk', 'Ambient', 'Ambient Folk', 'Dream Pop', 'Modern Classical', 'Ambient Piano'],
+    datasets: [{
+      data: [37, 32, 31, 20, 20, 16, 14, 9],
+      backgroundColor: Array(8).fill(0).map((_, i) => {
+        const t = i / 7;
+        return `rgba(${Math.round(78+77*t)},${Math.round(205-75*t)},${Math.round(196+16*t)},0.65)`;
+      }),
+      borderColor: Array(8).fill(0).map((_, i) => {
+        const t = i / 7;
+        return `rgb(${Math.round(78+77*t)},${Math.round(205-75*t)},${Math.round(196+16*t)})`;
+      }),
+      borderWidth: 1, borderRadius: 4,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 11 }, maxRotation: 45, minRotation: 25 } },
+      y: { grid: GRID, ticks: TICK, title: { display: true, text: 'Tracks tagged', color: '#6b7099', font: { size: 11 } } }
+    }
+  }
+});
+
+// Similar Artists (horizontal bar)
+new Chart(document.getElementById('chartSimilarArtists'), {
+  type: 'bar',
+  data: {
+    labels: ['Bon Iver', 'Ludovico Einaudi', 'Iron & Wine', 'Nils Frahm', 'Ólafur Arnalds', 'Max Richter', 'Fleet Foxes', 'Sigur Rós'],
+    datasets: [{
+      data: [38, 30, 29, 24, 28, 16, 10, 5],
+      backgroundColor: Array(8).fill(0).map((_, i) => {
+        const t = i / 7;
+        return `rgba(${Math.round(155-77*t)},${Math.round(127+78*t)},${Math.round(212-16*t)},0.65)`;
+      }),
+      borderColor: Array(8).fill(0).map((_, i) => {
+        const t = i / 7;
+        return `rgb(${Math.round(155-77*t)},${Math.round(127+78*t)},${Math.round(212-16*t)})`;
+      }),
+      borderWidth: 1, borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false }, tooltip: TIP },
+    scales: {
+      x: { grid: GRID, ticks: TICK, title: { display: true, text: 'Times referenced', color: '#6b7099', font: { size: 11 } } },
+      y: { grid: { display: false }, ticks: { color: '#8890b8', font: { size: 12 } } }
+    }
+  }
+});
 
 </script>
 </body>
