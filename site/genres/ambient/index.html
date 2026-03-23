@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -296,6 +297,43 @@
       transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
+    /* ── Tracks Table ── */
+    .tracks-container { background: var(--bg-card); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; }
+    .tracks-table { width: 100%; border-collapse: collapse; }
+    .tracks-table thead { position: sticky; top: 0; z-index: 2; }
+    .tracks-table th { font-size: 9.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-dim); text-align: left; padding: 16px 14px 12px; border-bottom: 1px solid var(--border); background: var(--bg-card); }
+    .tracks-table th.th-num, .tracks-table td.td-num { text-align: right; min-width: 56px; }
+    .tracks-table th.th-rank, .tracks-table td.td-rank { width: 42px; text-align: center; }
+    .tracks-table th.th-key, .tracks-table td.td-key { text-align: center; min-width: 60px; }
+    .tracks-table tbody tr { border-bottom: 1px solid rgba(255,255,255,0.03); transition: background 0.2s; }
+    .tracks-table tbody tr:hover { background: rgba(78, 205, 196, 0.04); }
+    .tracks-table tbody tr:last-child { border-bottom: none; }
+    .tracks-table td { padding: 12px 14px; font-size: 13.5px; color: var(--text); vertical-align: middle; }
+    .td-rank { font-size: 12px; font-weight: 600; color: var(--text-dim); text-align: center; }
+    .td-track { font-weight: 500; max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .td-track a { color: var(--text); text-decoration: none; transition: color 0.2s; }
+    .td-track a:hover { color: var(--teal); }
+    .td-artist { color: var(--text-muted); font-size: 12.5px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .td-artist a { color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+    .td-artist a:hover { color: var(--purple); }
+    .td-num { font-size: 12.5px; font-weight: 500; color: var(--text-muted); text-align: right; font-variant-numeric: tabular-nums; }
+    .td-key { font-size: 12px; font-weight: 500; color: var(--text-muted); text-align: center; }
+    .pop-bar { display: inline-flex; align-items: center; gap: 6px; }
+    .pop-bar-track { width: 40px; height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; }
+    .pop-bar-fill { height: 100%; border-radius: 2px; background: var(--teal); transition: width 0.5s ease; }
+    .show-more-btn { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 16px; background: transparent; border: none; border-top: 1px solid var(--border); color: var(--teal); font-family: inherit; font-size: 13px; font-weight: 600; letter-spacing: 0.04em; cursor: pointer; transition: background 0.2s; }
+    .show-more-btn:hover { background: rgba(78, 205, 196, 0.05); }
+    .show-more-btn.hidden { display: none; }
+    .show-more-count { font-size: 11px; font-weight: 500; color: var(--text-dim); }
+    .spotify-icon { display: inline-flex; align-items: center; margin-left: 6px; opacity: 0.4; transition: opacity 0.2s; }
+    .spotify-icon:hover { opacity: 1; }
+    .spotify-icon svg { width: 16px; height: 16px; fill: #1DB954; }
+    @media (max-width: 760px) {
+      .tracks-table th.th-num:nth-child(n+6), .tracks-table td.td-num:nth-child(n+6),
+      .tracks-table th.th-key, .tracks-table td.td-key { display: none; }
+      .td-track, .td-artist { max-width: 140px; }
+    }
+
     /* ── Footer ── */
     footer {
       border-top: 1px solid var(--border);
@@ -340,21 +378,242 @@
       .feature-bars { grid-template-columns: 1fr 1fr; }
       .stat-cards { grid-template-columns: 1fr 1fr; }
     }
+
+    /* ── Prompt Lab ── */
+    .translator-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 32px;
+    }
+
+    .translator-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .translator-range {
+      font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+      font-size: 13px;
+      color: var(--teal);
+      font-weight: 600;
+    }
+
+    .translator-desc {
+      font-size: 13px;
+      font-style: italic;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .code-block {
+      background: #0a0b15;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .code-block pre {
+      font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+      font-size: 12.5px;
+      color: #b8bdd8;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      margin: 0;
+    }
+
+    .code-block .json-key { color: var(--teal); }
+    .code-block .json-string { color: var(--purple); }
+    .code-block .json-number { color: var(--blue); }
+
+    .copy-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: rgba(78, 205, 196, 0.12);
+      border: 1px solid rgba(78, 205, 196, 0.3);
+      color: var(--teal);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      background: rgba(78, 205, 196, 0.22);
+      border-color: var(--teal);
+    }
+
+    .copy-btn.copied {
+      background: rgba(78, 205, 196, 0.25);
+      color: #fff;
+    }
+
+    /* ── Outlier Cards ── */
+    .outlier-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .outlier-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--teal);
+      border-radius: 10px;
+      padding: 18px 20px;
+      transition: border-color 0.2s ease, background 0.2s ease;
+    }
+
+    .outlier-card:hover {
+      background: rgba(78, 205, 196, 0.03);
+      border-color: var(--border-accent);
+      border-left-color: var(--teal);
+    }
+
+    .outlier-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--teal);
+      margin-bottom: 2px;
+    }
+
+    .outlier-artist {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .outlier-why {
+      font-size: 12.5px;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    /* ── Correlation Heatmap ── */
+    .corr-table-wrap {
+      overflow-x: auto;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .corr-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .corr-table th {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 10px 8px;
+      font-weight: 600;
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .corr-table td {
+      padding: 10px 8px;
+      text-align: center;
+      font-family: 'SF Mono', monospace;
+      font-size: 12px;
+      color: var(--text);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      transition: background 0.15s ease;
+    }
+
+    .corr-table td.diag {
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+
+    .corr-table tr:last-child td { border-bottom: none; }
+
+    .corr-table th:first-child,
+    .corr-table td:first-child {
+      text-align: left;
+      padding-left: 14px;
+      font-weight: 500;
+      color: var(--text-muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* ── Segmented Bars (Production Profile) ── */
+    .prod-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px 36px;
+    }
+
+    .prod-item { display: flex; flex-direction: column; gap: 8px; }
+
+    .prod-bar-wrap {
+      display: flex;
+      height: 28px;
+      border-radius: 6px;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .prod-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.85);
+      white-space: nowrap;
+      overflow: hidden;
+      transition: flex 0.5s ease;
+    }
+
+    .prod-labels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 12px;
+      margin-top: 4px;
+    }
+
+    .prod-label-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 10.5px;
+      color: var(--text-muted);
+    }
+
+    .prod-label-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 760px) {
+      .translator-grid { grid-template-columns: 1fr; }
+      .outlier-grid { grid-template-columns: 1fr; }
+      .prod-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 900px) {
+      .outlier-grid { grid-template-columns: 1fr 1fr; }
+    }
   </style>
 </head>
 <body>
-
-<!-- ═══════════════════════════════════════════════════════════════════ Nav -->
-<nav style="position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(11,12,26,0.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,0.07);">
-  <div style="max-width:1200px;margin:0 auto;padding:0 28px;height:56px;display:flex;align-items:center;justify-content:space-between;">
-    <a href="/" style="font-family:'Pacifico',cursive;font-size:1.4rem;color:#E8967A;letter-spacing:0.02em;text-decoration:none;">kapiko</a>
-    <ul style="display:flex;gap:28px;list-style:none;">
-      <li><a href="/" style="font-size:13px;font-weight:500;color:#6b7099;letter-spacing:0.03em;text-decoration:none;">home</a></li>
-      <li><a href="/data/" style="font-size:13px;font-weight:500;color:#4ecdc4;letter-spacing:0.03em;text-decoration:none;">data</a></li>
-      <li><a href="/#developers" style="font-size:13px;font-weight:500;color:#6b7099;letter-spacing:0.03em;text-decoration:none;">api</a></li>
-    </ul>
-  </div>
-</nav>
 
 <!-- ═══════════════════════════════════════════════════════════════════ Header -->
 <header>
@@ -627,6 +886,31 @@
         <canvas id="chartSimilarArtists"></canvas>
       </div>
     </div>
+  </div>
+
+  <!-- Section: Top Tracks -->
+  <div class="section-label"><h2>Top Tracks</h2></div>
+
+  <div class="tracks-container">
+    <table class="tracks-table" id="tracksTable">
+      <thead>
+        <tr>
+          <th class="th-rank">#</th>
+          <th class="th-track">Track</th>
+          <th class="th-artist">Artist</th>
+          <th class="th-num">Pop</th>
+          <th class="th-num">BPM</th>
+          <th class="th-num">Energy</th>
+          <th class="th-num">Valence</th>
+          <th class="th-key">Key</th>
+        </tr>
+      </thead>
+      <tbody id="tracksBody"></tbody>
+    </table>
+    <button class="show-more-btn" id="showMoreBtn" onclick="showMoreTracks()">
+      Show More Tracks
+      <span class="show-more-count" id="showMoreCount"></span>
+    </button>
   </div>
 
 </main>
@@ -1506,6 +1790,66 @@ new Chart(document.getElementById('chartSimilarArtists'), {
   }
 });
 
+
+
+// ─── Top Tracks Table ───────────────────────────────────────────────────────
+
+const TRACKS = [{"name": "Apocalypse", "artists": "Cigarettes After Sex", "popularity": 84, "tempo": 94, "key": "F", "mode": "Major", "energy": 47, "valence": 18, "slug": "apocalypse-cigarettes-after-sex", "spotifyId": "0yc6Gst2xkRu0eMLeRMGCX"}, {"name": "Experience", "artists": "Ludovico Einaudi, Daniel Hope, I Virtuosi Italiani", "popularity": 79, "tempo": 92, "key": "D", "mode": "Major", "energy": 45, "valence": 4, "slug": "experience-ludovico-einaudi", "spotifyId": "1BncfTJAWxrsxyT9culBrj"}, {"name": "K.", "artists": "Cigarettes After Sex", "popularity": 78, "tempo": 94, "key": "D#/Eb", "mode": "Major", "energy": 40, "valence": 33, "slug": "k-cigarettes-after-sex", "spotifyId": "1FWsomP9StpCcXNWmJk8Cl"}, {"name": "Sunsetz", "artists": "Cigarettes After Sex", "popularity": 78, "tempo": 75, "key": "F", "mode": "Major", "energy": 48, "valence": 13, "slug": "sunsetz-cigarettes-after-sex", "spotifyId": "0SpkyS1Q4MD8GaVcP5YjT4"}, {"name": "Cry", "artists": "Cigarettes After Sex", "popularity": 76, "tempo": 143, "key": "G", "mode": "Major", "energy": 40, "valence": 16, "slug": "cry-cigarettes-after-sex", "spotifyId": "3p4hRhMcb6ch8OLtATMaLw"}, {"name": "Sweet", "artists": "Cigarettes After Sex", "popularity": 75, "tempo": 97, "key": "F#/Gb", "mode": "Major", "energy": 51, "valence": 12, "slug": "sweet-cigarettes-after-sex", "spotifyId": "6ilc4vQcwMPlvAHFfsTGng"}, {"name": "Anchor", "artists": "Novo Amor", "popularity": 75, "tempo": 117, "key": "A", "mode": "Major", "energy": 41, "valence": 13, "slug": "anchor-novo-amor", "spotifyId": "7qH9Z4dJEN0l9bidizW7fq"}, {"name": "Glue", "artists": "Bicep", "popularity": 74, "tempo": 130, "key": "E", "mode": "Minor", "energy": 80, "valence": 42, "slug": "glue-bicep", "spotifyId": "2aJDlirz6v2a4HREki98cP"}, {"name": "State Lines", "artists": "Novo Amor", "popularity": 73, "tempo": 137, "key": "A", "mode": "Major", "energy": 31, "valence": 15, "slug": "state-lines-novo-amor", "spotifyId": "7CoMBpPTwQi2wPT0U0Nr9b"}, {"name": "You Are Enough", "artists": "Sleeping At Last", "popularity": 73, "tempo": 118, "key": "C#/Db", "mode": "Major", "energy": 50, "valence": 46, "slug": "you-are-enough-sleeping-at-last", "spotifyId": "1Wdj4wRDYS7aT4CoPS0mAH"}, {"name": "Nuvole Bianche", "artists": "Ludovico Einaudi", "popularity": 73, "tempo": 133, "key": "G#/Ab", "mode": "Major", "energy": 6, "valence": 5, "slug": "nuvole-bianche-ludovico-einaudi", "spotifyId": "3weNRklVDqb4Rr5MhKBR3D"}, {"name": "Comptine d'un autre été, l'après-midi", "artists": "Yann Tiersen", "popularity": 73, "tempo": 101, "key": "E", "mode": "Minor", "energy": 19, "valence": 5, "slug": "comptine-dun-autre-été-laprès-midi-yann-tiersen", "spotifyId": "14rZjW3RioG7WesZhYESso"}, {"name": "Turning Page", "artists": "Sleeping At Last", "popularity": 72, "tempo": 115, "key": "D#/Eb", "mode": "Major", "energy": 37, "valence": 19, "slug": "turning-page-sleeping-at-last", "spotifyId": "2kfGoV9a5dbSKCNmUWH2ZF"}, {"name": "Nothing's Gonna Hurt You Baby", "artists": "Cigarettes After Sex", "popularity": 72, "tempo": 97, "key": "E", "mode": "Major", "energy": 33, "valence": 10, "slug": "nothings-gonna-hurt-you-baby-cigarettes-after-sex", "spotifyId": "7cs7MLtAWvsdf3w5kBvfK2"}, {"name": "Heavenly", "artists": "Cigarettes After Sex", "popularity": 71, "tempo": 105, "key": "G#/Ab", "mode": "Major", "energy": 44, "valence": 13, "slug": "heavenly-cigarettes-after-sex", "spotifyId": "70YTBH8vOGJNMhy6186yFm"}, {"name": "Touch", "artists": "Sleeping At Last", "popularity": 71, "tempo": 82, "key": "C", "mode": "Major", "energy": 10, "valence": 18, "slug": "touch-sleeping-at-last", "spotifyId": "4g2WiijzSKzH8PApKDbadN"}, {"name": "Test & Recognise - Flume Re-work", "artists": "Seekae, Flume", "popularity": 70, "tempo": 110, "key": "G#/Ab", "mode": "Major", "energy": 58, "valence": 29, "slug": "test-recognise-flume-re-work-seekae", "spotifyId": "24BYTj1tb5ovZcnIbtdTYD"}, {"name": "Una Mattina", "artists": "Ludovico Einaudi", "popularity": 70, "tempo": 131, "key": "D", "mode": "Major", "energy": 3, "valence": 7, "slug": "una-mattina-ludovico-einaudi", "spotifyId": "0Dkibk70FDp6t7eOZNemNQ"}, {"name": "Ontario", "artists": "Novo Amor, Ed Tullett, Lowswimmer", "popularity": 69, "tempo": 90, "key": "A#/Bb", "mode": "Major", "energy": 22, "valence": 17, "slug": "ontario-novo-amor", "spotifyId": "1XZPtZVqcOzzxbYIR7MjQw"}, {"name": "Repeat Until Death", "artists": "Novo Amor", "popularity": 69, "tempo": 144, "key": "C#/Db", "mode": "Major", "energy": 15, "valence": 9, "slug": "repeat-until-death-novo-amor", "spotifyId": "5PzWVmfzu7rePAuFkxPQf0"}, {"name": "Keep Me", "artists": "Novo Amor", "popularity": 69, "tempo": 105, "key": "C#/Db", "mode": "Major", "energy": 13, "valence": 7, "slug": "keep-me-novo-amor", "spotifyId": "5xYpEeGFXmkGMBQ22NfKfO"}, {"name": "Already Gone", "artists": "Sleeping At Last", "popularity": 69, "tempo": 131, "key": "D#/Eb", "mode": "Major", "energy": 25, "valence": 30, "slug": "already-gone-sleeping-at-last", "spotifyId": "5zCunX8URvLoBHlg1Fnjv6"}, {"name": "Poison Tree", "artists": "Grouper", "popularity": 69, "tempo": 111, "key": "B", "mode": "Major", "energy": 14, "valence": 21, "slug": "poison-tree-grouper", "spotifyId": "6Q5uDNuuFYa8ToL3CCoHPC"}, {"name": "Fracture", "artists": "Stephan Moccio", "popularity": 69, "tempo": 85, "key": "D", "mode": "Major", "energy": 2, "valence": 13, "slug": "fracture-stephan-moccio", "spotifyId": "2m2GJpBjQNNphaCgBeoj7R"}, {"name": "Falling In Love", "artists": "Cigarettes After Sex", "popularity": 68, "tempo": 141, "key": "G", "mode": "Major", "energy": 27, "valence": 37, "slug": "falling-in-love-cigarettes-after-sex", "spotifyId": "0O0bttAxJKKWqAqY2Nq4mC"}, {"name": "You're All I Want", "artists": "Cigarettes After Sex", "popularity": 68, "tempo": 182, "key": "F", "mode": "Major", "energy": 47, "valence": 28, "slug": "youre-all-i-want-cigarettes-after-sex", "spotifyId": "4nvLuqwTOZdEJI1fcHXv8h"}, {"name": "Carry You", "artists": "Novo Amor", "popularity": 68, "tempo": 93, "key": "G", "mode": "Major", "energy": 40, "valence": 4, "slug": "carry-you-novo-amor", "spotifyId": "0u4rkpmNtgcFxYHepnVF4v"}, {"name": "Weightless", "artists": "Marconi Union", "popularity": 68, "tempo": 71, "key": "D", "mode": "Minor", "energy": 22, "valence": 8, "slug": "weightless-marconi-union", "spotifyId": "6kkwzB6hXLIONkEk9JciA6"}, {"name": "Saturn", "artists": "Sleeping At Last", "popularity": 68, "tempo": 73, "key": "D#/Eb", "mode": "Major", "energy": 24, "valence": 5, "slug": "saturn-sleeping-at-last", "spotifyId": "3tJjZMHLqhD8DaGgdBICnc"}, {"name": "Affection", "artists": "Cigarettes After Sex", "popularity": 67, "tempo": 90, "key": "G", "mode": "Major", "energy": 42, "valence": 25, "slug": "affection-cigarettes-after-sex", "spotifyId": "1lusH0zFDRV1ThaFYsUgfi"}, {"name": "Haven (from Life Is Strange)", "artists": "Novo Amor", "popularity": 67, "tempo": 111, "key": "E", "mode": "Major", "energy": 26, "valence": 22, "slug": "haven-from-life-is-strange-novo-amor", "spotifyId": "0bndF6tTweNXPjwpPL7Slt"}, {"name": "Weightless Part 1", "artists": "Marconi Union", "popularity": 67, "tempo": 80, "key": "D", "mode": "Minor", "energy": 21, "valence": 8, "slug": "weightless-part-1-marconi-union", "spotifyId": "2UZZtkoLOg7IHxeTAdPFvd"}, {"name": "Goodness of God - Live", "artists": "Bethel Music, Jenn Johnson", "popularity": 66, "tempo": 126, "key": "G#/Ab", "mode": "Major", "energy": 67, "valence": 40, "slug": "goodness-of-god-live-bethel-music", "spotifyId": "1gj9poFl2mLKkguqWo5Y1i"}, {"name": "Euphor", "artists": "Novo Amor, Ed Tullett, Lowswimmer", "popularity": 66, "tempo": 115, "key": "A#/Bb", "mode": "Minor", "energy": 28, "valence": 9, "slug": "euphor-novo-amor", "spotifyId": "4CiqKccFFYGmFPz7HVTjfW"}, {"name": "Water", "artists": "Bicep, Clara La San", "popularity": 66, "tempo": 130, "key": "E", "mode": "Minor", "energy": 82, "valence": 36, "slug": "water-bicep", "spotifyId": "09cgbbadzZSKFd1hGN23p5"}, {"name": "Crush", "artists": "Cigarettes After Sex", "popularity": 65, "tempo": 98, "key": "F", "mode": "Major", "energy": 50, "valence": 28, "slug": "crush-cigarettes-after-sex", "spotifyId": "4WfV1CNg91SBp8oG0VY0VB"}, {"name": "Touch", "artists": "Cigarettes After Sex", "popularity": 65, "tempo": 96, "key": "F#/Gb", "mode": "Major", "energy": 50, "valence": 37, "slug": "touch-cigarettes-after-sex", "spotifyId": "1l4pW7Tklvcc3k38rDFMkk"}, {"name": "Keep on Loving You", "artists": "Cigarettes After Sex", "popularity": 65, "tempo": 73, "key": "D", "mode": "Minor", "energy": 36, "valence": 12, "slug": "keep-on-loving-you-cigarettes-after-sex", "spotifyId": "5VYBergVrUDcb8QyEg70cF"}, {"name": "Each Time You Fall in Love", "artists": "Cigarettes After Sex", "popularity": 65, "tempo": 76, "key": "A#/Bb", "mode": "Major", "energy": 53, "valence": 28, "slug": "each-time-you-fall-in-love-cigarettes-after-sex", "spotifyId": "2hIsd0F6ZGfHCC1xa7vSad"}, {"name": "John Wayne", "artists": "Cigarettes After Sex", "popularity": 65, "tempo": 124, "key": "D#/Eb", "mode": "Major", "energy": 46, "valence": 17, "slug": "john-wayne-cigarettes-after-sex", "spotifyId": "6TWcSqCntZhH5vyc35kkob"}, {"name": "On the Nature of Daylight", "artists": "Max Richter, Louisa Fuller, Natalia Bonner, John Metcalfe, Philip Sheppard, Chris Worsey", "popularity": 65, "tempo": 65, "key": "A#/Bb", "mode": "Minor", "energy": 34, "valence": 3, "slug": "on-the-nature-of-daylight-max-richter", "spotifyId": "56oReVXIfUO9xkX7pHmEU0"}, {"name": "Hearing", "artists": "Sleeping At Last", "popularity": 65, "tempo": 142, "key": "G", "mode": "Major", "energy": 29, "valence": 11, "slug": "hearing-sleeping-at-last", "spotifyId": "13Z3uZXTFpbLBZ8R1rTUKO"}, {"name": "Spring 1 - 2012", "artists": "Max Richter, Daniel Hope, Konzerthaus Kammerorchester Berlin, Andre de Ridder", "popularity": 65, "tempo": 106, "key": "C#/Db", "mode": "Minor", "energy": 34, "valence": 16, "slug": "spring-1-2012-max-richter", "spotifyId": "5xbuJuQsTVheVZvX2AJVIv"}, {"name": "Wind Song", "artists": "Ludovico Einaudi", "popularity": 65, "tempo": 73, "key": "B", "mode": "Minor", "energy": 1, "valence": 6, "slug": "wind-song-ludovico-einaudi", "spotifyId": "48i1p3R9l9f7zjcHPJysZZ"}, {"name": "Rue des trois frères", "artists": "Fabrizio Paterlini", "popularity": 65, "tempo": 139, "key": "C#/Db", "mode": "Major", "energy": 17, "valence": 11, "slug": "rue-des-trois-frères-fabrizio-paterlini", "spotifyId": "3lSOZb5rruEnFbe9xWELF6"}, {"name": "Temple White", "artists": "Ludovico Einaudi", "popularity": 65, "tempo": 72, "key": "G#/Ab", "mode": "Major", "energy": 1, "valence": 21, "slug": "temple-white-ludovico-einaudi", "spotifyId": "7elLKWtTEMCbOmYZ37ci9r"}, {"name": "saman", "artists": "Ólafur Arnalds", "popularity": 65, "tempo": 109, "key": "C", "mode": "Minor", "energy": 2, "valence": 43, "slug": "saman-ólafur-arnalds", "spotifyId": "5RqKo9P4DLA0bVyY70cWkr"}, {"name": "Don't Let Me Go", "artists": "Cigarettes After Sex", "popularity": 64, "tempo": 97, "key": "F#/Gb", "mode": "Major", "energy": 37, "valence": 17, "slug": "dont-let-me-go-cigarettes-after-sex", "spotifyId": "4b3khTm3ufGRTyZwuYdasn"}, {"name": "Where Is My Mind", "artists": "Maxence Cyrin", "popularity": 64, "tempo": 142, "key": "A", "mode": "Major", "energy": 11, "valence": 6, "slug": "where-is-my-mind-maxence-cyrin", "spotifyId": "4jNQkWhuzqrbqQuqanFFJ6"}, {"name": "The Theory of Everything", "artists": "Jóhann Jóhannsson", "popularity": 64, "tempo": 104, "key": "D", "mode": "Major", "energy": 12, "valence": 18, "slug": "the-theory-of-everything-jóhann-jóhannsson", "spotifyId": "5fJD7wh9yoSTpl9d5rgl7l"}, {"name": "The Departure", "artists": "Max Richter, Lang Lang", "popularity": 64, "tempo": 0, "key": "C", "mode": "Minor", "energy": 4, "valence": 0, "slug": "the-departure-max-richter", "spotifyId": "59gg6zQhSKGVnkT3hWAY3l"}, {"name": "#3", "artists": "Aphex Twin", "popularity": 64, "tempo": 143, "key": "F#/Gb", "mode": "Minor", "energy": 7, "valence": 6, "slug": "3-aphex-twin", "spotifyId": "2Bc4llhjJBW77I552RgA3L"}, {"name": "Ala", "artists": "Joep Beving", "popularity": 64, "tempo": 79, "key": "G", "mode": "Minor", "energy": 12, "valence": 30, "slug": "ala-joep-beving", "spotifyId": "1ZC21hJb2GASRkaoZvUcCS"}, {"name": "La Valse d'Amélie - Version piano", "artists": "Yann Tiersen", "popularity": 64, "tempo": 178, "key": "A", "mode": "Minor", "energy": 18, "valence": 18, "slug": "la-valse-damélie-version-piano-yann-tiersen", "spotifyId": "6bpmBNPfQ2KFAW0ik6F9Vq"}, {"name": "A Bad Dream That Will Pass Away", "artists": "Luke Howard", "popularity": 64, "tempo": 112, "key": "A#/Bb", "mode": "Major", "energy": 6, "valence": 25, "slug": "a-bad-dream-that-will-pass-away-luke-howard", "spotifyId": "6XTKYGyydndSUV3OHHDwZU"}, {"name": "Avril 14th", "artists": "Aphex Twin", "popularity": 64, "tempo": 158, "key": "G#/Ab", "mode": "Major", "energy": 3, "valence": 37, "slug": "avril-14th-aphex-twin", "spotifyId": "2MZSXhq4XDJWu6coGoXX1V"}, {"name": "Kiss It Off Me", "artists": "Cigarettes After Sex", "popularity": 63, "tempo": 80, "key": "E", "mode": "Major", "energy": 30, "valence": 23, "slug": "kiss-it-off-me-cigarettes-after-sex", "spotifyId": "2UKvxuMTM7JwprZrnpxgY1"}, {"name": "Dreaming of You", "artists": "Cigarettes After Sex", "popularity": 63, "tempo": 64, "key": "G", "mode": "Major", "energy": 40, "valence": 17, "slug": "dreaming-of-you-cigarettes-after-sex", "spotifyId": "5DZNSYxhFA1WA9WEJg9TNY"}, {"name": "Neon Moon", "artists": "Cigarettes After Sex", "popularity": 63, "tempo": 180, "key": "E", "mode": "Major", "energy": 49, "valence": 28, "slug": "neon-moon-cigarettes-after-sex", "spotifyId": "7nbAMKGkPMjc4EuNNsjXqZ"}, {"name": "King of My Heart - Live", "artists": "Bethel Music, Steffany Gretzinger", "popularity": 63, "tempo": 136, "key": "A", "mode": "Major", "energy": 53, "valence": 40, "slug": "king-of-my-heart-live-bethel-music", "spotifyId": "0qf2iUDfPDtrLeJFmOvVn6"}, {"name": "Raise a Hallelujah - Live", "artists": "Bethel Music, Jonathan David Helser, Melissa Helser", "popularity": 63, "tempo": 82, "key": "C#/Db", "mode": "Major", "energy": 87, "valence": 29, "slug": "raise-a-hallelujah-live-bethel-music", "spotifyId": "0YxrPdW9NpNFtqh7Fw0rva"}, {"name": "Halloween", "artists": "Novo Amor", "popularity": 63, "tempo": 107, "key": "F", "mode": "Major", "energy": 47, "valence": 35, "slug": "halloween-novo-amor", "spotifyId": "7AkPusgKsrTqbOcTTbRnFr"}, {"name": "Apricots", "artists": "Bicep", "popularity": 63, "tempo": 128, "key": "B", "mode": "Major", "energy": 60, "valence": 49, "slug": "apricots-bicep", "spotifyId": "0WfOuXw05LJq4ik1lVvTzi"}, {"name": "Playground Love", "artists": "Air, Gordon Tracks", "popularity": 63, "tempo": 143, "key": "G", "mode": "Minor", "energy": 42, "valence": 12, "slug": "playground-love-air", "spotifyId": "052z2UsE2wPrHsBJ9tly0g"}, {"name": "All I Need (feat. Beth Hirsch)", "artists": "Air, Beth Hirsch", "popularity": 63, "tempo": 94, "key": "G", "mode": "Minor", "energy": 42, "valence": 16, "slug": "all-i-need-feat-beth-hirsch-air", "spotifyId": "6T10XPeC9X5xEaD6tMcK6M"}, {"name": "Starry Eyes", "artists": "Cigarettes After Sex", "popularity": 62, "tempo": 100, "key": "D", "mode": "Major", "energy": 36, "valence": 11, "slug": "starry-eyes-cigarettes-after-sex", "spotifyId": "3YL4zMqcyFu0OfLI1sZ66Z"}, {"name": "Sesame Syrup", "artists": "Cigarettes After Sex", "popularity": 62, "tempo": 94, "key": "E", "mode": "Major", "energy": 41, "valence": 35, "slug": "sesame-syrup-cigarettes-after-sex", "spotifyId": "53k1gKFpKrDbktUzrB80f0"}, {"name": "Weather", "artists": "Novo Amor", "popularity": 62, "tempo": 144, "key": "F#/Gb", "mode": "Major", "energy": 24, "valence": 11, "slug": "weather-novo-amor", "spotifyId": "7i1DkDc2j0yVsSt3jjDvk3"}, {"name": "From Gold", "artists": "Novo Amor", "popularity": 62, "tempo": 100, "key": "F", "mode": "Major", "energy": 43, "valence": 4, "slug": "from-gold-novo-amor", "spotifyId": "3ePd4K8tcdfr7KmbuOTrKK"}, {"name": "Chalkboard", "artists": "Jóhann Jóhannsson", "popularity": 62, "tempo": 93, "key": "A", "mode": "Minor", "energy": 11, "valence": 8, "slug": "chalkboard-jóhann-jóhannsson", "spotifyId": "7bJ6xGa3RG2dQgNiK10uAv"}, {"name": "Chasing Cars", "artists": "Sleeping At Last", "popularity": 62, "tempo": 108, "key": "B", "mode": "Major", "energy": 16, "valence": 28, "slug": "chasing-cars-sleeping-at-last", "spotifyId": "2d7LPtieXdIYzf7yHPooWd"}, {"name": "It Is Well - Live", "artists": "Bethel Music, Kristene DiMarco", "popularity": 62, "tempo": 130, "key": "E", "mode": "Minor", "energy": 25, "valence": 11, "slug": "it-is-well-live-bethel-music", "spotifyId": "3MRqm3VNWLIjRiLRQezul7"}, {"name": "Primavera", "artists": "Ludovico Einaudi, Robert Ziegler, Royal Philharmonic Orchestra", "popularity": 62, "tempo": 142, "key": "C", "mode": "Minor", "energy": 21, "valence": 14, "slug": "primavera-ludovico-einaudi", "spotifyId": "4BMHp3DkI8VLsuB9Kr0pzu"}, {"name": "No Longer Slaves (Spontaneous) - Live", "artists": "Bethel Music, Jonathan David Helser, Melissa Helser", "popularity": 62, "tempo": 148, "key": "A#/Bb", "mode": "Major", "energy": 61, "valence": 24, "slug": "no-longer-slaves-spontaneous-live-bethel-music", "spotifyId": "584GnCDcDhRV6R8iZ7gzxC"}, {"name": "Luminous", "artists": "Ludovico Einaudi", "popularity": 62, "tempo": 68, "key": "C#/Db", "mode": "Major", "energy": 0, "valence": 28, "slug": "luminous-ludovico-einaudi", "spotifyId": "5RWA30VaTsYkFrkzxKL3aK"}, {"name": "A Game of Croquet", "artists": "Jóhann Jóhannsson", "popularity": 62, "tempo": 118, "key": "E", "mode": "Minor", "energy": 4, "valence": 11, "slug": "a-game-of-croquet-jóhann-jóhannsson", "spotifyId": "21lsdnxagzViwbRqNY0tCK"}, {"name": "A Model of the Universe", "artists": "Jóhann Jóhannsson", "popularity": 62, "tempo": 90, "key": "G", "mode": "Minor", "energy": 4, "valence": 7, "slug": "a-model-of-the-universe-jóhann-jóhannsson", "spotifyId": "5ay0cvjtVAbMLOe8gTadFh"}, {"name": "Dawn - From \"Pride & Prejudice\" Soundtrack", "artists": "Dario Marianelli, Jean-Yves Thibaudet", "popularity": 62, "tempo": 79, "key": "C", "mode": "Major", "energy": 5, "valence": 10, "slug": "dawn-from-pride-prejudice-soundtrack-dario-marianelli", "spotifyId": "2k2MprlqkmDMKKOOWGREzW"}, {"name": "Luminous", "artists": "Ludovico Einaudi", "popularity": 62, "tempo": 68, "key": "C#/Db", "mode": "Major", "energy": 0, "valence": 28, "slug": "luminous-ludovico-einaudi", "spotifyId": "0UOMGdqvwCRGoEhXEJp78U"}, {"name": "Dream 1 (before the wind blows it all away) - Pt. 8", "artists": "Max Richter", "popularity": 62, "tempo": 69, "key": "F#/Gb", "mode": "Major", "energy": 0, "valence": 5, "slug": "dream-1-before-the-wind-blows-it-all-away-pt-8-max-richter", "spotifyId": "1A8qD0Ygjzsby5OmXh1PTa"}, {"name": "Natural Light", "artists": "Ludovico Einaudi", "popularity": 62, "tempo": 69, "key": "C#/Db", "mode": "Major", "energy": 0, "valence": 19, "slug": "natural-light-ludovico-einaudi", "spotifyId": "1kKbVnjBHvRSMJUsNOQp2h"}, {"name": "Natural Light", "artists": "Ludovico Einaudi", "popularity": 62, "tempo": 69, "key": "C#/Db", "mode": "Major", "energy": 0, "valence": 19, "slug": "natural-light-ludovico-einaudi", "spotifyId": "2zM7Ato6xDOi8ten4qn7Cm"}, {"name": "QKThr", "artists": "Aphex Twin", "popularity": 62, "tempo": 79, "key": "C#/Db", "mode": "Major", "energy": 2, "valence": 6, "slug": "qkthr-aphex-twin", "spotifyId": "7vuYfz0siJY66fLEiDKnEh"}, {"name": "I'm a Firefighter", "artists": "Cigarettes After Sex", "popularity": 61, "tempo": 115, "key": "G", "mode": "Major", "energy": 30, "valence": 12, "slug": "im-a-firefighter-cigarettes-after-sex", "spotifyId": "73ptBTOgUcD3Wyrq0B9eAW"}, {"name": "Goodness of God", "artists": "Bethel Music, Jenn Johnson", "popularity": 61, "tempo": 110, "key": "F#/Gb", "mode": "Major", "energy": 12, "valence": 18, "slug": "goodness-of-god-bethel-music", "spotifyId": "1O6OPFAXdTdjHtT7Z2Hlt8"}, {"name": "Alps", "artists": "Novo Amor, Ed Tullett, Lowswimmer", "popularity": 61, "tempo": 147, "key": "D#/Eb", "mode": "Major", "energy": 31, "valence": 14, "slug": "alps-novo-amor", "spotifyId": "5eG8QuQKOBvDeCyoOeMkhT"}, {"name": "Embody Me", "artists": "Novo Amor", "popularity": 61, "tempo": 121, "key": "C", "mode": "Major", "energy": 26, "valence": 15, "slug": "embody-me-novo-amor", "spotifyId": "1g0xyCMUBKUaMDCk00Hhmk"}, {"name": "The Last of Us", "artists": "Gustavo Santaolalla", "popularity": 61, "tempo": 155, "key": "E", "mode": "Minor", "energy": 47, "valence": 35, "slug": "the-last-of-us-gustavo-santaolalla", "spotifyId": "285ieonEuLkll3zknYK2TY"}, {"name": "Decimal", "artists": "Novo Amor", "popularity": 61, "tempo": 79, "key": "G", "mode": "Major", "energy": 43, "valence": 32, "slug": "decimal-novo-amor", "spotifyId": "6eusWfAal7mOOLr0XFLkiY"}, {"name": "Indian Yellow", "artists": "Ludovico Einaudi", "popularity": 61, "tempo": 68, "key": "D", "mode": "Major", "energy": 1, "valence": 16, "slug": "indian-yellow-ludovico-einaudi", "spotifyId": "6j8KPn7rmbTwlkpEbHcrS1"}, {"name": "Dismantle", "artists": "Peter Sandberg", "popularity": 61, "tempo": 100, "key": "D#/Eb", "mode": "Major", "energy": 14, "valence": 40, "slug": "dismantle-peter-sandberg", "spotifyId": "7gbSDq9luQx6yVl7HyJGIW"}, {"name": "The Departure", "artists": "Max Richter", "popularity": 61, "tempo": 117, "key": "C", "mode": "Minor", "energy": 0, "valence": 12, "slug": "the-departure-max-richter", "spotifyId": "3KG9I4JXpDwNQOsotE3uLh"}, {"name": "Remembrance", "artists": "Balmorhea", "popularity": 61, "tempo": 121, "key": "F#/Gb", "mode": "Minor", "energy": 13, "valence": 14, "slug": "remembrance-balmorhea", "spotifyId": "7xiw42KTmCcqfZNCZqUcnF"}, {"name": "Raise a Hallelujah (Studio Version)", "artists": "Bethel Music, Jonathan David Helser, Melissa Helser", "popularity": 61, "tempo": 164, "key": "C#/Db", "mode": "Major", "energy": 82, "valence": 52, "slug": "raise-a-hallelujah-studio-version-bethel-music", "spotifyId": "4LnHfZGEitmIVS17wndaUI"}, {"name": "Faithful", "artists": "Erik Nieder", "popularity": 61, "tempo": 140, "key": "B", "mode": "Major", "energy": 72, "valence": 28, "slug": "faithful-erik-nieder", "spotifyId": "0sw4u9EcSC2E6rtCCdglHZ"}, {"name": "Prélude", "artists": "Olivia Belli", "popularity": 61, "tempo": 152, "key": "C", "mode": "Minor", "energy": 2, "valence": 6, "slug": "prélude-olivia-belli", "spotifyId": "6HIRhDZd8E7MMkfZDLpV48"}, {"name": "Rolling Like A Ball", "artists": "Ludovico Einaudi", "popularity": 61, "tempo": 175, "key": "G#/Ab", "mode": "Major", "energy": 1, "valence": 4, "slug": "rolling-like-a-ball-ludovico-einaudi", "spotifyId": "264yEsvuPUzGcBO0nSCSkl"}, {"name": "Mid Air", "artists": "GÅEL", "popularity": 61, "tempo": 112, "key": "C", "mode": "Major", "energy": 3, "valence": 25, "slug": "mid-air-gåel", "spotifyId": "5O3UGMP9XJLbshKKZHsrGN"}, {"name": "Wu Wei", "artists": "De Moi", "popularity": 61, "tempo": 69, "key": "C", "mode": "Major", "energy": 3, "valence": 4, "slug": "wu-wei-de-moi", "spotifyId": "6EOpjNGn34eXLJASVcUksY"}, {"name": "pt. 1 Owl Light", "artists": "Stephan Moccio", "popularity": 61, "tempo": 114, "key": "C", "mode": "Major", "energy": 10, "valence": 21, "slug": "pt-1-owl-light-stephan-moccio", "spotifyId": "5YvY66JItF2jFFKeB27pmO"}];
+
+let tracksShown = 10;
+const TRACKS_STEP = 15;
+
+const SPOTIFY_SVG = '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>';
+
+function spotifySearchUrl(track, artist) {
+  const q = encodeURIComponent(track + ' ' + artist);
+  return 'https://open.spotify.com/search/' + q;
+}
+
+function renderTracks() {
+  const tbody = document.getElementById('tracksBody');
+  const btn = document.getElementById('showMoreBtn');
+  const count = document.getElementById('showMoreCount');
+  const visible = TRACKS.slice(0, tracksShown);
+
+  tbody.innerHTML = visible.map((t, i) => {
+    const songPageUrl = '/songs/' + t.slug + '/';
+    const spotifyUrl = spotifySearchUrl(t.name, t.artists);
+    const popWidth = Math.round(t.popularity);
+    return '<tr>' +
+      '<td class="td-rank">' + (i + 1) + '</td>' +
+      '<td class="td-track"><a href="' + songPageUrl + '">' + escHtml(t.name) + '</a>' +
+        '<a href="' + spotifyUrl + '" target="_blank" rel="noopener" class="spotify-icon" title="Open on Spotify" onclick="event.stopPropagation()">' + SPOTIFY_SVG + '</a></td>' +
+      '<td class="td-artist"><a href="https://open.spotify.com/search/' + encodeURIComponent(t.artists) + '" target="_blank" rel="noopener">' + escHtml(t.artists) + '</a></td>' +
+      '<td class="td-num"><span class="pop-bar"><span>' + t.popularity + '</span><span class="pop-bar-track"><span class="pop-bar-fill" style="width:' + popWidth + '%"></span></span></span></td>' +
+      '<td class="td-num">' + (t.tempo || '—') + '</td>' +
+      '<td class="td-num">' + t.energy + '%</td>' +
+      '<td class="td-num">' + t.valence + '%</td>' +
+      '<td class="td-key">' + t.key + (t.mode === 'Minor' ? ' m' : '') + '</td>' +
+    '</tr>';
+  }).join('');
+
+  const remaining = TRACKS.length - tracksShown;
+  if (remaining <= 0) {
+    btn.classList.add('hidden');
+  } else {
+    btn.classList.remove('hidden');
+    count.textContent = '(' + remaining + ' more)';
+  }
+}
+
+function showMoreTracks() {
+  tracksShown = Math.min(tracksShown + TRACKS_STEP, TRACKS.length);
+  renderTracks();
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+renderTracks();
 </script>
 </body>
 </html>
