@@ -8,8 +8,50 @@ Usage:
   python3 generate_song_pages.py 0 200    # slice [0:200]
 """
 
-import json, os, sys, re, html as H
+import json, os, sys, re, html as H, urllib.request, urllib.parse, base64, time
 from pathlib import Path
+
+# ── Spotify Album Art Fetcher ─────────────────────────────────────────────
+
+_spotify_token = None
+_spotify_token_exp = 0
+
+def _get_spotify_token():
+    global _spotify_token, _spotify_token_exp
+    if _spotify_token and time.time() < _spotify_token_exp:
+        return _spotify_token
+    client_id = os.popen('security find-generic-password -s spotify-client-id -w').read().strip()
+    client_secret = os.popen('security find-generic-password -s spotify-client-secret -w').read().strip()
+    auth = base64.b64encode(f'{client_id}:{client_secret}'.encode()).decode()
+    req = urllib.request.Request('https://accounts.spotify.com/api/token',
+        data=b'grant_type=client_credentials',
+        headers={'Authorization': f'Basic {auth}', 'Content-Type': 'application/x-www-form-urlencoded'})
+    resp = json.loads(urllib.request.urlopen(req).read())
+    _spotify_token = resp['access_token']
+    _spotify_token_exp = time.time() + resp.get('expires_in', 3500) - 60
+    return _spotify_token
+
+def fetch_spotify_album_art(song_name, artist_name):
+    """Fetch album art URL + album name + spotify URL from Spotify Search API."""
+    try:
+        token = _get_spotify_token()
+        q = urllib.parse.quote(f'{song_name} {artist_name}')
+        req = urllib.request.Request(
+            f'https://api.spotify.com/v1/search?type=track&limit=1&q={q}',
+            headers={'Authorization': f'Bearer {token}'})
+        data = json.loads(urllib.request.urlopen(req).read())
+        items = data.get('tracks', {}).get('items', [])
+        if not items:
+            return None, None, None
+        track = items[0]
+        images = track['album'].get('images', [])
+        img_url = images[0]['url'] if images else None
+        album_name = track['album'].get('name', '')
+        spotify_url = track.get('external_urls', {}).get('spotify', '')
+        return img_url, album_name, spotify_url
+    except Exception as e:
+        print(f"  ⚠ Spotify lookup failed for {song_name}: {e}", file=sys.stderr)
+        return None, None, None
 
 SITE = Path.home() / 'kapiko' / 'site'
 GENRES = ['piano', 'sleep', 'chill', 'study', 'classical', 'jazz', 'acoustic', 'electronic', 'hip-hop', 'soul', 'pop', 'r-n-b', 'country', 'rock', 'edm', 'indie', 'folk', 'reggaeton', 'synth-pop', 'trip-hop', 'blues', 'metal', 'funk', 'disco', 'reggae', 'punk', 'house', 'techno', 'trance', 'deep-house', 'dubstep', 'k-pop', 'latin', 'afrobeat', 'j-pop', 'alt-rock', 'grunge', 'hard-rock', 'singer-songwriter', 'indie-pop', 'dance', 'heavy-metal', 'gospel', 'emo', 'ska', 'drum-and-bass', 'progressive-house', 'idm', 'electro', 'punk-rock', 'hardcore', 'psych-rock', 'rock-n-roll', 'indian', 'anime', 'dancehall', 'mandopop', 'bluegrass', 'new-age', 'guitar', 'alternative', 'goth', 'industrial', 'metalcore', 'death-metal', 'dub', 'garage', 'minimal-techno', 'detroit-techno', 'chicago-house', 'hardstyle', 'world-music', 'opera', 'tango', 'salsa', 'j-rock', 'cantopop', 'rockabilly', 'honky-tonk', 'power-pop', 'black-metal', 'brazil', 'breakbeat', 'british', 'children', 'club', 'comedy', 'disney', 'forro', 'french', 'german', 'grindcore', 'groove', 'happy', 'iranian', 'j-dance', 'j-idol', 'kids', 'latino', 'malay', 'mpb', 'pagode', 'party', 'pop-film', 'romance', 'sad', 'samba', 'sertanejo', 'show-tunes', 'songwriter', 'spanish', 'swedish', 'turkish']
@@ -339,6 +381,20 @@ def make_page(t, genre, all_genres_data=None):
     spotify_url = t.get('spotify_url', '')
     youtube_url = t.get('youtube_url', '')
     youtube_id = t.get('youtube_id', '')
+    
+    # Auto-fetch album art from Spotify if missing
+    if not album_img:
+        pa = primary_artist(artist)
+        fetched_img, fetched_album, fetched_url = fetch_spotify_album_art(name, pa)
+        if fetched_img:
+            album_img = fetched_img
+            t['album_image'] = fetched_img  # cache back
+        if fetched_url and not spotify_url:
+            spotify_url = fetched_url
+            t['spotify_url'] = fetched_url
+        if fetched_album and not album:
+            album = fetched_album
+            t['album'] = fetched_album
     
     dur_str = fmt_dur(dur_ms)
     key_mode = f"{key} {mode}"
