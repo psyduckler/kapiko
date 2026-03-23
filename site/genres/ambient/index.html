@@ -753,6 +753,131 @@
   </div>
 
   <!-- Section: AI Audio Analysis (Gemini) -->
+
+  <div class="section-label"><h2>Prompt Lab</h2></div>
+
+  <div class="charts-grid">
+
+    <!-- Feature Translator -->
+    <div class="chart-card full">
+      <div class="chart-title">Feature Translator — Numbers → Prompt Words</div>
+      <div class="chart-analysis">Each Spotify audio feature maps to natural-language descriptors you can paste directly into a music generation prompt. Ranges show the 25th–75th percentile sweet spot from the top 100 ambient tracks.</div>
+      <div class="translator-grid">
+        <div class="translator-item">
+          <div class="feature-label">Energy</div>
+          <div class="translator-range">6% – 42%</div>
+          <div class="translator-desc">Gentle, subdued, whisper-quiet dynamics</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Valence</div>
+          <div class="translator-range">9% – 28%</div>
+          <div class="translator-desc">Melancholic, contemplative, wistful, emotionally restrained</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="translator-range">50% – 98%</div>
+          <div class="translator-desc">Organic instruments — piano, guitar, strings. No heavy electronic production</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="translator-range">11% – 91%</div>
+          <div class="translator-desc">Mostly wordless. Occasional soft vocals or humming acceptable</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Danceability</div>
+          <div class="translator-range">30% – 46%</div>
+          <div class="translator-desc">Minimal rhythmic drive. Floating, unstructured pulse</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="translator-range">3% – 4%</div>
+          <div class="translator-desc">No vocals, no narration. Pure music</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">BPM</div>
+          <div class="translator-range">85 – 131</div>
+          <div class="translator-desc">Slow to mid-tempo drift. Think gentle walking pace</div>
+        </div>
+        <div class="translator-item">
+          <div class="feature-label">Duration</div>
+          <div class="translator-range">3 – 5 min</div>
+          <div class="translator-desc">Standard streaming length. Sweet spot for Spotify play counts</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt Template -->
+    <div class="chart-card full">
+      <div class="chart-title">Prompt Template — Ready to Copy</div>
+      <div class="chart-analysis">A complete music generation prompt built from the data above. Copy and adapt for Suno, Udio, or any AI music service.</div>
+      <div class="code-block" id="promptBlock">
+        <button class="copy-btn" onclick="copyBlock('promptBlock')">Copy</button>
+        <pre>Create a 4-minute ambient track at 100 BPM in a major key.
+
+Instrumentation: Piano or acoustic guitar as the primary instrument,
+layered with soft synth pads and subtle string textures. Reverb-heavy,
+with gentle delay and possible drone undertones.
+
+Mood: Melancholic and contemplative, with an expansive atmosphere.
+Think Ludovico Einaudi meets Ólafur Arnalds — emotionally restrained
+but deeply felt.
+
+Dynamics: Static to slowly building. Low energy (15-35%), minimal
+rhythmic pulse. Let the piece breathe and evolve gradually.
+
+Production: Clean acoustic recording with generous reverb tail. Organic
+textures preferred over digital synthesis. Moderate stereo width.
+
+Reference artists: Novo Amor, Max Richter, Nils Frahm, Bon Iver</pre>
+      </div>
+    </div>
+
+    <!-- Genre Recipe JSON -->
+    <div class="chart-card full">
+      <div class="chart-title">Genre Recipe — Structured JSON for AI Agents</div>
+      <div class="chart-analysis">A machine-readable genre profile that AI agents can parse directly for automated music generation pipelines. Copy this into your agent's context or API call.</div>
+      <div class="code-block" id="jsonBlock">
+        <button class="copy-btn" onclick="copyBlock('jsonBlock')">Copy</button>
+        <pre>{
+  <span class="json-key">"genre"</span>: <span class="json-string">"ambient"</span>,
+  <span class="json-key">"target_features"</span>: {
+    <span class="json-key">"energy"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.06</span>, <span class="json-key">"target"</span>: <span class="json-number">0.25</span>, <span class="json-key">"max"</span>: <span class="json-number">0.42</span> },
+    <span class="json-key">"valence"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.09</span>, <span class="json-key">"target"</span>: <span class="json-number">0.17</span>, <span class="json-key">"max"</span>: <span class="json-number">0.28</span> },
+    <span class="json-key">"acousticness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.50</span>, <span class="json-key">"target"</span>: <span class="json-number">0.91</span>, <span class="json-key">"max"</span>: <span class="json-number">0.98</span> },
+    <span class="json-key">"instrumentalness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.11</span>, <span class="json-key">"target"</span>: <span class="json-number">0.83</span>, <span class="json-key">"max"</span>: <span class="json-number">0.91</span> },
+    <span class="json-key">"danceability"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.30</span>, <span class="json-key">"target"</span>: <span class="json-number">0.40</span>, <span class="json-key">"max"</span>: <span class="json-number">0.46</span> },
+    <span class="json-key">"speechiness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.03</span>, <span class="json-key">"target"</span>: <span class="json-number">0.03</span>, <span class="json-key">"max"</span>: <span class="json-number">0.04</span> },
+    <span class="json-key">"tempo_bpm"</span>: { <span class="json-key">"min"</span>: <span class="json-number">85</span>, <span class="json-key">"target"</span>: <span class="json-number">107</span>, <span class="json-key">"max"</span>: <span class="json-number">131</span> },
+    <span class="json-key">"duration_seconds"</span>: { <span class="json-key">"min"</span>: <span class="json-number">180</span>, <span class="json-key">"target"</span>: <span class="json-number">270</span>, <span class="json-key">"max"</span>: <span class="json-number">300</span> }
+  },
+  <span class="json-key">"key_preferences"</span>: [<span class="json-string">"C#/Db"</span>, <span class="json-string">"G"</span>, <span class="json-string">"C"</span>, <span class="json-string">"E"</span>],
+  <span class="json-key">"mode"</span>: <span class="json-string">"major"</span>,
+  <span class="json-key">"instrumentation"</span>: {
+    <span class="json-key">"primary"</span>: [<span class="json-string">"piano"</span>, <span class="json-string">"acoustic guitar"</span>],
+    <span class="json-key">"secondary"</span>: [<span class="json-string">"synth pad"</span>, <span class="json-string">"strings"</span>, <span class="json-string">"male vocals"</span>],
+    <span class="json-key">"effects"</span>: [<span class="json-string">"reverb tail"</span>, <span class="json-string">"drone"</span>, <span class="json-string">"delay"</span>, <span class="json-string">"bell tones"</span>]
+  },
+  <span class="json-key">"mood"</span>: {
+    <span class="json-key">"primary"</span>: <span class="json-string">"melancholic"</span>,
+    <span class="json-key">"secondary"</span>: [<span class="json-string">"peaceful"</span>, <span class="json-string">"dreamy"</span>, <span class="json-string">"nostalgic"</span>],
+    <span class="json-key">"atmosphere"</span>: [<span class="json-string">"expansive"</span>, <span class="json-string">"intimate"</span>]
+  },
+  <span class="json-key">"production"</span>: {
+    <span class="json-key">"texture"</span>: <span class="json-string">"layered"</span>,
+    <span class="json-key">"style"</span>: <span class="json-string">"reverb-heavy ambient pads"</span>,
+    <span class="json-key">"dynamics"</span>: <span class="json-string">"static to slowly building"</span>,
+    <span class="json-key">"stereo_width"</span>: <span class="json-string">"moderate"</span>,
+    <span class="json-key">"harmonic_complexity"</span>: <span class="json-string">"moderate progressions"</span>,
+    <span class="json-key">"rhythm"</span>: <span class="json-string">"subtle pulse or none"</span>
+  },
+  <span class="json-key">"reference_artists"</span>: [<span class="json-string">"Bon Iver"</span>, <span class="json-string">"Ludovico Einaudi"</span>, <span class="json-string">"Iron &amp; Wine"</span>, <span class="json-string">"Nils Frahm"</span>, <span class="json-string">"Ólafur Arnalds"</span>, <span class="json-string">"Max Richter"</span>]
+}</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ════════════════════════════════════════════════ What Makes a Hit ════ -->
   <div class="section-label"><h2>AI Audio Analysis</h2></div>
   <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1.5rem;">We used Gemini AI to listen to 30-second clips of 95 tracks, identifying instrumentation, mood, texture, and production characteristics that metadata alone can't capture.</p>
 
@@ -889,130 +1014,6 @@
   </div>
 
   <!-- ════════════════════════════════════════════════════ Prompt Lab ════════ -->
-  <div class="section-label"><h2>Prompt Lab</h2></div>
-
-  <div class="charts-grid">
-
-    <!-- Feature Translator -->
-    <div class="chart-card full">
-      <div class="chart-title">Feature Translator — Numbers → Prompt Words</div>
-      <div class="chart-analysis">Each Spotify audio feature maps to natural-language descriptors you can paste directly into a music generation prompt. Ranges show the 25th–75th percentile sweet spot from the top 100 ambient tracks.</div>
-      <div class="translator-grid">
-        <div class="translator-item">
-          <div class="feature-label">Energy</div>
-          <div class="translator-range">6% – 42%</div>
-          <div class="translator-desc">Gentle, subdued, whisper-quiet dynamics</div>
-        </div>
-        <div class="translator-item">
-          <div class="feature-label">Valence</div>
-          <div class="translator-range">9% – 28%</div>
-          <div class="translator-desc">Melancholic, contemplative, wistful, emotionally restrained</div>
-        </div>
-        <div class="translator-item">
-          <div class="feature-label">Acousticness</div>
-          <div class="translator-range">50% – 98%</div>
-          <div class="translator-desc">Organic instruments — piano, guitar, strings. No heavy electronic production</div>
-        </div>
-        <div class="translator-item">
-          <div class="feature-label">Instrumentalness</div>
-          <div class="translator-range">11% – 91%</div>
-          <div class="translator-desc">Mostly wordless. Occasional soft vocals or humming acceptable</div>
-        </div>
-        <div class="translator-item">
-          <div class="feature-label">Danceability</div>
-          <div class="translator-range">30% – 46%</div>
-          <div class="translator-desc">Minimal rhythmic drive. Floating, unstructured pulse</div>
-        </div>
-        <div class="translator-item">
-          <div class="feature-label">Speechiness</div>
-          <div class="translator-range">3% – 4%</div>
-          <div class="translator-desc">No vocals, no narration. Pure music</div>
-        </div>
-        <div class="translator-item">
-          <div class="feature-label">BPM</div>
-          <div class="translator-range">85 – 131</div>
-          <div class="translator-desc">Slow to mid-tempo drift. Think gentle walking pace</div>
-        </div>
-        <div class="translator-item">
-          <div class="feature-label">Duration</div>
-          <div class="translator-range">3 – 5 min</div>
-          <div class="translator-desc">Standard streaming length. Sweet spot for Spotify play counts</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Prompt Template -->
-    <div class="chart-card full">
-      <div class="chart-title">Prompt Template — Ready to Copy</div>
-      <div class="chart-analysis">A complete music generation prompt built from the data above. Copy and adapt for Suno, Udio, or any AI music service.</div>
-      <div class="code-block" id="promptBlock">
-        <button class="copy-btn" onclick="copyBlock('promptBlock')">Copy</button>
-        <pre>Create a 4-minute ambient track at 100 BPM in a major key.
-
-Instrumentation: Piano or acoustic guitar as the primary instrument,
-layered with soft synth pads and subtle string textures. Reverb-heavy,
-with gentle delay and possible drone undertones.
-
-Mood: Melancholic and contemplative, with an expansive atmosphere.
-Think Ludovico Einaudi meets Ólafur Arnalds — emotionally restrained
-but deeply felt.
-
-Dynamics: Static to slowly building. Low energy (15-35%), minimal
-rhythmic pulse. Let the piece breathe and evolve gradually.
-
-Production: Clean acoustic recording with generous reverb tail. Organic
-textures preferred over digital synthesis. Moderate stereo width.
-
-Reference artists: Novo Amor, Max Richter, Nils Frahm, Bon Iver</pre>
-      </div>
-    </div>
-
-    <!-- Genre Recipe JSON -->
-    <div class="chart-card full">
-      <div class="chart-title">Genre Recipe — Structured JSON for AI Agents</div>
-      <div class="chart-analysis">A machine-readable genre profile that AI agents can parse directly for automated music generation pipelines. Copy this into your agent's context or API call.</div>
-      <div class="code-block" id="jsonBlock">
-        <button class="copy-btn" onclick="copyBlock('jsonBlock')">Copy</button>
-        <pre>{
-  <span class="json-key">"genre"</span>: <span class="json-string">"ambient"</span>,
-  <span class="json-key">"target_features"</span>: {
-    <span class="json-key">"energy"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.06</span>, <span class="json-key">"target"</span>: <span class="json-number">0.25</span>, <span class="json-key">"max"</span>: <span class="json-number">0.42</span> },
-    <span class="json-key">"valence"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.09</span>, <span class="json-key">"target"</span>: <span class="json-number">0.17</span>, <span class="json-key">"max"</span>: <span class="json-number">0.28</span> },
-    <span class="json-key">"acousticness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.50</span>, <span class="json-key">"target"</span>: <span class="json-number">0.91</span>, <span class="json-key">"max"</span>: <span class="json-number">0.98</span> },
-    <span class="json-key">"instrumentalness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.11</span>, <span class="json-key">"target"</span>: <span class="json-number">0.83</span>, <span class="json-key">"max"</span>: <span class="json-number">0.91</span> },
-    <span class="json-key">"danceability"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.30</span>, <span class="json-key">"target"</span>: <span class="json-number">0.40</span>, <span class="json-key">"max"</span>: <span class="json-number">0.46</span> },
-    <span class="json-key">"speechiness"</span>: { <span class="json-key">"min"</span>: <span class="json-number">0.03</span>, <span class="json-key">"target"</span>: <span class="json-number">0.03</span>, <span class="json-key">"max"</span>: <span class="json-number">0.04</span> },
-    <span class="json-key">"tempo_bpm"</span>: { <span class="json-key">"min"</span>: <span class="json-number">85</span>, <span class="json-key">"target"</span>: <span class="json-number">107</span>, <span class="json-key">"max"</span>: <span class="json-number">131</span> },
-    <span class="json-key">"duration_seconds"</span>: { <span class="json-key">"min"</span>: <span class="json-number">180</span>, <span class="json-key">"target"</span>: <span class="json-number">270</span>, <span class="json-key">"max"</span>: <span class="json-number">300</span> }
-  },
-  <span class="json-key">"key_preferences"</span>: [<span class="json-string">"C#/Db"</span>, <span class="json-string">"G"</span>, <span class="json-string">"C"</span>, <span class="json-string">"E"</span>],
-  <span class="json-key">"mode"</span>: <span class="json-string">"major"</span>,
-  <span class="json-key">"instrumentation"</span>: {
-    <span class="json-key">"primary"</span>: [<span class="json-string">"piano"</span>, <span class="json-string">"acoustic guitar"</span>],
-    <span class="json-key">"secondary"</span>: [<span class="json-string">"synth pad"</span>, <span class="json-string">"strings"</span>, <span class="json-string">"male vocals"</span>],
-    <span class="json-key">"effects"</span>: [<span class="json-string">"reverb tail"</span>, <span class="json-string">"drone"</span>, <span class="json-string">"delay"</span>, <span class="json-string">"bell tones"</span>]
-  },
-  <span class="json-key">"mood"</span>: {
-    <span class="json-key">"primary"</span>: <span class="json-string">"melancholic"</span>,
-    <span class="json-key">"secondary"</span>: [<span class="json-string">"peaceful"</span>, <span class="json-string">"dreamy"</span>, <span class="json-string">"nostalgic"</span>],
-    <span class="json-key">"atmosphere"</span>: [<span class="json-string">"expansive"</span>, <span class="json-string">"intimate"</span>]
-  },
-  <span class="json-key">"production"</span>: {
-    <span class="json-key">"texture"</span>: <span class="json-string">"layered"</span>,
-    <span class="json-key">"style"</span>: <span class="json-string">"reverb-heavy ambient pads"</span>,
-    <span class="json-key">"dynamics"</span>: <span class="json-string">"static to slowly building"</span>,
-    <span class="json-key">"stereo_width"</span>: <span class="json-string">"moderate"</span>,
-    <span class="json-key">"harmonic_complexity"</span>: <span class="json-string">"moderate progressions"</span>,
-    <span class="json-key">"rhythm"</span>: <span class="json-string">"subtle pulse or none"</span>
-  },
-  <span class="json-key">"reference_artists"</span>: [<span class="json-string">"Bon Iver"</span>, <span class="json-string">"Ludovico Einaudi"</span>, <span class="json-string">"Iron &amp; Wine"</span>, <span class="json-string">"Nils Frahm"</span>, <span class="json-string">"Ólafur Arnalds"</span>, <span class="json-string">"Max Richter"</span>]
-}</pre>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- ════════════════════════════════════════════════ What Makes a Hit ════ -->
   <div class="section-label"><h2>What Makes a Hit</h2></div>
 
   <div class="charts-grid">
