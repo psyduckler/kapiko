@@ -1030,6 +1030,116 @@ ul { list-style: none; }
   }
 }
 
+/* === Developers / API Section === */
+.developers-section {
+  background: linear-gradient(180deg,
+    var(--cream-mid) 0%,
+    var(--cream) 100%);
+}
+
+.api-features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+.api-feature-card {
+  background: var(--white);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 28px 28px 24px;
+  box-shadow: 0 2px 12px var(--shadow-warm);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.api-feature-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(232, 150, 122, 0.25);
+  box-shadow: 0 8px 28px rgba(74, 63, 53, 0.12);
+}
+
+.api-feature-icon {
+  font-size: 1.5rem;
+  color: var(--coral);
+  margin-bottom: 14px;
+  line-height: 1;
+}
+
+.api-feature-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--charcoal);
+  margin-bottom: 10px;
+}
+
+.api-feature-card p {
+  font-size: 0.875rem;
+  color: var(--charcoal-muted);
+  line-height: 1.7;
+}
+
+.api-cta-block {
+  background: var(--white);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 24px var(--shadow-warm);
+  overflow: hidden;
+}
+
+.api-cta-inner {
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.api-cta-code {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: 'Courier New', 'Fira Code', monospace;
+  font-size: 0.825rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.api-code-line {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.api-code-method {
+  color: var(--sage);
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.api-code-url {
+  color: var(--coral);
+}
+
+.api-code-response {
+  color: var(--charcoal-muted);
+  font-size: 0.78rem;
+}
+
+@media (max-width: 700px) {
+  .api-features-grid {
+    grid-template-columns: 1fr;
+  }
+  .api-cta-inner {
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 /* === Scrollbar === */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--cream); }

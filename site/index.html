@@ -25,6 +25,7 @@
       <ul class="nav-links">
         <li><a href="#music">music</a></li>
         <li><a href="#about">about</a></li>
+        <li><a href="#developers">api</a></li>
         <li><a href="#listen">listen</a></li>
       </ul>
     </div>
@@ -181,6 +182,50 @@
     </div>
   </section>
 
+  <!-- Developers Section -->
+  <section class="section developers-section" id="developers">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">◈ open platform</span>
+        <h2 class="section-title">music intelligence API</h2>
+        <p class="section-desc">kapiko is more than a music artist — it's a platform for exploring ambient music through data. Access Spotify audio features, genre analytics, and track comparisons through our free REST API.</p>
+      </div>
+
+      <div class="api-features-grid fade-in">
+        <div class="api-feature-card">
+          <div class="api-feature-icon">◎</div>
+          <h3>Audio Feature Data</h3>
+          <p>Energy, valence, tempo, acousticness, danceability and more — sourced from Spotify's audio analysis for 100 top ambient tracks.</p>
+        </div>
+        <div class="api-feature-card">
+          <div class="api-feature-icon">∿</div>
+          <h3>Genre Analytics</h3>
+          <p>Genre-level averages, feature distributions, and top artists — everything you need to understand what makes ambient music ambient.</p>
+        </div>
+        <div class="api-feature-card">
+          <div class="api-feature-icon">⊕</div>
+          <h3>Track Comparison</h3>
+          <p>Compare any track's audio fingerprint against a genre benchmark and see how it stacks up across every feature.</p>
+        </div>
+        <div class="api-feature-card">
+          <div class="api-feature-icon">✦</div>
+          <h3>Open Access</h3>
+          <p>No API key, no sign-up, no rate limits during beta. Built on Cloudflare Workers — globally fast, always available.</p>
+        </div>
+      </div>
+
+      <div class="api-cta-block fade-in">
+        <div class="api-cta-inner">
+          <div class="api-cta-code">
+            <span class="api-code-line"><span class="api-code-method">GET</span> <span class="api-code-url">https://api.kapiko.ai/api/v1/genres/ambient</span></span>
+            <span class="api-code-line api-code-response">→ { "avg_energy": 0.28, "avg_valence": 0.19, "track_count": 100 }</span>
+          </div>
+          <a href="api/" class="btn btn-primary">read the docs</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Listen Section -->
   <section class="section listen-section" id="listen">
     <div class="container">
@@ -265,7 +310,9 @@
             <li><a href="#hero">home</a></li>
             <li><a href="#music">music</a></li>
             <li><a href="#about">about</a></li>
+            <li><a href="#developers">api</a></li>
             <li><a href="#listen">listen</a></li>
+            <li><a href="api/">api docs</a></li>
           </ul>
         </div>
         <div class="footer-social">

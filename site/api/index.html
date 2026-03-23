@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>kapiko API — Music Intelligence for Developers</title>
+  <meta name="description" content="The kapiko Music Intelligence API provides Spotify audio feature data and genre analytics for ambient and lo-fi music. Free, open access during beta." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    /* === API Docs Overrides === */
+    :root {
+      --mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+
+    body { background: var(--cream); }
+
+    /* Docs layout */
+    .docs-layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: 100vh;
+      padding-top: 64px;
+    }
+
+    /* Sidebar */
+    .docs-sidebar {
+      position: sticky;
+      top: 64px;
+      height: calc(100vh - 64px);
+      overflow-y: auto;
+      border-right: 1px solid var(--card-border);
+      background: var(--cream-mid);
+      padding: 32px 0;
+    }
+
+    .sidebar-section {
+      margin-bottom: 28px;
+      padding: 0 24px;
+    }
+
+    .sidebar-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--coral-dim);
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .sidebar-links {
+      list-style: none;
+    }
+
+    .sidebar-links li a {
+      display: block;
+      font-size: 0.825rem;
+      color: var(--charcoal-muted);
+      padding: 5px 0;
+      transition: color var(--transition);
+      font-family: var(--mono);
+    }
+
+    .sidebar-links li a:hover,
+    .sidebar-links li a.active {
+      color: var(--coral);
+    }
+
+    /* Main content */
+    .docs-content {
+      padding: 48px 64px 96px;
+      max-width: 860px;
+    }
+
+    /* Hero */
+    .docs-hero {
+      margin-bottom: 56px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .docs-hero .section-label {
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .docs-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      color: var(--charcoal);
+      margin-bottom: 16px;
+      line-height: 1.1;
+    }
+
+    .docs-hero h1 span { color: var(--coral); }
+
+    .docs-hero p {
+      font-size: 1.1rem;
+      color: var(--charcoal-mid);
+      max-width: 560px;
+      line-height: 1.8;
+      margin-bottom: 24px;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }
+
+    .badge-green {
+      background: rgba(155, 181, 160, 0.15);
+      color: var(--sage);
+      border: 1px solid rgba(155, 181, 160, 0.35);
+    }
+
+    .badge-coral {
+      background: rgba(232, 150, 122, 0.10);
+      color: var(--coral-dim);
+      border: 1px solid rgba(232, 150, 122, 0.25);
+    }
+
+    /* Sections */
+    .docs-section {
+      margin-bottom: 64px;
+    }
+
+    .docs-section h2 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: var(--charcoal);
+      margin-bottom: 8px;
+    }
+
+    .docs-section h3 {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin: 28px 0 10px;
+    }
+
+    .docs-section > p,
+    .docs-section > ul {
+      color: var(--charcoal-mid);
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .docs-section > ul {
+      padding-left: 20px;
+    }
+
+    .docs-section > ul li {
+      margin-bottom: 6px;
+    }
+
+    /* Endpoint cards */
+    .endpoint-card {
+      background: var(--white);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 12px var(--shadow-warm);
+    }
+
+    .endpoint-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 24px;
+      background: var(--cream-mid);
+      border-bottom: 1px solid var(--card-border);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .endpoint-header:hover { background: var(--cream-warm); }
+
+    .method-badge {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 4px;
+      background: rgba(155, 181, 160, 0.2);
+      color: #5a8f6a;
+      border: 1px solid rgba(155, 181, 160, 0.4);
+      flex-shrink: 0;
+    }
+
+    .endpoint-path {
+      font-family: var(--mono);
+      font-size: 0.875rem;
+      color: var(--charcoal);
+      font-weight: 500;
+      flex: 1;
+    }
+
+    .endpoint-desc {
+      font-size: 0.8rem;
+      color: var(--charcoal-muted);
+      flex-shrink: 0;
+    }
+
+    .endpoint-body {
+      padding: 24px;
+    }
+
+    .endpoint-body p {
+      font-size: 0.9rem;
+      color: var(--charcoal-mid);
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+
+    /* Params table */
+    .params-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.825rem;
+      margin-bottom: 20px;
+    }
+
+    .params-table th {
+      text-align: left;
+      padding: 8px 12px;
+      background: var(--cream);
+      color: var(--charcoal-muted);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .params-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(74, 63, 53, 0.05);
+      vertical-align: top;
+      color: var(--charcoal-mid);
+    }
+
+    .params-table td:first-child {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--coral-dim);
+      white-space: nowrap;
+    }
+
+    .params-table td .optional {
+      font-size: 0.65rem;
+      color: var(--charcoal-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-left: 6px;
+    }
+
+    /* Code blocks */
+    .code-block {
+      background: var(--charcoal);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+
+    .code-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      background: rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .code-lang {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.4);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .code-copy {
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.4);
+      cursor: pointer;
+      background: none;
+      border: none;
+      font-family: var(--font-body);
+      padding: 2px 6px;
+      border-radius: 3px;
+      transition: all 0.2s;
+    }
+
+    .code-copy:hover {
+      background: rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.7);
+    }
+
+    .code-block pre {
+      padding: 16px;
+      margin: 0;
+      overflow-x: auto;
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      line-height: 1.6;
+      color: #e8d5a3;
+    }
+
+    /* Try it button */
+    .try-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      background: rgba(232, 150, 122, 0.10);
+      color: var(--coral-dim);
+      border: 1px solid rgba(232, 150, 122, 0.25);
+      cursor: pointer;
+      transition: all var(--transition);
+      font-family: var(--font-body);
+    }
+
+    .try-btn:hover {
+      background: rgba(232, 150, 122, 0.18);
+      border-color: var(--coral);
+      color: var(--coral);
+    }
+
+    .try-btn svg { width: 14px; height: 14px; }
+
+    .try-result {
+      margin-top: 12px;
+      display: none;
+    }
+
+    .try-result.visible { display: block; }
+
+    .try-result pre {
+      background: var(--charcoal);
+      color: #9bb5a0;
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      line-height: 1.55;
+      padding: 16px;
+      border-radius: var(--radius);
+      overflow-x: auto;
+      max-height: 320px;
+      overflow-y: auto;
+    }
+
+    .try-loading {
+      color: var(--charcoal-muted);
+      font-size: 0.85rem;
+      padding: 12px 0;
+    }
+
+    /* Info cards */
+    .info-card {
+      background: var(--white);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+
+    .info-card h4 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin-bottom: 8px;
+    }
+
+    .info-card p {
+      font-size: 0.875rem;
+      color: var(--charcoal-muted);
+      line-height: 1.6;
+    }
+
+    /* Feature table */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .feature-item {
+      padding: 14px 16px;
+      background: var(--cream-mid);
+      border-radius: var(--radius);
+      border: 1px solid var(--card-border);
+    }
+
+    .feature-item .fname {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--coral-dim);
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .feature-item .fdesc {
+      font-size: 0.78rem;
+      color: var(--charcoal-muted);
+      line-height: 1.5;
+    }
+
+    /* Base URL bar */
+    .base-url-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--cream-mid);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 12px 18px;
+      margin-bottom: 32px;
+    }
+
+    .base-url-bar .label {
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--charcoal-muted);
+      flex-shrink: 0;
+    }
+
+    .base-url-bar .url {
+      font-family: var(--mono);
+      font-size: 0.875rem;
+      color: var(--coral);
+      font-weight: 500;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .docs-layout {
+        grid-template-columns: 1fr;
+      }
+      .docs-sidebar {
+        position: static;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--card-border);
+        padding: 20px 0;
+      }
+      .sidebar-section {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        margin-bottom: 12px;
+      }
+      .sidebar-label { margin-bottom: 0; }
+      .sidebar-links { display: flex; gap: 12px; flex-wrap: wrap; }
+      .sidebar-links li a { padding: 2px 0; }
+      .docs-content { padding: 32px 24px 64px; }
+    }
+
+    @media (max-width: 600px) {
+      .feature-grid { grid-template-columns: 1fr; }
+      .endpoint-desc { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">kapiko</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#music">music</a></li>
+        <li><a href="../index.html#about">about</a></li>
+        <li><a href="../index.html#listen">listen</a></li>
+        <li><a href="../api/" style="color: var(--coral);">api</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="docs-layout">
+
+    <!-- Sidebar -->
+    <aside class="docs-sidebar">
+      <div class="sidebar-section">
+        <span class="sidebar-label">Getting Started</span>
+        <ul class="sidebar-links">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#base-url">Base URL</a></li>
+          <li><a href="#response-format">Response Format</a></li>
+          <li><a href="#authentication">Authentication</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <span class="sidebar-label">Endpoints</span>
+        <ul class="sidebar-links">
+          <li><a href="#stats">GET /stats</a></li>
+          <li><a href="#genres-list">GET /genres</a></li>
+          <li><a href="#genres-detail">GET /genres/:genre</a></li>
+          <li><a href="#genres-tracks">GET /genres/:genre/tracks</a></li>
+          <li><a href="#tracks-list">GET /tracks</a></li>
+          <li><a href="#tracks-detail">GET /tracks/:id</a></li>
+          <li><a href="#compare">GET /compare</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <span class="sidebar-label">Reference</span>
+        <ul class="sidebar-links">
+          <li><a href="#audio-features">Audio Features</a></li>
+          <li><a href="#genres-ref">Available Genres</a></li>
+          <li><a href="#errors">Errors</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="docs-content">
+
+      <!-- Hero -->
+      <div class="docs-hero">
+        <span class="section-label">◈ developer docs</span>
+        <h1><span>kapiko</span> Music Intelligence API</h1>
+        <p>Explore Spotify audio feature data for ambient and lo-fi music genres. Built on Cloudflare Workers + D1 — fast, globally distributed, and free to use during beta.</p>
+        <div class="badge-row">
+          <span class="badge badge-green">No API key required</span>
+          <span class="badge badge-green">Open access during beta</span>
+          <span class="badge badge-coral">100 ambient tracks</span>
+          <span class="badge badge-coral">8 audio features per track</span>
+        </div>
+      </div>
+
+      <!-- Overview -->
+      <div class="docs-section" id="overview">
+        <h2>Overview</h2>
+        <p>The kapiko API lets you query curated music datasets with Spotify audio features. It's designed for music researchers, playlist builders, mood-based interfaces, and creative applications that want to work with real acoustic data.</p>
+        <p>Current data includes 100 top ambient tracks sourced from Spotify, with full audio feature analysis including energy, valence, tempo, acousticness, danceability and more.</p>
+      </div>
+
+      <!-- Base URL -->
+      <div class="docs-section" id="base-url">
+        <h2>Base URL</h2>
+        <div class="base-url-bar">
+          <span class="label">Base URL</span>
+          <span class="url">https://api.kapiko.ai/api/v1</span>
+        </div>
+        <p>All endpoints are relative to this base URL. The API only accepts <code>GET</code> requests and returns JSON.</p>
+      </div>
+
+      <!-- Response Format -->
+      <div class="docs-section" id="response-format">
+        <h2>Response Format</h2>
+        <p>All responses use a consistent JSON envelope:</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span class="code-lang">json</span>
+          </div>
+          <pre>{
+  "data": { ... },         // the actual payload
+  "meta": {               // present on list endpoints
+    "total": 100,
+    "limit": 20,
+    "offset": 0
+  }
+}</pre>
+        </div>
+        <p>Error responses use:</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span class="code-lang">json</span>
+          </div>
+          <pre>{
+  "error": "Track not found",
+  "status": 404
+}</pre>
+        </div>
+      </div>
+
+      <!-- Authentication -->
+      <div class="docs-section" id="authentication">
+        <h2>Authentication</h2>
+        <div class="info-card">
+          <h4>No authentication required</h4>
+          <p>The API is fully open during beta. No API key, no registration. Just make requests and get data.</p>
+        </div>
+        <div class="info-card">
+          <h4>Rate limits</h4>
+          <p>No rate limits enforced during beta. Please be reasonable — cache responses where possible.</p>
+        </div>
+        <p>CORS is enabled for all origins, so you can call the API directly from any browser-side JavaScript application.</p>
+      </div>
+
+      <!-- ENDPOINTS -->
+
+      <!-- Stats -->
+      <div class="docs-section" id="stats">
+        <h2>Global Stats</h2>
+
+        <div class="endpoint-card">
+          <div class="endpoint-header">
+            <span class="method-badge">GET</span>
+            <span class="endpoint-path">/api/v1/stats</span>
+            <span class="endpoint-desc">Global database summary</span>
+          </div>
+          <div class="endpoint-body">
+            <p>Returns global statistics — total track and genre counts, and cross-database average audio features.</p>
+            <div class="code-block">
+              <div class="code-header">
+                <span class="code-lang">request</span>
+              </div>
+              <pre>GET https://api.kapiko.ai/api/v1/stats</pre>
+            </div>
+            <div class="code-block">
+              <div class="code-header">
+                <span class="code-lang">response</span>
+              </div>
+              <pre>{
+  "data": {
+    "totals": { "tracks": 100, "genres": 1 },
+    "global_averages": {
+      "avg_tempo": 108.76,
+      "avg_energy": 0.28,
+      "avg_valence": 0.19,
+      "avg_loudness": -16.72,
+      "avg_acousticness": 0.703,
+      "avg_danceability": 0.385,
+      "avg_instrumentalness": 0.568,
+      "avg_speechiness": 0.037,
+      "avg_liveness": 0.121
+    },
+    "genres": [
+      { "id": "ambient", "name": "Ambient", "track_count": 100 }
+    ]
+  }
+}</pre>
+            </div>
+            <button class="try-btn" onclick="tryIt(this, 'https://api.kapiko.ai/api/v1/stats')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Try it live
+            </button>
+            <div class="try-result"><pre></pre></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Genres list -->
+      <div class="docs-section" id="genres-list">
+        <h2>Genres</h2>
+
+        <div class="endpoint-card">
+          <div class="endpoint-header">
+            <span class="method-badge">GET</span>
+            <span class="endpoint-path">/api/v1/genres</span>
+            <span class="endpoint-desc">List all genres</span>
+          </div>
+          <div class="endpoint-body">
+            <p>Returns all genres with their summary statistics and average audio features.</p>
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">response</span></div>
+              <pre>{
+  "data": [
+    {
+      "id": "ambient",
+      "name": "Ambient",
+      "description": "Atmospheric, textural music...",
+      "track_count": 100,
+      "avg_tempo": 108.7634,
+      "avg_energy": 0.2799,
+      "avg_valence": 0.1901,
+      "avg_loudness": -16.7229,
+      "avg_acousticness": 0.703,
+      "avg_danceability": 0.3851,
+      "avg_instrumentalness": 0.5681,
+      "avg_speechiness": 0.0367,
+      "updated_at": "2026-03-22T00:00:00"
+    }
+  ],
+  "meta": { "total": 1 }
+}</pre>
+            </div>
+            <button class="try-btn" onclick="tryIt(this, 'https://api.kapiko.ai/api/v1/genres')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Try it live
+            </button>
+            <div class="try-result"><pre></pre></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Genre detail -->
+      <div class="docs-section" id="genres-detail">
+        <div class="endpoint-card">
+          <div class="endpoint-header">
+            <span class="method-badge">GET</span>
+            <span class="endpoint-path">/api/v1/genres/:genre</span>
+            <span class="endpoint-desc">Detailed genre analytics</span>
+          </div>
+          <div class="endpoint-body">
+            <p>Returns detailed analytics for a single genre including feature distributions and top artists.</p>
+
+            <h3>Path parameters</h3>
+            <table class="params-table">
+              <thead><tr><th>Parameter</th><th>Description</th></tr></thead>
+              <tbody>
+                <tr><td>genre</td><td>Genre ID (e.g. <code>ambient</code>)</td></tr>
+              </tbody>
+            </table>
+
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">request</span></div>
+              <pre>GET https://api.kapiko.ai/api/v1/genres/ambient</pre>
+            </div>
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">response</span></div>
+              <pre>{
+  "data": {
+    "genre": { "id": "ambient", "name": "Ambient", ... },
+    "distributions": {
+      "energy": [
+        { "bucket": 0, "count": 12 },
+        { "bucket": 10, "count": 8 },
+        ...
+      ],
+      "tempo": [ ... ],
+      "valence": [ ... ]
+    },
+    "top_artists": [
+      { "artists": "Cigarettes After Sex", "track_count": 22 },
+      { "artists": "Ludovico Einaudi", "track_count": 14 },
+      ...
+    ]
+  }
+}</pre>
+            </div>
+            <button class="try-btn" onclick="tryIt(this, 'https://api.kapiko.ai/api/v1/genres/ambient')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Try it live
+            </button>
+            <div class="try-result"><pre></pre></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Genre tracks -->
+      <div class="docs-section" id="genres-tracks">
+        <div class="endpoint-card">
+          <div class="endpoint-header">
+            <span class="method-badge">GET</span>
+            <span class="endpoint-path">/api/v1/genres/:genre/tracks</span>
+            <span class="endpoint-desc">Tracks in a genre</span>
+          </div>
+          <div class="endpoint-body">
+            <p>Returns paginated tracks belonging to a genre, with optional sorting.</p>
+
+            <h3>Query parameters</h3>
+            <table class="params-table">
+              <thead><tr><th>Parameter</th><th>Type</th><th>Description</th></tr></thead>
+              <tbody>
+                <tr><td>limit <span class="optional">optional</span></td><td>integer</td><td>Tracks per page, max 100. Default: 20</td></tr>
+                <tr><td>offset <span class="optional">optional</span></td><td>integer</td><td>Pagination offset. Default: 0</td></tr>
+                <tr><td>sort <span class="optional">optional</span></td><td>string</td><td>Sort field: <code>popularity</code>, <code>energy</code>, <code>tempo</code>, <code>valence</code>, <code>name</code>. Default: <code>popularity</code></td></tr>
+              </tbody>
+            </table>
+
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">request</span></div>
+              <pre>GET https://api.kapiko.ai/api/v1/genres/ambient/tracks?limit=5&sort=energy</pre>
+            </div>
+            <button class="try-btn" onclick="tryIt(this, 'https://api.kapiko.ai/api/v1/genres/ambient/tracks?limit=5&sort=energy')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Try it live
+            </button>
+            <div class="try-result"><pre></pre></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tracks list -->
+      <div class="docs-section" id="tracks-list">
+        <h2>Tracks</h2>
+
+        <div class="endpoint-card">
+          <div class="endpoint-header">
+            <span class="method-badge">GET</span>
+            <span class="endpoint-path">/api/v1/tracks</span>
+            <span class="endpoint-desc">Search &amp; browse tracks</span>
+          </div>
+          <div class="endpoint-body">
+            <p>Search and filter tracks by audio features, genre, artist and more. Results are paginated.</p>
+
+            <h3>Query parameters</h3>
+            <table class="params-table">
+              <thead><tr><th>Parameter</th><th>Type</th><th>Description</th></tr></thead>
+              <tbody>
+                <tr><td>genre <span class="optional">optional</span></td><td>string</td><td>Filter by genre ID (e.g. <code>ambient</code>)</td></tr>
+                <tr><td>artist <span class="optional">optional</span></td><td>string</td><td>Filter by artist name (partial match)</td></tr>
+                <tr><td>min_energy <span class="optional">optional</span></td><td>float</td><td>Minimum energy (0.0–1.0)</td></tr>
+                <tr><td>max_energy <span class="optional">optional</span></td><td>float</td><td>Maximum energy (0.0–1.0)</td></tr>
+                <tr><td>min_tempo <span class="optional">optional</span></td><td>float</td><td>Minimum BPM</td></tr>
+                <tr><td>max_tempo <span class="optional">optional</span></td><td>float</td><td>Maximum BPM</td></tr>
+                <tr><td>key <span class="optional">optional</span></td><td>integer</td><td>Musical key (0=C, 1=C#, … 11=B)</td></tr>
+                <tr><td>mode <span class="optional">optional</span></td><td>integer</td><td>0 = minor, 1 = major</td></tr>
+                <tr><td>sort <span class="optional">optional</span></td><td>string</td><td><code>popularity</code>, <code>energy</code>, <code>energy_asc</code>, <code>tempo</code>, <code>tempo_asc</code>, <code>valence</code>, <code>name</code></td></tr>
+                <tr><td>limit <span class="optional">optional</span></td><td>integer</td><td>Max 100. Default: 20</td></tr>
+                <tr><td>offset <span class="optional">optional</span></td><td>integer</td><td>Default: 0</td></tr>
+              </tbody>
+            </table>
+
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">request — low energy ambient</span></div>
+              <pre>GET https://api.kapiko.ai/api/v1/tracks?genre=ambient&max_energy=0.1&sort=energy_asc&limit=5</pre>
+            </div>
+            <button class="try-btn" onclick="tryIt(this, 'https://api.kapiko.ai/api/v1/tracks?genre=ambient&max_energy=0.1&sort=energy_asc&limit=5')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Try it live
+            </button>
+            <div class="try-result"><pre></pre></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Track detail -->
+      <div class="docs-section" id="tracks-detail">
+        <div class="endpoint-card">
+          <div class="endpoint-header">
+            <span class="method-badge">GET</span>
+            <span class="endpoint-path">/api/v1/tracks/:id</span>
+            <span class="endpoint-desc">Single track</span>
+          </div>
+          <div class="endpoint-body">
+            <p>Returns a single track with all audio features and genre name.</p>
+
+            <h3>Path parameters</h3>
+            <table class="params-table">
+              <thead><tr><th>Parameter</th><th>Description</th></tr></thead>
+              <tbody>
+                <tr><td>id</td><td>Spotify track ID (e.g. <code>0yc6Gst2xkRu0eMLeRMGCX</code>)</td></tr>
+              </tbody>
+            </table>
+
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">request</span></div>
+              <pre>GET https://api.kapiko.ai/api/v1/tracks/0yc6Gst2xkRu0eMLeRMGCX</pre>
+            </div>
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">response</span></div>
+              <pre>{
+  "data": {
+    "id": "0yc6Gst2xkRu0eMLeRMGCX",
+    "name": "Apocalypse",
+    "artists": "Cigarettes After Sex",
+    "album": "Cigarettes After Sex",
+    "genre_id": "ambient",
+    "genre_name": "Ambient",
+    "popularity": 84,
+    "duration_ms": 290616,
+    "tempo": 94.485,
+    "energy": 0.467,
+    "valence": 0.182,
+    "loudness": -9.013,
+    "acousticness": 0.0205,
+    "danceability": 0.37,
+    "instrumentalness": 0.572,
+    "speechiness": 0.0273,
+    "liveness": 0.109,
+    "key": 5,
+    "mode": 1,
+    "time_signature": 4,
+    "source": "spotify"
+  }
+}</pre>
+            </div>
+            <button class="try-btn" onclick="tryIt(this, 'https://api.kapiko.ai/api/v1/tracks/0yc6Gst2xkRu0eMLeRMGCX')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Try it live
+            </button>
+            <div class="try-result"><pre></pre></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compare -->
+      <div class="docs-section" id="compare">
+        <h2>Compare</h2>
+
+        <div class="endpoint-card">
+          <div class="endpoint-header">
+            <span class="method-badge">GET</span>
+            <span class="endpoint-path">/api/v1/compare</span>
+            <span class="endpoint-desc">Track vs genre benchmark</span>
+          </div>
+          <div class="endpoint-body">
+            <p>Compares a track's audio features against a genre's average, showing the delta and a human-readable label for each feature.</p>
+
+            <h3>Query parameters</h3>
+            <table class="params-table">
+              <thead><tr><th>Parameter</th><th>Type</th><th>Description</th></tr></thead>
+              <tbody>
+                <tr><td>track_id</td><td>string</td><td>Spotify track ID</td></tr>
+                <tr><td>genre</td><td>string</td><td>Genre ID to compare against</td></tr>
+              </tbody>
+            </table>
+
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">request</span></div>
+              <pre>GET https://api.kapiko.ai/api/v1/compare?track_id=0yc6Gst2xkRu0eMLeRMGCX&genre=ambient</pre>
+            </div>
+            <div class="code-block">
+              <div class="code-header"><span class="code-lang">response</span></div>
+              <pre>{
+  "data": {
+    "track": { "id": "0yc6Gst2xkRu0eMLeRMGCX", "name": "Apocalypse", ... },
+    "genre": { "id": "ambient", "name": "Ambient", ... },
+    "comparison": {
+      "energy": {
+        "track_value": 0.467,
+        "genre_avg": 0.2799,
+        "delta": 0.1871,
+        "percentile_label": "above average"
+      },
+      "valence": {
+        "track_value": 0.182,
+        "genre_avg": 0.1901,
+        "delta": -0.0081,
+        "percentile_label": "near average"
+      },
+      "tempo": { ... },
+      "loudness": { ... },
+      "acousticness": { ... },
+      "danceability": { ... },
+      "instrumentalness": { ... },
+      "speechiness": { ... }
+    }
+  }
+}</pre>
+            </div>
+            <button class="try-btn" onclick="tryIt(this, 'https://api.kapiko.ai/api/v1/compare?track_id=0yc6Gst2xkRu0eMLeRMGCX&genre=ambient')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Try it live
+            </button>
+            <div class="try-result"><pre></pre></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audio Features Reference -->
+      <div class="docs-section" id="audio-features">
+        <h2>Audio Features Reference</h2>
+        <p>All audio features are sourced from Spotify's audio analysis API (collected before deprecation). Values are floats unless otherwise noted.</p>
+
+        <div class="feature-grid">
+          <div class="feature-item">
+            <div class="fname">energy</div>
+            <div class="fdesc">0.0–1.0. Perceptual intensity and activity. High energy = loud, fast, noisy.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">valence</div>
+            <div class="fdesc">0.0–1.0. Musical positiveness. High = happy/euphoric; low = sad/tense.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">tempo</div>
+            <div class="fdesc">Beats per minute (BPM). Estimated overall tempo of the track.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">loudness</div>
+            <div class="fdesc">Overall loudness in dB. Typically –60 to 0 dB. More negative = quieter.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">acousticness</div>
+            <div class="fdesc">0.0–1.0. Confidence that the track is acoustic. 1.0 = fully acoustic.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">danceability</div>
+            <div class="fdesc">0.0–1.0. How suitable for dancing based on tempo, rhythm stability, beat.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">instrumentalness</div>
+            <div class="fdesc">0.0–1.0. Predicts whether a track contains no vocals. &gt;0.5 = likely instrumental.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">speechiness</div>
+            <div class="fdesc">0.0–1.0. Presence of spoken words. &gt;0.66 = likely entirely speech.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">liveness</div>
+            <div class="fdesc">0.0–1.0. Probability of a live audience. &gt;0.8 = likely live recording.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">key</div>
+            <div class="fdesc">Integer 0–11. Pitch class notation: 0=C, 1=C#, 2=D, … 11=B.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">mode</div>
+            <div class="fdesc">0 = minor, 1 = major.</div>
+          </div>
+          <div class="feature-item">
+            <div class="fname">time_signature</div>
+            <div class="fdesc">Estimated beats per bar (3, 4, 5, etc.).</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Available Genres -->
+      <div class="docs-section" id="genres-ref">
+        <h2>Available Genres</h2>
+        <table class="params-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Tracks</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ambient</td>
+              <td>Ambient</td>
+              <td>100</td>
+              <td>Atmospheric, textural music with low energy and high acousticness</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>More genres are coming soon — lo-fi hip hop, classical piano, post-rock, and more.</p>
+      </div>
+
+      <!-- Errors -->
+      <div class="docs-section" id="errors">
+        <h2>Errors</h2>
+        <table class="params-table">
+          <thead>
+            <tr><th>Status</th><th>Meaning</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>400</td><td>Bad request — missing or invalid query parameters</td></tr>
+            <tr><td>404</td><td>Not found — genre or track ID does not exist</td></tr>
+            <tr><td>500</td><td>Internal server error</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // Nav scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+
+    // Try It buttons
+    async function tryIt(btn, url) {
+      const resultDiv = btn.nextElementSibling;
+      const pre = resultDiv.querySelector('pre');
+
+      if (resultDiv.classList.contains('visible')) {
+        resultDiv.classList.remove('visible');
+        return;
+      }
+
+      resultDiv.classList.add('visible');
+      pre.textContent = 'loading...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        pre.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        pre.textContent = 'Error: ' + (err instanceof Error ? err.message : String(err)) + '\n\n(The API worker must be deployed for live requests to work.)';
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    // Sidebar active link highlighting
+    const sections = document.querySelectorAll('[id]');
+    const sidebarLinks = document.querySelectorAll('.sidebar-links a');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          sidebarLinks.forEach(a => a.classList.remove('active'));
+          const active = document.querySelector(`.sidebar-links a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+
+    sections.forEach(s => observer.observe(s));
+  </script>
+</body>
+</html>
