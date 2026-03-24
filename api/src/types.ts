@@ -39,6 +39,8 @@ export interface Track {
   mode: number | null;
   time_signature: number | null;
   source: string;
+  billboard_year: number | null;
+  billboard_rank: number | null;
   created_at: string;
 }
 
@@ -69,6 +71,7 @@ export interface TrackQueryParams {
   sort?: string;
   limit?: string;
   offset?: string;
+  billboard_year?: string;
 }
 
 export interface CompareResult {

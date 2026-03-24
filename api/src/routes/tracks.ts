@@ -17,6 +17,7 @@ tracks.get('/', async (c) => {
     tempo_asc: 'tempo ASC',
     valence: 'valence DESC',
     name: 'name ASC',
+    billboard_rank: 'billboard_rank ASC',
   };
   const orderBy = allowedSorts[params.sort ?? ''] ?? 'popularity DESC';
 
@@ -59,6 +60,13 @@ tracks.get('/', async (c) => {
     if (modeNum === 0 || modeNum === 1) {
       conditions.push('mode = ?');
       bindings.push(modeNum);
+    }
+  }
+  if (params.billboard_year !== undefined) {
+    const yearNum = parseInt(params.billboard_year);
+    if (!isNaN(yearNum) && yearNum >= 2000 && yearNum <= 2020) {
+      conditions.push('billboard_year = ?');
+      bindings.push(yearNum);
     }
   }
 
