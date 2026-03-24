@@ -687,7 +687,23 @@
         "text": "Use AI music generators like Suno or Udio with genre-specific prompts. Key parameters for \ud83e\ude97 forro: BPM around 148.4, energy level around 83%, and valence around 79%. Visit the Prompt Lab section on this page for a ready-to-copy prompt template."
       }
     }
-  ]
+  ,
+    {
+      "@type": "Question",
+      "name": "What instruments are used in Forro music?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Forro music uses primarily electronic production (37.9% acousticness) with significant vocal content (0.0% instrumentalness shows moderate instrumental focus). Expect synthesizers and programmed beats alongside vocals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Forro music happy or sad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With a median valence of 78.6%, forro music is bright and emotionally uplifting. Combined with 68% major key usage, this is one of the happier-sounding genres."
+      }
+    }]
 }
 </script>
 </head>
@@ -758,6 +774,7 @@
 
     <p style="font-size:14px;color:#6b7099;line-height:1.7;margin-top:28px;max-width:700px">A data-driven breakdown of 🪗 forro music based on Spotify audio features and Gemini AI analysis of the top 100 tracks. Use these insights to understand what makes 🪗 forro music sound the way it does — and to generate your own.</p>
     <a href="#prompt-lab" style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;padding:10px 20px;background:rgba(78,205,196,0.1);border:1px solid rgba(78,205,196,0.25);border-radius:8px;color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:0.03em;transition:background 0.2s" onmouseover="this.style.background='rgba(78,205,196,0.2)'" onmouseout="this.style.background='rgba(78,205,196,0.1)'">Jump to Prompt Lab ↓</a>
+    <a href="analysis.json" download style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;margin-left:10px;padding:10px 20px;background:rgba(155,127,212,0.1);border:1px solid rgba(155,127,212,0.25);border-radius:8px;color:#9b7fd4;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:0.03em;transition:background 0.2s" onmouseover="this.style.background='rgba(155,127,212,0.2)'" onmouseout="this.style.background='rgba(155,127,212,0.1)'">Download Data (JSON) ↓</a>
   </div>
 </header>
 
@@ -766,8 +783,9 @@
   <nav aria-label="Table of contents" style="margin-bottom:36px;padding:20px 24px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:14px">
     <div style="font-size:10.5px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#6b7099;margin-bottom:12px">On This Page</div>
     <div style="display:flex;flex-wrap:wrap;gap:8px 20px">
-      <a href="#audio-dna" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Audio DNA</a>
+      <a href="#genre-profile" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Genre Profile</a>
       <a href="#prompt-lab" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Prompt Lab</a>
+      <a href="#audio-dna" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Audio DNA</a>
       <a href="#rhythm-tonality" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Rhythm &amp; Tonality</a>
       <a href="#ai-analysis" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">AI Audio Analysis</a>
       <a href="#emotional" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Emotional Fingerprint</a>
@@ -776,73 +794,20 @@
       <a href="#correlations" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Feature Correlations</a>
       <a href="#production" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Production Profile</a>
       <a href="#top-tracks" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Top Tracks</a>
+      <a href="#faq" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">FAQ</a>
     </div>
   </nav>
-  <!-- Audio DNA -->
-  <div class="section-label">
-    <h2>Audio DNA</h2>
+
+  <div class="section-label" id="genre-profile"><h2>Genre Profile</h2></div>
+  <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:28px 32px;margin-bottom:32px;max-width:800px">
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">Forro music is characterized by high energy that drives the music forward with force and momentum, with a median energy of 82.9%. The genre carries predominantly electronic production (37.9% acousticness), built on synthesized sounds and digital textures. Instrumentalness sits at 0.0%, while danceability registers at 64.3% — making it highly danceable. The emotional tone is bright, happy, and emotionally uplifting, with valence at 78.6%. Speechiness is virtually absent at 4.3%.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">The typical forro track moves at a uptempo drive of 148.4 BPM (±22.2). Tonally, C is the most common key (16 of 100 tracks), and 68% of tracks are in a major key — creating an overall sense of brightness and openness.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">The genre's sonic identity is shaped by artists like Zé Vaqueiro, Vitor Fernandes, Iguinho e Lulinha alongside Calcinha Preta, Os Barões Da Pisadinha. The typical track runs about 3.0 minutes, optimized for streaming attention spans.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8">Production-wise, forro sits at a median loudness of -4.4 dB — heavily compressed and maximally loud, typical of genres competing for streaming attention. Whether you're producing in the genre or analyzing it for AI music generation, these numbers provide a precise target for capturing the authentic forro sound.</p>
   </div>
 
-  <div class="chart-card">
-    <div class="chart-title">Feature Summary</div>
-    <div class="chart-analysis">
-      Lo-fi hip hop's signature sound profile: highly acoustic (63%) and instrumental (76%), with moderate danceability (62%) and subtle energy (33%). The genre maintains its introspective character through low valence (29%) while preserving enough rhythmic elements to keep listeners engaged.
-    </div>
-    <div class="feature-summary-inner">
-      <div class="chart-wrap">
-        <canvas id="chartRadar" width="300" height="300"></canvas>
-      </div>
-      <div class="feature-bars">
-        <div class="feature-item">
-          <div class="feature-label">Energy</div>
-          <div class="feature-val">33%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 33%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Valence</div>
-          <div class="feature-val">29%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 29%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Danceability</div>
-          <div class="feature-val">62%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 62%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Acousticness</div>
-          <div class="feature-val">63%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 63%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Instrumentalness</div>
-          <div class="feature-val">76%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 76%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Speechiness</div>
-          <div class="feature-val">5%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 5%"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Prompt Lab -->
-  <div class="section-label">
-    <h2>✨ Prompt Lab</h2>
-  </div>
+  <!-- Section: Prompt Lab -->
+  <div class="section-label" id="prompt-lab"><h2>Prompt Lab</h2></div>
 
   <div class="prompt-lab-section">
     
@@ -946,12 +911,74 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
       </div>
     </div>
   </div>
+  <!-- Section: Audio DNA -->
+  <div class="section-label" id="audio-dna"><h2>Audio DNA</h2></div>
 
-  <!-- Rhythm & Tonality -->
-  <div class="section-label">
-    <h2>Rhythm & Tonality</h2>
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> Six audio features define forro's fingerprint: Energy leads at 82.9%, while Instrumentalness sits at just 0.0% — a genre defined as much by what it lacks as what it contains.</p>
+  </div>
+  <div class="chart-card">
+    <div class="chart-title">Feature Summary</div>
+    <div class="chart-analysis">
+      Lo-fi hip hop's signature sound profile: highly acoustic (63%) and instrumental (76%), with moderate danceability (62%) and subtle energy (33%). The genre maintains its introspective character through low valence (29%) while preserving enough rhythmic elements to keep listeners engaged.
+    </div>
+    <div class="feature-summary-inner">
+      <div class="chart-wrap">
+        <canvas id="chartRadar" width="300" height="300"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">33%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 33%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">29%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 29%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">62%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 62%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">63%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 63%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">76%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 76%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">5%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 5%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!-- Rhythm & Tonality -->
+  <div class="section-label" id="rhythm-tonality"><h2>Rhythm & Tonality</h2></div>
+
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> 68% of forro tracks are in a major key, with C the most common. Typical BPM: 148.4 (σ 22.2).</p>
+  </div>
   <div class="charts-grid">
     <div class="chart-card">
       <div class="chart-title">BPM Distribution</div>
@@ -995,9 +1022,7 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
   </div>
 
   <!-- Emotional Fingerprint -->
-  <div class="section-label">
-    <h2>Emotional Fingerprint</h2>
-  </div>
+  <div class="section-label" id="emotional"><h2>Emotional Fingerprint</h2></div>
 
   <div class="charts-grid">
     <div class="chart-card">
@@ -1022,10 +1047,11 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
   </div>
 
   <!-- Top Artists -->
-  <div class="section-label">
-    <h2>Top Artists</h2>
-  </div>
+  <div class="section-label" id="top-artists"><h2>Top Artists</h2></div>
 
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> Zé Vaqueiro dominates with 9 tracks in the top 100, followed by Vitor Fernandes (8) and Iguinho e Lulinha (7).</p>
+  </div>
   <div class="chart-card">
     <div class="chart-title">Most Featured Artists</div>
     <div class="chart-analysis">
@@ -1039,9 +1065,7 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
 
 
   <!-- What Makes a Hit -->
-  <div class="section-label">
-    <h2>What Makes a Hit</h2>
-  </div>
+  <div class="section-label" id="hit-factors"><h2>What Makes a Hit</h2></div>
 
   <div class="charts-grid">
     <div class="chart-card">
@@ -1095,9 +1119,7 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
   </div>
 
   <!-- Feature Correlations -->
-  <div class="section-label">
-    <h2>Feature Correlations</h2>
-  </div>
+  <div class="section-label" id="correlations"><h2>Feature Correlations</h2></div>
 
   <div class="chart-card">
     <div class="chart-title">Correlation Heatmap</div>
@@ -1108,9 +1130,7 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
   </div>
 
   <!-- Production Profile -->
-  <div class="section-label">
-    <h2>Production Profile</h2>
-  </div>
+  <div class="section-label" id="production"><h2>Production Profile</h2></div>
 
   <div class="chart-card">
     <div class="chart-title">Soul Production Characteristics</div>
@@ -1121,10 +1141,11 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
   </div>
 
   <!-- Top Tracks -->
-  <div class="section-label">
-    <h2>Top Tracks</h2>
-  </div>
+  <div class="section-label" id="top-tracks"><h2>Top Tracks</h2></div>
 
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> The most popular forro track is &ldquo;Amante, Amiga e Namorada - Ao Vivo&rdquo; by Max e Luan with a popularity score of 62.</p>
+  </div>
   <div class="chart-card">
     <div class="chart-title">Soul Essential Tracks</div>
     <div class="chart-analysis">
@@ -1151,6 +1172,31 @@ Duration: 3-4 minutes, perfect for  romantic listening</pre>
       Show More <span id="showMoreCount"></span>
     </button>
   </div>
+
+  <div class="section-label" id="faq"><h2>Frequently Asked Questions</h2></div>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:32px;max-width:800px">
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What BPM is Forro music?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Based on analysis of the top 100 forro tracks on Spotify, the median BPM is 148.4 with a standard deviation of 22.2. The typical range falls between 130.0 and 160.0 BPM.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What key is Forro music usually in?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">The most common key in forro music is C, and 68% of tracks are in a major key.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">How do I make Forro music with AI?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Use AI music generators like Suno or Udio with genre-specific prompts. Key parameters for forro: BPM around 148.4, energy level around 82.9%, and valence around 78.6%. Visit the <a href="#prompt-lab" style="color:#4ecdc4;text-decoration:none">Prompt Lab section</a> on this page for a ready-to-copy prompt template.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What instruments are used in Forro music?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Forro music typically features electronic production with synthesizers, programmed beats, and digital effects alongside vocal performances. With an acousticness of 37.9% and instrumentalness of 0.0%, the genre is primarily electronic (37.9% acousticness) with a strong vocal or lyrical focus (0.0% instrumentalness).</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">Is Forro music happy or sad?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">With a median valence of 78.6%, forro music is bright, uplifting, and emotionally positive. 68% of tracks use major keys, which strongly reinforces that happy, energetic character.</div>
+    </details>
+  </div>
+
 
 
   <div class="section-label" id="related"><h2>Related Genres</h2></div>

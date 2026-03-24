@@ -687,7 +687,23 @@
         "text": "Use AI music generators like Suno or Udio with genre-specific prompts. Key parameters for neo-classical: BPM around 108.8, energy level around 11%, and valence around 11%. Visit the Prompt Lab section on this page for a ready-to-copy prompt template."
       }
     }
-  ]
+  ,
+    {
+      "@type": "Question",
+      "name": "What instruments are used in Neo-Classical music?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neo-Classical music typically features acoustic instruments — piano, guitar, strings — with minimal vocals. With 98.6% acousticness and 90.5% instrumentalness, it's a predominantly organic, instrumental genre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Neo-Classical music happy or sad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With a median valence of 10.8%, neo-classical music is deeply melancholic and emotionally heavy. 55% of tracks use major keys, but the low valence score overrides the typical brightness of major keys."
+      }
+    }]
 }
 </script>
 </head>
@@ -758,6 +774,7 @@
 
     <p style="font-size:14px;color:#6b7099;line-height:1.7;margin-top:28px;max-width:700px">A data-driven breakdown of neo-classical music based on Spotify audio features and Gemini AI analysis of the top 100 tracks. Use these insights to understand what makes neo-classical music sound the way it does — and to generate your own.</p>
     <a href="#prompt-lab" style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;padding:10px 20px;background:rgba(78,205,196,0.1);border:1px solid rgba(78,205,196,0.25);border-radius:8px;color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:0.03em;transition:background 0.2s" onmouseover="this.style.background='rgba(78,205,196,0.2)'" onmouseout="this.style.background='rgba(78,205,196,0.1)'">Jump to Prompt Lab ↓</a>
+    <a href="analysis.json" download style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;margin-left:10px;padding:10px 20px;background:rgba(155,127,212,0.1);border:1px solid rgba(155,127,212,0.25);border-radius:8px;color:#9b7fd4;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:0.03em;transition:background 0.2s" onmouseover="this.style.background='rgba(155,127,212,0.2)'" onmouseout="this.style.background='rgba(155,127,212,0.1)'">Download Data (JSON) ↓</a>
   </div>
 </header>
 
@@ -766,8 +783,9 @@
   <nav aria-label="Table of contents" style="margin-bottom:36px;padding:20px 24px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:14px">
     <div style="font-size:10.5px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#6b7099;margin-bottom:12px">On This Page</div>
     <div style="display:flex;flex-wrap:wrap;gap:8px 20px">
-      <a href="#audio-dna" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Audio DNA</a>
+      <a href="#genre-profile" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Genre Profile</a>
       <a href="#prompt-lab" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Prompt Lab</a>
+      <a href="#audio-dna" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Audio DNA</a>
       <a href="#rhythm-tonality" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Rhythm &amp; Tonality</a>
       <a href="#ai-analysis" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">AI Audio Analysis</a>
       <a href="#emotional" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Emotional Fingerprint</a>
@@ -776,73 +794,20 @@
       <a href="#correlations" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Feature Correlations</a>
       <a href="#production" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Production Profile</a>
       <a href="#top-tracks" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Top Tracks</a>
+      <a href="#faq" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">FAQ</a>
     </div>
   </nav>
-  <!-- Audio DNA -->
-  <div class="section-label">
-    <h2>Audio DNA</h2>
+
+  <div class="section-label" id="genre-profile"><h2>Genre Profile</h2></div>
+  <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:28px 32px;margin-bottom:32px;max-width:800px">
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">Neo-Classical music is characterized by exceptionally low energy, creating a hushed, almost meditative atmosphere, with a median energy of 10.6%. The genre carries heavily acoustic character (98.6% median acousticness), favoring organic instruments and natural textures. Instrumentalness sits at 90.5%, while danceability registers at 33.3% — suggesting minimal rhythmic drive. The emotional tone is deeply melancholic and emotionally heavy, with valence at 10.8%. Speechiness is virtually absent at 3.8%.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">The typical neo-classical track moves at a relaxed, mid-tempo pace of 108.8 BPM (±26.7). Tonally, G is the most common key (13 of 100 tracks), and 55% of tracks are in a major key — showing a fairly even split between light and dark tonalities.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">The genre's sonic identity is shaped by artists like Ludovico Einaudi, Jóhann Jóhannsson, Ólafur Arnalds alongside Joep Beving, Alexis Ffrench. The typical track runs about 3.3 minutes, optimized for streaming attention spans.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8">Production-wise, neo-classical sits at a median loudness of -23.1 dB — extremely quiet and dynamic, with lots of headroom. Whether you're producing in the genre or analyzing it for AI music generation, these numbers provide a precise target for capturing the authentic neo-classical sound.</p>
   </div>
 
-  <div class="chart-card">
-    <div class="chart-title">Feature Summary</div>
-    <div class="chart-analysis">
-      Neo-classical music's pristine acoustic signature: extraordinarily high acousticness (97%) and instrumentalness (90%), with minimal energy (11%) creating space for emotional depth. The genre's near-absence of speechiness (4%) and electronic elements preserves its organic, contemplative character.
-    </div>
-    <div class="feature-summary-inner">
-      <div class="chart-wrap">
-        <canvas id="chartRadar" width="300" height="300"></canvas>
-      </div>
-      <div class="feature-bars">
-        <div class="feature-item">
-          <div class="feature-label">Energy</div>
-          <div class="feature-val">11%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 11%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Valence</div>
-          <div class="feature-val">14%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 14%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Danceability</div>
-          <div class="feature-val">34%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 34%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Acousticness</div>
-          <div class="feature-val">97%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 97%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Instrumentalness</div>
-          <div class="feature-val">90%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 90%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Speechiness</div>
-          <div class="feature-val">4%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 4%"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Prompt Lab -->
-  <div class="section-label">
-    <h2>✨ Prompt Lab</h2>
-  </div>
+  <!-- Section: Prompt Lab -->
+  <div class="section-label" id="prompt-lab"><h2>Prompt Lab</h2></div>
 
   <div class="prompt-lab-section">
     
@@ -942,12 +907,74 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
       </div>
     </div>
   </div>
+  <!-- Section: Audio DNA -->
+  <div class="section-label" id="audio-dna"><h2>Audio DNA</h2></div>
 
-  <!-- Rhythm & Tonality -->
-  <div class="section-label">
-    <h2>Rhythm & Tonality</h2>
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> Six audio features define neo-classical's fingerprint: Acousticness leads at 98.6%, while Speechiness sits at just 3.8% — a genre defined as much by what it lacks as what it contains.</p>
+  </div>
+  <div class="chart-card">
+    <div class="chart-title">Feature Summary</div>
+    <div class="chart-analysis">
+      Neo-classical music's pristine acoustic signature: extraordinarily high acousticness (97%) and instrumentalness (90%), with minimal energy (11%) creating space for emotional depth. The genre's near-absence of speechiness (4%) and electronic elements preserves its organic, contemplative character.
+    </div>
+    <div class="feature-summary-inner">
+      <div class="chart-wrap">
+        <canvas id="chartRadar" width="300" height="300"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">11%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 11%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">14%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 14%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">34%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 34%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">97%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 97%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">90%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">4%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 4%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!-- Rhythm & Tonality -->
+  <div class="section-label" id="rhythm-tonality"><h2>Rhythm & Tonality</h2></div>
+
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> 55% of neo-classical tracks are in a major key, with G the most common. Typical BPM: 108.8 (σ 26.7).</p>
+  </div>
   <div class="charts-grid">
     <div class="chart-card">
       <div class="chart-title">BPM Distribution</div>
@@ -991,9 +1018,7 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
   </div>
 
   <!-- Emotional Fingerprint -->
-  <div class="section-label">
-    <h2>Emotional Fingerprint</h2>
-  </div>
+  <div class="section-label" id="emotional"><h2>Emotional Fingerprint</h2></div>
 
   <div class="charts-grid">
     <div class="chart-card">
@@ -1018,10 +1043,11 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
   </div>
 
   <!-- Top Artists -->
-  <div class="section-label">
-    <h2>Top Artists</h2>
-  </div>
+  <div class="section-label" id="top-artists"><h2>Top Artists</h2></div>
 
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> Ludovico Einaudi dominates with 28 tracks in the top 100, followed by Jóhann Jóhannsson (8) and Ólafur Arnalds (8).</p>
+  </div>
   <div class="chart-card">
     <div class="chart-title">Most Featured Artists</div>
     <div class="chart-analysis">
@@ -1035,9 +1061,7 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
 
 
   <!-- What Makes a Hit -->
-  <div class="section-label">
-    <h2>What Makes a Hit</h2>
-  </div>
+  <div class="section-label" id="hit-factors"><h2>What Makes a Hit</h2></div>
 
   <div class="charts-grid">
     <div class="chart-card">
@@ -1091,9 +1115,7 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
   </div>
 
   <!-- Feature Correlations -->
-  <div class="section-label">
-    <h2>Feature Correlations</h2>
-  </div>
+  <div class="section-label" id="correlations"><h2>Feature Correlations</h2></div>
 
   <div class="chart-card">
     <div class="chart-title">Correlation Heatmap</div>
@@ -1104,9 +1126,7 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
   </div>
 
   <!-- Production Profile -->
-  <div class="section-label">
-    <h2>Production Profile</h2>
-  </div>
+  <div class="section-label" id="production"><h2>Production Profile</h2></div>
 
   <div class="chart-card">
     <div class="chart-title">Neo-Classical Production Characteristics</div>
@@ -1117,10 +1137,11 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
   </div>
 
   <!-- Top Tracks -->
-  <div class="section-label">
-    <h2>Top Tracks</h2>
-  </div>
+  <div class="section-label" id="top-tracks"><h2>Top Tracks</h2></div>
 
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> The most popular neo-classical track is &ldquo;Experience&rdquo; by Ludovico Einaudi with a popularity score of 79.</p>
+  </div>
   <div class="chart-card">
     <div class="chart-title">Neo-Classical Essential Tracks</div>
     <div class="chart-analysis">
@@ -1147,6 +1168,48 @@ Duration: 3-4 minutes, perfect for meditation/focus</pre>
       Show More <span id="showMoreCount"></span>
     </button>
   </div>
+
+  <div class="section-label" id="compare"><h2>How Neo-Classical Compares</h2></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:32px">
+    <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:20px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6b7099;margin-bottom:8px">Neo-Classical vs Classical</div>
+      <div style="font-size:14px;color:#dde1f0;line-height:1.6">Neo-Classical is more subdued (11.1% energy difference), darker in mood (13.3% valence gap) than Classical.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:20px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6b7099;margin-bottom:8px">Neo-Classical vs Ambient</div>
+      <div style="font-size:14px;color:#dde1f0;line-height:1.6">Neo-Classical is more subdued (15.6% energy difference), darker in mood (6.0% valence gap) than Ambient.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:20px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6b7099;margin-bottom:8px">Neo-Classical vs Piano</div>
+      <div style="font-size:14px;color:#dde1f0;line-height:1.6">Neo-Classical is more subdued (54.1% energy difference), darker in mood (32.3% valence gap) than Piano.</div>
+    </div>
+  </div>
+
+  <div class="section-label" id="faq"><h2>Frequently Asked Questions</h2></div>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:32px;max-width:800px">
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What BPM is Neo-Classical music?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Based on analysis of the top 100 neo-classical tracks on Spotify, the median BPM is 108.8 with a standard deviation of 26.7. The typical range falls between 85.3 and 130.3 BPM.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What key is Neo-Classical music usually in?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">The most common key in neo-classical music is G, and 55% of tracks are in a major key.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">How do I make Neo-Classical music with AI?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Use AI music generators like Suno or Udio with genre-specific prompts. Key parameters for neo-classical: BPM around 108.8, energy level around 10.6%, and valence around 10.8%. Visit the <a href="#prompt-lab" style="color:#4ecdc4;text-decoration:none">Prompt Lab section</a> on this page for a ready-to-copy prompt template.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What instruments are used in Neo-Classical music?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Neo-Classical music typically features acoustic instruments like piano, guitar, strings, and woodwinds — with minimal vocals and electronic elements. With an acousticness of 98.6% and instrumentalness of 90.5%, the genre leans strongly toward organic, acoustic production with high instrumentalness (90.5%), making it almost entirely instrument-driven.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">Is Neo-Classical music happy or sad?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">With a median valence of 10.8%, neo-classical music is deeply melancholic and emotionally heavy. 55% of tracks use major keys, which provides occasional moments of brightness amid the heaviness.</div>
+    </details>
+  </div>
+
+
 
 
   <div class="section-label" id="related"><h2>Related Genres</h2></div>

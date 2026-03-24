@@ -687,7 +687,23 @@
         "text": "Use AI music generators like Suno or Udio with genre-specific prompts. Key parameters for \ud83c\udfa4 r n b: BPM around 120.4, energy level around 58%, and valence around 56%. Visit the Prompt Lab section on this page for a ready-to-copy prompt template."
       }
     }
-  ]
+  ,
+    {
+      "@type": "Question",
+      "name": "What instruments are used in R N B music?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "R N B music uses primarily electronic production (32.4% acousticness) with significant vocal content (0.0% instrumentalness shows moderate instrumental focus). Expect synthesizers and programmed beats alongside vocals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is R N B music happy or sad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With a median valence of 55.9%, r n b music is generally positive and upbeat. 63% of tracks use major keys, reinforcing the uplifting emotional character."
+      }
+    }]
 }
 </script>
 </head>
@@ -758,6 +774,7 @@
 
     <p style="font-size:14px;color:#6b7099;line-height:1.7;margin-top:28px;max-width:700px">A data-driven breakdown of 🎤 r n b music based on Spotify audio features and Gemini AI analysis of the top 100 tracks. Use these insights to understand what makes 🎤 r n b music sound the way it does — and to generate your own.</p>
     <a href="#prompt-lab" style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;padding:10px 20px;background:rgba(78,205,196,0.1);border:1px solid rgba(78,205,196,0.25);border-radius:8px;color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:0.03em;transition:background 0.2s" onmouseover="this.style.background='rgba(78,205,196,0.2)'" onmouseout="this.style.background='rgba(78,205,196,0.1)'">Jump to Prompt Lab ↓</a>
+    <a href="analysis.json" download style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;margin-left:10px;padding:10px 20px;background:rgba(155,127,212,0.1);border:1px solid rgba(155,127,212,0.25);border-radius:8px;color:#9b7fd4;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:0.03em;transition:background 0.2s" onmouseover="this.style.background='rgba(155,127,212,0.2)'" onmouseout="this.style.background='rgba(155,127,212,0.1)'">Download Data (JSON) ↓</a>
   </div>
 </header>
 
@@ -766,8 +783,9 @@
   <nav aria-label="Table of contents" style="margin-bottom:36px;padding:20px 24px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:14px">
     <div style="font-size:10.5px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#6b7099;margin-bottom:12px">On This Page</div>
     <div style="display:flex;flex-wrap:wrap;gap:8px 20px">
-      <a href="#audio-dna" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Audio DNA</a>
+      <a href="#genre-profile" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Genre Profile</a>
       <a href="#prompt-lab" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Prompt Lab</a>
+      <a href="#audio-dna" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Audio DNA</a>
       <a href="#rhythm-tonality" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Rhythm &amp; Tonality</a>
       <a href="#ai-analysis" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">AI Audio Analysis</a>
       <a href="#emotional" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Emotional Fingerprint</a>
@@ -776,73 +794,20 @@
       <a href="#correlations" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Feature Correlations</a>
       <a href="#production" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Production Profile</a>
       <a href="#top-tracks" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">Top Tracks</a>
+      <a href="#faq" style="color:#4ecdc4;text-decoration:none;font-size:13px;font-weight:500">FAQ</a>
     </div>
   </nav>
-  <!-- Audio DNA -->
-  <div class="section-label">
-    <h2>Audio DNA</h2>
+
+  <div class="section-label" id="genre-profile"><h2>Genre Profile</h2></div>
+  <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:28px 32px;margin-bottom:32px;max-width:800px">
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">R N B music is characterized by solid energy that keeps listeners engaged without overwhelming, with a median energy of 58.3%. The genre carries predominantly electronic production (32.4% acousticness), built on synthesized sounds and digital textures. Instrumentalness sits at 0.0%, while danceability registers at 64.2% — making it highly danceable. The emotional tone is generally upbeat and positive in tone, with valence at 55.9%. Speechiness is minimal at 6.4%.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">The typical r n b track moves at a moderate tempo that sits comfortably in walking-pace territory of 120.4 BPM (±28.2). Tonally, E is the most common key (12 of 100 tracks), and 63% of tracks are in a major key — creating an overall sense of brightness and openness.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8;margin-bottom:16px">The genre's sonic identity is shaped by artists like Lil Tjay, Sleepy Hallow, Fivio Foreign alongside Crystal Castles, Charlie Brown Jr.. The typical track runs about 3.2 minutes, optimized for streaming attention spans.</p>
+    <p style="font-size:15px;color:#dde1f0;line-height:1.8">Production-wise, r n b sits at a median loudness of -7.5 dB — moderately loud, balancing dynamics with presence. Whether you're producing in the genre or analyzing it for AI music generation, these numbers provide a precise target for capturing the authentic r n b sound.</p>
   </div>
 
-  <div class="chart-card">
-    <div class="chart-title">Feature Summary</div>
-    <div class="chart-analysis">
-      Lo-fi hip hop's signature sound profile: highly acoustic (63%) and instrumental (76%), with moderate danceability (62%) and subtle energy (33%). The genre maintains its introspective character through low valence (29%) while preserving enough rhythmic elements to keep listeners engaged.
-    </div>
-    <div class="feature-summary-inner">
-      <div class="chart-wrap">
-        <canvas id="chartRadar" width="300" height="300"></canvas>
-      </div>
-      <div class="feature-bars">
-        <div class="feature-item">
-          <div class="feature-label">Energy</div>
-          <div class="feature-val">33%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 33%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Valence</div>
-          <div class="feature-val">29%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 29%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Danceability</div>
-          <div class="feature-val">62%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 62%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Acousticness</div>
-          <div class="feature-val">63%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 63%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Instrumentalness</div>
-          <div class="feature-val">76%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 76%"></div>
-          </div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-label">Speechiness</div>
-          <div class="feature-val">5%</div>
-          <div class="feature-track">
-            <div class="feature-fill" style="width: 5%"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Prompt Lab -->
-  <div class="section-label">
-    <h2>✨ Prompt Lab</h2>
-  </div>
+  <!-- Section: Prompt Lab -->
+  <div class="section-label" id="prompt-lab"><h2>Prompt Lab</h2></div>
 
   <div class="prompt-lab-section">
     
@@ -946,12 +911,74 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
       </div>
     </div>
   </div>
+  <!-- Section: Audio DNA -->
+  <div class="section-label" id="audio-dna"><h2>Audio DNA</h2></div>
 
-  <!-- Rhythm & Tonality -->
-  <div class="section-label">
-    <h2>Rhythm & Tonality</h2>
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> Six audio features define r n b's fingerprint: Danceability leads at 64.2%, while Instrumentalness sits at just 0.0% — with almost no instrumentalness to speak of.</p>
+  </div>
+  <div class="chart-card">
+    <div class="chart-title">Feature Summary</div>
+    <div class="chart-analysis">
+      Lo-fi hip hop's signature sound profile: highly acoustic (63%) and instrumental (76%), with moderate danceability (62%) and subtle energy (33%). The genre maintains its introspective character through low valence (29%) while preserving enough rhythmic elements to keep listeners engaged.
+    </div>
+    <div class="feature-summary-inner">
+      <div class="chart-wrap">
+        <canvas id="chartRadar" width="300" height="300"></canvas>
+      </div>
+      <div class="feature-bars">
+        <div class="feature-item">
+          <div class="feature-label">Energy</div>
+          <div class="feature-val">33%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 33%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Valence</div>
+          <div class="feature-val">29%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 29%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Danceability</div>
+          <div class="feature-val">62%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 62%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Acousticness</div>
+          <div class="feature-val">63%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 63%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Instrumentalness</div>
+          <div class="feature-val">76%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 76%"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-label">Speechiness</div>
+          <div class="feature-val">5%</div>
+          <div class="feature-track">
+            <div class="feature-fill" style="width: 5%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!-- Rhythm & Tonality -->
+  <div class="section-label" id="rhythm-tonality"><h2>Rhythm & Tonality</h2></div>
+
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> 63% of r n b tracks are in a major key, with E the most common. Typical BPM: 120.4 (σ 28.2).</p>
+  </div>
   <div class="charts-grid">
     <div class="chart-card">
       <div class="chart-title">BPM Distribution</div>
@@ -995,9 +1022,7 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
   </div>
 
   <!-- Emotional Fingerprint -->
-  <div class="section-label">
-    <h2>Emotional Fingerprint</h2>
-  </div>
+  <div class="section-label" id="emotional"><h2>Emotional Fingerprint</h2></div>
 
   <div class="charts-grid">
     <div class="chart-card">
@@ -1022,10 +1047,11 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
   </div>
 
   <!-- Top Artists -->
-  <div class="section-label">
-    <h2>Top Artists</h2>
-  </div>
+  <div class="section-label" id="top-artists"><h2>Top Artists</h2></div>
 
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> Lil Tjay dominates with 22 tracks in the top 100, followed by Sleepy Hallow (7) and Fivio Foreign (7).</p>
+  </div>
   <div class="chart-card">
     <div class="chart-title">Most Featured Artists</div>
     <div class="chart-analysis">
@@ -1039,9 +1065,7 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
 
 
   <!-- What Makes a Hit -->
-  <div class="section-label">
-    <h2>What Makes a Hit</h2>
-  </div>
+  <div class="section-label" id="hit-factors"><h2>What Makes a Hit</h2></div>
 
   <div class="charts-grid">
     <div class="chart-card">
@@ -1095,9 +1119,7 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
   </div>
 
   <!-- Feature Correlations -->
-  <div class="section-label">
-    <h2>Feature Correlations</h2>
-  </div>
+  <div class="section-label" id="correlations"><h2>Feature Correlations</h2></div>
 
   <div class="chart-card">
     <div class="chart-title">Correlation Heatmap</div>
@@ -1108,9 +1130,7 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
   </div>
 
   <!-- Production Profile -->
-  <div class="section-label">
-    <h2>Production Profile</h2>
-  </div>
+  <div class="section-label" id="production"><h2>Production Profile</h2></div>
 
   <div class="chart-card">
     <div class="chart-title">Soul Production Characteristics</div>
@@ -1121,10 +1141,11 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
   </div>
 
   <!-- Top Tracks -->
-  <div class="section-label">
-    <h2>Top Tracks</h2>
-  </div>
+  <div class="section-label" id="top-tracks"><h2>Top Tracks</h2></div>
 
+  <div style="background:rgba(78,205,196,0.06);border-left:3px solid #4ecdc4;border-radius:0 10px 10px 0;padding:14px 20px;margin-bottom:20px;max-width:800px">
+    <p style="font-size:14px;color:#dde1f0;line-height:1.6;margin:0"><strong style="color:#4ecdc4">Key finding:</strong> The most popular r n b track is &ldquo;Running Up That Hill (A Deal With God)&rdquo; by Kate Bush with a popularity score of 90.</p>
+  </div>
   <div class="chart-card">
     <div class="chart-title">Soul Essential Tracks</div>
     <div class="chart-analysis">
@@ -1151,6 +1172,48 @@ Duration: 3-4 minutes, perfect for  intimate listening</pre>
       Show More <span id="showMoreCount"></span>
     </button>
   </div>
+
+  <div class="section-label" id="compare"><h2>How R N B Compares</h2></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:32px">
+    <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:20px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6b7099;margin-bottom:8px">R N B vs Soul</div>
+      <div style="font-size:14px;color:#dde1f0;line-height:1.6">R N B is more energetic (5.0% energy difference), happier in mood (10.7% valence gap) than Soul.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:20px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6b7099;margin-bottom:8px">R N B vs Hip Hop</div>
+      <div style="font-size:14px;color:#dde1f0;line-height:1.6">R N B is more subdued (9.0% energy difference), happier in mood (6.5% valence gap) than Hip Hop.</div>
+    </div>
+    <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:20px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6b7099;margin-bottom:8px">R N B vs Funk</div>
+      <div style="font-size:14px;color:#dde1f0;line-height:1.6">R N B is more subdued (14.9% energy difference), 18.4 BPM faster than Funk.</div>
+    </div>
+  </div>
+
+  <div class="section-label" id="faq"><h2>Frequently Asked Questions</h2></div>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:32px;max-width:800px">
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What BPM is R N B music?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Based on analysis of the top 100 r n b tracks on Spotify, the median BPM is 120.4 with a standard deviation of 28.2. The typical range falls between 104.9 and 143.0 BPM.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What key is R N B music usually in?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">The most common key in r n b music is E, and 63% of tracks are in a major key.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">How do I make R N B music with AI?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">Use AI music generators like Suno or Udio with genre-specific prompts. Key parameters for r n b: BPM around 120.4, energy level around 58.3%, and valence around 55.9%. Visit the <a href="#prompt-lab" style="color:#4ecdc4;text-decoration:none">Prompt Lab section</a> on this page for a ready-to-copy prompt template.</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">What instruments are used in R N B music?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">R N B music typically features electronic production with synthesizers, programmed beats, and digital effects alongside vocal performances. With an acousticness of 32.4% and instrumentalness of 0.0%, the genre is primarily electronic (32.4% acousticness) with a strong vocal or lyrical focus (0.0% instrumentalness).</div>
+    </details>
+    <details style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:0;overflow:hidden">
+      <summary style="padding:16px 20px;font-size:15px;font-weight:600;color:#dde1f0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between">Is R N B music happy or sad?<span style="color:#4ecdc4;font-size:18px;transition:transform 0.2s">+</span></summary>
+      <div style="padding:0 20px 16px;font-size:14px;color:#6b7099;line-height:1.7">With a median valence of 55.9%, r n b music is generally positive and upbeat in tone. 63% of tracks use major keys, which reinforces the upbeat character.</div>
+    </details>
+  </div>
+
+
 
 
   <div class="section-label" id="related"><h2>Related Genres</h2></div>
