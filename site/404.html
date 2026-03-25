@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — lost in the melody | kapiko</title>
+  <meta name="description" content="This page doesn't exist. Let's get you back to the music." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --cream: #FFF8F0;
+      --coral: #E8967A;
+      --coral-light: #F0B09A;
+      --charcoal: #4A3F35;
+      --charcoal-muted: #8B7E74;
+      --font-display: 'Pacifico', cursive;
+      --font-body: 'Inter', sans-serif;
+      --font-serif: 'Lora', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; }
+    body {
+      background: var(--cream);
+      color: var(--charcoal);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      -webkit-font-smoothing: antialiased;
+    }
+    .mascot {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 2rem;
+      opacity: 0.85;
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+    .code {
+      font-family: var(--font-display);
+      font-size: 5rem;
+      color: var(--coral);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      font-family: var(--font-serif);
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.5rem;
+      color: var(--charcoal);
+      margin-bottom: 1rem;
+    }
+    p {
+      color: var(--charcoal-muted);
+      font-size: 1rem;
+      max-width: 400px;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      background: var(--coral);
+      color: #fff;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .btn:hover { background: var(--coral-light); transform: translateY(-2px); }
+    .links {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+    }
+    .links a { color: var(--charcoal-muted); text-decoration: underline; text-underline-offset: 3px; }
+    .links a:hover { color: var(--coral); }
+  </style>
+</head>
+<body>
+  <img src="/kapiko.jpg" alt="kapiko" class="mascot" />
+  <div class="code">404</div>
+  <h1>lost in the melody</h1>
+  <p>This page wandered off somewhere. Maybe it's listening to music. Let's get you back.</p>
+  <a href="/" class="btn">back to kapiko</a>
+  <div class="links">
+    <a href="/#music">music</a>
+    <a href="/songs/">all songs</a>
+    <a href="/#about">about</a>
+  </div>
+</body>
+</html>
