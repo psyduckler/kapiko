@@ -210,30 +210,7 @@
 })();
 
 
-// === Newsletter form handler ===
-function handleSubscribe(e) {
-  e.preventDefault();
-  const form = e.target;
-  const input = form.querySelector('input[type="email"]');
-  const btn = form.querySelector('button');
-
-  if (!input || !btn) return;
-
-  const originalText = btn.textContent;
-  btn.textContent = 'subscribed ✓';
-  btn.disabled = true;
-  input.disabled = true;
-  btn.style.background = 'var(--sage)';
-
-  // Reset after 4s
-  setTimeout(() => {
-    btn.textContent = originalText;
-    btn.disabled = false;
-    input.disabled = false;
-    input.value = '';
-    btn.style.background = '';
-  }, 4000);
-}
+// Newsletter form removed — was fake (no backend). Replaced with direct platform links.
 
 
 // === Active nav link highlighting ===

@@ -1,6 +1,6 @@
 # kapiko
 
-> kapiko is an AI music intelligence platform analyzing 118 genres and 9,184 songs — audio features, production patterns, and AI music generation prompts for musicians, producers, and developers.
+> kapiko is an AI music intelligence platform analyzing 118 genres and 10,948 songs — audio features, production patterns, and AI music generation prompts for musicians, producers, and developers.
 
 kapiko builds statistical profiles of music genres from Spotify audio feature data, enriched with Gemini AI analysis. Each genre report covers 100 representative tracks and surfaces patterns in tempo, key, energy, mood, instrumentation, and production style.
 
@@ -111,7 +111,6 @@ Full analysis reports available at `/genres/<genre>/`:
 - [Samba](/genres/samba/)
 - [Sertanejo](/genres/sertanejo/)
 - [Show Tunes](/genres/show-tunes/)
-- [Singer Songwriter](/genres/singer-songwriter/)
 - [Ska](/genres/ska/)
 - [Sleep](/genres/sleep/)
 - [Songwriter](/genres/songwriter/)
@@ -135,7 +134,7 @@ Each of the 118 genres has a machine-readable analysis file:
 
 Analysis JSON schema includes: `bpm` (histogram, median, mean, stdev, raw), `key_distribution`, `mode_distribution`, `key_mode_distribution`, `energy`, `valence`, `acousticness`, `instrumentalness`, `danceability`, `loudness`, `speechiness`, `duration`, `top_artists`, `tracks`.
 
-## Song Pages (9,184 songs)
+## Song Pages (10,948 songs)
 
 Each song at `/songs/<slug>/` includes:
 - Audio feature breakdown (BPM, key, energy, valence, etc.)
@@ -151,13 +150,12 @@ The kapiko REST API provides programmatic access to genre analytics and track da
 
 ### Endpoints
 
-- `GET /api/v1/stats` — Platform statistics (118 genres, 9,184 tracks)
+- `GET /api/v1/stats` — Platform statistics (118 genres, 10,948 tracks)
 - `GET /api/v1/genres` — List all available genres with summary stats
 - `GET /api/v1/genres/:genre` — Full analytics for a specific genre
 - `GET /api/v1/genres/:genre/tracks` — Track list for a genre with audio features
 - `GET /api/v1/tracks` — Browse all indexed tracks
 - `GET /api/v1/tracks/:id` — Single track with full audio features and AI analysis
-- `GET /api/v1/compare` — Compare a track against genre distributions
 
 Full API documentation: https://kapiko.ai/api/
 OpenAPI spec: https://kapiko.ai/openapi.json
