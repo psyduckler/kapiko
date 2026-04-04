@@ -26,6 +26,9 @@
   <nav class="nav" id="nav">
     <div class="nav-inner">
       <a href="#hero" class="nav-logo">kapiko</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('nav-open')">
+        <span></span><span></span><span></span>
+      </button>
       <ul class="nav-links">
         <li><a href="#music">music</a></li>
         <li><a href="#about">about</a></li>
@@ -200,12 +203,12 @@
         <div class="api-feature-card">
           <div class="api-feature-icon">◎</div>
           <h3>Audio Feature Data</h3>
-          <p>Energy, valence, tempo, acousticness, danceability and more — sourced from Spotify's audio analysis for 100 top ambient tracks.</p>
+          <p>Energy, valence, tempo, acousticness, danceability and more — sourced from Spotify's audio analysis across 10,948 tracks and 118 genres.</p>
         </div>
         <div class="api-feature-card">
           <div class="api-feature-icon">∿</div>
           <h3>Genre Analytics</h3>
-          <p>Genre-level averages, feature distributions, and top artists — everything you need to understand what makes ambient music ambient.</p>
+          <p>Genre-level averages, feature distributions, and top artists across 118 genres — from ambient to death metal, jazz piano to hardstyle.</p>
         </div>
         <div class="api-feature-card">
           <div class="api-feature-icon">⊕</div>
@@ -265,7 +268,7 @@
 
         <a href="https://music.apple.com/us/artist/kapiko/1885930004" target="_blank" rel="noopener" class="platform-card">
           <div class="platform-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.994 6.124a9.23 9.23 0 0 0-.24-2.19c-.317-1.31-1.064-2.31-2.18-3.043a5.022 5.022 0 0 0-1.769-.73c-.63-.112-1.27-.148-1.903-.148L12 0 6.1.012C5.466.012 4.827.048 4.196.16a5.027 5.027 0 0 0-1.768.73C1.316 1.635.57 2.634.253 3.944a9.23 9.23 0 0 0-.24 2.19C.006 6.507 0 6.879 0 7.25v9.5c0 .372.006.742.014 1.114a9.23 9.23 0 0 0 .24 2.19c.317 1.31 1.063 2.31 2.18 3.043a5.022 5.022 0 0 0 1.769.73c.63.112 1.27.149 1.903.149L12 24l5.9-.014c.634 0 1.273-.037 1.904-.15a5.022 5.022 0 0 0 1.769-.729c1.116-.733 1.862-1.734 2.18-3.043a9.23 9.23 0 0 0 .24-2.19c.007-.372.013-.742.013-1.114v-9.5c0-.37-.006-.742-.012-1.126zM12 17.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0-9a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.75-2a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"/></svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.994 6.124a9.23 9.23 0 00-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 00-1.877-.726 10.496 10.496 0 00-1.564-.15c-.04-.003-.083-.01-.124-.013H5.986c-.152.01-.303.017-.455.026-.747.043-1.49.123-2.193.4-1.336.53-2.3 1.452-2.865 2.78-.192.448-.292.925-.363 1.408-.056.392-.088.785-.1 1.18 0 .032-.007.062-.01.093v12.223c.01.14.017.283.027.424.05.815.154 1.624.497 2.373.65 1.42 1.738 2.353 3.234 2.801.42.127.856.187 1.293.228.555.053 1.11.06 1.667.06h11.03a12.5 12.5 0 001.57-.1c.822-.106 1.596-.35 2.295-.81a5.046 5.046 0 001.88-2.207c.186-.42.293-.87.37-1.324.113-.675.138-1.358.137-2.04-.002-3.8 0-7.595-.003-11.393zm-6.423 3.99v5.712c0 .417-.058.827-.244 1.206-.29.59-.76.962-1.388 1.14-.35.1-.706.157-1.07.173-.95.045-1.773-.6-1.943-1.536a1.88 1.88 0 011.038-2.022c.323-.16.67-.25 1.018-.324.378-.082.758-.153 1.134-.24.274-.063.457-.23.51-.516a.904.904 0 00.02-.193c0-1.815 0-3.63-.002-5.443a.725.725 0 00-.026-.185c-.04-.15-.15-.243-.304-.234-.16.01-.318.035-.475.066-.76.15-1.52.303-2.28.456l-2.325.47-1.374.278c-.016.003-.032.01-.048.013-.277.077-.377.203-.39.49-.002.042 0 .086 0 .13-.002 2.602 0 5.204-.003 7.805 0 .42-.047.836-.215 1.227-.278.64-.77 1.04-1.434 1.233-.35.1-.71.16-1.075.172-.96.036-1.755-.6-1.92-1.544-.14-.812.23-1.685 1.154-2.075.357-.15.73-.232 1.108-.31.287-.06.575-.116.86-.177.383-.083.583-.323.6-.714v-.15c0-2.96 0-5.922.002-8.882 0-.123.013-.25.042-.37.07-.285.273-.448.546-.518.255-.066.515-.112.774-.165.733-.15 1.466-.296 2.2-.444l2.27-.46c.67-.134 1.34-.27 2.01-.403.22-.043.442-.088.663-.106.31-.025.523.17.554.482.008.073.012.148.012.223.002 1.91.002 3.822 0 5.732z"/></svg>
           </div>
           <div class="platform-info">
             <span class="platform-name">Apple Music</span>
@@ -274,7 +277,7 @@
           <span class="platform-arrow">→</span>
         </a>
 
-        <a href="#" class="platform-card coming-soon">
+        <div class="platform-card coming-soon" style="cursor: default; opacity: 0.5;">
           <div class="platform-icon">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M1.175 0C.526 0 0 .526 0 1.175v21.65C0 23.474.526 24 1.175 24h21.65C23.474 24 24 23.474 24 22.825V1.175C24 .526 23.474 0 22.825 0zm9.496 3.792h2.657v12.5h-2.657zm-4.248 2.395h2.657v10.104H6.423zm8.495 0h2.657v10.104h-2.657z"/></svg>
           </div>
@@ -282,19 +285,14 @@
             <span class="platform-name">SoundCloud</span>
             <span class="platform-status">coming soon</span>
           </div>
-          <span class="platform-arrow">→</span>
-        </a>
+        </div>
       </div>
 
       <div class="newsletter fade-in">
         <div class="newsletter-inner">
           <div class="newsletter-icon">✉</div>
           <h3>stay in the loop</h3>
-          <p>New releases, visual drops, and ambient sessions — no spam, just music.</p>
-          <form class="newsletter-form" onsubmit="handleSubscribe(event)">
-            <input type="email" placeholder="your@email.com" required aria-label="Email address" />
-            <button type="submit" class="btn btn-primary">notify me</button>
-          </form>
+          <p>New releases, visual drops, and ambient sessions — follow us on <a href="https://www.youtube.com/@kapiko-music" target="_blank" rel="noopener" style="color: var(--coral); text-decoration: underline;">YouTube</a> or <a href="https://open.spotify.com/artist/2OIwYv0X7oU2s3pfLfpBS7" target="_blank" rel="noopener" style="color: var(--coral); text-decoration: underline;">Spotify</a> to get notified of new music.</p>
         </div>
       </div>
     </div>
@@ -331,7 +329,7 @@
             </li>
             <li><a href="https://open.spotify.com/artist/2OIwYv0X7oU2s3pfLfpBS7" target="_blank" rel="noopener" aria-label="Spotify">Spotify</a></li>
             <li><a href="https://music.apple.com/us/artist/kapiko/1885930004" target="_blank" rel="noopener" aria-label="Apple Music">Apple Music</a></li>
-            <li><a href="#" aria-label="SoundCloud (coming soon)">SoundCloud <span class="soon">soon</span></a></li>
+            <li><span style="color: var(--text-muted); opacity: 0.5;">SoundCloud <span class="soon">soon</span></span></li>
           </ul>
         </div>
       </div>

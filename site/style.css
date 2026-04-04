@@ -964,11 +964,59 @@ ul { list-style: none; }
   }
 }
 
+/* Hamburger toggle button */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  z-index: 101;
+}
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 @media (max-width: 700px) {
   .section { padding: 72px 0; }
 
+  .nav-toggle {
+    display: flex;
+  }
+
   .nav-links {
-    gap: 20px;
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background: rgba(11, 12, 26, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    flex-direction: column;
+    padding: 20px 28px;
+    gap: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-links.nav-open {
+    display: flex;
   }
 
   .album-feature {
@@ -1022,12 +1070,7 @@ ul { list-style: none; }
 }
 
 @media (max-width: 480px) {
-  .nav-links {
-    gap: 16px;
-  }
-  .nav-links a {
-    font-size: 0.8rem;
-  }
+  /* Nav handled by hamburger at 700px */
 }
 
 /* === Developers / API Section === */

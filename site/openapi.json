@@ -674,59 +674,6 @@
           }
         }
       }
-    },
-    "/compare": {
-      "get": {
-        "tags": [
-          "genres"
-        ],
-        "summary": "Compare genres",
-        "description": "Compare audio feature distributions across two or more genres. Returns median values for each requested feature per genre.",
-        "operationId": "compareGenres",
-        "parameters": [
-          {
-            "name": "genres",
-            "in": "query",
-            "required": true,
-            "description": "Comma-separated list of genre slugs to compare (2\u20136 genres)",
-            "schema": {
-              "type": "string"
-            },
-            "example": "ambient,lofi-hip-hop,sleep"
-          },
-          {
-            "name": "features",
-            "in": "query",
-            "description": "Comma-separated audio features to include (default: all). Options: bpm, energy, valence, acousticness, instrumentalness, danceability, loudness, speechiness",
-            "schema": {
-              "type": "string"
-            },
-            "example": "bpm,energy,valence"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Feature comparison across requested genres",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/GenreComparison"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Invalid genre or feature parameter",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
@@ -1149,46 +1096,6 @@
             }
           }
         ]
-      },
-      "GenreComparison": {
-        "type": "object",
-        "description": "Audio feature comparison across multiple genres",
-        "properties": {
-          "genres": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "features": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "data": {
-            "type": "object",
-            "description": "Keyed by genre slug, containing median values per feature",
-            "additionalProperties": {
-              "type": "object",
-              "additionalProperties": {
-                "type": "number"
-              }
-            },
-            "example": {
-              "ambient": {
-                "bpm": 107.3,
-                "energy": 0.28,
-                "valence": 0.22
-              },
-              "lofi-hip-hop": {
-                "bpm": 85.0,
-                "energy": 0.45,
-                "valence": 0.4
-              }
-            }
-          }
-        }
       },
       "Error": {
         "type": "object",
